@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/official.schema.json",
+  "title": "Official",
+  "description": "A person currently holding an office. One YAML file per person (openstates/people convention). Contact fields are copied verbatim from the official municipal source (CivicPatch convention).",
+  "type": "object",
+  "required": ["id", "name", "jurisdiction_id", "office_id", "verification", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable person UUID, ocd-person style.",
+      "pattern": "^ocd-person/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "name": { "type": "string", "minLength": 1, "description": "Verbatim as published on the official municipal website." },
+    "jurisdiction_id": {
+      "type": "string",
+      "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$",
+      "description": "Must resolve to a jurisdiction file in this repo."
+    },
+    "office_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+/[a-z0-9-]+$",
+      "description": "Must resolve to an office embedded in the referenced jurisdiction."
+    },
+    "seat": {
+      "type": "string",
+      "description": "Ward/district designation where applicable, e.g. 'Ward 3', 'District 2', 'At-Large'."
+    },
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" },
+        "how_seated": {
+          "type": "string",
+          "enum": ["elected", "appointed", "succeeded", "acting"],
+          "description": "How the person came to hold the seat. 'elected' records are expected to cross-validate against an election linkage."
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "profile_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["unverified", "machine-extracted", "volunteer-verified", "disputed"] },
+        "reviewed_by": { "type": "string", "description": "GitHub handle of reviewing volunteer." },
+        "reviewed_on": { "type": "string", "format": "date" },
+        "pipeline": { "type": "string", "description": "Producing pipeline, e.g. 'civicpatch-scraper', 'civicmirror-llm', 'manual'." }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "note": { "type": "string" },
+          "retrieved": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}

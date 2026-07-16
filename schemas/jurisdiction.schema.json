@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/jurisdiction.schema.json",
+  "title": "Jurisdiction",
+  "description": "A place with a government: municipality, county, or other local jurisdiction. Offices are embedded here because they are structural facts about the jurisdiction.",
+  "type": "object",
+  "required": ["id", "name", "state", "classification", "website"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "OCD Division ID",
+      "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "state": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "classification": {
+      "type": "string",
+      "enum": ["city", "town", "village", "borough", "township", "county", "parish", "consolidated-city-county"]
+    },
+    "government_form": {
+      "type": "string",
+      "description": "e.g. 'mayor-council', 'council-manager', 'open town meeting', 'representative town meeting', 'select board'"
+    },
+    "website": { "type": "string", "format": "uri" },
+    "site_intelligence": {
+      "type": "object",
+      "description": "Shared scraper/pipeline intel about how this jurisdiction publishes data.",
+      "additionalProperties": false,
+      "properties": {
+        "cms_platform": { "type": "string", "description": "e.g. 'CivicPlus', 'Granicus', 'Neapolitan Labs', 'Drupal', 'custom'" },
+        "officials_directory_url": { "type": "string", "format": "uri" },
+        "election_results_url": { "type": "string", "format": "uri" },
+        "election_results_vendor": { "type": "string", "description": "e.g. 'Clarity', 'TotalVote', 'PCC', 'state ElectionStats', 'PDF only'" },
+        "notes": { "type": "string" }
+      }
+    },
+    "election_authority": {
+      "type": "object",
+      "description": "Who administers this jurisdiction's elections.",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "level": { "type": "string", "enum": ["municipal", "county", "state"] },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "offices": {
+      "type": "array",
+      "items": { "$ref": "office.schema.json" }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "note": { "type": "string" },
+          "retrieved": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}

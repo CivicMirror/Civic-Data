@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/office.schema.json",
+  "title": "Office",
+  "description": "An elected position that exists within a jurisdiction. This is the join key between the officials directory (who holds it) and election data (what contest fills it).",
+  "type": "object",
+  "required": ["id", "role", "seats"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable office ID: '<jurisdiction-slug>/<office-slug>', e.g. 'oxford-ma/select-board'",
+      "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"
+    },
+    "role": {
+      "type": "string",
+      "description": "Standardized role title. Prefer: Mayor, Council Member, Alderman, Trustee, Commissioner, Select Board Member, Town Clerk, School Committee Member.",
+      "minLength": 1
+    },
+    "seats": { "type": "integer", "minimum": 1 },
+    "seat_structure": {
+      "type": "string",
+      "enum": ["at-large", "ward", "district", "mixed"],
+      "default": "at-large"
+    },
+    "term_years": { "type": "number", "exclusiveMinimum": 0 },
+    "staggered_terms": { "type": "boolean" },
+    "partisan": { "type": "boolean", "description": "Whether the contest for this office is partisan." },
+    "notes": { "type": "string" }
+  }
+}

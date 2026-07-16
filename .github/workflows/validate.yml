@@ -1,0 +1,38 @@
+name: Validate data
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "schemas/**"
+      - "scripts/**"
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate schemas, references, and cross-validation
+        run: python scripts/validate.py
+
+      # Cross-validation findings are warnings, not failures — they may be
+      # real-world events (resignations, appointments, recalls) rather than
+      # data errors. This step surfaces them on the PR for volunteer review.
+      - name: Post cross-validation report
+        if: always() && github.event_name == 'pull_request'
+        run: |
+          python scripts/validate.py > report.txt || true
+          echo '### Civic-Data validation report' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat report.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

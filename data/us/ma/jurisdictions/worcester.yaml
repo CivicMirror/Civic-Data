@@ -1,0 +1,45 @@
+# SAMPLE DATA — structure is real, details are illustrative and unverified.
+id: ocd-division/country:us/state:ma/place:worcester
+name: Worcester
+state: ma
+classification: city
+government_form: council-manager (Plan E)
+website: https://www.worcesterma.gov
+site_intelligence:
+  cms_platform: custom
+  officials_directory_url: https://www.worcesterma.gov/city-council
+  election_results_url: https://www.worcesterma.gov/election-commission
+  election_results_vendor: Election Commission postings; state contests via MA ElectionStats
+  notes: >-
+    Mixed council structure: 6 at-large seats + 5 district seats.
+    Mayor is the at-large top vote-getter who also chairs council;
+    city manager is chief executive.
+election_authority:
+  name: Worcester Election Commission
+  level: municipal
+  url: https://www.worcesterma.gov/election-commission
+offices:
+  - id: worcester-ma/mayor
+    role: Mayor
+    seats: 1
+    seat_structure: at-large
+    term_years: 2
+    partisan: false
+    notes: Elected via at-large council ballot (Plan E).
+  - id: worcester-ma/city-council
+    role: Council Member
+    seats: 11
+    seat_structure: mixed
+    term_years: 2
+    partisan: false
+    notes: 6 at-large + 5 district seats.
+  - id: worcester-ma/school-committee
+    role: School Committee Member
+    seats: 6
+    seat_structure: at-large
+    term_years: 2
+    partisan: false
+sources:
+  - url: https://www.worcesterma.gov
+    note: Official city website
+    retrieved: "2026-07-16"

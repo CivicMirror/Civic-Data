@@ -1,0 +1,21 @@
+# SAMPLE DATA — fictional contest, for pipeline demonstration only.
+id: springfield-ma/2025-11-04/mayor
+jurisdiction_id: ocd-division/country:us/state:ma/place:springfield
+office_id: springfield-ma/mayor
+election_date: "2025-11-04"
+election_type: general
+seat: At-Large
+winners:
+  - name: Rosa Camacho-Lynch
+    official_id: ocd-person/81d75796-37c6-4db3-ba94-83a5e7840466
+    votes: 22894
+total_ballots: 45102
+certification:
+  status: certified
+  certified_on: "2025-11-18"
+  certifying_body: Springfield Election Commission
+detail_ref: https://civicmirror.example.org/api/v1/results/springfield-ma/2025-11-04/mayor
+sources:
+  - url: https://www.springfield-ma.gov/election/
+    note: Election Commission certified results (sample)
+    retrieved: "2026-07-11"

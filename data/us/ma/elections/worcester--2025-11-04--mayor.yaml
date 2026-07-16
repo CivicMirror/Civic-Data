@@ -1,0 +1,23 @@
+# SAMPLE DATA — fictional contest, for pipeline demonstration only.
+# DELIBERATE MISMATCH: this linkage names "Priya Ramanathan" as winner, but the
+# officials directory lists "Theodore Brandt" holding worcester-ma/mayor.
+# The cross-validation CI should flag this for human review.
+id: worcester-ma/2025-11-04/mayor
+jurisdiction_id: ocd-division/country:us/state:ma/place:worcester
+office_id: worcester-ma/mayor
+election_date: "2025-11-04"
+election_type: general
+seat: At-Large
+winners:
+  - name: Priya Ramanathan
+    votes: 18342
+total_ballots: 41207
+certification:
+  status: certified
+  certified_on: "2025-11-19"
+  certifying_body: Worcester Election Commission
+detail_ref: https://civicmirror.example.org/api/v1/results/worcester-ma/2025-11-04/mayor
+sources:
+  - url: https://www.worcesterma.gov/election-commission
+    note: Election Commission certified results (sample)
+    retrieved: "2026-07-11"

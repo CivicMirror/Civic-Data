@@ -1,0 +1,21 @@
+# SAMPLE DATA — fictional person, for pipeline demonstration only.
+# how_seated: appointed → cross-validation does NOT expect an election linkage.
+id: ocd-person/f27d8bbb-87b1-48a8-9c38-c9a117fa8763
+name: Douglas Whitfield
+jurisdiction_id: ocd-division/country:us/state:ma/place:oxford
+office_id: oxford-ma/town-clerk
+seat: At-Large
+term:
+  start: "2026-03-02"
+  how_seated: appointed
+contact:
+  email: clerk@example.oxfordma.us
+  phone: (508) 555-0163
+  profile_url: https://www.oxfordma.us/directory/town-clerk
+verification:
+  status: unverified
+  pipeline: civicpatch-scraper
+sources:
+  - url: https://www.oxfordma.us/directory
+    note: Scraped from town directory (sample)
+    retrieved: "2026-07-10"

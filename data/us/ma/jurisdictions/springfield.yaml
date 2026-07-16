@@ -1,0 +1,36 @@
+# SAMPLE DATA — structure is real, details are illustrative and unverified.
+id: ocd-division/country:us/state:ma/place:springfield
+name: Springfield
+state: ma
+classification: city
+government_form: mayor-council (Plan A)
+website: https://www.springfield-ma.gov
+site_intelligence:
+  cms_platform: custom
+  officials_directory_url: https://www.springfield-ma.gov/cos/
+  election_results_url: https://www.springfield-ma.gov/election/
+  election_results_vendor: Election Commission postings; state contests via MA ElectionStats
+  notes: >-
+    Strong-mayor city. Council is 13 members: 5 at-large + 8 ward seats.
+election_authority:
+  name: Springfield Election Commission
+  level: municipal
+  url: https://www.springfield-ma.gov/election/
+offices:
+  - id: springfield-ma/mayor
+    role: Mayor
+    seats: 1
+    seat_structure: at-large
+    term_years: 4
+    partisan: false
+  - id: springfield-ma/city-council
+    role: Council Member
+    seats: 13
+    seat_structure: mixed
+    term_years: 2
+    partisan: false
+    notes: 5 at-large + 8 ward seats.
+sources:
+  - url: https://www.springfield-ma.gov
+    note: Official city website
+    retrieved: "2026-07-16"

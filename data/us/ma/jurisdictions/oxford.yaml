@@ -1,0 +1,37 @@
+# SAMPLE DATA — structure is real, details are illustrative and unverified.
+id: ocd-division/country:us/state:ma/place:oxford
+name: Oxford
+state: ma
+classification: town
+government_form: open town meeting / select board / town manager
+website: https://www.oxfordma.us
+site_intelligence:
+  cms_platform: CivicPlus
+  officials_directory_url: https://www.oxfordma.us/directory
+  election_results_url: https://electionstats.state.ma.us
+  election_results_vendor: state ElectionStats (PD43+); local results via Town Clerk PDF
+  notes: >-
+    Municipal election results are posted by the Town Clerk as PDFs;
+    state/federal contests available via MA ElectionStats CSV export.
+election_authority:
+  name: Oxford Town Clerk
+  level: municipal
+  url: https://www.oxfordma.us
+offices:
+  - id: oxford-ma/select-board
+    role: Select Board Member
+    seats: 5
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+  - id: oxford-ma/town-clerk
+    role: Town Clerk
+    seats: 1
+    seat_structure: at-large
+    term_years: 3
+    partisan: false
+sources:
+  - url: https://www.oxfordma.us
+    note: Official town website
+    retrieved: "2026-07-16"

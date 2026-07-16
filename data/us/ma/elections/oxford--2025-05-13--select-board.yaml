@@ -1,0 +1,21 @@
+# SAMPLE DATA — fictional contest, for pipeline demonstration only.
+id: oxford-ma/2025-05-13/select-board
+jurisdiction_id: ocd-division/country:us/state:ma/place:oxford
+office_id: oxford-ma/select-board
+election_date: "2025-05-13"
+election_type: general
+seat: At-Large
+winners:
+  - name: Marion Delacroix
+    official_id: ocd-person/ddf20fb4-a3d3-4451-b9c9-d13fb9d2ced1
+    votes: 1247
+total_ballots: 2201
+certification:
+  status: certified
+  certified_on: "2025-05-20"
+  certifying_body: Oxford Town Clerk
+detail_ref: https://civicmirror.example.org/api/v1/results/oxford-ma/2025-05-13/select-board
+sources:
+  - url: https://www.oxfordma.us
+    note: Town Clerk certified results PDF (sample)
+    retrieved: "2026-07-11"

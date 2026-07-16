@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/election-linkage.schema.json",
+  "title": "Election Linkage",
+  "description": "A compact, human-reviewable summary of the contest that filled an office. Raw results (precinct rows, live ENR snapshots, revision history) stay in CivicMirror; only this small linkage record lives in the shared repo.",
+  "type": "object",
+  "required": ["id", "jurisdiction_id", "office_id", "election_date", "winners", "certification", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "'<jurisdiction-slug>/<YYYY-MM-DD>/<office-slug>'",
+      "pattern": "^[a-z0-9-]+/\\d{4}-\\d{2}-\\d{2}/[a-z0-9-]+$"
+    },
+    "jurisdiction_id": {
+      "type": "string",
+      "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"
+    },
+    "office_id": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
+    "election_date": { "type": "string", "format": "date" },
+    "election_type": {
+      "type": "string",
+      "enum": ["general", "special", "primary", "runoff", "recall", "town-meeting"]
+    },
+    "seat": { "type": "string", "description": "Ward/district contested, where applicable." },
+    "winners": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Winner names as certified/reported. Multi-seat contests list multiple winners.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "official_id": {
+            "type": "string",
+            "pattern": "^ocd-person/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+            "description": "Optional link to the officials directory. Cross-validation checks name agreement when present, and flags elected officials with no linkage."
+          },
+          "votes": { "type": "integer", "minimum": 0 },
+          "party": { "type": "string" }
+        }
+      }
+    },
+    "total_ballots": { "type": "integer", "minimum": 0 },
+    "certification": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["unofficial", "certified", "contested", "recount-pending"] },
+        "certified_on": { "type": "string", "format": "date" },
+        "certifying_body": { "type": "string" }
+      }
+    },
+    "detail_ref": {
+      "type": "string",
+      "format": "uri",
+      "description": "Pointer to full results in CivicMirror (API URL or dataset path)."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "note": { "type": "string" },
+          "retrieved": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}
