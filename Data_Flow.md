@@ -34,12 +34,15 @@ flowchart TB
     CI -->|"report posted on PR"| CPV
     CPV -->|"review + merge<br/>= verification gate"| MAIN
 
-    MAIN -->|"read-only consume"| CPAPI["CivicPatch site / future API"]
-    MAIN -->|"read-only consume"| CMAPI["CivicMirror platform"]
+    MAIN -->|"builds & serves"| API["Elections / Officials API<br/>(public, merged)"]
     MAIN -->|"optional upstream"| OS["openstates/people"]
+
+    API --> C1["Journalists"]
+    API --> C2["Civic apps & researchers"]
+    API --> C3["Anyone who needs it"]
 ```
 
-**The key idea:** both projects *write* through pull requests and *read* from `main`. Nothing enters `main` without passing CI and a human merge. The merge itself is the verification event.
+**The key idea:** both projects *contribute* through pull requests; neither consumes the data back — they already have their own copies. The shared repo exists to power something new: a single public **Elections/Officials API** that can answer "who holds this office, and what election put them there?" — a question neither dataset can answer alone. Nothing enters `main` without passing CI and a human merge; the merge itself is the verification event.
 
 ## Flow 1 — CivicPatch → Civic-Data (officials & jurisdictions)
 
@@ -156,8 +159,31 @@ The main effort is not the YAML dump — it's **mapping contests to stable offic
 | CivicPatch scrapers/bot | PRs (machine-extracted) | — | No |
 | CivicMirror export bot | PRs (linkages) | — | No |
 | CivicPatch volunteers | Manual fix PRs | main | **Yes — the gate** |
-| CivicMirror platform | — | main (read-only) | No |
-| CivicPatch site / API | — | main (read-only) | No |
+| Elections/Officials API | — | main (build source) | No |
+| API consumers (public) | — | the API | No |
 | openstates/people | — | optional downstream sync | — |
 
-Bots never merge their own PRs, and bots never emit `volunteer-verified` — that status can only be conferred by a human merge.
+Bots never merge their own PRs, and bots never emit `volunteer-verified` — that status can only be conferred by a human merge. The source projects don't read the data back — they already hold their own copies. The repo's output is the API.
+
+## Flow 4 — Civic-Data → Elections/Officials API
+
+```
+main branch (canonical YAML)
+      │  merge to main triggers build (GitHub Action)
+      ▼
+Build step: YAML → single queryable dataset
+      │  (SQLite bundle, JSON dumps, or generated static API —
+      │   decision for the two teams)
+      ▼
+Elections / Officials API  (public)
+      │
+      ├─ GET /jurisdictions/{ocd-id}
+      ├─ GET /officials?office=worcester-ma/mayor
+      ├─ GET /elections?jurisdiction=springfield-ma
+      └─ GET /officials/{id}/elections   ← the merged question:
+                                            "what election seated this person?"
+```
+
+The API is the product of the collaboration — the thing neither project can offer alone. CivicPatch answers *who is in office*; CivicMirror answers *how they got there*; the API answers both in one call.
+
+**Cheapest v1:** a static build — every merge regenerates JSON files served from GitHub Pages or a CDN. No servers, no ops burden, and it can graduate to a real hosted API later without changing the repo side at all.
