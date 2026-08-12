@@ -1,0 +1,202 @@
+# DEMO — NOT live civic-data content. This file is not read by
+# scripts/validate.py (it lives outside data/, and isn't named
+# jurisdictions/officials/elections even if it were inside it).
+#
+# WHAT THIS SHOWS: the third layout option for CivicPatch/open-data —
+# "stick with grouped-by-place" — using the same 9 real MA congressional
+# officials from data/us/ma/officials/ in this repo, reformatted into
+# CivicPatch's OWN actual current schema (shared.schemas.Official, one
+# file per PLACE containing a LIST of officials), not civic-data's
+# schema. Compare against:
+#   - data/us/ma/officials/*.yaml            (civic-data's current
+#     one-file-per-PERSON layout, ID inside the file only)
+#   - data/us/ma/officials/Lori-Trahan-<uuid>.yaml
+#     (the openstates-style demo: one-file-per-person, ID IN the
+#     filename)
+# This file is the third point of comparison: same real data, grouped
+# by PLACE instead of by person, in her repo's actual current shape.
+#
+# IN CivicPatch/open-data THIS WOULD LIVE AT (hypothetically — CivicPatch
+# has never covered federal/congressional officials before; MA's
+# municipalities are the closest real analog):
+#   data/ma/local/place_<municipality>.yml   — one file per REAL place
+# The grouping below (all 9 into one file) is coarser than that: MA's
+# congressional districts are single-member, so a literal per-district
+# file would only ever contain ONE official — not a useful demo of
+# "grouping." Grouping the whole delegation into one file here is purely
+# to make the "many officials, one reviewable file" shape visible, the
+# way it would look for e.g. a 13-member city council.
+#
+# THREE THINGS ARE LOST vs. civic-data's current model, converting to
+# this schema — worth knowing before deciding:
+#   1. Career history. This schema has no roles[] — one flat
+#      office/jurisdiction_ocdid/start_date per person. Richard Neal's
+#      civic-data record has TWO roles (old MA-02 1989-2013, then MA-01
+#      2013-present); here he can only show his current one. His actual
+#      first House win (1989) isn't representable at all in this shape.
+#   2. Multiple offices. This schema has no addresses[] — 'phones' is a
+#      single flat list, with no way to say which number is the D.C.
+#      office vs. which district office, no fax field, and no street
+#      addresses at all. Bill Keating's 4 real offices (1 D.C. + 3
+#      district, each with its own address/phone/fax) collapse here into
+#      one undifferentiated phones: [...] list.
+#   3. Multiple emails as a concept still works ('emails' is a list
+#      here too, matching civic-data) — just noting where this schema IS
+#      already equivalent, not just where it's narrower.
+#
+# id below is the same UUID used in each person's civic-data
+# ocd-person/<uuid> id, just without that prefix — same real people,
+# not re-randomized, so cross-referencing between the two demos is easy.
+
+- name: Richard E. Neal
+  other_names: [Richard Neal]
+  phones: ["(202) 225-5601", "(413) 785-0325", "(413) 442-0946"]
+  emails: []
+  urls: ["https://neal.house.gov/about"]
+  start_date: "2013-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:1
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:1/government
+  cdn_image: ''
+  source_urls: ["https://neal.house.gov/about", "https://en.wikipedia.org/wiki/Richard_Neal"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: 7397f709-12f4-472a-872e-3e98800e5b88
+
+- name: James P. McGovern
+  other_names: [Jim McGovern]
+  phones: ["(202) 225-6101", "(508) 831-7356"]
+  emails: []
+  urls: ["https://mcgovern.house.gov"]
+  start_date: "2013-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:2
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:2/government
+  cdn_image: ''
+  source_urls: ["https://mcgovern.house.gov", "https://en.wikipedia.org/wiki/James_P._McGovern"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: 7cc0fd33-8136-4514-bd57-32827da5f482
+
+- name: Lori Trahan
+  other_names: []
+  phones: ["(202) 225-3411", "(978) 459-0101"]
+  emails: []
+  urls: ["https://trahan.house.gov"]
+  start_date: "2019-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:3
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:3/government
+  cdn_image: ''
+  source_urls: ["https://trahan.house.gov", "https://en.wikipedia.org/wiki/Lori_Trahan"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: 3f803b1e-6d46-4a2e-961e-1f24b4f959db
+
+- name: Jake Auchincloss
+  other_names: []
+  phones: ["(202) 225-5931", "(617) 332-3333"]
+  emails: []
+  urls: ["https://auchincloss.house.gov"]
+  start_date: "2021-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:4
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:4/government
+  cdn_image: ''
+  source_urls: ["https://auchincloss.house.gov", "https://en.wikipedia.org/wiki/Jake_Auchincloss"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: d83bcbdf-6426-4047-ad3c-1dc8b05aee66
+
+- name: Katherine M. Clark
+  other_names: [Katherine Clark]
+  phones: ["(202) 225-2836", "(617) 354-0292"]
+  emails: []
+  urls: ["https://katherineclark.house.gov"]
+  start_date: "2013-12-12"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:5
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:5/government
+  cdn_image: ''
+  source_urls: ["https://katherineclark.house.gov", "https://en.wikipedia.org/wiki/Katherine_Clark"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: e4499caf-e93f-4fb3-a03b-3723e2ed725c
+
+- name: Seth W. Moulton
+  other_names: [Seth Moulton]
+  phones: ["(202) 225-8020", "(978) 531-1669"]
+  emails: []
+  urls: ["https://moulton.house.gov"]
+  start_date: "2015-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:6
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:6/government
+  cdn_image: ''
+  source_urls: ["https://moulton.house.gov", "https://en.wikipedia.org/wiki/Seth_Moulton"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: 845a8854-b1f3-4fb2-8b07-9e1918fd0349
+
+- name: Ayanna Pressley
+  other_names: []
+  phones: ["(202) 225-5111", "(617) 850-0040"]
+  emails: []
+  urls: ["https://pressley.house.gov"]
+  start_date: "2019-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:7
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:7/government
+  cdn_image: ''
+  source_urls: ["https://pressley.house.gov", "https://en.wikipedia.org/wiki/Ayanna_Pressley"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: 4c28941f-6f8a-4e86-b702-0741297db7d0
+
+- name: Stephen F. Lynch
+  other_names: [Stephen Lynch]
+  phones: ["(202) 225-8273", "(617) 428-2000", "(508) 586-5555"]
+  emails: []
+  urls: ["https://lynch.house.gov"]
+  start_date: "2013-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:8
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:8/government
+  cdn_image: ''
+  source_urls: ["https://lynch.house.gov", "https://en.wikipedia.org/wiki/Stephen_F._Lynch"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: fc7fc123-48cb-4198-a804-39284c819885
+
+- name: William R. Keating
+  other_names: [Bill Keating]
+  phones: ["(202) 225-3111", "(508) 771-6868", "(508) 999-6462", "(508) 746-9000"]
+  emails: []
+  urls: ["https://keating.house.gov"]
+  start_date: "2013-01-03"
+  end_date: null
+  office:
+    name: U.S. Representative
+    division_ocdid: ocd-division/country:us/state:ma/cd:9
+  image: ''
+  jurisdiction_ocdid: ocd-jurisdiction/country:us/state:ma/cd:9/government
+  cdn_image: ''
+  source_urls: ["https://keating.house.gov", "https://en.wikipedia.org/wiki/Bill_Keating"]
+  updated_at: '2026-08-12T00:00:00+00:00'
+  id: 4413eb0b-1705-4bd7-81ff-cc8f18293299
