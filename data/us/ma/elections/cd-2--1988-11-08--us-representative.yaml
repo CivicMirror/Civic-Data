@@ -1,0 +1,26 @@
+# REAL ELECTION — unlike the other sample linkages in this repo (fictional
+# contests), this is Richard Neal's actual first win of the seat, sourced
+# from Wikipedia's electoral history table (fetched, not recalled from
+# memory). Only his own vote total and share are confirmed from that source;
+# no certified total-ballots figure was available, so total_ballots and
+# certified_on are omitted rather than estimated. No detail_ref is set
+# either, since there's no real CivicMirror results API behind this record
+# (unlike the fictional example.org placeholder used elsewhere).
+id: ma-2/1988-11-08/us-representative
+jurisdiction_id: ocd-division/country:us/state:ma/cd:2
+office_id: ma-2/us-representative
+election_date: "1988-11-08"
+election_type: general
+seat: At-Large
+winners:
+  - name: Richard E. Neal
+    official_id: ocd-person/7397f709-12f4-472a-872e-3e98800e5b88
+    votes: 156262
+    party: Democratic
+certification:
+  status: certified
+  certifying_body: Massachusetts Secretary of the Commonwealth
+sources:
+  - url: https://en.wikipedia.org/wiki/Richard_Neal
+    note: Electoral history table (80.23% of the vote vs. Louis R. Godena, Communist Party)
+    retrieved: "2026-08-12"
