@@ -147,26 +147,40 @@ def main() -> int:
         rel = file_of[oid].relative_to(REPO)
         for i, role in enumerate(doc["roles"]):
             loc = f"roles[{i}]"
-            if role["jurisdiction_id"] not in jurisdictions:
-                error(f"{rel}: {loc} jurisdiction_id '{role['jurisdiction_id']}' does not resolve")
-            if role["office_id"] not in offices:
-                error(f"{rel}: {loc} office_id '{role['office_id']}' does not resolve")
-            elif role["jurisdiction_id"] in jurisdictions:
-                juris_of_office = offices[role["office_id"]][0]
-                if juris_of_office != role["jurisdiction_id"]:
-                    error(f"{rel}: {loc} office '{role['office_id']}' belongs to "
-                          f"'{juris_of_office}', not '{role['jurisdiction_id']}'")
+            jurisdiction_id = role["jurisdiction_id"]
+            office_id = role["office_id"]
+            if jurisdiction_id not in jurisdictions:
+                error(f"{rel}: {loc} — No jurisdiction found for '{jurisdiction_id}'. "
+                      f"Add a jurisdiction file for it before this PR can be merged.")
+                continue
+            if office_id not in offices:
+                juris_name = jurisdictions[jurisdiction_id].get("name", jurisdiction_id)
+                error(f"{rel}: {loc} — No office '{_office_slug(office_id)}' exists in "
+                      f"jurisdiction '{juris_name}' ({jurisdiction_id}). Add the office to "
+                      f"that jurisdiction file's 'offices' list before this PR can be merged.")
+                continue
+            juris_of_office = offices[office_id][0]
+            if juris_of_office != jurisdiction_id:
+                error(f"{rel}: {loc} — Office '{office_id}' belongs to jurisdiction "
+                      f"'{juris_of_office}', not '{jurisdiction_id}'. Fix the office_id/"
+                      f"jurisdiction_id pairing before this PR can be merged.")
 
     for lid, doc in linkages.items():
         rel = file_of[lid].relative_to(REPO)
-        if doc["jurisdiction_id"] not in jurisdictions:
-            error(f"{rel}: jurisdiction_id '{doc['jurisdiction_id']}' does not resolve")
-        if doc["office_id"] not in offices:
-            error(f"{rel}: office_id '{doc['office_id']}' does not resolve")
+        jurisdiction_id = doc["jurisdiction_id"]
+        office_id = doc["office_id"]
+        if jurisdiction_id not in jurisdictions:
+            error(f"{rel}: No jurisdiction found for '{jurisdiction_id}'. "
+                  f"Add a jurisdiction file for it before this PR can be merged.")
+        elif office_id not in offices:
+            juris_name = jurisdictions[jurisdiction_id].get("name", jurisdiction_id)
+            error(f"{rel}: No office '{_office_slug(office_id)}' exists in jurisdiction "
+                  f"'{juris_name}' ({jurisdiction_id}). Add the office to that jurisdiction "
+                  f"file's 'offices' list before this PR can be merged.")
         for w in doc["winners"]:
             pid = w.get("official_id")
             if pid and pid not in officials:
-                error(f"{rel}: winner official_id '{pid}' does not resolve")
+                error(f"{rel}: Winner official_id '{pid}' does not resolve to any official record.")
 
     # ---------- Layer 4: cross-validation ----------
     # Index: most recent certified linkage per office.
@@ -250,6 +264,11 @@ def main() -> int:
         return 1
     print("PASSED" + (f" with {len(WARNINGS)} warning(s) for human review" if WARNINGS else ""))
     return 0
+
+
+def _office_slug(office_id: str) -> str:
+    """'<jurisdiction-slug>/<office-slug>' -> '<office-slug>', for friendlier messages."""
+    return office_id.split("/")[-1]
 
 
 def _register(store: dict, key: str, value, path: Path, file_of: dict,

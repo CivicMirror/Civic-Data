@@ -12,6 +12,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
@@ -28,7 +31,7 @@ jobs:
       # Cross-validation findings are warnings, not failures — they may be
       # real-world events (resignations, appointments, recalls) rather than
       # data errors. This step surfaces them on the PR for volunteer review.
-      - name: Post cross-validation report
+      - name: Generate validation report
         if: always() && github.event_name == 'pull_request'
         run: |
           python scripts/validate.py > report.txt || true
@@ -36,3 +39,42 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           cat report.txt >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      # Most volunteer reviewers won't dig into the Actions summary tab, so
+      # the same report is also posted (and kept up to date) as a PR comment.
+      - name: Post validation report as PR comment
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const MAX = 60000;
+            let report = fs.readFileSync('report.txt', 'utf8');
+            if (report.length > MAX) {
+              report = report.slice(0, MAX) + '\n... (truncated — see the full output in the Actions run log)';
+            }
+            const marker = '<!-- civic-data-validation-report -->';
+            const body = `${marker}\n### Civic-Data validation report\n\n\`\`\`\n${report}\n\`\`\``;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find((c) => c.body && c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
