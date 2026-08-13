@@ -38,15 +38,34 @@ contributes to:
 - **CI is the first reviewer.** Schema validation, reference integrity, and
   duplicate detection run before a human ever looks.
 
-## 3. What stays out: raw election results
+## 3. What stays out
 
-Precinct-level rows, live ENR snapshots, and certification revisions are
-large, spiky, and churn during canvass — git handles that badly and no
-volunteer can meaningfully review a 40,000-row diff.
+**Raw election results.** Precinct-level rows, live ENR snapshots, and
+certification revisions are large, spiky, and churn during canvass — git
+handles that badly and no volunteer can meaningfully review a 40,000-row
+diff.
 
 Instead, the shared repo stores an **election linkage**: contest date,
 winner(s), certification status, and a `detail_ref` URI pointing at the full
 results in CivicMirror. Small, stable, reviewable.
+
+**Internal board titles.** CivicPatch sometimes labels a board member by an
+internally-assigned title (Chair, Vice Chair, Clerk) rather than their
+formal elected office. These titles aren't separately elected — the charter
+creates one office (e.g. "Select Board Member") and the board assigns roles
+to itself after the election, not the ballot. Surfaced by
+[CivicMirror/Civic-Data#3](https://github.com/CivicMirror/Civic-Data/issues/3):
+CivicPatch's raw Millbury data gave its 5 Select Board members 4 different
+`office.name` values (Council Member ×2, Chair, Vice Chair, Clerk) — none of
+which slug to this repo's one real office, `millbury-ma/select-board`, and
+"Council Member" is factually wrong for a Select Board town besides.
+
+civic-data tracks only the formal office, since that's what a `roles[]`
+entry needs to join to an actual election contest — internal titles have no
+election behind them to join to. Nothing in `official.schema.json` carries
+an internal title (`roles[]` has no `notes` field); this is a deliberate
+omission, not a gap. The title is CivicPatch's data to keep, not something
+normalized into this schema.
 
 ## 4. Identifiers
 
