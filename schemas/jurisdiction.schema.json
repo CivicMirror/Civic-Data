@@ -16,7 +16,7 @@
     "state": { "type": "string", "pattern": "^[a-z]{2}$" },
     "classification": {
       "type": "string",
-      "enum": ["city", "town", "village", "borough", "township", "county", "parish", "consolidated-city-county", "congressional-district"]
+      "enum": ["city", "town", "village", "borough", "township", "county", "parish", "consolidated-city-county", "congressional-district", "prosecutorial-district"]
     },
     "government_form": {
       "type": "string",
