@@ -1,0 +1,68 @@
+id: ocd-person/7397f709-12f4-472a-872e-3e98800e5b88
+name: Richard E. Neal
+roles:
+- jurisdiction_id: ocd-division/country:us/state:ma/cd:2
+  office_id: ma-2/us-representative
+  seat: At-Large
+  term:
+    start: '1989-01-03'
+    end: '2013-01-03'
+    how_seated: elected
+- jurisdiction_id: ocd-division/country:us/state:ma/cd:1
+  office_id: ma-1/us-representative
+  seat: At-Large
+  term:
+    start: '2013-01-03'
+    how_seated: elected
+contact:
+  phone: (202) 225-5601
+  profile_url: https://neal.house.gov/about
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 372 Cannon House Office Building;Washington, DC 20515
+  phone: (202) 225-5601
+- classification: district
+  name: Springfield District Office
+  address: 300 State Street, Suite 200;Springfield, MA 01105
+  phone: (413) 785-0325
+  fax: (413) 747-0604
+- classification: district
+  name: Pittsfield District Office
+  address: 78 Center St.;Pittsfield, MA 01201
+  phone: (413) 442-0946
+  fax: (413) 443-2792
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://neal.house.gov/about
+  note: Official U.S. House biography page
+  retrieved: '2026-08-12'
+- url: https://neal.house.gov/contact
+  note: Official contact page (no public direct email; constituents use web form)
+  retrieved: '2026-08-12'
+- url: https://en.wikipedia.org/wiki/Richard_Neal
+  note: Source for district history (MA-02 1989-2013, MA-01 2013-present) and swearing-in
+    date
+  retrieved: '2026-08-12'
+- url: https://neal.house.gov/offices/
+  note: "Official office-locations page \u2014 source for Springfield/Pittsfield addresses\
+    \ (found via search; direct fetch of house.gov is blocked)"
+  retrieved: '2026-08-12'
+identifiers: []
+candidacies:
+- contest_id: ma-1/2012-11-06/us-representative
+  election_id: ma-1/2012-11-06/general
+  jurisdiction_id: ocd-division/country:us/state:ma/cd:1
+  office_id: ma-1/us-representative
+  party: Democratic
+  ballot_name: Richard E. Neal
+  status: active
+- contest_id: ma-2/1988-11-08/us-representative
+  election_id: ma-2/1988-11-08/general
+  jurisdiction_id: ocd-division/country:us/state:ma/cd:2
+  office_id: ma-2/us-representative
+  party: Democratic
+  ballot_name: Richard E. Neal
+  status: active

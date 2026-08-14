@@ -1,0 +1,37 @@
+id: ocd-person/3f803b1e-6d46-4a2e-961e-1f24b4f959db
+name: Lori Trahan
+roles:
+- jurisdiction_id: ocd-division/country:us/state:ma/cd:3
+  office_id: ma-3/us-representative
+  seat: At-Large
+  term:
+    start: '2019-01-03'
+    how_seated: elected
+contact:
+  phone: (202) 225-3411
+  profile_url: https://trahan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2233 Rayburn House Office Building;Washington, DC 20515
+  phone: (202) 225-3411
+- classification: district
+  name: Lowell District Office
+  address: 126 John Street;Lowell, MA 01852
+  phone: (978) 459-0101
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://en.wikipedia.org/wiki/Lori_Trahan
+  note: Source for swearing-in date
+  retrieved: '2026-08-12'
+- url: https://trahan.house.gov
+  note: Official U.S. House website
+  retrieved: '2026-08-12'
+- url: https://trahan.house.gov/contact/offices.htm
+  note: "Official office-locations page \u2014 source for Lowell district office address\
+    \ (found via search; direct fetch of house.gov is blocked)"
+  retrieved: '2026-08-12'
+identifiers: []
+candidacies: []

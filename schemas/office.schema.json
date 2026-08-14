@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/CivicMirror/Civic-Data/schemas/office.schema.json",
   "title": "Office",
-  "description": "An elected position that exists within a jurisdiction. This is the join key between the officials directory (who holds it) and election data (what contest fills it).",
+  "description": "An elected position that exists within a jurisdiction. This is the join key between the people directory (who holds it) and election data (what contest fills it).",
   "type": "object",
   "required": ["id", "role", "seats"],
   "additionalProperties": false,

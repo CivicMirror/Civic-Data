@@ -1,0 +1,38 @@
+id: ocd-person/2747dfdd-2bd1-41cd-ba3e-989e7f56950c
+name: Elizabeth Warren
+roles:
+- jurisdiction_id: ocd-division/country:us/state:ma
+  office_id: ma/us-senator-class-1
+  seat: Class I
+  term:
+    start: '2013-01-03'
+    how_seated: elected
+contact:
+  phone: (202) 224-4543
+  profile_url: https://www.warren.senate.gov/
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 311 Hart Senate Office Building;Washington, DC 20510
+  phone: (202) 224-4543
+- classification: district
+  name: Boston Office
+  address: 2400 JFK Federal Building, 15 New Sudbury Street;Boston, MA 02203
+  phone: (617) 565-3170
+- classification: district
+  name: Springfield Office
+  address: 1550 Main Street, Suite 406;Springfield, MA 01103
+  phone: (413) 788-2690
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://www.warren.senate.gov/contact
+  note: "Official contact page \u2014 source for D.C./Boston/Springfield office addresses\
+    \ and phones"
+  retrieved: '2026-08-13'
+- url: https://en.wikipedia.org/wiki/Elizabeth_Warren
+  note: Source for start date (sworn in 2013-01-03) and Senate Class I seat
+  retrieved: '2026-08-13'
+identifiers: []
+candidacies: []

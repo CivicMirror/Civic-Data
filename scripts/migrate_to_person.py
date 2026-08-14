@@ -97,6 +97,32 @@ def migrate_tree(source_root: Path, destination_root: Path) -> list[Path]:
         relative = path.relative_to(source_root)
         destination = destination_root / relative
         outputs.append((destination, convert_election_linkage(yaml.safe_load(path.read_text()))))
+    people_by_id = {
+        document["id"]: document
+        for destination, document in outputs
+        if "/people/" in destination.as_posix()
+    }
+    for destination, election in outputs:
+        if "/elections/" not in destination.as_posix():
+            continue
+        for contest in election["contests"]:
+            winners_by_id = {winner["person_id"]: winner for winner in contest["winners"] or []}
+            for person_id in contest["candidate_ids"]:
+                person = people_by_id.get(person_id)
+                if person is None:
+                    continue
+                if any(candidacy["contest_id"] == contest["id"] for candidacy in person["candidacies"]):
+                    continue
+                winner = winners_by_id.get(person_id, {})
+                person["candidacies"].append({
+                    "contest_id": contest["id"],
+                    "election_id": election["id"],
+                    "jurisdiction_id": contest["jurisdiction_id"],
+                    "office_id": contest["office_id"],
+                    "party": winner.get("party"),
+                    "ballot_name": winner.get("name", person["name"]),
+                    "status": "active",
+                })
     for destination, _ in outputs:
         destination.parent.mkdir(parents=True, exist_ok=True)
     for destination, document in outputs:
