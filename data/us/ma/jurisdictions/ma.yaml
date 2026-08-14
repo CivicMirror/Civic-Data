@@ -1,0 +1,59 @@
+# REAL JURISDICTION — the Commonwealth of Massachusetts itself, added as
+# the statewide jurisdiction that hosts Massachusetts's two U.S. Senate
+# seats. U.S. Senators are elected statewide, not by district (unlike
+# U.S. Representatives, which is why cd-1.yaml..cd-9.yaml exist as
+# separate per-district jurisdictions) — so the office belongs on the
+# state's own record rather than any cd-N.yaml file.
+#
+# 'state' was not previously a value of jurisdiction.classification (only
+# local forms + congressional-district/prosecutorial-district existed);
+# added here because no other classification fits a state government.
+#
+# The two Senate seats are modeled as separate offices (class-1 and
+# class-2) rather than 'seats: 2' on one office, because Massachusetts's
+# two Senators are elected in different years on staggered 6-year terms
+# (Class I: Warren, next up 2030; Class II: Markey, next up 2026) — they
+# are not interchangeable at-large seats filled by the same contest, the
+# way e.g. an at-large town office with multiple seats would be.
+id: ocd-division/country:us/state:ma
+name: Massachusetts
+state: ma
+classification: state
+government_form: representative democracy (Governor + bicameral General Court)
+website: https://www.mass.gov/
+site_intelligence:
+  notes: >-
+    No single directory page lists both U.S. Senators together; each
+    Senator's official senate.gov site is the source for their own
+    contact/office info (see the officials records for elizabeth-warren
+    and ed-markey).
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+offices:
+  - id: ma/us-senator-class-1
+    role: U.S. Senator
+    seats: 1
+    seat_structure: at-large
+    term_years: 6
+    partisan: true
+    notes: >-
+      Senate Class I seat. Currently held by Elizabeth Warren (in office
+      since 2013-01-03); next election 2030.
+  - id: ma/us-senator-class-2
+    role: U.S. Senator
+    seats: 1
+    seat_structure: at-large
+    term_years: 6
+    partisan: true
+    notes: >-
+      Senate Class II seat. Currently held by Ed Markey (in office since
+      2013-07-16, via special election); next election 2026.
+sources:
+  - url: https://www.senate.gov/MA/intro.htm
+    note: Official U.S. Senate directory page for Massachusetts's two Senate seats
+    retrieved: "2026-08-13"
+  - url: https://www.mass.gov/
+    note: Official Commonwealth of Massachusetts website (used as jurisdiction website)
+    retrieved: "2026-08-13"
