@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.migrate_to_person import convert_official, migrate_tree
+from scripts.migrate_to_person import convert_election_linkage, convert_official, migrate_tree
 
 
 def test_convert_official_adds_candidacies_without_losing_public_fields() -> None:
@@ -37,3 +37,23 @@ def test_migrate_tree_preserves_tiered_directory_and_refuses_collision(tmp_path:
     assert (destination / "people" / "federal" / "example.yaml").exists()
     with pytest.raises(FileExistsError):
         migrate_tree(source, destination)
+
+
+def test_convert_election_linkage_maps_winners_to_person_ids() -> None:
+    source = {
+        "id": "nc-9/2026-11-03/us-representative",
+        "jurisdiction_id": "ocd-division/country:us/state:nc/cd:9",
+        "office_id": "nc-9/us-representative",
+        "election_date": "2026-11-03",
+        "election_type": "general",
+        "seat": "At-Large",
+        "winners": [{"name": "Jordan Lee", "official_id": "ocd-person/4c28941f-6f8a-4e86-b702-0741297db7d0", "party": "Democratic"}],
+        "certification": {"status": "certified"},
+        "sources": [{"url": "https://example.gov"}],
+    }
+    result = convert_election_linkage(source)
+    contest = result["contests"][0]
+    assert result["id"] == "nc-9/2026-11-03/general"
+    assert contest["candidate_ids"] == ["ocd-person/4c28941f-6f8a-4e86-b702-0741297db7d0"]
+    assert contest["winners"][0]["person_id"] == contest["candidate_ids"][0]
+    assert contest["seat"] == "At-Large"

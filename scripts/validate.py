@@ -1,25 +1,5 @@
 #!/usr/bin/env python3
-"""Civic-Data validator.
-
-Runs four layers of checks over data/:
-
-  1. Schema validation      — every YAML file matches its JSON Schema.
-  2. Reference integrity    — each role's jurisdiction_id / office_id resolves,
-                               and official_id links resolve.
-  3. Duplicate detection    — no duplicate entity IDs anywhere in the repo.
-  4. Cross-validation       — officials directory vs. election linkages:
-       * an official seated as 'elected' should have a matching election
-         linkage for their office (warn if none found);
-       * an election winner linked via official_id should name-match the
-         official record (warn on disagreement);
-       * a winner of the most recent certified election for an office should
-         appear in the officials directory for that office (warn if absent).
-
-Exit code: 1 on any ERROR (layers 1–3). Cross-validation findings are
-WARNINGS by default — they may represent real-world events (resignation,
-appointment, recall), so a human decides. Pass --strict to make warnings
-fail CI too.
-"""
+"""Validate Civic-Data schemas, references, identity links, and elections."""
 
 from __future__ import annotations
 
@@ -54,238 +34,207 @@ def warn(msg: str) -> None:
     WARNINGS.append(msg)
 
 
-def load_schemas() -> dict[str, Draft202012Validator]:
-    """Load all schemas into a shared registry so $ref between them resolves."""
-    raw = {}
-    for path in SCHEMA_DIR.glob("*.schema.json"):
-        with open(path) as f:
-            raw[path.name] = json.load(f)
-
+def load_schemas(schema_dir: Path = SCHEMA_DIR) -> dict[str, Draft202012Validator]:
+    raw = {path.name: json.loads(path.read_text()) for path in schema_dir.glob("*.schema.json")}
     registry = Registry()
     for name, schema in raw.items():
         registry = registry.with_resource(name, Resource.from_contents(schema))
-        # Also register under the declared $id so absolute refs resolve.
         if "$id" in schema:
             registry = registry.with_resource(schema["$id"], Resource.from_contents(schema))
-
-    return {
-        name: Draft202012Validator(schema, registry=registry)
-        for name, schema in raw.items()
-    }
+    return {name: Draft202012Validator(schema, registry=registry) for name, schema in raw.items()}
 
 
 def load_yaml(path: Path) -> dict | None:
     try:
-        with open(path) as f:
-            doc = yaml.safe_load(f)
-    except yaml.YAMLError as e:
-        error(f"{path.relative_to(REPO)}: YAML parse error: {e}")
+        document = yaml.safe_load(path.read_text())
+    except yaml.YAMLError as exc:
+        error(f"{path}: YAML parse error: {exc}")
         return None
-    if not isinstance(doc, dict):
-        error(f"{path.relative_to(REPO)}: top-level document must be a mapping")
+    if not isinstance(document, dict):
+        error(f"{path}: top-level document must be a mapping")
         return None
-    return doc
+    return document
 
 
-def validate_schema(validator: Draft202012Validator, doc: dict, path: Path) -> bool:
-    ok = True
-    for err in sorted(validator.iter_errors(doc), key=lambda e: list(e.path)):
-        loc = "/".join(str(p) for p in err.path) or "(root)"
-        error(f"{path.relative_to(REPO)}: [{loc}] {err.message}")
-        ok = False
-    return ok
+def validate_schema(validator: Draft202012Validator, document: dict, path: Path) -> bool:
+    valid = True
+    for failure in sorted(validator.iter_errors(document), key=lambda item: list(item.path)):
+        location = "/".join(str(part) for part in failure.path) or "(root)"
+        error(f"{path}: [{location}] {failure.message}")
+        valid = False
+    return valid
 
 
 def norm_name(name: str) -> str:
-    """Normalize a person name for comparison: casefold, strip accents,
-    collapse whitespace and punctuation. Deliberately conservative — this is
-    a *flagging* heuristic, not identity resolution."""
-    s = unicodedata.normalize("NFKD", name)
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    s = "".join(c if c.isalnum() or c.isspace() else " " for c in s.casefold())
-    return " ".join(s.split())
+    text = unicodedata.normalize("NFKD", name)
+    text = "".join(char for char in text if not unicodedata.combining(char))
+    text = "".join(char if char.isalnum() or char.isspace() else " " for char in text.casefold())
+    return " ".join(text.split())
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--strict", action="store_true",
-                        help="treat cross-validation warnings as errors")
-    args = parser.parse_args()
-
-    validators = load_schemas()
-
-    jurisdictions: dict[str, dict] = {}   # ocd-division id -> doc
-    offices: dict[str, tuple[str, dict]] = {}  # office id -> (jurisdiction id, office doc)
-    officials: dict[str, dict] = {}       # ocd-person id -> doc
-    linkages: dict[str, dict] = {}        # linkage id -> doc
-    file_of: dict[str, Path] = {}
-
-    # ---------- Layer 1: schema validation + collection ----------
-    for path in sorted(DATA_DIR.rglob("*.yaml")):
-        doc = load_yaml(path)
-        if doc is None:
-            continue
-        # jurisdictions | officials | elections — the nearest ancestor
-        # directory with one of these names, since each now has tiered
-        # subdirectories (federal/, county/, municipal/, state-upper/, ...).
-        kind = next(
-            (p.name for p in path.parents if p.name in ("jurisdictions", "officials", "elections")),
-            path.parent.name,
-        )
-        if kind == "jurisdictions":
-            if validate_schema(validators["jurisdiction.schema.json"], doc, path):
-                _register(jurisdictions, doc["id"], doc, path, file_of)
-                for office in doc.get("offices", []):
-                    _register(dict_view := offices, office["id"],
-                              (doc["id"], office), path, file_of,
-                              raw_store=True)
-        elif kind == "officials":
-            if validate_schema(validators["official.schema.json"], doc, path):
-                _register(officials, doc["id"], doc, path, file_of)
-        elif kind == "elections":
-            if validate_schema(validators["election-linkage.schema.json"], doc, path):
-                _register(linkages, doc["id"], doc, path, file_of)
-        else:
-            warn(f"{path.relative_to(REPO)}: unrecognized data directory '{kind}', skipped")
-
-    # ---------- Layer 2: reference integrity ----------
-    for oid, doc in officials.items():
-        rel = file_of[oid].relative_to(REPO)
-        for i, role in enumerate(doc["roles"]):
-            loc = f"roles[{i}]"
-            jurisdiction_id = role["jurisdiction_id"]
-            office_id = role["office_id"]
-            if jurisdiction_id not in jurisdictions:
-                error(f"{rel}: {loc} — No jurisdiction found for '{jurisdiction_id}'. "
-                      f"Add a jurisdiction file for it before this PR can be merged.")
-                continue
-            if office_id not in offices:
-                juris_name = jurisdictions[jurisdiction_id].get("name", jurisdiction_id)
-                error(f"{rel}: {loc} — No office '{_office_slug(office_id)}' exists in "
-                      f"jurisdiction '{juris_name}' ({jurisdiction_id}). Add the office to "
-                      f"that jurisdiction file's 'offices' list before this PR can be merged.")
-                continue
-            juris_of_office = offices[office_id][0]
-            if juris_of_office != jurisdiction_id:
-                error(f"{rel}: {loc} — Office '{office_id}' belongs to jurisdiction "
-                      f"'{juris_of_office}', not '{jurisdiction_id}'. Fix the office_id/"
-                      f"jurisdiction_id pairing before this PR can be merged.")
-
-    for lid, doc in linkages.items():
-        rel = file_of[lid].relative_to(REPO)
-        jurisdiction_id = doc["jurisdiction_id"]
-        office_id = doc["office_id"]
-        if jurisdiction_id not in jurisdictions:
-            error(f"{rel}: No jurisdiction found for '{jurisdiction_id}'. "
-                  f"Add a jurisdiction file for it before this PR can be merged.")
-        elif office_id not in offices:
-            juris_name = jurisdictions[jurisdiction_id].get("name", jurisdiction_id)
-            error(f"{rel}: No office '{_office_slug(office_id)}' exists in jurisdiction "
-                  f"'{juris_name}' ({jurisdiction_id}). Add the office to that jurisdiction "
-                  f"file's 'offices' list before this PR can be merged.")
-        for w in doc["winners"]:
-            pid = w.get("official_id")
-            if pid and pid not in officials:
-                error(f"{rel}: Winner official_id '{pid}' does not resolve to any official record.")
-
-    # ---------- Layer 4: cross-validation ----------
-    # Index: most recent certified linkage per office.
-    latest_certified: dict[str, dict] = {}
-    for doc in linkages.values():
-        if doc["certification"]["status"] != "certified":
-            continue
-        cur = latest_certified.get(doc["office_id"])
-        if cur is None or doc["election_date"] > cur["election_date"]:
-            latest_certified[doc["office_id"]] = doc
-
-    officials_by_office: dict[str, list[dict]] = defaultdict(list)
-    for doc in officials.values():
-        for role in doc["roles"]:
-            officials_by_office[role["office_id"]].append(doc)
-
-    findings = 0
-
-    # 4a. Linked winners must name-match their official record.
-    for lid, doc in linkages.items():
-        rel = file_of[lid].relative_to(REPO)
-        for w in doc["winners"]:
-            pid = w.get("official_id")
-            if pid and pid in officials:
-                official_name = officials[pid]["name"]
-                if norm_name(official_name) != norm_name(w["name"]):
-                    findings += 1
-                    warn(f"CROSS[name-disagreement] {rel}: winner '{w['name']}' is "
-                         f"linked to official '{official_name}' ({pid}) but names differ")
-
-    # 4b. Most recent certified winner should appear in the officials directory.
-    for office_id, link in latest_certified.items():
-        holders = {norm_name(o["name"]) for o in officials_by_office.get(office_id, [])}
-        for w in link["winners"]:
-            if norm_name(w["name"]) not in holders:
-                findings += 1
-                current = ", ".join(
-                    f"'{o['name']}'" for o in officials_by_office.get(office_id, [])
-                ) or "(no one on record)"
-                warn(f"CROSS[winner-not-seated] office '{office_id}': "
-                     f"'{w['name']}' won the certified {link['election_date']} election "
-                     f"but the officials directory lists {current}. "
-                     f"Possible scrape error OR real-world succession event — human review needed.")
-
-    # 4c. Elected officials should trace back to an election linkage.
-    for oid, doc in officials.items():
-        for role in doc["roles"]:
-            if role.get("term", {}).get("how_seated") != "elected":
-                continue
-            office_links = [l for l in linkages.values() if l["office_id"] == role["office_id"]]
-            traced = any(
-                norm_name(w["name"]) == norm_name(doc["name"]) or w.get("official_id") == oid
-                for l in office_links for w in l["winners"]
-            )
-            if not traced:
-                findings += 1
-                warn(f"CROSS[no-election-trace] {file_of[oid].relative_to(REPO)}: "
-                     f"'{doc['name']}' is recorded as elected to '{role['office_id']}' "
-                     f"but no election linkage names them.")
-
-    # ---------- Report ----------
-    print(f"Validated: {len(jurisdictions)} jurisdictions, {len(offices)} offices, "
-          f"{len(officials)} officials, {len(linkages)} election linkages\n")
-
-    if WARNINGS:
-        print(f"⚠ {len(WARNINGS)} warning(s):")
-        for w in WARNINGS:
-            print(f"  ⚠ {w}")
-        print()
-    if ERRORS:
-        print(f"✗ {len(ERRORS)} error(s):")
-        for e in ERRORS:
-            print(f"  ✗ {e}")
-        print()
-
-    if ERRORS:
-        print("FAILED (schema/reference errors)")
-        return 1
-    if WARNINGS and args.strict:
-        print("FAILED (--strict: warnings treated as errors)")
-        return 1
-    print("PASSED" + (f" with {len(WARNINGS)} warning(s) for human review" if WARNINGS else ""))
-    return 0
-
-
-def _office_slug(office_id: str) -> str:
-    """'<jurisdiction-slug>/<office-slug>' -> '<office-slug>', for friendlier messages."""
-    return office_id.split("/")[-1]
-
-
-def _register(store: dict, key: str, value, path: Path, file_of: dict,
-              raw_store: bool = False) -> None:
+def _register(store: dict, key: str, value, path: Path, file_of: dict) -> None:
     if key in store:
-        error(f"{path.relative_to(REPO)}: duplicate ID '{key}' "
-              f"(already defined in {file_of[key].relative_to(REPO)})")
+        error(f"{path}: duplicate ID '{key}' (already defined in {file_of[key]})")
         return
     store[key] = value
     file_of[key] = path
 
 
+def _kind(path: Path) -> str:
+    return next((parent.name for parent in path.parents if parent.name in {"jurisdictions", "people", "elections"}), path.parent.name)
+
+
+def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
+    """Validate a data tree; return a process-style status code."""
+    ERRORS.clear()
+    WARNINGS.clear()
+    validators = load_schemas(schema_dir)
+    jurisdictions: dict[str, dict] = {}
+    offices: dict[str, tuple[str, dict]] = {}
+    people: dict[str, dict] = {}
+    elections: dict[str, dict] = {}
+    file_of: dict[str, Path] = {}
+    person_candidacies: dict[str, list[tuple[str, dict, Path]]] = defaultdict(list)
+    contests: dict[str, tuple[dict, dict, Path]] = {}
+
+    for path in sorted(data_dir.rglob("*.yaml")):
+        document = load_yaml(path)
+        if document is None:
+            continue
+        kind = _kind(path)
+        if kind == "jurisdictions":
+            if validate_schema(validators["jurisdiction.schema.json"], document, path):
+                _register(jurisdictions, document["id"], document, path, file_of)
+                for office in document.get("offices", []):
+                    _register(offices, office["id"], (document["id"], office), path, file_of)
+        elif kind == "people":
+            if validate_schema(validators["person.schema.json"], document, path):
+                _register(people, document["id"], document, path, file_of)
+                for candidacy in document.get("candidacies", []):
+                    person_candidacies[candidacy["contest_id"]].append((document["id"], candidacy, path))
+                schemes: set[str] = set()
+                for identifier in document.get("identifiers", []):
+                    if identifier["scheme"] in schemes:
+                        error(f"{path}: person '{document['id']}' repeats external identifier scheme '{identifier['scheme']}'")
+                    schemes.add(identifier["scheme"])
+                    key = (identifier["scheme"], identifier["identifier"])
+                    if key in file_of:
+                        error(f"{path}: duplicate external identifier {key!r} (already defined in {file_of[key]})")
+                    else:
+                        file_of[key] = path
+        elif kind == "elections":
+            if validate_schema(validators["election.schema.json"], document, path):
+                _register(elections, document["id"], document, path, file_of)
+                for contest in document["contests"]:
+                    _register(contests, contest["id"], (document, contest, path), path, file_of)
+        else:
+            warn(f"{path}: unrecognized data directory '{kind}', skipped")
+
+    for person_id, person in people.items():
+        path = file_of[person_id]
+        for index, role in enumerate(person["roles"]):
+            _check_office_reference(role, path, f"roles[{index}]", jurisdictions, offices)
+        for candidacy in person["candidacies"]:
+            _check_office_reference(candidacy, path, "candidacy", jurisdictions, offices)
+
+    for contest_id, (election, contest, path) in contests.items():
+        _check_office_reference(contest, path, f"contests[{contest_id}]", jurisdictions, offices)
+        for person_id in contest["candidate_ids"]:
+            if person_id not in people:
+                error(f"{path}: contest '{contest_id}' candidate person_id '{person_id}' does not resolve")
+            elif not any(c["contest_id"] == contest_id for c in people[person_id]["candidacies"]):
+                error(f"{path}: contest '{contest_id}' candidate '{person_id}' has no reciprocal person candidacy")
+        winners = contest["winners"]
+        if contest["result_status"] == "pending" and winners is not None:
+            error(f"{path}: pending contest '{contest_id}' must have winners: null")
+        if contest["result_status"] == "certified" and not winners:
+            error(f"{path}: certified contest '{contest_id}' must have at least one winner")
+        for winner in winners or []:
+            person_id = winner["person_id"]
+            if person_id not in people:
+                error(f"{path}: contest '{contest_id}' winner person_id '{person_id}' does not resolve")
+            if person_id not in contest["candidate_ids"]:
+                error(f"{path}: contest '{contest_id}' winner '{person_id}' is not in candidate_ids")
+
+    for contest_id, candidacies in person_candidacies.items():
+        if contest_id not in contests:
+            for person_id, _, path in candidacies:
+                error(f"{path}: person '{person_id}' candidacy '{contest_id}' has no reciprocal election contest")
+
+    _cross_validate(people, elections, contests, file_of)
+    print(f"Validated: {len(jurisdictions)} jurisdictions, {len(offices)} offices, {len(people)} people, {len(elections)} elections")
+    if WARNINGS:
+        print(f"⚠ {len(WARNINGS)} warning(s):")
+        for message in WARNINGS:
+            print(f"  ⚠ {message}")
+    if ERRORS:
+        print(f"✗ {len(ERRORS)} error(s):")
+        for message in ERRORS:
+            print(f"  ✗ {message}")
+        print("FAILED (schema/reference errors)")
+        return 1
+    print("PASSED" + (f" with {len(WARNINGS)} warning(s) for human review" if WARNINGS else ""))
+    return 0
+
+
+def _check_office_reference(reference: dict, path: Path, location: str, jurisdictions: dict, offices: dict) -> None:
+    jurisdiction_id = reference["jurisdiction_id"]
+    office_id = reference["office_id"]
+    if jurisdiction_id not in jurisdictions:
+        error(f"{path}: {location} has no jurisdiction '{jurisdiction_id}'")
+        return
+    if office_id not in offices:
+        error(f"{path}: {location} has no office '{office_id}'")
+        return
+    if offices[office_id][0] != jurisdiction_id:
+        error(f"{path}: {location} office '{office_id}' belongs to '{offices[office_id][0]}', not '{jurisdiction_id}'")
+
+
+def _cross_validate(people: dict, elections: dict, contests: dict, file_of: dict) -> None:
+    latest_certified: dict[str, tuple[dict, dict]] = {}
+    for election, contest, _ in contests.values():
+        if contest["result_status"] != "certified":
+            continue
+        previous = latest_certified.get(contest["office_id"])
+        if previous is None or election["date"] > previous[0]["date"]:
+            latest_certified[contest["office_id"]] = (election, contest)
+        for winner in contest["winners"] or []:
+            person = people.get(winner["person_id"])
+            if person and norm_name(person["name"]) != norm_name(winner["name"]):
+                warn(f"CROSS[name-disagreement] winner '{winner['name']}' is linked to person '{person['name']}' ({winner['person_id']})")
+
+    by_office: dict[str, list[dict]] = defaultdict(list)
+    for person in people.values():
+        for role in person["roles"]:
+            by_office[role["office_id"]].append(person)
+    for office_id, (election, contest) in latest_certified.items():
+        holders = {norm_name(person["name"]) for person in by_office.get(office_id, [])}
+        for winner in contest["winners"] or []:
+            if norm_name(winner["name"]) not in holders:
+                current = ", ".join(repr(person["name"]) for person in by_office.get(office_id, [])) or "(no one on record)"
+                warn(f"CROSS[winner-not-seated] office '{office_id}': '{winner['name']}' won the certified {election['date']} election but people lists {current}")
+    for person_id, person in people.items():
+        for role in person["roles"]:
+            if role.get("term", {}).get("how_seated") != "elected":
+                continue
+            traced = any(
+                person_id in contest["candidate_ids"] or any(w["person_id"] == person_id for w in contest["winners"] or [])
+                for _, contest, _ in contests.values() if contest["office_id"] == role["office_id"]
+            )
+            if not traced:
+                warn(f"CROSS[no-election-trace] {file_of[person_id]}: '{person['name']}' is recorded as elected to '{role['office_id']}' but no election candidacy names them")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--strict", action="store_true")
+    args = parser.parse_args()
+    result = validate()
+    if result == 0 and WARNINGS and args.strict:
+        print("FAILED (--strict: warnings treated as errors)")
+        return 1
+    return result
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())

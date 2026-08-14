@@ -74,3 +74,24 @@ def test_certified_contest_has_a_person_winner() -> None:
         "name": "Jordan Lee",
     }]
     assert_valid("election.schema.json", document)
+
+
+def test_primary_contests_keep_party_specific_identity() -> None:
+    democratic = load_fixture("nc-2026-democratic-primary.yaml")
+    republican = load_fixture("nc-2026-republican-primary.yaml")
+    assert democratic["contests"][0]["id"] != republican["contests"][0]["id"]
+    assert_valid("election.schema.json", democratic)
+    assert_valid("election.schema.json", republican)
+
+
+def test_multi_seat_fixture_preserves_seat_identity() -> None:
+    document = load_fixture("ma-legislative-multi-seat.yaml")
+    assert {contest["seat"] for contest in document["contests"]} == {"5th Suffolk", "6th Suffolk"}
+    assert_valid("election.schema.json", document)
+
+
+def test_all_acceptance_election_fixtures_validate() -> None:
+    for path in FIXTURES.glob("*.yaml"):
+        if path.name == "nc-jordan-lee.yaml":
+            continue
+        assert_valid("election.schema.json", yaml.safe_load(path.read_text()))
