@@ -38,7 +38,7 @@
         "properties": {
           "contest_id": {"type": "string", "minLength": 1},
           "election_id": {"type": "string", "minLength": 1},
-          "jurisdiction_id": {"type": "string", "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"},
+          "jurisdiction_id": {"type": "string", "pattern": "^ocd-jurisdiction/country:us(/[a-z_]+:[a-z0-9~_.-]+)+/[a-z][a-z0-9_]*$"},
           "office_id": {"type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"},
           "party": {"type": ["string", "null"]},
           "ballot_name": {"type": "string", "minLength": 1},
@@ -54,7 +54,7 @@
         "required": ["jurisdiction_id", "office_id"],
         "additionalProperties": false,
         "properties": {
-          "jurisdiction_id": {"type": "string", "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"},
+          "jurisdiction_id": {"type": "string", "pattern": "^ocd-jurisdiction/country:us(/[a-z_]+:[a-z0-9~_.-]+)+/[a-z][a-z0-9_]*$"},
           "office_id": {"type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"},
           "seat": {"type": "string"},
           "term": {

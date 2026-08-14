@@ -2,21 +2,26 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/CivicMirror/Civic-Data/schemas/jurisdiction.schema.json",
   "title": "Jurisdiction",
-  "description": "A place with a government: municipality, county, or other local jurisdiction. Offices are embedded here because they are structural facts about the jurisdiction.",
+  "description": "A governing authority within a geographic division.",
   "type": "object",
-  "required": ["id", "name", "state", "classification", "website"],
+  "required": ["id", "name", "state", "division_id", "classification", "website", "sources"],
   "additionalProperties": false,
   "properties": {
     "id": {
       "type": "string",
-      "description": "OCD Division ID",
-      "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"
+      "description": "OCD jurisdiction ID: the division path plus a governance classification.",
+      "pattern": "^ocd-jurisdiction/country:us(/[a-z_]+:[a-z0-9~_.-]+)+/[a-z][a-z0-9_]*$"
     },
     "name": { "type": "string", "minLength": 1 },
     "state": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "division_id": {
+      "type": "string",
+      "description": "The geographic OCD division governed by this jurisdiction.",
+      "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"
+    },
     "classification": {
       "type": "string",
-      "enum": ["state", "city", "town", "village", "borough", "township", "county", "parish", "consolidated-city-county", "congressional-district", "prosecutorial-district"]
+      "enum": ["government", "legislature", "executive", "school", "park", "sewer", "forest", "transit_authority"]
     },
     "government_form": {
       "type": "string",

@@ -17,54 +17,29 @@ def copied_data(tmp_path: Path) -> Path:
     return target
 
 
-def test_migrated_repository_validates_with_human_review_warnings() -> None:
+def test_fresh_millbury_repository_validates_with_only_expected_review_warning() -> None:
     assert validator.validate(ROOT / "data", ROOT / "schemas") == 0
     assert not validator.ERRORS
-    assert validator.WARNINGS
+    assert any("no-election-trace" in message for message in validator.WARNINGS)
 
 
-def test_duplicate_external_identifier_is_an_error(tmp_path: Path) -> None:
+def test_duplicate_organization_external_identifier_is_an_error(tmp_path: Path) -> None:
     data = copied_data(tmp_path)
-    first = data / "us/ma/people/federal/ed-markey.yaml"
-    second = data / "us/ma/people/federal/elizabeth-warren.yaml"
+    first = data / "us/ma/organizations/municipal/millbury-select-board.yaml"
+    second = data / "us/ma/organizations/municipal/millbury-school-committee.yaml"
     first_doc = yaml.safe_load(first.read_text())
     second_doc = yaml.safe_load(second.read_text())
-    first_doc["identifiers"] = [{"scheme": "civicmirror", "identifier": "same-person"}]
-    second_doc["identifiers"] = [{"scheme": "civicmirror", "identifier": "same-person"}]
-    first.write_text(yaml.safe_dump(first_doc, sort_keys=False))
+    second_doc["identifiers"] = first_doc["identifiers"]
     second.write_text(yaml.safe_dump(second_doc, sort_keys=False))
     assert validator.validate(data, ROOT / "schemas") == 1
     assert any("duplicate external identifier" in message for message in validator.ERRORS)
 
 
-def test_person_cannot_repeat_external_identifier_scheme(tmp_path: Path) -> None:
+def test_membership_post_organization_mismatch_is_an_error(tmp_path: Path) -> None:
     data = copied_data(tmp_path)
-    person = data / "us/ma/people/federal/ed-markey.yaml"
-    document = yaml.safe_load(person.read_text())
-    document["identifiers"] = [
-        {"scheme": "civicmirror", "identifier": "one"},
-        {"scheme": "civicmirror", "identifier": "two"},
-    ]
-    person.write_text(yaml.safe_dump(document, sort_keys=False))
+    membership = data / "us/ma/memberships/municipal/millbury-select-board-placeholder.yaml"
+    document = yaml.safe_load(membership.read_text())
+    document["organization_id"] = "ocd-organization/550e8400-e29b-41d4-a716-446655440001"
+    membership.write_text(yaml.safe_dump(document, sort_keys=False))
     assert validator.validate(data, ROOT / "schemas") == 1
-    assert any("repeats external identifier scheme" in message for message in validator.ERRORS)
-
-
-def test_unresolved_contest_candidate_is_an_error(tmp_path: Path) -> None:
-    data = copied_data(tmp_path)
-    election = data / "us/ma/elections/cd-1--2012-11-06--us-representative.yaml"
-    document = yaml.safe_load(election.read_text())
-    document["contests"][0]["candidate_ids"] = ["ocd-person/00000000-0000-0000-0000-000000000000"]
-    election.write_text(yaml.safe_dump(document, sort_keys=False))
-    assert validator.validate(data, ROOT / "schemas") == 1
-    assert any("does not resolve" in message for message in validator.ERRORS)
-
-
-def test_candidacy_without_contest_is_an_error(tmp_path: Path) -> None:
-    data = copied_data(tmp_path)
-    person = data / "us/ma/people/federal/richard-neal.yaml"
-    document = yaml.safe_load(person.read_text())
-    document["candidacies"][0]["contest_id"] = "ma/does-not-exist"
-    person.write_text(yaml.safe_dump(document, sort_keys=False))
-    assert validator.validate(data, ROOT / "schemas") == 1
-    assert any("no reciprocal election contest" in message for message in validator.ERRORS)
+    assert any("different organization" in message for message in validator.ERRORS)

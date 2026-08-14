@@ -39,7 +39,7 @@ def test_person_must_have_a_role_or_candidacy() -> None:
 def test_person_can_have_both_role_and_candidacy() -> None:
     document = load_fixture("nc-jordan-lee.yaml")
     document["roles"] = [{
-        "jurisdiction_id": "ocd-division/country:us/state:nc",
+        "jurisdiction_id": "ocd-jurisdiction/country:us/state:nc/government",
         "office_id": "nc/us-senator",
         "term": {"start": "2023-01-03", "how_seated": "elected"},
     }]

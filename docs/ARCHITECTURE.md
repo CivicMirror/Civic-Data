@@ -69,6 +69,17 @@ normalized into this schema.
 
 ## 4. Identifiers
 
+The government model uses separate identifiers for separate concepts:
+
+| Entity | Canonical ID | External identifiers |
+|---|---|---|
+| Division | `ocd-division/...` | source geography IDs may be listed in a mapping |
+| Jurisdiction | `ocd-jurisdiction/.../<classification>` | source jurisdiction IDs may be listed in `identifiers[]` |
+| Organization | `ocd-organization/<uuid>` | CivicPatch/Open States IDs live in `identifiers[]` |
+| Post | stable local post ID | CivicPatch `post_id` lives in `identifiers[]` |
+
+Canonical organization UUIDs are generated once and persisted. They are never regenerated from a name or slug. CivicPatch's county-qualified Millbury division ID is normalized to the registered OCD division ID, while the original CivicPatch post identifier is retained as an external identifier.
+
 | Entity | Scheme | Rationale |
 |---|---|---|
 | Jurisdiction | OCD Division ID | Ecosystem standard; joins to Census, Open States, Google Civic |
