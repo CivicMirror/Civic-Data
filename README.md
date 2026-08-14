@@ -28,8 +28,18 @@ schemas/                          JSON Schemas for every entity type
 data/
   us/
     ma/                           One directory per state
-      jurisdictions/              One YAML file per municipality/county
-      officials/                  One YAML file per officeholder
+      jurisdictions/              One YAML file per place/district; tiered
+        <state>.yaml                 by government level:
+        federal/                     federal (Congress)
+        state-upper/ state-lower/    state legislature (sldu/sldl; per-district
+                                      jurisdiction files, added only if a tier
+                                      needs its own site_intelligence/sources)
+        county/                      counties + county-level districts (DA, etc.)
+        municipal/                   municipalities
+      officials/                  One YAML file per officeholder; same tiers
+        federal/ state-upper/ state-lower/ county/
+        municipal/<town-slug>/      further split per town — this is the one
+                                     tier where person-count sprawl warrants it
       elections/                  One YAML file per contest linkage
 scripts/
   validate.py                     Schema validation + cross-validation

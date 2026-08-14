@@ -125,7 +125,13 @@ def main() -> int:
         doc = load_yaml(path)
         if doc is None:
             continue
-        kind = path.parent.name  # jurisdictions | officials | elections
+        # jurisdictions | officials | elections — the nearest ancestor
+        # directory with one of these names, since each now has tiered
+        # subdirectories (federal/, county/, municipal/, state-upper/, ...).
+        kind = next(
+            (p.name for p in path.parents if p.name in ("jurisdictions", "officials", "elections")),
+            path.parent.name,
+        )
         if kind == "jurisdictions":
             if validate_schema(validators["jurisdiction.schema.json"], doc, path):
                 _register(jurisdictions, doc["id"], doc, path, file_of)
