@@ -1,6 +1,6 @@
 # Civic-Data
 
-**A shared, human-reviewable spine of U.S. local government data — jurisdictions, offices, officials, and the elections that seated them.**
+**A shared, human-reviewable spine of U.S. civic identity data — jurisdictions, offices, people, candidacies, and elections.**
 
 This repository is a proof of concept for a shared dataset between two independent projects:
 
@@ -36,7 +36,7 @@ data/
                                       needs its own site_intelligence/sources)
         county/                      counties + county-level districts (DA, etc.)
         municipal/                   municipalities
-      officials/                  One YAML file per officeholder; same tiers
+  people/                     One YAML file per person; same tiers
         federal/ state-upper/ state-lower/ county/
         municipal/<town-slug>/      further split per town — this is the one
                                      tier where person-count sprawl warrants it
@@ -59,13 +59,14 @@ different places, like `classification` and `seat` — see
 
 - **Jurisdiction** — a place with a government. Keyed by [OCD Division ID](https://github.com/opencivicdata/ocd-division-ids). Carries the official website URL, government form, and *site intelligence* (CMS/vendor platform) useful to both scraper teams. `classification` covers both local government forms (`city`, `town`, `county`, …) and `congressional-district`.
 - **Office** — an elected position that exists within a jurisdiction (embedded in the jurisdiction file): title, seat structure (at-large / ward / district), term length, election authority.
-- **Official** — a person, and *every* office they've held, past or present — not just their current one. One YAML file per person; each office held is one entry in `roles[]`, since people change offices (redistricting, running for a different seat) far more often than an office's own definition changes. Also carries `addresses[]` (physical offices — a capitol/D.C. office plus any number of district offices, each with its own address/phone/fax) and an optional `image`. `contact` stays as a short quick-reference block (email/phone/profile URL); `addresses[]` is where the full, possibly-multiple office locations live. Contact fields are copied **verbatim** from the official source (CivicPatch convention). Every record carries provenance and a `verification` block.
-- **Election linkage** — a compact summary of the contest that seated an official: date, winner, certification status, and source. Raw results (precinct-level rows, live ENR snapshots) stay in CivicMirror; only the small, reviewable linkage lives here.
+- **Person** — an individual independent of any office or election. A person can have `roles[]` (current or historical office relationships), `candidacies[]` (participation in specific contests), or both. One YAML file per person also carries reviewed external identifiers, public office contact information, provenance, and verification.
+- **Candidacy** — a person's participation in a specific election contest. Filing addresses, personal phones, and personal emails never enter this shared repository.
+- **Election and Contest** — an election record contains one or more contest records. Contests support scheduled pre-election membership with no winners, certified winner references, separate partisan primaries, and explicit seats for multi-seat offices. Raw results (precinct-level rows, live ENR snapshots) stay in CivicMirror; only the small, reviewable outcome linkage lives here.
 
 ## Contribution model
 
 1. **Bots open PRs.** CivicPatch scrapers and CivicMirror pipelines both write via bot-authored pull requests — never direct pushes to `main`.
-2. **CI validates.** Every PR runs schema validation, OCD-ID reference checks, duplicate detection, and officials↔elections cross-validation.
+2. **CI validates.** Every PR runs schema validation, OCD-ID reference checks, duplicate detection, reciprocal person↔contest checks, and people↔elections cross-validation.
 3. **Humans merge.** CivicPatch's volunteer review process is the merge gate. If CI flags a mismatch, the PR description says exactly what disagrees and why.
 4. **Projects consume read-only.** Both projects pin releases (or track `main`) and treat this repo as a dependency.
 
@@ -80,17 +81,17 @@ Exit code is non-zero on schema errors or broken references. Cross-validation mi
 
 ## Data conventions
 
-- **IDs**: OCD Division IDs for places, OCD Person-style UUIDs for people. Where [Open States](https://github.com/openstates/people) has a convention, we adopt it rather than invent one — including career-spanning `roles[]` on an official rather than one flat office per record.
+- **IDs**: OCD Division IDs for geographic places, OCD Person-style UUIDs for people, and stable election/contest keys. External CivicMirror and CivicPatch identifiers are namespaced and accepted only after human review.
 - **Names/contacts**: verbatim from the official source.
 - **File naming**: currently one file per person, named by person (not jurisdiction), with the ID inside the file only — not appended to the filename the way Open States does it. See `docs/layout-demos/` for what the alternatives would look like; this is an open question, not yet finalized.
 - **License**: [CC0 1.0](LICENSE) — public domain dedication, maximally reusable downstream.
 
 ## Status
 
-🚧 **Proof of concept.** Massachusetts's full 9-seat U.S. House delegation is populated end-to-end (jurisdictions, offices, officials, and election linkages) with **real, sourced data** — not placeholders. Every official record cites where its facts came from (official House.gov pages, Wikipedia, or web search where a direct fetch was blocked) rather than inventing anything; where a phone/fax/address couldn't be verified, it's simply omitted. `verification.status` is still `unverified` on every record (no human reviewer has signed off), even though the underlying facts are real — don't treat that field as "fictional vs. real," it tracks review status only.
+🚧 **Proof of concept.** Massachusetts's congressional and county records are populated end-to-end (jurisdictions, offices, people, and election contests) with **real, sourced data** — not placeholders. Every person record cites where its facts came from; where a phone/fax/address couldn't be verified, it is omitted. `verification.status` is still `unverified` on every record (no human reviewer has signed off), even though the underlying facts are real — it tracks review status only.
 
 Two known gaps, tracked as open follow-ups rather than silently resolved:
-- 7 of the 9 officials have no `elections/` linkage file yet (Richard Neal and, indirectly, the 1st district are the exception — his two real district wins are fully linked), so `validate.py` reports 8 standing `no-election-trace` warnings. These are expected, not bugs.
+- Most current people have no corresponding election contest in this proof-of-concept dataset, so `validate.py` reports standing `no-election-trace` warnings. These are expected review findings, not schema failures.
 - `docs/layout-demos/` holds non-live comparison files for an open schema/layout question (grouped-by-place vs. one-file-per-person, ID-in-filename vs. not) — not part of the dataset, not read by CI.
 
 Earlier fictional sample data (Oxford/Springfield/Worcester, MA) has been removed; this repo currently only carries data it can back with a real source.
