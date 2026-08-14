@@ -81,7 +81,7 @@ def _register(store: dict, key: str, value, path: Path, file_of: dict) -> None:
 
 
 def _kind(path: Path) -> str:
-    return next((parent.name for parent in path.parents if parent.name in {"jurisdictions", "people", "elections"}), path.parent.name)
+    return next((parent.name for parent in path.parents if parent.name in {"jurisdictions", "people", "elections", "organizations", "posts", "memberships"}), path.parent.name)
 
 
 def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
@@ -90,7 +90,9 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
     WARNINGS.clear()
     validators = load_schemas(schema_dir)
     jurisdictions: dict[str, dict] = {}
-    offices: dict[str, tuple[str, dict]] = {}
+    organizations: dict[str, dict] = {}
+    posts: dict[str, dict] = {}
+    memberships: dict[str, dict] = {}
     people: dict[str, dict] = {}
     elections: dict[str, dict] = {}
     file_of: dict[str, Path] = {}
@@ -105,8 +107,17 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
         if kind == "jurisdictions":
             if validate_schema(validators["jurisdiction.schema.json"], document, path):
                 _register(jurisdictions, document["id"], document, path, file_of)
-                for office in document.get("offices", []):
-                    _register(offices, office["id"], (document["id"], office), path, file_of)
+        elif kind == "organizations":
+            if validate_schema(validators["organization.schema.json"], document, path):
+                _register(organizations, document["id"], document, path, file_of)
+                _check_external_identifiers(document, path, file_of)
+        elif kind == "posts":
+            if validate_schema(validators["post.schema.json"], document, path):
+                _register(posts, document["id"], document, path, file_of)
+                _check_external_identifiers(document, path, file_of)
+        elif kind == "memberships":
+            if validate_schema(validators["membership.schema.json"], document, path):
+                _register(memberships, document["id"], document, path, file_of)
         elif kind == "people":
             if validate_schema(validators["person.schema.json"], document, path):
                 _register(people, document["id"], document, path, file_of)
@@ -133,12 +144,24 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
     for person_id, person in people.items():
         path = file_of[person_id]
         for index, role in enumerate(person["roles"]):
-            _check_office_reference(role, path, f"roles[{index}]", jurisdictions, offices)
+            _check_post_reference(role, path, f"roles[{index}]", jurisdictions, posts, organizations)
         for candidacy in person["candidacies"]:
-            _check_office_reference(candidacy, path, "candidacy", jurisdictions, offices)
+            _check_post_reference(candidacy, path, "candidacy", jurisdictions, posts, organizations)
+
+    for membership_id, membership in memberships.items():
+        path = file_of[membership_id]
+        if membership["person_id"] not in people:
+            error(f"{path}: membership person_id '{membership['person_id']}' does not resolve")
+        if membership["organization_id"] not in organizations:
+            error(f"{path}: membership organization_id '{membership['organization_id']}' does not resolve")
+        post = posts.get(membership.get("post_id"))
+        if membership.get("post_id") and post is None:
+            error(f"{path}: membership post_id '{membership['post_id']}' does not resolve")
+        if post and post["organization_id"] != membership["organization_id"]:
+            error(f"{path}: membership post belongs to a different organization")
 
     for contest_id, (election, contest, path) in contests.items():
-        _check_office_reference(contest, path, f"contests[{contest_id}]", jurisdictions, offices)
+        _check_post_reference(contest, path, f"contests[{contest_id}]", jurisdictions, posts, organizations)
         for person_id in contest["candidate_ids"]:
             if person_id not in people:
                 error(f"{path}: contest '{contest_id}' candidate person_id '{person_id}' does not resolve")
@@ -162,7 +185,7 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
                 error(f"{path}: person '{person_id}' candidacy '{contest_id}' has no reciprocal election contest")
 
     _cross_validate(people, elections, contests, file_of)
-    print(f"Validated: {len(jurisdictions)} jurisdictions, {len(offices)} offices, {len(people)} people, {len(elections)} elections")
+    print(f"Validated: {len(jurisdictions)} jurisdictions, {len(organizations)} organizations, {len(posts)} posts, {len(memberships)} memberships, {len(people)} people, {len(elections)} elections")
     if WARNINGS:
         print(f"⚠ {len(WARNINGS)} warning(s):")
         for message in WARNINGS:
@@ -177,17 +200,34 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
     return 0
 
 
-def _check_office_reference(reference: dict, path: Path, location: str, jurisdictions: dict, offices: dict) -> None:
+def _check_post_reference(reference: dict, path: Path, location: str, jurisdictions: dict, posts: dict, organizations: dict) -> None:
     jurisdiction_id = reference["jurisdiction_id"]
     office_id = reference["office_id"]
     if jurisdiction_id not in jurisdictions:
         error(f"{path}: {location} has no jurisdiction '{jurisdiction_id}'")
         return
-    if office_id not in offices:
-        error(f"{path}: {location} has no office '{office_id}'")
+    if office_id not in posts:
+        error(f"{path}: {location} has no post '{office_id}'")
         return
-    if offices[office_id][0] != jurisdiction_id:
-        error(f"{path}: {location} office '{office_id}' belongs to '{offices[office_id][0]}', not '{jurisdiction_id}'")
+    organization_id = posts[office_id]["organization_id"]
+    if organization_id not in organizations:
+        error(f"{path}: {location} post '{office_id}' organization '{organization_id}' does not resolve")
+    elif organizations[organization_id]["jurisdiction_id"] != jurisdiction_id:
+        error(f"{path}: {location} post '{office_id}' organization belongs to a different jurisdiction")
+
+
+def _check_external_identifiers(document: dict, path: Path, file_of: dict) -> None:
+    schemes: set[str] = set()
+    for identifier in document.get("identifiers", []):
+        scheme = identifier["scheme"]
+        if scheme in schemes:
+            error(f"{path}: entity '{document['id']}' repeats external identifier scheme '{scheme}'")
+        schemes.add(scheme)
+        key = (scheme, identifier["identifier"])
+        if key in file_of:
+            error(f"{path}: duplicate external identifier {key!r} (already defined in {file_of[key]})")
+        else:
+            file_of[key] = path
 
 
 def _cross_validate(people: dict, elections: dict, contests: dict, file_of: dict) -> None:

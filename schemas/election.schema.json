@@ -20,7 +20,7 @@
       "type": "object", "required": ["id", "jurisdiction_id", "office_id", "vote_for", "candidate_ids", "result_status", "winners"], "additionalProperties": false,
       "properties": {
         "id": {"type": "string", "minLength": 1},
-        "jurisdiction_id": {"type": "string", "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"},
+        "jurisdiction_id": {"type": "string", "pattern": "^ocd-jurisdiction/country:us(/[a-z_]+:[a-z0-9~_.-]+)+/[a-z][a-z0-9_]*$"},
         "office_id": {"type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"},
         "party": {"type": ["string", "null"]},
         "seat": {"type": "string"},

@@ -72,6 +72,8 @@ different places, like `classification` and `seat` — see
 
 ## Running validation locally
 
+Government data is modeled as `division -> jurisdiction -> organization -> post -> membership/person`. The current sample is a fresh Millbury dataset; old sample IDs are not migration inputs. External source identifiers are retained under each entity's `identifiers[]` field.
+
 ```bash
 pip install -r scripts/requirements.txt
 python scripts/validate.py
