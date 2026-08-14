@@ -38,15 +38,34 @@ contributes to:
 - **CI is the first reviewer.** Schema validation, reference integrity, and
   duplicate detection run before a human ever looks.
 
-## 3. What stays out: raw election results
+## 3. What stays out
 
-Precinct-level rows, live ENR snapshots, and certification revisions are
-large, spiky, and churn during canvass — git handles that badly and no
-volunteer can meaningfully review a 40,000-row diff.
+**Raw election results.** Precinct-level rows, live ENR snapshots, and
+certification revisions are large, spiky, and churn during canvass — git
+handles that badly and no volunteer can meaningfully review a 40,000-row
+diff.
 
 Instead, the shared repo stores an **election linkage**: contest date,
 winner(s), certification status, and a `detail_ref` URI pointing at the full
 results in CivicMirror. Small, stable, reviewable.
+
+**Internal board titles.** CivicPatch sometimes labels a board member by an
+internally-assigned title (Chair, Vice Chair, Clerk) rather than their
+formal elected office. These titles aren't separately elected — the charter
+creates one office (e.g. "Select Board Member") and the board assigns roles
+to itself after the election, not the ballot. Surfaced by
+[CivicMirror/Civic-Data#3](https://github.com/CivicMirror/Civic-Data/issues/3):
+CivicPatch's raw Millbury data gave its 5 Select Board members 4 different
+`office.name` values (Council Member ×2, Chair, Vice Chair, Clerk) — none of
+which slug to this repo's one real office, `millbury-ma/select-board`, and
+"Council Member" is factually wrong for a Select Board town besides.
+
+civic-data tracks only the formal office, since that's what a `roles[]`
+entry needs to join to an actual election contest — internal titles have no
+election behind them to join to. Nothing in `official.schema.json` carries
+an internal title (`roles[]` has no `notes` field); this is a deliberate
+omission, not a gap. The title is CivicPatch's data to keep, not something
+normalized into this schema.
 
 ## 4. Identifiers
 
@@ -95,7 +114,51 @@ indistinguishable. This is also the natural integration point with
 CivicPatch's AI policy: machine output is always labeled as such, and human
 review is the promotion mechanism.
 
-## 7. Open questions for the meeting
+## 7. Directory tiering by government level
+
+`jurisdictions/` and `officials/` are both subdivided by government tier —
+`federal/`, `state-upper/`, `state-lower/`, `county/`, `municipal/` — inside
+each state's directory (`data/us/<state>/{jurisdictions,officials}/<tier>/`).
+Settled now, before a second state is added, so every state inherits the
+same convention rather than each one improvising its own.
+
+**Why tier at all.** A flat `officials/` directory scales with total
+officeholder count, not place count: Massachusetts alone has 200 state
+legislature seats and 351 municipalities, each with several elected
+officials — thousands of files nationally, in one directory, mixing federal,
+state, county, and town records together. Tiering makes a PR's blast radius
+legible at a glance (a diff under `officials/state-upper/` obviously can't
+touch a town clerk) without changing the one-file-per-person model itself.
+
+**Why `state-upper`/`state-lower`, not `state-house`/`state-senate`.** State
+chamber names aren't uniform (California/New York call the lower chamber
+"Assembly," Virginia calls it "House of Delegates," Nebraska is unicameral).
+Naming the tier after a specific state's chamber name breaks on the next
+state. `state-upper`/`state-lower` borrows OCD's own division-type vocabulary
+(`sldu`/`sldl`) per the convention set in §4 — chamber-generic, and a
+unicameral state simply never populates `state-lower/`.
+
+**Why `officials/municipal/` nests one level further, by town slug, and
+`jurisdictions/municipal/` does not.** A jurisdiction file is already 1:1
+with its place (`millbury.yaml` is one file regardless of how many Select
+Board seats it defines) — flat is fine. An officials directory is 1:many
+(Millbury's Select Board alone is 5 files); at hundreds of towns per state,
+that's the tier where person-count sprawl is worst, so it's the one tier
+that subdivides again:
+`officials/municipal/<town-slug>/<person>.yaml`.
+
+**State legislature seats stay embedded, not per-district files.** Unlike
+congressional districts (one `cd-N.yaml` jurisdiction file per district,
+each with its own officeholder/site), Massachusetts's state House/Senate
+seats are modeled as two offices — `seats: 160`/`40`,
+`seat_structure: district` — embedded directly on `ma.yaml`, with each
+official's `role.seat` naming their district (e.g. `"5th Suffolk"`). This
+keeps 200 legislative seats from requiring 200 new jurisdiction files; a
+`state-upper`/`state-lower` jurisdiction tier exists in principle for a
+state where a legislative district needs its own `site_intelligence` or
+sources, but isn't needed for the embedded-office case.
+
+## 8. Open questions for the meeting
 
 - **Where does the repo live?** CivicPatch org, CivicMirror org, or a neutral
   shared org? (Neutral org avoids perceived ownership asymmetry.)

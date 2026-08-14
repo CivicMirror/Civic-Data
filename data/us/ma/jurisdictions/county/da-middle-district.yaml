@@ -1,0 +1,72 @@
+# REAL JURISDICTION — Massachusetts's "Middle District" district
+# attorney's district (Worcester County DA Joseph D. Early, Jr.).
+#
+# NOT modeled as an office of ocd-division/.../county:worcester: the
+# Middle District is not coextensive with Worcester County. It excludes
+# the Worcester County town of Athol (part of the separate Northwestern
+# District instead) and includes Bellingham, which is in Norfolk County.
+# (worcesterda.com/about/meet-your-da/)
+#
+# `id` and `classification` are this repo's own construction, not an
+# adopted OCD-registry convention — flagging that explicitly since
+# ARCHITECTURE.md's stated principle is "adopt rather than invent."
+# opencivicdata/ocd-division-ids#195 is the only place the upstream OCD
+# project has discussed prosecutor/DA districts at all: opened 2020-02-02,
+# never resolved into a merged file. A CTCL maintainer (rsimoes) proposed
+# a convention there — (1) if the district is county-dependent by state
+# law, reuse the county id; (2) if it aligns with an existing judicial/
+# circuit district id, reuse that; (3) otherwise mint a new id
+# hierarchically subordinated to the state — but no PR ever landed.
+# Checked against that: Worcester's Middle District fails (1) (not
+# county-coextensive, per above) and fails (2) — the only Massachusetts
+# entry in ocd-division-ids' us_state_courts.csv anywhere close is
+# `ocd-division/country:us/state:ma/district_court:worcester`, which is
+# just the single Worcester District Court, one of ~11 district courts
+# the Middle District actually spans (Clinton, Dudley, East Brookfield,
+# Fitchburg, Gardner, Leominster, Milford, Westborough, Winchendon,
+# Worcester). So this file follows rsimoes' fallback (3): a new id,
+# subordinated to the state, using a self-chosen `district_attorney:`
+# segment. Treat both `id` and `classification: prosecutorial-district`
+# (added to jurisdiction.schema.json's enum in this same change) as a
+# reasoned local choice, not a canonical upstream standard — worth
+# revisiting if opencivicdata/ocd-division-ids#195 ever produces one.
+id: ocd-division/country:us/state:ma/district_attorney:middle
+name: Middle District (Worcester County district attorney district)
+state: ma
+classification: prosecutorial-district
+government_form: single-officer prosecutorial district (Massachusetts district attorney)
+website: https://worcesterda.com
+site_intelligence:
+  officials_directory_url: https://worcesterda.com/about/meet-your-da/
+  notes: >-
+    Middle District = all 60 Worcester County municipalities except Athol,
+    plus Bellingham (Norfolk County).
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+offices:
+  - id: worcester-middle-da/district-attorney
+    role: District Attorney
+    seats: 1
+    seat_structure: at-large
+    term_years: 4
+    partisan: true
+    notes: >-
+      MGL c.12 §12: "He shall serve for four years beginning with the
+      first Wednesday of January after his election and until his
+      successor is qualified." Elected per MGL c.54 §154.
+sources:
+  - url: https://worcesterda.com/about/meet-your-da/
+    note: Office overview — confirms Middle District's town list, Athol exclusion, Bellingham inclusion.
+    retrieved: "2026-08-12"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12/Section12
+    note: MGL c.12 §12 — district attorney's 4-year elected term, quoted verbatim above.
+    retrieved: "2026-08-12"
+  - url: https://github.com/opencivicdata/ocd-division-ids/issues/195
+    note: >-
+      Upstream OCD issue discussing how prosecutor/DA districts should be
+      given ocd-ids. Never resolved/merged; used here as the basis for
+      this file's id and classification choices, not as an adopted
+      standard.
+    retrieved: "2026-08-12"

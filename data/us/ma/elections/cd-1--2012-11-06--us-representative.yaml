@@ -1,0 +1,22 @@
+# REAL ELECTION — see cd-2--1988-11-08--us-representative.yaml for the same
+# sourcing note. This is Neal's first win of the redrawn MA-01 seat after
+# the post-2010-Census redistricting absorbed his old MA-02 base; see
+# data/us/ma/jurisdictions/cd-2.yaml for that redistricting caveat.
+id: ma-1/2012-11-06/us-representative
+jurisdiction_id: ocd-division/country:us/state:ma/cd:1
+office_id: ma-1/us-representative
+election_date: "2012-11-06"
+election_type: general
+seat: At-Large
+winners:
+  - name: Richard E. Neal
+    official_id: ocd-person/7397f709-12f4-472a-872e-3e98800e5b88
+    votes: 261936
+    party: Democratic
+certification:
+  status: certified
+  certifying_body: Massachusetts Secretary of the Commonwealth
+sources:
+  - url: https://en.wikipedia.org/wiki/Richard_Neal
+    note: Electoral history table (98.42% of the vote, no major challenger)
+    retrieved: "2026-08-12"

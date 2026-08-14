@@ -1,0 +1,170 @@
+# REAL JURISDICTION — sourced from the Millbury Home Rule Charter, Article 3
+# (Elected Officers), plus the town's official website. Office seat counts and
+# term lengths below are quoted almost verbatim from charter Sections 3-2
+# through 3-11; each office's `notes` cites the specific section.
+#
+# Two boards (Housing Authority, Redevelopment Authority) have 5 total
+# members but only 4 elected seats — the 5th is state-appointed under
+# general law (G.L. c.121B), not filled by Millbury's ballot. `seats` below
+# counts only the elected seats, consistent with office.schema.json's
+# description of offices as elected positions.
+#
+# The Blackstone Valley Regional Vocational School Committee seat (3-9) is
+# unusual: Millbury's own charter defers term length entirely to the
+# regional agreement rather than specifying it locally. seats/term_years for
+# that office come from an independent member-town source (Grafton, MA's
+# government site), not Millbury's own charter text.
+id: ocd-division/country:us/state:ma/place:millbury
+name: Millbury
+state: ma
+classification: town
+government_form: open town meeting; select board-town manager executive
+website: https://www.millburyma.gov
+site_intelligence:
+  cms_platform: CivicPlus (CivicEngage)
+  officials_directory_url: https://www.millburyma.gov/1479/Boards-Committees
+  notes: >-
+    Standard CivicPlus numeric-ID URL scheme (e.g. /1506/Board-of-Selectmen).
+    Guessed clean-slug URLs (e.g. /boards, /town-clerk/pages/...) 404 —
+    always resolve the numeric-ID path via the site's own search/nav rather
+    than constructing one.
+election_authority:
+  name: Millbury Town Clerk
+  level: municipal
+  url: https://www.millburyma.gov/1407/Town-Clerk
+offices:
+  - id: millbury-ma/select-board
+    role: Select Board Member
+    seats: 5
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-2(a): "five members elected for terms of three years each,
+      so arranged that the term of office of as nearly equal number of
+      members as is possible shall expire each year." Charter text mostly
+      says "board of selectmen" but also refers to "the Select Board" in
+      §3-2(e); the town's own site titles the page "Board of Selectmen."
+  - id: millbury-ma/school-committee
+    role: School Committee Member
+    seats: 5
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-3(a): "five members elected for terms of three years each
+      so arranged that the term of office of as nearly an equal number of
+      members as is possible shall expire each year."
+  - id: millbury-ma/moderator
+    role: Town Moderator
+    seats: 1
+    seat_structure: at-large
+    term_years: 3
+    partisan: false
+    notes: "Charter §3-4(a): \"a town moderator elected for a term of three years.\""
+  - id: millbury-ma/housing-authority
+    role: Housing Authority Member
+    seats: 4
+    seat_structure: at-large
+    term_years: 5
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-5(a): 5-member board, terms of 5 years each, staggered so
+      one seat expires per year. Only 4 of the 5 members are elected by
+      voters; the 5th is state-appointed under general law and is out of
+      scope for this office record.
+  - id: millbury-ma/redevelopment-authority
+    role: Redevelopment Authority Member
+    seats: 4
+    seat_structure: at-large
+    term_years: 5
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-6(a): same structure as the Housing Authority (§3-5) — 5
+      members serving 5-year staggered terms, 4 elected + 1 state-appointed.
+  - id: millbury-ma/planning-board
+    role: Planning Board Member
+    seats: 5
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-7(a): "five members elected for terms of three years each,
+      so arranged that the term of office of as nearly an equal number of
+      members as possible shall expire each year."
+  - id: millbury-ma/library-trustees
+    role: Library Trustee
+    seats: 6
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-8(a): "six members elected for terms of three years each,
+      so arranged that the term of office of as nearly an equal number of
+      members as possible shall expire each year."
+  - id: millbury-ma/bvt-school-committee
+    role: Blackstone Valley Regional Vocational School Committee Member
+    seats: 1
+    seat_structure: at-large
+    term_years: 4
+    partisan: false
+    notes: >-
+      Charter §3-9(a) explicitly defers term length to the 13-town regional
+      agreement rather than setting it locally ("for such terms as may be
+      provided under the agreement and laws establishing the same"). seats/
+      term_years here come from an independent member-town source (see
+      sources below), not from Millbury's own charter text — flagged since
+      that's a lower-confidence provenance than the other offices on this
+      page, which quote Millbury's charter directly.
+  - id: millbury-ma/board-of-assessors
+    role: Board of Assessors Member
+    seats: 3
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-10(a): "three members elected for terms of three years
+      each, so arranged that the term of office of one member shall expire
+      each year."
+  - id: millbury-ma/board-of-health
+    role: Board of Health Member
+    seats: 3
+    seat_structure: at-large
+    term_years: 3
+    staggered_terms: true
+    partisan: false
+    notes: >-
+      Charter §3-11(a): "three members elected for terms of three years
+      each, so arranged that the term of office of one member shall expire
+      each year."
+sources:
+  - url: https://ecode360.com/41837111
+    note: >-
+      Millbury Home Rule Charter, Article 3 — Elected Officers. Primary
+      source for every office's seat count and term length above
+      (sections 3-1 through 3-12).
+    retrieved: "2026-08-12"
+  - url: https://www.millburyma.gov
+    note: Official town website; footer confirms CivicPlus as the CMS vendor.
+    retrieved: "2026-08-12"
+  - url: https://www.millburyma.gov/1479/Boards-Committees
+    note: Boards & Committees directory (confirms officials_directory_url).
+    retrieved: "2026-08-12"
+  - url: https://www.millburyma.gov/1407/Town-Clerk
+    note: Town Clerk page (confirms election_authority.url).
+    retrieved: "2026-08-12"
+  - url: https://grafton-ma.gov/611/School-Committee---Blackstone-Valley-Reg
+    note: >-
+      Independent member-town (Grafton, MA) government source confirming
+      the Blackstone Valley Regional Vocational School Committee has 13
+      members "elected locally every four years by ballot vote," one per
+      member town — used since Millbury's own charter (§3-9) defers this
+      detail to the regional agreement.
+    retrieved: "2026-08-12"

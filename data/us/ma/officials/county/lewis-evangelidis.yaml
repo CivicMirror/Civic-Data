@@ -1,0 +1,27 @@
+# REAL OFFICIAL — sourced from the Sheriff's Office's own bio page (gives
+# only "serving since 2011", no dates/vote totals) plus Wikipedia for
+# election history. Only the current (2023–present) term is recorded here
+# with confidence; earlier terms (2011, 2017) weren't independently
+# verified against a primary source this session, so they're omitted
+# rather than guessed at.
+id: ocd-person/2f6a1c4e-8b3d-4a12-9e77-5c0d3f9a61b2
+name: Lewis G. Evangelidis
+roles:
+  - jurisdiction_id: ocd-division/country:us/state:ma/county:worcester
+    office_id: worcester-county-ma/sheriff
+    seat: At-Large
+    term:
+      start: "2023-01-04"
+      how_seated: elected
+contact:
+  profile_url: https://worcestercountysheriff.com/about/sheriff-lew-evangelidis/
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://worcestercountysheriff.com/about/sheriff-lew-evangelidis/
+    note: Official bio page; confirms "serving since 2011" but not exact election dates.
+    retrieved: "2026-08-12"
+  - url: https://en.wikipedia.org/wiki/Lewis_Evangelidis
+    note: Source for re-election in 2022 (current term).
+    retrieved: "2026-08-12"

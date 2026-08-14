@@ -4,7 +4,8 @@
 Runs four layers of checks over data/:
 
   1. Schema validation      — every YAML file matches its JSON Schema.
-  2. Reference integrity    — jurisdiction_id / office_id / official_id resolve.
+  2. Reference integrity    — each role's jurisdiction_id / office_id resolves,
+                               and official_id links resolve.
   3. Duplicate detection    — no duplicate entity IDs anywhere in the repo.
   4. Cross-validation       — officials directory vs. election linkages:
        * an official seated as 'elected' should have a matching election
@@ -124,7 +125,13 @@ def main() -> int:
         doc = load_yaml(path)
         if doc is None:
             continue
-        kind = path.parent.name  # jurisdictions | officials | elections
+        # jurisdictions | officials | elections — the nearest ancestor
+        # directory with one of these names, since each now has tiered
+        # subdirectories (federal/, county/, municipal/, state-upper/, ...).
+        kind = next(
+            (p.name for p in path.parents if p.name in ("jurisdictions", "officials", "elections")),
+            path.parent.name,
+        )
         if kind == "jurisdictions":
             if validate_schema(validators["jurisdiction.schema.json"], doc, path):
                 _register(jurisdictions, doc["id"], doc, path, file_of)
@@ -144,26 +151,42 @@ def main() -> int:
     # ---------- Layer 2: reference integrity ----------
     for oid, doc in officials.items():
         rel = file_of[oid].relative_to(REPO)
-        if doc["jurisdiction_id"] not in jurisdictions:
-            error(f"{rel}: jurisdiction_id '{doc['jurisdiction_id']}' does not resolve")
-        if doc["office_id"] not in offices:
-            error(f"{rel}: office_id '{doc['office_id']}' does not resolve")
-        elif doc["jurisdiction_id"] in jurisdictions:
-            juris_of_office = offices[doc["office_id"]][0]
-            if juris_of_office != doc["jurisdiction_id"]:
-                error(f"{rel}: office '{doc['office_id']}' belongs to "
-                      f"'{juris_of_office}', not '{doc['jurisdiction_id']}'")
+        for i, role in enumerate(doc["roles"]):
+            loc = f"roles[{i}]"
+            jurisdiction_id = role["jurisdiction_id"]
+            office_id = role["office_id"]
+            if jurisdiction_id not in jurisdictions:
+                error(f"{rel}: {loc} — No jurisdiction found for '{jurisdiction_id}'. "
+                      f"Add a jurisdiction file for it before this PR can be merged.")
+                continue
+            if office_id not in offices:
+                juris_name = jurisdictions[jurisdiction_id].get("name", jurisdiction_id)
+                error(f"{rel}: {loc} — No office '{_office_slug(office_id)}' exists in "
+                      f"jurisdiction '{juris_name}' ({jurisdiction_id}). Add the office to "
+                      f"that jurisdiction file's 'offices' list before this PR can be merged.")
+                continue
+            juris_of_office = offices[office_id][0]
+            if juris_of_office != jurisdiction_id:
+                error(f"{rel}: {loc} — Office '{office_id}' belongs to jurisdiction "
+                      f"'{juris_of_office}', not '{jurisdiction_id}'. Fix the office_id/"
+                      f"jurisdiction_id pairing before this PR can be merged.")
 
     for lid, doc in linkages.items():
         rel = file_of[lid].relative_to(REPO)
-        if doc["jurisdiction_id"] not in jurisdictions:
-            error(f"{rel}: jurisdiction_id '{doc['jurisdiction_id']}' does not resolve")
-        if doc["office_id"] not in offices:
-            error(f"{rel}: office_id '{doc['office_id']}' does not resolve")
+        jurisdiction_id = doc["jurisdiction_id"]
+        office_id = doc["office_id"]
+        if jurisdiction_id not in jurisdictions:
+            error(f"{rel}: No jurisdiction found for '{jurisdiction_id}'. "
+                  f"Add a jurisdiction file for it before this PR can be merged.")
+        elif office_id not in offices:
+            juris_name = jurisdictions[jurisdiction_id].get("name", jurisdiction_id)
+            error(f"{rel}: No office '{_office_slug(office_id)}' exists in jurisdiction "
+                  f"'{juris_name}' ({jurisdiction_id}). Add the office to that jurisdiction "
+                  f"file's 'offices' list before this PR can be merged.")
         for w in doc["winners"]:
             pid = w.get("official_id")
             if pid and pid not in officials:
-                error(f"{rel}: winner official_id '{pid}' does not resolve")
+                error(f"{rel}: Winner official_id '{pid}' does not resolve to any official record.")
 
     # ---------- Layer 4: cross-validation ----------
     # Index: most recent certified linkage per office.
@@ -177,7 +200,8 @@ def main() -> int:
 
     officials_by_office: dict[str, list[dict]] = defaultdict(list)
     for doc in officials.values():
-        officials_by_office[doc["office_id"]].append(doc)
+        for role in doc["roles"]:
+            officials_by_office[role["office_id"]].append(doc)
 
     findings = 0
 
@@ -209,18 +233,19 @@ def main() -> int:
 
     # 4c. Elected officials should trace back to an election linkage.
     for oid, doc in officials.items():
-        if doc.get("term", {}).get("how_seated") != "elected":
-            continue
-        office_links = [l for l in linkages.values() if l["office_id"] == doc["office_id"]]
-        traced = any(
-            norm_name(w["name"]) == norm_name(doc["name"]) or w.get("official_id") == oid
-            for l in office_links for w in l["winners"]
-        )
-        if not traced:
-            findings += 1
-            warn(f"CROSS[no-election-trace] {file_of[oid].relative_to(REPO)}: "
-                 f"'{doc['name']}' is recorded as elected to '{doc['office_id']}' "
-                 f"but no election linkage names them.")
+        for role in doc["roles"]:
+            if role.get("term", {}).get("how_seated") != "elected":
+                continue
+            office_links = [l for l in linkages.values() if l["office_id"] == role["office_id"]]
+            traced = any(
+                norm_name(w["name"]) == norm_name(doc["name"]) or w.get("official_id") == oid
+                for l in office_links for w in l["winners"]
+            )
+            if not traced:
+                findings += 1
+                warn(f"CROSS[no-election-trace] {file_of[oid].relative_to(REPO)}: "
+                     f"'{doc['name']}' is recorded as elected to '{role['office_id']}' "
+                     f"but no election linkage names them.")
 
     # ---------- Report ----------
     print(f"Validated: {len(jurisdictions)} jurisdictions, {len(offices)} offices, "
@@ -245,6 +270,11 @@ def main() -> int:
         return 1
     print("PASSED" + (f" with {len(WARNINGS)} warning(s) for human review" if WARNINGS else ""))
     return 0
+
+
+def _office_slug(office_id: str) -> str:
+    """'<jurisdiction-slug>/<office-slug>' -> '<office-slug>', for friendlier messages."""
+    return office_id.split("/")[-1]
 
 
 def _register(store: dict, key: str, value, path: Path, file_of: dict,
