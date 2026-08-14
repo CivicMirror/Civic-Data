@@ -1,0 +1,50 @@
+id: ocd-person/4413eb0b-1705-4bd7-81ff-cc8f18293299
+name: William R. Keating
+roles:
+- jurisdiction_id: ocd-division/country:us/state:ma/cd:9
+  office_id: ma-9/us-representative
+  seat: At-Large
+  term:
+    start: '2013-01-03'
+    how_seated: elected
+contact:
+  phone: (202) 225-3111
+  profile_url: https://keating.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2372 Rayburn HOB;Washington, DC 20515
+  phone: (202) 225-3111
+  fax: (202) 225-5658
+- classification: district
+  name: Hyannis District Office
+  address: 251 Stevens Street, Suite E;Hyannis, MA 02601
+  phone: (508) 771-6868
+  fax: (508) 790-1959
+- classification: district
+  name: New Bedford District Office
+  address: 128 Union Street, Suite 103;New Bedford, MA 02740
+  phone: (508) 999-6462
+  fax: (508) 999-6468
+- classification: district
+  name: Plymouth District Office
+  address: 5 Natalie Way, Suite B;Plymouth, MA 02360
+  phone: (508) 746-9000
+  fax: (508) 732-0072
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://en.wikipedia.org/wiki/Bill_Keating
+  note: Source for district history (MA-10 2011-2013, MA-09 2013-present)
+  retrieved: '2026-08-12'
+- url: https://keating.house.gov
+  note: Official U.S. House website
+  retrieved: '2026-08-12'
+- url: https://keating.house.gov/contact
+  note: "Official contact page \u2014 source for D.C. and district office addresses/phone/fax\
+    \ (user-provided, could not be fetched directly to verify \u2014 that request\
+    \ was blocked)"
+  retrieved: '2026-08-12'
+identifiers: []
+candidacies: []

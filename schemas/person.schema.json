@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/person.schema.json",
+  "title": "Person",
+  "description": "A person who may be an officeholder, candidate, or both.",
+  "type": "object",
+  "required": ["id", "name", "roles", "candidacies", "verification", "sources"],
+  "additionalProperties": false,
+  "anyOf": [
+    {"required": ["roles"], "properties": {"roles": {"minItems": 1}}},
+    {"required": ["candidacies"], "properties": {"candidacies": {"minItems": 1}}}
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ocd-person/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "name": {"type": "string", "minLength": 1},
+    "identifiers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["scheme", "identifier"],
+        "additionalProperties": false,
+        "properties": {
+          "scheme": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+          "identifier": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "candidacies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["contest_id", "election_id", "jurisdiction_id", "office_id", "party", "ballot_name"],
+        "additionalProperties": false,
+        "properties": {
+          "contest_id": {"type": "string", "minLength": 1},
+          "election_id": {"type": "string", "minLength": 1},
+          "jurisdiction_id": {"type": "string", "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"},
+          "office_id": {"type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"},
+          "party": {"type": ["string", "null"]},
+          "ballot_name": {"type": "string", "minLength": 1},
+          "status": {"type": "string", "enum": ["unknown", "active", "withdrawn", "disqualified"]},
+          "sources": {"$ref": "https://github.com/CivicMirror/Civic-Data/schemas/person.schema.json#/$defs/sources"}
+        }
+      }
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["jurisdiction_id", "office_id"],
+        "additionalProperties": false,
+        "properties": {
+          "jurisdiction_id": {"type": "string", "pattern": "^ocd-division/country:us(/[a-z_]+:[a-z0-9~_.-]+)+$"},
+          "office_id": {"type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$"},
+          "seat": {"type": "string"},
+          "term": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start": {"type": "string", "format": "date"},
+              "end": {"type": "string", "format": "date"},
+              "how_seated": {"type": "string", "enum": ["elected", "appointed", "succeeded", "acting"]}
+            }
+          }
+        }
+      }
+    },
+    "image": {"type": "string", "format": "uri"},
+    "contact": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"email": {"type": "string"}, "phone": {"type": "string"}, "profile_url": {"type": "string", "format": "uri"}}
+    },
+    "addresses": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["classification"], "additionalProperties": false,
+        "properties": {
+          "classification": {"type": "string", "enum": ["capitol", "district"]},
+          "name": {"type": "string"}, "address": {"type": "string"}, "phone": {"type": "string"}, "fax": {"type": "string"}
+        }
+      }
+    },
+    "verification": {
+      "type": "object", "required": ["status"], "additionalProperties": false,
+      "properties": {
+        "status": {"type": "string", "enum": ["unverified", "machine-extracted", "volunteer-verified", "disputed"]},
+        "reviewed_by": {"type": "string"}, "reviewed_on": {"type": "string", "format": "date"}, "pipeline": {"type": "string"}
+      }
+    },
+    "sources": {"$ref": "#/$defs/sources"}
+  },
+  "$defs": {
+    "sources": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["url"], "additionalProperties": false,
+        "properties": {"url": {"type": "string", "format": "uri"}, "note": {"type": "string"}, "retrieved": {"type": "string", "format": "date"}}
+      }
+    }
+  }
+}

@@ -6,6 +6,8 @@ on:
       - "data/**"
       - "schemas/**"
       - "scripts/**"
+      - "tests/**"
+      - "docs/**"
   push:
     branches: [main]
 
@@ -24,6 +26,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+
+      - name: Run tests
+        run: python -m pytest -q
 
       - name: Validate schemas, references, and cross-validation
         run: python scripts/validate.py
