@@ -1,0 +1,27 @@
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-person/9c771c4e-8b3d-4a12-2f6a-5c0d3f9a61b2
+name: Joseph D. Early, Jr.
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/district_attorney:middle/executive
+    office_id: worcester-middle-da/district-attorney
+    seat: At-Large
+    term:
+      start: '2023-01-04'
+      how_seated: elected
+identifiers: []
+candidacies: []
+contact:
+  profile_url: https://worcesterda.com/about/meet-your-da/
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://worcesterda.com/about/meet-your-da/
+    note: Official bio -- first elected Nov 7, 2006 with 78% of the vote; serving since Jan 2007.
+    retrieved: '2026-08-12'
+  - url: https://electionstats.state.ma.us
+    note: 2022 re-election (current term) found via secondary/aggregated search results, not independently confirmed against a primary electionstats.state.ma.us record this session.
+    retrieved: '2026-08-12'

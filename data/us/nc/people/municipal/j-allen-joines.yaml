@@ -1,0 +1,29 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/d9a48a53-ed51-4226-b58e-208dbc7605ff
+name: J. Allen Joines
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+    office_id: winston-salem/mayor
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 99e4b80b-b62c-4d43-9e3a-fece108fe171
+candidacies: []
+contact:
+  email: mayorsoffice@cityofws.org
+  phone: "(336) 727-2058"
+  profile_url: https://www.cityofws.org/3194/Biography
+image: https://www.cityofws.org/ImageRepository/Document?documentId=37491
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.cityofws.org/556/Mayor
+    retrieved: "2026-08-14"

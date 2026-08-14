@@ -1,0 +1,44 @@
+# REAL JURISDICTION -- the Commonwealth of Massachusetts's federal U.S. Senate
+# delegation. U.S. Senators are elected statewide, not by district (unlike U.S.
+# Representatives -- see jurisdictions/federal/cd-1..9.yaml), so this jurisdiction
+# hangs off the state division itself rather than any single district.
+#
+# classification 'legislature' is a reasoned local choice, not an unambiguous
+# fit: it represents Massachusetts's *federal* legislative delegation, not any
+# future record for the Commonwealth's own General Court (state legislature),
+# which would naturally also want classification 'legislature' on this same
+# division. If that's ever added, disambiguate by minting a distinct id (e.g.
+# a 'state-legislature' suffix) rather than colliding with this file's id.
+#
+# The two Senate seats are modeled as separate Posts (not one Post with
+# seats: 2) because Massachusetts's two Senators are elected in different years
+# on staggered 6-year terms (Class I: Warren, next up 2030; Class II: Markey,
+# next up 2026) -- they are not interchangeable at-large seats filled by the
+# same contest.
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-jurisdiction/country:us/state:ma/legislature
+name: Massachusetts (U.S. Senate delegation)
+state: ma
+division_id: ocd-division/country:us/state:ma
+classification: legislature
+government_form: representative democracy (Governor + bicameral General Court)
+website: https://www.mass.gov/
+site_intelligence:
+  notes: >-
+    No single directory page lists both U.S. Senators together; each Senator's
+    official senate.gov site is the source for their own contact/office info
+    (see data/us/ma/people/federal/elizabeth-warren.yaml and ed-markey.yaml).
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+sources:
+  - url: https://www.senate.gov/MA/intro.htm
+    note: Official U.S. Senate directory page for Massachusetts's two Senate seats
+    retrieved: "2026-08-14"
+  - url: https://www.mass.gov/
+    note: Official Commonwealth of Massachusetts website (used as jurisdiction website)
+    retrieved: "2026-08-14"

@@ -1,0 +1,17 @@
+# Replaces the single sentinel placeholder (ocd-person/00000000-...-000000000001)
+# with the board's 5 real, sourced members. Sources: CivicPatch open-data
+# pipeline_run_context.json for county_worcester__place_millbury, cross-checked
+# against https://www.millburyma.gov/1506/Board-of-Selectmen and the town's
+# official 2026 Annual Town Election results (388 votes, 3-year term, uncontested).
+id: millbury-select-board-brian-sora-membership
+person_id: ocd-person/3f84c024-d0df-42d6-b50d-91d747e19de1
+organization_id: ocd-organization/550e8400-e29b-41d4-a716-446655440000
+post_id: millbury-ma/select-board-member
+role: Vice Chair
+start: '2026-04-28'
+end: '2029-04'
+sources:
+  - url: https://www.millburyma.gov/1506/Board-of-Selectmen
+    retrieved: "2026-08-14"
+  - url: https://www.millburyma.gov/DocumentCenter/View/5766/Annual-Town-Election-Official-Results-April-28-2026-
+    retrieved: "2026-08-14"

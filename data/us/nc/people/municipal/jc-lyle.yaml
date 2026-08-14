@@ -1,0 +1,29 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/690cef4f-e2c7-494c-bbf9-6c4881a5ff9d
+name: JC Lyle
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+    office_id: wilmington/council-member
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 4b2ec21f-2288-4147-b197-c4c5e82ab118
+candidacies: []
+contact:
+  email: jc.lyle@wilmingtonnc.gov
+  phone: "(910) 632-0923"
+  profile_url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council/JC-Lyle
+image: https://www.wilmingtonnc.gov/files/assets/city/v/1/government/images/council-headshots/dec.-2025/lyle_jc_web2.jpg?dimension=userprofile&w=150&h=150
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
+    retrieved: "2026-08-14"

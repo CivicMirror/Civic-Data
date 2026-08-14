@@ -1,0 +1,27 @@
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-person/8b3d4a12-9e77-42f6-a1c4-e5c0d3f9a61b
+name: Kathryn A. Toomey
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/county:worcester/executive
+    office_id: worcester-county-ma/register-of-deeds
+    seat: At-Large
+    term:
+      start: '2025-01-01'
+      how_seated: elected
+identifiers: []
+candidacies: []
+contact:
+  profile_url: https://massrods.com/worcester/meet-the-team/
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://massrods.com/worcester/meet-the-team/
+    note: Official registry staff page confirming current Register.
+    retrieved: '2026-08-12'
+  - url: https://electionstats.state.ma.us/elections/view/165370/
+    note: 2024 general election result -- re-elected uncontested, 96.60% of vote.
+    retrieved: '2026-08-12'

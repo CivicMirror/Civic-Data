@@ -1,0 +1,45 @@
+# Replaces the single sentinel placeholder (ocd-person/00000000-...-000000000001)
+# with the board's 5 real, sourced members. Sources: CivicPatch open-data
+# pipeline_run_context.json for county_worcester__place_millbury, cross-checked
+# against https://www.millburyma.gov/1506/Board-of-Selectmen (both agree on
+# name, title, and term-end date for all 5), plus the town's official 2025
+# and 2026 Annual Town Election results documents. `term.start` is the
+# election date -- the town's own inauguration/oath date isn't separately
+# published. This 1-year term (vs. the board's usual 3-year term) fills a
+# vacancy; the official results don't state which seat/departing member.
+id: ocd-person/1d8249a8-b66b-4cd9-bde9-568edae0e5a8
+name: Michael R. Gilchrist
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    seat: At-Large
+    term:
+      start: '2026-04-28'
+      end: '2027-04'
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: af078fc6-237b-4b6d-b2d8-ea8142651d9e
+candidacies:
+  - contest_id: millbury-ma/2026-04-28/select-board-member-1yr
+    election_id: millbury-ma/2026-04-28/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    party: null
+    ballot_name: Michael R. Gilchrist
+    status: active
+contact:
+  email: mgilchrist@millburyma.gov
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.millburyma.gov/1506/Board-of-Selectmen
+    note: "Official Board of Selectmen roster -- title 'Member' and term-end date"
+    retrieved: "2026-08-14"
+  - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data_source/ma/local/county_worcester__place_millbury/pipeline_run_context.json
+    note: "CivicPatch pipeline output; cross-checked against the town site above"
+    retrieved: "2026-08-14"
+  - url: https://www.millburyma.gov/DocumentCenter/View/5766/Annual-Town-Election-Official-Results-April-28-2026-
+    note: "Official Annual Town Election Results, April 28, 2026 -- 368 votes vs. Richaed F. Gosselin Jr.'s 99, 1-year term"
+    retrieved: "2026-08-14"

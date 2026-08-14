@@ -1,0 +1,42 @@
+# Two Select Board contests were on the same ballot: a regular 3-year seat
+# (Sora, uncontested apart from write-ins) and a 1-year seat filling a
+# vacancy (Gilchrist vs. Gosselin). Only the winners are in candidate_ids/
+# winners -- Richaed F. Gosselin Jr., the 1-year seat's runner-up (99 votes),
+# is not modeled as a Person record since he never held the office in this
+# dataset. Both contests share office_id 'millbury-ma/select-board-member'
+# since this dataset models one formal Post for the board regardless of
+# term length; `seat` on each contest distinguishes them.
+id: millbury-ma/2026-04-28/general
+name: Millbury 2026-04-28 annual town election
+date: '2026-04-28'
+election_type: general
+status: certified
+contests:
+  - id: millbury-ma/2026-04-28/select-board-member-3yr
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/3f84c024-d0df-42d6-b50d-91d747e19de1
+    result_status: certified
+    winners:
+      - person_id: ocd-person/3f84c024-d0df-42d6-b50d-91d747e19de1
+        name: Brian A. Sora
+        votes: 388
+    seat: 3-Year Term
+  - id: millbury-ma/2026-04-28/select-board-member-1yr
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/1d8249a8-b66b-4cd9-bde9-568edae0e5a8
+    result_status: certified
+    winners:
+      - person_id: ocd-person/1d8249a8-b66b-4cd9-bde9-568edae0e5a8
+        name: Michael R. Gilchrist
+        votes: 368
+    seat: 1-Year Term
+sources:
+  - url: https://www.millburyma.gov/DocumentCenter/View/5766/Annual-Town-Election-Official-Results-April-28-2026-
+    note: "Official Annual Town Election Results, April 28, 2026 (Town Clerk attest copy); Board of Selectmen 3yrs and 1yr contests"
+    retrieved: "2026-08-14"

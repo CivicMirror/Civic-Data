@@ -1,0 +1,31 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/c17622ba-d265-42a3-9821-ac4f9821c1c6
+name: Nate Baker
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+    office_id: durham/council-member
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 201abd17-504c-4a7d-b715-a906dcfc54b3
+candidacies: []
+contact:
+  email: nate.baker@durhamnc.gov
+  phone: "(919) 560-4396"
+  profile_url: https://www.durhamnc.gov/4797/Nate-Baker
+image: https://www.durhamnc.gov/ImageRepository/Document?documentId=53762
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.durhamnc.gov/Directory.aspx?did=131
+    retrieved: "2026-08-14"
+  - url: https://www.durhamnc.gov/1323/City-Council
+    retrieved: "2026-08-14"

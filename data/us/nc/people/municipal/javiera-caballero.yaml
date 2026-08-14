@@ -1,0 +1,31 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/79a2fc06-b1a1-4dbd-bf5d-bf14448c56b0
+name: Javiera Caballero
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+    office_id: durham/council-member
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 2acb6a45-d80d-4716-8510-a7dabc03d68f
+candidacies: []
+contact:
+  email: javiera.caballero@durhamnc.gov
+  phone: "(919) 560-4396"
+  profile_url: https://www.durhamnc.gov/directory.aspx?EID=860
+image: https://www.durhamnc.gov/ImageRepository/Document?documentId=53769
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.durhamnc.gov/Directory.aspx?did=131
+    retrieved: "2026-08-14"
+  - url: https://www.durhamnc.gov/1323/City-Council
+    retrieved: "2026-08-14"

@@ -1,0 +1,61 @@
+# Replaces the single sentinel placeholder (ocd-person/00000000-...-000000000001)
+# with the board's 5 real, sourced members. Sources: CivicPatch open-data
+# pipeline_run_context.json for county_worcester__place_millbury, cross-checked
+# against https://www.millburyma.gov/1506/Board-of-Selectmen (both agree on
+# name, title, and term-end date for all 5), plus the town's official 2025
+# and 2026 Annual Town Election results documents. `term.start` is the
+# election date -- the town's own inauguration/oath date isn't separately
+# published.
+id: ocd-person/3f84c024-d0df-42d6-b50d-91d747e19de1
+name: Brian A. Sora
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    seat: At-Large
+    term:
+      start: '2023-04-25'
+      end: '2026-04-28'
+      how_seated: elected
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    seat: At-Large
+    term:
+      start: '2026-04-28'
+      end: '2029-04'
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: d07a07ad-df5a-4c9b-b970-1373e520b5a3
+candidacies:
+  - contest_id: millbury-ma/2023-04-25/select-board-member
+    election_id: millbury-ma/2023-04-25/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    party: null
+    ballot_name: Brian A. Sora
+    status: active
+  - contest_id: millbury-ma/2026-04-28/select-board-member-3yr
+    election_id: millbury-ma/2026-04-28/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    party: null
+    ballot_name: Brian A. Sora
+    status: active
+contact:
+  email: bsora@millburyma.gov
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.millburyma.gov/1506/Board-of-Selectmen
+    note: "Official Board of Selectmen roster -- title 'Vice Chair' and term-end date"
+    retrieved: "2026-08-14"
+  - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data_source/ma/local/county_worcester__place_millbury/pipeline_run_context.json
+    note: "CivicPatch pipeline output; cross-checked against the town site above"
+    retrieved: "2026-08-14"
+  - url: https://www.millburyma.gov/DocumentCenter/View/5766/Annual-Town-Election-Official-Results-April-28-2026-
+    note: "Official Annual Town Election Results, April 28, 2026 -- 388 votes, 3-year term, uncontested"
+    retrieved: "2026-08-14"
+  - url: https://www.millburyma.gov/DocumentCenter/View/4214/Official-Results
+    note: "Official Annual Town Election Results, April 25, 2023 -- 572 votes, 3-year term, uncontested"
+    retrieved: "2026-08-14"

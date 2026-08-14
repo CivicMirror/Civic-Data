@@ -1,0 +1,43 @@
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-person/fc7fc123-48cb-4198-a804-39284c819885
+name: Stephen F. Lynch
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/cd:8/legislature
+    office_id: ma-8/us-representative
+    seat: At-Large
+    term:
+      start: '2013-01-03'
+      how_seated: elected
+identifiers: []
+candidacies: []
+contact:
+  phone: (202) 225-8273
+  profile_url: https://lynch.house.gov
+addresses:
+  - classification: capitol
+    name: Washington, D.C. Office
+    address: 2109 Rayburn House Office Building;Washington, DC 20515
+    phone: (202) 225-8273
+  - classification: district
+    name: Boston District Office
+    address: One Harbor Street, Suite 304 (South Entrance);Boston, MA 02210
+    phone: (617) 428-2000
+    fax: (617) 428-2011
+  - classification: district
+    name: Brockton District Office
+    address: 37 Belmont Street, 2nd Floor, Suite 3;Brockton, MA 02301
+    phone: (508) 586-5555
+    fax: (508) 580-4692
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://en.wikipedia.org/wiki/Stephen_F._Lynch
+    note: Source for district history (MA-09 2001-2013, MA-08 2013-present)
+    retrieved: '2026-08-12'
+  - url: https://lynch.house.gov
+    note: Official U.S. House website
+    retrieved: '2026-08-12'

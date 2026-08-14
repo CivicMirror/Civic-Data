@@ -1,0 +1,29 @@
+# Only Mary Krumsiek is in candidate_ids/winners -- her co-winner, Scott
+# DePres, is not modeled as a Person record since he is not a current
+# Select Board member tracked in this dataset (see FRESH-START-ORGANIZATIONS.md;
+# this repo only builds Person records for current officeholders plus their
+# own sourced history, not every past candidate/winner). This is Krumsiek's
+# first documented term, preceding her 2025 re-election
+# (millbury-ma--2025-04-29--select-board-member.yaml).
+id: millbury-ma/2022-04-26/general
+name: Millbury 2022-04-26 annual town election
+date: '2022-04-26'
+election_type: general
+status: certified
+contests:
+  - id: millbury-ma/2022-04-26/select-board-member
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    vote_for: 2
+    candidate_ids:
+      - ocd-person/60b70620-8b48-4474-add2-aac404a8157c
+    result_status: certified
+    winners:
+      - person_id: ocd-person/60b70620-8b48-4474-add2-aac404a8157c
+        name: Mary Krumsiek
+        votes: 729
+    seat: 3-Year Term
+sources:
+  - url: https://www.millburyma.gov/DocumentCenter/View/4220/Official-Results
+    note: "Official Annual Town Election Results, April 26, 2022; Board of Selectmen, 3 yrs, vote for two. Also elects Nicholas Lazzaro to the School Committee (not the Select Board) -- see nicholas-lazzaro.yaml's disputed verification note."
+    retrieved: "2026-08-14"

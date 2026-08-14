@@ -1,0 +1,16 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: durham-mayor-leonardo-williams-membership
+person_id: ocd-person/26c4f8f3-a1e3-4953-81d8-3cf61d3685c4
+organization_id: ocd-organization/6838fed3-6416-4278-896e-0555687339d3
+post_id: durham/mayor
+role: Mayor
+sources:
+  - url: https://www.durhamnc.gov/1323/City-Council
+    retrieved: "2026-08-14"
+  - url: https://www.durhamnc.gov/1315/Office-of-the-Mayor
+    retrieved: "2026-08-14"

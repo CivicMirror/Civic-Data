@@ -1,0 +1,22 @@
+# website is the root domain inferred from CivicPatch's source URLs, not
+# independently verified against the town's own homepage this session.
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-jurisdiction/country:us/state:nc/place:princeville/government
+name: Princeville Government
+state: nc
+division_id: ocd-division/country:us/state:nc/place:princeville
+classification: government
+website: https://www.princeville.gov
+election_authority:
+  name: North Carolina State Board of Elections
+  level: state
+  url: https://www.ncsbe.gov/
+sources:
+  - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data/nc/local/place_princeville.yml
+    note: CivicPatch open-data source record
+    retrieved: "2026-08-14"

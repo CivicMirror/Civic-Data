@@ -1,0 +1,29 @@
+# SAMPLE DATA -- structure is real, current-officeholder details are
+# best-effort and should be reverified before relying on them.
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-jurisdiction/country:us/state:ma/cd:6/legislature
+name: Massachusetts's 6th congressional district (U.S. House delegation)
+state: ma
+division_id: ocd-division/country:us/state:ma/cd:6
+classification: legislature
+government_form: single-member district (U.S. House of Representatives)
+website: https://www.govtrack.us/congress/members/MA/6
+site_intelligence:
+  officials_directory_url: https://www.govtrack.us/congress/members/MA/6
+  election_results_url: https://electionstats.state.ma.us
+  election_results_vendor: state ElectionStats (federal contests certified by the Secretary of the Commonwealth)
+  notes: >-
+    Federal district with no government of its own, so there is no official district website -- the current officeholder's own record lives in data/us/ma/people/federal/seth-moulton.yaml. GovTrack's per-district page is used here as a neutral, district-indexed reference (URL keyed to the district, not the person) rather than the officeholder's site.
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+sources:
+  - url: https://www.govtrack.us/congress/members/MA/6
+    note: >-
+      GovTrack district page (sample); used because congressional districts
+      have no official government website of their own
+    retrieved: "2026-08-14"

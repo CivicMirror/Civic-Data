@@ -1,0 +1,29 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/f164aebd-cb0d-4712-b6c7-d0b9dcec189d
+name: Donyel Barber
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+    office_id: gastonia/council-member
+    seat: Ward 6
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: c0ac812e-fc74-4078-8937-c8808208501f
+candidacies: []
+contact:
+  email: ward6.barber@gastonianc.gov
+  phone: "(704) 460-4517"
+  profile_url: https://www.gastonianc.gov/ward-6.html
+image: https://www.gastonianc.gov/images/files/city_council_mayor/images/DonyellBarber-D2059663-Edit.jpg
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.gastonianc.gov/city-council-info.html
+    retrieved: "2026-08-14"

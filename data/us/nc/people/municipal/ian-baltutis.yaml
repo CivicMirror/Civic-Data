@@ -1,0 +1,31 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/eeb22f80-f0c4-4e5c-ba72-ba5952547b66
+name: Ian Baltutis
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:burlington/government
+    office_id: burlington/council-member
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 926ad617-f520-4ee6-8a66-b546e544c586
+candidacies: []
+contact:
+  email: ibaltutis@burlingtonnc.gov
+  phone: "(763) 218-0266"
+  profile_url: https://burlingtonnc.gov/2924/44999/Ian-Baltutis-Councilmember
+image: https://burlingtonnc.gov/ImageRepository/Document?documentId=28466
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://burlingtonnc.gov/2924/44999/Ian-Baltutis-Councilmember?activeLiveTab=widgets#liveEditTab_propertiesTab
+    retrieved: "2026-08-14"
+  - url: https://burlingtonnc.gov/43/City-Council
+    retrieved: "2026-08-14"

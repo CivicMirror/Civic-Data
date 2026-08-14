@@ -1,0 +1,32 @@
+# CivicPatch start_date '2023' is not a full date; term.start omitted
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/cb675d8f-61a1-421f-ba63-4297faa11452
+name: Dejuana Bigelow
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:burlington/government
+    office_id: burlington/council-member
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: b2f108ff-2237-444f-9c0a-f1b7d07f0fbe
+candidacies: []
+contact:
+  email: dbigelow@burlingtonnc.gov
+  phone: "(336) 222-5020"
+  profile_url: https://burlingtonnc.gov/2603/Dejuana-Bigelow-Councilmember
+image: https://burlingtonnc.gov/ImageRepository/Document?documentId=28467
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://burlingtonnc.gov/2603/Dejuana-Bigelow-Councilmember
+    retrieved: "2026-08-14"
+  - url: https://burlingtonnc.gov/43/City-Council
+    retrieved: "2026-08-14"

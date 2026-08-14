@@ -1,0 +1,29 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/fe4e2e76-470a-43cf-84ac-cc7e81d4c7c7
+name: Angela Dreher
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+    office_id: gastonia/council-member
+    seat: Ward 4
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 988d91e6-a03e-4dac-8fdb-ea7fa415c4bc
+candidacies: []
+contact:
+  email: ward4.dreher@gastonianc.gov
+  phone: "(704) 460-0773"
+  profile_url: https://www.gastonianc.gov/city-council-info.html?view=article&id=3038:ward-4-angela-dreher&catid=8:article
+image: https://www.gastonianc.gov/images/files/city_council_mayor/images/AngelaDreher-D2110244-Edit_Website.jpg
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.gastonianc.gov/city-council-info.html
+    retrieved: "2026-08-14"

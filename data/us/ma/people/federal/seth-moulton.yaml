@@ -1,0 +1,38 @@
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-person/845a8854-b1f3-4fb2-8b07-9e1918fd0349
+name: Seth W. Moulton
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/cd:6/legislature
+    office_id: ma-6/us-representative
+    seat: At-Large
+    term:
+      start: '2015-01-03'
+      how_seated: elected
+identifiers: []
+candidacies: []
+contact:
+  phone: (202) 225-8020
+  profile_url: https://moulton.house.gov
+addresses:
+  - classification: capitol
+    name: Washington, D.C. Office
+    address: 1126 Longworth House Office Building;Washington, DC 20515
+    phone: (202) 225-8020
+  - classification: district
+    name: Salem District Office
+    address: 21 Front Street;Salem, MA 01970
+    phone: (978) 531-1669
+    fax: (771) 200-5585
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://en.wikipedia.org/wiki/Seth_Moulton
+    note: Source for swearing-in date
+    retrieved: '2026-08-12'
+  - url: https://moulton.house.gov
+    note: Official U.S. House website
+    retrieved: '2026-08-12'

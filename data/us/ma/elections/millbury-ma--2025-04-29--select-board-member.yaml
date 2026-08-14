@@ -1,0 +1,32 @@
+# Only the winners (Krumsiek, Tagg) are in candidate_ids/winners -- the two
+# other names on this ballot (Alan F. D'Allesandro, Jr. and Juliette-Marie
+# Isabella Somerset) are not modeled as Person records since they never held
+# the office in this dataset, consistent with how the MA congressional
+# delegation elections only record candidates this repo tracks as
+# officeholders.
+id: millbury-ma/2025-04-29/general
+name: Millbury 2025-04-29 annual town election
+date: '2025-04-29'
+election_type: general
+status: certified
+contests:
+  - id: millbury-ma/2025-04-29/select-board-member
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    vote_for: 2
+    candidate_ids:
+      - ocd-person/60b70620-8b48-4474-add2-aac404a8157c
+      - ocd-person/2af4bbc6-85ea-4e2a-befe-0bb3d7244df5
+    result_status: certified
+    winners:
+      - person_id: ocd-person/60b70620-8b48-4474-add2-aac404a8157c
+        name: Mary Krumsiek
+        votes: 470
+      - person_id: ocd-person/2af4bbc6-85ea-4e2a-befe-0bb3d7244df5
+        name: Brian T. Tagg
+        votes: 350
+    seat: 3-Year Term
+sources:
+  - url: https://www.millburyma.gov/DocumentCenter/View/4207/Official-Results
+    note: "Official Annual Town Election Results, April 29, 2025 (Town Clerk attest copy); Board of Selectmen, 3 yrs, vote for two"
+    retrieved: "2026-08-14"

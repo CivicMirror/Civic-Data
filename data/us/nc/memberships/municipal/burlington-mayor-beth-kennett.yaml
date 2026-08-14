@@ -1,0 +1,16 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: burlington-mayor-beth-kennett-membership
+person_id: ocd-person/c0bbeae7-fcc0-4a8e-9d0b-2b26746c5348
+organization_id: ocd-organization/c708aa93-2a24-45ea-9be0-ba3f58213e41
+post_id: burlington/mayor
+role: Mayor
+sources:
+  - url: https://burlingtonnc.gov/43/City-Council
+    retrieved: "2026-08-14"
+  - url: https://burlingtonnc.gov/2922/Beth-Kennett-Mayor
+    retrieved: "2026-08-14"

@@ -1,0 +1,31 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/c86a0b0d-a119-46b7-b7f8-d29a764f68de
+name: Barbara H. Burke
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+    office_id: winston-salem/council-member
+    seat: Ward Northeast
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 3952ad73-a879-4f6e-ab3b-b3183534d13b
+candidacies: []
+contact:
+  email: bhburke@cityofws.org
+  phone: "(336) 771-5172"
+  profile_url: https://www.cityofws.org/3555/Council-Member-Barbara-H-Burke
+image: https://www.cityofws.org/ImageRepository/Document?documentId=36344
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.cityofws.org/3499/City-Council
+    retrieved: "2026-08-14"
+  - url: https://www.cityofws.org/3555/Council-Member-Barbara-H-Burke
+    retrieved: "2026-08-14"

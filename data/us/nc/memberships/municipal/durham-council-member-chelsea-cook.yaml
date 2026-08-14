@@ -1,0 +1,16 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: durham-council-member-chelsea-cook-membership
+person_id: ocd-person/4f1c3e43-cda9-4527-a933-0609542cb8b4
+organization_id: ocd-organization/6838fed3-6416-4278-896e-0555687339d3
+post_id: durham/council-member
+role: Council Member
+sources:
+  - url: https://www.durhamnc.gov/Directory.aspx?did=131
+    retrieved: "2026-08-14"
+  - url: https://www.durhamnc.gov/1323/City-Council
+    retrieved: "2026-08-14"

@@ -1,0 +1,41 @@
+# REAL JURISDICTION -- Massachusetts's "Middle District" district attorney's
+# district (Worcester County DA Joseph D. Early, Jr.).
+#
+# NOT modeled as part of ocd-jurisdiction/.../county:worcester/executive: the
+# Middle District is not coextensive with Worcester County -- it excludes the
+# Worcester County town of Athol and includes Bellingham, which is in Norfolk
+# County. (worcesterda.com/about/meet-your-da/)
+#
+# division_id and classification are this repo's own construction, not an
+# adopted OCD-registry convention -- opencivicdata/ocd-division-ids#195
+# discusses prosecutor/DA districts but never landed a merged convention; this
+# follows maintainer rsimoes' fallback proposal there: mint a new id
+# subordinated to the state when no county or judicial-district id fits.
+# Treat as a reasoned local choice, not a canonical standard.
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-jurisdiction/country:us/state:ma/district_attorney:middle/executive
+name: Middle District (Worcester County district attorney district)
+state: ma
+division_id: ocd-division/country:us/state:ma/district_attorney:middle
+classification: executive
+government_form: single-officer prosecutorial district (Massachusetts district attorney)
+website: https://worcesterda.com
+site_intelligence:
+  officials_directory_url: https://worcesterda.com/about/meet-your-da/
+  notes: >-
+    Middle District = all 60 Worcester County municipalities except Athol,
+    plus Bellingham (Norfolk County).
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+sources:
+  - url: https://worcesterda.com/about/meet-your-da/
+    note: Office overview -- confirms Middle District's town list, Athol exclusion, Bellingham inclusion.
+    retrieved: "2026-08-12"
+  - url: https://github.com/opencivicdata/ocd-division-ids/issues/195
+    note: Upstream OCD issue on prosecutor/DA district ids; never merged, used as the basis for this file's id/classification choices.
+    retrieved: "2026-08-12"

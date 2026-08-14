@@ -1,0 +1,25 @@
+# term_years: 4, partisan: true.
+# 9 members (Mayor + 8 Council): 8 single-member wards (East, North, Northeast, Northwest, South, Southeast, Southwest, West), NO at-large council seats + 1 at-large Mayor. Partisan primary/general elections, 4-year concurrent terms. (Per repo maintainer's charter/municipal-code research, 2026-08-14.)
+#
+# RESOLVED DATA ERROR: CivicPatch's roster (data/nc/local/place_winston-salem.yml,
+# retrieved 2026-08-14) listed a 9th "Council Member," Jennifer Chrysson, with no
+# ward assigned. Confirmed via https://www.cityofws.org/3499/City-Council (lists
+# exactly these 8 named-ward members, "eight-member City Council") that she is
+# not on the council -- and via the city's own staff directory
+# (https://www.cityofws.org/m/directory/employee?eid=1051) that she is a real
+# person but a CITY STAFF member: "Community Assistance Liaison," Southwest/West
+# Ward service area, not an elected official. Her contact info (same email/phone)
+# was likely scraped from a staff-contact listing on/near Robert C. Clark's page
+# (he represents West Ward, one of her two service wards) and miscategorized by
+# CivicPatch as an elected Council Member rather than staff. No Person/Membership
+# record was created for her -- staff positions are out of this schema's scope
+# (Organization/Post/Membership models elected officeholders, not city staff).
+# Worth reporting upstream to CivicPatch as a role-classification bug.
+id: winston-salem/council-member
+organization_id: ocd-organization/bcab056f-4b50-47c4-af2b-3d5117a27544
+title: Council Member
+seats: 8
+identifiers: []
+sources:
+  - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data/nc/local/place_winston-salem.yml
+    retrieved: "2026-08-14"

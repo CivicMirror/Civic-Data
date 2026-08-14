@@ -1,0 +1,51 @@
+# REAL JURISDICTION -- Worcester County government (commissioners, county
+# council, etc.) was abolished effective 1998-07-01 under MGL c.34B (Abolition
+# of County Government; St.1997, c.48), which transferred most county functions
+# to the Commonwealth. Four countywide offices remain directly elected by
+# Worcester County voters and survived abolition: Sheriff, Register of Deeds,
+# Register of Probate, and District Attorney.
+#
+# The District Attorney is DELIBERATELY EXCLUDED from this jurisdiction.
+# Worcester's DA seat (the "Middle District") is not coextensive with the
+# county: it excludes the Worcester County town of Athol and includes
+# Bellingham, which is in Norfolk County. It gets its own jurisdiction,
+# jurisdictions/county/da-middle-district.yaml, the same way congressional
+# districts (which also don't align to any one place) get their own files
+# rather than being folded into a municipality's record.
+#
+# classification 'executive' represents these as independently-elected
+# administrative/constitutional offices rather than a legislative body --
+# there is no county council or commissioners left to call a 'government'.
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-jurisdiction/country:us/state:ma/county:worcester/executive
+name: Worcester County (surviving elected offices)
+state: ma
+division_id: ocd-division/country:us/state:ma/county:worcester
+classification: executive
+government_form: >-
+  County government abolished 1998-07-01 (MGL c.34B; St.1997, c.48);
+  functions transferred to the Commonwealth. No county council or
+  commissioners remain -- only the three directly-elected offices below
+  (a fourth, District Attorney, is a separate jurisdiction -- see above).
+website: https://www.sec.state.ma.us/divisions/cis/government/politics-counties.htm
+site_intelligence:
+  notes: >-
+    No unified Worcester County government website exists post-abolition --
+    each elected office runs its own site (worcestercountysheriff.com,
+    massrods.com/worcester, mass.gov court pages). 'website' above points to
+    the Secretary of the Commonwealth's counties reference page as a neutral,
+    office-independent source.
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+sources:
+  - url: https://law.justia.com/codes/massachusetts/part-i/title-vi/chapter-34b/section-1/
+    note: MGL c.34B §1 -- transfer date for abolished counties (Worcester among them).
+    retrieved: "2026-08-12"
+  - url: https://www.sec.state.ma.us/divisions/cis/government/politics-counties.htm
+    note: Secretary of the Commonwealth counties reference (used as jurisdiction website).
+    retrieved: "2026-08-12"

@@ -1,0 +1,14 @@
+# 9 members (Mayor + 8 Council): 8 single-member wards (East, North, Northeast, Northwest, South, Southeast, Southwest, West), NO at-large council seats + 1 at-large Mayor. Partisan primary/general elections, 4-year concurrent terms. (Per repo maintainer's charter/municipal-code research, 2026-08-14.) DISCREPANCY: CivicPatch's roster lists a 9th council member (Jennifer Chrysson) with no ward assigned -- see jennifer-chrysson.yaml's disputed verification note.
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-organization/bcab056f-4b50-47c4-af2b-3d5117a27544
+name: Winston-Salem City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+identifiers: []
+sources:
+  - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data/nc/local/place_winston-salem.yml
+    retrieved: "2026-08-14"

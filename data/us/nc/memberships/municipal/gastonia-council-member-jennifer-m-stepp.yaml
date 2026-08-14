@@ -1,0 +1,14 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: gastonia-council-member-jennifer-m-stepp-membership
+person_id: ocd-person/74ca582b-1cec-44f8-a0a3-7d63f55aa660
+organization_id: ocd-organization/2d66ac42-8de9-4a01-bed8-d799dae67048
+post_id: gastonia/council-member
+role: Council Member
+sources:
+  - url: https://www.gastonianc.gov/city-council-info.html
+    retrieved: "2026-08-14"

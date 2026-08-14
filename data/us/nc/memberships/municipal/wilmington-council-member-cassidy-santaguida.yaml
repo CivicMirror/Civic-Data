@@ -1,0 +1,14 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: wilmington-council-member-cassidy-santaguida-membership
+person_id: ocd-person/b1e3d849-5050-4751-be2a-be2c43516ce9
+organization_id: ocd-organization/1c47a48d-63bb-4d2d-aeb7-6ec25d44d704
+post_id: wilmington/council-member
+role: Council Member
+sources:
+  - url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
+    retrieved: "2026-08-14"

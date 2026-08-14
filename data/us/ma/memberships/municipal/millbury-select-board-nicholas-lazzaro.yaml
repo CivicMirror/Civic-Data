@@ -1,0 +1,16 @@
+# Replaces the single sentinel placeholder (ocd-person/00000000-...-000000000001)
+# with the board's 5 real, sourced members. Sources: CivicPatch open-data
+# pipeline_run_context.json for county_worcester__place_millbury, cross-checked
+# against https://www.millburyma.gov/1506/Board-of-Selectmen (both agree on
+# name, title, and term-end date for all 5). Neither source publishes a term
+# start date, so `term.start` is omitted rather than inferred from the 3-year
+# charter term length.
+id: millbury-select-board-nicholas-lazzaro-membership
+person_id: ocd-person/f3cc3b0b-b0cc-40b7-8f0c-fd54a5ed4f3b
+organization_id: ocd-organization/550e8400-e29b-41d4-a716-446655440000
+post_id: millbury-ma/select-board-member
+role: Clerk
+end: '2027-04'
+sources:
+  - url: https://www.millburyma.gov/1506/Board-of-Selectmen
+    retrieved: "2026-08-14"

@@ -1,0 +1,38 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+#
+# NOTE: this page (cityofws.org/3568) was also cited by CivicPatch as the source
+# for a since-removed record, "Jennifer Chrysson" -- she's a real person but a
+# City staff Community Assistance Liaison (West Ward is one of her two service
+# wards), not an elected Council Member; CivicPatch miscategorized a staff
+# listing as an elected office (see winston-salem-council-member.yaml). Not
+# related to Clark's own record beyond sharing his page as a contact source.
+id: ocd-person/c6874cce-4cc7-43f4-aca4-c5da50cc5dbe
+name: Robert C. Clark
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+    office_id: winston-salem/council-member
+    seat: Ward West
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 5a123c8e-4882-4f9a-9f1a-6396b140aeab
+candidacies: []
+contact:
+  email: robertc@cityofws.org
+  phone: "(336) 416-0190"
+  profile_url: https://www.cityofws.org/3568/Council-Member-Robert-C-Clark
+image: https://www.cityofws.org/ImageRepository/Document?documentId=36325
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.cityofws.org/3499/City-Council
+    retrieved: "2026-08-14"
+  - url: https://www.cityofws.org/3568/Council-Member-Robert-C-Clark
+    retrieved: "2026-08-14"

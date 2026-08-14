@@ -1,0 +1,14 @@
+# 7 members (Mayor + 6 Council), pure at-large system; Council selects one of its own as Mayor Pro Tem. Nonpartisan; Council serves staggered 4-year terms, Mayor serves 2-year terms. (Per repo maintainer's charter/municipal-code research, 2026-08-14.)
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-organization/1c47a48d-63bb-4d2d-aeb7-6ec25d44d704
+name: Wilmington City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+identifiers: []
+sources:
+  - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data/nc/local/place_wilmington.yml
+    retrieved: "2026-08-14"

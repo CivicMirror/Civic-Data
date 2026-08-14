@@ -1,0 +1,31 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/cf57238c-2726-4f9f-b9ee-54689d19555e
+name: Shanetta Burris
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+    office_id: durham/council-member
+    seat: Ward 2
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 5e382ce9-11ec-453c-9ebf-9d1bbd313c99
+candidacies: []
+contact:
+  email: shanetta.burris@durhamnc.gov
+  phone: "(919) 560-4396"
+  profile_url: https://www.durhamnc.gov/5484/Shanetta-Burris
+image: https://www.durhamnc.gov/ImageRepository/Document?documentId=62991
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.durhamnc.gov/Directory.aspx?did=131
+    retrieved: "2026-08-14"
+  - url: https://www.durhamnc.gov/1323/City-Council
+    retrieved: "2026-08-14"

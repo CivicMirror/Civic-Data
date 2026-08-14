@@ -1,0 +1,24 @@
+# Brian Sora's first documented term, preceding his 2026 uncontested
+# re-election (millbury-ma--2026-04-28--select-board-member.yaml).
+id: millbury-ma/2023-04-25/general
+name: Millbury 2023-04-25 annual town election
+date: '2023-04-25'
+election_type: general
+status: certified
+contests:
+  - id: millbury-ma/2023-04-25/select-board-member
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/3f84c024-d0df-42d6-b50d-91d747e19de1
+    result_status: certified
+    winners:
+      - person_id: ocd-person/3f84c024-d0df-42d6-b50d-91d747e19de1
+        name: Brian A. Sora
+        votes: 572
+    seat: 3-Year Term
+sources:
+  - url: https://www.millburyma.gov/DocumentCenter/View/4214/Official-Results
+    note: "Official Annual Town Election Results, April 25, 2023; Board of Selectmen, 3 yrs, vote for one, uncontested"
+    retrieved: "2026-08-14"

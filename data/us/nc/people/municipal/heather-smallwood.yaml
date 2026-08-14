@@ -1,0 +1,28 @@
+# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
+# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
+# this is a hand-mapping exercise/test of how their flat officials-list model maps
+# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
+# structure below are charter-verified (NC session laws / municipal codes, researched
+# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
+id: ocd-person/7be358cb-7439-4891-ae63-9b452ff5cd55
+name: Heather Smallwood
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:huntersville/government
+    office_id: huntersville/commissioner
+    seat: At-Large
+    term:
+      how_seated: elected
+identifiers:
+  - scheme: civicpatch-person
+    identifier: 7b60fd2d-8257-4e62-acf0-f73227d137cb
+candidacies: []
+contact:
+  email: hsmallwood@huntersville.org
+  phone: "(704) 464-5347"
+  profile_url: https://www.huntersville.org/directory.aspx?EID=241
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://www.huntersville.org/Directory.aspx?did=14
+    retrieved: "2026-08-14"

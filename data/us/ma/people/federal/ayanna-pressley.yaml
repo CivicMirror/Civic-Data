@@ -1,0 +1,38 @@
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+id: ocd-person/4c28941f-6f8a-4e86-b702-0741297db7d0
+name: Ayanna Pressley
+roles:
+  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/cd:7/legislature
+    office_id: ma-7/us-representative
+    seat: At-Large
+    term:
+      start: '2019-01-03'
+      how_seated: elected
+identifiers: []
+candidacies: []
+contact:
+  phone: (202) 225-5111
+  profile_url: https://pressley.house.gov
+addresses:
+  - classification: capitol
+    name: Washington, D.C. Office
+    address: 402 Cannon House Office Building;Washington, DC 20515
+    phone: (202) 225-5111
+  - classification: district
+    name: Boston District Office
+    address: 50 Redfield St, Suite 302;Boston, MA 02122
+    phone: (617) 850-0040
+    fax: (202) 225-9322
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+  - url: https://en.wikipedia.org/wiki/Ayanna_Pressley
+    note: Source for swearing-in date
+    retrieved: '2026-08-12'
+  - url: https://pressley.house.gov
+    note: Official U.S. House website
+    retrieved: '2026-08-12'

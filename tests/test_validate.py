@@ -37,7 +37,7 @@ def test_duplicate_organization_external_identifier_is_an_error(tmp_path: Path) 
 
 def test_membership_post_organization_mismatch_is_an_error(tmp_path: Path) -> None:
     data = copied_data(tmp_path)
-    membership = data / "us/ma/memberships/municipal/millbury-select-board-placeholder.yaml"
+    membership = data / "us/ma/memberships/municipal/millbury-select-board-mary-krumsiek.yaml"
     document = yaml.safe_load(membership.read_text())
     document["organization_id"] = "ocd-organization/550e8400-e29b-41d4-a716-446655440001"
     membership.write_text(yaml.safe_dump(document, sort_keys=False))
