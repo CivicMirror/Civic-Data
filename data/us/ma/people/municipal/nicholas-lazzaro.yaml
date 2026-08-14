@@ -4,36 +4,42 @@
 # against https://www.millburyma.gov/1506/Board-of-Selectmen (both agree on
 # name, title, and term-end date for all 5).
 #
-# DISPUTED: the only official Annual Town Election result naming Lazzaro
-# (2022-04-26, https://www.millburyma.gov/DocumentCenter/View/4220/Official-Results)
-# elects him to the SCHOOL COMMITTEE (566 votes, 3-year term, i.e.
-# 2022-2025) -- not the Select Board. It does not explain the Select Board
-# Clerk seat below at all. The 2022, 2023, and 2025 official results
-# checked so far (see millbury-ma--*--select-board-member.yaml) name every
-# other current Select Board member's win except his; none mention him
-# joining the Select Board by election. Possible explanations: an
-# unpublished/uncovered election (e.g. 2024, not checked), an appointment
-# rather than election despite `how_seated: elected` below, or a data
-# error on CivicPatch/the town's roster page. Clarification has been
-# requested directly from Lazzaro; do not resolve this by inference until
-# a reply or a matching election document is found.
+# RESOLVED (was DISPUTED): the 2022-04-26 official results elect Lazzaro to
+# the School Committee, not the Select Board, which left his Select Board
+# seat unexplained. The official 2024-04-30 results
+# (https://www.millburyma.gov/DocumentCenter/View/4210/Official-Results,
+# page 1) show Nicholas John Lazzaro winning 624 votes -- the top vote-getter
+# -- in the Board of Selectmen 3-year, vote-for-two race, alongside Katherine
+# M. McKenna (535 votes, not modeled as a Person record here). That term
+# (2024-04-30 to 2027-04) matches the term-end date already on this record.
+# A single write-in vote for "Nicholas Lazzaro" in the same document's School
+# Committee 1-yr race (precinct 3) is an unrelated stray vote, not a second
+# candidacy. See millbury-ma--2024-04-30--select-board-member.yaml.
 id: ocd-person/f3cc3b0b-b0cc-40b7-8f0c-fd54a5ed4f3b
-name: Nicholas Lazzaro
+name: Nicholas John Lazzaro
 roles:
   - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
     office_id: millbury-ma/select-board-member
     seat: At-Large
     term:
+      start: '2024-04-30'
       end: '2027-04'
       how_seated: elected
 identifiers:
   - scheme: civicpatch-person
     identifier: 8115cda5-0ac4-44ee-a1bc-808b171d7ac7
-candidacies: []
+candidacies:
+  - contest_id: millbury-ma/2024-04-30/select-board-member
+    election_id: millbury-ma/2024-04-30/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    party: null
+    ballot_name: Nicholas John Lazzaro
+    status: active
 contact:
   email: nlazzaro@millburyma.gov
 verification:
-  status: disputed
+  status: unverified
   pipeline: manual
 sources:
   - url: https://www.millburyma.gov/1506/Board-of-Selectmen
@@ -41,4 +47,7 @@ sources:
     retrieved: "2026-08-14"
   - url: https://raw.githubusercontent.com/CivicPatch/open-data/main/data_source/ma/local/county_worcester__place_millbury/pipeline_run_context.json
     note: "CivicPatch pipeline output; cross-checked against the town site above"
+    retrieved: "2026-08-14"
+  - url: https://www.millburyma.gov/DocumentCenter/View/4210/Official-Results
+    note: "Official Annual Town Election Results, April 30, 2024 -- 624 votes, 3-year term (vote for two), Board of Selectmen"
     retrieved: "2026-08-14"

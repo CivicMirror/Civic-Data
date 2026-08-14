@@ -2,15 +2,21 @@
 # with the board's 5 real, sourced members. Sources: CivicPatch open-data
 # pipeline_run_context.json for county_worcester__place_millbury, cross-checked
 # against https://www.millburyma.gov/1506/Board-of-Selectmen (both agree on
-# name, title, and term-end date for all 5). Neither source publishes a term
-# start date, so `term.start` is omitted rather than inferred from the 3-year
-# charter term length.
+# name, title, and term-end date for all 5). `start` is the election date --
+# the town's own inauguration/oath date isn't separately published. See
+# nicholas-lazzaro.yaml for the resolved DISPUTED note: this term traces to
+# his 624-vote win in the 2024-04-30 election, not the 2022 election that
+# raised the original discrepancy.
 id: millbury-select-board-nicholas-lazzaro-membership
 person_id: ocd-person/f3cc3b0b-b0cc-40b7-8f0c-fd54a5ed4f3b
 organization_id: ocd-organization/550e8400-e29b-41d4-a716-446655440000
 post_id: millbury-ma/select-board-member
 role: Clerk
+start: '2024-04-30'
 end: '2027-04'
 sources:
   - url: https://www.millburyma.gov/1506/Board-of-Selectmen
+    retrieved: "2026-08-14"
+  - url: https://www.millburyma.gov/DocumentCenter/View/4210/Official-Results
+    note: "Official Annual Town Election Results, April 30, 2024 -- 624 votes, 3-year term (vote for two)"
     retrieved: "2026-08-14"

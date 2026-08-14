@@ -1,0 +1,32 @@
+# Resolves the DISPUTED verification note in nicholas-lazzaro.yaml: page 1
+# of this document shows Nicholas John Lazzaro winning 624 votes for the
+# Board of Selectmen (3-year term, vote for two) -- not the School
+# Committee. (A single write-in vote for "Nicholas Lazzaro" also appears
+# in the School Committee 1-yr race, precinct 3 -- an unrelated stray
+# vote, not a second candidacy.) Only Lazzaro is modeled here; his
+# co-winner, Katherine M. McKenna (535 votes), is not a current Select
+# Board member in this dataset and so isn't modeled as a Person record
+# (same pattern as Scott DePres in
+# millbury-ma--2022-04-26--select-board-member.yaml).
+id: millbury-ma/2024-04-30/general
+name: Millbury 2024-04-30 annual town election
+date: '2024-04-30'
+election_type: general
+status: certified
+contests:
+  - id: millbury-ma/2024-04-30/select-board-member
+    jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
+    office_id: millbury-ma/select-board-member
+    vote_for: 2
+    candidate_ids:
+      - ocd-person/f3cc3b0b-b0cc-40b7-8f0c-fd54a5ed4f3b
+    result_status: certified
+    winners:
+      - person_id: ocd-person/f3cc3b0b-b0cc-40b7-8f0c-fd54a5ed4f3b
+        name: Nicholas John Lazzaro
+        votes: 624
+    seat: 3-Year Term
+sources:
+  - url: https://www.millburyma.gov/DocumentCenter/View/4210/Official-Results
+    note: "Official Annual Town Election Results, April 30, 2024; Board of Selectmen, 3 yrs, vote for two. Lazzaro received the most votes (624), ahead of Katherine M. McKenna (535, elected but not modeled as a Person record), Amy M. Paquette-Riordan (145), Daniel R. Jakes (184), and Francis P. Desimone (156)."
+    retrieved: "2026-08-14"
