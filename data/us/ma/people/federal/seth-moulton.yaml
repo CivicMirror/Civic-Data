@@ -4,7 +4,11 @@
 # jurisdiction model.
 id: ocd-person/845a8854-b1f3-4fb2-8b07-9e1918fd0349
 name: Seth W. Moulton
-identifiers: []
+identifiers:
+  - scheme: bioguide
+    identifier: M001196
+  - scheme: fec-candidate-id
+    identifier: S6MA00296
 candidacies: []
 contact:
   phone: (202) 225-8020
@@ -29,3 +33,11 @@ sources:
   - url: https://moulton.house.gov
     note: Official U.S. House website
     retrieved: '2026-08-12'
+  - url: https://www.fec.gov/data/candidate/S6MA00296/
+    note: >-
+      FEC candidate record confirms full legal name "Seth Wilbur Moulton",
+      matching this file's "Seth W. Moulton" -- congress-legislators'
+      official_full field for bioguide M001196 omits the middle initial
+      ("Seth Moulton"), which is why name-based matching in the federal
+      pipeline script initially failed to find this record.
+    retrieved: "2026-08-17"

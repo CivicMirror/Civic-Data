@@ -1,0 +1,28 @@
+# SAMPLE DATA -- structure is real, current-officeholder details are
+# best-effort and should be reverified before relying on them.
+# Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
+# (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
+# data (git history, commit 705e144) which used the old ocd-division-based
+# jurisdiction model.
+#
+# Pre-2013-redistricting district: eliminated when Massachusetts lost a
+# House seat after the 2010 Census, so this jurisdiction only covers the
+# period before the map was redrawn. William Keating represented this
+# district 2011-2013 before his seat was renumbered to the 9th -- see
+# cd-9.yaml's redistricting caveat.
+id: ocd-jurisdiction/country:us/state:ma/cd:10/legislature
+name: Massachusetts's 10th congressional district (U.S. House delegation)
+state: ma
+division_id: ocd-division/country:us/state:ma/cd:10
+classification: legislature
+government_form: single-member district (U.S. House of Representatives)
+election_authority:
+  name: Massachusetts Secretary of the Commonwealth, Elections Division
+  level: state
+  url: https://www.sec.state.ma.us/divisions/elections/election-and-voter-information.htm
+sources:
+  - url: https://en.wikipedia.org/wiki/Massachusetts%27s_10th_congressional_district
+    note: >-
+      Historical district, eliminated in the 2013 redistricting that followed
+      the 2010 Census reapportionment (Massachusetts lost one House seat).
+    retrieved: "2026-08-17"
