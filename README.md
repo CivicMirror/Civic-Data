@@ -2,24 +2,16 @@
 
 **A shared, human-reviewable spine of U.S. civic identity data — jurisdictions, offices, people, candidacies, and elections.**
 
-This repository is a proof of concept for a shared dataset between two independent projects:
+This repository is a proof of concept for a shared dataset between independent projects that continue to grow:
 
+- **[States](https://en.wikipedia.org/wiki/Wikipedia:List_of_U.S._state_portals)** - LLM scraped data from individual states
+- **[OpenStates]([https://civicpatch.org](https://github.com/openstates))** — a crowdsourced Open States aggregates legislative information from all 50 states.
 - **[CivicPatch](https://civicpatch.org)** — a crowdsourced, volunteer-verified directory of local elected officials, built from automated scrapers + human review.
 - **[CivicMirror](https://civicmirror.app)** — a multi-state election data aggregation platform, built from deterministic per-vendor adapters + LLM extraction pipelines for the long tail.
 
 Each project keeps its own tooling, repos, and scope. This repo holds only the data **both** projects consume, in formats a volunteer can review in a GitHub diff.
 
-## Why share a spine?
 
-The two projects work opposite ends of the same pipeline:
-
-| | CivicPatch | CivicMirror |
-|---|---|---|
-| Answers | *Who holds this office?* | *What election put them there?* |
-| Collection | Scrapers on municipal websites | ENR feeds, certification PDFs, vendor APIs |
-| Verification | Volunteer diff review | Deterministic adapters + confidence scoring |
-
-Joined on a common jurisdiction/office key, **each dataset becomes the audit trail for the other**: an election winner who doesn't match the current officeholder is either a data error (caught!) or a real-world event worth recording (resignation, appointment, recall). The CI in this repo performs that cross-validation on every pull request.
 
 ## Repository layout
 
@@ -65,21 +57,10 @@ different places, like `classification` and `seat` — see
 - **Candidacy** — a person's participation in a specific election contest. Filing addresses, personal phones, and personal emails never enter this shared repository.
 - **Election and Contest** — an election record contains one or more contest records. Contests support scheduled pre-election membership with no winners, certified winner references, separate partisan primaries, and explicit seats for multi-seat offices. Raw results (precinct-level rows, live ENR snapshots) stay in CivicMirror; only the small, reviewable outcome linkage lives here.
 
-## Contribution model
-
-1. **Bots open PRs.** CivicPatch scrapers and CivicMirror pipelines both write via bot-authored pull requests — never direct pushes to `main`.
-2. **CI validates.** Every PR runs schema validation, OCD-ID reference checks, duplicate detection, reciprocal person↔contest checks, and people↔elections cross-validation.
-3. **Humans merge.** CivicPatch's volunteer review process is the merge gate. If CI flags a mismatch, the PR description says exactly what disagrees and why.
-4. **Projects consume read-only.** Both projects pin releases (or track `main`) and treat this repo as a dependency.
-
 ## Running validation locally
 
-Government data is modeled as `division -> jurisdiction -> organization -> post -> membership/person`. The current sample is a fresh Millbury dataset; old sample IDs are not migration inputs. External source identifiers are retained under each entity's `identifiers[]` field.
+Government data is modeled as `division -> jurisdiction -> organization -> post -> membership/person`. The current sample is a fresh Millbury, MA dataset;
 
-```bash
-pip install -r scripts/requirements.txt
-python scripts/validate.py
-```
 
 Exit code is non-zero on schema errors or broken references. Cross-validation mismatches are reported as warnings with a full report (they may represent real-world events, not errors — a human decides).
 
@@ -94,8 +75,6 @@ Exit code is non-zero on schema errors or broken references. Cross-validation mi
 
 🚧 **Proof of concept.** Massachusetts's congressional and county records are populated end-to-end (jurisdictions, offices, people, and election contests) with **real, sourced data** — not placeholders. Every person record cites where its facts came from; where a phone/fax/address couldn't be verified, it is omitted. `verification.status` is still `unverified` on every record (no human reviewer has signed off), even though the underlying facts are real — it tracks review status only.
 
-Two known gaps, tracked as open follow-ups rather than silently resolved:
-- Most current people have no corresponding election contest in this proof-of-concept dataset, so `validate.py` reports standing `no-election-trace` warnings. These are expected review findings, not schema failures.
-- `docs/layout-demos/` holds non-live comparison files for an open schema/layout question (grouped-by-place vs. one-file-per-person, ID-in-filename vs. not) — not part of the dataset, not read by CI.
+
 
 Earlier fictional sample data (Oxford/Springfield/Worcester, MA) has been removed; this repo currently only carries data it can back with a real source.
