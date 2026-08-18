@@ -60,12 +60,10 @@ CivicPatch's raw Millbury data gave its 5 Select Board members 4 different
 which slug to this repo's one real office, `millbury-ma/select-board`, and
 "Council Member" is factually wrong for a Select Board town besides.
 
-civic-data tracks only the formal office, since that's what a `roles[]`
-entry needs to join to an actual election contest — internal titles have no
-election behind them to join to. Nothing in `person.schema.json` carries
-an internal title (`roles[]` has no `notes` field); this is a deliberate
-omission, not a gap. The title is CivicPatch's data to keep, not something
-normalized into this schema.
+civic-data tracks only the formal office, since that's what a `membership.yaml`
+entry's `post_id` needs to join to an actual election contest — internal
+titles have no election behind them to join to. The title is CivicPatch's
+data to keep, not something normalized into this schema.
 
 ## 4. Identifiers
 

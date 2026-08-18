@@ -143,8 +143,6 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
 
     for person_id, person in people.items():
         path = file_of[person_id]
-        for index, role in enumerate(person["roles"]):
-            _check_post_reference(role, path, f"roles[{index}]", jurisdictions, posts, organizations)
         for candidacy in person["candidacies"]:
             _check_post_reference(candidacy, path, "candidacy", jurisdictions, posts, organizations)
 
@@ -184,7 +182,7 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
             for person_id, _, path in candidacies:
                 error(f"{path}: person '{person_id}' candidacy '{contest_id}' has no reciprocal election contest")
 
-    _cross_validate(people, elections, contests, file_of)
+    _cross_validate(people, memberships, elections, contests, file_of)
     print(f"Validated: {len(jurisdictions)} jurisdictions, {len(organizations)} organizations, {len(posts)} posts, {len(memberships)} memberships, {len(people)} people, {len(elections)} elections")
     if WARNINGS:
         print(f"⚠ {len(WARNINGS)} warning(s):")
@@ -230,7 +228,7 @@ def _check_external_identifiers(document: dict, path: Path, file_of: dict) -> No
             file_of[key] = path
 
 
-def _cross_validate(people: dict, elections: dict, contests: dict, file_of: dict) -> None:
+def _cross_validate(people: dict, memberships: dict, elections: dict, contests: dict, file_of: dict) -> None:
     latest_certified: dict[str, tuple[dict, dict]] = {}
     for election, contest, _ in contests.values():
         if contest["result_status"] != "certified":
@@ -244,25 +242,29 @@ def _cross_validate(people: dict, elections: dict, contests: dict, file_of: dict
                 warn(f"CROSS[name-disagreement] winner '{winner['name']}' is linked to person '{person['name']}' ({winner['person_id']})")
 
     by_office: dict[str, list[dict]] = defaultdict(list)
-    for person in people.values():
-        for role in person["roles"]:
-            by_office[role["office_id"]].append(person)
+    for membership in memberships.values():
+        person = people.get(membership["person_id"])
+        if person and membership.get("post_id"):
+            by_office[membership["post_id"]].append(person)
     for office_id, (election, contest) in latest_certified.items():
         holders = {norm_name(person["name"]) for person in by_office.get(office_id, [])}
         for winner in contest["winners"] or []:
             if norm_name(winner["name"]) not in holders:
                 current = ", ".join(repr(person["name"]) for person in by_office.get(office_id, [])) or "(no one on record)"
                 warn(f"CROSS[winner-not-seated] office '{office_id}': '{winner['name']}' won the certified {election['date']} election but people lists {current}")
-    for person_id, person in people.items():
-        for role in person["roles"]:
-            if role.get("term", {}).get("how_seated") != "elected":
-                continue
-            traced = any(
-                person_id in contest["candidate_ids"] or any(w["person_id"] == person_id for w in contest["winners"] or [])
-                for _, contest, _ in contests.values() if contest["office_id"] == role["office_id"]
-            )
-            if not traced:
-                warn(f"CROSS[no-election-trace] {file_of[person_id]}: '{person['name']}' is recorded as elected to '{role['office_id']}' but no election candidacy names them")
+    for membership_id, membership in memberships.items():
+        if membership.get("how_seated") != "elected" or not membership.get("post_id"):
+            continue
+        person_id = membership["person_id"]
+        person = people.get(person_id)
+        if person is None:
+            continue
+        traced = any(
+            person_id in contest["candidate_ids"] or any(w["person_id"] == person_id for w in contest["winners"] or [])
+            for _, contest, _ in contests.values() if contest["office_id"] == membership["post_id"]
+        )
+        if not traced:
+            warn(f"CROSS[no-election-trace] {file_of[membership_id]}: '{person['name']}' is recorded as elected to '{membership['post_id']}' but no election candidacy names them")
 
 
 def main() -> int:

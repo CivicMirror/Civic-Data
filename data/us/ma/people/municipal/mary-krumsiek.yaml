@@ -10,21 +10,6 @@
 # CivicPatch's pipeline data lists mkrumsiek@townofmillbury.net (an older domain); the live town site shows mkrumsiek@millburyma.gov, used here as more current.
 id: ocd-person/60b70620-8b48-4474-add2-aac404a8157c
 name: Mary Krumsiek
-roles:
-  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
-    office_id: millbury-ma/select-board-member
-    seat: At-Large
-    term:
-      start: '2022-04-26'
-      end: '2025-04-29'
-      how_seated: elected
-  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
-    office_id: millbury-ma/select-board-member
-    seat: At-Large
-    term:
-      start: '2025-04-29'
-      end: '2028-04'
-      how_seated: elected
 identifiers:
   - scheme: civicpatch-person
     identifier: 2bcf67d4-2019-4173-aa67-740f64f5da7c
@@ -33,14 +18,14 @@ candidacies:
     election_id: millbury-ma/2022-04-26/general
     jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
     office_id: millbury-ma/select-board-member
-    party: null
+    party:
     ballot_name: Mary Krumsiek
     status: active
   - contest_id: millbury-ma/2025-04-29/select-board-member
     election_id: millbury-ma/2025-04-29/general
     jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
     office_id: millbury-ma/select-board-member
-    party: null
+    party:
     ballot_name: Mary Krumsiek
     status: active
 contact:

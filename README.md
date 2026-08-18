@@ -57,9 +57,11 @@ For precise definitions — including terms that mean different things in
 different places, like `classification` and `seat` — see
 [`docs/GLOSSARY.md`](docs/GLOSSARY.md).
 
-- **Jurisdiction** — a place with a government. Keyed by [OCD Division ID](https://github.com/opencivicdata/ocd-division-ids). Carries the official website URL, government form, and *site intelligence* (CMS/vendor platform) useful to both scraper teams. `classification` covers both local government forms (`city`, `town`, `county`, …) and `congressional-district`.
-- **Office** — an elected position that exists within a jurisdiction (embedded in the jurisdiction file): title, seat structure (at-large / ward / district), term length, election authority.
-- **Person** — an individual independent of any office or election. A person can have `roles[]` (current or historical office relationships), `candidacies[]` (participation in specific contests), or both. One YAML file per person also carries reviewed external identifiers, public office contact information, provenance, and verification.
+- **Jurisdiction** — a place with a government. Keyed by [OCD Division ID](https://github.com/opencivicdata/ocd-division-ids). Carries an optional official website URL, government form, and *site intelligence* (CMS/vendor platform) useful to both scraper teams. `classification` covers both local government forms (`city`, `town`, `county`, …) and `congressional-district`.
+- **Organization** — one immutable, canonically-IDed record per government body within a jurisdiction (a council, a board, a legislature). Source system identifiers (CivicPatch, Open States) live in `identifiers[]`.
+- **Post** — a position that exists independently of the person who holds it (title, seat count) within an organization.
+- **Membership** — a time-bounded relationship linking a person to an organization and, usually, a post: start/end dates, `how_seated` (elected/appointed/succeeded/acting), and sources. This is where officeholding lives; `person.yaml` no longer carries office relationships directly.
+- **Person** — an individual independent of any office or election. A person can have `candidacies[]` (participation in specific contests); current or historical officeholding lives in `membership.yaml` records instead. One YAML file per person also carries reviewed external identifiers, public office contact information, provenance, and verification.
 - **Candidacy** — a person's participation in a specific election contest. Filing addresses, personal phones, and personal emails never enter this shared repository.
 - **Election and Contest** — an election record contains one or more contest records. Contests support scheduled pre-election membership with no winners, certified winner references, separate partisan primaries, and explicit seats for multi-seat offices. Raw results (precinct-level rows, live ENR snapshots) stay in CivicMirror; only the small, reviewable outcome linkage lives here.
 

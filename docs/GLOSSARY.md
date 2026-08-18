@@ -37,32 +37,33 @@ Identified by an OCD jurisdiction ID such as
 Its `classification` is a governance type such as `government`, `school`,
 or `transit_authority`.
 
-**Office** = **elected position** = **seat** (loosely) = **office name.**
-A position that exists within a jurisdiction — e.g. "Mayor," "Select
-Board Member," "U.S. Representative." Embedded in its jurisdiction's file
-under `offices[]`, not a standalone file. Identified by `office.id`, a
-slug in `<jurisdiction-slug>/<office-slug>` form (e.g.
+**Post** = **elected position** = **seat** (loosely) = **office name.**
+A position that exists within an Organization — e.g. "Mayor," "Select
+Board Member," "U.S. Representative." A standalone file under
+`data/us/{state}/posts/`, not embedded in the jurisdiction. Identified by
+`post.id`, a slug in `<jurisdiction-slug>/<office-slug>` form (e.g.
 `oxford-ma/select-board`). Structural facts about the position —
-`seats` (how many people hold it at once), `seat_structure`
-(`at-large`/`ward`/`district`/`mixed`), `term_years`, `partisan` — live
+`seats` (how many people hold it at once), `organization_id` — live
 here, not on the person.
 
-**Official** — a person, real or (in remaining sample data) fictional.
-One YAML file per person, under `data/us/{state}/officials/`. Identified
-by `official.id`, an `ocd-person/<uuid>`. A file's `name` is the person;
-everything about *which office(s)* they hold lives in `roles[]`, not on
-the person directly — a person is not tied to one office for life
-(see "Role" below).
+**Person** — an individual, real or (in remaining sample data)
+fictional. One YAML file per person, under `data/us/{state}/people/`.
+Identified by `person.id`, an `ocd-person/<uuid>`. A file's `name` is the
+person; everything about *which office(s)* they hold lives in
+`membership.yaml` records, not on the person directly — a person is not
+tied to one office for life (see "Membership" below).
 
-**Role** — the link between an Official and an Office: one entry in an
-official's `roles[]` array. Carries `jurisdiction_id`, `office_id`,
-optionally `seat` (see below) and `term` (start/end dates,
-`how_seated`). **A person can have more than one role** — this is not a
-hypothetical: Richard Neal's file has two, because he represented a
-different-numbered district before 2013 redistricting. "People change
-roles; roles themselves rarely change" is the operating assumption —
-this is why role data lives in an array on the person, not as flat
-fields.
+**Membership** — the link between a Person and an Organization/Post: a
+standalone file under `data/us/{state}/memberships/`. Carries
+`person_id`, `organization_id`, optionally `post_id`, `role` (the
+title/function held), `start`/`end` dates, and `how_seated`
+(`elected`/`appointed`/`succeeded`/`acting`). **A person can have more
+than one membership** — this is not a hypothetical: Richard Neal has
+two, because he represented a different-numbered district before 2013
+redistricting. "People change memberships; posts themselves rarely
+change" is the operating assumption — this is why membership data lives
+in its own directory, keyed by person, rather than as flat fields on
+either the person or the post.
 
 **Election linkage** — a compact, reviewable summary of the contest that
 seated an official: date, winner(s), certification status, one source.

@@ -8,14 +8,6 @@
 # published.
 id: ocd-person/2af4bbc6-85ea-4e2a-befe-0bb3d7244df5
 name: Brian Tagg
-roles:
-  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
-    office_id: millbury-ma/select-board-member
-    seat: At-Large
-    term:
-      start: '2025-04-29'
-      end: '2028-04'
-      how_seated: elected
 identifiers:
   - scheme: civicpatch-person
     identifier: 6e61e14e-58ca-4e49-9e24-4600c7920f59
@@ -24,7 +16,7 @@ candidacies:
     election_id: millbury-ma/2025-04-29/general
     jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
     office_id: millbury-ma/select-board-member
-    party: null
+    party:
     ballot_name: Brian T. Tagg
     status: active
 contact:

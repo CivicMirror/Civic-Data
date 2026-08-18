@@ -4,7 +4,7 @@
   "title": "Jurisdiction",
   "description": "A governing authority within a geographic division.",
   "type": "object",
-  "required": ["id", "name", "state", "division_id", "classification", "website", "sources"],
+  "required": ["id", "name", "state", "division_id", "classification", "sources"],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -49,10 +49,6 @@
         "level": { "type": "string", "enum": ["municipal", "county", "state"] },
         "url": { "type": "string", "format": "uri" }
       }
-    },
-    "offices": {
-      "type": "array",
-      "items": { "$ref": "office.schema.json" }
     },
     "sources": {
       "type": "array",

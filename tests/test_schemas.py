@@ -29,21 +29,26 @@ def test_candidate_only_person_is_valid() -> None:
     assert_valid("person.schema.json", load_fixture("nc-jordan-lee.yaml"))
 
 
-def test_person_must_have_a_role_or_candidacy() -> None:
+def test_person_with_no_candidacies_is_valid() -> None:
+    # Officeholding now lives entirely in membership.yaml records, so a
+    # person with no candidacies (e.g. an appointed officeholder with no
+    # election on file) is a valid person record on its own.
     document = load_fixture("nc-jordan-lee.yaml")
     document["candidacies"] = []
-    errors = list(Draft202012Validator(load_schema("person.schema.json")).iter_errors(document))
-    assert any("candidacies" in error.message or "roles" in error.message for error in errors)
+    assert_valid("person.schema.json", document)
 
 
-def test_person_can_have_both_role_and_candidacy() -> None:
+def test_person_schema_rejects_roles() -> None:
+    # roles[] was retired in favor of membership.yaml; person.schema.json
+    # no longer recognizes it.
     document = load_fixture("nc-jordan-lee.yaml")
     document["roles"] = [{
         "jurisdiction_id": "ocd-jurisdiction/country:us/state:nc/government",
         "office_id": "nc/us-senator",
         "term": {"start": "2023-01-03", "how_seated": "elected"},
     }]
-    assert_valid("person.schema.json", document)
+    errors = list(Draft202012Validator(load_schema("person.schema.json")).iter_errors(document))
+    assert any("roles" in error.message for error in errors)
 
 
 def test_scheduled_contest_can_have_no_winners() -> None:

@@ -17,14 +17,6 @@
 # candidacy. See millbury-ma--2024-04-30--select-board-member.yaml.
 id: ocd-person/f3cc3b0b-b0cc-40b7-8f0c-fd54a5ed4f3b
 name: Nicholas John Lazzaro
-roles:
-  - jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
-    office_id: millbury-ma/select-board-member
-    seat: At-Large
-    term:
-      start: '2024-04-30'
-      end: '2027-04'
-      how_seated: elected
 identifiers:
   - scheme: civicpatch-person
     identifier: 8115cda5-0ac4-44ee-a1bc-808b171d7ac7
@@ -33,7 +25,7 @@ candidacies:
     election_id: millbury-ma/2024-04-30/general
     jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:millbury/government
     office_id: millbury-ma/select-board-member
-    party: null
+    party:
     ballot_name: Nicholas John Lazzaro
     status: active
 contact:
