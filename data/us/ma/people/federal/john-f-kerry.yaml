@@ -1,0 +1,44 @@
+id: ocd-person/0d71440a-940f-56f9-b88e-3d3912c27120
+name: John F. Kerry
+identifiers:
+- scheme: bioguide
+  identifier: K000148
+- scheme: govtrack
+  identifier: '300060'
+- scheme: wikidata
+  identifier: Q22316
+- scheme: wikipedia
+  identifier: John Kerry
+- scheme: ballotpedia
+  identifier: John Kerry
+- scheme: opensecrets
+  identifier: N00000245
+- scheme: votesmart
+  identifier: '53306'
+- scheme: icpsr
+  identifier: '14920'
+- scheme: lis
+  identifier: S173
+- scheme: thomas
+  identifier: 01379
+- scheme: cspan
+  identifier: '1485'
+- scheme: maplight
+  identifier: '581'
+- scheme: fec-candidate-id
+  identifier: S4MA00069
+candidacies: []
+contact:
+  phone: 202-224-2742
+  profile_url: http://www.kerry.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 218 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+  phone: 202-224-2742
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-historical.yaml
+  note: unitedstates/congress-legislators (historical), bioguide K000148 -- primary source for identity, terms, class, dates.
