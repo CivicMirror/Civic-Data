@@ -1,0 +1,10 @@
+id: ocd-jurisdiction/country:us/state:tx/county:smith/government
+name: County of Smith
+state: tx
+division_id: ocd-division/country:us/state:tx/county:smith
+classification: government
+website: http://www.smithcounty.com
+sources:
+- url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
+  note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=183774, FIPS 48-423-99423, county area=SMITH, active=Y'
+  retrieved: '2026-08-17'
