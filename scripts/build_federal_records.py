@@ -239,11 +239,11 @@ def build(bioguide_id, people_by_bioguide, people_by_name):
         addresses.append(capitol_addr)
     for off in district_offices:
         parts = [off.get("building"), off.get("address"), off.get("suite")]
-        street = ", ".join(p for p in parts if p)
+        street = ", ".join(str(p) for p in parts if p)
         district_addr = {
             "classification": "district",
             "name": f"{off['city']} Office",
-            "address": f"{street};{off['city']}, {off['state']} {off['zip']}",
+            "address": f"{street};{off['city']}, {off['state']} {off.get('zip', '')}".rstrip(),
         }
         if off.get("phone"):
             district_addr["phone"] = off["phone"]
