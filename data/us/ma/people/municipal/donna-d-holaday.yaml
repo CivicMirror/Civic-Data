@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f0648e37-9de2-5d05-929a-e47461891756
+name: Donna D. Holaday
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16306'
+candidacies:
+- contest_id: newburyport/2017-11-07/mayor
+  election_id: newburyport/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newburyport/government
+  office_id: newburyport/mayor
+  party: Unenrolled
+  ballot_name: Donna D. Holaday
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16306
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16306

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f4e6b33b-8498-5b53-aec4-05dc21f3653f
+name: Lisa M. Fiske Heger
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17234'
+candidacies:
+- contest_id: braintree/2019-11-05/mayor
+  election_id: braintree/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+  office_id: braintree/mayor
+  party: Unenrolled
+  ballot_name: Lisa M. Fiske Heger
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17234
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17234

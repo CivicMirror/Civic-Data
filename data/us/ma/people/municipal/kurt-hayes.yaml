@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2aa7dc2d-6868-5893-94a0-929370c0088e
+name: Kurt Hayes
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14818'
+candidacies:
+- contest_id: ma-house-37th-middlesex/2008-11-04/state-representative
+  election_id: ma-house-37th-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:37th-middlesex/legislature
+  office_id: ma-house-37th-middlesex/state-representative
+  party: Republican
+  ballot_name: Kurt Hayes
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14818
+- contest_id: ma-house-37th-middlesex/2010-11-02/state-representative
+  election_id: ma-house-37th-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:37th-middlesex/legislature
+  office_id: ma-house-37th-middlesex/state-representative
+  party: Republican
+  ballot_name: Kurt Hayes
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14818
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14818

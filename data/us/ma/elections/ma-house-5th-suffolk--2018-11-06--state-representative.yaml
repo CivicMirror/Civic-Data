@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-suffolk/2018-11-06/general
+name: ma-house-5th-suffolk 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-suffolk/2018-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-suffolk/legislature
+  office_id: ma-house-5th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/12277482-3d3d-5dc8-bb61-007f6985259e
+  - ocd-person/27c29f68-9cdb-5126-8a6a-1338ca629640
+  - ocd-person/703d6d4e-3a1d-4a2e-82e3-3c9693b75953
+  - ocd-person/c014896f-49a8-597c-aa70-6c44efbed281
+  result_status: certified
+  winners:
+  - person_id: ocd-person/703d6d4e-3a1d-4a2e-82e3-3c9693b75953
+    name: Liz Miranda
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- House race, 5th Suffolk, 2018

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/07c1b56c-23d7-5a2e-95aa-229b6330bf96
+name: F. George Jacome
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15208'
+candidacies:
+- contest_id: ma-house-8th-bristol/2010-11-02/state-representative
+  election_id: ma-house-8th-bristol/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-bristol/legislature
+  office_id: ma-house-8th-bristol/state-representative
+  party: Unenrolled
+  ballot_name: F. George Jacome
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15208
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15208

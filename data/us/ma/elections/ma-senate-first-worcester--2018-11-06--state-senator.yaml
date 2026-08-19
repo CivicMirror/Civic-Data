@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-worcester/2018-11-06/general
+name: ma-senate-first-worcester 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-worcester/2018-11-06/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-worcester/legislature
+  office_id: ma-senate-first-worcester/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0f372eff-97c1-5ae4-af24-35c266a478a6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0f372eff-97c1-5ae4-af24-35c266a478a6
+    name: Harriette L. Chandler
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- Senate race, 1st Worcester, 2018

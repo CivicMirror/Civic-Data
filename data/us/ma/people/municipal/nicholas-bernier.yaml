@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b5011a08-ab72-5bc4-9a79-347d11dac8b4
+name: Nicholas Bernier
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14496'
+candidacies:
+- contest_id: ma-house-4th-bristol/2006-11-07/state-representative
+  election_id: ma-house-4th-bristol/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-bristol/legislature
+  office_id: ma-house-4th-bristol/state-representative
+  party: Democratic
+  ballot_name: Nicholas Bernier
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14496
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14496

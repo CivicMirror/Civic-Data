@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/81bbd923-bb22-5a2a-8d2f-4ecde0d459c2
+name: Brian Richard Mannal
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15437'
+candidacies:
+- contest_id: ma-house-2nd-barnstable/2012-11-06/state-representative
+  election_id: ma-house-2nd-barnstable/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-barnstable/legislature
+  office_id: ma-house-2nd-barnstable/state-representative
+  party: Democratic
+  ballot_name: Brian Richard Mannal
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15437
+- contest_id: ma-house-2nd-barnstable/2014-11-04/state-representative
+  election_id: ma-house-2nd-barnstable/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-barnstable/legislature
+  office_id: ma-house-2nd-barnstable/state-representative
+  party: Democratic
+  ballot_name: Brian Richard Mannal
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15437
+- contest_id: ma-senate-cape-and-islands/2016-11-08/state-senator
+  election_id: ma-senate-cape-and-islands/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:cape-and-islands/legislature
+  office_id: ma-senate-cape-and-islands/state-senator
+  party: Democratic
+  ballot_name: Brian Richard Mannal
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15437
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15437

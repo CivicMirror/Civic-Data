@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: brockton/2019-11-05/general
+name: brockton 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: brockton/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3e4b03b8-43c0-5cf6-bd48-39ebf6306261
+  - ocd-person/4a02d611-dfb7-5a8b-8fe4-cb74a3dcd2ab
+  - ocd-person/6d3f7635-7996-5b27-9f2c-787a0591813e
+  - ocd-person/80473b0f-bc3d-5c36-9135-8781ba1ab1bd
+  - ocd-person/930f5792-33c2-59ee-bb8f-ee169ab81005
+  - ocd-person/9611f564-78a4-5dcf-ad21-a7350f94fc9c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/930f5792-33c2-59ee-bb8f-ee169ab81005
+    name: Robert F. Sullivan
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Brockton, 2019

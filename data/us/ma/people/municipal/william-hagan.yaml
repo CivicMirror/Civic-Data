@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/cd69c7f3-bce6-5772-afdb-ace27d5add22
+name: William Hagan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14038'
+candidacies:
+- contest_id: ma-house-4th-middlesex/2002-11-05/state-representative
+  election_id: ma-house-4th-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-middlesex/legislature
+  office_id: ma-house-4th-middlesex/state-representative
+  party: Republican
+  ballot_name: William Hagan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14038
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14038

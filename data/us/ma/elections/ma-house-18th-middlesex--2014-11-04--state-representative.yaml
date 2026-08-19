@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-18th-middlesex/2014-11-04/general
+name: ma-house-18th-middlesex 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-18th-middlesex/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:18th-middlesex/legislature
+  office_id: ma-house-18th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/12631471-2eb1-54e5-861d-b91095a45e0a
+  - ocd-person/248e26dd-b820-5e09-81cb-c4f401d3a8d6
+  - ocd-person/797aaefd-51a5-533b-b67d-76ed196b15a7
+  - ocd-person/a776761d-eed2-55f4-b4de-cbdfb9f3722a
+  - ocd-person/dc355ed2-c3b4-5276-9887-5ffeceaacfee
+  result_status: certified
+  winners:
+  - person_id: ocd-person/797aaefd-51a5-533b-b67d-76ed196b15a7
+    name: Rady Mom
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 18th Middlesex, 2014

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bf0244fc-0612-55d3-9c3a-1c36e1556371
+name: Catia Sharp
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17472'
+candidacies:
+- contest_id: ma-house-27th-middlesex/2020-11-03/state-representative
+  election_id: ma-house-27th-middlesex/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:27th-middlesex/legislature
+  office_id: ma-house-27th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Catia Sharp
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17472
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17472

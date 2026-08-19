@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c8682e3f-b1fc-5b7e-9f51-f5d28969e504
+name: Stephen R. Canessa
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14128'
+candidacies:
+- contest_id: ma-house-12th-bristol/2004-11-02/state-representative
+  election_id: ma-house-12th-bristol/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-bristol/legislature
+  office_id: ma-house-12th-bristol/state-representative
+  party: Democratic
+  ballot_name: Stephen R. Canessa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14128
+- contest_id: ma-house-12th-bristol/2006-11-07/state-representative
+  election_id: ma-house-12th-bristol/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-bristol/legislature
+  office_id: ma-house-12th-bristol/state-representative
+  party: Democratic
+  ballot_name: Stephen R. Canessa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14128
+- contest_id: ma-house-12th-bristol/2008-11-04/state-representative
+  election_id: ma-house-12th-bristol/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-bristol/legislature
+  office_id: ma-house-12th-bristol/state-representative
+  party: Democratic
+  ballot_name: Stephen R. Canessa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14128
+- contest_id: ma-house-12th-bristol/2010-11-02/state-representative
+  election_id: ma-house-12th-bristol/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-bristol/legislature
+  office_id: ma-house-12th-bristol/state-representative
+  party: Democratic
+  ballot_name: Stephen R. Canessa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14128
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14128

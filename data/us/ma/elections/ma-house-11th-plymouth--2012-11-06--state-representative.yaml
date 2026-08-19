@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-11th-plymouth/2012-11-06/general
+name: ma-house-11th-plymouth 2012-11-06 general election
+date: '2012-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-11th-plymouth/2012-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-plymouth/legislature
+  office_id: ma-house-11th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/17e88419-7392-5762-85fc-b3a5e981e576
+  - ocd-person/5976fd8e-9900-53fb-ab38-bf8e473ab04e
+  - ocd-person/930f5792-33c2-59ee-bb8f-ee169ab81005
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5976fd8e-9900-53fb-ab38-bf8e473ab04e
+    name: Claire Cronin
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2012
+  note: OCPF filer registry -- House race, 11th Plymouth, 2012

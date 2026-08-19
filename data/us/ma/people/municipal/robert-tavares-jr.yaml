@@ -1,0 +1,15 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4f9f01c4-dc6d-57f7-a51b-d55a17fe6b1d
+name: Robert Tavares Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15139'
+candidacies: []
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15139

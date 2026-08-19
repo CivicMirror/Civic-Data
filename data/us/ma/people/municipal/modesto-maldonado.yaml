@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bd2dec79-7c4e-5b6f-b6e7-2f74743ad380
+name: Modesto Maldonado
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15972'
+candidacies:
+- contest_id: lawrence/2017-11-07/mayor
+  election_id: lawrence/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:lawrence/government
+  office_id: lawrence/mayor
+  party: Unenrolled
+  ballot_name: Modesto Maldonado
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15972
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15972

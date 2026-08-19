@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-second-suffolk/2008-11-04/general
+name: ma-senate-second-suffolk 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-second-suffolk/2008-11-04/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-suffolk/legislature
+  office_id: ma-senate-second-suffolk/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/06850c41-8e05-51c0-a1db-f4f21544c76b
+  - ocd-person/09ffca1a-b903-5a36-951d-2c983678bbc0
+  - ocd-person/6f7fff45-199f-582d-89ec-9f9b85825261
+  result_status: certified
+  winners:
+  - person_id: ocd-person/06850c41-8e05-51c0-a1db-f4f21544c76b
+    name: Sonia Chang-Díaz
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- Senate race, 2nd Suffolk, 2008

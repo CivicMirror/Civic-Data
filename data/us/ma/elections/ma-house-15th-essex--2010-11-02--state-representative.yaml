@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-15th-essex/2010-11-02/general
+name: ma-house-15th-essex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-15th-essex/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-essex/legislature
+  office_id: ma-house-15th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/599e8af9-d6e7-5a30-9204-8b4281597a38
+  - ocd-person/7d7c4a69-2a9d-5fc1-994f-f0dd62640648
+  - ocd-person/8a9647bf-5a83-5573-9cbb-08020a9c9b46
+  - ocd-person/bf373b19-860d-5566-bf27-91c3c04c362a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/599e8af9-d6e7-5a30-9204-8b4281597a38
+    name: Linda Dean Campbell
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 15th Essex, 2010

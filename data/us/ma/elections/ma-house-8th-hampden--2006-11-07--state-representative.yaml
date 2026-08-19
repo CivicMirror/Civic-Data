@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-8th-hampden/2006-11-07/general
+name: ma-house-8th-hampden 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-house-8th-hampden/2006-11-07/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-hampden/legislature
+  office_id: ma-house-8th-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d3d57f78-fcf6-5e2d-8e46-5136beb0e4bb
+  - ocd-person/db75d300-8f91-592f-9c68-c1628147b036
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d3d57f78-fcf6-5e2d-8e46-5136beb0e4bb
+    name: Joseph F. Wagner
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- House race, 8th Hampden, 2006

@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-12th-suffolk/2016-11-08/general
+name: ma-house-12th-suffolk 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-12th-suffolk/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-suffolk/legislature
+  office_id: ma-house-12th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2cf00094-acb2-51cf-ad97-86ed05fd75f1
+  - ocd-person/615afa5f-4b5b-5a0e-815e-3633fdc4582f
+  - ocd-person/6e19634a-1818-52a5-bd75-c4b4f00ea596
+  result_status: certified
+  winners:
+  - person_id: ocd-person/615afa5f-4b5b-5a0e-815e-3633fdc4582f
+    name: Dan Cullinane
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 12th Suffolk, 2016

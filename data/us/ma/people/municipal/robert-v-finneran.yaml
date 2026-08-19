@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9b99a0c9-411b-5c5a-8452-236dc666eb63
+name: Robert V. Finneran
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13970'
+candidacies:
+- contest_id: ma-house-2nd-essex/2002-11-05/state-representative
+  election_id: ma-house-2nd-essex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-essex/legislature
+  office_id: ma-house-2nd-essex/state-representative
+  party: Republican
+  ballot_name: Robert V. Finneran
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13970
+- contest_id: ma-house-2nd-essex/2004-11-02/state-representative
+  election_id: ma-house-2nd-essex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-essex/legislature
+  office_id: ma-house-2nd-essex/state-representative
+  party: Republican
+  ballot_name: Robert V. Finneran
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13970
+- contest_id: ma-house-2nd-essex/2010-11-02/state-representative
+  election_id: ma-house-2nd-essex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-essex/legislature
+  office_id: ma-house-2nd-essex/state-representative
+  party: Republican
+  ballot_name: Robert V. Finneran
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13970
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13970

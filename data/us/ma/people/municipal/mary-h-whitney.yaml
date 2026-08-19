@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/0790ada9-2fbc-57d8-aecd-7870b3889425
+name: Mary H. Whitney
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14603'
+candidacies:
+- contest_id: ma-house-3rd-worcester/2006-11-07/state-representative
+  election_id: ma-house-3rd-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-worcester/legislature
+  office_id: ma-house-3rd-worcester/state-representative
+  party: Democratic
+  ballot_name: Mary H. Whitney
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14603
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14603

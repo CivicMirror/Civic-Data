@@ -1,0 +1,15 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/68e90193-8e50-51bb-9a33-44e9a53dc9c0
+name: Ted Hess-Mahan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15674'
+candidacies: []
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15674

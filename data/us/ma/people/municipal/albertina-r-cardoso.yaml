@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8f23eb2b-1acd-5910-b78d-60f8048230ef
+name: Albertina R. Cardoso
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16769'
+candidacies:
+- contest_id: brockton/2021-11-02/mayor
+  election_id: brockton/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Democratic
+  ballot_name: Albertina R. Cardoso
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16769
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16769

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-suffolk/2018-11-06/general
+name: ma-senate-first-suffolk 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-suffolk/2018-11-06/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-suffolk/legislature
+  office_id: ma-senate-first-suffolk/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8ca6ea6c-1121-40b3-a5cf-9b55dfe6a2b0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8ca6ea6c-1121-40b3-a5cf-9b55dfe6a2b0
+    name: Nick Collins
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- Senate race, 1st Suffolk, 2018

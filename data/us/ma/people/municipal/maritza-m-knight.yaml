@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c7e94f84-2088-5914-820b-4c4436cd8039
+name: Maritza M. Knight
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18328'
+candidacies:
+- contest_id: fitchburg/2023-11-07/mayor
+  election_id: fitchburg/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fitchburg/government
+  office_id: fitchburg/mayor
+  party: Democratic
+  ballot_name: Maritza M. Knight
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18328
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18328

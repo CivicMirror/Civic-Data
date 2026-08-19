@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6f01e8c1-662b-54ab-9fe4-cfc6bd6c121a
+name: Jose A. Perez
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17349'
+candidacies:
+- contest_id: new-bedford/2019-11-05/mayor
+  election_id: new-bedford/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:new-bedford/government
+  office_id: new-bedford/mayor
+  party: Unenrolled
+  ballot_name: Jose A. Perez
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17349
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17349

@@ -1,0 +1,31 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-13th-worcester/2010-11-02/general
+name: ma-house-13th-worcester 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-13th-worcester/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:13th-worcester/legislature
+  office_id: ma-house-13th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/21600c47-0d0f-5fcf-9f62-8ce061937462
+  - ocd-person/2abbc0cb-6339-42d9-9947-69412a24301b
+  - ocd-person/32015068-02fb-5a88-a405-f5058501b027
+  - ocd-person/acbb2513-56e0-5e13-84aa-2b1f34a88088
+  - ocd-person/b45f9e7e-0f2c-5499-a634-74fca609fcff
+  - ocd-person/bcc75a3a-2711-50d0-9bfd-c96ab9185b46
+  - ocd-person/f5b9a9e4-ff5e-5a79-961d-058db08fbbd4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2abbc0cb-6339-42d9-9947-69412a24301b
+    name: John Mahoney
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 13th Worcester, 2010

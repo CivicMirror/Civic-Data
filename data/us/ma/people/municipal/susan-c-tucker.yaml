@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/06a716bb-8e94-5936-9ebe-9bd2d7b1be90
+name: Susan C. Tucker
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10431'
+candidacies:
+- contest_id: ma-senate-second-essex-and-middlesex/2002-11-05/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: Susan C. Tucker
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10431
+- contest_id: ma-senate-second-essex-and-middlesex/2004-11-02/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: Susan C. Tucker
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10431
+- contest_id: ma-senate-second-essex-and-middlesex/2006-11-07/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: Susan C. Tucker
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10431
+- contest_id: ma-senate-second-essex-and-middlesex/2008-11-04/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: Susan C. Tucker
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10431
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10431

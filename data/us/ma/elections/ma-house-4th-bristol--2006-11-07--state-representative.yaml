@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-bristol/2006-11-07/general
+name: ma-house-4th-bristol 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-bristol/2006-11-07/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-bristol/legislature
+  office_id: ma-house-4th-bristol/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/28414f00-7eaf-5cc9-9a78-63e550af4c38
+  - ocd-person/54487f49-5377-4c41-bd97-60b748cc240a
+  - ocd-person/5fe7d5d1-7133-53f6-b20f-d61c964379aa
+  - ocd-person/84d8fcf1-d1cc-55d4-9c6d-1c370671ac1f
+  - ocd-person/b5011a08-ab72-5bc4-9a79-347d11dac8b4
+  - ocd-person/bfbea5e5-0286-5da7-b9e1-78b4ab239916
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5fe7d5d1-7133-53f6-b20f-d61c964379aa
+    name: Steven J. D'Amico
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- House race, 4th Bristol, 2006

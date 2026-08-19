@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b47d1b03-6317-599a-b800-d85e132efff6
+name: Stephen John White
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14347'
+candidacies:
+- contest_id: ma-house-19th-suffolk/2004-11-02/state-representative
+  election_id: ma-house-19th-suffolk/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:19th-suffolk/legislature
+  office_id: ma-house-19th-suffolk/state-representative
+  party: Republican
+  ballot_name: Stephen John White
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14347
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14347

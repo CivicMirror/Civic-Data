@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5a7ec9a9-786e-59c2-9155-668c0e34bfe9
+name: Aaron Vega
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15533'
+candidacies:
+- contest_id: ma-house-5th-hampden/2012-11-06/state-representative
+  election_id: ma-house-5th-hampden/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-hampden/legislature
+  office_id: ma-house-5th-hampden/state-representative
+  party: Democratic
+  ballot_name: Aaron Vega
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15533
+- contest_id: ma-house-5th-hampden/2014-11-04/state-representative
+  election_id: ma-house-5th-hampden/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-hampden/legislature
+  office_id: ma-house-5th-hampden/state-representative
+  party: Democratic
+  ballot_name: Aaron Vega
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15533
+- contest_id: ma-house-5th-hampden/2016-11-08/state-representative
+  election_id: ma-house-5th-hampden/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-hampden/legislature
+  office_id: ma-house-5th-hampden/state-representative
+  party: Democratic
+  ballot_name: Aaron Vega
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15533
+- contest_id: ma-house-5th-hampden/2018-11-06/state-representative
+  election_id: ma-house-5th-hampden/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-hampden/legislature
+  office_id: ma-house-5th-hampden/state-representative
+  party: Democratic
+  ballot_name: Aaron Vega
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15533
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15533

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3ccad0a8-a59f-51d5-a175-cf13510f22d4
+name: Diane P. LeBlanc
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17202'
+candidacies:
+- contest_id: waltham/2019-11-05/mayor
+  election_id: waltham/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:waltham/government
+  office_id: waltham/mayor
+  party: Unenrolled
+  ballot_name: Diane P. LeBlanc
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17202
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17202

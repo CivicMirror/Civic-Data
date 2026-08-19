@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-hampden/2020-11-03/general
+name: ma-house-5th-hampden 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-hampden/2020-11-03/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-hampden/legislature
+  office_id: ma-house-5th-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/73eca1de-c984-52e4-a8e4-9e8b8b51ac3b
+  - ocd-person/89b37997-a634-559b-a494-016399035a63
+  - ocd-person/e50e8121-bc6f-4aaa-8cf2-f1cbd53c9172
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e50e8121-bc6f-4aaa-8cf2-f1cbd53c9172
+    name: Pat Duffy
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2020
+  note: OCPF filer registry -- House race, 5th Hampden, 2020

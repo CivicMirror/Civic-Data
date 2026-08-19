@@ -1,0 +1,15 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/27eb4efa-710f-573c-8284-fbca3c16d050
+name: Josh Mason
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16875'
+candidacies: []
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16875

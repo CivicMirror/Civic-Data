@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4a02d611-dfb7-5a8b-8fe4-cb74a3dcd2ab
+name: Jimmy Pereira
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16627'
+candidacies:
+- contest_id: brockton/2017-11-07/mayor
+  election_id: brockton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Democratic
+  ballot_name: Jimmy Pereira
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16627
+- contest_id: brockton/2019-11-05/mayor
+  election_id: brockton/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Democratic
+  ballot_name: Jimmy Pereira
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16627
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16627

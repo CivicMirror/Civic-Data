@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e1d28854-9d43-5bc2-9506-ebf1b85e8bd8
+name: Patricia Vanaria
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15823'
+candidacies:
+- contest_id: ma-house-8th-middlesex/2014-11-04/state-representative
+  election_id: ma-house-8th-middlesex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-middlesex/legislature
+  office_id: ma-house-8th-middlesex/state-representative
+  party: Republican
+  ballot_name: Patricia Vanaria
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15823
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15823

@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-worcester/2014-11-04/general
+name: ma-house-5th-worcester 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-worcester/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-worcester/legislature
+  office_id: ma-house-5th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4808a356-6b5d-5699-b35c-4ebb36cc7dec
+  - ocd-person/5a276629-f50a-4d9a-a54e-2c0e07f84968
+  - ocd-person/932fa58d-baed-5372-915c-529292d31c3e
+  - ocd-person/cebb1acf-eaa0-517b-a997-4fc7285e83d3
+  - ocd-person/dbe73379-a788-57d7-8f71-fa6795c84bfb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5a276629-f50a-4d9a-a54e-2c0e07f84968
+    name: Donnie Berthiaume
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 5th Worcester, 2014

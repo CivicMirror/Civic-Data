@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3b68c8f7-b976-54c0-9754-18360ed9a56a
+name: Matthew Benedetti
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14836'
+candidacies:
+- contest_id: ma-house-10th-suffolk/2010-11-02/state-representative
+  election_id: ma-house-10th-suffolk/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-suffolk/legislature
+  office_id: ma-house-10th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Matthew Benedetti
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14836
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14836

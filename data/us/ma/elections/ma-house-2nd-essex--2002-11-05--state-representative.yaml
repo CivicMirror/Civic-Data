@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-essex/2002-11-05/general
+name: ma-house-2nd-essex 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-essex/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-essex/legislature
+  office_id: ma-house-2nd-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5783cb07-1c89-5d17-9673-89f760dd24ab
+  - ocd-person/9b99a0c9-411b-5c5a-8452-236dc666eb63
+  - ocd-person/e8222083-fa02-5018-96e4-812eb4700ba9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e8222083-fa02-5018-96e4-812eb4700ba9
+    name: Harriett L. Stanley
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 2nd Essex, 2002

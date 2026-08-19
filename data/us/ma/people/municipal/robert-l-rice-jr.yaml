@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f80e9e23-5217-5480-8fdb-1ef586568a4b
+name: Robert L. Rice Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14451'
+candidacies:
+- contest_id: ma-house-2nd-worcester/2006-11-07/state-representative
+  election_id: ma-house-2nd-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  party: Democratic
+  ballot_name: Robert L. Rice Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14451
+- contest_id: ma-house-2nd-worcester/2008-11-04/state-representative
+  election_id: ma-house-2nd-worcester/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  party: Democratic
+  ballot_name: Robert L. Rice Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14451
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14451

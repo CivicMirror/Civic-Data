@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e5fdb33c-2d47-545c-b368-ddcd8be93c34
+name: Paul R. Kearney Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15126'
+candidacies:
+- contest_id: ma-senate-norfolk-and-plymouth/2010-11-02/state-senator
+  election_id: ma-senate-norfolk-and-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:norfolk-and-plymouth/legislature
+  office_id: ma-senate-norfolk-and-plymouth/state-senator
+  party: Unenrolled
+  ballot_name: Paul R. Kearney Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15126
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15126

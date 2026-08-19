@@ -1,0 +1,32 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: brockton/2025-11-04/general
+name: brockton 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: brockton/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0982ce74-c658-5e84-89c5-bb400f8e53a3
+  - ocd-person/3e4b03b8-43c0-5cf6-bd48-39ebf6306261
+  - ocd-person/4e47d3d2-5fc4-5816-8ec2-004740a23c0c
+  - ocd-person/61b732c4-dc3b-5e9e-aa99-b3929143fdbf
+  - ocd-person/8c36e0d6-5d60-5d0a-b35e-218474c0b8fa
+  - ocd-person/9611f564-78a4-5dcf-ad21-a7350f94fc9c
+  - ocd-person/ad9051f9-a2ef-53ca-8349-6584bc645e98
+  - ocd-person/c60ce207-c5d6-5d82-8fe4-234e87a9a5d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/61b732c4-dc3b-5e9e-aa99-b3929143fdbf
+    name: Moises M. Rodrigues
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Brockton, 2025

@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: methuen/2019-11-05/general
+name: methuen 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: methuen/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:methuen/government
+  office_id: methuen/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/454e594f-ee07-57d8-92c0-eaa0fac0a645
+  - ocd-person/7bf4ac65-3d30-581f-a77b-bb5d31222595
+  - ocd-person/c57f04d3-fb5b-5c23-a407-acb0e37834e0
+  - ocd-person/f08a919c-8f89-5002-ad60-93c42a93d5b2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/454e594f-ee07-57d8-92c0-eaa0fac0a645
+    name: Neil P. Perry
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Methuen, 2019

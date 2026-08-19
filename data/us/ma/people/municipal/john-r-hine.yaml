@@ -1,0 +1,15 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/34c3a329-4c07-5bae-9eab-d3c0a4e82eb2
+name: John R. Hine
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17019'
+candidacies: []
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17019

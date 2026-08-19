@@ -1,0 +1,69 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d0cae3a3-256d-50a8-a682-9dd6cade4a33
+name: John J. Binienda Sr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10030'
+candidacies:
+- contest_id: ma-house-17th-worcester/2002-11-05/state-representative
+  election_id: ma-house-17th-worcester/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: John J. Binienda Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10030
+- contest_id: ma-house-17th-worcester/2004-11-02/state-representative
+  election_id: ma-house-17th-worcester/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: John J. Binienda Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10030
+- contest_id: ma-house-17th-worcester/2006-11-07/state-representative
+  election_id: ma-house-17th-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: John J. Binienda Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10030
+- contest_id: ma-house-17th-worcester/2008-11-04/state-representative
+  election_id: ma-house-17th-worcester/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: John J. Binienda Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10030
+- contest_id: ma-house-17th-worcester/2010-11-02/state-representative
+  election_id: ma-house-17th-worcester/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: John J. Binienda Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10030
+- contest_id: ma-house-17th-worcester/2012-11-06/state-representative
+  election_id: ma-house-17th-worcester/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: John J. Binienda Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10030
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10030

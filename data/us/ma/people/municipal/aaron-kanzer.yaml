@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b6f96706-824e-50e6-b81a-b79e969c3f43
+name: Aaron Kanzer
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16296'
+candidacies:
+- contest_id: ma-house-2nd-barnstable/2016-11-08/state-representative
+  election_id: ma-house-2nd-barnstable/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-barnstable/legislature
+  office_id: ma-house-2nd-barnstable/state-representative
+  party: Democratic
+  ballot_name: Aaron Kanzer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16296
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16296

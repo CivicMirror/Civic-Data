@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: revere/2023-11-07/general
+name: revere 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: revere/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:revere/government
+  office_id: revere/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4e6a666b-075b-5a78-90a0-9e05a7af0ee0
+  - ocd-person/71f1faec-fb65-549a-b0b9-247b2f490c0f
+  - ocd-person/7f92a0fa-6cba-5c98-a49d-611d316e374f
+  - ocd-person/e398c24d-4fc8-5979-bd3d-0292cfc6a77b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e398c24d-4fc8-5979-bd3d-0292cfc6a77b
+    name: Patrick Keefe
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Revere, 2023

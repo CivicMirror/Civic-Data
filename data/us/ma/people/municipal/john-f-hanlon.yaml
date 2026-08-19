@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d755e5ee-b9c6-509a-a9ef-3f4a3c4513ec
+name: John F. Hanlon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15220'
+candidacies:
+- contest_id: ma-house-28th-middlesex/2010-11-02/state-representative
+  election_id: ma-house-28th-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:28th-middlesex/legislature
+  office_id: ma-house-28th-middlesex/state-representative
+  party: Democratic
+  ballot_name: John F. Hanlon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15220
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15220

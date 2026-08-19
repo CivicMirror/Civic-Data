@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a4047f96-4bd1-5350-bfd1-edeee06bdac0
+name: George I. Eleftheriou
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18415'
+candidacies:
+- contest_id: haverhill/2023-11-07/mayor
+  election_id: haverhill/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  party: Democratic
+  ballot_name: George I. Eleftheriou
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18415
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18415

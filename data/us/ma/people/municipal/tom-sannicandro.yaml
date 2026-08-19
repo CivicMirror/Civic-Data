@@ -1,0 +1,69 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4f368822-f968-5ce1-ba1d-1c8b4ba5be31
+name: Tom Sannicandro
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14345'
+candidacies:
+- contest_id: ma-house-7th-middlesex/2004-11-02/state-representative
+  election_id: ma-house-7th-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Tom Sannicandro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14345
+- contest_id: ma-house-7th-middlesex/2006-11-07/state-representative
+  election_id: ma-house-7th-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Tom Sannicandro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14345
+- contest_id: ma-house-7th-middlesex/2008-11-04/state-representative
+  election_id: ma-house-7th-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Tom Sannicandro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14345
+- contest_id: ma-house-7th-middlesex/2010-11-02/state-representative
+  election_id: ma-house-7th-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Tom Sannicandro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14345
+- contest_id: ma-house-7th-middlesex/2012-11-06/state-representative
+  election_id: ma-house-7th-middlesex/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Tom Sannicandro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14345
+- contest_id: ma-house-7th-middlesex/2014-11-04/state-representative
+  election_id: ma-house-7th-middlesex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Tom Sannicandro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14345
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14345

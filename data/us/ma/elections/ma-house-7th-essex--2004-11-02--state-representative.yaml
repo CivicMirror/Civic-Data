@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-7th-essex/2004-11-02/general
+name: ma-house-7th-essex 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-7th-essex/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-essex/legislature
+  office_id: ma-house-7th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/323129f0-32e2-5668-8d9b-79e6fe9abc22
+  - ocd-person/32be654c-1aef-5442-9809-ec52ad10f530
+  - ocd-person/5df1119d-76a5-5e5a-b5cf-1183eb7dac11
+  - ocd-person/bcfa4847-1b19-5122-9241-5b4ebd90f176
+  - ocd-person/d0956cb2-93df-4096-82ce-d39fbf0b9e36
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5df1119d-76a5-5e5a-b5cf-1183eb7dac11
+    name: John D. Keenan Jr.
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 7th Essex, 2004

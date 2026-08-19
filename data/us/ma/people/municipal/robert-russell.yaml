@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/355ec076-221d-5fe8-baab-506437e7bd38
+name: Robert Russell
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17780'
+candidacies:
+- contest_id: gloucester/2021-11-02/mayor
+  election_id: gloucester/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Unenrolled
+  ballot_name: Robert Russell
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17780
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17780

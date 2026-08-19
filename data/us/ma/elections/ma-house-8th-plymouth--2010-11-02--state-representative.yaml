@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-8th-plymouth/2010-11-02/general
+name: ma-house-8th-plymouth 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-8th-plymouth/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-plymouth/legislature
+  office_id: ma-house-8th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7f1d5f24-7bea-5432-a677-fb7413dc5ccf
+  - ocd-person/b966a87c-effa-50eb-89d9-829406bd46e2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b966a87c-effa-50eb-89d9-829406bd46e2
+    name: Angelo L. D'Emilia
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 8th Plymouth, 2010

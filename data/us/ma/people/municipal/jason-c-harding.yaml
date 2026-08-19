@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b351b259-2a41-5580-83b6-5f708c8e4deb
+name: Jason C. Harding
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14480'
+candidacies:
+- contest_id: ma-house-12th-essex/2006-11-07/state-representative
+  election_id: ma-house-12th-essex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-essex/legislature
+  office_id: ma-house-12th-essex/state-representative
+  party: Republican
+  ballot_name: Jason C. Harding
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14480
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14480

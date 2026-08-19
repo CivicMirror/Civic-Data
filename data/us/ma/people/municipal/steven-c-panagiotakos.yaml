@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/16754589-db7b-5793-a678-3859fb9f13ec
+name: Steven C. Panagiotakos
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12263'
+candidacies:
+- contest_id: ma-senate-first-middlesex/2002-11-05/state-senator
+  election_id: ma-senate-first-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Steven C. Panagiotakos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12263
+- contest_id: ma-senate-first-middlesex/2004-11-02/state-senator
+  election_id: ma-senate-first-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Steven C. Panagiotakos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12263
+- contest_id: ma-senate-first-middlesex/2006-11-07/state-senator
+  election_id: ma-senate-first-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Steven C. Panagiotakos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12263
+- contest_id: ma-senate-first-middlesex/2008-11-04/state-senator
+  election_id: ma-senate-first-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Steven C. Panagiotakos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12263
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12263

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/aa898173-1527-5457-bd9b-fb34d2ebfc98
+name: Kevin Begley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15165'
+candidacies:
+- contest_id: ma-house-14th-essex/2010-11-02/state-representative
+  election_id: ma-house-14th-essex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-essex/legislature
+  office_id: ma-house-14th-essex/state-representative
+  party: Republican
+  ballot_name: Kevin Begley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15165
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15165

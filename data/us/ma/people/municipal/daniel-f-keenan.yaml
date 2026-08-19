@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1845dd18-a841-5751-97ae-a73a97440574
+name: Daniel F. Keenan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12639'
+candidacies:
+- contest_id: ma-house-3rd-hampden/2002-11-05/state-representative
+  election_id: ma-house-3rd-hampden/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampden/legislature
+  office_id: ma-house-3rd-hampden/state-representative
+  party: Democratic
+  ballot_name: Daniel F. Keenan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12639
+- contest_id: ma-house-3rd-hampden/2004-11-02/state-representative
+  election_id: ma-house-3rd-hampden/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampden/legislature
+  office_id: ma-house-3rd-hampden/state-representative
+  party: Democratic
+  ballot_name: Daniel F. Keenan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12639
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12639

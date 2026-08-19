@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/69df4eae-f414-5068-b9c3-b779dc003fc1
+name: Roxann D. Wedegartner
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15005'
+candidacies:
+- contest_id: greenfield/2019-11-05/mayor
+  election_id: greenfield/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:greenfield/government
+  office_id: greenfield/mayor
+  party: Democratic
+  ballot_name: Roxann D. Wedegartner
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15005
+- contest_id: greenfield/2023-11-07/mayor
+  election_id: greenfield/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:greenfield/government
+  office_id: greenfield/mayor
+  party: Democratic
+  ballot_name: Roxann D. Wedegartner
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15005
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15005

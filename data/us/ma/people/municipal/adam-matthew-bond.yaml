@@ -1,0 +1,15 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bfbef228-a55d-5bea-89df-7591c1e68298
+name: Adam Matthew Bond
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15412'
+candidacies: []
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15412

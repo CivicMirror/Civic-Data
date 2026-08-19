@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-8th-suffolk/2024-11-05/general
+name: ma-house-8th-suffolk 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-8th-suffolk/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-suffolk/legislature
+  office_id: ma-house-8th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/033bf9eb-2706-4c5f-9f93-8e8d222bf2c0
+  - ocd-person/29f7e26c-992d-5aaa-9232-e9035d1f121d
+  - ocd-person/9cfd4136-3f5d-5690-9a40-97acebcc743f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/033bf9eb-2706-4c5f-9f93-8e8d222bf2c0
+    name: Jay Livingstone
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2024
+  note: OCPF filer registry -- House race, 8th Suffolk, 2024

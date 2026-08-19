@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/beda53e8-1dfe-5016-a6e3-52185ca68060
+name: Laura Innis
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15204'
+candidacies:
+- contest_id: ma-senate-norfolk-and-plymouth/2010-11-02/state-senator
+  election_id: ma-senate-norfolk-and-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:norfolk-and-plymouth/legislature
+  office_id: ma-senate-norfolk-and-plymouth/state-senator
+  party: Unenrolled
+  ballot_name: Laura Innis
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15204
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15204

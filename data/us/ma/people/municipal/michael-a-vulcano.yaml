@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/65baa44a-bd6e-5448-a07f-8e7c6190a65d
+name: Michael A. Vulcano
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18009'
+candidacies:
+- contest_id: ma-house-12th-worcester/2022-11-08/state-representative
+  election_id: ma-house-12th-worcester/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-worcester/legislature
+  office_id: ma-house-12th-worcester/state-representative
+  party: Republican
+  ballot_name: Michael A. Vulcano
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18009
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18009

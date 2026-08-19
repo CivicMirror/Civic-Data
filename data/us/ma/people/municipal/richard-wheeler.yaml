@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/041f0f94-e48c-5afc-bf76-842a147e43cb
+name: Richard Wheeler
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13949'
+candidacies:
+- contest_id: ma-house-10th-suffolk/2002-11-05/state-representative
+  election_id: ma-house-10th-suffolk/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-suffolk/legislature
+  office_id: ma-house-10th-suffolk/state-representative
+  party: Republican
+  ballot_name: Richard Wheeler
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13949
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13949

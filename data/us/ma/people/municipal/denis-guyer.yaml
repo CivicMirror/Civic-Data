@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/dbbbb341-6f4d-5da2-890b-b089ce7b3aa9
+name: Denis Guyer
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14133'
+candidacies:
+- contest_id: ma-house-2nd-berkshire/2004-11-02/state-representative
+  election_id: ma-house-2nd-berkshire/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-berkshire/legislature
+  office_id: ma-house-2nd-berkshire/state-representative
+  party: Democratic
+  ballot_name: Denis Guyer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14133
+- contest_id: ma-house-2nd-berkshire/2006-11-07/state-representative
+  election_id: ma-house-2nd-berkshire/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-berkshire/legislature
+  office_id: ma-house-2nd-berkshire/state-representative
+  party: Democratic
+  ballot_name: Denis Guyer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14133
+- contest_id: ma-house-2nd-berkshire/2008-11-04/state-representative
+  election_id: ma-house-2nd-berkshire/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-berkshire/legislature
+  office_id: ma-house-2nd-berkshire/state-representative
+  party: Democratic
+  ballot_name: Denis Guyer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14133
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14133

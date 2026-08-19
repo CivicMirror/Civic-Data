@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: braintree/2019-11-05/general
+name: braintree 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: braintree/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+  office_id: braintree/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5a053ae9-0775-51d2-a5d6-a28a9bb621c1
+  - ocd-person/dfd23f51-7fda-591d-888a-4a657e2dcd52
+  - ocd-person/ecd64b5f-c0f2-51a2-9095-b79a50117915
+  - ocd-person/f4e6b33b-8498-5b53-aec4-05dc21f3653f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5a053ae9-0775-51d2-a5d6-a28a9bb621c1
+    name: Charles C. Kokoros
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Braintree, 2019

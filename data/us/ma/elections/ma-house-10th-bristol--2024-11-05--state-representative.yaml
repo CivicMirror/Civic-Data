@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-10th-bristol/2024-11-05/general
+name: ma-house-10th-bristol 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-10th-bristol/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-bristol/legislature
+  office_id: ma-house-10th-bristol/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7446bdd1-f6b4-40cb-a039-41f4be68833e
+  - ocd-person/8ddd81db-9e9f-55ce-ae79-d8761928e063
+  - ocd-person/e73d430d-4691-5af0-adbd-8ef94179155c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7446bdd1-f6b4-40cb-a039-41f4be68833e
+    name: Mark Sylvia
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2024
+  note: OCPF filer registry -- House race, 10th Bristol, 2024

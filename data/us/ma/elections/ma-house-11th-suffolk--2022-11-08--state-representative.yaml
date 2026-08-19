@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-11th-suffolk/2022-11-08/general
+name: ma-house-11th-suffolk 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-11th-suffolk/2022-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-suffolk/legislature
+  office_id: ma-house-11th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/023e9633-7191-57a5-bcd6-986db99de40f
+  - ocd-person/28749ade-f284-50f1-b44a-4ea3a0e7db0c
+  - ocd-person/6f15f647-07f5-4739-a340-497798a474e7
+  - ocd-person/f9c21005-9964-5c60-89fa-7e0eb4856b38
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6f15f647-07f5-4739-a340-497798a474e7
+    name: Judith García
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- House race, 11th Suffolk, 2022

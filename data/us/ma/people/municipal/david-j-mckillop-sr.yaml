@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/310980e6-b818-56cd-9613-68d21fe41719
+name: David J. McKillop Sr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16700'
+candidacies:
+- contest_id: medford/2017-11-07/mayor
+  election_id: medford/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:medford/government
+  office_id: medford/mayor
+  party: Republican
+  ballot_name: David J. McKillop Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16700
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16700

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9cf4543c-d6e5-59d8-a17b-0acb521aa68e
+name: Stephen N. Paige
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14193'
+candidacies:
+- contest_id: ma-senate-first-worcester/2004-11-02/state-senator
+  election_id: ma-senate-first-worcester/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-worcester/legislature
+  office_id: ma-senate-first-worcester/state-senator
+  party: Republican
+  ballot_name: Stephen N. Paige
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14193
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14193

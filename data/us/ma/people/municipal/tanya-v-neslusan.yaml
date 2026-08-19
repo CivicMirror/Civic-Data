@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d644975c-5318-5b30-8b79-f6615e54d5fd
+name: Tanya V. Neslusan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16902'
+candidacies:
+- contest_id: ma-house-1st-hampden/2018-11-06/state-representative
+  election_id: ma-house-1st-hampden/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-hampden/legislature
+  office_id: ma-house-1st-hampden/state-representative
+  party: Democratic
+  ballot_name: Tanya V. Neslusan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16902
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16902

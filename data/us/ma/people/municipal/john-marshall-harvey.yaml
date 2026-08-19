@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/369af69e-1df6-5c36-b9bd-bee7b3c04ec6
+name: John Marshall Harvey
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17813'
+candidacies:
+- contest_id: gloucester/2021-11-02/mayor
+  election_id: gloucester/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Unenrolled
+  ballot_name: John Marshall Harvey
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17813
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17813

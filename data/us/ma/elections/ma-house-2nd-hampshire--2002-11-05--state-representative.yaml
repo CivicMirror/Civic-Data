@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-hampshire/2002-11-05/general
+name: ma-house-2nd-hampshire 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-hampshire/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-hampshire/legislature
+  office_id: ma-house-2nd-hampshire/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/05170545-b47a-5337-af4c-c7be4e1f26d7
+  - ocd-person/2a23ebb1-bf10-5ba0-ad8c-8f9c840b1d90
+  - ocd-person/62331658-0a4f-5575-bcd2-caf56a52867f
+  - ocd-person/ab8ba06e-30d1-5aae-a7cc-eeb75e2ff3d8
+  - ocd-person/e0be26ab-8c6d-5b13-b21a-e1a8f40ca9a8
+  - ocd-person/e50e8121-bc6f-4aaa-8cf2-f1cbd53c9172
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e0be26ab-8c6d-5b13-b21a-e1a8f40ca9a8
+    name: John W. Scibak
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 2nd Hampshire, 2002

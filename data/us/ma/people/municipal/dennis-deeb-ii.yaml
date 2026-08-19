@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1049d49f-79c4-578a-96be-b9fcc6f80410
+name: Dennis Deeb II
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13865'
+candidacies:
+- contest_id: ma-house-36th-middlesex/2002-11-05/state-representative
+  election_id: ma-house-36th-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:36th-middlesex/legislature
+  office_id: ma-house-36th-middlesex/state-representative
+  party: Republican
+  ballot_name: Dennis Deeb II
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13865
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13865

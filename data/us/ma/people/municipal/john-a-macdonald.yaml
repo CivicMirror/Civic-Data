@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/0f1b224e-4ce7-594d-acfd-611726d71de6
+name: John A. MacDonald
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15313'
+candidacies:
+- contest_id: ma-senate-first-middlesex/2018-11-06/state-senator
+  election_id: ma-senate-first-middlesex/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Republican
+  ballot_name: John A. MacDonald
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15313
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15313

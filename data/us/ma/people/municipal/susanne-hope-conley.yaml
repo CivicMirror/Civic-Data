@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a081cb35-34b7-5fc1-b4b9-43310caf6c3b
+name: Susanne Hope Conley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18761'
+candidacies:
+- contest_id: ma-house-2nd-barnstable/2024-11-05/state-representative
+  election_id: ma-house-2nd-barnstable/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-barnstable/legislature
+  office_id: ma-house-2nd-barnstable/state-representative
+  party: Republican
+  ballot_name: Susanne Hope Conley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18761
+image: https://ocpf2.blob.core.windows.net/filers-photos/18761.png
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18761

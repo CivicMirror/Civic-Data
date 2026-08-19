@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/cefd3e73-2d33-54f3-8b2d-8b32efe0a04c
+name: Tito Jackson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14931'
+candidacies:
+- contest_id: boston/2017-11-07/mayor
+  election_id: boston/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  party: Democratic
+  ballot_name: Tito Jackson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14931
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14931

@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-3rd-hampden/2006-11-07/general
+name: ma-house-3rd-hampden 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-house-3rd-hampden/2006-11-07/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampden/legislature
+  office_id: ma-house-3rd-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/01e950cd-92b5-5ed6-bfd0-e7732b48830d
+  - ocd-person/376911eb-b16f-5460-8687-9258f4a74c35
+  - ocd-person/ac5a4bac-1e27-5752-91e1-0c7a0d257e94
+  - ocd-person/e4fce38c-824c-503c-ad1f-2678713b32dc
+  - ocd-person/e604895a-5003-5867-af90-b511dd8b129a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e604895a-5003-5867-af90-b511dd8b129a
+    name: Rosemary Sandlin
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- House race, 3rd Hampden, 2006

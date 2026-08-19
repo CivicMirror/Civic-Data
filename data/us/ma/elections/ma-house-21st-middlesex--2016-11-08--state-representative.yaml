@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-21st-middlesex/2016-11-08/general
+name: ma-house-21st-middlesex 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-21st-middlesex/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:21st-middlesex/legislature
+  office_id: ma-house-21st-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/47c42957-b618-41b7-a557-5d24c33568cf
+  - ocd-person/cc9a1f91-31ee-5b4f-b4e1-bc72c74dc296
+  result_status: certified
+  winners:
+  - person_id: ocd-person/47c42957-b618-41b7-a557-5d24c33568cf
+    name: Ken Gordon
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 21st Middlesex, 2016

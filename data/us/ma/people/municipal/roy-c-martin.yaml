@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/031fd8ee-726a-58c3-9bcc-16fcca8c07ef
+name: Roy C. Martin
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17785'
+candidacies:
+- contest_id: northampton/2021-11-02/mayor
+  election_id: northampton/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:northampton/government
+  office_id: northampton/mayor
+  party: Unenrolled
+  ballot_name: Roy C. Martin
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17785
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17785

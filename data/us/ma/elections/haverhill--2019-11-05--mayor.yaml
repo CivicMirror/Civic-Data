@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: haverhill/2019-11-05/general
+name: haverhill 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: haverhill/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8689bead-777b-5c1b-a283-103bba57d8ac
+  - ocd-person/9d38c445-ab9d-5158-b38e-c5d331a289b9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9d38c445-ab9d-5158-b38e-c5d331a289b9
+    name: James Fiorentini
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Haverhill, 2019

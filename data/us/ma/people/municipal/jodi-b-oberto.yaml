@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2f5deb8c-6b57-50ec-a0d5-afebad02824d
+name: Jodi B. Oberto
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15113'
+candidacies:
+- contest_id: ma-senate-second-essex-and-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Unenrolled
+  ballot_name: Jodi B. Oberto
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15113
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15113

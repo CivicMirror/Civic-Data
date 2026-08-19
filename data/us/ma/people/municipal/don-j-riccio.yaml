@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f08a919c-8f89-5002-ad60-93c42a93d5b2
+name: Don J. Riccio
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17323'
+candidacies:
+- contest_id: methuen/2019-11-05/mayor
+  election_id: methuen/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:methuen/government
+  office_id: methuen/mayor
+  party: Unenrolled
+  ballot_name: Don J. Riccio
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17323
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17323

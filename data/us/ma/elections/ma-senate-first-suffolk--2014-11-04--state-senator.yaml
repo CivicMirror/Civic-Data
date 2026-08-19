@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-suffolk/2014-11-04/general
+name: ma-senate-first-suffolk 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-suffolk/2014-11-04/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-suffolk/legislature
+  office_id: ma-senate-first-suffolk/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/67a9e259-8c7f-59f4-8c95-7134447a8c0a
+  - ocd-person/c7ce3112-119c-5ba2-bbcf-2440c1df9d15
+  result_status: certified
+  winners:
+  - person_id: ocd-person/67a9e259-8c7f-59f4-8c95-7134447a8c0a
+    name: Linda Dorcena Forry
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- Senate race, 1st Suffolk, 2014

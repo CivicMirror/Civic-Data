@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: framingham/2017-11-07/general
+name: framingham 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: framingham/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:framingham/government
+  office_id: framingham/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/11b45c06-951b-5280-aeac-f8c726d7a211
+  - ocd-person/1b555c5a-bc60-58b9-9b92-083228d6be73
+  - ocd-person/28e2d73f-4047-5a2c-b3c6-7e3b5e3b2c70
+  - ocd-person/2b200980-3200-53ad-9206-1dae2b90b88e
+  - ocd-person/a148ff77-2e73-4e42-a525-20e8d1ed569a
+  - ocd-person/a8bbbb95-319e-5b26-b410-3d43ea6cf775
+  result_status: certified
+  winners:
+  - person_id: ocd-person/11b45c06-951b-5280-aeac-f8c726d7a211
+    name: Yvonne M. Spicer
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Framingham, 2017

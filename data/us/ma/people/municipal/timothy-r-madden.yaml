@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/447e730f-2b1b-57e9-93ec-9678f722be04
+name: Timothy R. Madden
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14792'
+candidacies:
+- contest_id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/state-representative
+  election_id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  party: Democratic
+  ballot_name: Timothy R. Madden
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14792
+- contest_id: ma-house-barnstable-dukes-and-nantucket/2010-11-02/state-representative
+  election_id: ma-house-barnstable-dukes-and-nantucket/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  party: Democratic
+  ballot_name: Timothy R. Madden
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14792
+- contest_id: ma-house-barnstable-dukes-and-nantucket/2012-11-06/state-representative
+  election_id: ma-house-barnstable-dukes-and-nantucket/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  party: Democratic
+  ballot_name: Timothy R. Madden
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14792
+- contest_id: ma-house-barnstable-dukes-and-nantucket/2014-11-04/state-representative
+  election_id: ma-house-barnstable-dukes-and-nantucket/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  party: Democratic
+  ballot_name: Timothy R. Madden
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14792
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14792

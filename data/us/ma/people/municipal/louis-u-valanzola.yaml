@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/24dc6c07-cd06-52f8-aff3-bfeb01b3b15f
+name: Louis U. Valanzola
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15817'
+candidacies:
+- contest_id: ma-house-5th-plymouth/2014-11-04/state-representative
+  election_id: ma-house-5th-plymouth/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-plymouth/legislature
+  office_id: ma-house-5th-plymouth/state-representative
+  party: Republican
+  ballot_name: Louis U. Valanzola
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15817
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15817

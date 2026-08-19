@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3d316340-a9cf-5b04-a403-05b8cdb8693a
+name: Alan L. Wilcox
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13545'
+candidacies:
+- contest_id: ma-house-2nd-hampden/2002-11-05/state-representative
+  election_id: ma-house-2nd-hampden/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-hampden/legislature
+  office_id: ma-house-2nd-hampden/state-representative
+  party: Libertarian
+  ballot_name: Alan L. Wilcox
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13545
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13545

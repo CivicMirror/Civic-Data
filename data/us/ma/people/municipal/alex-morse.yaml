@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ce48d30a-e942-5e25-b7c6-d37a65faa8f3
+name: Alex Morse
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16127'
+candidacies:
+- contest_id: holyoke/2017-11-07/mayor
+  election_id: holyoke/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:holyoke/government
+  office_id: holyoke/mayor
+  party: Unenrolled
+  ballot_name: Alex Morse
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16127
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16127

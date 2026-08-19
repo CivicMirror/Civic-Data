@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f793b3cd-e4d3-512d-b070-a3953cc05564
+name: Ronald J Patuto
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18101'
+candidacies:
+- contest_id: ma-senate-first-plymouth-and-norfolk/2022-11-08/state-senator
+  election_id: ma-senate-first-plymouth-and-norfolk/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-plymouth-and-norfolk/legislature
+  office_id: ma-senate-first-plymouth-and-norfolk/state-senator
+  party: Republican
+  ballot_name: Ronald J Patuto
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18101
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18101

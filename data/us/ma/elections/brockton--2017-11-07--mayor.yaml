@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: brockton/2017-11-07/general
+name: brockton 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: brockton/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1c9a14dc-a163-5cbe-8778-18ee4f673d2f
+  - ocd-person/4a02d611-dfb7-5a8b-8fe4-cb74a3dcd2ab
+  - ocd-person/64a7a50f-68eb-5bb4-bd23-33e7f04db8e7
+  - ocd-person/ee251c5d-41e6-54c3-9f86-7762e01613de
+  - ocd-person/f0075a8a-b98a-566b-9a48-34a731879eda
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ee251c5d-41e6-54c3-9f86-7762e01613de
+    name: Bill Carpenter
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Brockton, 2017

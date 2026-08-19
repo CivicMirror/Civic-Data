@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/417acd6d-cf2a-5961-a227-e1a0da0045b4
+name: Kendrys Vasquez
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15974'
+candidacies:
+- contest_id: lawrence/2021-11-02/mayor
+  election_id: lawrence/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:lawrence/government
+  office_id: lawrence/mayor
+  party: Unenrolled
+  ballot_name: Kendrys Vasquez
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15974
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15974

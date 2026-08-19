@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d9f5e843-59a3-52eb-91c1-c5b1f14ffb3f
+name: David M. Rajczewski
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15538'
+candidacies:
+- contest_id: ma-house-34th-middlesex/2012-11-06/state-representative
+  election_id: ma-house-34th-middlesex/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:34th-middlesex/legislature
+  office_id: ma-house-34th-middlesex/state-representative
+  party: Republican
+  ballot_name: David M. Rajczewski
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15538
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15538

@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2674235c-4265-5e76-acbc-0e5c93d121c4
+name: Derek A. Maksy
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15176'
+candidacies:
+- contest_id: ma-senate-first-bristol-and-plymouth/2010-11-02/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Republican
+  ballot_name: Derek A. Maksy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15176
+- contest_id: ma-senate-first-bristol-and-plymouth/2014-11-04/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Republican
+  ballot_name: Derek A. Maksy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15176
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15176

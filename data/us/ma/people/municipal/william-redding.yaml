@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a47ef95c-901c-542e-8c41-9635e8ac8d66
+name: William Redding
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14031'
+candidacies:
+- contest_id: ma-house-14th-bristol/2002-11-05/state-representative
+  election_id: ma-house-14th-bristol/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-bristol/legislature
+  office_id: ma-house-14th-bristol/state-representative
+  party: Democratic
+  ballot_name: William Redding
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14031
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14031

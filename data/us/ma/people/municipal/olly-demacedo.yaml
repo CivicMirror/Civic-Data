@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e386bcaf-4e4d-5a7d-9d57-da96e835036b
+name: Olly deMacedo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14624'
+candidacies:
+- contest_id: ma-house-12th-plymouth/2006-11-07/state-representative
+  election_id: ma-house-12th-plymouth/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-plymouth/legislature
+  office_id: ma-house-12th-plymouth/state-representative
+  party: Republican
+  ballot_name: Olly deMacedo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14624
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14624

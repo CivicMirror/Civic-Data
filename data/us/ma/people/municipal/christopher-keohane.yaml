@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ed5ed2b2-7e42-51ac-965b-66fac936ae1d
+name: Christopher Keohane
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17507'
+candidacies:
+- contest_id: ma-house-13th-essex/2020-11-03/state-representative
+  election_id: ma-house-13th-essex/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:13th-essex/legislature
+  office_id: ma-house-13th-essex/state-representative
+  party: Unenrolled
+  ballot_name: Christopher Keohane
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17507
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17507

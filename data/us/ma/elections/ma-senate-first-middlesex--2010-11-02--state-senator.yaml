@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-middlesex/2010-11-02/general
+name: ma-senate-first-middlesex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-middlesex/2010-11-02/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/359b8e75-dc85-50a4-b121-3e987eefc522
+  - ocd-person/8abd509e-40c6-5435-b616-145393be1641
+  - ocd-person/d4aac5e8-3bca-50e8-b0f3-0d701b9313b5
+  - ocd-person/e1962e48-de34-5781-8a98-a54d649c31ab
+  result_status: certified
+  winners:
+  - person_id: ocd-person/359b8e75-dc85-50a4-b121-3e987eefc522
+    name: Eileen Donoghue
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- Senate race, 1st Middlesex, 2010

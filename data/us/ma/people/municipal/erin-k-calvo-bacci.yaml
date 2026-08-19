@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a0c72c11-1c6a-544f-bbe4-3ef476efdff1
+name: Erin K. Calvo-Bacci
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17020'
+candidacies:
+- contest_id: ma-senate-fifth-middlesex/2018-11-06/state-senator
+  election_id: ma-senate-fifth-middlesex/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fifth-middlesex/legislature
+  office_id: ma-senate-fifth-middlesex/state-senator
+  party: Republican
+  ballot_name: Erin K. Calvo-Bacci
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17020
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17020

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f0075a8a-b98a-566b-9a48-34a731879eda
+name: Michael A. Carroll
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16774'
+candidacies:
+- contest_id: brockton/2017-11-07/mayor
+  election_id: brockton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: Michael A. Carroll
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16774
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16774

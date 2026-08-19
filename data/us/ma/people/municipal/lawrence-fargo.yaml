@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8c36e0d6-5d60-5d0a-b35e-218474c0b8fa
+name: Lawrence Fargo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '19321'
+candidacies:
+- contest_id: brockton/2025-11-04/mayor
+  election_id: brockton/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: Lawrence Fargo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=19321
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=19321

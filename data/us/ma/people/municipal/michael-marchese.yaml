@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/0f09d227-9e53-5303-9fe3-a9d666cd89bc
+name: Michael Marchese
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12009'
+candidacies:
+- contest_id: ma-house-28th-middlesex/2022-11-08/state-representative
+  election_id: ma-house-28th-middlesex/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:28th-middlesex/legislature
+  office_id: ma-house-28th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Michael Marchese
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12009
+- contest_id: ma-house-28th-middlesex/2024-11-05/state-representative
+  election_id: ma-house-28th-middlesex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:28th-middlesex/legislature
+  office_id: ma-house-28th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Michael Marchese
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12009
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12009

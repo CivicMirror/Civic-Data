@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bd1ef71b-9477-5b77-9494-451b6d733e27
+name: David Narkewicz
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16091'
+candidacies:
+- contest_id: northampton/2017-11-07/mayor
+  election_id: northampton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:northampton/government
+  office_id: northampton/mayor
+  party: Democratic
+  ballot_name: David Narkewicz
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16091
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16091

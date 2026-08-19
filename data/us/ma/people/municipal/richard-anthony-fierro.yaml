@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/796b7535-8ddc-5395-b6c8-2e3a1f4cd352
+name: Richard Anthony Fierro
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17950'
+candidacies:
+- contest_id: ma-house-15th-suffolk/2022-11-08/state-representative
+  election_id: ma-house-15th-suffolk/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-suffolk/legislature
+  office_id: ma-house-15th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Richard Anthony Fierro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17950
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17950

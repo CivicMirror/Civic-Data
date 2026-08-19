@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-essex/2010-11-02/general
+name: ma-senate-first-essex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-essex/2010-11-02/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-essex/legislature
+  office_id: ma-senate-first-essex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1102547c-3487-5450-8423-1b2ab0dd5ee7
+  - ocd-person/41ef5dbb-74ce-5727-8c02-11b6f4cde77d
+  - ocd-person/44a86b36-8fd0-5eb0-9d62-d9533d8dc37c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1102547c-3487-5450-8423-1b2ab0dd5ee7
+    name: Steven A. Baddour
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- Senate race, 1st Essex, 2010

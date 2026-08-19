@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/31a25595-e994-5cfc-bf19-584604b860f2
+name: James J. McCauley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '19281'
+candidacies:
+- contest_id: newburyport/2025-11-04/mayor
+  election_id: newburyport/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newburyport/government
+  office_id: newburyport/mayor
+  party: Democratic
+  ballot_name: James J. McCauley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=19281
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=19281

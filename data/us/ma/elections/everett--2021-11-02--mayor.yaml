@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: everett/2021-11-02/general
+name: everett 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: everett/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:everett/government
+  office_id: everett/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a034ccb7-540c-5a2c-a600-d3ffdfe9e9b0
+  - ocd-person/fa881e4d-b333-58c8-8182-f58f0706dd6f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fa881e4d-b333-58c8-8182-f58f0706dd6f
+    name: Carlo DeMaria Jr.
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Everett, 2021

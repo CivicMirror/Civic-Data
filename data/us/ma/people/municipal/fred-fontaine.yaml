@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/00734558-d006-5cf1-8280-0118c501e02f
+name: Fred Fontaine
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18049'
+candidacies:
+- contest_id: ma-house-11th-plymouth/2024-11-05/state-representative
+  election_id: ma-house-11th-plymouth/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-plymouth/legislature
+  office_id: ma-house-11th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Fred Fontaine
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18049
+- contest_id: brockton/2023-11-07/mayor
+  election_id: brockton/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Democratic
+  ballot_name: Fred Fontaine
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18049
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18049

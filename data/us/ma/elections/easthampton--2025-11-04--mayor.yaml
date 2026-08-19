@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: easthampton/2025-11-04/general
+name: easthampton 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: easthampton/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/52d4d3e8-f345-5512-a1df-92f3751d42e0
+  - ocd-person/5c936dd0-31ee-565c-a6ee-05053bcd93b1
+  - ocd-person/f48070ec-090e-5f77-b3bb-95d0f5f49360
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5c936dd0-31ee-565c-a6ee-05053bcd93b1
+    name: Salem Derby
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Easthampton, 2025

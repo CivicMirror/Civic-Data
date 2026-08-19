@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d30cf226-c2e2-5dee-b6fc-90eb0b3f0c0c
+name: Alexander Benjamin Jablon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18811'
+candidacies:
+- contest_id: ma-house-11th-middlesex/2024-11-05/state-representative
+  election_id: ma-house-11th-middlesex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-middlesex/legislature
+  office_id: ma-house-11th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Alexander Benjamin Jablon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18811
+image: https://ocpf2.blob.core.windows.net/filers-photos/18811.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18811

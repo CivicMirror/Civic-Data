@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-norfolk/2016-11-08/general
+name: ma-house-2nd-norfolk 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-norfolk/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-norfolk/legislature
+  office_id: ma-house-2nd-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6b420d2a-f12d-40ca-a13f-04cf9061a66b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6b420d2a-f12d-40ca-a13f-04cf9061a66b
+    name: Tackey Chan
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 2nd Norfolk, 2016

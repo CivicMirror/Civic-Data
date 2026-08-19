@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/15871fb1-2152-5afc-9bdc-a8fd8fc7fbb8
+name: Kathleen Crogan-Camara
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18020'
+candidacies:
+- contest_id: ma-senate-norfolk-plymouth-and-bristol/2024-11-05/state-senator
+  election_id: ma-senate-norfolk-plymouth-and-bristol/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:norfolk-plymouth-and-bristol/legislature
+  office_id: ma-senate-norfolk-plymouth-and-bristol/state-senator
+  party: Democratic
+  ballot_name: Kathleen Crogan-Camara
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18020
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18020

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e528eeec-5b6c-50da-b585-e6b453381bcb
+name: Wilfred N. Mbah
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16536'
+candidacies:
+- contest_id: somerville/2021-11-02/mayor
+  election_id: somerville/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  party: Democratic
+  ballot_name: Wilfred N. Mbah
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16536
+image: https://ocpf2.blob.core.windows.net/filers-photos/16536.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16536

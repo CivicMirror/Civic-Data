@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/86110c85-5547-5084-a0cd-92f406550c4c
+name: William F. Martin
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16081'
+candidacies:
+- contest_id: greenfield/2015-11-03/mayor
+  election_id: greenfield/2015-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:greenfield/government
+  office_id: greenfield/mayor
+  party: Unenrolled
+  ballot_name: William F. Martin
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16081
+- contest_id: ma-senate-first-middlesex/2018-11-06/state-senator
+  election_id: ma-senate-first-middlesex/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: William F. Martin Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13349
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16081

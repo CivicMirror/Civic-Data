@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: somerville/2025-11-04/general
+name: somerville 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: somerville/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2ba115cf-d475-5aaf-abe6-b6a085e96b46
+  - ocd-person/5ba9bc2d-ce6d-5443-ab6a-4190ba2949a3
+  - ocd-person/a21467f8-d56a-5c43-8c8a-c8f8df34603e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5ba9bc2d-ce6d-5443-ab6a-4190ba2949a3
+    name: Jacob D. Wilson
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Somerville, 2025

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/96cad57a-abbf-5a65-93d7-0490b3829e00
+name: Keri Thompson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16495'
+candidacies:
+- contest_id: ma-house-3rd-plymouth/2016-11-08/state-representative
+  election_id: ma-house-3rd-plymouth/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-plymouth/legislature
+  office_id: ma-house-3rd-plymouth/state-representative
+  party: United Independent Party
+  ballot_name: Keri Thompson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16495
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16495

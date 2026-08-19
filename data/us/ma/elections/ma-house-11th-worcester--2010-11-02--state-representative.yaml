@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-11th-worcester/2010-11-02/general
+name: ma-house-11th-worcester 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-11th-worcester/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-worcester/legislature
+  office_id: ma-house-11th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/63f61cae-46f7-542d-9429-a8312f293558
+  - ocd-person/8a687182-5ef6-5018-ac07-2a0d9e27d098
+  - ocd-person/de6359d8-4e9c-5172-ba00-5e80ca3a3ff8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8a687182-5ef6-5018-ac07-2a0d9e27d098
+    name: Matthew Beaton
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 11th Worcester, 2010

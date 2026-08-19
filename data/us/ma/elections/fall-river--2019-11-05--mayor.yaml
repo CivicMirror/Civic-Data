@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: fall-river/2019-11-05/general
+name: fall-river 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: fall-river/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fall-river/government
+  office_id: fall-river/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/28ef2388-8fe6-5b20-8677-31261b7ad9b5
+  - ocd-person/801953e3-783d-5741-a84d-b5ead3a04482
+  - ocd-person/b757cf51-cd73-5a48-b542-6b8a1b0133c0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b757cf51-cd73-5a48-b542-6b8a1b0133c0
+    name: Paul E. Coogan
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Fall River, 2019

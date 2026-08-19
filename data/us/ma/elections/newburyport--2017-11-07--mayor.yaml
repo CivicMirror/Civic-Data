@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: newburyport/2017-11-07/general
+name: newburyport 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: newburyport/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newburyport/government
+  office_id: newburyport/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/404d9756-e530-5bb2-9733-4f801e564a5a
+  - ocd-person/772cb3a1-8b0f-5d77-92e9-efbb50874303
+  - ocd-person/f0648e37-9de2-5d05-929a-e47461891756
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f0648e37-9de2-5d05-929a-e47461891756
+    name: Donna D. Holaday
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Newburyport, 2017

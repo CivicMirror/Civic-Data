@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/dcf6f335-6260-5151-a1bf-af52734d7de2
+name: John Michael Krol Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18185'
+candidacies:
+- contest_id: pittsfield/2023-11-07/mayor
+  election_id: pittsfield/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:pittsfield/government
+  office_id: pittsfield/mayor
+  party: Democratic
+  ballot_name: John Michael Krol Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18185
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18185

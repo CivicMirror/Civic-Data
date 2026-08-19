@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3b9a3c80-f625-5f9a-9803-aea2f8c8bb72
+name: Maria Collins
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16283'
+candidacies:
+- contest_id: ma-senate-third-bristol-and-plymouth/2022-11-08/state-senator
+  election_id: ma-senate-third-bristol-and-plymouth/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:third-bristol-and-plymouth/legislature
+  office_id: ma-senate-third-bristol-and-plymouth/state-senator
+  party: Republican
+  ballot_name: Maria Collins
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16283
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16283

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-11th-suffolk/2008-11-04/general
+name: ma-house-11th-suffolk 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-11th-suffolk/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-suffolk/legislature
+  office_id: ma-house-11th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a643fce7-a060-5731-949d-0b12a36b3b10
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a643fce7-a060-5731-949d-0b12a36b3b10
+    name: Elizabeth A. Malia
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 11th Suffolk, 2008

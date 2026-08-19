@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/708b611a-8ade-5c70-a054-c2652a5ac700
+name: Michael Cowett
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16316'
+candidacies:
+- contest_id: ma-house-12th-plymouth/2016-11-08/state-representative
+  election_id: ma-house-12th-plymouth/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-plymouth/legislature
+  office_id: ma-house-12th-plymouth/state-representative
+  party: Republican
+  ballot_name: Michael Cowett
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16316
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16316

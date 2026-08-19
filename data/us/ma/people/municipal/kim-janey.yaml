@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/49afe727-a82b-57ed-bbbe-ccd4a6a0d8e2
+name: Kim Janey
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16537'
+candidacies:
+- contest_id: boston/2021-11-02/mayor
+  election_id: boston/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  party: Democratic
+  ballot_name: Kim Janey
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16537
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16537

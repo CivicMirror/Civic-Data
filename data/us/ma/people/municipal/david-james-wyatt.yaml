@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/633f3815-be2b-5e81-b9d2-a9041595660f
+name: David James Wyatt
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14698'
+candidacies:
+- contest_id: ma-senate-second-suffolk/2014-11-04/state-senator
+  election_id: ma-senate-second-suffolk/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-suffolk/legislature
+  office_id: ma-senate-second-suffolk/state-senator
+  party: Republican
+  ballot_name: David James Wyatt
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14698
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14698

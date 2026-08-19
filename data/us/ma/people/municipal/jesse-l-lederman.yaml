@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ef5cc0c2-248a-5b07-9486-8a92eb265495
+name: Jesse L. Lederman
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15938'
+candidacies:
+- contest_id: springfield/2023-11-07/mayor
+  election_id: springfield/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:springfield/government
+  office_id: springfield/mayor
+  party: Democratic
+  ballot_name: Jesse L. Lederman
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15938
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15938

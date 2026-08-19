@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/28e2d73f-4047-5a2c-b3c6-7e3b5e3b2c70
+name: Benjaman Neves-Grigg Sr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16708'
+candidacies:
+- contest_id: framingham/2017-11-07/mayor
+  election_id: framingham/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:framingham/government
+  office_id: framingham/mayor
+  party: Unenrolled
+  ballot_name: Benjaman Neves-Grigg Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16708
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16708

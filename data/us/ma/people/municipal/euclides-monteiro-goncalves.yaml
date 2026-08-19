@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e8390510-e0c2-51aa-ae36-8f32b4e3acf8
+name: Euclides Monteiro Goncalves
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17817'
+candidacies:
+- contest_id: brockton/2021-11-02/mayor
+  election_id: brockton/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: Euclides Monteiro Goncalves
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17817
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17817

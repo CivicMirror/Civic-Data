@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/73818f23-c89d-5a90-8fdf-8007aa649816
+name: Jo Ann Sprague
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '11783'
+candidacies:
+- contest_id: ma-senate-bristol-and-norfolk/2002-11-05/state-senator
+  election_id: ma-senate-bristol-and-norfolk/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:bristol-and-norfolk/legislature
+  office_id: ma-senate-bristol-and-norfolk/state-senator
+  party: Republican
+  ballot_name: Jo Ann Sprague
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11783
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=11783

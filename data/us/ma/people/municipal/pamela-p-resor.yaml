@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d2ff4090-b74b-541d-ae45-e44c771076b9
+name: Pamela P. Resor
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '11428'
+candidacies:
+- contest_id: ma-senate-middlesex-and-worcester/2002-11-05/state-senator
+  election_id: ma-senate-middlesex-and-worcester/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  party: Democratic
+  ballot_name: Pamela P. Resor
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11428
+- contest_id: ma-senate-middlesex-and-worcester/2004-11-02/state-senator
+  election_id: ma-senate-middlesex-and-worcester/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  party: Democratic
+  ballot_name: Pamela P. Resor
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11428
+- contest_id: ma-senate-middlesex-and-worcester/2006-11-07/state-senator
+  election_id: ma-senate-middlesex-and-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  party: Democratic
+  ballot_name: Pamela P. Resor
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11428
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=11428

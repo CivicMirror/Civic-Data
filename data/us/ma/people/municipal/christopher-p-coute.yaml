@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d286f2e8-2243-5434-a939-62bfa4dd57d8
+name: Christopher P. Coute
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18114'
+candidacies:
+- contest_id: ma-house-3rd-bristol/2022-11-08/state-representative
+  election_id: ma-house-3rd-bristol/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-bristol/legislature
+  office_id: ma-house-3rd-bristol/state-representative
+  party: Republican
+  ballot_name: Christopher P. Coute
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18114
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18114

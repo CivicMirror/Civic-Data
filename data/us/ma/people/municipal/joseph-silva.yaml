@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/53dcc3af-4049-56e7-9d59-edc487796581
+name: Joseph Silva
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14293'
+candidacies:
+- contest_id: ma-house-12th-essex/2004-11-02/state-representative
+  election_id: ma-house-12th-essex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-essex/legislature
+  office_id: ma-house-12th-essex/state-representative
+  party: Democratic
+  ballot_name: Joseph Silva
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14293
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14293

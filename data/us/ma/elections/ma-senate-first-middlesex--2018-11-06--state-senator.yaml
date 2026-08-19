@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-middlesex/2018-11-06/general
+name: ma-senate-first-middlesex 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-middlesex/2018-11-06/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0f1b224e-4ce7-594d-acfd-611726d71de6
+  - ocd-person/1963026d-6db2-5105-9019-e7af61407b0d
+  - ocd-person/49816a0c-b8e5-4586-859b-8a8f1ae9b6ab
+  - ocd-person/86110c85-5547-5084-a0cd-92f406550c4c
+  - ocd-person/e42e18ec-b5b1-545c-a56d-313503c34859
+  - ocd-person/e674d299-9a9f-58dd-8be5-e93a23c2c428
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1963026d-6db2-5105-9019-e7af61407b0d
+    name: Edward J. Kennedy
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- Senate race, 1st Middlesex, 2018

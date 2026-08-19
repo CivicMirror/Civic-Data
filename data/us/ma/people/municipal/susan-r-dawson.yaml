@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a07b9bb5-67b0-5440-845a-e6aa8e99086b
+name: Susan R. Dawson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15201'
+candidacies:
+- contest_id: ma-senate-hampden/2010-11-02/state-senator
+  election_id: ma-senate-hampden/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:hampden/legislature
+  office_id: ma-senate-hampden/state-senator
+  party: Democratic
+  ballot_name: Susan R. Dawson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15201
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15201

@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2bfa19e9-81f0-50f3-b927-275383de2df7
+name: Marie St. Fleur
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13440'
+candidacies:
+- contest_id: ma-house-5th-suffolk/2002-11-05/state-representative
+  election_id: ma-house-5th-suffolk/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-suffolk/legislature
+  office_id: ma-house-5th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Marie St. Fleur
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13440
+- contest_id: ma-house-5th-suffolk/2004-11-02/state-representative
+  election_id: ma-house-5th-suffolk/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-suffolk/legislature
+  office_id: ma-house-5th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Marie St. Fleur
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13440
+- contest_id: ma-house-5th-suffolk/2006-11-07/state-representative
+  election_id: ma-house-5th-suffolk/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-suffolk/legislature
+  office_id: ma-house-5th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Marie St. Fleur
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13440
+- contest_id: ma-house-5th-suffolk/2008-11-04/state-representative
+  election_id: ma-house-5th-suffolk/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-suffolk/legislature
+  office_id: ma-house-5th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Marie St. Fleur
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13440
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13440

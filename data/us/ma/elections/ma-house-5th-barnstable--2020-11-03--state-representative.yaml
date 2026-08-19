@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-barnstable/2020-11-03/general
+name: ma-house-5th-barnstable 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-barnstable/2020-11-03/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-barnstable/legislature
+  office_id: ma-house-5th-barnstable/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/198c03c9-8afe-5707-9096-e4db73ecd893
+  - ocd-person/485e001e-95e9-4b79-9226-cf028a307138
+  - ocd-person/74272e5e-fcf5-5add-8fc3-6fed4bc8b834
+  result_status: certified
+  winners:
+  - person_id: ocd-person/485e001e-95e9-4b79-9226-cf028a307138
+    name: Steve Xiarhos
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2020
+  note: OCPF filer registry -- House race, 5th Barnstable, 2020

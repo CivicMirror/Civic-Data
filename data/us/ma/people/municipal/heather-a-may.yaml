@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1e9d7319-a0a0-5cb7-90ff-4a6e8a6c7eca
+name: Heather A. May
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17977'
+candidacies:
+- contest_id: ma-house-9th-middlesex/2022-11-08/state-representative
+  election_id: ma-house-9th-middlesex/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-middlesex/legislature
+  office_id: ma-house-9th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Heather A. May
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17977
+- contest_id: ma-house-9th-middlesex/2024-11-05/state-representative
+  election_id: ma-house-9th-middlesex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-middlesex/legislature
+  office_id: ma-house-9th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Heather A. May
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17977
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17977

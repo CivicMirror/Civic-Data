@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c0a942f5-07e8-55b6-87a0-a271530a5c12
+name: Matthew J. Fraser
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15200'
+candidacies:
+- contest_id: ma-senate-second-essex/2010-11-02/state-senator
+  election_id: ma-senate-second-essex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex/legislature
+  office_id: ma-senate-second-essex/state-senator
+  party: Unenrolled
+  ballot_name: Matthew J. Fraser
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15200
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15200

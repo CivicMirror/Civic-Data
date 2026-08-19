@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2a7551da-831b-593f-95a7-c8012e99d7d7
+name: Nathaniel Palmer
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13950'
+candidacies:
+- contest_id: ma-house-3rd-plymouth/2002-11-05/state-representative
+  election_id: ma-house-3rd-plymouth/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-plymouth/legislature
+  office_id: ma-house-3rd-plymouth/state-representative
+  party: Republican
+  ballot_name: Nathaniel Palmer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13950
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13950

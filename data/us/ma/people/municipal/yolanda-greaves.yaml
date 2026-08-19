@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ef21c71d-90bd-5fae-b507-87244030c248
+name: Yolanda Greaves
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16345'
+candidacies:
+- contest_id: ma-house-7th-middlesex/2016-11-08/state-representative
+  election_id: ma-house-7th-middlesex/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  party: Republican
+  ballot_name: Yolanda Greaves
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16345
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16345

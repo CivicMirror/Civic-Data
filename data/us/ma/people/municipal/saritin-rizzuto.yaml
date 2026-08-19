@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6a408796-002b-5c83-93ab-144cb51be1bd
+name: Saritin Rizzuto
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16330'
+candidacies:
+- contest_id: ma-house-9th-essex/2016-11-08/state-representative
+  election_id: ma-house-9th-essex/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-essex/legislature
+  office_id: ma-house-9th-essex/state-representative
+  party: Democratic
+  ballot_name: Saritin Rizzuto
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16330
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16330

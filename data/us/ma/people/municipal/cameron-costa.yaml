@@ -1,0 +1,16 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b0d89881-912a-5b98-8ca8-df40a47a7c62
+name: Cameron Costa
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17985'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17985.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17985

@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-17th-worcester/2016-11-08/general
+name: ma-house-17th-worcester 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-17th-worcester/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0bc8eddd-fc9d-5a91-83f5-440f27d1c877
+  - ocd-person/41759c78-b07a-5c46-a7e1-7f6fdd9bc301
+  - ocd-person/68494379-2a48-5b68-8099-cf929fe3cd2b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0bc8eddd-fc9d-5a91-83f5-440f27d1c877
+    name: Kate Campanale
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 17th Worcester, 2016

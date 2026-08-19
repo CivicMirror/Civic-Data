@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6f91e6e2-8b14-5f6f-a120-492603f1bfa2
+name: Richard S. Stockwell
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14273'
+candidacies:
+- contest_id: ma-house-2nd-berkshire/2004-11-02/state-representative
+  election_id: ma-house-2nd-berkshire/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-berkshire/legislature
+  office_id: ma-house-2nd-berkshire/state-representative
+  party: Republican
+  ballot_name: Richard S. Stockwell
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14273
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14273

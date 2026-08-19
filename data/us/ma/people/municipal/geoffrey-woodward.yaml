@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/31707fa5-4b35-558d-b152-119308e57c20
+name: Geoffrey Woodward
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16727'
+candidacies:
+- contest_id: newton/2017-11-07/mayor
+  election_id: newton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newton/government
+  office_id: newton/mayor
+  party: Unenrolled
+  ballot_name: Geoffrey Woodward
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16727
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16727

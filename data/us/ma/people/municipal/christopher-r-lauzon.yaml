@@ -1,0 +1,34 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4501a134-564e-5481-9ba8-14619320f680
+name: Christopher R. Lauzon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18053'
+candidacies:
+- contest_id: ma-senate-cape-and-islands/2022-11-08/state-senator
+  election_id: ma-senate-cape-and-islands/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:cape-and-islands/legislature
+  office_id: ma-senate-cape-and-islands/state-senator
+  party: Republican
+  ballot_name: Christopher R. Lauzon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18053
+- contest_id: ma-senate-cape-and-islands/2024-11-05/state-senator
+  election_id: ma-senate-cape-and-islands/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:cape-and-islands/legislature
+  office_id: ma-senate-cape-and-islands/state-senator
+  party: Republican
+  ballot_name: Christopher R. Lauzon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18053
+image: https://ocpf2.blob.core.windows.net/filers-photos/18053.png
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18053

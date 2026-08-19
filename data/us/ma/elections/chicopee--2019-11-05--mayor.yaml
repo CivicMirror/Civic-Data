@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: chicopee/2019-11-05/general
+name: chicopee 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: chicopee/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:chicopee/government
+  office_id: chicopee/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/238046da-6b87-55a4-8d61-1d456c54af1d
+  - ocd-person/41f84721-22cc-55ae-8466-e8a19bf9b37e
+  - ocd-person/6dbc12d8-0f4d-55bb-97e2-dc7d1efeb2eb
+  - ocd-person/80808c57-020e-53bf-be46-2ca913fb453c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/41f84721-22cc-55ae-8466-e8a19bf9b37e
+    name: John L. Vieau
+    party: None
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Chicopee, 2019

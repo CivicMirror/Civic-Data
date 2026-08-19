@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7c923981-b45d-5c3c-a9fc-ae96a20f8269
+name: Peter F. Winters
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14174'
+candidacies:
+- contest_id: ma-house-10th-bristol/2004-11-02/state-representative
+  election_id: ma-house-10th-bristol/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-bristol/legislature
+  office_id: ma-house-10th-bristol/state-representative
+  party: Republican
+  ballot_name: Peter F. Winters
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14174
+- contest_id: ma-house-10th-bristol/2006-11-07/state-representative
+  election_id: ma-house-10th-bristol/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-bristol/legislature
+  office_id: ma-house-10th-bristol/state-representative
+  party: Republican
+  ballot_name: Peter F. Winters
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14174
+- contest_id: ma-house-10th-bristol/2010-11-02/state-representative
+  election_id: ma-house-10th-bristol/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-bristol/legislature
+  office_id: ma-house-10th-bristol/state-representative
+  party: Republican
+  ballot_name: Peter F. Winters
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14174
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14174

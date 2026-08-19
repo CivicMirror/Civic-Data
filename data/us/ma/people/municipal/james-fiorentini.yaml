@@ -1,0 +1,43 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9d38c445-ab9d-5158-b38e-c5d331a289b9
+name: James Fiorentini
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12686'
+candidacies:
+- contest_id: haverhill/2017-11-07/mayor
+  election_id: haverhill/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  party: Democratic
+  ballot_name: James Fiorentini
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12686
+- contest_id: haverhill/2019-11-05/mayor
+  election_id: haverhill/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  party: Democratic
+  ballot_name: James Fiorentini
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12686
+- contest_id: haverhill/2021-11-02/mayor
+  election_id: haverhill/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  party: Democratic
+  ballot_name: James Fiorentini
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12686
+image: https://ocpf2.blob.core.windows.net/filers-photos/12686.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12686

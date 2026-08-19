@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/41064ac6-b34f-5b0b-9d4d-27d608904bf8
+name: David J. Dennis
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14793'
+candidacies:
+- contest_id: ma-house-8th-bristol/2010-11-02/state-representative
+  election_id: ma-house-8th-bristol/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-bristol/legislature
+  office_id: ma-house-8th-bristol/state-representative
+  party: Democratic
+  ballot_name: David J. Dennis
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14793
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14793

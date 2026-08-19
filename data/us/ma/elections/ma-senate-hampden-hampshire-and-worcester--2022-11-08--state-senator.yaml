@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-hampden-hampshire-and-worcester/2022-11-08/general
+name: ma-senate-hampden-hampshire-and-worcester 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-hampden-hampshire-and-worcester/2022-11-08/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:hampden-hampshire-and-worcester/legislature
+  office_id: ma-senate-hampden-hampshire-and-worcester/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1265ceae-38d4-5782-8e68-b109f362745e
+  - ocd-person/97b85e6d-d907-56da-8ce9-d7ff96cf2365
+  - ocd-person/b857e2f7-b65a-4d34-a680-50dfff745a16
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b857e2f7-b65a-4d34-a680-50dfff745a16
+    name: Jake Oliveira
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- Senate race, Hampden, Hampshire and Worcester, 2022

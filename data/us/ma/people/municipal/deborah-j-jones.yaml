@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a9e9536b-bcc9-5826-8618-b1abababc3cc
+name: Deborah J. Jones
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14246'
+candidacies:
+- contest_id: ma-senate-second-essex-and-middlesex/2004-11-02/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Republican
+  ballot_name: Deborah J. Jones
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14246
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14246

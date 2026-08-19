@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/cdf8c8ce-8d3c-5fee-875a-fe37d3f88518
+name: Russell Evans
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14506'
+candidacies:
+- contest_id: ma-house-18th-suffolk/2006-11-07/state-representative
+  election_id: ma-house-18th-suffolk/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:18th-suffolk/legislature
+  office_id: ma-house-18th-suffolk/state-representative
+  party: Republican
+  ballot_name: Russell Evans
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14506
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14506

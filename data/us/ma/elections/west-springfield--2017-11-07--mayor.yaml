@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: west-springfield/2017-11-07/general
+name: west-springfield 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: west-springfield/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:west-springfield/government
+  office_id: west-springfield/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a3272bc8-2ce8-5291-af4f-a831a9a0f53d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a3272bc8-2ce8-5291-af4f-a831a9a0f53d
+    name: William C. Reichelt
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, West Springfield, 2017

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d197caf1-db1a-5e67-ab84-ad34c12f2c17
+name: Scott S. Smith
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14338'
+candidacies:
+- contest_id: ma-house-5th-bristol/2004-11-02/state-representative
+  election_id: ma-house-5th-bristol/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-bristol/legislature
+  office_id: ma-house-5th-bristol/state-representative
+  party: Unenrolled
+  ballot_name: Scott S. Smith
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14338
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14338

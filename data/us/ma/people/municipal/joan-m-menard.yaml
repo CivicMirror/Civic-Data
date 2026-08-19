@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/77ad7204-c7cb-554e-abbc-9bd9dc875e0e
+name: Joan M. Menard
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10309'
+candidacies:
+- contest_id: ma-senate-first-bristol-and-plymouth/2002-11-05/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Democratic
+  ballot_name: Joan M. Menard
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10309
+- contest_id: ma-senate-first-bristol-and-plymouth/2004-11-02/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Democratic
+  ballot_name: Joan M. Menard
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10309
+- contest_id: ma-senate-first-bristol-and-plymouth/2006-11-07/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Democratic
+  ballot_name: Joan M. Menard
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10309
+- contest_id: ma-senate-first-bristol-and-plymouth/2008-11-04/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Democratic
+  ballot_name: Joan M. Menard
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10309
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10309

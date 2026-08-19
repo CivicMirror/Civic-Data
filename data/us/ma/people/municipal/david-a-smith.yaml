@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/213f9da3-6f3e-5bb7-bfe9-0cd845515abc
+name: David A. Smith
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15087'
+candidacies:
+- contest_id: ma-house-2nd-plymouth/2010-11-02/state-representative
+  election_id: ma-house-2nd-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-plymouth/legislature
+  office_id: ma-house-2nd-plymouth/state-representative
+  party: Democratic
+  ballot_name: David A. Smith
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15087
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15087

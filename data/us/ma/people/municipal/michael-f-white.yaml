@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2b9361f1-3c87-5356-afee-28569c170b64
+name: Michael F. White
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16371'
+candidacies:
+- contest_id: ma-house-4th-plymouth/2016-11-08/state-representative
+  election_id: ma-house-4th-plymouth/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-plymouth/legislature
+  office_id: ma-house-4th-plymouth/state-representative
+  party: Republican
+  ballot_name: Michael F. White
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16371
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16371

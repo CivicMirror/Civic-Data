@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/475efc97-f059-50d3-97de-eacd3dce2975
+name: David N. Pimentel
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17346'
+candidacies:
+- contest_id: new-bedford/2019-11-05/mayor
+  election_id: new-bedford/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:new-bedford/government
+  office_id: new-bedford/mayor
+  party: Unenrolled
+  ballot_name: David N. Pimentel
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17346
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17346

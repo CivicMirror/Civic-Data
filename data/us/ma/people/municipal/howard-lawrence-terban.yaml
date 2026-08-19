@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/71815af7-d7f9-5390-ab65-6ffc7d0e5985
+name: Howard Lawrence Terban
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18051'
+candidacies:
+- contest_id: ma-house-8th-norfolk/2022-11-08/state-representative
+  election_id: ma-house-8th-norfolk/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-norfolk/legislature
+  office_id: ma-house-8th-norfolk/state-representative
+  party: Republican
+  ballot_name: Howard Lawrence Terban
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18051
+image: https://ocpf2.blob.core.windows.net/filers-photos/18051.png
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18051

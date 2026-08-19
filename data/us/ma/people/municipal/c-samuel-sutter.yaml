@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3a819a67-b087-5fa6-a79c-8ce43cc96723
+name: C. Samuel Sutter
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14482'
+candidacies:
+- contest_id: fall-river/2023-11-07/mayor
+  election_id: fall-river/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fall-river/government
+  office_id: fall-river/mayor
+  party: Democratic
+  ballot_name: C. Samuel Sutter
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14482
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14482

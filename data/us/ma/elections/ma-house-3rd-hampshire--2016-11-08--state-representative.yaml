@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-3rd-hampshire/2016-11-08/general
+name: ma-house-3rd-hampshire 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-3rd-hampshire/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampshire/legislature
+  office_id: ma-house-3rd-hampshire/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/41c842b6-dbde-5e66-9072-a0d9a099fdd5
+  - ocd-person/6c52f587-0439-5800-b443-a516554b99c0
+  - ocd-person/8c9b09ff-bf20-5bdf-bb4e-d3ed2babdf19
+  - ocd-person/925eee21-891a-510b-9bbb-43e6842cbc94
+  - ocd-person/c26d8a56-c435-5ad3-855b-e6a017754b2c
+  - ocd-person/d4adf19a-69f4-5756-86de-d0163f13b082
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8c9b09ff-bf20-5bdf-bb4e-d3ed2babdf19
+    name: Solomon Goldstein-Rose
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 3rd Hampshire, 2016

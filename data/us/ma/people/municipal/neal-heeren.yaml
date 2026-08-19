@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5501c68f-a4f5-5d91-bb12-da0466fb2cad
+name: Neal Heeren
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14202'
+candidacies:
+- contest_id: ma-house-3rd-middlesex/2004-11-02/state-representative
+  election_id: ma-house-3rd-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-middlesex/legislature
+  office_id: ma-house-3rd-middlesex/state-representative
+  party: Republican
+  ballot_name: Neal Heeren
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14202
+- contest_id: ma-senate-worcester-and-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-worcester-and-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:worcester-and-middlesex/legislature
+  office_id: ma-senate-worcester-and-middlesex/state-senator
+  party: Republican
+  ballot_name: Neal Heeren
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14202
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14202

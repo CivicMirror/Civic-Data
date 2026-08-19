@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d6c1f7b3-0f4b-5c71-b6bd-a55483c155c4
+name: Henry R. Irving
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14463'
+candidacies:
+- contest_id: ma-house-25th-middlesex/2006-11-07/state-representative
+  election_id: ma-house-25th-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:25th-middlesex/legislature
+  office_id: ma-house-25th-middlesex/state-representative
+  party: Republican
+  ballot_name: Henry R. Irving
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14463
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14463

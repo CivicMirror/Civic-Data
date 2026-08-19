@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-worcester/2010-11-02/general
+name: ma-house-5th-worcester 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-worcester/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-worcester/legislature
+  office_id: ma-house-5th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3e6efba3-189d-52f5-8a52-181eab1b1932
+  - ocd-person/5ff45896-d75b-5c93-a413-7d6c4bde2fc4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3e6efba3-189d-52f5-8a52-181eab1b1932
+    name: Anne M. Gobi
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 5th Worcester, 2010

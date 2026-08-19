@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/763ed886-305d-5e14-ae8b-788828244cf0
+name: Mark J. Baptiste
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17327'
+candidacies:
+- contest_id: taunton/2019-11-05/mayor
+  election_id: taunton/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:taunton/government
+  office_id: taunton/mayor
+  party: Republican
+  ballot_name: Mark J. Baptiste
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17327
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17327

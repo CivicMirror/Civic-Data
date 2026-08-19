@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: framingham/2021-11-02/general
+name: framingham 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: framingham/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:framingham/government
+  office_id: framingham/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/11b45c06-951b-5280-aeac-f8c726d7a211
+  - ocd-person/3d6d86e4-6ce7-5ad5-9247-a8e399a81455
+  - ocd-person/8aed22fa-bf10-53e6-a1c9-e5a408c00560
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8aed22fa-bf10-53e6-a1c9-e5a408c00560
+    name: Charlie J. Sisitsky
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Framingham, 2021

@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: weymouth/2023-11-07/general
+name: weymouth 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: weymouth/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:weymouth/government
+  office_id: weymouth/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/49ac6991-a46a-514c-8f8e-fc40cbc43bc8
+  - ocd-person/4a53be47-cac9-5a56-9650-c6b20263a9ec
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4a53be47-cac9-5a56-9650-c6b20263a9ec
+    name: Robert L. Hedlund Jr.
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Weymouth, 2023

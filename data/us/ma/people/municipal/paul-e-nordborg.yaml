@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8bd9f042-f608-55a5-af5d-cdcd1cff5b62
+name: Paul E. Nordborg
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14583'
+candidacies:
+- contest_id: ma-senate-first-worcester/2006-11-07/state-senator
+  election_id: ma-senate-first-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-worcester/legislature
+  office_id: ma-senate-first-worcester/state-senator
+  party: Republican
+  ballot_name: Paul E. Nordborg
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14583
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14583

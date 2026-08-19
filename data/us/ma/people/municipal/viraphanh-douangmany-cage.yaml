@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/925eee21-891a-510b-9bbb-43e6842cbc94
+name: Viraphanh Douangmany Cage
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16328'
+candidacies:
+- contest_id: ma-house-3rd-hampshire/2016-11-08/state-representative
+  election_id: ma-house-3rd-hampshire/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampshire/legislature
+  office_id: ma-house-3rd-hampshire/state-representative
+  party: Democratic
+  ballot_name: Viraphanh Douangmany Cage
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16328
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16328

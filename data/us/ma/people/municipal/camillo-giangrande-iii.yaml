@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f238bb5a-bf8a-5ef8-8997-05af3900238e
+name: Camillo Giangrande III
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14295'
+candidacies:
+- contest_id: ma-house-14th-suffolk/2004-11-02/state-representative
+  election_id: ma-house-14th-suffolk/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-suffolk/legislature
+  office_id: ma-house-14th-suffolk/state-representative
+  party: Republican
+  ballot_name: Camillo Giangrande III
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14295
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14295

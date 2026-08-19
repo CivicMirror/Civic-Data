@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4f555ba4-2f5b-592f-90d0-169d241ee7ba
+name: Evelyn Island-Mateo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17325'
+candidacies:
+- contest_id: fitchburg/2019-11-05/mayor
+  election_id: fitchburg/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fitchburg/government
+  office_id: fitchburg/mayor
+  party: Republican
+  ballot_name: Evelyn Island-Mateo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17325
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17325

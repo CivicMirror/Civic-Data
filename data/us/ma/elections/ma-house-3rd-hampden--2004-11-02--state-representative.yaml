@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-3rd-hampden/2004-11-02/general
+name: ma-house-3rd-hampden 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-3rd-hampden/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampden/legislature
+  office_id: ma-house-3rd-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1845dd18-a841-5751-97ae-a73a97440574
+  - ocd-person/ca721623-0392-5a87-8da4-c98fb922a17e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1845dd18-a841-5751-97ae-a73a97440574
+    name: Daniel F. Keenan
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 3rd Hampden, 2004

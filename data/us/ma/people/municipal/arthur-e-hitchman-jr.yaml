@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/49613f35-ff68-5560-9db0-d74f7fb442ce
+name: Arthur E. Hitchman Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13926'
+candidacies:
+- contest_id: ma-house-32nd-middlesex/2002-11-05/state-representative
+  election_id: ma-house-32nd-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:32nd-middlesex/legislature
+  office_id: ma-house-32nd-middlesex/state-representative
+  party: Republican
+  ballot_name: Arthur E. Hitchman Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13926
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13926

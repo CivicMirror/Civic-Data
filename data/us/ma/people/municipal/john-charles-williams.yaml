@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/cc804f6b-4e98-56e1-9402-08e38899dcd8
+name: John Charles Williams
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18381'
+candidacies:
+- contest_id: brockton/2023-11-07/mayor
+  election_id: brockton/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: John Charles Williams
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18381
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18381

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f48070ec-090e-5f77-b3bb-95d0f5f49360
+name: Lindsi Sekula
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18999'
+candidacies:
+- contest_id: easthampton/2025-11-04/mayor
+  election_id: easthampton/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  party: Democratic
+  ballot_name: Lindsi Sekula
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18999
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18999

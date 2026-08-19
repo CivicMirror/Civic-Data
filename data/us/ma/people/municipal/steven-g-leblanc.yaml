@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/17d9942c-3681-5a9a-8c71-2a24dc094044
+name: Steven G. LeBlanc
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18892'
+candidacies:
+- contest_id: ma-house-5th-essex/2024-11-05/state-representative
+  election_id: ma-house-5th-essex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-essex/legislature
+  office_id: ma-house-5th-essex/state-representative
+  party: Unenrolled
+  ballot_name: Steven G. LeBlanc
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18892
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18892

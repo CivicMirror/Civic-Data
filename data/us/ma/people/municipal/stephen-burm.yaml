@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8e930ec2-a992-5ff7-a07f-ee14555e33e9
+name: Stephen Burm
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16494'
+candidacies:
+- contest_id: ma-house-3rd-plymouth/2016-11-08/state-representative
+  election_id: ma-house-3rd-plymouth/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-plymouth/legislature
+  office_id: ma-house-3rd-plymouth/state-representative
+  party: Democratic
+  ballot_name: Stephen Burm
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16494
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16494

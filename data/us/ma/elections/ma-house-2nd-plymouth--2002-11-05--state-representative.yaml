@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-plymouth/2002-11-05/general
+name: ma-house-2nd-plymouth 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-plymouth/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-plymouth/legislature
+  office_id: ma-house-2nd-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2e9eb564-819e-5423-87a6-1a74d0e56cda
+  - ocd-person/42785c4a-8279-51e2-93d6-a12a97f9a830
+  - ocd-person/6511bf52-599f-511d-b221-634cc25fd1a4
+  - ocd-person/cae9b90f-ade7-5ae7-8979-2627bf3edae1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/42785c4a-8279-51e2-93d6-a12a97f9a830
+    name: Susan  D. Williams-Gifford
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 2nd Plymouth, 2002

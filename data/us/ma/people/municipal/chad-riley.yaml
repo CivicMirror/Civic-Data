@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4d95389b-bcbd-537c-a5b8-d3c0979c0492
+name: Chad Riley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14863'
+candidacies:
+- contest_id: ma-house-31st-middlesex/2008-11-04/state-representative
+  election_id: ma-house-31st-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:31st-middlesex/legislature
+  office_id: ma-house-31st-middlesex/state-representative
+  party: Unenrolled
+  ballot_name: Chad Riley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14863
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14863

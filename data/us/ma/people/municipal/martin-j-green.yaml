@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c0f581f7-1a34-5fb2-aa2c-93c3335fd880
+name: Martin J. Green
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15795'
+candidacies:
+- contest_id: ma-house-9th-worcester/2014-11-04/state-representative
+  election_id: ma-house-9th-worcester/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-worcester/legislature
+  office_id: ma-house-9th-worcester/state-representative
+  party: Democratic
+  ballot_name: Martin J. Green
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15795
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15795

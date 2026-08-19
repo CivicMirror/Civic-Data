@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4353a218-e7e8-5157-9b2a-08d2f0fb9f20
+name: Paul J. Meaney
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14340'
+candidacies:
+- contest_id: ma-house-30th-middlesex/2004-11-02/state-representative
+  election_id: ma-house-30th-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:30th-middlesex/legislature
+  office_id: ma-house-30th-middlesex/state-representative
+  party: Unenrolled
+  ballot_name: Paul J. Meaney
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14340
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14340

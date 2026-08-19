@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/86d1b1a2-0933-5440-92a1-2d5fd695aeb1
+name: Michael J. Germain
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14719'
+candidacies:
+- contest_id: ma-house-17th-worcester/2014-11-04/state-representative
+  election_id: ma-house-17th-worcester/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: Michael J. Germain
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14719
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14719

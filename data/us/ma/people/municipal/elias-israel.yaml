@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/fb600043-59eb-5ced-90ff-db5246a0c911
+name: Elias Israel
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13998'
+candidacies:
+- contest_id: ma-house-21st-middlesex/2002-11-05/state-representative
+  election_id: ma-house-21st-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:21st-middlesex/legislature
+  office_id: ma-house-21st-middlesex/state-representative
+  party: Libertarian
+  ballot_name: Elias Israel
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13998
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13998

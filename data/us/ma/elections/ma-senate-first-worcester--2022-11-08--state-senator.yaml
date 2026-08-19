@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-first-worcester/2022-11-08/general
+name: ma-senate-first-worcester 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-first-worcester/2022-11-08/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-worcester/legislature
+  office_id: ma-senate-first-worcester/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2fb1c0e0-edaa-4b55-9bbb-b6fe6b3e5dcc
+  - ocd-person/c8ae3d9b-7031-5178-9f00-7704977bce74
+  - ocd-person/fce6ea19-b6ca-526d-823e-339585275e4e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2fb1c0e0-edaa-4b55-9bbb-b6fe6b3e5dcc
+    name: Robyn Kennedy
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- Senate race, 1st Worcester, 2022

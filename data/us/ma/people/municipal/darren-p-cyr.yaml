@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ef618085-597d-55db-a919-c0adf4b9b6c0
+name: Darren P. Cyr
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15979'
+candidacies:
+- contest_id: lynn/2021-11-02/mayor
+  election_id: lynn/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:lynn/government
+  office_id: lynn/mayor
+  party: Unenrolled
+  ballot_name: Darren P. Cyr
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15979
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15979

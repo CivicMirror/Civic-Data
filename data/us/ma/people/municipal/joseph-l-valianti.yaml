@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/57be99cb-da12-5245-89d2-2929397b015b
+name: Joseph L. Valianti
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14788'
+candidacies:
+- contest_id: ma-house-1st-essex/2014-11-04/state-representative
+  election_id: ma-house-1st-essex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-essex/legislature
+  office_id: ma-house-1st-essex/state-representative
+  party: Unenrolled
+  ballot_name: Joseph L. Valianti
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14788
+- contest_id: ma-house-4th-middlesex/2008-11-04/state-representative
+  election_id: ma-house-4th-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-middlesex/legislature
+  office_id: ma-house-4th-middlesex/state-representative
+  party: Unenrolled
+  ballot_name: Joseph L. Valianti
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14788
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14788

@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-plymouth/2008-11-04/general
+name: ma-house-4th-plymouth 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-plymouth/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-plymouth/legislature
+  office_id: ma-house-4th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/05dae622-a8bb-5b31-b1bd-03f8808cdff6
+  - ocd-person/2e84782b-b7b0-5189-af18-a76bd9985a18
+  - ocd-person/ca7a0efe-339d-58db-b046-8feeb64ac97c
+  - ocd-person/d1dbdb39-dde5-5574-9fb4-aad95711644a
+  - ocd-person/e77e2f4c-1d91-50ee-99f8-d45741a24951
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2e84782b-b7b0-5189-af18-a76bd9985a18
+    name: James M. Cantwell
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 4th Plymouth, 2008

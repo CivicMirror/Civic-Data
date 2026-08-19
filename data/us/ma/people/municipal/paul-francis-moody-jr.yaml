@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5e50487b-a7aa-54bd-a117-3daf8e0c611f
+name: Paul Francis Moody Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16393'
+candidacies:
+- contest_id: ma-house-5th-plymouth/2016-11-08/state-representative
+  election_id: ma-house-5th-plymouth/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-plymouth/legislature
+  office_id: ma-house-5th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Paul Francis Moody Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16393
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16393

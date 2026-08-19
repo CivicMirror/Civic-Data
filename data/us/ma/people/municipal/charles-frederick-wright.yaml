@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1a990b63-c93f-584f-918c-40e5aec06288
+name: Charles Frederick Wright
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18596'
+candidacies:
+- contest_id: taunton/2023-11-07/mayor
+  election_id: taunton/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:taunton/government
+  office_id: taunton/mayor
+  party: Unenrolled
+  ballot_name: Charles Frederick Wright
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18596
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18596

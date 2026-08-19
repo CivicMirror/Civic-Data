@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/71f1faec-fb65-549a-b0b9-247b2f490c0f
+name: Daniel Rizzo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14684'
+candidacies:
+- contest_id: revere/2023-11-07/mayor
+  election_id: revere/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:revere/government
+  office_id: revere/mayor
+  party: Democratic
+  ballot_name: Daniel Rizzo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14684
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14684

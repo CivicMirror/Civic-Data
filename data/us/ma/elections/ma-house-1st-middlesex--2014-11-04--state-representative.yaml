@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-1st-middlesex/2014-11-04/general
+name: ma-house-1st-middlesex 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-1st-middlesex/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-middlesex/legislature
+  office_id: ma-house-1st-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/716767de-120e-5b81-9592-6250725e6600
+  - ocd-person/ac48db0e-8e47-5fd9-a468-3889cde7371c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ac48db0e-8e47-5fd9-a468-3889cde7371c
+    name: Sheila C. Harrington
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 1st Middlesex, 2014

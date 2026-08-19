@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-16th-essex/2016-11-08/general
+name: ma-house-16th-essex 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-16th-essex/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:16th-essex/legislature
+  office_id: ma-house-16th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/12082a9e-ae7b-51ad-8bca-6d1e90ed951f
+  - ocd-person/614b5a6a-66d8-53a8-877c-3c66f3e271bc
+  - ocd-person/e7d26752-8041-55f2-8321-0f32c1e6e100
+  result_status: certified
+  winners:
+  - person_id: ocd-person/12082a9e-ae7b-51ad-8bca-6d1e90ed951f
+    name: Juana Matias
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 16th Essex, 2016

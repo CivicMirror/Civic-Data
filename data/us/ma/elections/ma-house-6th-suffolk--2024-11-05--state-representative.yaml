@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-6th-suffolk/2024-11-05/general
+name: ma-house-6th-suffolk 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-6th-suffolk/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-suffolk/legislature
+  office_id: ma-house-6th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/078692f2-2afe-4aa1-a320-d4747edacbbb
+  - ocd-person/a26f3852-e977-5c46-abc4-7c000862ec2c
+  - ocd-person/b5ef0180-bbdd-5285-bd25-3b288ebb497f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/078692f2-2afe-4aa1-a320-d4747edacbbb
+    name: Russell Holmes
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2024
+  note: OCPF filer registry -- House race, 6th Suffolk, 2024

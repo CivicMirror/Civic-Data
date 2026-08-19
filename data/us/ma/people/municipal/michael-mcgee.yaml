@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/625a9997-07fb-5c0c-a692-af310a24bff8
+name: Michael McGee
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14999'
+candidacies:
+- contest_id: ma-house-4th-suffolk/2010-11-02/state-representative
+  election_id: ma-house-4th-suffolk/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-suffolk/legislature
+  office_id: ma-house-4th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Michael McGee
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14999
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14999

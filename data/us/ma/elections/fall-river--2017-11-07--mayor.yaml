@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: fall-river/2017-11-07/general
+name: fall-river 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: fall-river/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fall-river/government
+  office_id: fall-river/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/02bd36d8-0783-5706-bff4-331154ba0f39
+  - ocd-person/28ef2388-8fe6-5b20-8677-31261b7ad9b5
+  - ocd-person/6e654045-165b-51e9-adca-924859f0ac9f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/28ef2388-8fe6-5b20-8677-31261b7ad9b5
+    name: Jasiel Correia II
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Fall River, 2017

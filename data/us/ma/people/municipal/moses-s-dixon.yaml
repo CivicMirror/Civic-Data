@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/68494379-2a48-5b68-8099-cf929fe3cd2b
+name: Moses S. Dixon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15813'
+candidacies:
+- contest_id: ma-house-17th-worcester/2014-11-04/state-representative
+  election_id: ma-house-17th-worcester/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: Moses S. Dixon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15813
+- contest_id: ma-house-17th-worcester/2016-11-08/state-representative
+  election_id: ma-house-17th-worcester/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  party: Democratic
+  ballot_name: Moses S. Dixon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15813
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15813

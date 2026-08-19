@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/fd1c7188-e41d-5eaf-9f01-f40a9f6cfdef
+name: David Steinhof
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15658'
+candidacies:
+- contest_id: ma-house-6th-bristol/2014-11-04/state-representative
+  election_id: ma-house-6th-bristol/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-bristol/legislature
+  office_id: ma-house-6th-bristol/state-representative
+  party: Republican
+  ballot_name: David Steinhof
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15658
+- contest_id: ma-house-6th-bristol/2018-11-06/state-representative
+  election_id: ma-house-6th-bristol/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-bristol/legislature
+  office_id: ma-house-6th-bristol/state-representative
+  party: Republican
+  ballot_name: David Steinhof
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15658
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15658

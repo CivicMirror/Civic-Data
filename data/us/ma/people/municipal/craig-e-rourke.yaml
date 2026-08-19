@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8c77c8fb-8a99-5c44-997d-f1a25aed37f3
+name: Craig E. Rourke
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15841'
+candidacies:
+- contest_id: ma-house-34th-middlesex/2014-11-04/state-representative
+  election_id: ma-house-34th-middlesex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:34th-middlesex/legislature
+  office_id: ma-house-34th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Craig E. Rourke
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15841
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15841

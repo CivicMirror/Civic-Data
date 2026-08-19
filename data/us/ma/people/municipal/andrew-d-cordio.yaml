@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/183a910e-18b7-5fe1-859a-469f210d639e
+name: Andrew D. Cordio
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17769'
+candidacies:
+- contest_id: fitchburg/2021-11-02/mayor
+  election_id: fitchburg/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fitchburg/government
+  office_id: fitchburg/mayor
+  party: Libertarian
+  ballot_name: Andrew D. Cordio
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17769
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17769

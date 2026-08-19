@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/aa3454a6-2df5-5fef-bc62-1c888b2cd12d
+name: Tony King
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18775'
+candidacies:
+- contest_id: ma-house-7th-norfolk/2024-11-05/state-representative
+  election_id: ma-house-7th-norfolk/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-norfolk/legislature
+  office_id: ma-house-7th-norfolk/state-representative
+  party: Democratic
+  ballot_name: Tony King
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18775
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18775

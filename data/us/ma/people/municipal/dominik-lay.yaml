@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/34066b7f-1777-5e35-b88c-b267f16ecc51
+name: Dominik Lay
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18112'
+candidacies:
+- contest_id: ma-house-18th-middlesex/2022-11-08/state-representative
+  election_id: ma-house-18th-middlesex/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:18th-middlesex/legislature
+  office_id: ma-house-18th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Dominik Lay
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18112
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18112

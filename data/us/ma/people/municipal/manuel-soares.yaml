@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/48e98190-21f3-5560-b76a-d2b6ac62f87f
+name: Manuel Soares
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18794'
+candidacies:
+- contest_id: ma-house-8th-bristol/2024-11-05/state-representative
+  election_id: ma-house-8th-bristol/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-bristol/legislature
+  office_id: ma-house-8th-bristol/state-representative
+  party: Unenrolled
+  ballot_name: Manuel Soares
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18794
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18794

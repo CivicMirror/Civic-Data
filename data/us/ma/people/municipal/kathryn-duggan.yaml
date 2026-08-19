@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/aa18611a-f3fc-58e2-8da7-4e80f3c2ae21
+name: Kathryn Duggan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14199'
+candidacies:
+- contest_id: ma-house-2nd-suffolk/2004-11-02/state-representative
+  election_id: ma-house-2nd-suffolk/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-suffolk/legislature
+  office_id: ma-house-2nd-suffolk/state-representative
+  party: Democratic
+  ballot_name: Kathryn Duggan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14199
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14199

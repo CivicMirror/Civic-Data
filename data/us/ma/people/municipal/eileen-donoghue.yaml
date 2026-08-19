@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/359b8e75-dc85-50a4-b121-3e987eefc522
+name: Eileen Donoghue
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12870'
+candidacies:
+- contest_id: ma-senate-first-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-first-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Eileen Donoghue
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12870
+- contest_id: ma-senate-first-middlesex/2012-11-06/state-senator
+  election_id: ma-senate-first-middlesex/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Eileen Donoghue
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12870
+- contest_id: ma-senate-first-middlesex/2014-11-04/state-senator
+  election_id: ma-senate-first-middlesex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Eileen Donoghue
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12870
+- contest_id: ma-senate-first-middlesex/2016-11-08/state-senator
+  election_id: ma-senate-first-middlesex/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Eileen Donoghue
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12870
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12870

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a034ccb7-540c-5a2c-a600-d3ffdfe9e9b0
+name: Fred Capone
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17719'
+candidacies:
+- contest_id: everett/2021-11-02/mayor
+  election_id: everett/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:everett/government
+  office_id: everett/mayor
+  party: Democratic
+  ballot_name: Fred Capone
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17719
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17719

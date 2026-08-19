@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: beverly/2021-11-02/general
+name: beverly 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: beverly/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:beverly/government
+  office_id: beverly/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1f4116d7-9bc3-544a-8240-5f7e63e3154e
+  - ocd-person/24fb42db-39c3-5146-8696-22b161b7338d
+  - ocd-person/df1cd284-41d7-55df-9bb6-fffbe41757da
+  result_status: certified
+  winners:
+  - person_id: ocd-person/df1cd284-41d7-55df-9bb6-fffbe41757da
+    name: Michael P. Cahill
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Beverly, 2021

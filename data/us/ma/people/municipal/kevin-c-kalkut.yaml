@@ -1,0 +1,34 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4d5b8433-ec17-56c9-a2b2-3d2dae8f736a
+name: Kevin C. Kalkut
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17996'
+candidacies:
+- contest_id: ma-house-9th-norfolk/2022-11-08/state-representative
+  election_id: ma-house-9th-norfolk/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-norfolk/legislature
+  office_id: ma-house-9th-norfolk/state-representative
+  party: Democratic
+  ballot_name: Kevin C. Kalkut
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17996
+- contest_id: ma-house-9th-norfolk/2024-11-05/state-representative
+  election_id: ma-house-9th-norfolk/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-norfolk/legislature
+  office_id: ma-house-9th-norfolk/state-representative
+  party: Democratic
+  ballot_name: Kevin C. Kalkut
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17996
+image: https://ocpf2.blob.core.windows.net/filers-photos/17996.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17996

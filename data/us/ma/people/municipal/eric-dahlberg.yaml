@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/fa709a1a-ae7f-5e4c-9611-0dbd0d121a97
+name: Eric Dahlberg
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14979'
+candidacies:
+- contest_id: ma-senate-third-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-third-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:third-middlesex/legislature
+  office_id: ma-senate-third-middlesex/state-senator
+  party: Republican
+  ballot_name: Eric Dahlberg
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14979
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14979

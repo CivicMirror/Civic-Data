@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-9th-essex/2010-11-02/general
+name: ma-house-9th-essex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-9th-essex/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-essex/legislature
+  office_id: ma-house-9th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5fe674c7-ee52-543a-aaa4-89f84d6b3e89
+  - ocd-person/68f82248-096a-5af6-9ff9-d587503b0e6c
+  - ocd-person/ce57b382-903b-588b-814f-b111803187fb
+  - ocd-person/e8071049-2a8d-4633-b6cb-c1f6ae83bb7a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e8071049-2a8d-4633-b6cb-c1f6ae83bb7a
+    name: Donald Wong
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 9th Essex, 2010

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/01e950cd-92b5-5ed6-bfd0-e7732b48830d
+name: Owen R. Broadhurst
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14478'
+candidacies:
+- contest_id: ma-house-3rd-hampden/2006-11-07/state-representative
+  election_id: ma-house-3rd-hampden/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampden/legislature
+  office_id: ma-house-3rd-hampden/state-representative
+  party: Unenrolled
+  ballot_name: Owen R. Broadhurst
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14478
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14478

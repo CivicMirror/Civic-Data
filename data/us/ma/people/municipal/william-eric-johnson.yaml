@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1265ceae-38d4-5782-8e68-b109f362745e
+name: William Eric Johnson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13637'
+candidacies:
+- contest_id: ma-senate-hampden-hampshire-and-worcester/2022-11-08/state-senator
+  election_id: ma-senate-hampden-hampshire-and-worcester/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:hampden-hampshire-and-worcester/legislature
+  office_id: ma-senate-hampden-hampshire-and-worcester/state-senator
+  party: Republican
+  ballot_name: William Eric Johnson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13637
+image: https://ocpf2.blob.core.windows.net/filers-photos/13637.jpeg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13637

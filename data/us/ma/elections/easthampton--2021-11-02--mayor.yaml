@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: easthampton/2021-11-02/general
+name: easthampton 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: easthampton/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3f92afec-d662-5de9-b4f3-ec043d3e8bd4
+  - ocd-person/c4c15fd2-e9c7-5729-9f6c-2c0e5b2bcf33
+  - ocd-person/f0920347-689a-59da-b764-ce20a9713eef
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c4c15fd2-e9c7-5729-9f6c-2c0e5b2bcf33
+    name: Nicole Marie LaChapelle
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Easthampton, 2021

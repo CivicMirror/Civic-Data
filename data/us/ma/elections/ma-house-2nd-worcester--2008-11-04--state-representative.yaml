@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-worcester/2008-11-04/general
+name: ma-house-2nd-worcester 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-worcester/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9d7d689a-4d1a-56d6-b1bc-6590bbdd87e2
+  - ocd-person/f80e9e23-5217-5480-8fdb-1ef586568a4b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f80e9e23-5217-5480-8fdb-1ef586568a4b
+    name: Robert L. Rice Jr.
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 2nd Worcester, 2008

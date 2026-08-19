@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-second-essex-and-middlesex/2010-11-02/general
+name: ma-senate-second-essex-and-middlesex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-second-essex-and-middlesex/2010-11-02/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/20d8c19d-47c9-5a5d-a8ec-54b982245731
+  - ocd-person/2f5deb8c-6b57-50ec-a0d5-afebad02824d
+  - ocd-person/49397268-3fc9-4c83-a385-f55be18597f4
+  - ocd-person/4f486ac9-7ca2-5205-a27d-7b65a310b847
+  - ocd-person/c43180c6-5d8a-54b5-9215-b64d4601627a
+  - ocd-person/f48c8eb2-262a-5635-9769-44bf764bdfdf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49397268-3fc9-4c83-a385-f55be18597f4
+    name: Barry Finegold
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- Senate race, 2nd Essex & Middlesex, 2010

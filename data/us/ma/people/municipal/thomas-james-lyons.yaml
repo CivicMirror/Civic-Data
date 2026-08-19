@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/cabd4ad6-7ab6-51fc-a5db-9238395305c4
+name: Thomas James Lyons
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15698'
+candidacies:
+- contest_id: ma-house-13th-essex/2014-11-04/state-representative
+  election_id: ma-house-13th-essex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:13th-essex/legislature
+  office_id: ma-house-13th-essex/state-representative
+  party: Republican
+  ballot_name: Thomas James Lyons
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15698
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15698

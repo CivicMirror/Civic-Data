@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4e6a666b-075b-5a78-90a0-9e05a7af0ee0
+name: Steven Morabito
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16349'
+candidacies:
+- contest_id: revere/2023-11-07/mayor
+  election_id: revere/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:revere/government
+  office_id: revere/mayor
+  party: Democratic
+  ballot_name: Steven Morabito
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16349
+image: https://ocpf2.blob.core.windows.net/filers-photos/16349.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16349

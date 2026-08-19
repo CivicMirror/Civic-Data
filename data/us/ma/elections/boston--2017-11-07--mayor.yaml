@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: boston/2017-11-07/general
+name: boston 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: boston/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/119b4167-3ce5-5274-9595-fd3894b32ee2
+  - ocd-person/cefd3e73-2d33-54f3-8b2d-8b32efe0a04c
+  - ocd-person/eed40eb2-a284-5dff-9197-f8f1e372f80d
+  - ocd-person/fa5a2c9b-7f92-5b51-9a61-408284992279
+  result_status: certified
+  winners:
+  - person_id: ocd-person/eed40eb2-a284-5dff-9197-f8f1e372f80d
+    name: Martin J. Walsh
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Boston, 2017

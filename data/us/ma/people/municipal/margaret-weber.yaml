@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e5890a68-d6e9-54d0-85ea-6dbb94b8f549
+name: Margaret Weber
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16428'
+candidacies:
+- contest_id: ma-house-2nd-barnstable/2016-11-08/state-representative
+  election_id: ma-house-2nd-barnstable/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-barnstable/legislature
+  office_id: ma-house-2nd-barnstable/state-representative
+  party: Democratic
+  ballot_name: Margaret Weber
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16428
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16428

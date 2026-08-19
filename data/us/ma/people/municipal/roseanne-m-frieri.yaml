@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9b3ec3bd-2c41-5f0b-949f-77e6564331e3
+name: Roseanne M. Frieri
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15206'
+candidacies:
+- contest_id: ma-house-2nd-berkshire/2010-11-02/state-representative
+  election_id: ma-house-2nd-berkshire/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-berkshire/legislature
+  office_id: ma-house-2nd-berkshire/state-representative
+  party: Republican
+  ballot_name: Roseanne M. Frieri
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15206
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15206

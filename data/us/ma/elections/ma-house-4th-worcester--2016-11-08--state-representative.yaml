@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-worcester/2016-11-08/general
+name: ma-house-4th-worcester 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-worcester/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-worcester/legislature
+  office_id: ma-house-4th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0243742f-43a3-58f8-bc76-9a7ec97a568c
+  - ocd-person/17c3ac90-1218-4d61-ae47-bc5ef6ee4a74
+  - ocd-person/4a066e48-c73e-57b0-8642-6340c5e73a1f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/17c3ac90-1218-4d61-ae47-bc5ef6ee4a74
+    name: Natalie Higgins
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 4th Worcester, 2016

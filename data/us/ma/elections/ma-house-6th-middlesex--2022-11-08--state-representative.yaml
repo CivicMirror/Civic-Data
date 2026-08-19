@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-6th-middlesex/2022-11-08/general
+name: ma-house-6th-middlesex 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-6th-middlesex/2022-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-middlesex/legislature
+  office_id: ma-house-6th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5a8a9022-41e1-5482-b75d-18b294f94e8b
+  - ocd-person/a148ff77-2e73-4e42-a525-20e8d1ed569a
+  - ocd-person/a8bbbb95-319e-5b26-b410-3d43ea6cf775
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a148ff77-2e73-4e42-a525-20e8d1ed569a
+    name: Priscila Sousa
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- House race, 6th Middlesex, 2022

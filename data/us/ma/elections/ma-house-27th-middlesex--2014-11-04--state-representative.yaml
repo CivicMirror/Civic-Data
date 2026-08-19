@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-27th-middlesex/2014-11-04/general
+name: ma-house-27th-middlesex 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-27th-middlesex/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:27th-middlesex/legislature
+  office_id: ma-house-27th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bab045b5-c0ed-5fcc-b1be-e196696cbdc9
+  - ocd-person/d0b2bd15-df26-58d2-8f93-e748d1ba5403
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bab045b5-c0ed-5fcc-b1be-e196696cbdc9
+    name: Denise Provost
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 27th Middlesex, 2014

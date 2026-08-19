@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/64fbca5d-f5f0-5e33-9e4f-8570b85fea16
+name: Eliezer Katzoff
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16719'
+candidacies:
+- contest_id: newton/2017-11-07/mayor
+  election_id: newton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newton/government
+  office_id: newton/mayor
+  party: Unenrolled
+  ballot_name: Eliezer Katzoff
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16719
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16719

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6c52f587-0439-5800-b443-a516554b99c0
+name: Sarah Collins LaCour
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16363'
+candidacies:
+- contest_id: ma-house-3rd-hampshire/2016-11-08/state-representative
+  election_id: ma-house-3rd-hampshire/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampshire/legislature
+  office_id: ma-house-3rd-hampshire/state-representative
+  party: Democratic
+  ballot_name: Sarah Collins LaCour
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16363
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16363

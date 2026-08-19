@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/08103f05-0209-5c52-a4e6-b82b0b4c5442
+name: Ryan Duarte
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18608'
+candidacies:
+- contest_id: new-bedford/2023-11-07/mayor
+  election_id: new-bedford/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:new-bedford/government
+  office_id: new-bedford/mayor
+  party: Unenrolled
+  ballot_name: Ryan Duarte
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18608
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18608

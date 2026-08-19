@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-worcester/2016-11-08/general
+name: ma-house-2nd-worcester 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-worcester/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/49c4bb4e-fadd-4136-953f-6bd64a970acb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49c4bb4e-fadd-4136-953f-6bd64a970acb
+    name: Jon Zlotnik
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 2nd Worcester, 2016

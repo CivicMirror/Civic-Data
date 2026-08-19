@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/37c10407-149b-5acf-8b78-ee718270c8d5
+name: Melissa B. Smith
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17368'
+candidacies:
+- contest_id: ma-house-4th-norfolk/2020-11-03/state-representative
+  election_id: ma-house-4th-norfolk/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-norfolk/legislature
+  office_id: ma-house-4th-norfolk/state-representative
+  party: Democratic
+  ballot_name: Melissa B. Smith
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17368
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17368

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b137705f-9b9b-54c2-8d14-5fbaef5437f5
+name: Mark Chauppette
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14173'
+candidacies:
+- contest_id: ma-house-10th-plymouth/2004-11-02/state-representative
+  election_id: ma-house-10th-plymouth/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-plymouth/legislature
+  office_id: ma-house-10th-plymouth/state-representative
+  party: Republican
+  ballot_name: Mark Chauppette
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14173
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14173

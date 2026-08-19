@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b27a5fa1-5c4b-5011-a333-172f2555fc16
+name: Kevin C. Hayes Sr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14536'
+candidacies:
+- contest_id: ma-house-37th-middlesex/2006-11-07/state-representative
+  election_id: ma-house-37th-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:37th-middlesex/legislature
+  office_id: ma-house-37th-middlesex/state-representative
+  party: Republican
+  ballot_name: Kevin C. Hayes Sr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14536
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14536

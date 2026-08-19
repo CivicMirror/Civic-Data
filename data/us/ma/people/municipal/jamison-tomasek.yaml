@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/20d8c19d-47c9-5a5d-a8ec-54b982245731
+name: Jamison Tomasek
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14997'
+candidacies:
+- contest_id: ma-senate-second-essex-and-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Republican
+  ballot_name: Jamison Tomasek
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14997
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14997

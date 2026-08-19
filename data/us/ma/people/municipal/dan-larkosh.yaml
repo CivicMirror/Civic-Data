@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2d01157e-0ee2-5857-80b9-594aea232ee3
+name: Dan Larkosh
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14630'
+candidacies:
+- contest_id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/state-representative
+  election_id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  party: Democratic
+  ballot_name: Dan Larkosh
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14630
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14630

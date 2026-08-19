@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d8cd8f8b-3b6d-5603-884d-ee0a65f1d27d
+name: John D. Riley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16762'
+candidacies:
+- contest_id: northampton/2017-11-07/mayor
+  election_id: northampton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:northampton/government
+  office_id: northampton/mayor
+  party: Unenrolled
+  ballot_name: John D. Riley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16762
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16762

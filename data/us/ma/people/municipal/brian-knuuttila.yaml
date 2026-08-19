@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/fb63ae9f-851b-5af8-aa83-f9841c615324
+name: Brian Knuuttila
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13018'
+candidacies:
+- contest_id: ma-house-2nd-worcester/2002-11-05/state-representative
+  election_id: ma-house-2nd-worcester/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  party: Democratic
+  ballot_name: Brian Knuuttila
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13018
+- contest_id: ma-house-2nd-worcester/2004-11-02/state-representative
+  election_id: ma-house-2nd-worcester/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  party: Democratic
+  ballot_name: Brian Knuuttila
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13018
+- contest_id: ma-senate-worcester-and-middlesex/2008-11-04/state-senator
+  election_id: ma-senate-worcester-and-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:worcester-and-middlesex/legislature
+  office_id: ma-senate-worcester-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: Brian Knuuttila
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13018
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13018

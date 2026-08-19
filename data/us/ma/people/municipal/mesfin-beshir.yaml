@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/afb7638d-b626-5a4d-b74f-0f3cc27781bc
+name: Mesfin Beshir
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15601'
+candidacies:
+- contest_id: ma-senate-second-worcester/2016-11-08/state-senator
+  election_id: ma-senate-second-worcester/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-worcester/legislature
+  office_id: ma-senate-second-worcester/state-senator
+  party: Republican
+  ballot_name: Mesfin Beshir
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15601
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15601

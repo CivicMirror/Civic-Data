@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ad38a402-3078-5b32-9e01-1b4679913d29
+name: Ryan J. Witkos
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13728'
+candidacies:
+- contest_id: ma-house-5th-worcester/2002-11-05/state-representative
+  election_id: ma-house-5th-worcester/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-worcester/legislature
+  office_id: ma-house-5th-worcester/state-representative
+  party: Republican
+  ballot_name: Ryan J. Witkos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13728
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13728

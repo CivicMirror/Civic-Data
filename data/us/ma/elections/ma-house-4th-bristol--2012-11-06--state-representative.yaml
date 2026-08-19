@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-bristol/2012-11-06/general
+name: ma-house-4th-bristol 2012-11-06 general election
+date: '2012-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-bristol/2012-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-bristol/legislature
+  office_id: ma-house-4th-bristol/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3ade7a16-0ce1-5034-8c92-257a98f88581
+  - ocd-person/54487f49-5377-4c41-bd97-60b748cc240a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/54487f49-5377-4c41-bd97-60b748cc240a
+    name: Steven Howitt
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2012
+  note: OCPF filer registry -- House race, 4th Bristol, 2012

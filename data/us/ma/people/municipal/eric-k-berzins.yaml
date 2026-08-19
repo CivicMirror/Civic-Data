@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3f92afec-d662-5de9-b4f3-ec043d3e8bd4
+name: Eric K. Berzins
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17863'
+candidacies:
+- contest_id: easthampton/2021-11-02/mayor
+  election_id: easthampton/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  party: Unenrolled
+  ballot_name: Eric K. Berzins
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17863
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17863

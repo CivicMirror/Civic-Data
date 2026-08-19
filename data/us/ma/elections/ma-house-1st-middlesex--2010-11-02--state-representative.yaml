@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-1st-middlesex/2010-11-02/general
+name: ma-house-1st-middlesex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-1st-middlesex/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-middlesex/legislature
+  office_id: ma-house-1st-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5138687d-a2c6-5c64-89b2-5519a7647f3f
+  - ocd-person/aab4db6f-80a7-5ba2-bc25-cc65e1669b7d
+  - ocd-person/ac48db0e-8e47-5fd9-a468-3889cde7371c
+  - ocd-person/b3b29331-7c2a-5e2d-95f1-fefc24b27729
+  - ocd-person/b7f3a3cc-26f7-5f8a-9548-6534a4f5e68a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ac48db0e-8e47-5fd9-a468-3889cde7371c
+    name: Sheila C. Harrington
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 1st Middlesex, 2010

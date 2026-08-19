@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4b9b9b90-49f2-5f59-9150-8627d4ab7a01
+name: M. Elizabeth Firenze
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14553'
+candidacies:
+- contest_id: ma-house-24th-middlesex/2006-11-07/state-representative
+  election_id: ma-house-24th-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:24th-middlesex/legislature
+  office_id: ma-house-24th-middlesex/state-representative
+  party: Republican
+  ballot_name: M. Elizabeth Firenze
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14553
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14553

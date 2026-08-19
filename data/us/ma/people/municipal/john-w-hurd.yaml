@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/02da0e4c-104a-513b-bd30-00b8cae83e3b
+name: John W. Hurd
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14827'
+candidacies:
+- contest_id: ma-senate-fourth-middlesex/2008-11-04/state-senator
+  election_id: ma-senate-fourth-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  party: Democratic
+  ballot_name: John W. Hurd
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14827
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14827

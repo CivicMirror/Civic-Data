@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1c8acfbd-68b7-5a93-99ad-cf327b72ef50
+name: Alfred J. DePietro
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13984'
+candidacies:
+- contest_id: ma-house-18th-essex/2002-11-05/state-representative
+  election_id: ma-house-18th-essex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:18th-essex/legislature
+  office_id: ma-house-18th-essex/state-representative
+  party: Unenrolled
+  ballot_name: Alfred J. DePietro
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13984
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13984

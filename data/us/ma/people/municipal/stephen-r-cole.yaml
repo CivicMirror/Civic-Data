@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/44a86b36-8fd0-5eb0-9d62-d9533d8dc37c
+name: Stephen R. Cole
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15199'
+candidacies:
+- contest_id: ma-senate-first-essex/2010-11-02/state-senator
+  election_id: ma-senate-first-essex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-essex/legislature
+  office_id: ma-senate-first-essex/state-senator
+  party: Republican
+  ballot_name: Stephen R. Cole
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15199
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15199

@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a60b6e32-a8b8-5cd4-9056-45b8c34e7c47
+name: Sefatia A. Romeo Theken
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16142'
+candidacies:
+- contest_id: gloucester/2017-11-07/mayor
+  election_id: gloucester/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Democratic
+  ballot_name: Sefatia A. Romeo Theken
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16142
+- contest_id: gloucester/2019-11-05/mayor
+  election_id: gloucester/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Democratic
+  ballot_name: Sefatia A. Romeo Theken
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16142
+- contest_id: gloucester/2021-11-02/mayor
+  election_id: gloucester/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Democratic
+  ballot_name: Sefatia A. Romeo Theken
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16142
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16142

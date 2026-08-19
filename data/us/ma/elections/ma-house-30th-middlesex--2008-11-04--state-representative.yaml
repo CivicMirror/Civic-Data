@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-30th-middlesex/2008-11-04/general
+name: ma-house-30th-middlesex 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-30th-middlesex/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:30th-middlesex/legislature
+  office_id: ma-house-30th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5d32f3d6-5693-5cfc-8c32-3adbdbddfc2d
+  - ocd-person/66482f3e-d72f-5dbe-922c-e9608f5fa75a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/66482f3e-d72f-5dbe-922c-e9608f5fa75a
+    name: James Dwyer
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 30th Middlesex, 2008

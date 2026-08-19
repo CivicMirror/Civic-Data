@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/73dabbbf-1c6f-5d4e-8573-0f7653399a0c
+name: Amy Feeley-Knuuttila
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15116'
+candidacies:
+- contest_id: ma-house-2nd-worcester/2010-11-02/state-representative
+  election_id: ma-house-2nd-worcester/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  party: Democratic
+  ballot_name: Amy Feeley-Knuuttila
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15116
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15116

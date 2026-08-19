@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/de17c6d6-4351-5c7a-a89e-b40254256ad2
+name: Jennifer Fries
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17387'
+candidacies:
+- contest_id: ma-house-24th-middlesex/2020-11-03/state-representative
+  election_id: ma-house-24th-middlesex/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:24th-middlesex/legislature
+  office_id: ma-house-24th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Jennifer Fries
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17387
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17387

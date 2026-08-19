@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: medford/2023-11-07/general
+name: medford 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: medford/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:medford/government
+  office_id: medford/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/402c2b6b-3514-5b75-b437-404a104d0197
+  - ocd-person/a04006fc-7d7e-5576-bfcd-3fc0b33b4201
+  result_status: certified
+  winners:
+  - person_id: ocd-person/402c2b6b-3514-5b75-b437-404a104d0197
+    name: Breanna Lungo-Koehn
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Medford, 2023

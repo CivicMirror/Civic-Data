@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: haverhill/2023-11-07/general
+name: haverhill 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: haverhill/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/16fffe83-dfe6-5647-8b59-6e5805611625
+  - ocd-person/5423240c-1b00-510e-b583-83150779c51a
+  - ocd-person/598cd60c-3c43-53da-9c9d-cd73d7e279f5
+  - ocd-person/a4047f96-4bd1-5350-bfd1-edeee06bdac0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/16fffe83-dfe6-5647-8b59-6e5805611625
+    name: Melinda E. Barrett
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Haverhill, 2023

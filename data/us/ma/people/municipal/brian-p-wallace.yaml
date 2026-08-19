@@ -1,0 +1,51 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9cdccf80-cdc9-5dcf-9e1d-9f052d976cb3
+name: Brian P. Wallace
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13729'
+candidacies:
+- contest_id: ma-house-4th-suffolk/2002-11-05/state-representative
+  election_id: ma-house-4th-suffolk/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-suffolk/legislature
+  office_id: ma-house-4th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Brian P. Wallace
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13729
+- contest_id: ma-house-4th-suffolk/2004-11-02/state-representative
+  election_id: ma-house-4th-suffolk/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-suffolk/legislature
+  office_id: ma-house-4th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Brian P. Wallace
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13729
+- contest_id: ma-house-4th-suffolk/2006-11-07/state-representative
+  election_id: ma-house-4th-suffolk/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-suffolk/legislature
+  office_id: ma-house-4th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Brian P. Wallace
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13729
+- contest_id: ma-house-4th-suffolk/2008-11-04/state-representative
+  election_id: ma-house-4th-suffolk/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-suffolk/legislature
+  office_id: ma-house-4th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Brian P. Wallace
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13729
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13729

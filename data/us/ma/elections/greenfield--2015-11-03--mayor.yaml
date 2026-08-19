@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: greenfield/2015-11-03/general
+name: greenfield 2015-11-03 general election
+date: '2015-11-03'
+election_type: general
+status: certified
+contests:
+- id: greenfield/2015-11-03/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:greenfield/government
+  office_id: greenfield/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/187590fc-b2d6-586c-b03a-5692a3892025
+  - ocd-person/86110c85-5547-5084-a0cd-92f406550c4c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86110c85-5547-5084-a0cd-92f406550c4c
+    name: William F. Martin
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Greenfield, 2015

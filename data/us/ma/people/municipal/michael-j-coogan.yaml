@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/841ecfff-bbe6-59d3-b180-7ceb2c2fa780
+name: Michael J. Coogan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15024'
+candidacies:
+- contest_id: ma-senate-first-bristol-and-plymouth/2010-11-02/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Democratic
+  ballot_name: Michael J. Coogan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15024
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15024

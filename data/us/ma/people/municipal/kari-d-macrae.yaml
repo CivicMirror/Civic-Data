@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bf85ed65-fdc6-5df9-908b-9550d3f3b059
+name: Kari D. MacRae
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17889'
+candidacies:
+- contest_id: ma-senate-plymouth-and-barnstable/2024-11-05/state-senator
+  election_id: ma-senate-plymouth-and-barnstable/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:plymouth-and-barnstable/legislature
+  office_id: ma-senate-plymouth-and-barnstable/state-senator
+  party: Republican
+  ballot_name: Kari D. MacRae
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17889
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17889

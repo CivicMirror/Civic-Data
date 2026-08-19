@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: taunton/2021-11-02/general
+name: taunton 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: taunton/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:taunton/government
+  office_id: taunton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2676fe06-99e5-552c-84d5-1c8ca50e333a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2676fe06-99e5-552c-84d5-1c8ca50e333a
+    name: Shaunna O'Connell
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Taunton, 2021

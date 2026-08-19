@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/dcdccd4a-5396-5885-bb4c-c5e08abed68d
+name: George Georgountzos
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15187'
+candidacies:
+- contest_id: ma-house-31st-middlesex/2010-11-02/state-representative
+  election_id: ma-house-31st-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:31st-middlesex/legislature
+  office_id: ma-house-31st-middlesex/state-representative
+  party: Republican
+  ballot_name: George Georgountzos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15187
+- contest_id: ma-house-31st-middlesex/2012-11-06/state-representative
+  election_id: ma-house-31st-middlesex/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:31st-middlesex/legislature
+  office_id: ma-house-31st-middlesex/state-representative
+  party: Republican
+  ballot_name: George Georgountzos
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15187
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15187

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/28749ade-f284-50f1-b44a-4ea3a0e7db0c
+name: Roberto A. Jimenez
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17934'
+candidacies:
+- contest_id: ma-house-11th-suffolk/2022-11-08/state-representative
+  election_id: ma-house-11th-suffolk/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-suffolk/legislature
+  office_id: ma-house-11th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Roberto A. Jimenez
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17934
+image: https://ocpf2.blob.core.windows.net/filers-photos/17934.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17934

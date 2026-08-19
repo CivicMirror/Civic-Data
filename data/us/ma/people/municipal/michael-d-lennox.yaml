@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/dbdb15c9-c92b-5db8-9ec3-c8640023f40f
+name: Michael D. Lennox
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17508'
+candidacies:
+- contest_id: ma-house-14th-bristol/2020-11-03/state-representative
+  election_id: ma-house-14th-bristol/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-bristol/legislature
+  office_id: ma-house-14th-bristol/state-representative
+  party: Republican
+  ballot_name: Michael D. Lennox
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17508
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17508

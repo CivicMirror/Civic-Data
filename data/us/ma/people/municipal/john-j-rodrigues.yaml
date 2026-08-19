@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9d479602-eea7-5a43-a568-060f86539bdb
+name: John J. Rodrigues
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15209'
+candidacies:
+- contest_id: ma-house-7th-bristol/2006-11-07/state-representative
+  election_id: ma-house-7th-bristol/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-bristol/legislature
+  office_id: ma-house-7th-bristol/state-representative
+  party: Democratic
+  ballot_name: John J. Rodrigues
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15209
+- contest_id: ma-house-8th-bristol/2010-11-02/state-representative
+  election_id: ma-house-8th-bristol/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-bristol/legislature
+  office_id: ma-house-8th-bristol/state-representative
+  party: Democratic
+  ballot_name: John J. Rodrigues
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15209
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15209

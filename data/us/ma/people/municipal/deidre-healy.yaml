@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/84e63f42-4544-5e6e-bb67-90304fdd9bab
+name: Deidre Healy
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14548'
+candidacies:
+- contest_id: ma-senate-first-worcester/2006-11-07/state-senator
+  election_id: ma-senate-first-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-worcester/legislature
+  office_id: ma-senate-first-worcester/state-senator
+  party: Democratic
+  ballot_name: Deidre Healy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14548
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14548

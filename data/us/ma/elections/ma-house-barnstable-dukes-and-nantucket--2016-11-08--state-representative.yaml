@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-barnstable-dukes-and-nantucket/2016-11-08/general
+name: ma-house-barnstable-dukes-and-nantucket 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-barnstable-dukes-and-nantucket/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/51bdcdb4-aa5b-54cc-888d-2334709d8da7
+  - ocd-person/8b8a0edd-964c-5cec-9856-f6ea0f540bbd
+  - ocd-person/cd05a88c-19f0-4fc5-bc3b-d339572842b7
+  - ocd-person/d594a156-c067-5363-822a-45f22436a267
+  - ocd-person/dc244a38-08e1-59ce-aaf3-e902b93d5e94
+  - ocd-person/fdb87d72-fd20-51be-a039-aa2fbda78198
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cd05a88c-19f0-4fc5-bc3b-d339572842b7
+    name: Dylan Fernandes
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, Barnstable, Dukes & Nantucket, 2016

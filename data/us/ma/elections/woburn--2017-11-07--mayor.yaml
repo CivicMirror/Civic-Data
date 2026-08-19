@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: woburn/2017-11-07/general
+name: woburn 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: woburn/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:woburn/government
+  office_id: woburn/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4db2b286-b6ec-5ca7-a865-b6ddc7ed066e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4db2b286-b6ec-5ca7-a865-b6ddc7ed066e
+    name: Scott Galvin
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Woburn, 2017

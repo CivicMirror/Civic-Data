@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-13th-norfolk/2010-11-02/general
+name: ma-house-13th-norfolk 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-13th-norfolk/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:13th-norfolk/legislature
+  office_id: ma-house-13th-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0777ee48-972d-5d9c-9e33-21b64ebfb942
+  - ocd-person/785e49b2-236d-56a6-a66a-3831cb0a25e4
+  - ocd-person/88edee5b-72ea-5e2c-aa7c-411fc300bde8
+  - ocd-person/9a75fdd6-7423-5997-9027-00c121a1b1b9
+  - ocd-person/f96cd173-19fa-5576-8fb7-ba5fcc995dfb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f96cd173-19fa-5576-8fb7-ba5fcc995dfb
+    name: Denise Garlick
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 13th Norfolk, 2010

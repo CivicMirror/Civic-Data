@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-9th-plymouth/2010-11-02/general
+name: ma-house-9th-plymouth 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-9th-plymouth/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-plymouth/legislature
+  office_id: ma-house-9th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9f79d104-8826-5c4c-8e0e-cfee549971ec
+  - ocd-person/c3cdd26f-1314-4366-89f6-17c4c540bce9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c3cdd26f-1314-4366-89f6-17c4c540bce9
+    name: Mike Brady
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 9th Plymouth, 2010

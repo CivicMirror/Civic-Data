@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d825e801-8ab5-5dee-8e92-23e348e22917
+name: Peter G. Bzdula
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17326'
+candidacies:
+- contest_id: taunton/2019-11-05/mayor
+  election_id: taunton/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:taunton/government
+  office_id: taunton/mayor
+  party: Unenrolled
+  ballot_name: Peter G. Bzdula
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17326
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17326

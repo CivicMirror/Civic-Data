@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: salem/2025-11-04/general
+name: salem 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: salem/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:salem/government
+  office_id: salem/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e10143d5-f5cc-5cf5-a7de-4523d440fe68
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e10143d5-f5cc-5cf5-a7de-4523d440fe68
+    name: Dominick Pangallo
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Salem, 2025

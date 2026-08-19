@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-6th-bristol/2012-11-06/general
+name: ma-house-6th-bristol 2012-11-06 general election
+date: '2012-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-6th-bristol/2012-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-bristol/legislature
+  office_id: ma-house-6th-bristol/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/375d4ea8-dc82-585b-a8c8-dfeb1853a82d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/375d4ea8-dc82-585b-a8c8-dfeb1853a82d
+    name: David B. Sullivan
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2012
+  note: OCPF filer registry -- House race, 6th Bristol, 2012

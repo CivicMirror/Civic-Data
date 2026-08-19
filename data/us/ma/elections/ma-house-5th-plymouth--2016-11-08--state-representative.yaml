@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-plymouth/2016-11-08/general
+name: ma-house-5th-plymouth 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-plymouth/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-plymouth/legislature
+  office_id: ma-house-5th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5e50487b-a7aa-54bd-a117-3daf8e0c611f
+  - ocd-person/6c29ccfb-75a5-5bfb-a591-c6a963306b4e
+  - ocd-person/cf295962-4f8d-427a-84e9-c7615ff94c8c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cf295962-4f8d-427a-84e9-c7615ff94c8c
+    name: David DeCoste
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 5th Plymouth, 2016

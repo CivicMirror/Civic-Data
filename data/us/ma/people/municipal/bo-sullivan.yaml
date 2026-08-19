@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8671d70c-be29-5934-bddc-f03c06891189
+name: Bo Sullivan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13891'
+candidacies:
+- contest_id: ma-house-4th-hampden/2002-11-05/state-representative
+  election_id: ma-house-4th-hampden/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-hampden/legislature
+  office_id: ma-house-4th-hampden/state-representative
+  party: Democratic
+  ballot_name: Bo Sullivan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13891
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13891

@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-8th-worcester/2004-11-02/general
+name: ma-house-8th-worcester 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-8th-worcester/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-worcester/legislature
+  office_id: ma-house-8th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6d2c5c9c-415b-561b-819f-2d75ee3a47d0
+  - ocd-person/bc062bbe-9b42-5dc4-8ed7-c05c135eafe0
+  - ocd-person/e13ee373-9dad-56a2-a872-5618a0c581fe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e13ee373-9dad-56a2-a872-5618a0c581fe
+    name: Paul Kujawski
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 8th Worcester, 2004

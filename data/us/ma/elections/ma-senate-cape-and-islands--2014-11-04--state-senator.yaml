@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-cape-and-islands/2014-11-04/general
+name: ma-senate-cape-and-islands 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-cape-and-islands/2014-11-04/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:cape-and-islands/legislature
+  office_id: ma-senate-cape-and-islands/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/09d491f0-6c86-59a6-bae7-f24c98477f89
+  - ocd-person/c8b51c4d-d0ce-5435-a5b8-3ed21f935b2d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c8b51c4d-d0ce-5435-a5b8-3ed21f935b2d
+    name: Daniel A. Wolf
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- Senate race, Cape & Islands, 2014

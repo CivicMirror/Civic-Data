@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8357e5ee-4054-5ebc-ae5e-a4a8f96a649b
+name: Patrick Steven Reynolds
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17489'
+candidacies:
+- contest_id: ma-house-14th-bristol/2020-11-03/state-representative
+  election_id: ma-house-14th-bristol/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-bristol/legislature
+  office_id: ma-house-14th-bristol/state-representative
+  party: Democratic
+  ballot_name: Patrick Steven Reynolds
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17489
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17489

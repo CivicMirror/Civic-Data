@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/aa2f9c13-905c-5728-a177-d4f492c3dbb3
+name: Mary Ann Stewart
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16630'
+candidacies:
+- contest_id: ma-house-15th-middlesex/2018-11-06/state-representative
+  election_id: ma-house-15th-middlesex/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-middlesex/legislature
+  office_id: ma-house-15th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Mary Ann Stewart
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16630
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16630

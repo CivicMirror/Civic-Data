@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1ba0e23b-924a-5435-b8ff-dff405526473
+name: Jason Ferreira
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16728'
+candidacies:
+- contest_id: holyoke/2017-11-07/mayor
+  election_id: holyoke/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:holyoke/government
+  office_id: holyoke/mayor
+  party: Democratic
+  ballot_name: Jason Ferreira
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16728
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16728

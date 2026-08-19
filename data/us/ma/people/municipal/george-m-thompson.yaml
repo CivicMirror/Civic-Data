@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1e09c575-2c97-5e24-b073-fa5c8d995195
+name: George M. Thompson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15203'
+candidacies:
+- contest_id: ma-senate-middlesex-and-worcester/2010-11-02/state-senator
+  election_id: ma-senate-middlesex-and-worcester/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  party: Republican
+  ballot_name: George M. Thompson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15203
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15203

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-worcester-and-hampshire/2024-11-05/general
+name: ma-senate-worcester-and-hampshire 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-worcester-and-hampshire/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:worcester-and-hampshire/legislature
+  office_id: ma-senate-worcester-and-hampshire/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c674060b-4568-43fa-b72d-0921f4876713
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c674060b-4568-43fa-b72d-0921f4876713
+    name: Peter Durant
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2024
+  note: OCPF filer registry -- Senate race, Worcester and Hampshire, 2024

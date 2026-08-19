@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/0b39d464-8050-5575-a0ef-8fa1d825d4b2
+name: Vivian Kobusingye Birchall
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17776'
+candidacies:
+- contest_id: ma-house-14th-middlesex/2022-11-08/state-representative
+  election_id: ma-house-14th-middlesex/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-middlesex/legislature
+  office_id: ma-house-14th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Vivian Kobusingye Birchall
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17776
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17776

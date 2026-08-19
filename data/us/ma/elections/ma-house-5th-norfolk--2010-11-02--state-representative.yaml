@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-norfolk/2010-11-02/general
+name: ma-house-5th-norfolk 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-norfolk/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-norfolk/legislature
+  office_id: ma-house-5th-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6569f648-3876-51f9-8c78-ee00c312e9df
+  - ocd-person/8dad02fa-bf17-58f3-838c-a3b0a9f056df
+  - ocd-person/b51c5c27-7da0-42f5-b67b-22085173af7a
+  - ocd-person/cabb5cb4-78d6-5455-a16a-a51e6a2f3b32
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b51c5c27-7da0-42f5-b67b-22085173af7a
+    name: Mark Cusack
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 5th Norfolk, 2010

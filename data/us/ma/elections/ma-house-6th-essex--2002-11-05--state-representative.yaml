@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-6th-essex/2002-11-05/general
+name: ma-house-6th-essex 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-6th-essex/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-essex/legislature
+  office_id: ma-house-6th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/27afaa52-45d9-59c7-b465-de1dad61ab4b
+  - ocd-person/380e20c6-45cf-5db7-9901-270c78c838e9
+  - ocd-person/69601d10-abcb-52f2-85a5-2195be52f2d5
+  - ocd-person/76029fbf-afa3-5d85-938c-2f3e16924d08
+  - ocd-person/7966f5ed-e91d-5c73-a6e5-9a8a0a1acd15
+  - ocd-person/f6eec4cb-990e-56ee-9c1a-e38d6abaf853
+  result_status: certified
+  winners:
+  - person_id: ocd-person/76029fbf-afa3-5d85-938c-2f3e16924d08
+    name: Mary Grant
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 6th Essex, 2002

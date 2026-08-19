@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9361a48a-fdbb-5f0b-a376-933f0ecb11d4
+name: Terra Friedrichs
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16460'
+candidacies:
+- contest_id: ma-senate-middlesex-and-worcester/2016-11-08/state-senator
+  election_id: ma-senate-middlesex-and-worcester/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  party: Unenrolled
+  ballot_name: Terra Friedrichs
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16460
+- contest_id: ma-senate-middlesex-and-worcester/2018-11-06/state-senator
+  election_id: ma-senate-middlesex-and-worcester/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  party: Unenrolled
+  ballot_name: Terra Friedrichs
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16460
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16460

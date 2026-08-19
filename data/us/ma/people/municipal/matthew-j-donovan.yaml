@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2bc81333-9210-50a5-ae55-2574325da379
+name: Matthew J. Donovan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14585'
+candidacies:
+- contest_id: ma-house-1st-bristol/2006-11-07/state-representative
+  election_id: ma-house-1st-bristol/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-bristol/legislature
+  office_id: ma-house-1st-bristol/state-representative
+  party: Democratic
+  ballot_name: Matthew J. Donovan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14585
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14585

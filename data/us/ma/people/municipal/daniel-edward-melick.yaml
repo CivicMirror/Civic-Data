@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2a7524dc-7a11-5af4-bc94-5587643972fe
+name: Daniel Edward Melick
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15232'
+candidacies:
+- contest_id: ma-house-3rd-hampshire/2010-11-02/state-representative
+  election_id: ma-house-3rd-hampshire/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampshire/legislature
+  office_id: ma-house-3rd-hampshire/state-representative
+  party: Unenrolled
+  ballot_name: Daniel Edward Melick
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15232
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15232

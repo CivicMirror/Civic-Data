@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/238046da-6b87-55a4-8d61-1d456c54af1d
+name: Angela P. Breault-Klusman
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17250'
+candidacies:
+- contest_id: chicopee/2019-11-05/mayor
+  election_id: chicopee/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:chicopee/government
+  office_id: chicopee/mayor
+  party: Republican
+  ballot_name: Angela P. Breault-Klusman
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17250
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17250

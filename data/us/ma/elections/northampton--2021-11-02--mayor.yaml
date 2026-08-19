@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: northampton/2021-11-02/general
+name: northampton 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: northampton/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:northampton/government
+  office_id: northampton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/031fd8ee-726a-58c3-9bcc-16fcca8c07ef
+  - ocd-person/4f2f5505-111c-59b4-91e9-58be2cf3d136
+  - ocd-person/a7f12beb-bf26-570b-9ad0-62e36033e1ca
+  - ocd-person/b0638137-b59a-5e9f-8b54-528e9199d79f
+  - ocd-person/fd616e43-2939-51c8-a6f8-8ef7adbc5eab
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b0638137-b59a-5e9f-8b54-528e9199d79f
+    name: Gina-Louise Sciarra
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Northampton, 2021

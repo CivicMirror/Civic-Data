@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: marlborough/2023-11-07/general
+name: marlborough 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: marlborough/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:marlborough/government
+  office_id: marlborough/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/518a3773-b85f-574c-9b20-81328297539f
+  - ocd-person/7f943f2c-d38b-588a-8608-b9c8b01c55f2
+  - ocd-person/b4d29bbb-7b75-5ce7-b997-f417d1dee4a8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b4d29bbb-7b75-5ce7-b997-f417d1dee4a8
+    name: J. Christian Dumais
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Marlborough, 2023

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/05170545-b47a-5337-af4c-c7be4e1f26d7
+name: Sue Bartone
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13915'
+candidacies:
+- contest_id: ma-house-2nd-hampshire/2002-11-05/state-representative
+  election_id: ma-house-2nd-hampshire/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-hampshire/legislature
+  office_id: ma-house-2nd-hampshire/state-representative
+  party: Unenrolled
+  ballot_name: Sue Bartone
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13915
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13915

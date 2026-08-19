@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-second-suffolk/2022-11-08/general
+name: ma-senate-second-suffolk 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-second-suffolk/2022-11-08/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-suffolk/legislature
+  office_id: ma-senate-second-suffolk/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6f7fff45-199f-582d-89ec-9f9b85825261
+  - ocd-person/703d6d4e-3a1d-4a2e-82e3-3c9693b75953
+  - ocd-person/d6f9c249-2bd0-5e03-9385-8d81243bc34c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/703d6d4e-3a1d-4a2e-82e3-3c9693b75953
+    name: Liz Miranda
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- Senate race, 2nd Suffolk, 2022

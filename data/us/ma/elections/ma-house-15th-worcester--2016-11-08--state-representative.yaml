@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-15th-worcester/2016-11-08/general
+name: ma-house-15th-worcester 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-15th-worcester/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-worcester/legislature
+  office_id: ma-house-15th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4d0b5dda-d9d1-4c25-9c94-ce8fbd8ff398
+  - ocd-person/4d8a4739-2e28-530b-8a0d-f2a4198c044d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4d0b5dda-d9d1-4c25-9c94-ce8fbd8ff398
+    name: Mary Keefe
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 15th Worcester, 2016

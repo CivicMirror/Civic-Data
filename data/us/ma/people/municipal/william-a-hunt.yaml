@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/09d9d6fa-a922-5860-8ada-9d98aa77bd6d
+name: William A. Hunt
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14009'
+candidacies:
+- contest_id: ma-house-2nd-worcester/2002-11-05/state-representative
+  election_id: ma-house-2nd-worcester/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  party: Republican
+  ballot_name: William A. Hunt
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14009
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14009

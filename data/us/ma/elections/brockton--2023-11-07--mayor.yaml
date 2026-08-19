@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: brockton/2023-11-07/general
+name: brockton 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: brockton/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/00734558-d006-5cf1-8280-0118c501e02f
+  - ocd-person/0982ce74-c658-5e84-89c5-bb400f8e53a3
+  - ocd-person/61b732c4-dc3b-5e9e-aa99-b3929143fdbf
+  - ocd-person/930f5792-33c2-59ee-bb8f-ee169ab81005
+  - ocd-person/cc804f6b-4e98-56e1-9402-08e38899dcd8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/930f5792-33c2-59ee-bb8f-ee169ab81005
+    name: Robert F. Sullivan
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Brockton, 2023

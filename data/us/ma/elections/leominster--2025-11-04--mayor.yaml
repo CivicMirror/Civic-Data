@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: leominster/2025-11-04/general
+name: leominster 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: leominster/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:leominster/government
+  office_id: leominster/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fd3a753a-feab-504d-8e3e-38a8c526320d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fd3a753a-feab-504d-8e3e-38a8c526320d
+    name: Dean J. Mazzarella
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Leominster, 2025

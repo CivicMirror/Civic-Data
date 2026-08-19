@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b7e5dd13-2859-56a4-bdc5-d573b036e67f
+name: Glenn S. Pare
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14802'
+candidacies:
+- contest_id: ma-house-5th-barnstable/2008-11-04/state-representative
+  election_id: ma-house-5th-barnstable/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-barnstable/legislature
+  office_id: ma-house-5th-barnstable/state-representative
+  party: Democratic
+  ballot_name: Glenn S. Pare
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14802
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14802

@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/11b45c06-951b-5280-aeac-f8c726d7a211
+name: Yvonne M. Spicer
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16676'
+candidacies:
+- contest_id: framingham/2017-11-07/mayor
+  election_id: framingham/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:framingham/government
+  office_id: framingham/mayor
+  party: Democratic
+  ballot_name: Yvonne M. Spicer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16676
+- contest_id: framingham/2021-11-02/mayor
+  election_id: framingham/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:framingham/government
+  office_id: framingham/mayor
+  party: Democratic
+  ballot_name: Yvonne M. Spicer
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16676
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16676

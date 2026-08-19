@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6865fca4-7150-5e57-95f1-f08c4309cd92
+name: John Blaisdell
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14748'
+candidacies:
+- contest_id: ma-house-8th-essex/2008-11-04/state-representative
+  election_id: ma-house-8th-essex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-essex/legislature
+  office_id: ma-house-8th-essex/state-representative
+  party: Republican
+  ballot_name: John Blaisdell
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14748
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14748

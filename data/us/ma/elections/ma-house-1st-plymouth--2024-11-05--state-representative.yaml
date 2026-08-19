@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-1st-plymouth/2024-11-05/general
+name: ma-house-1st-plymouth 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-1st-plymouth/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-plymouth/legislature
+  office_id: ma-house-1st-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/080b9ead-73e5-515a-8053-6b6428350d68
+  - ocd-person/13251f72-4bf7-5cd1-a398-c40e4ecdc4ea
+  - ocd-person/8a133126-93c1-5199-9b6d-f43c39f65771
+  - ocd-person/9d5076d3-6823-579b-9dc7-dac3514fb5c4
+  - ocd-person/a0c80d02-beb0-42c3-b7ff-31fc0d5351f5
+  - ocd-person/d0ea6c2c-c2f5-5a8c-a983-21f5ab20bdee
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a0c80d02-beb0-42c3-b7ff-31fc0d5351f5
+    name: Michelle Badger
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2024
+  note: OCPF filer registry -- House race, 1st Plymouth, 2024

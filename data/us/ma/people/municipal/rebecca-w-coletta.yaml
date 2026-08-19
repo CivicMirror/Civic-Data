@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e2f94728-de22-52bd-992b-ff57441b453d
+name: Rebecca W. Coletta
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17390'
+candidacies:
+- contest_id: ma-house-6th-plymouth/2024-11-05/state-representative
+  election_id: ma-house-6th-plymouth/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-plymouth/legislature
+  office_id: ma-house-6th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Rebecca W. Coletta
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17390
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17390

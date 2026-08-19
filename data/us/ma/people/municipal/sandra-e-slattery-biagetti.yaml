@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2df5382f-4975-56d2-99fa-d1c2e86927ed
+name: Sandra E. Slattery Biagetti
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16499'
+candidacies:
+- contest_id: ma-house-10th-worcester/2016-11-08/state-representative
+  election_id: ma-house-10th-worcester/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-worcester/legislature
+  office_id: ma-house-10th-worcester/state-representative
+  party: Republican
+  ballot_name: Sandra E. Slattery Biagetti
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16499
+- contest_id: ma-house-10th-worcester/2018-11-06/state-representative
+  election_id: ma-house-10th-worcester/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-worcester/legislature
+  office_id: ma-house-10th-worcester/state-representative
+  party: Republican
+  ballot_name: Sandra E. Slattery Biagetti
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16499
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16499

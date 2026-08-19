@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/275ce508-fd18-5c9a-98a2-3c9632f5fa5d
+name: Joanna Gonsalves
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14492'
+candidacies:
+- contest_id: ma-senate-fourth-middlesex/2006-11-07/state-senator
+  election_id: ma-senate-fourth-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  party: Democratic
+  ballot_name: Joanna Gonsalves
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14492
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14492

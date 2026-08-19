@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a881f4d7-a21c-5df8-8d6b-7b4296b93284
+name: Aprilyn Carsno
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17804'
+candidacies:
+- contest_id: north-adams/2021-11-02/mayor
+  election_id: north-adams/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:north-adams/government
+  office_id: north-adams/mayor
+  party: Unenrolled
+  ballot_name: Aprilyn Carsno
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17804
+- contest_id: north-adams/2023-11-07/mayor
+  election_id: north-adams/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:north-adams/government
+  office_id: north-adams/mayor
+  party: Unenrolled
+  ballot_name: Aprilyn Carsno
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17804
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17804

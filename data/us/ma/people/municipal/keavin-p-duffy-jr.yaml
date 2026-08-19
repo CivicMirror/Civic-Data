@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/223dcfc2-ce83-5e87-8928-4fa1e989facd
+name: Keavin P. Duffy Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15863'
+candidacies:
+- contest_id: ma-house-3rd-bristol/2014-11-04/state-representative
+  election_id: ma-house-3rd-bristol/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-bristol/legislature
+  office_id: ma-house-3rd-bristol/state-representative
+  party: Democratic
+  ballot_name: Keavin P. Duffy Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15863
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15863

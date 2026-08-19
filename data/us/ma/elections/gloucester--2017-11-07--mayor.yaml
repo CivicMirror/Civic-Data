@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: gloucester/2017-11-07/general
+name: gloucester 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: gloucester/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0ddf3f1e-3b49-5976-8072-c42bd9e904e2
+  - ocd-person/80f0c7d8-00ba-5279-86fc-13708cce1ff7
+  - ocd-person/a60b6e32-a8b8-5cd4-9056-45b8c34e7c47
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a60b6e32-a8b8-5cd4-9056-45b8c34e7c47
+    name: Sefatia A. Romeo Theken
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Gloucester, 2017

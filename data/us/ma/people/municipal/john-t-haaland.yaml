@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6960090b-e106-517c-986e-7f1d350ba611
+name: John T. Haaland
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14241'
+candidacies:
+- contest_id: ma-house-10th-bristol/2004-11-02/state-representative
+  election_id: ma-house-10th-bristol/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-bristol/legislature
+  office_id: ma-house-10th-bristol/state-representative
+  party: Republican
+  ballot_name: John T. Haaland
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14241
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14241

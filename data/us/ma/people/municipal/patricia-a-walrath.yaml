@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f2af7791-aa6c-5cc8-804f-5c1b9753bd58
+name: Patricia A. Walrath
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10449'
+candidacies:
+- contest_id: ma-house-3rd-middlesex/2002-11-05/state-representative
+  election_id: ma-house-3rd-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-middlesex/legislature
+  office_id: ma-house-3rd-middlesex/state-representative
+  party: Democratic
+  ballot_name: Patricia A. Walrath
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10449
+- contest_id: ma-house-3rd-middlesex/2004-11-02/state-representative
+  election_id: ma-house-3rd-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-middlesex/legislature
+  office_id: ma-house-3rd-middlesex/state-representative
+  party: Democratic
+  ballot_name: Patricia A. Walrath
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10449
+- contest_id: ma-house-3rd-middlesex/2006-11-07/state-representative
+  election_id: ma-house-3rd-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-middlesex/legislature
+  office_id: ma-house-3rd-middlesex/state-representative
+  party: Democratic
+  ballot_name: Patricia A. Walrath
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10449
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10449

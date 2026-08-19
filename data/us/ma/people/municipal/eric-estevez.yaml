@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b6a38c9e-bca4-54a0-8a04-d7f5f7a8110a
+name: Eric Estevez
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15062'
+candidacies:
+- contest_id: ma-house-32nd-middlesex/2010-11-02/state-representative
+  election_id: ma-house-32nd-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:32nd-middlesex/legislature
+  office_id: ma-house-32nd-middlesex/state-representative
+  party: Republican
+  ballot_name: Eric Estevez
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15062
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15062

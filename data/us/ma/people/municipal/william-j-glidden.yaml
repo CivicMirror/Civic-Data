@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/13cf4718-9470-582c-8a60-22a77832955f
+name: William J. Glidden
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17630'
+candidacies:
+- contest_id: holyoke/2021-11-02/mayor
+  election_id: holyoke/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:holyoke/government
+  office_id: holyoke/mayor
+  party: Democratic
+  ballot_name: William J. Glidden
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17630
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17630

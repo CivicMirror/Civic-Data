@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bd517e89-7915-5375-bb46-a0aadef43789
+name: Stephen Corbett
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14882'
+candidacies:
+- contest_id: ma-house-29th-middlesex/2008-11-04/state-representative
+  election_id: ma-house-29th-middlesex/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:29th-middlesex/legislature
+  office_id: ma-house-29th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Stephen Corbett
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14882
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14882

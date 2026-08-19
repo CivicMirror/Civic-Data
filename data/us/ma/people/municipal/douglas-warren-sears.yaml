@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/fbb06098-487a-5fa2-97a9-eee16028c53b
+name: Douglas Warren Sears
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15424'
+candidacies:
+- contest_id: ma-house-19th-middlesex/2012-11-06/state-representative
+  election_id: ma-house-19th-middlesex/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:19th-middlesex/legislature
+  office_id: ma-house-19th-middlesex/state-representative
+  party: Republican
+  ballot_name: Douglas Warren Sears
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15424
+- contest_id: ma-house-19th-middlesex/2014-11-04/state-representative
+  election_id: ma-house-19th-middlesex/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:19th-middlesex/legislature
+  office_id: ma-house-19th-middlesex/state-representative
+  party: Republican
+  ballot_name: Douglas Warren Sears
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15424
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15424

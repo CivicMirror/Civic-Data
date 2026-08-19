@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: newburyport/2021-11-02/general
+name: newburyport 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: newburyport/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newburyport/government
+  office_id: newburyport/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8b2c463f-1356-5def-aa7c-e5957b48d073
+  - ocd-person/bc3cd29e-c8f2-5cbb-9fc6-81574ea54aeb
+  - ocd-person/f905736a-f5ff-5d58-ac69-b1e44c6b5bcc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f905736a-f5ff-5d58-ac69-b1e44c6b5bcc
+    name: Sean R. Reardon
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Newburyport, 2021

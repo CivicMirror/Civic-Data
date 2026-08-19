@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-middlesex-and-worcester/2006-11-07/general
+name: ma-senate-middlesex-and-worcester 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-middlesex-and-worcester/2006-11-07/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:middlesex-and-worcester/legislature
+  office_id: ma-senate-middlesex-and-worcester/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d2ff4090-b74b-541d-ae45-e44c771076b9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d2ff4090-b74b-541d-ae45-e44c771076b9
+    name: Pamela P. Resor
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- Senate race, Middlesex & Worcester, 2006

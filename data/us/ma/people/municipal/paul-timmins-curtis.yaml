@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5625506f-4893-50b0-ba54-0a1dba85bc12
+name: Paul Timmins Curtis
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14136'
+candidacies:
+- contest_id: ma-house-12th-plymouth/2006-11-07/state-representative
+  election_id: ma-house-12th-plymouth/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-plymouth/legislature
+  office_id: ma-house-12th-plymouth/state-representative
+  party: Republican
+  ballot_name: Paul Timmins Curtis
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14136
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14136

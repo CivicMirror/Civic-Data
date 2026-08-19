@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-plymouth/2022-11-08/general
+name: ma-house-4th-plymouth 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-plymouth/2022-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-plymouth/legislature
+  office_id: ma-house-4th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0a288f3d-397f-4e7b-8bfd-b5032ae1421f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0a288f3d-397f-4e7b-8bfd-b5032ae1421f
+    name: Patrick Kearney
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- House race, 4th Plymouth, 2022

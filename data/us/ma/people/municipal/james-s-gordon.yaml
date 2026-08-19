@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f34bf6e7-ab84-5e97-a432-a5eaf8bfa439
+name: James S. Gordon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18067'
+candidacies:
+- contest_id: ma-senate-second-plymouth-and-norfolk/2022-11-08/state-senator
+  election_id: ma-senate-second-plymouth-and-norfolk/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-plymouth-and-norfolk/legislature
+  office_id: ma-senate-second-plymouth-and-norfolk/state-senator
+  party: Republican
+  ballot_name: James S. Gordon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18067
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18067

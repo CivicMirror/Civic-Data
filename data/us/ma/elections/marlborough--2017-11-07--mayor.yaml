@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: marlborough/2017-11-07/general
+name: marlborough 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: marlborough/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:marlborough/government
+  office_id: marlborough/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b88e4d9b-68b4-5ade-a70f-74066dbcf0ec
+  - ocd-person/ee3c2f2f-7495-5b46-8243-82d12bb46ae0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b88e4d9b-68b4-5ade-a70f-74066dbcf0ec
+    name: Arthur G. Vigeant
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Marlborough, 2017

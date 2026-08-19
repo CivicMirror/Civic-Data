@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5d824266-59ab-55f3-9e84-aa38c8c55479
+name: Brenda Ryan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17262'
+candidacies:
+- contest_id: quincy/2019-11-05/mayor
+  election_id: quincy/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:quincy/government
+  office_id: quincy/mayor
+  party: Unenrolled
+  ballot_name: Brenda Ryan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17262
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17262

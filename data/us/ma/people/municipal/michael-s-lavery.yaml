@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4056bf0d-a0ca-5ecd-b6b3-cf2d629febad
+name: Michael S. Lavery
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18069'
+candidacies:
+- contest_id: ma-house-3rd-berkshire/2022-11-08/state-representative
+  election_id: ma-house-3rd-berkshire/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-berkshire/legislature
+  office_id: ma-house-3rd-berkshire/state-representative
+  party: Green-Rainbow Party
+  ballot_name: Michael S. Lavery
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18069
+image: https://ocpf2.blob.core.windows.net/filers-photos/18069.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18069

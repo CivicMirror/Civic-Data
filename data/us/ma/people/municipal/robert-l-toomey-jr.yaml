@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/bc41c7a7-e8a9-5e9e-b5c6-e24677993e57
+name: Robert L. Toomey Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14840'
+candidacies:
+- contest_id: ma-house-7th-plymouth/2012-11-06/state-representative
+  election_id: ma-house-7th-plymouth/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-plymouth/legislature
+  office_id: ma-house-7th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Robert L. Toomey Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14840
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14840

@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/594f78bd-3bd8-524d-848c-9d3530c8366b
+name: Robert A. Havern
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10721'
+candidacies:
+- contest_id: ma-senate-fourth-middlesex/2002-11-05/state-senator
+  election_id: ma-senate-fourth-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  party: Democratic
+  ballot_name: Robert A. Havern
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10721
+- contest_id: ma-senate-fourth-middlesex/2004-11-02/state-senator
+  election_id: ma-senate-fourth-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  party: Democratic
+  ballot_name: Robert A. Havern
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10721
+- contest_id: ma-senate-fourth-middlesex/2006-11-07/state-senator
+  election_id: ma-senate-fourth-middlesex/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  party: Democratic
+  ballot_name: Robert A. Havern
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10721
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10721

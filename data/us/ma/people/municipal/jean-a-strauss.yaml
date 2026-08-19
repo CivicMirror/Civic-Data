@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2853c5c2-8db7-5849-a5c0-88d430c3c146
+name: Jean A. Strauss
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16945'
+candidacies:
+- contest_id: ma-house-5th-worcester/2018-11-06/state-representative
+  election_id: ma-house-5th-worcester/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-worcester/legislature
+  office_id: ma-house-5th-worcester/state-representative
+  party: Democratic
+  ballot_name: Jean A. Strauss
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16945
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16945

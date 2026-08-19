@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7dcd9c82-e67f-5daf-abf4-3708f174e8e0
+name: Patrick Thomas White
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18730'
+candidacies:
+- contest_id: ma-house-3rd-berkshire/2024-11-05/state-representative
+  election_id: ma-house-3rd-berkshire/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-berkshire/legislature
+  office_id: ma-house-3rd-berkshire/state-representative
+  party: Democratic
+  ballot_name: Patrick Thomas White
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18730
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18730

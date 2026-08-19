@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1d85bb8f-dbe5-5783-92c7-6b77c3aa6ec7
+name: Roger William Wey
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13671'
+candidacies:
+- contest_id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/state-representative
+  election_id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  party: Democratic
+  ballot_name: Roger William Wey
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13671
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13671

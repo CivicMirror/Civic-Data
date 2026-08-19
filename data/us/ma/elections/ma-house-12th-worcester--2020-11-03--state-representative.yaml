@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-12th-worcester/2020-11-03/general
+name: ma-house-12th-worcester 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: certified
+contests:
+- id: ma-house-12th-worcester/2020-11-03/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-worcester/legislature
+  office_id: ma-house-12th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/329645d9-20ff-51cb-ba47-7adc4f6c22f8
+  - ocd-person/401a6fda-bcf2-5691-a9b5-b8496ae03a6f
+  - ocd-person/4633c623-5771-58e5-8d8b-bf4f832fbdd0
+  - ocd-person/9649fb5a-fd38-582d-89ba-45980e6100a3
+  - ocd-person/b61c923f-3598-465b-8051-6507b6f6c6c2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b61c923f-3598-465b-8051-6507b6f6c6c2
+    name: Meg Kilcoyne
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2020
+  note: OCPF filer registry -- House race, 12th Worcester, 2020

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7d3a1a20-e98a-5363-99e7-82de66ce8329
+name: Lynette Bond
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17763'
+candidacies:
+- contest_id: north-adams/2021-11-02/mayor
+  election_id: north-adams/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:north-adams/government
+  office_id: north-adams/mayor
+  party: Democratic
+  ballot_name: Lynette Bond
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17763
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17763

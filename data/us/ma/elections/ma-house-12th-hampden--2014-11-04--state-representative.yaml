@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-12th-hampden/2014-11-04/general
+name: ma-house-12th-hampden 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-12th-hampden/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-hampden/legislature
+  office_id: ma-house-12th-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8db79ea8-3a00-5960-a364-9e9aa0f9911f
+  - ocd-person/fa53f2ff-7dff-53f6-b837-fb8761ce916c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fa53f2ff-7dff-53f6-b837-fb8761ce916c
+    name: Angelo J. Puppolo Jr.
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 12th Hampden, 2014

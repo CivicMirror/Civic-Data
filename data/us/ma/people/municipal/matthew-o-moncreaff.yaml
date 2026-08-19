@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c6a863db-01e5-5a59-ad5f-0b25c1a456b0
+name: Matthew O. Moncreaff
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16961'
+candidacies:
+- contest_id: ma-house-1st-worcester/2018-11-06/state-representative
+  election_id: ma-house-1st-worcester/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-worcester/legislature
+  office_id: ma-house-1st-worcester/state-representative
+  party: Green-Rainbow Party
+  ballot_name: Matthew O. Moncreaff
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16961
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16961

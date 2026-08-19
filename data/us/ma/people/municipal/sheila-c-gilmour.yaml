@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/95cf5bf5-601f-598d-85d7-a433dd196583
+name: Sheila C. Gilmour
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17138'
+candidacies:
+- contest_id: greenfield/2019-11-05/mayor
+  election_id: greenfield/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:greenfield/government
+  office_id: greenfield/mayor
+  party: Democratic
+  ballot_name: Sheila C. Gilmour
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17138
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17138

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/974f7bc3-ea98-57a7-a19c-9681dddc8582
+name: Lorne K. Lawless
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15198'
+candidacies:
+- contest_id: ma-senate-first-bristol-and-plymouth/2010-11-02/state-senator
+  election_id: ma-senate-first-bristol-and-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-bristol-and-plymouth/legislature
+  office_id: ma-senate-first-bristol-and-plymouth/state-senator
+  party: Democratic
+  ballot_name: Lorne K. Lawless
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15198
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15198

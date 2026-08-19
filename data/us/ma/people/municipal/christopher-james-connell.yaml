@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/77126dd3-1361-5ad5-918d-088866d6a59e
+name: Christopher James Connell
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16353'
+candidacies:
+- contest_id: ma-house-3rd-berkshire/2016-11-08/state-representative
+  election_id: ma-house-3rd-berkshire/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-berkshire/legislature
+  office_id: ma-house-3rd-berkshire/state-representative
+  party: Unenrolled
+  ballot_name: Christopher James Connell
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16353
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16353

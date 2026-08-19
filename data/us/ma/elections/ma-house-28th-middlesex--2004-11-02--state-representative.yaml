@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-28th-middlesex/2004-11-02/general
+name: ma-house-28th-middlesex 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-28th-middlesex/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:28th-middlesex/legislature
+  office_id: ma-house-28th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/519d9bbc-7cd5-5d3a-b963-7b8f6ad6401a
+  - ocd-person/97e9c83e-3d51-5205-9bef-30aabe4342fa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/97e9c83e-3d51-5205-9bef-30aabe4342fa
+    name: Edward G. Connolly
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 28th Middlesex, 2004

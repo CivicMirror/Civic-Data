@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/33b16c92-8f19-56eb-8fb0-cc3e70c604e7
+name: William Earl LaRose
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17486'
+candidacies:
+- contest_id: ma-house-2nd-franklin/2020-11-03/state-representative
+  election_id: ma-house-2nd-franklin/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-franklin/legislature
+  office_id: ma-house-2nd-franklin/state-representative
+  party: Democratic
+  ballot_name: William Earl LaRose
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17486
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17486

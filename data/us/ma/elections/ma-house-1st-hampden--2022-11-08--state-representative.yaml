@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-1st-hampden/2022-11-08/general
+name: ma-house-1st-hampden 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-1st-hampden/2022-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-hampden/legislature
+  office_id: ma-house-1st-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d8895862-a95b-4982-bb2e-31c8ffa4bf57
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d8895862-a95b-4982-bb2e-31c8ffa4bf57
+    name: Todd Smola
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- House race, 1st Hampden, 2022

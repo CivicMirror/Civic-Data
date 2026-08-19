@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1488677a-c256-5482-85f9-2f7a26b21540
+name: Daniel Michael OBrien
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18674'
+candidacies:
+- contest_id: west-springfield/2025-11-04/mayor
+  election_id: west-springfield/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:west-springfield/government
+  office_id: west-springfield/mayor
+  party: Unenrolled
+  ballot_name: Daniel Michael OBrien
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18674
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18674

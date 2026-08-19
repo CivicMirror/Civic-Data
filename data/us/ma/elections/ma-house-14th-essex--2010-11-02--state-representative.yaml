@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-14th-essex/2010-11-02/general
+name: ma-house-14th-essex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-14th-essex/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-essex/legislature
+  office_id: ma-house-14th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/05a51344-447c-5718-a5f7-97de5299aa30
+  - ocd-person/aa898173-1527-5457-bd9b-fb34d2ebfc98
+  - ocd-person/c3e14515-52cb-5ea6-8dfe-cf345574245b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c3e14515-52cb-5ea6-8dfe-cf345574245b
+    name: David  M. Torrisi
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 14th Essex, 2010

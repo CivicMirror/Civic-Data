@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: malden/2019-11-05/general
+name: malden 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: malden/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:malden/government
+  office_id: malden/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7d977ccb-65d4-5799-8b05-d77875f74f6b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7d977ccb-65d4-5799-8b05-d77875f74f6b
+    name: Gary J. Christenson
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Malden, 2019

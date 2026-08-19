@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/51350404-0041-58cb-b3c4-83a61be757d1
+name: Christina Eckert
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16988'
+candidacies:
+- contest_id: ma-house-2nd-essex/2018-11-06/state-representative
+  election_id: ma-house-2nd-essex/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-essex/legislature
+  office_id: ma-house-2nd-essex/state-representative
+  party: Democratic
+  ballot_name: Christina Eckert
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16988
+- contest_id: ma-house-2nd-essex/2020-11-03/state-representative
+  election_id: ma-house-2nd-essex/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-essex/legislature
+  office_id: ma-house-2nd-essex/state-representative
+  party: Democratic
+  ballot_name: Christina Eckert
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16988
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16988

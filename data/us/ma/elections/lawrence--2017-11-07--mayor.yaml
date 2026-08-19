@@ -1,0 +1,31 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: lawrence/2017-11-07/general
+name: lawrence 2017-11-07 general election
+date: '2017-11-07'
+election_type: general
+status: certified
+contests:
+- id: lawrence/2017-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:lawrence/government
+  office_id: lawrence/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8e6b7057-a588-5527-911c-fdc1fe25160d
+  - ocd-person/9cfdcf6f-cdd8-596a-aef5-949e69007744
+  - ocd-person/a75a77ad-94da-5e91-977b-7e5d34a7d74c
+  - ocd-person/aab7f272-7ecc-5463-bb04-4c2b95b39b92
+  - ocd-person/bd2dec79-7c4e-5b6f-b6e7-2f74743ad380
+  - ocd-person/e92a6b20-076a-5be2-a914-a2f9bad88f90
+  - ocd-person/ea5d19b5-40b2-5c1a-a36a-e2846bea31a8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e92a6b20-076a-5be2-a914-a2f9bad88f90
+    name: Daniel Rivera
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Lawrence, 2017

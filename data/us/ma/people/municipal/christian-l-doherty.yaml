@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e1962e48-de34-5781-8a98-a54d649c31ab
+name: Christian L. Doherty
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15122'
+candidacies:
+- contest_id: ma-senate-first-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-first-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Democratic
+  ballot_name: Christian L. Doherty
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15122
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15122

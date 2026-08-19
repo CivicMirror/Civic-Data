@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/380e20c6-45cf-5db7-9901-270c78c838e9
+name: F. John Monahan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13853'
+candidacies:
+- contest_id: ma-house-6th-essex/2002-11-05/state-representative
+  election_id: ma-house-6th-essex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-essex/legislature
+  office_id: ma-house-6th-essex/state-representative
+  party: Democratic
+  ballot_name: F. John Monahan
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13853
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13853

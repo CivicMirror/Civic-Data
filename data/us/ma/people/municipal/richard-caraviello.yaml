@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a04006fc-7d7e-5576-bfcd-3fc0b33b4201
+name: Richard Caraviello
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18170'
+candidacies:
+- contest_id: medford/2023-11-07/mayor
+  election_id: medford/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:medford/government
+  office_id: medford/mayor
+  party: Democratic
+  ballot_name: Richard Caraviello
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18170
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18170

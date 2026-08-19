@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-15th-middlesex/2018-11-06/general
+name: ma-house-15th-middlesex 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-15th-middlesex/2018-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-middlesex/legislature
+  office_id: ma-house-15th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/56632af4-8ac4-5b28-9914-1ecd10eb685c
+  - ocd-person/594e1f8b-d632-587d-a91d-90a6b2483712
+  - ocd-person/aa2f9c13-905c-5728-a177-d4f492c3dbb3
+  - ocd-person/ca7be230-1932-5c57-9149-c36747a55e34
+  - ocd-person/ea385faa-049c-4743-ad41-3bbe58ee40e2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ea385faa-049c-4743-ad41-3bbe58ee40e2
+    name: Michelle Ciccolo
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- House race, 15th Middlesex, 2018

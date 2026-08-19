@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c43180c6-5d8a-54b5-9215-b64d4601627a
+name: John A. Kelly
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15038'
+candidacies:
+- contest_id: ma-senate-second-essex-and-middlesex/2010-11-02/state-senator
+  election_id: ma-senate-second-essex-and-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: John A. Kelly
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15038
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15038

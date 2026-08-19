@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/90dcff4a-aa64-59a2-9782-57bc2be0ede1
+name: JeannaMarie A. Carvalho
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18895'
+candidacies:
+- contest_id: ma-senate-third-suffolk/2024-11-05/state-senator
+  election_id: ma-senate-third-suffolk/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:third-suffolk/legislature
+  office_id: ma-senate-third-suffolk/state-senator
+  party: Republican
+  ballot_name: JeannaMarie A. Carvalho
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18895
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18895

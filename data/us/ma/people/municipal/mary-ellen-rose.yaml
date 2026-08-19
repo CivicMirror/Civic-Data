@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f136bd0f-8dba-5e3d-b463-304ef38c11c9
+name: Mary Ellen Rose
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18356'
+candidacies:
+- contest_id: gloucester/2023-11-07/mayor
+  election_id: gloucester/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Unenrolled
+  ballot_name: Mary Ellen Rose
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18356
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18356

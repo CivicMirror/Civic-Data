@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-3rd-worcester/2006-11-07/general
+name: ma-house-3rd-worcester 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-house-3rd-worcester/2006-11-07/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-worcester/legislature
+  office_id: ma-house-3rd-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0790ada9-2fbc-57d8-aecd-7870b3889425
+  - ocd-person/76dd8164-1403-5f96-873d-fecea682daed
+  - ocd-person/9ca0b984-dda4-5be5-8ef5-fec0c3e8bc34
+  - ocd-person/b28f9252-78f0-53a8-9bdd-e7b309cf0176
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b28f9252-78f0-53a8-9bdd-e7b309cf0176
+    name: Stephen Louis DiNatale
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- House race, 3rd Worcester, 2006

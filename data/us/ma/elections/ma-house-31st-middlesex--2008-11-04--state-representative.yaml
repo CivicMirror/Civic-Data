@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-31st-middlesex/2008-11-04/general
+name: ma-house-31st-middlesex 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-31st-middlesex/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:31st-middlesex/legislature
+  office_id: ma-house-31st-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4d95389b-bcbd-537c-a5b8-d3c0979c0492
+  - ocd-person/57f653a6-881e-5d8d-b2a6-0d1ab65d4cc6
+  - ocd-person/92a770ae-a348-4f86-92ad-c4a8ebc568f6
+  - ocd-person/afe7cd10-1af9-57d1-9aca-12828955cab5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/92a770ae-a348-4f86-92ad-c4a8ebc568f6
+    name: Jason Lewis
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 31st Middlesex, 2008

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2abc03fe-2b23-5192-a6aa-7933cc33e018
+name: John F. Barros
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15609'
+candidacies:
+- contest_id: boston/2021-11-02/mayor
+  election_id: boston/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  party: Democratic
+  ballot_name: John F. Barros
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15609
+image: https://ocpf2.blob.core.windows.net/filers-photos/15609.jpeg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15609

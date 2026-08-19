@@ -1,0 +1,32 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-19th-middlesex/2018-11-06/general
+name: ma-house-19th-middlesex 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-19th-middlesex/2018-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:19th-middlesex/legislature
+  office_id: ma-house-19th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/72b86986-48d9-5ee0-8177-f9f49bcb947e
+  - ocd-person/93e89596-1d26-525d-a8dc-0e38eaf8a722
+  - ocd-person/a665571a-8536-5714-8414-0e111f85559e
+  - ocd-person/dba5e814-dfa9-50fc-91e0-e86fa6c34f54
+  - ocd-person/ddf281b3-2ebd-5bdd-a342-9b8f51626145
+  - ocd-person/e179cb16-7d63-5232-86c9-6544cc64730e
+  - ocd-person/f3dd7fd8-5d7f-4fa3-b2fe-910e375f2edd
+  - ocd-person/f7a097cf-c073-5b0c-ac30-57876ae90894
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f3dd7fd8-5d7f-4fa3-b2fe-910e375f2edd
+    name: Dave Robertson
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- House race, 19th Middlesex, 2018

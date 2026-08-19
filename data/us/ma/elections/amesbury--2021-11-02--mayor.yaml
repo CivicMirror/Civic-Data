@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: amesbury/2021-11-02/general
+name: amesbury 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: amesbury/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:amesbury/government
+  office_id: amesbury/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/aaabd018-0a3a-5582-87d9-daf95e8918d8
+  - ocd-person/da8ed046-1c4e-5fc7-bd16-c554e0d8b91a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/da8ed046-1c4e-5fc7-bd16-c554e0d8b91a
+    name: Kassandra M. Gove
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Amesbury, 2021

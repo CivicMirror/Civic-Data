@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/0982ce74-c658-5e84-89c5-bb400f8e53a3
+name: Richard W Ripley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18533'
+candidacies:
+- contest_id: brockton/2023-11-07/mayor
+  election_id: brockton/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: Richard W Ripley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18533
+- contest_id: brockton/2025-11-04/mayor
+  election_id: brockton/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: Richard W Ripley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18533
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18533

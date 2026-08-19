@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-third-middlesex/2006-11-07/general
+name: ma-senate-third-middlesex 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-third-middlesex/2006-11-07/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:third-middlesex/legislature
+  office_id: ma-senate-third-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2536910d-3ce8-5c14-b2f3-bd718ee321f3
+  - ocd-person/dc049106-dc02-55d2-b516-4f2a6e5dd894
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2536910d-3ce8-5c14-b2f3-bd718ee321f3
+    name: Susan C. Fargo
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- Senate race, 3rd Middlesex, 2006

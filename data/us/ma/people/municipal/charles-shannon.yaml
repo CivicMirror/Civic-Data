@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8c2c05c3-fb5c-558f-b93d-4e4c7022c8c2
+name: Charles Shannon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '11771'
+candidacies:
+- contest_id: ma-senate-second-middlesex/2002-11-05/state-senator
+  election_id: ma-senate-second-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-middlesex/legislature
+  office_id: ma-senate-second-middlesex/state-senator
+  party: Democratic
+  ballot_name: Charles Shannon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11771
+- contest_id: ma-senate-second-middlesex/2004-11-02/state-senator
+  election_id: ma-senate-second-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-middlesex/legislature
+  office_id: ma-senate-second-middlesex/state-senator
+  party: Democratic
+  ballot_name: Charles Shannon
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11771
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=11771

@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/573638c5-94d0-5182-bf8b-437aa20b913a
+name: Claire M. Freda
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14283'
+candidacies:
+- contest_id: ma-house-4th-worcester/2004-11-02/state-representative
+  election_id: ma-house-4th-worcester/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-worcester/legislature
+  office_id: ma-house-4th-worcester/state-representative
+  party: Democratic
+  ballot_name: Claire M. Freda
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14283
+- contest_id: ma-house-4th-worcester/2006-11-07/state-representative
+  election_id: ma-house-4th-worcester/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-worcester/legislature
+  office_id: ma-house-4th-worcester/state-representative
+  party: Democratic
+  ballot_name: Claire M. Freda
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14283
+- contest_id: ma-house-4th-worcester/2008-11-04/state-representative
+  election_id: ma-house-4th-worcester/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-worcester/legislature
+  office_id: ma-house-4th-worcester/state-representative
+  party: Democratic
+  ballot_name: Claire M. Freda
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14283
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14283

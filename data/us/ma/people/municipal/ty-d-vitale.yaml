@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a73a37d0-42c4-5673-ba52-f918cddeb9e8
+name: Ty D. Vitale
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18065'
+candidacies:
+- contest_id: ma-house-6th-essex/2024-11-05/state-representative
+  election_id: ma-house-6th-essex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-essex/legislature
+  office_id: ma-house-6th-essex/state-representative
+  party: Republican
+  ballot_name: Ty D. Vitale
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18065
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18065

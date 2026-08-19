@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7690e1cb-3e57-55a4-91cf-c935e9dc5078
+name: Peter J. Oleskiewicz
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16791'
+candidacies:
+- contest_id: north-adams/2017-11-07/mayor
+  election_id: north-adams/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:north-adams/government
+  office_id: north-adams/mayor
+  party: None
+  ballot_name: Peter J. Oleskiewicz
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16791
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16791

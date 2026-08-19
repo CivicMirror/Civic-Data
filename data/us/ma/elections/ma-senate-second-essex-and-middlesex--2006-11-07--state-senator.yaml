@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-second-essex-and-middlesex/2006-11-07/general
+name: ma-senate-second-essex-and-middlesex 2006-11-07 general election
+date: '2006-11-07'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-second-essex-and-middlesex/2006-11-07/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-essex-and-middlesex/legislature
+  office_id: ma-senate-second-essex-and-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/06a716bb-8e94-5936-9ebe-9bd2d7b1be90
+  result_status: certified
+  winners:
+  - person_id: ocd-person/06a716bb-8e94-5936-9ebe-9bd2d7b1be90
+    name: Susan C. Tucker
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2006
+  note: OCPF filer registry -- Senate race, 2nd Essex & Middlesex, 2006

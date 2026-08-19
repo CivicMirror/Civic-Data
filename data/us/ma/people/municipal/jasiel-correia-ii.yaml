@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/28ef2388-8fe6-5b20-8677-31261b7ad9b5
+name: Jasiel Correia II
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15964'
+candidacies:
+- contest_id: fall-river/2017-11-07/mayor
+  election_id: fall-river/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fall-river/government
+  office_id: fall-river/mayor
+  party: Unenrolled
+  ballot_name: Jasiel Correia II
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15964
+- contest_id: fall-river/2019-11-05/mayor
+  election_id: fall-river/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fall-river/government
+  office_id: fall-river/mayor
+  party: Unenrolled
+  ballot_name: Jasiel Correia II
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15964
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15964

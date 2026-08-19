@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-22nd-middlesex/2016-11-08/general
+name: ma-house-22nd-middlesex 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-22nd-middlesex/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:22nd-middlesex/legislature
+  office_id: ma-house-22nd-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/398f9a47-bc65-4c2a-b12e-347f375d8fac
+  - ocd-person/90a4061c-8033-5def-9077-a55923af799c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/398f9a47-bc65-4c2a-b12e-347f375d8fac
+    name: Marc Lombardo
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 22nd Middlesex, 2016

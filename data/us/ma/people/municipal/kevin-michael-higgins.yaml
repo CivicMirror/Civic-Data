@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/9fd51a9d-97df-50fe-9869-cb7c0bdc1e45
+name: Kevin Michael Higgins
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16805'
+candidacies:
+- contest_id: ma-house-7th-plymouth/2018-11-06/state-representative
+  election_id: ma-house-7th-plymouth/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-plymouth/legislature
+  office_id: ma-house-7th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Kevin Michael Higgins
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16805
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16805

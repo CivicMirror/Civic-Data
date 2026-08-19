@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-29th-middlesex/2008-11-04/general
+name: ma-house-29th-middlesex 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-29th-middlesex/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:29th-middlesex/legislature
+  office_id: ma-house-29th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/17f1bc2b-ced7-5d79-a547-263856d1f102
+  - ocd-person/1f7e4f90-fb8d-50cb-b7c0-09cf0d92f4e4
+  - ocd-person/bd517e89-7915-5375-bb46-a0aadef43789
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1f7e4f90-fb8d-50cb-b7c0-09cf0d92f4e4
+    name: Jonathan Hecht
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 29th Middlesex, 2008

@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: melrose/2023-11-07/general
+name: melrose 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: melrose/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:melrose/government
+  office_id: melrose/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/031da37c-e66b-52e2-bc83-55e8b0c41526
+  - ocd-person/9e2baf09-4269-552d-9e23-0b6c6acdf839
+  - ocd-person/dd40bd7e-281c-5001-9aea-fd16c7b1ca68
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dd40bd7e-281c-5001-9aea-fd16c7b1ca68
+    name: Jennifer Grigoraitis
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Melrose, 2023

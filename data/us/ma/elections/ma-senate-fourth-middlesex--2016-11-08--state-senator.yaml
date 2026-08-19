@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-fourth-middlesex/2016-11-08/general
+name: ma-senate-fourth-middlesex 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-fourth-middlesex/2016-11-08/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/47bc405c-9666-562d-9375-b757654855ab
+  result_status: certified
+  winners:
+  - person_id: ocd-person/47bc405c-9666-562d-9375-b757654855ab
+    name: Kenneth Donnelly
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- Senate race, 4th Middlesex, 2016

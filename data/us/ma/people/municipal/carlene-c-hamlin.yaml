@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/62331658-0a4f-5575-bcd2-caf56a52867f
+name: Carlene C. Hamlin
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13962'
+candidacies:
+- contest_id: ma-house-2nd-hampshire/2002-11-05/state-representative
+  election_id: ma-house-2nd-hampshire/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-hampshire/legislature
+  office_id: ma-house-2nd-hampshire/state-representative
+  party: Democratic
+  ballot_name: Carlene C. Hamlin
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13962
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13962

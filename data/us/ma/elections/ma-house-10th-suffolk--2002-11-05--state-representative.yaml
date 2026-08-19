@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-10th-suffolk/2002-11-05/general
+name: ma-house-10th-suffolk 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-10th-suffolk/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-suffolk/legislature
+  office_id: ma-house-10th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/041f0f94-e48c-5afc-bf76-842a147e43cb
+  - ocd-person/04c45e0f-eca4-5588-82bf-3f60bf21a50f
+  - ocd-person/35860d83-1e61-5bae-91ba-c550cf47ccce
+  - ocd-person/4e55686d-a582-513f-975c-07e04fca8e7c
+  - ocd-person/6a82d675-3496-48af-88cf-23c26355b01f
+  - ocd-person/bbdb66d7-5f62-5e95-9f43-7a3854af4bee
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6a82d675-3496-48af-88cf-23c26355b01f
+    name: Mike Rush
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 10th Suffolk, 2002

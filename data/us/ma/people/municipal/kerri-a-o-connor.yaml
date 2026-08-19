@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b35d55a7-42ef-5415-9443-6a1e9a82e067
+name: Kerri A. O'Connor
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16690'
+candidacies:
+- contest_id: ma-house-3rd-hampden/2020-11-03/state-representative
+  election_id: ma-house-3rd-hampden/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampden/legislature
+  office_id: ma-house-3rd-hampden/state-representative
+  party: Democratic
+  ballot_name: Kerri A. O'Connor
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16690
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16690

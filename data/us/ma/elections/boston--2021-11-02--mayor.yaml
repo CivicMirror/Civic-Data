@@ -1,0 +1,31 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: boston/2021-11-02/general
+name: boston 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: boston/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1164d83c-57a5-5278-bfdb-bdd9fd50a3ac
+  - ocd-person/119b4167-3ce5-5274-9595-fd3894b32ee2
+  - ocd-person/2abc03fe-2b23-5192-a6aa-7933cc33e018
+  - ocd-person/49afe727-a82b-57ed-bbbe-ccd4a6a0d8e2
+  - ocd-person/7c008494-8899-5c34-a29d-0bca65051821
+  - ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+  - ocd-person/96f838a0-f384-5cd4-b927-ceb4b122cb37
+  result_status: certified
+  winners:
+  - person_id: ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+    name: Michelle Wu
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Boston, 2021

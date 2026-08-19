@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/85b46f67-5321-5a09-9ee6-1e5b020a6c04
+name: Devin Romanul
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14805'
+candidacies:
+- contest_id: ma-house-1st-bristol/2008-11-04/state-representative
+  election_id: ma-house-1st-bristol/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-bristol/legislature
+  office_id: ma-house-1st-bristol/state-representative
+  party: Democratic
+  ballot_name: Devin Romanul
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14805
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14805

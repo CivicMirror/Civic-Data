@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b56a3d3d-5266-53b6-8c44-68218bf71dc5
+name: Vincent P. Ciampa
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10088'
+candidacies:
+- contest_id: ma-house-34th-middlesex/2002-11-05/state-representative
+  election_id: ma-house-34th-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:34th-middlesex/legislature
+  office_id: ma-house-34th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Vincent P. Ciampa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10088
+- contest_id: ma-house-34th-middlesex/2004-11-02/state-representative
+  election_id: ma-house-34th-middlesex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:34th-middlesex/legislature
+  office_id: ma-house-34th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Vincent P. Ciampa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10088
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10088

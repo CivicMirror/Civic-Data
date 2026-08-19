@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5b8a4845-6e3b-5590-a0cf-19037b8d9fcb
+name: Michael H. Ossing
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16470'
+candidacies:
+- contest_id: ma-house-4th-middlesex/2016-11-08/state-representative
+  election_id: ma-house-4th-middlesex/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-middlesex/legislature
+  office_id: ma-house-4th-middlesex/state-representative
+  party: Unenrolled
+  ballot_name: Michael H. Ossing
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16470
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16470

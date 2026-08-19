@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/d1606a56-7057-5896-8f1d-803bf32581c3
+name: Delmarina López
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18440'
+candidacies:
+- contest_id: chicopee/2023-11-07/mayor
+  election_id: chicopee/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:chicopee/government
+  office_id: chicopee/mayor
+  party: Democratic
+  ballot_name: Delmarina López
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18440
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18440

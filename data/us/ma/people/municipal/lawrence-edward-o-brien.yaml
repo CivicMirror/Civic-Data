@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c26d8a56-c435-5ad3-855b-e6a017754b2c
+name: Lawrence Edward O'Brien
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16356'
+candidacies:
+- contest_id: ma-house-3rd-hampshire/2016-11-08/state-representative
+  election_id: ma-house-3rd-hampshire/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-hampshire/legislature
+  office_id: ma-house-3rd-hampshire/state-representative
+  party: Democratic
+  ballot_name: Lawrence Edward O'Brien
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16356
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16356

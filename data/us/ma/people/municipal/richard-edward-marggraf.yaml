@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/300d9b8c-55a9-5538-b95e-b90804ba2f96
+name: Richard Edward Marggraf
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18546'
+candidacies:
+- contest_id: amesbury/2023-11-07/mayor
+  election_id: amesbury/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:amesbury/government
+  office_id: amesbury/mayor
+  party: Unenrolled
+  ballot_name: Richard Edward Marggraf
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18546
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18546

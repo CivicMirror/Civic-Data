@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7e277b22-3c43-5db0-b410-cf7b143c9a4f
+name: James N. Thivierge
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17304'
+candidacies:
+- contest_id: amesbury/2019-11-05/mayor
+  election_id: amesbury/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:amesbury/government
+  office_id: amesbury/mayor
+  party: Unenrolled
+  ballot_name: James N. Thivierge
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17304
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17304

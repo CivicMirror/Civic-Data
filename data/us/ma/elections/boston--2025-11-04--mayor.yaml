@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: boston/2025-11-04/general
+name: boston 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: boston/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/119b4167-3ce5-5274-9595-fd3894b32ee2
+  - ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+  - ocd-person/d3e08428-a245-53c9-b762-f32deab0e632
+  - ocd-person/dceb38e5-3f25-542a-bcbf-72293d8ee424
+  result_status: certified
+  winners:
+  - person_id: ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+    name: Michelle Wu
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Boston, 2025

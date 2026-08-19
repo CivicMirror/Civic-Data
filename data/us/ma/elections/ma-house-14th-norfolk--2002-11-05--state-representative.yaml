@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-14th-norfolk/2002-11-05/general
+name: ma-house-14th-norfolk 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-14th-norfolk/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-norfolk/legislature
+  office_id: ma-house-14th-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0c76a570-4979-56f1-9b70-0c88649b5947
+  - ocd-person/2a9569a0-feaf-431d-8a8d-012d8ebccbf8
+  - ocd-person/9afec64d-9fed-57f1-8384-83487e5766c0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2a9569a0-feaf-431d-8a8d-012d8ebccbf8
+    name: Alice Peisch
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 14th Norfolk, 2002

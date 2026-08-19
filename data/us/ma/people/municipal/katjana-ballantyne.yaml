@@ -1,0 +1,43 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2ba115cf-d475-5aaf-abe6-b6a085e96b46
+name: Katjana Ballantyne
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16002'
+candidacies:
+- contest_id: somerville/2021-11-02/mayor
+  election_id: somerville/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  party: Democratic
+  ballot_name: Katjana Ballantyne
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16002
+- contest_id: somerville/2023-11-07/mayor
+  election_id: somerville/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  party: Democratic
+  ballot_name: Katjana Ballantyne
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16002
+- contest_id: somerville/2025-11-04/mayor
+  election_id: somerville/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  party: Democratic
+  ballot_name: Katjana Ballantyne
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16002
+image: https://ocpf2.blob.core.windows.net/filers-photos/16002.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16002

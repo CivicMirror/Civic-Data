@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/63ccdb1c-9fc3-5fd6-9d8a-f18d9d1715ad
+name: Michael P. Zwirko
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16845'
+candidacies:
+- contest_id: melrose/2019-11-05/mayor
+  election_id: melrose/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:melrose/government
+  office_id: melrose/mayor
+  party: Democratic
+  ballot_name: Michael P. Zwirko
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16845
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16845

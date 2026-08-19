@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-18th-essex/2014-11-04/general
+name: ma-house-18th-essex 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-18th-essex/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:18th-essex/legislature
+  office_id: ma-house-18th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/aea555b3-6435-54f7-958f-e3b42b4dd03f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/aea555b3-6435-54f7-958f-e3b42b4dd03f
+    name: James J. Lyons Jr.
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 18th Essex, 2014

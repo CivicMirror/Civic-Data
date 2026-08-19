@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-15th-norfolk/2022-11-08/general
+name: ma-house-15th-norfolk 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-15th-norfolk/2022-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-norfolk/legislature
+  office_id: ma-house-15th-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5f841f35-dc8f-518a-aed4-0fefe4256f74
+  - ocd-person/7a234dbf-2f9f-466f-8db1-44ac0f3975a8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7a234dbf-2f9f-466f-8db1-44ac0f3975a8
+    name: Tommy Vitolo
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- House race, 15th Norfolk, 2022

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-5th-norfolk/2002-11-05/general
+name: ma-house-5th-norfolk 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-5th-norfolk/2002-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-norfolk/legislature
+  office_id: ma-house-5th-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ed40830a-5c06-5d90-9c0e-fd671b9410a5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ed40830a-5c06-5d90-9c0e-fd671b9410a5
+    name: Joseph C. Sullivan
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- House race, 5th Norfolk, 2002

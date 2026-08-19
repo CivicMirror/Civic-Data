@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/404d9756-e530-5bb2-9733-4f801e564a5a
+name: Hazem Mahmoud
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16787'
+candidacies:
+- contest_id: newburyport/2017-11-07/mayor
+  election_id: newburyport/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newburyport/government
+  office_id: newburyport/mayor
+  party: Unenrolled
+  ballot_name: Hazem Mahmoud
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16787
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16787

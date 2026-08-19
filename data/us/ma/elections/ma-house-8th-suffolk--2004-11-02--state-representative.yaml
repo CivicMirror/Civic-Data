@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-8th-suffolk/2004-11-02/general
+name: ma-house-8th-suffolk 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-8th-suffolk/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-suffolk/legislature
+  office_id: ma-house-8th-suffolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3c4d9120-3bb5-5cae-8fd7-9adf3489f9c2
+  - ocd-person/874445b0-5586-562e-bd6e-d7abb9e74ac3
+  - ocd-person/cc583779-4e28-52fc-a83d-991fe7b07213
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cc583779-4e28-52fc-a83d-991fe7b07213
+    name: Marty Walz
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 8th Suffolk, 2004

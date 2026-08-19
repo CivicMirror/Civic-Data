@@ -1,0 +1,43 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/e08e0670-d8e1-5ca5-9a5c-0f2e65561e7b
+name: Gregory Verga
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14665'
+candidacies:
+- contest_id: gloucester/2021-11-02/mayor
+  election_id: gloucester/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Democratic
+  ballot_name: Gregory Verga
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14665
+- contest_id: gloucester/2023-11-07/mayor
+  election_id: gloucester/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Democratic
+  ballot_name: Gregory Verga
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14665
+- contest_id: gloucester/2025-11-04/mayor
+  election_id: gloucester/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Democratic
+  ballot_name: Gregory Verga
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14665
+image: https://ocpf2.blob.core.windows.net/filers-photos/14665.png
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14665

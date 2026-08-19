@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7f1d5f24-7bea-5432-a677-fb7413dc5ccf
+name: Patricia A. Lawton
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '11593'
+candidacies:
+- contest_id: ma-house-8th-plymouth/2010-11-02/state-representative
+  election_id: ma-house-8th-plymouth/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-plymouth/legislature
+  office_id: ma-house-8th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Patricia A. Lawton
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=11593
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=11593

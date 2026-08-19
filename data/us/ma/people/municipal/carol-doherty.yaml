@@ -1,0 +1,43 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2af87a74-fc0a-5bce-9400-180e71ae0011
+name: Carol Doherty
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17413'
+candidacies:
+- contest_id: ma-house-3rd-bristol/2020-11-03/state-representative
+  election_id: ma-house-3rd-bristol/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-bristol/legislature
+  office_id: ma-house-3rd-bristol/state-representative
+  party: Democratic
+  ballot_name: Carol Doherty
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17413
+- contest_id: ma-house-3rd-bristol/2022-11-08/state-representative
+  election_id: ma-house-3rd-bristol/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-bristol/legislature
+  office_id: ma-house-3rd-bristol/state-representative
+  party: Democratic
+  ballot_name: Carol Doherty
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17413
+- contest_id: ma-house-3rd-bristol/2024-11-05/state-representative
+  election_id: ma-house-3rd-bristol/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-bristol/legislature
+  office_id: ma-house-3rd-bristol/state-representative
+  party: Democratic
+  ballot_name: Carol Doherty
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17413
+image: https://ocpf2.blob.core.windows.net/filers-photos/17413.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17413

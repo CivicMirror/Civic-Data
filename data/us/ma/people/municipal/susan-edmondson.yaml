@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3389fff9-2cb3-5547-a0f6-188711e53cbb
+name: Susan Edmondson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16477'
+candidacies:
+- contest_id: ma-house-10th-worcester/2016-11-08/state-representative
+  election_id: ma-house-10th-worcester/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:10th-worcester/legislature
+  office_id: ma-house-10th-worcester/state-representative
+  party: Unenrolled
+  ballot_name: Susan Edmondson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16477
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16477

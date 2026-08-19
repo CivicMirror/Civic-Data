@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a57b84b5-aec7-5326-9e8a-33cac4cea8ba
+name: David A. Rosa
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15700'
+candidacies:
+- contest_id: ma-senate-berkshire-hampden-franklin-and-hampshire/2024-11-05/state-senator
+  election_id: ma-senate-berkshire-hampden-franklin-and-hampshire/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:berkshire-hampden-franklin-and-hampshire/legislature
+  office_id: ma-senate-berkshire-hampden-franklin-and-hampshire/state-senator
+  party: Republican
+  ballot_name: David A. Rosa
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15700
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15700

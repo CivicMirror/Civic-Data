@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/05c3cadc-5390-573f-a73b-6118b3598785
+name: Gerry Dembrowski
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15471'
+candidacies:
+- contest_id: ma-senate-fourth-middlesex/2012-11-06/state-senator
+  election_id: ma-senate-fourth-middlesex/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:fourth-middlesex/legislature
+  office_id: ma-senate-fourth-middlesex/state-senator
+  party: Republican
+  ballot_name: Gerry Dembrowski
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15471
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15471

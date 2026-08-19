@@ -1,0 +1,43 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c7b4843e-8069-59a4-9198-f96b9041a825
+name: Michael J. Nicholson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17403'
+candidacies:
+- contest_id: gardner/2021-11-02/mayor
+  election_id: gardner/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gardner/government
+  office_id: gardner/mayor
+  party: Unenrolled
+  ballot_name: Michael J. Nicholson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17403
+- contest_id: gardner/2023-11-07/mayor
+  election_id: gardner/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gardner/government
+  office_id: gardner/mayor
+  party: Unenrolled
+  ballot_name: Michael J. Nicholson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17403
+- contest_id: gardner/2025-11-04/mayor
+  election_id: gardner/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gardner/government
+  office_id: gardner/mayor
+  party: Unenrolled
+  ballot_name: Michael J. Nicholson
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17403
+image: https://ocpf2.blob.core.windows.net/filers-photos/17403.png
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17403

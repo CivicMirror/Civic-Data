@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: weymouth/2025-11-04/general
+name: weymouth 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: weymouth/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:weymouth/government
+  office_id: weymouth/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/81fb87fe-ad4d-5e3b-8f3e-57f95b437eb3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/81fb87fe-ad4d-5e3b-8f3e-57f95b437eb3
+    name: Michael Molisse
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Weymouth, 2025

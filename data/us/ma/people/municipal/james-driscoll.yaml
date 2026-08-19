@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2c3cf0fb-bd80-5d38-9646-c3ce801431cf
+name: James Driscoll
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14513'
+candidacies:
+- contest_id: ma-house-12th-hampden/2006-11-07/state-representative
+  election_id: ma-house-12th-hampden/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-hampden/legislature
+  office_id: ma-house-12th-hampden/state-representative
+  party: Democratic
+  ballot_name: James Driscoll
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14513
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14513

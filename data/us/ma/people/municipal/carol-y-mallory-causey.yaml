@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/086e839a-d0c4-593f-adfe-cdc751bd1bbe
+name: Carol Y. Mallory-Causey
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14286'
+candidacies:
+- contest_id: ma-senate-first-suffolk/2002-11-05/state-senator
+  election_id: ma-senate-first-suffolk/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-suffolk/legislature
+  office_id: ma-senate-first-suffolk/state-senator
+  party: Democratic
+  ballot_name: Carol Y. Mallory-Causey
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14286
+- contest_id: ma-senate-first-suffolk/2004-11-02/state-senator
+  election_id: ma-senate-first-suffolk/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-suffolk/legislature
+  office_id: ma-senate-first-suffolk/state-senator
+  party: Democratic
+  ballot_name: Carol Y. Mallory-Causey
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14286
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14286

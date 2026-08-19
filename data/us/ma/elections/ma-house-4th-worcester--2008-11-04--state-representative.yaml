@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-worcester/2008-11-04/general
+name: ma-house-4th-worcester 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-worcester/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-worcester/legislature
+  office_id: ma-house-4th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2ee0e7c6-0990-5721-b5f1-0fd78add03f6
+  - ocd-person/573638c5-94d0-5182-bf8b-437aa20b913a
+  - ocd-person/7fb7b33d-4595-5263-b1e4-d715d7e53ca7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7fb7b33d-4595-5263-b1e4-d715d7e53ca7
+    name: Dennis Rosa
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 4th Worcester, 2008

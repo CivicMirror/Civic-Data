@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f54710bc-5a2e-595b-bcd0-4a43eac0f2db
+name: Andrea Merry Freeman
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17588'
+candidacies:
+- contest_id: leominster/2021-11-02/mayor
+  election_id: leominster/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:leominster/government
+  office_id: leominster/mayor
+  party: Democratic
+  ballot_name: Andrea Merry Freeman
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17588
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17588

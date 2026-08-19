@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c04a9db6-56e8-59ad-9c20-ef8f2cdb90f0
+name: James B. DuPont
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18815'
+candidacies:
+- contest_id: ma-senate-third-bristol-and-plymouth/2024-11-05/state-senator
+  election_id: ma-senate-third-bristol-and-plymouth/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:third-bristol-and-plymouth/legislature
+  office_id: ma-senate-third-bristol-and-plymouth/state-senator
+  party: Unenrolled
+  ballot_name: James B. DuPont
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18815
+image: https://ocpf2.blob.core.windows.net/filers-photos/18815.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18815

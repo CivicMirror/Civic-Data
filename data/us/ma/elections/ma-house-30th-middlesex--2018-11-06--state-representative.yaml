@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-30th-middlesex/2018-11-06/general
+name: ma-house-30th-middlesex 2018-11-06 general election
+date: '2018-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-30th-middlesex/2018-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:30th-middlesex/legislature
+  office_id: ma-house-30th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/01b3dad7-2339-5c98-9dcf-7e6074587af0
+  - ocd-person/05a11073-7250-5b87-abf5-7733c3a8df88
+  - ocd-person/521620ea-1e5b-4a0c-94f8-abe888370e05
+  - ocd-person/594a7066-c1d9-5964-ab51-14d856c1fd3c
+  - ocd-person/87148414-5f06-53cf-9fdd-1cfc93745f44
+  result_status: certified
+  winners:
+  - person_id: ocd-person/521620ea-1e5b-4a0c-94f8-abe888370e05
+    name: Rich Haggerty
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2018
+  note: OCPF filer registry -- House race, 30th Middlesex, 2018

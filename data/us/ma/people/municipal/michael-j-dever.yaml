@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6fe269cd-ff54-53dc-b47c-359ff92bcae4
+name: Michael J. Dever
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13994'
+candidacies:
+- contest_id: ma-house-15th-middlesex/2002-11-05/state-representative
+  election_id: ma-house-15th-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-middlesex/legislature
+  office_id: ma-house-15th-middlesex/state-representative
+  party: Unenrolled
+  ballot_name: Michael J. Dever
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13994
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13994

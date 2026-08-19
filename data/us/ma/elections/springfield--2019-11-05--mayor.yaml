@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: springfield/2019-11-05/general
+name: springfield 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: springfield/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:springfield/government
+  office_id: springfield/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/231d3beb-034c-5096-98de-e7ed0b5ee843
+  - ocd-person/5a47cafe-b6a4-5b0d-be50-29e0c6f2f284
+  - ocd-person/6464d081-5e51-527d-a733-c81b11ff4c87
+  - ocd-person/d5649298-2ab1-5cdc-9b0e-d6d022d57dfc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6464d081-5e51-527d-a733-c81b11ff4c87
+    name: Domenic J. Sarno
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Springfield, 2019

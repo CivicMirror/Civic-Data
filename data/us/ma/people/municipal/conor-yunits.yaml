@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/43574826-140b-57f1-ad58-78e6b9c3b5f9
+name: Conor Yunits
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14809'
+candidacies:
+- contest_id: ma-house-9th-plymouth/2008-11-04/state-representative
+  election_id: ma-house-9th-plymouth/2008-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-plymouth/legislature
+  office_id: ma-house-9th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Conor Yunits
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14809
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14809

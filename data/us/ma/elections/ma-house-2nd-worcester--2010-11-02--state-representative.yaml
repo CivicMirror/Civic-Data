@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-2nd-worcester/2010-11-02/general
+name: ma-house-2nd-worcester 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-2nd-worcester/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-worcester/legislature
+  office_id: ma-house-2nd-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/73dabbbf-1c6f-5d4e-8573-0f7653399a0c
+  - ocd-person/821cff75-d06e-51af-be87-d5af2891d54b
+  - ocd-person/9d7d689a-4d1a-56d6-b1bc-6590bbdd87e2
+  - ocd-person/a0021c0f-c608-5ec8-bd60-e70ceecf8254
+  - ocd-person/f4897fff-d081-54d4-b629-920717eaeee6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/821cff75-d06e-51af-be87-d5af2891d54b
+    name: Rich Bastien
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 2nd Worcester, 2010

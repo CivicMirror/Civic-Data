@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/24150f92-6526-5c6f-9053-2b092f6f4490
+name: John F. Bortone
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15205'
+candidacies:
+- contest_id: ma-house-12th-middlesex/2010-11-02/state-representative
+  election_id: ma-house-12th-middlesex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-middlesex/legislature
+  office_id: ma-house-12th-middlesex/state-representative
+  party: Democratic
+  ballot_name: John F. Bortone
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15205
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15205

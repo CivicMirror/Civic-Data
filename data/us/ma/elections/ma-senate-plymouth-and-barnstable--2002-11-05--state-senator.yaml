@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-senate-plymouth-and-barnstable/2002-11-05/general
+name: ma-senate-plymouth-and-barnstable 2002-11-05 general election
+date: '2002-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-senate-plymouth-and-barnstable/2002-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:plymouth-and-barnstable/legislature
+  office_id: ma-senate-plymouth-and-barnstable/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/28540233-6a87-5379-a17c-6ccff3bd2871
+  - ocd-person/e6374025-1fea-5365-a0ca-c2223979b2ae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e6374025-1fea-5365-a0ca-c2223979b2ae
+    name: Therese Murray
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2002
+  note: OCPF filer registry -- Senate race, Plymouth & Barnstable, 2002

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a7f12beb-bf26-570b-9ad0-62e36033e1ca
+name: Shanna T. Fishel
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17655'
+candidacies:
+- contest_id: northampton/2021-11-02/mayor
+  election_id: northampton/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:northampton/government
+  office_id: northampton/mayor
+  party: Democratic
+  ballot_name: Shanna T. Fishel
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17655
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17655

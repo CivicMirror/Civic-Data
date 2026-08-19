@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-1st-essex/2014-11-04/general
+name: ma-house-1st-essex 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-1st-essex/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-essex/legislature
+  office_id: ma-house-1st-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/57be99cb-da12-5245-89d2-2929397b015b
+  - ocd-person/68528001-1907-5b64-8643-f68cce3754b8
+  - ocd-person/a04eb3d4-1b65-5c27-9d3a-aa4996353625
+  - ocd-person/aaabd018-0a3a-5582-87d9-daf95e8918d8
+  - ocd-person/e2feb131-59e6-5aac-ad93-ee89650515a3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/aaabd018-0a3a-5582-87d9-daf95e8918d8
+    name: James M. Kelcourse
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 1st Essex, 2014

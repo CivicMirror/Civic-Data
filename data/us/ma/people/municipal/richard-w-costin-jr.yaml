@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/dcb87971-9a3a-53b8-9c72-a4aec24f9ade
+name: Richard W. Costin Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13978'
+candidacies:
+- contest_id: ma-house-11th-essex/2002-11-05/state-representative
+  election_id: ma-house-11th-essex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-essex/legislature
+  office_id: ma-house-11th-essex/state-representative
+  party: Democratic
+  ballot_name: Richard W. Costin Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13978
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13978

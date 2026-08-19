@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ad9051f9-a2ef-53ca-8349-6584bc645e98
+name: Luz Villar
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '19162'
+candidacies:
+- contest_id: brockton/2025-11-04/mayor
+  election_id: brockton/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:brockton/government
+  office_id: brockton/mayor
+  party: Unenrolled
+  ballot_name: Luz Villar
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=19162
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=19162

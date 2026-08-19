@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/b2366eaf-aaa7-5d5f-bf4f-fcf25dad78e3
+name: Rebecca Lisi
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16841'
+candidacies:
+- contest_id: holyoke/2021-11-02/mayor
+  election_id: holyoke/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:holyoke/government
+  office_id: holyoke/mayor
+  party: Unenrolled
+  ballot_name: Rebecca Lisi
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16841
+image: https://ocpf2.blob.core.windows.net/filers-photos/16841.png
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16841

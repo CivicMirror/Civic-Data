@@ -1,0 +1,43 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c4c15fd2-e9c7-5729-9f6c-2c0e5b2bcf33
+name: Nicole Marie LaChapelle
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16662'
+candidacies:
+- contest_id: easthampton/2017-11-07/mayor
+  election_id: easthampton/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  party: Democratic
+  ballot_name: Nicole Marie LaChapelle
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16662
+- contest_id: easthampton/2019-11-05/mayor
+  election_id: easthampton/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  party: Democratic
+  ballot_name: Nicole Marie LaChapelle
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16662
+- contest_id: easthampton/2021-11-02/mayor
+  election_id: easthampton/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:easthampton/government
+  office_id: easthampton/mayor
+  party: Democratic
+  ballot_name: Nicole Marie LaChapelle
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16662
+image: https://ocpf2.blob.core.windows.net/filers-photos/16662.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16662

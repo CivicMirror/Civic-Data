@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: pittsfield/2023-11-07/general
+name: pittsfield 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: pittsfield/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:pittsfield/government
+  office_id: pittsfield/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/11662823-744d-5be6-bcb6-b415b0497d11
+  - ocd-person/5d082bb2-40e4-562f-97e3-775292c26a9f
+  - ocd-person/dcf6f335-6260-5151-a1bf-af52734d7de2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/11662823-744d-5be6-bcb6-b415b0497d11
+    name: Peter M. Marchetti
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Pittsfield, 2023

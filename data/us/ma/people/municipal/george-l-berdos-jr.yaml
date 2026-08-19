@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/087f0b83-19ff-57cf-986a-51d52173f1d3
+name: George L. Berdos Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14006'
+candidacies:
+- contest_id: ma-house-8th-plymouth/2002-11-05/state-representative
+  election_id: ma-house-8th-plymouth/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-plymouth/legislature
+  office_id: ma-house-8th-plymouth/state-representative
+  party: Libertarian
+  ballot_name: George L. Berdos Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14006
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14006

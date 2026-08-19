@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/27c29f68-9cdb-5126-8a6a-1338ca629640
+name: Darrin D. Howell
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15067'
+candidacies:
+- contest_id: ma-house-5th-suffolk/2018-11-06/state-representative
+  election_id: ma-house-5th-suffolk/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-suffolk/legislature
+  office_id: ma-house-5th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Darrin D. Howell
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15067
+- contest_id: ma-house-6th-suffolk/2010-11-02/state-representative
+  election_id: ma-house-6th-suffolk/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-suffolk/legislature
+  office_id: ma-house-6th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Darrin D. Howell
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15067
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15067

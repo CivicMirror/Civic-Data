@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: gloucester/2023-11-07/general
+name: gloucester 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: gloucester/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0ddf3f1e-3b49-5976-8072-c42bd9e904e2
+  - ocd-person/d1b45ea6-93b9-53b5-881b-f049a989d0fb
+  - ocd-person/e08e0670-d8e1-5ca5-9a5c-0f2e65561e7b
+  - ocd-person/f136bd0f-8dba-5e3d-b463-304ef38c11c9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e08e0670-d8e1-5ca5-9a5c-0f2e65561e7b
+    name: Gregory Verga
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Gloucester, 2023

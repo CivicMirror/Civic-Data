@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/35e604b0-d686-5fab-9137-e4b32a7afeec
+name: Paul C. Demakis
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12530'
+candidacies:
+- contest_id: ma-house-8th-suffolk/2002-11-05/state-representative
+  election_id: ma-house-8th-suffolk/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-suffolk/legislature
+  office_id: ma-house-8th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Paul C. Demakis
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=12530
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12530

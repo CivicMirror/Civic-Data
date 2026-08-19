@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f624d86c-c34b-5b62-8a84-7be2b55ba14c
+name: Thomas P. Kennedy
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '10238'
+candidacies:
+- contest_id: ma-house-9th-plymouth/2002-11-05/state-representative
+  election_id: ma-house-9th-plymouth/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-plymouth/legislature
+  office_id: ma-house-9th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Thomas P. Kennedy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10238
+- contest_id: ma-house-9th-plymouth/2004-11-02/state-representative
+  election_id: ma-house-9th-plymouth/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-plymouth/legislature
+  office_id: ma-house-9th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Thomas P. Kennedy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10238
+- contest_id: ma-house-9th-plymouth/2006-11-07/state-representative
+  election_id: ma-house-9th-plymouth/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-plymouth/legislature
+  office_id: ma-house-9th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Thomas P. Kennedy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=10238
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=10238

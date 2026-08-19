@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: lynn/2025-11-04/general
+name: lynn 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: lynn/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:lynn/government
+  office_id: lynn/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5fb9038d-0b0b-5806-bdeb-211f6f335bfa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5fb9038d-0b0b-5806-bdeb-211f6f335bfa
+    name: Jared Nicholson
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Lynn, 2025

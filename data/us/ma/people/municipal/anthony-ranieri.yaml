@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/3288a74a-0e47-5826-8810-9ffbbed82420
+name: Anthony Ranieri
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13812'
+candidacies:
+- contest_id: ma-house-28th-middlesex/2002-11-05/state-representative
+  election_id: ma-house-28th-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:28th-middlesex/legislature
+  office_id: ma-house-28th-middlesex/state-representative
+  party: Republican
+  ballot_name: Anthony Ranieri
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13812
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13812

@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a6f108f4-137b-52c1-9d20-e307d305ee64
+name: John Patrick Devine
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16473'
+candidacies:
+- contest_id: ma-house-30th-middlesex/2016-11-08/state-representative
+  election_id: ma-house-30th-middlesex/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:30th-middlesex/legislature
+  office_id: ma-house-30th-middlesex/state-representative
+  party: Unenrolled
+  ballot_name: John Patrick Devine
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16473
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16473

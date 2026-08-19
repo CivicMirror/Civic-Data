@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: gardner/2025-11-04/general
+name: gardner 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: gardner/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gardner/government
+  office_id: gardner/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/375065b4-a50f-5f25-99ff-9bbd6e31e7cc
+  - ocd-person/45c649d9-c0c6-5c26-a737-7edf1e812d79
+  - ocd-person/c7b4843e-8069-59a4-9198-f96b9041a825
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c7b4843e-8069-59a4-9198-f96b9041a825
+    name: Michael J. Nicholson
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Gardner, 2025

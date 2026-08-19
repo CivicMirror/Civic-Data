@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/2a51c7f2-d4f5-5fc7-a996-0b3ea43ce62e
+name: Maureen M. Corbett
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14321'
+candidacies:
+- contest_id: ma-house-3rd-essex/2004-11-02/state-representative
+  election_id: ma-house-3rd-essex/2004-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-essex/legislature
+  office_id: ma-house-3rd-essex/state-representative
+  party: Republican
+  ballot_name: Maureen M. Corbett
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14321
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14321

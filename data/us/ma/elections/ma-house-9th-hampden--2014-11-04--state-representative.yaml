@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-9th-hampden/2014-11-04/general
+name: ma-house-9th-hampden 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-9th-hampden/2014-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-hampden/legislature
+  office_id: ma-house-9th-hampden/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0f5005c0-0db0-5dff-8709-a82c78477505
+  - ocd-person/26d83767-d074-57e6-967c-caf314763185
+  - ocd-person/7d5e8a56-d39f-558e-9e17-90f8ed64556f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0f5005c0-0db0-5dff-8709-a82c78477505
+    name: Jose F. Tosado
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2014
+  note: OCPF filer registry -- House race, 9th Hampden, 2014

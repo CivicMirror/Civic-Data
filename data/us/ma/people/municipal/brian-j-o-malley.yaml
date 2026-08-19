@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/f3159830-d396-544a-b4d1-91c1f25b4af2
+name: Brian J. O'Malley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15464'
+candidacies:
+- contest_id: ma-house-15th-worcester/2012-11-06/state-representative
+  election_id: ma-house-15th-worcester/2012-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-worcester/legislature
+  office_id: ma-house-15th-worcester/state-representative
+  party: Republican
+  ballot_name: Brian J. O'Malley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15464
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15464

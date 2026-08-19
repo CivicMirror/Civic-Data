@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6c29ccfb-75a5-5bfb-a591-c6a963306b4e
+name: Kara Nyman
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16384'
+candidacies:
+- contest_id: ma-house-5th-plymouth/2016-11-08/state-representative
+  election_id: ma-house-5th-plymouth/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-plymouth/legislature
+  office_id: ma-house-5th-plymouth/state-representative
+  party: Democratic
+  ballot_name: Kara Nyman
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16384
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16384

@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/51170ae5-935f-5668-bc10-6e2364d84cee
+name: Stephanie Muccini Burke
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16102'
+candidacies:
+- contest_id: medford/2017-11-07/mayor
+  election_id: medford/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:medford/government
+  office_id: medford/mayor
+  party: Unenrolled
+  ballot_name: Stephanie Muccini Burke
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16102
+- contest_id: medford/2019-11-05/mayor
+  election_id: medford/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:medford/government
+  office_id: medford/mayor
+  party: Unenrolled
+  ballot_name: Stephanie Muccini Burke
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16102
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16102

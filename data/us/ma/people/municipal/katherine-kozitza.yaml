@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6e61e21b-1173-50cc-95cf-aed4d41f9fff
+name: Katherine Kozitza
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15135'
+candidacies:
+- contest_id: ma-house-8th-essex/2010-11-02/state-representative
+  election_id: ma-house-8th-essex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-essex/legislature
+  office_id: ma-house-8th-essex/state-representative
+  party: Republican
+  ballot_name: Katherine Kozitza
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15135
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15135

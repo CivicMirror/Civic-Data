@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-4th-barnstable/2008-11-04/general
+name: ma-house-4th-barnstable 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-4th-barnstable/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:4th-barnstable/legislature
+  office_id: ma-house-4th-barnstable/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ce9d2599-4dc7-5f38-b4e1-57dcd188cec3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ce9d2599-4dc7-5f38-b4e1-57dcd188cec3
+    name: Sarah K. Peake
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, 4th Barnstable, 2008

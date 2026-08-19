@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/a88e4b02-140a-55b2-9f9a-37a673c95703
+name: Dennis G. Dallaire Jr.
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14516'
+candidacies:
+- contest_id: ma-house-11th-bristol/2006-11-07/state-representative
+  election_id: ma-house-11th-bristol/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-bristol/legislature
+  office_id: ma-house-11th-bristol/state-representative
+  party: Unenrolled
+  ballot_name: Dennis G. Dallaire Jr.
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14516
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14516

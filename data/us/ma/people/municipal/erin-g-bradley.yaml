@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/92b68fdc-a924-5388-b4b3-0794756e92af
+name: Erin G. Bradley
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18823'
+candidacies:
+- contest_id: ma-senate-norfolk-plymouth-and-bristol/2024-11-05/state-senator
+  election_id: ma-senate-norfolk-plymouth-and-bristol/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:norfolk-plymouth-and-bristol/legislature
+  office_id: ma-senate-norfolk-plymouth-and-bristol/state-senator
+  party: Democratic
+  ballot_name: Erin G. Bradley
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=18823
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18823

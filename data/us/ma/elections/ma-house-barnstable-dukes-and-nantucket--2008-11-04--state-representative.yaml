@@ -1,0 +1,32 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/general
+name: ma-house-barnstable-dukes-and-nantucket 2008-11-04 general election
+date: '2008-11-04'
+election_type: general
+status: certified
+contests:
+- id: ma-house-barnstable-dukes-and-nantucket/2008-11-04/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:barnstable-dukes-and-nantucket/legislature
+  office_id: ma-house-barnstable-dukes-and-nantucket/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1d85bb8f-dbe5-5783-92c7-6b77c3aa6ec7
+  - ocd-person/2d01157e-0ee2-5857-80b9-594aea232ee3
+  - ocd-person/30e6c494-9606-534a-8bc9-cba0dc1f95e8
+  - ocd-person/33bf9db1-487c-572f-8eaa-043fede96642
+  - ocd-person/447e730f-2b1b-57e9-93ec-9678f722be04
+  - ocd-person/69da327b-d611-5f02-9563-4a4a1a908005
+  - ocd-person/76676e91-c782-5a39-b738-3d9abd94e9b0
+  - ocd-person/cdd2ee90-3f48-5a05-a63d-d881b23e3f53
+  result_status: certified
+  winners:
+  - person_id: ocd-person/447e730f-2b1b-57e9-93ec-9678f722be04
+    name: Timothy R. Madden
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2008
+  note: OCPF filer registry -- House race, Barnstable, Dukes & Nantucket, 2008

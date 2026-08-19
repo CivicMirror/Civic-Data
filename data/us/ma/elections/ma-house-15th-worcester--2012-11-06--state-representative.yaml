@@ -1,0 +1,30 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-15th-worcester/2012-11-06/general
+name: ma-house-15th-worcester 2012-11-06 general election
+date: '2012-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-15th-worcester/2012-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:15th-worcester/legislature
+  office_id: ma-house-15th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/082eb96c-bdda-552c-af13-f82039c1714b
+  - ocd-person/13f67ee1-bb38-5c8f-9091-ba2ca44b6230
+  - ocd-person/4d0b5dda-d9d1-4c25-9c94-ce8fbd8ff398
+  - ocd-person/4d8a4739-2e28-530b-8a0d-f2a4198c044d
+  - ocd-person/8c2e89f2-c016-5ba9-9e07-5830819df7b3
+  - ocd-person/f3159830-d396-544a-b4d1-91c1f25b4af2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4d0b5dda-d9d1-4c25-9c94-ce8fbd8ff398
+    name: Mary Keefe
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2012
+  note: OCPF filer registry -- House race, 15th Worcester, 2012

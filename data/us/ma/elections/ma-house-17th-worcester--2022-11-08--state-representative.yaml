@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-17th-worcester/2022-11-08/general
+name: ma-house-17th-worcester 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-17th-worcester/2022-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:17th-worcester/legislature
+  office_id: ma-house-17th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ca659c30-e49e-420b-8213-797cfeb3c378
+  - ocd-person/fe28d16f-da74-5cf0-809d-bc160a2dd3ba
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ca659c30-e49e-420b-8213-797cfeb3c378
+    name: David LeBoeuf
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2022
+  note: OCPF filer registry -- House race, 17th Worcester, 2022

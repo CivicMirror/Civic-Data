@@ -1,0 +1,42 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/0ddf3f1e-3b49-5976-8072-c42bd9e904e2
+name: Francisco A. Sclafani
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16210'
+candidacies:
+- contest_id: gloucester/2017-11-07/mayor
+  election_id: gloucester/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Unenrolled
+  ballot_name: Francisco A. Sclafani
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16210
+- contest_id: gloucester/2021-11-02/mayor
+  election_id: gloucester/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Unenrolled
+  ballot_name: Francisco A. Sclafani
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16210
+- contest_id: gloucester/2023-11-07/mayor
+  election_id: gloucester/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gloucester/government
+  office_id: gloucester/mayor
+  party: Unenrolled
+  ballot_name: Francisco A. Sclafani
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16210
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16210

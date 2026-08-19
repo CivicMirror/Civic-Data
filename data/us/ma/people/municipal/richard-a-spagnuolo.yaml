@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/7c008494-8899-5c34-a29d-0bca65051821
+name: Richard A. Spagnuolo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17753'
+candidacies:
+- contest_id: boston/2021-11-02/mayor
+  election_id: boston/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/mayor
+  party: Unenrolled
+  ballot_name: Richard A. Spagnuolo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17753
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17753

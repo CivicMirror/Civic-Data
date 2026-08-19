@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-19th-middlesex/2010-11-02/general
+name: ma-house-19th-middlesex 2010-11-02 general election
+date: '2010-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-19th-middlesex/2010-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:19th-middlesex/legislature
+  office_id: ma-house-19th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1d799091-7e0b-5cda-8251-a0eca7d0f663
+  - ocd-person/ce2ce2fb-e8a5-5537-8fb6-f8c1231c0b3e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1d799091-7e0b-5cda-8251-a0eca7d0f663
+    name: James R. Miceli
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2010
+  note: OCPF filer registry -- House race, 19th Middlesex, 2010

@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-14th-worcester/2012-11-06/general
+name: ma-house-14th-worcester 2012-11-06 general election
+date: '2012-11-06'
+election_type: general
+status: certified
+contests:
+- id: ma-house-14th-worcester/2012-11-06/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:14th-worcester/legislature
+  office_id: ma-house-14th-worcester/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/25a2415a-dfc5-5c14-807d-85ce8e840615
+  - ocd-person/509da6c9-fb18-543f-9beb-a9f6bd3084e7
+  - ocd-person/67f64532-7f9a-4cd3-8c89-dc9b5df06517
+  result_status: certified
+  winners:
+  - person_id: ocd-person/67f64532-7f9a-4cd3-8c89-dc9b5df06517
+    name: Jim O'Day
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2012
+  note: OCPF filer registry -- House race, 14th Worcester, 2012

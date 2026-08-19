@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/8360c0e8-fa2f-52f0-96f7-a5d3007c622a
+name: Oscar Camargo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15762'
+candidacies:
+- contest_id: ma-house-18th-essex/2016-11-08/state-representative
+  election_id: ma-house-18th-essex/2016-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:18th-essex/legislature
+  office_id: ma-house-18th-essex/state-representative
+  party: Democratic
+  ballot_name: Oscar Camargo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15762
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15762

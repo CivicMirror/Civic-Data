@@ -1,0 +1,33 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/ee370259-df94-53d1-b055-3e835e227203
+name: Kenneth C. Van Buskirk III
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16710'
+candidacies:
+- contest_id: somerville/2017-11-07/mayor
+  election_id: somerville/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  party: Democratic
+  ballot_name: Kenneth C. Van Buskirk III
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16710
+- contest_id: somerville/2019-11-05/mayor
+  election_id: somerville/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:somerville/government
+  office_id: somerville/mayor
+  party: Democratic
+  ballot_name: Kenneth C. Van Buskirk III
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16710
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16710

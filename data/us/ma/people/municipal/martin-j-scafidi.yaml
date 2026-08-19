@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/eecfa73e-5b3d-5f7f-b09c-cb8ea84bc432
+name: Martin J. Scafidi
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15100'
+candidacies:
+- contest_id: ma-house-12th-essex/2010-11-02/state-representative
+  election_id: ma-house-12th-essex/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:12th-essex/legislature
+  office_id: ma-house-12th-essex/state-representative
+  party: Republican
+  ballot_name: Martin J. Scafidi
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15100
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15100

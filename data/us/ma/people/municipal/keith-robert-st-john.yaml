@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/14613d86-9958-5941-aa79-fdde1d33358f
+name: Keith Robert St. John
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17271'
+candidacies:
+- contest_id: marlborough/2019-11-05/mayor
+  election_id: marlborough/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:marlborough/government
+  office_id: marlborough/mayor
+  party: Democratic
+  ballot_name: Keith Robert St. John
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17271
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17271

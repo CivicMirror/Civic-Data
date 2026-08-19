@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-3rd-essex/2004-11-02/general
+name: ma-house-3rd-essex 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-3rd-essex/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-essex/legislature
+  office_id: ma-house-3rd-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2a51c7f2-d4f5-5fc7-a996-0b3ea43ce62e
+  - ocd-person/c6eddbaf-80c6-593b-8682-f7d3bcddbca7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c6eddbaf-80c6-593b-8682-f7d3bcddbca7
+    name: Brian S. Dempsey
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 3rd Essex, 2004

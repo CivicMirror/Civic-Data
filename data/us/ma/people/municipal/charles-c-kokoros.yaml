@@ -1,0 +1,34 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/5a053ae9-0775-51d2-a5d6-a28a9bb621c1
+name: Charles C. Kokoros
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14329'
+candidacies:
+- contest_id: braintree/2019-11-05/mayor
+  election_id: braintree/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+  office_id: braintree/mayor
+  party: Unenrolled
+  ballot_name: Charles C. Kokoros
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14329
+- contest_id: braintree/2023-11-07/mayor
+  election_id: braintree/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+  office_id: braintree/mayor
+  party: Unenrolled
+  ballot_name: Charles C. Kokoros
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14329
+image: https://ocpf2.blob.core.windows.net/filers-photos/14329.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14329

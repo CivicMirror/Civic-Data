@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/11e674d5-7510-5fd0-bda2-f7f23821254b
+name: James Michael Galvin
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14636'
+candidacies:
+- contest_id: ma-senate-second-suffolk/2006-11-07/state-senator
+  election_id: ma-senate-second-suffolk/2006-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:second-suffolk/legislature
+  office_id: ma-senate-second-suffolk/state-senator
+  party: Democratic
+  ballot_name: James Michael Galvin
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14636
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14636

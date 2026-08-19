@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/62f9ccfd-c0aa-514b-9ef4-e7eedc2f0236
+name: Alexander Vera
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16793'
+candidacies:
+- contest_id: fitchburg/2017-11-07/mayor
+  election_id: fitchburg/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:fitchburg/government
+  office_id: fitchburg/mayor
+  party: Unenrolled
+  ballot_name: Alexander Vera
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16793
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16793

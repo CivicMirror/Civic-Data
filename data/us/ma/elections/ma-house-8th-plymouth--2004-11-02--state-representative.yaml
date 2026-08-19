@@ -1,0 +1,26 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-8th-plymouth/2004-11-02/general
+name: ma-house-8th-plymouth 2004-11-02 general election
+date: '2004-11-02'
+election_type: general
+status: certified
+contests:
+- id: ma-house-8th-plymouth/2004-11-02/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:8th-plymouth/legislature
+  office_id: ma-house-8th-plymouth/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/228cf369-ff52-5f9d-a9f4-5d50977bb728
+  - ocd-person/66011938-79d0-5ab8-9c0b-9e3613df08b0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/228cf369-ff52-5f9d-a9f4-5d50977bb728
+    name: David L. Flynn
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2004
+  note: OCPF filer registry -- House race, 8th Plymouth, 2004

@@ -1,0 +1,25 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/4dafab05-c61e-552a-b3b2-11ca29c75f85
+name: Brandon Furey Burns
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '19308'
+candidacies:
+- contest_id: haverhill/2025-11-04/mayor
+  election_id: haverhill/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:haverhill/government
+  office_id: haverhill/mayor
+  party: Unenrolled
+  ballot_name: Brandon Furey Burns
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=19308
+image: https://ocpf2.blob.core.windows.net/filers-photos/19308.jpg
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=19308

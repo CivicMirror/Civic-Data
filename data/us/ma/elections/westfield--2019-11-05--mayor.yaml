@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: westfield/2019-11-05/general
+name: westfield 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: westfield/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:westfield/government
+  office_id: westfield/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/40e680da-1ad6-53ef-b487-8de7c1f3e64a
+  - ocd-person/6e0dcced-0e72-5e7a-918e-74a716ae8f06
+  - ocd-person/91503c40-1a3c-5766-8daa-f0a464605872
+  - ocd-person/c470db9c-354c-5808-a1f8-f3964dbba0ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c470db9c-354c-5808-a1f8-f3964dbba0ed
+    name: Donald F. Humason Jr.
+    party: Republican
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Westfield, 2019

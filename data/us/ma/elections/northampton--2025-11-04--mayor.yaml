@@ -1,0 +1,28 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: northampton/2025-11-04/general
+name: northampton 2025-11-04 general election
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: northampton/2025-11-04/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:northampton/government
+  office_id: northampton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b0638137-b59a-5e9f-8b54-528e9199d79f
+  - ocd-person/b6ee70ef-07e5-5ccb-a5ea-fdfe07ad63b6
+  - ocd-person/c7c4c2ff-476f-53d6-8935-224a344a4549
+  - ocd-person/cf803923-9e0b-59a3-b356-fca8150b08fe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b0638137-b59a-5e9f-8b54-528e9199d79f
+    name: Gina-Louise Sciarra
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Northampton, 2025

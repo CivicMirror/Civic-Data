@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/c7342bcc-eb38-5552-bcdf-d802b95c37e2
+name: Melissa Mazzeo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16246'
+candidacies:
+- contest_id: pittsfield/2019-11-05/mayor
+  election_id: pittsfield/2019-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:pittsfield/government
+  office_id: pittsfield/mayor
+  party: Unenrolled
+  ballot_name: Melissa Mazzeo
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=16246
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16246

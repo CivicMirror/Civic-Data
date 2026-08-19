@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/beb2bae0-9c25-504d-833e-ad45ef47d579
+name: Vladislav S. Yanovsky
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17988'
+candidacies:
+- contest_id: ma-house-11th-middlesex/2024-11-05/state-representative
+  election_id: ma-house-11th-middlesex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:11th-middlesex/legislature
+  office_id: ma-house-11th-middlesex/state-representative
+  party: Republican
+  ballot_name: Vladislav S. Yanovsky
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=17988
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17988

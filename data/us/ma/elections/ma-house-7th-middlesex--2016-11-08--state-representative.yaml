@@ -1,0 +1,29 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ma-house-7th-middlesex/2016-11-08/general
+name: ma-house-7th-middlesex 2016-11-08 general election
+date: '2016-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-house-7th-middlesex/2016-11-08/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:7th-middlesex/legislature
+  office_id: ma-house-7th-middlesex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/583ca24d-5b80-5f48-bbce-bca7d869d139
+  - ocd-person/9bb24daa-71ba-5f23-8f03-44a8e31640a7
+  - ocd-person/a68fb6a1-5e42-51e8-ab66-5e2a4f62ae1b
+  - ocd-person/e3dc06b1-8523-4a33-959f-21ed0d5da851
+  - ocd-person/ef21c71d-90bd-5fae-b507-87244030c248
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e3dc06b1-8523-4a33-959f-21ed0d5da851
+    name: Jack Lewis
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/reports/legislative/race/depository/2016
+  note: OCPF filer registry -- House race, 7th Middlesex, 2016

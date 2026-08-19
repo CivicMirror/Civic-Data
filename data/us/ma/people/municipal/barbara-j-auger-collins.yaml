@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/08335a2f-719c-5745-9052-5864a6ae46e6
+name: Barbara J. Auger Collins
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14000'
+candidacies:
+- contest_id: ma-house-28th-middlesex/2002-11-05/state-representative
+  election_id: ma-house-28th-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:28th-middlesex/legislature
+  office_id: ma-house-28th-middlesex/state-representative
+  party: Democratic
+  ballot_name: Barbara J. Auger Collins
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14000
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14000

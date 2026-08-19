@@ -1,0 +1,27 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: waltham/2019-11-05/general
+name: waltham 2019-11-05 general election
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: waltham/2019-11-05/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:waltham/government
+  office_id: waltham/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3ccad0a8-a59f-51d5-a175-cf13510f22d4
+  - ocd-person/3e5a6c27-d4e0-5764-b6b4-c8dc3f1dff7f
+  - ocd-person/4ebe175d-057b-5e74-9d41-2499853e89fc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4ebe175d-057b-5e74-9d41-2499853e89fc
+    name: Jeannette A. McCarthy
+    party: Unenrolled
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Waltham, 2019

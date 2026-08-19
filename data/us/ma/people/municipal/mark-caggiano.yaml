@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/63ec52db-3ac0-567d-9a99-f44c15479424
+name: Mark Caggiano
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13760'
+candidacies:
+- contest_id: ma-senate-first-essex-and-middlesex/2002-11-05/state-senator
+  election_id: ma-senate-first-essex-and-middlesex/2002-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-essex-and-middlesex/legislature
+  office_id: ma-senate-first-essex-and-middlesex/state-senator
+  party: Democratic
+  ballot_name: Mark Caggiano
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13760
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13760

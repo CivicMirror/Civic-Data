@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/87824393-f1a3-50e7-8985-97b5590c77e3
+name: Adam G. Chaprales
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15704'
+candidacies:
+- contest_id: ma-house-2nd-barnstable/2014-11-04/state-representative
+  election_id: ma-house-2nd-barnstable/2014-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:2nd-barnstable/legislature
+  office_id: ma-house-2nd-barnstable/state-representative
+  party: Republican
+  ballot_name: Adam G. Chaprales
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15704
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15704

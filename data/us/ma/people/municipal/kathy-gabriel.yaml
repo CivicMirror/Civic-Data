@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/6d765ecc-1c4d-533f-b91d-27edb7b3dc69
+name: Kathy Gabriel
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '14861'
+candidacies:
+- contest_id: ma-house-6th-suffolk/2010-11-02/state-representative
+  election_id: ma-house-6th-suffolk/2010-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-suffolk/legislature
+  office_id: ma-house-6th-suffolk/state-representative
+  party: Democratic
+  ballot_name: Kathy Gabriel
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=14861
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=14861

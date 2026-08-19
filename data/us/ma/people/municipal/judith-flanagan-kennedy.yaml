@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
+# elections are modeled; see the script's module docstring for the full set of
+# judgment calls.
+id: ocd-person/1e3bbf6e-9c44-51ef-894c-2076b47f3fc4
+name: Judith Flanagan Kennedy
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13680'
+candidacies:
+- contest_id: lynn/2017-11-07/mayor
+  election_id: lynn/2017-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:lynn/government
+  office_id: lynn/mayor
+  party: Republican
+  ballot_name: Judith Flanagan Kennedy
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=13680
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13680
