@@ -1,0 +1,18 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: chowan-commissioner-district-01-seat-02-kirby
+person_id: ocd-person/d0baf2d8-037e-552f-8100-dbc55dd25bd3
+organization_id: ocd-organization/8ae9338a-3479-5a3b-83ec-432c1019b6f1
+post_id: chowan/commissioner-district-01-seat-02
+role: County Commissioner (District 01 Seat 02)
+seat: District 01 Seat 02
+start: '2022-12-05'
+how_seated: elected
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
+  note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'

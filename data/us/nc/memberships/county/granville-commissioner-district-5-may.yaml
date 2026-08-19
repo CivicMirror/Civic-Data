@@ -1,0 +1,18 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: granville-commissioner-district-5-may
+person_id: ocd-person/61041d1b-1278-5a96-bb57-8edcd7ae9698
+organization_id: ocd-organization/f6f8a476-4f06-5cd4-b352-564de339fb30
+post_id: granville/commissioner-district-5
+role: County Commissioner (District 5)
+seat: District 5
+start: '2024-12-02'
+how_seated: elected
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'

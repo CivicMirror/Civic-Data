@@ -1,0 +1,17 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: ocd-person/28ac4dc9-0560-5c9a-98d5-36a3e5aa49cd
+name: Barbara Gale Beatty
+identifiers: []
+candidacies: []
+verification:
+  status: unverified
+  pipeline: ncsbe-precinct-results
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'

@@ -1,0 +1,18 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: guilford-commissioner-district-4-murphy
+person_id: ocd-person/28c45cf5-1e6b-56f6-a78a-bed83628a92a
+organization_id: ocd-organization/047e6fbe-5c47-5366-bdd5-30027cbfe3ae
+post_id: guilford/commissioner-district-4
+role: County Commissioner (District 4)
+seat: District 4
+start: '2024-12-02'
+how_seated: elected
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'

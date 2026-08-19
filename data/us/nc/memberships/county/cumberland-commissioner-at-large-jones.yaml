@@ -1,0 +1,18 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: cumberland-commissioner-at-large-jones
+person_id: ocd-person/73819be3-0c0a-5e0c-8add-c42496930b3a
+organization_id: ocd-organization/8d511e3a-c06f-5296-8aca-bfd5f862ccc5
+post_id: cumberland/commissioner-at-large
+role: County Commissioner (At-Large)
+seat: At-Large
+start: '2022-12-05'
+how_seated: elected
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
+  note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'

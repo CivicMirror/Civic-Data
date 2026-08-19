@@ -1,0 +1,18 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: bladen-commissioner-district-2-hester
+person_id: ocd-person/8a77b2c3-a2f9-55a6-a567-c9e0cd8ac055
+organization_id: ocd-organization/880ccd6d-517d-5c9d-9afd-7548792dfb9a
+post_id: bladen/commissioner-district-2
+role: County Commissioner (District 2)
+seat: District 2
+start: '2024-12-02'
+how_seated: elected
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'

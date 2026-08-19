@@ -1,0 +1,18 @@
+# Machine-generated from NCSBE precinct-level election results
+# (2022 + 2024 general elections, merged for staggered boards) by
+# scripts/build_nc_counties.py, cross-checked against the NCACC's
+# official board-size table. verification.status is 'unverified':
+# this is real election data, but a mid-term resignation/appointment
+# since the election wouldn't be visible to this pipeline.
+id: rowan-commissioner-at-large-caskey
+person_id: ocd-person/97d7d2a9-3bb5-5f8c-a42f-3af476b7bf97
+organization_id: ocd-organization/035a2cf7-6b68-5b1f-99ca-b67a1590b4aa
+post_id: rowan/commissioner-at-large
+role: County Commissioner (At-Large)
+seat: At-Large
+start: '2024-12-02'
+how_seated: elected
+sources:
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
+  retrieved: '2026-08-19'
