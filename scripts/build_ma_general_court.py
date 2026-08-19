@@ -32,6 +32,7 @@ Without --write, prints a dry-run summary only.
 import json
 import re
 import sys
+import unicodedata
 import urllib.request
 import uuid
 from datetime import UTC, datetime
@@ -89,7 +90,8 @@ def uid(seed):
 
 
 def slugify(name):
-    s = name.lower()
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
+    s = s.lower()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     return s.strip("-")
 
