@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/a85451ed-e913-5756-bcf2-3dcae224910c
+name: Paul Lundberg
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16243'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/16243.png
+contact:
+  profile_url: https://ocpf.us/filers?q=16243
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 5 Bridgewater Street Gloucester, MA  01930
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16243
+  note: OCPF filer profile for Paul Lundberg (cpfId 16243)
+  retrieved: '2026-08-19'

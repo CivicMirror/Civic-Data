@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/b4d29bbb-7b75-5ce7-b997-f417d1dee4a8
+name: J. Christian Dumais
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18147'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/18147.png
+contact:
+  profile_url: https://ocpf.us/filers?q=18147
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 134R South Street Marlborough, MA  01752
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18147
+  note: OCPF filer profile for J. Christian Dumais (cpfId 18147)
+  retrieved: '2026-08-19'

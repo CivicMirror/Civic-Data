@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/da8ed046-1c4e-5fc7-bd16-c554e0d8b91a
+name: Kassandra M. Gove
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17276'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17276.jpeg
+contact:
+  profile_url: https://ocpf.us/filers?q=17276
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 9 Gardner Street Amesbury, MA  01913
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17276
+  note: OCPF filer profile for Kassandra M. Gove (cpfId 17276)
+  retrieved: '2026-08-19'

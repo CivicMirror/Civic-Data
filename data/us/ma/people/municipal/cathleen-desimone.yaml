@@ -1,0 +1,23 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/0bef56fa-d728-5a1c-b7b6-f5794b7537ca
+name: Cathleen DeSimone
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18166'
+candidacies: []
+contact:
+  profile_url: https://ocpf.us/filers?q=18166
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 8 Northfield Road Attleboro, MA  02703
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18166
+  note: OCPF filer profile for Cathleen DeSimone (cpfId 18166)
+  retrieved: '2026-08-19'

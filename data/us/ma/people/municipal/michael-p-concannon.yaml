@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/099107a0-914f-5b6e-842d-aa20118a7964
+name: Michael P. Concannon
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '16266'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/16266.png
+contact:
+  profile_url: https://ocpf.us/filers?q=16266
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 1 Rose Farm Lane Woburn, MA  01801
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=16266
+  note: OCPF filer profile for Michael P. Concannon (cpfId 16266)
+  retrieved: '2026-08-19'

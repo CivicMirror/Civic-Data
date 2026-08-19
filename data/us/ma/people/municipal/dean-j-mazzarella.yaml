@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/fd3a753a-feab-504d-8e3e-38a8c526320d
+name: Dean J. Mazzarella
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15277'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/15277.jpg
+contact:
+  profile_url: https://ocpf.us/filers?q=15277
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 55 Day Street Leominster, MA  01453
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15277
+  note: OCPF filer profile for Dean J. Mazzarella (cpfId 15277)
+  retrieved: '2026-08-19'

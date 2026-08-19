@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/8aed22fa-bf10-53e6-a1c9-e5a408c00560
+name: Charlie J. Sisitsky
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17001'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17001.jpg
+contact:
+  profile_url: https://ocpf.us/filers?q=17001
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 7 Mohawk Drive Framingham, MA  01701
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17001
+  note: OCPF filer profile for Charlie J. Sisitsky (cpfId 17001)
+  retrieved: '2026-08-19'

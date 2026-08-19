@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/b757cf51-cd73-5a48-b542-6b8a1b0133c0
+name: Paul E. Coogan
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17119'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17119.jpg
+contact:
+  profile_url: https://ocpf.us/filers?q=17119
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 90 Williamson Street Fall River, MA  02720
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17119
+  note: OCPF filer profile for Paul E. Coogan (cpfId 17119)
+  retrieved: '2026-08-19'

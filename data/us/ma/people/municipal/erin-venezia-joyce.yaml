@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/710f4b87-2760-5b35-aa3e-a379ad1dfd65
+name: Erin Venezia Joyce
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18370'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/18370.png
+contact:
+  profile_url: https://ocpf.us/filers?q=18370
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 100 Wyman Road Braintree, MA  02184
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18370
+  note: OCPF filer profile for Erin Venezia Joyce (cpfId 18370)
+  retrieved: '2026-08-19'

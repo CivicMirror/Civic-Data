@@ -1,0 +1,16 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: easthampton-mayor-derby
+person_id: ocd-person/5c936dd0-31ee-565c-a6ee-05053bcd93b1
+organization_id: ocd-organization/bfdb3e59-adc5-581f-9004-9171b793b9c7
+post_id: easthampton/mayor
+role: Mayor
+seat: At-Large
+start: '2026-01-01'
+how_seated: elected
+sources:
+- url: https://ocpf.us/filers?q=19381
+  note: OCPF filer profile for Salem Derby (cpfId 19381)
+  retrieved: '2026-08-19'

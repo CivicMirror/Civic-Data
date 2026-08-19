@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/402c2b6b-3514-5b75-b437-404a104d0197
+name: Breanna Lungo-Koehn
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17173'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17173.png
+contact:
+  profile_url: https://ocpf.us/filers?q=17173
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 19 Richard Street Medford, MA  02155
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17173
+  note: OCPF filer profile for Breanna Lungo-Koehn (cpfId 17173)
+  retrieved: '2026-08-19'

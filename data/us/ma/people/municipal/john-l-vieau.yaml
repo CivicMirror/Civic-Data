@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/41f84721-22cc-55ae-8466-e8a19bf9b37e
+name: John L. Vieau
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17192'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17192.jpg
+contact:
+  profile_url: https://ocpf.us/filers?q=17192
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 287 Chicopee Street Chicopee, MA  01013
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17192
+  note: OCPF filer profile for John L. Vieau (cpfId 17192)
+  retrieved: '2026-08-19'

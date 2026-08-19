@@ -1,0 +1,23 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/e10143d5-f5cc-5cf5-a7de-4523d440fe68
+name: Dominick Pangallo
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18152'
+candidacies: []
+contact:
+  profile_url: https://ocpf.us/filers?q=18152
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 25 Buffum Street Salem, MA  01970
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18152
+  note: OCPF filer profile for Dominick Pangallo (cpfId 18152)
+  retrieved: '2026-08-19'

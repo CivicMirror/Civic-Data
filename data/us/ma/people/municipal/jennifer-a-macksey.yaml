@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/4cee8acb-4a8e-5a8f-b19d-6814fe7a3d63
+name: Jennifer A. Macksey
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17787'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17787.png
+contact:
+  profile_url: https://ocpf.us/filers?q=17787
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 111 Hospital Avenue North Adams, MA  01247
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17787
+  note: OCPF filer profile for Jennifer A. Macksey (cpfId 17787)
+  retrieved: '2026-08-19'

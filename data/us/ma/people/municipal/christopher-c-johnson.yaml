@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/1b6da875-da7b-5f3d-bb25-102ec1e1311b
+name: Christopher C. Johnson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18482'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/18482.png
+contact:
+  profile_url: https://ocpf.us/filers?q=18482
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 88 Morningside Circle Feeding Hills, MA  01030
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18482
+  note: OCPF filer profile for Christopher C. Johnson (cpfId 18482)
+  retrieved: '2026-08-19'

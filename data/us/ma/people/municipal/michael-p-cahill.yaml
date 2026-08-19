@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/df1cd284-41d7-55df-9bb6-fffbe41757da
+name: Michael P. Cahill
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '12171'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/12171.png
+contact:
+  profile_url: https://ocpf.us/filers?q=12171
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 28 Foster Drive Beverly, MA  01915
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=12171
+  note: OCPF filer profile for Michael P. Cahill (cpfId 12171)
+  retrieved: '2026-08-19'

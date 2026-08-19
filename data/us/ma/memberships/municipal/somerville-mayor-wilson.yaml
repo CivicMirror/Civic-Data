@@ -1,0 +1,16 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: somerville-mayor-wilson
+person_id: ocd-person/5ba9bc2d-ce6d-5443-ab6a-4190ba2949a3
+organization_id: ocd-organization/baa39ff5-d551-5c3c-8dc2-670e35fa034b
+post_id: somerville/mayor
+role: Mayor
+seat: At-Large
+start: '2026-01-01'
+how_seated: elected
+sources:
+- url: https://ocpf.us/filers?q=17673
+  note: OCPF filer profile for Jacob D. Wilson (cpfId 17673)
+  retrieved: '2026-08-19'

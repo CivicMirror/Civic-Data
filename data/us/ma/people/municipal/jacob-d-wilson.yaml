@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/5ba9bc2d-ce6d-5443-ab6a-4190ba2949a3
+name: Jacob D. Wilson
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '17673'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/17673.jpg
+contact:
+  profile_url: https://ocpf.us/filers?q=17673
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 83 Jaques Street Somerville, MA  02145
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=17673
+  note: OCPF filer profile for Jacob D. Wilson (cpfId 17673)
+  retrieved: '2026-08-19'

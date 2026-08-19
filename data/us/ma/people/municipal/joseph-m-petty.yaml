@@ -1,0 +1,24 @@
+# Machine-generated from OCPF's filer registry (api.ocpf.us/filer/payload/{cpfId})
+# by scripts/build_ma_mayors_people.py. Term start is approximated as Jan 1 of the
+# year after the OCPF 'Winner' tag's year -- the exact charter-specified inauguration
+# date is not in OCPF's data and should be verified/corrected by hand.
+id: ocd-person/fce6ea19-b6ca-526d-823e-339585275e4e
+name: Joseph M. Petty
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '13194'
+candidacies: []
+image: https://ocpf2.blob.core.windows.net/filers-photos/13194.png
+contact:
+  profile_url: https://ocpf.us/filers?q=13194
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 2 Grove Heights Drive Worcester, MA  01605
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=13194
+  note: OCPF filer profile for Joseph M. Petty (cpfId 13194)
+  retrieved: '2026-08-19'
