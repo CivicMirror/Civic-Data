@@ -1,0 +1,36 @@
+id: ocd-person/beee8644-815d-5808-9762-1fa5c488cce6
+name: Craig A. Goldman
+identifiers:
+- scheme: bioguide
+  identifier: G000601
+- scheme: govtrack
+  identifier: '457021'
+- scheme: wikidata
+  identifier: Q16199453
+- scheme: wikipedia
+  identifier: Craig Goldman
+- scheme: opensecrets
+  identifier: N00053861
+- scheme: fec-candidate-id
+  identifier: H4TX12065
+candidacies: []
+contact:
+  phone: 202-225-5071
+  profile_url: https://craiggoldman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1716 Longworth House Office Building Washington DC 20515-4312
+  phone: 202-225-5071
+- classification: district
+  name: Fort Worth Office
+  address: 306 West Seventh St, Suite 1145;Fort Worth, TX 76102
+  phone: 817-806-9474
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000601 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

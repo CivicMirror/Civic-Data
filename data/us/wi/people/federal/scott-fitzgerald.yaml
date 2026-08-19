@@ -1,0 +1,38 @@
+id: ocd-person/51b19afa-78b5-5e1c-a7e3-b0b86d8b6881
+name: Scott Fitzgerald
+identifiers:
+- scheme: bioguide
+  identifier: F000471
+- scheme: govtrack
+  identifier: '456855'
+- scheme: wikidata
+  identifier: Q7436650
+- scheme: wikipedia
+  identifier: Scott Fitzgerald (politician)
+- scheme: opensecrets
+  identifier: N00045434
+- scheme: votesmart
+  identifier: '3446'
+- scheme: fec-candidate-id
+  identifier: H0WI05113
+candidacies: []
+contact:
+  phone: 202-225-5101
+  profile_url: https://fitzgerald.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2444 Rayburn House Office Building Washington DC 20515-4905
+  phone: 202-225-5101
+- classification: district
+  name: Oconomowoc Office
+  address: 175 E Wisconsin Ave, H (2nd Floor);Oconomowoc, WI 53066
+  phone: 262-784-1111
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000471 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,49 @@
+id: ocd-person/02e854fd-c9da-5b30-a8c6-86452317e61c
+name: Maxine Waters
+identifiers:
+- scheme: bioguide
+  identifier: W000187
+- scheme: govtrack
+  identifier: '400422'
+- scheme: wikidata
+  identifier: Q461727
+- scheme: wikipedia
+  identifier: Maxine Waters
+- scheme: ballotpedia
+  identifier: Maxine Waters
+- scheme: opensecrets
+  identifier: N00006690
+- scheme: votesmart
+  identifier: '26759'
+- scheme: icpsr
+  identifier: '29106'
+- scheme: thomas
+  identifier: '01205'
+- scheme: cspan
+  identifier: '1953'
+- scheme: maplight
+  identifier: '507'
+- scheme: fec-candidate-id
+  identifier: H4CA23011
+candidacies: []
+contact:
+  phone: 202-225-2201
+  profile_url: https://waters.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2221 Rayburn House Office Building Washington DC 20515-0543
+  phone: 202-225-2201
+- classification: district
+  name: Hawthorne Office
+  address: 13605 Hawthorne Blvd.;Hawthorne, CA 90250
+  phone: 323-757-8900
+  fax: 771-200-5716
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000187 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

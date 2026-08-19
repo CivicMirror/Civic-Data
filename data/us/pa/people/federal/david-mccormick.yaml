@@ -1,0 +1,64 @@
+id: ocd-person/a4ebbe17-8c37-5439-8194-9ea570a46469
+name: David McCormick
+identifiers:
+- scheme: bioguide
+  identifier: M001243
+- scheme: govtrack
+  identifier: '456968'
+- scheme: wikidata
+  identifier: Q5234544
+- scheme: wikipedia
+  identifier: Dave McCormick
+- scheme: ballotpedia
+  identifier: David McCormick (Pennsylvania)
+- scheme: opensecrets
+  identifier: N00050244
+- scheme: lis
+  identifier: S433
+- scheme: fec-candidate-id
+  identifier: S2PA00661
+candidacies: []
+contact:
+  phone: 202-224-6324
+  profile_url: https://www.mccormick.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 702 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-6324
+- classification: district
+  name: Harrisburg Office
+  address: 200 North Third St, Suite 14A/14th Floor;Harrisburg, PA 17101
+  phone: 717-231-7540
+- classification: district
+  name: Pittsburgh Office
+  address: 310 Grant St, Suite 2415;Pittsburgh, PA 15219
+  phone: 412-803-7370
+- classification: district
+  name: Erie Office
+  address: 17 South Park Row, Suite B-150;Erie, PA 16501
+  phone: 814-240-5213
+- classification: district
+  name: State College Office
+  address: 329 Innovation Blvd, Suite 226;State College, PA 16803
+  phone: 814-357-0314
+- classification: district
+  name: Philadelphia Office
+  address: 2000 Market St, Suite 610;Philadelphia, PA 19103
+  phone: 215-405-9660
+- classification: district
+  name: Allentown Office
+  address: 840 West Hamilton St, Suite 301;Allentown, PA 18101
+  phone: 610-782-9470
+- classification: district
+  name: Scranton Office
+  address: 417 Lackawanna Ave, Suite 303;Scranton, PA 18503
+  phone: 570-941-0930
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001243 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

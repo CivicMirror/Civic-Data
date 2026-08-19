@@ -1,0 +1,54 @@
+id: ocd-person/df605b86-985f-57c9-8bbc-5e6b89b6a245
+name: Mark DeSaulnier
+identifiers:
+- scheme: bioguide
+  identifier: D000623
+- scheme: govtrack
+  identifier: '412613'
+- scheme: wikidata
+  identifier: Q6767311
+- scheme: wikipedia
+  identifier: Mark DeSaulnier
+- scheme: ballotpedia
+  identifier: Mark DeSaulnier
+- scheme: opensecrets
+  identifier: N00030709
+- scheme: votesmart
+  identifier: '69477'
+- scheme: icpsr
+  identifier: '21504'
+- scheme: thomas
+  identifier: '02227'
+- scheme: cspan
+  identifier: '61736'
+- scheme: maplight
+  identifier: '2069'
+- scheme: fec-candidate-id
+  identifier: H0CA10073
+candidacies: []
+contact:
+  phone: 202-225-2095
+  profile_url: https://desaulnier.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2134 Rayburn House Office Building Washington DC 20515-0510
+  phone: 202-225-2095
+- classification: district
+  name: Walnut Creek Office
+  address: 3100 Oak Road, Suite 110;Walnut Creek, CA 94597
+  phone: 925-933-2660
+  fax: 925-933-2677
+- classification: district
+  name: Antioch Office
+  address: 4703 Lone Tree Way;Antioch, CA 94531
+  phone: 925-754-0716
+  fax: 925-754-0728
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000623 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

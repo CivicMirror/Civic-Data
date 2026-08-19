@@ -1,0 +1,76 @@
+id: ocd-person/bc156514-e272-5e32-ad10-15b1e54ed16f
+name: Marsha Blackburn
+identifiers:
+- scheme: bioguide
+  identifier: B001243
+- scheme: govtrack
+  identifier: '400032'
+- scheme: wikidata
+  identifier: Q458971
+- scheme: wikipedia
+  identifier: Marsha Blackburn
+- scheme: ballotpedia
+  identifier: Marsha Blackburn
+- scheme: opensecrets
+  identifier: N00003105
+- scheme: votesmart
+  identifier: '25186'
+- scheme: icpsr
+  identifier: '20351'
+- scheme: lis
+  identifier: S396
+- scheme: thomas
+  identifier: 01748
+- scheme: cspan
+  identifier: '31226'
+- scheme: maplight
+  identifier: '151'
+- scheme: fec-candidate-id
+  identifier: S8TN00337
+candidacies: []
+contact:
+  phone: 202-224-3344
+  profile_url: https://www.blackburn.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 357 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-3344
+- classification: district
+  name: Chattanooga Office
+  address: 10 West M. L. King Blvd, 6th Floor;Chattanooga, TN 37402
+  phone: 423-541-2939
+  fax: 423-541-2944
+- classification: district
+  name: Jackson Office
+  address: 109 S Highland Ave, Suite 218;Jackson, TN 38301
+  phone: 731-660-3971
+  fax: 731-660-3978
+- classification: district
+  name: Knoxville Office
+  address: 800 Market St, Suite 121;Knoxville, TN 37902-2327
+  phone: 865-540-3781
+  fax: 865-540-7952
+- classification: district
+  name: Memphis Office
+  address: 100 Peabody Pl, Suite 1125;Memphis, TN 38103-3654
+  phone: 901-527-9199
+  fax: 901-527-9515
+- classification: district
+  name: Nashville Office
+  address: 719 Church Street, Suite 2100;Nashville, TN 37203
+  phone: 629-800-6600
+  fax: 615-298-2148
+- classification: district
+  name: Johnson City Office
+  address: 207 Mocking Bird Ln, Suite 502;Johnson City, TN 37604
+  phone: 423-753-4009
+  fax: 423-788-0250
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001243 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

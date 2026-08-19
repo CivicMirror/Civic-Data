@@ -1,0 +1,44 @@
+id: ocd-person/a7c787ff-b98a-5278-b6cd-c3f55ebf898d
+name: Keith Self
+identifiers:
+- scheme: bioguide
+  identifier: S001224
+- scheme: govtrack
+  identifier: '456941'
+- scheme: wikidata
+  identifier: Q115137462
+- scheme: wikipedia
+  identifier: Keith Self
+- scheme: ballotpedia
+  identifier: Keith Self
+- scheme: opensecrets
+  identifier: N00049337
+- scheme: votesmart
+  identifier: '97491'
+- scheme: fec-candidate-id
+  identifier: H2TX00064
+candidacies: []
+contact:
+  phone: 202-225-4201
+  profile_url: https://keithself.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1030 Longworth House Office Building Washington DC 20515-4303
+  phone: 202-225-4201
+- classification: district
+  name: Mckinney Office
+  address: 4500 W. Eldorado Pkwy, Suite 3500;Mckinney, TX 75070
+  phone: 972-202-4150
+- classification: district
+  name: Greenville Office
+  address: 2410 Lee Street, Suite 202;Greenville, TX 75401
+  phone: 903-458-7037
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001224 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,40 @@
+id: ocd-person/82912d95-e896-550e-85c3-46d92ae89046
+name: Kevin Mullin
+identifiers:
+- scheme: bioguide
+  identifier: M001225
+- scheme: govtrack
+  identifier: '456883'
+- scheme: wikidata
+  identifier: Q6397046
+- scheme: wikipedia
+  identifier: Kevin Mullin
+- scheme: ballotpedia
+  identifier: Kevin Mullin (California)
+- scheme: opensecrets
+  identifier: N00049438
+- scheme: votesmart
+  identifier: '105586'
+- scheme: fec-candidate-id
+  identifier: H2CA14162
+candidacies: []
+contact:
+  phone: 202-225-3531
+  profile_url: https://kevinmullin.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1404 Longworth House Office Building Washington DC 20515-0515
+  phone: 202-225-3531
+- classification: district
+  name: San Mateo Office
+  address: 1528 S. El Camino Real, Suite 307;San Mateo, CA 94402
+  phone: 650-342-0300
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001225 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

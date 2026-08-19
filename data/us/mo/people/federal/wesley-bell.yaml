@@ -1,0 +1,40 @@
+id: ocd-person/c89cf6e6-2f2b-55f2-b533-1bd8dd05b2f4
+name: Wesley Bell
+identifiers:
+- scheme: bioguide
+  identifier: B001324
+- scheme: govtrack
+  identifier: '456997'
+- scheme: wikidata
+  identifier: Q23806350
+- scheme: wikipedia
+  identifier: Wesley Bell
+- scheme: ballotpedia
+  identifier: Wesley Bell
+- scheme: opensecrets
+  identifier: N00053042
+- scheme: votesmart
+  identifier: '217416'
+- scheme: fec-candidate-id
+  identifier: S4MO00250
+candidacies: []
+contact:
+  phone: 202-225-2406
+  profile_url: https://bell.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1429 Longworth House Office Building Washington DC 20515-2501
+  phone: 202-225-2406
+- classification: district
+  name: St. Louis Office
+  address: 1191 Dr. M.L. King Dr.;St. Louis, MO 63101
+  phone: 314-955-9980
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001324 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

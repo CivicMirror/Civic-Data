@@ -1,0 +1,40 @@
+id: ocd-person/9498c407-d4b5-5168-8117-7280a6f6d878
+name: Mike Collins
+identifiers:
+- scheme: bioguide
+  identifier: C001129
+- scheme: govtrack
+  identifier: '456895'
+- scheme: wikidata
+  identifier: Q115806750
+- scheme: wikipedia
+  identifier: Mike Collins (politician)
+- scheme: ballotpedia
+  identifier: Mike Collins (Georgia)
+- scheme: opensecrets
+  identifier: N00035370
+- scheme: votesmart
+  identifier: '151225'
+- scheme: fec-candidate-id
+  identifier: S6GA00390
+candidacies: []
+contact:
+  phone: 202-225-4101
+  profile_url: https://collins.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2351 Rayburn House Office Building Washington DC 20515-1010
+  phone: 202-225-4101
+- classification: district
+  name: Monroe Office
+  address: 100 Court St.;Monroe, GA 30655
+  phone: 770-207-1776
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001129 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

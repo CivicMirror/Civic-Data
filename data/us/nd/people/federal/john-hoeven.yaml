@@ -1,0 +1,69 @@
+id: ocd-person/840941c0-1197-5066-a01b-6bf1f89845c2
+name: John Hoeven
+identifiers:
+- scheme: bioguide
+  identifier: H001061
+- scheme: govtrack
+  identifier: '412494'
+- scheme: wikidata
+  identifier: Q374762
+- scheme: wikipedia
+  identifier: John Hoeven
+- scheme: ballotpedia
+  identifier: John Hoeven
+- scheme: opensecrets
+  identifier: N00031688
+- scheme: votesmart
+  identifier: '41788'
+- scheme: icpsr
+  identifier: '41107'
+- scheme: lis
+  identifier: S344
+- scheme: thomas
+  identifier: 02079
+- scheme: cspan
+  identifier: '85233'
+- scheme: maplight
+  identifier: '1499'
+- scheme: fec-candidate-id
+  identifier: S0ND00093
+candidacies: []
+contact:
+  phone: 202-224-2551
+  profile_url: https://www.hoeven.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 338 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-2551
+- classification: district
+  name: Bismarck Office
+  address: U.S. Federal Building, 220 E. Rosser Ave., Room 312;Bismarck, ND 58501
+  phone: 701-250-4618
+  fax: 701-250-4484
+- classification: district
+  name: Fargo Office
+  address: 123 Broadway North, Suite 201;Fargo, ND 58102
+  phone: 701-239-5389
+  fax: 202-228-5112
+- classification: district
+  name: Grand Forks Office
+  address: Federal Building, 102 N. Fourth St., Room 108;Grand Forks, ND 58203
+  phone: 701-746-8972
+- classification: district
+  name: Minot Office
+  address: 100 1st St. SW, Suite 107;Minot, ND 58701
+  phone: 701-838-1361
+  fax: 701-838-1381
+- classification: district
+  name: Watford City Office
+  address: '204 N. Main St., #516;Watford City, ND 58854'
+  phone: 701-609-2727
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001061 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

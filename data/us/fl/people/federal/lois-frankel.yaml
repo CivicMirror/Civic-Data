@@ -1,0 +1,48 @@
+id: ocd-person/de62b951-7ac5-5419-9ab0-2f2da10d1ad1
+name: Lois Frankel
+identifiers:
+- scheme: bioguide
+  identifier: F000462
+- scheme: govtrack
+  identifier: '412529'
+- scheme: wikidata
+  identifier: Q3182451
+- scheme: wikipedia
+  identifier: Lois Frankel
+- scheme: ballotpedia
+  identifier: Lois Frankel
+- scheme: opensecrets
+  identifier: N00002893
+- scheme: votesmart
+  identifier: '8102'
+- scheme: icpsr
+  identifier: '21321'
+- scheme: thomas
+  identifier: 02119
+- scheme: cspan
+  identifier: '623714'
+- scheme: maplight
+  identifier: '1753'
+- scheme: fec-candidate-id
+  identifier: H2FL22080
+candidacies: []
+contact:
+  phone: 202-225-9890
+  profile_url: https://frankel.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2305 Rayburn House Office Building Washington DC 20515-0922
+  phone: 202-225-9890
+- classification: district
+  name: Delray Beach Office
+  address: 7499 West Atlantic Ave, Unit 206;Delray Beach, FL 33446
+  phone: 561-998-9045
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000462 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

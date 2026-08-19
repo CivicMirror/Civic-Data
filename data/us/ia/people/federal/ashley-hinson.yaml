@@ -1,0 +1,48 @@
+id: ocd-person/489f8f4f-a5f9-55da-9560-db9db34e9341
+name: Ashley Hinson
+identifiers:
+- scheme: bioguide
+  identifier: H001091
+- scheme: govtrack
+  identifier: '456816'
+- scheme: wikidata
+  identifier: Q60713905
+- scheme: wikipedia
+  identifier: Ashley Hinson
+- scheme: ballotpedia
+  identifier: Ashley Hinson
+- scheme: opensecrets
+  identifier: N00044521
+- scheme: votesmart
+  identifier: '168783'
+- scheme: fec-candidate-id
+  identifier: H0IA01174
+candidacies: []
+contact:
+  phone: 202-225-2911
+  profile_url: https://hinson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2458 Rayburn House Office Building Washington DC 20515-1502
+  phone: 202-225-2911
+- classification: district
+  name: Waterloo Office
+  address: 531 Commercial St., Suite 302;Waterloo, IA 50701
+  phone: 319-266-6925
+- classification: district
+  name: Dubuque Office
+  address: 1050 Main St.;Dubuque, IA 52001
+  phone: 563-557-7789
+- classification: district
+  name: Cedar Rapids Office
+  address: 111 7th Avenue SE, Suite 580;Cedar Rapids, IA 52401
+  phone: 319-364-2288
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001091 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

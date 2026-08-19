@@ -1,0 +1,60 @@
+id: ocd-person/45ff64ce-696e-51b0-9c87-cfe5735af221
+name: Frederica S. Wilson
+identifiers:
+- scheme: bioguide
+  identifier: W000808
+- scheme: govtrack
+  identifier: '412412'
+- scheme: wikidata
+  identifier: Q461504
+- scheme: wikipedia
+  identifier: Frederica Wilson
+- scheme: ballotpedia
+  identifier: Frederica Wilson
+- scheme: opensecrets
+  identifier: N00030650
+- scheme: votesmart
+  identifier: '17319'
+- scheme: icpsr
+  identifier: '21118'
+- scheme: thomas
+  identifier: '02004'
+- scheme: cspan
+  identifier: '87016'
+- scheme: maplight
+  identifier: '1424'
+- scheme: fec-candidate-id
+  identifier: H0FL17068
+candidacies: []
+contact:
+  phone: 202-225-4506
+  profile_url: https://wilson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2080 Rayburn House Office Building Washington DC 20515-0924
+  phone: 202-225-4506
+- classification: district
+  name: West Park Office
+  address: West Park City Hall, 1965 South State Road 7;West Park, FL 33023
+  phone: 954-989-2688
+- classification: district
+  name: Miami Beach Office
+  address: 1700 Convention Center Drive, First Floor Suite;Miami Beach, FL 33139
+  phone: 305-673-7000
+- classification: district
+  name: Miami Gardens Office
+  address: 18425 NW 2nd Avenue;Miami Gardens, FL 33169
+  phone: 305-690-5905
+- classification: district
+  name: North Miami Office
+  address: Scott Galvin Community Center, 1600 NE 126th Street;North Miami, FL 33181
+  phone: 305-690-5905
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000808 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

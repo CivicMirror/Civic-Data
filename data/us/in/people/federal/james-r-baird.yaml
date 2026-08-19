@@ -1,0 +1,42 @@
+id: ocd-person/2b75831f-a27a-53f5-8387-79b709b9111d
+name: James R. Baird
+identifiers:
+- scheme: bioguide
+  identifier: B001307
+- scheme: govtrack
+  identifier: '412777'
+- scheme: wikidata
+  identifier: Q48813213
+- scheme: wikipedia
+  identifier: Jim Baird (politician)
+- scheme: ballotpedia
+  identifier: James Baird
+- scheme: opensecrets
+  identifier: N00041954
+- scheme: votesmart
+  identifier: '86013'
+- scheme: icpsr
+  identifier: '21903'
+- scheme: fec-candidate-id
+  identifier: H8IN04199
+candidacies: []
+contact:
+  phone: 202-225-5037
+  profile_url: https://baird.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2303 Rayburn House Office Building Washington DC 20515-1404
+  phone: 202-225-5037
+- classification: district
+  name: Danville Office
+  address: 355 S Washington St, Suite 210;Danville, IN 46122-1779
+  phone: 317-563-5567
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001307 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

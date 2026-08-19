@@ -1,0 +1,54 @@
+id: ocd-person/a45ca5d9-0260-52e5-8966-ae1e57899ce8
+name: Julia Brownley
+identifiers:
+- scheme: bioguide
+  identifier: B001285
+- scheme: govtrack
+  identifier: '412516'
+- scheme: wikidata
+  identifier: Q3577073
+- scheme: wikipedia
+  identifier: Julia Brownley
+- scheme: ballotpedia
+  identifier: Julia Brownley
+- scheme: opensecrets
+  identifier: N00034254
+- scheme: votesmart
+  identifier: '59904'
+- scheme: icpsr
+  identifier: '21308'
+- scheme: thomas
+  identifier: '02106'
+- scheme: cspan
+  identifier: '67561'
+- scheme: maplight
+  identifier: '1740'
+- scheme: fec-candidate-id
+  identifier: H2CA00120
+candidacies: []
+contact:
+  phone: 202-225-5811
+  profile_url: https://juliabrownley.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2262 Rayburn House Office Building Washington DC 20515-0526
+  phone: 202-225-5811
+- classification: district
+  name: Oxnard Office
+  address: 201 East Fourth St., Suite 209B;Oxnard, CA 93030
+  phone: 805-379-1779
+  fax: 805-379-1799
+- classification: district
+  name: Thousand Oaks Office
+  address: 223 E. Thousand Oaks Blvd., Suite 220;Thousand Oaks, CA 91360
+  phone: 805-379-1779
+  fax: 805-379-1799
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001285 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

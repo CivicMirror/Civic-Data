@@ -1,0 +1,44 @@
+id: ocd-person/040856f5-e5ae-528a-8e93-3c3381192f01
+name: Mariannette Miller-Meeks
+identifiers:
+- scheme: bioguide
+  identifier: M001215
+- scheme: govtrack
+  identifier: '456817'
+- scheme: wikidata
+  identifier: Q58495662
+- scheme: wikipedia
+  identifier: Mariannette Miller-Meeks
+- scheme: ballotpedia
+  identifier: Mariannette Miller-Meeks
+- scheme: opensecrets
+  identifier: N00029495
+- scheme: votesmart
+  identifier: '103294'
+- scheme: fec-candidate-id
+  identifier: H8IA02043
+candidacies: []
+contact:
+  phone: 202-225-6576
+  profile_url: https://millermeeks.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 504 Cannon House Office Building Washington DC 20515-1501
+  phone: 202-225-6576
+- classification: district
+  name: Indianola Office
+  address: 126 N Howard Street;Indianola, IA 50125
+  phone: 515-808-6040
+- classification: district
+  name: Davenport Office
+  address: 201 W Second Street, Suite 705;Davenport, IA 52801
+  phone: 563-232-0930
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001215 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

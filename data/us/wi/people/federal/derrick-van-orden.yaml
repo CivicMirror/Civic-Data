@@ -1,0 +1,44 @@
+id: ocd-person/4b9b51e8-c18c-5434-8dba-9e933a73dcb0
+name: Derrick Van Orden
+identifiers:
+- scheme: bioguide
+  identifier: V000135
+- scheme: govtrack
+  identifier: '456950'
+- scheme: wikidata
+  identifier: Q115155627
+- scheme: wikipedia
+  identifier: Derrick Van Orden
+- scheme: ballotpedia
+  identifier: Derrick Van Orden
+- scheme: opensecrets
+  identifier: N00046843
+- scheme: votesmart
+  identifier: '192343'
+- scheme: fec-candidate-id
+  identifier: H0WI03175
+candidacies: []
+contact:
+  phone: 202-225-5506
+  profile_url: https://vanorden.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1513 Longworth House Office Building Washington DC 20515-4903
+  phone: 202-225-5506
+- classification: district
+  name: La Crosse Office
+  address: 210 7th St S, Suite 204;La Crosse, WI 54601
+  phone: 608-782-2558
+- classification: district
+  name: Eau Claire Office
+  address: 404 S Barstow St, Suite 2;Eau Claire, WI 54701
+  phone: 715-831-9214
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000135 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

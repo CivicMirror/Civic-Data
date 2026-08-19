@@ -1,0 +1,52 @@
+id: ocd-person/c575277a-ad3d-50bf-a83b-f7a658e07fff
+name: Christopher H. Smith
+identifiers:
+- scheme: bioguide
+  identifier: S000522
+- scheme: govtrack
+  identifier: '400380'
+- scheme: wikidata
+  identifier: Q981167
+- scheme: wikipedia
+  identifier: Chris Smith (New Jersey politician)
+- scheme: ballotpedia
+  identifier: Chris Smith (New Jersey)
+- scheme: opensecrets
+  identifier: N00009816
+- scheme: votesmart
+  identifier: '26952'
+- scheme: icpsr
+  identifier: '14863'
+- scheme: thomas
+  identifier: '01071'
+- scheme: cspan
+  identifier: '6411'
+- scheme: maplight
+  identifier: '469'
+- scheme: fec-candidate-id
+  identifier: H8NJ04014
+candidacies: []
+contact:
+  phone: 202-225-3765
+  profile_url: https://chrissmith.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2373 Rayburn House Office Building Washington DC 20515-3004
+  phone: 202-225-3765
+- classification: district
+  name: Middletown Office
+  address: 1715 Highway 35 North, Suite 303;Middletown, NJ 07748
+  phone: 732-780-3035
+- classification: district
+  name: Toms River Office
+  address: P.O. Box 728, 33 Washington Street;Toms River, NJ 08754
+  phone: 732-504-0567
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000522 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

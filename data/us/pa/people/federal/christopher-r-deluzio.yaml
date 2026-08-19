@@ -1,0 +1,48 @@
+id: ocd-person/d244c5ec-ab0d-53b5-b331-5ae47c2be5c1
+name: Christopher R. Deluzio
+identifiers:
+- scheme: bioguide
+  identifier: D000530
+- scheme: govtrack
+  identifier: '456936'
+- scheme: wikidata
+  identifier: Q115181700
+- scheme: wikipedia
+  identifier: Chris Deluzio
+- scheme: ballotpedia
+  identifier: Chris Deluzio
+- scheme: opensecrets
+  identifier: N00049160
+- scheme: votesmart
+  identifier: '202954'
+- scheme: fec-candidate-id
+  identifier: H2PA17103
+candidacies: []
+contact:
+  phone: 202-225-2301
+  profile_url: https://deluzio.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1222 Longworth House Office Building Washington DC 20515-3817
+  phone: 202-225-2301
+- classification: district
+  name: Monaca Office
+  address: 3468 Brodhead Road, Suite 1;Monaca, PA 15061
+  phone: 724-206-4860
+- classification: district
+  name: Carnegie Office
+  address: Carnegie Office Park, Building 1, 600 N Bell Avenue, Suite 102;Carnegie, PA 15106
+  phone: 412-344-5583
+- classification: district
+  name: Penn Hills Office
+  address: 77 Universal Rd, Suite 1;Penn Hills, PA 15235
+  phone: 412-344-5583
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000530 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

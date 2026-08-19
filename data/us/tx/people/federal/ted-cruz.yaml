@@ -1,0 +1,74 @@
+id: ocd-person/d2e55664-5494-5fdd-afd3-3627fb81fdec
+name: Ted Cruz
+identifiers:
+- scheme: bioguide
+  identifier: C001098
+- scheme: govtrack
+  identifier: '412573'
+- scheme: wikidata
+  identifier: Q2036942
+- scheme: wikipedia
+  identifier: Ted Cruz
+- scheme: ballotpedia
+  identifier: Ted Cruz
+- scheme: opensecrets
+  identifier: N00033085
+- scheme: votesmart
+  identifier: '135705'
+- scheme: icpsr
+  identifier: '41304'
+- scheme: lis
+  identifier: S355
+- scheme: thomas
+  identifier: '02175'
+- scheme: cspan
+  identifier: '1019953'
+- scheme: maplight
+  identifier: '1797'
+- scheme: fec-candidate-id
+  identifier: S2TX00312
+candidacies: []
+contact:
+  phone: 202-224-5922
+  profile_url: https://www.cruz.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 167 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-5922
+- classification: district
+  name: Austin Office
+  address: 300 E 8th, Suite 961;Austin, TX 78701
+  phone: 512-916-5834
+  fax: 512-916-5839
+- classification: district
+  name: Dallas Office
+  address: Lee Park Tower II, 3626 N. Hall St., Suite 410;Dallas, TX 75219
+  phone: 214-599-8749
+  fax: 214-361-3518
+- classification: district
+  name: Houston Office
+  address: The Mickey Leland Federal Building, 1919 Smith St., Suite 9047;Houston, TX 77002
+  phone: 713-718-3057
+  fax: 713-209-3459
+- classification: district
+  name: McAllen Office
+  address: 200 S. 10th St., Suite 1603;McAllen, TX 78501
+  phone: 956-686-7339
+- classification: district
+  name: San Antonio Office
+  address: 9901 Ih-10w, Suite 950;San Antonio, TX 78230
+  phone: 210-340-2885
+  fax: 210-349-6753
+- classification: district
+  name: Tyler Office
+  address: 305 S. Broadway, Suite 501;Tyler, TX 75702
+  phone: 903-593-5130
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001098 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,60 @@
+id: ocd-person/e3294493-b6fe-5026-b8d1-d3f890b9d9f2
+name: August Pfluger
+identifiers:
+- scheme: bioguide
+  identifier: P000048
+- scheme: govtrack
+  identifier: '456846'
+- scheme: wikidata
+  identifier: Q101196462
+- scheme: wikipedia
+  identifier: August Pfluger
+- scheme: ballotpedia
+  identifier: August Pfluger
+- scheme: opensecrets
+  identifier: N00045421
+- scheme: votesmart
+  identifier: '188165'
+- scheme: fec-candidate-id
+  identifier: H0TX11230
+candidacies: []
+contact:
+  phone: 202-225-3605
+  profile_url: https://pfluger.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2202 Rayburn House Office Building Washington DC 20515-4311
+  phone: 202-225-3605
+- classification: district
+  name: Killeen Office
+  address: Pratt Learning and Leadership, 505 E Jasper Drive;Killeen, TX 76541
+  phone: 254-669-6570
+- classification: district
+  name: Brownwood Office
+  address: 501 Center Ave.;Brownwood, TX 76801
+  phone: 325-646-1950
+- classification: district
+  name: San Angelo Office
+  address: 135 West Twohig Avenue, B;San Angelo, TX 76903
+  phone: 325-659-4010
+- classification: district
+  name: Llano Office
+  address: County Annex, 104 W. Sandstone St.;Llano, TX 78643
+  phone: 325-247-2826
+- classification: district
+  name: Midland Office
+  address: 6 Desta Drive, Suite 2000;Midland, TX 79705
+  phone: 432-687-2390
+- classification: district
+  name: Odessa Office
+  address: Ector County Courthouse, Administration Building, 1010 E 8th St.;Odessa, TX 79761
+  phone: 432-331-9667
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000048 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

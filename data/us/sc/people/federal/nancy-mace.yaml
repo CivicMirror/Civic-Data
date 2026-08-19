@@ -1,0 +1,44 @@
+id: ocd-person/daf73871-9783-5adf-9b73-9c894b13566b
+name: Nancy Mace
+identifiers:
+- scheme: bioguide
+  identifier: M000194
+- scheme: govtrack
+  identifier: '456843'
+- scheme: wikidata
+  identifier: Q6962831
+- scheme: wikipedia
+  identifier: Nancy Mace
+- scheme: ballotpedia
+  identifier: Nancy Mace
+- scheme: opensecrets
+  identifier: N00035670
+- scheme: votesmart
+  identifier: '146076'
+- scheme: fec-candidate-id
+  identifier: H0SC01394
+candidacies: []
+contact:
+  phone: 202-225-3176
+  profile_url: https://mace.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1728 Longworth House Office Building Washington DC 20515-4001
+  phone: 202-225-3176
+- classification: district
+  name: Daniel Island Office
+  address: 900 Island Park Dr., Suite 260;Daniel Island, SC 29492
+  phone: 843-352-7572
+- classification: district
+  name: Beaufort Office
+  address: 710 Boundary St.;Beaufort, SC 29902
+  phone: 843-521-2530
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M000194 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/f7910dc8-015d-5de8-9bef-72a6feba8750
+name: Lisa C. McClain
+identifiers:
+- scheme: bioguide
+  identifier: M001136
+- scheme: govtrack
+  identifier: '456827'
+- scheme: wikidata
+  identifier: Q102184540
+- scheme: wikipedia
+  identifier: Lisa McClain
+- scheme: ballotpedia
+  identifier: Lisa McClain
+- scheme: opensecrets
+  identifier: N00045730
+- scheme: votesmart
+  identifier: '191633'
+- scheme: fec-candidate-id
+  identifier: H0MI10287
+candidacies: []
+contact:
+  phone: 202-225-2106
+  profile_url: https://mcclain.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 562 Cannon House Office Building Washington DC 20515-2209
+  phone: 202-225-2106
+- classification: district
+  name: Lake Orion Office
+  address: 30 N Broadway St.;Lake Orion, MI 48362
+  phone: 586-697-9300
+- classification: district
+  name: Marlette Office
+  address: 6725 Airport Road;Marlette, MI 48453
+  phone: 586-697-9300
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001136 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

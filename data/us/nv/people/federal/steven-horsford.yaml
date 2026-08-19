@@ -1,0 +1,48 @@
+id: ocd-person/3326c987-3b08-5a72-aaee-377d2b08b133
+name: Steven Horsford
+identifiers:
+- scheme: bioguide
+  identifier: H001066
+- scheme: govtrack
+  identifier: '412559'
+- scheme: wikidata
+  identifier: Q3514907
+- scheme: wikipedia
+  identifier: Steven Horsford
+- scheme: ballotpedia
+  identifier: Steven Horsford
+- scheme: opensecrets
+  identifier: N00033638
+- scheme: votesmart
+  identifier: '44064'
+- scheme: icpsr
+  identifier: '21339'
+- scheme: thomas
+  identifier: '02147'
+- scheme: cspan
+  identifier: '67777'
+- scheme: maplight
+  identifier: '1783'
+- scheme: fec-candidate-id
+  identifier: H2NV04011
+candidacies: []
+contact:
+  phone: 202-225-9894
+  profile_url: https://horsford.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 406 Cannon House Office Building Washington DC 20515-2804
+  phone: 202-225-9894
+- classification: district
+  name: North Las Vegas Office
+  address: 2250 N Las Vegas Blvd, Suite 500;North Las Vegas, NV 89030
+  phone: 702-963-9360
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001066 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

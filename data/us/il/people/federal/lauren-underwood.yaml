@@ -1,0 +1,42 @@
+id: ocd-person/61d5a091-2e7e-599f-82b0-81e079205d3b
+name: Lauren Underwood
+identifiers:
+- scheme: bioguide
+  identifier: U000040
+- scheme: govtrack
+  identifier: '412776'
+- scheme: wikidata
+  identifier: Q48471874
+- scheme: wikipedia
+  identifier: Lauren Underwood
+- scheme: ballotpedia
+  identifier: Lauren Underwood
+- scheme: opensecrets
+  identifier: N00041569
+- scheme: votesmart
+  identifier: '177001'
+- scheme: icpsr
+  identifier: '21979'
+- scheme: fec-candidate-id
+  identifier: H8IL14174
+candidacies: []
+contact:
+  phone: 202-225-2976
+  profile_url: https://underwood.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2228 Rayburn House Office Building Washington DC 20515-1314
+  phone: 202-225-2976
+- classification: district
+  name: Joliet Office
+  address: Joliet District Office, 116 N. Chicago Street, Suite 201;Joliet, IL 60432
+  phone: 630-549-2190
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide U000040 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

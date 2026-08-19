@@ -1,0 +1,46 @@
+id: ocd-person/f1e9fcdf-b66d-514e-9f23-fa047e5540a3
+name: Raja Krishnamoorthi
+identifiers:
+- scheme: bioguide
+  identifier: K000391
+- scheme: govtrack
+  identifier: '412701'
+- scheme: wikidata
+  identifier: Q7285471
+- scheme: wikipedia
+  identifier: Raja Krishnamoorthi
+- scheme: ballotpedia
+  identifier: Raja Krishnamoorthi
+- scheme: opensecrets
+  identifier: N00033240
+- scheme: votesmart
+  identifier: '117519'
+- scheme: icpsr
+  identifier: '21730'
+- scheme: cspan
+  identifier: '103408'
+- scheme: maplight
+  identifier: '2213'
+- scheme: fec-candidate-id
+  identifier: S6IL00482
+candidacies: []
+contact:
+  phone: 202-225-3711
+  profile_url: https://krishnamoorthi.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2367 Rayburn House Office Building Washington DC 20515-1308
+  phone: 202-225-3711
+- classification: district
+  name: Schaumburg Office
+  address: 1701 E. Woodfield Rd., Suite 704;Schaumburg, IL 60173
+  phone: 847-413-1959
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000391 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

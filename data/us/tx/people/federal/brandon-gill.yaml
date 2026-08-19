@@ -1,0 +1,38 @@
+id: ocd-person/f965d3dd-f29c-59d0-8d2a-f5be17d72baf
+name: Brandon Gill
+identifiers:
+- scheme: bioguide
+  identifier: G000603
+- scheme: govtrack
+  identifier: '457023'
+- scheme: wikidata
+  identifier: Q124753679
+- scheme: wikipedia
+  identifier: Brandon Gill
+- scheme: ballotpedia
+  identifier: Brandon Gill
+- scheme: opensecrets
+  identifier: N00054402
+- scheme: fec-candidate-id
+  identifier: H4TX26149
+candidacies: []
+contact:
+  phone: 202-225-7772
+  profile_url: https://gill.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1305 Longworth House Office Building Washington DC 20515-4326
+  phone: 202-225-7772
+- classification: district
+  name: Flower Mound Office
+  address: 600 Parker Square, Suite 205;Flower Mound, TX 75028
+  phone: 972-966-5454
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000603 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,48 @@
+id: ocd-person/6dc8b8ba-fe89-5233-8810-9e77a55fe7f1
+name: Lloyd Doggett
+identifiers:
+- scheme: bioguide
+  identifier: D000399
+- scheme: govtrack
+  identifier: '400111'
+- scheme: wikidata
+  identifier: Q363817
+- scheme: wikipedia
+  identifier: Lloyd Doggett
+- scheme: ballotpedia
+  identifier: Lloyd Doggett
+- scheme: opensecrets
+  identifier: N00006023
+- scheme: votesmart
+  identifier: '21689'
+- scheme: icpsr
+  identifier: '29571'
+- scheme: thomas
+  identifier: '00303'
+- scheme: cspan
+  identifier: '36810'
+- scheme: maplight
+  identifier: '224'
+- scheme: fec-candidate-id
+  identifier: H4TX10028
+candidacies: []
+contact:
+  phone: 202-225-4865
+  profile_url: https://doggett.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2307 Rayburn House Office Building Washington DC 20515-0001
+  phone: 202-225-4865
+- classification: district
+  name: Austin Office
+  address: 300 East 8th St, 7th Floor;Austin, TX 78701
+  phone: 512-916-5921
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000399 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

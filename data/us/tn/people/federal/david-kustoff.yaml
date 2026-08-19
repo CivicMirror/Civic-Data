@@ -1,0 +1,56 @@
+id: ocd-person/8124881c-f7b1-5a64-9216-541f05f7d2d3
+name: David Kustoff
+identifiers:
+- scheme: bioguide
+  identifier: K000392
+- scheme: govtrack
+  identifier: '412724'
+- scheme: wikidata
+  identifier: Q26923148
+- scheme: wikipedia
+  identifier: David Kustoff
+- scheme: ballotpedia
+  identifier: David Kustoff
+- scheme: opensecrets
+  identifier: N00025445
+- scheme: votesmart
+  identifier: '48997'
+- scheme: icpsr
+  identifier: '21731'
+- scheme: cspan
+  identifier: '28903'
+- scheme: maplight
+  identifier: '2236'
+- scheme: fec-candidate-id
+  identifier: H2TN07103
+candidacies: []
+contact:
+  phone: 202-225-4714
+  profile_url: https://kustoff.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 560 Cannon House Office Building Washington DC 20515-4208
+  phone: 202-225-4714
+- classification: district
+  name: Memphis Office
+  address: 5900 Poplar Ave., Suite 202;Memphis, TN 38119
+  phone: 901-682-4422
+  fax: 901-682-8973
+- classification: district
+  name: Martin Office
+  address: 242 South Lindell Street;Martin, TN 38237
+  phone: 731-412-1043
+- classification: district
+  name: Jackson Office
+  address: Ed Jones Federal Building, 109 S. Highland Ave., B-7;Jackson, TN 38301
+  phone: 731-423-4848
+  fax: 731-427-1537
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000392 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,63 @@
+id: ocd-person/f948f557-1cfb-5f27-b615-f5998e9ed864
+name: Eric A. "Rick" Crawford
+identifiers:
+- scheme: bioguide
+  identifier: C001087
+- scheme: govtrack
+  identifier: '412400'
+- scheme: wikidata
+  identifier: Q2151554
+- scheme: wikipedia
+  identifier: Rick Crawford (politician)
+- scheme: ballotpedia
+  identifier: Rick Crawford
+- scheme: opensecrets
+  identifier: N00030770
+- scheme: votesmart
+  identifier: '119208'
+- scheme: icpsr
+  identifier: '21106'
+- scheme: thomas
+  identifier: 01989
+- scheme: cspan
+  identifier: '623259'
+- scheme: maplight
+  identifier: '1414'
+- scheme: fec-candidate-id
+  identifier: H0AR01083
+candidacies: []
+contact:
+  phone: 202-225-4076
+  profile_url: https://crawford.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2422 Rayburn House Office Building Washington DC 20515-0401
+  phone: 202-225-4076
+- classification: district
+  name: Cabot Office
+  address: 112 S. 1st;Cabot, AR 72023
+  phone: 501-843-3043
+  fax: 501-843-4955
+- classification: district
+  name: Dumas Office
+  address: 101 E Waterman St;Dumas, AR 71639-2226
+  phone: 870-377-5571
+- classification: district
+  name: Jonesboro Office
+  address: 2400 Highland Dr., Suite 300;Jonesboro, AR 72401
+  phone: 870-203-0540
+  fax: 870-203-0542
+- classification: district
+  name: Mountain Home Office
+  address: 1001 Highway 62 E, Suite 9;Mountain Home, AR 72653
+  phone: 870-424-2075
+  fax: 870-424-3149
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001087 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

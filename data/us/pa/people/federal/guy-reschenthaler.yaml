@@ -1,0 +1,46 @@
+id: ocd-person/36227cca-a21d-5dd5-806d-c826659f1b7e
+name: Guy Reschenthaler
+identifiers:
+- scheme: bioguide
+  identifier: R000610
+- scheme: govtrack
+  identifier: '412813'
+- scheme: wikidata
+  identifier: Q22096097
+- scheme: wikipedia
+  identifier: Guy Reschenthaler
+- scheme: ballotpedia
+  identifier: Guy Reschenthaler
+- scheme: opensecrets
+  identifier: N00041871
+- scheme: votesmart
+  identifier: '166004'
+- scheme: icpsr
+  identifier: '21956'
+- scheme: fec-candidate-id
+  identifier: H8PA18199
+candidacies: []
+contact:
+  phone: 202-225-2065
+  profile_url: https://reschenthaler.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2209 Rayburn House Office Building Washington DC 20515-3814
+  phone: 202-225-2065
+- classification: district
+  name: Latrobe Office
+  address: 5856 Route 981;Latrobe, PA 15650
+  phone: 724-219-4200
+- classification: district
+  name: Washington Office
+  address: 14 South Main St.;Washington, PA 15301
+  phone: 724-206-4800
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000610 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

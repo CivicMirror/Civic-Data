@@ -1,0 +1,52 @@
+id: ocd-person/bfa4626c-0253-5ea3-96ed-a31d475d6577
+name: Neal P. Dunn
+identifiers:
+- scheme: bioguide
+  identifier: D000628
+- scheme: govtrack
+  identifier: '412691'
+- scheme: wikidata
+  identifier: Q27733851
+- scheme: wikipedia
+  identifier: Neal Dunn
+- scheme: ballotpedia
+  identifier: Neal Dunn
+- scheme: opensecrets
+  identifier: N00037442
+- scheme: votesmart
+  identifier: '166297'
+- scheme: icpsr
+  identifier: '21714'
+- scheme: cspan
+  identifier: '104529'
+- scheme: maplight
+  identifier: '2203'
+- scheme: fec-candidate-id
+  identifier: H6FL02208
+candidacies: []
+contact:
+  phone: 202-225-5235
+  profile_url: https://dunn.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 466 Cannon House Office Building Washington DC 20515-0902
+  phone: 202-225-5235
+- classification: district
+  name: Panama City Office
+  address: 840 W. 11th St., Suite 2250;Panama City, FL 32401
+  phone: 850-785-0812
+  fax: 850-763-3764
+- classification: district
+  name: Tallahassee Office
+  address: 300 S. Adams St.;Tallahassee, FL 32301
+  phone: 850-891-8610
+  fax: 850-891-8620
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000628 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

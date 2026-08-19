@@ -1,0 +1,56 @@
+id: ocd-person/a9c2243c-03d3-5729-aea6-7de16754e581
+name: Jack Reed
+identifiers:
+- scheme: bioguide
+  identifier: R000122
+- scheme: govtrack
+  identifier: '300081'
+- scheme: wikidata
+  identifier: Q528979
+- scheme: wikipedia
+  identifier: Jack Reed (Rhode Island politician)
+- scheme: ballotpedia
+  identifier: Jack Reed
+- scheme: opensecrets
+  identifier: N00000362
+- scheme: votesmart
+  identifier: '27060'
+- scheme: icpsr
+  identifier: '29142'
+- scheme: lis
+  identifier: S259
+- scheme: thomas
+  identifier: 00949
+- scheme: cspan
+  identifier: '24239'
+- scheme: maplight
+  identifier: '600'
+- scheme: fec-candidate-id
+  identifier: H0RI02071
+candidacies: []
+contact:
+  phone: 202-224-4642
+  profile_url: https://www.reed.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 728 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-4642
+- classification: district
+  name: Cranston Office
+  address: 1000 Chapel View Blvd., Suite 290;Cranston, RI 02920
+  phone: 401-943-3100
+  fax: 401-464-6837
+- classification: district
+  name: Providence Office
+  address: U.S. District Courthouse, One Exchange Terrace, Suite 408;Providence, RI 02903-1744
+  phone: 401-528-5200
+  fax: 202-224-4680
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000122 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

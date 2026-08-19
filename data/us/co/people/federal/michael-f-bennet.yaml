@@ -1,0 +1,78 @@
+id: ocd-person/8b875348-feb1-5f38-9cfe-35b8dbf8c6a7
+name: Michael F. Bennet
+identifiers:
+- scheme: bioguide
+  identifier: B001267
+- scheme: govtrack
+  identifier: '412330'
+- scheme: wikidata
+  identifier: Q554792
+- scheme: wikipedia
+  identifier: Michael Bennet
+- scheme: ballotpedia
+  identifier: Michael Bennet
+- scheme: opensecrets
+  identifier: N00030608
+- scheme: votesmart
+  identifier: '110942'
+- scheme: icpsr
+  identifier: '40910'
+- scheme: lis
+  identifier: S330
+- scheme: thomas
+  identifier: 01965
+- scheme: cspan
+  identifier: '1031622'
+- scheme: maplight
+  identifier: '1092'
+- scheme: fec-candidate-id
+  identifier: S0CO00211
+candidacies: []
+contact:
+  phone: 202-224-5852
+  profile_url: https://www.bennet.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 261 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-5852
+- classification: district
+  name: Colorado Springs Office
+  address: 409 N. Tejon St., Suite 107;Colorado Springs, CO 80903
+  phone: 719-328-1100
+  fax: 719-328-1129
+- classification: district
+  name: Denver Office
+  address: Cesar E. Chavez Memorial Building, 1244 Speer Blvd.;Denver, CO 80204
+  phone: 303-455-7600
+  fax: 202-224-1866
+- classification: district
+  name: Fort Collins Office
+  address: 1200 S. College Ave., Suite 211;Fort Collins, CO 80524
+  phone: 970-224-2200
+  fax: 970-224-2205
+- classification: district
+  name: Grand Junction Office
+  address: 225 N. 5th St., Suite 511;Grand Junction, CO 81501
+  phone: 970-241-6631
+- classification: district
+  name: Pueblo Office
+  address: 129 W. B St.;Pueblo, CO 81003
+  phone: 719-542-7550
+- classification: district
+  name: Alamosa Office
+  address: 609 Main Street, Suite 206;Alamosa, CO 81101
+  phone: 719-587-0096
+- classification: district
+  name: Durango Office
+  address: Smiley Building, 1309 East 3rd Avenue, Suite 101;Durango, CO 81301
+  phone: 970-259-1710
+  fax: 970-259-9789
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001267 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

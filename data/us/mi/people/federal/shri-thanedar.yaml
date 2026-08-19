@@ -1,0 +1,41 @@
+id: ocd-person/613daca4-858c-5461-9d47-569132af944f
+name: Shri Thanedar
+identifiers:
+- scheme: bioguide
+  identifier: T000488
+- scheme: govtrack
+  identifier: '456908'
+- scheme: wikidata
+  identifier: Q7503912
+- scheme: wikipedia
+  identifier: Shri Thanedar
+- scheme: ballotpedia
+  identifier: Shri Thanedar
+- scheme: opensecrets
+  identifier: N00049602
+- scheme: votesmart
+  identifier: '182346'
+- scheme: fec-candidate-id
+  identifier: H2MI13204
+candidacies: []
+contact:
+  phone: 202-225-5802
+  profile_url: https://thanedar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 154 Cannon House Office Building Washington DC 20515-2213
+  phone: 202-225-5802
+- classification: district
+  name: Detroit Office
+  address: Suite 420, 400 Monroe Street, Suite 420;Detroit, MI 48226
+  phone: 313-880-2400
+  fax: 313-731-1843
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000488 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

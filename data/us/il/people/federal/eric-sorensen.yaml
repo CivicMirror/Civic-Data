@@ -1,0 +1,48 @@
+id: ocd-person/d61156a3-e64b-5716-95af-c20e268befc2
+name: Eric Sorensen
+identifiers:
+- scheme: bioguide
+  identifier: S001225
+- scheme: govtrack
+  identifier: '456902'
+- scheme: wikidata
+  identifier: Q115182513
+- scheme: wikipedia
+  identifier: Eric Sorensen (politician)
+- scheme: ballotpedia
+  identifier: Eric Sorensen
+- scheme: opensecrets
+  identifier: N00049558
+- scheme: votesmart
+  identifier: '204339'
+- scheme: fec-candidate-id
+  identifier: H2IL17147
+candidacies: []
+contact:
+  phone: 202-225-5905
+  profile_url: https://sorensen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1314 Longworth House Office Building Washington DC 20515-1317
+  phone: 202-225-5905
+- classification: district
+  name: Rockford Office
+  address: 401 E. State Street, Ground Floor;Rockford, IL 61104
+  phone: 779-513-4960
+- classification: district
+  name: Rock Island Office
+  address: 423 17th Street, Suite 201;Rock Island, IL 61201
+  phone: 309-786-3406
+- classification: district
+  name: Peoria Office
+  address: Conductor's Quarters Building, 403-1/2 NE Jefferson Street;Peoria, IL 61603
+  phone: 309-621-7070
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001225 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

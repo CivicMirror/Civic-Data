@@ -1,0 +1,48 @@
+id: ocd-person/7e197ea0-609e-524e-a749-4bfd0bdaebd1
+name: Nancy Pelosi
+identifiers:
+- scheme: bioguide
+  identifier: P000197
+- scheme: govtrack
+  identifier: '400314'
+- scheme: wikidata
+  identifier: Q170581
+- scheme: wikipedia
+  identifier: Nancy Pelosi
+- scheme: ballotpedia
+  identifier: Nancy Pelosi
+- scheme: opensecrets
+  identifier: N00007360
+- scheme: votesmart
+  identifier: '26732'
+- scheme: icpsr
+  identifier: '15448'
+- scheme: thomas
+  identifier: 00905
+- scheme: cspan
+  identifier: '6153'
+- scheme: maplight
+  identifier: '408'
+- scheme: fec-candidate-id
+  identifier: H8CA05035
+candidacies: []
+contact:
+  phone: 202-225-4965
+  profile_url: https://pelosi.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1236 Longworth House Office Building Washington DC 20515-0511
+  phone: 202-225-4965
+- classification: district
+  name: San Francisco Office
+  address: 90 7th St., Suite 2-800;San Francisco, CA 94103
+  phone: 415-556-4862
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000197 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

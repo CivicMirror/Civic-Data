@@ -1,0 +1,50 @@
+id: ocd-person/a4e13df1-5437-5b95-be6b-e18580a91f40
+name: Cleo Fields
+identifiers:
+- scheme: bioguide
+  identifier: F000110
+- scheme: govtrack
+  identifier: '404067'
+- scheme: wikidata
+  identifier: Q1100451
+- scheme: wikipedia
+  identifier: Cleo Fields
+- scheme: ballotpedia
+  identifier: Cleo Fields
+- scheme: opensecrets
+  identifier: N00005398
+- scheme: votesmart
+  identifier: '26878'
+- scheme: icpsr
+  identifier: '29354'
+- scheme: thomas
+  identifier: 00379
+- scheme: fec-candidate-id
+  identifier: H4LA06211
+candidacies: []
+contact:
+  phone: 202-225-3901
+  profile_url: https://fields.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2349 Rayburn House Office Building Washington DC 20515-1806
+  phone: 202-225-3901
+- classification: district
+  name: Baton Rouge Office
+  address: 700 North 10th St, Fourth Floor;Baton Rouge, LA 70802
+  phone: 225-952-1965
+- classification: district
+  name: Shreveport Office
+  address: 610 Texas St, 4th Floor, Suites 12-13;Shreveport, LA 71101
+- classification: district
+  name: Opelousas Office
+  address: 1310 S Union St., Suite 4;Opelousas, LA 70570
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000110 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

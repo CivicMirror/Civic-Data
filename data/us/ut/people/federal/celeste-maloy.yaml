@@ -1,0 +1,52 @@
+id: ocd-person/2f3baee8-3283-5b95-b3ec-778f24475cd2
+name: Celeste Maloy
+identifiers:
+- scheme: bioguide
+  identifier: M001228
+- scheme: govtrack
+  identifier: '456956'
+- scheme: wikidata
+  identifier: Q119578731
+- scheme: wikipedia
+  identifier: Celeste Maloy
+- scheme: ballotpedia
+  identifier: Celeste Maloy
+- scheme: opensecrets
+  identifier: N00052817
+- scheme: votesmart
+  identifier: '212289'
+- scheme: fec-candidate-id
+  identifier: H4UT02296
+candidacies: []
+contact:
+  phone: 202-225-9730
+  profile_url: https://maloy.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 249 Cannon House Office Building Washington DC 20515-4402
+  phone: 202-225-9730
+- classification: district
+  name: Bountiful Office
+  address: '585 W 500 S, #230;Bountiful, UT 84010'
+  phone: 801-364-5550
+- classification: district
+  name: Delta Office
+  address: 71 S 200 W;Delta, UT 84624
+  phone: 435-691-9786
+- classification: district
+  name: Richfield Office
+  address: '250 N Main, #B14;Richfield, UT 84701'
+  phone: 435-691-9746
+- classification: district
+  name: St. George Office
+  address: 111 East Tabernacle;St. George, UT 84770
+  phone: 435-703-7720
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001228 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/c30fef5e-f818-592e-b1e7-934e24ddd50d
+name: Juan Ciscomani
+identifiers:
+- scheme: bioguide
+  identifier: C001133
+- scheme: govtrack
+  identifier: '456880'
+- scheme: wikidata
+  identifier: Q115220916
+- scheme: wikipedia
+  identifier: Juan Ciscomani
+- scheme: ballotpedia
+  identifier: Juan Ciscomani
+- scheme: opensecrets
+  identifier: N00049039
+- scheme: votesmart
+  identifier: '106728'
+- scheme: fec-candidate-id
+  identifier: H2AZ02360
+candidacies: []
+contact:
+  phone: 202-225-2542
+  profile_url: https://ciscomani.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 461 Cannon House Office Building Washington DC 20515-0306
+  phone: 202-225-2542
+- classification: district
+  name: Sierra Vista Office
+  address: 2600 E. Wilcox Dr., Room H-106;Sierra Vista, AZ 85635
+  phone: 520-459-3115
+- classification: district
+  name: Tucson Office
+  address: 1636 N Swan Road, Suite 200;Tucson, AZ 85712
+  phone: 520-881-3588
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001133 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

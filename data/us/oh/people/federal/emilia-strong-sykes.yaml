@@ -1,0 +1,44 @@
+id: ocd-person/4a42091b-d730-564a-81e2-38cfa24e350b
+name: Emilia Strong Sykes
+identifiers:
+- scheme: bioguide
+  identifier: S001223
+- scheme: govtrack
+  identifier: '456930'
+- scheme: wikidata
+  identifier: Q18637943
+- scheme: wikipedia
+  identifier: Emilia Sykes
+- scheme: ballotpedia
+  identifier: Emilia Sykes
+- scheme: opensecrets
+  identifier: N00050165
+- scheme: votesmart
+  identifier: '152164'
+- scheme: fec-candidate-id
+  identifier: H2OH13264
+candidacies: []
+contact:
+  phone: 202-225-6265
+  profile_url: https://sykes.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1217 Longworth House Office Building Washington DC 20515-3513
+  phone: 202-225-6265
+- classification: district
+  name: Akron Office
+  address: 121 South Main Street, Suite 107;Akron, OH 44308
+  phone: 330-400-5350
+- classification: district
+  name: Canton Office
+  address: 400 Third St. SE, Suite W101;Canton, OH 44702
+  phone: 330-400-5350
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001223 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,38 @@
+id: ocd-person/8214cd5b-38e8-5f5e-8f9b-732c3851a001
+name: Clay Fuller
+identifiers:
+- scheme: bioguide
+  identifier: F000485
+- scheme: govtrack
+  identifier: '457041'
+- scheme: wikidata
+  identifier: Q138355765
+- scheme: wikipedia
+  identifier: Clay Fuller
+- scheme: ballotpedia
+  identifier: Clayton Fuller
+- scheme: votesmart
+  identifier: '189784'
+- scheme: fec-candidate-id
+  identifier: H0GA14030
+candidacies: []
+contact:
+  phone: 202-225-5211
+  profile_url: https://fuller.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2201 Rayburn House Office Building Washington DC 20515-1014
+  phone: 202-225-5211
+- classification: district
+  name: Dalton Office
+  address: P.O. Box 829;Dalton, GA 30722
+  phone: 706-226-5320
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000485 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

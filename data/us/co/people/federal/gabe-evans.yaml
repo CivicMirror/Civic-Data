@@ -1,0 +1,44 @@
+id: ocd-person/5456552c-ec34-5215-8d43-e30d18a4f0af
+name: Gabe Evans
+identifiers:
+- scheme: bioguide
+  identifier: E000300
+- scheme: govtrack
+  identifier: '456984'
+- scheme: wikidata
+  identifier: Q115458993
+- scheme: wikipedia
+  identifier: Gabe Evans
+- scheme: ballotpedia
+  identifier: Gabe Evans
+- scheme: opensecrets
+  identifier: N00053312
+- scheme: votesmart
+  identifier: '206217'
+- scheme: fec-candidate-id
+  identifier: H4CO08034
+candidacies: []
+contact:
+  phone: 202-225-5625
+  profile_url: https://gabeevans.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1229 Longworth House Office Building Washington DC 20515-0001
+  phone: 202-225-5625
+- classification: district
+  name: Greeley Office
+  address: Building 1S, 3400 West 16th St, Suite C;Greeley, CO 80634
+  phone: 970-324-2567
+- classification: district
+  name: Northglenn Office
+  address: 10701 Melody Dr, Suite 500;Northglenn, CO 80234
+  phone: 303-723-6560
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000300 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

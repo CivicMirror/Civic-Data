@@ -1,0 +1,46 @@
+id: ocd-person/1f81ae48-ecac-5749-98b2-3f1eeb9f412e
+name: Mike Levin
+identifiers:
+- scheme: bioguide
+  identifier: L000593
+- scheme: govtrack
+  identifier: '412760'
+- scheme: wikidata
+  identifier: Q55424854
+- scheme: wikipedia
+  identifier: Mike Levin
+- scheme: ballotpedia
+  identifier: Mike Levin
+- scheme: opensecrets
+  identifier: N00040667
+- scheme: votesmart
+  identifier: '179416'
+- scheme: icpsr
+  identifier: '21939'
+- scheme: fec-candidate-id
+  identifier: H8CA49058
+candidacies: []
+contact:
+  phone: 202-225-3906
+  profile_url: https://levin.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2352 Rayburn House Office Building Washington DC 20515-0549
+  phone: 202-225-3906
+- classification: district
+  name: Oceanside Office
+  address: 2204 El Camino Real, Suite 314;Oceanside, CA 92054
+  phone: 760-599-5000
+- classification: district
+  name: Dana Point Office
+  address: 33282 Golden Lantern, Suite 102;Dana Point, CA 92629
+  phone: 949-281-2449
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000593 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

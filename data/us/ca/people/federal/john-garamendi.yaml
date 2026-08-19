@@ -1,0 +1,59 @@
+id: ocd-person/244ddc26-a77e-5721-b2d8-8b95da7b65d4
+name: John Garamendi
+identifiers:
+- scheme: bioguide
+  identifier: G000559
+- scheme: govtrack
+  identifier: '412382'
+- scheme: wikidata
+  identifier: Q1340268
+- scheme: wikipedia
+  identifier: John Garamendi
+- scheme: ballotpedia
+  identifier: John Garamendi
+- scheme: opensecrets
+  identifier: N00030856
+- scheme: votesmart
+  identifier: '29664'
+- scheme: icpsr
+  identifier: '20958'
+- scheme: thomas
+  identifier: 01973
+- scheme: cspan
+  identifier: '18413'
+- scheme: maplight
+  identifier: '1209'
+- scheme: fec-candidate-id
+  identifier: H0CA10149
+candidacies: []
+contact:
+  phone: 202-225-1880
+  profile_url: https://garamendi.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2428 Rayburn House Office Building Washington DC 20515-0508
+  phone: 202-225-1880
+- classification: district
+  name: Fairfield Office
+  address: 1261 Travis Boulevard, Suite 100;Fairfield, CA 94533
+  phone: 707-438-1822
+  fax: 707-438-0523
+- classification: district
+  name: Vallejo Office
+  address: '420 Virginia Street, Suite #1c;Vallejo, CA 94590'
+  phone: 707-645-1888
+  fax: 707-438-0523
+- classification: district
+  name: Richmond Office
+  address: 440 Civic Center Plaza, 2nd Floor;Richmond, CA 94804
+  phone: 510-620-1001
+  fax: 707-438-0523
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000559 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

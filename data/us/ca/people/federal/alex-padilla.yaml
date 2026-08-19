@@ -1,0 +1,63 @@
+id: ocd-person/90fc3944-3876-5eb7-ad49-34aae979a6d3
+name: Alex Padilla
+identifiers:
+- scheme: bioguide
+  identifier: P000145
+- scheme: govtrack
+  identifier: '456856'
+- scheme: wikidata
+  identifier: Q4717593
+- scheme: wikipedia
+  identifier: Alex Padilla
+- scheme: ballotpedia
+  identifier: Alex Padilla
+- scheme: opensecrets
+  identifier: N00047888
+- scheme: votesmart
+  identifier: '59742'
+- scheme: lis
+  identifier: S413
+- scheme: fec-candidate-id
+  identifier: S2CA00955
+candidacies: []
+contact:
+  phone: 202-224-3553
+  profile_url: https://www.padilla.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 331 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3553
+- classification: district
+  name: Fresno Office
+  address: 2500 Tulare Street, Suite 5290;Fresno, CA 93721
+  phone: 559-497-5109
+  fax: 202-228-3864
+- classification: district
+  name: San Francisco Office
+  address: 333 Bush Street, Suite 3225;San Francisco, CA 94104
+  phone: 415-981-9369
+  fax: 202-224-0454
+- classification: district
+  name: Sacramento Office
+  address: 501 I Street, Suite 7-800;Sacramento, CA 95814
+  phone: 916-448-2787
+  fax: 202-228-3865
+- classification: district
+  name: San Diego Office
+  address: 600 B Street, Suite 2240;San Diego, CA 92101
+  phone: 619-239-3884
+  fax: 202-228-3863
+- classification: district
+  name: Los Angeles Office
+  address: 255 E. Temple St., Suite 1860;Los Angeles, CA 90012
+  phone: 310-231-4494
+  fax: 202-224-0357
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000145 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

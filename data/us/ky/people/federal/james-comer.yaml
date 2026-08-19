@@ -1,0 +1,58 @@
+id: ocd-person/9531c8ea-1ee0-5d6f-9d6b-5d3add8ab1a2
+name: James Comer
+identifiers:
+- scheme: bioguide
+  identifier: C001108
+- scheme: govtrack
+  identifier: '412676'
+- scheme: wikidata
+  identifier: Q6131602
+- scheme: wikipedia
+  identifier: James Comer
+- scheme: ballotpedia
+  identifier: James Comer Jr.
+- scheme: opensecrets
+  identifier: N00038260
+- scheme: votesmart
+  identifier: '35169'
+- scheme: icpsr
+  identifier: '21565'
+- scheme: cspan
+  identifier: '76619'
+- scheme: maplight
+  identifier: '2166'
+- scheme: fec-candidate-id
+  identifier: H6KY01110
+candidacies: []
+contact:
+  phone: 202-225-3115
+  profile_url: https://comer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2410 Rayburn House Office Building Washington DC 20515-1701
+  phone: 202-225-3115
+- classification: district
+  name: Paducah Office
+  address: 300 S. 3rd St.;Paducah, KY 42003
+  phone: 270-408-1865
+- classification: district
+  name: Tompkinsville Office
+  address: 200 N. Main St., Suite F;Tompkinsville, KY 42167
+  phone: 270-487-9509
+- classification: district
+  name: Madisonville Office
+  address: 67 North Main St.;Madisonville, KY 42431
+  phone: 270-487-9509
+- classification: district
+  name: Danville Office
+  address: 141 N. 3rd Street, Suite 5;Danville, KY 40422
+  phone: 859-439-5844
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001108 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

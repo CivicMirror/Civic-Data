@@ -1,0 +1,86 @@
+id: ocd-person/3299c97f-291f-5b02-bdd7-412c13653d67
+name: Kirsten E. Gillibrand
+identifiers:
+- scheme: bioguide
+  identifier: G000555
+- scheme: govtrack
+  identifier: '412223'
+- scheme: wikidata
+  identifier: Q22222
+- scheme: wikipedia
+  identifier: Kirsten Gillibrand
+- scheme: ballotpedia
+  identifier: Kirsten Gillibrand
+- scheme: opensecrets
+  identifier: N00027658
+- scheme: votesmart
+  identifier: '65147'
+- scheme: icpsr
+  identifier: '20735'
+- scheme: lis
+  identifier: S331
+- scheme: thomas
+  identifier: 01866
+- scheme: cspan
+  identifier: '1022862'
+- scheme: maplight
+  identifier: '708'
+- scheme: fec-candidate-id
+  identifier: S0NY00410
+candidacies: []
+contact:
+  phone: 202-224-4451
+  profile_url: https://www.gillibrand.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 478 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4451
+- classification: district
+  name: Albany Office
+  address: Leo W. O’Brien Federal Office Building, 11A Clinton Avenue, Room 821;Albany, NY 12207
+  phone: 518-431-0120
+  fax: 202-224-0038
+- classification: district
+  name: Buffalo Office
+  address: Larkin At Exchange, 726 Exchange St., Suite 511;Buffalo, NY 14210
+  phone: 716-854-9725
+  fax: 202-224-0039
+- classification: district
+  name: Lowville Office
+  address: PO Box 273;Lowville, NY 13367
+  phone: 315-376-6118
+  fax: 202-224-0055
+- classification: district
+  name: New York Office
+  address: 780 Third Ave., Suite 2601;New York, NY 10017
+  phone: 212-688-6262
+  fax: 866-824-6340
+- classification: district
+  name: Melville Office
+  address: 155 Pinelawn Rd., Suite 250 North;Melville, NY 11747
+  phone: 631-249-2825
+  fax: 202-224-0044
+- classification: district
+  name: Rochester Office
+  address: Kenneth B. Keating Federal Office Building, 100 State St., Room 4195;Rochester, NY 14614
+  phone: 585-263-6250
+  fax: 202-224-0063
+- classification: district
+  name: Syracuse Office
+  address: James M. Hanley Federal Building, 100 S. Clinton St., Room 1470;Syracuse, NY 13261
+  phone: 315-448-0470
+  fax: 202-224-0064
+- classification: district
+  name: Yonkers Office
+  address: PO Box 749;Yonkers, NY 10710-0749
+  phone: 845-875-4585
+  fax: 202-224-0052
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000555 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,56 @@
+id: ocd-person/60be57cc-3849-575e-affc-4a07b2a668f7
+name: Richard Blumenthal
+identifiers:
+- scheme: bioguide
+  identifier: B001277
+- scheme: govtrack
+  identifier: '412490'
+- scheme: wikidata
+  identifier: Q2023708
+- scheme: wikipedia
+  identifier: Richard Blumenthal
+- scheme: ballotpedia
+  identifier: Richard Blumenthal
+- scheme: opensecrets
+  identifier: N00031685
+- scheme: votesmart
+  identifier: '1568'
+- scheme: icpsr
+  identifier: '41101'
+- scheme: lis
+  identifier: S341
+- scheme: thomas
+  identifier: '02076'
+- scheme: cspan
+  identifier: '21799'
+- scheme: maplight
+  identifier: '1495'
+- scheme: fec-candidate-id
+  identifier: S0CT00177
+candidacies: []
+contact:
+  phone: 202-224-2823
+  profile_url: https://www.blumenthal.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 503 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2823
+- classification: district
+  name: Bridgeport Office
+  address: 915 Lafayette Blvd., Suite 304;Bridgeport, CT 06604
+  phone: 203-330-0598
+  fax: 203-330-0608
+- classification: district
+  name: Hartford Office
+  address: 90 State House Sq., 10th Floor;Hartford, CT 06103
+  phone: 860-258-6940
+  fax: 860-258-6958
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001277 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,58 @@
+id: ocd-person/30c9a244-0464-510a-9080-44825b7c6b8b
+name: Adam B. Schiff
+identifiers:
+- scheme: bioguide
+  identifier: S001150
+- scheme: govtrack
+  identifier: '400361'
+- scheme: wikidata
+  identifier: Q350843
+- scheme: wikipedia
+  identifier: Adam Schiff
+- scheme: ballotpedia
+  identifier: Adam Schiff
+- scheme: opensecrets
+  identifier: N00009585
+- scheme: votesmart
+  identifier: '9489'
+- scheme: icpsr
+  identifier: '20104'
+- scheme: lis
+  identifier: S427
+- scheme: thomas
+  identifier: '01635'
+- scheme: cspan
+  identifier: '90167'
+- scheme: maplight
+  identifier: '453'
+- scheme: fec-candidate-id
+  identifier: S4CA00555
+candidacies: []
+contact:
+  phone: 202-224-3841
+  profile_url: https://www.schiff.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 112 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3841
+- classification: district
+  name: San Francisco Office
+  address: 1 Post St, Suite 2450;San Francisco, CA 94104
+  phone: 415-393-0707
+- classification: district
+  name: Fresno Office
+  address: 2500 Tulare Street, Suite 4290;Fresno, CA 93721
+  phone: 559-485-7430
+- classification: district
+  name: San Diego Office
+  address: 880 Front Street, Suite 4236;San Diego, CA 92101
+  phone: 619-231-9712
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001150 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

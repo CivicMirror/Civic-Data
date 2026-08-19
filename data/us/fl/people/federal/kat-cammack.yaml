@@ -1,0 +1,41 @@
+id: ocd-person/e46ab8ed-85e7-584e-ab90-e7e95f19bf38
+name: Kat Cammack
+identifiers:
+- scheme: bioguide
+  identifier: C001039
+- scheme: govtrack
+  identifier: '456806'
+- scheme: wikidata
+  identifier: Q98523243
+- scheme: wikipedia
+  identifier: Kat Cammack
+- scheme: ballotpedia
+  identifier: Kat Cammack
+- scheme: opensecrets
+  identifier: N00045978
+- scheme: votesmart
+  identifier: '191306'
+- scheme: fec-candidate-id
+  identifier: H0FL03175
+candidacies: []
+contact:
+  phone: 202-225-5744
+  profile_url: https://cammack.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2421 Rayburn House Office Building Washington DC 20515-0903
+  phone: 202-225-5744
+- classification: district
+  name: Gainesville Office
+  address: 5550 NW 111th Boulevard, Suite A;Gainesville, FL 32653
+  phone: 352-505-0838
+  fax: 771-200-5542
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001039 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

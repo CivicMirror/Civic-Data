@@ -1,0 +1,54 @@
+id: ocd-person/a6e6af7d-533f-57f8-9b02-f8e22b89c167
+name: Mike Rogers
+identifiers:
+- scheme: bioguide
+  identifier: R000575
+- scheme: govtrack
+  identifier: '400341'
+- scheme: wikidata
+  identifier: Q693238
+- scheme: wikipedia
+  identifier: Mike Rogers (Alabama politician)
+- scheme: ballotpedia
+  identifier: Mike Rogers (Alabama)
+- scheme: opensecrets
+  identifier: N00024759
+- scheme: votesmart
+  identifier: '5705'
+- scheme: icpsr
+  identifier: '20301'
+- scheme: thomas
+  identifier: '01704'
+- scheme: cspan
+  identifier: '1014740'
+- scheme: maplight
+  identifier: '433'
+- scheme: fec-candidate-id
+  identifier: H2AL03032
+candidacies: []
+contact:
+  phone: 202-225-3261
+  profile_url: https://mikerogers.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2469 Rayburn House Office Building Washington DC 20515-0103
+  phone: 202-225-3261
+- classification: district
+  name: Opelika Office
+  address: G.W. Andrews Federal Building, 701 Avenue A, Suite 300;Opelika, AL 36801
+  phone: 334-745-6221
+  fax: 334-742-0109
+- classification: district
+  name: Oxford Office
+  address: 149 East Hamric Drive, Suite D;Oxford, AL 36203
+  phone: 256-236-5655
+  fax: 844-635-4276
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000575 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

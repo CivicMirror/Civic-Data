@@ -1,0 +1,40 @@
+id: ocd-person/da3001bb-20f7-5b64-83a2-79e4adbcb237
+name: Morgan McGarvey
+identifiers:
+- scheme: bioguide
+  identifier: M001220
+- scheme: govtrack
+  identifier: '456904'
+- scheme: wikidata
+  identifier: Q16732298
+- scheme: wikipedia
+  identifier: Morgan McGarvey
+- scheme: ballotpedia
+  identifier: Morgan McGarvey
+- scheme: opensecrets
+  identifier: N00049295
+- scheme: votesmart
+  identifier: '139826'
+- scheme: fec-candidate-id
+  identifier: H2KY03206
+candidacies: []
+contact:
+  phone: 202-225-5401
+  profile_url: https://mcgarvey.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1527 Longworth House Office Building Washington DC 20515-1703
+  phone: 202-225-5401
+- classification: district
+  name: Louisville Office
+  address: Romano L. Mazzoli Federal Building, 600 Dr Martin Luther King Jr Pl, Suite 216;Louisville, KY 40202
+  phone: 502-582-5129
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001220 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

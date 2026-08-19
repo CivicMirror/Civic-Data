@@ -1,0 +1,50 @@
+id: ocd-person/1a5c4f84-8793-5760-94db-30391d3194ab
+name: Jack Bergman
+identifiers:
+- scheme: bioguide
+  identifier: B001301
+- scheme: govtrack
+  identifier: '412709'
+- scheme: wikidata
+  identifier: Q6262116
+- scheme: wikipedia
+  identifier: Jack Bergman
+- scheme: ballotpedia
+  identifier: Jack Bergman
+- scheme: opensecrets
+  identifier: N00039533
+- scheme: votesmart
+  identifier: '170172'
+- scheme: icpsr
+  identifier: '21704'
+- scheme: cspan
+  identifier: '1020529'
+- scheme: maplight
+  identifier: '2221'
+- scheme: fec-candidate-id
+  identifier: H6MI01226
+candidacies: []
+contact:
+  phone: 202-225-4735
+  profile_url: https://bergman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 566 Cannon House Office Building Washington DC 20515-2201
+  phone: 202-225-4735
+- classification: district
+  name: Traverse City Office
+  address: 1396 Douglas Drive, Suite 22B;Traverse City, MI 49696
+  phone: 231-944-7633
+- classification: district
+  name: Gwinn Office
+  address: 125 G Avenue, B;Gwinn, MI 49841
+  phone: 906-273-2227
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001301 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

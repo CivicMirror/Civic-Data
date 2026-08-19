@@ -1,0 +1,51 @@
+id: ocd-person/c90f2210-7fca-5032-9c14-0309542a24d0
+name: Peter Welch
+identifiers:
+- scheme: bioguide
+  identifier: W000800
+- scheme: govtrack
+  identifier: '412239'
+- scheme: wikidata
+  identifier: Q1112656
+- scheme: wikipedia
+  identifier: Peter Welch
+- scheme: ballotpedia
+  identifier: Peter Welch
+- scheme: opensecrets
+  identifier: N00000515
+- scheme: votesmart
+  identifier: '51272'
+- scheme: icpsr
+  identifier: '20750'
+- scheme: lis
+  identifier: S422
+- scheme: thomas
+  identifier: 01879
+- scheme: cspan
+  identifier: '1019990'
+- scheme: maplight
+  identifier: '722'
+- scheme: fec-candidate-id
+  identifier: S2VT00235
+candidacies: []
+contact:
+  phone: 202-224-4242
+  profile_url: https://www.welch.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 115 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4242
+- classification: district
+  name: Burlington Office
+  address: 199 Main St., 4th Floor;Burlington, VT 05401
+  phone: 802-863-2525
+  fax: 202-228-7575
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000800 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

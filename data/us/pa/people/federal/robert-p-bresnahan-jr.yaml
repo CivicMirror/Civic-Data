@@ -1,0 +1,52 @@
+id: ocd-person/bdc382be-9188-5358-8289-4b3e8e4d9f8a
+name: Robert P. Bresnahan, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: B001327
+- scheme: govtrack
+  identifier: '457018'
+- scheme: wikidata
+  identifier: Q130963821
+- scheme: wikipedia
+  identifier: Rob Bresnahan
+- scheme: ballotpedia
+  identifier: Rob Bresnahan Jr.
+- scheme: opensecrets
+  identifier: N00053588
+- scheme: votesmart
+  identifier: '214735'
+- scheme: fec-candidate-id
+  identifier: H4PA08124
+candidacies: []
+contact:
+  phone: 202-225-5546
+  profile_url: https://bresnahan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1133 Longworth House Office Building Washington DC 20515-3808
+  phone: 202-225-5546
+- classification: district
+  name: Scotrun Office
+  address: 2398 Rt 611, Suite 101;Scotrun, PA 18355
+  phone: 570-534-6220
+- classification: district
+  name: Forty-Fort Office
+  address: Bldg. B, 900 Rutter Ave, 1st Floor, Suite C;Forty-Fort, PA 18704
+  phone: 570-763-6120
+- classification: district
+  name: Hazleton Office
+  address: 145 E Broad St, Suite 3;Hazleton, PA 18201
+  phone: 570-710-6830
+- classification: district
+  name: Scranton Office
+  address: 116 North Washington Ave, Suite 101;Scranton, PA 18503
+  phone: 570-906-6850
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001327 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

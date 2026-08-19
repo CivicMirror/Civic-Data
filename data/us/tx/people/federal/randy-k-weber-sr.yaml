@@ -1,0 +1,59 @@
+id: ocd-person/fe6342d9-7c4f-522e-b837-58d9ab1d167e
+name: Randy K. Weber, Sr.
+identifiers:
+- scheme: bioguide
+  identifier: W000814
+- scheme: govtrack
+  identifier: '412574'
+- scheme: wikidata
+  identifier: Q4014569
+- scheme: wikipedia
+  identifier: Randy Weber
+- scheme: ballotpedia
+  identifier: Randy Weber
+- scheme: opensecrets
+  identifier: N00033539
+- scheme: votesmart
+  identifier: '102026'
+- scheme: icpsr
+  identifier: '21360'
+- scheme: thomas
+  identifier: '02161'
+- scheme: cspan
+  identifier: '79698'
+- scheme: maplight
+  identifier: '1798'
+- scheme: fec-candidate-id
+  identifier: H2TX14149
+candidacies: []
+contact:
+  phone: 202-225-2831
+  profile_url: https://weber.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 107 Cannon House Office Building Washington DC 20515-4314
+  phone: 202-225-2831
+- classification: district
+  name: Lake Jackson Office
+  address: 122 West Way, Suite 301;Lake Jackson, TX 77566
+  phone: 979-285-0231
+  fax: 979-285-0271
+- classification: district
+  name: League City Office
+  address: League City Office, 174 Calder Drive, Suite 600;League City, TX 77573
+  phone: 281-316-0231
+  fax: 281-316-0271
+- classification: district
+  name: Beaumont Office
+  address: Beaumont Office, 350 Pine St., Suite 1450;Beaumont, TX 77701
+  phone: 409-835-0108
+  fax: 409-835-0578
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000814 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

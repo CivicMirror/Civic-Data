@@ -1,0 +1,40 @@
+id: ocd-person/6b5ed167-20e4-513e-b194-f34e01c6781f
+name: Hillary J. Scholten
+identifiers:
+- scheme: bioguide
+  identifier: S001221
+- scheme: govtrack
+  identifier: '456906'
+- scheme: wikidata
+  identifier: Q115137368
+- scheme: wikipedia
+  identifier: Hillary Scholten
+- scheme: ballotpedia
+  identifier: Hillary Scholten
+- scheme: opensecrets
+  identifier: N00044885
+- scheme: votesmart
+  identifier: '191584'
+- scheme: fec-candidate-id
+  identifier: H0MI03316
+candidacies: []
+contact:
+  phone: 202-225-3831
+  profile_url: https://scholten.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1317 Longworth House Office Building Washington DC 20515-2203
+  phone: 202-225-3831
+- classification: district
+  name: Grand Rapids Office
+  address: 110 Michigan Street NW;Grand Rapids, MI 49503
+  phone: 616-451-8383
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001221 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

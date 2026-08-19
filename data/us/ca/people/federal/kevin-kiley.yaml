@@ -1,0 +1,40 @@
+id: ocd-person/feed725b-2db9-5dc3-ad41-4539d19e9ba4
+name: Kevin Kiley
+identifiers:
+- scheme: bioguide
+  identifier: K000401
+- scheme: govtrack
+  identifier: '456881'
+- scheme: wikidata
+  identifier: Q27987136
+- scheme: wikipedia
+  identifier: Kevin Kiley (politician)
+- scheme: ballotpedia
+  identifier: Kevin Kiley
+- scheme: opensecrets
+  identifier: N00050259
+- scheme: votesmart
+  identifier: '169303'
+- scheme: fec-candidate-id
+  identifier: H2CA03157
+candidacies: []
+contact:
+  phone: 202-225-2523
+  profile_url: https://kiley.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2445 Rayburn House Office Building Washington DC 20515-0503
+  phone: 202-225-2523
+- classification: district
+  name: Rocklin Office
+  address: 6538 Lonetree Blvd, Suite 200;Rocklin, CA 95765
+  phone: 916-724-2575
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000401 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

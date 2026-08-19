@@ -1,0 +1,49 @@
+id: ocd-person/a5c58981-0faa-5418-9fc4-f172359d5729
+name: André Carson
+identifiers:
+- scheme: bioguide
+  identifier: C001072
+- scheme: govtrack
+  identifier: '412258'
+- scheme: wikidata
+  identifier: Q517649
+- scheme: wikipedia
+  identifier: André Carson
+- scheme: ballotpedia
+  identifier: Andre Carson
+- scheme: opensecrets
+  identifier: N00029513
+- scheme: votesmart
+  identifier: '84917'
+- scheme: icpsr
+  identifier: '20757'
+- scheme: thomas
+  identifier: 01889
+- scheme: cspan
+  identifier: '1027364'
+- scheme: maplight
+  identifier: '739'
+- scheme: fec-candidate-id
+  identifier: H8IN07184
+candidacies: []
+contact:
+  phone: 202-225-4011
+  profile_url: https://carson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2135 Rayburn House Office Building Washington DC 20515-1407
+  phone: 202-225-4011
+- classification: district
+  name: Indianapolis Office
+  address: 300 E. Fall Creek Pkwy N Dr., Suite 300;Indianapolis, IN 46205
+  phone: 317-283-6516
+  fax: 317-283-6567
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001072 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

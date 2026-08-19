@@ -1,0 +1,80 @@
+id: ocd-person/08fa5ae0-18ae-50e2-bd3c-d2fab9bd0fdf
+name: Steve Daines
+identifiers:
+- scheme: bioguide
+  identifier: D000618
+- scheme: govtrack
+  identifier: '412549'
+- scheme: wikidata
+  identifier: Q3200900
+- scheme: wikipedia
+  identifier: Steve Daines
+- scheme: ballotpedia
+  identifier: Steve Daines
+- scheme: opensecrets
+  identifier: N00033054
+- scheme: votesmart
+  identifier: '135720'
+- scheme: icpsr
+  identifier: '21338'
+- scheme: lis
+  identifier: S375
+- scheme: thomas
+  identifier: 02138
+- scheme: cspan
+  identifier: '1034037'
+- scheme: maplight
+  identifier: '1773'
+- scheme: fec-candidate-id
+  identifier: S2MT00096
+candidacies: []
+contact:
+  phone: 202-224-2651
+  profile_url: https://www.daines.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 320 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2651
+- classification: district
+  name: Billings Office
+  address: 222 N. 32nd St., Suite 100;Billings, MT 59101
+  phone: 406-245-6822
+  fax: 406-245-1607
+- classification: district
+  name: Great Falls Office
+  address: 104 4th Street North, Suite 302;Great Falls, MT 59401
+  phone: 406-453-0148
+  fax: 406-453-5379
+- classification: district
+  name: Helena Office
+  address: 30 W. 14th St., Suite 206;Helena, MT 59601
+  phone: 406-443-3189
+  fax: 406-443-3306
+- classification: district
+  name: Missoula Office
+  address: 218 E. Front St., Suite 103;Missoula, MT 59802
+  phone: 406-549-8198
+  fax: 406-549-0905
+- classification: district
+  name: Sidney Office
+  address: 'Central Plaza Building, 609 S. Central Ave., Suite #4;Sidney, MT 59270'
+  phone: 406-482-9010
+  fax: 406-482-9059
+- classification: district
+  name: Bozeman Office
+  address: 1450 Twin Lakes Avenue, Suite 201A;Bozeman, MT 59718
+  phone: 406-587-3446
+  fax: 406-219-2354
+- classification: district
+  name: Kalispell Office
+  address: 121 Financial Drive, Suite 127;Kalispell, MT 59901
+  phone: 406-257-3765
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000618 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,70 @@
+id: ocd-person/8595b9fb-4bbc-5e26-be22-86108972ee7c
+name: Mitch McConnell
+identifiers:
+- scheme: bioguide
+  identifier: M000355
+- scheme: govtrack
+  identifier: '300072'
+- scheme: wikidata
+  identifier: Q355522
+- scheme: wikipedia
+  identifier: Mitch McConnell
+- scheme: ballotpedia
+  identifier: Mitch McConnell
+- scheme: opensecrets
+  identifier: N00003389
+- scheme: votesmart
+  identifier: '53298'
+- scheme: icpsr
+  identifier: '14921'
+- scheme: lis
+  identifier: S174
+- scheme: thomas
+  identifier: 01395
+- scheme: cspan
+  identifier: '2351'
+- scheme: maplight
+  identifier: '593'
+- scheme: fec-candidate-id
+  identifier: S2KY00012
+candidacies: []
+contact:
+  phone: 202-224-2541
+  profile_url: https://www.mcconnell.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 317 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-2541
+- classification: district
+  name: Bowling Green Office
+  address: Federal Building, 241 E. Main St., Room 102;Bowling Green, KY 42101
+  phone: 270-781-1673
+- classification: district
+  name: Fort Wright Office
+  address: 1885 Dixie Hwy., Suite 345;Fort Wright, KY 41011
+  phone: 859-578-0188
+- classification: district
+  name: Lexington Office
+  address: 771 Corporate Dr., Suite 108;Lexington, KY 40503
+  phone: 859-224-8286
+- classification: district
+  name: London Office
+  address: 300 S. Main St., Suite 310;London, KY 40741
+  phone: 606-864-2026
+- classification: district
+  name: Louisville Office
+  address: 601 W. Broadway, Room 630;Louisville, KY 40202
+  phone: 502-582-6304
+- classification: district
+  name: Paducah Office
+  address: 501 Broadway Street, Suite B36;Paducah, KY 42001
+  phone: 270-442-4554
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M000355 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

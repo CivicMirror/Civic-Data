@@ -1,0 +1,49 @@
+id: ocd-person/02db54d1-c824-5c71-9d7f-ba198a346abf
+name: Danny K. Davis
+identifiers:
+- scheme: bioguide
+  identifier: D000096
+- scheme: govtrack
+  identifier: '400093'
+- scheme: wikidata
+  identifier: Q1164657
+- scheme: wikipedia
+  identifier: Danny Davis (Illinois politician)
+- scheme: ballotpedia
+  identifier: Danny K. Davis
+- scheme: opensecrets
+  identifier: N00004884
+- scheme: votesmart
+  identifier: '233'
+- scheme: icpsr
+  identifier: '29717'
+- scheme: thomas
+  identifier: '01477'
+- scheme: cspan
+  identifier: '44325'
+- scheme: maplight
+  identifier: '209'
+- scheme: fec-candidate-id
+  identifier: H4IL07037
+candidacies: []
+contact:
+  phone: 202-225-5006
+  profile_url: https://davis.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2159 Rayburn House Office Building Washington DC 20515-1307
+  phone: 202-225-5006
+- classification: district
+  name: Chicago Office
+  address: 2815 W. Fifth Avenue;Chicago, IL 60612
+  phone: 773-533-7520
+  fax: 844-274-0426
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000096 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

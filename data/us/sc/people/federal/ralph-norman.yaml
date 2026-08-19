@@ -1,0 +1,47 @@
+id: ocd-person/17f59ff4-bed3-5357-be2e-108b5f0c01c1
+name: Ralph Norman
+identifiers:
+- scheme: bioguide
+  identifier: N000190
+- scheme: govtrack
+  identifier: '412738'
+- scheme: wikidata
+  identifier: Q7287914
+- scheme: wikipedia
+  identifier: Ralph Norman
+- scheme: ballotpedia
+  identifier: Ralph Norman
+- scheme: opensecrets
+  identifier: N00027783
+- scheme: votesmart
+  identifier: '47930'
+- scheme: icpsr
+  identifier: '21753'
+- scheme: cspan
+  identifier: '61996'
+- scheme: maplight
+  identifier: '2248'
+- scheme: fec-candidate-id
+  identifier: S6SC04445
+candidacies: []
+contact:
+  phone: 202-225-5501
+  profile_url: https://norman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 569 Cannon House Office Building Washington DC 20515-4005
+  phone: 202-225-5501
+- classification: district
+  name: Rock Hill Office
+  address: 516 Oakland Ave;Rock Hill, SC 29730
+  phone: 803-327-1114
+  fax: 803-327-4330
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000190 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

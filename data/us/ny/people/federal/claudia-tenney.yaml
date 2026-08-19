@@ -1,0 +1,57 @@
+id: ocd-person/dc9387db-c062-5561-b610-fe60587e3c8e
+name: Claudia Tenney
+identifiers:
+- scheme: bioguide
+  identifier: T000478
+- scheme: govtrack
+  identifier: '412720'
+- scheme: wikidata
+  identifier: Q5129263
+- scheme: wikipedia
+  identifier: Claudia Tenney
+- scheme: ballotpedia
+  identifier: Claudia Tenney
+- scheme: opensecrets
+  identifier: N00036351
+- scheme: votesmart
+  identifier: '127668'
+- scheme: icpsr
+  identifier: '21749'
+- scheme: cspan
+  identifier: '103481'
+- scheme: maplight
+  identifier: '2232'
+- scheme: fec-candidate-id
+  identifier: H4NY22051
+candidacies: []
+contact:
+  phone: 202-225-3665
+  profile_url: https://tenney.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2230 Rayburn House Office Building Washington DC 20515-3224
+  phone: 202-225-3665
+- classification: district
+  name: Oswego Office
+  address: 46 E Bridge Street, Suite 102;Oswego, NY 13126
+  phone: 315-236-7088
+- classification: district
+  name: Watertown Office
+  address: 317 Washington Street, Suite 418;Watertown, NY 13601
+- classification: district
+  name: Lockport Office
+  address: 169 Niagara Street;Lockport, NY 14094
+  phone: 716-514-5130
+- classification: district
+  name: Canandaigua Office
+  address: 2375 Rochester Rd., Suite 250;Canandaigua, NY 14424
+  phone: 585-869-2060
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000478 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

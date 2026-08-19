@@ -1,0 +1,49 @@
+id: ocd-person/de487e3f-15da-52f3-8317-093cea735f1f
+name: Scott Franklin
+identifiers:
+- scheme: bioguide
+  identifier: F000472
+- scheme: govtrack
+  identifier: '456807'
+- scheme: wikidata
+  identifier: Q101198561
+- scheme: wikipedia
+  identifier: Scott Franklin (politician)
+- scheme: ballotpedia
+  identifier: Scott Franklin
+- scheme: opensecrets
+  identifier: N00046760
+- scheme: votesmart
+  identifier: '191355'
+- scheme: fec-candidate-id
+  identifier: H0FL15104
+candidacies: []
+contact:
+  phone: 202-225-1252
+  profile_url: https://franklin.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2301 Rayburn House Office Building Washington DC 20515-0918
+  phone: 202-225-1252
+- classification: district
+  name: Lakeland Office
+  address: 124 S. Florida Avenue, Suite 304;Lakeland, FL 33801
+  phone: 863-644-8215
+  fax: 863-337-4104
+- classification: district
+  name: Lake Placid Office
+  address: 1069 US 27 North, Suite 116;Lake Placid, FL 33852
+  phone: 863-644-8215
+- classification: district
+  name: Lake Wales Office
+  address: 201 West Central Avenue;Lake Wales, FL 33853
+  phone: 863-644-8215
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000472 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

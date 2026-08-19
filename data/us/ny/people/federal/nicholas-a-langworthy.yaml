@@ -1,0 +1,52 @@
+id: ocd-person/e4953372-5992-57c5-b655-4790c1329f49
+name: Nicholas A. Langworthy
+identifiers:
+- scheme: bioguide
+  identifier: L000600
+- scheme: govtrack
+  identifier: '456927'
+- scheme: wikidata
+  identifier: Q55356856
+- scheme: wikipedia
+  identifier: Nick Langworthy
+- scheme: ballotpedia
+  identifier: Nick Langworthy
+- scheme: opensecrets
+  identifier: N00051431
+- scheme: votesmart
+  identifier: '208663'
+- scheme: fec-candidate-id
+  identifier: H2NY23228
+candidacies: []
+contact:
+  phone: 202-225-3161
+  profile_url: https://langworthy.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 422 Cannon House Office Building Washington DC 20515-3223
+  phone: 202-225-3161
+- classification: district
+  name: Williamsville Office
+  address: 8201 Main Street, Suite 13;Williamsville, NY 14221
+  phone: 716-547-6844
+- classification: district
+  name: Jamestown Office
+  address: The Fenton Building, 2-6 East Second Street, Room 208;Jamestown, NY 14701
+  phone: 716-488-8111
+- classification: district
+  name: Olean Office
+  address: 1 Bluebird Square;Olean, NY 14760
+  phone: 585-543-5033
+- classification: district
+  name: Corning Office
+  address: 89 W. Market Street;Corning, NY 14830
+  phone: 607-377-3130
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000600 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

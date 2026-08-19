@@ -1,0 +1,49 @@
+id: ocd-person/fec9a957-d9e2-5feb-8444-6ee35bf47f74
+name: Steve Cohen
+identifiers:
+- scheme: bioguide
+  identifier: C001068
+- scheme: govtrack
+  identifier: '412236'
+- scheme: wikidata
+  identifier: Q512330
+- scheme: wikipedia
+  identifier: Steve Cohen (politician)
+- scheme: ballotpedia
+  identifier: Steve Cohen
+- scheme: opensecrets
+  identifier: N00003225
+- scheme: votesmart
+  identifier: '24340'
+- scheme: icpsr
+  identifier: '20748'
+- scheme: thomas
+  identifier: 01878
+- scheme: cspan
+  identifier: '1022876'
+- scheme: maplight
+  identifier: '721'
+- scheme: fec-candidate-id
+  identifier: H6TN09068
+candidacies: []
+contact:
+  phone: 202-225-3265
+  profile_url: https://cohen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2268 Rayburn House Office Building Washington DC 20515-4209
+  phone: 202-225-3265
+- classification: district
+  name: Memphis Office
+  address: The Odell Horton Federal Building, 167 N. Main St., Suite 369;Memphis, TN 38103
+  phone: 901-544-4131
+  fax: 901-544-4329
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001068 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

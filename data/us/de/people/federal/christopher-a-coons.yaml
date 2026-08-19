@@ -1,0 +1,56 @@
+id: ocd-person/317c0d63-5e09-5158-8adb-f33d33bd70a8
+name: Christopher A. Coons
+identifiers:
+- scheme: bioguide
+  identifier: C001088
+- scheme: govtrack
+  identifier: '412390'
+- scheme: wikidata
+  identifier: Q923242
+- scheme: wikipedia
+  identifier: Chris Coons
+- scheme: ballotpedia
+  identifier: Chris Coons
+- scheme: opensecrets
+  identifier: N00031820
+- scheme: votesmart
+  identifier: '122834'
+- scheme: icpsr
+  identifier: '40916'
+- scheme: lis
+  identifier: S337
+- scheme: thomas
+  identifier: 01984
+- scheme: cspan
+  identifier: '9269028'
+- scheme: maplight
+  identifier: '1371'
+- scheme: fec-candidate-id
+  identifier: S0DE00092
+candidacies: []
+contact:
+  phone: 202-224-5042
+  profile_url: https://www.coons.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 218 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-5042
+- classification: district
+  name: Wilmington Office
+  address: 1105 N. Market St., Suite 100;Wilmington, DE 19801-1233
+  phone: 302-573-6345
+  fax: 302-573-6351
+- classification: district
+  name: Dover Office
+  address: 555 E. Loockerman St., Suite 330;Dover, DE 19901
+  phone: 302-736-5601
+  fax: 302-736-5609
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001088 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

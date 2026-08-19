@@ -1,0 +1,71 @@
+id: ocd-person/7671b4fb-57a6-5fd8-b475-975b355a4def
+name: Jeff Merkley
+identifiers:
+- scheme: bioguide
+  identifier: M001176
+- scheme: govtrack
+  identifier: '412325'
+- scheme: wikidata
+  identifier: Q1368405
+- scheme: wikipedia
+  identifier: Jeff Merkley
+- scheme: ballotpedia
+  identifier: Jeff Merkley
+- scheme: opensecrets
+  identifier: N00029303
+- scheme: votesmart
+  identifier: '23644'
+- scheme: icpsr
+  identifier: '40908'
+- scheme: lis
+  identifier: S322
+- scheme: thomas
+  identifier: 01900
+- scheme: cspan
+  identifier: '1029842'
+- scheme: maplight
+  identifier: '807'
+- scheme: fec-candidate-id
+  identifier: S8OR00207
+candidacies: []
+contact:
+  phone: 202-224-3753
+  profile_url: https://www.merkley.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 531 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3753
+- classification: district
+  name: Baker City Office
+  address: 1705 Main St., Suite 504;Baker City, OR 97814
+  phone: 541-278-1129
+- classification: district
+  name: Bend Office
+  address: 131 NW Hawthorne Ave., Suite 208;Bend, OR 97703
+  phone: 541-318-1298
+- classification: district
+  name: Eugene Office
+  address: 405 East 8th Ave., Suite 2010;Eugene, OR 97401
+  phone: 541-465-6750
+- classification: district
+  name: Medford Office
+  address: 10 South Bartlett St., Suite 201;Medford, OR 97501
+  phone: 541-608-9102
+- classification: district
+  name: Portland Office
+  address: 121 SW Salmon St., Suite 1400;Portland, OR 97204
+  phone: 503-326-3386
+  fax: 202-224-2073
+- classification: district
+  name: Salem Office
+  address: 500 Liberty St. SE, Suite 320;Salem, OR 97301
+  phone: 503-362-8102
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001176 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

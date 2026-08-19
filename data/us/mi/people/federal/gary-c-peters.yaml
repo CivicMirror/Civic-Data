@@ -1,0 +1,74 @@
+id: ocd-person/6747d5a5-041f-5576-9362-d48f872c356c
+name: Gary C. Peters
+identifiers:
+- scheme: bioguide
+  identifier: P000595
+- scheme: govtrack
+  identifier: '412305'
+- scheme: wikidata
+  identifier: Q1494930
+- scheme: wikipedia
+  identifier: Gary Peters
+- scheme: ballotpedia
+  identifier: Gary Peters
+- scheme: opensecrets
+  identifier: N00029277
+- scheme: votesmart
+  identifier: '8749'
+- scheme: icpsr
+  identifier: '20923'
+- scheme: lis
+  identifier: S380
+- scheme: thomas
+  identifier: 01929
+- scheme: cspan
+  identifier: '50199'
+- scheme: maplight
+  identifier: '787'
+- scheme: fec-candidate-id
+  identifier: S4MI00355
+candidacies: []
+contact:
+  phone: 202-224-6221
+  profile_url: https://www.peters.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 724 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-6221
+- classification: district
+  name: Detroit Office
+  address: Patrick V. McNamara Federal Building, 477 Michigan Ave., Suite 1837;Detroit, MI 48226
+  phone: 313-226-6020
+- classification: district
+  name: Grand Rapids Office
+  address: Gerald R. Ford Federal Building, 110 Michigan St. NW, Suite 720;Grand Rapids, MI 49503
+  phone: 616-233-9150
+- classification: district
+  name: Lansing Office
+  address: 124 W. Allegan St., Suite 1400;Lansing, MI 48933
+  phone: 517-377-1508
+- classification: district
+  name: Marquette Office
+  address: 857 W. Washington St., Suite 308;Marquette, MI 49855
+  phone: 906-226-4554
+- classification: district
+  name: Pontiac Office
+  address: 51111 Woodward Avenue, Suite 725;Pontiac, MI 48342
+  phone: 248-608-8040
+- classification: district
+  name: Flint Office
+  address: 416 N Saginaw Street, Suite 222;Flint, MI 48502
+  phone: 989-754-0112
+- classification: district
+  name: Traverse City Office
+  address: 109 E. Front Street, 215B;Traverse City, MI 49684
+  phone: 231-947-7773
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000595 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,41 @@
+id: ocd-person/fa42fc94-736a-5a0a-a915-0ecaf890e17e
+name: Frank J. Mrvan
+identifiers:
+- scheme: bioguide
+  identifier: M001214
+- scheme: govtrack
+  identifier: '456821'
+- scheme: wikidata
+  identifier: Q96077897
+- scheme: wikipedia
+  identifier: Frank J. Mrvan
+- scheme: ballotpedia
+  identifier: Frank Mrvan (Indiana congressional member)
+- scheme: opensecrets
+  identifier: N00045905
+- scheme: votesmart
+  identifier: '113775'
+- scheme: fec-candidate-id
+  identifier: H0IN01150
+candidacies: []
+contact:
+  phone: 202-225-2461
+  profile_url: https://mrvan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2441 Rayburn House Office Building Washington DC 20515-1401
+  phone: 202-225-2461
+- classification: district
+  name: Merrillville Office
+  address: 8001 Broadway, Suite 201;Merrillville, IN 46410
+  phone: 219-795-1844
+  fax: 219-795-1850
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001214 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

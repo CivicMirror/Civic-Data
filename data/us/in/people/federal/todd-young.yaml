@@ -1,0 +1,61 @@
+id: ocd-person/e3e4e48a-5008-5ed9-b2b5-2bbd1ea015a2
+name: Todd Young
+identifiers:
+- scheme: bioguide
+  identifier: Y000064
+- scheme: govtrack
+  identifier: '412428'
+- scheme: wikidata
+  identifier: Q25483
+- scheme: wikipedia
+  identifier: Todd Young
+- scheme: ballotpedia
+  identifier: Todd Young
+- scheme: opensecrets
+  identifier: N00030670
+- scheme: votesmart
+  identifier: '120345'
+- scheme: icpsr
+  identifier: '21133'
+- scheme: lis
+  identifier: S391
+- scheme: thomas
+  identifier: 02019
+- scheme: cspan
+  identifier: '1033743'
+- scheme: maplight
+  identifier: '1439'
+- scheme: fec-candidate-id
+  identifier: S6IN00191
+candidacies: []
+contact:
+  phone: 202-224-5623
+  profile_url: https://www.young.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 185 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-5623
+- classification: district
+  name: New Albany Office
+  address: 3602 Northgate Ct, Suite 15;New Albany, IN 47150
+  phone: 812-542-4820
+- classification: district
+  name: Fort Wayne Office
+  address: 1300 South Harrison Street, Suite 3161;Fort Wayne, IN 46802
+- classification: district
+  name: Indianapolis Office
+  address: 310 E. 96th St., Suite 350;Indianapolis, IN 46240
+  phone: 317-226-6700
+- classification: district
+  name: Valparaiso Office
+  address: 212 E. Lincolnway, Suite 205A;Valparaiso, IN 46383
+  phone: 219-747-7780
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide Y000064 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,49 @@
+id: ocd-person/1857adba-72aa-5982-afe6-6034faae1758
+name: Robert C. "Bobby" Scott
+identifiers:
+- scheme: bioguide
+  identifier: S000185
+- scheme: govtrack
+  identifier: '400364'
+- scheme: wikidata
+  identifier: Q888668
+- scheme: wikipedia
+  identifier: Bobby Scott (politician)
+- scheme: ballotpedia
+  identifier: Robert C. Scott
+- scheme: opensecrets
+  identifier: N00002147
+- scheme: votesmart
+  identifier: '27117'
+- scheme: icpsr
+  identifier: '39307'
+- scheme: thomas
+  identifier: '01037'
+- scheme: cspan
+  identifier: '25888'
+- scheme: maplight
+  identifier: '455'
+- scheme: fec-candidate-id
+  identifier: H6VA01117
+candidacies: []
+contact:
+  phone: 202-225-8351
+  profile_url: https://bobbyscott.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2328 Rayburn House Office Building Washington DC 20515-4603
+  phone: 202-225-8351
+- classification: district
+  name: Newport News Office
+  address: 2600 Washington Ave., Suite 1010;Newport News, VA 23607
+  phone: 757-380-1000
+  fax: 757-928-6694
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000185 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

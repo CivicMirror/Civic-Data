@@ -1,0 +1,54 @@
+id: ocd-person/15470710-b11b-5ab1-9e3f-c3115295d920
+name: Adriano Espaillat
+identifiers:
+- scheme: bioguide
+  identifier: E000297
+- scheme: govtrack
+  identifier: '412718'
+- scheme: wikidata
+  identifier: Q4685569
+- scheme: wikipedia
+  identifier: Adriano Espaillat
+- scheme: ballotpedia
+  identifier: Adriano Espaillat
+- scheme: opensecrets
+  identifier: N00034549
+- scheme: votesmart
+  identifier: '14379'
+- scheme: icpsr
+  identifier: '21715'
+- scheme: cspan
+  identifier: '68413'
+- scheme: maplight
+  identifier: '2230'
+- scheme: fec-candidate-id
+  identifier: H2NY13096
+candidacies: []
+contact:
+  phone: 202-225-4365
+  profile_url: https://espaillat.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2332 Rayburn House Office Building Washington DC 20515-3213
+  phone: 202-225-4365
+- classification: district
+  name: New York Office
+  address: 'Harlem State Office Building, 163 West 125th Street, #508;New York, NY 10027'
+  phone: 212-663-3900
+- classification: district
+  name: New York Office
+  address: 720 West 181st Street, Suite 2;New York, NY 10033
+  phone: 212-497-5959
+- classification: district
+  name: Bronx Office
+  address: 3107 Kingsbridge Avenue;Bronx, NY 10463
+  phone: 646-740-3632
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000297 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

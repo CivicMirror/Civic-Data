@@ -1,0 +1,48 @@
+id: ocd-person/c56c038c-c5bd-5e38-a438-f90339228e6a
+name: Adam Smith
+identifiers:
+- scheme: bioguide
+  identifier: S000510
+- scheme: govtrack
+  identifier: '400379'
+- scheme: wikidata
+  identifier: Q350916
+- scheme: wikipedia
+  identifier: Adam Smith (Washington politician)
+- scheme: ballotpedia
+  identifier: Adam Smith
+- scheme: opensecrets
+  identifier: N00007833
+- scheme: votesmart
+  identifier: '845'
+- scheme: icpsr
+  identifier: '29768'
+- scheme: thomas
+  identifier: 01528
+- scheme: cspan
+  identifier: '44329'
+- scheme: maplight
+  identifier: '471'
+- scheme: fec-candidate-id
+  identifier: H6WA09025
+candidacies: []
+contact:
+  phone: 202-225-8901
+  profile_url: https://adamsmith.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2264 Rayburn House Office Building Washington DC 20515-4709
+  phone: 202-225-8901
+- classification: district
+  name: Kent Office
+  address: 6811 S. 204th Street, Suite 360;Kent, WA 98032
+  phone: 425-793-5180
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000510 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

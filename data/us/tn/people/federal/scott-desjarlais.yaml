@@ -1,0 +1,54 @@
+id: ocd-person/7aa44000-e8a2-5885-94b3-1569f3bbb06c
+name: Scott DesJarlais
+identifiers:
+- scheme: bioguide
+  identifier: D000616
+- scheme: govtrack
+  identifier: '412477'
+- scheme: wikidata
+  identifier: Q2260839
+- scheme: wikipedia
+  identifier: Scott DesJarlais
+- scheme: ballotpedia
+  identifier: Scott DesJarlais
+- scheme: opensecrets
+  identifier: N00030957
+- scheme: votesmart
+  identifier: '123473'
+- scheme: icpsr
+  identifier: '21179'
+- scheme: thomas
+  identifier: '02062'
+- scheme: cspan
+  identifier: '623517'
+- scheme: maplight
+  identifier: '1482'
+- scheme: fec-candidate-id
+  identifier: H0TN04195
+candidacies: []
+contact:
+  phone: 202-225-6831
+  profile_url: https://desjarlais.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2304 Rayburn House Office Building Washington DC 20515-4204
+  phone: 202-225-6831
+- classification: district
+  name: Winchester Office
+  address: Federal Building, 200 S. Jefferson St., Suite 311;Winchester, TN 37398
+  phone: 931-962-3180
+  fax: 931-962-3435
+- classification: district
+  name: Murfreesboro Office
+  address: 1500 Medical Center Parkway;Murfreesboro, TN 37129
+  phone: 615-896-1986
+  fax: 615-896-8218
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000616 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

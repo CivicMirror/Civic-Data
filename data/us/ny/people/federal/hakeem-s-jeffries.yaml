@@ -1,0 +1,52 @@
+id: ocd-person/e94f4c6b-4e93-5fb6-a021-3119f093a046
+name: Hakeem S. Jeffries
+identifiers:
+- scheme: bioguide
+  identifier: J000294
+- scheme: govtrack
+  identifier: '412561'
+- scheme: wikidata
+  identifier: Q5640425
+- scheme: wikipedia
+  identifier: Hakeem Jeffries
+- scheme: ballotpedia
+  identifier: Hakeem Jeffries
+- scheme: opensecrets
+  identifier: N00033640
+- scheme: votesmart
+  identifier: '55285'
+- scheme: icpsr
+  identifier: '21343'
+- scheme: thomas
+  identifier: 02149
+- scheme: cspan
+  identifier: '79612'
+- scheme: maplight
+  identifier: '1785'
+- scheme: fec-candidate-id
+  identifier: H2NY10092
+candidacies: []
+contact:
+  phone: 202-225-5936
+  profile_url: https://jeffries.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2267 Rayburn House Office Building Washington DC 20515-3208
+  phone: 202-225-5936
+- classification: district
+  name: Brooklyn Office
+  address: 445 Neptune Ave, 1st Floor, Community Room 2C;Brooklyn, NY 11224
+  phone: 718-373-0033
+- classification: district
+  name: Brooklyn Office
+  address: 55 Hanson Pl., Suite 603;Brooklyn, NY 11217
+  phone: 718-237-2211
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000294 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/977ed700-29f7-5bf2-9a74-183de53f8a94
+name: Christian D. Menefee
+identifiers:
+- scheme: bioguide
+  identifier: M001245
+- scheme: govtrack
+  identifier: '457039'
+- scheme: wikidata
+  identifier: Q114397549
+- scheme: wikipedia
+  identifier: Christian Menefee
+- scheme: ballotpedia
+  identifier: Christian Menefee
+- scheme: fec-candidate-id
+  identifier: H6TX18232
+candidacies: []
+contact:
+  phone: 202-225-3816
+  profile_url: https://menefee.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1318 Longworth House Office Building Washington DC 20515-4318
+  phone: 202-225-3816
+- classification: district
+  name: Houston Office
+  address: 15651 North Freeway;Houston, TX 77090
+  phone: 281-891-4899
+- classification: district
+  name: Houston Office
+  address: 2020 Solo Street;Houston, TX 77020
+  phone: 713-227-7740
+- classification: district
+  name: Houston Office
+  address: 1919 Smith Street, Suite 1180;Houston, TX 77002
+  phone: 713-655-0050
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001245 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

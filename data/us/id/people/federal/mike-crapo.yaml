@@ -1,0 +1,76 @@
+id: ocd-person/aed9bcc5-c11b-54e2-a7fb-c8e1c7c16e45
+name: Mike Crapo
+identifiers:
+- scheme: bioguide
+  identifier: C000880
+- scheme: govtrack
+  identifier: '300030'
+- scheme: wikidata
+  identifier: Q734319
+- scheme: wikipedia
+  identifier: Mike Crapo
+- scheme: ballotpedia
+  identifier: Mike Crapo
+- scheme: opensecrets
+  identifier: N00006267
+- scheme: votesmart
+  identifier: '26830'
+- scheme: icpsr
+  identifier: '29345'
+- scheme: lis
+  identifier: S266
+- scheme: thomas
+  identifier: '00250'
+- scheme: cspan
+  identifier: '26440'
+- scheme: maplight
+  identifier: '556'
+- scheme: fec-candidate-id
+  identifier: H2ID02034
+candidacies: []
+contact:
+  phone: 202-224-6142
+  profile_url: https://www.crapo.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 239 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-6142
+- classification: district
+  name: Boise Office
+  address: 251 E. Front St., Suite 205;Boise, ID 83702
+  phone: 208-334-1776
+  fax: 208-334-9044
+- classification: district
+  name: Idaho Falls Office
+  address: 410 Memorial Dr., Suite 204;Idaho Falls, ID 83402
+  phone: 208-522-9779
+  fax: 208-529-8367
+- classification: district
+  name: Lewiston Office
+  address: 313 'D' St., Suite 105;Lewiston, ID 83501
+  phone: 208-743-1492
+  fax: 208-743-6484
+- classification: district
+  name: Pocatello Office
+  address: 275 S. 5th Ave., Suite 138;Pocatello, ID 83201
+  phone: 208-236-6775
+  fax: 208-236-6935
+- classification: district
+  name: Twin Falls Office
+  address: 202 Falls Ave., Suite 2;Twin Falls, ID 83301
+  phone: 208-734-2515
+  fax: 208-733-0414
+- classification: district
+  name: Coeur d'Alene Office
+  address: 610 Hubbard Ave, Suite 209;Coeur d'Alene, ID 83814
+  phone: 208-664-5490
+  fax: 208-664-0889
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C000880 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

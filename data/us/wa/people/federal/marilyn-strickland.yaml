@@ -1,0 +1,46 @@
+id: ocd-person/2656e369-dc2a-5958-b79e-bc59dac41b33
+name: Marilyn Strickland
+identifiers:
+- scheme: bioguide
+  identifier: S001159
+- scheme: govtrack
+  identifier: '456854'
+- scheme: wikidata
+  identifier: Q1898180
+- scheme: wikipedia
+  identifier: Marilyn Strickland
+- scheme: ballotpedia
+  identifier: Marilyn Strickland
+- scheme: opensecrets
+  identifier: N00046320
+- scheme: votesmart
+  identifier: '80596'
+- scheme: fec-candidate-id
+  identifier: H0WA10034
+candidacies: []
+contact:
+  phone: 202-225-9740
+  profile_url: https://strickland.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1724 Longworth House Office Building Washington DC 20515-4710
+  phone: 202-225-9740
+- classification: district
+  name: Lakewood Office
+  address: 6000 Main Street SW, Suite 3B;Lakewood, WA 98499
+  phone: 360-459-8514
+  fax: 360-459-8581
+- classification: district
+  name: Lacey Office
+  address: 420 College St SE, Suite 3000;Lacey, WA 98503
+  phone: 360-459-8514
+  fax: 360-459-8581
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001159 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

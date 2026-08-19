@@ -1,0 +1,44 @@
+id: ocd-person/a7cacb9f-e80c-53c9-b4bd-ba85507ff960
+name: Julia Letlow
+identifiers:
+- scheme: bioguide
+  identifier: L000595
+- scheme: govtrack
+  identifier: '456859'
+- scheme: wikidata
+  identifier: Q106089241
+- scheme: wikipedia
+  identifier: Julia Letlow
+- scheme: ballotpedia
+  identifier: Julia Letlow
+- scheme: opensecrets
+  identifier: N00047972
+- scheme: votesmart
+  identifier: '195745'
+- scheme: fec-candidate-id
+  identifier: S6LA00664
+candidacies: []
+contact:
+  phone: 202-225-8490
+  profile_url: https://letlow.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 142 Cannon House Office Building Washington DC 20515-1805
+  phone: 202-225-8490
+- classification: district
+  name: Amite Office
+  address: 109 E. Oak Street;Amite, LA 70422
+  phone: 985-284-5200
+- classification: district
+  name: Monroe Office
+  address: 1900 North 18th Street, Suite 501;Monroe, LA 71201
+  phone: 318-570-6440
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000595 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

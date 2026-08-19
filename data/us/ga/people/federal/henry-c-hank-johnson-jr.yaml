@@ -1,0 +1,49 @@
+id: ocd-person/0068fc81-fb3a-5e0f-9eb6-196e1c8746b7
+name: Henry C. "Hank" Johnson, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: J000288
+- scheme: govtrack
+  identifier: '412199'
+- scheme: wikidata
+  identifier: Q983537
+- scheme: wikipedia
+  identifier: Hank Johnson
+- scheme: ballotpedia
+  identifier: Henry C. Johnson, Jr.
+- scheme: opensecrets
+  identifier: N00027848
+- scheme: votesmart
+  identifier: '68070'
+- scheme: icpsr
+  identifier: '20712'
+- scheme: thomas
+  identifier: 01843
+- scheme: cspan
+  identifier: '1020576'
+- scheme: maplight
+  identifier: '686'
+- scheme: fec-candidate-id
+  identifier: H6GA04129
+candidacies: []
+contact:
+  phone: 202-225-1605
+  profile_url: https://hankjohnson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2240 Rayburn House Office Building Washington DC 20515-1004
+  phone: 202-225-1605
+- classification: district
+  name: Decatur Office
+  address: 5240 Snapfinger Park Drive, Ste 140;Decatur, GA 30035
+  phone: 770-987-2291
+  fax: 770-987-8721
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000288 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

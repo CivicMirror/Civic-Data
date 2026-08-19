@@ -1,0 +1,42 @@
+id: ocd-person/69586df7-ea80-584c-a4be-f5b7b94ace60
+name: Jahana Hayes
+identifiers:
+- scheme: bioguide
+  identifier: H001081
+- scheme: govtrack
+  identifier: '412763'
+- scheme: wikidata
+  identifier: Q24951316
+- scheme: wikipedia
+  identifier: Jahana Hayes
+- scheme: ballotpedia
+  identifier: Jahana Hayes
+- scheme: opensecrets
+  identifier: N00043421
+- scheme: votesmart
+  identifier: '181744'
+- scheme: icpsr
+  identifier: '21931'
+- scheme: fec-candidate-id
+  identifier: H8CT05245
+candidacies: []
+contact:
+  phone: 202-225-4476
+  profile_url: https://hayes.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2049 Rayburn House Office Building Washington DC 20515-0705
+  phone: 202-225-4476
+- classification: district
+  name: Waterbury Office
+  address: 108 Bank St, 2nd Floor;Waterbury, CT 06702-2233
+  phone: 860-223-8412
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001081 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

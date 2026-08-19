@@ -1,0 +1,55 @@
+id: ocd-person/84e81dee-e524-5a5a-aea2-05472e57bd49
+name: Lloyd Smucker
+identifiers:
+- scheme: bioguide
+  identifier: S001199
+- scheme: govtrack
+  identifier: '412722'
+- scheme: wikidata
+  identifier: Q6662742
+- scheme: wikipedia
+  identifier: Lloyd Smucker
+- scheme: ballotpedia
+  identifier: Lloyd Smucker
+- scheme: opensecrets
+  identifier: N00038781
+- scheme: votesmart
+  identifier: '102454'
+- scheme: icpsr
+  identifier: '21745'
+- scheme: cspan
+  identifier: '103540'
+- scheme: maplight
+  identifier: '2234'
+- scheme: fec-candidate-id
+  identifier: H6PA16320
+candidacies: []
+contact:
+  phone: 202-225-2411
+  profile_url: https://smucker.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 302 Cannon House Office Building Washington DC 20515-3811
+  phone: 202-225-2411
+- classification: district
+  name: Red Lion Office
+  address: 100 Redco Ave;Red Lion, PA 17356-1436
+  phone: 717-969-6133
+- classification: district
+  name: Hanover Office
+  address: 118 Carlisle Street;Hanover, PA 17331
+  phone: 717-969-6132
+- classification: district
+  name: Lancaster Office
+  address: 2270 Erin Court;Lancaster, PA 17601
+  phone: 717-393-0667
+  fax: 717-393-0924
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001199 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

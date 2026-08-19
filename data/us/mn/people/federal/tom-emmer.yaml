@@ -1,0 +1,53 @@
+id: ocd-person/b80ab695-fa00-5296-9230-e646f9594d60
+name: Tom Emmer
+identifiers:
+- scheme: bioguide
+  identifier: E000294
+- scheme: govtrack
+  identifier: '412639'
+- scheme: wikidata
+  identifier: Q7815723
+- scheme: wikipedia
+  identifier: Tom Emmer
+- scheme: ballotpedia
+  identifier: Tom Emmer
+- scheme: opensecrets
+  identifier: N00035440
+- scheme: votesmart
+  identifier: '38894'
+- scheme: icpsr
+  identifier: '21531'
+- scheme: thomas
+  identifier: '02253'
+- scheme: cspan
+  identifier: '75567'
+- scheme: maplight
+  identifier: '2095'
+- scheme: fec-candidate-id
+  identifier: H4MN06087
+candidacies: []
+contact:
+  phone: 202-225-2331
+  profile_url: https://emmer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 326 Cannon House Office Building Washington DC 20515-2306
+  phone: 202-225-2331
+- classification: district
+  name: Otsego Office
+  address: 9201 Quaday Ave. NE, Suite 206;Otsego, MN 55330
+  phone: 763-241-6848
+  fax: 763-241-7955
+- classification: district
+  name: Chaska Office
+  address: 1107 Hazeltine Blvd, Suite 476;Chaska, MN 55318
+  phone: 952-262-2999
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000294 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

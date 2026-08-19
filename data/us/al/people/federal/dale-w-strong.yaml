@@ -1,0 +1,45 @@
+id: ocd-person/3ecd1243-bdc7-557e-b10e-113c4e4c8d70
+name: Dale W. Strong
+identifiers:
+- scheme: bioguide
+  identifier: S001220
+- scheme: govtrack
+  identifier: '456878'
+- scheme: wikidata
+  identifier: Q115137374
+- scheme: wikipedia
+  identifier: Dale Strong
+- scheme: ballotpedia
+  identifier: Dale Strong
+- scheme: opensecrets
+  identifier: N00048145
+- scheme: votesmart
+  identifier: '81485'
+- scheme: fec-candidate-id
+  identifier: H2AL05102
+candidacies: []
+contact:
+  phone: 202-225-4801
+  profile_url: https://strong.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 449 Cannon House Office Building Washington DC 20515-0105
+  phone: 202-225-4801
+- classification: district
+  name: Decatur Office
+  address: Morgan County Courthouse, 302 Lee Street NE;Decatur, AL 35601
+  phone: 256-355-9400
+- classification: district
+  name: Huntsville Office
+  address: 2101 Clinton Avenue W, Suite 302;Huntsville, AL 35805
+  phone: 256-551-0190
+  fax: 771-200-5717
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001220 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

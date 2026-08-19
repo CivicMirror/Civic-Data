@@ -1,0 +1,40 @@
+id: ocd-person/0d73a6d4-5b50-58d9-a6f6-e2b0d89cf8d8
+name: Addison P. McDowell
+identifiers:
+- scheme: bioguide
+  identifier: M001240
+- scheme: govtrack
+  identifier: '457001'
+- scheme: wikidata
+  identifier: Q130979819
+- scheme: wikipedia
+  identifier: Addison McDowell
+- scheme: ballotpedia
+  identifier: Addison McDowell
+- scheme: opensecrets
+  identifier: N00054055
+- scheme: votesmart
+  identifier: '213685'
+- scheme: fec-candidate-id
+  identifier: H4NC06177
+candidacies: []
+contact:
+  phone: 202-225-3065
+  profile_url: https://mcdowell.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1032 Longworth House Office Building Washington DC 20515-3306
+  phone: 202-225-3065
+- classification: district
+  name: Lexington Office
+  address: 30 E. 1st Ave;Lexington, NC 27292
+  phone: 336-333-5005
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001240 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

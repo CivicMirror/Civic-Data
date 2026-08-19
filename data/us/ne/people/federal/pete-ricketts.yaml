@@ -1,0 +1,56 @@
+id: ocd-person/97e21b39-c5d4-56fe-930f-5f96e99d0b45
+name: Pete Ricketts
+identifiers:
+- scheme: bioguide
+  identifier: R000618
+- scheme: govtrack
+  identifier: '456952'
+- scheme: wikidata
+  identifier: Q6106781
+- scheme: wikipedia
+  identifier: Pete Ricketts
+- scheme: ballotpedia
+  identifier: Pete Ricketts
+- scheme: opensecrets
+  identifier: N00027695
+- scheme: votesmart
+  identifier: '57777'
+- scheme: lis
+  identifier: S423
+- scheme: cspan
+  identifier: '61233'
+- scheme: fec-candidate-id
+  identifier: S6NE00129
+candidacies: []
+contact:
+  phone: 202-224-4224
+  profile_url: https://www.ricketts.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 139 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4224
+- classification: district
+  name: Omaha Office
+  address: 304 N. 168th Circle, Suite 213;Omaha, NE 68118
+  phone: 402-550-8040
+- classification: district
+  name: Lincoln Office
+  address: 1248 ‘O’ St., Suite 1000;Lincoln, NE 68508
+  phone: 402-476-1400
+- classification: district
+  name: Kearney Office
+  address: 4111 4th Ave., Suite 26;Kearney, NE 68845
+  phone: 308-233-3677
+- classification: district
+  name: Scottsbluff Office
+  address: 115 Railway St., Suite C102;Scottsbluff, NE 69361
+  phone: 308-632-6032
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000618 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

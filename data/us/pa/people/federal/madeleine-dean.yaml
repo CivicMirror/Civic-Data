@@ -1,0 +1,47 @@
+id: ocd-person/9ceaba68-2391-5885-a4cf-67233261052c
+name: Madeleine Dean
+identifiers:
+- scheme: bioguide
+  identifier: D000631
+- scheme: govtrack
+  identifier: '412809'
+- scheme: wikidata
+  identifier: Q6726900
+- scheme: wikipedia
+  identifier: Madeleine Dean
+- scheme: ballotpedia
+  identifier: Madeleine Dean
+- scheme: opensecrets
+  identifier: N00042894
+- scheme: votesmart
+  identifier: '136484'
+- scheme: icpsr
+  identifier: '21915'
+- scheme: fec-candidate-id
+  identifier: H8PA04116
+candidacies: []
+contact:
+  phone: 202-225-4731
+  profile_url: https://dean.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 150 Cannon House Office Building Washington DC 20515-3804
+  phone: 202-225-4731
+- classification: district
+  name: Glenside Office
+  address: 115 E Glenside Ave, Suite 1;Glenside, PA 19038-4618
+  phone: 215-884-4300
+  fax: 215-884-3640
+- classification: district
+  name: Pottstown Office
+  address: 1200 E. High Street, Suite 105;Pottstown, PA 19464
+  phone: 610-382-1250
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000631 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

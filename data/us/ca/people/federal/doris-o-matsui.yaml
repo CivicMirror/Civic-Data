@@ -1,0 +1,49 @@
+id: ocd-person/b34d57d1-f029-5919-a1fc-3ed00417c7c6
+name: Doris O. Matsui
+identifiers:
+- scheme: bioguide
+  identifier: M001163
+- scheme: govtrack
+  identifier: '400663'
+- scheme: wikidata
+  identifier: Q399561
+- scheme: wikipedia
+  identifier: Doris Matsui
+- scheme: ballotpedia
+  identifier: Doris Matsui
+- scheme: opensecrets
+  identifier: N00027459
+- scheme: votesmart
+  identifier: '28593'
+- scheme: icpsr
+  identifier: '20538'
+- scheme: thomas
+  identifier: 01814
+- scheme: cspan
+  identifier: '26602'
+- scheme: maplight
+  identifier: '668'
+- scheme: fec-candidate-id
+  identifier: H6CA05195
+candidacies: []
+contact:
+  phone: 202-225-7163
+  profile_url: https://matsui.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2206 Rayburn House Office Building Washington DC 20515-0507
+  phone: 202-225-7163
+- classification: district
+  name: Sacramento Office
+  address: Robert T. Matsui U.S. Courthouse, 501 I St., Suite 12-600;Sacramento, CA 95814
+  phone: 916-498-5600
+  fax: 916-444-6117
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001163 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

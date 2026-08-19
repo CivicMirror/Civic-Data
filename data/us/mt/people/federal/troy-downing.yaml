@@ -1,0 +1,44 @@
+id: ocd-person/71fd75d8-2373-5375-a7aa-c26e7893464f
+name: Troy Downing
+identifiers:
+- scheme: bioguide
+  identifier: D000634
+- scheme: govtrack
+  identifier: '457000'
+- scheme: wikidata
+  identifier: Q103158011
+- scheme: wikipedia
+  identifier: Troy Downing
+- scheme: ballotpedia
+  identifier: Troy Downing
+- scheme: opensecrets
+  identifier: N00041283
+- scheme: votesmart
+  identifier: '178611'
+- scheme: fec-candidate-id
+  identifier: H4MT02098
+candidacies: []
+contact:
+  phone: 202-225-3211
+  profile_url: https://downing.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1529 Longworth House Office Building Washington DC 20515-0001
+  phone: 202-225-3211
+- classification: district
+  name: Billings Office
+  address: 401 North 31st St, Suite 770;Billings, MT 59101
+  phone: 406-413-6720
+- classification: district
+  name: Helena Office
+  address: 7 West 6th Ave, Suite 3B;Helena, MT 59601
+  phone: 406-502-1435
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000634 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

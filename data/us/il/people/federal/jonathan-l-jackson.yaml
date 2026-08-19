@@ -1,0 +1,41 @@
+id: ocd-person/67e4e495-9d8c-54c0-8646-e920bfb64afa
+name: Jonathan L. Jackson
+identifiers:
+- scheme: bioguide
+  identifier: J000309
+- scheme: govtrack
+  identifier: '456899'
+- scheme: wikidata
+  identifier: Q6273473
+- scheme: wikipedia
+  identifier: Jonathan Jackson (Illinois politician)
+- scheme: ballotpedia
+  identifier: Jonathan Jackson (Illinois)
+- scheme: opensecrets
+  identifier: N00050105
+- scheme: votesmart
+  identifier: '204284'
+- scheme: fec-candidate-id
+  identifier: H2IL01349
+candidacies: []
+contact:
+  phone: 202-225-4372
+  profile_url: https://jonathanjackson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1632 Longworth House Office Building Washington DC 20515-1301
+  phone: 202-225-4372
+- classification: district
+  name: Chicago Office
+  address: 435 E. 35th Street;Chicago, IL 60616
+  phone: 773-779-2400
+  fax: 773-779-2401
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000309 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

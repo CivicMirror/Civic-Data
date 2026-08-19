@@ -1,0 +1,50 @@
+id: ocd-person/75c2d8d6-8d7c-5feb-acc8-0c5230711236
+name: Darren Soto
+identifiers:
+- scheme: bioguide
+  identifier: S001200
+- scheme: govtrack
+  identifier: '412695'
+- scheme: wikidata
+  identifier: Q5225162
+- scheme: wikipedia
+  identifier: Darren Soto
+- scheme: ballotpedia
+  identifier: Darren Soto
+- scheme: opensecrets
+  identifier: N00037422
+- scheme: votesmart
+  identifier: '67618'
+- scheme: icpsr
+  identifier: '21746'
+- scheme: cspan
+  identifier: '104534'
+- scheme: maplight
+  identifier: '2207'
+- scheme: fec-candidate-id
+  identifier: H6FL09179
+candidacies: []
+contact:
+  phone: 202-225-9889
+  profile_url: https://soto.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2353 Rayburn House Office Building Washington DC 20515-0909
+  phone: 202-225-9889
+- classification: district
+  name: Kissimmee Office
+  address: 804 Bryan St.;Kissimmee, FL 34741
+  phone: 407-452-1171
+- classification: district
+  name: Orlando Office
+  address: 5800 South Semoran Blvd, Suite B;Orlando, FL 32822
+  phone: 407-204-3370
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001200 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

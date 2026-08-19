@@ -1,0 +1,49 @@
+id: ocd-person/c1546395-5942-5ba6-b42f-1f9c0c0f1d73
+name: Joaquin Castro
+identifiers:
+- scheme: bioguide
+  identifier: C001091
+- scheme: govtrack
+  identifier: '412576'
+- scheme: wikidata
+  identifier: Q1167934
+- scheme: wikipedia
+  identifier: Joaquin Castro
+- scheme: ballotpedia
+  identifier: Joaquin Castro
+- scheme: opensecrets
+  identifier: N00033316
+- scheme: votesmart
+  identifier: '49227'
+- scheme: icpsr
+  identifier: '21362'
+- scheme: thomas
+  identifier: '02163'
+- scheme: cspan
+  identifier: '63974'
+- scheme: maplight
+  identifier: '1800'
+- scheme: fec-candidate-id
+  identifier: H2TX35011
+candidacies: []
+contact:
+  phone: 202-225-3236
+  profile_url: https://castro.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2241 Rayburn House Office Building Washington DC 20515-4320
+  phone: 202-225-3236
+- classification: district
+  name: San Antonio Office
+  address: 727 E. Cesar E. Chavez Blvd, B-128;San Antonio, TX 78206
+  phone: 210-348-8216
+  fax: 210-979-0737
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001091 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

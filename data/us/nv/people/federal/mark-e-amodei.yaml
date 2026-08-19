@@ -1,0 +1,53 @@
+id: ocd-person/96677e70-d637-50bc-829b-55c30c09edd8
+name: Mark E. Amodei
+identifiers:
+- scheme: bioguide
+  identifier: A000369
+- scheme: govtrack
+  identifier: '412500'
+- scheme: wikidata
+  identifier: Q23944
+- scheme: wikipedia
+  identifier: Mark Amodei
+- scheme: ballotpedia
+  identifier: Mark Amodei
+- scheme: opensecrets
+  identifier: N00031177
+- scheme: votesmart
+  identifier: '12537'
+- scheme: icpsr
+  identifier: '21196'
+- scheme: thomas
+  identifier: 02090
+- scheme: cspan
+  identifier: '62817'
+- scheme: maplight
+  identifier: '1680'
+- scheme: fec-candidate-id
+  identifier: S0NV00237
+candidacies: []
+contact:
+  phone: 202-225-6155
+  profile_url: https://amodei.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 104 Cannon House Office Building Washington DC 20515-2802
+  phone: 202-225-6155
+- classification: district
+  name: Reno Office
+  address: 5310 Kietzke Ln., Suite 103;Reno, NV 89511
+  phone: 775-686-5760
+  fax: 775-686-5711
+- classification: district
+  name: Elko Office
+  address: Elko, NV 89801;Elko, NV 89801
+  phone: 775-777-7705
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000369 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

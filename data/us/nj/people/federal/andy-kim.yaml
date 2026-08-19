@@ -1,0 +1,48 @@
+id: ocd-person/ad918726-84bc-556b-8125-11d4b58f9e37
+name: Andy Kim
+identifiers:
+- scheme: bioguide
+  identifier: K000394
+- scheme: govtrack
+  identifier: '412797'
+- scheme: wikidata
+  identifier: Q55639180
+- scheme: wikipedia
+  identifier: Andy Kim
+- scheme: ballotpedia
+  identifier: Andrew Kim (New Jersey)
+- scheme: opensecrets
+  identifier: N00041370
+- scheme: votesmart
+  identifier: '179640'
+- scheme: icpsr
+  identifier: '21937'
+- scheme: lis
+  identifier: S426
+- scheme: fec-candidate-id
+  identifier: S4NJ00466
+candidacies: []
+contact:
+  phone: 202-224-4744
+  profile_url: https://www.kim.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 520 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-4744
+- classification: district
+  name: Barrington Office
+  address: 208 White Horse Pike, Suite 18;Barrington, NJ 08007
+  phone: 856-757-5353
+- classification: district
+  name: Jersey City Office
+  address: Harborside 3, 210 Hudson Street, Suite 1000;Jersey City, NJ 07311
+  phone: 201-377-0900
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000394 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

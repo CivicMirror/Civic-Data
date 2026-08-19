@@ -1,0 +1,46 @@
+id: ocd-person/7bb52b70-a1e9-5765-a278-8521c6cabbdb
+name: Jesús G. "Chuy" García
+identifiers:
+- scheme: bioguide
+  identifier: G000586
+- scheme: govtrack
+  identifier: '412774'
+- scheme: wikidata
+  identifier: Q18631698
+- scheme: wikipedia
+  identifier: Chuy García
+- scheme: ballotpedia
+  identifier: Jesus Garcia
+- scheme: opensecrets
+  identifier: N00042114
+- scheme: votesmart
+  identifier: '6261'
+- scheme: icpsr
+  identifier: '21921'
+- scheme: fec-candidate-id
+  identifier: H8IL04134
+candidacies: []
+contact:
+  phone: 202-225-8203
+  profile_url: https://chuygarcia.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2334 Rayburn House Office Building Washington DC 20515-1304
+  phone: 202-225-8203
+- classification: district
+  name: Melrose Park Office
+  address: 125 N 19th Ave, Suite A;Melrose Park, IL 60160
+  phone: 773-342-0774
+- classification: district
+  name: Chicago Office
+  address: 4376 S Archer Ave;Chicago, IL 60632
+  phone: 773-475-0833
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000586 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

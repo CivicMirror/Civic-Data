@@ -1,0 +1,40 @@
+id: ocd-person/ac94d834-e919-5286-9264-d82f6a3090bb
+name: Maxine Dexter
+identifiers:
+- scheme: bioguide
+  identifier: D000635
+- scheme: govtrack
+  identifier: '457015'
+- scheme: wikidata
+  identifier: Q96777172
+- scheme: wikipedia
+  identifier: Maxine Dexter
+- scheme: ballotpedia
+  identifier: Maxine Dexter
+- scheme: opensecrets
+  identifier: N00054144
+- scheme: votesmart
+  identifier: '190844'
+- scheme: fec-candidate-id
+  identifier: H4OR03192
+candidacies: []
+contact:
+  phone: 202-225-4811
+  profile_url: https://dexter.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1207 Longworth House Office Building Washington DC 20515-3703
+  phone: 202-225-4811
+- classification: district
+  name: Portland Office
+  address: 911 NE 11th Ave;Portland, OR 97232
+  phone: 503-231-2300
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000635 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

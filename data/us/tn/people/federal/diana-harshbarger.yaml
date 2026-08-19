@@ -1,0 +1,46 @@
+id: ocd-person/fada5155-d98b-5857-86ec-1237b9835cc1
+name: Diana Harshbarger
+identifiers:
+- scheme: bioguide
+  identifier: H001086
+- scheme: govtrack
+  identifier: '456844'
+- scheme: wikidata
+  identifier: Q101197341
+- scheme: wikipedia
+  identifier: Diana Harshbarger
+- scheme: ballotpedia
+  identifier: Diana Harshbarger
+- scheme: opensecrets
+  identifier: N00046688
+- scheme: votesmart
+  identifier: '190524'
+- scheme: fec-candidate-id
+  identifier: H0TN01118
+candidacies: []
+contact:
+  phone: 202-225-6356
+  profile_url: https://harshbarger.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 167 Cannon House Office Building Washington DC 20515-4201
+  phone: 202-225-6356
+- classification: district
+  name: Kingsport Office
+  address: 205 Revere Street;Kingsport, TN 37660
+  phone: 423-398-5186
+  fax: 423-398-5312
+- classification: district
+  name: Morristown Office
+  address: 1501 E. Morris Blvd., Suite 12;Morristown, TN 37813
+  phone: 423-254-1400
+  fax: 423-254-1403
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001086 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

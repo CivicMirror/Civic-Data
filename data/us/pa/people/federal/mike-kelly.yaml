@@ -1,0 +1,59 @@
+id: ocd-person/5a969ee3-ea1d-58e4-8231-83fedf44f961
+name: Mike Kelly
+identifiers:
+- scheme: bioguide
+  identifier: K000376
+- scheme: govtrack
+  identifier: '412465'
+- scheme: wikidata
+  identifier: Q1431761
+- scheme: wikipedia
+  identifier: Mike Kelly (Pennsylvania politician)
+- scheme: ballotpedia
+  identifier: Mike Kelly
+- scheme: opensecrets
+  identifier: N00031647
+- scheme: votesmart
+  identifier: '119463'
+- scheme: icpsr
+  identifier: '21167'
+- scheme: thomas
+  identifier: '02051'
+- scheme: cspan
+  identifier: '62696'
+- scheme: maplight
+  identifier: '1471'
+- scheme: fec-candidate-id
+  identifier: H0PA03271
+candidacies: []
+contact:
+  phone: 202-225-5406
+  profile_url: https://kelly.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1707 Longworth House Office Building Washington DC 20515-3816
+  phone: 202-225-5406
+- classification: district
+  name: Sharon Office
+  address: 33 Chestnut Ave.;Sharon, PA 16146
+  phone: 724-342-7170
+  fax: 724-342-7242
+- classification: district
+  name: Butler Office
+  address: 245 Pittsburgh Road, Suite 300;Butler, PA 16001
+  phone: 724-282-2557
+  fax: 724-282-3682
+- classification: district
+  name: Erie Office
+  address: 17 S. Park Row, Suite A430;Erie, PA 16501
+  phone: 814-454-8190
+  fax: 814-454-8197
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000376 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

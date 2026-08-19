@@ -1,0 +1,41 @@
+id: ocd-person/6e06a757-3cd1-5c95-a3ac-bfc1f57a908e
+name: Glenn Ivey
+identifiers:
+- scheme: bioguide
+  identifier: I000058
+- scheme: govtrack
+  identifier: '456905'
+- scheme: wikidata
+  identifier: Q22004572
+- scheme: wikipedia
+  identifier: Glenn Ivey
+- scheme: ballotpedia
+  identifier: Glenn Ivey
+- scheme: opensecrets
+  identifier: N00033749
+- scheme: votesmart
+  identifier: '166279'
+- scheme: fec-candidate-id
+  identifier: H2MD04232
+candidacies: []
+contact:
+  phone: 202-225-8699
+  profile_url: https://ivey.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1610 Longworth House Office Building Washington DC 20515-2004
+  phone: 202-225-8699
+- classification: district
+  name: Landover Office
+  address: 4301 Garden City Dr., Suite 405;Landover, MD 20785
+  phone: 240-906-6262
+  fax: 202-225-2848
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide I000058 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

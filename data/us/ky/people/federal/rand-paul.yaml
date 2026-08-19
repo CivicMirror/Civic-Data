@@ -1,0 +1,50 @@
+id: ocd-person/c2a7c97e-d390-5327-8623-01d4e7a96cf5
+name: Rand Paul
+identifiers:
+- scheme: bioguide
+  identifier: P000603
+- scheme: govtrack
+  identifier: '412492'
+- scheme: wikidata
+  identifier: Q463557
+- scheme: wikipedia
+  identifier: Rand Paul
+- scheme: ballotpedia
+  identifier: Rand Paul
+- scheme: opensecrets
+  identifier: N00030836
+- scheme: votesmart
+  identifier: '117285'
+- scheme: icpsr
+  identifier: '41104'
+- scheme: lis
+  identifier: S348
+- scheme: thomas
+  identifier: 02082
+- scheme: cspan
+  identifier: '9265241'
+- scheme: maplight
+  identifier: '1497'
+- scheme: fec-candidate-id
+  identifier: S0KY00156
+candidacies: []
+contact:
+  phone: 202-224-4343
+  profile_url: https://www.paul.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 295 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4343
+- classification: district
+  name: Bowling Green Office
+  address: 563 Hub Boulevard, Suite 201;Bowling Green, KY 42103
+  phone: 270-782-8303
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000603 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

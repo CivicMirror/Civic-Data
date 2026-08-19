@@ -1,0 +1,60 @@
+id: ocd-person/c4aa6290-6a72-552a-af72-627ac01f1f2b
+name: Steve Scalise
+identifiers:
+- scheme: bioguide
+  identifier: S001176
+- scheme: govtrack
+  identifier: '412261'
+- scheme: wikidata
+  identifier: Q1857141
+- scheme: wikipedia
+  identifier: Steve Scalise
+- scheme: ballotpedia
+  identifier: Steve Scalise
+- scheme: opensecrets
+  identifier: N00009660
+- scheme: votesmart
+  identifier: '9026'
+- scheme: icpsr
+  identifier: '20759'
+- scheme: thomas
+  identifier: 01892
+- scheme: cspan
+  identifier: '1015311'
+- scheme: maplight
+  identifier: '742'
+- scheme: fec-candidate-id
+  identifier: H0LA01087
+candidacies: []
+contact:
+  phone: 202-225-3015
+  profile_url: https://scalise.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 266 Cannon House Office Building Washington DC 20515-1801
+  phone: 202-225-3015
+- classification: district
+  name: Mandeville Office
+  address: 21454 Koop Drive, Suite 2C;Mandeville, LA 70471
+  phone: 985-893-9064
+- classification: district
+  name: Metairie Office
+  address: 111 Veterans Memorial Blvd, Suite 803;Metairie, LA 70005
+  phone: 504-837-1259
+- classification: district
+  name: Ponchatoula Office
+  address: City Hall Annex Building, 110 West Hickory Street;Ponchatoula, LA 70454
+  phone: 985-340-2185
+- classification: district
+  name: Raceland Office
+  address: 4876 LA-1, Suite 117;Raceland, LA 70394
+  phone: 985-879-2300
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001176 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

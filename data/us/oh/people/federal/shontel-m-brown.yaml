@@ -1,0 +1,44 @@
+id: ocd-person/c728a38d-39ab-5cf9-b1b5-0a804c25fa14
+name: Shontel M. Brown
+identifiers:
+- scheme: bioguide
+  identifier: B001313
+- scheme: govtrack
+  identifier: '456863'
+- scheme: wikidata
+  identifier: Q107863952
+- scheme: wikipedia
+  identifier: Shontel Brown
+- scheme: ballotpedia
+  identifier: Shontel Brown
+- scheme: opensecrets
+  identifier: N00047875
+- scheme: votesmart
+  identifier: '161622'
+- scheme: fec-candidate-id
+  identifier: H2OH11169
+candidacies: []
+contact:
+  phone: 202-225-7032
+  profile_url: https://shontelbrown.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2455 Rayburn House Office Building Washington DC 20515-3511
+  phone: 202-225-7032
+- classification: district
+  name: Cleveland Office
+  address: 17021 Lorain Avenue;Cleveland, OH 44111
+  phone: 216-535-1100
+- classification: district
+  name: Beachwood Office
+  address: 25200 Chagrin Blvd, Suite 200;Beachwood, OH 44122
+  phone: 216-522-4900
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001313 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

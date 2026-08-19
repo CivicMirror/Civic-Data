@@ -1,0 +1,40 @@
+id: ocd-person/e445311f-f118-5af2-8283-346af79bd989
+name: Mark Harris
+identifiers:
+- scheme: bioguide
+  identifier: H001102
+- scheme: govtrack
+  identifier: '457002'
+- scheme: wikidata
+  identifier: Q55622212
+- scheme: wikipedia
+  identifier: Mark Harris (North Carolina politician)
+- scheme: ballotpedia
+  identifier: Mark Harris (North Carolina)
+- scheme: opensecrets
+  identifier: N00035491
+- scheme: votesmart
+  identifier: '146230'
+- scheme: fec-candidate-id
+  identifier: H4NC08066
+candidacies: []
+contact:
+  phone: 202-225-1976
+  profile_url: https://markharris.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 126 Cannon House Office Building Washington DC 20515-3308
+  phone: 202-225-1976
+- classification: district
+  name: Monroe Office
+  address: 300 North Main St;Monroe, NC 28112
+  phone: 704-218-5300
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001102 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

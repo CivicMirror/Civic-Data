@@ -1,0 +1,53 @@
+id: ocd-person/7dd4a3b6-b6b2-5234-bc52-c6f703ff8e14
+name: Pete Stauber
+identifiers:
+- scheme: bioguide
+  identifier: S001212
+- scheme: govtrack
+  identifier: '412792'
+- scheme: wikidata
+  identifier: Q55955746
+- scheme: wikipedia
+  identifier: Pete Stauber
+- scheme: ballotpedia
+  identifier: Pete Stauber
+- scheme: opensecrets
+  identifier: N00041511
+- scheme: votesmart
+  identifier: '159954'
+- scheme: icpsr
+  identifier: '21969'
+- scheme: fec-candidate-id
+  identifier: H8MN08043
+candidacies: []
+contact:
+  phone: 202-225-6211
+  profile_url: https://stauber.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 145 Cannon House Office Building Washington DC 20515-2308
+  phone: 202-225-6211
+- classification: district
+  name: Brainerd Office
+  address: Brainerd City Hall, 501 Laurel St;Brainerd, MN 56401-3595
+  phone: 218-355-0862
+- classification: district
+  name: Cambridge Office
+  address: Cambridge City Hall, 300 3rd Ave NE;Cambridge, MN 55008-1281
+- classification: district
+  name: Chisholm Office
+  address: Chisholm City Hall, 316 W Lake St, Suite 7;Chisholm, MN 55719-3708
+  phone: 218-355-0726
+- classification: district
+  name: Hermantown Office
+  address: 5094 Miller Trunk Hwy, Suite 900;Hermantown, MN 55811-1626
+  phone: 218-481-6396
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001212 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,63 @@
+id: ocd-person/1b1acb0c-a526-58ef-9739-13fb64ed247f
+name: Rick W. Allen
+identifiers:
+- scheme: bioguide
+  identifier: A000372
+- scheme: govtrack
+  identifier: '412625'
+- scheme: wikidata
+  identifier: Q18683976
+- scheme: wikipedia
+  identifier: Rick Allen (politician)
+- scheme: ballotpedia
+  identifier: Rick Allen
+- scheme: opensecrets
+  identifier: N00033720
+- scheme: votesmart
+  identifier: '136062'
+- scheme: icpsr
+  identifier: '21516'
+- scheme: thomas
+  identifier: 02239
+- scheme: cspan
+  identifier: '62545'
+- scheme: maplight
+  identifier: '2081'
+- scheme: fec-candidate-id
+  identifier: H2GA12121
+candidacies: []
+contact:
+  phone: 202-225-2823
+  profile_url: https://allen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 462 Cannon House Office Building Washington DC 20515-1012
+  phone: 202-225-2823
+- classification: district
+  name: Dublin Office
+  address: 100 S. Church St.;Dublin, GA 31021
+  phone: 478-291-6324
+  fax: 706-228-1954
+- classification: district
+  name: Statesboro Office
+  address: 50 E. Main St.;Statesboro, GA 30458
+  phone: 912-243-9452
+  fax: 912-243-9453
+- classification: district
+  name: Vidalia Office
+  address: 107 Old Airport Rd., Suite A;Vidalia, GA 30475
+  phone: 912-243-9452
+- classification: district
+  name: Augusta Office
+  address: Building 200, 2743 Perimeter Parkway, Suite 105;Augusta, GA 30909
+  phone: 706-228-1980
+  fax: 706-228-1954
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000372 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

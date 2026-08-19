@@ -1,0 +1,49 @@
+id: ocd-person/f8c0b7d6-a700-50ee-9bab-fea78af9aa48
+name: Dina Titus
+identifiers:
+- scheme: bioguide
+  identifier: T000468
+- scheme: govtrack
+  identifier: '412318'
+- scheme: wikidata
+  identifier: Q524440
+- scheme: wikipedia
+  identifier: Dina Titus
+- scheme: ballotpedia
+  identifier: Dina Titus
+- scheme: opensecrets
+  identifier: N00030191
+- scheme: votesmart
+  identifier: '2629'
+- scheme: icpsr
+  identifier: '20927'
+- scheme: thomas
+  identifier: 01940
+- scheme: cspan
+  identifier: '1021622'
+- scheme: maplight
+  identifier: '800'
+- scheme: fec-candidate-id
+  identifier: H8NV03036
+candidacies: []
+contact:
+  phone: 202-225-5965
+  profile_url: https://titus.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2370 Rayburn House Office Building Washington DC 20515-2801
+  phone: 202-225-5965
+- classification: district
+  name: Las Vegas Office
+  address: 495 South Main St., 3rd Floor;Las Vegas, NV 89101
+  phone: 702-220-9823
+  fax: 702-220-9841
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000468 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

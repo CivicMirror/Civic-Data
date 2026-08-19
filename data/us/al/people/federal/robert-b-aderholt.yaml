@@ -1,0 +1,58 @@
+id: ocd-person/6d4a07b7-4872-568b-96be-200d77710440
+name: Robert B. Aderholt
+identifiers:
+- scheme: bioguide
+  identifier: A000055
+- scheme: govtrack
+  identifier: '400004'
+- scheme: wikidata
+  identifier: Q672671
+- scheme: wikipedia
+  identifier: Robert Aderholt
+- scheme: ballotpedia
+  identifier: Robert B. Aderholt
+- scheme: opensecrets
+  identifier: N00003028
+- scheme: votesmart
+  identifier: '441'
+- scheme: icpsr
+  identifier: '29701'
+- scheme: thomas
+  identifier: '01460'
+- scheme: cspan
+  identifier: '45516'
+- scheme: maplight
+  identifier: '127'
+- scheme: fec-candidate-id
+  identifier: H6AL04098
+candidacies: []
+contact:
+  phone: 202-225-4876
+  profile_url: https://aderholt.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 272 Cannon House Office Building Washington DC 20515-0104
+  phone: 202-225-4876
+- classification: district
+  name: Cullman Office
+  address: 205 4th Ave. NE, Suite 104;Cullman, AL 35055
+  phone: 256-734-6043
+  fax: 202-225-5587
+- classification: district
+  name: Jasper Office
+  address: Carl Elliott Building, 1710 Alabama Ave., 247;Jasper, AL 35501
+  phone: 205-221-2310
+- classification: district
+  name: Tuscumbia Office
+  address: 1011 George Wallace Blvd., Suite 146;Tuscumbia, AL 35674
+  phone: 256-381-3450
+  fax: 202-225-5587
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000055 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

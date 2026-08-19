@@ -1,0 +1,28 @@
+id: ocd-person/2945a1f7-b083-5b85-a041-f809173eb86e
+name: Darline Graham
+identifiers:
+- scheme: bioguide
+  identifier: G000608
+- scheme: govtrack
+  identifier: '457044'
+- scheme: wikidata
+  identifier: Q140537772
+- scheme: wikipedia
+  identifier: Darline Graham Nordone
+- scheme: lis
+  identifier: S441
+candidacies: []
+contact:
+  phone: 202-224-5972
+  profile_url: https://www.dgraham.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: B33 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-5972
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000608 -- primary source for identity, terms, class, dates.

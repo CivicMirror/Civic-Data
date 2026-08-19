@@ -1,0 +1,54 @@
+id: ocd-person/fadc4a2e-d3e8-557d-b448-8d76c8cb7ed0
+name: Gregory F. Murphy
+identifiers:
+- scheme: bioguide
+  identifier: M001210
+- scheme: govtrack
+  identifier: '412845'
+- scheme: wikidata
+  identifier: Q23074266
+- scheme: wikipedia
+  identifier: Greg Murphy (politician)
+- scheme: ballotpedia
+  identifier: Gregory Murphy
+- scheme: opensecrets
+  identifier: N00044027
+- scheme: votesmart
+  identifier: '166135'
+- scheme: icpsr
+  identifier: '21987'
+- scheme: fec-candidate-id
+  identifier: H0NC03172
+candidacies: []
+contact:
+  phone: 202-225-3415
+  profile_url: https://murphy.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 407 Cannon House Office Building Washington DC 20515-3303
+  phone: 202-225-3415
+- classification: district
+  name: Greenville Office
+  address: 1105 Corporate Drive, Suite C;Greenville, NC 27858
+  phone: 252-931-1003
+- classification: district
+  name: Manteo Office
+  address: 954 Marshall C. Collins Dr, Room 194;Manteo, NC 27954
+  phone: 252-230-3549
+- classification: district
+  name: Jacksonville Office
+  address: 815 New Bridge Street;Jacksonville, NC 28540
+  phone: 910-937-6929
+- classification: district
+  name: New Bern Office
+  address: 2402 Dr. M.L.K. Jr. Blvd.;New Bern, NC 28562
+  phone: 252-636-6612
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001210 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,52 @@
+id: ocd-person/8ed19e76-648a-5c40-b942-eea4426a7943
+name: Nydia M. Velázquez
+identifiers:
+- scheme: bioguide
+  identifier: V000081
+- scheme: govtrack
+  identifier: '400416'
+- scheme: wikidata
+  identifier: Q434890
+- scheme: wikipedia
+  identifier: Nydia Velázquez
+- scheme: ballotpedia
+  identifier: Nydia Velazquez
+- scheme: opensecrets
+  identifier: N00001102
+- scheme: votesmart
+  identifier: '26975'
+- scheme: icpsr
+  identifier: '29378'
+- scheme: thomas
+  identifier: 01184
+- scheme: cspan
+  identifier: '26160'
+- scheme: maplight
+  identifier: '501'
+- scheme: fec-candidate-id
+  identifier: H2NY00010
+candidacies: []
+contact:
+  phone: 202-225-2361
+  profile_url: https://velazquez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2302 Rayburn House Office Building Washington DC 20515-3207
+  phone: 202-225-2361
+- classification: district
+  name: Brooklyn Office
+  address: 266 Broadway, Suite 201;Brooklyn, NY 11211
+  phone: 718-599-3658
+- classification: district
+  name: Sunnyside Office
+  address: 39-16 47th Avenue;Sunnyside, NY 11104
+  phone: 718-340-6244
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000081 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

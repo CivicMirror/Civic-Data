@@ -1,0 +1,44 @@
+id: ocd-person/73ca67a9-bb70-5f80-bcaf-502a2670d23d
+name: Brad Finstad
+identifiers:
+- scheme: bioguide
+  identifier: F000475
+- scheme: govtrack
+  identifier: '456869'
+- scheme: wikidata
+  identifier: Q111159803
+- scheme: wikipedia
+  identifier: Brad Finstad
+- scheme: ballotpedia
+  identifier: Brad Finstad
+- scheme: opensecrets
+  identifier: N00050649
+- scheme: votesmart
+  identifier: '38612'
+- scheme: fec-candidate-id
+  identifier: H2MN01223
+candidacies: []
+contact:
+  phone: 202-225-2472
+  profile_url: https://finstad.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2418 Rayburn House Office Building Washington DC 20515-2301
+  phone: 202-225-2472
+- classification: district
+  name: Rochester Office
+  address: 2746 Superior Drive NW, Suite 100;Rochester, MN 55901
+  phone: 507-577-6140
+- classification: district
+  name: New Ulm Office
+  address: 110 N. Minnesota St., Suite 5;New Ulm, MN 56073
+  phone: 507-577-6151
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000475 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

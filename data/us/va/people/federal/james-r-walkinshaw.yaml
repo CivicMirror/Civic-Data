@@ -1,0 +1,38 @@
+id: ocd-person/8fee9e0b-b3c8-50d5-a133-f702e25b855a
+name: James R. Walkinshaw
+identifiers:
+- scheme: bioguide
+  identifier: W000831
+- scheme: govtrack
+  identifier: '457036'
+- scheme: wikidata
+  identifier: Q135132001
+- scheme: wikipedia
+  identifier: James Walkinshaw
+- scheme: ballotpedia
+  identifier: James Walkinshaw
+- scheme: votesmart
+  identifier: '196546'
+- scheme: fec-candidate-id
+  identifier: H6VA11066
+candidacies: []
+contact:
+  phone: 202-225-1492
+  profile_url: https://walkinshaw.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2265 Rayburn House Office Building Washington DC 20515-4611
+  phone: 202-225-1492
+- classification: district
+  name: Fairfax Office
+  address: 10680 Main Street District, Suite 140;Fairfax, VA 22030
+  phone: 703-256-3071
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000831 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

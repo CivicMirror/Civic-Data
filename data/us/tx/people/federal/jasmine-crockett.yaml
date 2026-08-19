@@ -1,0 +1,40 @@
+id: ocd-person/0fca0dd3-e35b-5f49-b9e7-3e3698fa0bcb
+name: Jasmine Crockett
+identifiers:
+- scheme: bioguide
+  identifier: C001130
+- scheme: govtrack
+  identifier: '456944'
+- scheme: wikidata
+  identifier: Q101428652
+- scheme: wikipedia
+  identifier: Jasmine Crockett
+- scheme: ballotpedia
+  identifier: Jasmine Crockett
+- scheme: opensecrets
+  identifier: N00049840
+- scheme: votesmart
+  identifier: '188486'
+- scheme: fec-candidate-id
+  identifier: S6TX00552
+candidacies: []
+contact:
+  phone: 202-225-8885
+  profile_url: https://crockett.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1616 Longworth House Office Building Washington DC 20515-4330
+  phone: 202-225-8885
+- classification: district
+  name: Dallas Office
+  address: 1825 Market Center Blvd., Suite 440;Dallas, TX 75207
+  phone: 214-922-8885
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001130 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

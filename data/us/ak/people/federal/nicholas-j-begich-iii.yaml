@@ -1,0 +1,40 @@
+id: ocd-person/8dda2328-60be-53f8-b966-3133f0264490
+name: Nicholas J. Begich III
+identifiers:
+- scheme: bioguide
+  identifier: B001323
+- scheme: govtrack
+  identifier: '456970'
+- scheme: wikidata
+  identifier: Q113676482
+- scheme: wikipedia
+  identifier: Nick Begich III
+- scheme: ballotpedia
+  identifier: Nicholas Begich
+- scheme: opensecrets
+  identifier: N00049408
+- scheme: votesmart
+  identifier: '207684'
+- scheme: fec-candidate-id
+  identifier: H2AK01083
+candidacies: []
+contact:
+  phone: 202-225-5765
+  profile_url: https://begich.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 153 Cannon House Office Building Washington DC 20515-0200
+  phone: 202-225-5765
+- classification: district
+  name: Anchorage Office
+  address: 1016 W Sixth Ave, Suite 406;Anchorage, AK 99501
+  phone: 907-921-6575
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001323 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

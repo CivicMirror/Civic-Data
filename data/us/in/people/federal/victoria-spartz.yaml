@@ -1,0 +1,44 @@
+id: ocd-person/c7bf4bfc-9ec8-589d-9893-1bfb54d67b19
+name: Victoria Spartz
+identifiers:
+- scheme: bioguide
+  identifier: S000929
+- scheme: govtrack
+  identifier: '456822'
+- scheme: wikidata
+  identifier: Q44059867
+- scheme: wikipedia
+  identifier: Victoria Spartz
+- scheme: ballotpedia
+  identifier: Victoria Spartz
+- scheme: opensecrets
+  identifier: N00046537
+- scheme: votesmart
+  identifier: '178203'
+- scheme: fec-candidate-id
+  identifier: H0IN05326
+candidacies: []
+contact:
+  phone: 202-225-2276
+  profile_url: https://spartz.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1609 Longworth House Office Building Washington DC 20515-1405
+  phone: 202-225-2276
+- classification: district
+  name: Noblesville Office
+  address: 5540 Pebble Village Lane, Suite 400;Noblesville, IN 46062
+  phone: 317-848-0201
+- classification: district
+  name: Muncie Office
+  address: 420 S High Street, Suite 207;Muncie, IN 47305
+  phone: 765-639-0671
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000929 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

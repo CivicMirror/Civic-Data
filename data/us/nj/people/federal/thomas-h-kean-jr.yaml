@@ -1,0 +1,55 @@
+id: ocd-person/378d44d5-eb4d-5be5-be5f-de054ed7fb77
+name: Thomas H. Kean, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: K000398
+- scheme: govtrack
+  identifier: '456917'
+- scheme: wikidata
+  identifier: Q7791445
+- scheme: wikipedia
+  identifier: Thomas Kean Jr.
+- scheme: ballotpedia
+  identifier: Thomas Kean Jr.
+- scheme: opensecrets
+  identifier: N00027502
+- scheme: votesmart
+  identifier: '43250'
+- scheme: fec-candidate-id
+  identifier: H0NJ07261
+candidacies: []
+contact:
+  phone: 202-225-5361
+  profile_url: https://kean.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 251 Cannon House Office Building Washington DC 20515-3007
+  phone: 202-225-5361
+- classification: district
+  name: Mountainside Office
+  address: Mountainside Borough Hall, 1385 US Highway 22 East;Mountainside, NJ 07092
+- classification: district
+  name: Budd Lake Office
+  address: Mount Olive Township Municipal Building, 204 Flanders-Drakestown Road, Municipal Council Chambers;Budd Lake, NJ 07828
+- classification: district
+  name: Hopatcong Office
+  address: Hopatcong Borough Municipal Building, 111 River Styx Road;Hopatcong, NJ 07843
+- classification: district
+  name: Bernardsville Office
+  address: 75 Claremont Road, Suite 206;Bernardsville, NJ 07924
+  phone: 908-547-3307
+- classification: district
+  name: Flemington Office
+  address: Hunterdon County Admin. Building, 71 Main St, Building 1, Second Floor Executive Meeting;Flemington, NJ 08822
+- classification: district
+  name: Washington Office
+  address: 100 Belvidere Avenue, Second Floor Council Chambers;Washington, NJ 07882
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000398 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,52 @@
+id: ocd-person/05b00081-27e8-5e7c-aa56-768b46d4a678
+name: Lisa Blunt Rochester
+identifiers:
+- scheme: bioguide
+  identifier: B001303
+- scheme: govtrack
+  identifier: '412689'
+- scheme: wikidata
+  identifier: Q26899141
+- scheme: wikipedia
+  identifier: Lisa Blunt Rochester
+- scheme: ballotpedia
+  identifier: Lisa Blunt Rochester
+- scheme: opensecrets
+  identifier: N00038414
+- scheme: votesmart
+  identifier: '173249'
+- scheme: icpsr
+  identifier: '21706'
+- scheme: lis
+  identifier: S430
+- scheme: cspan
+  identifier: '104772'
+- scheme: maplight
+  identifier: '2201'
+- scheme: fec-candidate-id
+  identifier: S4DE00060
+candidacies: []
+contact:
+  phone: 202-224-2441
+  profile_url: https://www.bluntrochester.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 513 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2441
+- classification: district
+  name: Georgetown Office
+  address: 12 The Circle;Georgetown, DE 19947
+  phone: 302-856-7690
+- classification: district
+  name: Dover Office
+  address: 555 East Loockerman St., Suite 300;Dover, DE 19901
+  phone: 302-674-3308
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001303 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

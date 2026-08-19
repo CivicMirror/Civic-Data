@@ -1,0 +1,40 @@
+id: ocd-person/bd879e2e-d153-5b99-a2b8-3a0ef71b7ec7
+name: Burgess Owens
+identifiers:
+- scheme: bioguide
+  identifier: O000086
+- scheme: govtrack
+  identifier: '456852'
+- scheme: wikidata
+  identifier: Q4998602
+- scheme: wikipedia
+  identifier: Burgess Owens
+- scheme: ballotpedia
+  identifier: Burgess Owens
+- scheme: opensecrets
+  identifier: N00045812
+- scheme: votesmart
+  identifier: '191166'
+- scheme: fec-candidate-id
+  identifier: H0UT04076
+candidacies: []
+contact:
+  phone: 202-225-3011
+  profile_url: https://owens.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 309 Cannon House Office Building Washington DC 20515-4404
+  phone: 202-225-3011
+- classification: district
+  name: West Jordan Office
+  address: 9067 S. 1300 W, Suite 101;West Jordan, UT 84088
+  phone: 801-999-9801
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide O000086 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,42 @@
+id: ocd-person/fd71d7e4-a41b-563d-aec1-c6070cbad772
+name: Mary Gay Scanlon
+identifiers:
+- scheme: bioguide
+  identifier: S001205
+- scheme: govtrack
+  identifier: '412750'
+- scheme: wikidata
+  identifier: Q54611716
+- scheme: wikipedia
+  identifier: Mary Gay Scanlon
+- scheme: ballotpedia
+  identifier: Mary Gay Scanlon
+- scheme: opensecrets
+  identifier: N00042706
+- scheme: votesmart
+  identifier: '178890'
+- scheme: icpsr
+  identifier: '21762'
+- scheme: fec-candidate-id
+  identifier: H8PA07200
+candidacies: []
+contact:
+  phone: 202-225-2011
+  profile_url: https://scanlon.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1214 Longworth House Office Building Washington DC 20515-3805
+  phone: 202-225-2011
+- classification: district
+  name: Chester Office
+  address: 2501 Seaport Drive, BH230;Chester, PA 19013
+  phone: 610-626-2020
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001205 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,62 @@
+id: ocd-person/3f92eee6-7705-5eea-b2f2-8d9c46938cee
+name: Brian Babin
+identifiers:
+- scheme: bioguide
+  identifier: B001291
+- scheme: govtrack
+  identifier: '412655'
+- scheme: wikidata
+  identifier: Q16979824
+- scheme: wikipedia
+  identifier: Brian Babin
+- scheme: ballotpedia
+  identifier: Brian Babin
+- scheme: opensecrets
+  identifier: N00005736
+- scheme: votesmart
+  identifier: '360'
+- scheme: icpsr
+  identifier: '21551'
+- scheme: thomas
+  identifier: '02270'
+- scheme: cspan
+  identifier: '44883'
+- scheme: maplight
+  identifier: '2111'
+- scheme: fec-candidate-id
+  identifier: H6TX02079
+candidacies: []
+contact:
+  phone: 202-225-1555
+  profile_url: https://babin.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2236 Rayburn House Office Building Washington DC 20515-4336
+  phone: 202-225-1555
+- classification: district
+  name: Deer Park Office
+  address: 203 Ivy Ave., Suite 600;Deer Park, TX 77536
+  phone: 832-780-0966
+  fax: 832-780-0964
+- classification: district
+  name: Woodville Office
+  address: Tyler County Courthouse, 100 W. Bluff Dr.;Woodville, TX 75979
+  phone: 409-331-8066
+- classification: district
+  name: Dayton Office
+  address: Dayton Police Station, 2004 N. Cleveland St.;Dayton, TX 77536
+  phone: 832-780-0966
+- classification: district
+  name: Lumberton Office
+  address: 769 S. Main Street;Lumberton, TX 77657
+  phone: 409-883-8075
+  fax: 409-886-9918
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001291 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

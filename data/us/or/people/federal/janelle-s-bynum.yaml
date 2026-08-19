@@ -1,0 +1,40 @@
+id: ocd-person/43f15f52-02c6-55fe-9573-3788fe95854b
+name: Janelle S. Bynum
+identifiers:
+- scheme: bioguide
+  identifier: B001326
+- scheme: govtrack
+  identifier: '457016'
+- scheme: wikidata
+  identifier: Q28507879
+- scheme: wikipedia
+  identifier: Janelle Bynum
+- scheme: ballotpedia
+  identifier: Janelle Bynum
+- scheme: opensecrets
+  identifier: N00052777
+- scheme: votesmart
+  identifier: '168102'
+- scheme: fec-candidate-id
+  identifier: H4OR05304
+candidacies: []
+contact:
+  phone: 202-225-5711
+  profile_url: https://bynum.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1508 Longworth House Office Building Washington DC 20515-3705
+  phone: 202-225-5711
+- classification: district
+  name: Oregon City Office
+  address: 502 7th Street, Suite 203;Oregon City, OR 97045
+  phone: 503-387-8651
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001326 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

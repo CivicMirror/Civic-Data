@@ -1,0 +1,46 @@
+id: ocd-person/807ab78e-6fa7-5a5b-b496-60037cba031c
+name: Eric Burlison
+identifiers:
+- scheme: bioguide
+  identifier: B001316
+- scheme: govtrack
+  identifier: '456910'
+- scheme: wikidata
+  identifier: Q5386212
+- scheme: wikipedia
+  identifier: Eric Burlison
+- scheme: ballotpedia
+  identifier: Eric Burlison
+- scheme: opensecrets
+  identifier: N00049123
+- scheme: votesmart
+  identifier: '104635'
+- scheme: fec-candidate-id
+  identifier: H2MO07143
+candidacies: []
+contact:
+  phone: 202-225-6536
+  profile_url: https://burlison.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1108 Longworth House Office Building Washington DC 20515-2507
+  phone: 202-225-6536
+- classification: district
+  name: Joplin Office
+  address: 2727 E. 32nd Street, Suite 2;Joplin, MO 64804
+  phone: 417-781-1041
+  fax: 771-200-5750
+- classification: district
+  name: Springfield Office
+  address: 3232 E. Ridgeview St.;Springfield, MO 65804
+  phone: 417-889-1800
+  fax: 771-200-5750
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001316 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

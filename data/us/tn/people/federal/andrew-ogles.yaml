@@ -1,0 +1,40 @@
+id: ocd-person/c0dc835d-0bd2-5d95-a058-7357d6bde7d1
+name: Andrew Ogles
+identifiers:
+- scheme: bioguide
+  identifier: O000175
+- scheme: govtrack
+  identifier: '456939'
+- scheme: wikidata
+  identifier: Q111623114
+- scheme: wikipedia
+  identifier: Andy Ogles
+- scheme: ballotpedia
+  identifier: Andy Ogles
+- scheme: opensecrets
+  identifier: N00050943
+- scheme: votesmart
+  identifier: '48673'
+- scheme: fec-candidate-id
+  identifier: H2TN05446
+candidacies: []
+contact:
+  phone: 202-225-4311
+  profile_url: https://ogles.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 151 Cannon House Office Building Washington DC 20515-4205
+  phone: 202-225-4311
+- classification: district
+  name: Columbia Office
+  address: 22 Public Square, Suite 5;Columbia, TN 38401
+  phone: 931-777-2140
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide O000175 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

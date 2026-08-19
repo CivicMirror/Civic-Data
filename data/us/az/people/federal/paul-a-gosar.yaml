@@ -1,0 +1,48 @@
+id: ocd-person/bb22bb88-f47d-5999-8743-8b5a5a6f6659
+name: Paul A. Gosar
+identifiers:
+- scheme: bioguide
+  identifier: G000565
+- scheme: govtrack
+  identifier: '412397'
+- scheme: wikidata
+  identifier: Q2059832
+- scheme: wikipedia
+  identifier: Paul Gosar
+- scheme: ballotpedia
+  identifier: Paul Gosar
+- scheme: opensecrets
+  identifier: N00030771
+- scheme: votesmart
+  identifier: '123491'
+- scheme: icpsr
+  identifier: '21103'
+- scheme: thomas
+  identifier: 01992
+- scheme: cspan
+  identifier: '62470'
+- scheme: maplight
+  identifier: '1411'
+- scheme: fec-candidate-id
+  identifier: H0AZ01259
+candidacies: []
+contact:
+  phone: 202-225-2315
+  profile_url: https://gosar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2057 Rayburn House Office Building Washington DC 20515-0309
+  phone: 202-225-2315
+- classification: district
+  name: Goodyear Office
+  address: 1300 S. Litchfield Road, Suite 115-H;Goodyear, AZ 85338
+  phone: 623-707-0530
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000565 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

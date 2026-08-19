@@ -1,0 +1,56 @@
+id: ocd-person/55260018-4b89-5973-b68b-6cc64c8baeeb
+name: Gus M. Bilirakis
+identifiers:
+- scheme: bioguide
+  identifier: B001257
+- scheme: govtrack
+  identifier: '412250'
+- scheme: wikidata
+  identifier: Q1555314
+- scheme: wikipedia
+  identifier: Gus Bilirakis
+- scheme: ballotpedia
+  identifier: Gus M. Bilirakis
+- scheme: opensecrets
+  identifier: N00027462
+- scheme: votesmart
+  identifier: '17318'
+- scheme: icpsr
+  identifier: '20758'
+- scheme: thomas
+  identifier: 01838
+- scheme: cspan
+  identifier: '1022873'
+- scheme: maplight
+  identifier: '731'
+- scheme: fec-candidate-id
+  identifier: H6FL09070
+candidacies: []
+contact:
+  phone: 202-225-5755
+  profile_url: https://bilirakis.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2306 Rayburn House Office Building Washington DC 20515-0912
+  phone: 202-225-5755
+- classification: district
+  name: Inverness Office
+  address: 212 W Main Street, Suite 208A;Inverness, FL 34450
+  phone: 352-654-1004
+- classification: district
+  name: Brooksville Office
+  address: 15 N Main Street, Suite B;Brooksville, FL 34601
+  phone: 352-691-1231
+- classification: district
+  name: New Port Richey Office
+  address: 8731 Citizens Drive, Suite 135;New Port Richey, FL 34654
+  phone: 727-232-2921
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001257 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

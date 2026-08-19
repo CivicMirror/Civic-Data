@@ -1,0 +1,44 @@
+id: ocd-person/7161db4d-e295-518b-9fa7-fd39db27cec6
+name: Jimmy Patronis
+identifiers:
+- scheme: bioguide
+  identifier: P000622
+- scheme: govtrack
+  identifier: '457034'
+- scheme: wikidata
+  identifier: Q6201036
+- scheme: wikipedia
+  identifier: Jimmy Patronis
+- scheme: ballotpedia
+  identifier: Jimmy Patronis
+- scheme: votesmart
+  identifier: '67909'
+- scheme: cspan
+  identifier: '135015'
+- scheme: fec-candidate-id
+  identifier: H6FL01390
+candidacies: []
+contact:
+  phone: 202-225-4136
+  profile_url: https://patronis.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2021 Rayburn House Office Building Washington DC 20515-0901
+  phone: 202-225-4136
+- classification: district
+  name: Crestview Office
+  address: 805 E. James Lee Blvd.;Crestview, FL 32539
+  phone: 850-603-6690
+- classification: district
+  name: Pensacola Office
+  address: 1000 College Boulevard, Building 20, Room 2030;Pensacola, FL 32504
+  phone: 850-479-1183
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000622 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

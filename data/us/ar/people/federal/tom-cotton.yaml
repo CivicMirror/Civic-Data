@@ -1,0 +1,66 @@
+id: ocd-person/a1465060-2936-5a17-873a-61e022f2895c
+name: Tom Cotton
+identifiers:
+- scheme: bioguide
+  identifier: C001095
+- scheme: govtrack
+  identifier: '412508'
+- scheme: wikidata
+  identifier: Q3090307
+- scheme: wikipedia
+  identifier: Tom Cotton
+- scheme: ballotpedia
+  identifier: Tom Cotton
+- scheme: opensecrets
+  identifier: N00033363
+- scheme: votesmart
+  identifier: '135651'
+- scheme: icpsr
+  identifier: '21301'
+- scheme: lis
+  identifier: S374
+- scheme: thomas
+  identifier: 02098
+- scheme: cspan
+  identifier: '63928'
+- scheme: maplight
+  identifier: '1732'
+- scheme: fec-candidate-id
+  identifier: S4AR00103
+candidacies: []
+contact:
+  phone: 202-224-2353
+  profile_url: https://www.cotton.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 326 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-2353
+- classification: district
+  name: El Dorado Office
+  address: 106 W. Main St., Suite 410;El Dorado, AR 71730
+  phone: 870-864-8582
+  fax: 870-864-8571
+- classification: district
+  name: Jonesboro Office
+  address: 300 S. Church, Suite 338;Jonesboro, AR 72401
+  phone: 870-933-6223
+  fax: 870-933-6596
+- classification: district
+  name: Little Rock Office
+  address: 1401 W. Capitol Ave., Suite 235;Little Rock, AR 72201
+  phone: 501-223-9081
+  fax: 501-223-9105
+- classification: district
+  name: Rogers Office
+  address: 3333 S. Pinnacle Hills Pkwy, Suite 425;Rogers, AR 72758
+  phone: 479-751-0879
+  fax: 479-464-0648
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001095 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

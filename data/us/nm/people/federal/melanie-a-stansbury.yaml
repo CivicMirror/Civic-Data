@@ -1,0 +1,40 @@
+id: ocd-person/70216f8e-75ab-5e1b-b0cd-b0d04e53b33a
+name: Melanie A. Stansbury
+identifiers:
+- scheme: bioguide
+  identifier: S001218
+- scheme: govtrack
+  identifier: '456861'
+- scheme: wikidata
+  identifier: Q96184996
+- scheme: wikipedia
+  identifier: Melanie Stansbury
+- scheme: ballotpedia
+  identifier: Melanie Ann Stansbury
+- scheme: opensecrets
+  identifier: N00047871
+- scheme: votesmart
+  identifier: '180789'
+- scheme: fec-candidate-id
+  identifier: H2NM01144
+candidacies: []
+contact:
+  phone: 202-225-6316
+  profile_url: https://stansbury.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1421 Longworth House Office Building Washington DC 20515-3101
+  phone: 202-225-6316
+- classification: district
+  name: Albuquerque Office
+  address: 6301 Indian School Rd, Suite 420;Albuquerque, NM 87110
+  phone: 505-346-6781
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001218 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

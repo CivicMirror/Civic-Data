@@ -1,0 +1,48 @@
+id: ocd-person/42226147-10c9-5c79-9fc6-f61322ddc9ec
+name: Andy Barr
+identifiers:
+- scheme: bioguide
+  identifier: B001282
+- scheme: govtrack
+  identifier: '412541'
+- scheme: wikidata
+  identifier: Q3828645
+- scheme: wikipedia
+  identifier: Andy Barr
+- scheme: ballotpedia
+  identifier: Andy Barr
+- scheme: opensecrets
+  identifier: N00031233
+- scheme: votesmart
+  identifier: '117290'
+- scheme: icpsr
+  identifier: '21333'
+- scheme: thomas
+  identifier: '02131'
+- scheme: cspan
+  identifier: '61848'
+- scheme: maplight
+  identifier: '1765'
+- scheme: fec-candidate-id
+  identifier: S6KY00286
+candidacies: []
+contact:
+  phone: 202-225-4706
+  profile_url: https://barr.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2430 Rayburn House Office Building Washington DC 20515-1706
+  phone: 202-225-4706
+- classification: district
+  name: Lexington Office
+  address: 2709 Old Rosebud Rd., Ste. 100;Lexington, KY 40509
+  phone: 859-219-1366
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001282 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

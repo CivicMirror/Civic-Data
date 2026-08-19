@@ -1,0 +1,42 @@
+id: ocd-person/5ab9f3a6-4df9-5000-9be7-3e5888229ff6
+name: Gilbert Ray Cisneros, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: C001123
+- scheme: govtrack
+  identifier: '412757'
+- scheme: wikidata
+  identifier: Q54958760
+- scheme: wikipedia
+  identifier: Gil Cisneros
+- scheme: ballotpedia
+  identifier: Gil Cisneros
+- scheme: opensecrets
+  identifier: N00041464
+- scheme: votesmart
+  identifier: '179370'
+- scheme: icpsr
+  identifier: '21907'
+- scheme: fec-candidate-id
+  identifier: H4CA31170
+candidacies: []
+contact:
+  phone: 202-225-5256
+  profile_url: https://cisneros.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2463 Rayburn House Office Building Washington DC 20515-0531
+  phone: 202-225-5256
+- classification: district
+  name: Covina Office
+  address: 100 S. Citrus Ave, Suite 204;Covina, CA 91723
+  phone: 626-646-0369
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001123 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

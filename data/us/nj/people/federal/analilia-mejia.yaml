@@ -1,0 +1,36 @@
+id: ocd-person/0ba730c0-3cba-5c4c-9830-beedb886c8fe
+name: Analilia Mejia
+identifiers:
+- scheme: bioguide
+  identifier: M001246
+- scheme: govtrack
+  identifier: '457042'
+- scheme: wikidata
+  identifier: Q138142530
+- scheme: wikipedia
+  identifier: Analilia Mejia
+- scheme: ballotpedia
+  identifier: Analilia Mejia
+- scheme: fec-candidate-id
+  identifier: H6NJ11286
+candidacies: []
+contact:
+  phone: 202-225-5034
+  profile_url: https://mejia.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1427 Longworth House Office Building Washington DC 20515-3011
+  phone: 202-225-5034
+- classification: district
+  name: Livingston Office
+  address: 357 S. Livingston Avenue, Suite 201;Livingston, NJ 07039
+  phone: 973-526-5668
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001246 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

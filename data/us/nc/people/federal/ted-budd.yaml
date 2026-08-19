@@ -1,0 +1,60 @@
+id: ocd-person/a6877068-8493-5638-9541-806c205314ec
+name: Ted Budd
+identifiers:
+- scheme: bioguide
+  identifier: B001305
+- scheme: govtrack
+  identifier: '412712'
+- scheme: wikidata
+  identifier: Q27733792
+- scheme: wikipedia
+  identifier: Ted Budd
+- scheme: ballotpedia
+  identifier: Ted Budd
+- scheme: opensecrets
+  identifier: N00039551
+- scheme: votesmart
+  identifier: '171489'
+- scheme: icpsr
+  identifier: '21708'
+- scheme: lis
+  identifier: S417
+- scheme: cspan
+  identifier: '103513'
+- scheme: maplight
+  identifier: '2224'
+- scheme: fec-candidate-id
+  identifier: S2NC00505
+candidacies: []
+contact:
+  phone: 202-224-3154
+  profile_url: https://www.budd.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 354 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-3154
+- classification: district
+  name: Advance Office
+  address: 5380 US Highway 158, Suite 202;Advance, NC 27006
+  phone: 336-941-4470
+- classification: district
+  name: Raleigh Office
+  address: 333 Fayetteville Street, Suite 1504;Raleigh, NC 27601
+  phone: 984-349-5061
+- classification: district
+  name: Wilmington Office
+  address: 201 N. Front St., Suite 809;Wilmington, NC 28401
+  phone: 910-218-7600
+- classification: district
+  name: Asheville Office
+  address: 151 Patton Ave., Suite 204;Asheville, NC 28801
+  phone: 828-333-4130
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001305 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

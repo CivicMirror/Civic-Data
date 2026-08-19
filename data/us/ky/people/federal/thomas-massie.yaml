@@ -1,0 +1,53 @@
+id: ocd-person/1d109348-b725-544b-893b-58d061f6e0fe
+name: Thomas Massie
+identifiers:
+- scheme: bioguide
+  identifier: M001184
+- scheme: govtrack
+  identifier: '412503'
+- scheme: wikidata
+  identifier: Q2426031
+- scheme: wikipedia
+  identifier: Thomas Massie
+- scheme: ballotpedia
+  identifier: Thomas Massie
+- scheme: opensecrets
+  identifier: N00034041
+- scheme: votesmart
+  identifier: '132068'
+- scheme: icpsr
+  identifier: '31102'
+- scheme: thomas
+  identifier: 02094
+- scheme: cspan
+  identifier: '79951'
+- scheme: maplight
+  identifier: '1684'
+- scheme: fec-candidate-id
+  identifier: H2KY04121
+candidacies: []
+contact:
+  phone: 202-225-3465
+  profile_url: https://massie.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2371 Rayburn House Office Building Washington DC 20515-1704
+  phone: 202-225-3465
+- classification: district
+  name: Crescent Springs Office
+  address: 541 Buttermilk Pike, Suite 208;Crescent Springs, KY 41017
+  phone: 859-426-0080
+  fax: 859-426-0061
+- classification: district
+  name: LaGrange Office
+  address: 110 W. Jefferson St., Suite 100;LaGrange, KY 40031
+  phone: 502-265-9119
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001184 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

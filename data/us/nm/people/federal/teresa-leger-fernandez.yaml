@@ -1,0 +1,52 @@
+id: ocd-person/208a6667-d2f7-57e2-813f-d76fef40d3e9
+name: Teresa Leger Fernandez
+identifiers:
+- scheme: bioguide
+  identifier: L000273
+- scheme: govtrack
+  identifier: '456835'
+- scheme: wikidata
+  identifier: Q96054905
+- scheme: wikipedia
+  identifier: Teresa Leger Fernández
+- scheme: ballotpedia
+  identifier: Teresa Leger Fernandez
+- scheme: opensecrets
+  identifier: N00044559
+- scheme: votesmart
+  identifier: '189882'
+- scheme: fec-candidate-id
+  identifier: H0NM03102
+candidacies: []
+contact:
+  phone: 202-225-6190
+  profile_url: https://fernandez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2417 Rayburn House Office Building Washington DC 20515-3103
+  phone: 202-225-6190
+- classification: district
+  name: Gallup Office
+  address: 207 West Hill Ave., Office 301A;Gallup, NM 87301
+  phone: 505-551-4696
+- classification: district
+  name: Santa Fe Office
+  address: 120 S Federal Pl, Suite 323;Santa Fe, NM 87501
+  phone: 505-428-4680
+- classification: district
+  name: Las Vegas Office
+  address: 1103 National Avenue, Suite 101;Las Vegas, NM 87701
+  phone: 505-570-7558
+- classification: district
+  name: Clovis Office
+  address: 418 Main Street;Clovis, NM 88101
+  phone: 505-428-4680
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000273 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

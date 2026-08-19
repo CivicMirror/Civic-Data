@@ -1,0 +1,42 @@
+id: ocd-person/aa70ad71-ff46-57b7-ac6d-d6f078552603
+name: Ilhan Omar
+identifiers:
+- scheme: bioguide
+  identifier: O000173
+- scheme: govtrack
+  identifier: '412791'
+- scheme: wikidata
+  identifier: Q26436159
+- scheme: wikipedia
+  identifier: Ilhan Omar
+- scheme: ballotpedia
+  identifier: Ilhan Omar
+- scheme: opensecrets
+  identifier: N00043581
+- scheme: votesmart
+  identifier: '171628'
+- scheme: icpsr
+  identifier: '21950'
+- scheme: fec-candidate-id
+  identifier: H8MN05239
+candidacies: []
+contact:
+  phone: 202-225-4755
+  profile_url: https://omar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1730 Longworth House Office Building Washington DC 20515-2305
+  phone: 202-225-4755
+- classification: district
+  name: Minneapolis Office
+  address: 310 E 38th St, Suite 222;Minneapolis, MN 55409
+  phone: 612-333-1272
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide O000173 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

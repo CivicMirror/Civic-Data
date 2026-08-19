@@ -1,0 +1,54 @@
+id: ocd-person/c74f7229-de8d-5543-91a2-e95ac8e2daad
+name: Austin Scott
+identifiers:
+- scheme: bioguide
+  identifier: S001189
+- scheme: govtrack
+  identifier: '412417'
+- scheme: wikidata
+  identifier: Q781167
+- scheme: wikipedia
+  identifier: Austin Scott
+- scheme: ballotpedia
+  identifier: Austin Scott
+- scheme: opensecrets
+  identifier: N00032457
+- scheme: votesmart
+  identifier: '11812'
+- scheme: icpsr
+  identifier: '21123'
+- scheme: thomas
+  identifier: 02009
+- scheme: cspan
+  identifier: '623344'
+- scheme: maplight
+  identifier: '1429'
+- scheme: fec-candidate-id
+  identifier: H0GA08099
+candidacies: []
+contact:
+  phone: 202-225-6531
+  profile_url: https://austinscott.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2185 Rayburn House Office Building Washington DC 20515-1008
+  phone: 202-225-6531
+- classification: district
+  name: Tifton Office
+  address: 127-B N. Central Ave.;Tifton, GA 31794
+  phone: 229-396-5175
+  fax: 229-396-5179
+- classification: district
+  name: Warner Robins Office
+  address: 120 Byrd Way, Suite 100;Warner Robins, GA 31088
+  phone: 478-971-1776
+  fax: 478-971-1778
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001189 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,46 @@
+id: ocd-person/2a2a76fd-8985-57ac-94b2-d1b90f6e5e8a
+name: Tim Burchett
+identifiers:
+- scheme: bioguide
+  identifier: B001309
+- scheme: govtrack
+  identifier: '412817'
+- scheme: wikidata
+  identifier: Q7803244
+- scheme: wikipedia
+  identifier: Tim Burchett
+- scheme: ballotpedia
+  identifier: Tim Burchett
+- scheme: opensecrets
+  identifier: N00041594
+- scheme: votesmart
+  identifier: '24379'
+- scheme: icpsr
+  identifier: '21905'
+- scheme: fec-candidate-id
+  identifier: H8TN02119
+candidacies: []
+contact:
+  phone: 202-225-5435
+  profile_url: https://burchett.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1122 Longworth House Office Building Washington DC 20515-4202
+  phone: 202-225-5435
+- classification: district
+  name: Knoxville Office
+  address: 800 Market St, Suite 110;Knoxville, TN 37902-2327
+  phone: 865-523-3772
+- classification: district
+  name: Maryville Office
+  address: 331 Court Street;Maryville, TN 37804
+  phone: 865-984-5464
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001309 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,64 @@
+id: ocd-person/f2798b31-9233-58b9-9db0-766d67e15647
+name: John W. Hickenlooper
+identifiers:
+- scheme: bioguide
+  identifier: H000273
+- scheme: govtrack
+  identifier: '456797'
+- scheme: wikidata
+  identifier: Q430518
+- scheme: wikipedia
+  identifier: John Hickenlooper
+- scheme: ballotpedia
+  identifier: John Hickenlooper
+- scheme: opensecrets
+  identifier: N00044206
+- scheme: lis
+  identifier: S408
+- scheme: fec-candidate-id
+  identifier: S0CO00575
+candidacies: []
+contact:
+  phone: 202-224-5941
+  profile_url: https://www.hickenlooper.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 316 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5941
+- classification: district
+  name: Denver Office
+  address: Byron Rogers Federal Building, 1961 Stout St., Suite 12-300;Denver, CO 80294
+  phone: 303-244-1628
+- classification: district
+  name: Colorado Springs Office
+  address: 102 South Tejon St., Suite 930;Colorado Springs, CO 80903
+  phone: 719-632-6706
+- classification: district
+  name: Grand Junction Office
+  address: Wayne Aspinall Federal Building, 400 Rood Ave., Suite 220;Grand Junction, CO 81501
+  phone: 970-822-4530
+- classification: district
+  name: Durango Office
+  address: The Smiley Building, 1309 East 3rd Ave., Suite 104;Durango, CO 81301
+  phone: 970-880-7236
+- classification: district
+  name: Greeley Office
+  address: 801 8th St., Suite 140A;Greeley, CO 80631
+  phone: 970-352-5546
+- classification: district
+  name: Fort Collins Office
+  address: 201 S College Ave., Suite 200;Fort Collins, CO 80524
+  phone: 970-484-3502
+- classification: district
+  name: Glenwood Springs Office
+  address: 1402 Blake Ave., Suite 109A;Glenwood Springs, CO 81601
+  phone: 970-989-7075
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H000273 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,53 @@
+id: ocd-person/24d71c9c-f2d3-55bf-baaf-611c7f3f2db3
+name: Elissa Slotkin
+identifiers:
+- scheme: bioguide
+  identifier: S001208
+- scheme: govtrack
+  identifier: '412784'
+- scheme: wikidata
+  identifier: Q30323721
+- scheme: wikipedia
+  identifier: Elissa Slotkin
+- scheme: ballotpedia
+  identifier: Elissa Slotkin
+- scheme: opensecrets
+  identifier: N00041357
+- scheme: votesmart
+  identifier: '181080'
+- scheme: icpsr
+  identifier: '21965'
+- scheme: lis
+  identifier: S436
+- scheme: fec-candidate-id
+  identifier: S4MI00470
+candidacies: []
+contact:
+  phone: 202-224-4822
+  profile_url: https://www.slotkin.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 291 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4822
+- classification: district
+  name: Lansing Office
+  address: 315 W. Allegan St., Suite 207;Lansing, MI 48933
+  phone: 517-993-0510
+- classification: district
+  name: Flint Office
+  address: 432 North Saginaw St., Suite 301;Flint, MI 48502
+- classification: district
+  name: Detroit Office
+  address: 719 Griswold Street, Suite 700;Detroit, MI 48226
+- classification: district
+  name: Traverse City Office
+  address: 3335 South Airport Road West, Suite 6B;Traverse City, MI 49684
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001208 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

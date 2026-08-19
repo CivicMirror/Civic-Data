@@ -1,0 +1,53 @@
+id: ocd-person/cd4e063c-d4d8-5bca-b37e-cedd3f132d7a
+name: Ken Calvert
+identifiers:
+- scheme: bioguide
+  identifier: C000059
+- scheme: govtrack
+  identifier: '400057'
+- scheme: wikidata
+  identifier: Q538978
+- scheme: wikipedia
+  identifier: Ken Calvert
+- scheme: ballotpedia
+  identifier: Ken Calvert
+- scheme: opensecrets
+  identifier: N00007099
+- scheme: votesmart
+  identifier: '26777'
+- scheme: icpsr
+  identifier: '29323'
+- scheme: thomas
+  identifier: '00165'
+- scheme: cspan
+  identifier: '26709'
+- scheme: maplight
+  identifier: '175'
+- scheme: fec-candidate-id
+  identifier: H2CA37023
+candidacies: []
+contact:
+  phone: 202-225-1986
+  profile_url: https://calvert.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2205 Rayburn House Office Building Washington DC 20515-0541
+  phone: 202-225-1986
+- classification: district
+  name: Corona Office
+  address: 400 S. Vicentia Ave., Suite 125;Corona, CA 92882
+  phone: 951-277-0042
+  fax: 951-277-0420
+- classification: district
+  name: Palm Desert Office
+  address: 73710 Fred Waring Drive, Suite 129;Palm Desert, CA 92260
+  phone: 760-620-0041
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C000059 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

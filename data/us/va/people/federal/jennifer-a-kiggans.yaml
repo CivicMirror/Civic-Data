@@ -1,0 +1,48 @@
+id: ocd-person/b1a7937e-f871-5837-9a7c-48c4a6693856
+name: Jennifer A. Kiggans
+identifiers:
+- scheme: bioguide
+  identifier: K000399
+- scheme: govtrack
+  identifier: '456947'
+- scheme: wikidata
+  identifier: Q83119566
+- scheme: wikipedia
+  identifier: Jen Kiggans
+- scheme: ballotpedia
+  identifier: Jennifer Kiggans
+- scheme: opensecrets
+  identifier: N00048315
+- scheme: votesmart
+  identifier: '186387'
+- scheme: fec-candidate-id
+  identifier: H2VA02064
+candidacies: []
+contact:
+  phone: 202-225-4215
+  profile_url: https://kiggans.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 152 Cannon House Office Building Washington DC 20515-4602
+  phone: 202-225-4215
+- classification: district
+  name: Onley Office
+  address: 25020 Shore Parkway, 1B;Onley, VA 23418
+  phone: 757-666-6020
+- classification: district
+  name: Suffolk Office
+  address: 130 S. Saratoga Street;Suffolk, VA 23434
+  phone: 757-942-6050
+- classification: district
+  name: Virginia Beach Office
+  address: 283 Constitution Drive, Suite 900;Virginia Beach, VA 23462
+  phone: 757-364-7650
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000399 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

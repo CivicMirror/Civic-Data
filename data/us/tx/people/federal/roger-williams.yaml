@@ -1,0 +1,54 @@
+id: ocd-person/87ab7c8a-2954-51df-bda0-073cc058aba8
+name: Roger Williams
+identifiers:
+- scheme: bioguide
+  identifier: W000816
+- scheme: govtrack
+  identifier: '412578'
+- scheme: wikidata
+  identifier: Q4014560
+- scheme: wikipedia
+  identifier: Roger Williams (Texas politician)
+- scheme: ballotpedia
+  identifier: Roger Williams
+- scheme: opensecrets
+  identifier: N00030602
+- scheme: votesmart
+  identifier: '50112'
+- scheme: icpsr
+  identifier: '21364'
+- scheme: thomas
+  identifier: '02165'
+- scheme: cspan
+  identifier: '623742'
+- scheme: maplight
+  identifier: '1802'
+- scheme: fec-candidate-id
+  identifier: S2TX00270
+candidacies: []
+contact:
+  phone: 202-225-9896
+  profile_url: https://williams.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2336 Rayburn House Office Building Washington DC 20515-4325
+  phone: 202-225-9896
+- classification: district
+  name: Cleburne Office
+  address: 115 S. Main St., Suite 206;Cleburne, TX 76033
+  phone: 682-218-5965
+  fax: 771-200-5668
+- classification: district
+  name: Arlington Office
+  address: 1000 Ballpark Way, Suite 310;Arlington, TX 76011
+  phone: 682-218-5965
+  fax: 771-200-5668
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000816 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

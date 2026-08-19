@@ -1,0 +1,60 @@
+id: ocd-person/d853895e-3ece-5cb1-82f4-3d6fab144094
+name: Tina Smith
+identifiers:
+- scheme: bioguide
+  identifier: S001203
+- scheme: govtrack
+  identifier: '412742'
+- scheme: wikidata
+  identifier: Q18631509
+- scheme: wikipedia
+  identifier: Tina Smith
+- scheme: ballotpedia
+  identifier: Tina Smith
+- scheme: opensecrets
+  identifier: N00042353
+- scheme: votesmart
+  identifier: '152968'
+- scheme: icpsr
+  identifier: '41706'
+- scheme: lis
+  identifier: S394
+- scheme: cspan
+  identifier: '111313'
+- scheme: maplight
+  identifier: '2253'
+- scheme: fec-candidate-id
+  identifier: S8MN00578
+candidacies: []
+contact:
+  phone: 202-224-5641
+  profile_url: https://www.smith.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 720 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5641
+- classification: district
+  name: Moorhead Office
+  address: 819 Center Avenue, Suite 2A;Moorhead, MN 56560
+  phone: 218-284-8721
+- classification: district
+  name: Duluth Office
+  address: 515 W 1st Street, Suite 104;Duluth, MN 55802
+  phone: 218-722-2390
+- classification: district
+  name: Saint Paul Office
+  address: 60 Plato Blvd. East, Suite 220;Saint Paul, MN 55107
+  phone: 651-221-1016
+- classification: district
+  name: Rochester Office
+  address: 1202-1/2 7th Street NW, Suite 218;Rochester, MN 55901
+  phone: 507-218-2003
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001203 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

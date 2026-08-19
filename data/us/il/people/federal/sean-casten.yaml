@@ -1,0 +1,45 @@
+id: ocd-person/60d3551c-1065-5bf3-a2f6-c1d4e69e2d32
+name: Sean Casten
+identifiers:
+- scheme: bioguide
+  identifier: C001117
+- scheme: govtrack
+  identifier: '412775'
+- scheme: wikidata
+  identifier: Q55386655
+- scheme: wikipedia
+  identifier: Sean Casten
+- scheme: ballotpedia
+  identifier: Sean Casten
+- scheme: opensecrets
+  identifier: N00041338
+- scheme: votesmart
+  identifier: '176982'
+- scheme: icpsr
+  identifier: '21906'
+- scheme: fec-candidate-id
+  identifier: H8IL06139
+candidacies: []
+contact:
+  phone: 202-225-4561
+  profile_url: https://casten.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2440 Rayburn House Office Building Washington DC 20515-1306
+  phone: 202-225-4561
+- classification: district
+  name: Glen Ellyn Office
+  address: Building C, 800 Roosevelt Road, Suite 204;Glen Ellyn, IL 60137
+  phone: 630-520-9450
+- classification: district
+  name: Oak Forest Office
+  address: Building C, 15350 Oak Park Ave, 2nd Floor;Oak Forest, IL 60452
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001117 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

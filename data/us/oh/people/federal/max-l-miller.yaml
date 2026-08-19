@@ -1,0 +1,44 @@
+id: ocd-person/19dce367-2fca-5d84-811e-9dc3df8b509c
+name: Max L. Miller
+identifiers:
+- scheme: bioguide
+  identifier: M001222
+- scheme: govtrack
+  identifier: '456929'
+- scheme: wikidata
+  identifier: Q106522145
+- scheme: wikipedia
+  identifier: Max Miller (politician)
+- scheme: ballotpedia
+  identifier: Max Miller
+- scheme: opensecrets
+  identifier: N00048277
+- scheme: votesmart
+  identifier: '206947'
+- scheme: fec-candidate-id
+  identifier: H2OH16051
+candidacies: []
+contact:
+  phone: 202-225-3876
+  profile_url: https://maxmiller.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 143 Cannon House Office Building Washington DC 20515-3507
+  phone: 202-225-3876
+- classification: district
+  name: Parma Office
+  address: ;Parma, OH
+  phone: 440-692-6120
+- classification: district
+  name: Medina Office
+  address: ;Medina, OH
+  phone: 330-661-6654
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001222 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

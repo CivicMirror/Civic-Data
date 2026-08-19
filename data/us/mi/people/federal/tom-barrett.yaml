@@ -1,0 +1,40 @@
+id: ocd-person/531c8817-5d0b-5fda-a2df-072559814f47
+name: Tom Barrett
+identifiers:
+- scheme: bioguide
+  identifier: B001321
+- scheme: govtrack
+  identifier: '456994'
+- scheme: wikidata
+  identifier: Q18684588
+- scheme: wikipedia
+  identifier: Tom Barrett (Michigan politician)
+- scheme: ballotpedia
+  identifier: Tom Barrett (Michigan)
+- scheme: opensecrets
+  identifier: N00049596
+- scheme: votesmart
+  identifier: '153540'
+- scheme: fec-candidate-id
+  identifier: H2MI07123
+candidacies: []
+contact:
+  phone: 202-225-4872
+  profile_url: https://barrett.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1232 Longworth House Office Building Washington DC 20515-2207
+  phone: 202-225-4872
+- classification: district
+  name: Lansing Office
+  address: 328 W Ottawa St, Suite A;Lansing, MI 48933
+  phone: 517-993-0510
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001321 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

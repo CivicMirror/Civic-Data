@@ -1,0 +1,49 @@
+id: ocd-person/570fdc11-4e64-548f-b65b-a96b6bb2eb8c
+name: Joyce Beatty
+identifiers:
+- scheme: bioguide
+  identifier: B001281
+- scheme: govtrack
+  identifier: '412565'
+- scheme: wikidata
+  identifier: Q976417
+- scheme: wikipedia
+  identifier: Joyce Beatty
+- scheme: ballotpedia
+  identifier: Joyce Beatty
+- scheme: opensecrets
+  identifier: N00033904
+- scheme: votesmart
+  identifier: '2427'
+- scheme: icpsr
+  identifier: '21352'
+- scheme: thomas
+  identifier: '02153'
+- scheme: cspan
+  identifier: '67294'
+- scheme: maplight
+  identifier: '1789'
+- scheme: fec-candidate-id
+  identifier: H2OH03125
+candidacies: []
+contact:
+  phone: 202-225-4324
+  profile_url: https://beatty.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2079 Rayburn House Office Building Washington DC 20515-3503
+  phone: 202-225-4324
+- classification: district
+  name: Columbus Office
+  address: 471 E. Broad St., Suite 1100;Columbus, OH 43215
+  phone: 614-220-0003
+  fax: 614-220-5640
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001281 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

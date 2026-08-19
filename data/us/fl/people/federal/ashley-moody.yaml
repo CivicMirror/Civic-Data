@@ -1,0 +1,60 @@
+id: ocd-person/afde3246-1fc5-595f-9a35-3d9b67af44f6
+name: Ashley Moody
+identifiers:
+- scheme: bioguide
+  identifier: M001244
+- scheme: govtrack
+  identifier: '457033'
+- scheme: wikidata
+  identifier: Q58333626
+- scheme: wikipedia
+  identifier: Ashley Moody
+- scheme: ballotpedia
+  identifier: Ashley B. Moody
+- scheme: votesmart
+  identifier: '183198'
+- scheme: lis
+  identifier: S439
+- scheme: fec-candidate-id
+  identifier: S6FL00640
+candidacies: []
+contact:
+  phone: 202-224-3041
+  profile_url: https://www.moody.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 387 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-3041
+- classification: district
+  name: Tallahassee Office
+  address: 402 S. Monroe St., Suite 2105;Tallahassee, FL 32399-6526
+  phone: 850-599-9100
+- classification: district
+  name: Palm Beach Gardens Office
+  address: 4822 Northlake Boulevard, Suite B-1;Palm Beach Gardens, FL 33418-3920
+  phone: 561-775-3360
+- classification: district
+  name: Jacksonville Office
+  address: 300 North Hogan Street, Suite 8-111;Jacksonville, FL 32202
+  phone: 904-354-4300
+- classification: district
+  name: Miami Office
+  address: 9130 S Dadeland Blvd., 1510;Miami, FL 33156-7850
+  phone: 305-596-4224
+- classification: district
+  name: Orlando Office
+  address: 201 S Orange Av., Suite 350;Orlando, FL 32801-3499
+  phone: 407-254-2573
+- classification: district
+  name: Fort Myers Office
+  address: 2120 Main Street, Suite 200;Fort Myers, FL 33901
+  phone: 239-318-6464
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001244 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,51 @@
+id: ocd-person/ac1c6871-41c6-583f-80b7-d5d40643c0b3
+name: Ryan Mackenzie
+identifiers:
+- scheme: bioguide
+  identifier: M001230
+- scheme: govtrack
+  identifier: '457017'
+- scheme: wikidata
+  identifier: Q7384273
+- scheme: wikipedia
+  identifier: Ryan Mackenzie
+- scheme: ballotpedia
+  identifier: Ryan Mackenzie
+- scheme: opensecrets
+  identifier: N00041866
+- scheme: votesmart
+  identifier: '136465'
+- scheme: fec-candidate-id
+  identifier: H8PA15195
+candidacies: []
+contact:
+  phone: 202-225-6411
+  profile_url: https://mackenzie.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 121 Cannon House Office Building Washington DC 20515-3807
+  phone: 202-225-6411
+- classification: district
+  name: Allentown Office
+  address: 1125 S Cedar Crest Blvd, Suite 109 (Bottom Floor);Allentown, PA 18103
+  phone: 484-781-6000
+- classification: district
+  name: Allentown Office
+  address: 840 W Hamilton St., Suite 201;Allentown, PA 18101
+  phone: 484-781-6932
+- classification: district
+  name: Lehighton Office
+  address: 1163 Interchange Rd, Suite C;Lehighton, PA 18235
+  phone: 570-807-0333
+- classification: district
+  name: Bethlehem Office
+  address: 2151 Emrick Blvd., Suite 204;Bethlehem, PA 18020
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001230 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

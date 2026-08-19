@@ -1,0 +1,46 @@
+id: ocd-person/af5e0888-626e-5f70-977e-005d0b3c5947
+name: Becca Balint
+identifiers:
+- scheme: bioguide
+  identifier: B001318
+- scheme: govtrack
+  identifier: '456948'
+- scheme: wikidata
+  identifier: Q28137193
+- scheme: wikipedia
+  identifier: Becca Balint
+- scheme: ballotpedia
+  identifier: Becca Balint
+- scheme: opensecrets
+  identifier: N00049900
+- scheme: votesmart
+  identifier: '154056'
+- scheme: fec-candidate-id
+  identifier: H2VT01076
+candidacies: []
+contact:
+  phone: 202-225-4115
+  profile_url: https://balint.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1510 Longworth House Office Building Washington DC 20515-4500
+  phone: 202-225-4115
+- classification: district
+  name: Brattleboro Office
+  address: Holton Hall, 130 Austine Drive, 2nd Floor;Brattleboro, VT 05301
+  phone: 802-652-2450
+  fax: 771-200-5791
+- classification: district
+  name: Burlington Office
+  address: 159 Bank Street, Suite 204;Burlington, VT 05401
+  phone: 802-652-2450
+  fax: 771-200-5791
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001318 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

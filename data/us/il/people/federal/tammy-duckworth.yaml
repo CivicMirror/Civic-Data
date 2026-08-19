@@ -1,0 +1,69 @@
+id: ocd-person/0d205d72-024a-5e3c-ba56-a40141743658
+name: Tammy Duckworth
+identifiers:
+- scheme: bioguide
+  identifier: D000622
+- scheme: govtrack
+  identifier: '412533'
+- scheme: wikidata
+  identifier: Q3036410
+- scheme: wikipedia
+  identifier: Tammy Duckworth
+- scheme: ballotpedia
+  identifier: Tammy Duckworth
+- scheme: opensecrets
+  identifier: N00027860
+- scheme: votesmart
+  identifier: '57442'
+- scheme: icpsr
+  identifier: '21325'
+- scheme: lis
+  identifier: S386
+- scheme: thomas
+  identifier: '02123'
+- scheme: cspan
+  identifier: '94484'
+- scheme: maplight
+  identifier: '1757'
+- scheme: fec-candidate-id
+  identifier: S6IL00292
+candidacies: []
+contact:
+  phone: 202-224-2854
+  profile_url: https://www.duckworth.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 524 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2854
+- classification: district
+  name: Belleville Office
+  address: 23 Public Sq, Suite 460;Belleville, IL 62220-1650
+  phone: 618-722-7070
+  fax: 618-235-4011
+- classification: district
+  name: Carbondale Office
+  address: 441 E Willow St;Carbondale, IL 62901-1659
+  phone: 618-677-7000
+  fax: 618-351-1551
+- classification: district
+  name: Chicago Office
+  address: 230 South Dearborn Street, Suite 3900;Chicago, IL 60604
+  phone: 312-886-3506
+- classification: district
+  name: Rock Island Office
+  address: 1823 2nd Ave, Suite 2;Rock Island, IL 61201-8002
+  phone: 309-606-7060
+  fax: 309-786-1799
+- classification: district
+  name: Springfield Office
+  address: 8 South Old State Capitol Plaza;Springfield, IL 62701
+  phone: 217-528-6124
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000622 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

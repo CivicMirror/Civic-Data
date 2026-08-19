@@ -1,0 +1,64 @@
+id: ocd-person/6316d988-4f88-55f5-a38f-7ddf3204bb82
+name: Pete Sessions
+identifiers:
+- scheme: bioguide
+  identifier: S000250
+- scheme: govtrack
+  identifier: '400367'
+- scheme: wikidata
+  identifier: Q437852
+- scheme: wikipedia
+  identifier: Pete Sessions
+- scheme: ballotpedia
+  identifier: Pete Sessions
+- scheme: opensecrets
+  identifier: N00005681
+- scheme: votesmart
+  identifier: '288'
+- scheme: icpsr
+  identifier: '29759'
+- scheme: thomas
+  identifier: '01525'
+- scheme: cspan
+  identifier: '36807'
+- scheme: maplight
+  identifier: '458'
+- scheme: fec-candidate-id
+  identifier: H2TX03126
+candidacies: []
+contact:
+  phone: 202-225-6105
+  profile_url: https://sessions.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2204 Rayburn House Office Building Washington DC 20515-4317
+  phone: 202-225-6105
+- classification: district
+  name: Lufkin Office
+  address: 300 E Shepherd Ave, Suite 210;Lufkin, TX 75902-3252
+  phone: 936-219-6450
+- classification: district
+  name: Nacogdoches Office
+  address: 3034 Raguet St;Nacogdoches, TX 75965-2852
+  phone: 936-585-7959
+- classification: district
+  name: Waco Office
+  address: 400 Austin Avenue, Suite 302;Waco, TX 76701-2139
+  phone: 254-633-4500
+- classification: district
+  name: Huntsville Office
+  address: 901 Normal Park Dr, Suite 208;Huntsville, TX 77320-3770
+  phone: 936-755-7770
+- classification: district
+  name: Round Rock Office
+  address: 310 W Main Street, Suite 106;Round Rock, TX 78664
+  phone: 202-340-9033
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000250 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

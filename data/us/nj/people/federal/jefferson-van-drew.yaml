@@ -1,0 +1,42 @@
+id: ocd-person/870d9665-3dd3-5b81-baa8-0120f547fce8
+name: Jefferson Van Drew
+identifiers:
+- scheme: bioguide
+  identifier: V000133
+- scheme: govtrack
+  identifier: '412796'
+- scheme: wikidata
+  identifier: Q6175202
+- scheme: wikipedia
+  identifier: Jeff Van Drew
+- scheme: ballotpedia
+  identifier: Jeff Van Drew
+- scheme: opensecrets
+  identifier: N00042164
+- scheme: votesmart
+  identifier: '24685'
+- scheme: icpsr
+  identifier: '21980'
+- scheme: fec-candidate-id
+  identifier: H8NJ02166
+candidacies: []
+contact:
+  phone: 202-225-6572
+  profile_url: https://vandrew.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2447 Rayburn House Office Building Washington DC 20515-3002
+  phone: 202-225-6572
+- classification: district
+  name: Northfield Office
+  address: 1001 Tilton Road, Suite 101;Northfield, NJ 08225
+  phone: 609-625-5008
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000133 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

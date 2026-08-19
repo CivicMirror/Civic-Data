@@ -1,0 +1,43 @@
+id: ocd-person/32d3ad5d-6a04-5099-9d4c-d09eb19375eb
+name: Lizzie Fletcher
+identifiers:
+- scheme: bioguide
+  identifier: F000468
+- scheme: govtrack
+  identifier: '412824'
+- scheme: wikidata
+  identifier: Q58324313
+- scheme: wikipedia
+  identifier: Lizzie Fletcher
+- scheme: ballotpedia
+  identifier: Lizzie Pannill Fletcher
+- scheme: opensecrets
+  identifier: N00041194
+- scheme: votesmart
+  identifier: '177031'
+- scheme: icpsr
+  identifier: '21919'
+- scheme: fec-candidate-id
+  identifier: H8TX07140
+candidacies: []
+contact:
+  phone: 202-225-2571
+  profile_url: https://fletcher.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2004 Rayburn House Office Building Washington DC 20515-4307
+  phone: 202-225-2571
+- classification: district
+  name: Houston Office
+  address: 3700 Buffalo Speedway, Suite 610;Houston, TX 77098
+  phone: 713-353-8680
+  fax: 713-353-8677
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000468 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

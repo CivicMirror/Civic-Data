@@ -1,0 +1,48 @@
+id: ocd-person/d2585dd3-2b6e-5e75-a9c5-9e3dcf6c70fc
+name: David J. Taylor
+identifiers:
+- scheme: bioguide
+  identifier: T000490
+- scheme: govtrack
+  identifier: '457014'
+- scheme: wikidata
+  identifier: Q131123679
+- scheme: wikipedia
+  identifier: David Taylor (Ohio politician)
+- scheme: ballotpedia
+  identifier: David Taylor (Ohio)
+- scheme: opensecrets
+  identifier: N00054098
+- scheme: votesmart
+  identifier: '213920'
+- scheme: fec-candidate-id
+  identifier: H4OH02248
+candidacies: []
+contact:
+  phone: 202-225-3164
+  profile_url: https://taylor.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 325 Cannon House Office Building Washington DC 20515-3502
+  phone: 202-225-3164
+- classification: district
+  name: Cincinnati Office
+  address: 4350 Aicholtz Rd, Suite 110;Cincinnati, OH 45245
+  phone: 513-474-7777
+- classification: district
+  name: Peebles Office
+  address: 170 North Main St;Peebles, OH 45660
+  phone: 513-605-1380
+- classification: district
+  name: Chillicothe Office
+  address: 475 Western Ave B;Chillicothe, OH 45601
+  phone: 740-672-7040
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000490 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

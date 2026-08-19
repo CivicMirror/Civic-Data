@@ -1,0 +1,41 @@
+id: ocd-person/7cf49b27-b678-5fd8-8cff-cd6bf72c6ecf
+name: Chuck Edwards
+identifiers:
+- scheme: bioguide
+  identifier: E000246
+- scheme: govtrack
+  identifier: '456914'
+- scheme: wikidata
+  identifier: Q55065043
+- scheme: wikipedia
+  identifier: Chuck Edwards
+- scheme: ballotpedia
+  identifier: Chuck Edwards
+- scheme: opensecrets
+  identifier: N00049670
+- scheme: votesmart
+  identifier: '166600'
+- scheme: fec-candidate-id
+  identifier: H2NC14050
+candidacies: []
+contact:
+  phone: 202-225-6401
+  profile_url: https://edwards.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1505 Longworth House Office Building Washington DC 20515-3311
+  phone: 202-225-6401
+- classification: district
+  name: Hendersonville Office
+  address: 200 North Grove Street, Suite 121;Hendersonville, NC 28792
+  phone: 828-435-7310
+  fax: 771-200-5795
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000246 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

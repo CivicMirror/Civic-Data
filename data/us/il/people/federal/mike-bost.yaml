@@ -1,0 +1,59 @@
+id: ocd-person/09f5f6aa-c33c-519b-abe3-0f6372a9b104
+name: Mike Bost
+identifiers:
+- scheme: bioguide
+  identifier: B001295
+- scheme: govtrack
+  identifier: '412629'
+- scheme: wikidata
+  identifier: Q6846090
+- scheme: wikipedia
+  identifier: Mike Bost
+- scheme: ballotpedia
+  identifier: Mike Bost
+- scheme: opensecrets
+  identifier: N00035420
+- scheme: votesmart
+  identifier: '6302'
+- scheme: icpsr
+  identifier: '21519'
+- scheme: thomas
+  identifier: '02243'
+- scheme: cspan
+  identifier: '76176'
+- scheme: maplight
+  identifier: '2085'
+- scheme: fec-candidate-id
+  identifier: H4IL12060
+candidacies: []
+contact:
+  phone: 202-225-5661
+  profile_url: https://bost.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 352 Cannon House Office Building Washington DC 20515-1312
+  phone: 202-225-5661
+- classification: district
+  name: Mascoutah Office
+  address: 205 East Harnett Street;Mascoutah, IL 62258
+  phone: 618-622-0766
+  fax: 618-448-4233
+- classification: district
+  name: Effingham Office
+  address: 101 N 4th St, Suite 302;Effingham, IL 62401
+  phone: 217-240-3170
+  fax: 618-448-4233
+- classification: district
+  name: Murphysboro Office
+  address: 1109 Chestnut Street;Murphysboro, IL 62966
+  phone: 618-457-5787
+  fax: 618-448-4233
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001295 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

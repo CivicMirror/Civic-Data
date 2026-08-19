@@ -1,0 +1,61 @@
+id: ocd-person/a9e4fd18-91f5-59fd-b231-107a9cb88f27
+name: Tim Scott
+identifiers:
+- scheme: bioguide
+  identifier: S001184
+- scheme: govtrack
+  identifier: '412471'
+- scheme: wikidata
+  identifier: Q561315
+- scheme: wikipedia
+  identifier: Tim Scott
+- scheme: ballotpedia
+  identifier: Tim Scott
+- scheme: opensecrets
+  identifier: N00031782
+- scheme: votesmart
+  identifier: '11940'
+- scheme: icpsr
+  identifier: '21173'
+- scheme: lis
+  identifier: S365
+- scheme: thomas
+  identifier: '02056'
+- scheme: cspan
+  identifier: '623506'
+- scheme: maplight
+  identifier: '1476'
+- scheme: fec-candidate-id
+  identifier: S4SC00240
+candidacies: []
+contact:
+  phone: 202-224-6121
+  profile_url: https://www.scott.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 104 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-6121
+- classification: district
+  name: Columbia Office
+  address: 1901 Main St., Suite 1425;Columbia, SC 29201
+  phone: 803-771-6112
+  fax: 855-802-9355
+- classification: district
+  name: North Charleston Office
+  address: 2500 City Hall Ln., 3rd Floor Suite;North Charleston, SC 29406
+  phone: 843-727-4525
+  fax: 855-802-9355
+- classification: district
+  name: Greenville Office
+  address: 301 N. Main Street, Suite 1006;Greenville, SC 29601
+  phone: 864-233-5366
+  fax: 855-802-9355
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001184 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

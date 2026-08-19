@@ -1,0 +1,48 @@
+id: ocd-person/9267b56c-1258-5c44-8338-18d4553cc92f
+name: Mark Alford
+identifiers:
+- scheme: bioguide
+  identifier: A000379
+- scheme: govtrack
+  identifier: '456909'
+- scheme: wikidata
+  identifier: Q115137637
+- scheme: wikipedia
+  identifier: Mark Alford
+- scheme: ballotpedia
+  identifier: Mark Alford
+- scheme: opensecrets
+  identifier: N00049617
+- scheme: votesmart
+  identifier: '205858'
+- scheme: fec-candidate-id
+  identifier: H2MO04207
+candidacies: []
+contact:
+  phone: 202-225-2876
+  profile_url: https://alford.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 328 Cannon House Office Building Washington DC 20515-2504
+  phone: 202-225-2876
+- classification: district
+  name: Raymore Office
+  address: 1272 West Foxwood Dr.;Raymore, MO 64083
+  phone: 816-441-6318
+- classification: district
+  name: Columbia Office
+  address: 2401 Bernadette Drive, Suite 117;Columbia, MO 65203
+  phone: 573-540-6600
+- classification: district
+  name: Lebanon Office
+  address: 500 E. Elm Street;Lebanon, MO 65536
+  phone: 417-532-5582
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000379 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,50 @@
+id: ocd-person/e6d16487-8b97-5196-aebb-d1cc5e5deb8c
+name: Thomas R. Suozzi
+identifiers:
+- scheme: bioguide
+  identifier: S001201
+- scheme: govtrack
+  identifier: '412717'
+- scheme: wikidata
+  identifier: Q7794276
+- scheme: wikipedia
+  identifier: Tom Suozzi
+- scheme: ballotpedia
+  identifier: Tom Suozzi
+- scheme: opensecrets
+  identifier: N00038742
+- scheme: votesmart
+  identifier: '92111'
+- scheme: icpsr
+  identifier: '21747'
+- scheme: cspan
+  identifier: '104747'
+- scheme: maplight
+  identifier: '2229'
+- scheme: fec-candidate-id
+  identifier: H6NY03247
+candidacies: []
+contact:
+  phone: 202-225-3335
+  profile_url: https://suozzi.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 203 Cannon House Office Building Washington DC 20515-3203
+  phone: 202-225-3335
+- classification: district
+  name: Douglaston Office
+  address: 242-09 Northern Boulevard;Douglaston, NY 11363
+  phone: 718-631-0400
+- classification: district
+  name: Glen Cove Office
+  address: 51 Glen Street, Second Floor;Glen Cove, NY 11542
+  phone: 516-861-1070
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001201 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

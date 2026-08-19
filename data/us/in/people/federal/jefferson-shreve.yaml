@@ -1,0 +1,48 @@
+id: ocd-person/825dbc0d-9de4-506d-98d3-d78ca31d2df3
+name: Jefferson Shreve
+identifiers:
+- scheme: bioguide
+  identifier: S001229
+- scheme: govtrack
+  identifier: '456988'
+- scheme: wikidata
+  identifier: Q130979817
+- scheme: wikipedia
+  identifier: Jefferson Shreve
+- scheme: ballotpedia
+  identifier: Jefferson Shreve
+- scheme: opensecrets
+  identifier: N00054651
+- scheme: votesmart
+  identifier: '148154'
+- scheme: fec-candidate-id
+  identifier: H4IN06185
+candidacies: []
+contact:
+  phone: 202-225-3021
+  profile_url: https://shreve.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 224 Cannon House Office Building Washington DC 20515-1406
+  phone: 202-225-3021
+- classification: district
+  name: Richmond Office
+  address: 50 N Fifth St, 2nd Floor;Richmond, IN 47374
+  phone: 317-399-3333
+- classification: district
+  name: Greenfield Office
+  address: 18 E Main St, Suite 210;Greenfield, IN 46140
+  phone: 317-399-3333
+- classification: district
+  name: Greenwood Office
+  address: 300 South Madison Ave, Suite 300;Greenwood, IN 46142
+  phone: 317-399-3333
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001229 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

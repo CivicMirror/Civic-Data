@@ -1,0 +1,49 @@
+id: ocd-person/0a25bc35-663e-5ce9-b500-90d5752b9d7c
+name: Mark Pocan
+identifiers:
+- scheme: bioguide
+  identifier: P000607
+- scheme: govtrack
+  identifier: '412585'
+- scheme: wikidata
+  identifier: Q1900355
+- scheme: wikipedia
+  identifier: Mark Pocan
+- scheme: ballotpedia
+  identifier: Mark Pocan
+- scheme: opensecrets
+  identifier: N00033549
+- scheme: votesmart
+  identifier: '26238'
+- scheme: icpsr
+  identifier: '21370'
+- scheme: thomas
+  identifier: '02171'
+- scheme: cspan
+  identifier: '79688'
+- scheme: maplight
+  identifier: '1809'
+- scheme: fec-candidate-id
+  identifier: H2WI02124
+candidacies: []
+contact:
+  phone: 202-225-2906
+  profile_url: https://pocan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1026 Longworth House Office Building Washington DC 20515-4902
+  phone: 202-225-2906
+- classification: district
+  name: Madison Office
+  address: 10 E. Doty St., Suite 405;Madison, WI 53703
+  phone: 608-258-9800
+  fax: 608-258-0377
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000607 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

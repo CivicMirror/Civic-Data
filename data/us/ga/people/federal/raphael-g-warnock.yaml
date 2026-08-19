@@ -1,0 +1,42 @@
+id: ocd-person/f315da19-09fc-5f30-8235-7c081ade4c3c
+name: Raphael G. Warnock
+identifiers:
+- scheme: bioguide
+  identifier: W000790
+- scheme: govtrack
+  identifier: '456858'
+- scheme: wikidata
+  identifier: Q84146599
+- scheme: wikipedia
+  identifier: Raphael Warnock
+- scheme: ballotpedia
+  identifier: Raphael Warnock
+- scheme: opensecrets
+  identifier: N00046489
+- scheme: votesmart
+  identifier: '189794'
+- scheme: lis
+  identifier: S415
+- scheme: fec-candidate-id
+  identifier: S0GA00559
+candidacies: []
+contact:
+  phone: 202-224-3643
+  profile_url: https://www.warnock.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 717 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3643
+- classification: district
+  name: Atlanta Office
+  address: Suite 530, 201 17th Street NW, Suite 530;Atlanta, GA 30363
+  phone: 770-694-7828
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000790 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

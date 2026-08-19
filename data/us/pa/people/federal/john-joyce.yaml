@@ -1,0 +1,62 @@
+id: ocd-person/4554f4be-975c-53a5-a651-493d4dbfb714
+name: John Joyce
+identifiers:
+- scheme: bioguide
+  identifier: J000302
+- scheme: govtrack
+  identifier: '412812'
+- scheme: wikidata
+  identifier: Q60428839
+- scheme: wikipedia
+  identifier: John Joyce (American politician)
+- scheme: ballotpedia
+  identifier: John Joyce (Pennsylvania)
+- scheme: opensecrets
+  identifier: N00043242
+- scheme: votesmart
+  identifier: '178911'
+- scheme: icpsr
+  identifier: '21936'
+- scheme: fec-candidate-id
+  identifier: H8PA13125
+candidacies: []
+contact:
+  phone: 202-225-2431
+  profile_url: https://johnjoyce.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2102 Rayburn House Office Building Washington DC 20515-3813
+  phone: 202-225-2431
+- classification: district
+  name: Altoona Office
+  address: 5414 6th Ave;Altoona, PA 16602-1203
+  phone: 814-656-6081
+- classification: district
+  name: Chambersburg Office
+  address: 100 Lincoln Way E, Suite B;Chambersburg, PA 17201-2291
+  phone: 717-753-6344
+- classification: district
+  name: Johnstown Office
+  address: 1021 Ferndale Ave.;Johnstown, PA 15905
+  phone: 814-485-6020
+- classification: district
+  name: Lewistown Office
+  address: 3 West Monument Square, Suite 201B;Lewistown, PA 17044
+  phone: 717-357-6320
+- classification: district
+  name: Abbottstown Office
+  address: 282 West King St.;Abbottstown, PA 17301
+  phone: 717-357-6320
+- classification: district
+  name: Ebensburg Office
+  address: 300 W. High Street;Ebensburg, PA 15931
+  phone: 814-485-6020
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000302 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

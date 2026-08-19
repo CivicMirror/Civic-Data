@@ -1,0 +1,40 @@
+id: ocd-person/26b56bb6-134c-51bb-9bc9-660d80659695
+name: Andrew R. Garbarino
+identifiers:
+- scheme: bioguide
+  identifier: G000597
+- scheme: govtrack
+  identifier: '456836'
+- scheme: wikidata
+  identifier: Q21257859
+- scheme: wikipedia
+  identifier: Andrew Garbarino
+- scheme: ballotpedia
+  identifier: Andrew Garbarino
+- scheme: opensecrets
+  identifier: N00046030
+- scheme: votesmart
+  identifier: '143103'
+- scheme: fec-candidate-id
+  identifier: H0NY02234
+candidacies: []
+contact:
+  phone: 202-225-7896
+  profile_url: https://garbarino.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2344 Rayburn House Office Building Washington DC 20515-3202
+  phone: 202-225-7896
+- classification: district
+  name: Patchogue Office
+  address: 31 Oak Street, Suite 20;Patchogue, NY 11772
+  phone: 631-541-4225
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000597 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

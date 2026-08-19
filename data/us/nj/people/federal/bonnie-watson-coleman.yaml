@@ -1,0 +1,49 @@
+id: ocd-person/db8d4000-dfab-595e-8379-05d1c842365d
+name: Bonnie Watson Coleman
+identifiers:
+- scheme: bioguide
+  identifier: W000822
+- scheme: govtrack
+  identifier: '412644'
+- scheme: wikidata
+  identifier: Q4942457
+- scheme: wikipedia
+  identifier: Bonnie Watson Coleman
+- scheme: ballotpedia
+  identifier: Bonnie Watson Coleman
+- scheme: opensecrets
+  identifier: N00036158
+- scheme: votesmart
+  identifier: '24799'
+- scheme: icpsr
+  identifier: '21538'
+- scheme: thomas
+  identifier: 02259
+- scheme: cspan
+  identifier: '79091'
+- scheme: maplight
+  identifier: '2100'
+- scheme: fec-candidate-id
+  identifier: H4NJ12149
+candidacies: []
+contact:
+  phone: 202-225-5801
+  profile_url: https://watsoncoleman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 168 Cannon House Office Building Washington DC 20515-3012
+  phone: 202-225-5801
+- classification: district
+  name: Ewing Office
+  address: 850 Bear Tavern Rd., Suite 201;Ewing, NJ 08628
+  phone: 609-883-0026
+  fax: 609-883-2093
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000822 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

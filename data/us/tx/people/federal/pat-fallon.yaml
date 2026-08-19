@@ -1,0 +1,48 @@
+id: ocd-person/2c136ada-9fb2-58c9-b9bb-ead4ada858ed
+name: Pat Fallon
+identifiers:
+- scheme: bioguide
+  identifier: F000246
+- scheme: govtrack
+  identifier: '456845'
+- scheme: wikidata
+  identifier: Q16196923
+- scheme: wikipedia
+  identifier: Pat Fallon
+- scheme: opensecrets
+  identifier: N00047264
+- scheme: fec-candidate-id
+  identifier: H0TX04219
+candidacies: []
+contact:
+  phone: 202-225-6673
+  profile_url: https://fallon.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2416 Rayburn House Office Building Washington DC 20515-4304
+  phone: 202-225-6673
+- classification: district
+  name: Rockwall Office
+  address: 6531 Horizon Rd., Suite A;Rockwall, TX 75032
+  phone: 972-771-0100
+- classification: district
+  name: Sherman Office
+  address: 100 West Houston St., Suite 14;Sherman, TX 75090
+  phone: 903-820-5170
+- classification: district
+  name: New Boston Office
+  address: 15 James Carlow Dr.;New Boston, TX 75570
+  phone: 903-716-7500
+- classification: district
+  name: Frisco Office
+  address: 6101 Frisco Square Blvd;Frisco, TX 75034
+  phone: 202-913-4115
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000246 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

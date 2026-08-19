@@ -1,0 +1,59 @@
+id: ocd-person/7a1cf022-dc09-57b1-a539-e6f94c7d7119
+name: Jimmy Panetta
+identifiers:
+- scheme: bioguide
+  identifier: P000613
+- scheme: govtrack
+  identifier: '412685'
+- scheme: wikidata
+  identifier: Q27733776
+- scheme: wikipedia
+  identifier: Jimmy Panetta
+- scheme: ballotpedia
+  identifier: Jimmy Panetta
+- scheme: opensecrets
+  identifier: N00038601
+- scheme: votesmart
+  identifier: '169078'
+- scheme: icpsr
+  identifier: '21740'
+- scheme: cspan
+  identifier: '104727'
+- scheme: maplight
+  identifier: '2197'
+- scheme: fec-candidate-id
+  identifier: H6CA20152
+candidacies: []
+contact:
+  phone: 202-225-2861
+  profile_url: https://panetta.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 200 Cannon House Office Building Washington DC 20515-0519
+  phone: 202-225-2861
+- classification: district
+  name: Santa Cruz Office
+  address: 701 Ocean St., Room 318C;Santa Cruz, CA 95060
+  phone: 831-429-1976
+  fax: 831-424-7099
+- classification: district
+  name: Paso Robles Office
+  address: 800 Pine Street;Paso Robles, CA 93446
+  phone: 805-400-6535
+- classification: district
+  name: Monterey Office
+  address: 1200 Aguajito Road, Suite 003;Monterey, CA 93940
+  phone: 831-424-2229
+- classification: district
+  name: San Jose Office
+  address: 841 Blossom Hill Road, Suite 209;San Jose, CA 95123
+  phone: 408-960-0333
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000613 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

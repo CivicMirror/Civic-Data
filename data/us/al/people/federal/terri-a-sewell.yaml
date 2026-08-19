@@ -1,0 +1,64 @@
+id: ocd-person/bf8f37a0-eb64-50db-9e2f-6cf1c7b6a06b
+name: Terri A. Sewell
+identifiers:
+- scheme: bioguide
+  identifier: S001185
+- scheme: govtrack
+  identifier: '412396'
+- scheme: wikidata
+  identifier: Q461621
+- scheme: wikipedia
+  identifier: Terri Sewell
+- scheme: ballotpedia
+  identifier: Terri Sewell
+- scheme: opensecrets
+  identifier: N00030622
+- scheme: votesmart
+  identifier: '121621'
+- scheme: icpsr
+  identifier: '21102'
+- scheme: thomas
+  identifier: 01988
+- scheme: cspan
+  identifier: '623257'
+- scheme: maplight
+  identifier: '1410'
+- scheme: fec-candidate-id
+  identifier: H0AL07086
+candidacies: []
+contact:
+  phone: 202-225-2665
+  profile_url: https://sewell.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1035 Longworth House Office Building Washington DC 20515-0107
+  phone: 202-225-2665
+- classification: district
+  name: Selma Office
+  address: Federal Building, 908 Alabama Ave., Suite 112;Selma, AL 36701
+  phone: 334-877-4414
+  fax: 334-877-4489
+- classification: district
+  name: Birmingham Office
+  address: Two 20th Street North, Suite 1130;Birmingham, AL 35203
+  phone: 205-254-1960
+  fax: 205-254-1974
+- classification: district
+  name: Montgomery Office
+  address: Courthouse, 101 S. Lawrence St., Annex 3;Montgomery, AL 36104
+  phone: 334-262-1919
+  fax: 334-262-1921
+- classification: district
+  name: Tuscaloosa Office
+  address: 2501 7th St., Suite 300;Tuscaloosa, AL 35401
+  phone: 205-752-5380
+  fax: 205-752-5899
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001185 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

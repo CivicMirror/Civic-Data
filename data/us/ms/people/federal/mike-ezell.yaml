@@ -1,0 +1,52 @@
+id: ocd-person/fc2a2b6c-251c-51d4-b967-a65f2b5b0b3e
+name: Mike Ezell
+identifiers:
+- scheme: bioguide
+  identifier: E000235
+- scheme: govtrack
+  identifier: '456911'
+- scheme: wikidata
+  identifier: Q115137554
+- scheme: wikipedia
+  identifier: Mike Ezell
+- scheme: ballotpedia
+  identifier: Mike Ezell
+- scheme: opensecrets
+  identifier: N00048240
+- scheme: votesmart
+  identifier: '202526'
+- scheme: fec-candidate-id
+  identifier: H2MS04258
+candidacies: []
+contact:
+  phone: 202-225-5772
+  profile_url: https://ezell.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 443 Cannon House Office Building Washington DC 20515-2404
+  phone: 202-225-5772
+- classification: district
+  name: Hattiesburg Office
+  address: 641 Main Street, Suite 142;Hattiesburg, MS 39401
+  phone: 601-582-3246
+- classification: district
+  name: Laurel Office
+  address: 515 N. 5th Avenue, Suite A;Laurel, MS 39440
+  phone: 601-425-7247
+- classification: district
+  name: Gulfport Office
+  address: 10441 Corporate Drive, Suite 2;Gulfport, MS 39503
+  phone: 228-864-7670
+- classification: district
+  name: Pascagoula Office
+  address: 3207 Magnolia Street, Suite 101;Pascagoula, MS 39567
+  phone: 228-202-5890
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000235 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

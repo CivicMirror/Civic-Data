@@ -1,0 +1,40 @@
+id: ocd-person/405ab9f2-da0e-5885-bf69-33531d6cbe08
+name: Sheri Biggs
+identifiers:
+- scheme: bioguide
+  identifier: B001325
+- scheme: govtrack
+  identifier: '457020'
+- scheme: wikidata
+  identifier: Q130979821
+- scheme: wikipedia
+  identifier: Sheri Biggs
+- scheme: ballotpedia
+  identifier: Sheri Biggs
+- scheme: opensecrets
+  identifier: N00054222
+- scheme: votesmart
+  identifier: '216183'
+- scheme: fec-candidate-id
+  identifier: H4SC01313
+candidacies: []
+contact:
+  phone: 202-225-5301
+  profile_url: https://sheribiggs.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1530 Longworth House Office Building Washington DC 20515-4003
+  phone: 202-225-5301
+- classification: district
+  name: Anderson Office
+  address: 303 West Beltline Blvd;Anderson, SC 29625
+  phone: 864-224-7401
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001325 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

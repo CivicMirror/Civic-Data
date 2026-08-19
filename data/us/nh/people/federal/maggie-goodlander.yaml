@@ -1,0 +1,48 @@
+id: ocd-person/6b5f052f-a12b-5a3d-9ee3-881c1d276b9d
+name: Maggie Goodlander
+identifiers:
+- scheme: bioguide
+  identifier: G000604
+- scheme: govtrack
+  identifier: '457007'
+- scheme: wikidata
+  identifier: Q126718734
+- scheme: wikipedia
+  identifier: Maggie Goodlander
+- scheme: ballotpedia
+  identifier: Maggie Goodlander
+- scheme: opensecrets
+  identifier: N00055218
+- scheme: votesmart
+  identifier: '218522'
+- scheme: fec-candidate-id
+  identifier: H4NH02399
+candidacies: []
+contact:
+  phone: 202-225-5206
+  profile_url: https://goodlander.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 223 Cannon House Office Building Washington DC 20515-2902
+  phone: 202-225-5206
+- classification: district
+  name: Concord Office
+  address: 18 North Main St, 4th Floor;Concord, NH 03301
+  phone: 603-226-1002
+- classification: district
+  name: Nashua Office
+  address: 184 Main St, Suite 222;Nashua, NH 03060
+  phone: 603-595-2006
+- classification: district
+  name: Littleton Office
+  address: 33 Main St, Suite 202;Littleton, NH 03561
+  phone: 603-444-7700
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000604 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,57 @@
+id: ocd-person/6248bd40-08d4-5d04-8017-775c2f6f6b3b
+name: Andy Harris
+identifiers:
+- scheme: bioguide
+  identifier: H001052
+- scheme: govtrack
+  identifier: '412434'
+- scheme: wikidata
+  identifier: Q506639
+- scheme: wikipedia
+  identifier: Andy Harris (politician)
+- scheme: ballotpedia
+  identifier: Andrew Harris
+- scheme: opensecrets
+  identifier: N00029147
+- scheme: votesmart
+  identifier: '19157'
+- scheme: icpsr
+  identifier: '21139'
+- scheme: thomas
+  identifier: '02026'
+- scheme: cspan
+  identifier: '1033464'
+- scheme: maplight
+  identifier: '1445'
+- scheme: fec-candidate-id
+  identifier: H8MD01094
+candidacies: []
+contact:
+  phone: 202-225-5311
+  profile_url: https://harris.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1536 Longworth House Office Building Washington DC 20515-2001
+  phone: 202-225-5311
+- classification: district
+  name: Bel Air Office
+  address: 15 E. Churchville Rd., Suite 102B;Bel Air, MD 21014
+  phone: 410-588-5670
+  fax: 410-588-5673
+- classification: district
+  name: Salisbury Office
+  address: 100 E. Main St., Suite 702;Salisbury, MD 21801
+  phone: 443-944-8624
+  fax: 443-944-8625
+- classification: district
+  name: Cambridge Office
+  address: 306 High Street;Cambridge, MD 21613
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001052 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

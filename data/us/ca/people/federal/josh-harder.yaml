@@ -1,0 +1,42 @@
+id: ocd-person/7f951917-03a4-5b5b-b886-4a05fd25922b
+name: Josh Harder
+identifiers:
+- scheme: bioguide
+  identifier: H001090
+- scheme: govtrack
+  identifier: '412754'
+- scheme: wikidata
+  identifier: Q58494468
+- scheme: wikipedia
+  identifier: Josh Harder
+- scheme: ballotpedia
+  identifier: Josh Harder
+- scheme: opensecrets
+  identifier: N00040853
+- scheme: votesmart
+  identifier: '179326'
+- scheme: icpsr
+  identifier: '21930'
+- scheme: fec-candidate-id
+  identifier: H8CA10126
+candidacies: []
+contact:
+  phone: 202-225-4540
+  profile_url: https://harder.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 209 Cannon House Office Building Washington DC 20515-0509
+  phone: 202-225-4540
+- classification: district
+  name: Stockton Office
+  address: 1776 W March Ln, Suite 360;Stockton, CA 95207
+  phone: 209-579-5458
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001090 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

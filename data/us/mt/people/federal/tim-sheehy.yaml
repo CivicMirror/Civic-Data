@@ -1,0 +1,62 @@
+id: ocd-person/bbdfab49-0c32-5368-99ef-151df3f53579
+name: Tim Sheehy
+identifiers:
+- scheme: bioguide
+  identifier: S001232
+- scheme: govtrack
+  identifier: '456966'
+- scheme: wikidata
+  identifier: Q124433916
+- scheme: wikipedia
+  identifier: Tim Sheehy
+- scheme: ballotpedia
+  identifier: Tim Sheehy
+- scheme: opensecrets
+  identifier: N00053174
+- scheme: votesmart
+  identifier: '215303'
+- scheme: lis
+  identifier: S435
+- scheme: fec-candidate-id
+  identifier: S4MT00183
+candidacies: []
+contact:
+  phone: 202-224-2644
+  profile_url: https://www.sheehy.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 124 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-2644
+- classification: district
+  name: Billings Office
+  address: William J. Jameson Federal Building, 2900 4th Ave N, Suite 201;Billings, MT 59101
+  phone: 406-252-0559
+- classification: district
+  name: Bozeman Office
+  address: 1 East Main Street, Suite 204;Bozeman, MT 59715
+  phone: 406-872-6350
+- classification: district
+  name: Butte Office
+  address: Silver Bow Center, 125 West Granite St, Suite 200;Butte, MT 59701
+  phone: 406-782-2048
+- classification: district
+  name: East Kalispell Office
+  address: 8-3rd Street;East Kalispell, MT 59901
+  phone: 406-257-3398
+- classification: district
+  name: Great Falls Office
+  address: 119 1st Ave North, Suite 102;Great Falls, MT 59401
+  phone: 406-452-9587
+- classification: district
+  name: Helena Office
+  address: 208 N Montana Ave, Suite 104;Helena, MT 59601
+  phone: 406-441-1069
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001232 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

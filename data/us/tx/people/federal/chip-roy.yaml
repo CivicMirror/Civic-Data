@@ -1,0 +1,51 @@
+id: ocd-person/28ed8a69-91cd-5a90-970d-ed0fc0dee655
+name: Chip Roy
+identifiers:
+- scheme: bioguide
+  identifier: R000614
+- scheme: govtrack
+  identifier: '412826'
+- scheme: wikidata
+  identifier: Q58333615
+- scheme: wikipedia
+  identifier: Chip Roy
+- scheme: ballotpedia
+  identifier: Chip Roy
+- scheme: opensecrets
+  identifier: N00042268
+- scheme: votesmart
+  identifier: '177319'
+- scheme: icpsr
+  identifier: '21961'
+- scheme: fec-candidate-id
+  identifier: H8TX21307
+candidacies: []
+contact:
+  phone: 202-225-4236
+  profile_url: https://roy.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 103 Cannon House Office Building Washington DC 20515-4321
+  phone: 202-225-4236
+- classification: district
+  name: Kerrville Office
+  address: 125 Lehmann Drive, Suite 201;Kerrville, TX 78028
+  phone: 830-896-0154
+- classification: district
+  name: San Antonio Office
+  address: 16414 San Pedro Ave, Suite 817;San Antonio, TX 78232
+  phone: 210-821-5024
+  fax: 771-200-5819
+- classification: district
+  name: Austin Office
+  address: Bldg 5, 5900 Southwest Parkway, Suite 520;Austin, TX 78735
+  phone: 512-871-5959
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000614 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

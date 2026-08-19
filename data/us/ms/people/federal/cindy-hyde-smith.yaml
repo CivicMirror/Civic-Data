@@ -1,0 +1,62 @@
+id: ocd-person/ffa4b2e7-4139-5470-89e9-0f3156286e93
+name: Cindy Hyde-Smith
+identifiers:
+- scheme: bioguide
+  identifier: H001079
+- scheme: govtrack
+  identifier: '412743'
+- scheme: wikidata
+  identifier: Q5120540
+- scheme: wikipedia
+  identifier: Cindy Hyde-Smith
+- scheme: ballotpedia
+  identifier: Cindy Hyde-Smith
+- scheme: opensecrets
+  identifier: N00043298
+- scheme: votesmart
+  identifier: '20784'
+- scheme: icpsr
+  identifier: '41707'
+- scheme: lis
+  identifier: S395
+- scheme: cspan
+  identifier: '113208'
+- scheme: fec-candidate-id
+  identifier: S8MS00261
+candidacies: []
+contact:
+  phone: 202-224-5054
+  profile_url: https://www.hydesmith.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 528 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5054
+- classification: district
+  name: Jackson Office
+  address: '190 East Capitol St., #550;Jackson, MS 39201'
+  phone: 601-965-4459
+  fax: 202-228-6004
+- classification: district
+  name: Oxford Office
+  address: '911 Jackson Ave., #249;Oxford, MS 38655'
+  phone: 662-236-1018
+  fax: 662-236-7618
+- classification: district
+  name: Gulfport Office
+  address: '2012 15th Street, #451;Gulfport, MS 39501'
+  phone: 228-867-9710
+  fax: 228-867-9789
+- classification: district
+  name: Brookhaven Office
+  address: 117 W. Cherokee St, Suite C;Brookhaven, MS 39601
+  phone: 601-748-8024
+  fax: 202-224-7444
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001079 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

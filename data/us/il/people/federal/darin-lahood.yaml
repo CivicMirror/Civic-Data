@@ -1,0 +1,57 @@
+id: ocd-person/04149f61-8d01-5b86-b7db-91063c5241bf
+name: Darin LaHood
+identifiers:
+- scheme: bioguide
+  identifier: L000585
+- scheme: govtrack
+  identifier: '412674'
+- scheme: wikidata
+  identifier: Q5222780
+- scheme: wikipedia
+  identifier: Darin LaHood
+- scheme: ballotpedia
+  identifier: Darin LaHood
+- scheme: opensecrets
+  identifier: N00037031
+- scheme: votesmart
+  identifier: '128760'
+- scheme: icpsr
+  identifier: '21562'
+- scheme: thomas
+  identifier: 02295
+- scheme: cspan
+  identifier: '70020'
+- scheme: maplight
+  identifier: '2164'
+- scheme: fec-candidate-id
+  identifier: H6IL18088
+candidacies: []
+contact:
+  phone: 202-225-6201
+  profile_url: https://lahood.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 503 Cannon House Office Building Washington DC 20515-1316
+  phone: 202-225-6201
+- classification: district
+  name: Peoria Office
+  address: 100 NE Monroe St., Room 100;Peoria, IL 61602
+  phone: 309-671-7027
+  fax: 309-671-7309
+- classification: district
+  name: Rockford Office
+  address: 527 Colman Center Drive;Rockford, IL 61108
+  phone: 779-238-4785
+- classification: district
+  name: Normal Office
+  address: 108 East Beaufort Street;Normal, IL 61761
+  phone: 309-445-8080
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000585 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

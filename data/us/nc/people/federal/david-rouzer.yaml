@@ -1,0 +1,59 @@
+id: ocd-person/4c377cba-9ac6-57b5-a30d-613a04f5baeb
+name: David Rouzer
+identifiers:
+- scheme: bioguide
+  identifier: R000603
+- scheme: govtrack
+  identifier: '412641'
+- scheme: wikidata
+  identifier: Q5239255
+- scheme: wikipedia
+  identifier: David Rouzer
+- scheme: ballotpedia
+  identifier: David Rouzer
+- scheme: opensecrets
+  identifier: N00033527
+- scheme: votesmart
+  identifier: '102964'
+- scheme: icpsr
+  identifier: '21544'
+- scheme: thomas
+  identifier: '02256'
+- scheme: cspan
+  identifier: '79710'
+- scheme: maplight
+  identifier: '2097'
+- scheme: fec-candidate-id
+  identifier: H2NC07096
+candidacies: []
+contact:
+  phone: 202-225-2731
+  profile_url: https://rouzer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2333 Rayburn House Office Building Washington DC 20515-3307
+  phone: 202-225-2731
+- classification: district
+  name: Bolivia Office
+  address: 310 Government Center Dr., Unit 1;Bolivia, NC 28422
+  phone: 910-253-6111
+  fax: 771-200-5605
+- classification: district
+  name: Fayetteville Office
+  address: 225 Green Street, Suite 202;Fayetteville, NC 28301
+  phone: 910-500-4880
+  fax: 771-200-5605
+- classification: district
+  name: Wilmington Office
+  address: 2520 Independence Blvd, Suite 201;Wilmington, NC 28412
+  phone: 910-395-0202
+  fax: 771-200-5605
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000603 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

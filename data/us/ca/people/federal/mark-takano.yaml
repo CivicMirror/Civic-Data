@@ -1,0 +1,49 @@
+id: ocd-person/6ac147f7-1b84-5af2-bd26-8258e302b64c
+name: Mark Takano
+identifiers:
+- scheme: bioguide
+  identifier: T000472
+- scheme: govtrack
+  identifier: '412520'
+- scheme: wikidata
+  identifier: Q399593
+- scheme: wikipedia
+  identifier: Mark Takano
+- scheme: ballotpedia
+  identifier: Mark Takano
+- scheme: opensecrets
+  identifier: N00006701
+- scheme: votesmart
+  identifier: '22337'
+- scheme: icpsr
+  identifier: '21312'
+- scheme: thomas
+  identifier: '02110'
+- scheme: cspan
+  identifier: '2737'
+- scheme: maplight
+  identifier: '1744'
+- scheme: fec-candidate-id
+  identifier: H2CA43245
+candidacies: []
+contact:
+  phone: 202-225-2305
+  profile_url: https://takano.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2078 Rayburn House Office Building Washington DC 20515-0539
+  phone: 202-225-2305
+- classification: district
+  name: Riverside Office
+  address: 3403 10th St., Suite 610;Riverside, CA 92501
+  phone: 951-222-0203
+  fax: 951-222-0217
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000472 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

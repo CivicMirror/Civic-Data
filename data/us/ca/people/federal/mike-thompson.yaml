@@ -1,0 +1,58 @@
+id: ocd-person/a7cd57b0-8540-5b74-b5c1-fd4163028c92
+name: Mike Thompson
+identifiers:
+- scheme: bioguide
+  identifier: T000460
+- scheme: govtrack
+  identifier: '400403'
+- scheme: wikidata
+  identifier: Q1323196
+- scheme: wikipedia
+  identifier: Mike Thompson
+- scheme: ballotpedia
+  identifier: Mike Thompson (California)
+- scheme: opensecrets
+  identifier: N00007419
+- scheme: votesmart
+  identifier: '3564'
+- scheme: icpsr
+  identifier: '29901'
+- scheme: thomas
+  identifier: 01593
+- scheme: cspan
+  identifier: '57872'
+- scheme: maplight
+  identifier: '489'
+- scheme: fec-candidate-id
+  identifier: H8CA01109
+candidacies: []
+contact:
+  phone: 202-225-3311
+  profile_url: https://mikethompson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 268 Cannon House Office Building Washington DC 20515-0504
+  phone: 202-225-3311
+- classification: district
+  name: Napa Office
+  address: 2721 Napa Valley Corporate Dr.;Napa, CA 94558
+  phone: 707-226-9898
+  fax: 707-251-9800
+- classification: district
+  name: Santa Rosa Office
+  address: 2300 County Center Dr., Suite A100;Santa Rosa, CA 95403
+  phone: 707-542-7182
+  fax: 707-542-2745
+- classification: district
+  name: Woodland Office
+  address: 622 Main Street, Suite 106;Woodland, CA 95695
+  phone: 530-753-5301
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000460 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

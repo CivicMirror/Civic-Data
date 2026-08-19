@@ -1,0 +1,40 @@
+id: ocd-person/4846fbd5-ee70-5141-b279-3323ddab85d1
+name: Ritchie Torres
+identifiers:
+- scheme: bioguide
+  identifier: T000486
+- scheme: govtrack
+  identifier: '456838'
+- scheme: wikidata
+  identifier: Q16205227
+- scheme: wikipedia
+  identifier: Ritchie Torres
+- scheme: ballotpedia
+  identifier: Ritchie Torres
+- scheme: opensecrets
+  identifier: N00044346
+- scheme: votesmart
+  identifier: '161718'
+- scheme: fec-candidate-id
+  identifier: H0NY15160
+candidacies: []
+contact:
+  phone: 202-225-4361
+  profile_url: https://ritchietorres.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1414 Longworth House Office Building Washington DC 20515-3215
+  phone: 202-225-4361
+- classification: district
+  name: Bronx Office
+  address: 540 E Fordham Rd., Suite 2A;Bronx, NY 10458
+  phone: 718-503-9610
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000486 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

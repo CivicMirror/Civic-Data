@@ -1,0 +1,40 @@
+id: ocd-person/b475e4e1-ae70-5349-b9d4-0ca9880dc937
+name: Pat Harrigan
+identifiers:
+- scheme: bioguide
+  identifier: H001101
+- scheme: govtrack
+  identifier: '457003'
+- scheme: wikidata
+  identifier: Q131179069
+- scheme: wikipedia
+  identifier: Pat Harrigan
+- scheme: ballotpedia
+  identifier: Pat Harrigan
+- scheme: opensecrets
+  identifier: N00050144
+- scheme: votesmart
+  identifier: '202557'
+- scheme: fec-candidate-id
+  identifier: H2NC13243
+candidacies: []
+contact:
+  phone: 202-225-2576
+  profile_url: https://harrigan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1233 Longworth House Office Building Washington DC 20515-3310
+  phone: 202-225-2576
+- classification: district
+  name: Hickory Office
+  address: 800 17th St NW, Suite G467;Hickory, NC 28601
+  phone: 828-327-6100
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001101 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

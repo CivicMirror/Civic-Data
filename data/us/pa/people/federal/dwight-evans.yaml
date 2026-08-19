@@ -1,0 +1,52 @@
+id: ocd-person/c63e9d06-c863-5f4a-b68a-b963dcdcbb49
+name: Dwight Evans
+identifiers:
+- scheme: bioguide
+  identifier: E000296
+- scheme: govtrack
+  identifier: '412677'
+- scheme: wikidata
+  identifier: Q5318148
+- scheme: wikipedia
+  identifier: Dwight Evans (politician)
+- scheme: ballotpedia
+  identifier: Dwight Evans
+- scheme: opensecrets
+  identifier: N00038450
+- scheme: votesmart
+  identifier: '9128'
+- scheme: icpsr
+  identifier: '21566'
+- scheme: cspan
+  identifier: '56729'
+- scheme: maplight
+  identifier: '2167'
+- scheme: fec-candidate-id
+  identifier: H6PA02171
+candidacies: []
+contact:
+  phone: 202-225-4001
+  profile_url: https://evans.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1105 Longworth House Office Building Washington DC 20515-3803
+  phone: 202-225-4001
+- classification: district
+  name: Philadelphia Office
+  address: 7174 Ogontz Ave.;Philadelphia, PA 19138
+  phone: 215-276-0340
+  fax: 215-276-2939
+- classification: district
+  name: Philadelphia Office
+  address: 1310 Point Breeze Ave;Philadelphia, PA 19146
+  phone: 215-254-3400
+  fax: 771-200-5094
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000296 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

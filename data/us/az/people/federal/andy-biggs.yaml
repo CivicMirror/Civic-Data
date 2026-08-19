@@ -1,0 +1,46 @@
+id: ocd-person/5e44d9a2-ac50-50ff-971b-2699efa351da
+name: Andy Biggs
+identifiers:
+- scheme: bioguide
+  identifier: B001302
+- scheme: govtrack
+  identifier: '412683'
+- scheme: wikidata
+  identifier: Q16199304
+- scheme: wikipedia
+  identifier: Andy Biggs
+- scheme: ballotpedia
+  identifier: Andy Biggs
+- scheme: opensecrets
+  identifier: N00039293
+- scheme: votesmart
+  identifier: '28088'
+- scheme: icpsr
+  identifier: '21705'
+- scheme: cspan
+  identifier: '105145'
+- scheme: maplight
+  identifier: '2195'
+- scheme: fec-candidate-id
+  identifier: H6AZ05083
+candidacies: []
+contact:
+  phone: 202-225-2635
+  profile_url: https://biggs.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 464 Cannon House Office Building Washington DC 20515-0305
+  phone: 202-225-2635
+- classification: district
+  name: Mesa Office
+  address: 2509 S. Power Rd., Suite 204;Mesa, AZ 85209
+  phone: 480-699-8239
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001302 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

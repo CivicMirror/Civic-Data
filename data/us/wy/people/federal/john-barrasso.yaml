@@ -1,0 +1,66 @@
+id: ocd-person/f5ac24dd-7664-5aab-8fb1-6d5f2c765e75
+name: John Barrasso
+identifiers:
+- scheme: bioguide
+  identifier: B001261
+- scheme: govtrack
+  identifier: '412251'
+- scheme: wikidata
+  identifier: Q720521
+- scheme: wikipedia
+  identifier: John Barrasso
+- scheme: ballotpedia
+  identifier: John Barrasso
+- scheme: opensecrets
+  identifier: N00006236
+- scheme: votesmart
+  identifier: '52662'
+- scheme: icpsr
+  identifier: '40707'
+- scheme: lis
+  identifier: S317
+- scheme: thomas
+  identifier: 01881
+- scheme: cspan
+  identifier: '1024777'
+- scheme: maplight
+  identifier: '732'
+- scheme: fec-candidate-id
+  identifier: S6WY00068
+candidacies: []
+contact:
+  phone: 202-224-6441
+  profile_url: https://www.barrasso.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 307 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-6441
+- classification: district
+  name: Casper Office
+  address: 100 E. B St., Suite 2004;Casper, WY 82601
+  phone: 307-261-6413
+- classification: district
+  name: Cheyenne Office
+  address: 2120 Capitol Ave., Suite 2013;Cheyenne, WY 82001
+  phone: 307-772-2451
+- classification: district
+  name: Riverton Office
+  address: 324 E. Washington Ave.;Riverton, WY 82501
+  phone: 307-856-6642
+- classification: district
+  name: Rock Springs Office
+  address: Commerce Bank, 1575 Dewar Drive, Suite 218;Rock Springs, WY 82901
+  phone: 307-362-5012
+- classification: district
+  name: Sheridan Office
+  address: 51 Coffeen Avenue, Suite 202;Sheridan, WY 82801
+  phone: 307-672-6456
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001261 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,57 @@
+id: ocd-person/888334ab-ff3d-5d65-acf9-eefad4c8a5c6
+name: Elise M. Stefanik
+identifiers:
+- scheme: bioguide
+  identifier: S001196
+- scheme: govtrack
+  identifier: '412648'
+- scheme: wikidata
+  identifier: Q18211057
+- scheme: wikipedia
+  identifier: Elise Stefanik
+- scheme: ballotpedia
+  identifier: Elise Stefanik
+- scheme: opensecrets
+  identifier: N00035523
+- scheme: votesmart
+  identifier: '152539'
+- scheme: icpsr
+  identifier: '21541'
+- scheme: thomas
+  identifier: '02263'
+- scheme: cspan
+  identifier: '76364'
+- scheme: maplight
+  identifier: '2104'
+- scheme: fec-candidate-id
+  identifier: H4NY21079
+candidacies: []
+contact:
+  phone: 202-225-4611
+  profile_url: https://stefanik.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2211 Rayburn House Office Building Washington DC 20515-3221
+  phone: 202-225-4611
+- classification: district
+  name: Herkimer Office
+  address: ;Herkimer, NY
+  phone: 315-219-8005
+- classification: district
+  name: Plattsburgh Office
+  address: 137 Margaret Street, Suite 100;Plattsburgh, NY 12901
+  phone: 518-561-2324
+  fax: 518-561-2408
+- classification: district
+  name: Ogdensburg Office
+  address: 330 Ford Street, Suite B8;Ogdensburg, NY 13669
+  phone: 315-541-2670
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001196 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

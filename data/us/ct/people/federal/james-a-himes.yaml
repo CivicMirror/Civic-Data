@@ -1,0 +1,54 @@
+id: ocd-person/f45df3da-9ab1-5a62-bf5f-cde754437acc
+name: James A. Himes
+identifiers:
+- scheme: bioguide
+  identifier: H001047
+- scheme: govtrack
+  identifier: '412282'
+- scheme: wikidata
+  identifier: Q1689111
+- scheme: wikipedia
+  identifier: Jim Himes
+- scheme: ballotpedia
+  identifier: Jim Himes
+- scheme: opensecrets
+  identifier: N00029070
+- scheme: votesmart
+  identifier: '106744'
+- scheme: icpsr
+  identifier: '20907'
+- scheme: thomas
+  identifier: 01913
+- scheme: cspan
+  identifier: '1031341'
+- scheme: maplight
+  identifier: '764'
+- scheme: fec-candidate-id
+  identifier: H8CT04172
+candidacies: []
+contact:
+  phone: 202-225-5541
+  profile_url: https://himes.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2137 Rayburn House Office Building Washington DC 20515-0704
+  phone: 202-225-5541
+- classification: district
+  name: Stamford Office
+  address: 888 Washington Blvd., 10th Floor;Stamford, CT 06901
+  phone: 203-353-9400
+  fax: 203-323-1793
+- classification: district
+  name: Bridgeport Office
+  address: Suite 603, 350 Fairfield Ave., Suite 603;Bridgeport, CT 06604
+  phone: 203-333-6600
+  fax: 203-333-6655
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001047 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

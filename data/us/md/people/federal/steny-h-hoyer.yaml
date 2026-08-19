@@ -1,0 +1,54 @@
+id: ocd-person/2f379635-11a4-5335-b702-1d66a7be9c11
+name: Steny H. Hoyer
+identifiers:
+- scheme: bioguide
+  identifier: H000874
+- scheme: govtrack
+  identifier: '400189'
+- scheme: wikidata
+  identifier: Q516515
+- scheme: wikipedia
+  identifier: Steny Hoyer
+- scheme: ballotpedia
+  identifier: Steny Hoyer
+- scheme: opensecrets
+  identifier: N00001821
+- scheme: votesmart
+  identifier: '26890'
+- scheme: icpsr
+  identifier: '14873'
+- scheme: thomas
+  identifier: '00566'
+- scheme: cspan
+  identifier: '1919'
+- scheme: maplight
+  identifier: '293'
+- scheme: fec-candidate-id
+  identifier: H2MD05155
+candidacies: []
+contact:
+  phone: 202-225-4131
+  profile_url: https://hoyer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1705 Longworth House Office Building Washington DC 20515-2005
+  phone: 202-225-4131
+- classification: district
+  name: Greenbelt Office
+  address: U.S. District Courthouse, 6500 Cherrywood Ln., Suite 310;Greenbelt, MD 20770
+  phone: 301-474-0119
+  fax: 301-474-4697
+- classification: district
+  name: White Plains Office
+  address: 4475 Regency Pl., Suite 203;White Plains, MD 20695
+  phone: 301-843-1577
+  fax: 301-843-1331
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H000874 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,54 @@
+id: ocd-person/5e73b105-6281-50f7-ac03-41746cd241dd
+name: Virginia Foxx
+identifiers:
+- scheme: bioguide
+  identifier: F000450
+- scheme: govtrack
+  identifier: '400643'
+- scheme: wikidata
+  identifier: Q458453
+- scheme: wikipedia
+  identifier: Virginia Foxx
+- scheme: ballotpedia
+  identifier: Virginia Foxx
+- scheme: opensecrets
+  identifier: N00026166
+- scheme: votesmart
+  identifier: '6051'
+- scheme: icpsr
+  identifier: '20521'
+- scheme: thomas
+  identifier: 01791
+- scheme: cspan
+  identifier: '1013052'
+- scheme: maplight
+  identifier: '649'
+- scheme: fec-candidate-id
+  identifier: H4NC05146
+candidacies: []
+contact:
+  phone: 202-225-2071
+  profile_url: https://foxx.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2462 Rayburn House Office Building Washington DC 20515-3305
+  phone: 202-225-2071
+- classification: district
+  name: Boone Office
+  address: 400 Shadowline Dr., Suite 205;Boone, NC 28607
+  phone: 828-265-0240
+  fax: 336-778-2290
+- classification: district
+  name: Mayodan Office
+  address: 208 W. Main St;Mayodan, NC 27027
+  phone: 336-778-0211
+  fax: 336-778-2290
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000450 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

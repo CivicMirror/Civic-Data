@@ -1,0 +1,40 @@
+id: ocd-person/9ac2b4cf-1fe0-5c2a-a3c1-ef01674606a8
+name: Johnny Olszewski, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: O000176
+- scheme: govtrack
+  identifier: '456991'
+- scheme: wikidata
+  identifier: Q6217866
+- scheme: wikipedia
+  identifier: Johnny Olszewski
+- scheme: ballotpedia
+  identifier: John Olszewski Jr.
+- scheme: opensecrets
+  identifier: N00054814
+- scheme: votesmart
+  identifier: '67095'
+- scheme: fec-candidate-id
+  identifier: H4MD02232
+candidacies: []
+contact:
+  phone: 202-225-3061
+  profile_url: https://olszewski.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1339 Longworth House Office Building Washington DC 20515-2002
+  phone: 202-225-3061
+- classification: district
+  name: Towson Office
+  address: 110 West Rd, Suite 420;Towson, MD 21204
+  phone: 410-427-5725
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide O000176 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

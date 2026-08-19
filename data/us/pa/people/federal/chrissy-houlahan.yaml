@@ -1,0 +1,46 @@
+id: ocd-person/7a720116-1ca4-508c-894b-00c60eb98c47
+name: Chrissy Houlahan
+identifiers:
+- scheme: bioguide
+  identifier: H001085
+- scheme: govtrack
+  identifier: '412810'
+- scheme: wikidata
+  identifier: Q56274180
+- scheme: wikipedia
+  identifier: Chrissy Houlahan
+- scheme: ballotpedia
+  identifier: Chrissy Houlahan
+- scheme: opensecrets
+  identifier: N00040949
+- scheme: votesmart
+  identifier: '178893'
+- scheme: icpsr
+  identifier: '21934'
+- scheme: fec-candidate-id
+  identifier: H8PA06087
+candidacies: []
+contact:
+  phone: 202-225-4315
+  profile_url: https://houlahan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1727 Longworth House Office Building Washington DC 20515-3806
+  phone: 202-225-4315
+- classification: district
+  name: West Chester Office
+  address: 709 E. Gay Street, Suite 4;West Chester, PA 19380
+  phone: 610-883-5050
+- classification: district
+  name: Reading Office
+  address: 201 Penn Street, Suite 201;Reading, PA 19601
+  phone: 610-295-0815
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001085 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

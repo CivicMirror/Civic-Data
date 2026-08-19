@@ -1,0 +1,48 @@
+id: ocd-person/fde4b244-2e85-54ea-934d-a6c56b60882a
+name: Jerrold Nadler
+identifiers:
+- scheme: bioguide
+  identifier: N000002
+- scheme: govtrack
+  identifier: '400289'
+- scheme: wikidata
+  identifier: Q505598
+- scheme: wikipedia
+  identifier: Jerry Nadler
+- scheme: ballotpedia
+  identifier: Jerrold Nadler
+- scheme: opensecrets
+  identifier: N00000939
+- scheme: votesmart
+  identifier: '26980'
+- scheme: icpsr
+  identifier: '29377'
+- scheme: thomas
+  identifier: 00850
+- scheme: cspan
+  identifier: '26159'
+- scheme: maplight
+  identifier: '385'
+- scheme: fec-candidate-id
+  identifier: H2NY17071
+candidacies: []
+contact:
+  phone: 202-225-5635
+  profile_url: https://nadler.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2132 Rayburn House Office Building Washington DC 20515-3212
+  phone: 202-225-5635
+- classification: district
+  name: New York Office
+  address: 201 Varick St., Suite 669;New York, NY 10014
+  phone: 212-367-7350
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000002 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

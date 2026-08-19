@@ -1,0 +1,53 @@
+id: ocd-person/355e6d60-7951-591b-a0ef-9225fe5e149a
+name: Ann Wagner
+identifiers:
+- scheme: bioguide
+  identifier: W000812
+- scheme: govtrack
+  identifier: '412548'
+- scheme: wikidata
+  identifier: Q3917251
+- scheme: wikipedia
+  identifier: Ann Wagner
+- scheme: ballotpedia
+  identifier: Ann Wagner
+- scheme: opensecrets
+  identifier: N00033106
+- scheme: votesmart
+  identifier: '136083'
+- scheme: icpsr
+  identifier: '21337'
+- scheme: thomas
+  identifier: '02137'
+- scheme: cspan
+  identifier: '82702'
+- scheme: maplight
+  identifier: '1772'
+- scheme: fec-candidate-id
+  identifier: H2MO02102
+candidacies: []
+contact:
+  phone: 202-225-1621
+  profile_url: https://wagner.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2350 Rayburn House Office Building Washington DC 20515-2502
+  phone: 202-225-1621
+- classification: district
+  name: Ballwin Office
+  address: 301 Sovereign Ct., Suite 201;Ballwin, MO 63011
+  phone: 636-779-5449
+  fax: 636-779-5449
+- classification: district
+  name: Washington Office
+  address: 516 Jefferson St.;Washington, MO 63090
+  phone: 636-231-1001
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000812 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

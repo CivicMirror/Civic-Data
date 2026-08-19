@@ -1,0 +1,56 @@
+id: ocd-person/6ee3d0d6-2fb3-516b-a87b-032427a8dfc6
+name: Robert E. Latta
+identifiers:
+- scheme: bioguide
+  identifier: L000566
+- scheme: govtrack
+  identifier: '412256'
+- scheme: wikidata
+  identifier: Q888061
+- scheme: wikipedia
+  identifier: Bob Latta
+- scheme: ballotpedia
+  identifier: Bob Latta
+- scheme: opensecrets
+  identifier: N00012233
+- scheme: votesmart
+  identifier: '9926'
+- scheme: icpsr
+  identifier: '20755'
+- scheme: thomas
+  identifier: 01885
+- scheme: cspan
+  identifier: '1028071'
+- scheme: maplight
+  identifier: '737'
+- scheme: fec-candidate-id
+  identifier: H8OH05036
+candidacies: []
+contact:
+  phone: 202-225-6405
+  profile_url: https://latta.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2470 Rayburn House Office Building Washington DC 20515-3505
+  phone: 202-225-6405
+- classification: district
+  name: Bowling Green Office
+  address: 1045 N. Main St., Suite 6;Bowling Green, OH 43402
+  phone: 419-354-8700
+- classification: district
+  name: Findlay Office
+  address: 318 Dorney Plz., Room 302;Findlay, OH 45840
+  phone: 419-422-7791
+- classification: district
+  name: Elyria Office
+  address: 226 Middle Avenue, 5th Floor;Elyria, OH 44035
+  phone: 440-406-5010
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000566 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,53 @@
+id: ocd-person/d106daf6-1e2b-5f21-baba-21d43f6e16b1
+name: Richard Hudson
+identifiers:
+- scheme: bioguide
+  identifier: H001067
+- scheme: govtrack
+  identifier: '412550'
+- scheme: wikidata
+  identifier: Q3956999
+- scheme: wikipedia
+  identifier: Richard Hudson (American politician)
+- scheme: ballotpedia
+  identifier: Richard Hudson
+- scheme: opensecrets
+  identifier: N00033630
+- scheme: votesmart
+  identifier: '136448'
+- scheme: icpsr
+  identifier: '21346'
+- scheme: thomas
+  identifier: '02140'
+- scheme: cspan
+  identifier: '79622'
+- scheme: maplight
+  identifier: '1774'
+- scheme: fec-candidate-id
+  identifier: H2NC08185
+candidacies: []
+contact:
+  phone: 202-225-3715
+  profile_url: https://hudson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2112 Rayburn House Office Building Washington DC 20515-3309
+  phone: 202-225-3715
+- classification: district
+  name: Fayetteville Office
+  address: 225 Green Street, Suite 202;Fayetteville, NC 28301
+  phone: 910-997-2070
+  fax: 910-817-7202
+- classification: district
+  name: Southern Pines Office
+  address: 340 Commerce Ave, Suite 16;Southern Pines, NC 28387
+  phone: 910-910-1924
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001067 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/3605b60c-5f81-54a3-851e-98a30947946f
+name: Mark B. Messmer
+identifiers:
+- scheme: bioguide
+  identifier: M001233
+- scheme: govtrack
+  identifier: '456989'
+- scheme: wikidata
+  identifier: Q6768869
+- scheme: wikipedia
+  identifier: Mark Messmer
+- scheme: ballotpedia
+  identifier: Mark Messmer
+- scheme: opensecrets
+  identifier: N00054523
+- scheme: votesmart
+  identifier: '102958'
+- scheme: fec-candidate-id
+  identifier: H4IN08249
+candidacies: []
+contact:
+  phone: 202-225-4636
+  profile_url: https://messmer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1208 Longworth House Office Building Washington DC 20515-1408
+  phone: 202-225-4636
+- classification: district
+  name: Evansville Office
+  address: 20 NW Third St, Suite 1230;Evansville, IN 47708
+  phone: 812-465-6484
+- classification: district
+  name: Jasper Office
+  address: 2133 Newton St;Jasper, IN 47546
+  phone: 812-465-6484
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001233 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

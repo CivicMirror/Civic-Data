@@ -1,0 +1,54 @@
+id: ocd-person/186f05e7-caec-5e1f-a6ac-00ac9c615332
+name: Robert J. Wittman
+identifiers:
+- scheme: bioguide
+  identifier: W000804
+- scheme: govtrack
+  identifier: '412255'
+- scheme: wikidata
+  identifier: Q541251
+- scheme: wikipedia
+  identifier: Rob Wittman
+- scheme: ballotpedia
+  identifier: Robert J. Wittman
+- scheme: opensecrets
+  identifier: N00029459
+- scheme: votesmart
+  identifier: '58133'
+- scheme: icpsr
+  identifier: '20756'
+- scheme: thomas
+  identifier: 01886
+- scheme: cspan
+  identifier: '1028089'
+- scheme: maplight
+  identifier: '736'
+- scheme: fec-candidate-id
+  identifier: H8VA01147
+candidacies: []
+contact:
+  phone: 202-225-4261
+  profile_url: https://wittman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2055 Rayburn House Office Building Washington DC 20515-4601
+  phone: 202-225-4261
+- classification: district
+  name: Glen Allen Office
+  address: 4201 Dominion Blvd, Suite 110;Glen Allen, VA 23060
+  phone: 804-401-4120
+  fax: 804-270-4643
+- classification: district
+  name: Yorktown Office
+  address: 307 Main Street;Yorktown, VA 23690
+  phone: 757-527-6270
+  fax: 757-898-2859
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000804 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

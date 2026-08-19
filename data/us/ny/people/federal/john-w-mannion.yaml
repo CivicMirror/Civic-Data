@@ -1,0 +1,40 @@
+id: ocd-person/08f01497-2d87-5b10-ba77-bd64b3a41277
+name: John W. Mannion
+identifiers:
+- scheme: bioguide
+  identifier: M001231
+- scheme: govtrack
+  identifier: '457013'
+- scheme: wikidata
+  identifier: Q106089566
+- scheme: wikipedia
+  identifier: John Mannion (American politician)
+- scheme: ballotpedia
+  identifier: John Mannion
+- scheme: opensecrets
+  identifier: N00053112
+- scheme: votesmart
+  identifier: '185053'
+- scheme: fec-candidate-id
+  identifier: H4NY22085
+candidacies: []
+contact:
+  phone: 202-225-3701
+  profile_url: https://mannion.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1516 Longworth House Office Building Washington DC 20515-3222
+  phone: 202-225-3701
+- classification: district
+  name: Syracuse Office
+  address: 440 South Warren St, Suite 706;Syracuse, NY 13202
+  phone: 315-233-4333
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001231 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,46 @@
+id: ocd-person/1db43482-9936-5933-b9d5-755153d0a807
+name: John R. Curtis
+identifiers:
+- scheme: bioguide
+  identifier: C001114
+- scheme: govtrack
+  identifier: '412740'
+- scheme: wikidata
+  identifier: Q6253810
+- scheme: wikipedia
+  identifier: John Curtis
+- scheme: ballotpedia
+  identifier: John Curtis (Utah)
+- scheme: opensecrets
+  identifier: N00041221
+- scheme: votesmart
+  identifier: '123390'
+- scheme: icpsr
+  identifier: '21755'
+- scheme: lis
+  identifier: S431
+- scheme: maplight
+  identifier: '2251'
+- scheme: fec-candidate-id
+  identifier: S4UT00282
+candidacies: []
+contact:
+  phone: 202-224-5251
+  profile_url: https://www.curtis.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 502 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5251
+- classification: district
+  name: Salt Lake City Office
+  address: 125 S. State Street, Suite 8402;Salt Lake City, UT 84138
+  phone: 801-524-4380
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001114 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

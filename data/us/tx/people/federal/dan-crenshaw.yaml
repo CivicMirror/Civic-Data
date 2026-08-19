@@ -1,0 +1,46 @@
+id: ocd-person/56ca91cb-8706-5bc4-9415-a764c36f6515
+name: Dan Crenshaw
+identifiers:
+- scheme: bioguide
+  identifier: C001120
+- scheme: govtrack
+  identifier: '412820'
+- scheme: wikidata
+  identifier: Q58301995
+- scheme: wikipedia
+  identifier: Dan Crenshaw
+- scheme: ballotpedia
+  identifier: Daniel Crenshaw
+- scheme: opensecrets
+  identifier: N00042224
+- scheme: votesmart
+  identifier: '177270'
+- scheme: icpsr
+  identifier: '21911'
+- scheme: fec-candidate-id
+  identifier: H8TX02166
+candidacies: []
+contact:
+  phone: 202-225-6565
+  profile_url: https://crenshaw.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 248 Cannon House Office Building Washington DC 20515-4302
+  phone: 202-225-6565
+- classification: district
+  name: Kingwood Office
+  address: '1849 Kingwood Dr., #100;Kingwood, TX 77339'
+  phone: 713-860-1330
+- classification: district
+  name: The Woodlands Office
+  address: '2829 Technology Forest, #280;The Woodlands, TX 77381'
+  phone: 281-640-7720
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001120 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

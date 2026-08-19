@@ -1,0 +1,47 @@
+id: ocd-person/ac1f6123-1b72-5a7b-af0b-a5ef39357953
+name: Brian K. Fitzpatrick
+identifiers:
+- scheme: bioguide
+  identifier: F000466
+- scheme: govtrack
+  identifier: '412721'
+- scheme: wikidata
+  identifier: Q27831059
+- scheme: wikipedia
+  identifier: Brian Fitzpatrick (American politician)
+- scheme: ballotpedia
+  identifier: Brian Fitzpatrick
+- scheme: opensecrets
+  identifier: N00038779
+- scheme: votesmart
+  identifier: '167708'
+- scheme: icpsr
+  identifier: '21718'
+- scheme: cspan
+  identifier: '103537'
+- scheme: maplight
+  identifier: '2233'
+- scheme: fec-candidate-id
+  identifier: H6PA08277
+candidacies: []
+contact:
+  phone: 202-225-4276
+  profile_url: https://fitzpatrick.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 271 Cannon House Office Building Washington DC 20515-3801
+  phone: 202-225-4276
+- classification: district
+  name: Langhorne Office
+  address: 1717 Langhorne Newtown Rd., Suite 225;Langhorne, PA 19047
+  phone: 215-579-8102
+  fax: 215-579-8109
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000466 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

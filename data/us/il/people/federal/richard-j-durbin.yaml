@@ -1,0 +1,66 @@
+id: ocd-person/78a0e237-43fb-5b2a-97fd-66f1f9ef9477
+name: Richard J. Durbin
+identifiers:
+- scheme: bioguide
+  identifier: D000563
+- scheme: govtrack
+  identifier: '300038'
+- scheme: wikidata
+  identifier: Q434804
+- scheme: wikipedia
+  identifier: Dick Durbin
+- scheme: ballotpedia
+  identifier: Dick Durbin
+- scheme: opensecrets
+  identifier: N00004981
+- scheme: votesmart
+  identifier: '26847'
+- scheme: icpsr
+  identifier: '15021'
+- scheme: lis
+  identifier: S253
+- scheme: thomas
+  identifier: '00326'
+- scheme: cspan
+  identifier: '6741'
+- scheme: maplight
+  identifier: '563'
+- scheme: fec-candidate-id
+  identifier: H2IL20026
+candidacies: []
+contact:
+  phone: 202-224-2152
+  profile_url: https://www.durbin.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 711 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2152
+- classification: district
+  name: Carbondale Office
+  address: 250 W. Cherry St., Suite 115-D;Carbondale, IL 62901
+  phone: 618-351-1122
+  fax: 618-351-1124
+- classification: district
+  name: Chicago Office
+  address: 230 S. Dearborn St., Suite 3892;Chicago, IL 60604
+  phone: 312-353-4952
+  fax: 312-353-0150
+- classification: district
+  name: Rock Island Office
+  address: 1504 Third Ave., Suite 227;Rock Island, IL 61201
+  phone: 309-786-5173
+  fax: 309-786-5404
+- classification: district
+  name: Springfield Office
+  address: 525 S. 8th St.;Springfield, IL 62703
+  phone: 217-492-4062
+  fax: 217-492-4382
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000563 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

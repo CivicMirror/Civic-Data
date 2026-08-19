@@ -1,0 +1,54 @@
+id: ocd-person/7ef48704-7247-54b6-85e2-400a1e0a8188
+name: Glenn Thompson
+identifiers:
+- scheme: bioguide
+  identifier: T000467
+- scheme: govtrack
+  identifier: '412317'
+- scheme: wikidata
+  identifier: Q1531120
+- scheme: wikipedia
+  identifier: Glenn Thompson (politician)
+- scheme: ballotpedia
+  identifier: Glenn Thompson (Pennsylvania)
+- scheme: opensecrets
+  identifier: N00029736
+- scheme: votesmart
+  identifier: '24046'
+- scheme: icpsr
+  identifier: '20946'
+- scheme: thomas
+  identifier: 01952
+- scheme: cspan
+  identifier: '1031359'
+- scheme: maplight
+  identifier: '799'
+- scheme: fec-candidate-id
+  identifier: H8PA05071
+candidacies: []
+contact:
+  phone: 202-225-5121
+  profile_url: https://thompson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 400 Cannon House Office Building Washington DC 20515-3815
+  phone: 202-225-5121
+- classification: district
+  name: Bellefonte Office
+  address: 3555 Benner Pike., Suite 101;Bellefonte, PA 16823
+  phone: 814-353-0215
+  fax: 814-353-0218
+- classification: district
+  name: Oil City Office
+  address: 217 Elm St, B;Oil City, PA 16301-1412
+  phone: 814-670-0432
+  fax: 814-670-0868
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000467 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

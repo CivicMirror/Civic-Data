@@ -1,0 +1,48 @@
+id: ocd-person/20ca3c8b-d48b-58a0-a65e-87b4972a6f8a
+name: Marlin A. Stutzman
+identifiers:
+- scheme: bioguide
+  identifier: S001188
+- scheme: govtrack
+  identifier: '412392'
+- scheme: wikidata
+  identifier: Q1902106
+- scheme: wikipedia
+  identifier: Marlin Stutzman
+- scheme: ballotpedia
+  identifier: Marlin Stutzman
+- scheme: opensecrets
+  identifier: N00030891
+- scheme: votesmart
+  identifier: '34230'
+- scheme: icpsr
+  identifier: '21100'
+- scheme: thomas
+  identifier: 01981
+- scheme: cspan
+  identifier: '9267685'
+- scheme: maplight
+  identifier: '1373'
+- scheme: fec-candidate-id
+  identifier: S0IN00095
+candidacies: []
+contact:
+  phone: 202-225-4436
+  profile_url: https://stutzman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 404 Cannon House Office Building Washington DC 20515-1403
+  phone: 202-225-4436
+- classification: district
+  name: Fort Wayne Office
+  address: 6714 Pointe Inverness Way;Fort Wayne, IN 46804
+  phone: 260-702-4750
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001188 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,49 @@
+id: ocd-person/2ab75787-585c-505d-8825-b61fa65b1981
+name: Suzan K. DelBene
+identifiers:
+- scheme: bioguide
+  identifier: D000617
+- scheme: govtrack
+  identifier: '412505'
+- scheme: wikidata
+  identifier: Q2091892
+- scheme: wikipedia
+  identifier: Suzan DelBene
+- scheme: ballotpedia
+  identifier: Suzan DelBene
+- scheme: opensecrets
+  identifier: N00030693
+- scheme: votesmart
+  identifier: '126272'
+- scheme: icpsr
+  identifier: '31101'
+- scheme: thomas
+  identifier: 02096
+- scheme: cspan
+  identifier: '1033929'
+- scheme: maplight
+  identifier: '1686'
+- scheme: fec-candidate-id
+  identifier: H0WA08046
+candidacies: []
+contact:
+  phone: 202-225-6311
+  profile_url: https://delbene.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2311 Rayburn House Office Building Washington DC 20515-4701
+  phone: 202-225-6311
+- classification: district
+  name: Bellevue Office
+  address: 520 112th Ave NE, Suite 400-C;Bellevue, WA 98004
+  phone: 425-485-0085
+  fax: 425-485-0083
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000617 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

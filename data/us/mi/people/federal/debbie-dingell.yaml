@@ -1,0 +1,52 @@
+id: ocd-person/ed50297c-6138-57eb-9efa-8fa571cf9c98
+name: Debbie Dingell
+identifiers:
+- scheme: bioguide
+  identifier: D000624
+- scheme: govtrack
+  identifier: '412637'
+- scheme: wikidata
+  identifier: Q5248232
+- scheme: wikipedia
+  identifier: Debbie Dingell
+- scheme: ballotpedia
+  identifier: Debbie Dingell
+- scheme: opensecrets
+  identifier: N00036149
+- scheme: votesmart
+  identifier: '152482'
+- scheme: icpsr
+  identifier: '21529'
+- scheme: thomas
+  identifier: '02251'
+- scheme: cspan
+  identifier: '20818'
+- scheme: maplight
+  identifier: '2093'
+- scheme: fec-candidate-id
+  identifier: H4MI12079
+candidacies: []
+contact:
+  phone: 202-225-4071
+  profile_url: https://debbiedingell.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 102 Cannon House Office Building Washington DC 20515-2206
+  phone: 202-225-4071
+- classification: district
+  name: Ann Arbor Office
+  address: 2006 Hogback Road, Suite 7;Ann Arbor, MI 48105
+  phone: 734-481-1100
+- classification: district
+  name: Woodhaven Office
+  address: Woodhaven City Hall, 21869 West Road;Woodhaven, MI 48183
+  phone: 313-278-2936
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000624 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

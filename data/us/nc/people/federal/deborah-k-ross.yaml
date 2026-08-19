@@ -1,0 +1,41 @@
+id: ocd-person/6dcc0327-8a01-5329-853e-8ffdfc661dda
+name: Deborah K. Ross
+identifiers:
+- scheme: bioguide
+  identifier: R000305
+- scheme: govtrack
+  identifier: '456831'
+- scheme: wikidata
+  identifier: Q5248285
+- scheme: wikipedia
+  identifier: Deborah Ross (politician)
+- scheme: ballotpedia
+  identifier: Deborah Ross
+- scheme: opensecrets
+  identifier: N00038565
+- scheme: votesmart
+  identifier: '41560'
+- scheme: fec-candidate-id
+  identifier: H0NC02125
+candidacies: []
+contact:
+  phone: 202-225-3032
+  profile_url: https://ross.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1221 Longworth House Office Building Washington DC 20515-3302
+  phone: 202-225-3032
+- classification: district
+  name: Raleigh Office
+  address: 300 Fayetteville Street, P.O. Box 1548;Raleigh, NC 27602
+  phone: 919-334-0840
+  fax: 919-828-1179
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000305 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

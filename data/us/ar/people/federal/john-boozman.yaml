@@ -1,0 +1,81 @@
+id: ocd-person/5a6a9df3-ced9-5054-83e0-3c07a9e862c1
+name: John Boozman
+identifiers:
+- scheme: bioguide
+  identifier: B001236
+- scheme: govtrack
+  identifier: '400040'
+- scheme: wikidata
+  identifier: Q1344707
+- scheme: wikipedia
+  identifier: John Boozman
+- scheme: ballotpedia
+  identifier: John Boozman
+- scheme: opensecrets
+  identifier: N00013873
+- scheme: votesmart
+  identifier: '27958'
+- scheme: icpsr
+  identifier: '20101'
+- scheme: lis
+  identifier: S343
+- scheme: thomas
+  identifier: 01687
+- scheme: cspan
+  identifier: '92069'
+- scheme: maplight
+  identifier: '159'
+- scheme: fec-candidate-id
+  identifier: S0AR00150
+candidacies: []
+contact:
+  phone: 202-224-4843
+  profile_url: https://www.boozman.senate.gov/public
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 555 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-4843
+- classification: district
+  name: El Dorado Office
+  address: 106 W. Main St., Suite 104;El Dorado, AR 71730
+  phone: 870-863-4641
+  fax: 870-863-4105
+- classification: district
+  name: Fort Smith Office
+  address: 1120 Garrison Ave., Suite 2B;Fort Smith, AR 72901
+  phone: 479-573-0189
+  fax: 479-573-0553
+- classification: district
+  name: Jonesboro Office
+  address: 300 S. Church St., Suite 400;Jonesboro, AR 72401
+  phone: 870-268-6925
+  fax: 870-268-6887
+- classification: district
+  name: Little Rock Office
+  address: 1401 W. Capitol Ave., Suite 155;Little Rock, AR 72201
+  phone: 501-372-7153
+  fax: 501-372-7163
+- classification: district
+  name: Lowell Office
+  address: 213 W. Monroe, Suite N;Lowell, AR 72745
+  phone: 479-725-0400
+  fax: 479-725-0408
+- classification: district
+  name: Mountain Home Office
+  address: 1001 Hwy 62 East, Suite 11;Mountain Home, AR 72653
+  phone: 870-424-0129
+  fax: 870-424-0141
+- classification: district
+  name: Stuttgart Office
+  address: 620 E. 22nd St., Suite 204;Stuttgart, AR 72160
+  phone: 870-672-6941
+  fax: 870-672-6962
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001236 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

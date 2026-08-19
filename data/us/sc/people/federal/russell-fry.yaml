@@ -1,0 +1,42 @@
+id: ocd-person/1476313a-9f29-580c-8e83-5dee32afc31e
+name: Russell Fry
+identifiers:
+- scheme: bioguide
+  identifier: F000478
+- scheme: govtrack
+  identifier: '456938'
+- scheme: wikidata
+  identifier: Q96015883
+- scheme: wikipedia
+  identifier: Russell Fry
+- scheme: opensecrets
+  identifier: N00049165
+- scheme: votesmart
+  identifier: '157265'
+- scheme: fec-candidate-id
+  identifier: S6SC04403
+candidacies: []
+contact:
+  phone: 202-225-9895
+  profile_url: https://fry.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 345 Cannon House Office Building Washington DC 20515-4007
+  phone: 202-225-9895
+- classification: district
+  name: Florence Office
+  address: 1831 West Evans Street, Suite 300;Florence, SC 29501
+  phone: 843-799-6880
+- classification: district
+  name: Surfside Beach Office
+  address: 1500 Hwy 17 N, Suite 304;Surfside Beach, SC 29575
+  phone: 843-353-5377
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000478 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

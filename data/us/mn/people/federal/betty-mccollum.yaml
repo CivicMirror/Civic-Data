@@ -1,0 +1,49 @@
+id: ocd-person/53c53b89-e5fa-5874-8b5c-de4f0a611900
+name: Betty McCollum
+identifiers:
+- scheme: bioguide
+  identifier: M001143
+- scheme: govtrack
+  identifier: '400259'
+- scheme: wikidata
+  identifier: Q434893
+- scheme: wikipedia
+  identifier: Betty McCollum
+- scheme: ballotpedia
+  identifier: Betty McCollum
+- scheme: opensecrets
+  identifier: N00012942
+- scheme: votesmart
+  identifier: '3812'
+- scheme: icpsr
+  identifier: '20122'
+- scheme: thomas
+  identifier: '01653'
+- scheme: cspan
+  identifier: '86670'
+- scheme: maplight
+  identifier: '356'
+- scheme: fec-candidate-id
+  identifier: H0MN04049
+candidacies: []
+contact:
+  phone: 202-225-6631
+  profile_url: https://mccollum.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2426 Rayburn House Office Building Washington DC 20515-2304
+  phone: 202-225-6631
+- classification: district
+  name: St. Paul Office
+  address: 661 LaSalle Street, Suite 110;St. Paul, MN 55114
+  phone: 651-224-9191
+  fax: 651-224-3056
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001143 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

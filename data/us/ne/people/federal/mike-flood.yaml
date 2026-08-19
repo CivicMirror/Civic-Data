@@ -1,0 +1,40 @@
+id: ocd-person/e873419b-592b-5250-8ead-f31dca1f1fb6
+name: Mike Flood
+identifiers:
+- scheme: bioguide
+  identifier: F000474
+- scheme: govtrack
+  identifier: '456868'
+- scheme: wikidata
+  identifier: Q6846855
+- scheme: wikipedia
+  identifier: Mike Flood (politician)
+- scheme: ballotpedia
+  identifier: Mike Flood
+- scheme: opensecrets
+  identifier: N00050145
+- scheme: votesmart
+  identifier: '41983'
+- scheme: fec-candidate-id
+  identifier: H2NE01118
+candidacies: []
+contact:
+  phone: 202-225-4806
+  profile_url: https://flood.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 343 Cannon House Office Building Washington DC 20515-2701
+  phone: 202-225-4806
+- classification: district
+  name: Lincoln Office
+  address: 301 South 13th Street, Suite 100;Lincoln, NE 68508
+  phone: 402-438-1598
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000474 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

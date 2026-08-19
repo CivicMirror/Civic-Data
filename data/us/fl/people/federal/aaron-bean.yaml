@@ -1,0 +1,48 @@
+id: ocd-person/f21d80d9-23a0-58b0-96c3-c8cf28f3e521
+name: Aaron Bean
+identifiers:
+- scheme: bioguide
+  identifier: B001314
+- scheme: govtrack
+  identifier: '456888'
+- scheme: wikidata
+  identifier: Q4661833
+- scheme: wikipedia
+  identifier: Aaron Bean
+- scheme: ballotpedia
+  identifier: Aaron Bean
+- scheme: opensecrets
+  identifier: N00051369
+- scheme: votesmart
+  identifier: '53932'
+- scheme: fec-candidate-id
+  identifier: H2FL04211
+candidacies: []
+contact:
+  phone: 202-225-0123
+  profile_url: https://bean.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2459 Rayburn House Office Building Washington DC 20515-0904
+  phone: 202-225-0123
+- classification: district
+  name: Fleming Island Office
+  address: 4465-6 US Highway 17;Fleming Island, FL 32003
+  phone: 904-830-3933
+- classification: district
+  name: Fernandina Beach Office
+  address: 501 Centre Street, Suite 107;Fernandina Beach, FL 32034
+  phone: 904-557-9550
+- classification: district
+  name: Jacksonville Office
+  address: 117 W Duval St., Suite 230;Jacksonville, FL 32202
+  phone: 904-319-9433
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001314 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

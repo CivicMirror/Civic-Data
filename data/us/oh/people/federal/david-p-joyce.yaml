@@ -1,0 +1,57 @@
+id: ocd-person/26f4f3ad-f6eb-548f-afeb-3a349ac6876e
+name: David P. Joyce
+identifiers:
+- scheme: bioguide
+  identifier: J000295
+- scheme: govtrack
+  identifier: '412566'
+- scheme: wikidata
+  identifier: Q976778
+- scheme: wikipedia
+  identifier: David Joyce (politician)
+- scheme: ballotpedia
+  identifier: David Joyce
+- scheme: opensecrets
+  identifier: N00035007
+- scheme: votesmart
+  identifier: '143052'
+- scheme: icpsr
+  identifier: '21353'
+- scheme: thomas
+  identifier: '02154'
+- scheme: cspan
+  identifier: '68561'
+- scheme: maplight
+  identifier: '1790'
+- scheme: fec-candidate-id
+  identifier: H2OH14064
+candidacies: []
+contact:
+  phone: 202-225-5731
+  profile_url: https://joyce.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2065 Rayburn House Office Building Washington DC 20515-3514
+  phone: 202-225-5731
+- classification: district
+  name: Mentor Office
+  address: 8500 Station St, Suite 390;Mentor, OH 44060
+  phone: 440-352-3939
+  fax: 440-266-9004
+- classification: district
+  name: Ravenna Office
+  address: 449 S. Meridian Street, Room 138;Ravenna, OH 44266
+  phone: 330-357-4139
+- classification: district
+  name: Warren Office
+  address: 125 West Market Street, Room 204;Warren, OH 44481
+  phone: 330-752-7673
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000295 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

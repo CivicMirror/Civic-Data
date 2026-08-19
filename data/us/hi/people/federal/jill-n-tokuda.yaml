@@ -1,0 +1,40 @@
+id: ocd-person/8a5aa731-11ba-5501-b9d4-06933626e033
+name: Jill N. Tokuda
+identifiers:
+- scheme: bioguide
+  identifier: T000487
+- scheme: govtrack
+  identifier: '456897'
+- scheme: wikidata
+  identifier: Q13562293
+- scheme: wikipedia
+  identifier: Jill Tokuda
+- scheme: ballotpedia
+  identifier: Jill Tokuda
+- scheme: opensecrets
+  identifier: N00051049
+- scheme: votesmart
+  identifier: '68493'
+- scheme: fec-candidate-id
+  identifier: H2HI02581
+candidacies: []
+contact:
+  phone: 202-225-4906
+  profile_url: https://tokuda.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1027 Longworth House Office Building Washington DC 20515-1102
+  phone: 202-225-4906
+- classification: district
+  name: Honolulu Office
+  address: ASB Tower, 1001 Bishop St., Suite 1503;Honolulu, HI 96813
+  phone: 808-746-6220
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000487 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

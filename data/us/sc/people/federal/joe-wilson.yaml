@@ -1,0 +1,54 @@
+id: ocd-person/5ce04ba8-9558-52dd-be76-97c3432caa72
+name: Joe Wilson
+identifiers:
+- scheme: bioguide
+  identifier: W000795
+- scheme: govtrack
+  identifier: '400433'
+- scheme: wikidata
+  identifier: Q928855
+- scheme: wikipedia
+  identifier: Joe Wilson
+- scheme: ballotpedia
+  identifier: Joe Wilson
+- scheme: opensecrets
+  identifier: N00024809
+- scheme: votesmart
+  identifier: '3985'
+- scheme: icpsr
+  identifier: '20138'
+- scheme: thomas
+  identifier: 01688
+- scheme: cspan
+  identifier: '1002567'
+- scheme: maplight
+  identifier: '519'
+- scheme: fec-candidate-id
+  identifier: H2SC02059
+candidacies: []
+contact:
+  phone: 202-225-2452
+  profile_url: https://joewilson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1436 Longworth House Office Building Washington DC 20515-4002
+  phone: 202-225-2452
+- classification: district
+  name: West Columbia Office
+  address: 1700 Sunset Blvd. (US 378), Suite 1;West Columbia, SC 29169
+  phone: 803-939-0041
+  fax: 803-939-0078
+- classification: district
+  name: Aiken Office
+  address: 1930 University Parkway, Suite 1600;Aiken, SC 29801
+  phone: 803-642-6416
+  fax: 803-642-6418
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000795 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

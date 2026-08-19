@@ -1,0 +1,52 @@
+id: ocd-person/6035b5ec-5170-57cb-81de-54e6e3d3efb7
+name: Ted Lieu
+identifiers:
+- scheme: bioguide
+  identifier: L000582
+- scheme: govtrack
+  identifier: '412616'
+- scheme: wikidata
+  identifier: Q7693450
+- scheme: wikipedia
+  identifier: Ted Lieu
+- scheme: ballotpedia
+  identifier: Ted Lieu
+- scheme: opensecrets
+  identifier: N00035825
+- scheme: votesmart
+  identifier: '1516'
+- scheme: icpsr
+  identifier: '21507'
+- scheme: thomas
+  identifier: '02230'
+- scheme: cspan
+  identifier: '28076'
+- scheme: maplight
+  identifier: '2072'
+- scheme: fec-candidate-id
+  identifier: H4CA33119
+candidacies: []
+contact:
+  phone: 202-225-3976
+  profile_url: https://lieu.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2454 Rayburn House Office Building Washington DC 20515-0536
+  phone: 202-225-3976
+- classification: district
+  name: Manhattan Beach Office
+  address: 1600 Rosecrans Ave., 4th Floor;Manhattan Beach, CA 90266
+  phone: 310-321-7664
+- classification: district
+  name: Los Angeles Office
+  address: 1645 Corinth Ave, Suite 101;Los Angeles, CA 90025
+  phone: 323-651-1040
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000582 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

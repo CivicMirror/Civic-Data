@@ -1,0 +1,49 @@
+id: ocd-person/5ee06439-ea3a-54f5-a444-ca4b49018411
+name: Rosa L. DeLauro
+identifiers:
+- scheme: bioguide
+  identifier: D000216
+- scheme: govtrack
+  identifier: '400103'
+- scheme: wikidata
+  identifier: Q434952
+- scheme: wikipedia
+  identifier: Rosa DeLauro
+- scheme: ballotpedia
+  identifier: Rosa DeLauro
+- scheme: opensecrets
+  identifier: N00000615
+- scheme: votesmart
+  identifier: '26788'
+- scheme: icpsr
+  identifier: '29109'
+- scheme: thomas
+  identifier: 00281
+- scheme: cspan
+  identifier: '19040'
+- scheme: maplight
+  identifier: '215'
+- scheme: fec-candidate-id
+  identifier: H0CT03072
+candidacies: []
+contact:
+  phone: 202-225-3661
+  profile_url: https://delauro.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2413 Rayburn House Office Building Washington DC 20515-0703
+  phone: 202-225-3661
+- classification: district
+  name: New Haven Office
+  address: 59 Elm St.;New Haven, CT 06510
+  phone: 203-562-3718
+  fax: 203-772-2260
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000216 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

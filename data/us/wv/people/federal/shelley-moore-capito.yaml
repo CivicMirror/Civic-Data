@@ -1,0 +1,58 @@
+id: ocd-person/5d2904e7-d6e7-55cc-867a-b19b8daa14cb
+name: Shelley Moore Capito
+identifiers:
+- scheme: bioguide
+  identifier: C001047
+- scheme: govtrack
+  identifier: '400061'
+- scheme: wikidata
+  identifier: Q459618
+- scheme: wikipedia
+  identifier: Shelley Moore Capito
+- scheme: ballotpedia
+  identifier: Shelley Moore Capito
+- scheme: opensecrets
+  identifier: N00009771
+- scheme: votesmart
+  identifier: '11701'
+- scheme: icpsr
+  identifier: '20146'
+- scheme: lis
+  identifier: S372
+- scheme: thomas
+  identifier: '01676'
+- scheme: cspan
+  identifier: '83737'
+- scheme: maplight
+  identifier: '179'
+- scheme: fec-candidate-id
+  identifier: S4WV00159
+candidacies: []
+contact:
+  phone: 202-224-6472
+  profile_url: https://www.capito.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 170 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-6472
+- classification: district
+  name: Martinsburg Office
+  address: 300 Foxcroft Ave., Suite 202A;Martinsburg, WV 25401
+  phone: 304-262-9285
+- classification: district
+  name: Morgantown Office
+  address: 48 Donley St., Suite 504;Morgantown, WV 26501
+  phone: 304-292-2310
+- classification: district
+  name: Charleston Office
+  address: 500 Virginia Street East, Suite 950;Charleston, WV 25301
+  phone: 304-347-5372
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001047 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

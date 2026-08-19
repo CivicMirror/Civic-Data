@@ -1,0 +1,44 @@
+id: ocd-person/4342f0df-4841-57ce-ad1c-d6176ed9653a
+name: Shomari Figures
+identifiers:
+- scheme: bioguide
+  identifier: F000481
+- scheme: govtrack
+  identifier: '456971'
+- scheme: wikidata
+  identifier: Q129431158
+- scheme: wikipedia
+  identifier: Shomari Figures
+- scheme: ballotpedia
+  identifier: Shomari Figures
+- scheme: opensecrets
+  identifier: N00053909
+- scheme: votesmart
+  identifier: '212889'
+- scheme: fec-candidate-id
+  identifier: H4AL02170
+candidacies: []
+contact:
+  phone: 202-225-4931
+  profile_url: https://figures.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 225 Cannon House Office Building Washington DC 20515-0102
+  phone: 202-225-4931
+- classification: district
+  name: Montgomery Office
+  address: 150 Dexter Ave;Montgomery, AL 36104
+  phone: 334-777-5700
+- classification: district
+  name: Mobile Office
+  address: 351 N. Broad St;Mobile, AL 36603
+  phone: 251-283-6280
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000481 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

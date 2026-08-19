@@ -1,0 +1,53 @@
+id: ocd-person/746075b5-5afe-5a3c-adc6-867ccc56660c
+name: Paul Tonko
+identifiers:
+- scheme: bioguide
+  identifier: T000469
+- scheme: govtrack
+  identifier: '412319'
+- scheme: wikidata
+  identifier: Q1373548
+- scheme: wikipedia
+  identifier: Paul Tonko
+- scheme: ballotpedia
+  identifier: Paul Tonko
+- scheme: opensecrets
+  identifier: N00030196
+- scheme: votesmart
+  identifier: '4403'
+- scheme: icpsr
+  identifier: '20934'
+- scheme: thomas
+  identifier: 01942
+- scheme: cspan
+  identifier: '1031353'
+- scheme: maplight
+  identifier: '801'
+- scheme: fec-candidate-id
+  identifier: H8NY21203
+candidacies: []
+contact:
+  phone: 202-225-5076
+  profile_url: https://tonko.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2269 Rayburn House Office Building Washington DC 20515-3220
+  phone: 202-225-5076
+- classification: district
+  name: Albany Office
+  address: 19 Dove Street, Suite 302;Albany, NY 12210
+  phone: 518-465-0700
+  fax: 518-427-5107
+- classification: district
+  name: Saratoga Springs Office
+  address: 433 Broadway, Suite 201;Saratoga Springs, NY 12866
+  phone: 518-374-4547
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000469 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

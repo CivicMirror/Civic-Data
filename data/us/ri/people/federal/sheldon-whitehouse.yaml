@@ -1,0 +1,51 @@
+id: ocd-person/f414574b-6eed-58fe-b43a-951a80640044
+name: Sheldon Whitehouse
+identifiers:
+- scheme: bioguide
+  identifier: W000802
+- scheme: govtrack
+  identifier: '412247'
+- scheme: wikidata
+  identifier: Q652066
+- scheme: wikipedia
+  identifier: Sheldon Whitehouse
+- scheme: ballotpedia
+  identifier: Sheldon Whitehouse
+- scheme: opensecrets
+  identifier: N00027533
+- scheme: votesmart
+  identifier: '2572'
+- scheme: icpsr
+  identifier: '40704'
+- scheme: lis
+  identifier: S316
+- scheme: thomas
+  identifier: 01823
+- scheme: cspan
+  identifier: '92235'
+- scheme: maplight
+  identifier: '728'
+- scheme: fec-candidate-id
+  identifier: S6RI00221
+candidacies: []
+contact:
+  phone: 202-224-2921
+  profile_url: https://www.whitehouse.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 530 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2921
+- classification: district
+  name: Providence Office
+  address: 170 Westminster St., Suite 200;Providence, RI 02903
+  phone: 401-453-5294
+  fax: 401-453-5085
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000802 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

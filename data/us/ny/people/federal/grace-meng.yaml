@@ -1,0 +1,52 @@
+id: ocd-person/f2a69bbf-1443-588e-a9a1-68c63169828c
+name: Grace Meng
+identifiers:
+- scheme: bioguide
+  identifier: M001188
+- scheme: govtrack
+  identifier: '412560'
+- scheme: wikidata
+  identifier: Q5591303
+- scheme: wikipedia
+  identifier: Grace Meng
+- scheme: ballotpedia
+  identifier: Grace Meng
+- scheme: opensecrets
+  identifier: N00034547
+- scheme: votesmart
+  identifier: '69157'
+- scheme: icpsr
+  identifier: '21342'
+- scheme: thomas
+  identifier: 02148
+- scheme: cspan
+  identifier: '68411'
+- scheme: maplight
+  identifier: '1784'
+- scheme: fec-candidate-id
+  identifier: H2NY06116
+candidacies: []
+contact:
+  phone: 202-225-2601
+  profile_url: https://meng.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2468 Rayburn House Office Building Washington DC 20515-3206
+  phone: 202-225-2601
+- classification: district
+  name: Flushing Office
+  address: 40-13 159th St., Suite A;Flushing, NY 11358
+  phone: 718-358-6364
+  fax: 718-445-7868
+- classification: district
+  name: Forest Hills Office
+  address: 118-35 Queens Blvd, Suite 900;Forest Hills, NY 11375
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001188 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

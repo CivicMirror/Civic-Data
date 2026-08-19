@@ -1,0 +1,40 @@
+id: ocd-person/b220887f-2408-5b17-8bb1-3be87f748794
+name: Laurel M. Lee
+identifiers:
+- scheme: bioguide
+  identifier: L000597
+- scheme: govtrack
+  identifier: '456892'
+- scheme: wikidata
+  identifier: Q61483038
+- scheme: wikipedia
+  identifier: Laurel Lee
+- scheme: ballotpedia
+  identifier: Laurel Lee
+- scheme: opensecrets
+  identifier: N00051178
+- scheme: votesmart
+  identifier: '186114'
+- scheme: fec-candidate-id
+  identifier: H2FL15241
+candidacies: []
+contact:
+  phone: 202-225-5626
+  profile_url: https://laurellee.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2464 Rayburn House Office Building Washington DC 20515-0915
+  phone: 202-225-5626
+- classification: district
+  name: Tampa Office
+  address: 17425 Bridge Hill Court, Suite 203;Tampa, FL 33647
+  phone: 813-393-5077
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000597 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

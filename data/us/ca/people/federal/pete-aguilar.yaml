@@ -1,0 +1,49 @@
+id: ocd-person/ab5a7785-07e1-5075-a6bc-d9c5d4891759
+name: Pete Aguilar
+identifiers:
+- scheme: bioguide
+  identifier: A000371
+- scheme: govtrack
+  identifier: '412615'
+- scheme: wikidata
+  identifier: Q7171821
+- scheme: wikipedia
+  identifier: Pete Aguilar
+- scheme: ballotpedia
+  identifier: Pete Aguilar
+- scheme: opensecrets
+  identifier: N00033997
+- scheme: votesmart
+  identifier: '70114'
+- scheme: icpsr
+  identifier: '21506'
+- scheme: thomas
+  identifier: 02229
+- scheme: cspan
+  identifier: '79994'
+- scheme: maplight
+  identifier: '2071'
+- scheme: fec-candidate-id
+  identifier: H2CA31125
+candidacies: []
+contact:
+  phone: 202-225-3201
+  profile_url: https://aguilar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 108 Cannon House Office Building Washington DC 20515-0533
+  phone: 202-225-3201
+- classification: district
+  name: San Bernardino Office
+  address: 685 E. Carnegie Dr., Suite 100;San Bernardino, CA 92408
+  phone: 909-890-4445
+  fax: 909-890-9643
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000371 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

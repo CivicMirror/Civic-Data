@@ -1,0 +1,63 @@
+id: ocd-person/d0a94b97-80f8-53ae-bf43-99ec6eca418b
+name: Josh Hawley
+identifiers:
+- scheme: bioguide
+  identifier: H001089
+- scheme: govtrack
+  identifier: '412840'
+- scheme: wikidata
+  identifier: Q23020745
+- scheme: wikipedia
+  identifier: Josh Hawley
+- scheme: ballotpedia
+  identifier: Josh Hawley
+- scheme: opensecrets
+  identifier: N00041620
+- scheme: votesmart
+  identifier: '169716'
+- scheme: icpsr
+  identifier: '41901'
+- scheme: lis
+  identifier: S399
+- scheme: fec-candidate-id
+  identifier: S8MO00160
+candidacies: []
+contact:
+  phone: 202-224-6154
+  profile_url: https://www.hawley.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 381 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-6154
+- classification: district
+  name: Cape Girardeau Office
+  address: '555 Independence Street, #1600;Cape Girardeau, MO 63703-6235'
+  phone: 573-334-5995
+  fax: 573-334-5947
+- classification: district
+  name: Columbia Office
+  address: 1123 Wilkes Blvd, Suite 220;Columbia, MO 65201-4774
+  phone: 573-554-1919
+- classification: district
+  name: St. Louis Office
+  address: 111 South 10th Street, Suite 23.360;St. Louis, MO 63102
+  phone: 314-354-7060
+  fax: 314-436-8534
+- classification: district
+  name: Kansas City Office
+  address: 400 E. 9th Street, Suite 9350;Kansas City, MO 64106
+  phone: 816-960-4694
+  fax: 816-472-6812
+- classification: district
+  name: Springfield Office
+  address: 901 E. St. Louis Street, Suite 1604;Springfield, MO 65806
+  phone: 417-869-4433
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001089 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,65 @@
+id: ocd-person/0f8c774e-9a9d-562f-a167-a466f2e71911
+name: Mike Rounds
+identifiers:
+- scheme: bioguide
+  identifier: R000605
+- scheme: govtrack
+  identifier: '412669'
+- scheme: wikidata
+  identifier: Q722503
+- scheme: wikipedia
+  identifier: Mike Rounds
+- scheme: ballotpedia
+  identifier: Mike Rounds
+- scheme: opensecrets
+  identifier: N00035187
+- scheme: votesmart
+  identifier: '7455'
+- scheme: icpsr
+  identifier: '41505'
+- scheme: lis
+  identifier: S381
+- scheme: thomas
+  identifier: 02288
+- scheme: cspan
+  identifier: '78317'
+- scheme: maplight
+  identifier: '2125'
+- scheme: fec-candidate-id
+  identifier: S4SD00049
+candidacies: []
+contact:
+  phone: 202-224-5842
+  profile_url: https://www.rounds.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 716 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5842
+- classification: district
+  name: Pierre Office
+  address: 111 W. Capitol Ave., Suite 210;Pierre, SD 57501
+  phone: 605-224-1450
+  fax: 605-224-1379
+- classification: district
+  name: Sioux Falls Office
+  address: 320 N. Main Ave., Suite A;Sioux Falls, SD 57104
+  phone: 605-336-0486
+  fax: 605-336-6624
+- classification: district
+  name: Aberdeen Office
+  address: 221 Brown County Highway 19 S, Suite 112;Aberdeen, SD 57401
+  phone: 605-225-0366
+- classification: district
+  name: Rapid City Office
+  address: 603 Omaha St., Suite 100;Rapid City, SD 57701
+  phone: 605-343-5035
+  fax: 605-343-5348
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000605 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

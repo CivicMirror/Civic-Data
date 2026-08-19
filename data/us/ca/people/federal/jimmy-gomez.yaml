@@ -1,0 +1,46 @@
+id: ocd-person/aa944cde-3ec6-56fd-aed2-793f8351b27b
+name: Jimmy Gomez
+identifiers:
+- scheme: bioguide
+  identifier: G000585
+- scheme: govtrack
+  identifier: '412739'
+- scheme: wikidata
+  identifier: Q6200205
+- scheme: wikipedia
+  identifier: Jimmy Gomez
+- scheme: ballotpedia
+  identifier: Jimmy Gomez
+- scheme: opensecrets
+  identifier: N00040597
+- scheme: votesmart
+  identifier: '138524'
+- scheme: icpsr
+  identifier: '21754'
+- scheme: cspan
+  identifier: '108883'
+- scheme: maplight
+  identifier: '2250'
+- scheme: fec-candidate-id
+  identifier: H8CA34266
+candidacies: []
+contact:
+  phone: 202-225-6235
+  profile_url: https://gomez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 506 Cannon House Office Building Washington DC 20515-0534
+  phone: 202-225-6235
+- classification: district
+  name: Los Angeles Office
+  address: '350 S. Bixel St., #120;Los Angeles, CA 90017'
+  phone: 213-481-1425
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000585 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

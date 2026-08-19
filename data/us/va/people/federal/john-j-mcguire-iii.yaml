@@ -1,0 +1,40 @@
+id: ocd-person/e2104143-1b5c-5fd6-b915-5e17da27cee7
+name: John J. McGuire III
+identifiers:
+- scheme: bioguide
+  identifier: M001239
+- scheme: govtrack
+  identifier: '457026'
+- scheme: wikidata
+  identifier: Q47545631
+- scheme: wikipedia
+  identifier: John McGuire (Virginia politician)
+- scheme: ballotpedia
+  identifier: John McGuire
+- scheme: opensecrets
+  identifier: N00045930
+- scheme: votesmart
+  identifier: '176388'
+- scheme: fec-candidate-id
+  identifier: H0VA07133
+candidacies: []
+contact:
+  phone: 202-225-4711
+  profile_url: https://mcguire.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1013 Longworth House Office Building Washington DC 20515-4605
+  phone: 202-225-4711
+- classification: district
+  name: Lynchburg Office
+  address: 900 Church St;Lynchburg, VA 24505
+  phone: 202-225-4711
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001239 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

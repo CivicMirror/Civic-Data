@@ -1,0 +1,41 @@
+id: ocd-person/dc765aed-78b0-5363-9927-b365ba91f363
+name: Sara Jacobs
+identifiers:
+- scheme: bioguide
+  identifier: J000305
+- scheme: govtrack
+  identifier: '456804'
+- scheme: wikidata
+  identifier: Q50825637
+- scheme: wikipedia
+  identifier: Sara Jacobs
+- scheme: ballotpedia
+  identifier: Sara Jacobs
+- scheme: opensecrets
+  identifier: N00042081
+- scheme: votesmart
+  identifier: '179414'
+- scheme: fec-candidate-id
+  identifier: H8CA49074
+candidacies: []
+contact:
+  phone: 202-225-2040
+  profile_url: https://sarajacobs.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2348 Rayburn House Office Building Washington DC 20515-0551
+  phone: 202-225-2040
+- classification: district
+  name: San Diego Office
+  address: 3465 Camino del Rio S, 350;San Diego, CA
+  phone: 619-280-5353
+  fax: 619-280-5311
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000305 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

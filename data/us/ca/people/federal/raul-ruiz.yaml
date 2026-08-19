@@ -1,0 +1,56 @@
+id: ocd-person/0c2f4fa0-86b1-5884-b181-588e2c6d9098
+name: Raul Ruiz
+identifiers:
+- scheme: bioguide
+  identifier: R000599
+- scheme: govtrack
+  identifier: '412519'
+- scheme: wikidata
+  identifier: Q3701994
+- scheme: wikipedia
+  identifier: Raul Ruiz (politician)
+- scheme: ballotpedia
+  identifier: Raul Ruiz
+- scheme: opensecrets
+  identifier: N00033510
+- scheme: votesmart
+  identifier: '136407'
+- scheme: icpsr
+  identifier: '21311'
+- scheme: thomas
+  identifier: 02109
+- scheme: cspan
+  identifier: '67721'
+- scheme: maplight
+  identifier: '1743'
+- scheme: fec-candidate-id
+  identifier: H2CA36439
+candidacies: []
+contact:
+  phone: 202-225-5330
+  profile_url: https://ruiz.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2342 Rayburn House Office Building Washington DC 20515-0525
+  phone: 202-225-5330
+- classification: district
+  name: Hemet Office
+  address: 445 E. Florida Ave., 2nd Floor;Hemet, CA 92543
+  phone: 951-492-3575
+- classification: district
+  name: El Centro Office
+  address: 343 S. 8th Street, Suite A;El Centro, CA 92243
+  phone: 760-592-2646
+- classification: district
+  name: Palm Desert Office
+  address: 77933 Las Montanas R, Suite 100;Palm Desert, CA 92211
+  phone: 760-424-8888
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000599 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

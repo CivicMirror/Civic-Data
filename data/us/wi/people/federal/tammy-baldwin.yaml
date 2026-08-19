@@ -1,0 +1,70 @@
+id: ocd-person/7b2e8470-c3d8-5722-9597-bed28b6aa74f
+name: Tammy Baldwin
+identifiers:
+- scheme: bioguide
+  identifier: B001230
+- scheme: govtrack
+  identifier: '400013'
+- scheme: wikidata
+  identifier: Q40628
+- scheme: wikipedia
+  identifier: Tammy Baldwin
+- scheme: ballotpedia
+  identifier: Tammy Baldwin
+- scheme: opensecrets
+  identifier: N00004367
+- scheme: votesmart
+  identifier: '3470'
+- scheme: icpsr
+  identifier: '29940'
+- scheme: lis
+  identifier: S354
+- scheme: thomas
+  identifier: 01558
+- scheme: cspan
+  identifier: '57884'
+- scheme: maplight
+  identifier: '136'
+- scheme: fec-candidate-id
+  identifier: S2WI00219
+candidacies: []
+contact:
+  phone: 202-224-5653
+  profile_url: https://www.baldwin.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 141 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5653
+- classification: district
+  name: Eau Claire Office
+  address: 500 South Barstow St., Suite LL2;Eau Claire, WI 54701
+  phone: 715-832-8424
+- classification: district
+  name: Madison Office
+  address: 30 W. Mifflin St., Suite 700;Madison, WI 53703
+  phone: 608-264-5338
+- classification: district
+  name: Milwaukee Office
+  address: 633 West Wisconsin Ave, Suite 1300;Milwaukee, WI 53203
+  phone: 414-297-4451
+- classification: district
+  name: Green Bay Office
+  address: 2325 Verlin Road, Suite 201;Green Bay, WI 54311
+  phone: 920-498-2668
+- classification: district
+  name: La Crosse Office
+  address: 210 7th Street South, Suite 203;La Crosse, WI 54601
+  phone: 608-796-0045
+- classification: district
+  name: Ladysmith Office
+  address: P.O. Box 401;Ladysmith, WI 54848
+  phone: 715-832-8424
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001230 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

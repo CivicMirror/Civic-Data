@@ -1,0 +1,57 @@
+id: ocd-person/ed54f305-3ade-5eae-a552-17ed5ab6f358
+name: Michael K. Simpson
+identifiers:
+- scheme: bioguide
+  identifier: S001148
+- scheme: govtrack
+  identifier: '400376'
+- scheme: wikidata
+  identifier: Q549521
+- scheme: wikipedia
+  identifier: Mike Simpson
+- scheme: ballotpedia
+  identifier: Michael K. Simpson
+- scheme: opensecrets
+  identifier: N00006263
+- scheme: votesmart
+  identifier: '2917'
+- scheme: icpsr
+  identifier: '29910'
+- scheme: thomas
+  identifier: 01590
+- scheme: cspan
+  identifier: '57889'
+- scheme: maplight
+  identifier: '466'
+- scheme: fec-candidate-id
+  identifier: H8ID02064
+candidacies: []
+contact:
+  phone: 202-225-5531
+  profile_url: https://simpson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2084 Rayburn House Office Building Washington DC 20515-1202
+  phone: 202-225-5531
+- classification: district
+  name: Boise Office
+  address: 802 W. Bannock, Suite 600;Boise, ID 83702
+  phone: 208-334-1953
+  fax: 208-334-9533
+- classification: district
+  name: Twin Falls Office
+  address: 630 Addison Avenue West, Suite 1700;Twin Falls, ID 83301
+  phone: 208-734-7219
+- classification: district
+  name: Idaho Falls Office
+  address: 1075 S Utah Avenue West, Suite 240;Idaho Falls, ID 83402
+  phone: 208-523-6701
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001148 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

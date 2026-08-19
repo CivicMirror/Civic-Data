@@ -1,0 +1,40 @@
+id: ocd-person/91d6d3cb-a692-5a1a-a2ac-d52b0d2cb5af
+name: Julie Johnson
+identifiers:
+- scheme: bioguide
+  identifier: J000310
+- scheme: govtrack
+  identifier: '457024'
+- scheme: wikidata
+  identifier: Q64753063
+- scheme: wikipedia
+  identifier: Julie Johnson (politician)
+- scheme: ballotpedia
+  identifier: Julie Johnson
+- scheme: opensecrets
+  identifier: N00052806
+- scheme: votesmart
+  identifier: '177532'
+- scheme: fec-candidate-id
+  identifier: H4TX32089
+candidacies: []
+contact:
+  phone: 202-225-2231
+  profile_url: https://juliejohnson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 221 Cannon House Office Building Washington DC 20515-4332
+  phone: 202-225-2231
+- classification: district
+  name: Richardson Office
+  address: Chase Bank Building, 100 N Central Expy, Suite 602;Richardson, TX 75080
+  phone: 972-972-7949
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000310 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

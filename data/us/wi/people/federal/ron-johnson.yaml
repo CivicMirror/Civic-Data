@@ -1,0 +1,61 @@
+id: ocd-person/01390d29-b695-521d-931a-e9476f0a4fc8
+name: Ron Johnson
+identifiers:
+- scheme: bioguide
+  identifier: J000293
+- scheme: govtrack
+  identifier: '412496'
+- scheme: wikidata
+  identifier: Q970272
+- scheme: wikipedia
+  identifier: Ron Johnson
+- scheme: ballotpedia
+  identifier: Ron Johnson (Wisconsin)
+- scheme: opensecrets
+  identifier: N00032546
+- scheme: votesmart
+  identifier: '126217'
+- scheme: icpsr
+  identifier: '41111'
+- scheme: lis
+  identifier: S345
+- scheme: thomas
+  identifier: 02086
+- scheme: cspan
+  identifier: '62835'
+- scheme: maplight
+  identifier: '1501'
+- scheme: fec-candidate-id
+  identifier: S0WI00197
+candidacies: []
+contact:
+  phone: 202-224-5323
+  profile_url: https://www.ronjohnson.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 328 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-5323
+- classification: district
+  name: Milwaukee Office
+  address: 517 E. Wisconsin Ave., Suite 408;Milwaukee, WI 53202
+  phone: 414-276-7282
+  fax: 414-276-7284
+- classification: district
+  name: Oshkosh Office
+  address: 219 Washington Ave., Suite 100;Oshkosh, WI 54901
+  phone: 920-230-7250
+  fax: 920-230-7262
+- classification: district
+  name: Madison Office
+  address: 5315 Wall St., Suite 110;Madison, WI 53718
+  phone: 608-240-9629
+  fax: 608-240-9646
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000293 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

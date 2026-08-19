@@ -1,0 +1,46 @@
+id: ocd-person/5871af40-09a2-5990-8cb9-5d96fbddecdc
+name: Beth Van Duyne
+identifiers:
+- scheme: bioguide
+  identifier: V000134
+- scheme: govtrack
+  identifier: '456850'
+- scheme: wikidata
+  identifier: Q66309702
+- scheme: wikipedia
+  identifier: Beth Van Duyne
+- scheme: ballotpedia
+  identifier: Beth Van Duyne
+- scheme: opensecrets
+  identifier: N00045167
+- scheme: votesmart
+  identifier: '79150'
+- scheme: fec-candidate-id
+  identifier: H0TX24209
+candidacies: []
+contact:
+  phone: 202-225-6605
+  profile_url: https://vanduyne.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1725 Longworth House Office Building Washington DC 20515-4324
+  phone: 202-225-6605
+- classification: district
+  name: Dallas Office
+  address: 14951 Dallas Pkwy, Unit 830;Dallas, TX 75254
+  phone: 972-966-5500
+  fax: 771-200-5833
+- classification: district
+  name: Keller Office
+  address: City of Keller Town Hall, 1100 Bear Creek Parkway;Keller, TX 76248
+  phone: 972-966-5500
+  fax: 771-200-5833
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000134 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

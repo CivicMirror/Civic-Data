@@ -1,0 +1,49 @@
+id: ocd-person/a91bd2a2-a7f4-5c09-883c-b064b07895e4
+name: Michael R. Turner
+identifiers:
+- scheme: bioguide
+  identifier: T000463
+- scheme: govtrack
+  identifier: '400411'
+- scheme: wikidata
+  identifier: Q505722
+- scheme: wikipedia
+  identifier: Mike Turner
+- scheme: ballotpedia
+  identifier: Michael Turner (Ohio)
+- scheme: opensecrets
+  identifier: N00025175
+- scheme: votesmart
+  identifier: '45519'
+- scheme: icpsr
+  identifier: '20342'
+- scheme: thomas
+  identifier: '01741'
+- scheme: cspan
+  identifier: '1003607'
+- scheme: maplight
+  identifier: '496'
+- scheme: fec-candidate-id
+  identifier: H2OH03091
+candidacies: []
+contact:
+  phone: 202-225-6465
+  profile_url: https://turner.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2183 Rayburn House Office Building Washington DC 20515-3510
+  phone: 202-225-6465
+- classification: district
+  name: Dayton Office
+  address: 120 W. 3rd St., Suite 305;Dayton, OH 45402
+  phone: 937-225-2843
+  fax: 937-225-2752
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000463 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

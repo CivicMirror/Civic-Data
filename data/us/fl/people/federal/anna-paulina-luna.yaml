@@ -1,0 +1,40 @@
+id: ocd-person/c618ff17-b53f-56de-a39b-602a4d1e3db6
+name: Anna Paulina Luna
+identifiers:
+- scheme: bioguide
+  identifier: L000596
+- scheme: govtrack
+  identifier: '456891'
+- scheme: wikidata
+  identifier: Q112805534
+- scheme: wikipedia
+  identifier: Anna Paulina Luna
+- scheme: ballotpedia
+  identifier: Anna Paulina Luna
+- scheme: opensecrets
+  identifier: N00045228
+- scheme: votesmart
+  identifier: '191344'
+- scheme: fec-candidate-id
+  identifier: H0FL13158
+candidacies: []
+contact:
+  phone: 202-225-5961
+  profile_url: https://luna.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 226 Cannon House Office Building Washington DC 20515-0913
+  phone: 202-225-5961
+- classification: district
+  name: Seminole Office
+  address: 9200 113th St. N., Suite 305;Seminole, FL 33772
+  phone: 727-610-3980
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000596 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

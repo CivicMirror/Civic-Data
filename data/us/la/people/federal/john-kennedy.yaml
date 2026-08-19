@@ -1,0 +1,80 @@
+id: ocd-person/e92cce41-a4cb-5f29-a64f-2f1c240e5790
+name: John Kennedy
+identifiers:
+- scheme: bioguide
+  identifier: K000393
+- scheme: govtrack
+  identifier: '412679'
+- scheme: wikidata
+  identifier: Q6250211
+- scheme: wikipedia
+  identifier: John Kennedy (Louisiana politician)
+- scheme: ballotpedia
+  identifier: John Neely Kennedy
+- scheme: opensecrets
+  identifier: N00026823
+- scheme: votesmart
+  identifier: '35496'
+- scheme: icpsr
+  identifier: '41703'
+- scheme: lis
+  identifier: S389
+- scheme: cspan
+  identifier: '1011723'
+- scheme: maplight
+  identifier: '2191'
+- scheme: fec-candidate-id
+  identifier: S4LA00065
+candidacies: []
+contact:
+  phone: 202-224-4623
+  profile_url: https://www.kennedy.senate.gov/public
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 437 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4623
+- classification: district
+  name: Alexandria Office
+  address: England Airpark, 1611 Arnold Drive, Suite 126;Alexandria, LA 71303
+  phone: 318-445-2892
+- classification: district
+  name: Baton Rouge Office
+  address: 7932 Wrenwood Blvd, Suite A & B;Baton Rouge, LA 70809
+  phone: 225-926-8033
+- classification: district
+  name: Houma Office
+  address: Government Towers, 8026 Main St, Suite 700;Houma, LA 70360
+  phone: 985-851-0956
+- classification: district
+  name: Mandeville Office
+  address: Building A, 21490 Koop Dr.;Mandeville, LA 70471
+  phone: 985-809-8153
+- classification: district
+  name: Monroe Office
+  address: 1651 Louisville Ave., Suite 148;Monroe, LA 71201
+  phone: 318-361-1489
+- classification: district
+  name: New Orleans Office
+  address: 500 Poydras St., Suite 364;New Orleans, LA 70113
+  phone: 504-581-6190
+- classification: district
+  name: Shreveport Office
+  address: 401 Market St., Suite 1050;Shreveport, LA 71101
+  phone: 318-670-5192
+- classification: district
+  name: Lafayette Office
+  address: 315 S. College Road, Suite 140;Lafayette, LA 70503
+  phone: 337-269-5980
+- classification: district
+  name: Lake Charles Office
+  address: 814 West McNeese Street, Suite 213;Lake Charles, LA 70605
+  phone: 337-573-6800
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000393 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

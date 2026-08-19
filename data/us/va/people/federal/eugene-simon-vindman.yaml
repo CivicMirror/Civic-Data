@@ -1,0 +1,40 @@
+id: ocd-person/c554febd-af12-5853-a590-6d3cb47a49b8
+name: Eugene Simon Vindman
+identifiers:
+- scheme: bioguide
+  identifier: V000138
+- scheme: govtrack
+  identifier: '457027'
+- scheme: wikidata
+  identifier: Q112610369
+- scheme: wikipedia
+  identifier: Eugene Vindman
+- scheme: ballotpedia
+  identifier: Eugene Vindman
+- scheme: opensecrets
+  identifier: N00054112
+- scheme: votesmart
+  identifier: '216844'
+- scheme: fec-candidate-id
+  identifier: H4VA07234
+candidacies: []
+contact:
+  phone: 202-225-2815
+  profile_url: https://vindman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1005 Longworth House Office Building Washington DC 20515-4607
+  phone: 202-225-2815
+- classification: district
+  name: Woodbridge Office
+  address: 2241D Tacketts Mill Dr.;Woodbridge, VA 22192
+  phone: 703-987-2180
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000138 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

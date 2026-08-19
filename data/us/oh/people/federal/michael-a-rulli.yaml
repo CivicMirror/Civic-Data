@@ -1,0 +1,44 @@
+id: ocd-person/ac6dce27-a413-5402-a61a-881604d368ea
+name: Michael A. Rulli
+identifiers:
+- scheme: bioguide
+  identifier: R000619
+- scheme: govtrack
+  identifier: '456959'
+- scheme: wikidata
+  identifier: Q63170062
+- scheme: wikipedia
+  identifier: Michael Rulli
+- scheme: ballotpedia
+  identifier: Michael Rulli
+- scheme: opensecrets
+  identifier: N00054190
+- scheme: votesmart
+  identifier: '179016'
+- scheme: fec-candidate-id
+  identifier: H4OH06165
+candidacies: []
+contact:
+  phone: 202-225-5705
+  profile_url: https://rulli.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 421 Cannon House Office Building Washington DC 20515-3506
+  phone: 202-225-5705
+- classification: district
+  name: Canfield Office
+  address: 4137 Boardman-Canfield Road, Suite 106;Canfield, OH 44406
+  phone: 330-967-7312
+- classification: district
+  name: Marietta Office
+  address: 246 Front Street;Marietta, OH 45750
+  phone: 740-885-4860
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000619 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

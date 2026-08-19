@@ -1,0 +1,43 @@
+id: ocd-person/f3debe5a-1282-5bc0-a09b-6755cb2211f8
+name: Marie Gluesenkamp Perez
+identifiers:
+- scheme: bioguide
+  identifier: G000600
+- scheme: govtrack
+  identifier: '456949'
+- scheme: wikidata
+  identifier: Q113686944
+- scheme: wikipedia
+  identifier: Marie Gluesenkamp Perez
+- scheme: ballotpedia
+  identifier: Marie Gluesenkamp Perez
+- scheme: opensecrets
+  identifier: N00050490
+- scheme: votesmart
+  identifier: '207307'
+- scheme: fec-candidate-id
+  identifier: H2WA03217
+candidacies: []
+contact:
+  phone: 202-225-3536
+  profile_url: https://gluesenkampperez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1431 Longworth House Office Building Washington DC 20515-4703
+  phone: 202-225-3536
+- classification: district
+  name: Kelso Office
+  address: 308 S. Pacific Ave., Suite B;Kelso, WA 98626
+- classification: district
+  name: Vancouver Office
+  address: 1053 Officers Row;Vancouver, WA 98661
+  phone: 360-695-6292
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000600 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

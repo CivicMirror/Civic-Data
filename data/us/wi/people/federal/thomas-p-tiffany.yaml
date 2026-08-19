@@ -1,0 +1,38 @@
+id: ocd-person/f50093c2-dee2-5a68-bad1-b1fd5520c3de
+name: Thomas P. Tiffany
+identifiers:
+- scheme: bioguide
+  identifier: T000165
+- scheme: govtrack
+  identifier: '456791'
+- scheme: wikidata
+  identifier: Q7817838
+- scheme: wikipedia
+  identifier: Tom Tiffany
+- scheme: ballotpedia
+  identifier: Tom Tiffany
+- scheme: opensecrets
+  identifier: N00045307
+- scheme: fec-candidate-id
+  identifier: H0WI07101
+candidacies: []
+contact:
+  phone: 202-225-3365
+  profile_url: https://tiffany.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 451 Cannon House Office Building Washington DC 20515-4907
+  phone: 202-225-3365
+- classification: district
+  name: Wausau Office
+  address: 2620 Stewart Avenue, Suite 312;Wausau, WI 54401
+  phone: 715-298-9344
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000165 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

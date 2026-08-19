@@ -1,0 +1,57 @@
+id: ocd-person/6f5fc5e2-ca24-5368-b4a5-5a684c74c39b
+name: Robin L. Kelly
+identifiers:
+- scheme: bioguide
+  identifier: K000385
+- scheme: govtrack
+  identifier: '412595'
+- scheme: wikidata
+  identifier: Q3437091
+- scheme: wikipedia
+  identifier: Robin Kelly
+- scheme: ballotpedia
+  identifier: Robin Kelly
+- scheme: opensecrets
+  identifier: N00035215
+- scheme: votesmart
+  identifier: '33384'
+- scheme: icpsr
+  identifier: '21371'
+- scheme: thomas
+  identifier: 02190
+- scheme: cspan
+  identifier: '70399'
+- scheme: maplight
+  identifier: '2045'
+- scheme: fec-candidate-id
+  identifier: S6IL00474
+candidacies: []
+contact:
+  phone: 202-225-0773
+  profile_url: https://robinkelly.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2329 Rayburn House Office Building Washington DC 20515-1302
+  phone: 202-225-0773
+- classification: district
+  name: Matteson Office
+  address: 600 Town Center Road, Suite 505;Matteson, IL 60443
+  phone: 708-679-0078
+  fax: 708-679-0216
+- classification: district
+  name: Chicago Office
+  address: 1642 E. 56th Street, Suite 110;Chicago, IL 60637
+  phone: 773-321-2001
+- classification: district
+  name: Danville Office
+  address: 425 N. Gilbert Street, Suite 5;Danville, IL 61832
+  phone: 217-516-4556
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000385 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

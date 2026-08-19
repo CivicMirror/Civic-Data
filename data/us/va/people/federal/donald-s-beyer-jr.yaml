@@ -1,0 +1,49 @@
+id: ocd-person/3969a4aa-2c87-5d18-8dc7-496f4a9a250f
+name: Donald S. Beyer, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: B001292
+- scheme: govtrack
+  identifier: '412657'
+- scheme: wikidata
+  identifier: Q3036086
+- scheme: wikipedia
+  identifier: Don Beyer
+- scheme: ballotpedia
+  identifier: Don Beyer
+- scheme: opensecrets
+  identifier: N00036018
+- scheme: votesmart
+  identifier: '1707'
+- scheme: icpsr
+  identifier: '21554'
+- scheme: thomas
+  identifier: '02272'
+- scheme: cspan
+  identifier: '21141'
+- scheme: maplight
+  identifier: '2113'
+- scheme: fec-candidate-id
+  identifier: H4VA08224
+candidacies: []
+contact:
+  phone: 202-225-4376
+  profile_url: https://beyer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1226 Longworth House Office Building Washington DC 20515-4608
+  phone: 202-225-4376
+- classification: district
+  name: Alexandria Office
+  address: 700 N Fairfax St., Suite 510;Alexandria, VA 22314
+  phone: 703-658-5403
+  fax: 703-658-5408
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001292 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

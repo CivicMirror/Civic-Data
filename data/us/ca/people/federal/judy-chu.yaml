@@ -1,0 +1,54 @@
+id: ocd-person/3927c155-cee9-5533-b3bc-3d82c62b621b
+name: Judy Chu
+identifiers:
+- scheme: bioguide
+  identifier: C001080
+- scheme: govtrack
+  identifier: '412379'
+- scheme: wikidata
+  identifier: Q460035
+- scheme: wikipedia
+  identifier: Judy Chu
+- scheme: ballotpedia
+  identifier: Judy Chu
+- scheme: opensecrets
+  identifier: N00030600
+- scheme: votesmart
+  identifier: '16539'
+- scheme: icpsr
+  identifier: '20955'
+- scheme: thomas
+  identifier: 01970
+- scheme: cspan
+  identifier: '92573'
+- scheme: maplight
+  identifier: '1190'
+- scheme: fec-candidate-id
+  identifier: H0CA32101
+candidacies: []
+contact:
+  phone: 202-225-5464
+  profile_url: https://chu.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2423 Rayburn House Office Building Washington DC 20515-0528
+  phone: 202-225-5464
+- classification: district
+  name: Claremont Office
+  address: 415 W. Foothill Blvd., Suite 122;Claremont, CA 91711
+  phone: 909-625-5394
+  fax: 909-399-0198
+- classification: district
+  name: Pasadena Office
+  address: 527 S. Lake Ave, Suite 250;Pasadena, CA 91101
+  phone: 626-304-0110
+  fax: 626-304-0132
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001080 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

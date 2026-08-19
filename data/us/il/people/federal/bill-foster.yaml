@@ -1,0 +1,52 @@
+id: ocd-person/87011af4-6b2a-5411-ba39-cefae3262a4d
+name: Bill Foster
+identifiers:
+- scheme: bioguide
+  identifier: F000454
+- scheme: govtrack
+  identifier: '412257'
+- scheme: wikidata
+  identifier: Q2903389
+- scheme: wikipedia
+  identifier: Bill Foster (politician)
+- scheme: ballotpedia
+  identifier: Bill Foster
+- scheme: opensecrets
+  identifier: N00029139
+- scheme: votesmart
+  identifier: '101632'
+- scheme: icpsr
+  identifier: '20749'
+- scheme: thomas
+  identifier: 01888
+- scheme: cspan
+  identifier: '1027346'
+- scheme: maplight
+  identifier: '738'
+- scheme: fec-candidate-id
+  identifier: H2IL11124
+candidacies: []
+contact:
+  phone: 202-225-3515
+  profile_url: https://foster.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2366 Rayburn House Office Building Washington DC 20515-1311
+  phone: 202-225-3515
+- classification: district
+  name: Huntley Office
+  address: 11187 E Dundee Rd, Suite 101;Huntley, IL 60142
+  phone: 630-585-7672
+- classification: district
+  name: Aurora Office
+  address: 2000 W. Galena Blvd, Suite 303;Aurora, IL 60506
+  phone: 630-585-7672
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000454 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

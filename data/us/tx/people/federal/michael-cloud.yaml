@@ -1,0 +1,48 @@
+id: ocd-person/90e46991-8be8-536a-aed3-a196111e85ff
+name: Michael Cloud
+identifiers:
+- scheme: bioguide
+  identifier: C001115
+- scheme: govtrack
+  identifier: '412746'
+- scheme: wikidata
+  identifier: Q55313952
+- scheme: wikipedia
+  identifier: Michael Cloud
+- scheme: ballotpedia
+  identifier: Michael Cloud (Texas)
+- scheme: opensecrets
+  identifier: N00041882
+- scheme: votesmart
+  identifier: '177350'
+- scheme: icpsr
+  identifier: '21758'
+- scheme: cspan
+  identifier: '10322'
+- scheme: fec-candidate-id
+  identifier: H8TX27049
+candidacies: []
+contact:
+  phone: 202-225-7742
+  profile_url: https://cloud.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 304 Cannon House Office Building Washington DC 20515-4327
+  phone: 202-225-7742
+- classification: district
+  name: Victoria Office
+  address: 120 S. Main St., Suite 310;Victoria, TX 77901
+  phone: 361-894-6446
+- classification: district
+  name: Corpus Christi Office
+  address: Tower II, 555 N. Carancahua St., Suite 980;Corpus Christi, TX 78401
+  phone: 361-884-2222
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001115 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,40 @@
+id: ocd-person/51587381-50da-59cf-a5a2-9c60bcde11f7
+name: Laura Friedman
+identifiers:
+- scheme: bioguide
+  identifier: F000483
+- scheme: govtrack
+  identifier: '456979'
+- scheme: wikidata
+  identifier: Q6498920
+- scheme: wikipedia
+  identifier: Laura Friedman
+- scheme: ballotpedia
+  identifier: Laura Friedman
+- scheme: opensecrets
+  identifier: N00052209
+- scheme: votesmart
+  identifier: '111792'
+- scheme: fec-candidate-id
+  identifier: H4CA30149
+candidacies: []
+contact:
+  phone: 202-225-4176
+  profile_url: https://friedman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1517 Longworth House Office Building Washington DC 20515-0530
+  phone: 202-225-4176
+- classification: district
+  name: Burbank Office
+  address: 245 E Olive Ave, Suite 200;Burbank, CA 91502
+  phone: 818-524-4384
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000483 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

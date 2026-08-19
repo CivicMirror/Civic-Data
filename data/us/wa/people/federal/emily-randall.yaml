@@ -1,0 +1,40 @@
+id: ocd-person/23eff249-3eef-53e7-bc0c-b56117d3073e
+name: Emily Randall
+identifiers:
+- scheme: bioguide
+  identifier: R000621
+- scheme: govtrack
+  identifier: '457030'
+- scheme: wikidata
+  identifier: Q60473885
+- scheme: wikipedia
+  identifier: Emily Randall
+- scheme: ballotpedia
+  identifier: Emily Randall
+- scheme: opensecrets
+  identifier: N00054078
+- scheme: votesmart
+  identifier: '183038'
+- scheme: fec-candidate-id
+  identifier: H4WA06117
+candidacies: []
+contact:
+  phone: 202-225-5916
+  profile_url: https://randall.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1531 Longworth House Office Building Washington DC 20515-4706
+  phone: 202-225-5916
+- classification: district
+  name: Bremerton Office
+  address: 345 6th St., Suite 500;Bremerton, WA 98337
+  phone: 360-373-9725
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000621 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

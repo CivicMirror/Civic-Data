@@ -1,0 +1,44 @@
+id: ocd-person/adde4743-44a6-57b9-b6af-2ff3ded0d2f3
+name: Greg Landsman
+identifiers:
+- scheme: bioguide
+  identifier: L000601
+- scheme: govtrack
+  identifier: '456928'
+- scheme: wikidata
+  identifier: Q115180677
+- scheme: wikipedia
+  identifier: Greg Landsman
+- scheme: ballotpedia
+  identifier: Greg Landsman
+- scheme: opensecrets
+  identifier: N00049718
+- scheme: votesmart
+  identifier: '186237'
+- scheme: fec-candidate-id
+  identifier: H2OH01194
+candidacies: []
+contact:
+  phone: 202-225-2216
+  profile_url: https://landsman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2244 Rayburn House Office Building Washington DC 20515-3501
+  phone: 202-225-2216
+- classification: district
+  name: Lebanon Office
+  address: 11 S Broadway St, Ste 301;Lebanon, OH 45036
+  phone: 513-409-6188
+- classification: district
+  name: Cincinnati Office
+  address: 961 E McMillan St, Ste C-1;Cincinnati, OH 45206
+  phone: 513-810-7988
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000601 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,70 @@
+id: ocd-person/0aafc94f-19ad-5e98-9821-c6c86e81f91c
+name: Jeanne Shaheen
+identifiers:
+- scheme: bioguide
+  identifier: S001181
+- scheme: govtrack
+  identifier: '412323'
+- scheme: wikidata
+  identifier: Q270316
+- scheme: wikipedia
+  identifier: Jeanne Shaheen
+- scheme: ballotpedia
+  identifier: Jeanne Shaheen
+- scheme: opensecrets
+  identifier: N00024790
+- scheme: votesmart
+  identifier: '1663'
+- scheme: icpsr
+  identifier: '40906'
+- scheme: lis
+  identifier: S324
+- scheme: thomas
+  identifier: 01901
+- scheme: cspan
+  identifier: '22850'
+- scheme: maplight
+  identifier: '805'
+- scheme: fec-candidate-id
+  identifier: S0NH00219
+candidacies: []
+contact:
+  phone: 202-224-2841
+  profile_url: https://www.shaheen.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 506 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2841
+- classification: district
+  name: Berlin Office
+  address: 961 Main St.;Berlin, NH 03570
+  phone: 603-752-6300
+- classification: district
+  name: Claremont Office
+  address: 50 Opera House Sq.;Claremont, NH 03743
+  phone: 603-542-4872
+- classification: district
+  name: Dover Office
+  address: 340 Central Ave., Suite 205;Dover, NH 03820
+  phone: 603-750-3004
+- classification: district
+  name: Keene Office
+  address: 12 Gilbo Ave., Suite C;Keene, NH 03431
+  phone: 603-358-6604
+- classification: district
+  name: Manchester Office
+  address: 2 Wall St., Suite 220;Manchester, NH 03101
+  phone: 603-647-7500
+- classification: district
+  name: Nashua Office
+  address: 60 Main St., Suite 217;Nashua, NH 03060
+  phone: 603-883-0196
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001181 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

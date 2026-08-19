@@ -1,0 +1,41 @@
+id: ocd-person/7bb21abc-dfdb-5abe-b3fd-6f9f2c028ac1
+name: Brad Knott
+identifiers:
+- scheme: bioguide
+  identifier: K000405
+- scheme: govtrack
+  identifier: '457004'
+- scheme: wikidata
+  identifier: Q130979816
+- scheme: wikipedia
+  identifier: Brad Knott
+- scheme: ballotpedia
+  identifier: Brad Knott
+- scheme: opensecrets
+  identifier: N00053743
+- scheme: votesmart
+  identifier: '213703'
+- scheme: fec-candidate-id
+  identifier: H4NC13116
+candidacies: []
+contact:
+  phone: 202-225-4531
+  profile_url: https://knott.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1239 Longworth House Office Building Washington DC 20515-3313
+  phone: 202-225-4531
+- classification: district
+  name: Garner Office
+  address: 12450 Cleveland Road, 203;Garner, NC 27529
+  phone: 984-275-6150
+  fax: 984-275-6150
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000405 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

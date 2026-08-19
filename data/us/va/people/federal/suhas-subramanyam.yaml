@@ -1,0 +1,40 @@
+id: ocd-person/d14c74de-9b69-5241-871a-95028779dae5
+name: Suhas Subramanyam
+identifiers:
+- scheme: bioguide
+  identifier: S001230
+- scheme: govtrack
+  identifier: '457028'
+- scheme: wikidata
+  identifier: Q83250082
+- scheme: wikipedia
+  identifier: Suhas Subramanyam
+- scheme: ballotpedia
+  identifier: Suhas Subramanyam
+- scheme: opensecrets
+  identifier: N00054085
+- scheme: votesmart
+  identifier: '186400'
+- scheme: fec-candidate-id
+  identifier: H4VA10279
+candidacies: []
+contact:
+  phone: 202-225-5136
+  profile_url: https://subramanyam.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1009 Longworth House Office Building Washington DC 20515-4610
+  phone: 202-225-5136
+- classification: district
+  name: Leesburg Office
+  address: 210 Wirt Street SW, Unit 102;Leesburg, VA 20175
+  phone: 703-236-1300
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001230 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

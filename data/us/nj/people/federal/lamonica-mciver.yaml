@@ -1,0 +1,40 @@
+id: ocd-person/eb273650-5b55-59df-a4f3-fbd2c133aca2
+name: LaMonica McIver
+identifiers:
+- scheme: bioguide
+  identifier: M001229
+- scheme: govtrack
+  identifier: '456962'
+- scheme: wikidata
+  identifier: Q130323710
+- scheme: wikipedia
+  identifier: LaMonica McIver
+- scheme: ballotpedia
+  identifier: LaMonica McIver
+- scheme: opensecrets
+  identifier: N00055172
+- scheme: votesmart
+  identifier: '186801'
+- scheme: fec-candidate-id
+  identifier: H4NJ10176
+candidacies: []
+contact:
+  phone: 202-225-3436
+  profile_url: https://mciver.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 426 Cannon House Office Building Washington DC 20515-3010
+  phone: 202-225-3436
+- classification: district
+  name: Newark Office
+  address: LeRoy F. Smith, Jr. Public Safety Building, 60 Nelson Pl, 14th Floor;Newark, NJ 07102
+  phone: 973-645-3213
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001229 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

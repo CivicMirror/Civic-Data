@@ -1,0 +1,54 @@
+id: ocd-person/35634774-f421-58f2-a628-22e64d0b96fe
+name: Emanuel Cleaver
+identifiers:
+- scheme: bioguide
+  identifier: C001061
+- scheme: govtrack
+  identifier: '400639'
+- scheme: wikidata
+  identifier: Q1334654
+- scheme: wikipedia
+  identifier: Emanuel Cleaver
+- scheme: ballotpedia
+  identifier: Emanuel Cleaver
+- scheme: opensecrets
+  identifier: N00026790
+- scheme: votesmart
+  identifier: '39507'
+- scheme: icpsr
+  identifier: '20517'
+- scheme: thomas
+  identifier: 01790
+- scheme: cspan
+  identifier: '10933'
+- scheme: maplight
+  identifier: '645'
+- scheme: fec-candidate-id
+  identifier: H4MO05234
+candidacies: []
+contact:
+  phone: 202-225-4535
+  profile_url: https://cleaver.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2217 Rayburn House Office Building Washington DC 20515-2505
+  phone: 202-225-4535
+- classification: district
+  name: Independence Office
+  address: 411 W Maple Ave, F;Independence, MO 64050-2840
+  phone: 816-833-4545
+  fax: 771-200-5575
+- classification: district
+  name: Kansas City Office
+  address: 4001 Dr Martin Luther King Jr Blvd, Suite 210;Kansas City, MO 64130
+  phone: 816-842-4545
+  fax: 771-200-5575
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001061 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

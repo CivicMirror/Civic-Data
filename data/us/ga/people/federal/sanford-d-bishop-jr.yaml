@@ -1,0 +1,59 @@
+id: ocd-person/b3d7d2ba-388b-5e25-9822-637d5d3f1307
+name: Sanford D. Bishop, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: B000490
+- scheme: govtrack
+  identifier: '400030'
+- scheme: wikidata
+  identifier: Q983428
+- scheme: wikipedia
+  identifier: Sanford Bishop
+- scheme: ballotpedia
+  identifier: Sanford Bishop Jr.
+- scheme: opensecrets
+  identifier: N00002674
+- scheme: votesmart
+  identifier: '26817'
+- scheme: icpsr
+  identifier: '29339'
+- scheme: thomas
+  identifier: 00091
+- scheme: cspan
+  identifier: '26194'
+- scheme: maplight
+  identifier: '148'
+- scheme: fec-candidate-id
+  identifier: H2GA02031
+candidacies: []
+contact:
+  phone: 202-225-3631
+  profile_url: https://bishop.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2407 Rayburn House Office Building Washington DC 20515-1002
+  phone: 202-225-3631
+- classification: district
+  name: Albany Office
+  address: 323 Pine Ave, 400;Albany, GA 31701-2596
+  phone: 229-439-8067
+  fax: 229-436-2099
+- classification: district
+  name: Columbus Office
+  address: 18 Ninth St., Suite 201;Columbus, GA 31901
+  phone: 706-320-9477
+  fax: 706-320-9479
+- classification: district
+  name: Macon Office
+  address: 300 Mulberry Street, Suite 502;Macon, GA 31201
+  phone: 478-803-2631
+  fax: 478-803-2637
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B000490 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

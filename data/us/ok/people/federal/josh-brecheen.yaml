@@ -1,0 +1,40 @@
+id: ocd-person/f761bdd3-06cd-59db-be71-a0a85d9dc433
+name: Josh Brecheen
+identifiers:
+- scheme: bioguide
+  identifier: B001317
+- scheme: govtrack
+  identifier: '456931'
+- scheme: wikidata
+  identifier: Q6288704
+- scheme: wikipedia
+  identifier: Josh Brecheen
+- scheme: ballotpedia
+  identifier: Josh Brecheen
+- scheme: opensecrets
+  identifier: N00051106
+- scheme: votesmart
+  identifier: '124973'
+- scheme: fec-candidate-id
+  identifier: H2OK02315
+candidacies: []
+contact:
+  phone: 202-225-2701
+  profile_url: https://brecheen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 351 Cannon House Office Building Washington DC 20515-3602
+  phone: 202-225-2701
+- classification: district
+  name: Claremore Office
+  address: 223 W Patti Page Blvd.;Claremore, OK 74017
+  phone: 918-283-6262
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001317 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

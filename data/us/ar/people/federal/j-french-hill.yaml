@@ -1,0 +1,54 @@
+id: ocd-person/069e7a1a-d36c-50de-8bd1-0748dce4c38e
+name: J. French Hill
+identifiers:
+- scheme: bioguide
+  identifier: H001072
+- scheme: govtrack
+  identifier: '412609'
+- scheme: wikidata
+  identifier: Q18631366
+- scheme: wikipedia
+  identifier: French Hill (politician)
+- scheme: ballotpedia
+  identifier: French Hill
+- scheme: opensecrets
+  identifier: N00035792
+- scheme: votesmart
+  identifier: '146290'
+- scheme: icpsr
+  identifier: '21503'
+- scheme: thomas
+  identifier: '02223'
+- scheme: cspan
+  identifier: '9265172'
+- scheme: maplight
+  identifier: '2065'
+- scheme: fec-candidate-id
+  identifier: H4AR02141
+candidacies: []
+contact:
+  phone: 202-225-2506
+  profile_url: https://hill.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1533 Longworth House Office Building Washington DC 20515-0402
+  phone: 202-225-2506
+- classification: district
+  name: Little Rock Office
+  address: 1501 N. University Ave., Suite 630;Little Rock, AR 72207
+  phone: 501-324-5941
+  fax: 501-324-6029
+- classification: district
+  name: Conway Office
+  address: 900 Oak Street;Conway, AR 72032
+  phone: 501-902-5733
+  fax: 501-324-6029
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001072 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,62 @@
+id: ocd-person/1550de71-eb9a-5d51-8cf5-03908320d217
+name: Bryan Steil
+identifiers:
+- scheme: bioguide
+  identifier: S001213
+- scheme: govtrack
+  identifier: '412836'
+- scheme: wikidata
+  identifier: Q58494431
+- scheme: wikipedia
+  identifier: Bryan Steil
+- scheme: ballotpedia
+  identifier: Bryan Steil
+- scheme: opensecrets
+  identifier: N00043379
+- scheme: votesmart
+  identifier: '181289'
+- scheme: icpsr
+  identifier: '21970'
+- scheme: fec-candidate-id
+  identifier: H8WI01156
+candidacies: []
+contact:
+  phone: 202-225-3031
+  profile_url: https://steil.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1526 Longworth House Office Building Washington DC 20515-4901
+  phone: 202-225-3031
+- classification: district
+  name: Janesville Office
+  address: 20 S Main St, Suite 10;Janesville, WI 53545-3959
+  phone: 608-752-4050
+- classification: district
+  name: Racine Office
+  address: Racine County Courthouse, 730 Wisconsin Ave, Suite 101;Racine, WI 53403-1238
+  phone: 262-637-0510
+- classification: district
+  name: Bristol Office
+  address: 19600 75th Street, Room 177;Bristol, WI 53104
+  phone: 262-654-1901
+- classification: district
+  name: Elkhorn Office
+  address: Matheson Memorial Library, Mary Bray Room, 101 N. Wisconsin Street;Elkhorn, WI 53121
+  phone: 262-654-1901
+- classification: district
+  name: St Francis Office
+  address: St Francis Civic Center, 3400 E Howard Avenue;St Francis, WI 53235
+  phone: 414-285-2120
+- classification: district
+  name: Beloit Office
+  address: Beloit City Hall Conference Room, 100 State St;Beloit, WI 53511
+  phone: 608-752-4050
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001213 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

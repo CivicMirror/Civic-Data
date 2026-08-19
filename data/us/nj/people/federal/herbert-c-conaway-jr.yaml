@@ -1,0 +1,40 @@
+id: ocd-person/a431a17b-62d6-50a0-9fa2-d587cf6ebcfc
+name: Herbert C. Conaway, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: C001136
+- scheme: govtrack
+  identifier: '457008'
+- scheme: wikidata
+  identifier: Q14596151
+- scheme: wikipedia
+  identifier: Herb Conaway
+- scheme: ballotpedia
+  identifier: Herbert Conaway Jr.
+- scheme: opensecrets
+  identifier: N00026951
+- scheme: votesmart
+  identifier: '24716'
+- scheme: fec-candidate-id
+  identifier: H4NJ03080
+candidacies: []
+contact:
+  phone: 202-225-4765
+  profile_url: https://conaway.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1022 Longworth House Office Building Washington DC 20515-3003
+  phone: 202-225-4765
+- classification: district
+  name: Trenton Office
+  address: 4573 S Broad Street;Trenton, NJ 08620
+  phone: 609-438-6290
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001136 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

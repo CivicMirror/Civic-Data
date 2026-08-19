@@ -1,0 +1,41 @@
+id: ocd-person/27a35cb6-cd72-5582-aead-ac76b55f39cf
+name: April McClain Delaney
+identifiers:
+- scheme: bioguide
+  identifier: M001232
+- scheme: govtrack
+  identifier: '456993'
+- scheme: wikidata
+  identifier: Q125935301
+- scheme: wikipedia
+  identifier: April McClain Delaney
+- scheme: ballotpedia
+  identifier: April McClain-Delaney
+- scheme: opensecrets
+  identifier: N00053899
+- scheme: votesmart
+  identifier: '214608'
+- scheme: fec-candidate-id
+  identifier: H4MD06340
+candidacies: []
+contact:
+  phone: 202-225-2721
+  profile_url: https://mcclaindelaney.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1130 Longworth House Office Building Washington DC 20515-2006
+  phone: 202-225-2721
+- classification: district
+  name: Frederick Office
+  address: 30 W. Patrick St., Suite 505;Frederick, MD 21701
+  phone: 301-926-0300
+  fax: 771-200-5671
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001232 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

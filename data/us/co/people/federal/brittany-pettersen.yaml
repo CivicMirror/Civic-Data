@@ -1,0 +1,44 @@
+id: ocd-person/86e2ff49-000f-5d0c-8444-81ecd8f60a50
+name: Brittany Pettersen
+identifiers:
+- scheme: bioguide
+  identifier: P000620
+- scheme: govtrack
+  identifier: '456886'
+- scheme: wikidata
+  identifier: Q16734469
+- scheme: wikipedia
+  identifier: Brittany Pettersen
+- scheme: ballotpedia
+  identifier: Brittany Pettersen
+- scheme: opensecrets
+  identifier: N00040878
+- scheme: votesmart
+  identifier: '138744'
+- scheme: fec-candidate-id
+  identifier: H8CO07045
+candidacies: []
+contact:
+  phone: 202-225-2645
+  profile_url: https://pettersen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 348 Cannon House Office Building Washington DC 20515-0607
+  phone: 202-225-2645
+- classification: district
+  name: Lakewood Office
+  address: 550 S. Wadsworth Blvd., Suite 400;Lakewood, CO 80226
+  phone: 303-274-7944
+- classification: district
+  name: Cañon City Office
+  address: 611 Greenwood Ave., Suite C;Cañon City, CO 81212
+  phone: 719-458-6161
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000620 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

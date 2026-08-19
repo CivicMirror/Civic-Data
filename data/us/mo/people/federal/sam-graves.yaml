@@ -1,0 +1,62 @@
+id: ocd-person/bcec9496-afd3-5d94-8d4a-9474e28f44b9
+name: Sam Graves
+identifiers:
+- scheme: bioguide
+  identifier: G000546
+- scheme: govtrack
+  identifier: '400158'
+- scheme: wikidata
+  identifier: Q465638
+- scheme: wikipedia
+  identifier: Sam Graves
+- scheme: ballotpedia
+  identifier: Sam Graves
+- scheme: opensecrets
+  identifier: N00013323
+- scheme: votesmart
+  identifier: '9425'
+- scheme: icpsr
+  identifier: '20124'
+- scheme: thomas
+  identifier: '01656'
+- scheme: cspan
+  identifier: '89873'
+- scheme: maplight
+  identifier: '265'
+- scheme: fec-candidate-id
+  identifier: H0MO06073
+candidacies: []
+contact:
+  phone: 202-225-7041
+  profile_url: https://graves.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1135 Longworth House Office Building Washington DC 20515-2506
+  phone: 202-225-7041
+- classification: district
+  name: St. Joseph Office
+  address: 411 Jules St., Room 111;St. Joseph, MO 64501
+  phone: 816-749-0800
+  fax: 816-749-0801
+- classification: district
+  name: Troy Office
+  address: 201 Main St, Rm 50;Troy, MO 63379
+  phone: 636-622-7106
+- classification: district
+  name: Hannibal Office
+  address: 6079 Co Rd 425;Hannibal, MO 63401
+  phone: 573-221-3400
+- classification: district
+  name: Kansas City Office
+  address: 12200 North Ambassador Dr, Suite 234;Kansas City, MO 64163
+  phone: 816-792-3976
+  fax: 816-792-0694
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000546 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

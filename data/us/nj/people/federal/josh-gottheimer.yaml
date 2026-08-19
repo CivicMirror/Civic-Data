@@ -1,0 +1,70 @@
+id: ocd-person/d1475110-0719-52a6-9929-26240e248037
+name: Josh Gottheimer
+identifiers:
+- scheme: bioguide
+  identifier: G000583
+- scheme: govtrack
+  identifier: '412714'
+- scheme: wikidata
+  identifier: Q6288908
+- scheme: wikipedia
+  identifier: Josh Gottheimer
+- scheme: ballotpedia
+  identifier: Josh Gottheimer
+- scheme: opensecrets
+  identifier: N00036944
+- scheme: votesmart
+  identifier: '169202'
+- scheme: icpsr
+  identifier: '21723'
+- scheme: cspan
+  identifier: '9275683'
+- scheme: maplight
+  identifier: '2226'
+- scheme: fec-candidate-id
+  identifier: H6NJ05171
+candidacies: []
+contact:
+  phone: 202-225-4465
+  profile_url: https://gottheimer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 106 Cannon House Office Building Washington DC 20515-3005
+  phone: 202-225-4465
+- classification: district
+  name: Newton Office
+  address: 93 Spring St., Suite 408;Newton, NJ 07860
+  phone: 973-940-1117
+- classification: district
+  name: Ringwood Office
+  address: 60 Margaret King Ave.;Ringwood, NJ 07456
+  phone: 973-814-4076
+- classification: district
+  name: Hackensack Office
+  address: 65 Central Ave;Hackensack, NJ 07601
+  phone: 973-814-4076
+- classification: district
+  name: Vernon Township Office
+  address: 21 Church St.;Vernon Township, NJ 07462
+  phone: 973-814-4076
+- classification: district
+  name: Fort Lee Office
+  address: 309 Main St, 2nd Floor;Fort Lee, NJ 07024
+  phone: 973-814-4076
+- classification: district
+  name: Fair Lawn Office
+  address: 21-00 NJ 208 S, Suite 240;Fair Lawn, NJ 07410
+  phone: 201-389-1100
+- classification: district
+  name: Englewood Office
+  address: 2-10 North Van Brunt St.;Englewood, NJ 07631
+  phone: 973-814-4076
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000583 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

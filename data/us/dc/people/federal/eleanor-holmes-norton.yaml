@@ -1,0 +1,47 @@
+id: ocd-person/f85b54f2-30e9-526e-9573-868a35d1a609
+name: Eleanor Holmes Norton
+identifiers:
+- scheme: bioguide
+  identifier: N000147
+- scheme: govtrack
+  identifier: '400295'
+- scheme: wikidata
+  identifier: Q461649
+- scheme: wikipedia
+  identifier: Eleanor Holmes Norton
+- scheme: ballotpedia
+  identifier: Eleanor Holmes Norton
+- scheme: opensecrets
+  identifier: N00001692
+- scheme: votesmart
+  identifier: '775'
+- scheme: thomas
+  identifier: 00868
+- scheme: cspan
+  identifier: '882'
+- scheme: maplight
+  identifier: '390'
+- scheme: fec-candidate-id
+  identifier: H0DC00058
+candidacies: []
+contact:
+  phone: 202-225-8050
+  profile_url: https://norton.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2136 Rayburn House Office Building Washington DC 20515-5101
+  phone: 202-225-8050
+- classification: district
+  name: Washington Office
+  address: 1300 Pennsylvania Ave NW, M-1000;Washington, DC 20004
+  phone: 202-408-9041
+  fax: 202-408-9048
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000147 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

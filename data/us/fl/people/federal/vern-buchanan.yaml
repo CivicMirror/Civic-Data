@@ -1,0 +1,58 @@
+id: ocd-person/fc27d6e8-7118-5b43-9661-7e57910a4f0c
+name: Vern Buchanan
+identifiers:
+- scheme: bioguide
+  identifier: B001260
+- scheme: govtrack
+  identifier: '412196'
+- scheme: wikidata
+  identifier: Q2517229
+- scheme: wikipedia
+  identifier: Vern Buchanan
+- scheme: ballotpedia
+  identifier: Vern Buchanan
+- scheme: opensecrets
+  identifier: N00027626
+- scheme: votesmart
+  identifier: '66247'
+- scheme: icpsr
+  identifier: '20709'
+- scheme: thomas
+  identifier: 01840
+- scheme: cspan
+  identifier: '1021626'
+- scheme: maplight
+  identifier: '683'
+- scheme: fec-candidate-id
+  identifier: H6FL13148
+candidacies: []
+contact:
+  phone: 202-225-5015
+  profile_url: https://buchanan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2409 Rayburn House Office Building Washington DC 20515-0916
+  phone: 202-225-5015
+- classification: district
+  name: Brandon Office
+  address: 510 Vonderburg Drive, Suite 303;Brandon, FL 33511
+  phone: 813-657-1013
+  fax: 771-200-5798
+- classification: district
+  name: Bradenton Office
+  address: 8433 Enterprise Circle, Suite 210;Bradenton, FL 34202
+  phone: 941-951-6643
+  fax: 771-200-5798
+- classification: district
+  name: Longboat Key Office
+  address: 5370 Gulf of Mexico Drive, Suite 210;Longboat Key, FL 34228
+  phone: 941-951-6643
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001260 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

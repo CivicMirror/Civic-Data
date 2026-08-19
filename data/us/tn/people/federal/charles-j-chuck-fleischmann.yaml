@@ -1,0 +1,59 @@
+id: ocd-person/62f794d8-6be5-55ff-8c8e-75c502954769
+name: Charles J. "Chuck" Fleischmann
+identifiers:
+- scheme: bioguide
+  identifier: F000459
+- scheme: govtrack
+  identifier: '412476'
+- scheme: wikidata
+  identifier: Q521959
+- scheme: wikipedia
+  identifier: Chuck Fleischmann
+- scheme: ballotpedia
+  identifier: Charles Fleischmann
+- scheme: opensecrets
+  identifier: N00030815
+- scheme: votesmart
+  identifier: '123456'
+- scheme: icpsr
+  identifier: '21178'
+- scheme: thomas
+  identifier: '02061'
+- scheme: cspan
+  identifier: '95146'
+- scheme: maplight
+  identifier: '1481'
+- scheme: fec-candidate-id
+  identifier: H0TN03254
+candidacies: []
+contact:
+  phone: 202-225-3271
+  profile_url: https://fleischmann.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2187 Rayburn House Office Building Washington DC 20515-4203
+  phone: 202-225-3271
+- classification: district
+  name: Athens Office
+  address: 6 E. Madison Ave.;Athens, TN 37303
+  phone: 423-745-4671
+  fax: 423-745-6025
+- classification: district
+  name: Chattanooga Office
+  address: 900 Georgia Ave., Suite 126;Chattanooga, TN 37402
+  phone: 423-756-2342
+  fax: 423-756-6613
+- classification: district
+  name: Oak Ridge Office
+  address: 200 Administration Rd., Suite 100;Oak Ridge, TN 37830
+  phone: 865-576-1976
+  fax: 865-576-3221
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000459 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

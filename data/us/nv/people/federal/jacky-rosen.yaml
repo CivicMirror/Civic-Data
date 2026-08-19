@@ -1,0 +1,52 @@
+id: ocd-person/436d3211-220a-57be-9841-d11d21e6ca1a
+name: Jacky Rosen
+identifiers:
+- scheme: bioguide
+  identifier: R000608
+- scheme: govtrack
+  identifier: '412715'
+- scheme: wikidata
+  identifier: Q27825033
+- scheme: wikipedia
+  identifier: Jacky Rosen
+- scheme: ballotpedia
+  identifier: Jacky Rosen
+- scheme: opensecrets
+  identifier: N00038734
+- scheme: votesmart
+  identifier: '169471'
+- scheme: icpsr
+  identifier: '21743'
+- scheme: lis
+  identifier: S402
+- scheme: cspan
+  identifier: '104738'
+- scheme: maplight
+  identifier: '2227'
+- scheme: fec-candidate-id
+  identifier: S8NV00156
+candidacies: []
+contact:
+  phone: 202-224-6244
+  profile_url: https://www.rosen.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 713 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-6244
+- classification: district
+  name: Reno Office
+  address: Bruce Thompson Federal Building, 400 S Virginia St, Suite 738;Reno, NV 89501-2132
+  phone: 775-337-0110
+- classification: district
+  name: Las Vegas Office
+  address: Lloyd D. George U.S. Courthouse, 333 Las Vegas Boulevard South, Suite 8203;Las Vegas, NV 89101
+  phone: 702-388-0205
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000608 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

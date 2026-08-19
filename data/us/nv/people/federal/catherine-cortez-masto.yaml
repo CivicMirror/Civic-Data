@@ -1,0 +1,54 @@
+id: ocd-person/e0bd8d30-810d-5d51-b42b-4f581529ea60
+name: Catherine Cortez Masto
+identifiers:
+- scheme: bioguide
+  identifier: C001113
+- scheme: govtrack
+  identifier: '412681'
+- scheme: wikidata
+  identifier: Q5052604
+- scheme: wikipedia
+  identifier: Catherine Cortez Masto
+- scheme: ballotpedia
+  identifier: Catherine Cortez Masto
+- scheme: opensecrets
+  identifier: N00037161
+- scheme: votesmart
+  identifier: '69579'
+- scheme: icpsr
+  identifier: '41700'
+- scheme: lis
+  identifier: S385
+- scheme: cspan
+  identifier: '105698'
+- scheme: maplight
+  identifier: '2193'
+- scheme: fec-candidate-id
+  identifier: S6NV00200
+candidacies: []
+contact:
+  phone: 202-224-3542
+  profile_url: https://www.cortezmasto.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 309 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3542
+- classification: district
+  name: Las Vegas Office
+  address: 333 Las Vegas Boulevard South, Suite 8016;Las Vegas, NV 89101
+  phone: 702-388-5020
+  fax: 702-388-5030
+- classification: district
+  name: Reno Office
+  address: Courthouse and Federal Building, 400 South Virginia Street, Suite 902;Reno, NV 89501
+  phone: 775-686-5750
+  fax: 775-686-5757
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001113 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

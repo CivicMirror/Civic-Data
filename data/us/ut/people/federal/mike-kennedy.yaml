@@ -1,0 +1,38 @@
+id: ocd-person/6ae3876a-e0d3-566a-81b1-e41deb96593a
+name: Mike Kennedy
+identifiers:
+- scheme: bioguide
+  identifier: K000403
+- scheme: govtrack
+  identifier: '457025'
+- scheme: wikidata
+  identifier: Q16730723
+- scheme: wikipedia
+  identifier: Mike Kennedy
+- scheme: opensecrets
+  identifier: N00043086
+- scheme: votesmart
+  identifier: '137469'
+- scheme: fec-candidate-id
+  identifier: H4UT03260
+candidacies: []
+contact:
+  phone: 202-225-7751
+  profile_url: https://mikekennedy.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1626 Longworth House Office Building Washington DC 20515-4403
+  phone: 202-225-7751
+- classification: district
+  name: Provo Office
+  address: 3549 N University Ave, Suite 275;Provo, UT 84604
+  phone: 801-607-3238
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000403 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

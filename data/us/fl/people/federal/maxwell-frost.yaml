@@ -1,0 +1,40 @@
+id: ocd-person/e857ffde-2b6e-5001-96f0-8bc78c7aa1d1
+name: Maxwell Frost
+identifiers:
+- scheme: bioguide
+  identifier: F000476
+- scheme: govtrack
+  identifier: '456890'
+- scheme: wikidata
+  identifier: Q113587724
+- scheme: wikipedia
+  identifier: Maxwell Frost
+- scheme: ballotpedia
+  identifier: Maxwell Alejandro Frost
+- scheme: opensecrets
+  identifier: N00049075
+- scheme: votesmart
+  identifier: '209096'
+- scheme: fec-candidate-id
+  identifier: H2FL10259
+candidacies: []
+contact:
+  phone: 202-225-2176
+  profile_url: https://frost.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1224 Longworth House Office Building Washington DC 20515-0910
+  phone: 202-225-2176
+- classification: district
+  name: Orlando Office
+  address: 617 N. Magnolia Ave.;Orlando, FL 32801
+  phone: 321-388-9808
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000476 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

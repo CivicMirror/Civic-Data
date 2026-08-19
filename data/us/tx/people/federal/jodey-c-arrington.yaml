@@ -1,0 +1,52 @@
+id: ocd-person/a7d5ea81-54f6-5fef-b1d1-cf288cf07fde
+name: Jodey C. Arrington
+identifiers:
+- scheme: bioguide
+  identifier: A000375
+- scheme: govtrack
+  identifier: '412726'
+- scheme: wikidata
+  identifier: Q6207815
+- scheme: wikipedia
+  identifier: Jodey Arrington
+- scheme: ballotpedia
+  identifier: Jodey Arrington
+- scheme: opensecrets
+  identifier: N00038285
+- scheme: votesmart
+  identifier: '155685'
+- scheme: icpsr
+  identifier: '21700'
+- scheme: cspan
+  identifier: '1016482'
+- scheme: maplight
+  identifier: '2238'
+- scheme: fec-candidate-id
+  identifier: H6TX19099
+candidacies: []
+contact:
+  phone: 202-225-4005
+  profile_url: https://arrington.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1111 Longworth House Office Building Washington DC 20515-4319
+  phone: 202-225-4005
+- classification: district
+  name: Abilene Office
+  address: 500 Chestnut St., Suite 819;Abilene, TX 79602
+  phone: 325-675-9779
+  fax: 325-675-5038
+- classification: district
+  name: Lubbock Office
+  address: 1312 Texas Ave., Suite 219;Lubbock, TX 79401
+  phone: 806-763-1611
+  fax: 806-767-9168
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000375 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

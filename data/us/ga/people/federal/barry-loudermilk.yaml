@@ -1,0 +1,53 @@
+id: ocd-person/84d0bd94-fc31-5c61-9f64-9b1f8d45e8b5
+name: Barry Loudermilk
+identifiers:
+- scheme: bioguide
+  identifier: L000583
+- scheme: govtrack
+  identifier: '412624'
+- scheme: wikidata
+  identifier: Q16731643
+- scheme: wikipedia
+  identifier: Barry Loudermilk
+- scheme: ballotpedia
+  identifier: Barry Loudermilk
+- scheme: opensecrets
+  identifier: N00035347
+- scheme: votesmart
+  identifier: '31618'
+- scheme: icpsr
+  identifier: '21515'
+- scheme: thomas
+  identifier: 02238
+- scheme: cspan
+  identifier: '76165'
+- scheme: maplight
+  identifier: '2080'
+- scheme: fec-candidate-id
+  identifier: H4GA11061
+candidacies: []
+contact:
+  phone: 202-225-2931
+  profile_url: https://loudermilk.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2133 Rayburn House Office Building Washington DC 20515-1011
+  phone: 202-225-2931
+- classification: district
+  name: Cartersville Office
+  address: 135 W. Cherokee Ave., Suite 122;Cartersville, GA 30120
+  phone: 770-429-1776
+- classification: district
+  name: Woodstock Office
+  address: 9898 Highway 92, Suite 100;Woodstock, GA 30188
+  phone: 770-429-1776
+  fax: 770-517-7427
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000583 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,56 @@
+id: ocd-person/af0eea31-6c37-5f0f-a798-df2993f2948a
+name: Troy A. Carter
+identifiers:
+- scheme: bioguide
+  identifier: C001125
+- scheme: govtrack
+  identifier: '456860'
+- scheme: wikidata
+  identifier: Q7846787
+- scheme: wikipedia
+  identifier: Troy Carter (politician)
+- scheme: ballotpedia
+  identifier: Troy Carter
+- scheme: opensecrets
+  identifier: N00025766
+- scheme: votesmart
+  identifier: '35462'
+- scheme: fec-candidate-id
+  identifier: H2LA02149
+candidacies: []
+contact:
+  phone: 202-225-6636
+  profile_url: https://troycarter.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 442 Cannon House Office Building Washington DC 20515-1802
+  phone: 202-225-6636
+- classification: district
+  name: Gretna Office
+  address: Gretna Courthouse, 200 Derbigny St, Suite 3200;Gretna, LA 70053
+- classification: district
+  name: New Orleans Office
+  address: 3401 General DeGaulle Dr, Suite 100;New Orleans, LA 70114
+  phone: 504-381-3970
+- classification: district
+  name: New Orleans Office
+  address: 650 Poydras St, Suite 2525;New Orleans, LA 70130
+  phone: 504-288-3777
+- classification: district
+  name: Baton Rouge Office
+  address: T.H. Harris Hall, 801 Harding Blvd;Baton Rouge, LA 70807
+- classification: district
+  name: Gonzales Office
+  address: Ascension Parish Government Bldg, 615 E. Worthy St, Rm 107;Gonzales, LA 70737
+- classification: district
+  name: Gonzales Office
+  address: River Parishes Community College Gonzales Technical Training Center, 925 W. Edenborne Pkwy, Room T117;Gonzales, LA 70737
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001125 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

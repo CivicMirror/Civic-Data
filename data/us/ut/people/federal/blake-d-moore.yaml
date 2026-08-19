@@ -1,0 +1,37 @@
+id: ocd-person/4265b5dc-1084-54d4-9089-97f4e59d0bd1
+name: Blake D. Moore
+identifiers:
+- scheme: bioguide
+  identifier: M001213
+- scheme: govtrack
+  identifier: '456851'
+- scheme: wikidata
+  identifier: Q101196971
+- scheme: wikipedia
+  identifier: Blake Moore
+- scheme: opensecrets
+  identifier: N00046598
+- scheme: fec-candidate-id
+  identifier: H0UT01205
+candidacies: []
+contact:
+  phone: 202-225-0453
+  profile_url: https://blakemoore.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1131 Longworth House Office Building Washington DC 20515-4401
+  phone: 202-225-0453
+- classification: district
+  name: Ogden Office
+  address: Ogden, 324 25th Street;Ogden, UT 84401
+  phone: 801-625-0107
+  fax: 385-405-2155
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001213 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

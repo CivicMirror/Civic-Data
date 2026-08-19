@@ -1,0 +1,42 @@
+id: ocd-person/bd89ad59-3f42-583b-9747-96808da60253
+name: Haley M. Stevens
+identifiers:
+- scheme: bioguide
+  identifier: S001215
+- scheme: govtrack
+  identifier: '412786'
+- scheme: wikidata
+  identifier: Q58322563
+- scheme: wikipedia
+  identifier: Haley Stevens
+- scheme: ballotpedia
+  identifier: Haley Stevens
+- scheme: opensecrets
+  identifier: N00040915
+- scheme: votesmart
+  identifier: '181092'
+- scheme: icpsr
+  identifier: '21972'
+- scheme: fec-candidate-id
+  identifier: S6MI00426
+candidacies: []
+contact:
+  phone: 202-225-8171
+  profile_url: https://stevens.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2411 Rayburn House Office Building Washington DC 20515-2211
+  phone: 202-225-8171
+- classification: district
+  name: Farmington Hills Office
+  address: 30500 Northwestern Highway, Suite 525;Farmington Hills, MI 48334
+  phone: 734-853-3040
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001215 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

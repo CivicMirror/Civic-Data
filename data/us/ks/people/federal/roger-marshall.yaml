@@ -1,0 +1,72 @@
+id: ocd-person/e2fe65d8-183f-50a3-abdd-adf9b77c6a1f
+name: Roger Marshall
+identifiers:
+- scheme: bioguide
+  identifier: M001198
+- scheme: govtrack
+  identifier: '412704'
+- scheme: wikidata
+  identifier: Q27923290
+- scheme: wikipedia
+  identifier: Roger Marshall
+- scheme: ballotpedia
+  identifier: Roger Marshall
+- scheme: opensecrets
+  identifier: N00037034
+- scheme: votesmart
+  identifier: '172080'
+- scheme: icpsr
+  identifier: '21734'
+- scheme: lis
+  identifier: S411
+- scheme: cspan
+  identifier: '103425'
+- scheme: maplight
+  identifier: '2216'
+- scheme: fec-candidate-id
+  identifier: S0KS00315
+candidacies: []
+contact:
+  phone: 202-224-4774
+  profile_url: https://www.marshall.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 479A Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4774
+- classification: district
+  name: Kansas City Office
+  address: 400 State Ave, Suite 1006;Kansas City, KS 66101
+  phone: 913-549-1570
+- classification: district
+  name: Overland Park Office
+  address: 7011 W. 121st Street, Suite 100;Overland Park, KS 66209
+  phone: 913-879-7070
+- classification: district
+  name: Topeka Office
+  address: 800 SW Jackson Street, Suite 600;Topeka, KS 66612
+  phone: 785-414-7501
+- classification: district
+  name: Pittsburg Office
+  address: 402B North Broadway;Pittsburg, KS 66762
+  phone: 620-404-7016
+- classification: district
+  name: Wichita Office
+  address: 100 S. Market, Suite 102;Wichita, KS 67202
+  phone: 316-803-6120
+- classification: district
+  name: Salina Office
+  address: 204 S. Santa Fe Avenue, Suite 1;Salina, KS 67401
+  phone: 785-829-9000
+- classification: district
+  name: Garden City Office
+  address: 921 Larue Street, Suite C;Garden City, KS 67846
+  phone: 620-765-7800
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001198 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

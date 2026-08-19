@@ -1,0 +1,51 @@
+id: ocd-person/21b96f15-915c-5106-8ba6-8edce3d242b7
+name: Chris Pappas
+identifiers:
+- scheme: bioguide
+  identifier: P000614
+- scheme: govtrack
+  identifier: '412795'
+- scheme: wikidata
+  identifier: Q5107684
+- scheme: wikipedia
+  identifier: Chris Pappas (American politician)
+- scheme: ballotpedia
+  identifier: Chris Pappas
+- scheme: opensecrets
+  identifier: N00042161
+- scheme: votesmart
+  identifier: '42635'
+- scheme: icpsr
+  identifier: '21951'
+- scheme: fec-candidate-id
+  identifier: S6NH00141
+candidacies: []
+contact:
+  phone: 202-225-5456
+  profile_url: https://pappas.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 452 Cannon House Office Building Washington DC 20515-2901
+  phone: 202-225-5456
+- classification: district
+  name: Dover Office
+  address: 660 Central Ave, Suite 101;Dover, NH 03820-3491
+  phone: 603-285-4300
+  fax: 603-343-1326
+- classification: district
+  name: Manchester Office
+  address: 889 Elm Street;Manchester, NH 03101
+  phone: 603-935-6710
+- classification: district
+  name: North Conway Office
+  address: Building 1, 2541 White Mountain Highway, Unit 4;North Conway, NH 03860
+  phone: 603-733-5100
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000614 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

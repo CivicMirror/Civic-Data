@@ -1,0 +1,40 @@
+id: ocd-person/eb5a7f65-d036-563f-b445-1d3abe55b22a
+name: Lateefah Simon
+identifiers:
+- scheme: bioguide
+  identifier: S001231
+- scheme: govtrack
+  identifier: '456974'
+- scheme: wikidata
+  identifier: Q6495426
+- scheme: wikipedia
+  identifier: Lateefah Simon
+- scheme: ballotpedia
+  identifier: Lateefah Simon
+- scheme: opensecrets
+  identifier: N00052195
+- scheme: votesmart
+  identifier: '213551'
+- scheme: fec-candidate-id
+  identifier: H4CA12154
+candidacies: []
+contact:
+  phone: 202-225-2661
+  profile_url: https://simon.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1023 Longworth House Office Building Washington DC 20515-0512
+  phone: 202-225-2661
+- classification: district
+  name: Oakland Office
+  address: ;Oakland, CA 94612
+  phone: 510-763-0370
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001231 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

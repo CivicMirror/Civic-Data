@@ -1,0 +1,42 @@
+id: ocd-person/946728a1-3022-5e96-b4b7-13e0d654d6d2
+name: Greg Casar
+identifiers:
+- scheme: bioguide
+  identifier: C001131
+- scheme: govtrack
+  identifier: '456945'
+- scheme: wikidata
+  identifier: Q104148369
+- scheme: wikipedia
+  identifier: Greg Casar
+- scheme: opensecrets
+  identifier: N00049855
+- scheme: votesmart
+  identifier: '161953'
+- scheme: fec-candidate-id
+  identifier: H2TX35144
+candidacies: []
+contact:
+  phone: 202-225-5645
+  profile_url: https://casar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 446 Cannon House Office Building Washington DC 20515-4335
+  phone: 202-225-5645
+- classification: district
+  name: San Antonio Office
+  address: ;San Antonio, TX 78205
+  phone: 210-580-7000
+- classification: district
+  name: Austin Office
+  address: Austin;Austin, TX 78702
+  phone: 512-691-1200
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001131 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

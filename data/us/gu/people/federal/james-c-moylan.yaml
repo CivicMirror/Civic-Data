@@ -1,0 +1,38 @@
+id: ocd-person/1a338d25-b238-5de2-8152-5e96b9eb56e7
+name: James C. Moylan
+identifiers:
+- scheme: bioguide
+  identifier: M001219
+- scheme: govtrack
+  identifier: '456896'
+- scheme: wikidata
+  identifier: Q114108969
+- scheme: wikipedia
+  identifier: James Moylan
+- scheme: ballotpedia
+  identifier: James Moylan
+- scheme: opensecrets
+  identifier: N00050604
+- scheme: fec-candidate-id
+  identifier: H2GU01031
+candidacies: []
+contact:
+  phone: 202-225-1188
+  profile_url: https://moylan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 228 Cannon House Office Building Washington DC 20515-5301
+  phone: 202-225-1188
+- classification: district
+  name: Hagatna Office
+  address: 330 Hernan Cortez Avenue, Suite 300;Hagatna, GU 96910
+  phone: 671-922-6673
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001219 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

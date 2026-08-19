@@ -1,0 +1,44 @@
+id: ocd-person/e903b527-2e77-56e7-a8e0-50a5d7b9af87
+name: Nicole Malliotakis
+identifiers:
+- scheme: bioguide
+  identifier: M000317
+- scheme: govtrack
+  identifier: '456837'
+- scheme: wikidata
+  identifier: Q7030112
+- scheme: wikipedia
+  identifier: Nicole Malliotakis
+- scheme: ballotpedia
+  identifier: Nicole Malliotakis
+- scheme: opensecrets
+  identifier: N00044040
+- scheme: votesmart
+  identifier: '127929'
+- scheme: fec-candidate-id
+  identifier: H0NY11078
+candidacies: []
+contact:
+  phone: 202-225-3371
+  profile_url: https://malliotakis.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1124 Longworth House Office Building Washington DC 20515-3211
+  phone: 202-225-3371
+- classification: district
+  name: Staten Island Office
+  address: 1698 Victory Blvd, Suite 2L;Staten Island, NY 10314
+  phone: 718-568-2870
+- classification: district
+  name: Brooklyn Office
+  address: 7716 Third Avenue;Brooklyn, NY 11209
+  phone: 718-306-1620
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M000317 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

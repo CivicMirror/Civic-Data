@@ -1,0 +1,51 @@
+id: ocd-person/bb6e83e1-7d38-51d8-a949-84067317d65e
+name: Bernard Sanders
+identifiers:
+- scheme: bioguide
+  identifier: S000033
+- scheme: govtrack
+  identifier: '400357'
+- scheme: wikidata
+  identifier: Q359442
+- scheme: wikipedia
+  identifier: Bernie Sanders
+- scheme: ballotpedia
+  identifier: Bernie Sanders
+- scheme: opensecrets
+  identifier: N00000528
+- scheme: votesmart
+  identifier: '27110'
+- scheme: icpsr
+  identifier: '29147'
+- scheme: lis
+  identifier: S313
+- scheme: thomas
+  identifier: '01010'
+- scheme: cspan
+  identifier: '994'
+- scheme: maplight
+  identifier: '450'
+- scheme: fec-candidate-id
+  identifier: S4VT00033
+candidacies: []
+contact:
+  phone: 202-224-5141
+  profile_url: https://www.sanders.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 332 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-5141
+- classification: district
+  name: Burlington Office
+  address: 1 Church St., 3rd Floor;Burlington, VT 05401
+  phone: 802-862-0697
+  fax: 802-860-6370
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000033 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,56 @@
+id: ocd-person/778bcdf9-f05d-5b20-8ffe-9d343b81f35c
+name: Cory A. Booker
+identifiers:
+- scheme: bioguide
+  identifier: B001288
+- scheme: govtrack
+  identifier: '412598'
+- scheme: wikidata
+  identifier: Q1135767
+- scheme: wikipedia
+  identifier: Cory Booker
+- scheme: ballotpedia
+  identifier: Cory Booker
+- scheme: opensecrets
+  identifier: N00035267
+- scheme: votesmart
+  identifier: '76151'
+- scheme: icpsr
+  identifier: '41308'
+- scheme: lis
+  identifier: S370
+- scheme: thomas
+  identifier: 02194
+- scheme: cspan
+  identifier: '84679'
+- scheme: maplight
+  identifier: '2051'
+- scheme: fec-candidate-id
+  identifier: S4NJ00185
+candidacies: []
+contact:
+  phone: 202-224-3224
+  profile_url: https://www.booker.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 306 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3224
+- classification: district
+  name: Newark Office
+  address: One Gateway Center, 23rd Floor;Newark, NJ 07102
+  phone: 973-639-8700
+  fax: 202-224-5702
+- classification: district
+  name: Camden Office
+  address: 401 Market St., Suite 240;Camden, NJ 08102
+  phone: 856-338-8922
+  fax: 202-224-5701
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001288 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

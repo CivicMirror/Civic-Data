@@ -1,0 +1,49 @@
+id: ocd-person/d381f108-fb1f-5e1f-9f45-78ddd54c776b
+name: Brad Sherman
+identifiers:
+- scheme: bioguide
+  identifier: S000344
+- scheme: govtrack
+  identifier: '400371'
+- scheme: wikidata
+  identifier: Q672919
+- scheme: wikipedia
+  identifier: Brad Sherman
+- scheme: ballotpedia
+  identifier: Brad Sherman
+- scheme: opensecrets
+  identifier: N00006897
+- scheme: votesmart
+  identifier: '142'
+- scheme: icpsr
+  identifier: '29707'
+- scheme: thomas
+  identifier: '01526'
+- scheme: cspan
+  identifier: '45124'
+- scheme: maplight
+  identifier: '462'
+- scheme: fec-candidate-id
+  identifier: H6CA24113
+candidacies: []
+contact:
+  phone: 202-225-5911
+  profile_url: https://sherman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2365 Rayburn House Office Building Washington DC 20515-0532
+  phone: 202-225-5911
+- classification: district
+  name: Sherman Oaks Office
+  address: 5000 Van Nuys Blvd., Suite 420;Sherman Oaks, CA 91403
+  phone: 818-501-9200
+  fax: 818-501-1554
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000344 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,52 @@
+id: ocd-person/c386c262-4d02-51e5-adf1-864d35e3a4cb
+name: Ryan K. Zinke
+identifiers:
+- scheme: bioguide
+  identifier: Z000018
+- scheme: govtrack
+  identifier: '412640'
+- scheme: wikidata
+  identifier: Q7384672
+- scheme: wikipedia
+  identifier: Ryan Zinke
+- scheme: ballotpedia
+  identifier: Ryan Zinke
+- scheme: opensecrets
+  identifier: N00035616
+- scheme: votesmart
+  identifier: '104073'
+- scheme: thomas
+  identifier: '02254'
+- scheme: maplight
+  identifier: '2096'
+- scheme: fec-candidate-id
+  identifier: H4MT01041
+candidacies: []
+contact:
+  phone: 202-225-5628
+  profile_url: https://zinke.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 512 Cannon House Office Building Washington DC 20515-2600
+  phone: 202-225-5628
+- classification: district
+  name: Bozeman Office
+  address: '601 Nikles Drive, #5;Bozeman, MT 59715'
+  phone: 406-602-6030
+- classification: district
+  name: Missoula Office
+  address: 2901 W. Broadway Street, Suite 200;Missoula, MT 59808
+  phone: 406-317-0276
+- classification: district
+  name: Kalispell Office
+  address: 923 South Main;Kalispell, MT 59901
+  phone: 406-317-0277
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide Z000018 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

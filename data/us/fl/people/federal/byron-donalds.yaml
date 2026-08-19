@@ -1,0 +1,44 @@
+id: ocd-person/e9e5f786-7736-5eeb-bd1a-0b14dfc2460a
+name: Byron Donalds
+identifiers:
+- scheme: bioguide
+  identifier: D000032
+- scheme: govtrack
+  identifier: '456808'
+- scheme: wikidata
+  identifier: Q59726216
+- scheme: wikipedia
+  identifier: Byron Donalds
+- scheme: ballotpedia
+  identifier: Byron Donalds
+- scheme: opensecrets
+  identifier: N00034016
+- scheme: votesmart
+  identifier: '137655'
+- scheme: fec-candidate-id
+  identifier: H2FL14186
+candidacies: []
+contact:
+  phone: 202-225-2536
+  profile_url: https://donalds.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1710 Longworth House Office Building Washington DC 20515-0919
+  phone: 202-225-2536
+- classification: district
+  name: Cape Coral Office
+  address: 1039 SE 9th Ave, Suite 308;Cape Coral, FL 33990
+  phone: 239-599-6033
+- classification: district
+  name: Naples Office
+  address: 3299 Tamiami Trail East, Suite 105;Naples, FL 34112
+  phone: 239-252-6225
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000032 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

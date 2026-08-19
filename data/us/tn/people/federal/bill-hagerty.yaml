@@ -1,0 +1,71 @@
+id: ocd-person/c8888cf8-8754-56d7-9ce6-5b58b530021a
+name: Bill Hagerty
+identifiers:
+- scheme: bioguide
+  identifier: H000601
+- scheme: govtrack
+  identifier: '456798'
+- scheme: wikidata
+  identifier: Q27734214
+- scheme: wikipedia
+  identifier: Bill Hagerty
+- scheme: ballotpedia
+  identifier: Bill Hagerty
+- scheme: opensecrets
+  identifier: N00045369
+- scheme: votesmart
+  identifier: '128466'
+- scheme: lis
+  identifier: S407
+- scheme: fec-candidate-id
+  identifier: S0TN00169
+candidacies: []
+contact:
+  phone: 202-224-4944
+  profile_url: https://www.hagerty.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 251 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4944
+- classification: district
+  name: Nashville Office
+  address: 719 Church Street, Suite 2150;Nashville, TN 37203
+  phone: 615-736-5129
+  fax: 615-269-4803
+- classification: district
+  name: Chattanooga Office
+  address: 900 Georgia Avenue, Suite 260;Chattanooga, TN 37402
+  phone: 423-752-5337
+  fax: 423-752-2504
+- classification: district
+  name: Blountville Office
+  address: Tri-Cities Regional Airport, 2525 Highway 75, Suite 101;Blountville, TN 37617
+  phone: 423-325-6240
+  fax: 423-325-6236
+- classification: district
+  name: Knoxville Office
+  address: Howard H. Baker, Jr. U.S. Courthouse, 800 Market Street, Suite 112;Knoxville, TN 37902
+  phone: 865-545-4253
+  fax: 865-545-4252
+- classification: district
+  name: Memphis Office
+  address: Clifford Davis-Odell Horton Federal Building, 167 North Main Street, Suite 1068;Memphis, TN 38103
+  phone: 901-544-4224
+- classification: district
+  name: Jackson Office
+  address: Ed Jones Federal Building, 109 S.Highland Avenue, Suite 216;Jackson, TN 38301
+  phone: 731-234-9358
+  fax: 731-664-3129
+- classification: district
+  name: Cookeville Office
+  address: L. Clure Morton Federal Building, 9 E. Broad Street, 3rd Floor;Cookeville, TN 38503
+  phone: 931-400-7080
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H000601 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

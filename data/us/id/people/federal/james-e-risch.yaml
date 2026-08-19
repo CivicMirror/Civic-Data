@@ -1,0 +1,76 @@
+id: ocd-person/43956759-86ef-5397-a709-c268856ce036
+name: James E. Risch
+identifiers:
+- scheme: bioguide
+  identifier: R000584
+- scheme: govtrack
+  identifier: '412322'
+- scheme: wikidata
+  identifier: Q721871
+- scheme: wikipedia
+  identifier: Jim Risch
+- scheme: ballotpedia
+  identifier: Jim Risch
+- scheme: opensecrets
+  identifier: N00029441
+- scheme: votesmart
+  identifier: '2919'
+- scheme: icpsr
+  identifier: '40902'
+- scheme: lis
+  identifier: S323
+- scheme: thomas
+  identifier: 01896
+- scheme: cspan
+  identifier: '1020034'
+- scheme: maplight
+  identifier: '804'
+- scheme: fec-candidate-id
+  identifier: S8ID00092
+candidacies: []
+contact:
+  phone: 202-224-2752
+  profile_url: https://www.risch.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 483 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-2752
+- classification: district
+  name: Boise Office
+  address: 350 N. 9th St., Suite 302;Boise, ID 83702
+  phone: 208-342-7985
+  fax: 208-343-2458
+- classification: district
+  name: Coeur d'Alene Office
+  address: Harbor Plaza, 610 Hubbard, Suite 213;Coeur d'Alene, ID 83814
+  phone: 208-667-6130
+  fax: 208-765-1743
+- classification: district
+  name: Idaho Falls Office
+  address: 901 Pier View Dr., Suite 202A;Idaho Falls, ID 83402
+  phone: 208-523-5541
+  fax: 208-523-9373
+- classification: district
+  name: Lewiston Office
+  address: 313 D St., Suite 106;Lewiston, ID 83501
+  phone: 208-743-0792
+  fax: 208-746-7275
+- classification: district
+  name: Twin Falls Office
+  address: 1411 Falls Avenue East, Suite 201;Twin Falls, ID 83301
+  phone: 208-734-6780
+  fax: 208-734-3905
+- classification: district
+  name: Pocatello Office
+  address: 275 South 5th Avenue, Suite 144;Pocatello, ID 83201
+  phone: 208-236-6817
+  fax: 208-236-6820
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000584 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

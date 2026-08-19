@@ -1,0 +1,46 @@
+id: ocd-person/54b2ad6d-eea2-54b4-8db1-ac5ec810b368
+name: Jamie Raskin
+identifiers:
+- scheme: bioguide
+  identifier: R000606
+- scheme: govtrack
+  identifier: '412708'
+- scheme: wikidata
+  identifier: Q640835
+- scheme: wikipedia
+  identifier: Jamie Raskin
+- scheme: ballotpedia
+  identifier: Jamie Raskin
+- scheme: opensecrets
+  identifier: N00037036
+- scheme: votesmart
+  identifier: '65904'
+- scheme: icpsr
+  identifier: '21741'
+- scheme: cspan
+  identifier: '12924'
+- scheme: maplight
+  identifier: '2220'
+- scheme: fec-candidate-id
+  identifier: H6MD08457
+candidacies: []
+contact:
+  phone: 202-225-5341
+  profile_url: https://raskin.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2242 Rayburn House Office Building Washington DC 20515-2008
+  phone: 202-225-5341
+- classification: district
+  name: Rockville Office
+  address: 51 Monroe St., Suite 503;Rockville, MD 20850
+  phone: 301-354-1000
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000606 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

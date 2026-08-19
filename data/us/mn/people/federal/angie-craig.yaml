@@ -1,0 +1,42 @@
+id: ocd-person/3001d599-bbe6-5c3d-89f7-384b2c0657cb
+name: Angie Craig
+identifiers:
+- scheme: bioguide
+  identifier: C001119
+- scheme: govtrack
+  identifier: '412789'
+- scheme: wikidata
+  identifier: Q58324174
+- scheme: wikipedia
+  identifier: Angie Craig
+- scheme: ballotpedia
+  identifier: Angie Craig
+- scheme: opensecrets
+  identifier: N00037039
+- scheme: votesmart
+  identifier: '166261'
+- scheme: icpsr
+  identifier: '21910'
+- scheme: fec-candidate-id
+  identifier: S6MN00499
+candidacies: []
+contact:
+  phone: 202-225-2271
+  profile_url: https://craig.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2052 Rayburn House Office Building Washington DC 20515-2302
+  phone: 202-225-2271
+- classification: district
+  name: Eagan Office
+  address: 1915 Plaza Dr., Suite 202;Eagan, MN 55122
+  phone: 651-846-2120
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001119 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

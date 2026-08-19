@@ -1,0 +1,52 @@
+id: ocd-person/d637c595-3068-5d2f-a3e0-fa761ffa7284
+name: Nathaniel Moran
+identifiers:
+- scheme: bioguide
+  identifier: M001224
+- scheme: govtrack
+  identifier: '456940'
+- scheme: wikidata
+  identifier: Q115137468
+- scheme: wikipedia
+  identifier: Nathaniel Moran
+- scheme: ballotpedia
+  identifier: Nathaniel Moran
+- scheme: opensecrets
+  identifier: N00049775
+- scheme: votesmart
+  identifier: '79156'
+- scheme: fec-candidate-id
+  identifier: H2TX01112
+candidacies: []
+contact:
+  phone: 202-225-3035
+  profile_url: https://moran.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1605 Longworth House Office Building Washington DC 20515-4301
+  phone: 202-225-3035
+- classification: district
+  name: Texarkana Office
+  address: 2500 North Robison Rd., Suite 190;Texarkana, TX 75501
+  phone: 903-561-6349
+- classification: district
+  name: Longview Office
+  address: 101 E Methvin, Suite 302;Longview, TX 75601
+  phone: 903-561-6349
+- classification: district
+  name: Marshall Office
+  address: 100 N. Bolivar., Suite 205;Marshall, TX 75671
+  phone: 903-561-6349
+- classification: district
+  name: Tyler Office
+  address: 1121 ESE Loop 323, Suite 206;Tyler, TX 75701
+  phone: 903-561-6349
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001224 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

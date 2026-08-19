@@ -1,0 +1,54 @@
+id: ocd-person/5406a1f1-dbdd-53a1-9de8-a1f3b4ca16b5
+name: Jim Jordan
+identifiers:
+- scheme: bioguide
+  identifier: J000289
+- scheme: govtrack
+  identifier: '412226'
+- scheme: wikidata
+  identifier: Q186215
+- scheme: wikipedia
+  identifier: Jim Jordan
+- scheme: ballotpedia
+  identifier: Jim Jordan (Ohio)
+- scheme: opensecrets
+  identifier: N00027894
+- scheme: votesmart
+  identifier: '8158'
+- scheme: icpsr
+  identifier: '20738'
+- scheme: thomas
+  identifier: 01868
+- scheme: cspan
+  identifier: '1022879'
+- scheme: maplight
+  identifier: '711'
+- scheme: fec-candidate-id
+  identifier: H6OH04082
+candidacies: []
+contact:
+  phone: 202-225-2676
+  profile_url: https://jordan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2056 Rayburn House Office Building Washington DC 20515-3504
+  phone: 202-225-2676
+- classification: district
+  name: Lima Office
+  address: 3121 W. Elm Plz.;Lima, OH 45805
+  phone: 419-999-6455
+  fax: 419-999-4238
+- classification: district
+  name: Mansfield Office
+  address: 28 Park Avenue West, 100A;Mansfield, OH 44902
+  phone: 419-982-8045
+  fax: 419-668-3015
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000289 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

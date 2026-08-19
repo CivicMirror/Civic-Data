@@ -1,0 +1,63 @@
+id: ocd-person/282abb3f-a1c8-5b10-8b03-f60bdcb40185
+name: Harold Rogers
+identifiers:
+- scheme: bioguide
+  identifier: R000395
+- scheme: govtrack
+  identifier: '400340'
+- scheme: wikidata
+  identifier: Q547153
+- scheme: wikipedia
+  identifier: Hal Rogers
+- scheme: ballotpedia
+  identifier: Harold Rogers
+- scheme: opensecrets
+  identifier: N00003473
+- scheme: votesmart
+  identifier: '26875'
+- scheme: icpsr
+  identifier: '14854'
+- scheme: thomas
+  identifier: 00977
+- scheme: cspan
+  identifier: '6739'
+- scheme: maplight
+  identifier: '434'
+- scheme: fec-candidate-id
+  identifier: H0KY05015
+candidacies: []
+contact:
+  phone: 202-225-4601
+  profile_url: https://halrogers.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2406 Rayburn House Office Building Washington DC 20515-1705
+  phone: 202-225-4601
+- classification: district
+  name: Hazard Office
+  address: 48 S. KY Hwy. 15;Hazard, KY 41701
+  phone: 606-439-0794
+  fax: 606-439-4647
+- classification: district
+  name: Prestonsburg Office
+  address: 110 Resource Ct., Suite A;Prestonsburg, KY 41653
+  phone: 606-886-0844
+  fax: 606-889-0371
+- classification: district
+  name: Somerset Office
+  address: 551 Clifty St.;Somerset, KY 42503
+  phone: 800-632-8588
+  fax: 606-678-4856
+- classification: district
+  name: Ashland Office
+  address: 341 16th Street;Ashland, KY 41101
+  phone: 606-467-6211
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000395 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

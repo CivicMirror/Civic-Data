@@ -1,0 +1,40 @@
+id: ocd-person/53fbbc73-ee66-538f-a072-e9970e9ae57f
+name: Sarah McBride
+identifiers:
+- scheme: bioguide
+  identifier: M001238
+- scheme: govtrack
+  identifier: '456985'
+- scheme: wikidata
+  identifier: Q17011236
+- scheme: wikipedia
+  identifier: Sarah McBride
+- scheme: ballotpedia
+  identifier: Sarah McBride
+- scheme: opensecrets
+  identifier: N00052698
+- scheme: votesmart
+  identifier: '195142'
+- scheme: fec-candidate-id
+  identifier: H4DE00045
+candidacies: []
+contact:
+  phone: 202-225-4165
+  profile_url: https://mcbride.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1306 Longworth House Office Building Washington DC 20515-0800
+  phone: 202-225-4165
+- classification: district
+  name: Wilmington Office
+  address: 1105 North Market St, Suite 400;Wilmington, DE 19801
+  phone: 302-830-2330
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001238 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

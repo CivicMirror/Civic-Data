@@ -1,0 +1,56 @@
+id: ocd-person/7a6f50ca-75da-5d29-9771-7bf6f4a4cf6c
+name: Scott Perry
+identifiers:
+- scheme: bioguide
+  identifier: P000605
+- scheme: govtrack
+  identifier: '412569'
+- scheme: wikidata
+  identifier: Q7437040
+- scheme: wikipedia
+  identifier: Scott Perry
+- scheme: ballotpedia
+  identifier: Scott Perry
+- scheme: opensecrets
+  identifier: N00034120
+- scheme: votesmart
+  identifier: '59980'
+- scheme: icpsr
+  identifier: '21356'
+- scheme: thomas
+  identifier: '02157'
+- scheme: cspan
+  identifier: '79873'
+- scheme: maplight
+  identifier: '1793'
+- scheme: fec-candidate-id
+  identifier: H2PA04135
+candidacies: []
+contact:
+  phone: 202-225-5836
+  profile_url: https://perry.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2160 Rayburn House Office Building Washington DC 20515-3810
+  phone: 202-225-5836
+- classification: district
+  name: Harrisburg Office
+  address: 800 Corporate Cir, Suite 202;Harrisburg, PA 17110-9346
+  phone: 717-603-4980
+- classification: district
+  name: Mechanicsburg Office
+  address: 4999 Louise Drive, Suite 205;Mechanicsburg, PA 17055
+  phone: 717-550-6565
+- classification: district
+  name: York Office
+  address: 2501 Catherine Street, Suite 11;York, PA 17408
+  phone: 717-893-7868
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000605 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

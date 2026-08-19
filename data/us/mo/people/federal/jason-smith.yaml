@@ -1,0 +1,68 @@
+id: ocd-person/ba3821be-f751-50bb-9b9b-cd5b046eb4ad
+name: Jason Smith
+identifiers:
+- scheme: bioguide
+  identifier: S001195
+- scheme: govtrack
+  identifier: '412596'
+- scheme: wikidata
+  identifier: Q6163589
+- scheme: wikipedia
+  identifier: Jason Smith (American politician)
+- scheme: ballotpedia
+  identifier: Jason Smith (Missouri representative)
+- scheme: opensecrets
+  identifier: N00035282
+- scheme: votesmart
+  identifier: '59318'
+- scheme: icpsr
+  identifier: '21373'
+- scheme: thomas
+  identifier: 02191
+- scheme: cspan
+  identifier: '71083'
+- scheme: maplight
+  identifier: '2047'
+- scheme: fec-candidate-id
+  identifier: H4MO08162
+candidacies: []
+contact:
+  phone: 202-225-4404
+  profile_url: https://jasonsmith.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1011 Longworth House Office Building Washington DC 20515-2508
+  phone: 202-225-4404
+- classification: district
+  name: Cape Girardeau Office
+  address: 2502 Tanner Dr., Suite 205;Cape Girardeau, MO 63703
+  phone: 573-335-0101
+  fax: 573-335-1931
+- classification: district
+  name: Farmington Office
+  address: 22 E. Columbia St.;Farmington, MO 63640
+  phone: 573-756-9755
+  fax: 573-756-9762
+- classification: district
+  name: Poplar Bluff Office
+  address: 2725 N. Westwood Blvd., Suite 5A;Poplar Bluff, MO 63901
+  phone: 573-609-2996
+- classification: district
+  name: Rolla Office
+  address: 830A S. Bishop;Rolla, MO 65401
+  phone: 573-364-2455
+  fax: 573-364-1053
+- classification: district
+  name: West Plains Office
+  address: 35 Court Sq., Suite 300;West Plains, MO 65775
+  phone: 417-255-1515
+  fax: 417-255-2009
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001195 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

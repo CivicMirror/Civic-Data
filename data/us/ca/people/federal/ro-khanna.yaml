@@ -1,0 +1,47 @@
+id: ocd-person/c8470dfb-d35b-57c6-bfdc-e18b48fcd1a0
+name: Ro Khanna
+identifiers:
+- scheme: bioguide
+  identifier: K000389
+- scheme: govtrack
+  identifier: '412684'
+- scheme: wikidata
+  identifier: Q7339221
+- scheme: wikipedia
+  identifier: Ro Khanna
+- scheme: ballotpedia
+  identifier: Ro Khanna
+- scheme: opensecrets
+  identifier: N00026427
+- scheme: votesmart
+  identifier: '29473'
+- scheme: icpsr
+  identifier: '21728'
+- scheme: cspan
+  identifier: '31129'
+- scheme: maplight
+  identifier: '2196'
+- scheme: fec-candidate-id
+  identifier: H4CA12055
+candidacies: []
+contact:
+  phone: 202-225-2631
+  profile_url: https://khanna.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 306 Cannon House Office Building Washington DC 20515-0517
+  phone: 202-225-2631
+- classification: district
+  name: Santa Clara Office
+  address: 3150 De La Cruz Blvd, Suite 240;Santa Clara, CA 95054
+  phone: 408-436-2720
+  fax: 408-436-2721
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000389 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

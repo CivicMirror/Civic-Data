@@ -1,0 +1,42 @@
+id: ocd-person/b28b363e-56ec-50da-8fca-ac6b18d5c5e5
+name: Troy Balderson
+identifiers:
+- scheme: bioguide
+  identifier: B001306
+- scheme: govtrack
+  identifier: '412747'
+- scheme: wikidata
+  identifier: Q16194422
+- scheme: wikipedia
+  identifier: Troy Balderson
+- scheme: ballotpedia
+  identifier: Troy Balderson
+- scheme: opensecrets
+  identifier: N00042194
+- scheme: votesmart
+  identifier: '102781'
+- scheme: icpsr
+  identifier: '21759'
+- scheme: fec-candidate-id
+  identifier: H8OH12180
+candidacies: []
+contact:
+  phone: 202-225-5355
+  profile_url: https://balderson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2429 Rayburn House Office Building Washington DC 20515-3512
+  phone: 202-225-5355
+- classification: district
+  name: Pickerington Office
+  address: 12931 Stonecreek Drive;Pickerington, OH 43147
+  phone: 614-523-2555
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001306 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

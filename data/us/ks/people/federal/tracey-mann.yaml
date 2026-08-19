@@ -1,0 +1,44 @@
+id: ocd-person/520eb789-79f1-5175-bd7b-d7479a5710ff
+name: Tracey Mann
+identifiers:
+- scheme: bioguide
+  identifier: M000871
+- scheme: govtrack
+  identifier: '456823'
+- scheme: wikidata
+  identifier: Q48767554
+- scheme: wikipedia
+  identifier: Tracey Mann
+- scheme: ballotpedia
+  identifier: Tracey Mann
+- scheme: opensecrets
+  identifier: N00030743
+- scheme: votesmart
+  identifier: '125007'
+- scheme: fec-candidate-id
+  identifier: H0KS01123
+candidacies: []
+contact:
+  phone: 202-225-2715
+  profile_url: https://mann.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 344 Cannon House Office Building Washington DC 20515-1601
+  phone: 202-225-2715
+- classification: district
+  name: Manhattan Office
+  address: 317 Houston Street, Suite A;Manhattan, KS 66502
+  phone: 785-370-7277
+- classification: district
+  name: Dodge City Office
+  address: 100 Military Avenue, Suite 203;Dodge City, KS 67801
+  phone: 620-682-7340
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M000871 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

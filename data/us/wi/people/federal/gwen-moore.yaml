@@ -1,0 +1,49 @@
+id: ocd-person/14978287-c9d6-5c8f-b812-e5152c085687
+name: Gwen Moore
+identifiers:
+- scheme: bioguide
+  identifier: M001160
+- scheme: govtrack
+  identifier: '400661'
+- scheme: wikidata
+  identifier: Q461698
+- scheme: wikipedia
+  identifier: Gwen Moore
+- scheme: ballotpedia
+  identifier: Gwen Moore
+- scheme: opensecrets
+  identifier: N00026914
+- scheme: votesmart
+  identifier: '3457'
+- scheme: icpsr
+  identifier: '20537'
+- scheme: thomas
+  identifier: 01811
+- scheme: cspan
+  identifier: '42548'
+- scheme: maplight
+  identifier: '666'
+- scheme: fec-candidate-id
+  identifier: H4WI04183
+candidacies: []
+contact:
+  phone: 202-225-4572
+  profile_url: https://gwenmoore.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2252 Rayburn House Office Building Washington DC 20515-4904
+  phone: 202-225-4572
+- classification: district
+  name: Milwaukee Office
+  address: 250 East Wisconsin, Suite 950;Milwaukee, WI 53202
+  phone: 414-297-1140
+  fax: 414-297-1086
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001160 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

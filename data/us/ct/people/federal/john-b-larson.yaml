@@ -1,0 +1,49 @@
+id: ocd-person/883ceda8-e8ec-5645-8f97-2285cbe224e0
+name: John B. Larson
+identifiers:
+- scheme: bioguide
+  identifier: L000557
+- scheme: govtrack
+  identifier: '400233'
+- scheme: wikidata
+  identifier: Q357832
+- scheme: wikipedia
+  identifier: John B. Larson
+- scheme: ballotpedia
+  identifier: John B. Larson
+- scheme: opensecrets
+  identifier: N00000575
+- scheme: votesmart
+  identifier: '17188'
+- scheme: icpsr
+  identifier: '29908'
+- scheme: thomas
+  identifier: 01583
+- scheme: cspan
+  identifier: '36596'
+- scheme: maplight
+  identifier: '334'
+- scheme: fec-candidate-id
+  identifier: H8CT01046
+candidacies: []
+contact:
+  phone: 202-225-2265
+  profile_url: https://larson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1501 Longworth House Office Building Washington DC 20515-0701
+  phone: 202-225-2265
+- classification: district
+  name: East Hartford Office
+  address: 361 Main Street, 3rd Floor;East Hartford, CT 06118
+  phone: 860-278-8888
+  fax: 860-278-2111
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000557 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

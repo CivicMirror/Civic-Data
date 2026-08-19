@@ -1,0 +1,54 @@
+id: ocd-person/ddaf310b-ef1d-54ff-93b9-f96ca98e3e68
+name: Frank Pallone, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: P000034
+- scheme: govtrack
+  identifier: '400308'
+- scheme: wikidata
+  identifier: Q965289
+- scheme: wikipedia
+  identifier: Frank Pallone
+- scheme: ballotpedia
+  identifier: Frank Pallone
+- scheme: opensecrets
+  identifier: N00000781
+- scheme: votesmart
+  identifier: '26951'
+- scheme: icpsr
+  identifier: '15454'
+- scheme: thomas
+  identifier: 00887
+- scheme: cspan
+  identifier: '6107'
+- scheme: maplight
+  identifier: '402'
+- scheme: fec-candidate-id
+  identifier: S6NJ00263
+candidacies: []
+contact:
+  phone: 202-225-4671
+  profile_url: https://pallone.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2107 Rayburn House Office Building Washington DC 20515-3006
+  phone: 202-225-4671
+- classification: district
+  name: Long Branch Office
+  address: 504 Broadway;Long Branch, NJ 07740
+  phone: 732-571-1140
+  fax: 732-870-3890
+- classification: district
+  name: New Brunswick Office
+  address: 67/69 Church St.;New Brunswick, NJ 08901
+  phone: 732-249-8892
+  fax: 732-249-1335
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000034 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

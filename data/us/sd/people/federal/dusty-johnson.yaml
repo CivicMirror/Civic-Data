@@ -1,0 +1,50 @@
+id: ocd-person/018cab48-3b9b-511a-8a8f-4664e7231ace
+name: Dusty Johnson
+identifiers:
+- scheme: bioguide
+  identifier: J000301
+- scheme: govtrack
+  identifier: '412816'
+- scheme: wikidata
+  identifier: Q30015838
+- scheme: wikipedia
+  identifier: Dusty Johnson
+- scheme: ballotpedia
+  identifier: Dusty Johnson
+- scheme: opensecrets
+  identifier: N00040559
+- scheme: votesmart
+  identifier: '48307'
+- scheme: icpsr
+  identifier: '21935'
+- scheme: fec-candidate-id
+  identifier: H8SD01055
+candidacies: []
+contact:
+  phone: 202-225-2801
+  profile_url: https://dustyjohnson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1714 Longworth House Office Building Washington DC 20515-4100
+  phone: 202-225-2801
+- classification: district
+  name: Rapid City Office
+  address: 2525 W Main St, Suite 310;Rapid City, SD 57702-0901
+  phone: 605-646-6454
+- classification: district
+  name: Sioux Falls Office
+  address: 230 S Phillips Avenue, Suite 307;Sioux Falls, SD 57104
+  phone: 605-275-2868
+- classification: district
+  name: Aberdeen Office
+  address: 115 4th Ave SE, Suite 107A;Aberdeen, SD 57401
+  phone: 605-622-1060
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000301 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

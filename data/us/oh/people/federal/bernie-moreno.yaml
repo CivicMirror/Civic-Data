@@ -1,0 +1,50 @@
+id: ocd-person/ea33f9ef-65ef-5539-b753-78cd5b78d8f6
+name: Bernie Moreno
+identifiers:
+- scheme: bioguide
+  identifier: M001242
+- scheme: govtrack
+  identifier: '456967'
+- scheme: wikidata
+  identifier: Q124858476
+- scheme: wikipedia
+  identifier: Bernie Moreno
+- scheme: ballotpedia
+  identifier: Bernie Moreno
+- scheme: opensecrets
+  identifier: N00048437
+- scheme: votesmart
+  identifier: '201791'
+- scheme: lis
+  identifier: S434
+- scheme: fec-candidate-id
+  identifier: S4OH00192
+candidacies: []
+contact:
+  phone: 202-224-2315
+  profile_url: https://www.moreno.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 284 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-2315
+- classification: district
+  name: Columbus Office
+  address: Bricker Federal Building, 200 North High St, Room 618;Columbus, OH 43215
+  phone: 614-469-2083
+- classification: district
+  name: Cleveland Office
+  address: Carl B. Stokes U.S. Courthouse, 801 W Superior Ave, Suite 1400;Cleveland, OH 44113
+  phone: 216-522-7272
+- classification: district
+  name: Cincinnati Office
+  address: John W. Peck Federal Building, 550 Main St, Suite 10-273;Cincinnati, OH 45202
+  phone: 513-684-1021
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001242 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

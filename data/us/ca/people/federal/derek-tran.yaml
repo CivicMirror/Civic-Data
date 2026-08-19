@@ -1,0 +1,40 @@
+id: ocd-person/4e48af61-c41b-5ffa-b59a-65c42d5a5848
+name: Derek Tran
+identifiers:
+- scheme: bioguide
+  identifier: T000491
+- scheme: govtrack
+  identifier: '456980'
+- scheme: wikidata
+  identifier: Q131339671
+- scheme: wikipedia
+  identifier: Derek Tran
+- scheme: ballotpedia
+  identifier: Derek Tran
+- scheme: opensecrets
+  identifier: N00053582
+- scheme: votesmart
+  identifier: '213645'
+- scheme: fec-candidate-id
+  identifier: H4CA45170
+candidacies: []
+contact:
+  phone: 202-225-2415
+  profile_url: https://tran.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1127 Longworth House Office Building Washington DC 20515-0545
+  phone: 202-225-2415
+- classification: district
+  name: Cypress Office
+  address: 6803 International Ave., 100;Cypress, CA 90630
+  phone: 714-960-6483
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000491 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

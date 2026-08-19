@@ -1,0 +1,54 @@
+id: ocd-person/f1eb1ffd-122f-54de-86e7-de8638be1e73
+name: Marc A. Veasey
+identifiers:
+- scheme: bioguide
+  identifier: V000131
+- scheme: govtrack
+  identifier: '412579'
+- scheme: wikidata
+  identifier: Q4068811
+- scheme: wikipedia
+  identifier: Marc Veasey
+- scheme: ballotpedia
+  identifier: Marc Veasey
+- scheme: opensecrets
+  identifier: N00033839
+- scheme: votesmart
+  identifier: '49671'
+- scheme: icpsr
+  identifier: '21365'
+- scheme: thomas
+  identifier: '02166'
+- scheme: cspan
+  identifier: '79466'
+- scheme: maplight
+  identifier: '1803'
+- scheme: fec-candidate-id
+  identifier: H2TX33073
+candidacies: []
+contact:
+  phone: 202-225-9897
+  profile_url: https://veasey.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2186 Rayburn House Office Building Washington DC 20515-4333
+  phone: 202-225-9897
+- classification: district
+  name: Dallas Office
+  address: JP Morgan Chase Building, 1881 Sylvan Ave., Suite 108;Dallas, TX 75208
+  phone: 214-741-1387
+  fax: 214-741-2026
+- classification: district
+  name: Fort Worth Office
+  address: 6707 Brentwood Stair Rd., Suite 200;Fort Worth, TX 76112
+  phone: 817-920-9086
+  fax: 817-920-9324
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000131 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

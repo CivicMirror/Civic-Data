@@ -1,0 +1,44 @@
+id: ocd-person/123e912a-915e-52b0-b6dd-e92bf6fc07bd
+name: Robert F. Onder, Jr.
+identifiers:
+- scheme: bioguide
+  identifier: O000177
+- scheme: govtrack
+  identifier: '456998'
+- scheme: wikidata
+  identifier: Q27064117
+- scheme: wikipedia
+  identifier: Bob Onder
+- scheme: ballotpedia
+  identifier: Bob Onder
+- scheme: opensecrets
+  identifier: N00030025
+- scheme: votesmart
+  identifier: '66719'
+- scheme: fec-candidate-id
+  identifier: H4MO03221
+candidacies: []
+contact:
+  phone: 202-225-2956
+  profile_url: https://onder.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1113 Longworth House Office Building Washington DC 20515-2503
+  phone: 202-225-2956
+- classification: district
+  name: Cottleville Office
+  address: 5330 Highway N;Cottleville, MO 63304
+  phone: 636-327-7055
+- classification: district
+  name: Jefferson City Office
+  address: 235 East High St;Jefferson City, MO 65101
+  phone: 573-635-7232
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide O000177 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

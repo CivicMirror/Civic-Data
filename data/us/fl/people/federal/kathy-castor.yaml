@@ -1,0 +1,52 @@
+id: ocd-person/6d6802fe-0c04-5804-a58a-90a343bb2b95
+name: Kathy Castor
+identifiers:
+- scheme: bioguide
+  identifier: C001066
+- scheme: govtrack
+  identifier: '412195'
+- scheme: wikidata
+  identifier: Q458492
+- scheme: wikipedia
+  identifier: Kathy Castor
+- scheme: ballotpedia
+  identifier: Kathy Castor
+- scheme: opensecrets
+  identifier: N00027514
+- scheme: votesmart
+  identifier: '53825'
+- scheme: icpsr
+  identifier: '20708'
+- scheme: thomas
+  identifier: 01839
+- scheme: cspan
+  identifier: '1022874'
+- scheme: maplight
+  identifier: '682'
+- scheme: fec-candidate-id
+  identifier: H6FL11134
+candidacies: []
+contact:
+  phone: 202-225-3376
+  profile_url: https://castor.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2188 Rayburn House Office Building Washington DC 20515-0914
+  phone: 202-225-3376
+- classification: district
+  name: Tampa Office
+  address: 4144 N. Armenia Ave., Suite 300;Tampa, FL 33607
+  phone: 813-871-2817
+- classification: district
+  name: St. Petersburg Office
+  address: 136 Fourth St. N., Suite 201;St. Petersburg, FL 33701
+  phone: 727-369-0201
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001066 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

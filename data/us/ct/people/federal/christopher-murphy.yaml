@@ -1,0 +1,51 @@
+id: ocd-person/ec47d5da-f10f-5824-8dcb-6913f3b94666
+name: Christopher Murphy
+identifiers:
+- scheme: bioguide
+  identifier: M001169
+- scheme: govtrack
+  identifier: '412194'
+- scheme: wikidata
+  identifier: Q1077594
+- scheme: wikipedia
+  identifier: Chris Murphy
+- scheme: ballotpedia
+  identifier: Chris Murphy (Connecticut)
+- scheme: opensecrets
+  identifier: N00027566
+- scheme: votesmart
+  identifier: '17189'
+- scheme: icpsr
+  identifier: '20707'
+- scheme: lis
+  identifier: S364
+- scheme: thomas
+  identifier: 01837
+- scheme: cspan
+  identifier: '1021270'
+- scheme: maplight
+  identifier: '681'
+- scheme: fec-candidate-id
+  identifier: S2CT00132
+candidacies: []
+contact:
+  phone: 202-224-4041
+  profile_url: https://www.murphy.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 136 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-4041
+- classification: district
+  name: Hartford Office
+  address: Colt Gateway, 120 Huyshope Ave., Suite 401;Hartford, CT 06106
+  phone: 860-549-8463
+  fax: 860-524-5091
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001169 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

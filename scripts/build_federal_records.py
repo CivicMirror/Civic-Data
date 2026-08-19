@@ -220,8 +220,14 @@ def build(bioguide_id, people_by_bioguide, people_by_name):
                    "opensecrets", "votesmart", "icpsr", "lis", "thomas", "cspan", "maplight"]:
         if ids.get(scheme):
             identifiers.append({"scheme": scheme, "identifier": str(ids[scheme])})
-    for fec_id in ids.get("fec", []):
-        identifiers.append({"scheme": "fec-candidate-id", "identifier": fec_id})
+    fec_ids = ids.get("fec", [])
+    if fec_ids:
+        # Repo policy is one identifier per scheme per person (validate.py's
+        # _check_external_identifiers) -- a legislator can have multiple FEC
+        # candidate ids across cycles/offices, so keep only the most recent
+        # (last in congress-legislators' chronological list) as canonical.
+        # The full list is still preserved in the FEC cross-check source note.
+        identifiers.append({"scheme": "fec-candidate-id", "identifier": fec_ids[-1]})
 
     last_term = terms[-1]
     contact = {"phone": last_term.get("phone", ""), "profile_url": last_term.get("url", "")}

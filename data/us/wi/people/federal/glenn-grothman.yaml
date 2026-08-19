@@ -1,0 +1,48 @@
+id: ocd-person/fda8a3af-adb0-584a-aa30-cdeaf9aff070
+name: Glenn Grothman
+identifiers:
+- scheme: bioguide
+  identifier: G000576
+- scheme: govtrack
+  identifier: '412661'
+- scheme: wikidata
+  identifier: Q5568836
+- scheme: wikipedia
+  identifier: Glenn Grothman
+- scheme: ballotpedia
+  identifier: Glenn Grothman
+- scheme: opensecrets
+  identifier: N00036409
+- scheme: votesmart
+  identifier: '3493'
+- scheme: icpsr
+  identifier: '21559'
+- scheme: thomas
+  identifier: '02276'
+- scheme: cspan
+  identifier: '77282'
+- scheme: maplight
+  identifier: '2117'
+- scheme: fec-candidate-id
+  identifier: H4WI06048
+candidacies: []
+contact:
+  phone: 202-225-2476
+  profile_url: https://grothman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1211 Longworth House Office Building Washington DC 20515-4906
+  phone: 202-225-2476
+- classification: district
+  name: Fond du Lac Office
+  address: 525 N Peters Ave, Suite 700;Fond du Lac, WI 54937
+  phone: 920-907-0624
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000576 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

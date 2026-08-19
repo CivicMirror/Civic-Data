@@ -1,0 +1,42 @@
+id: ocd-person/ed83ab20-7dca-5a19-b3e1-201266de680b
+name: Sharice Davids
+identifiers:
+- scheme: bioguide
+  identifier: D000629
+- scheme: govtrack
+  identifier: '412780'
+- scheme: wikidata
+  identifier: Q58322868
+- scheme: wikipedia
+  identifier: Sharice Davids
+- scheme: ballotpedia
+  identifier: Sharice Davids
+- scheme: opensecrets
+  identifier: N00042626
+- scheme: votesmart
+  identifier: '181201'
+- scheme: icpsr
+  identifier: '21914'
+- scheme: fec-candidate-id
+  identifier: H8KS03155
+candidacies: []
+contact:
+  phone: 202-225-2865
+  profile_url: https://davids.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2435 Rayburn House Office Building Washington DC 20515-1603
+  phone: 202-225-2865
+- classification: district
+  name: Overland Park Office
+  address: 9200 Indian Creek Parkway, Suite 562;Overland Park, KS 66210
+  phone: 913-621-0832
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000629 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

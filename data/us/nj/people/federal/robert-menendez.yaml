@@ -1,0 +1,40 @@
+id: ocd-person/1157ad6d-8589-50c1-909b-c964ef7ed763
+name: Robert Menendez
+identifiers:
+- scheme: bioguide
+  identifier: M001226
+- scheme: govtrack
+  identifier: '456918'
+- scheme: wikidata
+  identifier: Q115137457
+- scheme: wikipedia
+  identifier: Rob Menendez
+- scheme: ballotpedia
+  identifier: Rob Menendez (New Jersey)
+- scheme: opensecrets
+  identifier: N00049686
+- scheme: votesmart
+  identifier: '205678'
+- scheme: fec-candidate-id
+  identifier: H2NJ08232
+candidacies: []
+contact:
+  phone: 202-225-7919
+  profile_url: https://menendez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2453 Rayburn House Office Building Washington DC 20515-3008
+  phone: 202-225-7919
+- classification: district
+  name: Jersey City Office
+  address: 257 Cornelison Avenue, Suite 4408;Jersey City, NJ 07302
+  phone: 201-309-0301
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001226 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,49 @@
+id: ocd-person/5f73fd44-7aac-50d3-9d3c-a3abb33693eb
+name: Mike Quigley
+identifiers:
+- scheme: bioguide
+  identifier: Q000023
+- scheme: govtrack
+  identifier: '412331'
+- scheme: wikidata
+  identifier: Q465767
+- scheme: wikipedia
+  identifier: Mike Quigley
+- scheme: ballotpedia
+  identifier: Michael Quigley
+- scheme: opensecrets
+  identifier: N00030581
+- scheme: votesmart
+  identifier: '83310'
+- scheme: icpsr
+  identifier: '20954'
+- scheme: thomas
+  identifier: 01967
+- scheme: cspan
+  identifier: '9263344'
+- scheme: maplight
+  identifier: '1186'
+- scheme: fec-candidate-id
+  identifier: H0IL05096
+candidacies: []
+contact:
+  phone: 202-225-4061
+  profile_url: https://quigley.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2083 Rayburn House Office Building Washington DC 20515-1305
+  phone: 202-225-4061
+- classification: district
+  name: Chicago Office
+  address: 1925 N. Clybourn Ave.;Chicago, IL 60614
+  phone: 773-267-5926
+  fax: 202-225-5603
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide Q000023 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,55 @@
+id: ocd-person/af58764a-25fb-5dbd-acd2-ebd0c0de1313
+name: Brett Guthrie
+identifiers:
+- scheme: bioguide
+  identifier: G000558
+- scheme: govtrack
+  identifier: '412278'
+- scheme: wikidata
+  identifier: Q910794
+- scheme: wikipedia
+  identifier: Brett Guthrie
+- scheme: ballotpedia
+  identifier: Brett Guthrie
+- scheme: opensecrets
+  identifier: N00029675
+- scheme: votesmart
+  identifier: '18829'
+- scheme: icpsr
+  identifier: '20916'
+- scheme: thomas
+  identifier: 01922
+- scheme: cspan
+  identifier: '1031343'
+- scheme: maplight
+  identifier: '760'
+- scheme: fec-candidate-id
+  identifier: H8KY02031
+candidacies: []
+contact:
+  phone: 202-225-3501
+  profile_url: https://guthrie.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2161 Rayburn House Office Building Washington DC 20515-1702
+  phone: 202-225-3501
+- classification: district
+  name: Bowling Green Office
+  address: 996 Wilkinson Trce., Suite B2;Bowling Green, KY 42103
+  phone: 270-842-9896
+  fax: 270-842-9081
+- classification: district
+  name: Owensboro Office
+  address: 2200 Airport Rd.;Owensboro, KY 42301
+- classification: district
+  name: Radcliff Office
+  address: 411 W. Lincoln Trail Blvd.;Radcliff, KY 40160
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000558 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

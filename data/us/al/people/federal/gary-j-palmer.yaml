@@ -1,0 +1,49 @@
+id: ocd-person/c4e7efb6-332e-5338-b04a-d8ca025f93bf
+name: Gary J. Palmer
+identifiers:
+- scheme: bioguide
+  identifier: P000609
+- scheme: govtrack
+  identifier: '412608'
+- scheme: wikidata
+  identifier: Q17386504
+- scheme: wikipedia
+  identifier: Gary Palmer
+- scheme: ballotpedia
+  identifier: Gary Palmer
+- scheme: opensecrets
+  identifier: N00035691
+- scheme: votesmart
+  identifier: '146274'
+- scheme: icpsr
+  identifier: '21500'
+- scheme: thomas
+  identifier: '02221'
+- scheme: cspan
+  identifier: '76094'
+- scheme: maplight
+  identifier: '2064'
+- scheme: fec-candidate-id
+  identifier: H4AL06098
+candidacies: []
+contact:
+  phone: 202-225-4921
+  profile_url: https://palmer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 170 Cannon House Office Building Washington DC 20515-0106
+  phone: 202-225-4921
+- classification: district
+  name: Birmingham Office
+  address: 3535 Grandview Pkwy., Suite 525;Birmingham, AL 35243
+  phone: 205-968-1290
+  fax: 205-968-1294
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000609 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

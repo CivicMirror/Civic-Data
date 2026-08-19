@@ -1,0 +1,59 @@
+id: ocd-person/507c6161-260d-58b4-8cff-9f1b21f803ff
+name: Henry Cuellar
+identifiers:
+- scheme: bioguide
+  identifier: C001063
+- scheme: govtrack
+  identifier: '400657'
+- scheme: wikidata
+  identifier: Q539562
+- scheme: wikipedia
+  identifier: Henry Cuellar
+- scheme: ballotpedia
+  identifier: Henry Cuellar
+- scheme: opensecrets
+  identifier: N00024978
+- scheme: votesmart
+  identifier: '5486'
+- scheme: icpsr
+  identifier: '20533'
+- scheme: thomas
+  identifier: 01807
+- scheme: cspan
+  identifier: '1013062'
+- scheme: maplight
+  identifier: '662'
+- scheme: fec-candidate-id
+  identifier: H2TX23082
+candidacies: []
+contact:
+  phone: 202-225-1640
+  profile_url: https://cuellar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2308 Rayburn House Office Building Washington DC 20515-4328
+  phone: 202-225-1640
+- classification: district
+  name: Laredo Office
+  address: 602 E. Calton Rd., Suite 2;Laredo, TX 78041
+  phone: 956-725-0639
+  fax: 956-725-2647
+- classification: district
+  name: San Antonio Office
+  address: 1145 E. Commerce St., Suite 205;San Antonio, TX 78205
+  phone: 210-271-2851
+  fax: 210-277-6671
+- classification: district
+  name: Rio Grande City Office
+  address: 100 N. FM 3167, Suite 208;Rio Grande City, TX 78582
+  phone: 956-487-5603
+  fax: 956-424-3936
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001063 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,71 @@
+id: ocd-person/717670a5-19b7-5584-84c7-570dd4ea82b4
+name: Joni Ernst
+identifiers:
+- scheme: bioguide
+  identifier: E000295
+- scheme: govtrack
+  identifier: '412667'
+- scheme: wikidata
+  identifier: Q13475242
+- scheme: wikipedia
+  identifier: Joni Ernst
+- scheme: ballotpedia
+  identifier: Joni Ernst
+- scheme: opensecrets
+  identifier: N00035483
+- scheme: votesmart
+  identifier: '128583'
+- scheme: icpsr
+  identifier: '41502'
+- scheme: lis
+  identifier: S376
+- scheme: thomas
+  identifier: 02283
+- scheme: cspan
+  identifier: '75342'
+- scheme: maplight
+  identifier: '2123'
+- scheme: fec-candidate-id
+  identifier: S4IA00129
+candidacies: []
+contact:
+  phone: 202-224-3254
+  profile_url: https://www.ernst.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 260 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-3254
+- classification: district
+  name: Cedar Rapids Office
+  address: 111 Seventh Ave. SE, Suite 480;Cedar Rapids, IA 52401
+  phone: 319-365-4504
+  fax: 319-365-4683
+- classification: district
+  name: Davenport Office
+  address: 201 W. Second St., Suite 806;Davenport, IA 52801
+  phone: 563-322-0677
+  fax: 563-322-0854
+- classification: district
+  name: Des Moines Office
+  address: 733 Federal Building, 210 Walnut Street, Suite 733;Des Moines, IA 50309
+  phone: 515-284-4574
+  fax: 515-284-4937
+- classification: district
+  name: Sioux City Office
+  address: Federal Building, 320 Sixth Street, Suite 194;Sioux City, IA 51101
+  phone: 712-252-1550
+  fax: 712-252-1638
+- classification: district
+  name: Council Bluffs Office
+  address: 2146 27 th Avenue, Suite 500;Council Bluffs, IA 51501
+  phone: 712-352-1167
+  fax: 712-352-0087
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000295 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

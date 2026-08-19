@@ -1,0 +1,49 @@
+id: ocd-person/7116c1af-030c-52de-a35f-da87cac2ccbd
+name: Norma J. Torres
+identifiers:
+- scheme: bioguide
+  identifier: T000474
+- scheme: govtrack
+  identifier: '412617'
+- scheme: wikidata
+  identifier: Q3343727
+- scheme: wikipedia
+  identifier: Norma Torres
+- scheme: ballotpedia
+  identifier: Norma Torres
+- scheme: opensecrets
+  identifier: N00036107
+- scheme: votesmart
+  identifier: '71284'
+- scheme: icpsr
+  identifier: '21508'
+- scheme: thomas
+  identifier: '02231'
+- scheme: cspan
+  identifier: '76129'
+- scheme: maplight
+  identifier: '2073'
+- scheme: fec-candidate-id
+  identifier: H4CA35031
+candidacies: []
+contact:
+  phone: 202-225-6161
+  profile_url: https://torres.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2227 Rayburn House Office Building Washington DC 20515-0535
+  phone: 202-225-6161
+- classification: district
+  name: Ontario Office
+  address: 3200 Inland Empire Blvd., Suite 200B;Ontario, CA 91764
+  phone: 909-481-6474
+  fax: 909-941-1362
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000474 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

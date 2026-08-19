@@ -1,0 +1,44 @@
+id: ocd-person/23623ff8-9c16-5a63-aae0-c54c60bde9e3
+name: Gabe Vasquez
+identifiers:
+- scheme: bioguide
+  identifier: V000136
+- scheme: govtrack
+  identifier: '456919'
+- scheme: wikidata
+  identifier: Q115155647
+- scheme: wikipedia
+  identifier: Gabe Vasquez
+- scheme: ballotpedia
+  identifier: Gabriel Vasquez
+- scheme: opensecrets
+  identifier: N00049142
+- scheme: votesmart
+  identifier: '201740'
+- scheme: fec-candidate-id
+  identifier: H2NM02191
+candidacies: []
+contact:
+  phone: 202-225-2365
+  profile_url: https://vasquez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 322 Cannon House Office Building Washington DC 20515-3102
+  phone: 202-225-2365
+- classification: district
+  name: Albuquerque Office
+  address: 201 Unser Blvd. NW, Unit 116;Albuquerque, NM 87121
+  phone: 505-208-4777
+- classification: district
+  name: Las Cruces Office
+  address: 115 W. Griggs Ave.;Las Cruces, NM 88001
+  phone: 575-323-6390
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000136 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

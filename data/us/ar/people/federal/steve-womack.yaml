@@ -1,0 +1,54 @@
+id: ocd-person/b78a4e1e-b823-5cae-8cdf-b4c07e452a4f
+name: Steve Womack
+identifiers:
+- scheme: bioguide
+  identifier: W000809
+- scheme: govtrack
+  identifier: '412402'
+- scheme: wikidata
+  identifier: Q1029527
+- scheme: wikipedia
+  identifier: Steve Womack
+- scheme: ballotpedia
+  identifier: Steve Womack
+- scheme: opensecrets
+  identifier: N00031857
+- scheme: votesmart
+  identifier: '71815'
+- scheme: icpsr
+  identifier: '21108'
+- scheme: thomas
+  identifier: 01991
+- scheme: cspan
+  identifier: '1033625'
+- scheme: maplight
+  identifier: '1416'
+- scheme: fec-candidate-id
+  identifier: H0AR03055
+candidacies: []
+contact:
+  phone: 202-225-4301
+  profile_url: https://womack.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2412 Rayburn House Office Building Washington DC 20515-0403
+  phone: 202-225-4301
+- classification: district
+  name: Fort Smith Office
+  address: 6101 Phoenix Ave, Suite 4;Fort Smith, AR 72903-5083
+  phone: 479-424-1146
+  fax: 479-424-2737
+- classification: district
+  name: Rogers Office
+  address: 3333 Pinnacle Hills Parkway, Suite 120;Rogers, AR 72758
+  phone: 479-464-0446
+  fax: 479-464-0063
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000809 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,58 @@
+id: ocd-person/fdecc3c4-5ec5-58e1-8a39-f6b35c7aec65
+name: Dan Newhouse
+identifiers:
+- scheme: bioguide
+  identifier: N000189
+- scheme: govtrack
+  identifier: '412660'
+- scheme: wikidata
+  identifier: Q16733285
+- scheme: wikipedia
+  identifier: Dan Newhouse
+- scheme: ballotpedia
+  identifier: Dan Newhouse
+- scheme: opensecrets
+  identifier: N00036403
+- scheme: votesmart
+  identifier: '51522'
+- scheme: icpsr
+  identifier: '21556'
+- scheme: thomas
+  identifier: '02275'
+- scheme: cspan
+  identifier: '78315'
+- scheme: maplight
+  identifier: '2116'
+- scheme: fec-candidate-id
+  identifier: H4WA04104
+candidacies: []
+contact:
+  phone: 202-225-5816
+  profile_url: https://newhouse.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 460 Cannon House Office Building Washington DC 20515-4704
+  phone: 202-225-5816
+- classification: district
+  name: Richland Office
+  address: '3100 George Washington Way, #130;Richland, WA 99354'
+  phone: 509-713-7374
+  fax: 509-713-7377
+- classification: district
+  name: Yakima Office
+  address: 402 E Yakima Ave, Suite 1000;Yakima, WA 98901
+  phone: 509-452-3243
+  fax: 509-452-3438
+- classification: district
+  name: Grand Coulee Office
+  address: PO Box 135;Grand Coulee, WA 99133
+  phone: 509-433-7760
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000189 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

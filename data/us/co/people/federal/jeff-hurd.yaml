@@ -1,0 +1,48 @@
+id: ocd-person/275f5e17-8b69-5067-a7e4-b7fad1942ed5
+name: Jeff Hurd
+identifiers:
+- scheme: bioguide
+  identifier: H001100
+- scheme: govtrack
+  identifier: '456982'
+- scheme: wikidata
+  identifier: Q131101500
+- scheme: wikipedia
+  identifier: Jeff Hurd
+- scheme: ballotpedia
+  identifier: Jeff Hurd
+- scheme: opensecrets
+  identifier: N00053367
+- scheme: votesmart
+  identifier: '217034'
+- scheme: fec-candidate-id
+  identifier: H4CO03357
+candidacies: []
+contact:
+  phone: 202-225-4676
+  profile_url: https://hurd.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1641 Longworth House Office Building Washington DC 20515-0603
+  phone: 202-225-4676
+- classification: district
+  name: Grand Junction Office
+  address: 743 Horizon Ct, Suite 112;Grand Junction, CO 81506
+  phone: 970-208-0455
+- classification: district
+  name: Pueblo Office
+  address: 503 N Main St, Suite 426;Pueblo, CO 81003
+  phone: 719-696-6968
+- classification: district
+  name: Durango Office
+  address: 835 E 2nd Ave, Suite 204;Durango, CO 81301
+  phone: 970-317-6167
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001100 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

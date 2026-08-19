@@ -1,0 +1,54 @@
+id: ocd-person/bade7aa6-c639-5c66-8e57-3dcf3d28d685
+name: Daniel Webster
+identifiers:
+- scheme: bioguide
+  identifier: W000806
+- scheme: govtrack
+  identifier: '412410'
+- scheme: wikidata
+  identifier: Q1163099
+- scheme: wikipedia
+  identifier: Daniel Webster (Florida politician)
+- scheme: ballotpedia
+  identifier: Daniel Webster
+- scheme: opensecrets
+  identifier: N00026335
+- scheme: votesmart
+  identifier: '24302'
+- scheme: icpsr
+  identifier: '21116'
+- scheme: thomas
+  identifier: '02002'
+- scheme: cspan
+  identifier: '30504'
+- scheme: maplight
+  identifier: '1422'
+- scheme: fec-candidate-id
+  identifier: S4FL00256
+candidacies: []
+contact:
+  phone: 202-225-1002
+  profile_url: https://webster.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2184 Rayburn House Office Building Washington DC 20515-0911
+  phone: 202-225-1002
+- classification: district
+  name: The Villages Office
+  address: 8015 E County Rd 466, Suite B;The Villages, FL 32162
+  phone: 352-383-3552
+  fax: 352-241-9220
+- classification: district
+  name: Clermont Office
+  address: 1200 Oakley Seaver Drive, Suite 203;Clermont, FL 34711
+  phone: 352-241-9220
+  fax: 352-241-9220
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000806 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

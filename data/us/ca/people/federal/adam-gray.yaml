@@ -1,0 +1,40 @@
+id: ocd-person/13cda517-c93e-5caa-82cb-9f3c910f2321
+name: Adam Gray
+identifiers:
+- scheme: bioguide
+  identifier: G000605
+- scheme: govtrack
+  identifier: '456975'
+- scheme: wikidata
+  identifier: Q3000097
+- scheme: wikipedia
+  identifier: Adam Gray
+- scheme: ballotpedia
+  identifier: Adam Gray
+- scheme: opensecrets
+  identifier: N00050061
+- scheme: votesmart
+  identifier: '138552'
+- scheme: fec-candidate-id
+  identifier: H2CA13115
+candidacies: []
+contact:
+  phone: 202-225-1947
+  profile_url: https://gray.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1230 Longworth House Office Building Washington DC 20515-0513
+  phone: 202-225-1947
+- classification: district
+  name: Turlock Office
+  address: 90 S. First St.;Turlock, CA 95380
+  phone: 209-226-6880
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000605 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,48 @@
+id: ocd-person/cf29fa41-11b6-5d5a-9397-cf11cd132ba9
+name: Maria Elvira Salazar
+identifiers:
+- scheme: bioguide
+  identifier: S000168
+- scheme: govtrack
+  identifier: '456810'
+- scheme: wikidata
+  identifier: Q6003715
+- scheme: wikipedia
+  identifier: María Elvira Salazar
+- scheme: ballotpedia
+  identifier: Maria Elvira Salazar
+- scheme: opensecrets
+  identifier: N00042810
+- scheme: votesmart
+  identifier: '182300'
+- scheme: fec-candidate-id
+  identifier: H8FL27185
+candidacies: []
+contact:
+  phone: 202-225-3931
+  profile_url: https://salazar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2162 Rayburn House Office Building Washington DC 20515-0927
+  phone: 202-225-3931
+- classification: district
+  name: Miami Office
+  address: 5725 SW 8th St, Suite 200;Miami, FL 33144
+  phone: 305-668-2285
+- classification: district
+  name: Palmetto Bay Office
+  address: 9705 Hibiscus Street;Palmetto Bay, FL 33157
+  phone: 305-668-2285
+- classification: district
+  name: Cutler Bay Office
+  address: 10720 Caribbean Blvd, Suite 220;Cutler Bay, FL 33189
+  phone: 305-668-2285
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S000168 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

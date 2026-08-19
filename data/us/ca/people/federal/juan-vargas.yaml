@@ -1,0 +1,49 @@
+id: ocd-person/f2db9477-0ef1-533e-9b38-3f8d82d27ded
+name: Juan Vargas
+identifiers:
+- scheme: bioguide
+  identifier: V000130
+- scheme: govtrack
+  identifier: '412522'
+- scheme: wikidata
+  identifier: Q3791701
+- scheme: wikipedia
+  identifier: Juan Vargas
+- scheme: ballotpedia
+  identifier: Juan Vargas
+- scheme: opensecrets
+  identifier: N00007021
+- scheme: votesmart
+  identifier: '29100'
+- scheme: icpsr
+  identifier: '21314'
+- scheme: thomas
+  identifier: '02112'
+- scheme: cspan
+  identifier: '8297'
+- scheme: maplight
+  identifier: '1746'
+- scheme: fec-candidate-id
+  identifier: H2CA50026
+candidacies: []
+contact:
+  phone: 202-225-8045
+  profile_url: https://vargas.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2467 Rayburn House Office Building Washington DC 20515-0552
+  phone: 202-225-8045
+- classification: district
+  name: Chula Vista Office
+  address: 333 F St., Suite A;Chula Vista, CA 91910
+  phone: 619-422-5963
+  fax: 619-422-7290
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000130 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

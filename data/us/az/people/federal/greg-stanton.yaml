@@ -1,0 +1,42 @@
+id: ocd-person/36a4da27-93b3-5821-bc8f-6dcf671070d1
+name: Greg Stanton
+identifiers:
+- scheme: bioguide
+  identifier: S001211
+- scheme: govtrack
+  identifier: '412753'
+- scheme: wikidata
+  identifier: Q5606289
+- scheme: wikipedia
+  identifier: Greg Stanton
+- scheme: ballotpedia
+  identifier: Greg Stanton
+- scheme: opensecrets
+  identifier: N00041750
+- scheme: votesmart
+  identifier: '72030'
+- scheme: icpsr
+  identifier: '21968'
+- scheme: fec-candidate-id
+  identifier: H8AZ09040
+candidacies: []
+contact:
+  phone: 202-225-9888
+  profile_url: https://stanton.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 207 Cannon House Office Building Washington DC 20515-0304
+  phone: 202-225-9888
+- classification: district
+  name: Mesa Office
+  address: 1220 S Alma School Rd, Ste 209;Mesa, AZ 85210
+  phone: 602-956-2463
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001211 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

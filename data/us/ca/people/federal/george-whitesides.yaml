@@ -1,0 +1,44 @@
+id: ocd-person/bfb8fc80-84f8-52ee-a28b-4c9eadf3ede4
+name: George Whitesides
+identifiers:
+- scheme: bioguide
+  identifier: W000830
+- scheme: govtrack
+  identifier: '456977'
+- scheme: wikidata
+  identifier: Q3511804
+- scheme: wikipedia
+  identifier: George T. Whitesides
+- scheme: ballotpedia
+  identifier: George Whitesides
+- scheme: opensecrets
+  identifier: N00052205
+- scheme: votesmart
+  identifier: '213585'
+- scheme: fec-candidate-id
+  identifier: H4CA27111
+candidacies: []
+contact:
+  phone: 202-225-1956
+  profile_url: https://whitesides.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1504 Longworth House Office Building Washington DC 20515-0527
+  phone: 202-225-1956
+- classification: district
+  name: Palmdale Office
+  address: 1043 West Ave M4, Suite A;Palmdale, CA 93551
+  phone: 661-839-0532
+- classification: district
+  name: Santa Clarita Office
+  address: 27200 Tourney Rd, Suite 300;Santa Clarita, CA 91355
+  phone: 661-568-4855
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000830 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

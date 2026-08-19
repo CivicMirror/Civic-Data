@@ -1,0 +1,44 @@
+id: ocd-person/6c55efe8-931a-56d1-9734-adaffbafb3ed
+name: Derek Schmidt
+identifiers:
+- scheme: bioguide
+  identifier: S001228
+- scheme: govtrack
+  identifier: '456990'
+- scheme: wikidata
+  identifier: Q5262335
+- scheme: wikipedia
+  identifier: Derek Schmidt
+- scheme: ballotpedia
+  identifier: Derek Schmidt
+- scheme: opensecrets
+  identifier: N00055179
+- scheme: votesmart
+  identifier: '34451'
+- scheme: fec-candidate-id
+  identifier: H4KS02164
+candidacies: []
+contact:
+  phone: 202-225-6601
+  profile_url: https://schmidt.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1223 Longworth House Office Building Washington DC 20515-1602
+  phone: 202-225-6601
+- classification: district
+  name: Pittsburg Office
+  address: 402 N Broadway St, Suite B;Pittsburg, KS 66762
+  phone: 620-308-7450
+- classification: district
+  name: Topeka Office
+  address: 3550 SW 5th St, Suite B;Topeka, KS 66606
+  phone: 785-205-5253
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001228 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

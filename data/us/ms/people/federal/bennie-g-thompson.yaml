@@ -1,0 +1,72 @@
+id: ocd-person/27d719a5-c7b3-5610-a4d4-766829131a15
+name: Bennie G. Thompson
+identifiers:
+- scheme: bioguide
+  identifier: T000193
+- scheme: govtrack
+  identifier: '400402'
+- scheme: wikidata
+  identifier: Q817877
+- scheme: wikipedia
+  identifier: Bennie Thompson
+- scheme: ballotpedia
+  identifier: Bennie Thompson
+- scheme: opensecrets
+  identifier: N00003288
+- scheme: votesmart
+  identifier: '26929'
+- scheme: icpsr
+  identifier: '29368'
+- scheme: thomas
+  identifier: '01151'
+- scheme: cspan
+  identifier: '7304'
+- scheme: maplight
+  identifier: '490'
+- scheme: fec-candidate-id
+  identifier: H4MS02068
+candidacies: []
+contact:
+  phone: 202-225-5876
+  profile_url: https://benniethompson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2466 Rayburn House Office Building Washington DC 20515-2402
+  phone: 202-225-5876
+- classification: district
+  name: Bolton Office
+  address: 107 W. Madison St.;Bolton, MS 39041
+  phone: 601-866-9003
+  fax: 601-866-9036
+- classification: district
+  name: Greenville Office
+  address: 910 Courthouse Ln.;Greenville, MS 38701
+  phone: 662-335-9003
+  fax: 662-334-1304
+- classification: district
+  name: Jackson Office
+  address: 3607 Medgar Evers Blvd.;Jackson, MS 39213
+  phone: 601-946-9003
+  fax: 601-982-5337
+- classification: district
+  name: Marks Office
+  address: 263 E. Main St.;Marks, MS 38646
+  phone: 662-326-9003
+- classification: district
+  name: Mound Bayou Office
+  address: 106 Green Avenue, Suite 106;Mound Bayou, MS 38762
+  phone: 662-741-9003
+  fax: 662-741-9002
+- classification: district
+  name: Natchez Office
+  address: 208 Lynda Lee drive, Room 41;Natchez, MS 39120
+  phone: 601-492-9003
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000193 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

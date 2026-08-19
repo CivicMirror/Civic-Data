@@ -1,0 +1,47 @@
+id: ocd-person/af17c96a-3942-5686-a87e-1cd38346df11
+name: Aumua Amata Coleman Radewagen
+identifiers:
+- scheme: bioguide
+  identifier: R000600
+- scheme: govtrack
+  identifier: '412664'
+- scheme: wikidata
+  identifier: Q18684027
+- scheme: wikipedia
+  identifier: Amata Coleman Radewagen
+- scheme: ballotpedia
+  identifier: Amata Radewagen
+- scheme: opensecrets
+  identifier: N00007635
+- scheme: votesmart
+  identifier: '128380'
+- scheme: thomas
+  identifier: '02222'
+- scheme: cspan
+  identifier: '5188'
+- scheme: maplight
+  identifier: '2120'
+- scheme: fec-candidate-id
+  identifier: H4AS00036
+candidacies: []
+contact:
+  phone: 202-225-8577
+  profile_url: https://radewagen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2001 Rayburn House Office Building Washington DC 20515-5200
+  phone: 202-225-8577
+- classification: district
+  name: Pagopago Office
+  address: 1 Fagatogo Square, Box 5859;Pagopago, AS 96799
+  phone: 684-633-3601
+  fax: 684-633-3607
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000600 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

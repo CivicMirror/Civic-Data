@@ -1,0 +1,79 @@
+id: ocd-person/8b30a875-9fe4-591a-8094-c831e43a39dd
+name: John Cornyn
+identifiers:
+- scheme: bioguide
+  identifier: C001056
+- scheme: govtrack
+  identifier: '300027'
+- scheme: wikidata
+  identifier: Q719568
+- scheme: wikipedia
+  identifier: John Cornyn
+- scheme: ballotpedia
+  identifier: John Cornyn
+- scheme: opensecrets
+  identifier: N00024852
+- scheme: votesmart
+  identifier: '15375'
+- scheme: icpsr
+  identifier: '40305'
+- scheme: lis
+  identifier: S287
+- scheme: thomas
+  identifier: 01692
+- scheme: cspan
+  identifier: '93131'
+- scheme: maplight
+  identifier: '553'
+- scheme: fec-candidate-id
+  identifier: S2TX00106
+candidacies: []
+contact:
+  phone: 202-224-2934
+  profile_url: https://www.cornyn.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 517 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2934
+- classification: district
+  name: Austin Office
+  address: Chase Tower, 221 W. Sixth St., Suite 1350;Austin, TX 78701
+  phone: 512-469-6034
+  fax: 512-469-6020
+- classification: district
+  name: Dallas Office
+  address: 5001 Spring Valley Rd., Suite 1125 E;Dallas, TX 75244
+  phone: 972-239-1310
+  fax: 972-239-2110
+- classification: district
+  name: Lubbock Office
+  address: Wells Fargo Center, 1500 Broadway, Suite 1230;Lubbock, TX 79401
+  phone: 806-472-7533
+  fax: 806-472-7536
+- classification: district
+  name: San Antonio Office
+  address: 600 Navarro, Suite 210;San Antonio, TX 78205
+  phone: 210-224-7485
+  fax: 210-224-8569
+- classification: district
+  name: Tyler Office
+  address: Regions Bank Building, 100 E. Ferguson St., Suite 1004;Tyler, TX 75702
+  phone: 903-593-0902
+  fax: 903-593-0920
+- classification: district
+  name: Houston Office
+  address: 5300 Memorial Drive, Suite 710;Houston, TX 77007
+  phone: 713-572-3337
+- classification: district
+  name: Harlingen Office
+  address: 6770 W. Expressway 83, Suite 302;Harlingen, TX 78552
+  phone: 956-423-0162
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001056 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,40 @@
+id: ocd-person/e342ef99-4c79-58d2-89cf-0a25fb786544
+name: Sydney Kamlager-Dove
+identifiers:
+- scheme: bioguide
+  identifier: K000400
+- scheme: govtrack
+  identifier: '456884'
+- scheme: wikidata
+  identifier: Q20177418
+- scheme: wikipedia
+  identifier: Sydney Kamlager-Dove
+- scheme: ballotpedia
+  identifier: Sydney Kamlager-Dove
+- scheme: opensecrets
+  identifier: N00049460
+- scheme: votesmart
+  identifier: '178079'
+- scheme: fec-candidate-id
+  identifier: H2CA37304
+candidacies: []
+contact:
+  phone: 202-225-7084
+  profile_url: https://kamlager-dove.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 144 Cannon House Office Building Washington DC 20515-0537
+  phone: 202-225-7084
+- classification: district
+  name: Los Angeles Office
+  address: 4929 Wilshire Blvd., Suite 650;Los Angeles, CA 90010
+  phone: 323-965-1422
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000400 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

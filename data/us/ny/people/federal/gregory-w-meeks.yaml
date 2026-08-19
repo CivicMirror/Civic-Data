@@ -1,0 +1,54 @@
+id: ocd-person/34d7db7b-6b6a-5ec6-8d28-ebfe0f63e2fa
+name: Gregory W. Meeks
+identifiers:
+- scheme: bioguide
+  identifier: M001137
+- scheme: govtrack
+  identifier: '400271'
+- scheme: wikidata
+  identifier: Q1545391
+- scheme: wikipedia
+  identifier: Gregory Meeks
+- scheme: ballotpedia
+  identifier: Gregory Meeks
+- scheme: opensecrets
+  identifier: N00001171
+- scheme: votesmart
+  identifier: '4360'
+- scheme: icpsr
+  identifier: '29776'
+- scheme: thomas
+  identifier: '01506'
+- scheme: cspan
+  identifier: '53469'
+- scheme: maplight
+  identifier: '367'
+- scheme: fec-candidate-id
+  identifier: H8NY06048
+candidacies: []
+contact:
+  phone: 202-225-3461
+  profile_url: https://meeks.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2310 Rayburn House Office Building Washington DC 20515-3205
+  phone: 202-225-3461
+- classification: district
+  name: Arverne Office
+  address: 67-12 Rockaway Beach Blvd.;Arverne, NY 11692
+  phone: 347-230-4032
+  fax: 347-230-4045
+- classification: district
+  name: Jamaica Office
+  address: 153-01 Jamaica Ave., 2nd floor;Jamaica, NY 11432
+  phone: 718-725-6000
+  fax: 718-725-9868
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001137 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

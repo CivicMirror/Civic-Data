@@ -1,0 +1,57 @@
+id: ocd-person/74c33ba1-b496-5236-9e2f-d0103cc8f93b
+name: Vicente Gonzalez
+identifiers:
+- scheme: bioguide
+  identifier: G000581
+- scheme: govtrack
+  identifier: '412725'
+- scheme: wikidata
+  identifier: Q27924921
+- scheme: wikipedia
+  identifier: Vicente Gonzalez (American politician)
+- scheme: ballotpedia
+  identifier: Vicente Gonzalez Jr.
+- scheme: opensecrets
+  identifier: N00038809
+- scheme: votesmart
+  identifier: '166483'
+- scheme: icpsr
+  identifier: '21722'
+- scheme: cspan
+  identifier: '103568'
+- scheme: maplight
+  identifier: '2237'
+- scheme: fec-candidate-id
+  identifier: H6TX15162
+candidacies: []
+contact:
+  phone: 202-225-2531
+  profile_url: https://gonzalez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1201 Longworth House Office Building Washington DC 20515-4334
+  phone: 202-225-2531
+- classification: district
+  name: Kingsville Office
+  address: 100 W. King Ave., Suite 106;Kingsville, TX 78363
+  phone: 956-682-5545
+  fax: 956-544-1884
+- classification: district
+  name: Brownsville Office
+  address: 835 E. Levee St., 6th Floor;Brownsville, TX 78520
+  phone: 956-682-5545
+  fax: 956-544-1884
+- classification: district
+  name: Weslaco Office
+  address: 255 S. Kansas Ave;Weslaco, TX 78596
+  phone: 956-682-5545
+  fax: 956-544-1884
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000581 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

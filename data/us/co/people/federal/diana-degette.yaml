@@ -1,0 +1,49 @@
+id: ocd-person/650a4716-fe17-522b-bd82-62202c7477ed
+name: Diana DeGette
+identifiers:
+- scheme: bioguide
+  identifier: D000197
+- scheme: govtrack
+  identifier: '400101'
+- scheme: wikidata
+  identifier: Q437159
+- scheme: wikipedia
+  identifier: Diana DeGette
+- scheme: ballotpedia
+  identifier: Diana DeGette
+- scheme: opensecrets
+  identifier: N00006134
+- scheme: votesmart
+  identifier: '561'
+- scheme: icpsr
+  identifier: '29710'
+- scheme: thomas
+  identifier: 01479
+- scheme: cspan
+  identifier: '90293'
+- scheme: maplight
+  identifier: '214'
+- scheme: fec-candidate-id
+  identifier: H6CO01141
+candidacies: []
+contact:
+  phone: 202-225-4431
+  profile_url: https://degette.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2111 Rayburn House Office Building Washington DC 20515-0601
+  phone: 202-225-4431
+- classification: district
+  name: Denver Office
+  address: 600 Grant Street, Suite 850;Denver, CO 80203
+  phone: 303-844-4988
+  fax: 303-844-4996
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000197 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

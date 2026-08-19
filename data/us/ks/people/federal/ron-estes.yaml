@@ -1,0 +1,46 @@
+id: ocd-person/dae97154-4a51-51c5-84db-9ab17607cef1
+name: Ron Estes
+identifiers:
+- scheme: bioguide
+  identifier: E000298
+- scheme: govtrack
+  identifier: '412735'
+- scheme: wikidata
+  identifier: Q7363747
+- scheme: wikipedia
+  identifier: Ron Estes
+- scheme: ballotpedia
+  identifier: Ron Estes (U.S. House representative)
+- scheme: opensecrets
+  identifier: N00040712
+- scheme: votesmart
+  identifier: '125031'
+- scheme: icpsr
+  identifier: '21750'
+- scheme: cspan
+  identifier: '107963'
+- scheme: maplight
+  identifier: '2246'
+- scheme: fec-candidate-id
+  identifier: H8KS04112
+candidacies: []
+contact:
+  phone: 202-225-6216
+  profile_url: https://estes.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2234 Rayburn House Office Building Washington DC 20515-1604
+  phone: 202-225-6216
+- classification: district
+  name: Wichita Office
+  address: 7701 E. Kellogg, Ste. 510;Wichita, KS 67207
+  phone: 316-262-8992
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide E000298 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

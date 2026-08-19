@@ -1,0 +1,53 @@
+id: ocd-person/0b1239be-9540-52ec-9156-c4116effe826
+name: Tim Walberg
+identifiers:
+- scheme: bioguide
+  identifier: W000798
+- scheme: govtrack
+  identifier: '412213'
+- scheme: wikidata
+  identifier: Q978618
+- scheme: wikipedia
+  identifier: Tim Walberg
+- scheme: ballotpedia
+  identifier: Tim Walberg
+- scheme: opensecrets
+  identifier: N00026368
+- scheme: votesmart
+  identifier: '8618'
+- scheme: icpsr
+  identifier: '20725'
+- scheme: thomas
+  identifier: 01855
+- scheme: cspan
+  identifier: '1022844'
+- scheme: maplight
+  identifier: '698'
+- scheme: fec-candidate-id
+  identifier: H4MI07103
+candidacies: []
+contact:
+  phone: 202-225-6276
+  profile_url: https://walberg.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2266 Rayburn House Office Building Washington DC 20515-2205
+  phone: 202-225-6276
+- classification: district
+  name: Jackson Office
+  address: 401 W. Michigan Ave.;Jackson, MI 49201
+  phone: 517-780-9075
+  fax: 517-780-9081
+- classification: district
+  name: Niles Office
+  address: 92 E. Main St.;Niles, MI 49120
+  phone: 269-479-3115
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000798 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

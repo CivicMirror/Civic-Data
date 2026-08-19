@@ -1,0 +1,52 @@
+id: ocd-person/ee7653f5-538b-5ed1-a903-e583370a7be5
+name: John R. Moolenaar
+identifiers:
+- scheme: bioguide
+  identifier: M001194
+- scheme: govtrack
+  identifier: '412634'
+- scheme: wikidata
+  identifier: Q16194212
+- scheme: wikipedia
+  identifier: John Moolenaar
+- scheme: ballotpedia
+  identifier: John Moolenaar
+- scheme: opensecrets
+  identifier: N00036275
+- scheme: votesmart
+  identifier: '37676'
+- scheme: icpsr
+  identifier: '21526'
+- scheme: thomas
+  identifier: 02248
+- scheme: cspan
+  identifier: '76660'
+- scheme: maplight
+  identifier: '2090'
+- scheme: fec-candidate-id
+  identifier: H4MI04126
+candidacies: []
+contact:
+  phone: 202-225-3561
+  profile_url: https://moolenaar.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 246 Cannon House Office Building Washington DC 20515-2202
+  phone: 202-225-3561
+- classification: district
+  name: Clare Office
+  address: 431 North McEwan Street;Clare, MI 48617
+  phone: 989-802-6040
+- classification: district
+  name: Caledonia Office
+  address: 8980 North Rodgers Court, Suite H;Caledonia, MI 49316
+  phone: 616-528-7100
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001194 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

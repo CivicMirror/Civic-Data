@@ -1,0 +1,49 @@
+id: ocd-person/fd0e5657-197a-58d1-bf4b-08f06127ebbc
+name: Suzanne Bonamici
+identifiers:
+- scheme: bioguide
+  identifier: B001278
+- scheme: govtrack
+  identifier: '412501'
+- scheme: wikidata
+  identifier: Q45946
+- scheme: wikipedia
+  identifier: Suzanne Bonamici
+- scheme: ballotpedia
+  identifier: Suzanne Bonamici
+- scheme: opensecrets
+  identifier: N00033474
+- scheme: votesmart
+  identifier: '59641'
+- scheme: icpsr
+  identifier: '21198'
+- scheme: thomas
+  identifier: 02092
+- scheme: cspan
+  identifier: '63966'
+- scheme: maplight
+  identifier: '1682'
+- scheme: fec-candidate-id
+  identifier: H2OR01133
+candidacies: []
+contact:
+  phone: 202-225-0855
+  profile_url: https://bonamici.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2231 Rayburn House Office Building Washington DC 20515-3701
+  phone: 202-225-0855
+- classification: district
+  name: Beaverton Office
+  address: 12725 SW Millikan Way, Suite 220;Beaverton, OR 97005
+  phone: 503-469-6010
+  fax: 503-469-6018
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001278 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

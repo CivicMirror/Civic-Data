@@ -1,0 +1,65 @@
+id: ocd-person/8e6f5eb5-7ee9-5856-8b15-74cca9d423bb
+name: Katie Boyd Britt
+identifiers:
+- scheme: bioguide
+  identifier: B001319
+- scheme: govtrack
+  identifier: '456874'
+- scheme: wikidata
+  identifier: Q111285444
+- scheme: wikipedia
+  identifier: Katie Britt
+- scheme: ballotpedia
+  identifier: Katie Britt
+- scheme: opensecrets
+  identifier: N00048812
+- scheme: votesmart
+  identifier: '201704'
+- scheme: lis
+  identifier: S416
+- scheme: fec-candidate-id
+  identifier: S2AL00145
+candidacies: []
+contact:
+  phone: 202-224-5744
+  profile_url: https://www.britt.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 416 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-5744
+- classification: district
+  name: Birmingham Office
+  address: 321 Federal Building, 1800 5th Avenue North;Birmingham, AL 35203
+  phone: 205-731-1384
+- classification: district
+  name: Tuscaloosa Office
+  address: 2005 University Boulevard, Suite 2100;Tuscaloosa, AL 35401
+  phone: 659-251-2880
+- classification: district
+  name: Huntsville Office
+  address: 660 Gallatin St SW, Suite 1400;Huntsville, AL 35801
+  phone: 256-429-3450
+- classification: district
+  name: Montgomery Office
+  address: United States Federal Courthouse, One Church Street, Suite F-401;Montgomery, AL 36104
+  phone: 334-777-1150
+- classification: district
+  name: Anniston Office
+  address: 1100 Gurnee Avenue, Suite 306;Anniston, AL 36206
+- classification: district
+  name: Dothan Office
+  address: Dothan Courthouse and Federal Building, 100 W. Troy St, Suite 101;Dothan, AL 36303
+  phone: 334-500-4097
+- classification: district
+  name: Mobile Office
+  address: 113 Saint Joseph Street, Room 365;Mobile, AL 36602
+  phone: 251-662-9990
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001319 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

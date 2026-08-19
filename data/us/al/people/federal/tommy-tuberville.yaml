@@ -1,0 +1,58 @@
+id: ocd-person/5ff75cb2-e8f2-5006-81e8-8d697c097c2f
+name: Tommy Tuberville
+identifiers:
+- scheme: bioguide
+  identifier: T000278
+- scheme: govtrack
+  identifier: '456796'
+- scheme: wikidata
+  identifier: Q7819948
+- scheme: wikipedia
+  identifier: Tommy Tuberville
+- scheme: ballotpedia
+  identifier: Tommy Tuberville
+- scheme: opensecrets
+  identifier: N00044434
+- scheme: votesmart
+  identifier: '188306'
+- scheme: lis
+  identifier: S412
+- scheme: fec-candidate-id
+  identifier: S0AL00230
+candidacies: []
+contact:
+  phone: 202-224-4124
+  profile_url: https://www.tuberville.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 455 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4124
+- classification: district
+  name: Mobile Office
+  address: 3BB&T Centre, 41 West I-65, Service Rd. N., Suite 2300-A;Mobile, AL 36608
+  phone: 251-308-7233
+- classification: district
+  name: Huntsville Office
+  address: 2101 Clinton Ave. W., Suite 300;Huntsville, AL 35805
+  phone: 256-692-7500
+- classification: district
+  name: Birmingham Office
+  address: 3000 Riverchase Galleria, Suite 915;Birmingham, AL 35244
+  phone: 205-760-7307
+- classification: district
+  name: Montgomery Office
+  address: Frank M Johnson Jr. Annex, One Church St., Suite 500-B;Montgomery, AL 36104
+  phone: 334-523-7424
+- classification: district
+  name: Dothan Office
+  address: 100 West Troy St.;Dothan, AL 36303
+  phone: 334-547-7441
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000278 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

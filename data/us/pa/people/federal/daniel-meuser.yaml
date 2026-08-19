@@ -1,0 +1,66 @@
+id: ocd-person/269260d1-8c93-5880-b179-883d9ae29ef8
+name: Daniel Meuser
+identifiers:
+- scheme: bioguide
+  identifier: M001204
+- scheme: govtrack
+  identifier: '412811'
+- scheme: wikidata
+  identifier: Q5214012
+- scheme: wikipedia
+  identifier: Dan Meuser
+- scheme: ballotpedia
+  identifier: Dan Meuser
+- scheme: opensecrets
+  identifier: N00029416
+- scheme: votesmart
+  identifier: '102438'
+- scheme: icpsr
+  identifier: '21945'
+- scheme: fec-candidate-id
+  identifier: H8PA10147
+candidacies: []
+contact:
+  phone: 202-225-6511
+  profile_url: https://meuser.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 350 Cannon House Office Building Washington DC 20515-3809
+  phone: 202-225-6511
+- classification: district
+  name: Pottsville Office
+  address: Losch Plaza, 121 Progress Ave, Suite 110;Pottsville, PA 17901-2968
+  phone: 570-871-6370
+- classification: district
+  name: Lebanon Office
+  address: Lebanon County Courthouse, 400 S 8th St;Lebanon, PA 17042
+  phone: 717-603-1459
+- classification: district
+  name: Williamsport Office
+  address: Executive Plaza, 330 Pine Street, 1st Floor;Williamsport, PA 17701
+  phone: 570-202-0658
+- classification: district
+  name: Bloomsburg Office
+  address: Market Street Plaza, 1000 Market Street, Suite 39, Office of Rep. Robert Leadbeter;Bloomsburg, PA 17815
+  phone: 570-871-6370
+- classification: district
+  name: Berwick Office
+  address: 134 W Front Street, Suite 102, Office of Rep. Robert Leadbeter;Berwick, PA 18603
+  phone: 570-871-6370
+- classification: district
+  name: Tunkhannock Office
+  address: 511 Mile Road;Tunkhannock, PA 18657
+  phone: 570-665-3083
+- classification: district
+  name: Hamburg Office
+  address: Hamburg Municipal Center, 61 N 3rd St, 2nd floor;Hamburg, PA 19526
+  phone: 610-428-0869
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001204 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

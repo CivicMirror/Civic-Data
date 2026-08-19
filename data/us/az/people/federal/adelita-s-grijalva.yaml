@@ -1,0 +1,39 @@
+id: ocd-person/adc35e41-d05c-5b2b-95d6-5d1c5360d641
+name: Adelita S. Grijalva
+identifiers:
+- scheme: bioguide
+  identifier: G000606
+- scheme: govtrack
+  identifier: '457037'
+- scheme: wikidata
+  identifier: Q134612342
+- scheme: wikipedia
+  identifier: Adelita Grijalva
+- scheme: ballotpedia
+  identifier: Adelita Grijalva
+- scheme: votesmart
+  identifier: '196554'
+- scheme: fec-candidate-id
+  identifier: H6AZ07121
+candidacies: []
+contact:
+  phone: 202-225-2435
+  profile_url: https://grijalva.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1203 Longworth House Office Building Washington DC 20515-0307
+  phone: 202-225-2435
+- classification: district
+  name: Tucson Office
+  address: Building 4, 101 W. Irvington Road;Tucson, AZ 85714
+  phone: 520-622-6788
+  fax: 520-622-0198
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000606 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

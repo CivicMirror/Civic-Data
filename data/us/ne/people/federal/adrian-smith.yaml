@@ -1,0 +1,59 @@
+id: ocd-person/3c2f3749-a7e1-502a-aecc-9f2690e2cbc9
+name: Adrian Smith
+identifiers:
+- scheme: bioguide
+  identifier: S001172
+- scheme: govtrack
+  identifier: '412217'
+- scheme: wikidata
+  identifier: Q373443
+- scheme: wikipedia
+  identifier: Adrian Smith (politician)
+- scheme: ballotpedia
+  identifier: Adrian Smith
+- scheme: opensecrets
+  identifier: N00027623
+- scheme: votesmart
+  identifier: '21284'
+- scheme: icpsr
+  identifier: '20729'
+- scheme: thomas
+  identifier: 01860
+- scheme: cspan
+  identifier: '1022845'
+- scheme: maplight
+  identifier: '702'
+- scheme: fec-candidate-id
+  identifier: H6NE03115
+candidacies: []
+contact:
+  phone: 202-225-6435
+  profile_url: https://adriansmith.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 502 Cannon House Office Building Washington DC 20515-2703
+  phone: 202-225-6435
+- classification: district
+  name: Grand Island Office
+  address: 1811 W. Second St., Suite 275;Grand Island, NE 68803
+  phone: 308-384-3900
+  fax: 308-384-3902
+- classification: district
+  name: Scottsbluff Office
+  address: 416 Valley View Dr., Suite 600;Scottsbluff, NE 69361
+  phone: 308-633-6333
+  fax: 308-633-6335
+- classification: district
+  name: Nebraska City Office
+  address: 202 South 8th Street, Suite A;Nebraska City, NE 68410
+  phone: 402-874-6050
+  fax: 402-874-6049
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001172 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

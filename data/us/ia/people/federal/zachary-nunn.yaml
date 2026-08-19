@@ -1,0 +1,48 @@
+id: ocd-person/b5ec547d-7762-5581-b91b-04b9d0ad09fc
+name: Zachary Nunn
+identifiers:
+- scheme: bioguide
+  identifier: N000193
+- scheme: govtrack
+  identifier: '456898'
+- scheme: wikidata
+  identifier: Q84719792
+- scheme: wikipedia
+  identifier: Zach Nunn
+- scheme: ballotpedia
+  identifier: Zach Nunn
+- scheme: opensecrets
+  identifier: N00048870
+- scheme: votesmart
+  identifier: '151170'
+- scheme: fec-candidate-id
+  identifier: H2IA03119
+candidacies: []
+contact:
+  phone: 202-225-5476
+  profile_url: https://nunn.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1410 Longworth House Office Building Washington DC 20515-1503
+  phone: 202-225-5476
+- classification: district
+  name: Des Moines Office
+  address: 400 Locust Street, Suite 250;Des Moines, IA 50309
+  phone: 515-400-8180
+- classification: district
+  name: Creston Office
+  address: 208 W Taylor Street;Creston, IA 50801
+  phone: 641-220-9093
+- classification: district
+  name: Ottumwa Office
+  address: 223 East Main Street;Ottumwa, IA 52501
+  phone: 641-220-9641
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000193 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

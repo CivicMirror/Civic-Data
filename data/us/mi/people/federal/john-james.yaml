@@ -1,0 +1,40 @@
+id: ocd-person/f97e1dac-9a1c-5ca4-89d4-c872978a9cf2
+name: John James
+identifiers:
+- scheme: bioguide
+  identifier: J000307
+- scheme: govtrack
+  identifier: '456907'
+- scheme: wikidata
+  identifier: Q56027187
+- scheme: wikipedia
+  identifier: John James (Michigan politician)
+- scheme: ballotpedia
+  identifier: John James (Michigan)
+- scheme: opensecrets
+  identifier: N00041550
+- scheme: votesmart
+  identifier: '181062'
+- scheme: fec-candidate-id
+  identifier: S8MI00372
+candidacies: []
+contact:
+  phone: 202-225-4961
+  profile_url: https://james.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1519 Longworth House Office Building Washington DC 20515-2210
+  phone: 202-225-4961
+- classification: district
+  name: Warren Office
+  address: Warren District Office, 30500 Van Dyke Avenue, Suite 306;Warren, MI 48093
+  phone: 586-498-7122
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000307 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/76782932-72fc-5d8f-b297-a06634bc4cf6
+name: Randy Fine
+identifiers:
+- scheme: bioguide
+  identifier: F000484
+- scheme: govtrack
+  identifier: '457035'
+- scheme: wikidata
+  identifier: Q59240328
+- scheme: wikipedia
+  identifier: Randy Fine
+- scheme: ballotpedia
+  identifier: Randy Fine
+- scheme: votesmart
+  identifier: '172909'
+- scheme: fec-candidate-id
+  identifier: H6FL06258
+candidacies: []
+contact:
+  phone: 202-225-2706
+  profile_url: https://fine.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 244 Cannon House Office Building Washington DC 20515-0906
+  phone: 202-225-2706
+- classification: district
+  name: Palm Coast Office
+  address: 31 Lupi Court, Suite 130;Palm Coast, FL 32137-4761
+  phone: 386-302-0442
+  fax: 386-283-5164
+- classification: district
+  name: Deland Office
+  address: 120 S. Florida Ave.;Deland, FL 32720-5422
+  phone: 386-279-0707
+  fax: 386-279-0874
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000484 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,48 @@
+id: ocd-person/7e2e8d83-10ea-5c02-a7ad-e9ae0a6d68b0
+name: Timothy M. Kennedy
+identifiers:
+- scheme: bioguide
+  identifier: K000402
+- scheme: govtrack
+  identifier: '456957'
+- scheme: wikidata
+  identifier: Q7807373
+- scheme: wikipedia
+  identifier: Tim Kennedy (politician)
+- scheme: ballotpedia
+  identifier: Timothy M. Kennedy
+- scheme: opensecrets
+  identifier: N00054366
+- scheme: votesmart
+  identifier: '91670'
+- scheme: cspan
+  identifier: '134035'
+- scheme: fec-candidate-id
+  identifier: H4NY26078
+candidacies: []
+contact:
+  phone: 202-225-3306
+  profile_url: https://kennedy.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 423 Cannon House Office Building Washington DC 20515-3226
+  phone: 202-225-3306
+- classification: district
+  name: Buffalo Office
+  address: 726 Exchange Street, Suite 601;Buffalo, NY 14210
+  phone: 716-852-3501
+  fax: 716-852-3929
+- classification: district
+  name: Niagara Falls Office
+  address: 800 Main Street, Suite 3C;Niagara Falls, NY 14301
+  phone: 716-282-1274
+  fax: 716-282-2479
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000402 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

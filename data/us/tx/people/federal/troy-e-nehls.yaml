@@ -1,0 +1,40 @@
+id: ocd-person/894c49de-8e09-5c3d-b012-5ba799825c7a
+name: Troy E. Nehls
+identifiers:
+- scheme: bioguide
+  identifier: N000026
+- scheme: govtrack
+  identifier: '456848'
+- scheme: wikidata
+  identifier: Q96741441
+- scheme: wikipedia
+  identifier: Troy Nehls
+- scheme: ballotpedia
+  identifier: Troy Nehls
+- scheme: opensecrets
+  identifier: N00046067
+- scheme: votesmart
+  identifier: '188334'
+- scheme: fec-candidate-id
+  identifier: H0TX22302
+candidacies: []
+contact:
+  phone: 202-225-5951
+  profile_url: https://nehls.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1104 Longworth House Office Building Washington DC 20515-4322
+  phone: 202-225-5951
+- classification: district
+  name: Fulshear Office
+  address: 6510 FM 359 S, Suite 200;Fulshear, TX 77441
+  phone: 346-762-6600
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000026 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

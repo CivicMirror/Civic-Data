@@ -1,0 +1,40 @@
+id: ocd-person/15c2fe27-e4f6-520d-9dde-13e80792215b
+name: Nellie Pou
+identifiers:
+- scheme: bioguide
+  identifier: P000621
+- scheme: govtrack
+  identifier: '457009'
+- scheme: wikidata
+  identifier: Q6990132
+- scheme: wikipedia
+  identifier: Nellie Pou
+- scheme: ballotpedia
+  identifier: Nellie Pou
+- scheme: opensecrets
+  identifier: N00055613
+- scheme: votesmart
+  identifier: '15181'
+- scheme: fec-candidate-id
+  identifier: H4NJ09194
+candidacies: []
+contact:
+  phone: 202-225-5751
+  profile_url: https://pou.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1007 Longworth House Office Building Washington DC 20515-3009
+  phone: 202-225-5751
+- classification: district
+  name: Paterson Office
+  address: 100 Hamilton Plaza, Suite 1400;Paterson, NJ 07505
+  phone: 973-523-5152
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000621 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

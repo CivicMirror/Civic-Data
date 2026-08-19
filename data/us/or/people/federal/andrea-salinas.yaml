@@ -1,0 +1,44 @@
+id: ocd-person/9d1a9062-3383-55a6-a1ad-164a4ab2fc50
+name: Andrea Salinas
+identifiers:
+- scheme: bioguide
+  identifier: S001226
+- scheme: govtrack
+  identifier: '456934'
+- scheme: wikidata
+  identifier: Q39791512
+- scheme: wikipedia
+  identifier: Andrea Salinas
+- scheme: ballotpedia
+  identifier: Andrea Salinas
+- scheme: opensecrets
+  identifier: N00049738
+- scheme: votesmart
+  identifier: '178196'
+- scheme: fec-candidate-id
+  identifier: H2OR06066
+candidacies: []
+contact:
+  phone: 202-225-5643
+  profile_url: https://salinas.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 403 Cannon House Office Building Washington DC 20515-0001
+  phone: 202-225-5643
+- classification: district
+  name: Tualatin Office
+  address: '18861 SW Martinazzi Avenue, #200;Tualatin, OR 97062'
+  phone: 503-385-0906
+- classification: district
+  name: Salem Office
+  address: '530 Center Street NE, #415;Salem, OR 97301'
+  phone: 503-385-0906
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001226 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

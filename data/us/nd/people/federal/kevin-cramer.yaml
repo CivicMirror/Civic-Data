@@ -1,0 +1,66 @@
+id: ocd-person/0e115a52-9e91-5208-a2b1-16bf200b5391
+name: Kevin Cramer
+identifiers:
+- scheme: bioguide
+  identifier: C001096
+- scheme: govtrack
+  identifier: '412555'
+- scheme: wikidata
+  identifier: Q3957020
+- scheme: wikipedia
+  identifier: Kevin Cramer
+- scheme: ballotpedia
+  identifier: Kevin Cramer
+- scheme: opensecrets
+  identifier: N00004614
+- scheme: votesmart
+  identifier: '444'
+- scheme: icpsr
+  identifier: '21350'
+- scheme: lis
+  identifier: S398
+- scheme: thomas
+  identifier: '02144'
+- scheme: cspan
+  identifier: '7600'
+- scheme: maplight
+  identifier: '1779'
+- scheme: fec-candidate-id
+  identifier: S8ND00120
+candidacies: []
+contact:
+  phone: 202-224-2043
+  profile_url: https://www.cramer.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 313 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-2043
+- classification: district
+  name: Bismarck Office
+  address: 328 Federal Building, 220 E. Rosser Ave.;Bismarck, ND 58501
+  phone: 701-204-0500
+- classification: district
+  name: Fargo Office
+  address: 306 Federal Building, 657 Second Avenue N;Fargo, ND 58102
+  phone: 701-232-5094
+- classification: district
+  name: Grand Forks Office
+  address: 114 Federal Building, 102 North 4th Street;Grand Forks, ND 58203
+  phone: 701-402-4540
+- classification: district
+  name: Minot Office
+  address: 105 Federal Building, 100 First Street SW;Minot, ND 58701
+  phone: 701-837-6141
+- classification: district
+  name: Williston Office
+  address: '125 Main Street, Suite #217;Williston, ND 58801'
+  phone: 701-441-7230
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001096 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

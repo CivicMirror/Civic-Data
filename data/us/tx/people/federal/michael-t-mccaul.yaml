@@ -1,0 +1,54 @@
+id: ocd-person/185bf4d0-d1ca-5798-9037-dba9b455ffb7
+name: Michael T. McCaul
+identifiers:
+- scheme: bioguide
+  identifier: M001157
+- scheme: govtrack
+  identifier: '400654'
+- scheme: wikidata
+  identifier: Q539509
+- scheme: wikipedia
+  identifier: Michael McCaul
+- scheme: ballotpedia
+  identifier: Michael McCaul
+- scheme: opensecrets
+  identifier: N00026460
+- scheme: votesmart
+  identifier: '49210'
+- scheme: icpsr
+  identifier: '20530'
+- scheme: thomas
+  identifier: 01804
+- scheme: cspan
+  identifier: '1013056'
+- scheme: maplight
+  identifier: '659'
+- scheme: fec-candidate-id
+  identifier: H4TX10093
+candidacies: []
+contact:
+  phone: 202-225-2401
+  profile_url: https://mccaul.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2300 Rayburn House Office Building Washington DC 20515-4310
+  phone: 202-225-2401
+- classification: district
+  name: College Station Office
+  address: 175 Century Square Drive, Suite 210;College Station, TX 77840
+  phone: 979-431-6480
+  fax: 979-431-5180
+- classification: district
+  name: Austin Office
+  address: 11614 FM2244, Suite 160;Austin, TX 78738
+  phone: 512-770-8929
+  fax: 512-473-0514
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001157 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

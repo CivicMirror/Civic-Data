@@ -1,0 +1,54 @@
+id: ocd-person/d388d9ef-4207-59b0-9f5f-1b6657d7f0e5
+name: Mario Diaz-Balart
+identifiers:
+- scheme: bioguide
+  identifier: D000600
+- scheme: govtrack
+  identifier: '400108'
+- scheme: wikidata
+  identifier: Q767270
+- scheme: wikipedia
+  identifier: Mario Díaz-Balart
+- scheme: ballotpedia
+  identifier: Mario Diaz-Balart
+- scheme: opensecrets
+  identifier: N00025337
+- scheme: votesmart
+  identifier: '24312'
+- scheme: icpsr
+  identifier: '20316'
+- scheme: thomas
+  identifier: '01717'
+- scheme: cspan
+  identifier: '1003562'
+- scheme: maplight
+  identifier: '221'
+- scheme: fec-candidate-id
+  identifier: H2FL25018
+candidacies: []
+contact:
+  phone: 202-225-4211
+  profile_url: https://mariodiazbalart.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 374 Cannon House Office Building Washington DC 20515-0926
+  phone: 202-225-4211
+- classification: district
+  name: Doral Office
+  address: 8669 NW. 36th St., Suite 100;Doral, FL 33166
+  phone: 305-470-8555
+  fax: 305-470-8575
+- classification: district
+  name: Naples Office
+  address: 4715 Golden Gate Pkwy., Suite 1;Naples, FL 34116
+  phone: 239-348-1620
+  fax: 239-348-3569
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000600 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

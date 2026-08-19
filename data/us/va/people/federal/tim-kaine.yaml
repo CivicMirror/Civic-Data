@@ -1,0 +1,75 @@
+id: ocd-person/638bb22f-b866-5a5d-af37-02f4622e331e
+name: Tim Kaine
+identifiers:
+- scheme: bioguide
+  identifier: K000384
+- scheme: govtrack
+  identifier: '412582'
+- scheme: wikidata
+  identifier: Q359888
+- scheme: wikipedia
+  identifier: Tim Kaine
+- scheme: ballotpedia
+  identifier: Tim Kaine
+- scheme: opensecrets
+  identifier: N00033177
+- scheme: votesmart
+  identifier: '50772'
+- scheme: icpsr
+  identifier: '41305'
+- scheme: lis
+  identifier: S362
+- scheme: thomas
+  identifier: '02176'
+- scheme: cspan
+  identifier: '49219'
+- scheme: maplight
+  identifier: '1806'
+- scheme: fec-candidate-id
+  identifier: S2VA00142
+candidacies: []
+contact:
+  phone: 202-224-4024
+  profile_url: https://www.kaine.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 231 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4024
+- classification: district
+  name: Abingdon Office
+  address: 121 Russell Rd., Suite 2;Abingdon, VA 24210
+  phone: 276-525-4790
+  fax: 276-525-4792
+- classification: district
+  name: Manassas Office
+  address: 9408 Grant Avenue, Suite 202;Manassas, VA 20110
+  phone: 703-361-3192
+  fax: 703-361-3198
+- classification: district
+  name: Richmond Office
+  address: 919 E. Main St., Suite 970;Richmond, VA 23219
+  phone: 804-771-2221
+  fax: 804-771-8313
+- classification: district
+  name: Roanoke Office
+  address: 611 S. Jefferson St., Suite 5B;Roanoke, VA 24011
+  phone: 540-682-5693
+  fax: 540-682-5697
+- classification: district
+  name: Virginia Beach Office
+  address: 222 Central Park Ave., Suite 120;Virginia Beach, VA 23462
+  phone: 757-518-1674
+  fax: 757-518-1679
+- classification: district
+  name: Fredericksburg Office
+  address: 816 William Street, Suite B;Fredericksburg, VA 22401
+  phone: 540-369-7667
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000384 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

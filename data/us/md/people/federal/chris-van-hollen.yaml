@@ -1,0 +1,71 @@
+id: ocd-person/3d6ac08c-6ca1-51ce-8cfd-0cc54dd86284
+name: Chris Van Hollen
+identifiers:
+- scheme: bioguide
+  identifier: V000128
+- scheme: govtrack
+  identifier: '400415'
+- scheme: wikidata
+  identifier: Q1077819
+- scheme: wikipedia
+  identifier: Chris Van Hollen
+- scheme: ballotpedia
+  identifier: Chris Van Hollen
+- scheme: opensecrets
+  identifier: N00013820
+- scheme: votesmart
+  identifier: '6098'
+- scheme: icpsr
+  identifier: '20330'
+- scheme: lis
+  identifier: S390
+- scheme: thomas
+  identifier: 01729
+- scheme: cspan
+  identifier: '20756'
+- scheme: maplight
+  identifier: '500'
+- scheme: fec-candidate-id
+  identifier: S6MD03441
+candidacies: []
+contact:
+  phone: 202-224-4654
+  profile_url: https://www.vanhollen.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 730 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-4654
+- classification: district
+  name: Rockville Office
+  address: 111 Rockville Pike, Suite 960;Rockville, MD 20850
+  phone: 301-545-1500
+  fax: 301-545-1512
+- classification: district
+  name: Hagerstown Office
+  address: 32 West Washington Street, Suite 203;Hagerstown, MD 21740
+  phone: 301-797-2826
+- classification: district
+  name: Baltimore Office
+  address: 1040 Park Ave., Suite 120;Baltimore, MD 21201
+  phone: 667-212-4610
+- classification: district
+  name: Annapolis Office
+  address: 60 West Street, Suite 107;Annapolis, MD 21401
+  phone: 410-263-1325
+- classification: district
+  name: Cambridge Office
+  address: 204 Cedar Street, Suite 200C;Cambridge, MD 21613
+  phone: 410-221-2074
+- classification: district
+  name: Largo Office
+  address: 1101 Mercantile Ln, Suite 210;Largo, MD 20774-5360
+  phone: 301-322-6560
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000128 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

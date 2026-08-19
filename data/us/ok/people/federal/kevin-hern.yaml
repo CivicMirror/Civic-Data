@@ -1,0 +1,42 @@
+id: ocd-person/3347c22f-60c7-5c49-bf22-27f6348e9700
+name: Kevin Hern
+identifiers:
+- scheme: bioguide
+  identifier: H001082
+- scheme: govtrack
+  identifier: '412748'
+- scheme: wikidata
+  identifier: Q58333614
+- scheme: wikipedia
+  identifier: Kevin Hern
+- scheme: ballotpedia
+  identifier: Kevin Hern
+- scheme: opensecrets
+  identifier: N00040829
+- scheme: votesmart
+  identifier: '180004'
+- scheme: icpsr
+  identifier: '21760'
+- scheme: fec-candidate-id
+  identifier: S6OK04247
+candidacies: []
+contact:
+  phone: 202-225-2211
+  profile_url: https://hern.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 171 Cannon House Office Building Washington DC 20515-3601
+  phone: 202-225-2211
+- classification: district
+  name: Tulsa Office
+  address: 2448 E. 81st St., Suite 5150;Tulsa, OK 74137
+  phone: 918-935-3222
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001082 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

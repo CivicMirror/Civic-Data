@@ -1,0 +1,58 @@
+id: ocd-person/a592e35a-61fd-5bae-8710-b56758fa19b3
+name: Eric Schmitt
+identifiers:
+- scheme: bioguide
+  identifier: S001227
+- scheme: govtrack
+  identifier: '456875'
+- scheme: wikidata
+  identifier: Q5387455
+- scheme: wikipedia
+  identifier: Eric Schmitt
+- scheme: ballotpedia
+  identifier: Eric Schmitt
+- scheme: opensecrets
+  identifier: N00048414
+- scheme: votesmart
+  identifier: '104474'
+- scheme: lis
+  identifier: S420
+- scheme: fec-candidate-id
+  identifier: S2MO00544
+candidacies: []
+contact:
+  phone: 202-224-5721
+  profile_url: https://www.schmitt.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 404 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-5721
+- classification: district
+  name: St. Louis Office
+  address: Thomas F. Eagleton US Courthouse, 111 South 10th Street, Suite 23.305;St. Louis, MO 63102
+  phone: 314-230-7263
+- classification: district
+  name: Columbia Office
+  address: 1123 Wilkes Boulevard, Suite 320;Columbia, MO 65201
+  phone: 573-514-8680
+- classification: district
+  name: Springfield Office
+  address: 2870 S. Ingram Mill Rd., Suite D2;Springfield, MO 65804
+  phone: 417-290-5000
+- classification: district
+  name: Kansas City Office
+  address: 12200 N Ambassador Dr., Suite 233;Kansas City, MO 64163
+  phone: 816-849-6234
+- classification: district
+  name: Cape Girardeau Office
+  address: 555 Independence St., Suite 1500;Cape Girardeau, MO 63703
+  phone: 573-388-8340
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001227 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

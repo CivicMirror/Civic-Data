@@ -1,0 +1,66 @@
+id: ocd-person/bb59e072-262e-56ac-835c-6efbc8f50e47
+name: Cynthia M. Lummis
+identifiers:
+- scheme: bioguide
+  identifier: L000571
+- scheme: govtrack
+  identifier: '412294'
+- scheme: wikidata
+  identifier: Q456064
+- scheme: wikipedia
+  identifier: Cynthia Lummis
+- scheme: ballotpedia
+  identifier: Cynthia Lummis
+- scheme: opensecrets
+  identifier: N00029788
+- scheme: votesmart
+  identifier: '15546'
+- scheme: icpsr
+  identifier: '20953'
+- scheme: lis
+  identifier: S410
+- scheme: thomas
+  identifier: 01960
+- scheme: cspan
+  identifier: '1031365'
+- scheme: maplight
+  identifier: '776'
+- scheme: fec-candidate-id
+  identifier: S0WY00137
+candidacies: []
+contact:
+  phone: 202-224-3424
+  profile_url: https://www.lummis.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 127A Russell Senate Office Building Washington DC 20510
+  phone: 202-224-3424
+- classification: district
+  name: Cheyenne Office
+  address: Federal Center, 2120 Capitol Avenue, Suite 2007;Cheyenne, WY 82001
+  phone: 307-772-2477
+- classification: district
+  name: Cody Office
+  address: 1285 Sheridan Avenue, Suite 215;Cody, WY 82414
+  phone: 307-527-9444
+- classification: district
+  name: Casper Office
+  address: Dick Cheney Federal Building, 100 East B Street, Suite 3201;Casper, WY 82602
+  phone: 307-261-6572
+- classification: district
+  name: Sundance Office
+  address: 120 North 4th Street;Sundance, WY 82729
+  phone: 307-283-3461
+- classification: district
+  name: Afton Office
+  address: 80 1st Avenue, Suite 105;Afton, WY 83110
+  phone: 307-248-1736
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000571 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,48 @@
+id: ocd-person/312e0d82-a5a8-5e6c-9837-04f9c2fc98eb
+name: Frank D. Lucas
+identifiers:
+- scheme: bioguide
+  identifier: L000491
+- scheme: govtrack
+  identifier: '400247'
+- scheme: wikidata
+  identifier: Q246049
+- scheme: wikipedia
+  identifier: Frank Lucas (Oklahoma politician)
+- scheme: ballotpedia
+  identifier: Frank D. Lucas
+- scheme: opensecrets
+  identifier: N00005559
+- scheme: votesmart
+  identifier: '27032'
+- scheme: icpsr
+  identifier: '29393'
+- scheme: thomas
+  identifier: '00711'
+- scheme: cspan
+  identifier: '35692'
+- scheme: maplight
+  identifier: '347'
+- scheme: fec-candidate-id
+  identifier: H4OK06056
+candidacies: []
+contact:
+  phone: 202-225-5565
+  profile_url: https://lucas.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2405 Rayburn House Office Building Washington DC 20515-3603
+  phone: 202-225-5565
+- classification: district
+  name: Yukon Office
+  address: 11528 SW 15th Street, Suite 200;Yukon, OK 73099
+  phone: 405-373-1958
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000491 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

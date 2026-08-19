@@ -1,0 +1,51 @@
+id: ocd-person/5ef5b6c8-6026-50e1-8721-a1809653ae26
+name: W. Gregory Steube
+identifiers:
+- scheme: bioguide
+  identifier: S001214
+- scheme: govtrack
+  identifier: '412766'
+- scheme: wikidata
+  identifier: Q5606295
+- scheme: wikipedia
+  identifier: Greg Steube
+- scheme: ballotpedia
+  identifier: Greg Steube
+- scheme: opensecrets
+  identifier: N00042808
+- scheme: votesmart
+  identifier: '117248'
+- scheme: icpsr
+  identifier: '21971'
+- scheme: fec-candidate-id
+  identifier: H8FL17053
+candidacies: []
+contact:
+  phone: 202-225-5792
+  profile_url: https://steube.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2457 Rayburn House Office Building Washington DC 20515-0917
+  phone: 202-225-5792
+- classification: district
+  name: Punta Gorda Office
+  address: 226 Taylor St, Suite 230;Punta Gorda, FL 33950-4457
+  phone: 941-575-9101
+  fax: 941-575-9103
+- classification: district
+  name: Sarasota Office
+  address: 7590 Fruitville Rd, Suite 102;Sarasota, FL 34240
+  phone: 941-499-3214
+- classification: district
+  name: Venice Office
+  address: 401 West Venice Ave, Suite 157;Venice, FL 34285
+  phone: 941-499-3214
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001214 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

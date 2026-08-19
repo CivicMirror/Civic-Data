@@ -1,0 +1,71 @@
+id: ocd-person/8c206e79-aa1c-5999-a391-e3858dcdc750
+name: Ben Ray Luján
+identifiers:
+- scheme: bioguide
+  identifier: L000570
+- scheme: govtrack
+  identifier: '412293'
+- scheme: wikidata
+  identifier: Q324256
+- scheme: wikipedia
+  identifier: Ben Ray Luján
+- scheme: ballotpedia
+  identifier: Ben Ray Luján
+- scheme: opensecrets
+  identifier: N00029562
+- scheme: votesmart
+  identifier: '102842'
+- scheme: icpsr
+  identifier: '20932'
+- scheme: lis
+  identifier: S409
+- scheme: thomas
+  identifier: 01939
+- scheme: cspan
+  identifier: '1031351'
+- scheme: maplight
+  identifier: '775'
+- scheme: fec-candidate-id
+  identifier: S0NM00058
+candidacies: []
+contact:
+  phone: 202-224-6621
+  profile_url: https://www.lujan.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 498 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-6621
+- classification: district
+  name: Las Vegas Office
+  address: NMHU Hewett Hall, 1103 National Ave, Suite 210;Las Vegas, NM 87701-4024
+  phone: 505-454-3038
+  fax: 833-907-0888
+- classification: district
+  name: Albuquerque Office
+  address: 500 Marquette Ave NW, Suite 1460;Albuquerque, NM 87102
+  phone: 505-337-7023
+  fax: 833-907-0886
+- classification: district
+  name: Santa Fe Office
+  address: 120 South Federal Place, Suite 302;Santa Fe, NM 87501
+  phone: 505-230-7040
+  fax: 833-702-2621
+- classification: district
+  name: Las Cruces Office
+  address: 201 North Church Street, 201B;Las Cruces, NM 88001
+  phone: 575-288-4644
+  fax: 833-907-0887
+- classification: district
+  name: Portales Office
+  address: 100 South Ave A, Suite 113;Portales, NM 88130
+  phone: 575-252-6188
+  fax: 833-702-2620
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000570 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

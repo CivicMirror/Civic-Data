@@ -1,0 +1,49 @@
+id: ocd-person/f8341baa-8ccd-5b12-a59b-2df7901925ee
+name: Ami Bera
+identifiers:
+- scheme: bioguide
+  identifier: B001287
+- scheme: govtrack
+  identifier: '412512'
+- scheme: wikidata
+  identifier: Q3389105
+- scheme: wikipedia
+  identifier: Ami Bera
+- scheme: ballotpedia
+  identifier: Ami Bera
+- scheme: opensecrets
+  identifier: N00030717
+- scheme: votesmart
+  identifier: '120030'
+- scheme: icpsr
+  identifier: '21304'
+- scheme: thomas
+  identifier: '02102'
+- scheme: cspan
+  identifier: '1033636'
+- scheme: maplight
+  identifier: '1736'
+- scheme: fec-candidate-id
+  identifier: H0CA03078
+candidacies: []
+contact:
+  phone: 202-225-5716
+  profile_url: https://bera.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 172 Cannon House Office Building Washington DC 20515-0506
+  phone: 202-225-5716
+- classification: district
+  name: Sacramento Office
+  address: Building 3, 8950 Cal Center Dr., Suite 100;Sacramento, CA 95826
+  phone: 916-635-0505
+  fax: 916-635-0514
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001287 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

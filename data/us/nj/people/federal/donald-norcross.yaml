@@ -1,0 +1,54 @@
+id: ocd-person/fb834c27-4214-5093-845b-b12e7cb435c1
+name: Donald Norcross
+identifiers:
+- scheme: bioguide
+  identifier: N000188
+- scheme: govtrack
+  identifier: '412606'
+- scheme: wikidata
+  identifier: Q5294942
+- scheme: wikipedia
+  identifier: Donald Norcross
+- scheme: ballotpedia
+  identifier: Donald Norcross
+- scheme: opensecrets
+  identifier: N00036154
+- scheme: votesmart
+  identifier: '116277'
+- scheme: icpsr
+  identifier: '21536'
+- scheme: thomas
+  identifier: '02202'
+- scheme: cspan
+  identifier: '76311'
+- scheme: maplight
+  identifier: '2062'
+- scheme: fec-candidate-id
+  identifier: H4NJ01084
+candidacies: []
+contact:
+  phone: 202-225-6501
+  profile_url: https://norcross.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2427 Rayburn House Office Building Washington DC 20515-3001
+  phone: 202-225-6501
+- classification: district
+  name: Cherry Hill Office
+  address: 10 Melrose Ave., Suite 210;Cherry Hill, NJ 08003
+  phone: 856-427-7000
+  fax: 833-424-0381
+- classification: district
+  name: Camden Office
+  address: 200 Federal St., 5th Floor;Camden, NJ 08103
+  phone: 856-427-7000
+  fax: 833-424-0381
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000188 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

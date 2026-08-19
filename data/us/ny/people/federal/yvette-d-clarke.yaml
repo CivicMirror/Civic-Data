@@ -1,0 +1,49 @@
+id: ocd-person/4e6a696c-6115-5b11-97be-6cb3caeb5042
+name: Yvette D. Clarke
+identifiers:
+- scheme: bioguide
+  identifier: C001067
+- scheme: govtrack
+  identifier: '412221'
+- scheme: wikidata
+  identifier: Q461679
+- scheme: wikipedia
+  identifier: Yvette Clarke
+- scheme: ballotpedia
+  identifier: Yvette D. Clarke
+- scheme: opensecrets
+  identifier: N00026961
+- scheme: votesmart
+  identifier: '44741'
+- scheme: icpsr
+  identifier: '20733'
+- scheme: thomas
+  identifier: 01864
+- scheme: cspan
+  identifier: '1022875'
+- scheme: maplight
+  identifier: '706'
+- scheme: fec-candidate-id
+  identifier: H4NY11138
+candidacies: []
+contact:
+  phone: 202-225-6231
+  profile_url: https://clarke.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2058 Rayburn House Office Building Washington DC 20515-3209
+  phone: 202-225-6231
+- classification: district
+  name: Brooklyn Office
+  address: 222 Lenox Rd., Suites 1 & 2;Brooklyn, NY 11226
+  phone: 718-287-1142
+  fax: 718-287-1223
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001067 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

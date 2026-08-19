@@ -1,0 +1,41 @@
+id: ocd-person/d448c511-a13b-5b9b-8f9c-f284d789cb96
+name: Valerie P. Foushee
+identifiers:
+- scheme: bioguide
+  identifier: F000477
+- scheme: govtrack
+  identifier: '456913'
+- scheme: wikidata
+  identifier: Q16729064
+- scheme: wikipedia
+  identifier: Valerie Foushee
+- scheme: ballotpedia
+  identifier: Valerie Foushee
+- scheme: opensecrets
+  identifier: N00049652
+- scheme: votesmart
+  identifier: '93091'
+- scheme: fec-candidate-id
+  identifier: H2NC06114
+candidacies: []
+contact:
+  phone: 202-225-1784
+  profile_url: https://foushee.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2452 Rayburn House Office Building Washington DC 20515-3304
+  phone: 202-225-1784
+- classification: district
+  name: Durham Office
+  address: 2605 Meridian Parkway, Suite 110;Durham, NC 27713
+  phone: 919-967-7924
+  fax: 984-234-7724
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000477 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/b2288b5e-1224-50eb-b0c6-1fc16e234e00
+name: Jennifer L. McClellan
+identifiers:
+- scheme: bioguide
+  identifier: M001227
+- scheme: govtrack
+  identifier: '456953'
+- scheme: wikidata
+  identifier: Q6178602
+- scheme: wikipedia
+  identifier: Jennifer McClellan
+- scheme: ballotpedia
+  identifier: Jennifer McClellan
+- scheme: opensecrets
+  identifier: N00051961
+- scheme: votesmart
+  identifier: '58655'
+- scheme: fec-candidate-id
+  identifier: H4VA04066
+candidacies: []
+contact:
+  phone: 202-225-6365
+  profile_url: https://mcclellan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1628 Longworth House Office Building Washington DC 20515-4604
+  phone: 202-225-6365
+- classification: district
+  name: Richmond Office
+  address: 11 S. 12th Street, Suite 401;Richmond, VA 23219
+  phone: 804-486-1840
+- classification: district
+  name: Lawrenceville Office
+  address: 100 Athletic Field Road;Lawrenceville, VA 23868
+  phone: 804-690-5809
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001227 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

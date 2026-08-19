@@ -1,0 +1,63 @@
+id: ocd-person/ac9f8c19-a034-5dea-850c-3c96aef6a03a
+name: James E. Clyburn
+identifiers:
+- scheme: bioguide
+  identifier: C000537
+- scheme: govtrack
+  identifier: '400075'
+- scheme: wikidata
+  identifier: Q1289889
+- scheme: wikipedia
+  identifier: Jim Clyburn
+- scheme: ballotpedia
+  identifier: James E. Clyburn
+- scheme: opensecrets
+  identifier: N00002408
+- scheme: votesmart
+  identifier: '27066'
+- scheme: icpsr
+  identifier: '39301'
+- scheme: thomas
+  identifier: 00208
+- scheme: cspan
+  identifier: '21607'
+- scheme: maplight
+  identifier: '192'
+- scheme: fec-candidate-id
+  identifier: H2SC02042
+candidacies: []
+contact:
+  phone: 202-225-3315
+  profile_url: https://clyburn.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 274 Cannon House Office Building Washington DC 20515-4006
+  phone: 202-225-3315
+- classification: district
+  name: Columbia Office
+  address: 1225 Lady St., Suite 200;Columbia, SC 29201
+  phone: 803-799-1100
+  fax: 803-799-9060
+- classification: district
+  name: Kingstree Office
+  address: 130 W. Main St.;Kingstree, SC 29556
+  phone: 843-355-1211
+  fax: 843-355-1232
+- classification: district
+  name: Santee Office
+  address: 176 Municipal Way;Santee, SC 29142
+  phone: 803-854-4700
+  fax: 803-854-4900
+- classification: district
+  name: Sumter Office
+  address: 129 South Harvin Street;Sumter, SC 29150
+  phone: 803-883-5020
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C000537 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

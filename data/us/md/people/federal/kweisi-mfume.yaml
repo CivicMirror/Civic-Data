@@ -1,0 +1,48 @@
+id: ocd-person/0dce4013-d7ff-5509-a1e7-407cfd105f64
+name: Kweisi Mfume
+identifiers:
+- scheme: bioguide
+  identifier: M000687
+- scheme: govtrack
+  identifier: '407672'
+- scheme: wikidata
+  identifier: Q519504
+- scheme: wikipedia
+  identifier: Kweisi Mfume
+- scheme: ballotpedia
+  identifier: Kweisi Mfume
+- scheme: opensecrets
+  identifier: N00001799
+- scheme: votesmart
+  identifier: '26892'
+- scheme: icpsr
+  identifier: '15433'
+- scheme: thomas
+  identifier: 00798
+- scheme: fec-candidate-id
+  identifier: H0MD07114
+candidacies: []
+contact:
+  phone: 202-225-4741
+  profile_url: https://mfume.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2263 Rayburn House Office Building Washington DC 20515-2007
+  phone: 202-225-4741
+- classification: district
+  name: Baltimore Office
+  address: 1010 Park Avenue, Suite 105;Baltimore, MD 21201
+  phone: 410-685-9199
+- classification: district
+  name: Catonsville Office
+  address: 754 Frederick Road;Catonsville, MD 21228
+  phone: 410-818-2120
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M000687 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

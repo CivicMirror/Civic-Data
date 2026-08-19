@@ -1,0 +1,57 @@
+id: ocd-person/133aa33b-7fe7-50c8-aa9b-45681e5c9ee2
+name: Summer L. Lee
+identifiers:
+- scheme: bioguide
+  identifier: L000602
+- scheme: govtrack
+  identifier: '456935'
+- scheme: wikidata
+  identifier: Q56222614
+- scheme: wikipedia
+  identifier: Summer Lee
+- scheme: ballotpedia
+  identifier: Summer Lee
+- scheme: opensecrets
+  identifier: N00049757
+- scheme: votesmart
+  identifier: '179240'
+- scheme: fec-candidate-id
+  identifier: H2PA18200
+candidacies: []
+contact:
+  phone: 202-225-2135
+  profile_url: https://summerlee.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2437 Rayburn House Office Building Washington DC 20515-3812
+  phone: 202-225-2135
+- classification: district
+  name: Clairton Office
+  address: 551 Ravensburg Boulevard;Clairton, PA 15025
+  phone: 412-214-5000
+- classification: district
+  name: Bethel Park Office
+  address: 5100 W Library Ave;Bethel Park, PA 15102
+  phone: 412-214-5000
+- classification: district
+  name: Pittsburgh Office
+  address: 211 N Whitfield St., Suite 802;Pittsburgh, PA 15206
+  phone: 412-214-5000
+  fax: 771-200-5826
+- classification: district
+  name: Pittsburgh Office
+  address: 1555 Broadway Avenue, 2nd Floor;Pittsburgh, PA 15216
+  phone: 412-412-5000
+- classification: district
+  name: Jeannette Office
+  address: 110 S 2nd Street;Jeannette, PA 15644
+  phone: 412-214-5000
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000602 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

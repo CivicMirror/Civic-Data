@@ -1,0 +1,54 @@
+id: ocd-person/6a3f8dfb-909c-57af-a83e-5421b00f187c
+name: Rick Larsen
+identifiers:
+- scheme: bioguide
+  identifier: L000560
+- scheme: govtrack
+  identifier: '400232'
+- scheme: wikidata
+  identifier: Q503529
+- scheme: wikipedia
+  identifier: Rick Larsen
+- scheme: ballotpedia
+  identifier: Rick Larsen
+- scheme: opensecrets
+  identifier: N00009759
+- scheme: votesmart
+  identifier: '56231'
+- scheme: icpsr
+  identifier: '20145'
+- scheme: thomas
+  identifier: '01675'
+- scheme: cspan
+  identifier: '86610'
+- scheme: maplight
+  identifier: '333'
+- scheme: fec-candidate-id
+  identifier: H0WA02080
+candidacies: []
+contact:
+  phone: 202-225-2605
+  profile_url: https://larsen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2163 Rayburn House Office Building Washington DC 20515-4702
+  phone: 202-225-2605
+- classification: district
+  name: Bellingham Office
+  address: 119 N. Commercial St., Suite 275;Bellingham, WA 98225
+  phone: 360-733-4500
+  fax: 360-733-5144
+- classification: district
+  name: Everett Office
+  address: Wall Street Building, 2930 Wetmore Ave., Suite 9F;Everett, WA 98201
+  phone: 425-252-3188
+  fax: 425-252-6606
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000560 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,49 @@
+id: ocd-person/c4ec784c-7ce5-536c-83db-37386d318e54
+name: Linda T. Sánchez
+identifiers:
+- scheme: bioguide
+  identifier: S001156
+- scheme: govtrack
+  identifier: '400355'
+- scheme: wikidata
+  identifier: Q291143
+- scheme: wikipedia
+  identifier: Linda Sánchez
+- scheme: ballotpedia
+  identifier: Linda Sánchez
+- scheme: opensecrets
+  identifier: N00024870
+- scheme: votesmart
+  identifier: '29674'
+- scheme: icpsr
+  identifier: '20310'
+- scheme: thomas
+  identifier: '01757'
+- scheme: cspan
+  identifier: '1003554'
+- scheme: maplight
+  identifier: '448'
+- scheme: fec-candidate-id
+  identifier: H2CA39078
+candidacies: []
+contact:
+  phone: 202-225-6676
+  profile_url: https://lindasanchez.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2309 Rayburn House Office Building Washington DC 20515-0538
+  phone: 202-225-6676
+- classification: district
+  name: Whittier Office
+  address: 15111 Whittier Blvd, Suite 220;Whittier, CA 90603
+  phone: 562-860-5050
+  fax: 771-200-5828
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001156 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

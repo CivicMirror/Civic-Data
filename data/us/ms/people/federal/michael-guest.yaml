@@ -1,0 +1,54 @@
+id: ocd-person/442f24d9-ce0d-594f-8f4b-4e37971e4aaa
+name: Michael Guest
+identifiers:
+- scheme: bioguide
+  identifier: G000591
+- scheme: govtrack
+  identifier: '412793'
+- scheme: wikidata
+  identifier: Q60428645
+- scheme: wikipedia
+  identifier: Michael Guest (politician)
+- scheme: ballotpedia
+  identifier: Michael Guest
+- scheme: opensecrets
+  identifier: N00042458
+- scheme: votesmart
+  identifier: '179667'
+- scheme: icpsr
+  identifier: '21927'
+- scheme: fec-candidate-id
+  identifier: H8MS03125
+candidacies: []
+contact:
+  phone: 202-225-5031
+  profile_url: https://guest.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 450 Cannon House Office Building Washington DC 20515-2403
+  phone: 202-225-5031
+- classification: district
+  name: Brandon Office
+  address: 308 B East Government Street;Brandon, MS 39042
+  phone: 769-241-6120
+- classification: district
+  name: Meridian Office
+  address: 200 22nd Avenue;Meridian, MS 39301
+  phone: 601-693-6681
+- classification: district
+  name: Brookhaven Office
+  address: 230 S Whitworth Ave;Brookhaven, MS 39601
+  phone: 601-823-3400
+- classification: district
+  name: Starkville Office
+  address: 301 East Main Street, Suite 300;Starkville, MS 39759
+  phone: 662-324-0007
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000591 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

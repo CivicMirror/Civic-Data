@@ -1,0 +1,58 @@
+id: ocd-person/f6581c01-3ce8-57ae-bc50-b7494594089b
+name: John Thune
+identifiers:
+- scheme: bioguide
+  identifier: T000250
+- scheme: govtrack
+  identifier: '400546'
+- scheme: wikidata
+  identifier: Q462981
+- scheme: wikipedia
+  identifier: John Thune
+- scheme: ballotpedia
+  identifier: John Thune
+- scheme: opensecrets
+  identifier: N00004572
+- scheme: votesmart
+  identifier: '398'
+- scheme: icpsr
+  identifier: '29754'
+- scheme: lis
+  identifier: S303
+- scheme: thomas
+  identifier: '01534'
+- scheme: cspan
+  identifier: '45552'
+- scheme: maplight
+  identifier: '621'
+- scheme: fec-candidate-id
+  identifier: H6SD00085
+candidacies: []
+contact:
+  phone: 202-224-2321
+  profile_url: https://www.thune.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 511 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-2321
+- classification: district
+  name: Rapid City Office
+  address: 246 Founders Park Dr., Suite 102;Rapid City, SD 57701
+  phone: 605-348-7551
+- classification: district
+  name: Sioux Falls Office
+  address: 2401 West Trevi Place, Suite 200;Sioux Falls, SD 57108
+  phone: 605-334-9596
+- classification: district
+  name: Aberdeen Office
+  address: 205 6th Avenue SE, Suite 202;Aberdeen, SD 57401
+  phone: 605-225-8823
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000250 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

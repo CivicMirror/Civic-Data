@@ -1,0 +1,70 @@
+id: ocd-person/96006590-a8d5-50ee-84e7-fe71aca0a4eb
+name: Susan M. Collins
+identifiers:
+- scheme: bioguide
+  identifier: C001035
+- scheme: govtrack
+  identifier: '300025'
+- scheme: wikidata
+  identifier: Q22279
+- scheme: wikipedia
+  identifier: Susan Collins
+- scheme: ballotpedia
+  identifier: Susan Collins
+- scheme: opensecrets
+  identifier: N00000491
+- scheme: votesmart
+  identifier: '379'
+- scheme: icpsr
+  identifier: '49703'
+- scheme: lis
+  identifier: S252
+- scheme: thomas
+  identifier: '01541'
+- scheme: cspan
+  identifier: '45738'
+- scheme: maplight
+  identifier: '551'
+- scheme: fec-candidate-id
+  identifier: S6ME00159
+candidacies: []
+contact:
+  phone: 202-224-2523
+  profile_url: https://www.collins.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 413 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-2523
+- classification: district
+  name: Augusta Office
+  address: 68 Sewall St., Room 507;Augusta, ME 04330
+  phone: 207-622-8414
+- classification: district
+  name: Bangor Office
+  address: 202 Harlow St., Room 20100;Bangor, ME 04401
+  phone: 207-945-0417
+- classification: district
+  name: Biddeford Office
+  address: 160 Main St.;Biddeford, ME 04005
+  phone: 207-283-1101
+- classification: district
+  name: Caribou Office
+  address: 25 Sweden St., Suite A;Caribou, ME 04736
+  phone: 207-493-7873
+- classification: district
+  name: Lewiston Office
+  address: 55 Lisbon St.;Lewiston, ME 04240
+  phone: 207-784-6969
+- classification: district
+  name: Portland Office
+  address: One Canal Plaza, Suite 802;Portland, ME 04101
+  phone: 207-618-5560
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001035 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

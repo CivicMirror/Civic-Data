@@ -1,0 +1,52 @@
+id: ocd-person/1b5077a6-6663-5dcf-9e63-e87b8d2b4151
+name: Warren Davidson
+identifiers:
+- scheme: bioguide
+  identifier: D000626
+- scheme: govtrack
+  identifier: '412675'
+- scheme: wikidata
+  identifier: Q24458117
+- scheme: wikipedia
+  identifier: Warren Davidson
+- scheme: ballotpedia
+  identifier: Warren Davidson
+- scheme: opensecrets
+  identifier: N00038767
+- scheme: votesmart
+  identifier: '166760'
+- scheme: icpsr
+  identifier: '21564'
+- scheme: thomas
+  identifier: 02296
+- scheme: cspan
+  identifier: '102555'
+- scheme: maplight
+  identifier: '2165'
+- scheme: fec-candidate-id
+  identifier: H6OH08315
+candidacies: []
+contact:
+  phone: 202-225-6205
+  profile_url: https://davidson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2113 Rayburn House Office Building Washington DC 20515-3508
+  phone: 202-225-6205
+- classification: district
+  name: Liberty Township Office
+  address: 4879 Mercedes Drive, Suite A;Liberty Township, OH 45011
+  phone: 513-779-5400
+- classification: district
+  name: Cincinnati Office
+  address: 5520 Harrison Avenue, Suite C;Cincinnati, OH 45248
+  phone: 513-779-5400
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide D000626 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

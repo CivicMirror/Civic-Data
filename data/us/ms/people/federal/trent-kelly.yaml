@@ -1,0 +1,72 @@
+id: ocd-person/06043da7-ed20-5a4b-b824-060cae327642
+name: Trent Kelly
+identifiers:
+- scheme: bioguide
+  identifier: K000388
+- scheme: govtrack
+  identifier: '412673'
+- scheme: wikidata
+  identifier: Q20204915
+- scheme: wikipedia
+  identifier: Trent Kelly
+- scheme: ballotpedia
+  identifier: Trent Kelly
+- scheme: opensecrets
+  identifier: N00037003
+- scheme: votesmart
+  identifier: '156389'
+- scheme: icpsr
+  identifier: '21561'
+- scheme: thomas
+  identifier: 02294
+- scheme: cspan
+  identifier: '97322'
+- scheme: maplight
+  identifier: '2163'
+- scheme: fec-candidate-id
+  identifier: H6MS01131
+candidacies: []
+contact:
+  phone: 202-225-4306
+  profile_url: https://trentkelly.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2243 Rayburn House Office Building Washington DC 20515-2401
+  phone: 202-225-4306
+- classification: district
+  name: Columbus Office
+  address: 318 N. 7th St., Suite D;Columbus, MS 39701
+  phone: 662-327-0748
+  fax: 662-328-5982
+- classification: district
+  name: Eupora Office
+  address: 855 S. Dunn St.;Eupora, MS 39744
+  phone: 662-687-1545
+  fax: 662-258-7240
+- classification: district
+  name: Hernando Office
+  address: '2565 Caffey St., #200;Hernando, MS 38632'
+  phone: 662-687-0576
+  fax: 662-449-4836
+- classification: district
+  name: Oxford Office
+  address: 107 Courthouse Square;Oxford, MS 38655
+  phone: 662-687-1540
+  fax: 662-328-5982
+- classification: district
+  name: Tupelo Office
+  address: '431 West Main Street, Suite #450;Tupelo, MS 38804'
+  phone: 662-841-8808
+- classification: district
+  name: Corinth Office
+  address: 4135 County Road 200;Corinth, MS 38844
+  phone: 662-687-1525
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide K000388 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

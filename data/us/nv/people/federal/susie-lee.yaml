@@ -1,0 +1,42 @@
+id: ocd-person/9adc8352-dcdb-50f8-ac4b-179c36b41478
+name: Susie Lee
+identifiers:
+- scheme: bioguide
+  identifier: L000590
+- scheme: govtrack
+  identifier: '412802'
+- scheme: wikidata
+  identifier: Q58333611
+- scheme: wikipedia
+  identifier: Susie Lee
+- scheme: ballotpedia
+  identifier: Susie Lee
+- scheme: opensecrets
+  identifier: N00037247
+- scheme: votesmart
+  identifier: '169344'
+- scheme: icpsr
+  identifier: '21938'
+- scheme: fec-candidate-id
+  identifier: H6NV04020
+candidacies: []
+contact:
+  phone: 202-225-3252
+  profile_url: https://susielee.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 365 Cannon House Office Building Washington DC 20515-2803
+  phone: 202-225-3252
+- classification: district
+  name: Las Vegas Office
+  address: 7785 W Sahara Ave, Suite 203;Las Vegas, NV 89117
+  phone: 702-963-9336
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000590 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

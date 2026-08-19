@@ -1,0 +1,44 @@
+id: ocd-person/2db14dff-0894-5bdb-9663-8a6b6061b327
+name: George Latimer
+identifiers:
+- scheme: bioguide
+  identifier: L000606
+- scheme: govtrack
+  identifier: '457011'
+- scheme: wikidata
+  identifier: Q5544169
+- scheme: wikipedia
+  identifier: George Latimer (New York politician)
+- scheme: ballotpedia
+  identifier: George Latimer (New York)
+- scheme: opensecrets
+  identifier: N00054136
+- scheme: votesmart
+  identifier: '44173'
+- scheme: fec-candidate-id
+  identifier: H4NY16087
+candidacies: []
+contact:
+  phone: 202-225-2464
+  profile_url: https://latimer.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1507 Longworth House Office Building Washington DC 20515-3216
+  phone: 202-225-2464
+- classification: district
+  name: White Plains Office
+  address: 222 Mamaroneck Ave, Suite 312;White Plains, NY 10605
+  phone: 914-323-5550
+- classification: district
+  name: Bronx Office
+  address: 177 Dreiser Loop, Room 3;Bronx, NY 10475
+  phone: 718-530-7888
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000606 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

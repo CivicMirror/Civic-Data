@@ -1,0 +1,44 @@
+id: ocd-person/99b58c66-0f20-5cb2-93dc-9823b161d8e9
+name: Michelle Fischbach
+identifiers:
+- scheme: bioguide
+  identifier: F000470
+- scheme: govtrack
+  identifier: '456828'
+- scheme: wikidata
+  identifier: Q6837025
+- scheme: wikipedia
+  identifier: Michelle Fischbach
+- scheme: ballotpedia
+  identifier: Michelle Fischbach
+- scheme: opensecrets
+  identifier: N00045251
+- scheme: votesmart
+  identifier: '3882'
+- scheme: fec-candidate-id
+  identifier: H0MN07091
+candidacies: []
+contact:
+  phone: 202-225-2165
+  profile_url: https://fischbach.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2229 Rayburn House Office Building Washington DC 20515-2307
+  phone: 202-225-2165
+- classification: district
+  name: Willmar Office
+  address: 2211 1st Street S, Suite 190;Willmar, MN 56201
+  phone: 320-403-6100
+- classification: district
+  name: Moorhead Office
+  address: 2513 8th Street S;Moorhead, MN 56560
+  phone: 218-422-2090
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000470 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

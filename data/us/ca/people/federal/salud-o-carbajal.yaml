@@ -1,0 +1,55 @@
+id: ocd-person/9cb1892a-b567-569f-a108-27af568e2851
+name: Salud O. Carbajal
+identifiers:
+- scheme: bioguide
+  identifier: C001112
+- scheme: govtrack
+  identifier: '412686'
+- scheme: wikidata
+  identifier: Q27805429
+- scheme: wikipedia
+  identifier: Salud Carbajal
+- scheme: ballotpedia
+  identifier: Salud Carbajal
+- scheme: opensecrets
+  identifier: N00037015
+- scheme: votesmart
+  identifier: '81569'
+- scheme: icpsr
+  identifier: '21709'
+- scheme: cspan
+  identifier: '104728'
+- scheme: maplight
+  identifier: '2198'
+- scheme: fec-candidate-id
+  identifier: H6CA24303
+candidacies: []
+contact:
+  phone: 202-225-3601
+  profile_url: https://carbajal.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2331 Rayburn House Office Building Washington DC 20515-0524
+  phone: 202-225-3601
+- classification: district
+  name: San Luis Obispo Office
+  address: 1411 Marsh St., Suite 205;San Luis Obispo, CA 93401
+  phone: 805-546-8348
+  fax: 805-439-3574
+- classification: district
+  name: Santa Barbara Office
+  address: 125 E. De La Guerra St., Suite 203B;Santa Barbara, CA 93101
+  phone: 805-730-1710
+- classification: district
+  name: Ventura Office
+  address: 505 Poli St., Suite 201;Ventura, CA 93001
+  phone: 805-730-1710
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001112 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

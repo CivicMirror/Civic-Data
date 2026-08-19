@@ -1,0 +1,48 @@
+id: ocd-person/96e84f8d-afb3-55fd-b31f-3de5abb32920
+name: Patrick Ryan
+identifiers:
+- scheme: bioguide
+  identifier: R000579
+- scheme: govtrack
+  identifier: '456871'
+- scheme: wikidata
+  identifier: Q113587887
+- scheme: wikipedia
+  identifier: Pat Ryan (politician)
+- scheme: ballotpedia
+  identifier: Pat Ryan (New York)
+- scheme: opensecrets
+  identifier: N00041165
+- scheme: votesmart
+  identifier: '180314'
+- scheme: fec-candidate-id
+  identifier: H8NY19223
+candidacies: []
+contact:
+  phone: 202-225-5614
+  profile_url: https://patryan.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1708 Longworth House Office Building Washington DC 20515-3218
+  phone: 202-225-5614
+- classification: district
+  name: Kingston Office
+  address: '307 Wall Street, #6;Kingston, NY 12401'
+  phone: 845-443-2930
+- classification: district
+  name: Newburgh Office
+  address: 605 Broadway;Newburgh, NY 12550
+  phone: 845-443-2930
+- classification: district
+  name: Poughkeepsie Office
+  address: 12 Raymond Avenue, Suite 105;Poughkeepsie, NY 12603
+  phone: 845-443-2930
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000579 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

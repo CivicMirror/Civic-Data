@@ -1,0 +1,50 @@
+id: ocd-person/46b5b736-186e-5c76-9e13-34b84d5e0a34
+name: Joe Neguse
+identifiers:
+- scheme: bioguide
+  identifier: N000191
+- scheme: govtrack
+  identifier: '412761'
+- scheme: wikidata
+  identifier: Q57242006
+- scheme: wikipedia
+  identifier: Joe Neguse
+- scheme: ballotpedia
+  identifier: Joe Neguse
+- scheme: opensecrets
+  identifier: N00041080
+- scheme: votesmart
+  identifier: '151075'
+- scheme: icpsr
+  identifier: '21948'
+- scheme: fec-candidate-id
+  identifier: H8CO02160
+candidacies: []
+contact:
+  phone: 202-225-2161
+  profile_url: https://neguse.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2400 Rayburn House Office Building Washington DC 20515-0602
+  phone: 202-225-2161
+- classification: district
+  name: Boulder Office
+  address: 2503 Walnut St, Suite 300;Boulder, CO 80302-5748
+  phone: 303-335-1045
+- classification: district
+  name: Fort Collins Office
+  address: 1220 S College Ave, Unit 100A;Fort Collins, CO 80524-3785
+  phone: 970-372-3971
+- classification: district
+  name: Frisco Office
+  address: 620 E Main Street;Frisco, CO 80443
+  phone: 303-335-1045
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide N000191 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

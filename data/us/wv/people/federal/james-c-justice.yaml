@@ -1,0 +1,38 @@
+id: ocd-person/a9be6390-341d-5737-94a8-e125030eb6bb
+name: James C. Justice
+identifiers:
+- scheme: bioguide
+  identifier: J000312
+- scheme: govtrack
+  identifier: '456969'
+- scheme: wikidata
+  identifier: Q20684288
+- scheme: wikipedia
+  identifier: Jim Justice
+- scheme: opensecrets
+  identifier: N00053062
+- scheme: lis
+  identifier: S437
+- scheme: fec-candidate-id
+  identifier: S4WV00332
+candidacies: []
+contact:
+  phone: 202-224-3954
+  profile_url: https://www.justice.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 509 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3954
+- classification: district
+  name: Charleston Office
+  address: 900 Pennsylvania, Suite 629;Charleston, WV 25302
+  phone: 304-342-5855
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000312 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

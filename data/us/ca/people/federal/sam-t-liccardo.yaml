@@ -1,0 +1,39 @@
+id: ocd-person/84774b73-35c7-5cbd-a1cb-c0278a33f35f
+name: Sam T. Liccardo
+identifiers:
+- scheme: bioguide
+  identifier: L000607
+- scheme: govtrack
+  identifier: '456976'
+- scheme: wikidata
+  identifier: Q16731481
+- scheme: wikipedia
+  identifier: Sam Liccardo
+- scheme: ballotpedia
+  identifier: Sam Liccardo
+- scheme: opensecrets
+  identifier: N00054265
+- scheme: votesmart
+  identifier: '70450'
+- scheme: fec-candidate-id
+  identifier: H4CA16197
+candidacies: []
+contact:
+  phone: 202-225-8104
+  profile_url: https://liccardo.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1117 Longworth House Office Building Washington DC 20515-0516
+  phone: 202-225-8104
+- classification: district
+  name: Half Moon Bay Office
+  address: 270 Capistrano Rd, Suite 6;Half Moon Bay, CA 94019
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide L000607 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

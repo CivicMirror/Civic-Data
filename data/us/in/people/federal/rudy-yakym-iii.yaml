@@ -1,0 +1,44 @@
+id: ocd-person/226a2f96-3c3a-5f1e-8236-0a0750dc6cc6
+name: Rudy Yakym III
+identifiers:
+- scheme: bioguide
+  identifier: Y000067
+- scheme: govtrack
+  identifier: '456873'
+- scheme: wikidata
+  identifier: Q115137719
+- scheme: wikipedia
+  identifier: Rudy Yakym
+- scheme: ballotpedia
+  identifier: Rudy Yakym
+- scheme: opensecrets
+  identifier: N00051733
+- scheme: votesmart
+  identifier: '210545'
+- scheme: fec-candidate-id
+  identifier: H2IN02295
+candidacies: []
+contact:
+  phone: 202-225-3915
+  profile_url: https://yakym.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 349 Cannon House Office Building Washington DC 20515-1402
+  phone: 202-225-3915
+- classification: district
+  name: Mishawaka Office
+  address: 2410 Grape Road, Suite 2A;Mishawaka, IN 46545
+  phone: 574-204-2645
+- classification: district
+  name: Rochester Office
+  address: 709 Main Street;Rochester, IN 46975
+  phone: 574-223-4373
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide Y000067 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

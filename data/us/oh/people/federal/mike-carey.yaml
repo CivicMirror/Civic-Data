@@ -1,0 +1,40 @@
+id: ocd-person/552ad7ed-ef07-5770-9180-ebb312d2d9e2
+name: Mike Carey
+identifiers:
+- scheme: bioguide
+  identifier: C001126
+- scheme: govtrack
+  identifier: '456864'
+- scheme: wikidata
+  identifier: Q108010312
+- scheme: wikipedia
+  identifier: Mike Carey (politician)
+- scheme: ballotpedia
+  identifier: Mike Carey (Ohio)
+- scheme: opensecrets
+  identifier: N00048568
+- scheme: votesmart
+  identifier: '196349'
+- scheme: fec-candidate-id
+  identifier: H2OH15228
+candidacies: []
+contact:
+  phone: 202-225-2015
+  profile_url: https://carey.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1433 Longworth House Office Building Washington DC 20515-3515
+  phone: 202-225-2015
+- classification: district
+  name: Columbus Office
+  address: 140 E Town St., Suite 1200;Columbus, OH 43215
+  phone: 614-927-6902
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001126 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,57 @@
+id: ocd-person/bad55498-09d3-5005-879f-0b235d638f14
+name: Jon Ossoff
+identifiers:
+- scheme: bioguide
+  identifier: O000174
+- scheme: govtrack
+  identifier: '456857'
+- scheme: wikidata
+  identifier: Q28839536
+- scheme: wikipedia
+  identifier: Jon Ossoff
+- scheme: ballotpedia
+  identifier: Jon Ossoff
+- scheme: opensecrets
+  identifier: N00040675
+- scheme: votesmart
+  identifier: '176134'
+- scheme: lis
+  identifier: S414
+- scheme: fec-candidate-id
+  identifier: S8GA00180
+candidacies: []
+contact:
+  phone: 202-224-3521
+  profile_url: https://www.ossoff.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 317 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3521
+- classification: district
+  name: Atlanta Office
+  address: 271 17th Street NW, Suite 1510;Atlanta, GA 30363
+  phone: 470-786-7800
+  fax: 404-949-0912
+- classification: district
+  name: Augusta Office
+  address: One Tenth Street, Suite 660;Augusta, GA 30901
+  phone: 706-261-5031
+- classification: district
+  name: Savannah Office
+  address: 532 Stephenson Avenue, Suite 103B;Savannah, GA 31405
+  phone: 912-200-9402
+  fax: 202-228-6565
+- classification: district
+  name: Columbus Office
+  address: 18 9th Street, Suite 513;Columbus, GA 31901
+  phone: 706-780-7053
+  fax: 202-228-2346
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide O000174 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

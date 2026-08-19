@@ -1,0 +1,51 @@
+id: ocd-person/0b91e5df-d5c9-55d9-a4e7-487d4fa122bb
+name: Scott H. Peters
+identifiers:
+- scheme: bioguide
+  identifier: P000608
+- scheme: govtrack
+  identifier: '412523'
+- scheme: wikidata
+  identifier: Q3791514
+- scheme: wikipedia
+  identifier: Scott Peters (politician)
+- scheme: ballotpedia
+  identifier: Scott Peters
+- scheme: opensecrets
+  identifier: N00033591
+- scheme: votesmart
+  identifier: '70351'
+- scheme: icpsr
+  identifier: '21315'
+- scheme: thomas
+  identifier: '02113'
+- scheme: cspan
+  identifier: '79661'
+- scheme: maplight
+  identifier: '1747'
+- scheme: fec-candidate-id
+  identifier: H2CA52089
+candidacies: []
+contact:
+  phone: 202-225-0508
+  profile_url: https://scottpeters.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2369 Rayburn House Office Building Washington DC 20515-0550
+  phone: 202-225-0508
+- classification: district
+  name: San Diego Office
+  address: 4350 Executive Dr., Suite 105;San Diego, CA 92121
+  phone: 858-455-5550
+- classification: district
+  name: San Marcos Office
+  address: 1 Civic Center Drive;San Marcos, CA 92069
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000608 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/b1a973bc-8a50-58a9-9c79-16d5ebc750a8
+name: Harriet M. Hageman
+identifiers:
+- scheme: bioguide
+  identifier: H001096
+- scheme: govtrack
+  identifier: '456951'
+- scheme: wikidata
+  identifier: Q110815967
+- scheme: wikipedia
+  identifier: Harriet Hageman
+- scheme: ballotpedia
+  identifier: Harriet Hageman
+- scheme: opensecrets
+  identifier: N00049197
+- scheme: votesmart
+  identifier: '182961'
+- scheme: fec-candidate-id
+  identifier: S6WY00209
+candidacies: []
+contact:
+  phone: 202-225-2311
+  profile_url: https://hageman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1227 Longworth House Office Building Washington DC 20515-5000
+  phone: 202-225-2311
+- classification: district
+  name: Cheyenne Office
+  address: 2120 Capitol Avenue, Suite 8005;Cheyenne, WY 82001
+  phone: 307-772-2595
+- classification: district
+  name: Casper Office
+  address: 100 E B Street, Suite 4003;Casper, WY 82601
+  phone: 307-261-6595
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001096 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

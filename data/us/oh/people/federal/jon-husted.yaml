@@ -1,0 +1,52 @@
+id: ocd-person/e062b9c4-90b6-58c6-9dbe-ae0f5eb91454
+name: Jon Husted
+identifiers:
+- scheme: bioguide
+  identifier: H001104
+- scheme: govtrack
+  identifier: '457032'
+- scheme: wikidata
+  identifier: Q6270269
+- scheme: wikipedia
+  identifier: Jon Husted
+- scheme: ballotpedia
+  identifier: Jon Husted
+- scheme: votesmart
+  identifier: '45796'
+- scheme: lis
+  identifier: S438
+- scheme: fec-candidate-id
+  identifier: S6OH00304
+candidacies: []
+contact:
+  phone: 202-224-3353
+  profile_url: https://www.husted.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 304 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-3353
+- classification: district
+  name: Toledo Office
+  address: 420 Madison Avenue, Suite 1210;Toledo, OH 43604
+  phone: 567-304-3777
+- classification: district
+  name: Columbus Office
+  address: John W. Bricker Federal Building, 200 North High Street, Suite 600;Columbus, OH 43215
+  phone: 614-369-4925
+- classification: district
+  name: Middletown Office
+  address: 300 North Main Street, Suite 200;Middletown, OH 45042
+  phone: 513-318-1100
+- classification: district
+  name: Cleveland Office
+  address: 1240 East 9th Street, 3061;Cleveland, OH 44199
+  phone: 216-539-7877
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001104 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

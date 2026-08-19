@@ -1,0 +1,58 @@
+id: ocd-person/6e4c73cc-83c5-5637-bd25-194727e06618
+name: John Fetterman
+identifiers:
+- scheme: bioguide
+  identifier: F000479
+- scheme: govtrack
+  identifier: '456877'
+- scheme: wikidata
+  identifier: Q3181500
+- scheme: wikipedia
+  identifier: John Fetterman
+- scheme: ballotpedia
+  identifier: John Fetterman
+- scheme: opensecrets
+  identifier: N00038201
+- scheme: votesmart
+  identifier: '166286'
+- scheme: lis
+  identifier: S418
+- scheme: fec-candidate-id
+  identifier: S6PA00274
+candidacies: []
+contact:
+  phone: 202-224-4254
+  profile_url: https://www.fetterman.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 142 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-4254
+- classification: district
+  name: Pittsburgh Office
+  address: 1000 Liberty Avenue, Suite 1811;Pittsburgh, PA 15222
+  phone: 412-803-3501
+- classification: district
+  name: Erie Office
+  address: 17 South Park Row, Suite B-120;Erie, PA 16501
+  phone: 814-453-3010
+- classification: district
+  name: Harrisburg Office
+  address: 320 Market Street, Suite 475E;Harrisburg, PA 17101
+  phone: 717-782-3951
+- classification: district
+  name: Wilkes-Barre Office
+  address: 7 North Wilkes-Barre Boulevard, Suite 406;Wilkes-Barre, PA 18702
+  phone: 570-820-4088
+- classification: district
+  name: Philadelphia Office
+  address: 200 Chestnut Street, Suite 600;Philadelphia, PA 19106
+  phone: 215-241-1090
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000479 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,44 @@
+id: ocd-person/51d6ff41-9f92-57b1-a935-98862bbc3b86
+name: Lauren Boebert
+identifiers:
+- scheme: bioguide
+  identifier: B000825
+- scheme: govtrack
+  identifier: '456805'
+- scheme: wikidata
+  identifier: Q96761544
+- scheme: wikipedia
+  identifier: Lauren Boebert
+- scheme: ballotpedia
+  identifier: Lauren Boebert
+- scheme: opensecrets
+  identifier: N00045974
+- scheme: votesmart
+  identifier: '191290'
+- scheme: fec-candidate-id
+  identifier: H0CO03165
+candidacies: []
+contact:
+  phone: 202-225-4761
+  profile_url: https://boebert.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1713 Longworth House Office Building Washington DC 20515-0604
+  phone: 202-225-4761
+- classification: district
+  name: Castle Rock Office
+  address: 900 Castleton Rd., Suite 112;Castle Rock, CO 80109
+  phone: 720-639-9165
+- classification: district
+  name: Eaton Office
+  address: 271 South Elm Ave., Suite 1A;Eaton, CO 80615
+  phone: 970-702-2136
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B000825 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

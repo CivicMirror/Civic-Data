@@ -1,0 +1,48 @@
+id: ocd-person/6537546a-2865-5383-a77b-a89f0d5cf2c4
+name: John W. Rose
+identifiers:
+- scheme: bioguide
+  identifier: R000612
+- scheme: govtrack
+  identifier: '412818'
+- scheme: wikidata
+  identifier: Q33044040
+- scheme: wikipedia
+  identifier: John Rose (Tennessee politician)
+- scheme: ballotpedia
+  identifier: John Rose (Tennessee)
+- scheme: opensecrets
+  identifier: N00041599
+- scheme: votesmart
+  identifier: '180452'
+- scheme: icpsr
+  identifier: '21959'
+- scheme: fec-candidate-id
+  identifier: H8TN06094
+candidacies: []
+contact:
+  phone: 202-225-4231
+  profile_url: https://johnrose.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2238 Rayburn House Office Building Washington DC 20515-4206
+  phone: 202-225-4231
+- classification: district
+  name: Gallatin Office
+  address: 355 N Belvedere Dr, Suite 308;Gallatin, TN 37066-5466
+  phone: 615-206-8204
+  fax: 615-206-8980
+- classification: district
+  name: Cookeville Office
+  address: 321 East Spring Street, Suite 306;Cookeville, TN 38501
+  phone: 931-854-9430
+  fax: 615-206-8980
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide R000612 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

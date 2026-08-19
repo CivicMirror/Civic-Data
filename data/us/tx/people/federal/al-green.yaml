@@ -1,0 +1,54 @@
+id: ocd-person/0edca53b-4f84-540d-a037-7f9e3a0f2595
+name: Al Green
+identifiers:
+- scheme: bioguide
+  identifier: G000553
+- scheme: govtrack
+  identifier: '400653'
+- scheme: wikidata
+  identifier: Q749039
+- scheme: wikipedia
+  identifier: Al Green (politician)
+- scheme: ballotpedia
+  identifier: Al Green
+- scheme: opensecrets
+  identifier: N00026686
+- scheme: votesmart
+  identifier: '49680'
+- scheme: icpsr
+  identifier: '20529'
+- scheme: thomas
+  identifier: 01803
+- scheme: cspan
+  identifier: '1012969'
+- scheme: maplight
+  identifier: '658'
+- scheme: fec-candidate-id
+  identifier: H4TX09095
+candidacies: []
+contact:
+  phone: 202-225-7508
+  profile_url: https://algreen.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2347 Rayburn House Office Building Washington DC 20515-4309
+  phone: 202-225-7508
+- classification: district
+  name: Houston Office
+  address: 3003 South Loop West, Suite 460;Houston, TX 77054
+  phone: 713-383-9234
+  fax: 713-383-9202
+- classification: district
+  name: Missouri City Office
+  address: 2440 Texas Parkway, Suite 115;Missouri City, TX 77489
+  phone: 713-383-9234
+  fax: 713-383-9202
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000553 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

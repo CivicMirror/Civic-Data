@@ -1,0 +1,53 @@
+id: ocd-person/a1edd347-7edd-56fe-b515-518237c91b4b
+name: Jim Costa
+identifiers:
+- scheme: bioguide
+  identifier: C001059
+- scheme: govtrack
+  identifier: '400618'
+- scheme: wikidata
+  identifier: Q675869
+- scheme: wikipedia
+  identifier: Jim Costa
+- scheme: ballotpedia
+  identifier: Jim Costa
+- scheme: opensecrets
+  identifier: N00026341
+- scheme: votesmart
+  identifier: '3577'
+- scheme: icpsr
+  identifier: '20501'
+- scheme: thomas
+  identifier: '01774'
+- scheme: cspan
+  identifier: '19599'
+- scheme: maplight
+  identifier: '626'
+- scheme: fec-candidate-id
+  identifier: H4CA20082
+candidacies: []
+contact:
+  phone: 202-225-3341
+  profile_url: https://costa.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2081 Rayburn House Office Building Washington DC 20515-0521
+  phone: 202-225-3341
+- classification: district
+  name: Visalia Office
+  address: 425 E. Oak Ave, Suite 202;Visalia, CA 93291
+  phone: 559-749-9330
+- classification: district
+  name: Fresno Office
+  address: 2440 Tulare Street, Suite 420;Fresno, CA 93721
+  phone: 559-495-1620
+  fax: 559-495-1027
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001059 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

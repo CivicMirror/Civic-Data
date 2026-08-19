@@ -1,0 +1,48 @@
+id: ocd-person/3f66de77-b832-5f11-9220-73022270989a
+name: Randy Feenstra
+identifiers:
+- scheme: bioguide
+  identifier: F000446
+- scheme: govtrack
+  identifier: '456818'
+- scheme: wikidata
+  identifier: Q7292187
+- scheme: wikipedia
+  identifier: Randy Feenstra
+- scheme: ballotpedia
+  identifier: Randy Feenstra
+- scheme: opensecrets
+  identifier: N00044011
+- scheme: votesmart
+  identifier: '103301'
+- scheme: fec-candidate-id
+  identifier: H0IA04145
+candidacies: []
+contact:
+  phone: 202-225-4426
+  profile_url: https://feenstra.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2434 Rayburn House Office Building Washington DC 20515-1504
+  phone: 202-225-4426
+- classification: district
+  name: Fort Dodge Office
+  address: 723 Central Avenue;Fort Dodge, IA 50501
+  phone: 515-302-7060
+- classification: district
+  name: Sioux City Office
+  address: 320 6th Street, Room 112;Sioux City, IA 51101
+  phone: 712-224-4692
+- classification: district
+  name: Council Bluffs Office
+  address: 149 West Broadway;Council Bluffs, IA 51503
+  phone: 712-256-5653
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000446 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

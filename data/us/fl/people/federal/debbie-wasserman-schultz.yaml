@@ -1,0 +1,54 @@
+id: ocd-person/dded1c48-d874-52ff-b9b0-e9ff46919256
+name: Debbie Wasserman Schultz
+identifiers:
+- scheme: bioguide
+  identifier: W000797
+- scheme: govtrack
+  identifier: '400623'
+- scheme: wikidata
+  identifier: Q50104
+- scheme: wikipedia
+  identifier: Debbie Wasserman Schultz
+- scheme: ballotpedia
+  identifier: Debbie Wasserman Schultz
+- scheme: opensecrets
+  identifier: N00026106
+- scheme: votesmart
+  identifier: '24301'
+- scheme: icpsr
+  identifier: '20504'
+- scheme: thomas
+  identifier: '01777'
+- scheme: cspan
+  identifier: '86882'
+- scheme: maplight
+  identifier: '631'
+- scheme: fec-candidate-id
+  identifier: H4FL20023
+candidacies: []
+contact:
+  phone: 202-225-7931
+  profile_url: https://wassermanschultz.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 270 Cannon House Office Building Washington DC 20515-0925
+  phone: 202-225-7931
+- classification: district
+  name: Sunrise Office
+  address: 777 Sawgrass Corporate Parkway;Sunrise, FL 33325
+  phone: 954-845-1179
+  fax: 954-845-0396
+- classification: district
+  name: Hollywood Office
+  address: 2600 Hollywood Blvd.;Hollywood, FL 33020
+  phone: 954-845-1179
+  fax: 954-845-0396
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000797 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

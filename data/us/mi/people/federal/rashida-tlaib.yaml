@@ -1,0 +1,50 @@
+id: ocd-person/8716eb80-9840-5fbf-98ff-03d012ed13df
+name: Rashida Tlaib
+identifiers:
+- scheme: bioguide
+  identifier: T000481
+- scheme: govtrack
+  identifier: '412787'
+- scheme: wikidata
+  identifier: Q7294939
+- scheme: wikipedia
+  identifier: Rashida Tlaib
+- scheme: ballotpedia
+  identifier: Rashida Tlaib
+- scheme: opensecrets
+  identifier: N00042649
+- scheme: votesmart
+  identifier: '105368'
+- scheme: icpsr
+  identifier: '21975'
+- scheme: fec-candidate-id
+  identifier: H8MI13250
+candidacies: []
+contact:
+  phone: 202-225-5126
+  profile_url: https://tlaib.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2438 Rayburn House Office Building Washington DC 20515-2212
+  phone: 202-225-5126
+- classification: district
+  name: Southfield Office
+  address: 26080 Berg Rd.;Southfield, MI 48033
+  phone: 313-203-7540
+- classification: district
+  name: Inkster Office
+  address: 26215 Trowbridge St.;Inkster, MI 48141
+  phone: 313-463-6220
+- classification: district
+  name: Detroit Office
+  address: 7800 W. Outer Drive;Detroit, MI 48235
+  phone: 313-463-6220
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide T000481 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

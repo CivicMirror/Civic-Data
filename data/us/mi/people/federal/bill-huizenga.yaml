@@ -1,0 +1,54 @@
+id: ocd-person/81fcabbf-39ee-5c72-8df1-8039c18e036d
+name: Bill Huizenga
+identifiers:
+- scheme: bioguide
+  identifier: H001058
+- scheme: govtrack
+  identifier: '412437'
+- scheme: wikidata
+  identifier: Q862199
+- scheme: wikipedia
+  identifier: Bill Huizenga
+- scheme: ballotpedia
+  identifier: Bill Huizenga
+- scheme: opensecrets
+  identifier: N00030673
+- scheme: votesmart
+  identifier: '38351'
+- scheme: icpsr
+  identifier: '21142'
+- scheme: thomas
+  identifier: 02028
+- scheme: cspan
+  identifier: '1033765'
+- scheme: maplight
+  identifier: '1448'
+- scheme: fec-candidate-id
+  identifier: H0MI02094
+candidacies: []
+contact:
+  phone: 202-225-4401
+  profile_url: https://huizenga.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2232 Rayburn House Office Building Washington DC 20515-2204
+  phone: 202-225-4401
+- classification: district
+  name: Portage Office
+  address: 5228 Lovers Lane, Suite 108;Portage, MI 49002
+  phone: 269-569-8595
+  fax: 771-200-5821
+- classification: district
+  name: Holland Office
+  address: 170 College Ave, Suite 160;Holland, MI 49423
+  phone: 616-251-6741
+  fax: 771-200-5821
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001058 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

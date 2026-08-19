@@ -1,0 +1,39 @@
+id: ocd-person/138b36e3-f3e9-57f2-8a8a-d86aa1e2c82d
+name: Abraham J. Hamadeh
+identifiers:
+- scheme: bioguide
+  identifier: H001098
+- scheme: govtrack
+  identifier: '456973'
+- scheme: wikidata
+  identifier: Q124307977
+- scheme: wikipedia
+  identifier: Abraham Hamadeh
+- scheme: ballotpedia
+  identifier: Abraham Hamadeh
+- scheme: opensecrets
+  identifier: N00053795
+- scheme: votesmart
+  identifier: '205532'
+- scheme: fec-candidate-id
+  identifier: H4AZ08108
+candidacies: []
+contact:
+  phone: 202-225-4576
+  profile_url: https://hamadeh.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1722 Longworth House Office Building Washington DC 20515-0308
+  phone: 202-225-4576
+- classification: district
+  name: Surprise Office
+  address: 12515 W. Bell Rd, Suite 104;Surprise, AZ 85378
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001098 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,40 @@
+id: ocd-person/44e09a52-6c9e-5cfe-87fb-06c39ae6e9c4
+name: Yassamin Ansari
+identifiers:
+- scheme: bioguide
+  identifier: A000381
+- scheme: govtrack
+  identifier: '456972'
+- scheme: wikidata
+  identifier: Q122226202
+- scheme: wikipedia
+  identifier: Yassamin Ansari
+- scheme: ballotpedia
+  identifier: Yassamin Ansari
+- scheme: opensecrets
+  identifier: N00052497
+- scheme: votesmart
+  identifier: '201437'
+- scheme: fec-candidate-id
+  identifier: H4AZ03109
+candidacies: []
+contact:
+  phone: 202-225-4065
+  profile_url: https://ansari.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1432 Longworth House Office Building Washington DC 20515-0303
+  phone: 202-225-4065
+- classification: district
+  name: Phoenix Office
+  address: 3770 N 7th St, 100b;Phoenix, AZ 85014
+  phone: 602-956-2285
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000381 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

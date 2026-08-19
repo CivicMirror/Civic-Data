@@ -1,0 +1,66 @@
+id: ocd-person/64c68f82-615e-5f9c-9600-53abd9098ac2
+name: Deb Fischer
+identifiers:
+- scheme: bioguide
+  identifier: F000463
+- scheme: govtrack
+  identifier: '412556'
+- scheme: wikidata
+  identifier: Q2580649
+- scheme: wikipedia
+  identifier: Deb Fischer
+- scheme: ballotpedia
+  identifier: Deb Fischer
+- scheme: opensecrets
+  identifier: N00033443
+- scheme: votesmart
+  identifier: '41963'
+- scheme: icpsr
+  identifier: '41302'
+- scheme: lis
+  identifier: S357
+- scheme: thomas
+  identifier: 02179
+- scheme: cspan
+  identifier: '1034067'
+- scheme: maplight
+  identifier: '1780'
+- scheme: fec-candidate-id
+  identifier: S2NE00094
+candidacies: []
+contact:
+  phone: 202-224-6551
+  profile_url: https://www.fischer.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 448 Russell Senate Office Building Washington DC 20510
+  phone: 202-224-6551
+- classification: district
+  name: Kearney Office
+  address: 20 W. 23rd St.;Kearney, NE 68847
+  phone: 308-234-2361
+  fax: 308-234-3684
+- classification: district
+  name: Omaha Office
+  address: 11819 Miracle Hills Drive, Suite 205;Omaha, NE 68154
+  phone: 402-391-3411
+  fax: 402-391-4725
+- classification: district
+  name: Scottsbluff Office
+  address: 120 East 16th St., Suite 203;Scottsbluff, NE 69361
+  phone: 308-630-2329
+  fax: 308-630-2321
+- classification: district
+  name: Lincoln Office
+  address: '1248 O Street, Suite #1111;Lincoln, NE 68508'
+  phone: 402-441-4600
+  fax: 402-476-8753
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide F000463 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

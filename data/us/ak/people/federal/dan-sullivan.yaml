@@ -1,0 +1,76 @@
+id: ocd-person/21712dc0-5159-59f5-a7f7-884e8d0185e9
+name: Dan Sullivan
+identifiers:
+- scheme: bioguide
+  identifier: S001198
+- scheme: govtrack
+  identifier: '412665'
+- scheme: wikidata
+  identifier: Q5218668
+- scheme: wikipedia
+  identifier: Dan Sullivan (U.S. senator)
+- scheme: ballotpedia
+  identifier: Daniel S. Sullivan
+- scheme: opensecrets
+  identifier: N00035774
+- scheme: votesmart
+  identifier: '114964'
+- scheme: icpsr
+  identifier: '41500'
+- scheme: lis
+  identifier: S383
+- scheme: thomas
+  identifier: 02290
+- scheme: cspan
+  identifier: '1023262'
+- scheme: maplight
+  identifier: '2121'
+- scheme: fec-candidate-id
+  identifier: S4AK00214
+candidacies: []
+contact:
+  phone: 202-224-3004
+  profile_url: https://www.sullivan.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 706 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3004
+- classification: district
+  name: Anchorage Office
+  address: 510 L St., Suite 750;Anchorage, AK 99501
+  phone: 907-271-5915
+  fax: 907-258-9305
+- classification: district
+  name: Fairbanks Office
+  address: Federal Building, 101 12th Ave., Suite 328;Fairbanks, AK 99701
+  phone: 907-456-0261
+  fax: 907-451-7290
+- classification: district
+  name: Juneau Office
+  address: 800 Glacier Ave., Suite 101;Juneau, AK 99801
+  phone: 907-205-3767
+  fax: 907-586-7201
+- classification: district
+  name: Ketchikan Office
+  address: 1900 First Ave., Suite 225;Ketchikan, AK 99901
+  phone: 907-225-6880
+  fax: 907-225-0390
+- classification: district
+  name: Soldotna Office
+  address: 44539 Sterling Highway, Suite 204;Soldotna, AK 99669
+  phone: 907-262-4040
+  fax: 907-262-4224
+- classification: district
+  name: Wasilla Office
+  address: 851 E. Westpoint Dr., Suite 309;Wasilla, AK 99654
+  phone: 907-357-9956
+  fax: 907-357-9964
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001198 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

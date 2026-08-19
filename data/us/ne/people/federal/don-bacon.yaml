@@ -1,0 +1,51 @@
+id: ocd-person/77d0bd65-399c-59e5-9e2d-64ee964066ab
+name: Don Bacon
+identifiers:
+- scheme: bioguide
+  identifier: B001298
+- scheme: govtrack
+  identifier: '412713'
+- scheme: wikidata
+  identifier: Q19757583
+- scheme: wikipedia
+  identifier: Don Bacon
+- scheme: ballotpedia
+  identifier: Don Bacon
+- scheme: opensecrets
+  identifier: N00037049
+- scheme: votesmart
+  identifier: '166299'
+- scheme: icpsr
+  identifier: '21701'
+- scheme: cspan
+  identifier: '103442'
+- scheme: maplight
+  identifier: '2225'
+- scheme: fec-candidate-id
+  identifier: H6NE02125
+candidacies: []
+contact:
+  phone: 202-225-4155
+  profile_url: https://bacon.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2104 Rayburn House Office Building Washington DC 20515-2702
+  phone: 202-225-4155
+- classification: district
+  name: Omaha Office
+  address: 13906 Gold Circle, Suite 101;Omaha, NE 68144
+  phone: 402-938-0300
+  fax: 402-763-4947
+- classification: district
+  name: Wahoo Office
+  address: 543 Linden Street;Wahoo, NE 68066
+  phone: 402-607-0077
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001298 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

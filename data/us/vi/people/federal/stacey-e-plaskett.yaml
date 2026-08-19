@@ -1,0 +1,52 @@
+id: ocd-person/160e1dd7-2a44-5ff2-a5f3-f89eb6922dc4
+name: Stacey E. Plaskett
+identifiers:
+- scheme: bioguide
+  identifier: P000610
+- scheme: govtrack
+  identifier: '412659'
+- scheme: wikidata
+  identifier: Q18739104
+- scheme: wikipedia
+  identifier: Stacey Plaskett
+- scheme: ballotpedia
+  identifier: Stacey Plaskett
+- scheme: opensecrets
+  identifier: N00035000
+- scheme: votesmart
+  identifier: '155929'
+- scheme: thomas
+  identifier: '02274'
+- scheme: cspan
+  identifier: '79090'
+- scheme: maplight
+  identifier: '2115'
+- scheme: fec-candidate-id
+  identifier: H2VI00082
+candidacies: []
+contact:
+  phone: 202-225-1790
+  profile_url: https://plaskett.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2059 Rayburn House Office Building Washington DC 20515-5500
+  phone: 202-225-1790
+- classification: district
+  name: Frederiksted Office
+  address: 60 King St.;Frederiksted, VI 00840
+  phone: 340-778-5900
+  fax: 340-778-5111
+- classification: district
+  name: St. Thomas Office
+  address: Port of Sale Mall, 9100 Havensight, Suite 22;St. Thomas, VI 00802
+  phone: 340-774-4408
+  fax: 340-774-8033
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000610 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

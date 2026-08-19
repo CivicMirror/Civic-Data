@@ -1,0 +1,52 @@
+id: ocd-person/41a88454-8cb4-58dc-b651-a473e009719b
+name: Nikki Budzinski
+identifiers:
+- scheme: bioguide
+  identifier: B001315
+- scheme: govtrack
+  identifier: '456901'
+- scheme: wikidata
+  identifier: Q111342337
+- scheme: wikipedia
+  identifier: Nikki Budzinski
+- scheme: ballotpedia
+  identifier: Nikki Budzinski
+- scheme: opensecrets
+  identifier: N00049102
+- scheme: votesmart
+  identifier: '204328'
+- scheme: fec-candidate-id
+  identifier: H2IL13153
+candidacies: []
+contact:
+  phone: 202-225-2371
+  profile_url: https://budzinski.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1717 Longworth House Office Building Washington DC 20515-1313
+  phone: 202-225-2371
+- classification: district
+  name: Champaign Office
+  address: 44 East Main Street, Suite 205;Champaign, IL 61820
+  phone: 217-305-6991
+- classification: district
+  name: Decatur Office
+  address: 101 South Main Street, Suite 100;Decatur, IL 62523
+  phone: 217-859-5313
+- classification: district
+  name: Springfield Office
+  address: 133 South 4th Street, Suite 300;Springfield, IL 62701
+  phone: 217-814-2880
+- classification: district
+  name: Collinsville Office
+  address: 409 Belt Line Road, Suite 110;Collinsville, IL 62234
+  phone: 618-212-7333
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001315 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

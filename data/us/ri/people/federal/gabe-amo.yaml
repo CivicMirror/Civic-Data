@@ -1,0 +1,41 @@
+id: ocd-person/fa74672b-838d-58f2-8a76-27a56621ce4b
+name: Gabe Amo
+identifiers:
+- scheme: bioguide
+  identifier: A000380
+- scheme: govtrack
+  identifier: '456955'
+- scheme: wikidata
+  identifier: Q118901875
+- scheme: wikipedia
+  identifier: Gabe Amo
+- scheme: ballotpedia
+  identifier: Gabe Amo
+- scheme: opensecrets
+  identifier: N00052615
+- scheme: votesmart
+  identifier: '212295'
+- scheme: fec-candidate-id
+  identifier: H4RI01265
+candidacies: []
+contact:
+  phone: 202-225-4911
+  profile_url: https://amo.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1119 Longworth House Office Building Washington DC 20515-3901
+  phone: 202-225-4911
+- classification: district
+  name: Pawtucket Office
+  address: 1070 Main Street, Suite 300;Pawtucket, RI 02860
+  phone: 401-729-5600
+  fax: 401-729-5608
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000380 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

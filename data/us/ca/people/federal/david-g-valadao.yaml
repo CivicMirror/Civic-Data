@@ -1,0 +1,54 @@
+id: ocd-person/e0d1a000-e703-56f3-9682-bd097f0245c3
+name: David G. Valadao
+identifiers:
+- scheme: bioguide
+  identifier: V000129
+- scheme: govtrack
+  identifier: '412515'
+- scheme: wikidata
+  identifier: Q3528567
+- scheme: wikipedia
+  identifier: David Valadao
+- scheme: ballotpedia
+  identifier: David G. Valadao
+- scheme: opensecrets
+  identifier: N00033367
+- scheme: votesmart
+  identifier: '120200'
+- scheme: icpsr
+  identifier: '21307'
+- scheme: thomas
+  identifier: '02105'
+- scheme: cspan
+  identifier: '623702'
+- scheme: maplight
+  identifier: '1739'
+- scheme: fec-candidate-id
+  identifier: H2CA20094
+candidacies: []
+contact:
+  phone: 202-225-4695
+  profile_url: https://valadao.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2465 Rayburn House Office Building Washington DC 20515-0522
+  phone: 202-225-4695
+- classification: district
+  name: Hanford Office
+  address: 107 South Douty Street;Hanford, CA 93230
+  phone: 559-460-6070
+  fax: 559-584-3564
+- classification: district
+  name: Bakersfield Office
+  address: 2700 M Street, 250B;Bakersfield, CA 93301
+  phone: 661-864-7736
+  fax: 833-284-9090
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide V000129 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

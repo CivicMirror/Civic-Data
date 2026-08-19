@@ -1,0 +1,59 @@
+id: ocd-person/e839d9c8-d2b7-5e07-b679-3953d1bff4ca
+name: Brendan F. Boyle
+identifiers:
+- scheme: bioguide
+  identifier: B001296
+- scheme: govtrack
+  identifier: '412652'
+- scheme: wikidata
+  identifier: Q4960876
+- scheme: wikipedia
+  identifier: Brendan Boyle
+- scheme: ballotpedia
+  identifier: Brendan Boyle
+- scheme: opensecrets
+  identifier: N00035307
+- scheme: votesmart
+  identifier: '47357'
+- scheme: icpsr
+  identifier: '21548'
+- scheme: thomas
+  identifier: '02267'
+- scheme: cspan
+  identifier: '76428'
+- scheme: maplight
+  identifier: '2108'
+- scheme: fec-candidate-id
+  identifier: H4PA13199
+candidacies: []
+contact:
+  phone: 202-225-6111
+  profile_url: https://boyle.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1502 Longworth House Office Building Washington DC 20515-3802
+  phone: 202-225-6111
+- classification: district
+  name: Philadelphia Office
+  address: One & Olney Shopping Center, 5675 N. Front St., Suite 180;Philadelphia, PA 19120
+  phone: 267-335-5643
+  fax: 267-437-3886
+- classification: district
+  name: Philadelphia Office
+  address: 8572 Bustleton Ave.;Philadelphia, PA 19152
+  phone: 215-335-3355
+  fax: 215-856-3734
+- classification: district
+  name: Philadelphia Office
+  address: 1318 West Girard Avenue;Philadelphia, PA 19123
+  phone: 215-982-1156
+  fax: 267-639-9944
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B001296 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

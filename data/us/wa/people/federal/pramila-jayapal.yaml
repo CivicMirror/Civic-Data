@@ -1,0 +1,47 @@
+id: ocd-person/7538055b-6037-5995-815c-8cf5bf380e50
+name: Pramila Jayapal
+identifiers:
+- scheme: bioguide
+  identifier: J000298
+- scheme: govtrack
+  identifier: '412730'
+- scheme: wikidata
+  identifier: Q18978140
+- scheme: wikipedia
+  identifier: Pramila Jayapal
+- scheme: ballotpedia
+  identifier: Pramila Jayapal
+- scheme: opensecrets
+  identifier: N00038858
+- scheme: votesmart
+  identifier: '153141'
+- scheme: icpsr
+  identifier: '21726'
+- scheme: cspan
+  identifier: '9267128'
+- scheme: maplight
+  identifier: '2242'
+- scheme: fec-candidate-id
+  identifier: H6WA07458
+candidacies: []
+contact:
+  phone: 202-225-3106
+  profile_url: https://jayapal.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2346 Rayburn House Office Building Washington DC 20515-4707
+  phone: 202-225-3106
+- classification: district
+  name: Seattle Office
+  address: 2033 6th Ave., Suite 1011;Seattle, WA 98121
+  phone: 206-674-0040
+  fax: 771-200-5813
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000298 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

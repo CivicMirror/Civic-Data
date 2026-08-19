@@ -1,0 +1,51 @@
+id: ocd-person/9301ffce-dc60-52c0-9e71-2122972b3876
+name: Brian Schatz
+identifiers:
+- scheme: bioguide
+  identifier: S001194
+- scheme: govtrack
+  identifier: '412507'
+- scheme: wikidata
+  identifier: Q1827902
+- scheme: wikipedia
+  identifier: Brian Schatz
+- scheme: ballotpedia
+  identifier: Brian E. Schatz
+- scheme: opensecrets
+  identifier: N00028138
+- scheme: votesmart
+  identifier: '17852'
+- scheme: icpsr
+  identifier: '41112'
+- scheme: lis
+  identifier: S353
+- scheme: thomas
+  identifier: '02173'
+- scheme: cspan
+  identifier: '87784'
+- scheme: maplight
+  identifier: '1728'
+- scheme: fec-candidate-id
+  identifier: H6HI02244
+candidacies: []
+contact:
+  phone: 202-224-3934
+  profile_url: https://www.schatz.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 722 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-3934
+- classification: district
+  name: Honolulu Office
+  address: 300 Ala Moana Blvd., Room 7-212;Honolulu, HI 96850
+  phone: 808-523-2061
+  fax: 808-523-2065
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001194 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

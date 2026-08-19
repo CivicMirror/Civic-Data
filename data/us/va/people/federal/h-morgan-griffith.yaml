@@ -1,0 +1,54 @@
+id: ocd-person/44327edc-e7d3-5fab-ac6d-7e14112b6ea2
+name: H. Morgan Griffith
+identifiers:
+- scheme: bioguide
+  identifier: G000568
+- scheme: govtrack
+  identifier: '412485'
+- scheme: wikidata
+  identifier: Q1684857
+- scheme: wikipedia
+  identifier: Morgan Griffith
+- scheme: ballotpedia
+  identifier: Morgan Griffith
+- scheme: opensecrets
+  identifier: N00032029
+- scheme: votesmart
+  identifier: '5148'
+- scheme: icpsr
+  identifier: '21191'
+- scheme: thomas
+  identifier: '02070'
+- scheme: cspan
+  identifier: '62766'
+- scheme: maplight
+  identifier: '1490'
+- scheme: fec-candidate-id
+  identifier: H0VA09055
+candidacies: []
+contact:
+  phone: 202-225-3861
+  profile_url: https://morgangriffith.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2110 Rayburn House Office Building Washington DC 20515-4609
+  phone: 202-225-3861
+- classification: district
+  name: Abingdon Office
+  address: 323 W. Main St.;Abingdon, VA 24210
+  phone: 276-525-1405
+  fax: 276-525-1444
+- classification: district
+  name: Christiansburg Office
+  address: 17 W. Main St.;Christiansburg, VA 24073
+  phone: 540-381-5671
+  fax: 540-381-5675
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide G000568 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,68 @@
+id: ocd-person/16b6b512-cef6-5905-be07-a2e8798681ca
+name: Jared Huffman
+identifiers:
+- scheme: bioguide
+  identifier: H001068
+- scheme: govtrack
+  identifier: '412511'
+- scheme: wikidata
+  identifier: Q3276717
+- scheme: wikipedia
+  identifier: Jared Huffman
+- scheme: ballotpedia
+  identifier: Jared Huffman
+- scheme: opensecrets
+  identifier: N00033030
+- scheme: votesmart
+  identifier: '59849'
+- scheme: icpsr
+  identifier: '21303'
+- scheme: thomas
+  identifier: '02101'
+- scheme: cspan
+  identifier: '622431'
+- scheme: maplight
+  identifier: '1735'
+- scheme: fec-candidate-id
+  identifier: H2CA06259
+candidacies: []
+contact:
+  phone: 202-225-5161
+  profile_url: https://huffman.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2330 Rayburn House Office Building Washington DC 20515-0502
+  phone: 202-225-5161
+- classification: district
+  name: Eureka Office
+  address: 317 Third St., Suite 1;Eureka, CA 95501
+  phone: 707-407-3585
+  fax: 707-407-3559
+- classification: district
+  name: Fort Bragg Office
+  address: 430 N. Franklin St., P.O. Box 2208;Fort Bragg, CA 95437
+  phone: 707-962-0933
+  fax: 707-962-0905
+- classification: district
+  name: Petaluma Office
+  address: '206 G St., Unit #3;Petaluma, CA 94952'
+  phone: 707-981-8967
+- classification: district
+  name: San Rafael Office
+  address: 999 Fifth Ave., Suite 290;San Rafael, CA 94901
+  phone: 415-258-9657
+  fax: 415-258-9913
+- classification: district
+  name: Ukiah Office
+  address: 200 South School Street;Ukiah, CA 95482
+  phone: 707-671-7449
+  fax: 707-962-0905
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001068 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,54 @@
+id: ocd-person/119ca827-354f-5b83-8684-86891d414def
+name: Chellie Pingree
+identifiers:
+- scheme: bioguide
+  identifier: P000597
+- scheme: govtrack
+  identifier: '412307'
+- scheme: wikidata
+  identifier: Q457243
+- scheme: wikipedia
+  identifier: Chellie Pingree
+- scheme: ballotpedia
+  identifier: Chellie Pingree
+- scheme: opensecrets
+  identifier: N00013817
+- scheme: votesmart
+  identifier: '6586'
+- scheme: icpsr
+  identifier: '20920'
+- scheme: thomas
+  identifier: 01927
+- scheme: cspan
+  identifier: '1002167'
+- scheme: maplight
+  identifier: '789'
+- scheme: fec-candidate-id
+  identifier: S0ME00038
+candidacies: []
+contact:
+  phone: 202-225-6116
+  profile_url: https://pingree.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2354 Rayburn House Office Building Washington DC 20515-1901
+  phone: 202-225-6116
+- classification: district
+  name: Portland Office
+  address: 2 Portland Fish Pier, Suite 304;Portland, ME 04101
+  phone: 207-774-5019
+  fax: 207-871-0720
+- classification: district
+  name: Waterville Office
+  address: 1 Silver St.;Waterville, ME 04901
+  phone: 207-873-5713
+  fax: 207-873-5717
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide P000597 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

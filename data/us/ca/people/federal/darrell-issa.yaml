@@ -1,0 +1,56 @@
+id: ocd-person/620d0942-ed35-5fc3-98d0-65d6330adbbb
+name: Darrell Issa
+identifiers:
+- scheme: bioguide
+  identifier: I000056
+- scheme: govtrack
+  identifier: '400196'
+- scheme: wikidata
+  identifier: Q1166592
+- scheme: wikipedia
+  identifier: Darrell Issa
+- scheme: ballotpedia
+  identifier: Darrell Issa
+- scheme: opensecrets
+  identifier: N00007017
+- scheme: votesmart
+  identifier: '16553'
+- scheme: icpsr
+  identifier: '20107'
+- scheme: thomas
+  identifier: '01640'
+- scheme: cspan
+  identifier: '90066'
+- scheme: maplight
+  identifier: '300'
+- scheme: fec-candidate-id
+  identifier: S8CA00135
+candidacies: []
+contact:
+  phone: 202-225-5672
+  profile_url: https://issa.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2108 Rayburn House Office Building Washington DC 20515-0548
+  phone: 202-225-5672
+- classification: district
+  name: Escondido Office
+  address: '221 W. Crest St, #110;Escondido, CA 92025'
+  phone: 760-304-7575
+- classification: district
+  name: Santee Office
+  address: Bldg 6, 10601 Magnolia Ave;Santee, CA 92071
+  phone: 760-304-7575
+- classification: district
+  name: Temecula Office
+  address: 41000 Main St.;Temecula, CA 92590
+  phone: 760-304-7575
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide I000056 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,48 @@
+id: ocd-person/e148773f-26d5-5942-96a6-7f375d22a312
+name: Jared Moskowitz
+identifiers:
+- scheme: bioguide
+  identifier: M001217
+- scheme: govtrack
+  identifier: '456893'
+- scheme: wikidata
+  identifier: Q16221073
+- scheme: wikipedia
+  identifier: Jared Moskowitz
+- scheme: ballotpedia
+  identifier: Jared Moskowitz
+- scheme: opensecrets
+  identifier: N00050596
+- scheme: votesmart
+  identifier: '138155'
+- scheme: fec-candidate-id
+  identifier: H2FL22171
+candidacies: []
+contact:
+  phone: 202-225-3001
+  profile_url: https://moskowitz.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 242 Cannon House Office Building Washington DC 20515-0923
+  phone: 202-225-3001
+- classification: district
+  name: Coral Springs Office
+  address: 9500 W. Sample Road, Suite 201;Coral Springs, FL 33065
+  phone: 754-240-6330
+- classification: district
+  name: Fort Lauderdale Office
+  address: 111 East Las Olas Blvd, 5th Floor;Fort Lauderdale, FL 33301
+  phone: 754-240-6330
+- classification: district
+  name: Boca Raton Office
+  address: 777 Glades Rd, Room 278;Boca Raton, FL 33431
+  phone: 754-240-6330
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001217 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

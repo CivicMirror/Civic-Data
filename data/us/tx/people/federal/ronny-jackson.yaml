@@ -1,0 +1,48 @@
+id: ocd-person/1d671fa2-dbaa-58df-86b8-bf7e46d98275
+name: Ronny Jackson
+identifiers:
+- scheme: bioguide
+  identifier: J000304
+- scheme: govtrack
+  identifier: '456847'
+- scheme: wikidata
+  identifier: Q47270118
+- scheme: wikipedia
+  identifier: Ronny Jackson
+- scheme: ballotpedia
+  identifier: Ronny Jackson
+- scheme: opensecrets
+  identifier: N00046055
+- scheme: votesmart
+  identifier: '188325'
+- scheme: fec-candidate-id
+  identifier: H0TX13228
+candidacies: []
+contact:
+  phone: 202-225-3706
+  profile_url: https://jackson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 125 Cannon House Office Building Washington DC 20515-4313
+  phone: 202-225-3706
+- classification: district
+  name: Denton Office
+  address: 110 W. Hickory Street, Suite 303;Denton, TX 76201
+  phone: 940-334-2030
+- classification: district
+  name: Wichita Falls Office
+  address: 2525 Kell Blvd., Suite 406;Wichita Falls, TX 76308
+  phone: 940-285-8000
+- classification: district
+  name: Amarillo Office
+  address: 620 South Taylor St., Suite 200;Amarillo, TX 79101
+  phone: 806-641-5600
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000304 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

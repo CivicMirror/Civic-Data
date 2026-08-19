@@ -1,0 +1,54 @@
+id: ocd-person/9ccfc516-ee91-5b4b-9528-3163630e3dac
+name: Mike Johnson
+identifiers:
+- scheme: bioguide
+  identifier: J000299
+- scheme: govtrack
+  identifier: '412706'
+- scheme: wikidata
+  identifier: Q19880665
+- scheme: wikipedia
+  identifier: Mike Johnson
+- scheme: ballotpedia
+  identifier: Mike Johnson (Louisiana)
+- scheme: opensecrets
+  identifier: N00039106
+- scheme: votesmart
+  identifier: '156097'
+- scheme: icpsr
+  identifier: '21727'
+- scheme: cspan
+  identifier: '106095'
+- scheme: maplight
+  identifier: '2218'
+- scheme: fec-candidate-id
+  identifier: H6LA04138
+candidacies: []
+contact:
+  phone: 202-225-2777
+  profile_url: https://mikejohnson.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 521 Cannon House Office Building Washington DC 20515-1804
+  phone: 202-225-2777
+- classification: district
+  name: Bossier City Office
+  address: 2250 Hospital Dr., Suite 248;Bossier City, LA 71111
+  phone: 318-840-0309
+- classification: district
+  name: DeRidder Office
+  address: 401 W. First Street, Room 33;DeRidder, LA 70634
+  phone: 337-226-6385
+- classification: district
+  name: Leesville Office
+  address: Building 552, 3329 University Parkway, Room 24;Leesville, LA 71446
+  phone: 337-423-4232
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide J000299 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

@@ -1,0 +1,49 @@
+id: ocd-person/f9e01592-3b15-5af9-a7a9-8c296e0718ce
+name: David Schweikert
+identifiers:
+- scheme: bioguide
+  identifier: S001183
+- scheme: govtrack
+  identifier: '412399'
+- scheme: wikidata
+  identifier: Q1176561
+- scheme: wikipedia
+  identifier: David Schweikert
+- scheme: ballotpedia
+  identifier: David Schweikert
+- scheme: opensecrets
+  identifier: N00006460
+- scheme: votesmart
+  identifier: '106387'
+- scheme: icpsr
+  identifier: '21105'
+- scheme: thomas
+  identifier: 01994
+- scheme: cspan
+  identifier: '5205'
+- scheme: maplight
+  identifier: '1413'
+- scheme: fec-candidate-id
+  identifier: H8AZ05097
+candidacies: []
+contact:
+  phone: 202-225-2190
+  profile_url: https://schweikert.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 166 Cannon House Office Building Washington DC 20515-0301
+  phone: 202-225-2190
+- classification: district
+  name: Scottsdale Office
+  address: 14500 N Northsight Blvd, Suite 221;Scottsdale, AZ 85260-3658
+  phone: 480-946-2411
+  fax: 480-946-2446
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001183 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

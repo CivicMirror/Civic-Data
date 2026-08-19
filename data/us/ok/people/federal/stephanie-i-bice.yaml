@@ -1,0 +1,41 @@
+id: ocd-person/531dcf82-4c1f-5182-b3ae-6dfcd5412b32
+name: Stephanie I. Bice
+identifiers:
+- scheme: bioguide
+  identifier: B000740
+- scheme: govtrack
+  identifier: '456841'
+- scheme: wikidata
+  identifier: Q60190894
+- scheme: wikipedia
+  identifier: Stephanie Bice
+- scheme: ballotpedia
+  identifier: Stephanie Bice
+- scheme: opensecrets
+  identifier: N00044579
+- scheme: votesmart
+  identifier: '152294'
+- scheme: fec-candidate-id
+  identifier: H0OK05205
+candidacies: []
+contact:
+  phone: 202-225-2132
+  profile_url: https://bice.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2402 Rayburn House Office Building Washington DC 20515-3605
+  phone: 202-225-2132
+- classification: district
+  name: Oklahoma City Office
+  address: 101 N Robinson, Suite 1105;Oklahoma City, OK 73102
+  phone: 405-300-6890
+  fax: 855-235-5024
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B000740 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

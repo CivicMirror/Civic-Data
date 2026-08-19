@@ -1,0 +1,75 @@
+id: ocd-person/93a0a671-2032-5913-8989-e39cced765c7
+name: Jerry Moran
+identifiers:
+- scheme: bioguide
+  identifier: M000934
+- scheme: govtrack
+  identifier: '400284'
+- scheme: wikidata
+  identifier: Q1365787
+- scheme: wikipedia
+  identifier: Jerry Moran
+- scheme: ballotpedia
+  identifier: Jerry Moran
+- scheme: opensecrets
+  identifier: N00005282
+- scheme: votesmart
+  identifier: '542'
+- scheme: icpsr
+  identifier: '29722'
+- scheme: lis
+  identifier: S347
+- scheme: thomas
+  identifier: '01507'
+- scheme: cspan
+  identifier: '45469'
+- scheme: maplight
+  identifier: '379'
+- scheme: fec-candidate-id
+  identifier: S0KS00091
+candidacies: []
+contact:
+  phone: 202-224-6521
+  profile_url: https://www.moran.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 521 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-6521
+- classification: district
+  name: Hays Office
+  address: 1200 Main St., Suite 402;Hays, KS 67601
+  phone: 785-628-6401
+  fax: 785-628-3791
+- classification: district
+  name: Olathe Office
+  address: 23600 College Blvd., Suite 201;Olathe, KS 66061
+  phone: 913-393-0711
+  fax: 913-768-1366
+- classification: district
+  name: Pittsburg Office
+  address: 306 N. Broadway, Suite 125;Pittsburg, KS 66762
+  phone: 620-232-2286
+  fax: 620-232-2284
+- classification: district
+  name: Wichita Office
+  address: 100 North Broadway, Suite 210;Wichita, KS 67202
+  phone: 316-269-9259
+  fax: 316-269-9257
+- classification: district
+  name: Manhattan Office
+  address: 1880 Kimball Ave, Suite 270;Manhattan, KS 66502
+  phone: 785-539-8973
+  fax: 785-587-0789
+- classification: district
+  name: Garden City Office
+  address: 1511 East Fulton Terrace, Suite 1511-2;Garden City, KS 67846
+  phone: 620-260-3025
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M000934 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

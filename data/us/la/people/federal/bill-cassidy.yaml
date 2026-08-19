@@ -1,0 +1,80 @@
+id: ocd-person/2586a383-cc4f-57ad-b1e3-a19662e40c00
+name: Bill Cassidy
+identifiers:
+- scheme: bioguide
+  identifier: C001075
+- scheme: govtrack
+  identifier: '412269'
+- scheme: wikidata
+  identifier: Q861999
+- scheme: wikipedia
+  identifier: Bill Cassidy
+- scheme: ballotpedia
+  identifier: Bill Cassidy
+- scheme: opensecrets
+  identifier: N00030245
+- scheme: votesmart
+  identifier: '69494'
+- scheme: icpsr
+  identifier: '20919'
+- scheme: lis
+  identifier: S373
+- scheme: thomas
+  identifier: 01925
+- scheme: cspan
+  identifier: '1030546'
+- scheme: maplight
+  identifier: '751'
+- scheme: fec-candidate-id
+  identifier: S4LA00107
+candidacies: []
+contact:
+  phone: 202-224-5824
+  profile_url: https://www.cassidy.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 455 Dirksen Senate Office Building Washington DC 20510
+  phone: 202-224-5824
+- classification: district
+  name: Lafayette Office
+  address: 101 La Rue France, Suite 505;Lafayette, LA 70508
+  phone: 337-261-1400
+  fax: 337-261-1490
+- classification: district
+  name: Metairie Office
+  address: 3421 N. Causeway Blvd., Suite 204;Metairie, LA 70002
+  phone: 504-838-0130
+  fax: 504-838-0133
+- classification: district
+  name: Monroe Office
+  address: 1651 Louisville Ave., Suite 123;Monroe, LA 70201
+  phone: 318-324-2111
+  fax: 318-324-2197
+- classification: district
+  name: Lake Charles Office
+  address: 611 Broad St., Suite 117;Lake Charles, LA 70601
+  phone: 337-602-7253
+- classification: district
+  name: Baton Rouge Office
+  address: 450 Laurel St., Suite 1400;Baton Rouge, LA 70801
+  phone: 225-929-7711
+  fax: 225-383-3768
+- classification: district
+  name: Shreveport Office
+  address: 401 Market St, Suite 1018;Shreveport, LA 71101
+  phone: 318-798-3215
+  fax: 318-798-8473
+- classification: district
+  name: Alexandria Office
+  address: 1611 Arnold Drive, Suite 112;Alexandria, LA 71303
+  phone: 318-448-7176
+  fax: 318-448-5175
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001075 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

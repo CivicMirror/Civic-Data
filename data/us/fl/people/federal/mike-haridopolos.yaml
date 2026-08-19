@@ -1,0 +1,40 @@
+id: ocd-person/f5f3bdc3-efde-57b6-9280-cdb6c0827f06
+name: Mike Haridopolos
+identifiers:
+- scheme: bioguide
+  identifier: H001099
+- scheme: govtrack
+  identifier: '456986'
+- scheme: wikidata
+  identifier: Q6847137
+- scheme: wikipedia
+  identifier: Mike Haridopolos
+- scheme: ballotpedia
+  identifier: Mike Haridopolos
+- scheme: opensecrets
+  identifier: N00033076
+- scheme: votesmart
+  identifier: '53952'
+- scheme: fec-candidate-id
+  identifier: H4FL08168
+candidacies: []
+contact:
+  phone: 202-225-3671
+  profile_url: https://haridopolos.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1039 Longworth House Office Building Washington DC 20515-0908
+  phone: 202-225-3671
+- classification: district
+  name: Melbourne Office
+  address: Building C, 2725 Judge Fran Jamieson Way;Melbourne, FL 32940
+  phone: 321-632-1776
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide H001099 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

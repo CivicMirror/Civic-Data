@@ -1,0 +1,41 @@
+id: ocd-person/8aec3d25-d6d2-5d2b-88cc-e7cfff0a77f7
+name: Nikema Williams
+identifiers:
+- scheme: bioguide
+  identifier: W000788
+- scheme: govtrack
+  identifier: '456811'
+- scheme: wikidata
+  identifier: Q56486570
+- scheme: wikipedia
+  identifier: Nikema Williams
+- scheme: ballotpedia
+  identifier: Nikema Williams
+- scheme: opensecrets
+  identifier: N00047361
+- scheme: votesmart
+  identifier: '176751'
+- scheme: fec-candidate-id
+  identifier: H0GA05301
+candidacies: []
+contact:
+  phone: 202-225-3801
+  profile_url: https://nikemawilliams.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1406 Longworth House Office Building Washington DC 20515-1005
+  phone: 202-225-3801
+- classification: district
+  name: Atlanta Office
+  address: 100 Peachtree Street Northwest, Suite 1920;Atlanta, GA 30303
+  phone: 404-659-0116
+  fax: 404-331-0947
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000788 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

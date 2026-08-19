@@ -1,0 +1,40 @@
+id: ocd-person/8c0821cd-37ce-5248-a33d-58c18b73d6e0
+name: Tony Wied
+identifiers:
+- scheme: bioguide
+  identifier: W000829
+- scheme: govtrack
+  identifier: '456963'
+- scheme: wikidata
+  identifier: Q131033476
+- scheme: wikipedia
+  identifier: Tony Wied
+- scheme: ballotpedia
+  identifier: Tony Wied
+- scheme: opensecrets
+  identifier: N00055013
+- scheme: votesmart
+  identifier: '218131'
+- scheme: fec-candidate-id
+  identifier: H4WI08119
+candidacies: []
+contact:
+  phone: 202-225-5665
+  profile_url: https://wied.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 424 Cannon House Office Building Washington DC 20515-4908
+  phone: 202-225-5665
+- classification: district
+  name: De Pere Office
+  address: 1702 Scheuring Rd, Suite B;De Pere, WI 54115
+  phone: 920-301-4500
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide W000829 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

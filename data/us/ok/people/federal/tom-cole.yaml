@@ -1,0 +1,59 @@
+id: ocd-person/46420527-f58a-53e8-acdb-1a1d79e5d6b1
+name: Tom Cole
+identifiers:
+- scheme: bioguide
+  identifier: C001053
+- scheme: govtrack
+  identifier: '400077'
+- scheme: wikidata
+  identifier: Q173839
+- scheme: wikipedia
+  identifier: Tom Cole
+- scheme: ballotpedia
+  identifier: Tom Cole
+- scheme: opensecrets
+  identifier: N00025726
+- scheme: votesmart
+  identifier: '46034'
+- scheme: icpsr
+  identifier: '20344'
+- scheme: thomas
+  identifier: '01742'
+- scheme: cspan
+  identifier: '1003609'
+- scheme: maplight
+  identifier: '194'
+- scheme: fec-candidate-id
+  identifier: H2OK04055
+candidacies: []
+contact:
+  phone: 202-225-6165
+  profile_url: https://cole.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2207 Rayburn House Office Building Washington DC 20515-3604
+  phone: 202-225-6165
+- classification: district
+  name: Lawton Office
+  address: 711 SW. D Ave., Suite 201;Lawton, OK 73501
+  phone: 580-357-2131
+  fax: 580-357-7477
+- classification: district
+  name: Norman Office
+  address: 3219 Rock Creek Rd., Suite 125;Norman, OK 73072
+  phone: 405-329-6500
+  fax: 405-321-7369
+- classification: district
+  name: Ada Office
+  address: 100 E. 13th St., Suite 213;Ada, OK 74820
+  phone: 580-436-5375
+  fax: 580-436-5451
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide C001053 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

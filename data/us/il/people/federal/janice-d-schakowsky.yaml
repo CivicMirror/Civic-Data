@@ -1,0 +1,49 @@
+id: ocd-person/bb1912a2-ac92-5898-9f25-ddc6d69eb8ae
+name: Janice D. Schakowsky
+identifiers:
+- scheme: bioguide
+  identifier: S001145
+- scheme: govtrack
+  identifier: '400360'
+- scheme: wikidata
+  identifier: Q440885
+- scheme: wikipedia
+  identifier: Jan Schakowsky
+- scheme: ballotpedia
+  identifier: Jan Schakowsky
+- scheme: opensecrets
+  identifier: N00004724
+- scheme: votesmart
+  identifier: '6387'
+- scheme: icpsr
+  identifier: '29911'
+- scheme: thomas
+  identifier: 01588
+- scheme: cspan
+  identifier: '57874'
+- scheme: maplight
+  identifier: '452'
+- scheme: fec-candidate-id
+  identifier: H8IL09067
+candidacies: []
+contact:
+  phone: 202-225-2111
+  profile_url: https://schakowsky.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 2408 Rayburn House Office Building Washington DC 20515-1309
+  phone: 202-225-2111
+- classification: district
+  name: Skokie Office
+  address: 4500 Oakton Street;Skokie, IL 60076
+  phone: 773-506-7100
+  fax: 202-226-6890
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide S001145 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

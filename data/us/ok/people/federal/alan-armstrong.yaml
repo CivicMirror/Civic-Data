@@ -1,0 +1,39 @@
+id: ocd-person/726ed1ba-6fdc-552d-8dd8-0a6d321e93f4
+name: Alan Armstrong
+identifiers:
+- scheme: bioguide
+  identifier: A000383
+- scheme: govtrack
+  identifier: '457040'
+- scheme: wikidata
+  identifier: Q138781196
+- scheme: wikipedia
+  identifier: Alan S. Armstrong
+- scheme: ballotpedia
+  identifier: Alan Armstrong
+- scheme: votesmart
+  identifier: '237497'
+- scheme: lis
+  identifier: S440
+candidacies: []
+contact:
+  phone: 202-224-4721
+  profile_url: https://www.armstrong.senate.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 330 Hart Senate Office Building Washington DC 20510
+  phone: 202-224-4721
+- classification: district
+  name: Oklahoma City Office
+  address: '3817 NW Expressway, #780;Oklahoma City, OK 73112'
+  phone: 405-246-0025
+  fax: 405-604-0917
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide A000383 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

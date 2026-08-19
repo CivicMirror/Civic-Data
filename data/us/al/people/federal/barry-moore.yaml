@@ -1,0 +1,57 @@
+id: ocd-person/a8265609-f1e5-599f-873a-d3e32f336c21
+name: Barry Moore
+identifiers:
+- scheme: bioguide
+  identifier: M001212
+- scheme: govtrack
+  identifier: '456800'
+- scheme: wikidata
+  identifier: Q63198048
+- scheme: wikipedia
+  identifier: Barry Moore (American politician)
+- scheme: ballotpedia
+  identifier: Barry Moore (Alabama)
+- scheme: opensecrets
+  identifier: N00041295
+- scheme: votesmart
+  identifier: '121792'
+- scheme: fec-candidate-id
+  identifier: S6AL00476
+candidacies: []
+contact:
+  phone: 202-225-2901
+  profile_url: https://barrymoore.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 1511 Longworth House Office Building Washington DC 20515-0101
+  phone: 202-225-2901
+- classification: district
+  name: Dothan Office
+  address: 217 Graceland Drive, Suite 5;Dothan, AL 36305
+  phone: 334-547-6630
+- classification: district
+  name: Andalusia Office
+  address: 505 E 3 Notch St, Suite 322;Andalusia, AL 36420
+  phone: 334-428-1129
+  fax: 334-222-3342
+- classification: district
+  name: Mobile Office
+  address: 5253 Hwy 90 W, Suite I;Mobile, AL 36619
+  phone: 251-264-6710
+- classification: district
+  name: Bay Minette Office
+  address: 116 Courthouse Sq;Bay Minette, AL 36507
+  phone: 251-494-5151
+- classification: district
+  name: Foley Office
+  address: 407 E. Laurel Ave;Foley, AL 36535
+  phone: 251-437-6310
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide M001212 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.

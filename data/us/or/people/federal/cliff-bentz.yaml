@@ -1,0 +1,45 @@
+id: ocd-person/02036389-4ebb-5b45-851b-272db934075b
+name: Cliff Bentz
+identifiers:
+- scheme: bioguide
+  identifier: B000668
+- scheme: govtrack
+  identifier: '456842'
+- scheme: wikidata
+  identifier: Q5132536
+- scheme: wikipedia
+  identifier: Cliff Bentz
+- scheme: ballotpedia
+  identifier: Cliff Bentz
+- scheme: opensecrets
+  identifier: N00045773
+- scheme: votesmart
+  identifier: '102400'
+- scheme: fec-candidate-id
+  identifier: H0OR02127
+candidacies: []
+contact:
+  phone: 202-225-6730
+  profile_url: https://bentz.house.gov
+addresses:
+- classification: capitol
+  name: Washington, D.C. Office
+  address: 409 Cannon House Office Building Washington DC 20515-3702
+  phone: 202-225-6730
+- classification: district
+  name: Medford Office
+  address: 14 N. Central Avenue, Suite 112;Medford, OR 97501
+  phone: 541-776-4646
+  fax: 541-779-0204
+- classification: district
+  name: Ontario Office
+  address: 2430 SW 4th Avenue, Suite 2;Ontario, OR 97914
+  phone: 541-709-2040
+verification:
+  status: machine-extracted
+  pipeline: congress-legislators+fec-api+congress-gov-api
+sources:
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml
+  note: unitedstates/congress-legislators (current), bioguide B000668 -- primary source for identity, terms, class, dates.
+- url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
+  note: District office addresses/phones.
