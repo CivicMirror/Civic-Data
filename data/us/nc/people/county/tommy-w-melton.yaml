@@ -1,0 +1,20 @@
+# Hand-seeded from the county's official Board of Commissioners page,
+# cross-referenced against NCSBE 2022+2024 precinct-level election
+# results by scripts/build_nc_3counties.py -- skipped from the main
+# 97-county NCSBE aggregation build because this county's election
+# method changed via legislative act between the 2022 and 2024 cycles
+# in a way that pipeline couldn't safely reconcile. See file docstring.
+id: ocd-person/de87ffbb-fc13-5f97-86c8-17a489be694e
+name: Tommy W. Melton
+identifiers: []
+candidacies: []
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://www.polknc.gov/your_commissioners/index.php
+  note: Official county government current Board of Commissioners roster
+  retrieved: '2026-08-19'
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
+  note: NCSBE official Nov. 8, 2022 general election precinct-level results
+  retrieved: '2026-08-19'

@@ -1,0 +1,18 @@
+# Hand-seeded from the county's official Board of Commissioners page,
+# cross-referenced against NCSBE 2022+2024 precinct-level election
+# results by scripts/build_nc_3counties.py -- skipped from the main
+# 97-county NCSBE aggregation build because this county's election
+# method changed via legislative act between the 2022 and 2024 cycles
+# in a way that pipeline couldn't safely reconcile. See file docstring.
+id: watauga-commissioner-district-1-hodges
+person_id: ocd-person/12c5e7a0-b9bb-5f93-80f2-bc317c0ed919
+organization_id: ocd-organization/4b1e4828-d189-58be-9668-94210e0c7f9a
+post_id: watauga/commissioner-district-1
+role: County Commissioner (District 1)
+seat: District 1
+start: '2022-12-05'
+how_seated: elected
+sources:
+- url: https://www.wataugacounty.org/App_Pages/Dept/BOC/members.aspx
+  note: Official county government current Board of Commissioners roster
+  retrieved: '2026-08-19'

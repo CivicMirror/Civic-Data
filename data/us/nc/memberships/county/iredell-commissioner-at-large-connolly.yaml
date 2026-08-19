@@ -1,0 +1,21 @@
+# Hand-seeded from the county's official Board of Commissioners page,
+# cross-referenced against NCSBE 2022+2024 precinct-level election
+# results by scripts/build_nc_3counties.py -- skipped from the main
+# 97-county NCSBE aggregation build because this county's election
+# method changed via legislative act between the 2022 and 2024 cycles
+# in a way that pipeline couldn't safely reconcile. See file docstring.
+id: iredell-commissioner-at-large-connolly
+person_id: ocd-person/4d668f5b-93ec-58ba-9087-7d896ad0965c
+organization_id: ocd-organization/cb47c83e-f515-5b7a-b737-af7bc82a4765
+post_id: iredell/commissioner-at-large
+role: County Commissioner (At-Large)
+seat: At-Large
+start: '2022-12-05'
+how_seated: elected
+sources:
+- url: https://www.iredellcountync.gov/616/Board-of-Commissioners
+  note: Official county government current Board of Commissioners roster
+  retrieved: '2026-08-19'
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
+  note: NCSBE official Nov. 8, 2022 general election precinct-level results
+  retrieved: '2026-08-19'

@@ -1,0 +1,21 @@
+# Hand-seeded from the county's official Board of Commissioners page,
+# cross-referenced against NCSBE 2022+2024 precinct-level election
+# results by scripts/build_nc_3counties.py -- skipped from the main
+# 97-county NCSBE aggregation build because this county's election
+# method changed via legislative act between the 2022 and 2024 cycles
+# in a way that pipeline couldn't safely reconcile. See file docstring.
+id: polk-commissioner-at-large-yoder
+person_id: ocd-person/eba67fbd-e867-5331-bcc5-d1a7a75e1a6a
+organization_id: ocd-organization/e482d9c9-ce0f-59d8-834a-e5a8a913b361
+post_id: polk/commissioner-at-large
+role: County Commissioner (At-Large)
+seat: At-Large
+start: '2024-12-02'
+how_seated: elected
+sources:
+- url: https://www.polknc.gov/your_commissioners/index.php
+  note: Official county government current Board of Commissioners roster
+  retrieved: '2026-08-19'
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results
+  retrieved: '2026-08-19'

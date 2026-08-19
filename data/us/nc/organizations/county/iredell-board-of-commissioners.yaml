@@ -1,0 +1,20 @@
+# Hand-seeded from the county's official Board of Commissioners page,
+# cross-referenced against NCSBE 2022+2024 precinct-level election
+# results by scripts/build_nc_3counties.py -- skipped from the main
+# 97-county NCSBE aggregation build because this county's election
+# method changed via legislative act between the 2022 and 2024 cycles
+# in a way that pipeline couldn't safely reconcile. See file docstring.
+id: ocd-organization/cb47c83e-f515-5b7a-b737-af7bc82a4765
+name: Iredell County Board of Commissioners
+jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:iredell/government
+identifiers: []
+sources:
+- url: https://www.iredellcountync.gov/616/Board-of-Commissioners
+  note: Official county government current Board of Commissioners roster
+  retrieved: '2026-08-19'
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
+  note: NCSBE official Nov. 5, 2024 general election precinct-level results
+  retrieved: '2026-08-19'
+- url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
+  note: NCSBE official Nov. 8, 2022 general election precinct-level results
+  retrieved: '2026-08-19'

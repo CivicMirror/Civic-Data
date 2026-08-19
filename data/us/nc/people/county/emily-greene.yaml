@@ -1,0 +1,17 @@
+# Hand-seeded from the county's official Board of Commissioners page,
+# cross-referenced against NCSBE 2022+2024 precinct-level election
+# results by scripts/build_nc_3counties.py -- skipped from the main
+# 97-county NCSBE aggregation build because this county's election
+# method changed via legislative act between the 2022 and 2024 cycles
+# in a way that pipeline couldn't safely reconcile. See file docstring.
+id: ocd-person/47ef50d0-5f3e-5c7f-9bc7-728ea17b1958
+name: Emily Greene
+identifiers: []
+candidacies: []
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://www.wataugacounty.org/App_Pages/Dept/BOC/members.aspx
+  note: Official county government current Board of Commissioners roster
+  retrieved: '2026-08-19'
