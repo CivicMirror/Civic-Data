@@ -1,0 +1,15 @@
+# Machine-generated from unitedstates/congress-legislators (current) by
+# scripts/build_federal_orgs.py. election_authority and site_intelligence
+# are deliberately left blank -- they require per-state research beyond
+# this pipeline's sources and should be backfilled by hand.
+id: ocd-jurisdiction/country:us/state:pa/cd:4/legislature
+name: Pennsylvania's 4th congressional district (U.S. House delegation)
+state: pa
+division_id: ocd-division/country:us/state:pa/cd:4
+classification: legislature
+government_form: single-member district (U.S. House of Representatives)
+website: https://www.govtrack.us/congress/members/PA/4
+sources:
+- url: https://www.govtrack.us/congress/members/PA/4
+  note: GovTrack district page; used because congressional districts have no official government website of their own
+  retrieved: '2026-08-19'

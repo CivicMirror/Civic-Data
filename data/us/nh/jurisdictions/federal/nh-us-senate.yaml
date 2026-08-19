@@ -1,0 +1,13 @@
+# Machine-generated from unitedstates/congress-legislators (current) by
+# scripts/build_federal_orgs.py. election_authority and site_intelligence
+# are deliberately left blank -- they require per-state research beyond
+# this pipeline's sources and should be backfilled by hand.
+id: ocd-jurisdiction/country:us/state:nh/legislature
+name: New Hampshire (U.S. Senate delegation)
+state: nh
+division_id: ocd-division/country:us/state:nh
+classification: legislature
+sources:
+- url: https://www.senate.gov/NH/intro.htm
+  note: Official U.S. Senate directory page for this state's two Senate seats
+  retrieved: '2026-08-19'
