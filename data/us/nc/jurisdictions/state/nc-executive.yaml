@@ -1,0 +1,14 @@
+# Hand-seeded from the official nc.gov executive-branch directory
+# (nc.gov/your-government/executive). Mirrors the statewide jurisdiction
+# pattern build_federal_orgs.py used for the U.S. Senate delegation
+# (ocd-jurisdiction/country:us/state:nc/legislature) but for the
+# executive branch.
+id: ocd-jurisdiction/country:us/state:nc/executive
+name: North Carolina (Council of State / executive branch)
+state: nc
+division_id: ocd-division/country:us/state:nc
+classification: executive
+sources:
+- url: https://www.nc.gov/your-government/executive
+  note: Official nc.gov executive branch directory, confirmed against the NCSBE-certified Nov. 5, 2024 general election results
+  retrieved: '2026-08-19'
