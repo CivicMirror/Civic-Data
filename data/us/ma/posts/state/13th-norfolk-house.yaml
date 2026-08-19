@@ -1,0 +1,15 @@
+# Machine-generated from openstates/people's MA legislature bulk data
+# (github.com/openstates/people/tree/main/data/ma/legislature, itself sourced
+# from malegislature.gov's official API) by scripts/build_ma_general_court.py.
+id: ma-house-13th-norfolk/state-representative
+organization_id: ocd-organization/aa9b03c4-7c53-5bfe-b5ab-729988741939
+title: State Representative
+seats: 1
+identifiers: []
+sources:
+- url: https://malegislature.gov/api/GeneralCourts/193/LegislativeMembers
+  note: Official Massachusetts General Court API -- primary source openstates/people cites for current membership.
+  retrieved: '2026-08-19'
+- url: https://github.com/openstates/people/tree/main/data/ma/legislature
+  note: openstates/people bulk legislator data -- used here for current district enumeration.
+  retrieved: '2026-08-19'

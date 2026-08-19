@@ -1,0 +1,15 @@
+# Machine-generated from openstates/people's MA legislature bulk data
+# (github.com/openstates/people/tree/main/data/ma/legislature, itself sourced
+# from malegislature.gov's official API) by scripts/build_ma_general_court.py.
+id: ma-house-6th-plymouth/state-representative
+organization_id: ocd-organization/3a6efa73-d331-54c2-87c7-8f8a3e3dc0e2
+title: State Representative
+seats: 1
+identifiers: []
+sources:
+- url: https://malegislature.gov/api/GeneralCourts/193/LegislativeMembers
+  note: Official Massachusetts General Court API -- primary source openstates/people cites for current membership.
+  retrieved: '2026-08-19'
+- url: https://github.com/openstates/people/tree/main/data/ma/legislature
+  note: openstates/people bulk legislator data -- used here for current district enumeration.
+  retrieved: '2026-08-19'
