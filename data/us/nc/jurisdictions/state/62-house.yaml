@@ -1,0 +1,16 @@
+# Machine-generated from openstates/people's NC legislature bulk data
+# (github.com/openstates/people/tree/main/data/nc/legislature, itself sourced
+# from ncleg.gov's official member data) by scripts/build_nc_general_assembly.py.
+id: ocd-jurisdiction/country:us/state:nc/sldl:62/legislature
+name: District 62 (North Carolina House of Representatives delegation)
+state: nc
+division_id: ocd-division/country:us/state:nc/sldl:62
+classification: legislature
+government_form: single-member district (North Carolina House of Representatives)
+sources:
+- url: https://www.ncleg.gov/Members/MemberTable/H
+  note: Official North Carolina General Assembly member directory -- primary source openstates/people cites for current membership.
+  retrieved: '2026-08-19'
+- url: https://github.com/openstates/people/tree/main/data/nc/legislature
+  note: openstates/people bulk legislator data -- used here for current district enumeration.
+  retrieved: '2026-08-19'
