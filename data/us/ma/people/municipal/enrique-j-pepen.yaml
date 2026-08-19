@@ -1,0 +1,23 @@
+# Hand-seeded from boston.gov's council roster and the 2026/2027 elected
+# officials directory (see sources below). Current-term (2026-2027) seed only;
+# term start approximated as Jan 1, 2026 (first business day after MA municipal
+# inauguration norms) -- exact charter-specified date not confirmed. Not
+# derivable from OCPF -- see scripts/build_ocpf_enrichment.py's scope note.
+id: ocd-person/ec472cb0-59eb-5adc-a15e-9da0d21c1a66
+name: Enrique J. Pepén
+identifiers: []
+candidacies: []
+contact:
+  email: Enrique.Pepen@boston.gov
+  phone: (617) 635-4210
+  profile_url: https://www.boston.gov/departments/city-council
+verification:
+  status: unverified
+  pipeline: manual
+sources:
+- url: https://www.boston.gov/departments/city-council
+  note: Boston City Council roster
+  retrieved: '2026-08-19'
+- url: https://www.boston.gov/sites/default/files/file/2026/01/2026-2027%20Elected%20Officials.pdf
+  note: City of Boston Elected Officials 2026/2027 directory (contact info)
+  retrieved: '2026-08-19'

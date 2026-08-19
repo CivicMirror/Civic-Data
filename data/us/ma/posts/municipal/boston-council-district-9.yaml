@@ -1,0 +1,13 @@
+# Hand-seeded from the Boston Municipal Code / City Charter and boston.gov's
+# council roster (see boston-city-council.yaml org record for sources). Not
+# derivable from OCPF -- see scripts/build_ocpf_enrichment.py's OFFICE_TYPES
+# scope note.
+id: boston/council-district-9
+organization_id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+title: City Councillor, District 9
+seats: 1
+identifiers: []
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2026/01/2026-2027%20Elected%20Officials.pdf
+  note: Ward/precinct boundaries for District 9, per 2026/2027 elected officials directory
+  retrieved: '2026-08-19'

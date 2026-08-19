@@ -1,0 +1,18 @@
+# 13 members: 4 at-large councilors (citywide) + 9 district councilors (one per
+# district). Hand-researched from the Boston Municipal Code / City Charter and
+# boston.gov's own council roster -- NOT derivable from OCPF (its "City Councilor"
+# filer tags carry no seat-level distinction between at-large and district races;
+# see scripts/build_ocpf_enrichment.py's OFFICE_TYPES scope note). Current-term
+# seed only (2026-2027 term); historical officeholders/elections back to 2005 are
+# a follow-up (tracked in a GitHub issue).
+id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+name: Boston City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+identifiers: []
+sources:
+  - url: https://codelibrary.amlegal.com/codes/boston/latest/boston_ma/0-0-0-98
+    note: Boston Municipal Code -- charter basis for 4 at-large + 9 district council seats
+    retrieved: "2026-08-19"
+  - url: https://www.boston.gov/departments/city-council
+    note: Current council roster confirming 4 at-large + 9 district seats
+    retrieved: "2026-08-19"

@@ -1,0 +1,17 @@
+# Hand-seeded from boston.gov's council roster and the 2026/2027 elected
+# officials directory (see sources below). Current-term (2026-2027) seed only;
+# term start approximated as Jan 1, 2026 (first business day after MA municipal
+# inauguration norms) -- exact charter-specified date not confirmed. Not
+# derivable from OCPF -- see scripts/build_ocpf_enrichment.py's scope note.
+id: boston-council-district-8-durkan
+person_id: ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+organization_id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+post_id: boston/council-district-8
+role: City Councillor
+seat: District 8
+start: '2026-01-01'
+how_seated: elected
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2026/01/2026-2027%20Elected%20Officials.pdf
+  note: City of Boston Elected Officials 2026/2027 directory
+  retrieved: '2026-08-19'
