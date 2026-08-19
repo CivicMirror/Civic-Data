@@ -266,6 +266,20 @@ def _cross_validate(people: dict, memberships: dict, elections: dict, contests: 
         if not traced:
             warn(f"CROSS[no-election-trace] {file_of[membership_id]}: '{person['name']}' is recorded as elected to '{membership['post_id']}' but no election candidacy names them")
 
+    open_by_person_org: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for membership_id, membership in memberships.items():
+        if membership.get("end"):
+            continue
+        open_by_person_org[(membership["person_id"], membership["organization_id"])].append(membership_id)
+    for (person_id, organization_id), ids in open_by_person_org.items():
+        if len(ids) < 2:
+            continue
+        person = people.get(person_id)
+        name = person["name"] if person else person_id
+        posts_held = ", ".join(repr(memberships[mid].get("post_id") or mid) for mid in sorted(ids))
+        files = ", ".join(str(file_of[mid]) for mid in sorted(ids))
+        warn(f"CROSS[multiple-open-seats] '{name}' ({person_id}) has {len(ids)} open (no end date) memberships in organization '{organization_id}': {posts_held} -- one of these is likely stale (seat change, resignation, or appointment not yet reflected) [{files}]")
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
