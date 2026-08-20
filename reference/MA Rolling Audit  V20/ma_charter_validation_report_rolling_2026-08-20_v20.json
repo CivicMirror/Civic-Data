@@ -1,0 +1,46 @@
+{
+  "generated_on": "2026-08-20",
+  "schema_model": "current-organization-post-person-membership",
+  "schema_migration_note": "v20 continues the corrected CivicMirror Organization/Post/Person/Membership model. The batch processes Manchester-by-the-Sea, Mansfield, Marblehead, Marion, and Marlborough; Mansfield was already structurally seeded, so its five rows were reconciled rather than double-counted.",
+  "municipalities_with_local_findings": 168,
+  "total_office_research_rows": 1252,
+  "schema_ready_organization_records": 925,
+  "schema_ready_post_records": 925,
+  "schema_ready_person_records": 1433,
+  "schema_ready_membership_records": 1433,
+  "organization_schema_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "verified_current_officeholder_rows_latest_batch": 137,
+  "known_vacancies_latest_batch": 1,
+  "unresolved_officeholder_markers_latest_batch": 2,
+  "total_current_officeholder_research_rows": 1814,
+  "municipalities_remaining_without_preserved_local_office_research": 183,
+  "remaining_officeholder_backfill_municipalities_without_any_holder_rows": 83,
+  "latest_structure_batch": [
+    "Manchester-by-the-Sea",
+    "Mansfield",
+    "Marblehead",
+    "Marion",
+    "Marlborough"
+  ],
+  "latest_officeholder_batch": [
+    "Manchester-by-the-Sea",
+    "Mansfield",
+    "Marblehead",
+    "Marion",
+    "Marlborough"
+  ],
+  "coverage_ledger_reconciled_from_inventory": true,
+  "notes": [
+    "Mansfield was already structurally seeded. Its five preserved rows were reconciled; Select Board, School Committee, and regional vocational-school representation are now schema-ready in addition to Moderator, while Housing Authority remains transition-unresolved.",
+    "Manchester-by-the-Sea current election materials enumerate Constables, Select Board, Moderator, four regional School Committee representatives, seven Planning Board members, Housing Authority, and three Library Trustees. Assessors are not added to the current elected inventory because the current seeking-office guide omits them from the elected-office list; older annual-report elected labels are treated as stale pending a complete historical conversion citation chain.",
+    "Manchester-by-the-Sea and Mansfield Housing Authority local materials continue to reflect a four-local-seat/election pattern, while current M.G.L. c.121B §5 requires three elected members plus a tenant appointee and a state appointee. Both Housing Authority posts remain research-only until transition seat identity is reconciled.",
+    "Marblehead Board of Health is modeled as five elected seats after Acts 2025 c.90; the June 9, 2026 election filled three seats during the transition to staggered three-year terms.",
+    "Marion Upper Cape Cod Regional Vocational Technical School Committee representation is retained from the municipal annual report with a November 2028 term even though it is not on the May 2026 annual-town-election ballot, because it follows a separate election cycle.",
+    "Marion currently has three Old Rochester Regional School Committee seats; Michelle Smith is recorded as an appointed current holder filling an elected-seat vacancy rather than being misclassified as elected.",
+    "Marlborough School Committee is modeled as six voter-elected at-large four-year seats. The Mayor serves ex officio as chair and is excluded from the six-seat elected Post; Chris DeMeo is recorded as appointed to a current elected-seat vacancy.",
+    "As in v19, serialized organization/post counts preserve the pre-existing Colrain Select Board legacy source-gap row, so serialized post count should be treated as the authoritative schema-output count rather than recomputed solely from verification_status labels."
+  ]
+}
