@@ -14,8 +14,11 @@ listed with the field paths that disambiguate them.
 | Jurisdiction | `ocd-jurisdiction/.../<classification>` | Governing authority within that division |
 | Organization | `ocd-organization/<uuid>` | Concrete body or institution, such as a legislature, council, or chamber |
 | Post | `<jurisdiction-slug>/<office-slug>` | The position that exists under the Org |
+| Person | `ocd-person/<uuid>` | An individual officeholder or candidate |
 | Membership | free-form slug (references `person_id`, `organization_id`) | Links a person to an organization/post over time |
 | Role | (field on Membership) | What function does the position or member perform? |
+| Election | `<jurisdiction-slug>/<date>/<office-slug>` | One election event and its contest(s) |
+| Identifier | (embedded object: `scheme` + `identifier`) | A source-scoped external ID attached to an Organization; not a standalone entity or file |
 
 
 The data model distinguishes a geographic **Division** from the **Jurisdiction** governing it. **Division has no schema or data files of its own in this repo** — it exists only as the external Open Civic Data division-ID namespace, referenced via `jurisdiction.division_id` (`ocd-division/...`). A jurisdiction uses an `ocd-jurisdiction/.../<classification>` ID and carries a `division_id` pointing to that geographic division. A concrete board or agency is an **Organization**, identified canonically as `ocd-organization/<uuid>`.
