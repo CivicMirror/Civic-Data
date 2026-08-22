@@ -13,12 +13,12 @@ listed with the field paths that disambiguate them.
 | Division | `ocd-division/...` | Geographic area: state, county, city, district |
 | Jurisdiction | `ocd-jurisdiction/.../<classification>` | Governing authority within that division |
 | Organization | `ocd-organization/<uuid>` | Concrete body or institution, such as a legislature, council, or chamber |
-| Post | | The position that exists under the Org |
-| Membership | `ocd-person/<jane-doe>` | The person that holds the membership |
-| Role | | What function does the position or member perform? |
+| Post | `<jurisdiction-slug>/<office-slug>` | The position that exists under the Org |
+| Membership | free-form slug (references `person_id`, `organization_id`) | Links a person to an organization/post over time |
+| Role | (field on Membership) | What function does the position or member perform? |
 
 
-The data model distinguishes a geographic **Division** from the **Jurisdiction** governing it. A jurisdiction uses an `ocd-jurisdiction/.../<classification>` ID and carries a `division_id` pointing to the geographic `ocd-division/...` record. A concrete board or agency is an **Organization**, identified canonically as `ocd-organization/<uuid>`.
+The data model distinguishes a geographic **Division** from the **Jurisdiction** governing it. **Division has no schema or data files of its own in this repo** — it exists only as the external Open Civic Data division-ID namespace, referenced via `jurisdiction.division_id` (`ocd-division/...`). A jurisdiction uses an `ocd-jurisdiction/.../<classification>` ID and carries a `division_id` pointing to that geographic division. A concrete board or agency is an **Organization**, identified canonically as `ocd-organization/<uuid>`.
 
 Organizations may carry an `identifiers[]` array. These are source-scoped identifiers from CivicPatch, Open States, or another project; they do not replace the Civic-Data canonical `id`.
 
@@ -59,17 +59,18 @@ change" is the operating assumption — this is why membership data lives
 in its own directory, keyed by person, rather than as flat fields on
 either the person or the post.
 
-**Election linkage** — a compact, reviewable summary of the contest that
-seated an official: date, winner(s), certification status, one source.
-One YAML file per contest, under `data/us/{state}/elections/`. **Not**
+**Election** — a compact, reviewable record of one election event: date,
+type, status, and one or more `contests[]` (each with its own winners,
+candidates, and certification status). One YAML file per election,
+under `data/us/{state}/elections/` — a single file can bundle several
+contests (e.g. a general election night covering multiple races). **Not**
 the full result set — precinct-level rows and raw ENR data stay in
-CivicMirror; this repo only holds the small linkage record plus an
-optional `detail_ref` pointer to the full data.
+CivicMirror; this repo only holds the compact election/contest record.
 
 ## Contact & location
 
 **Address** — a *physical* place to reach an official: a mailing
-address, phone, fax. Lives in `official.addresses[]`, one entry per
+address, phone, fax. Lives in `person.addresses[]`, one entry per
 office location. **This is not the same concept as "Office."** A
 representative has one Office (their elected position) but can have
 several Addresses (a D.C./capitol office plus multiple district
@@ -78,7 +79,7 @@ four addresses. Each entry's `classification` is `capitol` or
 `district` (see "classification" below).
 
 **Contact** — the *short* quick-reference block on an official
-(`official.contact`): `email`, `phone`, `profile_url`. `phone` here is
+(`person.contact`): `email`, `phone`, `profile_url`. `phone` here is
 the person's primary/capitol number, for convenience — the full address
 list (if there's more than one office) is in `addresses[]`, not here.
 These two fields aren't kept in sync automatically; both are
@@ -88,24 +89,26 @@ hand/scraper-maintained.
 
 **classification** means two unrelated things depending on where it
 appears:
-- `jurisdiction.classification` — the jurisdiction's own type:
-  `city`, `town`, `county`, `congressional-district`, etc.
-- `official.addresses[].classification` — which kind of physical office
+- `jurisdiction.classification` — the jurisdiction's own governance type:
+  `government`, `legislature`, `executive`, `school`, `park`, `sewer`,
+  `forest`, or `transit_authority`.
+- `person.addresses[].classification` — which kind of physical office
   an address is: `capitol` or `district`.
 
-**seat** also means two related-but-distinct things:
-- `office.seat_structure` — *how* an office's seat(s) are structured:
-  `at-large`, `ward`, `district`, or `mixed`. A property of the office
-  itself.
-- `role.seat` — *which* seat a specific official holds, when an office
-  has more than one (e.g. `"Ward 3"`, `"District 2"`, or `"At-Large"`
-  for a single/at-large seat). A property of the person's role, not the
-  office.
+**seat** means two related-but-distinct things, and there is no `office`
+entity in this schema — the entity is **Post** (see above):
+- `post.seats` — *how many* people hold a post at once (an integer). A
+  property of the post itself.
+- `membership.seat` — *which* seat a specific official holds, when a
+  post has more than one (e.g. `"Ward 3"`, `"District 2"`, or
+  `"At-Large"` for a single/at-large seat). A sibling field of
+  `membership.role`, not nested under it.
 
 **id** exists on every entity but in a different shape each time —
-`jurisdiction.id` is an OCD Division ID, `office.id` is a two-segment
-slug, `official.id` is an `ocd-person/<uuid>`, `election-linkage.id` is
-a `<jurisdiction-slug>/<date>/<office-slug>` path. None of these are
+`jurisdiction.id` is an OCD jurisdiction ID (not a Division ID —
+Division has no schema of its own, see above), `post.id` is a
+two-segment slug, `person.id` is an `ocd-person/<uuid>`, `election.id`
+is a `<jurisdiction-slug>/<date>/<office-slug>` path. None of these are
 interchangeable; each schema documents its own pattern.
 
 ## Provenance
@@ -117,8 +120,8 @@ from **sources** (below) — verification says *how trustworthy this
 record is judged to be*; sources says *where the data came from*.
 
 **sources** — a list of `{url, note, retrieved}` citing where a
-record's facts were found. Every jurisdiction, official, and election
-linkage requires at least one. `retrieved` is when the data was pulled,
+record's facts were found. Every jurisdiction, person, and election
+requires at least one. `retrieved` is when the data was pulled,
 not when the source itself was published or last updated.
 
 ## See also
