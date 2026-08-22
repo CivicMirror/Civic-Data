@@ -1,0 +1,43 @@
+{
+  "generated_on": "2026-08-21",
+  "schema_model": "Organization / Post / Person / Membership",
+  "schema_migration_note": "Existing v25 IDs preserved. New v26 IDs use the explicit namespace recorded in build_v26.py.",
+  "coverage_ledger_reconciled_from_inventory": true,
+  "municipalities_with_local_findings": 195,
+  "municipalities_remaining_without_preserved_local_office_research": 156,
+  "total_office_research_rows": 1525,
+  "explicit_schema_ready_inventory_rows": 1194,
+  "schema_ready_organization_records": 1192,
+  "schema_ready_post_records": 1192,
+  "total_current_officeholder_research_rows": 3775,
+  "schema_ready_person_records": 2139,
+  "schema_ready_membership_records": 2162,
+  "organization_schema_errors": 0,
+  "post_schema_errors": 0,
+  "person_schema_errors": 0,
+  "membership_schema_errors": 0,
+  "referential_integrity_errors": 0,
+  "latest_structure_batch": [
+    "Nantucket",
+    "Natick",
+    "Needham",
+    "New Bedford",
+    "New Braintree"
+  ],
+  "latest_officeholder_batch": [
+    "Nantucket",
+    "Natick",
+    "Needham",
+    "New Bedford",
+    "New Braintree"
+  ],
+  "verified_current_officeholder_rows_latest_batch": 104,
+  "known_vacancies_latest_batch": 1,
+  "unresolved_officeholder_markers_latest_batch": 460,
+  "remaining_officeholder_backfill_municipalities_without_any_holder_rows": null,
+  "notes": [
+    "The all-351 coverage ledger remains absent and was not fabricated.",
+    "Unresolved seat counts are retained only in research inventory; no schema-ready Post is generated for them.",
+    "Natick and Needham representative Town Meeting rosters were located but not fully transcribed in this checkpoint."
+  ]
+}

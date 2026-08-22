@@ -1,0 +1,43 @@
+{
+  "generated_on": "2026-08-21",
+  "schema_model": "Organization / Post / Person / Membership",
+  "schema_migration_note": "Existing v26 IDs preserved. New v27 IDs use the explicit namespace recorded since v26.",
+  "coverage_ledger_reconciled_from_inventory": true,
+  "municipalities_with_local_findings": 200,
+  "municipalities_remaining_without_preserved_local_office_research": 151,
+  "total_office_research_rows": 1568,
+  "explicit_schema_ready_inventory_rows": 1226,
+  "schema_ready_organization_records": 1224,
+  "schema_ready_post_records": 1224,
+  "total_current_officeholder_research_rows": 3911,
+  "schema_ready_person_records": 2237,
+  "schema_ready_membership_records": 2263,
+  "organization_schema_errors": 0,
+  "post_schema_errors": 0,
+  "person_schema_errors": 0,
+  "membership_schema_errors": 0,
+  "referential_integrity_errors": 0,
+  "latest_structure_batch": [
+    "New Marlborough",
+    "New Salem",
+    "Newbury",
+    "Newburyport",
+    "Newton"
+  ],
+  "latest_officeholder_batch": [
+    "New Marlborough",
+    "New Salem",
+    "Newbury",
+    "Newburyport",
+    "Newton"
+  ],
+  "verified_current_officeholder_rows_latest_batch": 110,
+  "known_vacancies_latest_batch": 1,
+  "unresolved_officeholder_markers_latest_batch": 25,
+  "remaining_officeholder_backfill_municipalities_without_any_holder_rows": null,
+  "notes": [
+    "The all-351 coverage ledger remains absent and was not fabricated.",
+    "Unresolved seat counts remain research-only and do not generate Posts.",
+    "Newburyport official pages were partially Cloudflare-challenged; exact official URLs and conflicts are preserved."
+  ]
+}
