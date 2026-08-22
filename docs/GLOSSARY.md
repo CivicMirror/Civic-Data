@@ -8,20 +8,14 @@ listed with the field paths that disambiguate them.
 
 ## Core entities
 
- Concept         Correct identifier                       Meaning
-  ━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   Division        ocd-division/...                         Geographic area: state, county, city, district
-  ──────────────  ───────────────────────────────────────  ──────────────────────────────────────────────────────────────────────────
-   Jurisdiction    ocd-jurisdiction/.../<classification>    Governing authority within that division
-  ──────────────  ───────────────────────────────────────  ──────────────────────────────────────────────────────────────────────────
-   Organization    ocd-organization/<uuid>                  Concrete body or institution, such as a legislature, council, or chamber
-  ──────────────  ───────────────────────────────────────  ──────────────────────────────────────────────────────────────────────────
-   Post                                                      The position that exists under the Org
-  ──────────────  ───────────────────────────────────────  ──────────────────────────────────────────────────────────────────────────
-   Membership      ocd-person/<jane-doe>                     The person that holds the membership
-  ──────────────  ───────────────────────────────────────  ──────────────────────────────────────────────────────────────────────────
-   Role                                                     What function does the position or member perform?
-  ──────────────  ───────────────────────────────────────  ──────────────────────────────────────────────────────────────────────────
+| Concept | Correct identifier | Meaning |
+| --- | --- | --- |
+| Division | `ocd-division/...` | Geographic area: state, county, city, district |
+| Jurisdiction | `ocd-jurisdiction/.../<classification>` | Governing authority within that division |
+| Organization | `ocd-organization/<uuid>` | Concrete body or institution, such as a legislature, council, or chamber |
+| Post | | The position that exists under the Org |
+| Membership | `ocd-person/<jane-doe>` | The person that holds the membership |
+| Role | | What function does the position or member perform? |
 
 
 The data model distinguishes a geographic **Division** from the **Jurisdiction** governing it. A jurisdiction uses an `ocd-jurisdiction/.../<classification>` ID and carries a `division_id` pointing to the geographic `ocd-division/...` record. A concrete board or agency is an **Organization**, identified canonically as `ocd-organization/<uuid>`.
