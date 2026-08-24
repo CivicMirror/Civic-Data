@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/nocturne-1f45d31f-a04c-41e1-a290-a4435cc0a4be/styles.css">
+<script src="_ds/nocturne-1f45d31f-a04c-41e1-a290-a4435cc0a4be/_ds_bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: var(--color-bg); }
+  a { color: var(--color-accent); text-decoration: none; }
+  a:hover { color: var(--color-accent-300); text-decoration: underline; }
+  button { font: inherit; }
+  ::-webkit-scrollbar { height: 10px; width: 10px; }
+  ::-webkit-scrollbar-thumb { background: #3f424d; border-radius: 8px; }
+</style>
+</helmet>
+
+<div style="min-height: 100vh; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); padding: 34px 40px 56px; box-sizing: border-box;">
+
+  <header style="display: flex; flex-direction: column; gap: 10px; max-width: 880px; margin-bottom: 26px;">
+    <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-400);">CivicMirror / Civic-Data · schemas</div>
+    <h1 style="margin: 0; font-family: var(--font-heading); font-weight: 500; font-size: 34px; line-height: 1.15; letter-spacing: -0.01em;">How the schemas fit together</h1>
+    <p style="margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--color-neutral-400); text-wrap: pretty;">Seven files in <span style="font-family: 'JetBrains Mono', monospace; color: var(--color-neutral-300);">schemas/</span> describe every record in this repo. The spine runs left to right: a geographic <strong style="color: var(--color-text); font-weight: 500;">Division</strong> is governed by a <strong style="color: var(--color-text); font-weight: 500;">Jurisdiction</strong>, which contains <strong style="color: var(--color-text); font-weight: 500;">Organizations</strong>, which define <strong style="color: var(--color-text); font-weight: 500;">Posts</strong>. A <strong style="color: var(--color-text); font-weight: 500;">Membership</strong> is what puts a <strong style="color: var(--color-text); font-weight: 500;">Person</strong> in a Post for a stretch of time, and an <strong style="color: var(--color-text); font-weight: 500;">Election</strong> records the event that seated them. Click any box to read its fields and see a real record — one thread of Massachusetts data, Michelle Wu's Boston mayoralty, followed end to end.</p>
+  </header>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 26px; align-items: flex-start;">
+
+    <div style="flex: 1 1 640px; min-width: 0;">
+      <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 12px; font-size: 11.5px; color: var(--color-neutral-500);">
+        <span style="display: inline-flex; align-items: center; gap: 7px;"><svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="#75798c" stroke-width="1.4"></line></svg>points to (field reference)</span>
+        <span style="display: inline-flex; align-items: center; gap: 7px;"><svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="#5d5294" stroke-width="1.4" stroke-dasharray="4 3"></line></svg>points outside this repo</span>
+      </div>
+
+      <div ref="{{ wrapRef }}" style="width: 100%; height: 500px; overflow: hidden;">
+        <div ref="{{ canvasRef }}" style="position: relative; width: 1120px; height: 500px; flex: none; transform-origin: top left;">
+
+          <svg width="1120" height="500" style="position: absolute; inset: 0; overflow: visible;">
+            <defs>
+              <marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0.6 L7.5,4 L0,7.4 z" fill="#8b8fa3"></path></marker>
+              <marker id="ahd" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0.6 L7.5,4 L0,7.4 z" fill="#5d5294"></path></marker>
+            </defs>
+            <g fill="none" stroke="#5a5e6e" stroke-width="1.3" marker-end="url(#ah)">
+              <path d="M250,279 H190" stroke="#5d5294" stroke-dasharray="4 3" marker-end="url(#ahd)"></path>
+              <path d="M470,149 H445 V279 H428"></path>
+              <path d="M690,149 H650"></path>
+              <path d="M830,279 H924"></path>
+              <path d="M700,250 V212 H555 V184"></path>
+              <path d="M790,250 V184"></path>
+              <path d="M470,429 H360 V314"></path>
+              <path d="M640,415 H855 V184"></path>
+              <path d="M640,443 H1015 V314"></path>
+            </g>
+            <sc-if value="{{ edgeLabels }}" hint-placeholder-val="{{ true }}">
+              <g font-family="'JetBrains Mono', monospace" font-size="10" fill="#75798c">
+                <text x="220" y="272" text-anchor="middle">division_id</text>
+                <text x="452" y="215">jurisdiction_id</text>
+                <text x="668" y="112" text-anchor="middle">organization_id</text>
+                <text x="877" y="272" text-anchor="middle">person_id</text>
+                <text x="600" y="207" text-anchor="middle">organization_id</text>
+                <text x="797" y="200">post_id</text>
+                <text x="366" y="352">contests[].jurisdiction_id</text>
+                <text x="848" y="236" text-anchor="end">contests[].office_id</text>
+                <text x="1008" y="352" text-anchor="end">contests[].candidate_ids</text>
+              </g>
+            </sc-if>
+            <g font-family="var(--font-body)" font-size="10.5" fill="#595d6c" letter-spacing="0.09em">
+              <text x="10" y="98">GEOGRAPHY</text>
+              <text x="250" y="98">AUTHORITY</text>
+              <text x="470" y="98">BODIES &amp; POSITIONS</text>
+              <text x="930" y="98">PEOPLE</text>
+              <text x="470" y="382">EVENTS</text>
+            </g>
+          </svg>
+
+          <button onClick="{{ pick.division }}" style="position: absolute; left: 10px; top: 250px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: transparent; border: 1px dashed #4a4d5c; border-radius: 8px; color: var(--color-neutral-400); cursor: pointer; transition: border-color .15s, color .15s;" style-hover="border-color: #796cbf; color: var(--color-neutral-200);">
+            <span style="font-size: 14px; font-weight: 500;">Division</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-600);">no schema · external</span>
+            <sc-if value="{{ on.division }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+          <button onClick="{{ pick.jurisdiction }}" style="position: absolute; left: 250px; top: 250px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: var(--color-surface); border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s, background .15s;" style-hover="border-color: #796cbf; background: #2a2c3b;">
+            <span style="font-size: 14px; font-weight: 500;">Jurisdiction</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">ocd-jurisdiction/…</span>
+            <sc-if value="{{ on.jurisdiction }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+          <button onClick="{{ pick.organization }}" style="position: absolute; left: 470px; top: 120px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: var(--color-surface); border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s, background .15s;" style-hover="border-color: #796cbf; background: #2a2c3b;">
+            <span style="font-size: 14px; font-weight: 500;">Organization</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">ocd-organization/&lt;uuid&gt;</span>
+            <sc-if value="{{ on.organization }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+          <button onClick="{{ pick.post }}" style="position: absolute; left: 690px; top: 120px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: var(--color-surface); border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s, background .15s;" style-hover="border-color: #796cbf; background: #2a2c3b;">
+            <span style="font-size: 14px; font-weight: 500;">Post</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">oxford-ma/select-board</span>
+            <sc-if value="{{ on.post }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+          <button onClick="{{ pick.membership }}" style="position: absolute; left: 660px; top: 250px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: #2b2741; border: 1px solid #5d5294; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s, background .15s;" style-hover="border-color: #b5abfc; background: #332e4d;">
+            <span style="font-size: 14px; font-weight: 500;">Membership</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-accent-400);">the join · person ↔ post</span>
+            <sc-if value="{{ on.membership }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+          <button onClick="{{ pick.person }}" style="position: absolute; left: 930px; top: 250px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: var(--color-surface); border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s, background .15s;" style-hover="border-color: #796cbf; background: #2a2c3b;">
+            <span style="font-size: 14px; font-weight: 500;">Person</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">ocd-person/&lt;uuid&gt;</span>
+            <sc-if value="{{ on.person }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+          <button onClick="{{ pick.election }}" style="position: absolute; left: 470px; top: 400px; width: 170px; height: 58px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 13px; text-align: left; background: var(--color-surface); border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s, background .15s;" style-hover="border-color: #796cbf; background: #2a2c3b;">
+            <span style="font-size: 14px; font-weight: 500;">Election</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">holds contests[]</span>
+            <sc-if value="{{ on.election }}" hint-placeholder-val="{{ false }}"><span style="position: absolute; inset: -5px; border: 1px solid var(--color-accent); border-radius: 12px; pointer-events: none;"></span></sc-if>
+          </button>
+
+        </div>
+      </div>
+
+      <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-family: var(--font-body); font-size: 10.5px; letter-spacing: 0.09em; color: #595d6c;">EMBEDDED SHAPES — these have no files of their own; they sit inside the records above</div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <button onClick="{{ pick.identifier }}" style="display: flex; flex-direction: column; gap: 3px; padding: 9px 13px; text-align: left; background: transparent; border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s;" style-hover="border-color: #796cbf;">
+            <span style="font-size: 13px; font-weight: 500;">Identifier</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">organization · post · person</span>
+            <sc-if value="{{ on.identifier }}" hint-placeholder-val="{{ false }}"><span style="height: 1px; background: var(--color-accent);"></span></sc-if>
+          </button>
+          <button onClick="{{ pick.sources }}" style="display: flex; flex-direction: column; gap: 3px; padding: 9px 13px; text-align: left; background: transparent; border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s;" style-hover="border-color: #796cbf;">
+            <span style="font-size: 13px; font-weight: 500;">sources[]</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">required on every record</span>
+            <sc-if value="{{ on.sources }}" hint-placeholder-val="{{ false }}"><span style="height: 1px; background: var(--color-accent);"></span></sc-if>
+          </button>
+          <button onClick="{{ pick.verification }}" style="display: flex; flex-direction: column; gap: 3px; padding: 9px 13px; text-align: left; background: transparent; border: 1px solid #3f424d; border-radius: 8px; color: var(--color-text); cursor: pointer; transition: border-color .15s;" style-hover="border-color: #796cbf;">
+            <span style="font-size: 13px; font-weight: 500;">verification</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--color-neutral-500);">person only</span>
+            <sc-if value="{{ on.verification }}" hint-placeholder-val="{{ false }}"><span style="height: 1px; background: var(--color-accent);"></span></sc-if>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <aside style="flex: 1 1 340px; min-width: 300px; max-width: 420px; position: sticky; top: 24px; background: var(--color-surface); border: 1px solid #3f424d; border-radius: 14px; padding: 22px 22px 24px; box-sizing: border-box; max-height: calc(100vh - 48px); overflow-y: auto;">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--color-accent-400); margin-bottom: 9px;">{{ selFile }}</div>
+      <h2 style="margin: 0 0 9px; font-family: var(--font-heading); font-weight: 500; font-size: 23px; letter-spacing: -0.01em;">{{ selTitle }}</h2>
+      <p style="margin: 0 0 16px; font-size: 13px; line-height: 1.6; color: var(--color-neutral-300); text-wrap: pretty;">{{ selDesc }}</p>
+
+      <div style="display: flex; flex-direction: column; gap: 8px; padding: 12px 0; border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
+        <div style="display: flex; gap: 12px; align-items: baseline;">
+          <span style="width: 74px; flex: none; font-size: 11px; color: var(--color-neutral-500);">Identified by</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--color-neutral-200); word-break: break-all;">{{ selId }}</span>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: baseline;">
+          <span style="width: 74px; flex: none; font-size: 11px; color: var(--color-neutral-500);">Lives in</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--color-neutral-200); word-break: break-all;">{{ selPath }}</span>
+        </div>
+      </div>
+
+      <sc-if value="{{ hasExample }}" hint-placeholder-val="{{ true }}">
+        <div style="padding: 16px 0 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 8px;">
+            <span style="font-size: 10.5px; letter-spacing: 0.09em; color: #595d6c;">REAL EXAMPLE</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 9.5px; color: var(--color-neutral-600); text-align: right; word-break: break-all;">{{ exPath }}</span>
+          </div>
+          <pre style="margin: 0; background: #1b1d29; border: 1px solid #31343f; border-radius: 8px; padding: 11px 12px; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; line-height: 1.55; color: var(--color-neutral-300); white-space: pre-wrap; word-break: break-word; overflow-x: auto;">{{ exYaml }}</pre>
+          <div style="margin-top: 8px; font-size: 11.5px; line-height: 1.55; color: var(--color-neutral-500); text-wrap: pretty;">{{ exNote }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasLinks }}" hint-placeholder-val="{{ true }}">
+        <div style="padding: 16px 0 4px;">
+          <div style="font-size: 10.5px; letter-spacing: 0.09em; color: #595d6c; margin-bottom: 10px;">RELATIONSHIPS</div>
+          <div style="display: flex; flex-direction: column; gap: 9px;">
+            <sc-for list="{{ selLinks }}" as="l" hint-placeholder-count="3">
+              <div style="display: flex; flex-direction: column; gap: 2px;">
+                <div style="display: flex; gap: 7px; align-items: baseline; font-family: 'JetBrains Mono', monospace; font-size: 11px;">
+                  <span style="color: var(--color-accent-300);">{{ l.field }}</span>
+                  <span style="color: var(--color-neutral-600);">→</span>
+                  <span style="color: var(--color-neutral-200);">{{ l.target }}</span>
+                </div>
+                <div style="font-size: 11.5px; line-height: 1.5; color: var(--color-neutral-500); text-wrap: pretty;">{{ l.note }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasFields }}" hint-placeholder-val="{{ true }}">
+        <div style="padding: 16px 0 0;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+            <span style="font-size: 10.5px; letter-spacing: 0.09em; color: #595d6c;">FIELDS</span>
+            <span style="font-size: 10.5px; color: #595d6c;">{{ fieldCount }}</span>
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <sc-for list="{{ selFields }}" as="f" hint-placeholder-count="6">
+              <div style="display: flex; gap: 10px; align-items: baseline; padding: 7px 0; border-top: 1px solid #2c2e3a;">
+                <span style="flex: 1; min-width: 0; font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: var(--color-neutral-200); word-break: break-word;">{{ f.n }}</span>
+                <span style="flex: none; font-size: 10.5px; color: var(--color-neutral-500); text-align: right; max-width: 168px;">{{ f.t }}</span>
+                <sc-if value="{{ f.r }}" hint-placeholder-val="{{ false }}"><span style="flex: none; font-size: 9px; letter-spacing: 0.06em; color: var(--color-accent-300); border: 1px solid #5d5294; border-radius: 4px; padding: 1px 4px;">REQ</span></sc-if>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+    </aside>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;defaultEntity&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;jurisdiction&quot;, &quot;organization&quot;, &quot;post&quot;, &quot;membership&quot;, &quot;person&quot;, &quot;election&quot;, &quot;division&quot;], &quot;default&quot;: &quot;jurisdiction&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Diagram&quot;}, &quot;showEdgeLabels&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Diagram&quot;}, &quot;showExample&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Detail panel&quot;}, &quot;fieldDetail&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;All fields&quot;, &quot;Required only&quot;], &quot;default&quot;: &quot;All fields&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Detail panel&quot;}}">
+const SRC = [{n: "sources[]", t: "array of {url, note, retrieved}", r: true}];
+
+const E = {
+  division: {
+    title: "Division",
+    file: "no schema file",
+    desc: "A geographic area — a state, county, city or district. Division has no schema and no data files in this repo: it exists only as the external Open Civic Data division-ID namespace, referenced by jurisdiction.division_id.",
+    id: "ocd-division/country:us/state:ma/place:millbury",
+    path: "external (Open Civic Data)",
+    links: [{field: "referenced by", target: "Jurisdiction.division_id", note: "The jurisdiction names the patch of ground it governs. Nothing in this repo defines the ground itself."}],
+    fields: []
+  },
+  jurisdiction: {
+    title: "Jurisdiction",
+    file: "schemas/jurisdiction.schema.json",
+    desc: "A governing authority within a geographic division — the town government, the school committee, the transit authority. One YAML file per jurisdiction.",
+    id: "ocd-jurisdiction/country:us/state:ma/place:millbury/government",
+    path: "data/us/{state}/jurisdictions/",
+    links: [
+      {field: "division_id", target: "Division", note: "Points out to the external OCD division namespace — the geography being governed."},
+      {field: "← jurisdiction_id", target: "Organization", note: "Organizations name the jurisdiction they operate within."},
+      {field: "← contests[].jurisdiction_id", target: "Election", note: "Every contest says which jurisdiction the race belongs to."}
+    ],
+    fields: [
+      {n: "id", t: "OCD jurisdiction ID", r: true},
+      {n: "name", t: "string", r: true},
+      {n: "state", t: "two-letter lowercase", r: true},
+      {n: "division_id", t: "ocd-division/…", r: true},
+      {n: "classification", t: "government · legislature · executive · school · park · sewer · forest · transit_authority", r: true},
+      {n: "government_form", t: "string, e.g. mayor-council", r: false},
+      {n: "website", t: "uri", r: false},
+      {n: "site_intelligence", t: "object — how this jurisdiction publishes data", r: false},
+      {n: "site_intelligence.cms_platform", t: "string", r: false},
+      {n: "site_intelligence.officials_directory_url", t: "uri", r: false},
+      {n: "site_intelligence.election_results_url", t: "uri", r: false},
+      {n: "site_intelligence.election_results_vendor", t: "string", r: false},
+      {n: "site_intelligence.notes", t: "string", r: false},
+      {n: "election_authority", t: "object — who runs the elections", r: false},
+      {n: "election_authority.name", t: "string", r: false},
+      {n: "election_authority.level", t: "municipal · county · state", r: false},
+      {n: "election_authority.url", t: "uri", r: false}
+    ].concat(SRC)
+  },
+  organization: {
+    title: "Organization",
+    file: "schemas/organization.schema.json",
+    desc: "A concrete body operating inside a jurisdiction — a council, a legislature, a chamber, a board. Where the jurisdiction is the authority, the organization is the room full of seats.",
+    id: "ocd-organization/<uuid>",
+    path: "data/us/{state}/organizations/",
+    links: [
+      {field: "jurisdiction_id", target: "Jurisdiction", note: "The authority this body belongs to."},
+      {field: "identifiers[]", target: "Identifier", note: "Source-scoped IDs from CivicPatch, Open States or elsewhere. They never replace the canonical id."},
+      {field: "← organization_id", target: "Post", note: "Posts are defined against the organization that holds them."},
+      {field: "← organization_id", target: "Membership", note: "Every membership names an organization, even when post_id is absent."}
+    ],
+    fields: [
+      {n: "id", t: "ocd-organization/<uuid>", r: true},
+      {n: "name", t: "string", r: true},
+      {n: "jurisdiction_id", t: "OCD jurisdiction ID", r: true},
+      {n: "identifiers[]", t: "array of Identifier", r: true},
+      {n: "status", t: "active · inactive · historical", r: false},
+      {n: "notes", t: "string", r: false}
+    ].concat(SRC)
+  },
+  post: {
+    title: "Post",
+    file: "schemas/post.schema.json",
+    desc: "A position that exists independently of whoever holds it — \"Mayor\", \"Select Board Member\", \"U.S. Representative\". Structural facts about the position live here, not on the person. There is no \"office\" entity; Post is it.",
+    id: "<jurisdiction-slug>/<office-slug>",
+    path: "data/us/{state}/posts/",
+    links: [
+      {field: "organization_id", target: "Organization", note: "The body the position sits in."},
+      {field: "identifiers[]", target: "Identifier", note: "Optional cross-project IDs."},
+      {field: "← post_id", target: "Membership", note: "Optional on membership — a membership can name a role without a formal post."},
+      {field: "← contests[].office_id", target: "Election", note: "A contest is a race for a post."}
+    ],
+    fields: [
+      {n: "id", t: "slug, e.g. oxford-ma/select-board", r: true},
+      {n: "organization_id", t: "ocd-organization/<uuid>", r: true},
+      {n: "title", t: "string", r: true},
+      {n: "seats", t: "integer ≥ 1 — how many hold it at once", r: true},
+      {n: "identifiers[]", t: "array of Identifier", r: false}
+    ].concat(SRC)
+  },
+  membership: {
+    title: "Membership",
+    file: "schemas/membership.schema.json",
+    desc: "The join. A time-bounded link between a person, an organization and optionally a post. This is why a person file never lists an office: people change memberships, posts rarely change. One person can hold several — Richard Neal has two, because redistricting renumbered his district in 2013.",
+    id: "free-form slug",
+    path: "data/us/{state}/memberships/",
+    links: [
+      {field: "person_id", target: "Person", note: "Who is seated."},
+      {field: "organization_id", target: "Organization", note: "The body they sit in."},
+      {field: "post_id", target: "Post", note: "Optional — the formal position, when there is one."}
+    ],
+    fields: [
+      {n: "id", t: "string", r: true},
+      {n: "person_id", t: "ocd-person/<uuid>", r: true},
+      {n: "organization_id", t: "ocd-organization/<uuid>", r: true},
+      {n: "post_id", t: "post slug", r: false},
+      {n: "role", t: "string — the title or function held", r: true},
+      {n: "seat", t: "string — which seat, e.g. \"Ward 3\"", r: false},
+      {n: "start", t: "date", r: false},
+      {n: "end", t: "date", r: false},
+      {n: "how_seated", t: "elected · appointed · succeeded · acting", r: false}
+    ].concat(SRC)
+  },
+  person: {
+    title: "Person",
+    file: "schemas/person.schema.json",
+    desc: "An individual who may be an officeholder, a candidate, or both. The file carries the person — name, contact, addresses, review status, and any candidacies. Which office they hold is not here: that lives in Membership.",
+    id: "ocd-person/<uuid>",
+    path: "data/us/{state}/people/",
+    links: [
+      {field: "candidacies[].election_id", target: "Election", note: "Running for something. The election record holds the result; the person record holds the candidacy."},
+      {field: "candidacies[].office_id", target: "Post", note: "The position being run for."},
+      {field: "candidacies[].jurisdiction_id", target: "Jurisdiction", note: "Where the race is."},
+      {field: "← person_id", target: "Membership", note: "Holding something. One person, many memberships over time."},
+      {field: "← contests[].candidate_ids", target: "Election", note: "The election's own list of who was on the ballot."}
+    ],
+    fields: [
+      {n: "id", t: "ocd-person/<uuid>", r: true},
+      {n: "name", t: "string", r: true},
+      {n: "identifiers[]", t: "array of {scheme, identifier}", r: false},
+      {n: "candidacies[]", t: "array", r: true},
+      {n: "candidacies[].contest_id", t: "string", r: true},
+      {n: "candidacies[].election_id", t: "string", r: true},
+      {n: "candidacies[].jurisdiction_id", t: "OCD jurisdiction ID", r: true},
+      {n: "candidacies[].office_id", t: "post slug", r: true},
+      {n: "candidacies[].party", t: "string or null", r: true},
+      {n: "candidacies[].ballot_name", t: "string", r: true},
+      {n: "candidacies[].status", t: "unknown · active · withdrawn · disqualified", r: false},
+      {n: "candidacies[].sources[]", t: "array of {url, note, retrieved}", r: false},
+      {n: "image", t: "uri", r: false},
+      {n: "contact.email", t: "string", r: false},
+      {n: "contact.phone", t: "string — primary/capitol number", r: false},
+      {n: "contact.profile_url", t: "uri", r: false},
+      {n: "addresses[].classification", t: "capitol · district", r: true},
+      {n: "addresses[].name", t: "string", r: false},
+      {n: "addresses[].address", t: "string", r: false},
+      {n: "addresses[].phone", t: "string", r: false},
+      {n: "addresses[].fax", t: "string", r: false},
+      {n: "verification", t: "object", r: true},
+      {n: "verification.status", t: "unverified · machine-extracted · volunteer-verified · disputed", r: true},
+      {n: "verification.reviewed_by", t: "string", r: false},
+      {n: "verification.reviewed_on", t: "date", r: false},
+      {n: "verification.pipeline", t: "string", r: false}
+    ].concat(SRC)
+  },
+  election: {
+    title: "Election",
+    file: "schemas/election.schema.json",
+    desc: "A compact, reviewable record of one election event: date, type, status, and one or more contests. One file can bundle a whole election night. It is not the full result set — precinct-level rows and raw ENR data stay in CivicMirror.",
+    id: "<jurisdiction-slug>/<date>/<office-slug>",
+    path: "data/us/{state}/elections/",
+    links: [
+      {field: "contests[].jurisdiction_id", target: "Jurisdiction", note: "Which authority's race this is."},
+      {field: "contests[].office_id", target: "Post", note: "Which position is being contested."},
+      {field: "contests[].candidate_ids[]", target: "Person", note: "Everyone on the ballot, by ocd-person ID."},
+      {field: "contests[].winners[].person_id", target: "Person", note: "Who won. The seating itself is recorded separately, as a Membership."}
+    ],
+    fields: [
+      {n: "id", t: "<jurisdiction-slug>/<date>/<office-slug>", r: true},
+      {n: "name", t: "string", r: true},
+      {n: "date", t: "date", r: true},
+      {n: "election_type", t: "general · special · primary · runoff · recall · town-meeting", r: true},
+      {n: "status", t: "scheduled · unofficial · official · certified · corrected", r: true},
+      {n: "contests[]", t: "array, at least one", r: true},
+      {n: "contests[].id", t: "string", r: true},
+      {n: "contests[].jurisdiction_id", t: "OCD jurisdiction ID", r: true},
+      {n: "contests[].office_id", t: "post slug", r: true},
+      {n: "contests[].party", t: "string or null", r: false},
+      {n: "contests[].seat", t: "string", r: false},
+      {n: "contests[].vote_for", t: "integer ≥ 1", r: true},
+      {n: "contests[].candidate_ids[]", t: "array of ocd-person/<uuid>", r: true},
+      {n: "contests[].result_status", t: "pending · unofficial · official · certified · corrected", r: true},
+      {n: "contests[].winners[]", t: "array or null", r: true},
+      {n: "contests[].winners[].person_id", t: "ocd-person/<uuid>", r: true},
+      {n: "contests[].winners[].name", t: "string", r: true},
+      {n: "contests[].winners[].votes", t: "integer ≥ 0", r: false},
+      {n: "contests[].winners[].party", t: "string", r: false}
+    ].concat(SRC)
+  },
+  identifier: {
+    title: "Identifier",
+    file: "schemas/identifier.schema.json",
+    desc: "An external ID borrowed from another project — CivicPatch, Open States, a state portal. Embedded in the identifiers[] array of an organization, post or person. It records what someone else calls this record; it never replaces the canonical id.",
+    id: "{scheme, identifier}",
+    path: "embedded — no files of its own",
+    links: [
+      {field: "used by", target: "Organization.identifiers[]", note: "Required array on every organization."},
+      {field: "used by", target: "Post.identifiers[]", note: "Optional."},
+      {field: "used by", target: "Person.identifiers[]", note: "Optional, and inlined rather than $ref'd — no source field."}
+    ],
+    fields: [
+      {n: "scheme", t: "lowercase slug, e.g. civicpatch", r: true},
+      {n: "identifier", t: "string", r: true},
+      {n: "source", t: "uri", r: false}
+    ]
+  },
+  sources: {
+    title: "sources[]",
+    file: "inlined in every schema",
+    desc: "Where a record's facts came from. Every jurisdiction, organization, post, membership, person and election needs at least one. retrieved is when the data was pulled, not when the source was published. Distinct from verification, which judges how trustworthy the record is.",
+    id: "{url, note, retrieved}",
+    path: "embedded — no files of its own",
+    links: [],
+    fields: [
+      {n: "url", t: "uri", r: true},
+      {n: "note", t: "string", r: false},
+      {n: "retrieved", t: "date — when it was pulled", r: false}
+    ]
+  },
+  verification: {
+    title: "verification",
+    file: "schemas/person.schema.json",
+    desc: "A person record's review status — how much to trust it, who checked it, and which pipeline produced it. Required on Person and found nowhere else. Sources say where data came from; verification says how well it has been checked.",
+    id: "object on person",
+    path: "embedded — person records only",
+    links: [],
+    fields: [
+      {n: "status", t: "unverified · machine-extracted · volunteer-verified · disputed", r: true},
+      {n: "reviewed_by", t: "string", r: false},
+      {n: "reviewed_on", t: "date", r: false},
+      {n: "pipeline", t: "string", r: false}
+    ]
+  }
+};
+
+const KEYS = Object.keys(E);
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = {sel: null};
+    this.wrapRef = React.createRef();
+    this.canvasRef = React.createRef();
+  }
+  componentDidMount() {
+    const fit = () => {
+      const w = this.wrapRef.current, c = this.canvasRef.current;
+      if (!w || !c) return;
+      const raw = w.clientWidth / 1120;
+      const s = Math.min(1, Math.max(0.72, raw));
+      c.style.transform = "scale(" + s + ")";
+      w.style.height = Math.round(500 * s) + (raw < 0.72 ? 14 : 0) + "px";
+      w.style.overflowX = raw < 0.72 ? "auto" : "hidden";
+    };
+    fit();
+    this.ro = new ResizeObserver(fit);
+    if (this.wrapRef.current) this.ro.observe(this.wrapRef.current);
+  }
+  componentWillUnmount() { if (this.ro) this.ro.disconnect(); }
+  set(k) { this.setState({sel: k}); }
+  renderVals() {
+    const sel = this.state.sel || this.props.defaultEntity || "jurisdiction";
+    const e = E[sel] || E.jurisdiction;
+    const detail = this.props.fieldDetail || "All fields";
+    const fields = detail === "Required only" ? e.fields.filter(f => f.r) : e.fields;
+    const ex = EX[sel] || {};
+    const pick = {}, on = {};
+    KEYS.forEach(k => { pick[k] = () => this.set(k); on[k] = k === sel; });
+    return {
+      pick, on, wrapRef: this.wrapRef, canvasRef: this.canvasRef,
+      selTitle: e.title, selDesc: e.desc, selFile: e.file, selId: e.id, selPath: e.path,
+      selLinks: e.links, hasLinks: e.links.length > 0,
+      exPath: ex.path, exYaml: ex.yaml, exNote: ex.note,
+      hasExample: this.props.showExample !== false && !!ex.yaml,
+      selFields: fields, hasFields: fields.length > 0,
+      fieldCount: fields.length + (detail === "Required only" ? " required" : " total"),
+      edgeLabels: this.props.showEdgeLabels !== false
+    };
+  }
+}
+
+
+const EX = {
+  division: {
+    path: "no file — external namespace",
+    yaml: `ocd-division/country:us/state:ma/place:boston`,
+    note: "Boston's jurisdiction record carries this string as division_id. Nothing in this repo defines it; it belongs to Open Civic Data."
+  },
+  jurisdiction: {
+    path: "data/us/ma/jurisdictions/municipal/boston-government.yaml",
+    yaml: `id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+name: City of Boston
+state: ma
+division_id: ocd-division/country:us/state:ma/place:boston
+classification: government
+website: http://www.ci.boston.ma.us/
+sources:
+- url: https://www.census.gov/data/datasets/2022/econ/gus/…
+  note: 'U.S. Census Bureau, 2022 Census of Governments…'
+  retrieved: '2026-08-17'`,
+    note: "Sourced from the Census Bureau's government-units listing. No government_form or site_intelligence yet — both are optional."
+  },
+  organization: {
+    path: "data/us/ma/organizations/municipal/boston-mayor-office.yaml",
+    yaml: `id: ocd-organization/f6f37d7a-383f-5b67-b619-9c9483873a81
+name: Office of the Mayor, Boston
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+identifiers: []
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF candidate-committee filer registry; confirms Boston
+    has an elected Mayor's office
+  retrieved: '2026-08-19'`,
+    note: "Built by scripts/build_ma_mayors.py, which reuses the existing Census-sourced jurisdiction rather than making a new one."
+  },
+  post: {
+    path: "data/us/ma/posts/municipal/boston-mayor.yaml",
+    yaml: `id: boston/mayor
+organization_id: ocd-organization/f6f37d7a-383f-5b67-b619-9c9483873a81
+title: Mayor of Boston
+seats: 1
+identifiers: []
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF candidate-committee filer registry
+  retrieved: '2026-08-19'`,
+    note: "seats: 1 — one person holds it at a time. Compare boston-council-at-large.yaml, where the same post covers four seats."
+  },
+  membership: {
+    path: "data/us/ma/memberships/municipal/boston-mayor-wu.yaml",
+    yaml: `id: boston-mayor-wu
+person_id: ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+organization_id: ocd-organization/f6f37d7a-383f-5b67-b619-9c9483873a81
+post_id: boston/mayor
+role: Mayor
+seat: At-Large
+start: '2026-01-01'
+how_seated: elected
+sources:
+- url: https://ocpf.us/filers?q=15563
+  note: OCPF filer profile for Michelle Wu (cpfId 15563)
+  retrieved: '2026-08-19'`,
+    note: "The one record that ties all three together. No end date, so the term is current. The file's own comment flags start as approximated — Jan 1 after the win, not the charter inauguration date."
+  },
+  person: {
+    path: "data/us/ma/people/municipal/michelle-wu.yaml",
+    yaml: `id: ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+name: Michelle Wu
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15563'
+candidacies:
+- contest_id: boston/2021-11-02/mayor
+  election_id: boston/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/…/place:boston/government
+  office_id: boston/mayor
+  party: Democratic
+  ballot_name: Michelle Wu
+  status: active
+  sources:
+  - url: https://ocpf.us/filers?q=15563
+- contest_id: boston/2025-11-04/mayor      # second candidacy, abridged
+image: https://ocpf2.blob.core.windows.net/filers-photos/15563.png
+contact:
+  email: Mayor@boston.gov
+  phone: (617) 635-4500
+  profile_url: https://ocpf.us/filers?q=15563
+addresses:
+- classification: district
+  name: OCPF Filer Address
+  address: 17 Augustus Avenue Boston, MA  02131
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=15563
+- url: https://www.boston.gov/…/2026-2027%20Elected%20Officials.pdf`,
+    note: "Note what is absent: the word \"Mayor\" appears nowhere on this record. Running for the office is a candidacy here; holding it is the membership file."
+  },
+  election: {
+    path: "data/us/ma/elections/boston--2021-11-02--mayor.yaml",
+    yaml: `id: boston/2021-11-02/general
+name: boston 2021-11-02 general election
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: boston/2021-11-02/mayor
+  jurisdiction_id: ocd-jurisdiction/…/place:boston/government
+  office_id: boston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1164d83c-57a5-5278-bfdb-bdd9fd50a3ac
+  - ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+  - …five more
+  result_status: certified
+  winners:
+  - person_id: ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+    name: Michelle Wu
+    party: Democratic
+  seat: At-Large
+sources:
+- url: https://api.ocpf.us/filers/listings/C
+  note: OCPF filer registry -- Mayoral race, Boston, 2021`,
+    note: "Seven candidates, one winner. The win is recorded here; the seating that followed is a separate Membership record."
+  },
+  identifier: {
+    path: "inside data/us/ma/people/municipal/michelle-wu.yaml",
+    yaml: `identifiers:
+- scheme: ocpf-filer-id
+  identifier: '15563'`,
+    note: "What the Massachusetts campaign-finance office calls her. The canonical ocd-person UUID stays the id."
+  },
+  sources: {
+    path: "inside data/us/ma/jurisdictions/municipal/boston-government.yaml",
+    yaml: `sources:
+- url: https://www.census.gov/data/datasets/2022/econ/gus/…
+  note: 'U.S. Census Bureau, 2022 Census of Governments: Organization —
+    Government Units Listing, CENSUS_ID_PID6=128108, FIPS 25-025-07000,
+    county area=SUFFOLK, active=Y'
+  retrieved: '2026-08-17'`,
+    note: "A good note names the exact table and row, not just the site. retrieved is the pull date — 2026-08-17 — not the Census publication date."
+  },
+  verification: {
+    path: "inside data/us/ma/people/municipal/michelle-wu.yaml",
+    yaml: `verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry`,
+    note: "No reviewed_by or reviewed_on: a script produced this and no volunteer has checked it. That is exactly what machine-extracted means."
+  }
+};</script>
+</body>
+</html>
