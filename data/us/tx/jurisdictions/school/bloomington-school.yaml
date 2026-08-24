@@ -1,0 +1,16 @@
+# Seeded from the TX ISD rolling audit's TEA enumeration by
+# scripts/seed_tx_isd_jurisdictions.py (see issue #13). Board
+# size/structure and official site are individually verified in
+# later Phase 3 office research, not asserted here.
+id: ocd-jurisdiction/country:us/state:tx/school_district:bloomington/school
+name: Bloomington ISD
+state: tx
+division_id: ocd-division/country:us/state:tx/school_district:bloomington
+classification: school
+sources:
+- url: https://tealprod.tea.state.tx.us/Tea.AskTed.Web/Forms/SearchScreen.aspx?orgType=District
+  note: Texas Education Agency AskTED district directory -- District Staff export, County-District Number 235901, "BLOOMINGTON ISD". Enumeration only; board size/structure and official site not yet individually verified.
+  retrieved: '2026-08-23'
+- url: https://pol.tasb.org/PolicyOnline?key=1190
+  note: TASB Policy Online page for this district (matched to TEA CDN 235901 via this repo's TASB<->TEA crosswalk); source for the district's BBB(LOCAL) election-method policy in later Phase 3 office research.
+  retrieved: '2026-08-23'
