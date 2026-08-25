@@ -47,11 +47,19 @@ MANUAL_REVIEW_CDNS = {
     "(the former unresolved, the latter a confirmed vacancy); the 12 "
     "appointed at-large seats are intentionally excluded (elected boards "
     "only, per the Houston ISD decision).",
-    "232903": "Uvalde CISD -- hybrid with 4 SMD seats but only two named "
-    "districts ('East' and 'West', not 4 numbered districts); ucisd.net's "
-    "board page (checked 2026-08-25) doesn't resolve the East/West to "
-    "4-seat mapping either -- still needs individual sourcing.",
 }
+
+# RESOLVED, not templated: this district's structure isn't the numbered-
+# single-member-district shape parse_district() models at all.
+#   "232903": Uvalde CISD -- BBB(LOCAL) calls its 4 non-at-large seats
+#   "single-member districts" but its own zone map (sourced from ucisd.net,
+#   titled "City of Uvalde, Texas -- East/West Voting Boundary", confirmed
+#   by the user to be the ISD's own map) shows only 2 zones -- East and
+#   West. The Uvalde County election canvass (5/2/2026, "Trustee, East Zone
+#   -- Vote for none, one, or two") confirms each zone is a 2-seat
+#   multi-member post, not 2 of 4 numbered districts. Hand-built
+#   Organization + 3 Posts (at-large seats:3, east-zone seats:2, west-zone
+#   seats:2) + all 7 memberships committed directly, bypassing this module.
 
 # Districts DECIDED excluded (not pending research): this project scopes to
 # publicly elected boards only (user decision, issue #13, 2026-08-25).

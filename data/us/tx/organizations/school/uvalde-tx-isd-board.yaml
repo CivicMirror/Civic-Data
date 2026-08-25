@@ -1,0 +1,18 @@
+# Uvalde CISD (232903) -- individually researched per issue #13. East/West
+# "single-member districts" are structurally 2-seat multi-member zones, not
+# 4 numbered districts -- confirmed via the official county election canvass.
+# See issue #13.
+id: ocd-organization/8515995f-b095-5e06-8ec6-1666c6194977
+name: Uvalde CISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:uvalde/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '232903'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline/PolicyDetails?key=1177&code=BBB
+  note: 'BBB(LOCAL) (source: reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv, TEA CDN 232903) -- 7-member board: 3 at-large seats plus 4 seats loosely termed single-member-district but structurally confirmed (see the Uvalde County election canvass, source below) to be two 2-seat multi-member zones (East Zone, West Zone), each decided by top-2 plurality on one combined ballot line -- not 4 individually numbered districts. The zone boundary map (sourced from ucisd.net/o/uisd/page/school-board) is titled "City of Uvalde, Texas -- East/West Voting Boundary"; the ISD confirmed this is its own zone map.'
+  retrieved: '2026-08-24'
+- url: https://www.uvaldecountyelections.com/_files/ugd/79e9bc_e58876c048aa4ccaaac806dc16ddc5f8.pdf
+  note: Uvalde County general election canvass, 5/2/2026 -- official results for "Trustee, East Zone -- Vote for none, one, or two" and "Trustee, West Zone -- Vote for none, one, or two" confirm each zone is a 2-seat multi-member post. Also the source for the At-Large seat filled this cycle (Natalie Arias), most likely a special election for a vacated seat (see the June 2025 KSAT article on the board president's resignation).
+  retrieved: '2026-08-26'

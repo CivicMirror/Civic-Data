@@ -1,0 +1,16 @@
+# Uvalde CISD (232903) -- individually researched per issue #13. East/West
+# "single-member districts" are structurally 2-seat multi-member zones, not
+# 4 numbered districts -- confirmed via the official county election canvass.
+# See issue #13.
+id: uvalde-tx-isd-trustee-at-large-gonzales
+person_id: ocd-person/daaf270e-382e-574b-9775-49b60ad8c0f9
+organization_id: ocd-organization/8515995f-b095-5e06-8ec6-1666c6194977
+post_id: uvalde-tx-isd/trustee-at-large
+role: Board Vice-President
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 232903 (Uvalde CISD) -- cross-checked full 7-member roster and officer titles.
+  retrieved: '2026-08-26'
+- url: https://www.ucisd.net/o/uisd/page/school-board
+  note: 'District''s school board page lists this term as "May 2024-May 2028" -- not recorded in start/end (schema requires a full date; the source gives month/year only, and the exact election day is not asserted here).'
+  retrieved: '2026-08-26'
