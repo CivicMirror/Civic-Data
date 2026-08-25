@@ -39,17 +39,26 @@ MANUAL_REVIEW_CDNS = {
     "judge); stisd.net's board page (checked 2026-08-25) names only 12 of "
     "24 seats, so even manual sourcing is incomplete -- not a standard "
     "elected structure and not fully rosterable from what's public.",
-    "101912": "Houston ISD -- single-member district numbers given as roman "
-    "numerals (I, II, ... IX), not arabic numerals. Also: TEA suspended the "
-    "elected board's governance in June 2023 (HB 1842) in favor of a "
-    "Commissioner-appointed Board of Managers -- seeding the 9 elected "
-    "trustees as current officeholders would be actively false. Needs a "
-    "user decision on how to model an elected-board-in-name-only district, "
-    "not mechanical templating.",
     "232903": "Uvalde CISD -- hybrid with 4 SMD seats but only two named "
     "districts ('East' and 'West', not 4 numbered districts); ucisd.net's "
     "board page (checked 2026-08-25) doesn't resolve the East/West to "
     "4-seat mapping either -- still needs individual sourcing.",
+}
+
+# Districts DECIDED excluded (not pending research): this project scopes to
+# publicly elected boards only (user decision, issue #13, 2026-08-25).
+# Distinct from EXCLUDED_TAGS' statutory-appointed districts (Randolph
+# Field/Lackland/Ft Sam Houston/Boys Ranch, appointed by law) -- Houston ISD
+# is *normally* an elected single-member-district board, just currently run
+# by a Commissioner-appointed Board of Managers under TEA receivership
+# (HB 1842, since June 2023). If/when elected governance is restored this
+# should move back to mechanical templating, not stay excluded permanently.
+EXCLUDED_CURRENTLY_APPOINTED_CDNS = {
+    "101912": "Houston ISD -- TEA suspended the elected board's governance "
+    "in June 2023 (HB 1842); a Commissioner-appointed Board of Managers "
+    "currently governs. Per project scope (elected boards only), excluded "
+    "rather than seeded as a Board of Trustees. Revisit if elected "
+    "governance is restored.",
 }
 
 # Districts where BBB(LOCAL) alone under- or misclassifies the structure but
@@ -164,6 +173,9 @@ def parse_district(cdn, local_text):
     """
     if cdn in MANUAL_OVERRIDES:
         return dict(MANUAL_OVERRIDES[cdn])
+
+    if cdn in EXCLUDED_CURRENTLY_APPOINTED_CDNS:
+        return {"skip_reason": f"excluded_currently_appointed: {EXCLUDED_CURRENTLY_APPOINTED_CDNS[cdn]}"}
 
     if cdn in MANUAL_REVIEW_CDNS:
         return {"skip_reason": f"manual_review: {MANUAL_REVIEW_CDNS[cdn]}"}
