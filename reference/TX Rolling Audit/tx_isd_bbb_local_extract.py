@@ -77,10 +77,11 @@ TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
 FIELDS = [
-    "tasb_key",
+    "source",
+    "source_key",
     "tea_cdn",
     "tea_district_name",
-    "tasb_url",
+    "source_url",
     "policy_name",
     "update_name",
     "date_issued",
@@ -174,8 +175,8 @@ def main():
     done_keys = set()
     if args.out.exists():
         with args.out.open(newline="") as f:
-            done_keys = {row["tasb_key"] for row in csv.DictReader(f)}
-        print(f"Resuming: {len(done_keys)} districts already in {args.out}")
+            done_keys = {row["source_key"] for row in csv.DictReader(f) if row["source"] == "tasb"}
+        print(f"Resuming: {len(done_keys)} TASB districts already in {args.out}")
 
     write_header = not args.out.exists()
     with args.out.open("a", newline="") as out_f:
@@ -193,10 +194,11 @@ def main():
                 result = {"fetch_status": f"error_{exc.__class__.__name__}"}
 
             row = {
-                "tasb_key": d["tasb_key"],
+                "source": "tasb",
+                "source_key": d["tasb_key"],
                 "tea_cdn": d["tea_cdn"],
                 "tea_district_name": d["tea_district_name"],
-                "tasb_url": d["tasb_url"],
+                "source_url": d["tasb_url"],
                 "policy_name": "",
                 "update_name": "",
                 "date_issued": "",
