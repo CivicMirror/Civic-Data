@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: shallowater-tx-isd-trustee-bradley-price
+person_id: ocd-person/d8b12aaa-b067-55dd-a8cf-4903e98dedb6
+organization_id: ocd-organization/e2e0961f-9067-5e16-b334-5b29ddd92522
+post_id: shallowater-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 152909 (Shallowater ISD) -- current board roster.
+  retrieved: '2026-08-25'

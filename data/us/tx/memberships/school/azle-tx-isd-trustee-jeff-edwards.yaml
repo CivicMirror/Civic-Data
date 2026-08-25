@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: azle-tx-isd-trustee-jeff-edwards
+person_id: ocd-person/b39cf54f-4ff8-5fc9-9f53-212687a76787
+organization_id: ocd-organization/e1ecadf2-58d4-54bb-89ed-f75404149fbe
+post_id: azle-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 220915 (Azle ISD) -- current board roster.
+  retrieved: '2026-08-25'

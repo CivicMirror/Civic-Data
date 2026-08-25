@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cranfills-gap-tx-isd-trustee-j-p-aaron
+person_id: ocd-person/d01a2554-f82d-5e55-aa42-41781da70aa5
+organization_id: ocd-organization/45317dcc-cf68-5dc1-a69f-80bb2da07a05
+post_id: cranfills-gap-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 018908 (Cranfills Gap ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: gorman-tx-isd-trustee-melinda-harrington
+person_id: ocd-person/dd4ab454-f2d2-5c50-9b42-ca542cb2b416
+organization_id: ocd-organization/4bfc74da-a534-55e7-a3ec-6aa156121904
+post_id: gorman-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 067904 (Gorman ISD) -- current board roster.
+  retrieved: '2026-08-25'

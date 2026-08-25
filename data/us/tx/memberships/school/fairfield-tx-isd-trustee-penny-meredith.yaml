@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: fairfield-tx-isd-trustee-penny-meredith
+person_id: ocd-person/7d50cdc4-318d-5003-a4cb-218f62af5793
+organization_id: ocd-organization/bb7b02fa-67d2-5e4f-859a-97b2b507b1cd
+post_id: fairfield-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 081902 (Fairfield ISD) -- current board roster.
+  retrieved: '2026-08-25'

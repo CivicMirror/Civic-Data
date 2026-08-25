@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: moulton-tx-isd-trustee-dwight-raab
+person_id: ocd-person/e771ec29-c4d6-5d42-8e4e-70b7238ce32d
+organization_id: ocd-organization/9e70637c-3153-55be-bb8f-bb0398f6414a
+post_id: moulton-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 143902 (Moulton ISD) -- current board roster.
+  retrieved: '2026-08-25'

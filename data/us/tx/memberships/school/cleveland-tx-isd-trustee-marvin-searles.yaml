@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cleveland-tx-isd-trustee-marvin-searles
+person_id: ocd-person/d702ffc1-f27c-589b-afab-057cd82d5afd
+organization_id: ocd-organization/98783dfb-ebef-5afb-aaea-511761c617db
+post_id: cleveland-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 146901 (Cleveland ISD) -- current board roster.
+  retrieved: '2026-08-25'

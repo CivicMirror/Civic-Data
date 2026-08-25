@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pearland-tx-isd-trustee-daniel-stuckey
+person_id: ocd-person/c1b1ca0f-36d0-5229-be7d-96c4fc097eee
+organization_id: ocd-organization/540c3b1c-9248-5ea0-a01d-372f8186b10c
+post_id: pearland-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 020908 (Pearland ISD) -- current board roster.
+  retrieved: '2026-08-25'

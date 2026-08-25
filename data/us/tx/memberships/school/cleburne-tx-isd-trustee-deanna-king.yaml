@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cleburne-tx-isd-trustee-deanna-king
+person_id: ocd-person/23088e88-a8fa-5c2b-bbea-aa1a747ab6e3
+organization_id: ocd-organization/514902c2-d3d4-5fc7-b25e-a5149f12cd94
+post_id: cleburne-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 126903 (Cleburne ISD) -- current board roster.
+  retrieved: '2026-08-25'

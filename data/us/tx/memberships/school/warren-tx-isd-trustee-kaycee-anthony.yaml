@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: warren-tx-isd-trustee-kaycee-anthony
+person_id: ocd-person/ab0a6dae-a862-5c80-b024-fd7f498d1ef4
+organization_id: ocd-organization/c332808b-0389-545a-9918-1982be9b1532
+post_id: warren-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 229904 (Warren ISD) -- current board roster.
+  retrieved: '2026-08-25'

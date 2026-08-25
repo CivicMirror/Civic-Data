@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: scurry-rosser-tx-isd-trustee-glen-levescy
+person_id: ocd-person/cea83aa1-8025-5ed4-aefb-097bdada86a8
+organization_id: ocd-organization/b7c4dd52-3b9e-5679-bc0b-bd66be26cd84
+post_id: scurry-rosser-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 129910 (Scurry-Rosser ISD) -- current board roster.
+  retrieved: '2026-08-25'

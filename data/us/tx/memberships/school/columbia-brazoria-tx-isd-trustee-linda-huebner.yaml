@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: columbia-brazoria-tx-isd-trustee-linda-huebner
+person_id: ocd-person/6d98e103-39f5-5aa1-8bce-417a1b51e7eb
+organization_id: ocd-organization/fb37f45b-30b1-555e-a7df-d9379e10f24a
+post_id: columbia-brazoria-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 020907 (Columbia-Brazoria ISD) -- current board roster.
+  retrieved: '2026-08-25'

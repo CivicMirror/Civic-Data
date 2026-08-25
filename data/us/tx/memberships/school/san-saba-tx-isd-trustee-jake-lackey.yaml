@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: san-saba-tx-isd-trustee-jake-lackey
+person_id: ocd-person/05d17387-7351-5c8a-be76-e705ac3f3ddd
+organization_id: ocd-organization/1407a81d-f76e-50b9-8e84-0668ecf8fee1
+post_id: san-saba-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 206901 (San Saba ISD) -- current board roster.
+  retrieved: '2026-08-25'

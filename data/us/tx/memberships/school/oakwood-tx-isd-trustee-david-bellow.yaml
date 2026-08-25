@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: oakwood-tx-isd-trustee-david-bellow
+person_id: ocd-person/ce42d57d-77cf-5967-af46-57d778c1a7db
+organization_id: ocd-organization/8f9ecd80-ca6a-5a54-94de-54e63ae5e545
+post_id: oakwood-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 145907 (Oakwood ISD) -- current board roster.
+  retrieved: '2026-08-25'

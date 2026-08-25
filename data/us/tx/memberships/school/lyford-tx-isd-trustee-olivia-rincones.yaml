@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lyford-tx-isd-trustee-olivia-rincones
+person_id: ocd-person/79144eba-a8ec-5f14-9952-638c6d4afd53
+organization_id: ocd-organization/cd89291b-fc20-5cf2-bec4-dddd98ca790b
+post_id: lyford-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 245902 (Lyford CISD) -- current board roster.
+  retrieved: '2026-08-25'

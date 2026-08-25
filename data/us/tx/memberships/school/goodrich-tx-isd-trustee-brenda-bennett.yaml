@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: goodrich-tx-isd-trustee-brenda-bennett
+person_id: ocd-person/853388c2-4e88-50b6-92ea-67d0fccffdc8
+organization_id: ocd-organization/640b66f2-1ec9-52da-b837-37176f736a11
+post_id: goodrich-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 187903 (Goodrich ISD) -- current board roster.
+  retrieved: '2026-08-25'

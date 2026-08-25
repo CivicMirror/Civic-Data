@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: spring-branch-tx-isd-trustee-david-slattery
+person_id: ocd-person/13cbe33e-2a4d-58b7-8a9d-943f318143ec
+organization_id: ocd-organization/0f5a9bbd-104c-54ce-b2a5-cc3d11c5f14d
+post_id: spring-branch-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 101920 (Spring Branch ISD) -- current board roster.
+  retrieved: '2026-08-25'

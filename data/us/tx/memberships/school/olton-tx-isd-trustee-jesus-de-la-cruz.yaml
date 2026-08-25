@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: olton-tx-isd-trustee-jesus-de-la-cruz
+person_id: ocd-person/86b7012c-13dc-5560-9831-7a0114afbcb1
+organization_id: ocd-organization/108eebae-60ff-5b37-a8ba-f3e9b6f5846e
+post_id: olton-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 140905 (Olton ISD) -- current board roster.
+  retrieved: '2026-08-25'

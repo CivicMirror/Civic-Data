@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: troy-tx-isd-trustee-gary-mcmurtry
+person_id: ocd-person/243888b2-668e-5ea0-bd1c-104bb5aa701c
+organization_id: ocd-organization/36f5c1cd-b3d4-5a81-9314-fc9ae2efeee3
+post_id: troy-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 014910 (Troy ISD) -- current board roster.
+  retrieved: '2026-08-25'

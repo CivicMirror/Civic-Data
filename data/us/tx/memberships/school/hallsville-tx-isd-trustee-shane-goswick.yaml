@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hallsville-tx-isd-trustee-shane-goswick
+person_id: ocd-person/24282b3e-1d67-5df5-9231-fc66359d4014
+organization_id: ocd-organization/d9dd26db-9441-5686-9b74-3696ce0b8979
+post_id: hallsville-tx-isd/trustee
+role: BOARD ASSISTANT SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 102904 (Hallsville ISD) -- current board roster.
+  retrieved: '2026-08-25'

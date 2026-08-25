@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: magnolia-tx-isd-trustee-sonja-ebel
+person_id: ocd-person/c36dac2b-f304-5867-87d8-d6ebdcf3458f
+organization_id: ocd-organization/b8ba5536-9b8f-53c9-beba-4b256de7cc0c
+post_id: magnolia-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 170906 (Magnolia ISD) -- current board roster.
+  retrieved: '2026-08-25'

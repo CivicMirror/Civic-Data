@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: dumas-tx-isd-trustee-jill-williams
+person_id: ocd-person/c137a1c9-6aab-52e3-acd1-e551a53a8981
+organization_id: ocd-organization/a38b0f07-b6cf-59d2-9856-8b7aa83038f8
+post_id: dumas-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 171901 (Dumas ISD) -- current board roster.
+  retrieved: '2026-08-25'

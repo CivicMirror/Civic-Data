@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: walcott-tx-isd-trustee-will-mcgowan
+person_id: ocd-person/cf46f107-76c4-5187-8321-c9faea9cffd1
+organization_id: ocd-organization/e9f4033e-9ad5-5fe4-b687-f97b07455b3d
+post_id: walcott-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 059902 (Walcott ISD) -- current board roster.
+  retrieved: '2026-08-25'

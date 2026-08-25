@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hallsburg-tx-isd-trustee-brandon-kubitza
+person_id: ocd-person/d11a3062-8d40-5a4a-9e68-9b20e8ca72ef
+organization_id: ocd-organization/7f6993bc-b805-51e1-9e21-0e2230ecdb3a
+post_id: hallsburg-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 161924 (Hallsburg ISD) -- current board roster.
+  retrieved: '2026-08-25'

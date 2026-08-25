@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hubbard-019913-tx-isd-trustee-randy-pirkey
+person_id: ocd-person/1ff0c1e5-d073-57e7-94ed-a1b930e274e2
+organization_id: ocd-organization/18e01653-9d19-5aba-b499-c9d69aaffe54
+post_id: hubbard-019913-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 019913 (Hubbard ISD) -- current board roster.
+  retrieved: '2026-08-25'

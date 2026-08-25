@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ponder-tx-isd-trustee-vangee-deussen
+person_id: ocd-person/6b37105f-ed86-5cbe-a466-515629c6748e
+organization_id: ocd-organization/4edf9850-f699-56b8-a73e-6079b3e8a4c5
+post_id: ponder-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 061906 (Ponder ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,17 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ocd-person/ef19bb96-8c95-5db6-be23-356f0c9d94d4
+name: Dalia Begin
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-08-25'
+  pipeline: TEA AskTED District Staff Directory
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 220906 (Grapevine-Colleyville ISD) -- current board roster.
+  retrieved: '2026-08-25'

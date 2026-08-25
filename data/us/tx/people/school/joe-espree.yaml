@@ -1,0 +1,17 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ocd-person/96a10469-d7fb-5693-b40a-eb6306e3cbb4
+name: Joe Espree
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-08-25'
+  pipeline: TEA AskTED District Staff Directory
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 146905 (Hull-Daisetta ISD) -- current board roster.
+  retrieved: '2026-08-25'

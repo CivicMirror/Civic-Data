@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: martins-mill-tx-isd-trustee-jason-phillips
+person_id: ocd-person/1afa2c1b-d50c-55be-8b0f-f5e09be758e7
+organization_id: ocd-organization/2f038a51-1a04-5a44-9e7b-bbdbe6602ade
+post_id: martins-mill-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 234905 (Martins Mill ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: gary-tx-isd-trustee-zack-mcbride
+person_id: ocd-person/f5d63379-2dd5-56fd-9613-c3334e07daf5
+organization_id: ocd-organization/ffdb46ce-4215-5b65-be6f-edf4f23d982f
+post_id: gary-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 183904 (Gary ISD) -- current board roster.
+  retrieved: '2026-08-25'

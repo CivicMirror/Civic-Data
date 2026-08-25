@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: marathon-tx-isd-trustee-andrew-lewis
+person_id: ocd-person/10584849-622c-5b5f-8ce3-1b950b4acbfd
+organization_id: ocd-organization/cbbb8506-d007-547d-a9fd-1cebba1744e5
+post_id: marathon-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 022902 (Marathon ISD) -- current board roster.
+  retrieved: '2026-08-25'

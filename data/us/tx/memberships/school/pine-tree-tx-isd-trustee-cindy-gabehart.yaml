@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pine-tree-tx-isd-trustee-cindy-gabehart
+person_id: ocd-person/520754da-2ff5-5474-a10f-3176deb65284
+organization_id: ocd-organization/d3f6fffb-77c0-56ff-bf74-fb445c1af299
+post_id: pine-tree-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 092904 (Pine Tree ISD) -- current board roster.
+  retrieved: '2026-08-25'

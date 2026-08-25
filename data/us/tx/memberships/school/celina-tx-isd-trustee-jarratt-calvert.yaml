@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: celina-tx-isd-trustee-jarratt-calvert
+person_id: ocd-person/bef8895a-fc75-5c07-b748-1311dd3ca569
+organization_id: ocd-organization/6c34ec9c-1d42-51ae-994d-227aec3eed0c
+post_id: celina-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 043903 (Celina ISD) -- current board roster.
+  retrieved: '2026-08-25'

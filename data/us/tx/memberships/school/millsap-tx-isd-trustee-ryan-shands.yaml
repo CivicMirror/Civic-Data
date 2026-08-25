@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: millsap-tx-isd-trustee-ryan-shands
+person_id: ocd-person/0a6d38bb-6551-59c5-83a6-fa0f4b894c14
+organization_id: ocd-organization/345f49da-4421-518f-a8a2-fb4a73e70770
+post_id: millsap-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 184904 (Millsap ISD) -- current board roster.
+  retrieved: '2026-08-25'

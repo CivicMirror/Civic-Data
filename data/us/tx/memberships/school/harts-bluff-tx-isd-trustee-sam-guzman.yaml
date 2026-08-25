@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: harts-bluff-tx-isd-trustee-sam-guzman
+person_id: ocd-person/1338fc09-7c31-5ebb-bd94-ccc63c03d40a
+organization_id: ocd-organization/ae230060-994d-54ba-98a2-96522d5cbe9a
+post_id: harts-bluff-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 225907 (Harts Bluff ISD) -- current board roster.
+  retrieved: '2026-08-25'

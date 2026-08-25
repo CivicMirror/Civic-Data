@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: navasota-tx-isd-trustee-amy-jarvis
+person_id: ocd-person/45584f28-9611-51e3-98f3-1ddc977cbe2e
+organization_id: ocd-organization/140fd40f-e144-5513-808b-b0fea782e002
+post_id: navasota-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 093904 (Navasota ISD) -- current board roster.
+  retrieved: '2026-08-25'

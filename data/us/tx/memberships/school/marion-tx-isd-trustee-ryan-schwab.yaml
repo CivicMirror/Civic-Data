@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: marion-tx-isd-trustee-ryan-schwab
+person_id: ocd-person/01d07853-57b2-5c08-adf9-5b7fcc7ddee5
+organization_id: ocd-organization/ff3152c5-f60e-5bc5-a531-a23b434249a6
+post_id: marion-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 094904 (Marion ISD) -- current board roster.
+  retrieved: '2026-08-25'

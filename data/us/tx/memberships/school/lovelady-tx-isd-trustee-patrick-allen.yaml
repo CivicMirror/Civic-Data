@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lovelady-tx-isd-trustee-patrick-allen
+person_id: ocd-person/2bf085ff-f35e-5452-ade2-88d44394da94
+organization_id: ocd-organization/ac256c78-b5f4-56d4-87ce-437f1d3c64e4
+post_id: lovelady-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 113903 (Lovelady ISD) -- current board roster.
+  retrieved: '2026-08-25'

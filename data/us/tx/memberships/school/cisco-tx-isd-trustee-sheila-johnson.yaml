@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cisco-tx-isd-trustee-sheila-johnson
+person_id: ocd-person/468a3c7a-6d9c-5c97-a3bb-6f9d68f5f753
+organization_id: ocd-organization/b2817a85-d2b6-56a0-9a3d-03161117b1f6
+post_id: cisco-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 067902 (Cisco ISD) -- current board roster.
+  retrieved: '2026-08-25'

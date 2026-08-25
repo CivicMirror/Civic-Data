@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: queen-city-tx-isd-trustee-michel-wise
+person_id: ocd-person/04ea8c39-ad87-527b-86c6-9d1bea0ccbc9
+organization_id: ocd-organization/bc070844-0a09-55a7-97b4-5a23619d3c75
+post_id: queen-city-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 034907 (Queen City ISD) -- current board roster.
+  retrieved: '2026-08-25'

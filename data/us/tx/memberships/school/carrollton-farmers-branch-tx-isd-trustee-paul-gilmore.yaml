@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: carrollton-farmers-branch-tx-isd-trustee-paul-gilmore
+person_id: ocd-person/be9e71d0-7025-5bdf-900a-a65a198c3d8b
+organization_id: ocd-organization/86b66d52-6506-5f18-815b-cd37a9c17d54
+post_id: carrollton-farmers-branch-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 057903 (Carrollton-Farmers Branch ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: san-felipe-del-rio-tx-isd-trustee-joshua-overfelt
+person_id: ocd-person/ec9e932b-3769-50aa-9ea2-db73c42151dd
+organization_id: ocd-organization/ec1917fb-1eef-55ac-8ee3-b1b1019a6559
+post_id: san-felipe-del-rio-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 233901 (San Felipe-Del Rio CISD) -- current board roster.
+  retrieved: '2026-08-25'

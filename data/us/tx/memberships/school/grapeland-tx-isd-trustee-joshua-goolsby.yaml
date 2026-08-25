@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: grapeland-tx-isd-trustee-joshua-goolsby
+person_id: ocd-person/6d4b5b3d-5ce1-5cd3-a308-d553b7293708
+organization_id: ocd-organization/067b13d4-bbe4-51ba-bf32-0609b10096bc
+post_id: grapeland-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 113902 (Grapeland ISD) -- current board roster.
+  retrieved: '2026-08-25'

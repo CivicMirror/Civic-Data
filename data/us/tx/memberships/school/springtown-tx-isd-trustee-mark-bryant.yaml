@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: springtown-tx-isd-trustee-mark-bryant
+person_id: ocd-person/55cf38a0-e6aa-599d-9b30-0b4c4f7355b5
+organization_id: ocd-organization/984da83d-0e3b-598a-86ea-d0a5fdd1ab6a
+post_id: springtown-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 184902 (Springtown ISD) -- current board roster.
+  retrieved: '2026-08-25'

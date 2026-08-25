@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: weatherford-tx-isd-trustee-kindra-lucia
+person_id: ocd-person/154cad2d-7b00-5239-bec1-e5e8d1fafa0e
+organization_id: ocd-organization/1e60b83a-2a8d-527d-b1d3-6b2dc6e52860
+post_id: weatherford-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 184903 (Weatherford ISD) -- current board roster.
+  retrieved: '2026-08-25'

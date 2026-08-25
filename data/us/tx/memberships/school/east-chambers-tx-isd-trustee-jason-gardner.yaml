@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: east-chambers-tx-isd-trustee-jason-gardner
+person_id: ocd-person/6106538b-e6d1-54fe-84ac-01dbdab6ff1d
+organization_id: ocd-organization/12cbb86c-0194-5342-8aeb-7118577b8352
+post_id: east-chambers-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 036903 (East Chambers ISD) -- current board roster.
+  retrieved: '2026-08-25'

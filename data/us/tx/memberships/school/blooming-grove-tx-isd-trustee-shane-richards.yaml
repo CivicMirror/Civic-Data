@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: blooming-grove-tx-isd-trustee-shane-richards
+person_id: ocd-person/9fbbce74-838d-5efa-ae5b-1309977663dd
+organization_id: ocd-organization/515088d7-297a-5e9f-979d-950ff4423f69
+post_id: blooming-grove-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 175902 (Blooming Grove ISD) -- current board roster.
+  retrieved: '2026-08-25'

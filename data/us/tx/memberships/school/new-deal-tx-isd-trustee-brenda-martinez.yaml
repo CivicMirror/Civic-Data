@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: new-deal-tx-isd-trustee-brenda-martinez
+person_id: ocd-person/7ba03084-59fb-509e-a1f0-685c3e355978
+organization_id: ocd-organization/e24f80b3-e78f-5803-b401-ae227cd6c6ae
+post_id: new-deal-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 152902 (New Deal ISD) -- current board roster.
+  retrieved: '2026-08-25'

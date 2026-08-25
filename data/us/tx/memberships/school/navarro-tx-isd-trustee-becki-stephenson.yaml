@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: navarro-tx-isd-trustee-becki-stephenson
+person_id: ocd-person/d4994c61-2ad0-5ed6-a6b0-84b4c01e55f8
+organization_id: ocd-organization/920ca871-840f-5440-acba-bef6702a2b1d
+post_id: navarro-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 094903 (Navarro ISD) -- current board roster.
+  retrieved: '2026-08-25'

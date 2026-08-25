@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: benavides-tx-isd-trustee-melissa-henandez
+person_id: ocd-person/0fa97135-4982-5811-931e-796a91000242
+organization_id: ocd-organization/2bef1fef-8bc4-5c22-a97f-e45c9db22c8a
+post_id: benavides-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 066901 (Benavides ISD) -- current board roster.
+  retrieved: '2026-08-25'

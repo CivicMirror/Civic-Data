@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ferris-tx-isd-trustee-nick-hamm
+person_id: ocd-person/eeefc00c-8a58-545b-94bb-cda1b6851ef0
+organization_id: ocd-organization/da02cfc5-941f-5730-b4ef-7bb6335beb4a
+post_id: ferris-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 070905 (Ferris ISD) -- current board roster.
+  retrieved: '2026-08-25'

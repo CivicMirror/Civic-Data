@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: yorktown-tx-isd-trustee-christopher-romans
+person_id: ocd-person/6810b2d4-d3f6-5105-8f52-70e6bdfe30cc
+organization_id: ocd-organization/0093992e-5d9a-5e04-9265-77138403eb0a
+post_id: yorktown-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 062904 (Yorktown ISD) -- current board roster.
+  retrieved: '2026-08-25'

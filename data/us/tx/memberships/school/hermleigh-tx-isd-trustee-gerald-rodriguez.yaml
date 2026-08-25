@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hermleigh-tx-isd-trustee-gerald-rodriguez
+person_id: ocd-person/6dcc5d7f-615e-586d-9079-a5bbc29769f2
+organization_id: ocd-organization/da063702-024d-5ade-8f1e-7bb7d484b2fa
+post_id: hermleigh-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 208901 (Hermleigh ISD) -- current board roster.
+  retrieved: '2026-08-25'

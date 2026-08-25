@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: new-waverly-tx-isd-trustee-kristina-mata
+person_id: ocd-person/2e7d953c-ad0a-53d0-9f9b-e2d2b0166372
+organization_id: ocd-organization/6f8d3ee7-167b-55bf-9985-7b0dc3711864
+post_id: new-waverly-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 236901 (New Waverly ISD) -- current board roster.
+  retrieved: '2026-08-25'

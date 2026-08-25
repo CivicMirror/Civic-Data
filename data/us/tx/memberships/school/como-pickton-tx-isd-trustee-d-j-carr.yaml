@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: como-pickton-tx-isd-trustee-d-j-carr
+person_id: ocd-person/3e392b93-987e-5f7a-8aa0-64a85bea3444
+organization_id: ocd-organization/55010d79-3479-5966-94d1-26e6dca90ed9
+post_id: como-pickton-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 112908 (Como-Pickton CISD) -- current board roster.
+  retrieved: '2026-08-25'

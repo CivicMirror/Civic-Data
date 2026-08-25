@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: tornillo-tx-isd-trustee-ida-estrada
+person_id: ocd-person/749f2646-091e-5dc2-beb7-ff6ae54a37d2
+organization_id: ocd-organization/b9a57cd1-45d9-5aae-8865-b4676ca52d4e
+post_id: tornillo-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 071908 (Tornillo ISD) -- current board roster.
+  retrieved: '2026-08-25'

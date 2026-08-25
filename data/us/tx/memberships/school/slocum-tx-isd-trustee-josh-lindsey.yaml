@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: slocum-tx-isd-trustee-josh-lindsey
+person_id: ocd-person/d6811725-8897-55f3-b512-ea0f333f0d5a
+organization_id: ocd-organization/ad5553c3-309d-5ae4-8a11-78b60b84d801
+post_id: slocum-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 001909 (Slocum ISD) -- current board roster.
+  retrieved: '2026-08-25'

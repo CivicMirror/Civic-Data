@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: farmersville-tx-isd-trustee-kiel-cathey
+person_id: ocd-person/9045f849-921c-5dda-84df-7a9b88c5c208
+organization_id: ocd-organization/b2cbc2a8-3e3e-5197-bbdc-a6e068ced943
+post_id: farmersville-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 043904 (Farmersville ISD) -- current board roster.
+  retrieved: '2026-08-25'

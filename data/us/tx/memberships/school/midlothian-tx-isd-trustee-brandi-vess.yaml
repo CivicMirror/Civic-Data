@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: midlothian-tx-isd-trustee-brandi-vess
+person_id: ocd-person/cd8a81cf-4c6f-5468-b386-7cdbbbfecac2
+organization_id: ocd-organization/1a6bd31a-450a-5c46-a5a2-b07435ab18e9
+post_id: midlothian-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 070908 (Midlothian ISD) -- current board roster.
+  retrieved: '2026-08-25'

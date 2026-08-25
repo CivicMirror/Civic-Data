@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: brenham-tx-isd-trustee-justin-colley
+person_id: ocd-person/6aa28a81-362c-5516-8e2c-3b59f557b5be
+organization_id: ocd-organization/a47e662c-06f5-5805-b287-8e3491bc7e13
+post_id: brenham-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 239901 (Brenham ISD) -- current board roster.
+  retrieved: '2026-08-25'

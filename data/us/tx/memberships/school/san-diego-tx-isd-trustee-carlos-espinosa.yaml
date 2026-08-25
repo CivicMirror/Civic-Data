@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: san-diego-tx-isd-trustee-carlos-espinosa
+person_id: ocd-person/60e2c3f0-8ba8-5aeb-bfe4-7794aab4ad6c
+organization_id: ocd-organization/b2a70933-62f7-54af-a390-ab08b7d5c997
+post_id: san-diego-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 066902 (San Diego ISD) -- current board roster.
+  retrieved: '2026-08-25'

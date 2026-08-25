@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: strawn-tx-isd-trustee-jessica-mallory
+person_id: ocd-person/a702f190-aaf5-5e80-bcf0-267a11ccf819
+organization_id: ocd-organization/5ee96214-ef84-5615-a63e-e7c05c6c9175
+post_id: strawn-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 182905 (Strawn ISD) -- current board roster.
+  retrieved: '2026-08-25'

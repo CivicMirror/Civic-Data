@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: valley-mills-tx-isd-trustee-jennifer-boles
+person_id: ocd-person/a63f7708-520d-526f-ad90-1a897f8fafe0
+organization_id: ocd-organization/832484ce-1fce-56e1-8938-9d631b9b41e4
+post_id: valley-mills-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 018904 (Valley Mills ISD) -- current board roster.
+  retrieved: '2026-08-25'

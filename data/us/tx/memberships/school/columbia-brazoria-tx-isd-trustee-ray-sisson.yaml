@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: columbia-brazoria-tx-isd-trustee-ray-sisson
+person_id: ocd-person/a9133561-8add-573e-a76e-4455a4981bf7
+organization_id: ocd-organization/fb37f45b-30b1-555e-a7df-d9379e10f24a
+post_id: columbia-brazoria-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 020907 (Columbia-Brazoria ISD) -- current board roster.
+  retrieved: '2026-08-25'

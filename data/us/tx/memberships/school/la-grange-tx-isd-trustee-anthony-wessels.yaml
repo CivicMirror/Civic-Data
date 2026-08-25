@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: la-grange-tx-isd-trustee-anthony-wessels
+person_id: ocd-person/3831f5d6-0dfb-54cd-a9a6-5b97f1afd69e
+organization_id: ocd-organization/49352f0f-387b-51e6-82d0-0b3c9b09e386
+post_id: la-grange-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 075902 (La Grange ISD) -- current board roster.
+  retrieved: '2026-08-25'

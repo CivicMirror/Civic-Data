@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: wortham-tx-isd-trustee-jordan-padgett
+person_id: ocd-person/7cb921ff-7f5d-5aa8-a2bd-c3dc423e4a60
+organization_id: ocd-organization/78550c7f-c938-5304-9304-1e31a38b3797
+post_id: wortham-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 081905 (Wortham ISD) -- current board roster.
+  retrieved: '2026-08-25'

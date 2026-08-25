@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pawnee-tx-isd-trustee-lisa-gill
+person_id: ocd-person/e797aa53-d310-5ce6-b218-e70f9cc981e8
+organization_id: ocd-organization/703c4069-c0ac-5794-86c6-fbe95fc49b48
+post_id: pawnee-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 013902 (Pawnee ISD) -- current board roster.
+  retrieved: '2026-08-25'

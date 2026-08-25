@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lorena-tx-isd-trustee-denny-kramer
+person_id: ocd-person/9a5d54d6-e4e2-56ba-b0cb-c024aaf76b9f
+organization_id: ocd-organization/e251a0cf-194d-5d39-ab0f-7d110e5a1f1a
+post_id: lorena-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 161907 (Lorena ISD) -- current board roster.
+  retrieved: '2026-08-25'

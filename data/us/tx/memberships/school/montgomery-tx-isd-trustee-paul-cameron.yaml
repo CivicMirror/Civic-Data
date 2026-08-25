@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: montgomery-tx-isd-trustee-paul-cameron
+person_id: ocd-person/015cef5b-10c3-5b22-a81d-2c53c28ca018
+organization_id: ocd-organization/b77a924f-bca3-5809-8c19-a278307893ea
+post_id: montgomery-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 170903 (Montgomery ISD) -- current board roster.
+  retrieved: '2026-08-25'

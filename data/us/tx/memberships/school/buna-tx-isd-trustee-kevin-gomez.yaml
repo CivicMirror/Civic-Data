@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: buna-tx-isd-trustee-kevin-gomez
+person_id: ocd-person/20f3b258-ac80-5874-979e-eea9000bc937
+organization_id: ocd-organization/65702806-ed3a-5665-a136-9d7c327509d7
+post_id: buna-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 121903 (Buna ISD) -- current board roster.
+  retrieved: '2026-08-25'

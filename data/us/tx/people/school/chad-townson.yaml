@@ -1,0 +1,17 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ocd-person/939fa8c9-9c28-5d4e-9a9c-5b411c19ce3c
+name: Chad Townson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-08-25'
+  pipeline: TEA AskTED District Staff Directory
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 215901 (Breckenridge ISD) -- current board roster.
+  retrieved: '2026-08-25'

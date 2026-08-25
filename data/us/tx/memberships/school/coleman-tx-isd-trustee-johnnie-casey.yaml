@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: coleman-tx-isd-trustee-johnnie-casey
+person_id: ocd-person/37585665-8338-5316-ba0d-3635db57cf3c
+organization_id: ocd-organization/42a6f456-76b1-52e8-819b-456f4fe239f7
+post_id: coleman-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 042901 (Coleman ISD) -- current board roster.
+  retrieved: '2026-08-25'

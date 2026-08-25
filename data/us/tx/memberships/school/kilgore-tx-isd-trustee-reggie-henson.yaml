@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: kilgore-tx-isd-trustee-reggie-henson
+person_id: ocd-person/bc9b9e2c-8505-521e-a7b6-ff1fa9705b32
+organization_id: ocd-organization/94d22473-59f6-5fb5-9023-e3b997a950e4
+post_id: kilgore-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 092902 (Kilgore ISD) -- current board roster.
+  retrieved: '2026-08-25'

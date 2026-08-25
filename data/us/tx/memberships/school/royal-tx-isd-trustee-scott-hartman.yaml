@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: royal-tx-isd-trustee-scott-hartman
+person_id: ocd-person/fb519885-fcee-59b2-97cb-ca2dc82b5e62
+organization_id: ocd-organization/2645ce8d-6021-5f75-b79f-08b63e80bd6d
+post_id: royal-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 237905 (Royal ISD) -- current board roster.
+  retrieved: '2026-08-25'

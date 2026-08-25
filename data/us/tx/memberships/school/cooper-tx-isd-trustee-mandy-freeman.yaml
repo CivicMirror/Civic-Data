@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cooper-tx-isd-trustee-mandy-freeman
+person_id: ocd-person/fdcff358-b048-5fe7-8a2e-857c3a3b11cc
+organization_id: ocd-organization/be6658ac-57a7-563a-85b6-ecc4da6a3509
+post_id: cooper-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 060902 (Cooper ISD) -- current board roster.
+  retrieved: '2026-08-25'

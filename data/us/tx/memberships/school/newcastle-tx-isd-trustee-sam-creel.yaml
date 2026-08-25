@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: newcastle-tx-isd-trustee-sam-creel
+person_id: ocd-person/a37f66e8-87cb-5ca0-ad89-a6f730f47d22
+organization_id: ocd-organization/7fe2119b-52c7-59fb-8f72-2454cca39e79
+post_id: newcastle-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 252902 (Newcastle ISD) -- current board roster.
+  retrieved: '2026-08-25'

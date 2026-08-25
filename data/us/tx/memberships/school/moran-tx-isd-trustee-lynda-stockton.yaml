@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: moran-tx-isd-trustee-lynda-stockton
+person_id: ocd-person/67db153f-e3c1-5008-94d9-622ff4c7a508
+organization_id: ocd-organization/71b87712-8a81-5bb4-998c-d58b9cec42d9
+post_id: moran-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 209902 (Moran ISD) -- current board roster.
+  retrieved: '2026-08-25'

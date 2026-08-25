@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: jayton-girard-tx-isd-trustee-cody-scott
+person_id: ocd-person/c89874f6-8666-5300-9f65-b5ed389a647f
+organization_id: ocd-organization/c3e28fd8-a61c-508e-a89f-d900fd8d28b6
+post_id: jayton-girard-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 132902 (Jayton-Girard ISD) -- current board roster.
+  retrieved: '2026-08-25'

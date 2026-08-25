@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: high-island-tx-isd-trustee-gary-kent
+person_id: ocd-person/8c0fafbb-6c39-57b4-9c34-faae465a9ad8
+organization_id: ocd-organization/91bcf97d-1eb1-5682-8076-531c75b274da
+post_id: high-island-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 084903 (High Island ISD) -- current board roster.
+  retrieved: '2026-08-25'

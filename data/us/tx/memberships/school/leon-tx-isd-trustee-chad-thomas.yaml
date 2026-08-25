@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: leon-tx-isd-trustee-chad-thomas
+person_id: ocd-person/3a7f4ee5-33c4-53db-8c23-16b7ea05db49
+organization_id: ocd-organization/0306724a-55a0-566d-9619-451a8d2e7a69
+post_id: leon-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 145911 (Leon ISD) -- current board roster.
+  retrieved: '2026-08-25'

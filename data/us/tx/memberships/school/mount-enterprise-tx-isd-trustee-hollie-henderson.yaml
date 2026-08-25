@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: mount-enterprise-tx-isd-trustee-hollie-henderson
+person_id: ocd-person/f462f07d-5b67-597a-a524-4c4a3bac9c5a
+organization_id: ocd-organization/b51d8c75-9c76-572f-8638-27c6d15c2ce8
+post_id: mount-enterprise-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 201907 (Mount Enterprise ISD) -- current board roster.
+  retrieved: '2026-08-25'

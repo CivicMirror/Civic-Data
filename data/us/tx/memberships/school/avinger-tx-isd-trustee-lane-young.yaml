@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: avinger-tx-isd-trustee-lane-young
+person_id: ocd-person/b9aad123-5b7e-56db-be8b-e57f31dff6ce
+organization_id: ocd-organization/46129cc9-bb2a-51c5-a7ed-ffadee4f0c54
+post_id: avinger-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 034902 (Avinger ISD) -- current board roster.
+  retrieved: '2026-08-25'

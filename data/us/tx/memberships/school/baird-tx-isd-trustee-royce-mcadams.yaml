@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: baird-tx-isd-trustee-royce-mcadams
+person_id: ocd-person/d1c2e195-f767-516a-927c-ab2cea105b12
+organization_id: ocd-organization/bde2b7c1-79d1-5292-b423-dc1cacc034c4
+post_id: baird-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 030903 (Baird ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: dayton-tx-isd-trustee-chris-shumaker
+person_id: ocd-person/8ad0f210-96c1-514d-86e8-40ff7ecd8ae6
+organization_id: ocd-organization/f8b5ba6f-cbd3-5943-9726-efe278bb37c9
+post_id: dayton-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 146902 (Dayton ISD) -- current board roster.
+  retrieved: '2026-08-25'

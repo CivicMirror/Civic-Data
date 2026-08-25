@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: corsicana-tx-isd-trustee-chris-meankins
+person_id: ocd-person/1568c599-9272-5c2e-ab2f-4fd11fcb413c
+organization_id: ocd-organization/80ceb4bf-6f06-5517-b545-d4cdc9e05092
+post_id: corsicana-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 175903 (Corsicana ISD) -- current board roster.
+  retrieved: '2026-08-25'

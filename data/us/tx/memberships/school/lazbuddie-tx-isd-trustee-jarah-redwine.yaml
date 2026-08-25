@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lazbuddie-tx-isd-trustee-jarah-redwine
+person_id: ocd-person/f24179b0-f3e8-579e-8048-123e4470d33b
+organization_id: ocd-organization/6f02d5ad-ded4-5eed-bad5-5d816643397f
+post_id: lazbuddie-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 185904 (Lazbuddie ISD) -- current board roster.
+  retrieved: '2026-08-25'

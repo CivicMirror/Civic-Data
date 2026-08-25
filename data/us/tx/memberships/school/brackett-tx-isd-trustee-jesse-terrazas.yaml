@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: brackett-tx-isd-trustee-jesse-terrazas
+person_id: ocd-person/4e8d3168-d24e-5eb3-9ca6-0ba922916980
+organization_id: ocd-organization/dcaf4a20-8a8a-5ee2-ac8b-351442f6b2c8
+post_id: brackett-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 136901 (Brackett ISD) -- current board roster.
+  retrieved: '2026-08-25'

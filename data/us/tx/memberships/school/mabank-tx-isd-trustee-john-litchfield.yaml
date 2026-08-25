@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: mabank-tx-isd-trustee-john-litchfield
+person_id: ocd-person/4bd80e77-f8d6-5144-aea3-62f5b59f221f
+organization_id: ocd-organization/381199de-5e79-52d0-8479-d692ba50b3a6
+post_id: mabank-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 129905 (Mabank ISD) -- current board roster.
+  retrieved: '2026-08-25'

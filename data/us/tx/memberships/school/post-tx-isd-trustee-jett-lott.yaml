@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: post-tx-isd-trustee-jett-lott
+person_id: ocd-person/f8e4fe4e-6716-5c37-b3ee-e6a0895b7933
+organization_id: ocd-organization/28f0457f-1732-55fe-a6ef-3859c9a83f05
+post_id: post-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 085902 (Post ISD) -- current board roster.
+  retrieved: '2026-08-25'

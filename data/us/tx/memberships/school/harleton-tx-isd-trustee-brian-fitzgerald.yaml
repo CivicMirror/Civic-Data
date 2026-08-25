@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: harleton-tx-isd-trustee-brian-fitzgerald
+person_id: ocd-person/cf96db26-ed53-5d8d-954a-d2faaca4f14f
+organization_id: ocd-organization/349c6db2-ab9c-500a-b62a-3682388372d0
+post_id: harleton-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 102905 (Harleton ISD) -- current board roster.
+  retrieved: '2026-08-25'

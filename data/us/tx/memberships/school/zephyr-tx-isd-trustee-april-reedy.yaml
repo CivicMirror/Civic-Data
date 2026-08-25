@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: zephyr-tx-isd-trustee-april-reedy
+person_id: ocd-person/343e20a2-8ce9-5318-97cb-5b092a95e6b8
+organization_id: ocd-organization/e6e782bf-ba45-5738-8928-3537d8957b8f
+post_id: zephyr-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 025906 (Zephyr ISD) -- current board roster.
+  retrieved: '2026-08-25'

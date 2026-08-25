@@ -1,0 +1,17 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ocd-person/990c5ba8-54b2-59e3-94a2-6bb0e76df4d4
+name: Rosanna Arevalo
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-08-25'
+  pipeline: TEA AskTED District Staff Directory
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 137902 (Ricardo ISD) -- current board roster.
+  retrieved: '2026-08-25'

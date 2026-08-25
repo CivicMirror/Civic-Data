@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: silverton-tx-isd-trustee-matthew-francis
+person_id: ocd-person/49cba5ad-a281-58e3-9b47-44543e2b9bbd
+organization_id: ocd-organization/e8bd79a3-b695-57bd-b001-400b6a69cfa7
+post_id: silverton-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 023902 (Silverton ISD) -- current board roster.
+  retrieved: '2026-08-25'

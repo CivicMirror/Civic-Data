@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: carroll-tx-isd-trustee-dudley-jordan
+person_id: ocd-person/b03e5d00-aa7c-5f96-9395-81e7c9e7bcab
+organization_id: ocd-organization/e34b9e1b-5aef-5330-aa98-0be5e330ba80
+post_id: carroll-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 220919 (Carroll ISD) -- current board roster.
+  retrieved: '2026-08-25'

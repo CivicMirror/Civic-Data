@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: channing-tx-isd-trustee-benny-moore
+person_id: ocd-person/e59130d1-cc43-5e25-9947-76315f01bffe
+organization_id: ocd-organization/83c16e9f-1900-5f43-877c-ebcc77fff70b
+post_id: channing-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 103901 (Channing ISD) -- current board roster.
+  retrieved: '2026-08-25'

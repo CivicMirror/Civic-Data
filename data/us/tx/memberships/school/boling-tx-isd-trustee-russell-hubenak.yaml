@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: boling-tx-isd-trustee-russell-hubenak
+person_id: ocd-person/1d0479bf-dbe6-52de-a926-9c9a94f2325c
+organization_id: ocd-organization/a0db1cd4-86f6-57e8-bc88-509f383a9cf5
+post_id: boling-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 241901 (Boling ISD) -- current board roster.
+  retrieved: '2026-08-25'

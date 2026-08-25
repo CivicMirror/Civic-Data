@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: matagorda-tx-isd-trustee-tina-keen
+person_id: ocd-person/ba38211d-f148-5003-ac8d-2279453a025f
+organization_id: ocd-organization/ca3ed5fd-9e64-561e-85d3-49359b368d66
+post_id: matagorda-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 158904 (Matagorda ISD) -- current board roster.
+  retrieved: '2026-08-25'

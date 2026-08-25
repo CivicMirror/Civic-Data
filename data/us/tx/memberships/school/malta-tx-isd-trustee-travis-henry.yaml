@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: malta-tx-isd-trustee-travis-henry
+person_id: ocd-person/5ae8e6f9-5b64-57b3-a0ea-ceeb854bb42c
+organization_id: ocd-organization/6318e481-8354-529e-9539-b4ef28b3ee46
+post_id: malta-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 019910 (Malta ISD) -- current board roster.
+  retrieved: '2026-08-25'

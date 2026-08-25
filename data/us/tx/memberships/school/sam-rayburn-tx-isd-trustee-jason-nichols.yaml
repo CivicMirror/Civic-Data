@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: sam-rayburn-tx-isd-trustee-jason-nichols
+person_id: ocd-person/e3aa34df-7057-5053-9e56-a55e4d7d5dc5
+organization_id: ocd-organization/d1d8ff96-8c0b-5b95-9a50-6c0edc428e39
+post_id: sam-rayburn-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 074917 (Sam Rayburn ISD) -- current board roster.
+  retrieved: '2026-08-25'

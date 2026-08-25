@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: alvord-tx-isd-trustee-jimmy-looney
+person_id: ocd-person/bbb51aed-9c15-5a8e-87a4-002c0e0ffa71
+organization_id: ocd-organization/291e5ea4-65e3-528c-8dae-6cb9824c75a1
+post_id: alvord-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 249901 (Alvord ISD) -- current board roster.
+  retrieved: '2026-08-25'

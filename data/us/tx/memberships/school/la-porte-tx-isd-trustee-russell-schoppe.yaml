@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: la-porte-tx-isd-trustee-russell-schoppe
+person_id: ocd-person/d2fe7b75-c955-5b56-bf7c-55e036ed6eb9
+organization_id: ocd-organization/48ad8ade-be4e-52a7-b040-6f8d319c53a5
+post_id: la-porte-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 101916 (La Porte ISD) -- current board roster.
+  retrieved: '2026-08-25'

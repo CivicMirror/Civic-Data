@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lumberton-tx-isd-trustee-margaret-cruse
+person_id: ocd-person/4dad6906-2f35-5d96-bead-12cf2fb2d284
+organization_id: ocd-organization/9c845cd4-313f-55e0-b9a2-414609c6cf64
+post_id: lumberton-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 100907 (Lumberton ISD) -- current board roster.
+  retrieved: '2026-08-25'

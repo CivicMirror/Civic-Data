@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: robert-lee-tx-isd-trustee-cole-bosworth
+person_id: ocd-person/b410488e-ee7e-5514-85a8-13e57240def2
+organization_id: ocd-organization/835925a9-49fe-53e0-8506-5913b9e86b83
+post_id: robert-lee-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 041902 (Robert Lee ISD) -- current board roster.
+  retrieved: '2026-08-25'

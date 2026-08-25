@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: denver-city-tx-isd-trustee-janet-gibson
+person_id: ocd-person/90e4f07b-fe1b-52d2-b669-291b16def8c8
+organization_id: ocd-organization/90fd875a-3d71-52d9-a5ce-196099a04047
+post_id: denver-city-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 251901 (Denver City ISD) -- current board roster.
+  retrieved: '2026-08-25'

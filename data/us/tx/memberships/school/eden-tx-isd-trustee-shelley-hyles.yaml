@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: eden-tx-isd-trustee-shelley-hyles
+person_id: ocd-person/57e46c7c-559b-5029-abec-c50dd5bd2abf
+organization_id: ocd-organization/ca0b04fc-9723-5b97-bf45-435ce72e6705
+post_id: eden-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 048901 (Eden CISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: livingston-tx-isd-trustee-andrew-boyce
+person_id: ocd-person/ed92d6f5-2586-5efc-bb25-67d8a236097b
+organization_id: ocd-organization/e81450f9-c198-59c7-b962-513a55d687b6
+post_id: livingston-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 187907 (Livingston ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cayuga-tx-isd-trustee-john-paul-kelley
+person_id: ocd-person/dae65117-287f-5d67-97a1-2d7cd3d62694
+organization_id: ocd-organization/8e77b394-caca-567f-85e9-dbc3d0e390ce
+post_id: cayuga-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 001902 (Cayuga ISD) -- current board roster.
+  retrieved: '2026-08-25'

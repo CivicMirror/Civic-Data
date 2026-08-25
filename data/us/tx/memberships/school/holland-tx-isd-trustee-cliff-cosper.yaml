@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: holland-tx-isd-trustee-cliff-cosper
+person_id: ocd-person/289a5b95-ab57-5bac-b6bb-b27c38920aa3
+organization_id: ocd-organization/2218d533-38b7-5b1e-a3ea-f5af84ae8a17
+post_id: holland-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 014905 (Holland ISD) -- current board roster.
+  retrieved: '2026-08-25'

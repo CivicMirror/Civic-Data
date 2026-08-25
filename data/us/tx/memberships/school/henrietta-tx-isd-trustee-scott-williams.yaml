@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: henrietta-tx-isd-trustee-scott-williams
+person_id: ocd-person/01020a84-19ca-5030-867f-e0cb574cf9ba
+organization_id: ocd-organization/db961818-263f-5990-88e7-752d9595cd70
+post_id: henrietta-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 039902 (Henrietta ISD) -- current board roster.
+  retrieved: '2026-08-25'

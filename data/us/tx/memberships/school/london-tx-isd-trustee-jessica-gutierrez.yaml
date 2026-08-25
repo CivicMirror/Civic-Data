@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: london-tx-isd-trustee-jessica-gutierrez
+person_id: ocd-person/d5d626bd-93fe-5c43-9899-669729320d3f
+organization_id: ocd-organization/1a0d2671-9fc7-5881-a84e-fb7f59041a82
+post_id: london-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 178906 (London ISD) -- current board roster.
+  retrieved: '2026-08-25'

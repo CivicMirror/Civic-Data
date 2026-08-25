@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pampa-tx-isd-trustee-emily-arrington
+person_id: ocd-person/2d5e7db5-5696-5ab3-83f6-1ca6ff34e535
+organization_id: ocd-organization/7b4644ef-867f-527e-a519-8299c7a80d45
+post_id: pampa-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 090904 (Pampa ISD) -- current board roster.
+  retrieved: '2026-08-25'
