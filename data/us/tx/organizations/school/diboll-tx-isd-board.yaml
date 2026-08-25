@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/7ee1736f-9de7-5e22-82a1-07a37a5c02ec
+name: Diboll ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:diboll/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 003905
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=129
+  note: BBB(LOCAL)-X (tasb, LDU 2026.01, issued 2/17/2026) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

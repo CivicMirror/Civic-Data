@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/775fd411-9a1f-50d5-b35c-177d3de1c4ff
+name: Montague ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:montague/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '169908'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=905
+  note: BBB(LOCAL)-X (tasb, LDU 2025.03, issued 12/19/2025) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

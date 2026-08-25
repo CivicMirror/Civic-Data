@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/25b22b5f-2604-56e2-b444-85bf90ada347
+name: Bloomington ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:bloomington/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '235901'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=1190
+  note: BBB(LOCAL)-X (tasb, LDU 2021.01, issued 9/1/2021) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

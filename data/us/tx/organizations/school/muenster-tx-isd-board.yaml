@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/4cd10935-07c5-5d96-90f2-fe227deca2ef
+name: Muenster ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:muenster/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 049902
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=337
+  note: BBB(LOCAL)-X (tasb, LDU 2020.03, issued 7/27/2020) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

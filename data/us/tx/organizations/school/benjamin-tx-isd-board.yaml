@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/ea8f21dd-30b3-5229-83e7-9ffd942e4612
+name: Benjamin ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:benjamin/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '138904'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=782
+  note: BBB(LOCAL)-X (tasb, LDU 2026.02, issued 3/25/2026) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/c77798b5-25bd-56f2-a4a4-64aa74d34939
+name: Highland Park ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:highland-park-057911/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 057911
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=366
+  note: BBB(LOCAL)-X (tasb, LDU 2025.02, issued 1/23/2025) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/514902c2-d3d4-5fc7-b25e-a5149f12cd94
+name: Cleburne ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:cleburne/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '126903'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=737
+  note: BBB(LOCAL)-X (tasb, LDU 2024.02, issued 6/25/2024) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

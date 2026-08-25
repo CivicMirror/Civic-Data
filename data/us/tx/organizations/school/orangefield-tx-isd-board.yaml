@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/e3e1784c-de74-5da8-ac69-eefac2a16334
+name: Orangefield ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:orangefield/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '181905'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=966
+  note: BBB(LOCAL)-X (tasb, UPDATE 110, issued 2/19/2018) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

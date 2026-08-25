@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/c07e0717-f269-52a3-b78f-dddad95b6e15
+name: Simms ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:simms/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 019909
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=208
+  note: BBB(LOCAL)-X (tasb, LDU 2022.02, issued 7/20/2022) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/d2775671-e4d5-5659-a80c-2c0f7d00c256
+name: Comfort ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:comfort/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '130902'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=763
+  note: BBB(LOCAL)-X (tasb, LDU 2026.02, issued 3/26/2026) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

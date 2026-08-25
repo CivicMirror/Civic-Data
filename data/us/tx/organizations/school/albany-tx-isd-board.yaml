@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/a4d983cc-d840-56b0-9434-c7ce97a61887
+name: Albany ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:albany/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '209901'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=1066
+  note: BBB(LOCAL)-X (tasb, LDU 2024.03, issued 5/22/2024) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

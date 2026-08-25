@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/126094de-7928-53b5-ace5-947a0b1b63ec
+name: Beckville ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:beckville/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '183901'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=978
+  note: BBB(LOCAL)-X (tasb, LDU 2023.04, issued 2/5/2024) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/09cccfd5-7420-5b1c-95d6-b539c11ad3ed
+name: Sanger ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:sanger/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 061908
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=389
+  note: BBB(LOCAL)-X (tasb, LDU 2021.05, issued 8/19/2021) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

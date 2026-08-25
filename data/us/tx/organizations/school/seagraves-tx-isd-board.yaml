@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/e40e362b-e5fb-5fae-8929-d59845cec712
+name: Seagraves ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:seagraves/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 083901
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=493
+  note: BBB(LOCAL)-X (tasb, LDU 2019.03, issued 9/9/2019) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

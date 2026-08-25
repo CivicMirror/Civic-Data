@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/640b66f2-1ec9-52da-b837-37176f736a11
+name: Goodrich ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:goodrich/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '187903'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=998
+  note: BBB(LOCAL)-X (tasb, LDU 2021.02, issued 8/11/2021) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

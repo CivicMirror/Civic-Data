@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/7bcda815-9344-5512-92e9-5d7d9437d76c
+name: Morgan Mill ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:morgan-mill/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 072910
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=453
+  note: BBB(LOCAL)-X (tasb, UPDATE 110, issued 2/21/2018) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

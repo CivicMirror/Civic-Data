@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/ca1276b1-aa97-5127-91ce-a71993c8134f
+name: Teague ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:teague/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 081904
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=488
+  note: BBB(LOCAL)-X (tasb, LDU 2024.03, issued 1/24/2025) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

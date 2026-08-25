@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/bd4ddfe6-a858-591b-9c7f-059c4c922115
+name: Water Valley ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:water-valley/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '226905'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=1140
+  note: BBB(LOCAL)-X (tasb, UPDATE 120, issued 12/13/2022) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

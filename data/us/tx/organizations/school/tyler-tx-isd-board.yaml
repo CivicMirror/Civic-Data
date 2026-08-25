@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/e0615366-8dc1-567e-8e8b-2b7316b77e72
+name: Tyler ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:tyler/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '212905'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=1081
+  note: BBB(LOCAL)-X (tasb, UPDATE 110, issued 2/14/2018) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

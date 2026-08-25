@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/0e658847-95e8-5e7d-b74f-0267d5f79d21
+name: Laneville ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:laneville/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '201903'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=1038
+  note: BBB(LOCAL)-X (tasb, UPDATE 120, issued 1/19/2023) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

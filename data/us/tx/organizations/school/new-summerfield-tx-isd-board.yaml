@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/6a22e88b-8559-5c1b-9b11-227d1922499d
+name: New Summerfield ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:new-summerfield/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 037908
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=286
+  note: BBB(LOCAL)-X (tasb, UPDATE 120, issued 1/14/2023) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'
