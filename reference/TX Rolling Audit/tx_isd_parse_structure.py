@@ -34,11 +34,19 @@ EXCLUDED_TAGS = {"appointed_special_district", "excluded_non_isd_separate_statut
 # Districts confirmed by hand to need individual research, not mechanical
 # templating -- do not add to this set without a documented reason.
 MANUAL_REVIEW_CDNS = {
-    "031916": "South Texas ISD -- 24-member board, mixed elected/appointed "
-    "by county commissioner precinct (some seats appointed by the county "
-    "judge); stisd.net's board page (checked 2026-08-25) names only 12 of "
-    "24 seats, so even manual sourcing is incomplete -- not a standard "
-    "elected structure and not fully rosterable from what's public.",
+    "031916": "South Texas ISD -- 24-member board (12 elected by county "
+    "commissioner precinct across Hidalgo/Cameron/Willacy counties, 12 "
+    "appointed at-large by the respective county judges), not a shape "
+    "parse_district()'s generic N-seat model represents. RESOLVED by hand "
+    "(see stisd.net/community/board-of-directors, checked 2026-08-26): "
+    "hand-built Organization + 12 elected-precinct Posts + memberships "
+    "committed directly, bypassing this module and the generic generator "
+    "entirely. Kept in this set only so the generic generator keeps "
+    "skipping it rather than templating over the hand-built posts. Cameron "
+    "County Precinct 2 and Hidalgo County Precinct 1 have no membership "
+    "(the former unresolved, the latter a confirmed vacancy); the 12 "
+    "appointed at-large seats are intentionally excluded (elected boards "
+    "only, per the Houston ISD decision).",
     "232903": "Uvalde CISD -- hybrid with 4 SMD seats but only two named "
     "districts ('East' and 'West', not 4 numbered districts); ucisd.net's "
     "board page (checked 2026-08-25) doesn't resolve the East/West to "
