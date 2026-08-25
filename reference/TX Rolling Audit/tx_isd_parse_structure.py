@@ -36,21 +36,58 @@ EXCLUDED_TAGS = {"appointed_special_district", "excluded_non_isd_separate_statut
 MANUAL_REVIEW_CDNS = {
     "031916": "South Texas ISD -- 24-member board, mixed elected/appointed "
     "by county commissioner precinct (some seats appointed by the county "
-    "judge), not a standard elected structure at all.",
+    "judge); stisd.net's board page (checked 2026-08-25) names only 12 of "
+    "24 seats, so even manual sourcing is incomplete -- not a standard "
+    "elected structure and not fully rosterable from what's public.",
     "101912": "Houston ISD -- single-member district numbers given as roman "
-    "numerals (I, II, ... IX), not arabic numerals; not worth generalizing "
-    "the parser for one district.",
+    "numerals (I, II, ... IX), not arabic numerals. Also: TEA suspended the "
+    "elected board's governance in June 2023 (HB 1842) in favor of a "
+    "Commissioner-appointed Board of Managers -- seeding the 9 elected "
+    "trustees as current officeholders would be actively false. Needs a "
+    "user decision on how to model an elected-board-in-name-only district, "
+    "not mechanical templating.",
     "232903": "Uvalde CISD -- hybrid with 4 SMD seats but only two named "
-    "districts ('East' and 'West', not 4 numbered districts); the East/West "
-    "to 4-seat mapping isn't stated and needs individual sourcing.",
-    "057912": "Irving ISD -- BBB(LOCAL) confirms single-member districts and "
-    "a 7-member board but never states the district numbers anywhere in the "
-    "text (just 'the relevant single-member district', generically).",
-    "235902": "Victoria ISD -- BBB(LOCAL)'s Method of Election sentence says "
-    "only 'by single-member districts', omitting that the Terms and Election "
-    "Schedule below it clearly describes a 2 at-large + 5 SMD hybrid; the "
-    "district's own summary sentence is incomplete/inconsistent with its own "
-    "schedule text.",
+    "districts ('East' and 'West', not 4 numbered districts); ucisd.net's "
+    "board page (checked 2026-08-25) doesn't resolve the East/West to "
+    "4-seat mapping either -- still needs individual sourcing.",
+}
+
+# Districts where BBB(LOCAL) alone under- or misclassifies the structure but
+# a hand-verified secondary source resolves it completely. Kept separate
+# from parse_district()'s regex path (rather than loosening the regexes) so
+# a one-off documented exception can't silently change classification for
+# any of the other 862 at-large districts.
+MANUAL_OVERRIDES = {
+    "235902": {  # Victoria ISD
+        "board_size": 7,
+        "at_large_seats": 2,
+        "smd_seats": 5,
+        "smd_district_numbers": [1, 2, 3, 4, 5],
+        "note": (
+            "BBB(LOCAL)'s Method of Election sentence says only 'by "
+            "single-member districts' (the pure-SMD regex path then failed "
+            "on a district-number-count mismatch), but the Terms and "
+            "Election Schedule immediately below it explicitly names "
+            "'Districts 2 and 4', 'District 1', and 'Districts 3 and 5' for "
+            "5 SMD seats plus 2 at-large seats -- verified by hand against "
+            "https://pol.tasb.org/PolicyOnline?key=1191, re-fetched "
+            "2026-08-25, text unchanged from the 2026-08-24 committed row."
+        ),
+    },
+    "057912": {  # Irving ISD
+        "board_size": 7,
+        "at_large_seats": 0,
+        "smd_seats": 7,
+        "smd_district_numbers": [1, 2, 3, 4, 5, 6, 7],
+        "note": (
+            "BBB(LOCAL) confirms a 7-member, pure single-member-district "
+            "board but never states the district numbers in its own text. "
+            "Numbers verified against "
+            "https://www.irvingisd.net/board-of-trustees/map-of-trustee-districts "
+            "(checked 2026-08-25), which shows districts 1-7 each with a "
+            "named current trustee."
+        ),
+    },
 }
 
 WORDS_TO_NUM = {
@@ -91,13 +128,25 @@ def to_int(word):
 
 
 def extract_district_numbers(text):
-    """Union of all district/area numbers mentioned anywhere in the text."""
+    """Union of all district/area numbers mentioned anywhere in the text.
+
+    Caught via San Antonio ISD (015907): its text reads "Districts 1, 3, 4,
+    & 7 2021, 2025, 2029, 2033, and so forth" -- the election-year list runs
+    on immediately after the district list with only a space between them,
+    so DISTRICT_NUMS_RE's greedy digit/separator class swept the years into
+    the same capture. No real district has 3-digit numbering, so tokens >=
+    100 are dropped as year-list bleed rather than genuine district numbers.
+    """
     nums = set()
     for m in DISTRICT_NUMS_RE.finditer(text):
         chunk = m.group(1)
-        for tok in re.split(r"[,&]|\band\b", chunk):
+        # Split on whitespace too, not just [,&]/"and" -- San Antonio's text
+        # runs a district number straight into the following year with only
+        # a space ("& 7 2021, 2025, ..."), so a comma/and-only split leaves
+        # "7 2021" as one non-digit token and silently drops the 7.
+        for tok in re.split(r"[,&\s]+|\band\b", chunk):
             tok = tok.strip()
-            if tok.isdigit():
+            if tok.isdigit() and int(tok) < 100:
                 nums.add(int(tok))
     return nums
 
@@ -113,6 +162,9 @@ def parse_district(cdn, local_text):
     flavor) has smd_seats == 0 and smd_district_numbers == []. Pure SMD has
     at_large_seats == 0.
     """
+    if cdn in MANUAL_OVERRIDES:
+        return dict(MANUAL_OVERRIDES[cdn])
+
     if cdn in MANUAL_REVIEW_CDNS:
         return {"skip_reason": f"manual_review: {MANUAL_REVIEW_CDNS[cdn]}"}
 
