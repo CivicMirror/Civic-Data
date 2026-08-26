@@ -1,0 +1,159 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v37",
+  "package_type": "v37-preservation-overlay-on-v36",
+  "baseline": {
+    "version": "v36",
+    "generated_on": "2026-08-25",
+    "municipalities_with_local_findings": 245,
+    "municipalities_remaining_without_preserved_local_office_research": 106,
+    "total_office_research_rows": 1985,
+    "explicit_schema_ready_inventory_rows": 1635,
+    "schema_ready_organization_records": 1633,
+    "schema_ready_post_records": 1633,
+    "total_current_officeholder_research_rows": 5626,
+    "schema_ready_person_records": 3527,
+    "schema_ready_membership_records": 3576,
+    "source_note": "Projected saved v36 checkpoint after applying Richmond, Rochester, Rockland, Rockport, Rowe overlay to v35."
+  },
+  "batch": [
+    "Rowley",
+    "Royalston",
+    "Russell",
+    "Rutland",
+    "Salem"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 50,
+    "schema_ready_office_rows": 49,
+    "unresolved_structure_rows": 1,
+    "current_officeholder_research_rows": 152,
+    "verified_current_officeholder_rows": 99,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 53,
+    "schema_ready_organization_records": 49,
+    "schema_ready_post_records": 49,
+    "schema_ready_person_records": 96,
+    "schema_ready_membership_records": 99
+  },
+  "projected_cumulative": {
+    "municipalities_with_local_findings": 250,
+    "municipalities_remaining_without_preserved_local_office_research": 101,
+    "total_office_research_rows": 2035,
+    "explicit_schema_ready_inventory_rows": 1684,
+    "schema_ready_organization_records": 1682,
+    "schema_ready_post_records": 1682,
+    "total_current_officeholder_research_rows": 5778,
+    "schema_ready_person_records": 3623,
+    "schema_ready_membership_records": 3675
+  },
+  "validation_zero_error": true,
+  "files": [
+    {
+      "filename": "MA_CHARTER_AUDIT_V37_PRESERVATION_README_2026-08-25.md",
+      "bytes": 2119,
+      "sha256": "861b6a28e6e0cf76adbf80afa1f251f5e043507b3e86dbc940a7da30bf740f44"
+    },
+    {
+      "filename": "election.schema.json",
+      "bytes": 2666,
+      "sha256": "6c73d0ac09f3fb1139cdc5c876ab9da14e340266fae151787f0cc22b295420f4"
+    },
+    {
+      "filename": "identifier.schema.json",
+      "bytes": 475,
+      "sha256": "16072617067bcdd4fe09086216e937a5e701b3aefc129af692f8b5a4d438e59c"
+    },
+    {
+      "filename": "jurisdiction.schema.json",
+      "bytes": 2795,
+      "sha256": "5df399732ca25266491239973ea8bbed07fb70be8d0f49e3ec51c0db340f6cad"
+    },
+    {
+      "filename": "ma_charter_appointed_exclusions_delta_2026-08-25_v37.csv",
+      "bytes": 1589,
+      "sha256": "aefc4cd3bd4e404e26cb9ecacded3b8a9f94a518fd9871c3d1a877b731577019"
+    },
+    {
+      "filename": "ma_charter_appointed_exclusions_delta_2026-08-25_v37.json",
+      "bytes": 2358,
+      "sha256": "c2afa306f3a9e71b5c9075e8b5ada4d4adb34abd06d379471f6afe76c8069f06"
+    },
+    {
+      "filename": "ma_charter_elected_office_inventory_delta_2026-08-25_v37.csv",
+      "bytes": 22936,
+      "sha256": "d063b8ca82e71ddb3c39e53ce52ef28898e258972229d1aaafd96b7bb852daf2"
+    },
+    {
+      "filename": "ma_charter_elected_office_inventory_delta_2026-08-25_v37.json",
+      "bytes": 39647,
+      "sha256": "923794c048e47dc7a6a163835510e84d051fc9dda5cd94877f75f75f3862d8bd"
+    },
+    {
+      "filename": "ma_charter_source_audit_delta_2026-08-25_v37.csv",
+      "bytes": 2927,
+      "sha256": "7f66d54850c6907a750906ddd9d3859a1d6d0d318de5b7365a5f4da5e8fb2bb7"
+    },
+    {
+      "filename": "ma_charter_source_audit_delta_2026-08-25_v37.json",
+      "bytes": 4680,
+      "sha256": "40f12dcb5f7ea4d83a0ba724e9619cd1b5f6d5ba2368e725760b08d251ec29fb"
+    },
+    {
+      "filename": "ma_charter_validation_report_delta_2026-08-25_v37.json",
+      "bytes": 3190,
+      "sha256": "88b29a159ba7588a8e374342fe129a2582eb7e5cc659753e785b4e28cb7f7b5a"
+    },
+    {
+      "filename": "ma_current_officeholders_delta_2026-08-25_v37.csv",
+      "bytes": 37894,
+      "sha256": "c16506c837853027807661f2452f785d3ff7eb9db879fdf30c49ce0e9635d918"
+    },
+    {
+      "filename": "ma_current_officeholders_delta_2026-08-25_v37.json",
+      "bytes": 63891,
+      "sha256": "f0420af67cdbbb198bc709f18f2ac3b89d6b979d4c6be75c3e4aa02c47366d79"
+    },
+    {
+      "filename": "ma_schema_ready_memberships_delta_2026-08-25_v37.json",
+      "bytes": 49876,
+      "sha256": "3537fb70207326c8eaed31af5a8c40ef6fc7484c30b68b805ea60df644d9d9f0"
+    },
+    {
+      "filename": "ma_schema_ready_organizations_delta_2026-08-25_v37.json",
+      "bytes": 26087,
+      "sha256": "dcb9e5829da882d899cdb67a374ed2e0125848bcb70ba98e72d40baa059f648f"
+    },
+    {
+      "filename": "ma_schema_ready_persons_delta_2026-08-25_v37.json",
+      "bytes": 41044,
+      "sha256": "af7ad43e2430db4d43e225bf0fc771195c6f4d26e87b56c51e8248a728fd7f1c"
+    },
+    {
+      "filename": "ma_schema_ready_posts_delta_2026-08-25_v37.json",
+      "bytes": 17417,
+      "sha256": "678598bd8a2955f089976ea079ea4db4377714463c48ccafa63e1fb3fb19d915"
+    },
+    {
+      "filename": "ma_v37_baseline_manifest_2026-08-25.json",
+      "bytes": 605,
+      "sha256": "3069f002211c443872d61367465c72ee5f19f1a6baa2db9c1611a6c4ed5d9595"
+    },
+    {
+      "filename": "membership.schema.json",
+      "bytes": 1282,
+      "sha256": "1212803eb430119927c0dcf17a8259c216ec01e43360dfab9fcc0409c2adb5ad"
+    },
+    {
+      "filename": "person.schema.json",
+      "bytes": 3314,
+      "sha256": "5d0d0c92aff81cfaf256b1d9184d8754348b8f0133f1c2093b3bf5dc0deb1c58"
+    },
+    {
+      "filename": "post.schema.json",
+      "bytes": 1044,
+      "sha256": "86ea8c6657a9e6c17aa3cdd45f62711f547e67d8016b0179cfd6438d85dd68f9"
+    }
+  ]
+}

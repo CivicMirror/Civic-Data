@@ -1,0 +1,159 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v34",
+  "package_type": "v34-preservation-overlay-on-v33",
+  "baseline": {
+    "municipalities_with_local_findings": 230,
+    "municipalities_remaining_without_preserved_local_office_research": 121,
+    "total_office_research_rows": 1847,
+    "explicit_schema_ready_inventory_rows": 1497,
+    "schema_ready_organization_records": 1495,
+    "schema_ready_post_records": 1495,
+    "total_current_officeholder_research_rows": 4835,
+    "schema_ready_person_records": 2896,
+    "schema_ready_membership_records": 2940,
+    "version": "v33",
+    "generated_on": "2026-08-25",
+    "source_note": "Saved and validated v33 checkpoint."
+  },
+  "batch": [
+    "Plymouth",
+    "Plympton",
+    "Princeton",
+    "Provincetown",
+    "Quincy"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 36,
+    "schema_ready_office_rows": 36,
+    "unresolved_structure_rows": 0,
+    "current_officeholder_research_rows": 282,
+    "verified_current_officeholder_rows": 274,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 8,
+    "schema_ready_organization_records": 36,
+    "schema_ready_post_records": 36,
+    "schema_ready_person_records": 273,
+    "schema_ready_membership_records": 274
+  },
+  "projected_cumulative": {
+    "municipalities_with_local_findings": 235,
+    "municipalities_remaining_without_preserved_local_office_research": 116,
+    "total_office_research_rows": 1883,
+    "explicit_schema_ready_inventory_rows": 1533,
+    "schema_ready_organization_records": 1531,
+    "schema_ready_post_records": 1531,
+    "total_current_officeholder_research_rows": 5117,
+    "schema_ready_person_records": 3169,
+    "schema_ready_membership_records": 3214
+  },
+  "validation_zero_error": true,
+  "files": [
+    {
+      "filename": "MA_CHARTER_AUDIT_V34_PRESERVATION_README_2026-08-25.md",
+      "bytes": 1348,
+      "sha256": "34316fd3af53d0517a64c12fe6d97f9e556b127aacf27aa27eddae5c99f8643d"
+    },
+    {
+      "filename": "election.schema.json",
+      "bytes": 2666,
+      "sha256": "6c73d0ac09f3fb1139cdc5c876ab9da14e340266fae151787f0cc22b295420f4"
+    },
+    {
+      "filename": "identifier.schema.json",
+      "bytes": 475,
+      "sha256": "16072617067bcdd4fe09086216e937a5e701b3aefc129af692f8b5a4d438e59c"
+    },
+    {
+      "filename": "jurisdiction.schema.json",
+      "bytes": 2795,
+      "sha256": "5df399732ca25266491239973ea8bbed07fb70be8d0f49e3ec51c0db340f6cad"
+    },
+    {
+      "filename": "ma_charter_appointed_exclusions_delta_2026-08-25_v34.csv",
+      "bytes": 3488,
+      "sha256": "7b95411e43af9c5da171f684d87132b136c2ad781a0a4ccf53e000ab9b54b98f"
+    },
+    {
+      "filename": "ma_charter_appointed_exclusions_delta_2026-08-25_v34.json",
+      "bytes": 5657,
+      "sha256": "259e8ddd81517a75ad9b5e169dace0dc6c4574b070101ec2d4083daea64a2017"
+    },
+    {
+      "filename": "ma_charter_elected_office_inventory_delta_2026-08-25_v34.csv",
+      "bytes": 14694,
+      "sha256": "475a44489057c666455dd54aa3b88f2c1f24dbd067ed046dd269b02109aea226"
+    },
+    {
+      "filename": "ma_charter_elected_office_inventory_delta_2026-08-25_v34.json",
+      "bytes": 26677,
+      "sha256": "7bd57956fce5d39ecdd7be26344af0f5b4f1070c1ab12d26769ad1ae0247dbec"
+    },
+    {
+      "filename": "ma_charter_source_audit_delta_2026-08-25_v34.csv",
+      "bytes": 3724,
+      "sha256": "9e709bf47db220506fffe093a2ed883183bd9f0cd8ae6b4f34a1499bab80f72a"
+    },
+    {
+      "filename": "ma_charter_source_audit_delta_2026-08-25_v34.json",
+      "bytes": 5477,
+      "sha256": "8b1b7be5a5d7c3e9d4da4e1a66eed67ead96b11f6ed7bd58a9fae0176d33de82"
+    },
+    {
+      "filename": "ma_charter_validation_report_delta_2026-08-25_v34.json",
+      "bytes": 3070,
+      "sha256": "c4cd45350356f6d03393866c2bcc5f5f5d10c1ad30a1c6dd05d8dff00757a117"
+    },
+    {
+      "filename": "ma_current_officeholders_delta_2026-08-25_v34.csv",
+      "bytes": 48308,
+      "sha256": "cf5cec57f8d8807bf57f40a93fca0eebf5c81c002812aeda014c7f746bc03736"
+    },
+    {
+      "filename": "ma_current_officeholders_delta_2026-08-25_v34.json",
+      "bytes": 96725,
+      "sha256": "5eee0bb3380ff8bee3cf2120bf176b08906c306934de14c767dfc691d0bab2a2"
+    },
+    {
+      "filename": "ma_schema_ready_memberships_delta_2026-08-25_v34.json",
+      "bytes": 145235,
+      "sha256": "e4acb97adec491975f4e16ca4ea782024c11ed22123bcbc9dbe3ab2f9df81b3b"
+    },
+    {
+      "filename": "ma_schema_ready_organizations_delta_2026-08-25_v34.json",
+      "bytes": 19413,
+      "sha256": "957df1597374ec2fd2b78e75e98cd7a87ec8278fbf98f7594d07e0dcc93f23a5"
+    },
+    {
+      "filename": "ma_schema_ready_persons_delta_2026-08-25_v34.json",
+      "bytes": 117795,
+      "sha256": "ef5f937d31e962e389c0ddf6824352c562430376e919adddf7871b07a38bc2ac"
+    },
+    {
+      "filename": "ma_schema_ready_posts_delta_2026-08-25_v34.json",
+      "bytes": 12984,
+      "sha256": "9a290aeb95b334e5102cab88bfa3586fe365ca2fd4055d1e0410dd0ce902f0a7"
+    },
+    {
+      "filename": "ma_v34_baseline_manifest_2026-08-25.json",
+      "bytes": 533,
+      "sha256": "6bde18fb2bece854c43e32e7aba60644064411a32eb7076ff598fe6357c6abeb"
+    },
+    {
+      "filename": "membership.schema.json",
+      "bytes": 1282,
+      "sha256": "1212803eb430119927c0dcf17a8259c216ec01e43360dfab9fcc0409c2adb5ad"
+    },
+    {
+      "filename": "person.schema.json",
+      "bytes": 3314,
+      "sha256": "5d0d0c92aff81cfaf256b1d9184d8754348b8f0133f1c2093b3bf5dc0deb1c58"
+    },
+    {
+      "filename": "post.schema.json",
+      "bytes": 1044,
+      "sha256": "86ea8c6657a9e6c17aa3cdd45f62711f547e67d8016b0179cfd6438d85dd68f9"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v34",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v33",
+  "latest_structure_batch": [
+    "Plymouth",
+    "Plympton",
+    "Princeton",
+    "Provincetown",
+    "Quincy"
+  ],
+  "latest_officeholder_batch": [
+    "Plymouth",
+    "Plympton",
+    "Princeton",
+    "Provincetown",
+    "Quincy"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 36,
+    "schema_ready_office_rows": 36,
+    "unresolved_structure_rows": 0,
+    "current_officeholder_research_rows": 282,
+    "verified_current_officeholder_rows": 274,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 8,
+    "schema_ready_organization_records": 36,
+    "schema_ready_post_records": 36,
+    "schema_ready_person_records": 273,
+    "schema_ready_membership_records": 274
+  },
+  "projected_cumulative_after_applying_overlay_to_v33": {
+    "municipalities_with_local_findings": 235,
+    "municipalities_remaining_without_preserved_local_office_research": 116,
+    "total_office_research_rows": 1883,
+    "explicit_schema_ready_inventory_rows": 1533,
+    "schema_ready_organization_records": 1531,
+    "schema_ready_post_records": 1531,
+    "total_current_officeholder_research_rows": 5117,
+    "schema_ready_person_records": 3169,
+    "schema_ready_membership_records": 3214
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Plymouth",
+      "priority": "high",
+      "issue": "Housing Authority charter/statute conflict",
+      "reason": "Older charter says four elected; current M.G.L. c.121B §5 expressly overrides local law and controls at three elected plus tenant/state appointees."
+    },
+    {
+      "municipality": "Plympton",
+      "priority": "medium",
+      "issue": "Sixth Library Trustee seat",
+      "reason": "2026 unexpired contest includes a declined candidate and write-ins; current occupant remains unresolved."
+    },
+    {
+      "municipality": "Princeton",
+      "priority": "high",
+      "issue": "2026 Annual Town Election holder reconciliation",
+      "reason": "Official 2026 result was not located; multiple seats are marked unresolved rather than carrying expired incumbents."
+    },
+    {
+      "municipality": "Quincy",
+      "priority": "low",
+      "issue": "City Clerk voter-election exclusion",
+      "reason": "Current city elected-official architecture omits City Clerk; code describes it as Clerk of Council. No voter-elected record generated."
+    }
+  ],
+  "notes": [
+    "Plymouth representative Town Meeting is serialized at exactly 162 elected seats; appointed vacancy-fillers use how_seated=appointed on the elected Post.",
+    "Open Town Meeting voters in Provincetown are not elected representatives and are not modeled.",
+    "Projected cumulative totals assume application to the exact saved v33 checkpoint."
+  ]
+}

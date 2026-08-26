@@ -4,10 +4,8 @@ Import the v32-v49 MA municipal charter/elected-office rolling audit
 preservation packages into data/us/ma/{organizations,posts,people,
 memberships}/municipal/.
 
-As of this script's writing, v34-v37 have not been supplied and are skipped
-(BATCHES below only lists the versions actually present under reference/
-MA Rolling Audit/). Each listed version is an independent delta package (not
-cumulative), like v56-v58.
+Each listed version is an independent delta package (not cumulative), like
+v56-v58.
 
 See scripts/import_ma_charter_audit_v20.py, _v27.py, and _v56_v58.py for the
 placement rationale (filenames, membership id regeneration, why persons are
@@ -33,6 +31,10 @@ SRC_ROOT = REPO / "reference" / "MA Rolling Audit"
 BATCHES = [
     ("v32", SRC_ROOT / "ma_charter_audit_next10_v32_v33_2026-08-25" / "ma_charter_audit_v32_preservation_package_2026-08-25"),
     ("v33", SRC_ROOT / "ma_charter_audit_next10_v32_v33_2026-08-25" / "ma_charter_audit_v33_preservation_package_2026-08-25"),
+    ("v34", SRC_ROOT / "ma_charter_audit_next10_v34_v35_2026-08-25" / "ma_charter_audit_v34_preservation_package_2026-08-25"),
+    ("v35", SRC_ROOT / "ma_charter_audit_next10_v34_v35_2026-08-25" / "ma_charter_audit_v35_preservation_package_2026-08-25"),
+    ("v36", SRC_ROOT / "ma_charter_audit_next10_v36_v37_2026-08-25" / "ma_charter_audit_v36_preservation_package_2026-08-25"),
+    ("v37", SRC_ROOT / "ma_charter_audit_next10_v36_v37_2026-08-25" / "ma_charter_audit_v37_preservation_package_2026-08-25"),
     ("v38", SRC_ROOT / "ma_charter_audit_next10_v38_v39_2026-08-25(1)" / "ma_charter_audit_v38_preservation_package_2026-08-25"),
     ("v39", SRC_ROOT / "ma_charter_audit_next10_v38_v39_2026-08-25(1)" / "ma_charter_audit_v39_preservation_package_2026-08-25"),
     ("v40", SRC_ROOT / "ma_charter_audit_next10_v40_v41_2026-08-25(1)" / "ma_charter_audit_v40_preservation_package_2026-08-25"),

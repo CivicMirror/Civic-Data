@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/identifier.schema.json",
+  "title": "External identifier",
+  "type": "object",
+  "required": ["scheme", "identifier"],
+  "additionalProperties": false,
+  "properties": {
+    "scheme": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "identifier": { "type": "string", "minLength": 1 },
+    "source": { "type": "string", "format": "uri" }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v37",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v36",
+  "latest_structure_batch": [
+    "Rowley",
+    "Royalston",
+    "Russell",
+    "Rutland",
+    "Salem"
+  ],
+  "latest_officeholder_batch": [
+    "Rowley",
+    "Royalston",
+    "Russell",
+    "Rutland",
+    "Salem"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 50,
+    "schema_ready_office_rows": 49,
+    "unresolved_structure_rows": 1,
+    "current_officeholder_research_rows": 152,
+    "verified_current_officeholder_rows": 99,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 53,
+    "schema_ready_organization_records": 49,
+    "schema_ready_post_records": 49,
+    "schema_ready_person_records": 96,
+    "schema_ready_membership_records": 99
+  },
+  "projected_cumulative_after_applying_overlay_to_v36": {
+    "municipalities_with_local_findings": 250,
+    "municipalities_remaining_without_preserved_local_office_research": 101,
+    "total_office_research_rows": 2035,
+    "explicit_schema_ready_inventory_rows": 1684,
+    "schema_ready_organization_records": 1682,
+    "schema_ready_post_records": 1682,
+    "total_current_officeholder_research_rows": 5778,
+    "schema_ready_person_records": 3623,
+    "schema_ready_membership_records": 3675
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Rowley",
+      "priority": "medium",
+      "issue": "Housing / appointed-seat separation",
+      "reason": "Only three local Housing Authority voter seats are serialized; state/tenant and Planning associate roles are excluded."
+    },
+    {
+      "municipality": "Royalston",
+      "priority": "medium",
+      "issue": "Regional-school representation model",
+      "reason": "Three Royalston-designated Athol-Royalston seats are serialized; Montachusett vocational representative is appointed."
+    },
+    {
+      "municipality": "Russell",
+      "priority": "high",
+      "issue": "Constable seat complement",
+      "reason": "2023 ballot proves at least two simultaneous constable seats but exact current complement is not safely established; row remains unresolved and is not serialized."
+    },
+    {
+      "municipality": "Rutland",
+      "priority": "low",
+      "issue": "Board of Public Works ex-officio identity",
+      "reason": "Same five Select Board members serve as BPW; no duplicate voter-elected Post is created."
+    },
+    {
+      "municipality": "Salem",
+      "priority": "low",
+      "issue": "Mayor school-chair role",
+      "reason": "Mayor chairs School Committee ex officio; only the six separately voter-elected School Committee seats are serialized."
+    }
+  ],
+  "notes": [
+    "Unresolved current-holder rows are intentional and are not presumed vacancies.",
+    "Only office rows marked schema-ready are materialized as Organization/Post records.",
+    "Projected cumulative totals assume exact application to the saved baseline checkpoint."
+  ]
+}

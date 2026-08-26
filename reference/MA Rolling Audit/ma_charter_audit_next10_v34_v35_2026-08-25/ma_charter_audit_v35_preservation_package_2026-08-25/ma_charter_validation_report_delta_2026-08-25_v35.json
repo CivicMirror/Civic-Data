@@ -1,0 +1,91 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v35",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v34",
+  "latest_structure_batch": [
+    "Randolph",
+    "Raynham",
+    "Reading",
+    "Rehoboth",
+    "Revere"
+  ],
+  "latest_officeholder_batch": [
+    "Randolph",
+    "Raynham",
+    "Reading",
+    "Rehoboth",
+    "Revere"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 44,
+    "schema_ready_office_rows": 44,
+    "unresolved_structure_rows": 0,
+    "current_officeholder_research_rows": 332,
+    "verified_current_officeholder_rows": 286,
+    "known_vacancies": 1,
+    "unresolved_officeholder_markers": 45,
+    "schema_ready_organization_records": 44,
+    "schema_ready_post_records": 44,
+    "schema_ready_person_records": 283,
+    "schema_ready_membership_records": 286
+  },
+  "projected_cumulative_after_applying_overlay_to_v34": {
+    "municipalities_with_local_findings": 240,
+    "municipalities_remaining_without_preserved_local_office_research": 111,
+    "total_office_research_rows": 1927,
+    "explicit_schema_ready_inventory_rows": 1577,
+    "schema_ready_organization_records": 1575,
+    "schema_ready_post_records": 1575,
+    "total_current_officeholder_research_rows": 5449,
+    "schema_ready_person_records": 3452,
+    "schema_ready_membership_records": 3500
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Raynham",
+      "priority": "high",
+      "issue": "Bridgewater-Raynham current Raynham seat assignment",
+      "reason": "Regional agreement fixes four Raynham seats, but the current seven-name district roster does not safely identify which four are Raynham."
+    },
+    {
+      "municipality": "Raynham",
+      "priority": "medium",
+      "issue": "Cemetery Commission current roster/status metadata",
+      "reason": "2026 ballot establishes an elected Cemetery Commissioner office, while current administrative metadata has conflicting appointment labeling; current identities remain unresolved."
+    },
+    {
+      "municipality": "Reading",
+      "priority": "high",
+      "issue": "Housing Authority controlling-law/current-practice conflict",
+      "reason": "Current municipal appointment packets treat local Housing Authority seats as Select Board appointments, but current M.G.L. c.121B §5 appears to require three elected seats in a town notwithstanding contrary law. No elected Post is serialized pending reconciliation."
+    },
+    {
+      "municipality": "Reading",
+      "priority": "low",
+      "issue": "Representative Town Meeting vacancy",
+      "reason": "Current official roster contains one explicit vacancy at Precinct 4 Seat 24; 191 current occupants are serialized."
+    },
+    {
+      "municipality": "Rehoboth",
+      "priority": "high",
+      "issue": "Post-2026 current-holder backfill",
+      "reason": "Structure is broad and legally enumerated, but many current identities could not be safely reconciled after the 2026 election; unresolved markers are preserved."
+    }
+  ],
+  "notes": [
+    "Reading representative Town Meeting is serialized at 192 elected seats with 191 verified occupants and one explicit vacancy.",
+    "Reading Housing Authority is deliberately withheld from the elected inventory because current municipal appointment practice conflicts with current state-law text.",
+    "Raynham separate water-district offices are modeled independently from town offices.",
+    "Rehoboth current-holder shortages are unresolved markers, not presumed vacancies.",
+    "Projected cumulative totals assume exact application to the saved v34 checkpoint."
+  ]
+}
