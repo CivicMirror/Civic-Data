@@ -1,0 +1,58 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v53",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v52",
+  "latest_structure_batch": [
+    "Westwood",
+    "Weymouth",
+    "Whately",
+    "Whitman",
+    "Wilbraham"
+  ],
+  "latest_officeholder_batch": [
+    "Westwood",
+    "Weymouth",
+    "Whately",
+    "Whitman",
+    "Wilbraham"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 47,
+    "schema_ready_office_rows": 47,
+    "unresolved_structure_rows": 0,
+    "current_officeholder_research_rows": 153,
+    "verified_current_officeholder_rows": 109,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 44,
+    "schema_ready_organization_records": 47,
+    "schema_ready_post_records": 47,
+    "schema_ready_person_records": 108,
+    "schema_ready_membership_records": 109
+  },
+  "projected_cumulative_after_applying_overlay_to_v52": {
+    "municipalities_with_local_findings": 330,
+    "municipalities_remaining_without_preserved_local_office_research": 21,
+    "total_office_research_rows": 2810,
+    "explicit_schema_ready_inventory_rows": 2435,
+    "schema_ready_organization_records": 2433,
+    "schema_ready_post_records": 2433,
+    "total_current_officeholder_research_rows": 9731,
+    "schema_ready_person_records": 4704,
+    "schema_ready_membership_records": 4774
+  },
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "organization_manual_validation_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": false,
+  "human_review_items": [],
+  "notes": [
+    "Unresolved holder markers are intentional and are not presumed vacancies.",
+    "Only schema-ready elected-office rows generate Organizations/Posts.",
+    "Current holders are serialized only where recent official evidence safely supports identity."
+  ]
+}

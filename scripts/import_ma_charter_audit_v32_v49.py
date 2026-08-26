@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Import the v31-v49 MA municipal charter/elected-office rolling audit
+Import the v31-v55 MA municipal charter/elected-office rolling audit
 preservation packages into data/us/ma/{organizations,posts,people,
 memberships}/municipal/. (The filename says v32 because v31 was added after
 the first run; records already written carry the original script name in
@@ -56,6 +56,15 @@ BATCHES = [
     ("v47", SRC_ROOT / "ma_charter_audit_next20_v44_v47_2026-08-25(1)" / "v47"),
     ("v48", SRC_ROOT / "ma_charter_audit_next10_v48_v49_2026-08-25(1)" / "v48"),
     ("v49", SRC_ROOT / "ma_charter_audit_next10_v48_v49_2026-08-25(1)" / "v49"),
+    # v50-v55 (Wenham-Worthington). Note: v52-v55 also exist under sibling
+    # "...(1)" directories; those zips are byte-identical duplicates, so only
+    # one copy of each is listed here.
+    ("v50", SRC_ROOT / "ma_charter_audit_next10_v50_v51_2026-08-25" / "ma_charter_audit_v50_preservation_package_2026-08-25"),
+    ("v51", SRC_ROOT / "ma_charter_audit_next10_v50_v51_2026-08-25" / "ma_charter_audit_v51_preservation_package_2026-08-25"),
+    ("v52", SRC_ROOT / "ma_charter_audit_next10_v52_v53_2026-08-25" / "ma_charter_audit_v52_preservation_package_2026-08-25"),
+    ("v53", SRC_ROOT / "ma_charter_audit_next10_v52_v53_2026-08-25" / "ma_charter_audit_v53_preservation_package_2026-08-25"),
+    ("v54", SRC_ROOT / "ma_charter_audit_next10_v54_v55_2026-08-25" / "ma_charter_audit_v54_preservation_package_2026-08-25"),
+    ("v55", SRC_ROOT / "ma_charter_audit_next10_v54_v55_2026-08-25" / "ma_charter_audit_v55_preservation_package_2026-08-25"),
 ]
 
 HEADER_TMPL = (

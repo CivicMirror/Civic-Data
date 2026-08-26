@@ -1,14 +1,16 @@
-# Imported from reference/MA Rolling Audit  V20/ (MA municipal charter/
-# elected-office rolling audit, generated 2026-08-20) by scripts/
-# import_ma_charter_audit_v20.py. Source rows were machine-extracted from
-# municipal government sites; see the record's sources for provenance.
-id: ocd-organization/6692c0c0-0f5d-5275-b02a-0cb1b9016fee
-name: Treasurer
+# Imported from reference/MA Rolling Audit/ (v47 MA municipal
+# charter/elected-office rolling audit preservation package, generated
+# 2026-08-25) by scripts/fix_ma_stale_office_conflicts.py. This office was
+# originally seeded by the v20 import; v47 re-researched it, and the
+# newer record supersedes the v20 one. Source rows were machine-extracted
+# from municipal government sites; see the record's sources for provenance.
+id: ocd-organization/cff62ad1-b41f-550b-9610-3e789858ca64
+name: Town Treasurer
 jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:wakefield/government
 identifiers:
 - scheme: civicmirror-office
   identifier: wakefield-ma/treasurer
 status: active
 sources:
-- url: https://ecode360.com/13594234
-  retrieved: '2026-08-19'
+- url: https://www.wakefield.ma.us/sites/g/files/vyhlif1366/f/uploads/2023_annual_report.pdf
+  retrieved: '2026-08-25'
