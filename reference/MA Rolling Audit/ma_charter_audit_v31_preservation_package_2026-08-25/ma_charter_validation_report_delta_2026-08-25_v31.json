@@ -1,0 +1,135 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v31",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v30",
+  "baseline_source": "persisted File-Library checkpoint",
+  "latest_structure_batch": [
+    "Orange",
+    "Orleans",
+    "Otis",
+    "Oxford",
+    "Palmer"
+  ],
+  "latest_officeholder_batch": [
+    "Orange",
+    "Orleans",
+    "Otis",
+    "Oxford",
+    "Palmer"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 49,
+    "schema_ready_office_rows": 46,
+    "unresolved_structure_rows": 3,
+    "current_officeholder_research_rows": 151,
+    "verified_current_officeholder_rows": 123,
+    "known_vacancies": 2,
+    "unresolved_officeholder_markers": 26,
+    "schema_ready_organization_records": 46,
+    "schema_ready_post_records": 46,
+    "schema_ready_person_records": 119,
+    "schema_ready_membership_records": 122
+  },
+  "projected_cumulative_after_applying_overlay_to_v30": {
+    "municipalities_with_local_findings": 220,
+    "municipalities_remaining_without_preserved_local_office_research": 131,
+    "total_office_research_rows": 1748,
+    "explicit_schema_ready_inventory_rows": 1401,
+    "schema_ready_organization_records": 1399,
+    "schema_ready_post_records": 1399,
+    "total_current_officeholder_research_rows": 4526,
+    "schema_ready_person_records": 2647,
+    "schema_ready_membership_records": 2684
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Orange",
+      "priority": "high",
+      "issue": "Mahar Regional School Committee Orange seat allocation",
+      "reason": "Authoritative local/district materials conflict on current Orange allocation/committee size; no seat count was forced."
+    },
+    {
+      "municipality": "Orange",
+      "priority": "high",
+      "issue": "Soldiers' Memorial trustee elected composition",
+      "reason": "Multiple veteran/non-veteran 2026 contests prove elected status, but total elected trustee count was not normalized safely."
+    },
+    {
+      "municipality": "Orange",
+      "priority": "high",
+      "issue": "Constable total elected seat count",
+      "reason": "New charter uses plural 'constables'; 2026 result proves one elected seat, but total current elected seat count remains unresolved."
+    },
+    {
+      "municipality": "Orange",
+      "priority": "medium",
+      "issue": "Post-2026 Library Trustee roster reconciliation",
+      "reason": "Six elected seats are fixed, but a safe current six-person roster was not established."
+    },
+    {
+      "municipality": "Orleans",
+      "priority": "medium",
+      "issue": "Old King's Highway current election mechanism",
+      "reason": "Current five-member roster is official; present-day elected mechanism should receive controlling-law confirmation."
+    },
+    {
+      "municipality": "Orleans",
+      "priority": "medium",
+      "issue": "School Committee stale roster entry",
+      "reason": "Official page contains an expired historical entry in addition to five current active members; expired identity was excluded."
+    },
+    {
+      "municipality": "Otis",
+      "priority": "high",
+      "issue": "Farmington River Regional School Committee allocation",
+      "reason": "Current official town page lists three Otis representatives; older official materials reflected a different allocation."
+    },
+    {
+      "municipality": "Otis",
+      "priority": "medium",
+      "issue": "Cemetery Commission and Tree Warden current holders",
+      "reason": "Structure is preserved, but current post-election identities were not safely reconciled."
+    },
+    {
+      "municipality": "Oxford",
+      "priority": "low",
+      "issue": "Corey/Cory Burke spelling variation",
+      "reason": "Official materials vary; certified-result spelling 'Corey J. Burke' is preserved."
+    },
+    {
+      "municipality": "Palmer",
+      "priority": "high",
+      "issue": "Separate district office normalization",
+      "reason": "Fire/water districts have their own elected and appointed offices; district clerk mechanisms and possible additional district offices require continued legal normalization."
+    },
+    {
+      "municipality": "Palmer",
+      "priority": "medium",
+      "issue": "Thorndike post-June-2026 roster",
+      "reason": "Current page displays a member whose term ended June 30, 2026; third commissioner is unresolved rather than carried stale."
+    },
+    {
+      "municipality": "Palmer",
+      "priority": "medium",
+      "issue": "School Committee and Planning Board current holders",
+      "reason": "Charter establishes both five-member elected bodies, but current post-June-2026 rosters were not safely reconciled."
+    }
+  ],
+  "notes": [
+    "This is a v31 overlay, not a false binary copy of v30. Apply to the persisted v30 rolling files.",
+    "Unresolved seat counts remain research-only and do not generate Posts.",
+    "Vacant/unresolved current seats do not generate Persons or Memberships.",
+    "Orange's verified Donn Deane Constable record is research-layer only because the total elected Constable seat count is unresolved.",
+    "Heather Gray is linked to the elected Otis Assessor Post with how_seated='appointed', reflecting an appointed occupant of an elected office seat.",
+    "Projected cumulative counts assume application to the exact persisted v30 checkpoint and no cross-jurisdiction identity merges."
+  ]
+}

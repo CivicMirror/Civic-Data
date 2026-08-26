@@ -1,0 +1,104 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v33",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v32",
+  "latest_structure_batch": [
+    "Petersham",
+    "Phillipston",
+    "Pittsfield",
+    "Plainfield",
+    "Plainville"
+  ],
+  "latest_officeholder_batch": [
+    "Petersham",
+    "Phillipston",
+    "Pittsfield",
+    "Plainfield",
+    "Plainville"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 46,
+    "schema_ready_office_rows": 43,
+    "unresolved_structure_rows": 3,
+    "current_officeholder_research_rows": 122,
+    "verified_current_officeholder_rows": 91,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 31,
+    "schema_ready_organization_records": 43,
+    "schema_ready_post_records": 43,
+    "schema_ready_person_records": 89,
+    "schema_ready_membership_records": 91
+  },
+  "projected_cumulative_after_applying_overlay_to_v32": {
+    "municipalities_with_local_findings": 230,
+    "municipalities_remaining_without_preserved_local_office_research": 121,
+    "total_office_research_rows": 1847,
+    "explicit_schema_ready_inventory_rows": 1497,
+    "schema_ready_organization_records": 1495,
+    "schema_ready_post_records": 1495,
+    "total_current_officeholder_research_rows": 4835,
+    "schema_ready_person_records": 2896,
+    "schema_ready_membership_records": 2940
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Petersham",
+      "priority": "high",
+      "issue": "Three unresolved elected seat counts",
+      "reason": "Mahar Regional allocation, Petersham School Committee total seats, and library trustee total seats are election-verified but not safely normalized."
+    },
+    {
+      "municipality": "Petersham",
+      "priority": "high",
+      "issue": "August 24, 2026 Selectboard special-election result",
+      "reason": "Special election occurred one day before retrieval; current third Selectboard member remains unresolved until official result/roster update."
+    },
+    {
+      "municipality": "Phillipston",
+      "priority": "high",
+      "issue": "2026 Annual Town Election result reconciliation",
+      "reason": "Several three-/five-year elected terms expired in 2026, while the current certified result was not exposed reliably; stale identities were not carried forward."
+    },
+    {
+      "municipality": "Plainfield",
+      "priority": "high",
+      "issue": "2026 annual-cycle holder reconciliation",
+      "reason": "Multiple one-year/expiring seats cannot be safely reconciled from current official pages; current research layer preserves unresolved markers."
+    },
+    {
+      "municipality": "Plainfield",
+      "priority": "medium",
+      "issue": "Historical Whiting Street Fund Disbursement Committee",
+      "reason": "Older annual reports show an elected trust/fund committee; current controlling/election evidence was not found, so it is not serialized as a current elected office."
+    },
+    {
+      "municipality": "Plainville",
+      "priority": "medium",
+      "issue": "Housing and Redevelopment Authority current local seats",
+      "reason": "Legal elected-seat counts are normalized, but current rosters do not safely identify every local elected seat after the 2026 election."
+    },
+    {
+      "municipality": "Plainville",
+      "priority": "low",
+      "issue": "King Philip regional composition",
+      "reason": "Current regional roster supports two elected Plainville regional seats plus a separate Plainville Elementary representative; only the two independently elected seats are modeled."
+    }
+  ],
+  "notes": [
+    "Unresolved elected seat counts remain research-only and do not generate Posts.",
+    "Unresolved current identities do not generate Persons or Memberships.",
+    "Current officeholder evidence is not inferred solely from candidate lists.",
+    "Pittsfield Mayor's ex-officio School Committee role is not counted as a seventh elected School Committee seat.",
+    "Plainville King Philip regional model contains two independently elected regional seats; the Plainville Elementary representative is excluded from that Post.",
+    "Projected cumulative totals assume exact application to the saved v32 checkpoint."
+  ]
+}

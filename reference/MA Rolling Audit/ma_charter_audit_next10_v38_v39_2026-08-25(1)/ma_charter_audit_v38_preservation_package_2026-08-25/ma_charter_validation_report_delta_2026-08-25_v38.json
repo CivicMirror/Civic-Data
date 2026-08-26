@@ -1,0 +1,89 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v38",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v37",
+  "latest_structure_batch": [
+    "Salisbury",
+    "Sandisfield",
+    "Sandwich",
+    "Saugus",
+    "Savoy"
+  ],
+  "latest_officeholder_batch": [
+    "Salisbury",
+    "Sandisfield",
+    "Sandwich",
+    "Saugus",
+    "Savoy"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 37,
+    "schema_ready_office_rows": 36,
+    "unresolved_structure_rows": 1,
+    "current_officeholder_research_rows": 166,
+    "verified_current_officeholder_rows": 51,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 115,
+    "schema_ready_organization_records": 36,
+    "schema_ready_post_records": 36,
+    "schema_ready_person_records": 50,
+    "schema_ready_membership_records": 51
+  },
+  "projected_cumulative_after_applying_overlay_to_v37": {
+    "municipalities_with_local_findings": 255,
+    "municipalities_remaining_without_preserved_local_office_research": 96,
+    "total_office_research_rows": 2072,
+    "explicit_schema_ready_inventory_rows": 1720,
+    "schema_ready_organization_records": 1718,
+    "schema_ready_post_records": 1718,
+    "total_current_officeholder_research_rows": 5944,
+    "schema_ready_person_records": 3673,
+    "schema_ready_membership_records": 3726
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Salisbury",
+      "priority": "low",
+      "issue": "Narrow direct-voter slate / appointed Planning Board",
+      "reason": "Planning Board is explicitly appointed; Triton regional representation is kept distinct from town boards."
+    },
+    {
+      "municipality": "Sandisfield",
+      "priority": "medium",
+      "issue": "2026 holder turnover",
+      "reason": "Official roster is authoritative for structure, but seats expiring May 2026 are unresolved unless post-election evidence safely identifies the holder."
+    },
+    {
+      "municipality": "Sandwich",
+      "priority": "high",
+      "issue": "Upper Cape Tech current cycle",
+      "reason": "Historical official material proves two elected Sandwich representatives, but current term/cycle evidence is insufficient; the research row is withheld from schema serialization."
+    },
+    {
+      "municipality": "Saugus",
+      "priority": "medium",
+      "issue": "Direct vs indirect election",
+      "reason": "Fifty Town Meeting seats are direct-voter elected; Moderator is elected by those Town Meeting Members and is therefore excluded from the direct-voter Post inventory."
+    },
+    {
+      "municipality": "Savoy",
+      "priority": "medium",
+      "issue": "Post-election holder coverage",
+      "reason": "2026 ballot positions establish structure, while several current member identities remain unresolved rather than inferred from pre-election lists."
+    }
+  ],
+  "notes": [
+    "Unresolved current-holder rows are intentional and are not presumed vacancies.",
+    "Only office rows marked schema-ready are materialized as Organization/Post records.",
+    "Projected cumulative totals assume exact application to the saved baseline checkpoint."
+  ]
+}

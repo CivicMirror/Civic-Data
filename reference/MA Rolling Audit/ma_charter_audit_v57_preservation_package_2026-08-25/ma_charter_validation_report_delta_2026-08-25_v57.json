@@ -1,0 +1,61 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v57",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v56",
+  "latest_structure_batch": [
+    "Littleton",
+    "Longmeadow",
+    "Lowell",
+    "Montgomery",
+    "Mount Washington"
+  ],
+  "latest_officeholder_batch": [
+    "Littleton",
+    "Longmeadow",
+    "Lowell",
+    "Montgomery",
+    "Mount Washington"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 39,
+    "schema_ready_office_rows": 38,
+    "unresolved_structure_rows": 1,
+    "current_officeholder_research_rows": 129,
+    "verified_current_officeholder_rows": 32,
+    "known_vacancies": 1,
+    "unresolved_officeholder_markers": 96,
+    "schema_ready_organization_records": 38,
+    "schema_ready_post_records": 38,
+    "schema_ready_person_records": 32,
+    "schema_ready_membership_records": 32
+  },
+  "projected_cumulative_after_applying_overlay_to_v56": {
+    "municipalities_with_local_findings": 346,
+    "municipalities_remaining_without_preserved_local_office_research": 5,
+    "total_office_research_rows": 2966,
+    "explicit_schema_ready_inventory_rows": 2590,
+    "schema_ready_organization_records": 2588,
+    "schema_ready_post_records": 2588,
+    "total_current_officeholder_research_rows": 10659,
+    "schema_ready_person_records": 4882,
+    "schema_ready_membership_records": 4957
+  },
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "organization_manual_validation_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    "montgomery-ma/library-trustees"
+  ],
+  "notes": [
+    "Unresolved holder markers are intentional and are not presumed vacancies.",
+    "Only schema-ready elected-office rows generate Organizations/Posts.",
+    "Current holders are serialized only where recent official evidence safely supports identity.",
+    "v56 begins from a corrected unique-municipality v55 coverage baseline; row/record totals otherwise preserve the saved v55 additive series."
+  ]
+}

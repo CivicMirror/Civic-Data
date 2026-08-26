@@ -1,0 +1,65 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v45",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v44",
+  "latest_structure_batch": [
+    "Templeton",
+    "Tewksbury",
+    "Tisbury",
+    "Tolland",
+    "Topsfield"
+  ],
+  "latest_officeholder_batch": [
+    "Templeton",
+    "Tewksbury",
+    "Tisbury",
+    "Tolland",
+    "Topsfield"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 39,
+    "schema_ready_office_rows": 38,
+    "unresolved_structure_rows": 1,
+    "current_officeholder_research_rows": 140,
+    "verified_current_officeholder_rows": 8,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 132,
+    "schema_ready_organization_records": 38,
+    "schema_ready_post_records": 38,
+    "schema_ready_person_records": 8,
+    "schema_ready_membership_records": 8
+  },
+  "projected_cumulative_after_applying_overlay_to_v44": {
+    "municipalities_with_local_findings": 290,
+    "municipalities_remaining_without_preserved_local_office_research": 61,
+    "total_office_research_rows": 2404,
+    "explicit_schema_ready_inventory_rows": 2047,
+    "schema_ready_organization_records": 2045,
+    "schema_ready_post_records": 2045,
+    "total_current_officeholder_research_rows": 7964,
+    "schema_ready_person_records": 4270,
+    "schema_ready_membership_records": 4334
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Templeton",
+      "priority": "high",
+      "issue": "Additional annual-election offices are not serialized unless exact complements can be recovered from primary-source ballot text."
+    }
+  ],
+  "notes": [
+    "Unresolved current-holder rows are intentional and are not presumed vacancies.",
+    "Only office rows marked schema-ready are materialized as Organization/Post records.",
+    "Research-only unresolved structure rows remain in the inventory delta but do not generate Organizations, Posts, Persons, or Memberships.",
+    "Projected cumulative totals assume exact application to the saved baseline checkpoint."
+  ]
+}

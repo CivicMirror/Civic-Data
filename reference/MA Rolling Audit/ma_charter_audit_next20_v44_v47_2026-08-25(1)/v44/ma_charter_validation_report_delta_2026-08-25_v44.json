@@ -1,0 +1,75 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v44",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v43",
+  "latest_structure_batch": [
+    "Sunderland",
+    "Sutton",
+    "Swampscott",
+    "Swansea",
+    "Taunton"
+  ],
+  "latest_officeholder_batch": [
+    "Sunderland",
+    "Sutton",
+    "Swampscott",
+    "Swansea",
+    "Taunton"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 48,
+    "schema_ready_office_rows": 46,
+    "unresolved_structure_rows": 2,
+    "current_officeholder_research_rows": 482,
+    "verified_current_officeholder_rows": 33,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 449,
+    "schema_ready_organization_records": 46,
+    "schema_ready_post_records": 46,
+    "schema_ready_person_records": 32,
+    "schema_ready_membership_records": 33
+  },
+  "projected_cumulative_after_applying_overlay_to_v43": {
+    "municipalities_with_local_findings": 285,
+    "municipalities_remaining_without_preserved_local_office_research": 66,
+    "total_office_research_rows": 2365,
+    "explicit_schema_ready_inventory_rows": 2009,
+    "schema_ready_organization_records": 2007,
+    "schema_ready_post_records": 2007,
+    "total_current_officeholder_research_rows": 7824,
+    "schema_ready_person_records": 4262,
+    "schema_ready_membership_records": 4326
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "Swansea",
+      "priority": "medium",
+      "issue": "CPC direct-voter seat complement unresolved; row withheld."
+    },
+    {
+      "municipality": "Swansea",
+      "priority": "medium",
+      "issue": "Housing Authority direct-voter/appointed complement unresolved; row withheld."
+    },
+    {
+      "municipality": "Taunton",
+      "priority": "medium",
+      "issue": "Current live pages conflict with older proposed-charter summaries about composition/terms; live operating pages control this overlay."
+    }
+  ],
+  "notes": [
+    "Unresolved current-holder rows are intentional and are not presumed vacancies.",
+    "Only office rows marked schema-ready are materialized as Organization/Post records.",
+    "Research-only unresolved structure rows remain in the inventory delta but do not generate Organizations, Posts, Persons, or Memberships.",
+    "Projected cumulative totals assume exact application to the saved baseline checkpoint."
+  ]
+}

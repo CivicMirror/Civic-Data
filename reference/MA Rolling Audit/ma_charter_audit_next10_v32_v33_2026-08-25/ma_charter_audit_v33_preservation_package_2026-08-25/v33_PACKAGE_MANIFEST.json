@@ -1,0 +1,159 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v33",
+  "package_type": "v33-preservation-overlay-on-v32",
+  "baseline": {
+    "municipalities_with_local_findings": 225,
+    "municipalities_remaining_without_preserved_local_office_research": 126,
+    "total_office_research_rows": 1801,
+    "explicit_schema_ready_inventory_rows": 1454,
+    "schema_ready_organization_records": 1452,
+    "schema_ready_post_records": 1452,
+    "total_current_officeholder_research_rows": 4713,
+    "schema_ready_person_records": 2807,
+    "schema_ready_membership_records": 2849,
+    "version": "v32",
+    "generated_on": "2026-08-25",
+    "source_note": "Saved and schema-validated v32 checkpoint covering Paxton, Peabody, Pelham, Pembroke, Pepperell."
+  },
+  "batch": [
+    "Petersham",
+    "Phillipston",
+    "Pittsfield",
+    "Plainfield",
+    "Plainville"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 46,
+    "schema_ready_office_rows": 43,
+    "unresolved_structure_rows": 3,
+    "current_officeholder_research_rows": 122,
+    "verified_current_officeholder_rows": 91,
+    "known_vacancies": 0,
+    "unresolved_officeholder_markers": 31,
+    "schema_ready_organization_records": 43,
+    "schema_ready_post_records": 43,
+    "schema_ready_person_records": 89,
+    "schema_ready_membership_records": 91
+  },
+  "projected_cumulative": {
+    "municipalities_with_local_findings": 230,
+    "municipalities_remaining_without_preserved_local_office_research": 121,
+    "total_office_research_rows": 1847,
+    "explicit_schema_ready_inventory_rows": 1497,
+    "schema_ready_organization_records": 1495,
+    "schema_ready_post_records": 1495,
+    "total_current_officeholder_research_rows": 4835,
+    "schema_ready_person_records": 2896,
+    "schema_ready_membership_records": 2940
+  },
+  "validation_zero_error": true,
+  "files": [
+    {
+      "filename": "MA_CHARTER_AUDIT_V33_PRESERVATION_README_2026-08-25.md",
+      "bytes": 2533,
+      "sha256": "eb67ca14424e2f0ef565284847d9173d7bf3cd809ab38624bf7ac36da71d903c"
+    },
+    {
+      "filename": "election.schema.json",
+      "bytes": 2666,
+      "sha256": "6c73d0ac09f3fb1139cdc5c876ab9da14e340266fae151787f0cc22b295420f4"
+    },
+    {
+      "filename": "identifier.schema.json",
+      "bytes": 475,
+      "sha256": "16072617067bcdd4fe09086216e937a5e701b3aefc129af692f8b5a4d438e59c"
+    },
+    {
+      "filename": "jurisdiction.schema.json",
+      "bytes": 2795,
+      "sha256": "5df399732ca25266491239973ea8bbed07fb70be8d0f49e3ec51c0db340f6cad"
+    },
+    {
+      "filename": "ma_charter_appointed_exclusions_delta_2026-08-25_v33.csv",
+      "bytes": 3612,
+      "sha256": "2d77dc962df9c342bcb7685d96d327833a27b1440dbd8cd30f3eeccdbec7c58b"
+    },
+    {
+      "filename": "ma_charter_appointed_exclusions_delta_2026-08-25_v33.json",
+      "bytes": 5919,
+      "sha256": "c231e7269529dbda50aaed300b7d2686d32750a5c5c7a30850d4287fd0abf7e7"
+    },
+    {
+      "filename": "ma_charter_elected_office_inventory_delta_2026-08-25_v33.csv",
+      "bytes": 18203,
+      "sha256": "7e4625529bfe8e86264d8d3dc3442df6781b06a9925b27e884a03f28f80bf54d"
+    },
+    {
+      "filename": "ma_charter_elected_office_inventory_delta_2026-08-25_v33.json",
+      "bytes": 33556,
+      "sha256": "5360111606b2551f92862480fa0df8e82f9f82df5bdfa5219e9132fe46c64324"
+    },
+    {
+      "filename": "ma_charter_source_audit_delta_2026-08-25_v33.csv",
+      "bytes": 3287,
+      "sha256": "356feeab308088eda669495859ce80ae1a73c7fdd71c63d50db43eb5787aef75"
+    },
+    {
+      "filename": "ma_charter_source_audit_delta_2026-08-25_v33.json",
+      "bytes": 5038,
+      "sha256": "ff6f4b414f8d3ddbcf230d57854fcb7cf392c5e5432d0159aa31d1421eceaa97"
+    },
+    {
+      "filename": "ma_charter_validation_report_delta_2026-08-25_v33.json",
+      "bytes": 4424,
+      "sha256": "501bab031749031f5bc1bfa9ad3e05a70fcda41ad7ff40e3e46af6b355ff25c3"
+    },
+    {
+      "filename": "ma_current_officeholders_delta_2026-08-25_v33.csv",
+      "bytes": 20192,
+      "sha256": "652fcf10d7be651f5b5c0ebadaec3217eb31d02f53db4929f886f3662565569a"
+    },
+    {
+      "filename": "ma_current_officeholders_delta_2026-08-25_v33.json",
+      "bytes": 41087,
+      "sha256": "194adb55f6d3d9be9b9b245b11a9aac0061c60f947a252c0c41bf1081b166284"
+    },
+    {
+      "filename": "ma_schema_ready_memberships_delta_2026-08-25_v33.json",
+      "bytes": 43417,
+      "sha256": "57d4047474b77c3f51326b792ec5f05f8c697c8ab27263b25ad8615ccbfdb95d"
+    },
+    {
+      "filename": "ma_schema_ready_organizations_delta_2026-08-25_v33.json",
+      "bytes": 22567,
+      "sha256": "e8ec666992d1bd8f78c3da14cb05654feeab7d6a77d7502251764785c5ace013"
+    },
+    {
+      "filename": "ma_schema_ready_persons_delta_2026-08-25_v33.json",
+      "bytes": 37679,
+      "sha256": "718f6208fa6616e8856b234adb8cf9e2858fe886bf206484fb43b5e141ff1d68"
+    },
+    {
+      "filename": "ma_schema_ready_posts_delta_2026-08-25_v33.json",
+      "bytes": 14822,
+      "sha256": "5b60abed8e4e48537a41fb8c325ccb08903e1192cfe4fe61736594fea5775dff"
+    },
+    {
+      "filename": "ma_v33_baseline_manifest_2026-08-25.json",
+      "bytes": 594,
+      "sha256": "e78be4eb04df20adf460c7607efca8bf9623a3ed820bf5709d20c4092c63e9d3"
+    },
+    {
+      "filename": "membership.schema.json",
+      "bytes": 1282,
+      "sha256": "1212803eb430119927c0dcf17a8259c216ec01e43360dfab9fcc0409c2adb5ad"
+    },
+    {
+      "filename": "person.schema.json",
+      "bytes": 3314,
+      "sha256": "5d0d0c92aff81cfaf256b1d9184d8754348b8f0133f1c2093b3bf5dc0deb1c58"
+    },
+    {
+      "filename": "post.schema.json",
+      "bytes": 1044,
+      "sha256": "86ea8c6657a9e6c17aa3cdd45f62711f547e67d8016b0179cfd6438d85dd68f9"
+    }
+  ]
+}

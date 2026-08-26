@@ -1,0 +1,83 @@
+{
+  "generated_on": "2026-08-25",
+  "version": "v41",
+  "package_type": "preservation-overlay",
+  "baseline_version": "v40",
+  "latest_structure_batch": [
+    "Somerville",
+    "South Hadley",
+    "Southampton",
+    "Southborough",
+    "Southbridge"
+  ],
+  "latest_officeholder_batch": [
+    "Somerville",
+    "South Hadley",
+    "Southampton",
+    "Southborough",
+    "Southbridge"
+  ],
+  "batch_stats": {
+    "municipalities": 5,
+    "office_rows": 52,
+    "schema_ready_office_rows": 51,
+    "unresolved_structure_rows": 1,
+    "current_officeholder_research_rows": 315,
+    "verified_current_officeholder_rows": 159,
+    "known_vacancies": 3,
+    "unresolved_officeholder_markers": 153,
+    "schema_ready_organization_records": 51,
+    "schema_ready_post_records": 51,
+    "schema_ready_person_records": 153,
+    "schema_ready_membership_records": 159
+  },
+  "projected_cumulative_after_applying_overlay_to_v40": {
+    "municipalities_with_local_findings": 270,
+    "municipalities_remaining_without_preserved_local_office_research": 81,
+    "total_office_research_rows": 2217,
+    "explicit_schema_ready_inventory_rows": 1863,
+    "schema_ready_organization_records": 1861,
+    "schema_ready_post_records": 1861,
+    "total_current_officeholder_research_rows": 6822,
+    "schema_ready_person_records": 4036,
+    "schema_ready_membership_records": 4097
+  },
+  "organization_manual_validation_errors": [],
+  "post_schema_errors": [],
+  "person_schema_errors": [],
+  "membership_schema_errors": [],
+  "referential_integrity_errors": [],
+  "duplicate_id_errors": [],
+  "human_review_recommended": true,
+  "human_review_items": [
+    {
+      "municipality": "South Hadley",
+      "priority": "medium",
+      "issue": "current-holder reconciliation",
+      "reason": "Representative Town Meeting has 120 direct-voter seats; Planning has one explicit current vacancy. Housing Authority modeled as locally elected complement."
+    },
+    {
+      "municipality": "Southampton",
+      "priority": "high",
+      "issue": "structure reconciliation",
+      "reason": "Official annual report expressly enumerates a broad elected roster. Finance Committee is held research-only because a 2026 conversion proposal conflicts with the currently codified elected bylaw and adoption status was not safely resolved."
+    },
+    {
+      "municipality": "Southborough",
+      "priority": "medium",
+      "issue": "current-holder reconciliation",
+      "reason": "Official 2026 warrant/results provide strong structure and winner evidence; Housing Authority is normalized to the locally elected complement."
+    },
+    {
+      "municipality": "Southbridge",
+      "priority": "medium",
+      "issue": "current-holder reconciliation",
+      "reason": "Current revised charter preserves four elected Housing Authority seats, four elected Redevelopment Authority seats, and two elected Assessors as explicit local exceptions."
+    }
+  ],
+  "notes": [
+    "Unresolved current-holder rows are intentional and are not presumed vacancies.",
+    "Only office rows marked schema-ready are materialized as Organization/Post records.",
+    "Projected cumulative totals assume exact application to the saved baseline checkpoint."
+  ]
+}
