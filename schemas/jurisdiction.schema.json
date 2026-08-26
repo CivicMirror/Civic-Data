@@ -28,6 +28,12 @@
       "description": "e.g. 'mayor-council', 'council-manager', 'open town meeting', 'representative town meeting', 'select board'"
     },
     "website": { "type": "string", "format": "uri" },
+    "identifiers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "identifier.schema.json" },
+      "description": "Crosswalk to this jurisdiction as identified in an external dataset, e.g. {\"scheme\": \"civicpatch\", \"identifier\": \"ocd-jurisdiction/country:us/state:ma/county:bristol/place:norton/government\"} for CivicPatch/open-data, whose jurisdiction ids include a county segment this repo's id does not."
+    },
     "site_intelligence": {
       "type": "object",
       "description": "Shared scraper/pipeline intel about how this jurisdiction publishes data.",

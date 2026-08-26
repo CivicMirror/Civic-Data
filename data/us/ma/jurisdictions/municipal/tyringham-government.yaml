@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:tyringham
 classification: government
 website: http://www.tyringham-ma.gov
+identifiers:
+- scheme: civicpatch
+  identifier: ocd-jurisdiction/country:us/state:ma/county:berkshire/place:tyringham/government
+  source: https://github.com/CivicPatch/open-data
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=128116, FIPS 25-003-71095, county area=BERKSHIRE, active=Y'

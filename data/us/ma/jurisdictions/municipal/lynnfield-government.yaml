@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:lynnfield
 classification: government
 website: http://www.town.lynnfield.ma.us
+identifiers:
+- scheme: civicpatch
+  identifier: ocd-jurisdiction/country:us/state:ma/county:essex/place:lynnfield/government
+  source: https://github.com/CivicPatch/open-data
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=183913, FIPS 25-009-37560, county area=ESSEX, active=Y'
