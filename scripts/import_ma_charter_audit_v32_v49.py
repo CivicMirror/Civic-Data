@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 """
-Import the v32-v49 MA municipal charter/elected-office rolling audit
+Import the v31-v49 MA municipal charter/elected-office rolling audit
 preservation packages into data/us/ma/{organizations,posts,people,
-memberships}/municipal/.
+memberships}/municipal/. (The filename says v32 because v31 was added after
+the first run; records already written carry the original script name in
+their header comment, so the name is kept stable rather than churned.)
 
 Each listed version is an independent delta package (not cumulative), like
 v56-v58.
+
+Every organization's jurisdiction_id is checked against the jurisdiction
+records actually on disk before anything is written -- the v57 package
+shipped `place:mount-washington` for a town whose canonical slug is
+`mt-washington`, which silently created 21 records pointing at a
+non-existent jurisdiction. An unknown slug is now a hard error.
 
 See scripts/import_ma_charter_audit_v20.py, _v27.py, and _v56_v58.py for the
 placement rationale (filenames, membership id regeneration, why persons are
@@ -29,6 +37,7 @@ DATA_DIR = REPO / "data" / "us" / "ma"
 SRC_ROOT = REPO / "reference" / "MA Rolling Audit"
 
 BATCHES = [
+    ("v31", SRC_ROOT / "ma_charter_audit_v31_preservation_package_2026-08-25"),
     ("v32", SRC_ROOT / "ma_charter_audit_next10_v32_v33_2026-08-25" / "ma_charter_audit_v32_preservation_package_2026-08-25"),
     ("v33", SRC_ROOT / "ma_charter_audit_next10_v32_v33_2026-08-25" / "ma_charter_audit_v33_preservation_package_2026-08-25"),
     ("v34", SRC_ROOT / "ma_charter_audit_next10_v34_v35_2026-08-25" / "ma_charter_audit_v34_preservation_package_2026-08-25"),
@@ -138,6 +147,32 @@ def main():
         memberships += v_memberships
 
     rec = Recorder(write)
+
+    # Fail before writing anything if a batch references a jurisdiction that
+    # doesn't exist in the repo (see module docstring: the v57 Mount Washington
+    # slug mismatch). Checked up front so a bad batch aborts cleanly rather
+    # than leaving a half-written import behind.
+    known_places = set()
+    for f in (DATA_DIR / "jurisdictions" / "municipal").glob("*.yaml"):
+        doc = yaml.safe_load(f.read_text()) or {}
+        m = re.search(r"place:([^/]+)", doc.get("id", "") or "")
+        if m:
+            known_places.add(m.group(1))
+
+    unknown = {}
+    for org in orgs:
+        m = re.search(r"place:([^/]+)", org.get("jurisdiction_id", "") or "")
+        place = m.group(1) if m else None
+        if place not in known_places:
+            unknown.setdefault((version_by_org_id[org["id"]], place), 0)
+            unknown[(version_by_org_id[org["id"]], place)] += 1
+    if unknown:
+        print("ERROR: organizations reference unknown jurisdictions:")
+        for (v, place), n in sorted(unknown.items()):
+            print(f"  [{v}] place:{place} -- {n} organization(s)")
+        print("\nNo records written. Fix the source package's jurisdiction_id "
+              "(or add the jurisdiction) and re-run.")
+        sys.exit(1)
 
     def id_index(kind):
         idx = {}

@@ -17,6 +17,13 @@ rationale (filenames, membership id regeneration, why persons are never
 merged into existing repo people by name match) -- this script repeats that
 logic unchanged, pointed at the three v56-v58 delta packages.
 
+The v57 package ships Mount Washington's slug as `mount-washington`, but this
+repo's Census-sourced jurisdiction record for that town is `mt-washington`.
+Left as-is that produces records pointing at a jurisdiction that doesn't
+exist, so the slug is rewritten on load (PLACE_FIXUPS) and every resulting
+jurisdiction_id is verified against the jurisdictions on disk before anything
+is written.
+
 Idempotent by id AND by filename -- never overwrites.
 
 Usage: python3 import_ma_charter_audit_v56_v58.py [--write]
@@ -39,6 +46,14 @@ BATCHES = [
     ("v58", SRC_ROOT / "ma_charter_audit_v58_preservation_package_2026-08-25"),
 ]
 
+# Source-package place slugs that don't match this repo's jurisdiction records.
+# Applied to every string field on load (these slugs appear inside
+# jurisdiction_id, civicmirror-office identifiers, post ids and membership
+# post_ids alike), so the whole batch lands under the canonical slug.
+PLACE_FIXUPS = {
+    "mount-washington": "mt-washington",
+}
+
 HEADER = (
     "# Imported from reference/MA Rolling Audit/ma_charter_audit_v5{{6,7,8}}_\n"
     "# preservation_package_2026-08-25/ (MA municipal charter/elected-office\n"
@@ -55,9 +70,22 @@ def slugify(name):
     return s.strip("-")
 
 
+def apply_place_fixups(obj):
+    """Rewrite non-canonical place slugs anywhere they appear in a record."""
+    if isinstance(obj, str):
+        for bad, good in PLACE_FIXUPS.items():
+            obj = obj.replace(bad, good)
+        return obj
+    if isinstance(obj, list):
+        return [apply_place_fixups(v) for v in obj]
+    if isinstance(obj, dict):
+        return {k: apply_place_fixups(v) for k, v in obj.items()}
+    return obj
+
+
 def load(src_dir, version, kind):
     name = f"ma_schema_ready_{kind}_delta_2026-08-25_{version}.json"
-    return json.loads((src_dir / name).read_text())
+    return apply_place_fixups(json.loads((src_dir / name).read_text()))
 
 
 class Recorder:
@@ -108,6 +136,29 @@ def main():
         memberships += load(src_dir, version, "memberships")
 
     rec = Recorder(write)
+
+    # Nothing is written if a batch still references a jurisdiction the repo
+    # doesn't have -- catches a new bad slug that PLACE_FIXUPS doesn't cover.
+    known_places = set()
+    for f in (DATA_DIR / "jurisdictions" / "municipal").glob("*.yaml"):
+        doc = yaml.safe_load(f.read_text()) or {}
+        m = re.search(r"place:([^/]+)", doc.get("id", "") or "")
+        if m:
+            known_places.add(m.group(1))
+
+    unknown = set()
+    for org in orgs:
+        m = re.search(r"place:([^/]+)", org.get("jurisdiction_id", "") or "")
+        place = m.group(1) if m else None
+        if place not in known_places:
+            unknown.add(place)
+    if unknown:
+        print("ERROR: organizations reference unknown jurisdictions:")
+        for place in sorted(unknown, key=str):
+            print(f"  place:{place}")
+        print("\nNo records written. Add the slug to PLACE_FIXUPS (or add the "
+              "jurisdiction) and re-run.")
+        sys.exit(1)
 
     def id_index(kind):
         idx = {}
