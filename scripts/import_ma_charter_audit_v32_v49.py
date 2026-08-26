@@ -65,6 +65,10 @@ BATCHES = [
     ("v53", SRC_ROOT / "ma_charter_audit_next10_v52_v53_2026-08-25" / "ma_charter_audit_v53_preservation_package_2026-08-25"),
     ("v54", SRC_ROOT / "ma_charter_audit_next10_v54_v55_2026-08-25" / "ma_charter_audit_v54_preservation_package_2026-08-25"),
     ("v55", SRC_ROOT / "ma_charter_audit_next10_v54_v55_2026-08-25" / "ma_charter_audit_v55_preservation_package_2026-08-25"),
+    # Gap-repair overlay, not a numbered batch: Peru sits alphabetically
+    # between v32 (ends Pepperell) and v33 (starts Petersham) and was skipped
+    # by the rolling sweep. Generated 2026-08-26, labelled `peru-oneoff`.
+    ("peru-oneoff", SRC_ROOT / "ma_charter_audit_peru_oneoff_preservation_package_2026-08-26"),
 ]
 
 HEADER_TMPL = (
@@ -84,8 +88,17 @@ def slugify(name):
 
 
 def load(src_dir, version, kind):
-    name = f"ma_schema_ready_{kind}_delta_2026-08-25_{version}.json"
-    return json.loads((src_dir / name).read_text())
+    # Globbed rather than built from a fixed date/version: packages are stamped
+    # with their own generation date and label (the Peru gap-repair overlay is
+    # `..._delta_2026-08-26_peru-oneoff.json`, not `..._2026-08-25_vNN.json`).
+    # Each package directory holds exactly one schema-ready file per kind.
+    matches = sorted(src_dir.glob(f"ma_schema_ready_{kind}_delta_*.json"))
+    if len(matches) != 1:
+        raise SystemExit(
+            f"{version}: expected exactly one schema-ready {kind} file in "
+            f"{src_dir}, found {len(matches)}"
+        )
+    return json.loads(matches[0].read_text())
 
 
 class Recorder:

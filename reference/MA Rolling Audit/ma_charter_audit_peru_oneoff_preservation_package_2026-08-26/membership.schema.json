@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CivicMirror/Civic-Data/schemas/membership.schema.json",
+  "title": "Membership",
+  "description": "A time-bounded relationship between a person, organization, and optional post.",
+  "type": "object",
+  "required": ["id", "person_id", "organization_id", "role", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "person_id": { "type": "string", "pattern": "^ocd-person/[0-9a-f-]{36}$" },
+    "organization_id": { "type": "string", "pattern": "^ocd-organization/[0-9a-f-]{36}$" },
+    "post_id": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
+    "role": { "type": "string", "minLength": 1 },
+    "seat": { "type": "string" },
+    "start": { "type": "string", "format": "date" },
+    "end": { "type": "string", "format": "date" },
+    "how_seated": { "type": "string", "enum": ["elected", "appointed", "succeeded", "acting"] },
+    "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["url"], "additionalProperties": false, "properties": { "url": { "type": "string", "format": "uri" }, "note": { "type": "string" }, "retrieved": { "type": "string", "format": "date" } } } }
+  }
+}
