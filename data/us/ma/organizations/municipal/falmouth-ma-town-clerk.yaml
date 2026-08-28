@@ -1,14 +1,22 @@
-# Imported from reference/MA Rolling Audit  V20/ (MA municipal charter/
-# elected-office rolling audit, generated 2026-08-20) by scripts/
-# import_ma_charter_audit_v20.py. Source rows were machine-extracted from
-# municipal government sites; see the record's sources for provenance.
+# No longer an elected office: Chapter 106 of the Acts of 2026 ("An Act
+# Providing for the Appointed Position of Town Clerk in the Town of
+# Falmouth," House Bill H.5412, substituted from H.5107) amended the
+# Falmouth charter to strike "and a Town Clerk" from the elected-officer
+# clause, so that "the only officer to be elected shall be a Moderator."
+# The office of Town Clerk is now appointed by the Town Manager subject
+# to Select Board approval; the sitting elected incumbent became the
+# first appointed Town Clerk without interruption. Status changed from
+# active to inactive rather than deleted, to preserve the historical
+# record; no membership is recorded here since the office is no longer
+# elected. Retrieved 2026-08-28. Resolves the Falmouth "Town Clerk
+# status" item from issue #16's human-review queue.
 id: ocd-organization/c1d5d31d-9807-5199-97c9-f804fec9e99e
 name: Town Clerk
 jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:falmouth/government
 identifiers:
 - scheme: civicmirror-office
   identifier: falmouth-ma/town-clerk
-status: active
+status: inactive
 sources:
-- url: https://ecode360.com/16230397
-  retrieved: '2026-08-19'
+- url: https://malegislature.gov/Bills/194/H5412
+  retrieved: '2026-08-28'
