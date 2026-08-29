@@ -63,11 +63,14 @@ def normalize_page_sections(raw_sections: object) -> tuple[RawSection, ...]:
     result: list[RawSection] = []
     seen: set[str] = set()
     for raw in raw_sections:
-        if not isinstance(raw, Mapping):
+        if isinstance(raw, RawSection):
+            guid, text, history = raw.guid, raw.text, raw.history
+        elif isinstance(raw, Mapping):
+            guid = raw.get("guid")
+            text = raw.get("text")
+            history = raw.get("history", "")
+        else:
             raise ECodeError("section_extraction_incomplete", "Page section result is not an object", 6)
-        guid = raw.get("guid")
-        text = raw.get("text")
-        history = raw.get("history", "")
         if not isinstance(guid, str) or not guid.strip() or not isinstance(text, str) or not isinstance(history, str):
             raise ECodeError("section_extraction_incomplete", "Page section result has invalid fields", 6)
         if guid in seen:
