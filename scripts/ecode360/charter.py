@@ -8,7 +8,8 @@ from typing import Iterable, Iterator, Mapping
 from .errors import ECodeError
 from .models import CharterResult, SectionResult
 
-NODE_TYPES = {"code", "division", "chapter", "article", "part", "subarticle", "section"}
+# eCode360 appends a zero-child `row` sentinel to some live TOCs.
+NODE_TYPES = {"code", "division", "chapter", "article", "part", "subarticle", "section", "row"}
 EXACT_LABELS = {
     "charter",
     "the charter",

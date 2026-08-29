@@ -1,11 +1,14 @@
 from __future__ import annotations
 
-from pathlib import Path
+import html
+import json
+import re
+import shutil
 import time
 from typing import Callable
 from urllib.parse import urlparse
 
-from playwright.sync_api import Browser, BrowserContext, Page, Playwright, sync_playwright
+from playwright.sync_api import Browser, BrowserContext, Page, Playwright, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
 from .charter import ExtractionResults, PageTarget, RawSection, normalize_page_sections, validate_toc
 from .errors import ECodeError
@@ -41,6 +44,33 @@ def retry_sync(
     raise last_error
 
 
+def parse_embedded_toc(value: str) -> dict:
+    try:
+        payload = json.loads(html.unescape(value))
+    except (TypeError, json.JSONDecodeError) as exc:
+        raise ECodeError("toc_invalid", "Embedded TOC was not JSON", 4) from exc
+    if not isinstance(payload, dict):
+        raise ECodeError("toc_invalid", "Embedded TOC was not an object", 4)
+    return payload
+
+
+def parse_embedded_toc_from_html(content: str) -> dict:
+    match = re.search(r'data-toc-nodes="([^"]+)"', content)
+    if not match:
+        raise ECodeError("toc_invalid", "No embedded TOC widget was found", 4)
+    return parse_embedded_toc(match.group(1))
+
+
+def launch_options(headless: bool, executable_path: str | None = None) -> dict[str, object]:
+    options: dict[str, object] = {
+        "headless": headless,
+        "args": ["--disable-blink-features=AutomationControlled"],
+    }
+    if executable_path:
+        options["executable_path"] = executable_path
+    return options
+
+
 DOM_EXTRACT_SCRIPT = """
 () => Array.from(document.querySelectorAll('.section_content.content')).map((element) => {
   const historySelectors = '.history, .legislative-history, .history-note, .historyNote';
@@ -67,7 +97,13 @@ class ECodeBrowser:
 
     def __enter__(self) -> "ECodeBrowser":
         self._playwright = sync_playwright().start()
-        self._browser = self._playwright.chromium.launch(headless=self.headless)
+        # Some newer Linux distributions do not have Playwright's separate
+        # headless-shell artifact. Prefer an installed Chrome/Chromium there.
+        executable = next(
+            (shutil.which(name) for name in ("chromium-browser", "google-chrome", "chromium") if shutil.which(name)),
+            None,
+        )
+        self._browser = self._playwright.chromium.launch(**launch_options(self.headless, executable))
         self._context = self._browser.new_context(
             locale="en-US",
             user_agent=(
@@ -75,6 +111,7 @@ class ECodeBrowser:
                 "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
             ),
         )
+        self._context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         self._context.set_default_timeout(NAVIGATION_TIMEOUT_MS)
         return self
 
@@ -104,19 +141,38 @@ class ECodeBrowser:
         def attempt() -> dict:
             page = self._new_page()
             try:
-                with page.expect_response(
-                    lambda response: is_toc_response(response.url, source.ecode_id),
-                    timeout=NAVIGATION_TIMEOUT_MS,
-                ) as response_info:
-                    page.goto(source.code_url, wait_until="domcontentloaded", timeout=NAVIGATION_TIMEOUT_MS)
-                response = response_info.value
-                if response.status >= 400:
-                    raise ECodeError("ecode_navigation_failed", f"TOC request returned HTTP {response.status}", 4)
+                toc_responses = []
+                page.on("response", lambda response: toc_responses.append(response) if is_toc_response(response.url, source.ecode_id) else None)
+                response = page.goto(source.code_url, wait_until="domcontentloaded", timeout=NAVIGATION_TIMEOUT_MS)
+                if not toc_responses:
+                    try:
+                        toc_responses.append(
+                            page.wait_for_event(
+                                "response",
+                                predicate=lambda candidate: is_toc_response(candidate.url, source.ecode_id),
+                                timeout=10_000,
+                            )
+                        )
+                    except PlaywrightTimeoutError:
+                        pass
+                for toc_response in toc_responses:
+                    if toc_response.status >= 400:
+                        raise ECodeError("ecode_navigation_failed", f"TOC request returned HTTP {toc_response.status}", 4)
+                    try:
+                        return validate_toc(toc_response.json(), source.ecode_id)
+                    except ECodeError:
+                        raise
+                    except Exception as exc:
+                        raise ECodeError("toc_invalid", "TOC response was not JSON", 4) from exc
                 try:
-                    payload = response.json()
-                except Exception as exc:
-                    raise ECodeError("toc_invalid", "TOC response was not JSON", 4) from exc
-                return validate_toc(payload, source.ecode_id)
+                    embedded = parse_embedded_toc_from_html(page.content())
+                except ECodeError as exc:
+                    if exc.code != "toc_invalid":
+                        raise
+                else:
+                    return validate_toc(embedded, source.ecode_id)
+                status = response.status if response is not None else "unknown"
+                raise ECodeError("ecode_navigation_failed", f"No eCode360 TOC was returned (HTTP {status})", 4)
             except ECodeError:
                 raise
             except Exception as exc:
