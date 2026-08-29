@@ -2,6 +2,11 @@
 # by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
 # elections are modeled; see the script's module docstring for the full set of
 # judgment calls.
+#
+# Also serves on the Carver Select Board (issue #16's Carver first-roster-
+# pass item). Confirmed by human review as the same person: her campaign
+# site describes her as a sixth-term Carver Select Board member (former
+# Chair/Vice-Chair) and twice-elected Carver Planning Board member.
 id: ocd-person/e13becc6-50c9-5f70-bd33-dae00028e204
 name: Sarah G. Hewins
 identifiers:
@@ -31,3 +36,7 @@ verification:
   pipeline: ocpf-filer-registry
 sources:
 - url: https://ocpf.us/filers?q=16458
+- url: https://www.sarahhewins.com/meet_sarah_sr.php
+  retrieved: '2026-08-29'
+- url: https://www.carverma.gov/1278/Select-Board
+  retrieved: '2026-08-29'
