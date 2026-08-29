@@ -58,7 +58,7 @@ def _clean_text(value: str) -> str:
     return "\n".join(cleaned).strip()
 
 
-def normalize_page_sections(raw_sections: object) -> tuple[RawSection, ...]:
+def normalize_page_sections(raw_sections: object, *, allow_duplicate_guids: bool = False) -> tuple[RawSection, ...]:
     if not isinstance(raw_sections, (list, tuple)):
         raise ECodeError("section_extraction_incomplete", "Page section result is not a list", 6)
     result: list[RawSection] = []
@@ -74,8 +74,14 @@ def normalize_page_sections(raw_sections: object) -> tuple[RawSection, ...]:
             raise ECodeError("section_extraction_incomplete", "Page section result is not an object", 6)
         if not isinstance(guid, str) or not guid.strip() or not isinstance(text, str) or not isinstance(history, str):
             raise ECodeError("section_extraction_incomplete", "Page section result has invalid fields", 6)
-        if guid in seen:
+        if guid in seen and not allow_duplicate_guids:
             raise ECodeError("section_extraction_incomplete", f"Duplicate section GUID {guid}", 6, ({"guid": guid},))
+        if guid in seen:
+            for index, existing in enumerate(result):
+                if existing.guid == guid and len(text.strip()) > len(existing.text):
+                    result[index] = RawSection(guid, _clean_text(text), _clean_text(history))
+                    break
+            continue
         seen.add(guid)
         result.append(RawSection(guid, _clean_text(text), _clean_text(history)))
     return tuple(result)
@@ -86,8 +92,8 @@ def merge_page_results(
     page_results: object,
     fallback_results: object,
 ) -> tuple[SectionResult, ...]:
-    primary = normalize_page_sections(page_results)
-    fallback = normalize_page_sections(fallback_results)
+    primary = normalize_page_sections(page_results, allow_duplicate_guids=True)
+    fallback = normalize_page_sections(fallback_results, allow_duplicate_guids=True)
     expected_guids = [str(item["guid"]) for item in expected]
     expected_set = set(expected_guids)
     primary_map = {item.guid: item for item in primary}
@@ -104,7 +110,9 @@ def merge_page_results(
     missing: list[str] = []
     for item in expected:
         guid = str(item["guid"])
-        raw = primary_map.get(guid) or fallback_map.get(guid)
+        raw = primary_map.get(guid)
+        if raw is None or not raw.text:
+            raw = fallback_map.get(guid)
         if raw is None or not raw.text:
             missing.append(guid)
             continue

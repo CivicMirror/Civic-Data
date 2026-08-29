@@ -12,7 +12,7 @@ from scripts.ecode360.errors import ECodeError
 DIRECTORY_HTML = """
 <a id="MA" class="stateAnchor"></a>
 <div class="listItem">
-  <div class="codeTitle"><a class="codeLink" href="https://ecode360.com/EX1000">Town of Example</a></div>
+  <div class="codeTitle"><a class="codeMapLink" href="https://maps.example/"><img src="map.svg"></a><a class="codeLink" href="https://ecode360.com/EX1000">Town of Example</a></div>
   <div class="codeCounty">(Sample County)</div>
 </div>
 <div class="listItem">
@@ -83,3 +83,8 @@ def test_rejects_unknown_state() -> None:
         resolve_municipality(parse_directory(DIRECTORY_HTML), "Example", "ZZ")
     assert caught.value.code == "invalid_state"
     assert caught.value.exit_status == 2
+
+
+def test_parser_tolerates_unbalanced_closing_tags() -> None:
+    html = '<a id="MA" class="stateAnchor"></a><div class="listItem"><a class="codeLink" href="https://ecode360.com/EX1000">Town of Example</a></div></div>'
+    assert parse_directory(html)[0].ecode_id == "EX1000"

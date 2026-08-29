@@ -29,6 +29,7 @@ STATE_NAMES = {
 }
 STATE_CODES = set(STATE_NAMES.values())
 PREFIX_RE = re.compile(r"^(?:town|city|village|borough|municipality)\s+of\s+", re.I)
+VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 
 
 def _ascii(value: str) -> str:
@@ -65,7 +66,8 @@ class _DirectoryParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attrs_map = dict(attrs)
-        self._stack.append(tag)
+        if tag not in VOID_TAGS:
+            self._stack.append(tag)
         classes = set((attrs_map.get("class") or "").split())
         if tag == "a" and "stateAnchor" in classes and attrs_map.get("id"):
             self.state = (attrs_map["id"] or "").upper()
@@ -87,6 +89,10 @@ class _DirectoryParser(HTMLParser):
             self._entry_county.append(data)
 
     def handle_endtag(self, tag: str) -> None:
+        if tag in VOID_TAGS:
+            return
+        if tag not in self._stack:
+            return
         depth = len(self._stack)
         if self._link_depth == depth and tag == "a":
             self._link_depth = None
@@ -101,7 +107,10 @@ class _DirectoryParser(HTMLParser):
             if self.state and name and self._entry_url:
                 self.entries.append(DirectoryEntry(name, self.state, county, ecode_id, self._entry_url))
             self._item_depth = None
-        self._stack.pop()
+        while self._stack and self._stack[-1] != tag:
+            self._stack.pop()
+        if self._stack:
+            self._stack.pop()
 
 
 def parse_directory(html: str) -> tuple[DirectoryEntry, ...]:

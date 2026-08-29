@@ -3,8 +3,11 @@ from scripts.ecode360.browser import (
     launch_options,
     parse_embedded_toc,
     parse_embedded_toc_from_html,
+    require_fallback_complete,
     retry_sync,
 )
+import pytest
+from scripts.ecode360.errors import ECodeError
 
 
 def test_toc_response_match_is_exact() -> None:
@@ -44,3 +47,9 @@ def test_launch_options_disable_automation_detection() -> None:
     assert options["headless"] is True
     assert "--disable-blink-features=AutomationControlled" in options["args"]
     assert options["executable_path"] == "/usr/bin/chromium-browser"
+
+
+def test_incomplete_fallback_is_retryable() -> None:
+    with pytest.raises(ECodeError) as caught:
+        require_fallback_complete(("s1",), ())
+    assert caught.value.code == "ecode_navigation_failed"

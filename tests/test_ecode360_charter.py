@@ -110,3 +110,13 @@ def test_rejects_duplicate_page_sections() -> None:
             ]
         )
     assert caught.value.code == "section_extraction_incomplete"
+
+
+def test_fallback_replaces_empty_primary_section() -> None:
+    expected = ({"guid": "s1", "number": "1", "title": "Scope", "hierarchy": ()},)
+    result = merge_page_results(
+        expected,
+        (RawSection("s1", "", ""),),
+        (RawSection("s1", "Recovered text", ""),),
+    )
+    assert result[0].text == "Recovered text"

@@ -71,8 +71,21 @@ def launch_options(headless: bool, executable_path: str | None = None) -> dict[s
     return options
 
 
+def require_fallback_complete(expected: tuple[str, ...], fallback: tuple[RawSection, ...]) -> None:
+    by_guid = {section.guid: section for section in fallback}
+    missing = [guid for guid in expected if guid not in by_guid or not by_guid[guid].text]
+    if missing:
+        raise ECodeError(
+            "ecode_navigation_failed",
+            "Fallback section page did not return complete content",
+            4,
+            tuple({"guid": guid} for guid in missing),
+        )
+
+
 DOM_EXTRACT_SCRIPT = """
-() => Array.from(document.querySelectorAll('.section_content.content')).map((element) => {
+() => {
+  const sections = Array.from(document.querySelectorAll('.section_content.content')).map((element) => {
   const historySelectors = '.history, .legislative-history, .history-note, .historyNote';
   const history = Array.from(element.querySelectorAll(historySelectors))
     .map((item) => item.innerText || '').join('\\n').trim();
@@ -83,7 +96,14 @@ DOM_EXTRACT_SCRIPT = """
     text: (copy.innerText || '').trim(),
     history,
   };
-})
+  });
+  const byGuid = new Map();
+  for (const section of sections) {
+    const current = byGuid.get(section.guid);
+    if (!current || section.text.length > current.text.length) byGuid.set(section.guid, section);
+  }
+  return Array.from(byGuid.values());
+}
 """
 
 
@@ -193,8 +213,12 @@ class ECodeBrowser:
             self._wait_between_content_pages()
             page.goto(f"https://ecode360.com/{target.guid}", wait_until="domcontentloaded", timeout=NAVIGATION_TIMEOUT_MS)
             self._last_content_navigation = time.monotonic()
-            primary = normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT))
-            missing = set(target.section_guids) - {section.guid for section in primary}
+            primary = normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT), allow_duplicate_guids=True)
+            primary_by_guid = {section.guid: section for section in primary}
+            missing = {
+                guid for guid in target.section_guids
+                if guid not in primary_by_guid or not primary_by_guid[guid].text
+            }
             fallback: list[RawSection] = []
             for guid in target.section_guids:
                 if guid not in missing:
@@ -202,7 +226,8 @@ class ECodeBrowser:
                 self._wait_between_content_pages()
                 page.goto(f"https://ecode360.com/{guid}", wait_until="domcontentloaded", timeout=NAVIGATION_TIMEOUT_MS)
                 self._last_content_navigation = time.monotonic()
-                fallback.extend(normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT)))
+                fallback.extend(normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT), allow_duplicate_guids=True))
+            require_fallback_complete(tuple(sorted(missing)), tuple(fallback))
             return primary, tuple(fallback)
         except ECodeError:
             raise
