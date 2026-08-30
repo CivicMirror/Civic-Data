@@ -1,0 +1,20 @@
+# 3-yr term; election year and term-end not confirmed in this pass.
+# Resolves the flag left on the Mahon/Solomon Select Board memberships:
+# the current Town Moderator is Greg Christiana, not either of them, so
+# the batch source's "Diane M. Mahon def. Joseph A. Solomon" Moderator-
+# race note was unrelated to their Select Board seats (a misattribution
+# or stale/wrong-year reference in the source, not a real name
+# collision). Sourced from
+# https://www.arlingtonma.gov/Home/Components/BusinessDirectory/BusinessDirectory/1144/4?cftype=BusinessDirectory,
+# retrieved 2026-08-30. Added by hand resolving the Arlington
+# Moderator/Select-Board name-overlap flag from issue #16's human-review
+# queue (batch 5 follow-up); see the record's sources for provenance.
+id: arlington-ma-moderator-greg-christiana
+person_id: ocd-person/909d231d-a63c-4238-a827-47bcd8bff987
+organization_id: ocd-organization/e074e219-c1d9-451b-883a-b432183f5231
+post_id: arlington-ma/moderator
+role: Moderator
+how_seated: elected
+sources:
+- url: https://www.arlingtonma.gov/Home/Components/BusinessDirectory/BusinessDirectory/1144/4?cftype=BusinessDirectory
+  retrieved: '2026-08-30'
