@@ -10,6 +10,7 @@ class DirectoryEntry:
     county: str
     ecode_id: str
     code_url: str
+    provider: str = "ecode360"
 
 
 @dataclass(frozen=True)

@@ -46,6 +46,14 @@ def test_parser_tracks_state_name_county_and_ecode_id() -> None:
     assert entries[2].ecode_id == ""
 
 
+def test_parser_identifies_amlegal_provider() -> None:
+    html = '<a id="NV" class="stateAnchor"></a><div class="listItem"><a class="codeLink" href="https://codelibrary.amlegal.com/codes/wellsnv/latest/overview">City of Wells</a><div class="codeCounty">(Elko County)</div></div>'
+    entry = parse_directory(html)[0]
+    assert entry.provider == "amlegal"
+    assert entry.ecode_id == ""
+    assert resolve_municipality((entry,), "Wells", "NV") == entry
+
+
 def test_resolves_full_state_name_and_bare_municipality() -> None:
     result = resolve_municipality(parse_directory(DIRECTORY_HTML), "Example", "Massachusetts")
     assert result.ecode_id == "EX1000"

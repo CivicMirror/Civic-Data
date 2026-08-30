@@ -5,6 +5,7 @@ import json
 import sys
 from typing import Sequence
 
+from .amlegal import AMLegalBrowser
 from .browser import ECodeBrowser
 from .charter import (
     assemble_charter,
@@ -35,13 +36,17 @@ def create_parser() -> argparse.ArgumentParser:
 def execute(municipality: str, state: str, headed: bool = False) -> dict[str, object]:
     state_code = normalize_state(state)
     source = resolve_municipality(parse_directory(fetch_directory()), municipality, state_code)
-    with ECodeBrowser(headless=not headed) as browser:
-        toc = validate_toc(browser.fetch_toc(source), source.ecode_id)
-        charter_node = select_charter(toc)
-        expected = expected_sections(charter_node)
-        extraction = browser.extract_sections(page_targets(charter_node))
-        sections = merge_page_results(expected, extraction.primary, extraction.fallback)
-        charter = assemble_charter(charter_node, sections)
+    if source.provider == "amlegal":
+        with AMLegalBrowser(headless=not headed) as browser:
+            charter = browser.fetch_charter(source.code_url)
+    else:
+        with ECodeBrowser(headless=not headed) as browser:
+            toc = validate_toc(browser.fetch_toc(source), source.ecode_id)
+            charter_node = select_charter(toc)
+            expected = expected_sections(charter_node)
+            extraction = browser.extract_sections(page_targets(charter_node))
+            sections = merge_page_results(expected, extraction.primary, extraction.fallback)
+            charter = assemble_charter(charter_node, sections)
     return build_success(municipality, state_code, source, charter, utc_now())
 
 
