@@ -1,0 +1,20 @@
+# Hand-added resolving the New Ashford structural-gap flag from issue
+# #16's human-review queue (batch 7 follow-up): the Cemetery Commission
+# is a distinct elected body per the Town Bylaws (Chapter XIII, Section 1)
+# but had no org/post in the repo. No current membership is added -- the
+# only roster found (a rootsweb genealogy-site page) is dated 1998-1999
+# and contradicted by the town's current Select Board roster, so it isn't
+# usable as a source; this town's small size (~250 residents) also makes
+# it plausible the office isn't actively tracked/publicized. Post/org
+# created without members pending a current source.
+id: ocd-organization/2e7a5f77-836e-4635-bdb2-d6ed34683246
+name: Cemetery Commission Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:new-ashford/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: new-ashford-ma/cemetery-commission-member
+status: active
+sources:
+- url: https://www.newashford-ma.us/wp-content/uploads/2015/01/Bylaws.pdf
+  note: 'Town Bylaws, Chapter XIII, Section 1: "The New Ashford Cemetery Commission is comprised of four (4) elected members who will serve a one (1) year term."'
+  retrieved: '2026-08-30'
