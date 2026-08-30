@@ -3,10 +3,18 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+#
+# Corrected seats 6 -> 7 on 2026-08-30 per
+# https://www.watertown.k12.ma.us/79652_2: "The School Committee
+# consists of seven members. Six are elected on a town-wide basis for
+# four-year terms. The Town Council President serves as the seventh
+# member and is elected to a two-year term." See issue #16 batch 8.
 id: watertown-ma/school-committee
 organization_id: ocd-organization/f17473b6-60f6-59c8-81d5-b922f8661d9c
 title: School Committee Member
-seats: 6
+seats: 7
 sources:
 - url: https://watertown-ma.gov/
   retrieved: '2026-08-25'
+- url: https://www.watertown.k12.ma.us/79652_2
+  retrieved: '2026-08-30'
