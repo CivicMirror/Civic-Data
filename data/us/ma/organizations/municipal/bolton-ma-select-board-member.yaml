@@ -1,0 +1,15 @@
+# Hand-added resolving the Bolton first-roster-pass item from issue
+# #16's human-review queue (batch 9): Select Board (3 elected at-large,
+# 3-yr staggered, Chief Executive Officers) had no org/post in the
+# repo. Sourced from
+# https://www.bolton-ma.gov/1493/Select-Board, retrieved 2026-08-30.
+id: ocd-organization/576ca995-9ebe-4101-8e4f-4fa5b34f194c
+name: Select Board Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:bolton/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: bolton-ma/select-board-member
+status: active
+sources:
+- url: https://www.bolton-ma.gov/1493/Select-Board
+  retrieved: '2026-08-30'
