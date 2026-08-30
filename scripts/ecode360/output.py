@@ -37,6 +37,7 @@ def build_success(
             "state": source.state,
             "county": source.county,
             "ecode_id": source.ecode_id,
+            "provider": source.provider,
             "directory_url": DIRECTORY_URL,
             "code_url": source.code_url,
         },

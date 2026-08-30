@@ -101,11 +101,14 @@ class _DirectoryParser(HTMLParser):
         if self._item_depth == depth and tag == "div":
             parsed = urlparse(self._entry_url)
             host = (parsed.hostname or "").lower()
-            ecode_id = parsed.path.strip("/") if host in {"ecode360.com", "www.ecode360.com"} else ""
+            is_ecode = host in {"ecode360.com", "www.ecode360.com"}
+            is_amlegal = host in {"codelibrary.amlegal.com", "www.codelibrary.amlegal.com"}
+            ecode_id = parsed.path.strip("/") if is_ecode else ""
+            provider = "ecode360" if is_ecode else "amlegal" if is_amlegal else ""
             county = " ".join("".join(self._entry_county).split()).strip("() ")
             name = " ".join("".join(self._entry_name).split())
             if self.state and name and self._entry_url:
-                self.entries.append(DirectoryEntry(name, self.state, county, ecode_id, self._entry_url))
+                self.entries.append(DirectoryEntry(name, self.state, county, ecode_id, self._entry_url, provider or "unsupported"))
             self._item_depth = None
         while self._stack and self._stack[-1] != tag:
             self._stack.pop()
@@ -154,6 +157,6 @@ def resolve_municipality(
     if len(matches) > 1:
         raise ECodeError("ambiguous_municipality", f"Multiple municipalities matched {municipality} in {state_code}", 3, tuple(_candidate(entry) for entry in matches))
     entry = matches[0]
-    if not entry.ecode_id:
+    if entry.provider == "unsupported":
         raise ECodeError("unsupported_provider", f"ICC entry is not hosted by eCode360: {entry.code_url}", 3, (_candidate(entry),))
     return entry

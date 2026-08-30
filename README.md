@@ -64,13 +64,17 @@ Government data is modeled as `division -> jurisdiction -> organization -> post 
 
 Exit code is non-zero on schema errors or broken references. Cross-validation mismatches are reported as warnings with a full report (they may represent real-world events, not errors — a human decides).
 
-## Researching eCode360 Charters
+## Researching municipal Charters
 
 The ephemeral eCode360 research tool resolves a municipality through the live
 [ICC Code Solutions library](https://www.icccodesolutions.org/text-library/),
 retrieves only its Charter, and emits structured JSON for an LLM to review. It
 does not write Charter text or other artifacts to the repository; save only the
 authoritative URLs needed for provenance.
+
+eCode360 entries use the eCode360 adapter. American Legal Publishing entries
+(`codelibrary.amlegal.com`) use a separate browser adapter and are currently
+supported for rendered Charter pages such as Wells, Nevada.
 
 Install its Python dependency and browser once:
 
