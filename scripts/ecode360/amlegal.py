@@ -12,7 +12,7 @@ from .errors import ECodeError
 from .models import CharterResult, SectionResult
 from playwright.sync_api import Browser, BrowserContext, Playwright, sync_playwright
 
-SECTION_RE = re.compile(r"^Sec\.\s*([0-9]+(?:\.[0-9]+)*)\s*(.*)$", re.I | re.S)
+SECTION_RE = re.compile(r"^(?:Sec\.|SECTION)\s*([0-9]+(?:[-.][0-9A-Za-z]+)*)\s*[:.]?\s*(.*)$", re.I | re.S)
 ARTICLE_RE = re.compile(r"^ARTICLE\s+([IVXLCDM]+)\b", re.I)
 
 
@@ -39,7 +39,7 @@ class _BlockParser(HTMLParser):
             self._active = (len(self._stack), _Block(attrs_map.get("id") or "", classes, ""))
         if tag == "a" and self._active is not None:
             identifier = attrs_map.get("id") or attrs_map.get("name") or ""
-            if ".Sec." in identifier:
+            if ".Sec." in identifier or identifier.startswith("JD_Section"):
                 self._active[1].anchor = identifier
 
     def handle_data(self, data: str) -> None:
@@ -107,14 +107,15 @@ def parse_amlegal_sections(html: str, page_url: str) -> CharterResult:
 
 AMLEGAL_EXTRACT_SCRIPT = """
 () => {
-  const sections = Array.from(document.querySelectorAll('a[id^="JD_"][id*=".Sec."]')).map(anchor => {
+  const sections = Array.from(document.querySelectorAll('a[id^="JD_Section"], a[id^="JD_"][id*=".Sec."]')).map(anchor => {
     const heading = anchor.closest('.rbox');
     let content = heading && heading.nextElementSibling;
     while (content && !content.classList.contains('rbox')) content = content.nextElementSibling;
     return {guid: anchor.id, heading: heading ? heading.innerText : '', text: content ? content.innerText : ''};
   });
   const next = Array.from(document.querySelectorAll('a')).find(link => link.innerText.trim() === 'Next Doc');
-  const children = Array.from(document.querySelectorAll('a[data-orig-doc-id]'))
+  const children = Array.from(document.querySelectorAll('a[data-orig-doc-id], a[data-docid]'))
+    .filter(link => link.hasAttribute('data-orig-doc-id') || /^(PREAMBLE|CHAPTER|ARTICLE)/i.test(link.innerText.trim()))
     .map(link => link.href).filter(Boolean);
   return {title: document.title, sections, next: next ? next.href : '', children};
 }
@@ -181,10 +182,12 @@ class AMLegalBrowser:
                 if not isinstance(payload, dict):
                     raise ECodeError("amlegal_extraction_failed", "AM Legal returned an invalid page payload", 4)
                 page_result = parse_amlegal_payload(payload, current)
-                for child in page_result["children"]:
-                    if child not in visited and child not in pending:
-                        pending.append(child)
-                title = page_result["title"] or title
+                if current == charter_url or not page_result["sections"]:
+                    for child in page_result["children"]:
+                        if child not in visited and child not in pending:
+                            pending.append(child)
+                if title == "Charter":
+                    title = page_result["title"] or title
                 article_count += page_result["article_count"]
                 sections.update(page_result["sections"])
                 time.sleep(1.0)
@@ -206,9 +209,11 @@ def parse_amlegal_payload(payload: dict, page_url: str) -> dict[str, object]:
             continue
         heading = _clean_text(str(raw.get("heading", "")))
         match = SECTION_RE.match(heading)
+        if not match and raw["guid"].endswith(".Preamble"):
+            match = ("Preamble", heading)
         if not match or not str(raw.get("text", "")).strip():
             continue
-        number, section_title = match.groups()
+        number, section_title = match.groups() if hasattr(match, "groups") else match
         sections[raw["guid"]] = SectionResult(raw["guid"], number, _clean_text(section_title), ("Charter",), f"{page_url}#{raw['guid']}", _clean_text(str(raw["text"])), "")
     children = payload.get("children")
     if not isinstance(children, list):
