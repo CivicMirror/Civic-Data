@@ -2,6 +2,11 @@
 # by scripts/build_ocpf_enrichment.py. Only regular (non-special), already-held
 # elections are modeled; see the script's module docstring for the full set of
 # judgment calls.
+#
+# Also serves on the Danvers Select Board (issue #16's Danvers first-
+# roster-pass item, batch 4). Confirmed by human review as the same
+# person: OCPF filer 15140's candidate and treasurer addresses are both
+# in Danvers, MA, matching the 13th Essex district's candidate record.
 id: ocd-person/a0824ef4-a55b-5362-ac00-c3344e38beba
 name: Daniel C. Bennett
 identifiers:
@@ -31,3 +36,5 @@ verification:
   pipeline: ocpf-filer-registry
 sources:
 - url: https://ocpf.us/filers?q=15140
+- url: https://www.danversma.gov/242/Select-Board
+  retrieved: '2026-08-30'
