@@ -46,3 +46,13 @@ def test_parses_browser_payload_and_skips_empty_rows() -> None:
     assert list(result["sections"])[0] == "JD_Chtr.Sec.1.010"
     assert result["sections"]["JD_Chtr.Sec.1.010"].text == "Text."
     assert result["children"] == ("https://example.test/article-1",)
+
+
+def test_parses_hamden_section_heading_style() -> None:
+    result = parse_amlegal_payload(
+        {"title": "Hamden Charter", "sections": [{"guid": "JD_Section1-3", "heading": "SECTION 1-3: TIME OF APPOINTMENTS", "text": "Meeting text."}]},
+        "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-8431",
+    )
+    section = result["sections"]["JD_Section1-3"]
+    assert section.number == "1-3"
+    assert section.title == "TIME OF APPOINTMENTS"
