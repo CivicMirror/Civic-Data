@@ -114,5 +114,4 @@ python3 -m pytest -m live tests/test_ecode360_live.py -q -s
 🚧 **Proof of concept.** Massachusetts's congressional and county records are populated end-to-end (jurisdictions, offices, people, and election contests) with **real, sourced data** — not placeholders. Every person record cites where its facts came from; where a phone/fax/address couldn't be verified, it is omitted. `verification.status` is still `unverified` on every record (no human reviewer has signed off), even though the underlying facts are real — it tracks review status only.
 
 
-
-Earlier fictional sample data (Oxford/Springfield/Worcester, MA) has been removed; this repo currently only carries data it can back with a real source.
+[MA Source URL](https://docs.google.com/spreadsheets/d/1I-zCbtBO0UQVu11xlenSJNW8ULf5lzSJxLS_9fhbS6c/edit?gid=685665567#gid=685665567)
