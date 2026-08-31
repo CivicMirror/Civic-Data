@@ -1,4 +1,14 @@
-from scripts.ecode360.amlegal import parse_amlegal_payload, parse_amlegal_sections
+import pytest
+
+from scripts.ecode360.amlegal import (
+    AMLEGAL_EXTRACT_SCRIPT,
+    article_labels_for_page,
+    navigation_urls,
+    parse_amlegal_payload,
+    parse_amlegal_sections,
+    scoped_article_labels,
+    select_charter_url,
+)
 from scripts.ecode360.errors import ECodeError
 
 
@@ -56,3 +66,117 @@ def test_parses_hamden_section_heading_style() -> None:
     section = result["sections"]["JD_Section1-3"]
     assert section.number == "1-3"
     assert section.title == "TIME OF APPOINTMENTS"
+
+
+def test_absent_charter_link_returns_structured_error_without_waiting() -> None:
+    with pytest.raises(ECodeError) as caught:
+        select_charter_url("https://codelibrary.amlegal.com/codes/kingcove/latest/overview", [])
+    assert caught.value.code == "amlegal_charter_not_found"
+
+
+def test_next_doc_is_followed_when_charter_has_no_child_links() -> None:
+    charter_url = "https://codelibrary.amlegal.com/codes/lamc/latest/lamc_ca/0-0-0-1"
+    page_result = {
+        "sections": {},
+        "children": (),
+        "next": "https://codelibrary.amlegal.com/codes/lamc/latest/lamc_ca/0-0-0-2",
+    }
+    assert navigation_urls(page_result, charter_url, charter_url) == (page_result["next"],)
+
+
+def test_navigation_is_scoped_to_selected_amlegal_book() -> None:
+    charter_url = "https://codelibrary.amlegal.com/codes/sf/latest/sf_charter/0-0-0-1"
+    charter_child = "https://codelibrary.amlegal.com/codes/sf/latest/sf_charter/0-0-0-2"
+    page_result = {
+        "sections": {},
+        "children": (
+            charter_child,
+            "https://codelibrary.amlegal.com/codes/sf/latest/sf_admin/0-0-0-3",
+            "https://example.test/codes/sf/latest/sf_charter/0-0-0-4",
+        ),
+        "next": "",
+    }
+    assert navigation_urls(page_result, charter_url, charter_url) == (charter_child,)
+
+
+def test_hierarchical_content_page_follows_scoped_children_and_same_book_next() -> None:
+    charter_url = "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-9"
+    current_url = "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-8431"
+    next_url = "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-8432"
+    page_result = {
+        "children": (
+            "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-9000",
+            "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_admin/0-0-0-1",
+        ),
+        "next": next_url,
+    }
+    assert navigation_urls(page_result, current_url, charter_url) == (
+        "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-9000",
+        next_url,
+    )
+
+
+def test_browser_payload_joins_all_blocks_until_next_section() -> None:
+    result = parse_amlegal_payload(
+        {
+            "title": "Hamden Charter",
+            "blocks": [
+                {"anchor": "JD_Section1-4", "text": "SECTION 1-4: DEFINITIONS", "classes": "Section rbox"},
+                {"anchor": "", "text": "Whenever used in this Charter:", "classes": "Normal-Level rbox"},
+                {"anchor": "", "text": '"Board" means a municipal board.', "classes": "Normal-Level rbox"},
+                {"anchor": "JD_Section1-5", "text": "SECTION 1-5: APPLICATION", "classes": "Section rbox"},
+                {"anchor": "", "text": "This Charter applies.", "classes": "Normal-Level rbox"},
+            ],
+            "children": [],
+            "next": "",
+            "articles": ["CHAPTER I"],
+        },
+        "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-8431",
+    )
+    assert result["sections"]["JD_Section1-4"].text == 'Whenever used in this Charter:\n"Board" means a municipal board.'
+
+
+def test_browser_extractor_does_not_treat_body_cross_references_as_section_anchors() -> None:
+    assert 'a[href*="#JD_"]' not in AMLEGAL_EXTRACT_SCRIPT
+    assert 'a[name^="JD_"]' in AMLEGAL_EXTRACT_SCRIPT
+
+
+def test_browser_extractor_scopes_navigation_to_selected_charter_tree() -> None:
+    assert "charterUrl" in AMLEGAL_EXTRACT_SCRIPT
+    assert "closest('.toc-entry')" in AMLEGAL_EXTRACT_SCRIPT
+
+
+def test_article_labels_are_deduplicated_from_page_metadata() -> None:
+    result = parse_amlegal_payload(
+        {"title": "Charter", "blocks": [], "children": [], "next": "", "articles": ["ARTICLE I", "ARTICLE II", "ARTICLE I"]},
+        "https://codelibrary.amlegal.com/codes/wells/latest/wells_nv/0-0-0-1",
+    )
+    assert result["articles"] == ("ARTICLE I", "ARTICLE II")
+
+
+def test_article_count_metadata_is_scoped_to_selected_book() -> None:
+    charter_url = "https://codelibrary.amlegal.com/codes/sf/latest/sf_charter/0-0-0-1"
+    assert scoped_article_labels(
+        (
+            ("CHAPTER I", "https://codelibrary.amlegal.com/codes/sf/latest/sf_charter/0-0-0-2"),
+            ("CHAPTER II", "https://codelibrary.amlegal.com/codes/sf/latest/sf_admin/0-0-0-3"),
+            ("CHAPTER I", "https://codelibrary.amlegal.com/codes/sf/latest/sf_charter/0-0-0-4"),
+        ),
+        charter_url,
+    ) == ("CHAPTER I",)
+
+
+def test_hierarchical_article_count_ignores_repeated_child_page_sidebar() -> None:
+    charter_url = "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-9"
+    page_result = {
+        "article_documents": (
+            ("CHAPTER I", "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-8431"),
+        )
+    }
+    assert article_labels_for_page(page_result, charter_url, charter_url, False) == ("CHAPTER I",)
+    assert article_labels_for_page(
+        page_result,
+        "https://codelibrary.amlegal.com/codes/hamden/latest/hamden_ct/0-0-0-8431",
+        charter_url,
+        False,
+    ) == ()

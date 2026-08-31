@@ -28,6 +28,7 @@ COMPOUND_LABELS = {
 class PageTarget:
     guid: str
     section_guids: tuple[str, ...]
+    empty_allowed_guids: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -56,6 +57,10 @@ def _clean_text(value: str) -> str:
             blank_count += 1
             cleaned.append("")
     return "\n".join(cleaned).strip()
+
+
+def is_explicitly_deleted(title: object) -> bool:
+    return isinstance(title, str) and re.search(r"\(\s*deleted\s*\)", title, re.I) is not None
 
 
 def normalize_page_sections(raw_sections: object, *, allow_duplicate_guids: bool = False) -> tuple[RawSection, ...]:
@@ -110,12 +115,15 @@ def merge_page_results(
     missing: list[str] = []
     for item in expected:
         guid = str(item["guid"])
+        deleted = is_explicitly_deleted(item.get("title"))
         raw = primary_map.get(guid)
         if raw is None or not raw.text:
             raw = fallback_map.get(guid)
-        if raw is None or not raw.text:
+        if (raw is None or not raw.text) and not deleted:
             missing.append(guid)
             continue
+        if raw is None:
+            raw = RawSection(guid, "", "")
         hierarchy = tuple(str(value) for value in item.get("hierarchy", ()))
         result.append(
             SectionResult(
@@ -289,6 +297,7 @@ def expected_sections(charter: dict) -> tuple[dict, ...]:
 
 def page_targets(charter: dict) -> tuple[PageTarget, ...]:
     grouped: dict[str, list[str]] = {}
+    empty_allowed: dict[str, list[str]] = {}
     order: list[str] = []
 
     def visit(node: dict, nearest_page: str | None) -> None:
@@ -299,14 +308,17 @@ def page_targets(charter: dict) -> tuple[PageTarget, ...]:
                 page = str(charter["guid"])
             if page not in grouped:
                 grouped[page] = []
+                empty_allowed[page] = []
                 order.append(page)
             grouped[page].append(str(node["guid"]))
+            if is_explicitly_deleted(node_title(node)):
+                empty_allowed[page].append(str(node["guid"]))
             return
         for child in _children(node):
             visit(child, page)
 
     visit(charter, None)
-    return tuple(PageTarget(guid, tuple(grouped[guid])) for guid in order)
+    return tuple(PageTarget(guid, tuple(grouped[guid]), tuple(empty_allowed[guid])) for guid in order)
 
 
 def assemble_charter(charter_node: dict, extracted_sections: tuple[SectionResult, ...]) -> CharterResult:
