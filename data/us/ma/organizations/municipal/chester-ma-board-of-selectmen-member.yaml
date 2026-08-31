@@ -1,0 +1,16 @@
+# Hand-added resolving the Chester structural-gap flag from issue #16's
+# human-review queue (batch 7 follow-up): Chester had no Board of
+# Selectmen org/post in the repo despite having several other elected
+# offices imported (Board of Health, Moderator, Municipal Light Board,
+# Regional School Committee, Water Commissioner). Not present in the
+# imported charter audit; org/post created by hand alongside the roster.
+id: ocd-organization/62047ab3-edc3-4cef-997b-99d4fe9e2508
+name: Board of Selectmen Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:chester/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: chester-ma/board-of-selectmen-member
+status: active
+sources:
+- url: https://townofchester.net/board-of-selectmen/
+  retrieved: '2026-08-30'
