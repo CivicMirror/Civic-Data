@@ -120,3 +120,22 @@ def test_fallback_replaces_empty_primary_section() -> None:
         (RawSection("s1", "Recovered text", ""),),
     )
     assert result[0].text == "Recovered text"
+
+
+def test_preserves_explicitly_deleted_section_with_empty_text() -> None:
+    expected = (
+        {"guid": "47392127", "number": "4-12", "title": "Park Commission. (DELETED)", "hierarchy": ("Charter",)},
+    )
+    result = merge_page_results(expected, (RawSection("47392127", "", ""),), ())
+    assert result[0].guid == "47392127"
+    assert result[0].text == ""
+
+
+def test_page_targets_mark_explicitly_deleted_sections_as_empty_allowed() -> None:
+    charter = node(
+        "chapter",
+        "charter",
+        "Charter",
+        [node("article", "article", "Article IV", [node("section", "47392127", "Park Commission. (DELETED)")])],
+    )
+    assert page_targets(charter) == (PageTarget("article", ("47392127",), ("47392127",)),)

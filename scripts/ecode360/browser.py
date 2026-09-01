@@ -71,9 +71,14 @@ def launch_options(headless: bool, executable_path: str | None = None) -> dict[s
     return options
 
 
-def require_fallback_complete(expected: tuple[str, ...], fallback: tuple[RawSection, ...]) -> None:
+def require_fallback_complete(
+    expected: tuple[str, ...],
+    fallback: tuple[RawSection, ...],
+    empty_allowed: tuple[str, ...] = (),
+) -> None:
     by_guid = {section.guid: section for section in fallback}
-    missing = [guid for guid in expected if guid not in by_guid or not by_guid[guid].text]
+    allowed = set(empty_allowed)
+    missing = [guid for guid in expected if guid not in allowed and (guid not in by_guid or not by_guid[guid].text)]
     if missing:
         raise ECodeError(
             "ecode_navigation_failed",
@@ -217,7 +222,8 @@ class ECodeBrowser:
             primary_by_guid = {section.guid: section for section in primary}
             missing = {
                 guid for guid in target.section_guids
-                if guid not in primary_by_guid or not primary_by_guid[guid].text
+                if guid not in target.empty_allowed_guids
+                and (guid not in primary_by_guid or not primary_by_guid[guid].text)
             }
             fallback: list[RawSection] = []
             for guid in target.section_guids:
@@ -227,7 +233,7 @@ class ECodeBrowser:
                 page.goto(f"https://ecode360.com/{guid}", wait_until="domcontentloaded", timeout=NAVIGATION_TIMEOUT_MS)
                 self._last_content_navigation = time.monotonic()
                 fallback.extend(normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT), allow_duplicate_guids=True))
-            require_fallback_complete(tuple(sorted(missing)), tuple(fallback))
+            require_fallback_complete(tuple(sorted(missing)), tuple(fallback), target.empty_allowed_guids)
             return primary, tuple(fallback)
         except ECodeError:
             raise
