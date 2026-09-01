@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: kinney-tx-county-tax-assessor-collector-padron
+person_id: ocd-person/6ec67fad-4be4-5460-8270-496d7f7229f5
+organization_id: ocd-organization/e32e92b2-34a8-5fcb-b888-b62f7277216b
+post_id: kinney-tx-county/tax-assessor-collector
+role: Tax Assessor-Collector
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

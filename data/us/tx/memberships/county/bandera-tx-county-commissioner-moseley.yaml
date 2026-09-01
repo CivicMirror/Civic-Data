@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: bandera-tx-county-commissioner-moseley
+person_id: ocd-person/307e57b7-7fd0-5333-ac8c-27c32f77c57e
+organization_id: ocd-organization/e9d04e1b-00d6-54b8-afd8-cba5f6927f73
+post_id: bandera-tx-county/commissioner
+role: County Commissioner
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 3

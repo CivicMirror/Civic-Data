@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: kendall-tx-county-constable-precinct-1-setliff
+person_id: ocd-person/88471498-cd2f-5a18-a60c-c79912c83d77
+organization_id: ocd-organization/87d108e1-160a-5808-b1bf-ede021c22b48
+post_id: kendall-tx-county/constable-precinct-1
+role: Constable
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 1

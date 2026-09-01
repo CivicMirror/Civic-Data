@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: freestone-tx-county-county-attorney-evans
+person_id: ocd-person/0a09c662-d893-5e1b-82ec-07370fe1f7b9
+organization_id: ocd-organization/1ef440df-417a-55b1-b0d4-e2a9e917dff1
+post_id: freestone-tx-county/county-attorney
+role: County Attorney
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: polk-tx-county-commissioner-purvis
+person_id: ocd-person/e8ed680d-2383-559c-b49e-a1fc87abb5db
+organization_id: ocd-organization/ae078e67-9a6c-56f1-aabe-4567ec6f7a63
+post_id: polk-tx-county/commissioner
+role: County Commissioner
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 3

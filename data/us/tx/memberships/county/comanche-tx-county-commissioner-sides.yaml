@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: comanche-tx-county-commissioner-sides
+person_id: ocd-person/1548fc96-0e92-5fcc-b8ad-b10ba584afe6
+organization_id: ocd-organization/5231e14d-4c2f-5a15-962b-8f6246f45bdc
+post_id: comanche-tx-county/commissioner
+role: County Commissioner
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 3

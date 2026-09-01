@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: ochiltree-tx-county-county-attorney-meraz
+person_id: ocd-person/8c81b34e-7ad0-53db-b6aa-83ce3edc20e4
+organization_id: ocd-organization/a88d48c7-082c-5880-9141-6ee15bd6a59b
+post_id: ochiltree-tx-county/county-attorney
+role: County Attorney
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

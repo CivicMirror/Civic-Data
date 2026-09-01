@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: wise-tx-county-county-attorney-rotramble
+person_id: ocd-person/a3a8c4c5-ebbf-5a54-9b25-f7e63c56cfcb
+organization_id: ocd-organization/b8d1e2af-c82a-5944-ad83-958e05cabfb5
+post_id: wise-tx-county/county-attorney
+role: County Attorney
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
