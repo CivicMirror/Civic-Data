@@ -3,7 +3,11 @@ name: City of Stratford
 state: tx
 division_id: ocd-division/country:us/state:tx/place:stratford
 classification: government
+website: http://stratfordtx.us/
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=202636, FIPS 48-421-70544, county area=SHERMAN, active=Y'
   retrieved: '2026-08-17'
+- url: https://ecode360.com/ST6491
+  note: 'Municipal code of ordinances (eCode360), matched via ICC Code Solutions text-library directory by municipality name.'
+  retrieved: '2026-08-31'

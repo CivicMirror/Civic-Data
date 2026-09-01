@@ -3,8 +3,11 @@ name: City of Winnsboro
 state: tx
 division_id: ocd-division/country:us/state:tx/place:winnsboro
 classification: government
-website: http://www.winnsborotexas.com
+website: https://cityofwinnsboro.org
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=187701, FIPS 48-499-79816, county area=WOOD, active=Y'
   retrieved: '2026-08-17'
+- url: https://ecode360.com/WI6519
+  note: 'Municipal code of ordinances (eCode360), matched via ICC Code Solutions text-library directory by municipality name.'
+  retrieved: '2026-08-31'

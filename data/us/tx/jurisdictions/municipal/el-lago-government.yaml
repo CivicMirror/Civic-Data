@@ -3,8 +3,11 @@ name: City of El Lago
 state: tx
 division_id: ocd-division/country:us/state:tx/place:el-lago
 classification: government
-website: http://www.ellagotx.com
+website: http://www.ellago-tx.gov
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=113628, FIPS 48-201-23164, county area=HARRIS, active=Y'
   retrieved: '2026-08-17'
+- url: https://ecode360.com/EL6300
+  note: 'Municipal code of ordinances (eCode360), matched via ICC Code Solutions text-library directory by municipality name.'
+  retrieved: '2026-08-31'

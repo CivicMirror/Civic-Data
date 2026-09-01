@@ -3,8 +3,11 @@ name: City of Madisonville
 state: tx
 division_id: ocd-division/country:us/state:tx/place:madisonville
 classification: government
-website: http://www.ci.madisonville.tx.us
+website: http://www.madisonvilletexas.us
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=213208, FIPS 48-313-45996, county area=MADISON, active=Y'
   retrieved: '2026-08-17'
+- url: https://codelibrary.amlegal.com/codes/madisonvilletx/latest/overview
+  note: 'Municipal code of ordinances (American Legal Publishing), matched via ICC Code Solutions text-library directory by municipality name.'
+  retrieved: '2026-08-31'

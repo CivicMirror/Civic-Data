@@ -3,8 +3,11 @@ name: City of Moulton
 state: tx
 division_id: ocd-division/country:us/state:tx/place:moulton
 classification: government
-website: http://www.ci.moulton.tx.us
+website: http://www.cityofmoulton.com
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=205467, FIPS 48-285-49560, county area=LAVACA, active=Y'
   retrieved: '2026-08-17'
+- url: https://ecode360.com/MO6410
+  note: 'Municipal code of ordinances (eCode360), matched via ICC Code Solutions text-library directory by municipality name.'
+  retrieved: '2026-08-31'

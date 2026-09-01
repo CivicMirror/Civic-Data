@@ -3,8 +3,11 @@ name: City of Hempstead
 state: tx
 division_id: ocd-division/country:us/state:tx/place:hempstead
 classification: government
-website: http://www.hempsteadcitytx.com
+website: https://www.hempsteadcitytx.gov
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=176407, FIPS 48-473-33200, county area=WALLER, active=Y'
   retrieved: '2026-08-17'
+- url: https://ecode360.com/HE6339
+  note: 'Municipal code of ordinances (eCode360), matched via ICC Code Solutions text-library directory by municipality name.'
+  retrieved: '2026-08-31'
