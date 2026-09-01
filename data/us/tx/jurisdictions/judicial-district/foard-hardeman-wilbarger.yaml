@@ -1,0 +1,18 @@
+# Added for issue #26: a multi-county judicial district jurisdiction.
+# One or more numbered District Courts (see `identifiers`) sit inside this
+# exact county combination -- jurisdiction represents the shared geography,
+# not any single numbered court. Source: OCA's "District Judges by
+# Judicial District" directory (see script docstring for the currency
+# caveat on which source was and wasn't used).
+id: ocd-jurisdiction/country:us/state:tx/judicial_district:foard-hardeman-wilbarger/judiciary
+name: Foard, Hardeman & Wilbarger Counties Judicial District
+state: tx
+division_id: ocd-division/country:us/state:tx/judicial_district:foard-hardeman-wilbarger
+classification: judiciary
+identifiers:
+- scheme: tx-judicial-district
+  identifier: 46th Judicial District
+sources:
+- url: https://www.txcourts.gov/media/1462770/district-judges-by-judicial-district.pdf
+  note: Texas Office of Court Administration, "District Judges by Judicial District" directory, dated 2026-05-01.
+  retrieved: '2026-09-01'
