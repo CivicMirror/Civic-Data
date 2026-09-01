@@ -1,0 +1,19 @@
+# Added for issue #26: a generic statewide jurisdiction for Texas, hosting
+# any elected body whose constituency is the entire state rather than a
+# county, place, or sub-state district -- starting with the Supreme Court of
+# Texas and the Court of Criminal Appeals. classification is `government`
+# (not `judiciary`) because this jurisdiction is expected to host
+# non-judicial statewide organizations too (e.g. a future Railroad
+# Commissioner or State Board of Education at-large seat), the same reason
+# a county jurisdiction stays `government` despite hosting a mix of
+# executive, judicial-adjacent, and legislative-like county offices.
+id: ocd-jurisdiction/country:us/state:tx/government
+name: State of Texas
+state: tx
+division_id: ocd-division/country:us/state:tx
+classification: government
+website: https://www.texas.gov/
+sources:
+- url: https://www.texas.gov/
+  note: Official Texas state government portal.
+  retrieved: '2026-09-01'
