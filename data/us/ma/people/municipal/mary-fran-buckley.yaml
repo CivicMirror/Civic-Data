@@ -1,14 +1,13 @@
-# Sourced from the Town of Falmouth's official Local Elected Officials
-# roster, https://www.falmouthma.gov/722/Local-Elected-Officials, retrieved 2026-08-28. Added by hand resolving the
-# Falmouth item from issue #16's human-review queue; see the record's
-# sources for provenance.
-id: ocd-person/f5bec020-0502-46e4-a2e4-c6b70736e560
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/3a8dda67-52a2-5742-b859-68915c9063b5
 name: Mary Fran Buckley
+identifiers: []
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
 - url: https://www.falmouthma.gov/722/Local-Elected-Officials
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'

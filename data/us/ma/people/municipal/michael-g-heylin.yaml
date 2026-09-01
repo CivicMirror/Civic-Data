@@ -1,14 +1,13 @@
-# Sourced from the Town of Falmouth's official Local Elected Officials
-# roster, https://www.falmouthma.gov/722/Local-Elected-Officials, retrieved 2026-08-28. Added by hand resolving the
-# Falmouth item from issue #16's human-review queue; see the record's
-# sources for provenance.
-id: ocd-person/7fde819e-0baf-4aac-9a6a-f98922e256a4
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/261b62d7-e8a5-53a3-a623-3786da3758c9
 name: Michael G. Heylin
+identifiers: []
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
 - url: https://www.falmouthma.gov/722/Local-Elected-Officials
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'

@@ -1,14 +1,13 @@
-# Sourced from the Town of Falmouth's official Local Elected Officials
-# roster, https://www.falmouthma.gov/722/Local-Elected-Officials, retrieved 2026-08-28. Added by hand resolving the
-# Falmouth item from issue #16's human-review queue; see the record's
-# sources for provenance.
-id: ocd-person/97b60639-1aa4-449e-8141-59f0d36799e8
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/9b7ac613-0b17-50e8-b1eb-4c2dfbfe2e1c
 name: Robert J. Leary
+identifiers: []
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
 - url: https://www.falmouthma.gov/722/Local-Elected-Officials
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'

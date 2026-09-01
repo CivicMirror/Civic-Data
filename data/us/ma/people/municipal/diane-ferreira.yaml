@@ -1,14 +1,13 @@
-# Sourced from the Town of Acushnet's official Elected Officials
-# roster, https://www.acushnet.ma.us/1200/Elected-Officials, retrieved 2026-08-28. Added by hand resolving the
-# Acushnet item from issue #16's human-review queue; see the record's
-# sources for provenance.
-id: ocd-person/d81a3b78-a128-4ce0-bcfc-42eac524340c
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/7d66a973-f6cb-524a-a92a-b62d25eee5f8
 name: Diane Ferreira
+identifiers: []
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
 - url: https://www.acushnet.ma.us/1200/Elected-Officials
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'

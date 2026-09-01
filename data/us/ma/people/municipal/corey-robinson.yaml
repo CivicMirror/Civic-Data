@@ -1,13 +1,17 @@
-# Sourced from https://richardhowe.com/2025/11/05/2025-lowell-city-election-results/, retrieved 2026-08-28. District 2 incumbent, re-elected 2025 (550 votes). Added by hand
-# resolving issue #16's human-review queue; see the record's sources
-# for provenance.
-id: ocd-person/f942aad9-64d7-4acc-9826-29410b29a291
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/cdb09c8b-7f5d-533d-b50f-3358f16bcf89
 name: Corey Robinson
+identifiers:
+- scheme: civicpatch
+  identifier: 511221e1-04f8-4d31-b077-2ed4e97b4515
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
-- url: https://richardhowe.com/2025/11/05/2025-lowell-city-election-results/
-  retrieved: '2026-08-28'
+- url: https://www.lowellma.gov/Directory.aspx?did=16
+  retrieved: '2026-08-26'
+- url: https://www.lowellma.gov/533/Meet-the-City-Council
+  retrieved: '2026-08-26'

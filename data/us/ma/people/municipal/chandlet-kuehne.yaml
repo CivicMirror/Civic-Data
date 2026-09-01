@@ -1,14 +1,13 @@
-# Sourced from the Town of Acushnet's official Elected Officials
-# roster, https://www.acushnet.ma.us/1200/Elected-Officials, retrieved 2026-08-28. Resolves issue #16's flagged item: "Chandlet Kuehne" is confirmed as the official spelling on the town's own roster page -- not a typo. Added by hand resolving the
-# Acushnet item from issue #16's human-review queue; see the record's
-# sources for provenance.
-id: ocd-person/bd9890ec-d241-45a4-ac4c-663324c75d1c
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/65fcd228-825b-533e-9147-3f748a4333ff
 name: Chandlet Kuehne
+identifiers: []
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
 - url: https://www.acushnet.ma.us/1200/Elected-Officials
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'

@@ -1,13 +1,17 @@
-# Sourced from https://www.bedfordma.gov/656/Select-Board, retrieved 2026-08-28. Added by hand
-# resolving issue #16's human-review queue; see the record's sources
-# for provenance.
-id: ocd-person/178b1b2b-f375-4b60-b376-46cf474f5d9b
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/bf0bf928-cc56-5626-a724-1b03ac1b2c42
 name: Shawn Hanegan
+identifiers:
+- scheme: civicpatch
+  identifier: 6a37b181-24aa-49d3-92d6-2d7214fd43cc
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
+- url: https://www.bedfordma.gov/Directory.aspx?did=55
+  retrieved: '2026-08-26'
 - url: https://www.bedfordma.gov/656/Select-Board
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'

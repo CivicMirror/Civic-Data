@@ -1,13 +1,17 @@
-# Sourced from https://richardhowe.com/2025/11/05/2025-lowell-city-election-results/, retrieved 2026-08-28. District 8 incumbent, re-elected 2025 (724 votes). Added by hand
-# resolving issue #16's human-review queue; see the record's sources
-# for provenance.
-id: ocd-person/c2b43ca5-93bc-4db9-af22-51b0b99152ab
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/3a099b2b-bd7c-5479-b8e0-df31b80824e0
 name: John Descoteaux
+identifiers:
+- scheme: civicpatch
+  identifier: df01d778-aded-4df6-be15-d79c94403009
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
-- url: https://richardhowe.com/2025/11/05/2025-lowell-city-election-results/
-  retrieved: '2026-08-28'
+- url: https://www.lowellma.gov/Directory.aspx?did=16
+  retrieved: '2026-08-26'
+- url: https://www.lowellma.gov/533/Meet-the-City-Council
+  retrieved: '2026-08-26'

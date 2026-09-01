@@ -1,13 +1,15 @@
-# Sourced from https://www.auburnma.gov/283/Select-Board, retrieved 2026-08-28. Added by hand
-# resolving issue #16's human-review queue; see the record's sources
-# for provenance.
-id: ocd-person/50463de3-7bac-43e8-ac76-8f84fd313f64
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/24aec01a-1b06-5b85-a8f2-c6e502d614f6
 name: Sara K. Rufli
+identifiers:
+- scheme: civicpatch
+  identifier: 4f42a00f-4027-45f5-b2ab-2630df52c42b
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
-- url: https://www.auburnma.gov/283/Select-Board
-  retrieved: '2026-08-28'
+- url: https://www.auburnma.gov/Directory.aspx?did=28
+  retrieved: '2026-08-26'

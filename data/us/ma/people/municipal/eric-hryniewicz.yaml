@@ -1,14 +1,13 @@
-# Sourced from the Town of Falmouth's official Local Elected Officials
-# roster, https://www.falmouthma.gov/722/Local-Elected-Officials, retrieved 2026-08-28. Added by hand resolving the
-# Falmouth item from issue #16's human-review queue; see the record's
-# sources for provenance.
-id: ocd-person/08ab527f-8501-4265-8d4b-2a8ec5002fd4
+# Machine-extracted from official municipal roster page(s), retrieved 2026-08-26.
+# Imported by scripts/import_ma_officeholder_backfill.py; see sources below.
+id: ocd-person/f8c23b47-e169-53ef-b849-10e751435aca
 name: Eric Hryniewicz
+identifiers: []
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-28'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-08-26'
+  pipeline: MA municipal officeholder backfill (official roster verification)
 sources:
 - url: https://www.falmouthma.gov/722/Local-Elected-Officials
-  retrieved: '2026-08-28'
+  retrieved: '2026-08-26'
