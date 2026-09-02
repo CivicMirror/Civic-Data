@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: anna-tx-isd-trustee-rhonda-lewis
+person_id: ocd-person/4309950e-b25a-57ab-a034-bd52096d6e3a
+organization_id: ocd-organization/88c5a5b5-083c-53b9-aa7c-1d8a0ee28624
+post_id: anna-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 043902 (Anna ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

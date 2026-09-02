@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: kaufman-tx-isd-trustee-casey-townsend
+person_id: ocd-person/18316abe-b888-5c3c-badd-260ae034282f
+organization_id: ocd-organization/5a158c9d-2952-5cd9-b718-14ea60213519
+post_id: kaufman-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 129903 (Kaufman ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

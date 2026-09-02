@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: lindsay-tx-isd-trustee-brian-manhart
+person_id: ocd-person/a34e0b69-016b-5155-8dfb-419476c8cebb
+organization_id: ocd-organization/8afc10e4-7bd8-53a4-8825-20ad638f0932
+post_id: lindsay-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 049907 (Lindsay ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

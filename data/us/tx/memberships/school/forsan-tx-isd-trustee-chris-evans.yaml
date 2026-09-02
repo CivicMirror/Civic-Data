@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: forsan-tx-isd-trustee-chris-evans
+person_id: ocd-person/eb036214-bcaf-50b0-b580-82b409386b56
+organization_id: ocd-organization/633b83cf-4a55-52d6-8521-9a5c27c4ba14
+post_id: forsan-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 114904 (Forsan ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

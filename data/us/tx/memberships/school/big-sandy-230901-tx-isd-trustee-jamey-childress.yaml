@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: big-sandy-230901-tx-isd-trustee-jamey-childress
+person_id: ocd-person/44a25e94-ad31-50ca-823e-897a81cf16f5
+organization_id: ocd-organization/bb6aa55a-6493-5f2f-baf4-0b2b2f8047f1
+post_id: big-sandy-230901-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 230901 (Big Sandy ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

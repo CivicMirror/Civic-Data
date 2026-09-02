@@ -63,7 +63,8 @@ sys.path.insert(0, str(REPO / "scripts"))
 from seed_tx_isd_organizations_posts import load_jurisdictions, org_id  # noqa: E402
 
 BBB_CSV = REPO / "reference" / "TX Rolling Audit" / "tx_isd_bbb_local_2026-08-24.csv"
-DIRECTORY_CSV = Path("/tmp/directory_board_members.csv")
+DIRECTORY_CSV = REPO / "reference" / "TX Rolling Audit" / "tx_isd_board_directory_2026-09-02.csv"
+RETRIEVED = "2026-09-02"
 
 # Fixed namespace for this script's deterministic person ids -- distinct from
 # organization NS in seed_tx_isd_organizations_posts.py.
@@ -192,8 +193,8 @@ def main():
         post_id = f"{jur['slug']}-tx-isd/trustee"
         source_url = "https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory"
         source_note = (
-            f"TEA AskTED District Staff Directory export, district {cdn} "
-            f"({jur['name']}) -- current board roster."
+            f"TEA AskTED District Staff Directory export ({RETRIEVED} refresh pull, "
+            f"issue #13 comment 5386154825), district {cdn} ({jur['name']}) -- current board roster."
         )
 
         for row in named:
@@ -210,10 +211,10 @@ def main():
                     "candidacies": [],
                     "verification": {
                         "status": "machine-extracted",
-                        "reviewed_on": "2026-08-25",
+                        "reviewed_on": RETRIEVED,
                         "pipeline": "TEA AskTED District Staff Directory",
                     },
-                    "sources": [{"url": source_url, "note": source_note, "retrieved": "2026-08-25"}],
+                    "sources": [{"url": source_url, "note": source_note, "retrieved": RETRIEVED}],
                 }
                 if write:
                     (PEOPLE_DIR / f"{filename}.yaml").write_text(
@@ -235,7 +236,7 @@ def main():
                 "organization_id": organization_id,
                 "post_id": post_id,
                 "role": role,
-                "sources": [{"url": source_url, "note": source_note, "retrieved": "2026-08-25"}],
+                "sources": [{"url": source_url, "note": source_note, "retrieved": RETRIEVED}],
             }
             stats["membership_new"] += 1
             if write:

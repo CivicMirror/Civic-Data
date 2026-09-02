@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: white-settlement-tx-isd-trustee-jeremy-lelek
+person_id: ocd-person/cf6597bf-954f-59d2-a351-419a6911e0b4
+organization_id: ocd-organization/536e0f07-6254-5f29-abff-8302264fe52b
+post_id: white-settlement-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 220920 (White Settlement ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

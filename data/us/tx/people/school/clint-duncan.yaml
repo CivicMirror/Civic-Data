@@ -1,0 +1,16 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: ocd-person/c8425cf5-1db0-59e3-a0dc-fd714b8cca0e
+name: Clint Duncan
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: TEA TSD district directory export (TSD-2025-final.xlsx)
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 019906 (Redwater ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

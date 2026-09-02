@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: alief-tx-isd-trustee-jennifer-key
+person_id: ocd-person/a9e369b6-8b51-5130-b8e0-53c2b4baa58a
+organization_id: ocd-organization/38db6bd3-a989-586e-bea6-a91404cbe333
+post_id: alief-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 101903 (Alief ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

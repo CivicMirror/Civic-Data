@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: matagorda-tx-isd-trustee-catherine-gann
+person_id: ocd-person/5a957547-683e-5962-af5b-5921f24951fe
+organization_id: ocd-organization/ca3ed5fd-9e64-561e-85d3-49359b368d66
+post_id: matagorda-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 158904 (Matagorda ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

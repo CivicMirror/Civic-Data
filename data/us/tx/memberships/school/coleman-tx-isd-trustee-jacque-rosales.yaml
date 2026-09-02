@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: coleman-tx-isd-trustee-jacque-rosales
+person_id: ocd-person/3f70cf9d-9f58-5bd5-9fa2-2e95b3ba826f
+organization_id: ocd-organization/42a6f456-76b1-52e8-819b-456f4fe239f7
+post_id: coleman-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 042901 (Coleman ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

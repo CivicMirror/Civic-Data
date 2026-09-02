@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: red-lick-tx-isd-trustee-emilee-kitchens
+person_id: ocd-person/cc2716fc-1625-5e9f-a59a-649104e2254b
+organization_id: ocd-organization/84cacff6-9ce2-5c75-af27-deb8658fa7cd
+post_id: red-lick-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 019911 (Red Lick ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

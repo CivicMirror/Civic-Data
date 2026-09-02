@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: bandera-tx-isd-trustee-greg-butler
+person_id: ocd-person/72f6fbca-652b-5f56-ac41-81492924ba69
+organization_id: ocd-organization/90376419-c0f2-5a04-b3b7-7bafc17ed6c0
+post_id: bandera-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 010902 (Bandera ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

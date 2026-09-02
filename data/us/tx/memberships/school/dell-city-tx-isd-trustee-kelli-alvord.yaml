@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: dell-city-tx-isd-trustee-kelli-alvord
+person_id: ocd-person/0f1b9fb1-626a-5151-9f28-5a111ca7bbb1
+organization_id: ocd-organization/57382fbe-2531-55c8-8d19-78476e000918
+post_id: dell-city-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 115903 (Dell City ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

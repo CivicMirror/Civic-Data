@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: lazbuddie-tx-isd-trustee-adan-ontiveros
+person_id: ocd-person/1bca2751-8960-5ce0-94ea-d122c7b00aaf
+organization_id: ocd-organization/6f02d5ad-ded4-5eed-bad5-5d816643397f
+post_id: lazbuddie-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 185904 (Lazbuddie ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'

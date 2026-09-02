@@ -1,0 +1,14 @@
+# Seeded from TEA's official TSD-2025-final.xlsx district directory
+# export by scripts/seed_tx_isd_people_atlarge_tsd2025.py (Phase 4a
+# follow-up -- see issue #13 comment 5496322162). Fills at-large seats
+# left vacant by the AskTED staff-directory pull; single-member-
+# district and hybrid boards are still out of scope for this source.
+id: crystal-city-tx-isd-trustee-victor-bonilla-iii
+person_id: ocd-person/55fcb0af-3b97-5cc5-b3d8-a6a35d5970a1
+organization_id: ocd-organization/a3515fc5-e11a-5dd0-9746-9ac0a149723d
+post_id: crystal-city-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/files/31700042/TSD-2025-final.xlsx
+  note: 'TEA official district directory export (TSD-2025-final.xlsx, March 2025 -- issue #13 comment 5496322162), district 254901 (Crystal City ISD) -- board roster, filling a seat left vacant by the AskTED staff-directory pull.'
+  retrieved: '2026-09-02'
