@@ -107,7 +107,7 @@ def build_rows(wb):
          "Special-purpose district enumeration for issue #15 (all non-MUD types -- ESDs, hospital districts, "
          "groundwater/water districts, etc.), sourced from the Texas Comptroller's Special Purpose District "
          "Public Information Database (SPDPID). Excludes Municipal Utility Districts (tracked separately, "
-         "issue #11) and Soil & Water Conservation Districts (issue #27, a different oversight body).",
+         "issue #11) and Soil & Water Conservation Districts (issue #27, out of scope -- see that sheet).",
          f"{n_spd} districts, {n_spd_active} ACTIVE per their latest Comptroller filing."),
 
         ("MUD",
@@ -129,12 +129,12 @@ def build_rows(wb):
          f"{n_jud} rows -- {jud_summary}."),
 
         ("Soil & Water Conservation",
-         "Soil & Water Conservation District enumeration for issue #27, sourced from the Texas State Soil and "
-         "Water Conservation Board (tsswcb.texas.gov) district directory. A separate oversight body from the "
-         "Comptroller's SPDPID database, so not covered by the Special Districts or MUD sheets. District names "
-         "frequently don't indicate county (watershed-named or multi-county) -- see issue #27 for why these are "
-         "modeled as their own jurisdictions rather than mapped to a county.",
-         f"{n_swcd} districts."),
+         "OUT OF SCOPE for this project (issue #27, closed wontfix/Out of Scope): SWCD director elections are "
+         "not open to the general public -- only landowners within the district vote, unlike every other entity "
+         "type in this workbook. Sheet enumerates districts from the Texas State Soil and Water Conservation "
+         "Board (tsswcb.texas.gov) directory and is kept for historical/reference purposes only; not being "
+         "actively maintained, and no office/officeholder data will be built for it under this project.",
+         f"{n_swcd} districts (as of research date; not maintained going forward)."),
 
         ("Appraisal Districts",
          "County Appraisal District tracking for issue #28: whether each of the 254 CADs has the 3 popularly-"
