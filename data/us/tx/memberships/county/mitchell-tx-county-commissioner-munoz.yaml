@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: mitchell-tx-county-commissioner-munoz
+person_id: ocd-person/950a3a18-acf5-5658-8979-660b9238b3a7
+organization_id: ocd-organization/2fc4b5cc-3ba6-53ee-a8f0-661c648b39af
+post_id: mitchell-tx-county/commissioner
+role: County Commissioner
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 3

@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: travis-tx-county-county-court-at-law-no-9-judge-williams
+person_id: ocd-person/f2d0e631-f05a-5783-a39a-c7f1791e74ca
+organization_id: ocd-organization/b4c0261d-f4e5-5111-b30a-8c27431ed5c3
+post_id: travis-tx-county/county-court-at-law-no-9-judge
+role: County Court at Law No. 9 Judge
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: navarro-tx-county-constable-precinct-2-williams
+person_id: ocd-person/0a199ccd-6361-526c-b095-c2e1ad47651c
+organization_id: ocd-organization/1b0165c1-53a0-50ba-9ae3-abc8e1289739
+post_id: navarro-tx-county/constable-precinct-2
+role: Constable
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 2

@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: sutton-tx-county-county-attorney-cahill
+person_id: ocd-person/82c8540e-6cfe-584f-b321-b7b22adb9039
+organization_id: ocd-organization/e5f7581e-6331-5b39-92b1-9d7a22c82b3c
+post_id: sutton-tx-county/county-attorney
+role: County Attorney
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

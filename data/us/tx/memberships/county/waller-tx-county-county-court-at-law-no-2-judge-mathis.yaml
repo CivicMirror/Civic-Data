@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: waller-tx-county-county-court-at-law-no-2-judge-mathis
+person_id: ocd-person/cc986cb3-e9e3-599d-81ac-868b431851ec
+organization_id: ocd-organization/19b17e7e-3c3f-54a1-aecf-6ca205f01a41
+post_id: waller-tx-county/county-court-at-law-no-2-judge
+role: County Court at Law No. 2 Judge
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

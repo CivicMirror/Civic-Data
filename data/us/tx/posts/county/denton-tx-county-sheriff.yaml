@@ -1,0 +1,14 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: denton-tx-county/sheriff
+organization_id: ocd-organization/74a7e427-f20e-5363-85d1-2f45ca2084da
+title: Sheriff
+seats: 1
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

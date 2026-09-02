@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: reeves-tx-county-sheriff-granado
+person_id: ocd-person/0fafb81c-fabe-543a-8ad1-34802fabe4b2
+organization_id: ocd-organization/24f76717-bac1-5474-bc7c-735b26fe2852
+post_id: reeves-tx-county/sheriff
+role: Sheriff
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

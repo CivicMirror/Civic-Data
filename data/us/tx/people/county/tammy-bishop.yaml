@@ -1,0 +1,27 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: ocd-person/9ce64a51-0871-59a2-b3df-4280c314f5e1
+name: Tammy Bishop
+candidacies:
+- contest_id: tx-2024-general/liberty-tx-county/constable-precinct-1
+  election_id: us-tx/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:liberty/government
+  office_id: liberty-tx-county/constable-precinct-1
+  party: null
+  ballot_name: TAMMY BISHOP
+  status: active
+  sources:
+  - url: https://results.texas-election.com/reports
+    note: Texas SOS 2024 General Election Winner Listing Report
+    retrieved: '2026-09-01'
+verification:
+  status: machine-extracted
+  pipeline: import_tx_2024_county_officers
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: stephens-tx-county-tax-assessor-collector-shook
+person_id: ocd-person/bdf28413-7e24-525e-87a0-a71fa0dce07b
+organization_id: ocd-organization/87a64c18-d3a2-5728-ba2f-54142a898de5
+post_id: stephens-tx-county/tax-assessor-collector
+role: Tax Assessor-Collector
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: irion-tx-county-county-attorney-ridge
+person_id: ocd-person/5cb8cdc1-ae77-5689-ba24-963f4fd12c05
+organization_id: ocd-organization/09b56d00-7af5-5eed-b994-9fe5e4356c8e
+post_id: irion-tx-county/county-attorney
+role: County Attorney
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
