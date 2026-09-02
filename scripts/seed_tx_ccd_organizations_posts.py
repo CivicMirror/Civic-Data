@@ -116,6 +116,73 @@ CCD_MANUAL_OVERRIDES = {
         "note": "One member from each of the 4 Washington County commissioner precincts (SMD) "
                 "+ 3 at-large positions.",
     },
+    # -- Districts with no TASB page at all (see tx_ccd_tasb_unmatched_ccds_
+    # 2026-09-02.csv) or a TASB page but no BBB(LOCAL) text on file (Galveston,
+    # San Jacinto) -- resolved instead from each district's own official
+    # website, fetched fresh (see commit message for URLs/dates). Cisco
+    # College (003553) intentionally has NO entry here: confirmed 9 members
+    # (cisco.edu/about/board-of-regents, cisco.edu/about/history) but no
+    # source found stating at-large vs. district/precinct election, and the
+    # member roster page shows no district labels -- suggestive of at-large
+    # but not a stated confirmation, so left unresolved rather than guessed.
+    "003607": {  # Alamo Community College District -- 9 pure SMD, districts 1-9
+        "board_size": 9, "at_large_seats": 0, "smd_seats": 9,
+        "smd_district_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        "source_url": "https://www.alamo.edu/about-us/leadership/board-of-trustees/",
+        "note": "9 single-member districts (alamo.edu/about-us/leadership/board-of-trustees/, "
+                "fetched 2026-09-02); a non-voting student trustee seat exists separately and "
+                "is out of scope (elected boards only).",
+    },
+    "004003": {  # Central Texas College -- 7 members, at-large
+        "board_size": 7, "at_large_seats": 7, "smd_seats": 0,
+        "smd_district_numbers": [],
+        "source_url": "https://www.ctcd.edu/about-ctc/leadership/board-of-trustees/",
+        "note": "7 members elected at-large, six-year terms (ctcd.edu/about-ctc/leadership/"
+                "board-of-trustees/, fetched 2026-09-02).",
+    },
+    "003563": {  # Del Mar College -- 5 SMD (districts 1-5) + 4 at-large
+        "board_size": 9, "at_large_seats": 4, "smd_seats": 5,
+        "smd_district_numbers": [1, 2, 3, 4, 5],
+        "source_url": "https://www.delmar.edu/regents-and-community/board-of-regents/",
+        "note": "5 single-member districts (1-5) + 4 at-large seats, 9 total "
+                "(delmar.edu/regents-and-community/board-of-regents/, fetched 2026-09-02).",
+    },
+    "103574": {  # Howard County Junior College District -- 7 members, at-large
+        "board_size": 7, "at_large_seats": 7, "smd_seats": 0,
+        "smd_district_numbers": [],
+        "source_url": "https://www.howardcollege.edu/about/board-of-trustees/",
+        "note": "7 members elected countywide (no district/precinct subdivision found) "
+                "(howardcollege.edu/about/board-of-trustees/, fetched 2026-09-02).",
+    },
+    "011145": {  # Lone Star College System -- 9 pure SMD, districts 1-9
+        "board_size": 9, "at_large_seats": 0, "smd_seats": 9,
+        "smd_district_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        "source_url": "https://www.lonestar.edu/trustees.htm",
+        "note": "\"Board Members are elected as representatives of nine single-member "
+                "districts\" (lonestar.edu/trustees.htm, fetched 2026-09-02).",
+    },
+    "003593": {  # Navarro College -- 4 SMD (county commissioner precincts) + 3 at-large
+        "board_size": 7, "at_large_seats": 3, "smd_seats": 4,
+        "smd_district_numbers": [1, 2, 3, 4],
+        "source_url": "https://www.navarrocollege.edu/trustees/elections.html",
+        "note": "\"One trustee from each Navarro County Commissioner's Precinct and three by "
+                "place (at-large)\" (navarrocollege.edu/trustees/elections.html, fetched 2026-09-02).",
+    },
+    "006662": {  # Galveston College -- 9 members, at-large by position
+        "board_size": 9, "at_large_seats": 9, "smd_seats": 0,
+        "smd_district_numbers": [],
+        "source_url": "https://gc.edu/about-gc/administration/board-of-regents/index.php",
+        "note": "\"Nine members elected at large by the qualified voters of the College "
+                "District,\" numbered Position 1-9 (gc.edu/about-gc/administration/"
+                "board-of-regents/, fetched 2026-09-02).",
+    },
+    "029137": {  # San Jacinto Community College District -- 7 members, at-large by position
+        "board_size": 7, "at_large_seats": 7, "smd_seats": 0,
+        "smd_district_numbers": [],
+        "source_url": "https://www.sanjac.edu/about/board-trustees/board-election/",
+        "note": "7 members, numbered at-large positions 1-7 (sanjac.edu/about/board-trustees/"
+                "board-election/, fetched 2026-09-02).",
+    },
 }
 
 # Paris Junior College (003601): Education Code 130.0829 elects 2 members
@@ -190,9 +257,8 @@ def existing_ids(kind):
     return ids
 
 
-def build_records(fice, jur, bbb_row, plan):
-    slug = jur["slug"]
-    source_entry = {
+def bbb_source_entry(bbb_row):
+    return {
         "url": bbb_row["source_url"],
         "note": (
             f"{bbb_row['policy_name']} ({bbb_row['source']}, "
@@ -202,6 +268,10 @@ def build_records(fice, jur, bbb_row, plan):
         ),
         "retrieved": "2026-09-02",
     }
+
+
+def build_records(fice, jur, source_entry, plan):
+    slug = jur["slug"]
 
     org = {
         "id": org_id(fice),
@@ -347,23 +417,38 @@ def main():
 
     for fice, jur in sorted(jurisdictions.items()):
         bbb_row = bbb_by_fice.get(fice)
-        if bbb_row is None:
-            stats["skip_no_bbb_row"] += 1
-            continue
+        header = HEADER
 
         if fice == PARIS_JC_FICE:
             org, posts = build_paris_jc_records(fice, jur, bbb_row)
         elif fice == HILL_COLLEGE_FICE:
             org, posts = build_hill_college_records(fice, jur, bbb_row)
-        else:
-            if fice in CCD_MANUAL_OVERRIDES:
-                plan = dict(CCD_MANUAL_OVERRIDES[fice])
+        elif fice in CCD_MANUAL_OVERRIDES:
+            plan = dict(CCD_MANUAL_OVERRIDES[fice])
+            if "source_url" in plan:
+                # Resolved from the district's own website, not BBB(LOCAL)
+                # text (no TASB page, or a page with no local text on file).
+                source_entry = {
+                    "url": plan["source_url"],
+                    "note": plan["note"],
+                    "retrieved": "2026-09-02",
+                }
+                header = HEADER_OWN_SITE
             else:
-                plan = parse_district(fice, bbb_row["local_text"])
+                if bbb_row is None:
+                    stats["skip_no_bbb_row"] += 1
+                    continue
+                source_entry = bbb_source_entry(bbb_row)
+            org, posts = build_records(fice, jur, source_entry, plan)
+        else:
+            if bbb_row is None:
+                stats["skip_no_bbb_row"] += 1
+                continue
+            plan = parse_district(fice, bbb_row["local_text"])
             if "skip_reason" in plan:
                 stats["skip_unparsed"] += 1
                 continue
-            org, posts = build_records(fice, jur, bbb_row, plan)
+            org, posts = build_records(fice, jur, bbb_source_entry(bbb_row), plan)
 
         if org["id"] in org_ids:
             stats["org_existing"] += 1
@@ -372,7 +457,7 @@ def main():
             path = ORGS_DIR / f"{jur['slug']}-tx-ccd-board.yaml"
             if write:
                 path.write_text(
-                    HEADER + yaml.safe_dump(org, sort_keys=False, allow_unicode=True, default_flow_style=False, width=1000)
+                    header + yaml.safe_dump(org, sort_keys=False, allow_unicode=True, default_flow_style=False, width=1000)
                 )
             org_ids[org["id"]] = org
 
@@ -391,7 +476,7 @@ def main():
             path = POSTS_DIR / fname
             if write:
                 path.write_text(
-                    HEADER + yaml.safe_dump(post, sort_keys=False, allow_unicode=True, default_flow_style=False, width=1000)
+                    header + yaml.safe_dump(post, sort_keys=False, allow_unicode=True, default_flow_style=False, width=1000)
                 )
             post_ids[post["id"]] = post
 
@@ -405,6 +490,16 @@ def main():
 HEADER = (
     "# Seeded from the TX CCD rolling audit's sourced BBB(LOCAL) election-\n"
     "# structure text by scripts/seed_tx_ccd_organizations_posts.py\n"
+    "# (structure only -- see issue #14). Current officeholders are not yet\n"
+    "# researched; this covers board size and seat structure only.\n"
+)
+
+# For the 8 districts with no TASB/BBB(LOCAL) source at all (see
+# CCD_MANUAL_OVERRIDES entries carrying a "source_url"): sourced from each
+# district's own official website instead, fetched fresh 2026-09-02.
+HEADER_OWN_SITE = (
+    "# Seeded from each district's own official website (no TASB/BBB(LOCAL)\n"
+    "# source exists for this district) by scripts/seed_tx_ccd_organizations_posts.py\n"
     "# (structure only -- see issue #14). Current officeholders are not yet\n"
     "# researched; this covers board size and seat structure only.\n"
 )

@@ -1,0 +1,15 @@
+# Seeded from each district's own official website (no TASB/BBB(LOCAL)
+# source exists for this district) by scripts/seed_tx_ccd_organizations_posts.py
+# (structure only -- see issue #14). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/1c259ca0-fe04-5ae5-aa85-c42828979849
+name: Alamo Community College District Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/community_college_district:alamo/school
+identifiers:
+- scheme: thecb-fice
+  identifier: '003607'
+status: active
+sources:
+- url: https://www.alamo.edu/about-us/leadership/board-of-trustees/
+  note: 9 single-member districts (alamo.edu/about-us/leadership/board-of-trustees/, fetched 2026-09-02); a non-voting student trustee seat exists separately and is out of scope (elected boards only).
+  retrieved: '2026-09-02'
