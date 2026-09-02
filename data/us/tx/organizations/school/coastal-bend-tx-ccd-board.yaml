@@ -1,0 +1,15 @@
+# Seeded from the TX CCD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_ccd_organizations_posts.py
+# (structure only -- see issue #14). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/e541a350-a6be-5ee7-a54d-a2e5a0bd3c43
+name: Coastal Bend College Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/community_college_district:coastal-bend/school
+identifiers:
+- scheme: thecb-fice
+  identifier: '003546'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=155
+  note: BBB(LOCAL)-X (tasb, UPDATE 44, issued 12/6/2022) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_ccd_bbb_local_2026-09-02.csv.
+  retrieved: '2026-09-02'
