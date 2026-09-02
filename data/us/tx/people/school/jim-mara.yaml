@@ -1,0 +1,14 @@
+# Seeded from per-district officeholder research (issue #14) by
+# scripts/seed_tx_ccd_people.py. See reference/TX Rolling Audit/
+# tx_ccd_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/50ff5b11-6908-571c-8009-32826a8d8a53
+name: Jim Mara
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CCD officeholder research (issue #14)'
+sources:
+- url: https://www.southplainscollege.edu/about/board_of_regents/boardofregents.php
+  note: 'CCD officeholder research (issue #14), district 003611 (South Plains College) -- South Plains College Board of Regents page.'
+  retrieved: '2026-09-02'
