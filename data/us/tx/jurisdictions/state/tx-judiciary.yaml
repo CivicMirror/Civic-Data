@@ -1,0 +1,24 @@
+# Added for issue #26: a statewide jurisdiction for Texas's judiciary,
+# hosting the Supreme Court of Texas and the Court of Criminal Appeals --
+# the two elected bodies whose constituency is the entire state rather than
+# a county, place, or sub-state judicial/appellate district.
+#
+# classification is `judiciary`, not generic `government`: unlike a county,
+# which stays `government` because Texas county offices aren't organized
+# into separate branch-entities, Texas's statewide elected offices split
+# cleanly along constitutional branches (Governor/AG/Comptroller/etc. as
+# executive, SCOTX/CCA as judiciary, with no single blended "state
+# government body" unifying them). A future `state:tx/executive`
+# jurisdiction, same division_id, is expected when the executive offices
+# are in scope -- see the county/municipal precedent of splitting `school`,
+# `legislature`, etc. out from `government` for single-branch bodies.
+id: ocd-jurisdiction/country:us/state:tx/judiciary
+name: State of Texas (Judiciary)
+state: tx
+division_id: ocd-division/country:us/state:tx
+classification: judiciary
+website: https://www.txcourts.gov/
+sources:
+- url: https://www.txcourts.gov/
+  note: Texas Judicial Branch official portal.
+  retrieved: '2026-09-01'

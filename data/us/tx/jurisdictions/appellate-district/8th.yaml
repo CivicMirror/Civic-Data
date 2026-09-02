@@ -1,0 +1,20 @@
+# Added for issue #26: a Texas Court of Appeals district. Source: Tex.
+# Gov't Code Sec. 22.201, current through the 2023 redistricting -- see
+# the script docstring for why a 2005 OCA county map was rejected as a
+# source. The 15th Court of Appeals is deliberately excluded: Sec.
+# 22.201(p) makes it statewide, so it belongs under
+# data/us/tx/jurisdictions/state/tx-judiciary.yaml instead of a new
+# per-district jurisdiction.
+id: ocd-jurisdiction/country:us/state:tx/appellate_district:8th/judiciary
+name: Eighth Court of Appeals District
+state: tx
+division_id: ocd-division/country:us/state:tx/appellate_district:8th
+classification: judiciary
+identifiers:
+- scheme: tx-appellate-district
+  identifier: Eighth Court of Appeals District
+website: https://www.txcourts.gov/8thcoa.aspx
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/GV/htm/GV.22.htm#22.201
+  note: Texas Government Code Sec. 22.201 (Courts of Appeals Districts), current through Acts 2023, 88th Leg., R.S., Ch. 459 (S.B. 1045), eff. 2023-09-01.
+  retrieved: '2026-09-01'
