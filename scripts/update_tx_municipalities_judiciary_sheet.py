@@ -174,6 +174,18 @@ def main():
             jid, county_str = STATE_JUDICIARY_ID, "Statewide"
             stats["statewide"] += 1
 
+        elif court_type == "Multicounty Court at Law":
+            mc_path = DATA_DIR / "jurisdictions" / "judicial-district" / "bee-live-oak-mcmullen.yaml"
+            if mc_path.exists():
+                jid = yaml.safe_load(mc_path.read_text())["id"]
+                county_str = "BEE, LIVE OAK, MCMULLEN"
+                ws.cell(row=row[0].row, column=COL_NOTES,
+                        value="Bee is the administrative county. County set confirmed via TX SB1260/SB2878 "
+                              "(89R) -- see the jurisdiction file's sources for the exact citations; the "
+                              "court's own Gov't Code creating section wasn't independently pinned to a "
+                              "number (issue #26).")
+                stats["multicounty_court_at_law"] = stats.get("multicounty_court_at_law", 0) + 1
+
         else:
             # County Court at Law, Probate Court, Justice of the Peace already
             # carry a county in column C from the original SOS-derived pass;
@@ -199,9 +211,6 @@ def main():
                     ws.cell(row=row[0].row, column=COL_PARTY, value=party)
                     stats["party_filled"] += 1
 
-        if court_type == "Multicounty Court at Law" and not row[COL_NOTES - 1].value:
-            ws.cell(row=row[0].row, column=COL_NOTES,
-                    value="No jurisdiction minted yet -- multicounty court-at-law county composition not yet researched (issue #26).")
 
     print("==================== SUMMARY ====================")
     for k in sorted(stats):

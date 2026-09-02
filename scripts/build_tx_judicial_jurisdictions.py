@@ -236,36 +236,75 @@ def build_appellate_district_jurisdictions(rec, known_counties):
     return count
 
 
-# Prosecutorial districts that don't align with a numbered judicial
-# district's own county set, discovered while parsing the 2024 SOS Winner
-# Listing Report for issue #26's officer import. "DISTRICT ATTORNEY FOR
-# KLEBERG AND KENEDY COUNTIES" covers only 2 of the 3 counties the 105th
-# Judicial District (Kenedy, Kleberg, Nueces) serves -- Nueces elects its
-# own separate 105th Judicial District DA. Confirmed by statute: Tex. Gov't
-# Code Sec. 43.182 ("District Attorney for Kleberg and Kenedy Counties")
-# creates exactly this 2-county office, serving the district courts of
-# Kleberg and Kenedy Counties -- Nueces is not part of it.
-EXTRA_PROSECUTORIAL_DISTRICTS = [
-    {"slug": "kenedy-kleberg", "counties": ["Kenedy", "Kleberg"],
-     "office": "District Attorney for Kleberg and Kenedy Counties",
-     "statute_url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.43.htm#43.182",
-     "statute_note": "Tex. Gov't Code Sec. 43.182 (District Attorney for Kleberg and Kenedy Counties): "
+# Multi-county judicial/prosecutorial entities that don't align with any
+# numbered judicial district's own county set, discovered while parsing the
+# 2024 SOS Winner Listing Report for issue #26's officer import (or, for
+# the multicounty court-at-law, while filling in TX_Municipalities.xlsx's
+# Judiciary sheet).
+EXTRA_MULTICOUNTY_ENTITIES = [
+    {
+        # "DISTRICT ATTORNEY FOR KLEBERG AND KENEDY COUNTIES" covers only 2 of
+        # the 3 counties the 105th Judicial District (Kenedy, Kleberg, Nueces)
+        # serves -- Nueces elects its own separate 105th Judicial District DA.
+        "slug": "kenedy-kleberg", "counties": ["Kenedy", "Kleberg"],
+        "scheme": "tx-prosecutorial-district",
+        "identifier": "District Attorney for Kleberg and Kenedy Counties",
+        "sources": [
+            {"url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.43.htm#43.182",
+             "note": "Tex. Gov't Code Sec. 43.182 (District Attorney for Kleberg and Kenedy Counties): "
                      "\"The voters of Kleberg and Kenedy Counties elect a district attorney... "
                      "and serves the district courts of Kleberg and Kenedy Counties.\""},
+            {"url": "https://results.texas-election.com/reports",
+             "note": "Texas SOS 2024 General Election Winner Listing Report, office title "
+                     "\"District Attorney for Kleberg and Kenedy Counties\"."},
+        ],
+    },
+    {
+        # "2ND MULTICOUNTY COURT AT LAW" -- a Chapter 25 multicounty statutory
+        # county court. Bee is the administrative county; Government Code
+        # Chapter 25's per-county subchapters don't restate this court's own
+        # creation/county list the way single-county courts get one, so this
+        # is confirmed instead via two Texas Legislature documents that name
+        # the court and all three counties together: SB1260 (89R, "relating
+        # to the jurisdiction of the 2nd Multicounty Court at Law and the
+        # composition of the juvenile boards of Bee, Live Oak, and McMullen
+        # Counties") and SB2878's bill analysis (89R), which amends Human
+        # Resources Code Secs. 152.0191(a) [Bee], 152.1551(a) [Live Oak], and
+        # 152.1621(a) [McMullen] to each seat "the judge of the 2nd
+        # Multicounty Court at Law" on that county's juvenile board.
+        "slug": "bee-live-oak-mcmullen", "counties": ["Bee", "Live Oak", "McMullen"],
+        "scheme": "tx-multicounty-court-at-law",
+        "identifier": "2nd Multicounty Court at Law",
+        "sources": [
+            {"url": "https://trackbill.com/bill/texas-senate-bill-1260-relating-to-the-jurisdiction-of-the-2nd-multicounty-court-at-law-and-the-composition-of-the-juvenile-boards-of-bee-live-oak-and-mcmullen-counties/2660513/",
+             "note": "TX SB1260 (89R), \"relating to the jurisdiction of the 2nd Multicounty Court at Law and "
+                     "the composition of the juvenile boards of Bee, Live Oak, and McMullen Counties.\""},
+            {"url": "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB02878S.HTM",
+             "note": "TX SB2878 (89R) bill analysis, Article 10 (Juvenile Boards): amends Human Resources Code "
+                     "Secs. 152.0191(a), 152.1551(a), 152.1621(a) to seat \"the judge of the 2nd Multicounty "
+                     "Court at Law\" on the Bee, Live Oak, and McMullen County juvenile boards respectively. "
+                     "The court's own creating/jurisdiction-defining provision (likely Gov't Code Ch. 25, "
+                     "Subchapter -- see 25.2601-.2607's generic \"Multicounty Statutory County Courts\" "
+                     "template) was not independently pinned to an exact section number; flagged for anyone "
+                     "who wants to firm up the citation further."},
+            {"url": "https://results.texas-election.com/reports",
+             "note": "Texas SOS 2024 General Election Winner Listing Report, office title "
+                     "\"2ND MULTICOUNTY COURT AT LAW\"."},
+        ],
+    },
 ]
 
 
-def build_extra_prosecutorial_jurisdictions(rec, known_counties):
+def build_extra_multicounty_jurisdictions(rec, known_counties):
     header = (
-        "# Added for issue #26: a prosecutorial (District Attorney) district\n"
+        "# Added for issue #26: a multi-county judicial/prosecutorial entity\n"
         "# whose county set does not match any numbered judicial district's own\n"
-        "# territory -- see EXTRA_PROSECUTORIAL_DISTRICTS in the script for the\n"
-        "# controlling statute.\n"
+        "# territory -- see EXTRA_MULTICOUNTY_ENTITIES in the script for sourcing.\n"
     )
-    for entry in EXTRA_PROSECUTORIAL_DISTRICTS:
+    for entry in EXTRA_MULTICOUNTY_ENTITIES:
         for c in entry["counties"]:
             if county_slug(c) not in known_counties:
-                raise SystemExit(f"Unresolved county {c!r} in {entry['office']}")
+                raise SystemExit(f"Unresolved county {c!r} in {entry['identifier']}")
         jid = f"ocd-jurisdiction/country:us/state:tx/judicial_district:{entry['slug']}/judiciary"
         did = f"ocd-division/country:us/state:tx/judicial_district:{entry['slug']}"
         doc = {
@@ -274,16 +313,11 @@ def build_extra_prosecutorial_jurisdictions(rec, known_counties):
             "state": "tx",
             "division_id": did,
             "classification": "judiciary",
-            "identifiers": [{"scheme": "tx-prosecutorial-district", "identifier": entry["office"]}],
-            "sources": [
-                {"url": entry["statute_url"], "note": entry["statute_note"], "retrieved": RETRIEVED},
-                {"url": "https://results.texas-election.com/reports",
-                 "note": f"Texas SOS 2024 General Election Winner Listing Report, office title \"{entry['office']}\".",
-                 "retrieved": RETRIEVED},
-            ],
+            "identifiers": [{"scheme": entry["scheme"], "identifier": entry["identifier"]}],
+            "sources": [{**s, "retrieved": RETRIEVED} for s in entry["sources"]],
         }
         rec.emit("judicial-district", doc, f"{entry['slug']}.yaml", header)
-    return len(EXTRA_PROSECUTORIAL_DISTRICTS)
+    return len(EXTRA_MULTICOUNTY_ENTITIES)
 
 
 def load_known_counties():
@@ -301,12 +335,12 @@ def main():
 
     n_combos, n_districts_covered = build_judicial_district_jurisdictions(rec, known_counties)
     n_appellate = build_appellate_district_jurisdictions(rec, known_counties)
-    n_extra = build_extra_prosecutorial_jurisdictions(rec, known_counties)
+    n_extra = build_extra_multicounty_jurisdictions(rec, known_counties)
 
     print(f"Judicial district jurisdictions: {n_combos} distinct multi-county combinations "
           f"covering {n_districts_covered} numbered District Courts")
     print(f"Appellate district jurisdictions: {n_appellate} (15th excluded -- statewide)")
-    print(f"Extra prosecutorial-district jurisdictions: {n_extra}")
+    print(f"Extra multicounty jurisdictions (prosecutorial/court-at-law): {n_extra}")
     print()
     print("==================== SUMMARY ====================")
     for k in sorted(rec.stats):

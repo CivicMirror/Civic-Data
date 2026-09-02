@@ -1,0 +1,21 @@
+# Added for issue #26: a multi-county judicial/prosecutorial entity
+# whose county set does not match any numbered judicial district's own
+# territory -- see EXTRA_MULTICOUNTY_ENTITIES in the script for sourcing.
+id: ocd-jurisdiction/country:us/state:tx/judicial_district:bee-live-oak-mcmullen/judiciary
+name: Bee, Live Oak & McMullen Counties Judicial District
+state: tx
+division_id: ocd-division/country:us/state:tx/judicial_district:bee-live-oak-mcmullen
+classification: judiciary
+identifiers:
+- scheme: tx-multicounty-court-at-law
+  identifier: 2nd Multicounty Court at Law
+sources:
+- url: https://trackbill.com/bill/texas-senate-bill-1260-relating-to-the-jurisdiction-of-the-2nd-multicounty-court-at-law-and-the-composition-of-the-juvenile-boards-of-bee-live-oak-and-mcmullen-counties/2660513/
+  note: TX SB1260 (89R), "relating to the jurisdiction of the 2nd Multicounty Court at Law and the composition of the juvenile boards of Bee, Live Oak, and McMullen Counties."
+  retrieved: '2026-09-01'
+- url: https://capitol.texas.gov/tlodocs/89R/analysis/html/SB02878S.HTM
+  note: 'TX SB2878 (89R) bill analysis, Article 10 (Juvenile Boards): amends Human Resources Code Secs. 152.0191(a), 152.1551(a), 152.1621(a) to seat "the judge of the 2nd Multicounty Court at Law" on the Bee, Live Oak, and McMullen County juvenile boards respectively. The court''s own creating/jurisdiction-defining provision (likely Gov''t Code Ch. 25, Subchapter -- see 25.2601-.2607''s generic "Multicounty Statutory County Courts" template) was not independently pinned to an exact section number; flagged for anyone who wants to firm up the citation further.'
+  retrieved: '2026-09-01'
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report, office title "2ND MULTICOUNTY COURT AT LAW".
+  retrieved: '2026-09-01'

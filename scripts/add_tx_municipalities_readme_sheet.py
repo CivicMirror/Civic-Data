@@ -124,8 +124,9 @@ def build_rows(wb):
          "(data/us/tx/jurisdictions/{judicial-district,appellate-district,state}/); Party (2024) from the "
          "Official Canvass Report. County Court at Law, Probate Court, and Justice of the Peace rows are also "
          "included here even though their office/officeholder records live under the county layer "
-         "(data/us/tx/.../county/), since they're court-adjacent. One row, \"2ND MULTICOUNTY COURT AT LAW\", "
-         "has no jurisdiction yet -- its county composition hasn't been researched.",
+         "(data/us/tx/.../county/), since they're court-adjacent. \"2ND MULTICOUNTY COURT AT LAW\" (Bee, Live "
+         "Oak, McMullen Counties) has a jurisdiction confirmed via Legislature bill materials rather than a "
+         "pinned Gov't Code section number -- see that row's Notes.",
          f"{n_jud} rows -- {jud_summary}."),
 
         ("Soil & Water Conservation",
