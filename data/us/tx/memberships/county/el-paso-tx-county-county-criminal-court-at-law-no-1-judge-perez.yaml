@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: el-paso-tx-county-county-criminal-court-at-law-no-1-judge-perez
+person_id: ocd-person/84e5aa07-d8d0-5a47-9411-3e036f2dad53
+organization_id: ocd-organization/fe9ceba9-dd22-5b0c-b0a3-811326f61496
+post_id: el-paso-tx-county/county-criminal-court-at-law-no-1-judge
+role: County Criminal Court at Law No. 1 Judge
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

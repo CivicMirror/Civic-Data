@@ -1,0 +1,27 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: ocd-person/c8cee7ef-d409-5b20-bfac-1cc3cae0fac1
+name: Jessica Vazquez
+candidacies:
+- contest_id: tx-2024-general/el-paso-tx-county/county-criminal-court-at-law-no-4-judge
+  election_id: us-tx/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:el-paso/government
+  office_id: el-paso-tx-county/county-criminal-court-at-law-no-4-judge
+  party: null
+  ballot_name: JESSICA VAZQUEZ
+  status: active
+  sources:
+  - url: https://results.texas-election.com/reports
+    note: Texas SOS 2024 General Election Winner Listing Report
+    retrieved: '2026-09-01'
+verification:
+  status: machine-extracted
+  pipeline: import_tx_2024_county_officers
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

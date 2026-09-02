@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: ocd-organization/8442e063-6c6b-59d8-bf28-a915a1a86f6a
+name: County Court at Law No. 2 Judge
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:liberty/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: liberty-tx-county/county-court-at-law-no-2-judge
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

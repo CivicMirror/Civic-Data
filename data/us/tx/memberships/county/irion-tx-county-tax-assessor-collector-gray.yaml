@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: irion-tx-county-tax-assessor-collector-gray
+person_id: ocd-person/c711c9c1-ace5-56a3-9871-42d9f106f346
+organization_id: ocd-organization/1f13119f-e4e1-59b1-994a-545f260aeb07
+post_id: irion-tx-county/tax-assessor-collector
+role: Tax Assessor-Collector
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'

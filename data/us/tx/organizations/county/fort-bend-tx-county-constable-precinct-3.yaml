@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: ocd-organization/55356d39-fcb6-51e2-bb26-adc76bb8357a
+name: Constable
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:fort-bend/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: fort-bend-tx-county/constable-precinct-3
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

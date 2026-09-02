@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: runnels-tx-county-constable-precinct-2-jobe
+person_id: ocd-person/78474e67-4681-5aa7-909e-332b3b6426ec
+organization_id: ocd-organization/912a730a-4ed9-5d93-93ff-05ddcdf33570
+post_id: runnels-tx-county/constable-precinct-2
+role: Constable
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 2

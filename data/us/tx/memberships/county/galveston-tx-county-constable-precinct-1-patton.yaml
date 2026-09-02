@@ -1,0 +1,18 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports) by
+# scripts/import_tx_2024_county_officers.py. See issue #25. Party is
+# unavailable for county-layer offices from this source (see the
+# script's module docstring); offices not on the 2024 ballot are
+# simply not represented here, not vacant -- see the CURRENCY note.
+id: galveston-tx-county-constable-precinct-1-patton
+person_id: ocd-person/049097a7-5658-5751-b861-d61d1c032d0a
+organization_id: ocd-organization/1d255df5-1198-5a2e-8a45-65e20fa4b5ce
+post_id: galveston-tx-county/constable-precinct-1
+role: Constable
+how_seated: elected
+end: '2029'
+sources:
+- url: https://results.texas-election.com/reports
+  note: 2024 General Election winner; office serves a staggered 4-year term, so this reflects the seat as of the 2024 cycle, not a verified 2026 incumbency check.
+  retrieved: '2026-09-01'
+seat: Precinct 1
