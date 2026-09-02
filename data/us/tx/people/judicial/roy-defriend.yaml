@@ -1,0 +1,27 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-person/03b9fc44-18c3-53a6-9215-de1466f64f2e
+name: Roy Defriend
+candidacies:
+- contest_id: tx-2024-general/freestone-limestone-tx-judicial-district/district-judge-77
+  election_id: us-tx/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:tx/judicial_district:freestone-limestone/judiciary
+  office_id: freestone-limestone-tx-judicial-district/district-judge-77
+  party: REP
+  ballot_name: ROY DEFRIEND
+  status: active
+  sources:
+  - url: https://results.texas-election.com/reports
+    note: Texas SOS 2024 General Election Winner Listing Report; party from the Official Canvass Report.
+    retrieved: '2026-09-01'
+verification:
+  status: machine-extracted
+  pipeline: import_tx_2024_judicial_officers
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

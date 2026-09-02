@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-organization/c3e4b37a-da9d-5e79-9003-596ab3fc8f34
+name: 422nd District Court
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:kaufman/government
+identifiers:
+- scheme: civicmirror-organization
+  identifier: kaufman-tx-county/district-judge-422
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

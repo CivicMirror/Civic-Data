@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-organization/726bc5b1-cbf3-55dd-a33f-2c1bfa5e4669
+name: 2nd 25th District Court
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/judicial_district:colorado-gonzales-guadalupe-lavaca/judiciary
+identifiers:
+- scheme: civicmirror-organization
+  identifier: colorado-gonzales-guadalupe-lavaca-tx-judicial-district/district-judge-2-25
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

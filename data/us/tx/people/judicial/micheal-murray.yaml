@@ -1,0 +1,27 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-person/8d2e7d9b-4eb4-565f-ab41-0e0b07c1ef90
+name: Micheal Murray
+candidacies:
+- contest_id: tx-2024-general/brown-mills-tx-judicial-district/district-attorney-35
+  election_id: us-tx/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:tx/judicial_district:brown-mills/judiciary
+  office_id: brown-mills-tx-judicial-district/district-attorney-35
+  party: REP
+  ballot_name: MICHEAL MURRAY
+  status: active
+  sources:
+  - url: https://results.texas-election.com/reports
+    note: Texas SOS 2024 General Election Winner Listing Report; party from the Official Canvass Report.
+    retrieved: '2026-09-01'
+verification:
+  status: machine-extracted
+  pipeline: import_tx_2024_judicial_officers
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

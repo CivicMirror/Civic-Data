@@ -1,0 +1,17 @@
+# Added for issue #26: a prosecutorial (District Attorney) district
+# whose county set does not match any numbered judicial district's own
+# territory. County set taken directly from the SOS office title text --
+# see EXTRA_PROSECUTORIAL_DISTRICTS in the script for the statutory-
+# confirmation caveat.
+id: ocd-jurisdiction/country:us/state:tx/judicial_district:kenedy-kleberg/judiciary
+name: Kenedy & Kleberg Counties Judicial District
+state: tx
+division_id: ocd-division/country:us/state:tx/judicial_district:kenedy-kleberg
+classification: judiciary
+identifiers:
+- scheme: tx-prosecutorial-district
+  identifier: District Attorney for Kleberg and Kenedy Counties
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report, office title "District Attorney for Kleberg and Kenedy Counties".
+  retrieved: '2026-09-01'
