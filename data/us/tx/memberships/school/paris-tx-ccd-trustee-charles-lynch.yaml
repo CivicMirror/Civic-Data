@@ -1,0 +1,13 @@
+# Seeded from per-district officeholder research (issue #14) by
+# scripts/seed_tx_ccd_people.py. See reference/TX Rolling Audit/
+# tx_ccd_officeholders_batch*_*.csv for the full source data.
+id: paris-tx-ccd-trustee-charles-lynch
+person_id: ocd-person/a42377fe-70fc-5865-aabc-547f4f01ccf1
+organization_id: ocd-organization/2dab35d0-78e6-553e-a5ee-8154b7773a33
+post_id: paris-tx-ccd/trustee-precinct-4
+role: Trustee
+seat: Place 4
+sources:
+- url: https://www.parisjc.edu/about/regents.php
+  note: 'CCD officeholder research (issue #14), district 003601 (Paris Junior College) -- Paris Junior College Board of Regents page.'
+  retrieved: '2026-09-02'

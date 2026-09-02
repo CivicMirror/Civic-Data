@@ -1,0 +1,14 @@
+# Seeded from per-district officeholder research (issue #14) by
+# scripts/seed_tx_ccd_people.py. See reference/TX Rolling Audit/
+# tx_ccd_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/3f3b4c27-a216-558d-bea5-5f400b9c26f1
+name: Larry Sitka
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CCD officeholder research (issue #14)'
+sources:
+- url: https://www.wcjc.edu/about/leadership/board-of-trustees/board-members.aspx
+  note: 'CCD officeholder research (issue #14), district 003668 (Wharton County Junior College) -- WCJC Board of Trustees page.'
+  retrieved: '2026-09-02'

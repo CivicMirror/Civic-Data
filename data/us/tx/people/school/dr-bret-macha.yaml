@@ -1,0 +1,14 @@
+# Seeded from per-district officeholder research (issue #14) by
+# scripts/seed_tx_ccd_people.py. See reference/TX Rolling Audit/
+# tx_ccd_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/d379bf3c-0585-52f3-b406-d90db406e3f8
+name: Dr. Bret Macha
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CCD officeholder research (issue #14)'
+sources:
+- url: https://www.wcjc.edu/about/leadership/board-of-trustees/board-members.aspx
+  note: 'CCD officeholder research (issue #14), district 003668 (Wharton County Junior College) -- WCJC Board of Trustees page.'
+  retrieved: '2026-09-02'
