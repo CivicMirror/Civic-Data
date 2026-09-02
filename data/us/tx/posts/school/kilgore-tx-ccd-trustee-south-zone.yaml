@@ -1,0 +1,19 @@
+# Corrected during officeholder research (issue #14): the district's
+# BBB(LOCAL) text reads "Election of Board members shall be at large
+# WITHIN EACH VOTING ZONE" -- three zones (South/North/Central), each
+# electing its own 3 places (Places 1,4,7 / 2,5,8 / 3,6,9 respectively),
+# not one district-wide at-large bloc. The original structure-seed pass
+# missed "zone" (its classifier only checked for "single-member
+# district"/"at large"/"by position"/"cumulative voting") and
+# mis-modeled this as a single 9-seat at-large Post. Replaces that Post.
+# See kilgore.edu/additional-resources/board-of-trustees/, fetched
+# 2026-09-02, and tx_ccd_bbb_local_2026-09-02.csv for the source text.
+id: kilgore-tx-ccd/trustee-south-zone
+organization_id: ocd-organization/a366f591-f844-502f-9029-89fe944a21cf
+title: Trustee, South Zone
+seats: 3
+identifiers: []
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=537
+  note: 'BBB(LOCAL)-X (tasb, UPDATE 44, issued 1/5/2023): "at large within each voting zone" -- South Zone (Leverett''s Chapel ISD, West Rusk ISD, Overton ISD), Places 1, 4, and 7.'
+  retrieved: '2026-09-02'
