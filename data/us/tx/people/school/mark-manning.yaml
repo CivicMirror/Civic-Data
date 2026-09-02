@@ -1,0 +1,14 @@
+# Seeded from per-district officeholder research (issue #14) by
+# scripts/seed_tx_ccd_people.py. See reference/TX Rolling Audit/
+# tx_ccd_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/f5d01fa8-8e35-5508-8b34-97810b79060b
+name: Mark Manning
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CCD officeholder research (issue #14)'
+sources:
+- url: https://www.ctcd.edu/about-ctc/leadership/board-of-trustees/
+  note: 'CCD officeholder research (issue #14), district 004003 (Central Texas College) -- Central Texas College Board of Trustees page (fetched via search snippet -- direct fetch returned HTTP 403).'
+  retrieved: '2026-09-02'

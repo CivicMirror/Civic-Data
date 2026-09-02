@@ -1,0 +1,14 @@
+# Seeded from per-district officeholder research (issue #14) by
+# scripts/seed_tx_ccd_people.py. See reference/TX Rolling Audit/
+# tx_ccd_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/bfef9b8c-9875-5864-bd8e-fee976d0177e
+name: Jesus Mendez
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CCD officeholder research (issue #14)'
+sources:
+- url: https://www.epcc.edu/Administration/BoardOfTrustees
+  note: 'CCD officeholder research (issue #14), district 010387 (El Paso Community College District) -- EPCC Board of Trustees page.'
+  retrieved: '2026-09-02'
