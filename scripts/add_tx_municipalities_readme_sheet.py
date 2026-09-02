@@ -44,6 +44,9 @@ def build_rows(wb):
 
     isd = wb["ISD"]
     n_isd = count_data_rows(isd, 1)
+    n_isd_elected = sum(1 for r in isd.iter_rows(min_row=2, values_only=True) if r[0] and r[10] == "Elected")
+    n_isd_appointed = sum(1 for r in isd.iter_rows(min_row=2, values_only=True) if r[0] and r[10] == "Appointed (excluded)")
+    n_isd_gap = sum(1 for r in isd.iter_rows(min_row=2, values_only=True) if r[0] and r[9] and "needs sourcing" in r[9])
 
     ccd = wb["CCD"]
     n_ccd = count_data_rows(ccd, 1)
@@ -93,10 +96,14 @@ def build_rows(wb):
          f"{n_muni} municipalities, {n_muni_site} with a verified website ({n_muni_site*100//n_muni}%)."),
 
         ("ISD",
-         "Independent school district enumeration for issue #13, seeded from the Texas Education Agency's "
-         "AskTED district directory, with each ISD's county, TEA CDN (county-district number), website, and "
-         "board-policy link where available.",
-         f"{n_isd} ISDs."),
+         "Independent school district structure and officeholders for issue #13, seeded from the Texas "
+         "Education Agency's AskTED district directory and BBB(LOCAL) election-method policies via TASB. "
+         "Jurisdiction/Board Size/Seat Structure/Officeholders Seeded/Status columns cross-reference "
+         "data/us/tx/{jurisdictions,organizations,posts,people,memberships}/school/ -- computed live from "
+         "those files, not hand-maintained. 5 districts (Randolph Field, Lackland, Ft Sam Houston, Boys Ranch, "
+         "and Houston ISD under its current TEA receivership) are correctly excluded as appointed, not elected.",
+         f"{n_isd} ISDs -- {n_isd_elected} elected ({n_isd_elected - n_isd_gap} fully seeded, {n_isd_gap} still "
+         f"need officeholder sourcing), {n_isd_appointed} appointed/excluded."),
 
         ("CCD",
          "Public community/junior college district enumeration for issue #14, with each district's legal name "
