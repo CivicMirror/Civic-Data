@@ -113,6 +113,16 @@ def titlecase_name(raw):
 PRECINCT_RE = re.compile(r"PRECINCT (\d+(?:\s*&\s*\d+)?)")
 UNEXPIRED_RE = re.compile(r"\s*-\s*UNEXPIRED TERM\s*$")
 
+# A precinct list can combine 2+ precincts with a mix of commas and "&"
+# (e.g. "2 & 3", "1, 5 & 6") -- some offices cover more than a simple pair.
+PRECINCT_LIST_RE = r"\d+(?:\s*[,&]\s*\d+)*"
+
+
+def normalize_precinct_list(raw):
+    """'1, 5 & 6' -> (slug '1-5-6', label '1 & 5 & 6')."""
+    nums = re.split(r"\s*[,&]\s*", raw.strip())
+    return "-".join(nums), " & ".join(nums)
+
 # (match regex, office_key_template, title_template, seats, org_name_template)
 SIMPLE_OFFICES = [
     (re.compile(r"^COUNTY JUDGE$"), "county-judge", "County Judge", 1),
@@ -156,26 +166,41 @@ def classify(office_raw):
     if office == "COUNTY CONSTABLE":
         return "constable", "Constable", 1, None
 
+    # A few precincts elect more than one constable "Place" (e.g. Maverick
+    # Precinct 3, El Paso Precinct 6) -- same collision risk and same fix
+    # as Justice of the Peace below: capture Place only when present.
+    m = re.match(rf"^COUNTY CONSTABLE PRECINCT\s+({PRECINCT_LIST_RE})(?:,\s*PLACE\s*(\d+))?$", office)
+    if m:
+        precinct, precinct_label = normalize_precinct_list(m.group(1))
+        place = m.group(2)
+        if place:
+            return (f"constable-precinct-{precinct}-place-{place}", "Constable", 1,
+                    f"Precinct {precinct_label}, Place {place}")
+        return f"constable-precinct-{precinct}", "Constable", 1, f"Precinct {precinct_label}"
+
     m = re.match(r"^COUNTY CONSTABLE (.+)$", office)
     if m:
         rest = m.group(1).strip()
-        pm = PRECINCT_RE.match(rest) or re.match(r"^NO\.?\s*(\d+)$", rest)
+        pm = re.match(r"^NO\.?\s*(\d+)$", rest)
         if not pm:
             return None
-        precinct = re.sub(r"\s*&\s*", "-", pm.group(1))
-        precinct_label = re.sub(r"\s*&\s*", " & ", pm.group(1))
-        return f"constable-precinct-{precinct}", "Constable", 1, f"Precinct {precinct_label}"
+        precinct = pm.group(1)
+        return f"constable-precinct-{precinct}", "Constable", 1, f"Precinct {precinct}"
 
     if office == "JUSTICE OF THE PEACE":
         return "justice-of-the-peace", "Justice of the Peace", 1, None
 
-    m = re.match(r"^JUSTICE OF THE PEACE\s*(.+)$", office)
+    # Populous precincts elect more than one JP "Place" (e.g. "PRECINCT 1,
+    # PLACE 2") -- each Place is its own single-seat post. Capturing Place
+    # only when present avoids renaming the (much more common) single-JP
+    # precincts that never carry a Place suffix at all.
+    m = re.match(rf"^JUSTICE OF THE PEACE\s*PRECINCT\s+({PRECINCT_LIST_RE})(?:,\s*PLACE\s*(\d+))?$", office)
     if m:
-        pm = PRECINCT_RE.match(m.group(1).strip())
-        if not pm:
-            return None
-        precinct = re.sub(r"\s*&\s*", "-", pm.group(1))
-        precinct_label = re.sub(r"\s*&\s*", " & ", pm.group(1))
+        precinct, precinct_label = normalize_precinct_list(m.group(1))
+        place = m.group(2)
+        if place:
+            return (f"justice-of-the-peace-precinct-{precinct}-place-{place}", "Justice of the Peace", 1,
+                    f"Precinct {precinct_label}, Place {place}")
         return f"justice-of-the-peace-precinct-{precinct}", "Justice of the Peace", 1, f"Precinct {precinct_label}"
 
     if office == "JUDGE, COUNTY COURT AT LAW":
