@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-organization/f3383b1e-7c2a-5c06-bd39-b68f6fb286c9
+name: District Attorney, 9th Judicial District
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:montgomery/government
+identifiers:
+- scheme: civicmirror-organization
+  identifier: montgomery-tx-county/district-attorney-9
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

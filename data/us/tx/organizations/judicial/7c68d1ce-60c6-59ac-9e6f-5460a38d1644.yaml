@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-organization/7c68d1ce-60c6-59ac-9e6f-5460a38d1644
+name: District Attorney, 32nd Judicial District
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/judicial_district:fisher-mitchell-nolan/judiciary
+identifiers:
+- scheme: civicmirror-organization
+  identifier: fisher-mitchell-nolan-tx-judicial-district/district-attorney-32
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

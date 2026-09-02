@@ -1,0 +1,27 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-person/e19f34e0-d250-50e6-9b71-2abf3ee995e2
+name: J. Brad Mccampbell
+candidacies:
+- contest_id: tx-2024-general/wood-tx-county/district-judge-402
+  election_id: us-tx/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:wood/government
+  office_id: wood-tx-county/district-judge-402
+  party: REP
+  ballot_name: J. BRAD MCCAMPBELL
+  status: active
+  sources:
+  - url: https://results.texas-election.com/reports
+    note: Texas SOS 2024 General Election Winner Listing Report; party from the Official Canvass Report.
+    retrieved: '2026-09-01'
+verification:
+  status: machine-extracted
+  pipeline: import_tx_2024_judicial_officers
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

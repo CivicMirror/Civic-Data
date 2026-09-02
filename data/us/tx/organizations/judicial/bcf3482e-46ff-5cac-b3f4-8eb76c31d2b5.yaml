@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-organization/bcf3482e-46ff-5cac-b3f4-8eb76c31d2b5
+name: 433rd District Court
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:comal/government
+identifiers:
+- scheme: civicmirror-organization
+  identifier: comal-tx-county/district-judge-433
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

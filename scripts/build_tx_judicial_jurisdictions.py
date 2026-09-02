@@ -236,6 +236,51 @@ def build_appellate_district_jurisdictions(rec, known_counties):
     return count
 
 
+# Prosecutorial districts that don't align with a numbered judicial
+# district's own county set, discovered while parsing the 2024 SOS Winner
+# Listing Report for issue #26's officer import. "DISTRICT ATTORNEY FOR
+# KLEBERG AND KENEDY COUNTIES" covers only 2 of the 3 counties the 105th
+# Judicial District (Kenedy, Kleberg, Nueces) serves -- Nueces elects its
+# own separate 105th Judicial District DA. The county set comes directly
+# from the SOS office title text, not a statute cite -- flagged as needing
+# statutory confirmation (Government Code Ch. 43, DA-district enabling
+# provisions) rather than presented as fully sourced.
+EXTRA_PROSECUTORIAL_DISTRICTS = [
+    {"slug": "kenedy-kleberg", "counties": ["Kenedy", "Kleberg"], "office": "District Attorney for Kleberg and Kenedy Counties"},
+]
+
+
+def build_extra_prosecutorial_jurisdictions(rec, known_counties):
+    header = (
+        "# Added for issue #26: a prosecutorial (District Attorney) district\n"
+        "# whose county set does not match any numbered judicial district's own\n"
+        "# territory. County set taken directly from the SOS office title text --\n"
+        "# see EXTRA_PROSECUTORIAL_DISTRICTS in the script for the statutory-\n"
+        "# confirmation caveat.\n"
+    )
+    for entry in EXTRA_PROSECUTORIAL_DISTRICTS:
+        for c in entry["counties"]:
+            if county_slug(c) not in known_counties:
+                raise SystemExit(f"Unresolved county {c!r} in {entry['office']}")
+        jid = f"ocd-jurisdiction/country:us/state:tx/judicial_district:{entry['slug']}/judiciary"
+        did = f"ocd-division/country:us/state:tx/judicial_district:{entry['slug']}"
+        doc = {
+            "id": jid,
+            "name": f"{oxford(entry['counties'])} Counties Judicial District",
+            "state": "tx",
+            "division_id": did,
+            "classification": "judiciary",
+            "identifiers": [{"scheme": "tx-prosecutorial-district", "identifier": entry["office"]}],
+            "sources": [{
+                "url": "https://results.texas-election.com/reports",
+                "note": f"Texas SOS 2024 General Election Winner Listing Report, office title \"{entry['office']}\".",
+                "retrieved": RETRIEVED,
+            }],
+        }
+        rec.emit("judicial-district", doc, f"{entry['slug']}.yaml", header)
+    return len(EXTRA_PROSECUTORIAL_DISTRICTS)
+
+
 def load_known_counties():
     known = {}
     for f in (DATA_DIR / "jurisdictions" / "county").glob("*-government.yaml"):
@@ -251,10 +296,12 @@ def main():
 
     n_combos, n_districts_covered = build_judicial_district_jurisdictions(rec, known_counties)
     n_appellate = build_appellate_district_jurisdictions(rec, known_counties)
+    n_extra = build_extra_prosecutorial_jurisdictions(rec, known_counties)
 
     print(f"Judicial district jurisdictions: {n_combos} distinct multi-county combinations "
           f"covering {n_districts_covered} numbered District Courts")
     print(f"Appellate district jurisdictions: {n_appellate} (15th excluded -- statewide)")
+    print(f"Extra prosecutorial-district jurisdictions: {n_extra}")
     print()
     print("==================== SUMMARY ====================")
     for k in sorted(rec.stats):

@@ -1,0 +1,17 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-organization/3eb20140-e9b9-58c0-bbfe-31e9ab7ee552
+name: 62nd District Court
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/judicial_district:delta-franklin-hopkins-lamar/judiciary
+identifiers:
+- scheme: civicmirror-organization
+  identifier: delta-franklin-hopkins-lamar-tx-judicial-district/district-judge-62
+status: active
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'

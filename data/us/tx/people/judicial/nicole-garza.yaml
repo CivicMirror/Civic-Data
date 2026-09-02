@@ -1,0 +1,27 @@
+# Imported from the Texas Secretary of State's 2024 General Election
+# Winner Listing Report (results.texas-election.com/reports), joined
+# with the Official Canvass Report for party, by scripts/
+# import_tx_2024_judicial_officers.py. See issue #26. Offices not on
+# the 2024 ballot (staggered terms) are simply not represented here,
+# not vacant -- see the script's module docstring.
+id: ocd-person/90e012e9-8e9a-56c6-b9a8-5c638822c4bc
+name: Nicole Garza
+candidacies:
+- contest_id: tx-2024-general/bexar-tx-county/district-judge-37
+  election_id: us-tx/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:tx/county:bexar/government
+  office_id: bexar-tx-county/district-judge-37
+  party: DEM
+  ballot_name: NICOLE GARZA
+  status: active
+  sources:
+  - url: https://results.texas-election.com/reports
+    note: Texas SOS 2024 General Election Winner Listing Report; party from the Official Canvass Report.
+    retrieved: '2026-09-01'
+verification:
+  status: machine-extracted
+  pipeline: import_tx_2024_judicial_officers
+sources:
+- url: https://results.texas-election.com/reports
+  note: Texas SOS 2024 General Election Winner Listing Report
+  retrieved: '2026-09-01'
