@@ -1,0 +1,15 @@
+# Seeded from each district's own official website (no TASB/BBB(LOCAL)
+# source exists for this district) by scripts/seed_tx_ccd_organizations_posts.py
+# (structure only -- see issue #14). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/80f89f25-322f-5a52-a78e-d3aa74be385a
+name: Cisco College Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/community_college_district:cisco/school
+identifiers:
+- scheme: thecb-fice
+  identifier: '003553'
+status: active
+sources:
+- url: https://www.eastlandcounty.gov/DocumentCenter/View/958/Cisco-College-Resolution-2026-001-PDF
+  note: Board of Regents Resolution 2026-001 (approved 2/9/2026) orders the election "by the qualified voters of the Cisco College District" (district-wide, not a sub-district precinct) for numbered Places (1, 2, 4, 5, 6 in this cycle) -- at-large by position. Board size (9) confirmed separately via cisco.edu/about/board-of-regents (9 current regents listed) and the college's own policy manual ("a Board of Regents of nine members, duly elected by the registered voters of the Cisco College District"), fetched 2026-09-02.
+  retrieved: '2026-09-02'

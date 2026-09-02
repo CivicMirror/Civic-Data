@@ -119,12 +119,19 @@ CCD_MANUAL_OVERRIDES = {
     # -- Districts with no TASB page at all (see tx_ccd_tasb_unmatched_ccds_
     # 2026-09-02.csv) or a TASB page but no BBB(LOCAL) text on file (Galveston,
     # San Jacinto) -- resolved instead from each district's own official
-    # website, fetched fresh (see commit message for URLs/dates). Cisco
-    # College (003553) intentionally has NO entry here: confirmed 9 members
-    # (cisco.edu/about/board-of-regents, cisco.edu/about/history) but no
-    # source found stating at-large vs. district/precinct election, and the
-    # member roster page shows no district labels -- suggestive of at-large
-    # but not a stated confirmation, so left unresolved rather than guessed.
+    # website, fetched fresh (see commit message for URLs/dates).
+    "003553": {  # Cisco College -- 9 members, at-large by position
+        "board_size": 9, "at_large_seats": 9, "smd_seats": 0,
+        "smd_district_numbers": [],
+        "source_url": "https://www.eastlandcounty.gov/DocumentCenter/View/958/Cisco-College-Resolution-2026-001-PDF",
+        "note": "Board of Regents Resolution 2026-001 (approved 2/9/2026) orders the election "
+                "\"by the qualified voters of the Cisco College District\" (district-wide, not "
+                "a sub-district precinct) for numbered Places (1, 2, 4, 5, 6 in this cycle) -- "
+                "at-large by position. Board size (9) confirmed separately via "
+                "cisco.edu/about/board-of-regents (9 current regents listed) and the college's "
+                "own policy manual (\"a Board of Regents of nine members, duly elected by the "
+                "registered voters of the Cisco College District\"), fetched 2026-09-02.",
+    },
     "003607": {  # Alamo Community College District -- 9 pure SMD, districts 1-9
         "board_size": 9, "at_large_seats": 0, "smd_seats": 9,
         "smd_district_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9],
