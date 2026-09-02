@@ -241,12 +241,17 @@ def build_appellate_district_jurisdictions(rec, known_counties):
 # Listing Report for issue #26's officer import. "DISTRICT ATTORNEY FOR
 # KLEBERG AND KENEDY COUNTIES" covers only 2 of the 3 counties the 105th
 # Judicial District (Kenedy, Kleberg, Nueces) serves -- Nueces elects its
-# own separate 105th Judicial District DA. The county set comes directly
-# from the SOS office title text, not a statute cite -- flagged as needing
-# statutory confirmation (Government Code Ch. 43, DA-district enabling
-# provisions) rather than presented as fully sourced.
+# own separate 105th Judicial District DA. Confirmed by statute: Tex. Gov't
+# Code Sec. 43.182 ("District Attorney for Kleberg and Kenedy Counties")
+# creates exactly this 2-county office, serving the district courts of
+# Kleberg and Kenedy Counties -- Nueces is not part of it.
 EXTRA_PROSECUTORIAL_DISTRICTS = [
-    {"slug": "kenedy-kleberg", "counties": ["Kenedy", "Kleberg"], "office": "District Attorney for Kleberg and Kenedy Counties"},
+    {"slug": "kenedy-kleberg", "counties": ["Kenedy", "Kleberg"],
+     "office": "District Attorney for Kleberg and Kenedy Counties",
+     "statute_url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.43.htm#43.182",
+     "statute_note": "Tex. Gov't Code Sec. 43.182 (District Attorney for Kleberg and Kenedy Counties): "
+                     "\"The voters of Kleberg and Kenedy Counties elect a district attorney... "
+                     "and serves the district courts of Kleberg and Kenedy Counties.\""},
 ]
 
 
@@ -254,9 +259,8 @@ def build_extra_prosecutorial_jurisdictions(rec, known_counties):
     header = (
         "# Added for issue #26: a prosecutorial (District Attorney) district\n"
         "# whose county set does not match any numbered judicial district's own\n"
-        "# territory. County set taken directly from the SOS office title text --\n"
-        "# see EXTRA_PROSECUTORIAL_DISTRICTS in the script for the statutory-\n"
-        "# confirmation caveat.\n"
+        "# territory -- see EXTRA_PROSECUTORIAL_DISTRICTS in the script for the\n"
+        "# controlling statute.\n"
     )
     for entry in EXTRA_PROSECUTORIAL_DISTRICTS:
         for c in entry["counties"]:
@@ -271,11 +275,12 @@ def build_extra_prosecutorial_jurisdictions(rec, known_counties):
             "division_id": did,
             "classification": "judiciary",
             "identifiers": [{"scheme": "tx-prosecutorial-district", "identifier": entry["office"]}],
-            "sources": [{
-                "url": "https://results.texas-election.com/reports",
-                "note": f"Texas SOS 2024 General Election Winner Listing Report, office title \"{entry['office']}\".",
-                "retrieved": RETRIEVED,
-            }],
+            "sources": [
+                {"url": entry["statute_url"], "note": entry["statute_note"], "retrieved": RETRIEVED},
+                {"url": "https://results.texas-election.com/reports",
+                 "note": f"Texas SOS 2024 General Election Winner Listing Report, office title \"{entry['office']}\".",
+                 "retrieved": RETRIEVED},
+            ],
         }
         rec.emit("judicial-district", doc, f"{entry['slug']}.yaml", header)
     return len(EXTRA_PROSECUTORIAL_DISTRICTS)
