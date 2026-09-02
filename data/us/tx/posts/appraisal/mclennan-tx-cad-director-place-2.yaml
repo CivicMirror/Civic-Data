@@ -1,0 +1,14 @@
+# Seeded from the TX Appraisal District rolling audit's TAAD/Tax-Code-
+# 6.0301 enumeration by scripts/seed_tx_cad_organizations_posts.py
+# (structure only -- see issue #28). Current officeholders are not yet
+# researched; this covers the 3 popularly-elected "Place" seats only,
+# not the board's 5 appointed seats or 1 ex officio seat.
+id: mclennan-tx-cad/director-place-2
+organization_id: ocd-organization/c3f1ef39-936e-56bc-89cf-e5cb889b7e0e
+title: Director, Place 2
+seats: 1
+identifiers: []
+sources:
+- url: http://www.mclennancad.org
+  note: McLennan CAD -- enumerated via TAAD's Texas CAD website directory; elected-seat status confirmed per Tax Code 6.0301 (county population 260579, 2020 Census, over the 75,000 threshold). Only the 3 popularly-elected "Place" seats get a Post here; the board's 5 appointed seats and 1 ex officio seat (county Tax Assessor-Collector) are out of scope.
+  retrieved: '2026-09-02'

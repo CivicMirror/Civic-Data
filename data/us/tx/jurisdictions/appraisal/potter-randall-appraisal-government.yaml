@@ -1,0 +1,14 @@
+# Seeded from the TX Appraisal District rolling audit (issue #28) by
+# scripts/seed_tx_cad_potter_randall_jurisdiction.py. The one CAD in
+# the elected-seat scope that spans two counties, so it doesn't fit
+# either county's own jurisdiction file the way the other 48 do.
+id: ocd-jurisdiction/country:us/state:tx/appraisal_district:potter-randall/government
+name: Potter/Randall Appraisal District
+state: tx
+division_id: ocd-division/country:us/state:tx/appraisal_district:potter-randall
+classification: government
+website: http://www.prad.org
+sources:
+- url: https://taad.org/resources/texas-cad-websites/
+  note: 'TAAD''s Texas CAD website directory lists "Potter/Randall CAD" as a single entity serving both counties (Tax Code 6.01(a) normally establishes one appraisal district per county; Potter and Randall are the one pair that shares a joint district). Both counties individually cross the 75,000-population elected-seat threshold (Tax Code 6.0301): Potter 118,525, Randall 140,753 (2020 Census).'
+  retrieved: '2026-09-02'
