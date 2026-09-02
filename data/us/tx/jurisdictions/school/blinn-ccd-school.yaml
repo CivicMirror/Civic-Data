@@ -1,0 +1,16 @@
+# Seeded from the TX CCD rolling audit's THECB enumeration by
+# scripts/seed_tx_ccd_jurisdictions.py (see issue #14). Board
+# size/structure and official site are individually verified in
+# later office research, not asserted here.
+id: ocd-jurisdiction/country:us/state:tx/community_college_district:blinn/school
+name: Blinn College District
+state: tx
+division_id: ocd-division/country:us/state:tx/community_college_district:blinn
+classification: school
+sources:
+- url: https://databridge.highered.texas.gov/almanac/
+  note: Texas Higher Education Coordinating Board 2025 Almanac (THECB_2025_almanac_data_01062026.xlsx, 2-Year sheet), FICE 003549, "Blinn College District" (Brenham). Enumeration only; board size/structure and official site not yet individually verified.
+  retrieved: '2026-09-02'
+- url: https://pol.tasb.org/PolicyOnline?key=1204
+  note: TASB Policy Online page for this district (matched to THECB FICE 003549 via this repo's TASB<->THECB crosswalk); source for the district's BBB(LOCAL) election-method policy in later office research.
+  retrieved: '2026-09-02'
