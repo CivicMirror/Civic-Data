@@ -1,0 +1,15 @@
+# Seeded from the TX CCD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_ccd_organizations_posts.py
+# (structure only -- see issue #14). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/6c23cdf3-3963-54ea-b645-e6b01e56a1f2
+name: Odessa College Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/community_college_district:odessa/school
+identifiers:
+- scheme: thecb-fice
+  identifier: 003596
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=420
+  note: BBB(LOCAL)-X (tasb, UPDATE 44, issued 12/21/2022) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_ccd_bbb_local_2026-09-02.csv.
+  retrieved: '2026-09-02'

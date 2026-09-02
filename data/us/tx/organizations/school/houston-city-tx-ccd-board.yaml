@@ -1,0 +1,15 @@
+# Seeded from the TX CCD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_ccd_organizations_posts.py
+# (structure only -- see issue #14). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/5c7c8212-dc06-5a14-9286-07ab8ac729de
+name: Houston City College Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/community_college_district:houston-city/school
+identifiers:
+- scheme: thecb-fice
+  identifier: '010633'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=581
+  note: BBB(LOCAL)-X (tasb, LDU 2023.06, issued 8/1/2023) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_ccd_bbb_local_2026-09-02.csv.
+  retrieved: '2026-09-02'
