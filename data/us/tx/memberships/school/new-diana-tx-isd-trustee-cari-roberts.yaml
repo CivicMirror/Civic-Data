@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: new-diana-tx-isd-trustee-cari-roberts
+person_id: ocd-person/f901b993-05f4-55a5-b362-55c00a233364
+organization_id: ocd-organization/a6e8c862-3295-5e00-b74e-45f5471830ba
+post_id: new-diana-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 230906 (New Diana ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: tenaha-tx-isd-trustee-crystal-ogden
+person_id: ocd-person/b5d8f6ef-095f-5252-8adc-35f9bf0be6e4
+organization_id: ocd-organization/eaa475c3-d9e3-5287-9f76-100bbe40530f
+post_id: tenaha-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 210904 (Tenaha ISD) -- current board roster.
+  retrieved: '2026-08-25'

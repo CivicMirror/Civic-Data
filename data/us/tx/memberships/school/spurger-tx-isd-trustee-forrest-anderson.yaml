@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: spurger-tx-isd-trustee-forrest-anderson
+person_id: ocd-person/7fb939c0-a2f6-504d-89da-e26447f59c44
+organization_id: ocd-organization/b5d14f11-300c-5fc5-ba79-dfdb9146089c
+post_id: spurger-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 229905 (Spurger ISD) -- current board roster.
+  retrieved: '2026-08-25'

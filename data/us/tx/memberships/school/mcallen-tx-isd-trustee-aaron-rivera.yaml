@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: mcallen-tx-isd-trustee-aaron-rivera
+person_id: ocd-person/dc4f90bb-3548-54f0-b28e-4c09ce4cc0c0
+organization_id: ocd-organization/c809ffee-a6fb-5f7a-9edf-8625b8a9cc58
+post_id: mcallen-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 108906 (McAllen ISD) -- current board roster.
+  retrieved: '2026-08-25'

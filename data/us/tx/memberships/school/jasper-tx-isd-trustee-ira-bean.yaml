@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: jasper-tx-isd-trustee-ira-bean
+person_id: ocd-person/16262b24-b28f-5f4d-9c79-34231adb3bfd
+organization_id: ocd-organization/b06ca1b8-9301-5800-b1e4-58e912fed345
+post_id: jasper-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 121904 (Jasper ISD) -- current board roster.
+  retrieved: '2026-08-25'

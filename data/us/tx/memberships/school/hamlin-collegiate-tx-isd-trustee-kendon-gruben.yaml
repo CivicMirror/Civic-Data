@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hamlin-collegiate-tx-isd-trustee-kendon-gruben
+person_id: ocd-person/b8ff04b9-c4dd-5ede-8902-3643701f1a48
+organization_id: ocd-organization/4a12d83b-de47-50ab-aa62-eec9ed569b4b
+post_id: hamlin-collegiate-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 127903 (Hamlin Collegiate ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: china-spring-tx-isd-trustee-anthony-collier
+person_id: ocd-person/4dd4b529-e950-55b3-b43d-a0e50d61bb1d
+organization_id: ocd-organization/6d4506e5-187a-5a0d-8486-e800c68bdd2b
+post_id: china-spring-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 161920 (China Spring ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: la-feria-tx-isd-trustee-jane-castillo
+person_id: ocd-person/49b2e355-fba1-566c-a2e7-fc817dafcb49
+organization_id: ocd-organization/845cf041-9bef-5b97-8838-4be92d36a38f
+post_id: la-feria-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 031905 (La Feria ISD) -- current board roster.
+  retrieved: '2026-08-25'

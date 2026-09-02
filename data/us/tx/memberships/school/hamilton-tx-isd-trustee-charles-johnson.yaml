@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hamilton-tx-isd-trustee-charles-johnson
+person_id: ocd-person/a467b024-dc8d-592b-9703-1be7897420ba
+organization_id: ocd-organization/ae5ed429-bd85-515e-b100-9b3d24ce822f
+post_id: hamilton-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 097902 (Hamilton ISD) -- current board roster.
+  retrieved: '2026-08-25'

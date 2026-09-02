@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hedley-tx-isd-trustee-bruce-howard
+person_id: ocd-person/1abf2cc3-2407-5def-af88-d09bb992f73f
+organization_id: ocd-organization/370a0401-1c97-5321-9d53-29110964d5f8
+post_id: hedley-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 065902 (Hedley ISD) -- current board roster.
+  retrieved: '2026-08-25'

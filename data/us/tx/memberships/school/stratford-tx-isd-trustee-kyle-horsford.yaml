@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: stratford-tx-isd-trustee-kyle-horsford
+person_id: ocd-person/004feec0-6e60-5f67-984e-a1f5f883aff2
+organization_id: ocd-organization/12efc716-6c1f-52de-ba2e-bfff0c7ff68b
+post_id: stratford-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 211902 (Stratford ISD) -- current board roster.
+  retrieved: '2026-08-25'

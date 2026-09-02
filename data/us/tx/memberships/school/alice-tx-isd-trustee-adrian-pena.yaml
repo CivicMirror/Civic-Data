@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: alice-tx-isd-trustee-adrian-pena
+person_id: ocd-person/e9d060d8-5b53-575a-97f6-c171e74cc9ac
+organization_id: ocd-organization/0e47f6f7-6499-5e21-a5ce-d3312ae027bb
+post_id: alice-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 125901 (Alice ISD) -- current board roster.
+  retrieved: '2026-08-25'

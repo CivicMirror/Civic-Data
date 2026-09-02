@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: texline-tx-isd-trustee-john-espino
+person_id: ocd-person/27500695-4772-596e-b5cf-1000c072c9e1
+organization_id: ocd-organization/5bb78a58-3bd9-58c4-a6cd-aae13a6a57e2
+post_id: texline-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 056902 (Texline ISD) -- current board roster.
+  retrieved: '2026-08-25'

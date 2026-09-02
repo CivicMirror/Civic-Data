@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: garner-tx-isd-trustee-karen-jackman
+person_id: ocd-person/686910ff-065c-5543-8899-57b0e2aaf202
+organization_id: ocd-organization/9a11429a-7bec-55a9-935d-6cad65c3c57e
+post_id: garner-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 184911 (Garner ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: grand-saline-tx-isd-trustee-phillip-brown
+person_id: ocd-person/f332aff8-ab63-5f56-afd3-385f2cc542e7
+organization_id: ocd-organization/d947deab-eb47-5376-b954-e18d9823b9e9
+post_id: grand-saline-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 234904 (Grand Saline ISD) -- current board roster.
+  retrieved: '2026-08-25'

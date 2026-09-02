@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pecos-barstow-toyah-tx-isd-trustee-jesus-orosco
+person_id: ocd-person/ad404ade-d8c5-5447-9d03-758cc084c94a
+organization_id: ocd-organization/01c7eb00-7214-59ff-8f61-932ad9e722fb
+post_id: pecos-barstow-toyah-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 195901 (Pecos-Barstow-Toyah ISD) -- current board roster.
+  retrieved: '2026-08-25'

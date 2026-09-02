@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: nederland-tx-isd-trustee-roya-scott
+person_id: ocd-person/703935ec-98fb-5751-ab45-56228c9bb922
+organization_id: ocd-organization/7ebe8e91-c685-5583-a32c-ae1a65ee2b19
+post_id: nederland-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 123905 (Nederland ISD) -- current board roster.
+  retrieved: '2026-08-25'

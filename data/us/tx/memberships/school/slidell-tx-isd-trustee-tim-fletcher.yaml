@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: slidell-tx-isd-trustee-tim-fletcher
+person_id: ocd-person/a5d57ce7-e2a6-5684-adc2-06799f5232e4
+organization_id: ocd-organization/ab77deb5-0723-5111-9091-b49985c8792f
+post_id: slidell-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 249908 (Slidell ISD) -- current board roster.
+  retrieved: '2026-08-25'

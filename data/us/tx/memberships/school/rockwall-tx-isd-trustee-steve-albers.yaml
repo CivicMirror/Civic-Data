@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: rockwall-tx-isd-trustee-steve-albers
+person_id: ocd-person/034862c6-f2a1-56a0-b34d-217fe26abb79
+organization_id: ocd-organization/b44a133a-e13c-5444-855b-06398be62ee5
+post_id: rockwall-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 199901 (Rockwall ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: huntsville-tx-isd-trustee-kenneth-holland
+person_id: ocd-person/5ed265bd-8080-5bba-8fd1-ff76a201c109
+organization_id: ocd-organization/732e524f-4a51-5027-ae13-67cdb5712540
+post_id: huntsville-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 236902 (Huntsville ISD) -- current board roster.
+  retrieved: '2026-08-25'

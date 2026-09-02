@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: paradise-tx-isd-trustee-renea-remmele
+person_id: ocd-person/b2ff04ab-b974-5cc6-9e5b-20edca86f8cd
+organization_id: ocd-organization/ca41074a-e1cf-52aa-be20-43dabd35282c
+post_id: paradise-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 249906 (Paradise ISD) -- current board roster.
+  retrieved: '2026-08-25'

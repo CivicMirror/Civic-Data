@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: spring-tx-isd-trustee-justine-durant
+person_id: ocd-person/6c1fe9bc-41c2-5a81-97e9-d7e27e78014a
+organization_id: ocd-organization/2dfee4c1-c967-5d97-9409-d8c615b11a23
+post_id: spring-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 101919 (Spring ISD) -- current board roster.
+  retrieved: '2026-08-25'

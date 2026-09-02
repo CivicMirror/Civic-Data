@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: new-caney-tx-isd-trustee-ty-trout
+person_id: ocd-person/ed5c2e6e-e814-53b5-be33-f11106f6e1c3
+organization_id: ocd-organization/7793fd98-6bd6-52ef-9516-afc8d8b326c3
+post_id: new-caney-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 170908 (New Caney ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lake-travis-tx-isd-trustee-tiffany-bennett
+person_id: ocd-person/a825083f-2eb3-57ee-a83d-0d72afa7ff86
+organization_id: ocd-organization/7d883e78-f620-5951-9fdd-fe45bb2bdbc2
+post_id: lake-travis-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 227913 (Lake Travis ISD) -- current board roster.
+  retrieved: '2026-08-25'

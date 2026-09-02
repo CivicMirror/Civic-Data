@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: boyd-tx-isd-trustee-krista-barber
+person_id: ocd-person/ab6cbe07-a542-5208-8aeb-d50bb02ef311
+organization_id: ocd-organization/e0b136fe-20a3-507b-95d8-5d4def3822ff
+post_id: boyd-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 249902 (Boyd ISD) -- current board roster.
+  retrieved: '2026-08-25'

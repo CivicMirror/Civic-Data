@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: la-pryor-tx-isd-trustee-mario-carrillo
+person_id: ocd-person/205f77aa-aa89-5f22-899a-dbdbcd7c8d33
+organization_id: ocd-organization/c001966f-ffcc-5911-a660-982850827ab4
+post_id: la-pryor-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 254902 (La Pryor ISD) -- current board roster.
+  retrieved: '2026-08-25'

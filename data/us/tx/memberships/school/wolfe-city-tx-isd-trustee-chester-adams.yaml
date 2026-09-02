@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: wolfe-city-tx-isd-trustee-chester-adams
+person_id: ocd-person/861fa103-42a9-5bbc-96ee-6286da16a00b
+organization_id: ocd-organization/3802b6a6-b733-5f09-b35b-c97f549db95c
+post_id: wolfe-city-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 116909 (Wolfe City ISD) -- current board roster.
+  retrieved: '2026-08-25'

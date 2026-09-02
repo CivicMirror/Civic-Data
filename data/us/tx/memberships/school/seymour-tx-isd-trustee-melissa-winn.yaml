@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: seymour-tx-isd-trustee-melissa-winn
+person_id: ocd-person/b4736e1d-29c1-52c9-862d-53679ebd9e0e
+organization_id: ocd-organization/0cc8a2bd-d933-5333-97e3-d72cea43e253
+post_id: seymour-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 012901 (Seymour ISD) -- current board roster.
+  retrieved: '2026-08-25'

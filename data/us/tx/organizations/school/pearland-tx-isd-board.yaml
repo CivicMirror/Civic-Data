@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/540c3b1c-9248-5ea0-a01d-372f8186b10c
+name: Pearland ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:pearland/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 020908
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=222
+  note: BBB(LOCAL)-X (tasb, LDU 2023.02, issued 4/11/2023) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

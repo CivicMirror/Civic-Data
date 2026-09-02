@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: new-home-tx-isd-trustee-corey-clem
+person_id: ocd-person/23410bd4-d79f-5ab8-8879-311e3df92b4b
+organization_id: ocd-organization/c2a5e837-5c52-56d5-92dd-f1ea8d0ddb81
+post_id: new-home-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 153905 (New Home ISD) -- current board roster.
+  retrieved: '2026-08-25'

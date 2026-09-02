@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: irion-county-tx-isd-trustee-taylor-douglas
+person_id: ocd-person/ff4c9cf3-162b-5173-99a9-4a86336998a1
+organization_id: ocd-organization/c9f56422-3b74-53d5-a2d5-df5fce94a4c8
+post_id: irion-county-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 118902 (Irion County ISD) -- current board roster.
+  retrieved: '2026-08-25'

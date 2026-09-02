@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: devers-tx-isd-trustee-gradee-davis
+person_id: ocd-person/d3f72b90-2a0c-56a2-a691-93b36e36fa32
+organization_id: ocd-organization/74e49468-6987-579b-a7e8-4251f3eafdf3
+post_id: devers-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 146903 (Devers ISD) -- current board roster.
+  retrieved: '2026-08-25'

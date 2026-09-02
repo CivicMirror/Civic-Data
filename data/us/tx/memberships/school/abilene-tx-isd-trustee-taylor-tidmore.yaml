@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: abilene-tx-isd-trustee-taylor-tidmore
+person_id: ocd-person/b3d0a57e-6d8b-555a-b2ad-d24f7488794a
+organization_id: ocd-organization/0d3f9834-0484-5105-b071-410ac7504f6d
+post_id: abilene-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 221901 (Abilene ISD) -- current board roster.
+  retrieved: '2026-08-25'

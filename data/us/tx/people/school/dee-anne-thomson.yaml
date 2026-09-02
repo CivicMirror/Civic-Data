@@ -1,0 +1,17 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ocd-person/29b9a9b0-8921-5868-8056-9031390b6e2b
+name: Dee Anne Thomson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-08-25'
+  pipeline: TEA AskTED District Staff Directory
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 101916 (La Porte ISD) -- current board roster.
+  retrieved: '2026-08-25'

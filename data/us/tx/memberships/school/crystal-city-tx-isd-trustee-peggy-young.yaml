@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: crystal-city-tx-isd-trustee-peggy-young
+person_id: ocd-person/5a6cca60-9b63-5605-8c48-570a9bfa480e
+organization_id: ocd-organization/a3515fc5-e11a-5dd0-9746-9ac0a149723d
+post_id: crystal-city-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 254901 (Crystal City ISD) -- current board roster.
+  retrieved: '2026-08-25'

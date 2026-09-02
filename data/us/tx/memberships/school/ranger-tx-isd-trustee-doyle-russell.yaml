@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: ranger-tx-isd-trustee-doyle-russell
+person_id: ocd-person/7bda60f6-85dc-59bb-af0d-544be67da336
+organization_id: ocd-organization/6d4885bb-1762-538c-9ae8-3c1731f3f0d6
+post_id: ranger-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 067907 (Ranger ISD) -- current board roster.
+  retrieved: '2026-08-25'

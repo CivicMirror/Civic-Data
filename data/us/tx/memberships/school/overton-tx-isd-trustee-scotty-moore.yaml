@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: overton-tx-isd-trustee-scotty-moore
+person_id: ocd-person/67d7cc09-3f80-5b5d-a386-06701bf74ce1
+organization_id: ocd-organization/c1416175-3cac-5148-acc2-94e0a55ee6b4
+post_id: overton-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 201908 (Overton ISD) -- current board roster.
+  retrieved: '2026-08-25'

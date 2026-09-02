@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: midway-039905-tx-isd-trustee-jeff-forester
+person_id: ocd-person/a5cfe83b-579d-51b5-83a6-9a49e980fb55
+organization_id: ocd-organization/1436b613-1184-58e3-b432-c2eb3af03a69
+post_id: midway-039905-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 039905 (Midway ISD) -- current board roster.
+  retrieved: '2026-08-25'

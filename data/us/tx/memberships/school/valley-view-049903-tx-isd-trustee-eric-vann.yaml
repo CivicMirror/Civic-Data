@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: valley-view-049903-tx-isd-trustee-eric-vann
+person_id: ocd-person/eee99ad8-e03a-5cc1-bf05-a5a0e06a2e87
+organization_id: ocd-organization/6966868e-7a66-5ab9-96a4-4a061bc30bfd
+post_id: valley-view-049903-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 049903 (Valley View ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pittsburg-tx-isd-trustee-mario-willis
+person_id: ocd-person/fb85b51f-c9b3-5d8f-a499-ad50c792e2d0
+organization_id: ocd-organization/1f00cbf4-13d7-5ed0-bb45-6afe6de97149
+post_id: pittsburg-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 032902 (Pittsburg ISD) -- current board roster.
+  retrieved: '2026-08-25'

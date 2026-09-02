@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: bridge-city-tx-isd-trustee-rebecca-rutledge
+person_id: ocd-person/83b1b229-7f09-59b3-85c4-a9225e7a74ef
+organization_id: ocd-organization/b4e21cfd-d0e3-55f5-9dfa-da3da5b1426e
+post_id: bridge-city-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 181901 (Bridge City ISD) -- current board roster.
+  retrieved: '2026-08-25'

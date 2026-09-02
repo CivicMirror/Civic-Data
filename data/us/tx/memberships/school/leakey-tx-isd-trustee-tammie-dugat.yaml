@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: leakey-tx-isd-trustee-tammie-dugat
+person_id: ocd-person/26d1ecb7-b44c-5978-be70-d41a6cf1c0d8
+organization_id: ocd-organization/6fb7cda0-0130-5f02-b5db-264eb7c5e9d2
+post_id: leakey-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 193902 (Leakey ISD) -- current board roster.
+  retrieved: '2026-08-25'

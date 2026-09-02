@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/9e411251-f2f4-5d23-94ea-1008aa5d3f03
+name: College Station ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:college-station/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 021901
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=224
+  note: BBB(LOCAL)-X (tasb, LDU 2023.01, issued 4/28/2023) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

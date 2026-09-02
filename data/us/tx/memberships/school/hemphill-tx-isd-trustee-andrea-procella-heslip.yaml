@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hemphill-tx-isd-trustee-andrea-procella-heslip
+person_id: ocd-person/bda8b869-3c45-563c-9f5b-4c614994af6a
+organization_id: ocd-organization/94a4ae67-652b-5280-b920-bb29519c98a9
+post_id: hemphill-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 202903 (Hemphill ISD) -- current board roster.
+  retrieved: '2026-08-25'

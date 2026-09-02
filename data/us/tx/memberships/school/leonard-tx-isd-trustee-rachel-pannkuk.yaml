@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: leonard-tx-isd-trustee-rachel-pannkuk
+person_id: ocd-person/b0bf0cef-d967-5bcb-a7fe-515b3992327b
+organization_id: ocd-organization/419921a9-4bae-565e-8293-3a732076746a
+post_id: leonard-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 074909 (Leonard ISD) -- current board roster.
+  retrieved: '2026-08-25'

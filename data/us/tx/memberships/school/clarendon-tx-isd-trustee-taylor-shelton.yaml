@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: clarendon-tx-isd-trustee-taylor-shelton
+person_id: ocd-person/90950a3a-f755-581b-b97b-39a00db06f69
+organization_id: ocd-organization/5b4ef61f-a05b-5cb9-883b-d4786ef17ed7
+post_id: clarendon-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 065901 (Clarendon ISD) -- current board roster.
+  retrieved: '2026-08-25'

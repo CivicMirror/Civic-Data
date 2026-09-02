@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: bremond-tx-isd-trustee-nikki-screws
+person_id: ocd-person/b2c02dcd-6708-55bc-aa8d-d2a342836e5b
+organization_id: ocd-organization/f5020204-ecc7-5573-9f19-a9ca7b878934
+post_id: bremond-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 198901 (Bremond ISD) -- current board roster.
+  retrieved: '2026-08-25'

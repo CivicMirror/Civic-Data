@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: cypress-fairbanks-tx-isd-trustee-cleveland-lane
+person_id: ocd-person/86727841-62cb-5ba7-a667-0f752dcacdd4
+organization_id: ocd-organization/63c9a54c-4048-513b-91a9-62e2ace4f939
+post_id: cypress-fairbanks-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 101907 (Cypress-Fairbanks ISD) -- current board roster.
+  retrieved: '2026-08-25'

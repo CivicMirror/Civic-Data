@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: schulenburg-tx-isd-trustee-michael-zweschper
+person_id: ocd-person/870c038b-0383-5cd4-844c-31794d98ba2f
+organization_id: ocd-organization/001154c0-9a0f-5364-acfa-2ec3c886e5ee
+post_id: schulenburg-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 075903 (Schulenburg ISD) -- current board roster.
+  retrieved: '2026-08-25'

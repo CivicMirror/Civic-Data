@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: highland-park-188903-tx-isd-trustee-joshua-kroeger
+person_id: ocd-person/a20d4e0c-c2cb-59fc-81c3-5ba12723ae86
+organization_id: ocd-organization/e2f5a058-e2fe-56d4-b1c1-36df1a39a2b1
+post_id: highland-park-188903-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 188903 (Highland Park ISD) -- current board roster.
+  retrieved: '2026-08-25'

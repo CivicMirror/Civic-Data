@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: three-rivers-tx-isd-trustee-thomas-salazar
+person_id: ocd-person/1b71d49a-1b1e-5f72-a59f-2c39cce98706
+organization_id: ocd-organization/6a361912-68bf-5f7d-b92c-f8ab645c6301
+post_id: three-rivers-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 149902 (Three Rivers ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: era-tx-isd-trustee-samantha-freeman
+person_id: ocd-person/920e0820-a671-5553-aef1-7e9cefd01e3f
+organization_id: ocd-organization/12f5798d-c100-592b-8ea3-743c71a92ea1
+post_id: era-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 049906 (Era ISD) -- current board roster.
+  retrieved: '2026-08-25'

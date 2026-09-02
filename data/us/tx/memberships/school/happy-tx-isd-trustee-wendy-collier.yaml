@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: happy-tx-isd-trustee-wendy-collier
+person_id: ocd-person/1fb8d49e-e3eb-5389-b006-8b466d6cbf7c
+organization_id: ocd-organization/b21b0f5e-75b8-5df2-ac59-5933bb1ac5f5
+post_id: happy-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 219901 (Happy ISD) -- current board roster.
+  retrieved: '2026-08-25'

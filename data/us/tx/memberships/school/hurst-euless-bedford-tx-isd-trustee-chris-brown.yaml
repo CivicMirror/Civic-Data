@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hurst-euless-bedford-tx-isd-trustee-chris-brown
+person_id: ocd-person/adff469b-7402-5159-be6b-12d5627b90e0
+organization_id: ocd-organization/0f2fe1d1-a081-5e46-b552-4bb71fcf4fbd
+post_id: hurst-euless-bedford-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 220916 (Hurst-Euless-Bedford ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: sabine-pass-tx-isd-trustee-phyllis-almond
+person_id: ocd-person/1d4d7cb0-da44-5f46-ac25-bcc261e135dc
+organization_id: ocd-organization/2434a9d3-dfe5-5abc-8834-0a18a1f09f6c
+post_id: sabine-pass-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 123913 (Sabine Pass ISD) -- current board roster.
+  retrieved: '2026-08-25'

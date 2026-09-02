@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: odem-edroy-tx-isd-trustee-julian-ruiz
+person_id: ocd-person/bbbe855e-8e26-51bd-85de-4a4f03183123
+organization_id: ocd-organization/d7cde29e-d3c4-5c48-b15a-9d34832c6d4c
+post_id: odem-edroy-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 205905 (Odem-Edroy ISD) -- current board roster.
+  retrieved: '2026-08-25'

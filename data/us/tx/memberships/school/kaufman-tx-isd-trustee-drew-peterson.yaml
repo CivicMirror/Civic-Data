@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: kaufman-tx-isd-trustee-drew-peterson
+person_id: ocd-person/9bbf03c1-2cc0-559f-abf9-a2f851bb683c
+organization_id: ocd-organization/5a158c9d-2952-5cd9-b718-14ea60213519
+post_id: kaufman-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 129903 (Kaufman ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: premont-tx-isd-trustee-ruben-martinez
+person_id: ocd-person/9f347eb0-2c8a-5940-b754-4ee561051aaa
+organization_id: ocd-organization/ecc7269b-c6b4-53c6-aacd-34cf9451277f
+post_id: premont-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 125905 (Premont ISD) -- current board roster.
+  retrieved: '2026-08-25'

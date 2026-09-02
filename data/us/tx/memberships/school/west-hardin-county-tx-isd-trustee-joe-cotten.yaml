@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: west-hardin-county-tx-isd-trustee-joe-cotten
+person_id: ocd-person/02254977-5540-5447-a7ac-8e8eaec1f318
+organization_id: ocd-organization/3091b766-86a0-59b4-b68a-dc6948bc3a3e
+post_id: west-hardin-county-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 100908 (West Hardin County CISD) -- current board roster.
+  retrieved: '2026-08-25'

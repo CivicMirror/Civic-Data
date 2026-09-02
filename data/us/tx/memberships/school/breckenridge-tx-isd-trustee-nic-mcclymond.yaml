@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: breckenridge-tx-isd-trustee-nic-mcclymond
+person_id: ocd-person/082c685f-c1fd-53cf-88ff-31db68ffc672
+organization_id: ocd-organization/6fc37e64-aadc-5fce-b17d-5dbd3dc38177
+post_id: breckenridge-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 215901 (Breckenridge ISD) -- current board roster.
+  retrieved: '2026-08-25'

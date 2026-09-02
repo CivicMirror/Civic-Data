@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: rocksprings-tx-isd-trustee-paco-ramirez
+person_id: ocd-person/37bf12ed-7fd8-500a-aa5b-ee7a11135468
+organization_id: ocd-organization/c8a31814-5475-5dbd-9a38-468c15935077
+post_id: rocksprings-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 069901 (Rocksprings ISD) -- current board roster.
+  retrieved: '2026-08-25'

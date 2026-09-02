@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: eagle-mt-saginaw-tx-isd-trustee-blake-mabry
+person_id: ocd-person/51086945-ece1-5321-98d1-dc94919b826a
+organization_id: ocd-organization/e689a1bd-f841-5979-b0f2-6fdabf737b78
+post_id: eagle-mt-saginaw-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 220918 (Eagle Mt-Saginaw ISD) -- current board roster.
+  retrieved: '2026-08-25'

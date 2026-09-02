@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: merkel-tx-isd-trustee-joe-salas
+person_id: ocd-person/99f5fcd3-d3f4-5599-b477-74bfce3d0dd3
+organization_id: ocd-organization/0211f710-2b9c-5e29-be8c-7298c396b978
+post_id: merkel-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 221904 (Merkel ISD) -- current board roster.
+  retrieved: '2026-08-25'

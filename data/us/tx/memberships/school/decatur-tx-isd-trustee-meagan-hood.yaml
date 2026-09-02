@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: decatur-tx-isd-trustee-meagan-hood
+person_id: ocd-person/d7d85e97-9d0a-5683-b3e6-7cc35cb12217
+organization_id: ocd-organization/f22a0942-7949-55fd-8100-5649c43ae4d9
+post_id: decatur-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 249905 (Decatur ISD) -- current board roster.
+  retrieved: '2026-08-25'

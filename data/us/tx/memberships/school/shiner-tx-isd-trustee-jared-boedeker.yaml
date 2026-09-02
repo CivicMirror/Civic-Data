@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: shiner-tx-isd-trustee-jared-boedeker
+person_id: ocd-person/dca42e5e-31f6-57b9-89f7-78bdb06ddef4
+organization_id: ocd-organization/dd35cc9d-555d-50ff-a936-f8a4d239d60c
+post_id: shiner-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 143903 (Shiner ISD) -- current board roster.
+  retrieved: '2026-08-25'

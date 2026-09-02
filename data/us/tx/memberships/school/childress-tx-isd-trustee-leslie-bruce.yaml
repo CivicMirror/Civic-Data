@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: childress-tx-isd-trustee-leslie-bruce
+person_id: ocd-person/483dbd13-cfcb-54a8-a9f6-ff4924a7b9a5
+organization_id: ocd-organization/b69d30ad-0ddd-51ac-9987-33d8e54c0368
+post_id: childress-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 038901 (Childress ISD) -- current board roster.
+  retrieved: '2026-08-25'

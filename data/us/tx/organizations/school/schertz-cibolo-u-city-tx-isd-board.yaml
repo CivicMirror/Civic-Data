@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/ed2e6a86-9ae6-5d2f-bdab-2cf1a64e4aa0
+name: Schertz-Cibolo-U City ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:schertz-cibolo-u-city/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 094902
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=551
+  note: BBB(LOCAL)-X (tasb, UPDATE 110, issued 2/12/2018) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

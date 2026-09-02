@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: la-gloria-tx-isd-trustee-brooke-solomon
+person_id: ocd-person/40ffa3bb-91f2-5963-83f7-496e9826f7c4
+organization_id: ocd-organization/f1707371-1e5a-56a1-b893-496c7e42c0d5
+post_id: la-gloria-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 125906 (La Gloria ISD) -- current board roster.
+  retrieved: '2026-08-25'

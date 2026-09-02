@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/b25fd528-ed6a-55f5-95e0-079930742685
+name: Rogers ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:rogers/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 014907
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=167
+  note: BBB(LOCAL)-X (tasb, UPDATE 120, issued 1/12/2023) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

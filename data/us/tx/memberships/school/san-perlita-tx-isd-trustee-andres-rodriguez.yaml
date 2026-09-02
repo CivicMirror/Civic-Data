@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: san-perlita-tx-isd-trustee-andres-rodriguez
+person_id: ocd-person/3c47579a-3ff8-50b3-b06e-46a088ef0268
+organization_id: ocd-organization/c6373760-7520-5a2f-83c1-c4a5608a381d
+post_id: san-perlita-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 245904 (San Perlita ISD) -- current board roster.
+  retrieved: '2026-08-25'

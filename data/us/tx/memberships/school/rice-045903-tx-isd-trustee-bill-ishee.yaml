@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: rice-045903-tx-isd-trustee-bill-ishee
+person_id: ocd-person/05f60e08-d40e-52bb-8737-c838509309a4
+organization_id: ocd-organization/ca6f822b-0ad3-5bab-9bf4-87dbbcbbddea
+post_id: rice-045903-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 045903 (Rice CISD) -- current board roster.
+  retrieved: '2026-08-25'

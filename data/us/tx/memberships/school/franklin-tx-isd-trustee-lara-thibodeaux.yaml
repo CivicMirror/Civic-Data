@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: franklin-tx-isd-trustee-lara-thibodeaux
+person_id: ocd-person/296b79dd-b464-50ff-8bf2-498c2e9dedfb
+organization_id: ocd-organization/ed75b9c9-687d-5016-bdc0-72959af9414e
+post_id: franklin-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 198903 (Franklin ISD) -- current board roster.
+  retrieved: '2026-08-25'

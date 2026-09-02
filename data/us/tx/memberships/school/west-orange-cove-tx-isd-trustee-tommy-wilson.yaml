@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: west-orange-cove-tx-isd-trustee-tommy-wilson
+person_id: ocd-person/06f6a68c-d185-51e2-807c-efa01f118f94
+organization_id: ocd-organization/7e2757c2-eebc-5733-af00-49ff7e214338
+post_id: west-orange-cove-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 181906 (West Orange-Cove CISD) -- current board roster.
+  retrieved: '2026-08-25'

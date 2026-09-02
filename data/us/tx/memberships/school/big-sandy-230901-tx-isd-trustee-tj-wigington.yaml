@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: big-sandy-230901-tx-isd-trustee-tj-wigington
+person_id: ocd-person/525ea865-6746-5b78-aecc-39f1f5e20c17
+organization_id: ocd-organization/bb6aa55a-6493-5f2f-baf4-0b2b2f8047f1
+post_id: big-sandy-230901-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 230901 (Big Sandy ISD) -- current board roster.
+  retrieved: '2026-08-25'

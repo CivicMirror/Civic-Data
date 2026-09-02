@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: poth-tx-isd-trustee-scott-lyssy
+person_id: ocd-person/b030e088-cfdf-57a4-86fa-0e0f2bdb5c3f
+organization_id: ocd-organization/59217a4a-350d-5186-a1df-7016b5f047c4
+post_id: poth-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 247904 (Poth ISD) -- current board roster.
+  retrieved: '2026-08-25'

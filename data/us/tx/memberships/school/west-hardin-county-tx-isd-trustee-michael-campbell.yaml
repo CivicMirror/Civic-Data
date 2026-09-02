@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: west-hardin-county-tx-isd-trustee-michael-campbell
+person_id: ocd-person/6a7c3cef-cbaf-5c74-97c8-3aff169ed322
+organization_id: ocd-organization/3091b766-86a0-59b4-b68a-dc6948bc3a3e
+post_id: west-hardin-county-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 100908 (West Hardin County CISD) -- current board roster.
+  retrieved: '2026-08-25'

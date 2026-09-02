@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: knox-city-o-brien-tx-isd-trustee-clint-lewis
+person_id: ocd-person/7b671732-593a-5cd7-b609-18fa20359897
+organization_id: ocd-organization/45587cd6-9155-5ba2-9f13-3d7fbe802bdc
+post_id: knox-city-o-brien-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 138902 (Knox City-O'Brien CISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: gordon-tx-isd-trustee-jim-kostiha
+person_id: ocd-person/9734f1ed-1a0f-5344-87bb-6348ec4dca47
+organization_id: ocd-organization/a304b65b-17a6-5af4-879e-b458f3e06096
+post_id: gordon-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 182901 (Gordon ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: bloomington-tx-isd-trustee-deloris-white
+person_id: ocd-person/d58c9fa1-4a54-5946-b43a-9e6b5b88e621
+organization_id: ocd-organization/25b22b5f-2604-56e2-b444-85bf90ada347
+post_id: bloomington-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 235901 (Bloomington ISD) -- current board roster.
+  retrieved: '2026-08-25'

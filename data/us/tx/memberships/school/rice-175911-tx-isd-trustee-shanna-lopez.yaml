@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: rice-175911-tx-isd-trustee-shanna-lopez
+person_id: ocd-person/cc4090ca-4031-56ac-ac44-7d0937336411
+organization_id: ocd-organization/6f173075-3bf5-5397-a97e-c4e13a29fd2e
+post_id: rice-175911-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 175911 (Rice ISD) -- current board roster.
+  retrieved: '2026-08-25'

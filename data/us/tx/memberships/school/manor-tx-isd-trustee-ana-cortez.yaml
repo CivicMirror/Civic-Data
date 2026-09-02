@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: manor-tx-isd-trustee-ana-cortez
+person_id: ocd-person/17b1f338-4779-5a14-b74d-3c271b345d29
+organization_id: ocd-organization/88b0f40f-be94-532b-8043-f26f951e8286
+post_id: manor-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 227907 (Manor ISD) -- current board roster.
+  retrieved: '2026-08-25'

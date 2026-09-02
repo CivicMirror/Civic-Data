@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: bullard-tx-isd-trustee-jordan-brush
+person_id: ocd-person/26362ef7-6fcc-592b-94a0-94196352ecb5
+organization_id: ocd-organization/90e3b88b-1b9f-5c55-93cf-bcbefc6ef72a
+post_id: bullard-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 212902 (Bullard ISD) -- current board roster.
+  retrieved: '2026-08-25'

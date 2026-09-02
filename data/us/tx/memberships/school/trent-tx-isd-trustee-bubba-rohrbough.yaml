@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: trent-tx-isd-trustee-bubba-rohrbough
+person_id: ocd-person/6d6f19be-c3a0-5635-9b3f-e615cdd1c4d1
+organization_id: ocd-organization/eb3e17b7-6b34-5dab-abf9-8980729ea825
+post_id: trent-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 221905 (Trent ISD) -- current board roster.
+  retrieved: '2026-08-25'

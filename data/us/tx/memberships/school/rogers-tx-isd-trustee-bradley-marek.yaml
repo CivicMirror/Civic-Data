@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: rogers-tx-isd-trustee-bradley-marek
+person_id: ocd-person/3b1b2592-fd8b-5726-af3b-770c4810efd6
+organization_id: ocd-organization/b25fd528-ed6a-55f5-95e0-079930742685
+post_id: rogers-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 014907 (Rogers ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: graham-tx-isd-trustee-brandon-joy
+person_id: ocd-person/7f5d96b3-ac14-5ecc-be8c-cd35b2be6cdf
+organization_id: ocd-organization/a135ef20-386d-5d6a-a09a-b1b0575571cd
+post_id: graham-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 252901 (Graham ISD) -- current board roster.
+  retrieved: '2026-08-25'

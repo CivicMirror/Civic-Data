@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: medina-tx-isd-trustee-david-derry
+person_id: ocd-person/03ee7e97-c9f4-5890-b8b3-4bfd8cb96ac7
+organization_id: ocd-organization/1b128aa4-072f-5748-ab92-0308447daef4
+post_id: medina-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 010901 (Medina ISD) -- current board roster.
+  retrieved: '2026-08-25'

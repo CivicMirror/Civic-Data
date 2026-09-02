@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: southland-tx-isd-trustee-rocky-gomez
+person_id: ocd-person/61bdbf5c-e10f-5a5c-88b8-3371f3155ca3
+organization_id: ocd-organization/5d3fd601-eab4-5fe0-84f4-9322577343be
+post_id: southland-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 085903 (Southland ISD) -- current board roster.
+  retrieved: '2026-08-25'

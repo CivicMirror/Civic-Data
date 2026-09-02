@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: sealy-tx-isd-trustee-virginia-gilbert
+person_id: ocd-person/6a87cdaf-e1fe-5b74-8303-837ce9dfb54f
+organization_id: ocd-organization/2d16d66a-da0e-5e0d-b90f-78e692883508
+post_id: sealy-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 008902 (Sealy ISD) -- current board roster.
+  retrieved: '2026-08-25'

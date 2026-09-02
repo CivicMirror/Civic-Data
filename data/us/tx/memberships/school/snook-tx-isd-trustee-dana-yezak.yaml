@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: snook-tx-isd-trustee-dana-yezak
+person_id: ocd-person/bd120953-ba6c-5656-909f-d15639663d9c
+organization_id: ocd-organization/e65937c3-b666-594e-bee8-df5069811394
+post_id: snook-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 026903 (Snook ISD) -- current board roster.
+  retrieved: '2026-08-25'

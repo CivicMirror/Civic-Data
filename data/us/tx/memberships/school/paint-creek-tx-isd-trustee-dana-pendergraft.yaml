@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: paint-creek-tx-isd-trustee-dana-pendergraft
+person_id: ocd-person/27affb64-1f70-5733-8da5-600bd487af6c
+organization_id: ocd-organization/7a3b3b4c-f40f-54eb-afd7-6a437a0c1180
+post_id: paint-creek-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 104907 (Paint Creek ISD) -- current board roster.
+  retrieved: '2026-08-25'

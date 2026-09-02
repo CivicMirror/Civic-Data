@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/c2cc8a30-d107-5ace-be43-26e7a2cea2d2
+name: Deer Park ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:deer-park/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '101908'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=588
+  note: BBB(LOCAL)-X (tasb, UPDATE 110, issued 2/14/2018) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

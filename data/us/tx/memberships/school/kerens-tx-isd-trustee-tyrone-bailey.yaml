@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: kerens-tx-isd-trustee-tyrone-bailey
+person_id: ocd-person/21f943d9-ce56-540b-a0f5-27024efa24ee
+organization_id: ocd-organization/76c68ed1-c400-5c31-b434-cdc680188957
+post_id: kerens-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 175907 (Kerens ISD) -- current board roster.
+  retrieved: '2026-08-25'

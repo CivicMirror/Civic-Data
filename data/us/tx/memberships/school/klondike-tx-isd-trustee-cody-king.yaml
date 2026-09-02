@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: klondike-tx-isd-trustee-cody-king
+person_id: ocd-person/cfcca153-6631-5d9b-9de2-fc526b17757b
+organization_id: ocd-organization/b062d327-a52e-5fa5-8c60-dc9dafc3a1b1
+post_id: klondike-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 058905 (Klondike ISD) -- current board roster.
+  retrieved: '2026-08-25'

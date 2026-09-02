@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: nixon-smiley-tx-isd-trustee-jimmy-newman
+person_id: ocd-person/5e2c00d3-8c96-558a-93b3-a89897fd593b
+organization_id: ocd-organization/55ecb44a-167f-5f1f-aea2-1d3f8bd7efdb
+post_id: nixon-smiley-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 089903 (Nixon-Smiley CISD) -- current board roster.
+  retrieved: '2026-08-25'

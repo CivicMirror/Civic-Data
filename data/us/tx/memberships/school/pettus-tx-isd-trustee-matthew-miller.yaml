@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pettus-tx-isd-trustee-matthew-miller
+person_id: ocd-person/b2b461d9-ee44-558b-a2fa-3d026543beb8
+organization_id: ocd-organization/12e3baa7-9844-59f4-933e-5c331e76a0b6
+post_id: pettus-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 013903 (Pettus ISD) -- current board roster.
+  retrieved: '2026-08-25'

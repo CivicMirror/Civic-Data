@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: sunray-collegiate-tx-isd-trustee-yuli-beth-rocha
+person_id: ocd-person/96a70279-4465-5ab2-ab92-972428fb0fd1
+organization_id: ocd-organization/38b5124b-61c0-5272-a555-fa601fc66e44
+post_id: sunray-collegiate-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 171902 (Sunray Collegiate ISD) -- current board roster.
+  retrieved: '2026-08-25'

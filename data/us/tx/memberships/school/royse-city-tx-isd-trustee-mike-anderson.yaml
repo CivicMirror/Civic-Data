@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: royse-city-tx-isd-trustee-mike-anderson
+person_id: ocd-person/b6c4bb8c-e4d1-556a-aab4-2a009d858617
+organization_id: ocd-organization/4aa08dc4-7f7a-5d73-9306-2fabb8fb360d
+post_id: royse-city-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 199902 (Royse City ISD) -- current board roster.
+  retrieved: '2026-08-25'

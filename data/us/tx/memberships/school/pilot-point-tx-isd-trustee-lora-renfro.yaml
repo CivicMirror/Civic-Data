@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: pilot-point-tx-isd-trustee-lora-renfro
+person_id: ocd-person/60c52b4e-2ef9-5062-b44d-938ba2ef1e12
+organization_id: ocd-organization/d5273879-c970-5639-8b1e-5453e0c436b0
+post_id: pilot-point-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 061903 (Pilot Point ISD) -- current board roster.
+  retrieved: '2026-08-25'

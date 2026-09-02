@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: wheeler-tx-isd-trustee-misty-copeland
+person_id: ocd-person/1eaa54d2-f2cd-553d-a522-09129fdda7e8
+organization_id: ocd-organization/ae3bcf2e-ec30-5ec0-8c29-6c1d9dd39b8e
+post_id: wheeler-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 242903 (Wheeler ISD) -- current board roster.
+  retrieved: '2026-08-25'

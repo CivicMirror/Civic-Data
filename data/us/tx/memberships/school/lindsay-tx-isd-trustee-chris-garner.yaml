@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: lindsay-tx-isd-trustee-chris-garner
+person_id: ocd-person/c81aa8de-efd9-53de-9356-484b8a773232
+organization_id: ocd-organization/8afc10e4-7bd8-53a4-8825-20ad638f0932
+post_id: lindsay-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 049907 (Lindsay ISD) -- current board roster.
+  retrieved: '2026-08-25'

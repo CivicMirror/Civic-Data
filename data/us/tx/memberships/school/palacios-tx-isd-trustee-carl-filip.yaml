@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: palacios-tx-isd-trustee-carl-filip
+person_id: ocd-person/9e9f65c7-f09a-51b6-a162-c48c90cff82d
+organization_id: ocd-organization/656cf304-563e-502f-8ad2-e116df65b726
+post_id: palacios-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 158905 (Palacios ISD) -- current board roster.
+  retrieved: '2026-08-25'

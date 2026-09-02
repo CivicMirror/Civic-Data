@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: conroe-tx-isd-trustee-aggie-gambino
+person_id: ocd-person/188e9b10-f11e-5636-910d-3d49dfbe3e65
+organization_id: ocd-organization/9d02592a-44f7-595d-ba16-0716a3963678
+post_id: conroe-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 170902 (Conroe ISD) -- current board roster.
+  retrieved: '2026-08-25'

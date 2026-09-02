@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: blackwell-tx-isd-trustee-james-sanderson
+person_id: ocd-person/a4e26145-bb0d-58f8-998d-078c516fc861
+organization_id: ocd-organization/c946c4ec-72c2-5b33-b300-57de084a304e
+post_id: blackwell-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 177903 (Blackwell CISD) -- current board roster.
+  retrieved: '2026-08-25'

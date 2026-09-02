@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: coupland-tx-isd-trustee-vacant-vacant
+person_id: ocd-person/e5215985-835d-5c20-9cb8-bbfb06425845
+organization_id: ocd-organization/786f1908-832d-53b6-b6fe-850c6e92aa1b
+post_id: coupland-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 246914 (Coupland ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: burton-tx-isd-trustee-ande-bostain
+person_id: ocd-person/0f608bf2-731a-539d-984e-4a7c24106803
+organization_id: ocd-organization/23ec0fe9-76c2-5fd8-b89c-c9c4c76781cf
+post_id: burton-tx-isd/trustee
+role: BOARD VICE-PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 239903 (Burton ISD) -- current board roster.
+  retrieved: '2026-08-25'

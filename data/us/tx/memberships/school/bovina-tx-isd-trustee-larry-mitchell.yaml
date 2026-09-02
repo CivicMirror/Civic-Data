@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: bovina-tx-isd-trustee-larry-mitchell
+person_id: ocd-person/af125361-246e-554c-aa52-607cceef70a8
+organization_id: ocd-organization/da7d1341-7b37-532a-82d5-618f0765bf47
+post_id: bovina-tx-isd/trustee
+role: BOARD SECRETARY
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 185901 (Bovina ISD) -- current board roster.
+  retrieved: '2026-08-25'

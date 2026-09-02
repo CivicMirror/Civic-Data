@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: vega-tx-isd-trustee-matt-marshall
+person_id: ocd-person/e799d6cd-80cd-5b9e-ab3a-b96efce0b8a5
+organization_id: ocd-organization/07ca5bd3-2754-57ad-bb36-b435412499a7
+post_id: vega-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 180902 (Vega ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: hamshire-fannett-tx-isd-trustee-shawn-smith
+person_id: ocd-person/60a2715b-8133-5692-9e01-433d1cb1fe76
+organization_id: ocd-organization/e432f011-50c2-5600-bd98-051a4a33ea0d
+post_id: hamshire-fannett-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 123914 (Hamshire-Fannett ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: friendswood-tx-isd-trustee-ralph-hobratschk
+person_id: ocd-person/d55eba4e-4dee-5a11-926a-20d565ac36d8
+organization_id: ocd-organization/6622d41d-59f4-56b2-baf7-2f85d55686eb
+post_id: friendswood-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 084911 (Friendswood ISD) -- current board roster.
+  retrieved: '2026-08-25'

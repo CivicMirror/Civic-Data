@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: huckabay-tx-isd-trustee-cindy-shipman
+person_id: ocd-person/283a7e52-db43-58b1-862f-9debf300191b
+organization_id: ocd-organization/2c1aee43-9619-51af-b7aa-ae1bd14bfec9
+post_id: huckabay-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 072908 (Huckabay ISD) -- current board roster.
+  retrieved: '2026-08-25'

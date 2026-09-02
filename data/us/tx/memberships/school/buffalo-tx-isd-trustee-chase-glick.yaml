@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: buffalo-tx-isd-trustee-chase-glick
+person_id: ocd-person/896ef533-e79b-56e7-b263-389a3c4af00b
+organization_id: ocd-organization/21338529-58a9-593c-a769-2abbb6d804c3
+post_id: buffalo-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 145901 (Buffalo ISD) -- current board roster.
+  retrieved: '2026-08-25'

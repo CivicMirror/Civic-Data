@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/254ffaf5-3ed6-5f44-9856-685fa2dce0ec
+name: Mathis ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:mathis/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '205904'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=1054
+  note: BBB(LOCAL)-X (tasb, LDU 2025.03, issued 5/30/2025) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: dawson-175904-tx-isd-trustee-suzanne-hasse
+person_id: ocd-person/eab9d148-345e-5d1a-8b76-efc44611cfe6
+organization_id: ocd-organization/ac4c2e29-24c0-5cca-8d01-85b0702533a7
+post_id: dawson-175904-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 175904 (Dawson ISD) -- current board roster.
+  retrieved: '2026-08-25'

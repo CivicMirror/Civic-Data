@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: bellevue-tx-isd-trustee-blake-davis
+person_id: ocd-person/e2ed701a-99b3-515c-8daa-4e0d1058197a
+organization_id: ocd-organization/f579f0eb-9084-54b0-adfd-8e475cbfa4ce
+post_id: bellevue-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 039904 (Bellevue ISD) -- current board roster.
+  retrieved: '2026-08-25'

@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/ce1e396b-c01d-5544-bff1-339a1f5971fa
+name: Karnack ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:karnack/school
+identifiers:
+- scheme: tea-cdn
+  identifier: '102901'
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=604
+  note: BBB(LOCAL)-X (tasb, LDU 2026.03, issued 7/16/2026) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

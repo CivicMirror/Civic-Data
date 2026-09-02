@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: abernathy-tx-isd-trustee-marcus-sullivan
+person_id: ocd-person/bf3078ad-79c9-533e-ab6d-9e4cdd67372d
+organization_id: ocd-organization/9d9ebc1d-25aa-5930-b3e0-5f33b52533ca
+post_id: abernathy-tx-isd/trustee
+role: BOARD PRESIDENT
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 095901 (Abernathy ISD) -- current board roster.
+  retrieved: '2026-08-25'

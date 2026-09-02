@@ -1,0 +1,15 @@
+# Seeded from the TX ISD rolling audit's sourced BBB(LOCAL) election-
+# structure text by scripts/seed_tx_isd_organizations_posts.py (Phase 3,
+# structure only -- see issue #13). Current officeholders are not yet
+# researched; this covers board size and seat structure only.
+id: ocd-organization/f8456a05-b8d8-5f22-a783-c3e2c19c21c8
+name: Plainview ISD Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/school_district:plainview/school
+identifiers:
+- scheme: tea-cdn
+  identifier: 095905
+status: active
+sources:
+- url: https://pol.tasb.org/PolicyOnline?key=558
+  note: BBB(LOCAL)-X (tasb, UPDATE 110, issued 2/19/2018) -- election-method/board-size source. Full text in reference/TX Rolling Audit/tx_isd_bbb_local_2026-08-24.csv.
+  retrieved: '2026-08-24'

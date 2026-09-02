@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: keene-tx-isd-trustee-richard-bothe
+person_id: ocd-person/989e7a55-99be-56de-b2e5-35d44416972d
+organization_id: ocd-organization/50b468bf-d13c-5336-bb36-95ae61980c5d
+post_id: keene-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 126906 (Keene ISD) -- current board roster.
+  retrieved: '2026-08-25'

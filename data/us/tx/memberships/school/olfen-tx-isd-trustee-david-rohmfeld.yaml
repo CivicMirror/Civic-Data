@@ -1,0 +1,15 @@
+# Seeded from the TEA AskTED District Staff Directory export by
+# scripts/seed_tx_isd_people_atlarge.py (Phase 4a, pure at-large
+# districts only -- see issue #13 comment 5386154825). Single-member-
+# district and hybrid boards are not covered: this source has no
+# per-person seat/district-number field to map a name to a specific
+# numbered Post.
+id: olfen-tx-isd-trustee-david-rohmfeld
+person_id: ocd-person/04eb031f-d09a-5319-b560-38c91a75c340
+organization_id: ocd-organization/27124d1d-ddc8-5dde-a778-f66ff7581c78
+post_id: olfen-tx-isd/trustee
+role: BOARD MEMBER
+sources:
+- url: https://tea4avantguard.tea.state.tx.us/EETAD/Web/Home/StaffDirectory
+  note: TEA AskTED District Staff Directory export, district 200906 (Olfen ISD) -- current board roster.
+  retrieved: '2026-08-25'
