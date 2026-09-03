@@ -22,7 +22,7 @@ those are flagged rather than forced into the wrong bucket.
 | Type key | Statutory name | Enabling chapter | Elected? (Phase 0) | classification | Status |
 |---|---|---|---|---|---|
 | `water_control_improvement_district` | Water Control and Improvement District (WCID) | Water Code Ch. 51 | Elected | `sewer` | **In progress** — first type minted under #32 |
-| `special_utility_district` | Special Utility District (SUD) | Water Code Ch. 65 | Elected | `sewer` | Not started |
+| `special_utility_district` | Special Utility District (SUD) | Water Code Ch. 65 | Elected | `sewer` | **Jurisdiction-only, in progress** — 54 of 66 raw rows seeded; board size is 5-11 directors set per-district (Sec. 65.101/65.103), not a fixed number, so no Organization/Post records yet pending individual board-size research. 9 rows held back on the name-vs-Entity-Type check (see `scripts/seed_tx_sud_jurisdictions.py`), including a River Authority misfiled under this type. |
 | `fresh_water_supply_district` | Fresh Water Supply District (FWSD) | Water Code Ch. 53 | Elected | `sewer` | Not started |
 | `water_improvement_district` | Water Improvement District (WID) | Water Code Ch. 55 | Elected | `sewer` | Not started |
 | `irrigation_district` | Irrigation District | Water Code Ch. 58 | Elected | `sewer` | Not started |

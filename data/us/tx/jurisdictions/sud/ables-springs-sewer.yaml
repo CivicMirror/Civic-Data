@@ -1,0 +1,20 @@
+# Seeded from the TX SUD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_sud_jurisdictions.py. Jurisdiction only -- Board of
+# Directors Organization/Post records are NOT created here because
+# Water Code Sec. 65.101 sets the board at 5-11 directors per-district,
+# not a fixed number, and this district's actual board size has not
+# yet been individually verified.
+id: ocd-jurisdiction/country:us/state:tx/special_utility_district:ables-springs/sewer
+name: Ables Springs Special Utility District
+state: tx
+division_id: ocd-division/country:us/state:tx/special_utility_district:ables-springs
+classification: sewer
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103226224'
+- scheme: tx-spdpid
+  identifier: '103228312'
+sources:
+- url: https://myh2odistrict.com
+  note: Ables Springs Special Utility District (SPD Public ID 103226224, 103228312) -- Kaufman County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Sec. 65.101 sets the board at 5-11 directors but the exact number is set per-district, not by the general chapter -- NOT asserted here. This jurisdiction record is structure-prerequisite only; Board of Directors Organization/Post records are separate future work gated on finding this district's actual board size.
+  retrieved: '2026-09-03'
