@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/6375f4af-28eb-512f-ba8a-38f58540a6da
+name: Rob Johnson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://comalad.org/wp-content/uploads/2024/05/CAD-Board-Election-Canvass.pdf
+  note: 'CAD officeholder research (issue #28) -- Herald-Zeitung, May 2024 election: Johnson defeated Camille Adams, 2897-2669 votes, At-Large Place 1.'
+  retrieved: '2026-09-02'

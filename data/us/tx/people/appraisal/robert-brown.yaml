@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/8876c36b-e2f3-50e3-8dd0-51b24eb46fc2
+name: Robert Brown
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://comalad.org/wp-content/uploads/2024/05/CAD-Board-Election-Canvass.pdf
+  note: 'CAD officeholder research (issue #28) -- Herald-Zeitung, May 2024 election: Brown defeated Garrison Maurer 58.17%-41.83%, At-Large Place 3.'
+  retrieved: '2026-09-02'

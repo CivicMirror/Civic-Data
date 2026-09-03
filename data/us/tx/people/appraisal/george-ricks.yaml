@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/f61f9856-ffe3-52de-a38f-4f2929852a92
+name: George Ricks
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://www.taxcutter.us/us-tx/ellis-cad/
+  note: 'CAD officeholder research (issue #28) -- Ellis Appraisal District board roster (term ending 12/31/2026), Place 3.'
+  retrieved: '2026-09-02'
