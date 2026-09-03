@@ -1,0 +1,15 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: coastal-plains-tx-gcd/director-5
+organization_id: ocd-organization/c627e385-ed2e-5d01-b91c-af889ff36b59
+title: Director, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://www.coastalplainsgcd.com
+  note: Coastal Plains Groundwater Conservation District (SPD Public ID 103226384) -- Matagorda County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district's own website, not assumed from the chapter default.
+  retrieved: '2026-09-03'

@@ -1,0 +1,18 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: ocd-jurisdiction/country:us/state:tx/groundwater_conservation_district:headwaters-8/sewer
+name: 'Headwaters Groundwater Conservation District #8'
+state: tx
+division_id: ocd-division/country:us/state:tx/groundwater_conservation_district:headwaters-8
+classification: sewer
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103225652'
+sources:
+- url: https://hgcd.org
+  note: 'Headwaters Groundwater Conservation District #8 (SPD Public ID 103225652) -- Kerr County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district''s own website, not assumed from the chapter default.'
+  retrieved: '2026-09-03'

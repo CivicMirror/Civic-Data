@@ -1,0 +1,15 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: middle-pecos-tx-gcd/director-10
+organization_id: ocd-organization/b4494f37-dc7b-592c-923e-cc5b01f4e2b5
+title: Director, Position 10
+seats: 1
+identifiers: []
+sources:
+- url: https://middlepecosgcd.org
+  note: Middle Pecos Groundwater Conservation District (SPD Public ID 103225577) -- Pecos County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district's own website, not assumed from the chapter default.
+  retrieved: '2026-09-03'

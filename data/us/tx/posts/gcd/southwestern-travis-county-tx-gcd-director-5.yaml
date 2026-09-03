@@ -1,0 +1,15 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: southwestern-travis-county-tx-gcd/director-5
+organization_id: ocd-organization/8a9db91d-2d8f-54d3-a0c4-c1e6857ab344
+title: Director, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://swtcgcd.com
+  note: Southwestern Travis County Groundwater Conservation District (SPD Public ID 103228313) -- Travis County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district's own website, not assumed from the chapter default.
+  retrieved: '2026-09-03'

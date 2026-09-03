@@ -1,0 +1,15 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: irion-county-tx-gcd/director-4
+organization_id: ocd-organization/8c67a043-6d1b-5dff-b174-3eb2edabce5c
+title: Director, Position 4
+seats: 1
+identifiers: []
+sources:
+- url: http://www.irionwcd.org
+  note: Irion County Water Conservation District (SPD Public ID 103225597) -- Irion County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district's own website, not assumed from the chapter default.
+  retrieved: '2026-09-03'

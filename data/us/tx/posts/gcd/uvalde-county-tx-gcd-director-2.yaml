@@ -1,0 +1,15 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: uvalde-county-tx-gcd/director-2
+organization_id: ocd-organization/2a19ada2-073c-5779-ac53-31c131be5ce8
+title: Director, Position 2
+seats: 1
+identifiers: []
+sources:
+- url: https://uvaldecountyuwcd.org
+  note: Uvalde County Underground Water Conservation District (SPD Public ID 103226090) -- Uvalde County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district's own website, not assumed from the chapter default. Raw SPDPID sheet lists this district's name as 'Uvalde County Underground Conservation District' (missing 'Water'); the official name, used here, is 'Uvalde County Underground Water Conservation District'.
+  retrieved: '2026-09-03'

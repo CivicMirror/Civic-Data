@@ -1,0 +1,15 @@
+# Seeded from the TX GCD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Elected status and
+# seat count individually confirmed per district via its own website,
+# not assumed from the Water Code Ch. 36 default -- see this script's
+# module docstring and issue #32 for the research trail.
+id: ocd-organization/a52df31f-0aed-5def-a97a-e1962f6229d1
+name: Hays Trinity Groundwater Conservation District Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/groundwater_conservation_district:hays-trinity/sewer
+identifiers: []
+status: active
+sources:
+- url: https://www.haysgroundwater.com
+  note: Hays Trinity Groundwater Conservation District (SPD Public ID 103225820) -- Hays County. Enumerated via the Texas Comptroller's Special Purpose District Public Information Database (SPDPID). Water Code Ch. 36 sets a default elected board of 5-11 directors, but individual GCDs frequently override this by special act -- elected status and exact seat count individually confirmed via this district's own website, not assumed from the chapter default. 2024 annual report lists 6 named board members against this 5-seat statutory board -- seeded with the statutory 5 director posts; worth a future roster check.
+  retrieved: '2026-09-03'
