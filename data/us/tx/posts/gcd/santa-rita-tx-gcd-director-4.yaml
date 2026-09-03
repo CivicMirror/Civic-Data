@@ -1,0 +1,16 @@
+# Seeded from the TX GCD rolling audit's Underground-Water-Conservation-
+# District-bucket follow-up (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_from_uwcd_bucket.py. Structure only -- current
+# officeholders are not yet researched. Folded into the same
+# groundwater_conservation_district: type key as the districts seeded
+# by seed_tx_gcd_jurisdictions_orgs_posts.py -- see this script's
+# module docstring.
+id: santa-rita-tx-gcd/director-4
+organization_id: ocd-organization/0068df0c-201f-501a-8616-0126ba7daf53
+title: Director, Position 4
+seats: 1
+identifiers: []
+sources:
+- url: https://www.santaritauwcd.org
+  note: 'Santa Rita Underground Water Conservation District (SPD Public ID 103225654) -- Reagan County. Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' -- folded into the groundwater_conservation_district: type key alongside the 39 districts enumerated under the separate ''Groundwater Conservation District'' Entity Type, since research confirmed that bucket distinction carries no statutory meaning. Elected status and exact seat count individually confirmed via this district''s own website.'
+  retrieved: '2026-09-03'

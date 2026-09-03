@@ -1,0 +1,13 @@
+# Seeded by scripts/seed_tx_edwards_aquifer_authority.py (issue #32).
+# Structure only -- current officeholders are not yet researched.
+# Only the 15 popularly-elected single-member-district seats are
+# seeded; the board's 2 appointed non-voting seats are out of scope.
+id: edwards-aquifer-authority-tx-eaa/director-district-13
+organization_id: ocd-organization/15d57dec-c233-566c-a5a0-2b32542243de
+title: Director, Single-Member District 13
+seats: 1
+identifiers: []
+sources:
+- url: https://www.edwardsaquifer.org
+  note: 'Edwards Aquifer Authority (SPD Public ID 103227509). Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' and listed under Bexar County only, but confirmed via issue #32 research to be governed by its own unique enabling act (the Edwards Aquifer Authority Act), not Water Code Ch. 36, with a board spanning single-member districts in Bexar, Comal, Guadalupe, Hays, Caldwell, Medina, Atascosa, and Uvalde counties -- far larger than the raw sheet''s single-county attribution. 15 of the board''s 17 total seats are popularly elected; the other 2 are appointed non-voting members (South-Central Texas Water Advisory Committee; a rotating Medina/Uvalde county commissioners court seat) and are out of scope for this elected-boards-only audit.'
+  retrieved: '2026-09-03'

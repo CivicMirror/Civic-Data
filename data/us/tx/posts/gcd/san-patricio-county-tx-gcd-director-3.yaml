@@ -1,0 +1,16 @@
+# Seeded from the TX GCD rolling audit's Underground-Water-Conservation-
+# District-bucket follow-up (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_from_uwcd_bucket.py. Structure only -- current
+# officeholders are not yet researched. Folded into the same
+# groundwater_conservation_district: type key as the districts seeded
+# by seed_tx_gcd_jurisdictions_orgs_posts.py -- see this script's
+# module docstring.
+id: san-patricio-county-tx-gcd/director-3
+organization_id: ocd-organization/bfc38f93-d532-53d8-9dac-e25204def131
+title: Director, Position 3
+seats: 1
+identifiers: []
+sources:
+- url: https://spcgcd.org
+  note: 'San Patricio County Groundwater Conservation District (SPD Public ID 103226464) -- San Patricio County. Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' -- folded into the groundwater_conservation_district: type key alongside the 39 districts enumerated under the separate ''Groundwater Conservation District'' Entity Type, since research confirmed that bucket distinction carries no statutory meaning. Elected status and exact seat count individually confirmed via this district''s own website. District''s website throws a certificate hostname-mismatch error as of this research -- content confirmed via search/cache; worth a human check that hosting is correctly configured.'
+  retrieved: '2026-09-03'

@@ -1,0 +1,16 @@
+# Seeded from the TX GCD rolling audit's Underground-Water-Conservation-
+# District-bucket follow-up (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_from_uwcd_bucket.py. Structure only -- current
+# officeholders are not yet researched. Folded into the same
+# groundwater_conservation_district: type key as the districts seeded
+# by seed_tx_gcd_jurisdictions_orgs_posts.py -- see this script's
+# module docstring.
+id: ocd-organization/904666a0-fa24-5c1e-9f0b-6961aea07f32
+name: 'Hickory Underground Water Conservation District #1 Board of Directors'
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/groundwater_conservation_district:hickory-1/sewer
+identifiers: []
+status: active
+sources:
+- url: https://www.hickoryuwcd.org
+  note: 'Hickory Underground Water Conservation District #1 (SPD Public ID 103225532) -- Mcculloch County. Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' -- folded into the groundwater_conservation_district: type key alongside the 39 districts enumerated under the separate ''Groundwater Conservation District'' Entity Type, since research confirmed that bucket distinction carries no statutory meaning. Elected status and exact seat count individually confirmed via this district''s own website.'
+  retrieved: '2026-09-03'

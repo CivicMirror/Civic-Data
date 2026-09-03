@@ -1,0 +1,16 @@
+# Seeded from the TX GCD rolling audit's Underground-Water-Conservation-
+# District-bucket follow-up (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_from_uwcd_bucket.py. Structure only -- current
+# officeholders are not yet researched. Folded into the same
+# groundwater_conservation_district: type key as the districts seeded
+# by seed_tx_gcd_jurisdictions_orgs_posts.py -- see this script's
+# module docstring.
+id: sandy-land-tx-gcd/director-4
+organization_id: ocd-organization/56b0aee1-b68e-52ad-b6df-fdb095187b1a
+title: Director, Position 4
+seats: 1
+identifiers: []
+sources:
+- url: https://www.sandylandwater.com
+  note: 'Sandy Land Underground Water Conservation District (SPD Public ID 103225531) -- Yoakum County. Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' -- folded into the groundwater_conservation_district: type key alongside the 39 districts enumerated under the separate ''Groundwater Conservation District'' Entity Type, since research confirmed that bucket distinction carries no statutory meaning. Elected status and exact seat count individually confirmed via this district''s own website. Created under Art. XVI Sec. 59, Texas Constitution per a 71st Legislature act, but confirmed to follow the standard Ch. 36-style elected GCD governance pattern despite the constitutional citation.'
+  retrieved: '2026-09-03'

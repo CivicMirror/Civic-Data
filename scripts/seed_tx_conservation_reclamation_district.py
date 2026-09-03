@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
-Structure only: two districts tagged Entity Type == "Drainage District" by
-the Comptroller's SPDPID, but named and confirmed governed as Conservation
-and Reclamation Districts -- a statutorily distinct category, NOT Water
-Code Ch. 56 Drainage Districts. See issue #32's Drainage District batch
-comment for the full research trail.
+Structure only: three districts confirmed governed as Conservation and
+Reclamation Districts -- a statutorily distinct category, NOT Water Code
+Ch. 56 Drainage Districts or Ch. 36 Groundwater Conservation Districts.
+Two were tagged Entity Type == "Drainage District" by the Comptroller's
+SPDPID (see issue #32's Drainage District batch comment for that research
+trail); the third ("Real-Edwards") was tagged "Underground Water
+Conservation District" and surfaced during the GCD-family follow-up
+research on that Entity Type bucket.
 
 - Brazoria County Conservation And Reclamation District #3 (SPD 103225885):
   created 1910 as a drainage district, recreated 1929 as a Conservation &
@@ -51,7 +54,6 @@ POSTS_DIR = DATA_DIR / "posts" / "conservation_reclamation"
 
 RETRIEVED = "2026-09-03"
 TYPE_KEY = "conservation_and_reclamation_district"
-SEATS = 3
 NS = uuid.UUID("f2a5c8e1-4b7d-59f3-8c1a-2e5f8b1c4d7a")
 
 ROWS = [
@@ -68,6 +70,7 @@ ROWS = [
             "general-election cycle -- unlike the May uniform election date "
             "most other districts in this audit use."
         ),
+        3,
     ),
     (
         "Matagorda County Conservation and Reclamation District #1",
@@ -81,6 +84,30 @@ ROWS = [
             "(the 'Conservation Amendment'), not Water Code Ch. 56 or Ch. "
             "62. 3 elected Commissioner seats (Chairman + 2 members)."
         ),
+        3,
+    ),
+    (
+        "Real-Edwards Conservation and Reclamation District",
+        "Real County",
+        "https://www.recrd.org",
+        "103225651",
+        (
+            "Enumerated via the Comptroller's SPDPID under Entity Type "
+            "'Underground Water Conservation District', not 'Drainage "
+            "District' like the other two districts of this type -- "
+            "confirming this Entity Type field is unreliable for BOTH "
+            "buckets, not just one. Established by House Bill 447, 56th "
+            "Texas Legislature (1959) -- a district-specific special act "
+            "consistent with this category's lineage, though citing a "
+            "different specific act than the other two districts here "
+            "(HB 447, 1959 vs. Ch. 62, Acts of 1951); not yet confirmed "
+            "whether all three share one umbrella statutory chapter or "
+            "each has its own individual special act under the same "
+            "constitutional provision (Art. XVI Sec. 59). 9 elected seats: "
+            "4 Edwards County positions + 4 Real County positions + 1 "
+            "at-large."
+        ),
+        9,
     ),
 ]
 
@@ -124,7 +151,7 @@ def main():
     jur_ids = existing_ids("jurisdictions")
     stats = Counter()
 
-    for name, county, website, spd_id, note in ROWS:
+    for name, county, website, spd_id, note, seats in ROWS:
         slug = slugify(name)
         jid = f"ocd-jurisdiction/country:us/state:tx/{TYPE_KEY}:{slug}/sewer"
         if jid in jur_ids:
@@ -133,7 +160,7 @@ def main():
 
         source_entry = {
             "url": website,
-            "note": f"{name} (SPD Public ID {spd_id}) -- {county}. Enumerated via the Texas Comptroller's SPDPID under Entity Type 'Drainage District', but reclassified per issue #32 research: {note}",
+            "note": f"{name} (SPD Public ID {spd_id}) -- {county}. Enumerated via the Texas Comptroller's SPDPID, reclassified per issue #32 research: {note}",
             "retrieved": RETRIEVED,
         }
         jur = {
@@ -160,7 +187,7 @@ def main():
         write_file(ORGS_DIR / f"{slug}-board.yaml", org, write)
         stats["org_new"] += 1
 
-        for n in range(1, SEATS + 1):
+        for n in range(1, seats + 1):
             pid = f"{slug}-tx-crd/commissioner-{n}"
             post = {
                 "id": pid,

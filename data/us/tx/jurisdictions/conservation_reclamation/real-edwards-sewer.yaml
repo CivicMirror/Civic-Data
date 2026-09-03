@@ -1,0 +1,16 @@
+# Seeded by scripts/seed_tx_conservation_reclamation_district.py
+# (issue #32) -- a Drainage-District-Entity-Type-tagged district
+# reclassified as its own statutorily distinct type. Structure only
+# -- current officeholders are not yet researched.
+id: ocd-jurisdiction/country:us/state:tx/conservation_and_reclamation_district:real-edwards/sewer
+name: Real-Edwards Conservation and Reclamation District
+state: tx
+division_id: ocd-division/country:us/state:tx/conservation_and_reclamation_district:real-edwards
+classification: sewer
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103225651'
+sources:
+- url: https://www.recrd.org
+  note: 'Real-Edwards Conservation and Reclamation District (SPD Public ID 103225651) -- Real County. Enumerated via the Texas Comptroller''s SPDPID, reclassified per issue #32 research: Enumerated via the Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'', not ''Drainage District'' like the other two districts of this type -- confirming this Entity Type field is unreliable for BOTH buckets, not just one. Established by House Bill 447, 56th Texas Legislature (1959) -- a district-specific special act consistent with this category''s lineage, though citing a different specific act than the other two districts here (HB 447, 1959 vs. Ch. 62, Acts of 1951); not yet confirmed whether all three share one umbrella statutory chapter or each has its own individual special act under the same constitutional provision (Art. XVI Sec. 59). 9 elected seats: 4 Edwards County positions + 4 Real County positions + 1 at-large.'
+  retrieved: '2026-09-03'

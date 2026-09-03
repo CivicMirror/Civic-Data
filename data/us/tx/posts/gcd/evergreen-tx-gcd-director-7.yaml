@@ -1,0 +1,16 @@
+# Seeded from the TX GCD rolling audit's Underground-Water-Conservation-
+# District-bucket follow-up (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_from_uwcd_bucket.py. Structure only -- current
+# officeholders are not yet researched. Folded into the same
+# groundwater_conservation_district: type key as the districts seeded
+# by seed_tx_gcd_jurisdictions_orgs_posts.py -- see this script's
+# module docstring.
+id: evergreen-tx-gcd/director-7
+organization_id: ocd-organization/b498d5d6-82b5-5418-8ddb-3bd0bc3c545b
+title: Director, Position 7
+seats: 1
+identifiers: []
+sources:
+- url: https://evergreenuwcd.org
+  note: 'Evergreen Underground Water Conservation District (SPD Public ID 103227003) -- Atascosa County. Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' -- folded into the groundwater_conservation_district: type key alongside the 39 districts enumerated under the separate ''Groundwater Conservation District'' Entity Type, since research confirmed that bucket distinction carries no statutory meaning. Elected status and exact seat count individually confirmed via this district''s own website. 9-member board total: 8 elected (2 each from Wilson, Frio, Atascosa, Karnes counties) + 1 Governor-appointed. Only the 8 elected seats get a Post here.'
+  retrieved: '2026-09-03'

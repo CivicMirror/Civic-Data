@@ -1,0 +1,16 @@
+# Seeded from the TX GCD rolling audit's Underground-Water-Conservation-
+# District-bucket follow-up (issue #32, Phase 1) by
+# scripts/seed_tx_gcd_from_uwcd_bucket.py. Structure only -- current
+# officeholders are not yet researched. Folded into the same
+# groundwater_conservation_district: type key as the districts seeded
+# by seed_tx_gcd_jurisdictions_orgs_posts.py -- see this script's
+# module docstring.
+id: ocd-organization/8863ed51-85e7-53a5-b227-4260196bbd2d
+name: Mesa Underground Water Conservation District Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/groundwater_conservation_district:mesa/sewer
+identifiers: []
+status: active
+sources:
+- url: https://mesauwcd.org
+  note: 'Mesa Underground Water Conservation District (SPD Public ID 103225693) -- Dawson County. Enumerated via the Texas Comptroller''s SPDPID under Entity Type ''Underground Water Conservation District'' -- folded into the groundwater_conservation_district: type key alongside the 39 districts enumerated under the separate ''Groundwater Conservation District'' Entity Type, since research confirmed that bucket distinction carries no statutory meaning. Elected status and exact seat count individually confirmed via this district''s own website. Official domain 301-redirects permanently to a Google Sites page (sites.google.com/view/mesa-uwcd/home) -- content confirmed there, but worth noting the domain no longer serves its own content.'
+  retrieved: '2026-09-03'
