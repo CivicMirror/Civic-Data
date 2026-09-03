@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/91900bc2-7eb6-51fe-acff-353c6f02ea45
+name: Robert Bruce
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://www.tpr.org/news/2024-06-16/bexar-county-appraisal-district-runoff-election-results
+  note: 'CAD officeholder research (issue #28) -- BCAD board election -- Place 3 went to a June 15 2024 runoff; Bruce defeated G.L. \Larry\" Lamborn with 53% of the vote".'
+  retrieved: '2026-09-02'
