@@ -1,0 +1,15 @@
+# Seeded from the TX Irrigation District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_irrigation_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Board size/terms templated from Water Code Sec. 58.071/49.103, not
+# yet individually verified against this district's own governing
+# documents beyond the name/type checks noted in issue #32.
+id: delta-lake-tx-irrigation/director-5
+organization_id: ocd-organization/2d457794-0b57-5ca6-ae33-2512a27a1e94
+title: Director, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://www.deltalakeid.org
+  note: 'Delta Lake Irrigation District (SPD Public ID 103225579) -- Hidalgo County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 58.071 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/type checks noted in issue #32.'
+  retrieved: '2026-09-03'

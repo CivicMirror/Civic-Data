@@ -1,0 +1,15 @@
+# Seeded from the TX Irrigation District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_irrigation_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Board size/terms templated from Water Code Sec. 58.071/49.103, not
+# yet individually verified against this district's own governing
+# documents beyond the name/type checks noted in issue #32.
+id: cameron-county-6-tx-irrigation/director-5
+organization_id: ocd-organization/72e49a76-ecc3-576f-97bf-da8acebfc8c5
+title: Director, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://spdpid.comptroller.texas.gov/
+  note: 'Cameron County Irrigation District #6 (SPD Public ID 103226392) -- Cameron County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 58.071 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/type checks noted in issue #32.'
+  retrieved: '2026-09-03'

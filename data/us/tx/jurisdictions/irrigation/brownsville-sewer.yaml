@@ -1,0 +1,20 @@
+# Seeded from the TX Irrigation District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_irrigation_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Board size/terms templated from Water Code Sec. 58.071/49.103, not
+# yet individually verified against this district's own governing
+# documents beyond the name/type checks noted in issue #32.
+id: ocd-jurisdiction/country:us/state:tx/irrigation_district:brownsville/sewer
+name: Brownsville Irrigation District
+state: tx
+division_id: ocd-division/country:us/state:tx/irrigation_district:brownsville
+classification: sewer
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103225523'
+- scheme: tx-spdpid
+  identifier: '103228571'
+sources:
+- url: https://spdpid.comptroller.texas.gov/
+  note: 'Brownsville Irrigation District (SPD Public ID 103225523, 103228571) -- Cameron County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 58.071 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/type checks noted in issue #32.'
+  retrieved: '2026-09-03'
