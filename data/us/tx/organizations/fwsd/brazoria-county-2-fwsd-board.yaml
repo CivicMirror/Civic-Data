@@ -1,0 +1,15 @@
+# Seeded from the TX FWSD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_fwsd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 53.062/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# name/type checks noted in issue #32.
+id: ocd-organization/5a20f164-9dac-5ff3-bba4-bf6d91f21c92
+name: 'Brazoria County Fresh Water Supply District #2 Board of Directors'
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/fresh_water_supply_district:brazoria-county-2/sewer
+identifiers: []
+status: active
+sources:
+- url: https://spdpid.comptroller.texas.gov/
+  note: 'Brazoria County Fresh Water Supply District #2 (SPD Public ID 103227614) -- Brazoria County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 53.062 (5 supervisors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/type checks noted in issue #32; a district-specific special act overriding board size would not be caught by this pass.'
+  retrieved: '2026-09-03'

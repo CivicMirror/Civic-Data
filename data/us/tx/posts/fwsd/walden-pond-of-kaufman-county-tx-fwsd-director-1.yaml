@@ -1,0 +1,15 @@
+# Seeded from the TX FWSD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_fwsd_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 53.062/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# name/type checks noted in issue #32.
+id: walden-pond-of-kaufman-county-tx-fwsd/director-1
+organization_id: ocd-organization/975af421-a0ba-5bf1-8a02-a417377da17c
+title: Director, Position 1
+seats: 1
+identifiers: []
+sources:
+- url: https://www.winsteadspecialdistricts.com/kaufman-county/walden-pond-fresh-water-supply-district-of-k
+  note: 'Walden Pond Fresh Water Supply District of Kaufman County (SPD Public ID 103228011) -- Kaufman County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 53.062 (5 supervisors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/type checks noted in issue #32; a district-specific special act overriding board size would not be caught by this pass.'
+  retrieved: '2026-09-03'
