@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/c2a9e49f-2897-5726-be94-e3d212691ff7
+name: Pete Palmer
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://mctxgop.org/mcnews/appraisal-board-election
+  note: 'CAD officeholder research (issue #28) -- May 4 2024 election, defeated Luis Pedraza, Place 2 -- confirmed elected member on current MCAD board listing.'
+  retrieved: '2026-09-02'

@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/c4bd97aa-90bb-557a-a1ea-d119104ef275
+name: Andrew Johnson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://www.fbcad.org/board-members/
+  note: 'CAD officeholder research (issue #28) -- Fort Bend CAD election results (May 4 2024) plus confirmed on fbcad.org board page as At-Large Position No. 2.'
+  retrieved: '2026-09-02'

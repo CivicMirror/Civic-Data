@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/510b76d0-5ae1-5e15-aabd-68791446fa47
+name: Karina Cardoza
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://www.taxcutter.us/us-tx/appraisal-district-hidalgo/
+  note: 'CAD officeholder research (issue #28) -- Hidalgo Appraisal District Board of Directors listing, explicitly labeled Elected (by county voters), Place 3.'
+  retrieved: '2026-09-02'

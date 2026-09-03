@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/17dc7998-2d3f-50dc-9ed4-cb1d64f459aa
+name: Gary Beck
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://mctxgop.org/mcnews/appraisal-board-election
+  note: 'CAD officeholder research (issue #28) -- May 4 2024 election, defeated Freddie Brooks, Place 1 -- confirmed elected member on current MCAD board listing.'
+  retrieved: '2026-09-02'

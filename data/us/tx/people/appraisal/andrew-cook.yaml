@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/0d394b75-49e0-55d2-97b5-c84e23616c1c
+name: Andrew Cook
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://collincad.org/district-information/board-of-directors/
+  note: 'CAD officeholder research (issue #28) -- Collin CAD Board of Directors page, confirmed elected At-Large Place 3.'
+  retrieved: '2026-09-02'

@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/c07185dd-df96-5a52-a93f-5bd49c4b6cd7
+name: Mason Moses
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://www.wcad.org/board-of-directors/
+  note: 'CAD officeholder research (issue #28) -- Williamson CAD Board of Directors page, Place 3 (Secretary), publicly elected (term expires 12/31/26).'
+  retrieved: '2026-09-02'

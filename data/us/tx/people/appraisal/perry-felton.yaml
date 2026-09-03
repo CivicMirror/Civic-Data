@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/9a740882-ca5a-5f75-bf17-92081dae1277
+name: Perry Felton
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://wacotrib.com/news/local/government-politics/3-elected-for-mclennan-countys-appraisal-district/article_fde6c854-0ab2-11ef-861a-3fed83a93fa9.html
+  note: 'CAD officeholder research (issue #28) -- May 4 2024 election: Felton elected Place 2, 55.55% of vote.'
+  retrieved: '2026-09-02'

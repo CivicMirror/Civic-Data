@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/711c02bb-4c64-5646-9956-8b25c1435327
+name: Warren Clark
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://galvestoncad.org/board-of-directors/
+  note: 'CAD officeholder research (issue #28) -- Galveston CAD 2024 board election: unopposed, certified elected under Election Code 2.052, Position 1 -- confirmed on current board page (term expires 2026).'
+  retrieved: '2026-09-02'

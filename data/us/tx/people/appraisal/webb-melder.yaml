@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/54cb2b23-d102-546c-9475-f8b0a6ba54d3
+name: Webb Melder
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://mctxgop.org/mcnews/appraisal-board-election
+  note: 'CAD officeholder research (issue #28) -- May 4 2024 election, Place 3 -- confirmed elected member on current MCAD board listing.'
+  retrieved: '2026-09-02'
