@@ -1,0 +1,15 @@
+# Seeded from the TX WCID rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_wcid_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 51.071/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# name/county anomaly checks noted in issue #32.
+id: oak-point-4-tx-wcid/director-4
+organization_id: ocd-organization/92c9471e-d77f-5d28-bad6-60b18319243d
+title: Director, Position 4
+seats: 1
+identifiers: []
+sources:
+- url: https://spdpid.comptroller.texas.gov/
+  note: 'Oak Point Water Control and Improvement District #4 (SPD Public ID 103227364) -- Denton County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 51.071 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/county checks noted in issue #32; a district-specific special act overriding board size would not be caught by this pass.'
+  retrieved: '2026-09-03'

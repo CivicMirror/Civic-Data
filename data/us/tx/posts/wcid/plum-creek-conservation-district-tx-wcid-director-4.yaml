@@ -1,0 +1,16 @@
+# Seeded from the TX WCID rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_wcid_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 51.071/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# name/county anomaly checks noted in issue #32.
+id: plum-creek-conservation-district-tx-wcid/director-4
+organization_id: ocd-organization/28482378-ff7d-586b-80f8-6254e0727e25
+title: Director, Position 4
+seats: 1
+identifiers: []
+sources:
+- url: https://www.pccd.org
+  note: 'Plum Creek Conservation District (SPD Public ID 103227489, 103228185) -- spans Hays and Caldwell Counties (6-director board: 2 from Hays, 4 from Caldwell, per the district''s own site). Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 51.071 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/county checks noted in issue #32; a district-specific special act overriding board size would not be caught by this pass. Two SPD Public IDs in the Comptroller''s raw enumeration resolved to this single entity after confirming via pccd.org that it is one legal district, not two -- both IDs recorded as identifiers rather than picking one arbitrarily. Board apportionment (2 Hays/4 Caldwell) means the generic
+    Sec. 51.071 5-director at-large template does not apply here; posts are 6 undifferentiated director seats rather than county-apportioned Place seats because this repo doesn''t yet have a source enumerating the county split by named seat -- a refinement for later officeholder research, not this structure pass.'
+  retrieved: '2026-09-03'

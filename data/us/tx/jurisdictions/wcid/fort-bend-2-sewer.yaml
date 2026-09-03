@@ -1,0 +1,18 @@
+# Seeded from the TX WCID rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_wcid_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 51.071/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# name/county anomaly checks noted in issue #32.
+id: ocd-jurisdiction/country:us/state:tx/water_control_improvement_district:fort-bend-2/sewer
+name: 'Fort Bend County Water Control and Improvement District #2'
+state: tx
+division_id: ocd-division/country:us/state:tx/water_control_improvement_district:fort-bend-2
+classification: sewer
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103226304'
+sources:
+- url: https://fbcwcid2.com
+  note: 'Fort Bend County Water Control and Improvement District #2 (SPD Public ID 103226304) -- Fort Bend County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 51.071 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the name/county checks noted in issue #32; a district-specific special act overriding board size would not be caught by this pass.'
+  retrieved: '2026-09-03'
