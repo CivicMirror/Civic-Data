@@ -1,0 +1,15 @@
+# Seeded from the TX WID rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_wid_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 55.101/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# research noted in issue #32.
+id: ocd-organization/a218c440-1dbc-5b97-b32f-60bc31bb80c2
+name: 'Loving County Water Improvement District #1 Board of Directors'
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/water_improvement_district:loving-county-1/sewer
+identifiers: []
+status: active
+sources:
+- url: http://www.lovingcowid.org
+  note: 'Loving County Water Improvement District #1 (SPD Public ID 103226772) -- Loving County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 55.101 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the research noted in issue #32.'
+  retrieved: '2026-09-03'

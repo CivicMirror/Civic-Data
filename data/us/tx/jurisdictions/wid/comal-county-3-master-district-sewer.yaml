@@ -1,0 +1,23 @@
+# Seeded from the TX WID rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_wid_jurisdictions_orgs_posts.py. Structure only --
+# current officeholders are not yet researched. Board size/terms
+# templated from Water Code Sec. 55.101/49.103, not yet individually
+# verified against this district's own governing documents beyond the
+# research noted in issue #32.
+id: ocd-jurisdiction/country:us/state:tx/water_improvement_district:comal-county-3-master-district/sewer
+name: Comal County Water Improvement District No. 3 Master District
+state: tx
+division_id: ocd-division/country:us/state:tx/water_improvement_district:comal-county-3-master-district
+classification: sewer
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103228488'
+- scheme: tx-spdpid
+  identifier: '103228489'
+- scheme: tx-spdpid
+  identifier: '103228681'
+sources:
+- url: https://www.mayfairwids.org/ccwid-3a/about/
+  note: 'Comal County Water Improvement District No. 3 Master District (SPD Public ID 103228488, 103228489, 103228681) -- Comal County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID); board structure per Water Code Sec. 55.101 (5 directors, fixed, no special-law override clause found) and Sec. 49.103 (staggered 4-year terms, general public qualified-voter franchise per Sec. 49.1025). Not yet individually verified against this district''s own governing documents beyond the research noted in issue #32. Successor to the dissolved ''Comal County Water Improvement District no. 3'' (SPD ID 103228206, INACTIVE, excluded from this seed), per that district''s own 2024 Order Dividing District Into Three Districts. One of the 3 raw SPD IDs (103228488) was filed under the wrong county (''Harris County'') in the Comptroller''s data -- a data-entry error, not a separate entity; the district is physically in Comal County per the other 2 filings and
+    its own website.'
+  retrieved: '2026-09-03'
