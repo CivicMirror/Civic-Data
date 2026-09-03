@@ -1,0 +1,15 @@
+# Seeded from the TX Drainage District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_drainage_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Elected status and seat count individually confirmed per district,
+# not assumed from the Water Code Sec. 56.052 default -- see this
+# script's module docstring and issue #32 for the research trail.
+id: montgomery-county-6-tx-drainage/director-5
+organization_id: ocd-organization/53159cf3-81e4-56b9-b942-b6565f2449b3
+title: Director, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://districtdirectory.org/montgomery-county/montgomery-county-drainage-district-no-6/
+  note: 'Montgomery County Drainage District #6 (SPD Public ID 103227000) -- Montgomery County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Water Code Sec. 56.052 defaults to 3 directors ''unless special law provides otherwise'' -- seat count and elected status individually confirmed per district (not assumed from the general default), per issue #32''s Phase 1 Drainage District research comment. Elected inferred from May-dated staggered terms (Positions 1-5); page doesn''t explicitly say "elected" (moderate confidence).'
+  retrieved: '2026-09-03'

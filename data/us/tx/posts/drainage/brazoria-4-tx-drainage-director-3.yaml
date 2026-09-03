@@ -1,0 +1,15 @@
+# Seeded from the TX Drainage District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_drainage_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Elected status and seat count individually confirmed per district,
+# not assumed from the Water Code Sec. 56.052 default -- see this
+# script's module docstring and issue #32 for the research trail.
+id: brazoria-4-tx-drainage/director-3
+organization_id: ocd-organization/2d0c5394-53a3-5a37-94a8-eeaaad87d381
+title: Director, Position 3
+seats: 1
+identifiers: []
+sources:
+- url: https://www.bdd4.org
+  note: 'Brazoria Drainage District #4 (SPD Public ID 103227600) -- Brazoria County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Water Code Sec. 56.052 defaults to 3 directors ''unless special law provides otherwise'' -- seat count and elected status individually confirmed per district (not assumed from the general default), per issue #32''s Phase 1 Drainage District research comment. Elected inferred from May-dated staggered terms; site doesn''t state "elected" explicitly (moderate confidence).'
+  retrieved: '2026-09-03'

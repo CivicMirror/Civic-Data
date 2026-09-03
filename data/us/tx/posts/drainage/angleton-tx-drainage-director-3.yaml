@@ -1,0 +1,15 @@
+# Seeded from the TX Drainage District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_drainage_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Elected status and seat count individually confirmed per district,
+# not assumed from the Water Code Sec. 56.052 default -- see this
+# script's module docstring and issue #32 for the research trail.
+id: angleton-tx-drainage/director-3
+organization_id: ocd-organization/3cd1e13c-da3c-5328-8001-e7fb524fb715
+title: Director, Position 3
+seats: 1
+identifiers: []
+sources:
+- url: https://www.angletondrainagedistrict.org
+  note: 'Angleton Drainage District (SPD Public ID 103225598) -- Brazoria County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Water Code Sec. 56.052 defaults to 3 directors ''unless special law provides otherwise'' -- seat count and elected status individually confirmed per district (not assumed from the general default), per issue #32''s Phase 1 Drainage District research comment. 3 board members confirmed via the district''s own board page (Chairman, Assistant Chairman, Secretary), staggered May-dated terms consistent with the statutory elected default; the site doesn''t use the word "elected" explicitly.'
+  retrieved: '2026-09-03'

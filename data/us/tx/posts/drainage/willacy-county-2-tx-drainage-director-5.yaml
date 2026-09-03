@@ -1,0 +1,15 @@
+# Seeded from the TX Drainage District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_drainage_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Elected status and seat count individually confirmed per district,
+# not assumed from the Water Code Sec. 56.052 default -- see this
+# script's module docstring and issue #32 for the research trail.
+id: willacy-county-2-tx-drainage/director-5
+organization_id: ocd-organization/292869d9-ecc5-59c1-982f-884d19b8caef
+title: Director, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://www.willacycdd2.org
+  note: 'Willacy County Drainage District #2 (SPD Public ID 103227465) -- Willacy County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Water Code Sec. 56.052 defaults to 3 directors ''unless special law provides otherwise'' -- seat count and elected status individually confirmed per district (not assumed from the general default), per issue #32''s Phase 1 Drainage District research comment. Elected inferred (site describes a "board of directors" without explicit "elected" language); sister district WCDD#1 confirmed elected via the same county elections office (moderate confidence).'
+  retrieved: '2026-09-03'

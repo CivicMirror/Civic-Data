@@ -1,0 +1,15 @@
+# Seeded from the TX Drainage District rolling audit (issue #32,
+# Phase 1) by scripts/seed_tx_drainage_jurisdictions_orgs_posts.py.
+# Structure only -- current officeholders are not yet researched.
+# Elected status and seat count individually confirmed per district,
+# not assumed from the Water Code Sec. 56.052 default -- see this
+# script's module docstring and issue #32 for the research trail.
+id: ocd-organization/f0c00f37-be01-5915-a015-34bf9634e711
+name: 'Jefferson County Drainage District #7 Board of Directors'
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/drainage_district:jefferson-county-7/sewer
+identifiers: []
+status: active
+sources:
+- url: https://www.dd7.org
+  note: 'Jefferson County Drainage District #7 (SPD Public ID 103227093) -- Jefferson County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Water Code Sec. 56.052 defaults to 3 directors ''unless special law provides otherwise'' -- seat count and elected status individually confirmed per district (not assumed from the general default), per issue #32''s Phase 1 Drainage District research comment. Site explicitly: "Elections are held in May of even-numbered years. Commissioners are elected to four-year staggered terms." (titled "Commissioners", not "Directors").'
+  retrieved: '2026-09-03'
