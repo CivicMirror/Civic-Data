@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/36ed22c1-d68d-53fc-8320-d67feaaea6c0
+name: Paul Johnson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://communityimpact.com/austin/bastrop-cedar-creek/election/2024/05/04/updated-multiple-nonincumbents-lead-in-may-4-bastrop-elections/
+  note: 'CAD officeholder research (issue #28) -- May 4 2024 election: Johnson 2284 votes (50.7%) defeated William Satterfield 2221 (49.3%).'
+  retrieved: '2026-09-02'

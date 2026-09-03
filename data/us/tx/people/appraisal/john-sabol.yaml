@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/c2a0318b-cfde-5eb4-941d-3b74f236fb30
+name: John Sabol
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://communityimpact.com/austin/bastrop-cedar-creek/election/2024/05/04/updated-multiple-nonincumbents-lead-in-may-4-bastrop-elections/
+  note: 'CAD officeholder research (issue #28) -- May 4 2024 election: Sabol 2145 votes (50.2%) defeated Barry Barker 2128 (49.8%).'
+  retrieved: '2026-09-02'

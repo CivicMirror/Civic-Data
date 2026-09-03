@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/a921028c-1a84-5fa3-aa29-0c8e9170bfff
+name: Justin Hood
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://gcad.org/board-of-directors/
+  note: 'CAD officeholder research (issue #28) -- Gregg CAD Place 3 candidate confirmed as a current Gregg CAD board member on the district''s own board page -- convergent evidence.'
+  retrieved: '2026-09-02'

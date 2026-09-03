@@ -1,0 +1,22 @@
+# Corrected during officeholder research (issue #28): Potter/Randall
+# CAD is a joint district, but its 3 SB2 elected seats are NOT shared
+# at-large across both counties -- each county elects its OWN 3
+# directors to the shared board (6 elected seats total, not 3). The
+# original structure-seed pass assumed the generic single-county
+# 3-seat model without checking whether the elected seats also split
+# per-county for the one joint district in the elected-seat scope.
+# See the PRAD Board of Directors Nomination Packet
+# (actx.edu/files/filecabinet/folder56/PRAD_Board_of_Directors_Nomination_Packet.pdf,
+# fetched 2026-09-02), which tracks separate "Potter County Board of
+# Directors" and "Randall County Board of Directors" rosters, each
+# with its own Elected Director 1/2/3. Replaces the 3 generic
+# potter-randall-tx-cad/director-place-N Posts.
+id: potter-randall-tx-cad/director-randall-place-2
+organization_id: ocd-organization/4f2ce274-7cb4-51a0-ac05-452e25ae2d73
+title: Director, Randall Place 2
+seats: 1
+identifiers: []
+sources:
+- url: https://www.actx.edu/files/filecabinet/folder56/PRAD_Board_of_Directors_Nomination_Packet.pdf
+  note: PRAD Board of Directors Nomination Packet -- confirms 3 elected directors per county (Potter and Randall each elect their own 3), 6 elected seats total on the shared board.
+  retrieved: '2026-09-02'

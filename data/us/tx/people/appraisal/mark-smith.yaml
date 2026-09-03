@@ -1,0 +1,14 @@
+# Seeded from per-county officeholder research (issue #28) by
+# scripts/seed_tx_cad_people.py. See reference/TX Rolling Audit/
+# tx_cad_officeholders_batch*_*.csv for the full source data.
+id: ocd-person/8310eb78-31d4-523c-ab05-b58c5428cbcc
+name: Mark Smith
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-02'
+  pipeline: 'TX CAD officeholder research (issue #28)'
+sources:
+- url: https://gcad.org/board-of-directors/
+  note: 'CAD officeholder research (issue #28) -- Gregg CAD Place 1 candidate (per Gregg County ballot filing coverage) confirmed as a current Gregg CAD board member on the district''s own board page -- convergent evidence (only Place 1 candidate from that election still on the board), no other Place 1 candidate appears.'
+  retrieved: '2026-09-02'
