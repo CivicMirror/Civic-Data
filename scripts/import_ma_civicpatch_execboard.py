@@ -17,18 +17,22 @@ scope here, per #34's own non-goals.
 SAFETY MODEL (see issue #34 discussion): the import is deliberately
 conservative rather than a blind bulk load. Per town:
 
-  1. Determine which single executive-body "family" CivicPatch's role_ids
-     for that town belong to (select-board, council, or mayor). A file
-     mixing families (some towns' CivicPatch data has stray leftover roles
-     from a governance-form change) is skipped as ambiguous, not guessed.
+  1. Determine which family CivicPatch's role_ids for that town belong to:
+     "board" (select-board-* and council-* are one family here -- a town
+     can't have both as separate real bodies, so role_ids mixing the two
+     are CivicPatch's own labeling noise, not a structural split; verified
+     by checking every observed mixed-role-id town against this repo,
+     where only one such post ever exists) or "mayor" (genuinely
+     independent -- MA cities routinely elect both a Mayor and a Council).
   2. Resolve that family to an existing post under
      data/us/ma/posts/municipal/{slug}*.yaml by matching the post title
      (not by guessing a filename pattern -- title conventions vary:
-     "Select Board Member", "Town Council Member", "Town Councilor",
-     "Town Councillor at Large", "Mayor of X", etc.). Zero or more-than-one
-     matching post is a skip (structure gap or ambiguous multi-seat-type
-     council), not a create -- that's issue #34's own Stage 1 concern, and
-     this import surfaces it for free rather than papering over it.
+     "Select Board Member", "Selectboard Member", "Board of Selectmen
+     (Member)", "Town/City Council(l)or/Member", "Mayor of X", etc.). Zero
+     or more-than-one matching post is a skip (structure gap or a genuine
+     multi-seat-type ambiguity), not a create -- that's issue #34's own
+     Stage 1 concern, and this import surfaces it for free rather than
+     papering over it.
   3. A post that already has ANY existing memberships is skipped entirely,
      not diffed/merged -- CivicPatch and a prior partial import agreeing or
      disagreeing on names is a human call, not an auto-merge (a handful of
@@ -123,25 +127,39 @@ def normalize_person_name(name: str) -> str:
     return re.sub(r"\s+", " ", name)
 
 
-SELECT_BOARD_ROLE_IDS = {"select-board-member", "select-board-chair", "select-board-vice-chair"}
-COUNCIL_ROLE_IDS = {"council-member", "council-president", "council-vice-president"}
+# select-board-* and council-* are treated as ONE family ("board") for post
+# lookup: a town can't have both a Select Board and a Town/City Council as
+# separate real bodies (one supersedes the other under a charter change), so
+# a file mixing the two role_id sets is CivicPatch's own labeling noise, not
+# a genuine structural split -- confirmed by spot-checking every observed
+# mixed-role-id town (sherborn, hanson, oxford) against this repo, where
+# only ONE such post exists in each case. mayor is genuinely independent:
+# MA cities routinely elect both a Mayor and a Council.
+BOARD_ROLE_IDS = {
+    "select-board-member", "select-board-chair", "select-board-vice-chair",
+    "council-member", "council-president", "council-vice-president",
+}
 MAYOR_ROLE_IDS = {"mayor"}
 GENERIC_ROLE_IDS = {"chair", "vice-chair", "clerk"}
 EXCLUDED_ROLE_IDS = {"moderator", "unmatched"}
 
 TITLE_PATTERNS = {
-    "select-board": re.compile(r"select\s*board", re.IGNORECASE),
-    "council": re.compile(r"council(?:or|lor)?", re.IGNORECASE),
+    # Covers every legacy/current naming this repo actually uses for the
+    # town's single legislative/executive board: "Select Board Member",
+    # "Selectboard Member", "Board of Selectmen (Member)", "Selectman",
+    # "Town/City Council(l)or(Member)".
+    "board": re.compile(
+        r"select\s*board|board\s+of\s+select(?:men|wom[ae]n|persons?)|select(?:man|woman|person)|council(?:or|lor)?",
+        re.IGNORECASE,
+    ),
     "mayor": re.compile(r"\bmayor\b", re.IGNORECASE),
 }
 
 
 def classify_family(role_ids_in_file):
     families = set()
-    if role_ids_in_file & SELECT_BOARD_ROLE_IDS:
-        families.add("select-board")
-    if role_ids_in_file & COUNCIL_ROLE_IDS:
-        families.add("council")
+    if role_ids_in_file & BOARD_ROLE_IDS:
+        families.add("board")
     if role_ids_in_file & MAYOR_ROLE_IDS:
         families.add("mayor")
     return families
@@ -253,33 +271,18 @@ def main():
         role_ids_in_file = {r["role_id"] for p in people for r in p.get("roles", []) if r["role_id"] not in EXCLUDED_ROLE_IDS}
         qualified_families = classify_family(role_ids_in_file - GENERIC_ROLE_IDS)
 
-        # select-board mixed with council/mayor is a real contradiction (a
-        # town can't have both) -- almost certainly stale data from a
-        # governance-form change. mayor+council together is NOT a
-        # contradiction: MA cities routinely elect both, so process each
-        # as its own family rather than treating the file as ambiguous.
-        if "select-board" in qualified_families and qualified_families - {"select-board"}:
-            skips["ambiguous_or_no_family"] += 1
-            skip_examples.setdefault("ambiguous_or_no_family", []).append((slug, sorted(role_ids_in_file)))
-            continue
-
         if qualified_families:
             families_to_process = sorted(qualified_families)
             # Generic officer titles (chair/vice-chair/clerk) with no body
-            # marker belong to whichever non-mayor family is present --
-            # mayor is a singular office with no "member"-style board seat.
-            generic_target = "council" if "council" in qualified_families else (
-                "select-board" if "select-board" in qualified_families else None
-            )
+            # marker belong to "board" -- mayor is a singular office with
+            # no "member"-style board seat, so it never carries these.
+            generic_target = "board" if "board" in qualified_families else None
         else:
             # Every role in this file is generic (chair/vice-chair/clerk),
-            # no qualified select-board-*/council-*/mayor marker at all --
-            # CivicPatch's own scrape lost the body name. Fall back to
-            # resolving via which single family has exactly one matching
-            # post for this town; a town can't plausibly have both a
-            # Select Board and a Council, so an unambiguous post match is
-            # as reliable a signal as the role_id would have been.
-            candidates = [fam for fam in ("select-board", "council", "mayor") if len(find_matching_posts(slug, fam)) == 1]
+            # no qualified board-*/mayor marker at all -- CivicPatch's own
+            # scrape lost the body name. Fall back to resolving via which
+            # single family has exactly one matching post for this town.
+            candidates = [fam for fam in ("board", "mayor") if len(find_matching_posts(slug, fam)) == 1]
             if len(candidates) != 1:
                 skips["ambiguous_or_no_family"] += 1
                 skip_examples.setdefault("ambiguous_or_no_family", []).append(
@@ -287,7 +290,7 @@ def main():
                 )
                 continue
             families_to_process = candidates
-            generic_target = candidates[0]
+            generic_target = candidates[0] if candidates[0] == "board" else None
 
         for family in families_to_process:
             matches = find_matching_posts(slug, family)
@@ -309,13 +312,7 @@ def main():
                 skips["already_has_holders"] += 1
                 continue
 
-            family_role_ids = set()
-            if family == "select-board":
-                family_role_ids = SELECT_BOARD_ROLE_IDS
-            elif family == "council":
-                family_role_ids = COUNCIL_ROLE_IDS
-            elif family == "mayor":
-                family_role_ids = MAYOR_ROLE_IDS
+            family_role_ids = BOARD_ROLE_IDS if family == "board" else MAYOR_ROLE_IDS
             if family == generic_target:
                 family_role_ids = family_role_ids | GENERIC_ROLE_IDS
 
