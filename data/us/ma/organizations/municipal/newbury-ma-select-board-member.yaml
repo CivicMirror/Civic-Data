@@ -1,0 +1,15 @@
+# Structural gap identified while running scripts/import_ma_civicpatch_execboard.py
+# (issue #34): Newbury had posts for Town Clerk, Tree Warden, Library Trustee, etc.
+# from the V20 rolling audit, but no Select Board post at all, despite the town
+# clearly having one. Confirmed directly against the town's own website.
+id: ocd-organization/09d02ee0-f680-54a3-9831-1aea65e5f175
+name: Select Board Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:newbury/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: newbury-ma/select-board-member
+status: active
+sources:
+- url: https://www.newburyma.gov/858/Select-Board
+  note: 'Town of Newbury Select Board page: "five members, elected for 3-year terms"'
+  retrieved: '2026-09-06'

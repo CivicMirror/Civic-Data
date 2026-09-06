@@ -1,0 +1,15 @@
+# Structural gap identified while running scripts/import_ma_civicpatch_execboard.py
+# (issue #34): Newbury had posts for Town Clerk, Tree Warden, Library Trustee, etc.
+# from the V20 rolling audit, but no Select Board post at all, despite the town
+# clearly having one. Confirmed directly against the town's own website.
+id: ocd-person/72726225-1d49-5df8-a163-6b3faf73c1e6
+name: Alicia Greco
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-06'
+  pipeline: import_ma_civicpatch_execboard-manual-followup
+sources:
+- url: https://www.newburyma.gov/858/Select-Board
+  note: Town of Newbury Select Board page
+  retrieved: '2026-09-06'

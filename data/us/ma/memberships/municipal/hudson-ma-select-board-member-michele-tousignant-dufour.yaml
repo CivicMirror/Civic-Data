@@ -1,0 +1,15 @@
+# Structural gap identified while running scripts/import_ma_civicpatch_execboard.py
+# (issue #34): Hudson had posts for Planning Board, School Committee, Moderator,
+# etc. from the V20 rolling audit, but no Select Board post at all. Confirmed
+# directly against the town's own website (also corrects CivicPatch's own data,
+# which is missing the 5th member, Michele Tousignant Dufour).
+id: hudson-ma-select-board-member-michele-tousignant-dufour
+person_id: ocd-person/abcd8036-74bb-5902-8cc2-208dd466b9e1
+organization_id: ocd-organization/bdfe290b-0104-569b-a44f-0fd6e80483fd
+post_id: hudson-ma/select-board-member
+role: Select Board Member
+how_seated: elected
+sources:
+- url: https://www.townofhudson.org/682/Select-Board
+  note: Town of Hudson Select Board page
+  retrieved: '2026-09-06'

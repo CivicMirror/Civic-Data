@@ -1,0 +1,19 @@
+# Structural gap identified while running scripts/import_ma_civicpatch_execboard.py
+# (issue #34): North Adams had a Mayor post but no City Council post despite
+# CivicPatch listing 9 councillors. Confirmed via the city's own adopted charter
+# (scripts/ecode360 charter scraper, MA Standard City Charter Plan A provisions,
+# Sec. 50 "City council, number, election, etc."): a 9-member council elected
+# at large -- no ward/district seats, so a single seats:9 post correctly models it
+# (unlike Northampton, which mixes ward and at-large seats and needs a Boston-style
+# per-seat model instead -- deliberately not created here).
+id: ocd-organization/2327772b-be39-5e09-b67e-e679eb54b954
+name: City Council Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:north-adams/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: north-adams-ma/city-council-member
+status: active
+sources:
+- url: https://ecode360.com/27084044
+  note: 'North Adams city charter, Sec. 50 ("City council, number, election, etc."): "The legislative powers of the city shall be vested in a city council, consisting of nine persons, elected at large."'
+  retrieved: '2026-09-06'
