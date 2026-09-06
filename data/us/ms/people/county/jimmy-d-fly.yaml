@@ -1,0 +1,23 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: ocd-person/1668e5f8-f246-5b47-9fef-8e435f2020ff
+name: Jimmy D. Fly
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-06'
+  pipeline: build_ms_county_officers
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'
+contact:
+  phone: 662-375-8356; 662-647-5511
+addresses:
+- classification: district
+  address: P.O. Box 100, Charleston 38921; P.O. Box 116, Sumner 38957
+  phone: 662-375-8356; 662-647-5511

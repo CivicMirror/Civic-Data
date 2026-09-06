@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: yazoo-ms-county-tax-collector-alexander
+person_id: ocd-person/5e81ba01-9f98-5df9-b920-aa2db79a6dd2
+organization_id: ocd-organization/91db4012-5a62-5067-ae37-347792601ea7
+post_id: yazoo-ms-county/tax-collector
+role: Tax Collector
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

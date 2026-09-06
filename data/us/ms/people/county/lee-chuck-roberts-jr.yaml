@@ -1,0 +1,23 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: ocd-person/9a210d9b-4c53-5c95-9662-c90899d74f8b
+name: Lee (Chuck) Roberts, Jr
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-06'
+  pipeline: build_ms_county_officers
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'
+contact:
+  phone: 601-482-0261
+addresses:
+- classification: district
+  address: 1069 Lee Roberts Rd. S., Meridian 39301
+  phone: 601-482-0261

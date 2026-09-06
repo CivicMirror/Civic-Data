@@ -1,0 +1,23 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: ocd-person/fff4d137-827f-5191-90f7-d77cdfcb9220
+name: Mike Sumrall
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-06'
+  pipeline: build_ms_county_officers
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'
+contact:
+  phone: 601-335-3034
+addresses:
+- classification: district
+  address: 551 Buffalo Hills Rd., Ellisville 39437
+  phone: 601-335-3034

@@ -1,0 +1,23 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: ocd-person/6964e104-0ca1-521e-b2a1-581f08da9bfa
+name: Claude Fluker
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-06'
+  pipeline: build_ms_county_officers
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'
+contact:
+  phone: 662-458-3053
+addresses:
+- classification: district
+  address: P.O. Box 60, Carrollton 38917
+  phone: 662-458-3053

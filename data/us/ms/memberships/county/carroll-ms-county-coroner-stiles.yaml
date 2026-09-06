@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: carroll-ms-county-coroner-stiles
+person_id: ocd-person/92a52c92-b5a2-52f1-84ca-52170b569d1f
+organization_id: ocd-organization/44eed44c-606c-55a2-861a-a23861480eaf
+post_id: carroll-ms-county/coroner
+role: Coroner
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

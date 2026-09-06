@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: monroe-ms-county-sheriff-crook
+person_id: ocd-person/659f7f31-9168-5c36-9edf-479fb337cdb9
+organization_id: ocd-organization/84989e26-efa9-51e3-a87a-b5db556fb77f
+post_id: monroe-ms-county/sheriff
+role: Sheriff
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

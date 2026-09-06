@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: lafayette-ms-county-tax-assessor-ii
+person_id: ocd-person/a211d59d-0e9c-5a16-94e5-a91b3af82b80
+organization_id: ocd-organization/348ec2f6-2eba-5764-93db-4141ebd88128
+post_id: lafayette-ms-county/tax-assessor
+role: Tax Assessor
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: walthall-ms-county-tax-assessor-johnson
+person_id: ocd-person/ea93cbeb-486d-5c78-9667-954ee8e10d80
+organization_id: ocd-organization/97ef529e-b03e-5614-ba8c-08f4010f84e7
+post_id: walthall-ms-county/tax-assessor
+role: Tax Assessor
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: alcorn-ms-county-coroner-jones
+person_id: ocd-person/56df4b7f-08db-5d3e-9a93-083e8b151a3f
+organization_id: ocd-organization/7ef725a1-1fa0-5f03-bf55-cf370ef6e3da
+post_id: alcorn-ms-county/coroner
+role: Coroner
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

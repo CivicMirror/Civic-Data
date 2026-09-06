@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: lowndes-ms-county-tax-assessor-andrews
+person_id: ocd-person/aa763281-3f08-5ec1-b980-3b77077926f5
+organization_id: ocd-organization/631077d8-c740-5622-a22a-fc10d5ea315c
+post_id: lowndes-ms-county/tax-assessor
+role: Tax Assessor
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

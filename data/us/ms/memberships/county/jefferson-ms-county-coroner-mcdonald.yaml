@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: jefferson-ms-county-coroner-mcdonald
+person_id: ocd-person/5c4cef49-cb71-5095-98e5-3aa6501ee527
+organization_id: ocd-organization/7f281f27-e6b2-5b4c-aea4-0196916b8d7f
+post_id: jefferson-ms-county/coroner
+role: Coroner
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

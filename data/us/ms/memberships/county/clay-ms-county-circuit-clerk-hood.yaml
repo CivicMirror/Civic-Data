@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: clay-ms-county-circuit-clerk-hood
+person_id: ocd-person/d0ca7be1-071c-5f01-861b-30705bf1c2d9
+organization_id: ocd-organization/c311967d-6623-5037-829f-ca755f18e74e
+post_id: clay-ms-county/circuit-clerk
+role: Circuit Clerk
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

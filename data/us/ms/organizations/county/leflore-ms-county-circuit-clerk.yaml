@@ -1,0 +1,17 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: ocd-organization/56cd0353-13d7-543c-89ee-a32ada3e8b90
+name: Circuit Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:ms/county:leflore/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: leflore-ms-county/circuit-clerk
+status: active
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

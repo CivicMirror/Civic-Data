@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: tishomingo-ms-county-coroner-wilemon
+person_id: ocd-person/97b29cd6-e4ac-58f3-89d3-09979f74817b
+organization_id: ocd-organization/62dca3c8-eb35-5eb6-ae20-f704c9b66645
+post_id: tishomingo-ms-county/coroner
+role: Coroner
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

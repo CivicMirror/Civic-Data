@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: bolivar-ms-county-tax-collector-hooker
+person_id: ocd-person/f92a03f6-f859-5cd9-95ae-ccf6d316a312
+organization_id: ocd-organization/e17187b6-63a8-51c0-8dd5-c472d5f2c091
+post_id: bolivar-ms-county/tax-collector
+role: Tax Collector
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

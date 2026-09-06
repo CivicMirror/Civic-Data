@@ -1,0 +1,16 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: stone-ms-county-sheriff-stewart
+person_id: ocd-person/9ff5b1d9-a3bc-5b4b-8f48-149d7f3ee183
+organization_id: ocd-organization/df4e3f53-cbfc-5209-8783-a2c2603b6395
+post_id: stone-ms-county/sheriff
+role: Sheriff
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'

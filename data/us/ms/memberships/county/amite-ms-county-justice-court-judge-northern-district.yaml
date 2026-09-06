@@ -1,0 +1,17 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: amite-ms-county-justice-court-judge-northern-district
+person_id: ocd-person/d2aa71fe-f3c8-5ee6-96a9-b945204f79d8
+organization_id: ocd-organization/486d6b75-b8fc-5298-928a-b5810cbe2a2d
+post_id: amite-ms-county/justice-court-judge
+role: Justice Court Judge
+how_seated: elected
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'
+seat: Northern District

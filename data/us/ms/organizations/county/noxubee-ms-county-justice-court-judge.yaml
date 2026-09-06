@@ -1,0 +1,17 @@
+# Imported from the Mississippi Secretary of State's "County Offices
+# and Directory (2026)" PDF by scripts/build_ms_county_officers.py.
+# See issue #36. Chancery/Circuit Court Judges and District Attorney are
+# deliberately excluded -- multi-county offices held for a future
+# judicial-district jurisdiction pass. Appointed offices are excluded
+# per the document's own COUNTY APPOINTED OFFICES section.
+id: ocd-organization/e3026513-7800-58ed-9266-544a9aaaaa4c
+name: Justice Court Judge
+jurisdiction_id: ocd-jurisdiction/country:us/state:ms/county:noxubee/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: noxubee-ms-county/justice-court-judge
+status: active
+sources:
+- url: https://www.sos.ms.gov/sites/default/files/publications/County%20Offices%20and%20Directory_2026.pdf
+  note: Mississippi Secretary of State, County Offices and Directory (2026)
+  retrieved: '2026-09-06'
