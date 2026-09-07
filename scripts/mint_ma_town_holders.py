@@ -27,6 +27,11 @@ from pathlib import Path
 import yaml
 
 BASE = Path("/data/Projects/Civic/Civic-Data/data/us/ma")
+
+# Same-name collisions encountered during a run. These are NOT errors --
+# the write is disambiguated and safe -- but each one is a candidate
+# identity merge that a human should confirm. Print this after minting.
+IDENTITY_COLLISIONS = []
 PERSON_NS = uuid.UUID("2f6f6a2f-2f9b-5c1a-9d6a-3e6f9c2a4b1d")
 
 
@@ -166,11 +171,23 @@ def mint_town(slug, post_filename, role_title, members, source_url, source_note,
         person_id = f"ocd-person/{uuid.uuid5(PERSON_NS, f'ma-town-research|{slug}|{post_id}|{name}')}"
         base_slug = slugify(name)
         candidate = base_slug
+        collided_with = None
         if existing_people_index.get(candidate) not in (None, person_id):
+            # A person record with this exact name already exists. That is
+            # frequently the SAME human -- small MA towns routinely elect
+            # one person to several boards, and anyone who ever ran a
+            # campaign committee already has an OCPF-sourced record here.
+            # Disambiguating silently manufactures a duplicate identity
+            # (this is how the Attleboro City Clerk ended up split from her
+            # own OCPF record). Suffix so the write is safe, but SURFACE it
+            # so a human can confirm or merge.
+            collided_with = candidate
             candidate = f"{base_slug}-{slug}"
         if existing_people_index.get(candidate) not in (None, person_id):
             candidate = f"{base_slug}-{slug}-{str(uuid.uuid5(PERSON_NS, person_id))[:8]}"
         existing_people_index[candidate] = person_id
+        if collided_with:
+            IDENTITY_COLLISIONS.append((slug, name, collided_with, candidate))
 
         person = {
             "id": person_id,
