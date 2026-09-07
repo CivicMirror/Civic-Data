@@ -35,10 +35,44 @@ def slugify(v):
     return re.sub(r"[^a-z0-9]+", "-", v.casefold()).strip("-")
 
 
+# Nickname equivalences seen in real MA rosters. Not exhaustive -- the
+# (first, last) key below is the primary defense; this just catches the
+# common formal/informal splits.
+NICKNAMES = {
+    "dave": "david", "jon": "jonathan", "jim": "james", "mike": "michael",
+    "bill": "william", "bob": "robert", "rick": "richard", "rich": "richard",
+    "tom": "thomas", "chris": "christopher", "dan": "daniel", "steve": "steven",
+    "ed": "edward", "joe": "joseph", "patti": "patricia", "pat": "patricia",
+    "kathy": "katherine", "cathy": "catherine", "sue": "susan", "liz": "elizabeth",
+    "beth": "elizabeth", "tony": "anthony", "ben": "benjamin", "greg": "gregory",
+    "matt": "matthew", "nick": "nicholas", "pete": "peter", "ron": "ronald",
+}
+
+
 def normalize_name(name):
-    name = re.sub(r"[.,]", "", name).strip().casefold()
-    name = re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", name).strip()
-    return re.sub(r"\s+", " ", name)
+    """Collapse a name to a (first, last) key so that middle initials,
+    middle names, suffixes, punctuation, nicknames and quoted aliases all
+    compare equal.
+
+    This exists because three separate rounds of this backfill created
+    duplicate records for people already on file under a slightly
+    different rendering -- "Jonathan Rea" vs "Jonathan C. Rea", "Dave
+    Sampson" vs "David Sampson", "Christine A. Kneeland" vs "Christine
+    Kneeland". Comparing full normalized strings is not enough.
+    """
+    name = re.sub(r'["“”].*?["“”]', " ", name)   # drop "Skip" style aliases
+    name = re.sub(r"\(.*?\)", " ", name)                              # drop (James) style aliases
+    name = re.sub(r"[.,]", " ", name).casefold()
+    name = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", " ", name)
+    tokens = [t for t in name.split() if t]
+    tokens = [NICKNAMES.get(t, t) for t in tokens]
+    if not tokens:
+        return ""
+    if len(tokens) == 1:
+        return tokens[0]
+    # first + last only: middle initials and middle names are dropped, and
+    # multi-word surnames still match because the last token is the anchor.
+    return f"{tokens[0]} {tokens[-1]}"
 
 
 def load_existing_people_index():
@@ -88,6 +122,11 @@ def write_yaml(path, doc):
 
 def mint_town(slug, post_filename, role_title, members, source_url, source_note, retrieved,
               existing_people_index, people_names_by_id, vacant_ok=True):
+    """members: list of (name, end) or (name, end, seat) or
+    (name, end, seat, how_seated). seat is for ward/precinct/at-large
+    councils; how_seated defaults to "elected" but must be "appointed"
+    where a page says a seat was filled by appointment rather than
+    election (e.g. Winthrop Precinct 6)."""
     post_path = BASE / "posts" / "municipal" / post_filename
     post = yaml.safe_load(post_path.read_text())
     post_id = post["id"]
@@ -101,12 +140,15 @@ def mint_town(slug, post_filename, role_title, members, source_url, source_note,
 
     already = existing_normalized_names_for_post(post_id, people_names_by_id)
 
-    real_members = [(n, e) for n, e in members if n and normalize_name(n) not in ("vacant", "")]
-    if len(real_members) + len([n for n, _ in members if not n or normalize_name(n) == "vacant"]) > seats:
+    real_members = [m for m in members if m[0] and normalize_name(m[0]) not in ("vacant", "")]
+    if len(members) > seats:
         raise SystemExit(f"{slug}: {len(members)} members > {seats} seats -- structure mismatch, do not mint")
 
     results = []
-    for name, end in members:
+    for entry in members:
+        name, end = entry[0], entry[1]
+        seat = entry[2] if len(entry) > 2 else None
+        how_seated = entry[3] if len(entry) > 3 else "elected"
         norm = normalize_name(name) if name else "vacant"
         if norm in already:
             results.append((name, None, "skipped-already-present", None, None))
@@ -144,9 +186,11 @@ def mint_town(slug, post_filename, role_title, members, source_url, source_note,
             "organization_id": organization_id,
             "post_id": post_id,
             "role": role_title,
-            "how_seated": "elected",
+            "how_seated": how_seated,
             "sources": [{"url": source_url, "note": source_note, "retrieved": retrieved}],
         }
+        if seat:
+            membership["seat"] = seat
         if end:
             membership["end"] = str(end)
         mem_status = write_yaml(BASE / "memberships" / "municipal" / f"{mem_id}.yaml", membership)
