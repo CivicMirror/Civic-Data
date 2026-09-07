@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/9071bea7-fe03-5fc1-a0f8-2f8a7c6c8ecb
+name: Maria Sagarino
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-07'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://stoneham-ma.gov/DocumentCenter/View/10440/2025-Annual-Town-Election-
+  note: 'Town of Stoneham Annual Town Election results, April 1 2025: Town Clerk, Maria Sagarino, 4,615 votes. Term end DERIVED with a longer inference chain than usual: no charter or bylaw states the term length, so three years is inferred from the ballot cycle (office present on the 2022 and 2025 ballots, absent from 2026). Treat this year as weaker than a printed one.'
+  retrieved: '2026-09-07'

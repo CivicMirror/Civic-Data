@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/9d2f6659-68a5-5094-af55-68e06be3809e
+name: Allison Mikaniewicz
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-07'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.washington-ma.gov/town-clerk
+  note: 'Town of Washington Town Clerk page, which prints a Term Expires column: ''Allison Mikaniewicz | Town Clerk | 2027''. Office is elected: the town''s May 18 2024 Annual Town Election results include ''TOWN CLERK: Allison Mikaniewicz 114, Blanks 6''. Term end is PRINTED, not derived.'
+  retrieved: '2026-09-07'

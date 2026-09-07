@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/f18f546b-bb28-52b4-9250-33cfdfe0b7cf
+name: Carol Harris
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-07'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.templetonma.gov/1197/Town-Clerk
+  note: 'Holder from the Town of Templeton Town Clerk page contact block. The office is elected: the May 20 2024 Annual Town Election warrant lists ''One Town Clerk .... 3 years''. NO term end and NO how_seated recorded deliberately -- Templeton publishes warrants but not tallies, so it is unverified whether this holder won that election or was appointed to fill a vacancy.'
+  retrieved: '2026-09-07'
