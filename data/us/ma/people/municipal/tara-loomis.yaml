@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/aaf78f57-8ed4-51bb-9a8a-a2b47ff39f01
+name: Tara Loomis
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-06'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://pelhamma.gov/files/2026_ATE_Official_Results_May_12_2026.pdf
+  note: Town of Pelham 2026 Annual Town Election official results + 2026 Winter Slate (the Select Board web page publishes only staff contacts)
+  retrieved: '2026-09-06'

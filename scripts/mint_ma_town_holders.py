@@ -60,9 +60,15 @@ def normalize_name(name):
     Sampson" vs "David Sampson", "Christine A. Kneeland" vs "Christine
     Kneeland". Comparing full normalized strings is not enough.
     """
-    name = re.sub(r'["“”].*?["“”]', " ", name)   # drop "Skip" style aliases
-    name = re.sub(r"\(.*?\)", " ", name)                              # drop (James) style aliases
-    name = re.sub(r"[.,]", " ", name).casefold()
+    # Normalize Unicode punctuation first: rosters mix straight and curly
+    # apostrophes/dashes for the same person ("Patrick O'Reilly" vs
+    # "Patrick O’Reilly"), which otherwise reads as two people.
+    name = (name.replace("’", "'").replace("‘", "'")
+                .replace("“", '"').replace("”", '"')
+                .replace("–", "-").replace("—", "-"))
+    name = re.sub(r'".*?"', " ", name)                # drop "Skip" style aliases
+    name = re.sub(r"\(.*?\)", " ", name)              # drop (James) style aliases
+    name = re.sub(r"[.,']", " ", name).casefold()     # apostrophes out entirely: O'Reilly == OReilly
     name = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", " ", name)
     tokens = [t for t in name.split() if t]
     tokens = [NICKNAMES.get(t, t) for t in tokens]
