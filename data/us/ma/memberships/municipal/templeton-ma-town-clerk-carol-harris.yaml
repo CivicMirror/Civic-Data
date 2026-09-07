@@ -1,16 +1,17 @@
-# Resolved from Templeton's code (ecode360) and the 2026 election warrant,
-# both supplied by the repo owner. The office is elective and its term
-# structure is fixed by bylaw, so the term end is now recorded; whether
-# this holder won the 2024 election or was appointed to a vacancy remains
-# unverifiable because Templeton publishes warrants but no tallies.
+# Seating CONFIRMED by tally, not inferred: the May 20 2024 Annual Town
+# Election document contains the warrant AND the results, and Carol Harris
+# won Town Clerk with 578 votes. An earlier pass read only the warrant
+# pages and wrongly concluded Templeton publishes no tallies -- the town in
+# fact posts election results back to 1992.
 id: templeton-ma-town-clerk-carol-harris
 person_id: ocd-person/f18f546b-bb28-52b4-9250-33cfdfe0b7cf
 organization_id: ocd-organization/068fa4f0-1426-5810-a419-e5c37315b790
 post_id: templeton-ma/town-clerk
 role: Town Clerk
 how_seated: elected
+start: '2024-07-01'
 end: '2027-06-30'
 sources:
-- url: https://ecode360.com/32838846
-  note: 'Town of Templeton Code ch. 22 (Elections and Town Meetings), amended 5-19-2018 ATM art. 8: ''The term of the Town Clerk shall commence on July 1 of the year so elected and expire on June 30 in the year for which the term at issue was warned'', with the annual election on the third Monday of May. The May 20 2024 Annual Town Election warrant listed ''One Town Clerk .... 3 years'', and Town Clerk is absent from the May 18 2026 warrant, consistent with that term. Term end DERIVED (not published): 2024 election + 3-year term + the bylaw''s June 30 expiry = 2027-06-30. how_seated recorded as elected because the office is elective by bylaw; note the town publishes no tallies, so seating by election rather than by appointment to a vacancy is inferred, not confirmed.'
+- url: https://www.templetonma.gov/DocumentCenter/View/2087/May-20-2024-Annual-Town-Election-PDF
+  note: 'Town of Templeton Annual Town Election, May 20 2024 -- the document contains both the warrant and the tally, and the tally reads ''Town Clerk / Carol Harris 192 201 185 = 578'' against 2 write-ins and 103 blanks. She won the seat outright; seating by election is confirmed, not inferred. Term dates DERIVED (not published as dates) from Templeton Code ch. 22 as amended 5-19-2018 ATM art. 8: ''The term of the Town Clerk shall commence on July 1 of the year so elected and expire on June 30 in the year for which the term at issue was warned'' -- so the 3-year term warned in 2024 runs 2024-07-01 to 2027-06-30. Consistent with Town Clerk being absent from the May 18 2026 warrant.'
   retrieved: '2026-09-07'
