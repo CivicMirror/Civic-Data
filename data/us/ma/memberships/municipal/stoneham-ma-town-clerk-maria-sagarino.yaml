@@ -1,15 +1,13 @@
-# Hand-verified against the town's official website for issue #34's
-# MA municipal officeholder backfill (never covered by issue #16's
-# original research pass). Machine-extracted via a Claude web-fetch
-# pass, pending human sign-off.
+# Term length upgraded from a ballot-cycle inference to a statutory figure,
+# using the Select Board-Administrator Act supplied by the repo owner.
 id: stoneham-ma-town-clerk-maria-sagarino
 person_id: ocd-person/9071bea7-fe03-5fc1-a0f8-2f8a7c6c8ecb
 organization_id: ocd-organization/9a802b50-e15e-5609-87f2-55644398260b
 post_id: stoneham-ma/town-clerk
 role: Town Clerk
 how_seated: elected
-sources:
-- url: https://stoneham-ma.gov/DocumentCenter/View/10440/2025-Annual-Town-Election-
-  note: 'Town of Stoneham Annual Town Election results, April 1 2025: Town Clerk, Maria Sagarino, 4,615 votes. Term end DERIVED with a longer inference chain than usual: no charter or bylaw states the term length, so three years is inferred from the ballot cycle (office present on the 2022 and 2025 ballots, absent from 2026). Treat this year as weaker than a printed one.'
-  retrieved: '2026-09-07'
 end: '2028'
+sources:
+- url: https://www.stoneham-ma.gov/DocumentCenter/View/1236/Select-Board-Administrator-Act
+  note: 'Town of Stoneham Select Board-Administrator Act, s.14 table of officers the registered voters ''continue to elect'' (art. 18, 5-1-2023): ''k. town clerk -- 3 yrs. -- 1''. Holder from the Annual Town Election results of April 1 2025 (Maria Sagarino, 4,615 votes). Term end DERIVED (not published): elected 2025-04-01 to the Act''s three-year term. Town Clerk is absent from the 2026 Annual Town Election results (which carried Select Board, School Committee, Housing Authority and Board of Assessors), consistent with that term. This supersedes the earlier note, which inferred the three-year length from the ballot cycle because no charter or bylaw figure had been found.'
+  retrieved: '2026-09-07'

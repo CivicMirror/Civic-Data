@@ -1,13 +1,16 @@
-# Hand-verified against the town's official website for issue #34's
-# MA municipal officeholder backfill (never covered by issue #16's
-# original research pass). Machine-extracted via a Claude web-fetch
-# pass, pending human sign-off.
+# Selection method resolved from Raynham's General By-laws, supplied by the
+# repo owner. The by-laws' s.1/3 roster is a general index that later
+# sections override -- s.1/3.7 makes the Tree Warden appointed and s.1/3.8
+# converted the Treasurer/Collector to appointed in 2013 -- so the whole
+# by-law was checked for any equivalent override of the Clerk. There is
+# none: s.1/3.4 Town Clerk describes duties only.
 id: raynham-ma-town-clerk-marsha-l-silvia
 person_id: ocd-person/554480f8-eab7-5a17-a3ed-8ed565de225c
 organization_id: ocd-organization/2729ff68-3b4c-5d1b-bdf2-4f0d2c8823ff
 post_id: raynham-ma/town-clerk
 role: Town Clerk
+how_seated: elected
 sources:
-- url: https://www.town.raynham.ma.us/town-clerk
-  note: 'Holder from the Town of Raynham Town Clerk page (also confirmed on a 2023 Wayback snapshot of the same page). NO how_seated and NO term end recorded deliberately: the town site is Cloudflare-protected and roughly ten retrieval routes failed to reach any charter, bylaw, ballot or election result, so whether this office is elected or appointed could not be verified at all.'
+- url: https://www.town.raynham.ma.us/sites/g/files/vyhlif1111/f/uploads/general_by-laws_compete_copy_2-27-20.pdf
+  note: 'Town of Raynham General By-laws s.1/3 ''Officers and Employees'' lists under ''Elected Officials: ... Town Clerk MGL 41:1''. No provision anywhere in the by-laws converts the office to appointment (unlike the Tree Warden at s.1/3.7 and the Treasurer/Collector at s.1/3.8). Holder from the town''s Town Clerk page. No term end: the by-laws do not state the clerk''s term, and Town Clerk was not among the offices on the April 25 2026 Annual Town Election ballot.'
   retrieved: '2026-09-07'

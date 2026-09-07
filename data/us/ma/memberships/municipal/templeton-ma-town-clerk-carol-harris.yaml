@@ -1,13 +1,16 @@
-# Hand-verified against the town's official website for issue #34's
-# MA municipal officeholder backfill (never covered by issue #16's
-# original research pass). Machine-extracted via a Claude web-fetch
-# pass, pending human sign-off.
+# Resolved from Templeton's code (ecode360) and the 2026 election warrant,
+# both supplied by the repo owner. The office is elective and its term
+# structure is fixed by bylaw, so the term end is now recorded; whether
+# this holder won the 2024 election or was appointed to a vacancy remains
+# unverifiable because Templeton publishes warrants but no tallies.
 id: templeton-ma-town-clerk-carol-harris
 person_id: ocd-person/f18f546b-bb28-52b4-9250-33cfdfe0b7cf
 organization_id: ocd-organization/068fa4f0-1426-5810-a419-e5c37315b790
 post_id: templeton-ma/town-clerk
 role: Town Clerk
+how_seated: elected
+end: '2027-06-30'
 sources:
-- url: https://www.templetonma.gov/1197/Town-Clerk
-  note: 'Holder from the Town of Templeton Town Clerk page contact block. The office is elected: the May 20 2024 Annual Town Election warrant lists ''One Town Clerk .... 3 years''. NO term end and NO how_seated recorded deliberately -- Templeton publishes warrants but not tallies, so it is unverified whether this holder won that election or was appointed to fill a vacancy.'
+- url: https://ecode360.com/32838846
+  note: 'Town of Templeton Code ch. 22 (Elections and Town Meetings), amended 5-19-2018 ATM art. 8: ''The term of the Town Clerk shall commence on July 1 of the year so elected and expire on June 30 in the year for which the term at issue was warned'', with the annual election on the third Monday of May. The May 20 2024 Annual Town Election warrant listed ''One Town Clerk .... 3 years'', and Town Clerk is absent from the May 18 2026 warrant, consistent with that term. Term end DERIVED (not published): 2024 election + 3-year term + the bylaw''s June 30 expiry = 2027-06-30. how_seated recorded as elected because the office is elective by bylaw; note the town publishes no tallies, so seating by election rather than by appointment to a vacancy is inferred, not confirmed.'
   retrieved: '2026-09-07'
