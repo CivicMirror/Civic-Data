@@ -1,15 +1,17 @@
-# Hand-verified against the town's official website for issue #34's
-# MA municipal officeholder backfill (never covered by issue #16's
-# original research pass). Machine-extracted via a Claude web-fetch
-# pass, pending human sign-off.
+# Williamsburg Select Board. Same person as the Williamsburg Assessor
+# (ocd-person/ea8fdd4b): the May 4 2026 annual town election minutes show
+# Denise Banister winning Selectman on the same ballot where she also drew a
+# write-in vote for Assessor, and the Board of Assessors page lists her as
+# Chair with a term to 2027. Confirmed dual office-holding, not two people.
 id: williamsburg-ma-select-board-member-denise-banister
-person_id: ocd-person/784fe935-14e7-5ed9-bc29-4f4bb03292c9
+person_id: ocd-person/ea8fdd4b-01b3-5db8-b0cb-f136ec17e379
 organization_id: ocd-organization/afe327b5-cd74-53ff-8251-ce0cd0b3da9c
 post_id: williamsburg-ma/select-board
 role: Select Board Member
 how_seated: elected
 sources:
-- url: https://www.burgy.org/select-board
-  note: Town of Williamsburg official website
-  retrieved: '2026-09-06'
-end: '2029'
+- url: https://www.burgy.org/town-clerk/minutes/annual-town-election-minutes-5426
+  note: 'Town of Williamsburg Annual Town Election minutes, May 4 2026, filed by Town Clerk Brenda Lessard: "Selectman-3 years-vote for 1 ... Denise Banister-135 E". Term dates DERIVED (not published as dates): the same minutes state "All elected individuals take office July 1, 2026, per the bylaw change voted November 14, 2005", and the seat is a 3-year term, giving 2026-07-01 to 2029-07-01.'
+  retrieved: '2026-09-07'
+end: '2029-07-01'
+start: '2026-07-01'
