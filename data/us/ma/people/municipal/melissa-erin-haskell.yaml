@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/24afcd27-c18e-5475-92f9-5ca7bf3faaf8
+name: Melissa Erin Haskell
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://dartmouthma.gov/DocumentCenter/View/4880/2025-April-1-Annual-Town-Election-OFFICIAL-Results
+  note: 'PRINTED: unopposed re-election 2025-04-01 with 1520 votes, ballot row labeled ''MODERATOR'' with no year label (unlike other rows on the same ballot); not on the 2026 ballot, consistent with a multi-year term, but no bylaw/charter text confirming the exact length was located. NOT RECORDED: end date.'
+  retrieved: '2026-09-08'

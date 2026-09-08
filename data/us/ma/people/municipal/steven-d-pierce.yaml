@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/870b058d-4ab0-526d-98e6-1c4ace483d5b
+name: Steven D. Pierce
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://montgomeryma.gov/wp-content/uploads/2025/05/5.5.25-OFFICIAL-RESULTS-ANNUAL-TOWN-ELECTION.pdf
+  note: 'PRINTED: elected 2025-05-05 unopposed, 66 votes (7 blanks); ballot row labeled ''MODERATOR'' with no year label, and the town''s General Bylaws do not state a term length. NOT RECORDED: end date.'
+  retrieved: '2026-09-08'

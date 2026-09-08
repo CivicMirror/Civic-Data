@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/906bb7c8-5b3f-5e6c-b475-11dce0e5d18d
+name: William L. Carmichael
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://town.dennis.ma.us/DocumentCenter/View/3474/OFFICIAL-Annual-Town-Election-Results-5-13-2025
+  note: 'PRINTED+DERIVED: elected 2025-05-13 with 1403 votes (defeating Robert Charles Chamberlain, 1167), ballot ''Town Moderator - 3 Years''; end derived as 2028. This is the town moderator seat -- distinct from the separate Dennis Water District Moderator seat, not addressed here.'
+  retrieved: '2026-09-08'
