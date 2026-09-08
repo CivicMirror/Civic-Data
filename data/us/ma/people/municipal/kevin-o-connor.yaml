@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/83083872-53a5-59f7-bd2f-5092f1e20ae3
+name: Kevin O'Connor
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://worthington-ma.us/2026/05/2026-preliminary-town-election-results/
+  note: 'PRINTED+DERIVED: re-elected 2026-05-02 with 283 votes (30 blank, 1 all others), ballot ''MODERATOR 3 YRS''; end derived as 2029.'
+  retrieved: '2026-09-08'
