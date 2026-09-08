@@ -3,13 +3,16 @@
 # original research pass). Machine-extracted via a Claude web-fetch
 # pass, pending human sign-off.
 id: hudson-ma-moderator-michele-tousignant-dufour
-person_id: ocd-person/0e0d7b6f-9a15-58c5-a812-282baf4f8639
+person_id: ocd-person/abcd8036-74bb-5902-8cc2-208dd466b9e1
 organization_id: ocd-organization/16da088b-4da1-5f21-af99-a5a52da38114
 post_id: hudson-ma/moderator
 role: Town Moderator
 how_seated: elected
 sources:
 - url: https://www.townofhudson.org/DocumentCenter/View/6733
-  note: 'PRINTED+DERIVED: incumbent re-elected 2026-05-11 with 1514 votes, ballot ''MODERATOR (ONE for a One-Yr. Term)''; end derived as 2027.'
+  note: 'PRINTED+DERIVED: incumbent re-elected 2026-05-11 with 1514 votes, ballot ''MODERATOR (ONE for a One-Yr. Term)''; end originally derived as 2027, but SUPERSEDED -- see next source.'
   retrieved: '2026-09-08'
-end: '2027'
+- url: https://www.townofhudson.org/DocumentCenter/View/7009/912026-SPECIAL-TOWN-ELECTION
+  note: 'PRINTED: won a 2026-09-01 special election for an open Select Board seat, vacating this Moderator seat mid-term. Per town guidance, the Town Clerk presides temporarily and a successor for the unexpired Moderator term will be elected at the next town election -- end dated to the special-election date rather than left open.'
+  retrieved: '2026-09-08'
+end: '2026-09-01'
