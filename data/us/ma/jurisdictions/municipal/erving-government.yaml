@@ -3,8 +3,11 @@ name: Town of Erving
 state: ma
 division_id: ocd-division/country:us/state:ma/place:erving
 classification: government
-website: http://www.ervingma.com
+website: https://www.erving-ma.gov
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=208265, FIPS 25-011-21780, county area=FRANKLIN, active=Y'
   retrieved: '2026-08-17'
+- url: https://www.erving-ma.gov
+  note: 'Municipal website field updated 2026-09-07. REPLACED a commercial redirect: the stored value http://www.ervingma.com redirects to masslocal.com/erving/, a third-party local-guide site (carrying casino advertising), not the town.'
+  retrieved: '2026-09-07'

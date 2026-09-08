@@ -3,7 +3,7 @@ name: Town of Hampden
 state: ma
 division_id: ocd-division/country:us/state:ma/place:hampden
 classification: government
-website: http://www.hampden.org/
+website: https://www.hampdenma.gov
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:hampden/place:hampden/government
@@ -12,3 +12,6 @@ sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166503, FIPS 25-013-28075, county area=HAMPDEN, active=Y'
   retrieved: '2026-08-17'
+- url: https://www.hampdenma.gov
+  note: 'Municipal website field updated 2026-09-07. REPLACED a squatted domain: the stored value http://www.hampden.org no longer belongs to the town -- it serves a travel/casino spam page titled ''My Massachusetts'' (17 ''travel'', 6 ''casino'', 2 ''slot'' hits in the body).'
+  retrieved: '2026-09-07'

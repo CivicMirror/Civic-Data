@@ -3,8 +3,11 @@ name: Town of Kingston
 state: ma
 division_id: ocd-division/country:us/state:ma/place:kingston
 classification: government
-website: http://www.kingstonmass.org
+website: https://kingstonma.gov
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166550, FIPS 25-023-33220, county area=PLYMOUTH, active=Y'
   retrieved: '2026-08-17'
+- url: https://kingstonma.gov
+  note: Municipal website field updated 2026-09-07. Replaced http://www.kingstonmass.org, which sits behind a Cloudflare challenge and returns 403 to all automated access. Two independent research passes and the page title ('Kingston, MA | Official Website') identify this .gov as the town's live official site.
+  retrieved: '2026-09-07'
