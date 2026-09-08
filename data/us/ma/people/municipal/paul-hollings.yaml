@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/588285a0-f6f5-55b1-b3ef-f7d83a4275d7
+name: Paul Hollings
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://townofshelburnema.gov/files/Select_Board_2026-06-01_Meeting_Minutes_.docx
+  note: 'PRINTED+DERIVED: elected 2026-05-19 (defeating incumbent Roland Giguere), sample ballot ''MODERATOR FOR ONE YEAR - VOTE FOR ONE''; win confirmed via June 1, 2026 Select Board minutes referring to ''the newly elected Moderator'' Paul Hollings. End derived as 2027.'
+  retrieved: '2026-09-08'

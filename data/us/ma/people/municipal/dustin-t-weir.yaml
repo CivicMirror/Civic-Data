@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/03062294-f8f4-51b3-bd0a-d037ed6cc562
+name: Dustin T. Weir
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.tewksbury-ma.gov
+  note: 'Confirmed presiding at the May 6, 2024 Annual Town Meeting and still serving as of July 13, 2026 Finance Committee minutes. The 2024 Annual Town Report had listed his term as expiring 2026, which is now inconsistent with the July 2026 confirmation -- treated as superseded/unreliable rather than used to derive an end date. NOT RECORDED: end date, term length, and election date.'
+  retrieved: '2026-09-08'

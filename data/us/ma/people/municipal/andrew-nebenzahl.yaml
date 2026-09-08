@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/ffb09ff8-c0d0-596a-a93e-f76fb322fc2b
+name: Andrew Nebenzahl
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.sharonma.gov/DocumentCenter/View/21972
+  note: 'PRINTED+DERIVED: elected 2026-05-19 with 1338 votes (14 write-in, 571 blank), ballot ''MODERATOR For Three Years (1 Seat)''; end derived as 2029.'
+  retrieved: '2026-09-08'

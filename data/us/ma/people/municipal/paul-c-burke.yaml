@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/100aa546-be6e-586e-b5be-284ee958f29a
+name: Paul C. Burke
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.swanseama.gov/government/town_clerk/elected_officials_in_swansea.php
+  note: 'PRINTED: official Elected Officials in Swansea page: ''MODERATOR (3 YEARS) PAUL C. BURKE - 2029'', implying election in 2026; exact election date and vote count not located.'
+  retrieved: '2026-09-08'
