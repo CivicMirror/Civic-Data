@@ -3,10 +3,11 @@ name: Town of New Braintree
 state: ma
 division_id: ocd-division/country:us/state:ma/place:new-braintree
 classification: government
+website: https://www.newbraintreema.us/
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166565, FIPS 25-027-45105, county area=WORCESTER, active=Y'
   retrieved: '2026-08-17'
 - url: https://www.sec.state.ma.us/divisions/cis/city-and-town/new-braintree.htm
-  note: 'Municipal website field REMOVED 2026-09-07. The stored value (http://www.newbraintree.org) no longer belongs to the town: it resolves to an Indonesian online-gambling page (title ''Slot Bet Kecil 5K Gampang Menang''). Checked for a replacement -- newbraintree.us, newbraintree-ma.us, town.new-braintree.ma.us, newbraintreema.org and newbraintree-ma.gov do not resolve, and newbraintreema.com is a parked domain with no town content. Left unset rather than pointing at a squatted domain; 45 other MA municipal jurisdictions likewise carry no website value.'
-  retrieved: '2026-09-07'
+  note: 'Municipal website field corrected 2026-09-07/08. The stored value (http://www.newbraintree.org) no longer belongs to the town: it resolves to an Indonesian online-gambling page (title ''Slot Bet Kecil 5K Gampang Menang''). An initial pass found no working replacement among newbraintree.us, newbraintree-ma.us, town.new-braintree.ma.us, newbraintreema.org and newbraintree-ma.gov, and left the field unset. Human review (issue #51) supplied the correct domain -- https://www.newbraintreema.us/ (note: "newbraintreema", not "newbraintree-ma") -- confirmed live 2026-09-08 (HTTP 200, title "New Braintree, MA").'
+  retrieved: '2026-09-08'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4ad08ef3-6b1c-5301-b792-63439d5531dd
+name: Richard K. Peabody
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.erving-ma.gov/DocumentCenter/View/2973
+  note: 'PRINTED: 2025 Annual Town Report lists ''MODERATOR Richard K. Peabody Term Expires 2026''; 2026 ATE ballot (DocumentCenter/View/2964) shows him as sole candidate for re-election, 1-year term; end derived as 2027.'
+  retrieved: '2026-09-08'

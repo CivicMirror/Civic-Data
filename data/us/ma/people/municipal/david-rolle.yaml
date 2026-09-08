@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/2160eb3b-570a-54c6-a4d9-2d2b572cf1fd
+name: David Rolle
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.lanesborough-ma.gov/
+  note: 'Confirmed current: presided ATM 2026-06-09 (Document Center/Agendas & Minutes/ATM Minutes 6-9-26.pdf). Not on the 2025 or 2026 ATE ballot -- 2026 Town Meeting Art. 2 budget line ''114 Moderator'' among elected officer compensation confirms it is an elected (not appointed) office, but neither the term length nor an election date could be located. NOT RECORDED: end date.'
+  retrieved: '2026-09-08'
