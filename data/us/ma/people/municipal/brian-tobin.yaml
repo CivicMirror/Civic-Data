@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/89ce40ed-ad33-5de8-b612-61f864055c69
+name: Brian Tobin
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://mountwashington-ma.gov/wp-content/uploads/wpfd/preview_files/2026-05-12-Town-Election-Results(64ee1a382d8e7aa1e05b1601aeba124a).pdf
+  note: 'PRINTED+DERIVED: elected 2026-05-12 unopposed with 43 votes (5 blank), ballot ''Moderator - 1 Year''; end derived as 2027.'
+  retrieved: '2026-09-08'

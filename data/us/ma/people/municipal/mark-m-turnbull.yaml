@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/14db3532-ebec-5d69-b5a2-60b9e184c5b8
+name: Mark M. Turnbull
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.oakham-ma.gov/DocumentCenter/View/1016/Official-Annual-Town-Election-Results-5-18-2026pdf
+  note: 'PRINTED+DERIVED: elected 2026-05-18 unopposed with 334 votes (64 blanks), ballot ''MODERATOR - THREE YEARS''; end derived as 2029.'
+  retrieved: '2026-09-08'
