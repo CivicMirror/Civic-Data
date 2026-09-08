@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/7b8329ea-7230-5379-bac8-45450f5e5f59
+name: James M. O'Sullivan
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townhall.westwood.ma.us/how-do-i/view/election-results
+  note: 'PRINTED+DERIVED: re-elected 2026-04-28 with 1833 of 2786 votes, ballot header ''MODERATOR - For One Year (1)''; end derived as 2027.'
+  retrieved: '2026-09-08'

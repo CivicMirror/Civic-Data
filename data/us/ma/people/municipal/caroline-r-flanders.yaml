@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/7aadd03c-51bb-51df-82bd-509f04fffa65
+name: Caroline R. Flanders
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.westtisbury-ma.gov/Documents/Government/Town%20Clerk/April%2010%202025%20West%20Tisbury%20Ballot%20Tally%20(PDF).pdf
+  note: 'PRINTED: elected 2025-04-10 with 391 of 420 votes, ballot ''Moderator (Vote for 1)'' with no term-length text; the office appears on the ballot annually, suggesting a 1-year term. CAUTION: the town''s own site links an ''April 16, 2026'' results page for a likely subsequent re-election, but that document is a dead/404 link -- 2025 is the latest confirmed data point, currency not verified past that. NOT RECORDED: end date.'
+  retrieved: '2026-09-08'

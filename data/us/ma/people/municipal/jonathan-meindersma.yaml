@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/05d6cc9c-d580-5dac-8134-6d48b9772d19
+name: Jonathan Meindersma
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.westboylston-ma.gov/sites/g/files/vyhlif1421/f/pages/official_results_june_3_2025.pdf
+  note: 'PRINTED+DERIVED: elected 2025-06-03 with 934 of 1293 ballots, ballot header ''MODERATOR/1 SEAT/THREE YEARS''; end derived as 2028.'
+  retrieved: '2026-09-08'

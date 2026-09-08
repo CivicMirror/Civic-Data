@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/665b43ae-61d2-5f17-938c-dee567426708
+name: William Harbison Carroll
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.wakefieldma.gov/DocumentCenter/View/2615/Town-Election-Results-April-28-2026-PDF
+  note: 'PRINTED+DERIVED: elected 2026-04-28 with 1474 of 2218 ballots; the town''s Moderator page previously described the term as running ''Until April 2026'', implying an annual 1-year term under the town charter. End derived as 2027.'
+  retrieved: '2026-09-08'
