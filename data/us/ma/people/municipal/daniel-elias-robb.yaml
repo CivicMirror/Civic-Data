@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/7f7b3523-7f1d-5208-9849-63f12bc79d3d
+name: Daniel Elias Robb
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://pelhamma.gov/files/2026_ATE_Official_Results_May_12_2026.pdf
+  note: 'PRINTED: elected 2026-05-12 with 54 votes (36 blank, 90 total), ballot ''MODERATOR (vote for one)'' with no term-length text -- other seats on the same ballot are explicitly labeled (e.g. ''Select Board (One for Three Years)'') but the Moderator line is not. NOT RECORDED: end date, pending a bylaw check for the exact term.'
+  retrieved: '2026-09-08'

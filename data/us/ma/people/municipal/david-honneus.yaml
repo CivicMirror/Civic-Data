@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/2a344e81-11c3-57ff-afa5-f86ae1842f06
+name: David Honneus
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.plainfield-ma.us/town-moderator
+  note: 'Town website labels the current term ''2026-2027'' (implying an annual term, consistent with the town by-laws'' Article II description of the office) but gives no election date, ballot text, or vote count. NOT RECORDED: end date.'
+  retrieved: '2026-09-08'

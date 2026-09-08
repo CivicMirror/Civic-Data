@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/a3ca6475-98ec-58a6-9687-c222fd15594f
+name: John B. Barrett
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townsendma.gov/Agendas%20and%20Minutes/Town%20Clerk/Election%20Results/final_results_of_the_annual_town_election_4-22-24.pdf
+  note: 'PRINTED+DERIVED: elected 2024-04-22 with 996 votes (of 1307 cast), ballot ''MODERATOR 3-YEAR''; end derived as 2027.'
+  retrieved: '2026-09-08'
