@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4459aff0-0b9c-591b-a5a6-0c883472cf33
+name: Russell Peotter
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofchesterfieldma.com/select-board/pages/annual-town-reports
+  note: 'PRINTED: 2024 Annual Town Report officers list and officials directory both describe ''Moderator - 1 member, 3 year term'' with a 2027 term expiration; election date/vote count not found.'
+  retrieved: '2026-09-08'

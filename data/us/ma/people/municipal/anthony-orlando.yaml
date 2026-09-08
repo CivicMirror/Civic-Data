@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/65a74f38-039a-543c-8005-a6e5ac49aad6
+name: Anthony Orlando
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.ashburnham-ma.gov/350/Elected-Town-Officials
+  note: 'PRINTED: current officials list and 2023 Town Report both show ''Moderator (1 yr. term)'' with term expiring 2027; election date/vote count not found.'
+  retrieved: '2026-09-08'

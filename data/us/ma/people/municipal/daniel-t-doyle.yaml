@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/bff625b8-75f1-5b44-a224-52a585e22ae4
+name: Daniel T. Doyle
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofblackstone.org/DocumentCenter/View/2481/Official-Results---Annual-Town-Election-April-6-2026
+  note: 'PRINTED+DERIVED: elected 2026-04-06 with 278 votes, 2026 Positions Available doc: ''One position for Moderator for a 3-Year Term''; end derived as 2029.'
+  retrieved: '2026-09-08'

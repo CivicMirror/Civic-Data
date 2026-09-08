@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/e5afdb9c-b5c1-50fd-a768-f0652c1118e6
+name: Adam Dash
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.belmont-ma.gov/DocumentCenter/View/13880/2026-04-07-Local-Election-Results-Official-PDF
+  note: 'PRINTED+DERIVED: elected 2026-04-07 with 2090 votes over Michael F. Crowley (1781); term length inferred 1-year (office appeared on both the 2025 and 2026 ballots), no explicit ballot term text found; end derived as 2027.'
+  retrieved: '2026-09-08'

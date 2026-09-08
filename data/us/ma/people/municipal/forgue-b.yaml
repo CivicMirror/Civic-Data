@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/2356bb00-70f9-51a4-8f29-53961a15dacd
+name: Forgue, B.
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-08'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://townofchester.net/wp-content/uploads/2026/05/Town-election-results-5-2-26.pdf
+  note: 'PRINTED+DERIVED: elected 2026-05-02 with 195 votes, ballot ''ONE MODERATOR for one year''. Name recorded EXACTLY as printed on the only source that names this officeholder (''Forgue, B.'') -- no source found anywhere on the town''s site gives a full first name; do not expand or guess it without a better source. End derived as 2027.'
+  retrieved: '2026-09-08'
