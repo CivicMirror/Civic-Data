@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: pelham-ma-assessor-william-collins
+person_id: ocd-person/577c524a-e7b8-581d-b28d-fae60e5d6592
+organization_id: ocd-organization/14674b09-8d19-50dc-9f1b-3fc180ba9d42
+post_id: pelham-ma/assessor
+role: Assessor
+how_seated: elected
+sources:
+- url: https://pelhamma.gov/files/2025_Final_Town_Report.pdf
+  note: 2025 Final Town Report, Board of Assessors table (pdftotext -layout). Confirms 3rd seat alongside Robert Rowell (2028) and Robert Otis Rowell (2027), verified as two distinct people with different term-ends on this same table -- not a duplicate.
+  retrieved: '2026-09-09'
+end: '2026'

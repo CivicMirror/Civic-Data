@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/c714a7e3-ab93-5949-a7a9-77719dae5929
+name: Andrea Santos
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://charlemont-ma.us/p/50/Board-of-Assessors
+  note: Town of Charlemont Board of Assessors page, direct fetch; general-law town, elected by default.
+  retrieved: '2026-09-09'

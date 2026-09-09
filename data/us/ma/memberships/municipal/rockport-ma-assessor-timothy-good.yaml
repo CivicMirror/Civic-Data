@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: rockport-ma-assessor-timothy-good
+person_id: ocd-person/df8b67cb-34c6-511e-9c1a-764a563f3c28
+organization_id: ocd-organization/110efcc8-14ca-5233-be90-e5c6771c4c45
+post_id: rockport-ma/assessor
+role: Assessor
+how_seated: elected
+sources:
+- url: https://www.rockportma.gov/Directory.aspx?did=73
+  note: Town of Rockport Assessors Board staff directory, direct fetch (corrects an earlier WebSearch hallucination of a different 3rd member).
+  retrieved: '2026-09-09'

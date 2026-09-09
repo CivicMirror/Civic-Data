@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/c709dbd8-b92e-51d5-8c9e-90081b7621bb
+name: Erica Devine
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.marshfield-ma.gov/government/boards_commissions/board_of_assessors/index.php
+  note: Town of Marshfield Board of Assessors page, explicit Board Members table with term-ends.
+  retrieved: '2026-09-09'

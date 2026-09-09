@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/44bd439b-ce48-5961-83c7-6e3e2398107c
+name: Pauline A Sylvia-Medeiros
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.westport-ma.com/residents/assessors/index.php
+  note: Town of Westport Assessors Dept page (via r.jina.ai proxy); general-law town, corroborated by local news coverage of an uncontested Board of Assessors election.
+  retrieved: '2026-09-09'
