@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/2f42e063-e1c9-57f8-ab73-9c1a43790912
+name: Donald A. Willard III
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofchesterfieldma.com/sites/g/files/vyhlif7606/f/minutes/may_2026_final_town_election_results.pdf
+  note: '2026-05-04 Annual Town Election official results: SCH COMM/CHESTERFIELD-GOSHEN (3-year term) -- Donald A. Willard, III won (134 votes; 16 blanks).'
+  retrieved: '2026-09-09'
