@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: chesterfield-ma-town-clerk-sandy-wickland
+person_id: ocd-person/6f100f8e-4060-53eb-a004-e0b67d18e7d8
+organization_id: ocd-organization/331cf7f1-b9d9-50cd-b544-22e36036796e
+post_id: chesterfield-ma/town-clerk
+role: Town Clerk
+how_seated: elected
+sources:
+- url: https://www.townofchesterfieldma.com/government/pages/contact-info-elected-and-appointed-officials
+  note: 'Chesterfield has no home-rule charter (confirmed: scripts/ecode360 finds no matching municipality), so Town Clerk is an elected office by default under M.G.L. c.41 s.15; the town''s own contact page groups the Clerk under ''Contact Info, Elected, and Appointed Officials.'' Sandy Wickland confirmed as current Town Clerk via the Massachusetts Town Clerks Association active-member directory (phone number matches the town''s own listing). No specific term-end year confirmed; not recorded.'
+  retrieved: '2026-09-09'

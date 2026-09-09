@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/7d3f0e24-cc60-500b-bb0e-625cd0875b17
+name: Sara McDonald
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.town.dennis.ma.us/367/Town-Clerk
+  note: 'Office of Town Clerk is elected -- confirmed by the 2026 Annual Town Meeting (2026-05-05), where Article 44''s proposal to convert the elected Town Clerk to an appointed position was rejected 123-53. Sara McDonald currently holds the office in an ACTING capacity per the town''s own department page (title: ''Acting Town Clerk''), i.e. filling a vacancy on an interim/appointed basis pending the next election rather than having been elected to it herself; recorded how_seated=appointed for that reason even though the underlying office remains elected.'
+  retrieved: '2026-09-09'
