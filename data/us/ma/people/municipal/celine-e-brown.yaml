@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/0f3590c4-2c8a-57bc-ae86-d48a6e16807f
+name: Celine E. Brown
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.swanseama.gov/government/town_clerk/elected_officials_in_swansea.php
+  note: Office is elected, 3-year term (town's own 'Elected Officials in Swansea' page lists Town Clerk with a term expiring 2027). Diane Pelland was Town Clerk as of the 2026-04-13 Annual Town Election (signed the official results as certifying clerk; no Town Clerk race was on that ballot -- her seat wasn't up). Celine E. Brown now holds the office in an INTERIM capacity per the town's own elected-officials page and department page, i.e. filling the seat on an interim/appointed basis following a vacancy after Pelland, pending the next election -- recorded how_seated=appointed for that reason even though the underlying office is elected.
+  retrieved: '2026-09-09'

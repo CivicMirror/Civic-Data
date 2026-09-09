@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: tyngsborough-ma-town-clerk-jessica-a-brunelle
+person_id: ocd-person/e7856c2b-0dd6-52bb-af4a-ce51600c4511
+organization_id: ocd-organization/954471bb-bdc2-5afb-9f5e-c7470b492ded
+post_id: tyngsborough-ma/town-clerk
+role: Town Clerk
+how_seated: elected
+sources:
+- url: https://www.tyngsboroughma.gov/270/Town-Clerk
+  note: 'Tyngsborough has no home-rule charter (scripts/ecode360 finds no matching municipality), so Town Clerk is elected by default under MGL c.41 s.15. Jessica A. Brunelle has served as Town Clerk since 2024 and signed both the 2025-05-20 and 2026-05-19 official election results as the certifying Town Clerk -- neither ballot included a Town Clerk race, meaning her seat was not up in either cycle. Term-end YEAR IS INFERRED (not directly sourced): assuming she was elected in 2024 to a standard 3-year term, current term would run to 2027; not confirmed against an actual 2024 ballot.'
+  retrieved: '2026-09-09'
+end: '2027'
