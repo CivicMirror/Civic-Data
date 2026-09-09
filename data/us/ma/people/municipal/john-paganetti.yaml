@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/8492b8aa-7a19-549a-8332-9141d46d37b1
+name: John Paganetti
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://warwickma.org/town-clerk/2026-05-18-annual-town-election-results/
+  note: John Paganetti won the Town Clerk race in the 2026-05-18 Annual Town Election, 46 votes (unopposed), confirming the office is filled by ballot (elected). No term length/end year found in the results document; not recorded.
+  retrieved: '2026-09-09'

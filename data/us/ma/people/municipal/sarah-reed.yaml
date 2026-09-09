@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/0317c121-835d-5e11-b1f6-27f706e84298
+name: Sarah Reed
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.webster-ma.gov/DocumentCenter/View/35497/TOWN-ELECTION-RESULTS-MAY-2026?bidId=
+  note: '2026-05-04 Annual Town Election (3-year term, Vote for TWO): Trustees of the Public Library -- Ashleigh Dziedzic (~293 combined votes) and Sarah Reed (~279), the two clear top vote-getters ahead of a third candidate (Martina Koziak, ~43). Vote totals OCR''d from a scanned precinct-tally sheet, approximate.'
+  retrieved: '2026-09-09'

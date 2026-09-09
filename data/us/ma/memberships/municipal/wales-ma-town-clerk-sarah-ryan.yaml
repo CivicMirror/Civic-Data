@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: wales-ma-town-clerk-sarah-ryan
+person_id: ocd-person/c0eaa4fd-f36c-5e4e-b8e9-afd2db3dde61
+organization_id: ocd-organization/af0c62e6-5791-5aa6-b0d5-dfdca76a2721
+post_id: wales-ma/town-clerk
+role: Town Clerk
+how_seated: elected
+sources:
+- url: https://www.townofwales.net/232/Town-Clerk
+  note: 'Wales has no home-rule charter (scripts/ecode360 finds no matching municipality), so Town Clerk is elected by default under MGL c.41 s.15. Sarah Ryan confirmed as current Town Clerk via the town''s own page, ''Term Expires: 2028.'' She was not on the 2026-05-27 ballot (not up this cycle, consistent with a term ending 2028).'
+  retrieved: '2026-09-09'
+end: '2028'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/82162dad-371f-5754-9b1d-76a7e110430b
+name: Linda Millet
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.webster-ma.gov/DocumentCenter/View/35497/TOWN-ELECTION-RESULTS-MAY-2026?bidId=
+  note: '2026-05-04 Annual Town Election (3-year term): School Committee -- Linda Millet (~292 combined votes across 5 precincts) and Kelly Seddiki (~283) were the clear top vote-getters, essentially unopposed apart from scattered single write-in protest votes. Vote totals extracted via re-OCR of a scanned precinct-tally sheet and may have minor digit-level imprecision, but the winners themselves are unambiguous.'
+  retrieved: '2026-09-09'
