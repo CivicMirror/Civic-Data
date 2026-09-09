@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4910782c-dbd4-5fac-8059-2759e103a712
+name: James Koehler
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://cms2.revize.com/revize/norwell/Documents/Departments/Town%20Clerk/Election%20Results/OFFICIAL%20results%20-%20Annual%20Town%20Election%2005-16-26.pdf
+  note: '2026-05-16 Annual Town Election official results (town''s own document; re-OCR''d at 400dpi via tesseract after the initial pdftotext pass garbled several names -- this data is from the clean re-OCR). Board of Assessors (Vote for ONE): James Koehler, 1,011 votes (unopposed; only 1 of 3 seats up this cycle).'
+  retrieved: '2026-09-09'

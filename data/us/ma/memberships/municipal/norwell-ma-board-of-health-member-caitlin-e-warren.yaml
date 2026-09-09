@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: norwell-ma-board-of-health-member-caitlin-e-warren
+person_id: ocd-person/267c0e38-9bc0-5d9c-b612-5be4e180bc0d
+organization_id: ocd-organization/29f4a2d4-815e-5677-a7e8-0cc3717b15bd
+post_id: norwell-ma/board-of-health-member
+role: Board of Health Member
+how_seated: elected
+sources:
+- url: https://cms2.revize.com/revize/norwell/Documents/Departments/Town%20Clerk/Election%20Results/OFFICIAL%20results%20-%20Annual%20Town%20Election%2005-16-26.pdf
+  note: '2026-05-16 Annual Town Election official results (town''s own document; re-OCR''d at 400dpi via tesseract after the initial pdftotext pass garbled several names -- this data is from the clean re-OCR). Board of Health (Vote for ONE): Caitlin E. Warren, 1,024 votes (unopposed; only 1 of 3 seats up this cycle).'
+  retrieved: '2026-09-09'

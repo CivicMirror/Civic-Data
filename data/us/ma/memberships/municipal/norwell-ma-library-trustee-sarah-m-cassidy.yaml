@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: norwell-ma-library-trustee-sarah-m-cassidy
+person_id: ocd-person/e3fa534b-3bd9-59c7-8cbe-2b855ec5f091
+organization_id: ocd-organization/e4d77e4d-14c0-5725-bd76-9626aa0089b1
+post_id: norwell-ma/library-trustee
+role: Library Trustee
+how_seated: elected
+sources:
+- url: https://cms2.revize.com/revize/norwell/Documents/Departments/Town%20Clerk/Election%20Results/OFFICIAL%20results%20-%20Annual%20Town%20Election%2005-16-26.pdf
+  note: '2026-05-16 Annual Town Election official results (town''s own document; re-OCR''d at 400dpi via tesseract after the initial pdftotext pass garbled several names -- this data is from the clean re-OCR). Norwell Public Library Trustees (Vote for TWO): Sarah M. Cassidy, 1,034 votes; Jeanne M. Hagelstein-Ivas, 1,020 votes (both unopposed; 2 of 6 seats up this cycle).'
+  retrieved: '2026-09-09'

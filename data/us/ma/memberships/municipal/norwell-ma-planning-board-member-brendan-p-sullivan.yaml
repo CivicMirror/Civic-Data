@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: norwell-ma-planning-board-member-brendan-p-sullivan
+person_id: ocd-person/c9d4d32e-bf04-5295-9018-05327845cff3
+organization_id: ocd-organization/d3efab12-68ef-5e06-b663-124f34cda2e2
+post_id: norwell-ma/planning-board-member
+role: Planning Board Member
+how_seated: elected
+sources:
+- url: https://cms2.revize.com/revize/norwell/Documents/Departments/Town%20Clerk/Election%20Results/OFFICIAL%20results%20-%20Annual%20Town%20Election%2005-16-26.pdf
+  note: '2026-05-16 Annual Town Election official results (town''s own document; re-OCR''d at 400dpi via tesseract after the initial pdftotext pass garbled several names -- this data is from the clean re-OCR). Planning Board (Vote for FOUR): Brendan P. Sullivan, 959; Stephen Russell Dunn, 881; Donald E. Shute, 865; Jon Stephen Bjorklund, 856 (all unopposed; 4 of 5 seats up this cycle).'
+  retrieved: '2026-09-09'
