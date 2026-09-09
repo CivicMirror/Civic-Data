@@ -1,0 +1,16 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: berlin-ma-town-clerk-kaylee-e-pitard
+person_id: ocd-person/90ad427d-93ca-51bb-97fe-af1f9df031b2
+organization_id: ocd-organization/7936dc50-6b8a-50d7-8828-046b2887a719
+post_id: berlin-ma/town-clerk
+role: Town Clerk
+how_seated: elected
+sources:
+- url: https://www.townofberlin.com/DocumentCenter/View/1612/2026-Local-Town-Election
+  note: 'PRINTED+DERIVED: elected 2026-05-11 with 93 of 137 votes (James Wheeler 22, 2 all others, 20 blanks) per the town''s own ''May 11, 2026 Annual Local Election, Berlin, MA, Unofficial Results''. Berlin has no home-rule charter, but the 2025 Annual Town Report (townofberlin.com/DocumentCenter/View/1603/2025-Annual-Town-ReportWebVersionpdf, p.~2, ''TOWN OFFICIALS / Elected by Ballot'') lists ''Town Clerk, Eloise E. Salls, Term expires 2026'' -- confirming the office is elected and Pitard''s predecessor''s term ran through the 2026 election. Term derived as 3 years (matches the prior holder''s cycle) -> end 2029. CORRECTION: an earlier pass on this same office wrongly minted ''Andy Dowd (appointed)'' from (a) a stale/wrong staff-directory page and (b) a misread of the town''s 2020 Annual Town Report, where pdftotext linearized a two-column ''Elected by Ballot'' / ''Appointed by the Select Board'' layout and attached the appointed-column header to the elected-column''s Town Clerk entry.
+    Cross-checked against two report years plus the actual ballot before correcting.'
+  retrieved: '2026-09-09'
+end: '2029'
