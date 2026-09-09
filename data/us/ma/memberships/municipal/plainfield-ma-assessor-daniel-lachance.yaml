@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: plainfield-ma-assessor-daniel-lachance
+person_id: ocd-person/77a12c14-3b45-5ad2-a364-a8809de094e2
+organization_id: ocd-organization/ab3d9a10-8d91-5e07-b137-958f7f6d3815
+post_id: plainfield-ma/assessor
+role: Assessor
+how_seated: elected
+sources:
+- url: https://www.plainfield-ma.us/media/10036
+  note: 'Daniel LaChance: 2026-05-02 official Annual Town Election results ("BOARD OF ASSESSORS - 3 years", incumbent, 109 votes, unopposed), fetched by matching the site''s browser fingerprint/Sec-Fetch headers past its WAF. Claude DuPont: town''s own Board of Assessors page (plainfield-ma.us/board-assessors), Chair, term 2024-2027, single source -- not up in the 2026 election, so not independently re-confirmed this pass.'
+  retrieved: '2026-09-09'
+end: '2029'
