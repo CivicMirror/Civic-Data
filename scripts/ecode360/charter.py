@@ -59,8 +59,8 @@ def _clean_text(value: str) -> str:
     return "\n".join(cleaned).strip()
 
 
-def is_explicitly_deleted(title: object) -> bool:
-    return isinstance(title, str) and re.search(r"\(\s*deleted\s*\)", title, re.I) is not None
+def is_explicitly_empty(title: object) -> bool:
+    return isinstance(title, str) and re.search(r"\(\s*(?:deleted|reserved)\s*\)", title, re.I) is not None
 
 
 def normalize_page_sections(raw_sections: object, *, allow_duplicate_guids: bool = False) -> tuple[RawSection, ...]:
@@ -115,11 +115,11 @@ def merge_page_results(
     missing: list[str] = []
     for item in expected:
         guid = str(item["guid"])
-        deleted = is_explicitly_deleted(item.get("title"))
+        explicitly_empty = is_explicitly_empty(item.get("title"))
         raw = primary_map.get(guid)
         if raw is None or not raw.text:
             raw = fallback_map.get(guid)
-        if (raw is None or not raw.text) and not deleted:
+        if (raw is None or not raw.text) and not explicitly_empty:
             missing.append(guid)
             continue
         if raw is None:
@@ -311,7 +311,7 @@ def page_targets(charter: dict) -> tuple[PageTarget, ...]:
                 empty_allowed[page] = []
                 order.append(page)
             grouped[page].append(str(node["guid"]))
-            if is_explicitly_deleted(node_title(node)):
+            if is_explicitly_empty(node_title(node)):
                 empty_allowed[page].append(str(node["guid"]))
             return
         for child in _children(node):

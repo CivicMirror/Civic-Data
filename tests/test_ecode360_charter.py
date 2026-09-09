@@ -139,3 +139,31 @@ def test_page_targets_mark_explicitly_deleted_sections_as_empty_allowed() -> Non
         [node("article", "article", "Article IV", [node("section", "47392127", "Park Commission. (DELETED)")])],
     )
     assert page_targets(charter) == (PageTarget("article", ("47392127",), ("47392127",)),)
+
+
+def test_preserves_explicitly_reserved_section_with_empty_text() -> None:
+    # Wakefield, MA's charter (guid 13594366) uses "(Reserved)" rather than
+    # "(Deleted)" for placeholder sections with no content -- ecode360.com
+    # itself renders these with a genuinely empty content div, not a
+    # loading/timing issue, so they must not be treated as fetch failures.
+    expected = (
+        {
+            "guid": "13594366",
+            "number": "5-9",
+            "title": "Sec. 5-9: through Sec. 5-10. (Reserved)",
+            "hierarchy": ("Charter",),
+        },
+    )
+    result = merge_page_results(expected, (RawSection("13594366", "", ""),), ())
+    assert result[0].guid == "13594366"
+    assert result[0].text == ""
+
+
+def test_page_targets_mark_explicitly_reserved_sections_as_empty_allowed() -> None:
+    charter = node(
+        "chapter",
+        "charter",
+        "Charter",
+        [node("article", "article", "Part V", [node("section", "13594366", "Sec. 5-9: through Sec. 5-10. (Reserved)")])],
+    )
+    assert page_targets(charter) == (PageTarget("article", ("13594366",), ("13594366",)),)
