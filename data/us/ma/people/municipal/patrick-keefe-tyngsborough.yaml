@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/7fceb354-b5ff-5723-be64-66a308ca50f0
+name: Patrick Keefe
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.tyngsboroughma.gov/DocumentCenter/View/3361/May-19-2026-Official-Election-Results
+  note: '2026-05-19 Annual Town Election official results (town''s own document, precinct-level table). Planning Board: William Coughlin, 524 votes; Patrick Keefe, 332 votes; Kristen Keegan, 817 votes (3 of 5 seats up/filled this cycle; vote-for count not confirmed from the extracted text).'
+  retrieved: '2026-09-09'
