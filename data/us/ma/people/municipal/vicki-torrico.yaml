@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/517b2bce-0733-5bcf-9782-9bb9bac074e0
+name: Vicki Torrico
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://mountwashington-ma.gov/departments/assessors/
+  note: Town department page; general-law town (no home-rule charter per scripts.ecode360 municipality_not_found), elected by MGL c.41 default, corroborated by Berkshire Eagle 2026 town meeting preview confirming Assessor as a ballot office.
+  retrieved: '2026-09-09'

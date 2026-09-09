@@ -10,5 +10,8 @@ verification:
   reviewed_on: '2026-08-19'
   pipeline: MA Municipality Research
 sources:
-- url: https://www.grovelandma.com/government/boards_committees/select_board/index.php
-  retrieved: '2026-08-19'
+  - url: https://www.grovelandma.com/government/boards_committees/select_board/index.php
+    retrieved: '2026-08-19'
+  - url: https://www.grovelandma.com/government/boards_committees/board_of_assessors/index.php
+    note: "Also serves on the Board of Assessors (issue #48). Merged from a duplicate person record created during the #48 mint pass under the assumption this is the same Jason Naves already on Groveland's Select Board."
+    retrieved: '2026-09-09'

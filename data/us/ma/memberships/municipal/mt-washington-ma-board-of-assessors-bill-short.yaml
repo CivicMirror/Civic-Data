@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: mt-washington-ma-board-of-assessors-bill-short
+person_id: ocd-person/56b8d91d-2432-52a6-af0a-231a49405b8a
+organization_id: ocd-organization/5f4946f0-ddbe-5ae4-bf42-4adc8043e63b
+post_id: mt-washington-ma/board-of-assessors
+role: Assessor
+how_seated: elected
+sources:
+- url: https://mountwashington-ma.gov/departments/assessors/
+  note: Town department page; general-law town (no home-rule charter per scripts.ecode360 municipality_not_found), elected by MGL c.41 default, corroborated by Berkshire Eagle 2026 town meeting preview confirming Assessor as a ballot office.
+  retrieved: '2026-09-09'
+end: '2029'

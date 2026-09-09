@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/32405469-c703-5430-aba5-b9b4dfcca3cb
+name: Melissa Baker
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-09'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.grovelandma.com/government/boards_committees/board_of_assessors/index.php
+  note: Town of Groveland Board of Assessors page, directly fetched; corroborated by USVoteFoundation's Groveland elective-offices list confirming Assessor is a 3-year elected office.
+  retrieved: '2026-09-09'
