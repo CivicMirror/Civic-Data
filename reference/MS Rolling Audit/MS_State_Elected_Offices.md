@@ -15,6 +15,12 @@ it adds no people, memberships, candidacies, or elections.
 | Transportation Commission, Northern/Central/Southern districts | 3 |
 | Total | 207 |
 
+Issue #41's trial-court judicial-district pass adds 20 Chancery Court District
+posts with 52 seats and 23 Circuit Court District posts with 59 seats. Each
+district is modeled as a multi-county judicial-district jurisdiction and
+organization; the post's `seats` count preserves the number of elected judges
+without creating one duplicate office per county.
+
 Each post has one seat. Legislative records follow the existing NC pattern:
 one district jurisdiction, organization, and post per district. Each executive
 office has its own organization under the statewide executive jurisdiction.
@@ -37,10 +43,10 @@ card as district 53; it is not a Senate district and is not imported as one.
 
 ## Separate work
 
-Circuit and chancery judges and district attorneys remain the judicial-district
-pass tracked under #41 and explicitly deferred in #36. Existing county offices
-are not duplicated. Appointed offices and municipal offices are outside this
-state-office pass. No officeholder currency or human verification is asserted.
+District attorneys remain a separate judicial-district item under #41. Existing
+county offices are not duplicated. Appointed offices and municipal offices are
+outside this state-office pass. No officeholder currency or human verification
+is asserted.
 
 ## Validation baseline
 
