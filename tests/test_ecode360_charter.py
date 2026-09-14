@@ -231,3 +231,38 @@ def test_preserves_reserve_for_future_use_section_with_empty_text() -> None:
     result = merge_page_results(expected, (RawSection("49697236", "", ""),), ())
     assert result[0].guid == "49697236"
     assert result[0].text == ""
+
+
+def test_preserves_unparenthesized_repealed_title_variants() -> None:
+    # Regression for issue #69: Springfield ("Repealed, 1961, 146, Sec. 2"),
+    # Wellfleet ("Action on Proposed Budget - Repealed 4/30/13" and "Deleted
+    # content moved to 7-5-3 <4-29-2019>") mark a repealed/deleted section
+    # in the title using free text rather than a parenthesized or "reserve
+    # ... for future use" convention.
+    for guid, title in (
+        ("14659290", "Repealed, 1961, 146, Sec. 2"),
+        ("38070325", "Action on Proposed Budget - Repealed 4/30/13"),
+        ("38070338", "Deleted content moved to 7-5-3 <4-29-2019>"),
+    ):
+        expected = ({"guid": guid, "number": "1", "title": title, "hierarchy": ("Charter",)},)
+        result = merge_page_results(expected, (RawSection(guid, "", ""),), ())
+        assert result[0].text == ""
+
+
+def test_preserves_repealed_section_signaled_only_by_history() -> None:
+    # Regression for issue #69: Mansfield's "Municipal Electric Department
+    # Director." and North Andover's "Limit on spending" give no hint in
+    # their own title that the section is empty -- only the fetched
+    # history note ("[Repealed by Chapter 147 of the Acts of 2010, approved
+    # 7-1-2010]") does, which is only known after fetching, unlike
+    # is_explicitly_empty()'s title-based check.
+    expected = (
+        {"guid": "28866367", "number": "7-2", "title": "Municipal Electric Department Director.", "hierarchy": ("Charter",)},
+    )
+    result = merge_page_results(
+        expected,
+        (RawSection("28866367", "", "[Repealed 2006]"),),
+        (),
+    )
+    assert result[0].guid == "28866367"
+    assert result[0].text == ""

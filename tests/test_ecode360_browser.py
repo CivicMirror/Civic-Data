@@ -53,3 +53,15 @@ def test_incomplete_fallback_is_retryable() -> None:
     with pytest.raises(ECodeError) as caught:
         require_fallback_complete(("s1",), ())
     assert caught.value.code == "ecode_navigation_failed"
+
+
+def test_fallback_accepts_repealed_section_with_no_title_marker() -> None:
+    # Regression for issue #69: Mansfield/Haverhill/North Andover's charters
+    # have repealed sections whose own title gives no hint (e.g. "Limit on
+    # spending") -- only the fetched history note says "[Repealed ...]".
+    from scripts.ecode360.charter import RawSection
+
+    require_fallback_complete(
+        ("s1",),
+        (RawSection("s1", "", "[Repealed by Chapter 147 of the Acts of 2010, approved 7-1-2010]"),),
+    )

@@ -64,17 +64,27 @@ def _clean_text(value: str) -> str:
 
 
 def is_explicitly_empty(title: object) -> bool:
-    if not isinstance(title, str):
-        return False
-    if re.search(r"\(\s*(?:deleted|reserved)\s*\)", title, re.I):
-        return True
-    # eCode360 also marks a placeholder section with a bare descriptive
-    # title rather than a "(reserved)" suffix, e.g. Greenfield's "SECTION
-    # 6-6 Reserve section for future use." -- these render with genuinely
-    # empty content, which is correct, not a scrape failure.
-    if re.search(r"\breserved?\b.*\bfor\s+future\s+use\b", title, re.I):
-        return True
-    return False
+    # eCode360 marks a placeholder/repealed section a dozen different ways
+    # across municipalities -- "(Reserved)", "(Deleted)", "Reserve section
+    # for future use.", "Repealed, 1961, 146, Sec. 2", "Action on Proposed
+    # Budget - Repealed 4/30/13", "Deleted content moved to 7-5-3
+    # <4-29-2019>" -- but in every observed case one of "repealed",
+    # "deleted", or "reserve(d)" appears as a whole word in the title, so
+    # match on that rather than a specific phrase or punctuation
+    # convention. These sections render with genuinely empty content,
+    # which is correct, not a scrape failure.
+    return isinstance(title, str) and re.search(r"\b(?:repealed|deleted|reserve[d]?)\b", title, re.I) is not None
+
+
+def is_repealed_history(history: object) -> bool:
+    # Some sections give no hint in their own title (e.g. North Andover's
+    # "Limit on spending", Haverhill's bare "Section") -- the only signal
+    # that they're a legitimately-empty repealed section is in the fetched
+    # history note, e.g. "[Repealed by Chapter 147 of the Acts of 2010,
+    # approved 7-1-2010]". This can only be checked once the page has
+    # already been fetched, unlike is_explicitly_empty() which works off
+    # the TOC's title before fetching.
+    return isinstance(history, str) and re.search(r"\brepealed\b", history, re.I) is not None
 
 
 def normalize_page_sections(raw_sections: object, *, allow_duplicate_guids: bool = False) -> tuple[RawSection, ...]:
@@ -132,7 +142,12 @@ def merge_page_results(
         explicitly_empty = is_explicitly_empty(item.get("title"))
         raw = primary_map.get(guid)
         if raw is None or not raw.text:
-            raw = fallback_map.get(guid)
+            # Prefer fallback's data when it has something, but don't
+            # discard a primary hit (e.g. its history note) just because
+            # fallback has nothing for this guid at all.
+            raw = fallback_map.get(guid) or raw
+        if raw is not None and not raw.text and is_repealed_history(raw.history):
+            explicitly_empty = True
         if (raw is None or not raw.text) and not explicitly_empty:
             missing.append(guid)
             continue

@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 from playwright.sync_api import Browser, BrowserContext, Page, Playwright, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
-from .charter import ExtractionResults, PageTarget, RawSection, normalize_page_sections, validate_toc
+from .charter import ExtractionResults, PageTarget, RawSection, is_repealed_history, normalize_page_sections, validate_toc
 from .errors import ECodeError
 from .models import DirectoryEntry
 
@@ -78,7 +78,18 @@ def require_fallback_complete(
 ) -> None:
     by_guid = {section.guid: section for section in fallback}
     allowed = set(empty_allowed)
-    missing = [guid for guid in expected if guid not in allowed and (guid not in by_guid or not by_guid[guid].text)]
+
+    def is_satisfied(guid: str) -> bool:
+        section = by_guid.get(guid)
+        if section is None:
+            return False
+        # A repealed section's own title doesn't always say so (e.g. North
+        # Andover's "Limit on spending") -- that's only visible in the
+        # fetched history note, so accept it here even though it wasn't
+        # known to be empty_allowed before fetching.
+        return bool(section.text) or is_repealed_history(section.history)
+
+    missing = [guid for guid in expected if guid not in allowed and not is_satisfied(guid)]
     if missing:
         raise ECodeError(
             "ecode_navigation_failed",
