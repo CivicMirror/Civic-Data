@@ -53,6 +53,42 @@ def test_rejects_unrelated_equal_charter_candidates() -> None:
     assert len(caught.value.candidates or ()) == 2
 
 
+def test_accepts_prefixed_charter_label() -> None:
+    # "<Town> Charter" / "<Town> Home Rule Charter" / eCode360's occasional
+    # "Chapter C Charter" baked-in-title format.
+    for title in ("Braintree Charter", "Falmouth Home Rule Charter", "Chapter C Charter"):
+        candidate = node("chapter", "chapter", title, [node("section", "s1", "Purpose")])
+        assert select_charter(validate_toc(toc([candidate]), "EX1000"))["guid"] == "chapter"
+
+
+def test_rejects_charter_adjacent_titles_that_are_not_the_charter() -> None:
+    # Regression for issue #69: a title merely containing the word "charter"
+    # (not ending with it) must not be treated as a charter candidate --
+    # e.g. Nantucket's "Taxicabs, Charter, Limousine and Tour Vehicles" and
+    # Northampton/Stoughton/East Longmeadow's "Charter Review Committee".
+    review_committee = node("chapter", "committee", "Charter Review Committee", [node("section", "s1", "Purpose")])
+    with pytest.raises(ECodeError) as caught:
+        select_charter(validate_toc(toc([review_committee]), "EX1000"))
+    assert caught.value.code == "charter_not_found"
+
+    taxicabs = node("chapter", "taxi", "Taxicabs, Charter, Limousine and Tour Vehicles", [node("section", "s1", "Purpose")])
+    with pytest.raises(ECodeError) as caught:
+        select_charter(validate_toc(toc([taxicabs]), "EX1000"))
+    assert caught.value.code == "charter_not_found"
+
+
+def test_prefers_town_charter_over_sibling_county_charter() -> None:
+    # Regression for issue #69: a combined town/county code (e.g. Nantucket)
+    # has both a "Town Charter" and a "County Charter" part -- the exact
+    # "town charter" label must win outright, not tie into an
+    # ambiguous_charter error.
+    town = node("part", "town", "Town Charter", [node("section", "s1", "Purpose")])
+    county = node("part", "county", "County Charter", [node("section", "s2", "Purpose")])
+    wrapper = node("chapter", "wrapper", "Charters", [town, county])
+    selected = select_charter(validate_toc(toc([wrapper]), "EX1000"))
+    assert selected["guid"] == "town"
+
+
 def test_plans_article_targets_in_toc_order_and_direct_chapter_sections() -> None:
     article = node(
         "article",

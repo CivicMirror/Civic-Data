@@ -226,6 +226,26 @@ def _normalized_title(value: str) -> str:
     return re.sub(r"\s+", " ", folded).strip()
 
 
+_SUFFIX_LABELS = tuple(sorted(EXACT_LABELS, key=lambda label: len(label.split()), reverse=True))
+
+
+def _ends_with_charter_label(normalized: str) -> bool:
+    """True if the title's last words exactly match one of EXACT_LABELS,
+    with something else in front of it (a town name, an ordinal like
+    "Chapter C" -- eCode360 sometimes bakes that into the title itself).
+    Deliberately anchored to the END of the title: a title that merely
+    contains the word "charter" somewhere in the middle followed by more
+    words (e.g. "Charter Review Committee", "Taxicabs, Charter, Limousine
+    and Tour Vehicles") is charter-adjacent, not the charter itself, and
+    must not match here."""
+    words = normalized.split()
+    for label in _SUFFIX_LABELS:
+        label_words = label.split()
+        if len(words) > len(label_words) and words[-len(label_words):] == label_words:
+            return True
+    return False
+
+
 def _candidate_rank(title: str) -> int:
     normalized = _normalized_title(title)
     if normalized in EXACT_LABELS:
@@ -234,9 +254,13 @@ def _candidate_rank(title: str) -> int:
         return 2
     if normalized == "structure of government":
         return 1
-    # eCode360 frequently prefixes a title with "Chapter C" or "Division 1".
-    if re.search(r"\bcharter\b", normalized):
-        return 3
+    # A prefixed variant of an exact label (e.g. "Braintree Charter",
+    # "Falmouth Home Rule Charter", "Chapter C Charter") -- ranked below an
+    # exact match so a genuine "Town Charter" still wins over a sibling
+    # "County Charter" in a combined town/county code (e.g. Nantucket)
+    # instead of tying into an ambiguous_charter error.
+    if _ends_with_charter_label(normalized):
+        return 2
     return 0
 
 
