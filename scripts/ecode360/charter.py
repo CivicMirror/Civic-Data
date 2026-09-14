@@ -64,7 +64,17 @@ def _clean_text(value: str) -> str:
 
 
 def is_explicitly_empty(title: object) -> bool:
-    return isinstance(title, str) and re.search(r"\(\s*(?:deleted|reserved)\s*\)", title, re.I) is not None
+    if not isinstance(title, str):
+        return False
+    if re.search(r"\(\s*(?:deleted|reserved)\s*\)", title, re.I):
+        return True
+    # eCode360 also marks a placeholder section with a bare descriptive
+    # title rather than a "(reserved)" suffix, e.g. Greenfield's "SECTION
+    # 6-6 Reserve section for future use." -- these render with genuinely
+    # empty content, which is correct, not a scrape failure.
+    if re.search(r"\breserved?\b.*\bfor\s+future\s+use\b", title, re.I):
+        return True
+    return False
 
 
 def normalize_page_sections(raw_sections: object, *, allow_duplicate_guids: bool = False) -> tuple[RawSection, ...]:

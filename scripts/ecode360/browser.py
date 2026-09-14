@@ -226,13 +226,31 @@ class ECodeBrowser:
                 and (guid not in primary_by_guid or not primary_by_guid[guid].text)
             }
             fallback: list[RawSection] = []
+            fallback_by_guid: dict[str, RawSection] = {}
             for guid in target.section_guids:
                 if guid not in missing:
+                    continue
+                # A section's own page often renders its whole containing
+                # article, not just that one section -- an earlier fallback
+                # navigation in this same loop may have already picked this
+                # guid up "for free". Skip it rather than re-navigating: for
+                # a large chapter (dozens of missing sections spread across
+                # a handful of articles) that turns what would otherwise be
+                # one page load per missing section into roughly one per
+                # article, which matters both for speed and because
+                # eCode360 degrades under a long burst of rapid page loads.
+                existing = fallback_by_guid.get(guid)
+                if existing is not None and existing.text:
                     continue
                 self._wait_between_content_pages()
                 page.goto(f"https://ecode360.com/{guid}", wait_until="domcontentloaded", timeout=NAVIGATION_TIMEOUT_MS)
                 self._last_content_navigation = time.monotonic()
-                fallback.extend(normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT), allow_duplicate_guids=True))
+                page_sections = normalize_page_sections(page.evaluate(DOM_EXTRACT_SCRIPT), allow_duplicate_guids=True)
+                fallback.extend(page_sections)
+                for section in page_sections:
+                    current = fallback_by_guid.get(section.guid)
+                    if current is None or len(section.text) > len(current.text):
+                        fallback_by_guid[section.guid] = section
             require_fallback_complete(tuple(sorted(missing)), tuple(fallback), target.empty_allowed_guids)
             return primary, tuple(fallback)
         except ECodeError:

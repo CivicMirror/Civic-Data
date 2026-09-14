@@ -212,3 +212,22 @@ def test_page_targets_mark_explicitly_reserved_sections_as_empty_allowed() -> No
         [node("article", "article", "Part V", [node("section", "13594366", "Sec. 5-9: through Sec. 5-10. (Reserved)")])],
     )
     assert page_targets(charter) == (PageTarget("article", ("13594366",), ("13594366",)),)
+
+
+def test_preserves_reserve_for_future_use_section_with_empty_text() -> None:
+    # Regression for issue #69: Greenfield, MA's charter (guid 49697236)
+    # titles a placeholder section "Reserve section for future use." rather
+    # than using a "(Reserved)" suffix -- ecode360.com renders it with a
+    # genuinely empty content div, same as the parenthesized form, and it
+    # must not be treated as an incomplete/failed scrape.
+    expected = (
+        {
+            "guid": "49697236",
+            "number": "SECTION 6-6",
+            "title": "Reserve section for future use.",
+            "hierarchy": ("Charter", "Administrative Organization"),
+        },
+    )
+    result = merge_page_results(expected, (RawSection("49697236", "", ""),), ())
+    assert result[0].guid == "49697236"
+    assert result[0].text == ""
