@@ -1,0 +1,20 @@
+# Hand-built from the City of Boston's own official election results PDFs
+# for issue #9's 2020-present City Council backfill. Start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency; regular-election wins are seated Jan 1 of the following year
+# per the existing boston-mayor-wu.yaml precedent, and special-election wins
+# use the election date itself (exact swearing-in date not independently
+# confirmed).
+id: boston-council-district-6-omalley
+person_id: ocd-person/7efbb27a-659c-566e-b28f-049dd35c49da
+organization_id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+post_id: boston/council-district-6
+role: City Councillor
+seat: District 6
+start: '2020-01-01'
+end: '2022-01-01'
+how_seated: elected
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%206%20Ward%20%26%20Precinct%20Results.pdf
+  note: Won 2019 district race (unopposed); did not run for re-election in 2021
+  retrieved: '2026-09-14'

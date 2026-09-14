@@ -53,6 +53,33 @@ candidacies:
   status: active
   sources:
   - url: https://ocpf.us/filers?q=10911
+- contest_id: boston/2021-11-02/council-at-large
+  election_id: boston/2021-11-02/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  party: Nonpartisan
+  ballot_name: Althea Garrison
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-At-Large.pdf
+- contest_id: boston/2023-11-07/council-district-7
+  election_id: boston/2023-11-07/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  party: Nonpartisan
+  ballot_name: Althea Garrison
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-7.pdf
+- contest_id: boston/2019-11-05/council-at-large
+  election_id: boston/2019-11-05/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  party: Nonpartisan
+  ballot_name: Althea Garrison
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20%20-%20City%20Councillor%20at%20Large%20-%20from%20RECOUNT.pdf
 verification:
   status: machine-extracted
   pipeline: ocpf-filer-registry

@@ -1,0 +1,20 @@
+# Hand-built from the City of Boston's own official election results PDFs
+# for issue #9's 2020-present City Council backfill. Start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency; regular-election wins are seated Jan 1 of the following year
+# per the existing boston-mayor-wu.yaml precedent, and special-election wins
+# use the election date itself (exact swearing-in date not independently
+# confirmed).
+id: boston-council-district-7-fernandes-anderson
+person_id: ocd-person/22b597b0-dfc2-5052-878f-b03116f67c32
+organization_id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+post_id: boston/council-district-7
+role: City Councillor
+seat: District 7
+start: '2022-01-01'
+end: '2025-07-04'
+how_seated: elected
+sources:
+- url: https://en.wikipedia.org/wiki/Tania_Fernandes_Anderson
+  note: Won 2021 and 2023 district races; resigned effective after July 4, 2025 as part of a federal plea agreement (indicted Dec. 2024, pleaded guilty Apr. 2025). No special election was held; the seat sat vacant until the regularly scheduled Nov. 2025 election (won by Miniard Culpepper, seated Jan. 2026 per boston-council-district-7-culpepper.yaml).
+  retrieved: '2026-09-14'

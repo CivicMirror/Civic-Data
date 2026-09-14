@@ -1,0 +1,20 @@
+# Hand-built from the City of Boston's own official election results PDFs
+# for issue #9's 2020-present City Council backfill. Start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency; regular-election wins are seated Jan 1 of the following year
+# per the existing boston-mayor-wu.yaml precedent, and special-election wins
+# use the election date itself (exact swearing-in date not independently
+# confirmed).
+id: boston-council-at-large-flaherty
+person_id: ocd-person/e9ea929f-e956-5717-a9fd-2ba12c2fc3cf
+organization_id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+post_id: boston/council-at-large
+role: City Councillor
+seat: At-Large
+start: '2020-01-01'
+end: '2024-01-01'
+how_seated: elected
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-At-Large.pdf
+  note: Won 2019 and 2021 at-large races (4th of 4 seats both times); did not run for re-election in 2023
+  retrieved: '2026-09-14'

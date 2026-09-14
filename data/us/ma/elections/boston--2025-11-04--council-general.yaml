@@ -1,0 +1,190 @@
+# Hand-built from the City of Boston's own official ward-by-ward election
+# results PDFs for issue #9's 2020-present City Council backfill (scoped
+# down from the issue's original 2005 ask -- see the closing comment on
+# the issue for that decision). Winners' membership start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency (see ma-house-3rd-barnstable-state-representative-vieira.yaml);
+# each individual election (winners AND losers) is instead recorded as a
+# `candidacies` entry on the relevant person record.
+id: boston/2025-11-04/council-general
+name: Boston 2025-11-04 municipal general election (City Council)
+date: '2025-11-04'
+election_type: general
+status: certified
+contests:
+- id: boston/2025-11-04/council-at-large
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/79eb6a78-3833-5250-b1d3-cf8116a77f5f
+  - ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+  - ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+  - ocd-person/441a3084-84b1-51e9-8e34-58cbf71c30b2
+  - ocd-person/080cd118-97b3-5f59-a25f-95f3b0f870b2
+  - ocd-person/48699e16-bc89-548a-8089-669e5996503e
+  - ocd-person/abc2fc8d-9714-56f7-829e-1e65b75e90e5
+  - ocd-person/c9d10767-b173-5ff8-8704-6eee904e910d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/79eb6a78-3833-5250-b1d3-cf8116a77f5f
+    name: Ruthzee Louijeune
+    party: Nonpartisan
+  - person_id: ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+    name: Julia M. Mejia
+    party: Nonpartisan
+  - person_id: ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+    name: Erin J. Murphy
+    party: Nonpartisan
+  - person_id: ocd-person/441a3084-84b1-51e9-8e34-58cbf71c30b2
+    name: Henry Santana
+    party: Nonpartisan
+  seat: At-Large
+- id: boston/2025-11-04/council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/853d12c1-4506-5792-be2f-bb43913c9e9a
+  - ocd-person/542d0290-7153-54b1-8bc7-d2bb73d059c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/853d12c1-4506-5792-be2f-bb43913c9e9a
+    name: Gabriela Coletta Zapata
+    party: Nonpartisan
+  seat: District 1
+- id: boston/2025-11-04/council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+  - ocd-person/6db4b7f0-ddd3-568c-966e-f6743825d29f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+    name: Edward M. Flynn
+    party: Nonpartisan
+  seat: District 2
+- id: boston/2025-11-04/council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/518ee774-e239-5940-bc4b-a2929e78f970
+  result_status: certified
+  winners:
+  - person_id: ocd-person/518ee774-e239-5940-bc4b-a2929e78f970
+    name: John FitzGerald
+    party: Nonpartisan
+  seat: District 3
+- id: boston/2025-11-04/council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4fd90335-b590-5879-810d-35ab81e1a937
+  - ocd-person/f879ea9f-41af-57d2-bee1-911372a478fe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4fd90335-b590-5879-810d-35ab81e1a937
+    name: Brian Worrell
+    party: Nonpartisan
+  seat: District 4
+- id: boston/2025-11-04/council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ec472cb0-59eb-5adc-a15e-9da0d21c1a66
+  - ocd-person/5cef6dfe-acc0-5d51-b230-7d81097501ac
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ec472cb0-59eb-5adc-a15e-9da0d21c1a66
+    name: Enrique J. Pepén
+    party: Nonpartisan
+  seat: District 5
+- id: boston/2025-11-04/council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f85f9833-68b0-52f9-b837-2515493d1950
+  - ocd-person/e0d41579-3e44-5b53-b1dd-8b72bd9c2717
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f85f9833-68b0-52f9-b837-2515493d1950
+    name: Benjamin J. Weber
+    party: Nonpartisan
+  seat: District 6
+- id: boston/2025-11-04/council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e4f83ff5-d684-5f59-8d1f-fd315fb3b9fc
+  - ocd-person/80216e22-7a77-56e8-ae50-10ec0fb2e425
+  - ocd-person/92fe0f83-7e66-5421-ac7c-def25b36aa0d
+  - ocd-person/3a920311-008a-5270-ba68-65b2ce1b8c2c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e4f83ff5-d684-5f59-8d1f-fd315fb3b9fc
+    name: Miniard Culpepper
+    party: Nonpartisan
+  seat: District 7
+- id: boston/2025-11-04/council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+    name: Sharon Durkan
+    party: Nonpartisan
+  seat: District 8
+- id: boston/2025-11-04/council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+  - ocd-person/1778962c-121b-573e-9217-586f94244e64
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+    name: Liz Breadon
+    party: Nonpartisan
+  seat: District 9
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-at-Large.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- At-Large
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-1.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 1
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-2.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 2
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-3.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 3
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-4.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 4
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-5.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 5
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-6.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 6
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-7.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 7
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-25-City-Councillor-District-8.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 8
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-25-City-Councillor-District-9.pdf
+  note: City of Boston official municipal election results, November 4, 2025 -- District 9
+  retrieved: '2026-09-14'

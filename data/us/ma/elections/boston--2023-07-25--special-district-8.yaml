@@ -1,0 +1,32 @@
+# Hand-built from the City of Boston's own official ward-by-ward election
+# results PDFs for issue #9's 2020-present City Council backfill (scoped
+# down from the issue's original 2005 ask -- see the closing comment on
+# the issue for that decision). Winners' membership start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency (see ma-house-3rd-barnstable-state-representative-vieira.yaml);
+# each individual election (winners AND losers) is instead recorded as a
+# `candidacies` entry on the relevant person record.
+id: boston/2023-07-25/council-special
+name: Boston 2023-07-25 special municipal election (Council District 8)
+date: '2023-07-25'
+election_type: special
+status: certified
+contests:
+- id: boston/2023-07-25/council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+  - ocd-person/0ac6b831-580c-566b-bbf6-cd3ff96b04d9
+  - ocd-person/9cfd4136-3f5d-5690-9a40-97acebcc743f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+    name: Sharon Durkan
+    party: Nonpartisan
+  seat: District 8
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2025/01/2023%20-%2007-25-23%20-%20Special%20Municipal%20Election%20-%20City%20Councillor%20District%208.pdf
+  note: City of Boston official results, Special Municipal Election, City Councillor District 8, July 25, 2023 (filling Priscilla Bok's vacancy) -- District 8
+  retrieved: '2026-09-14'

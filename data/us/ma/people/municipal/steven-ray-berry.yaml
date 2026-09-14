@@ -1,0 +1,24 @@
+# Hand-built from the City of Boston's own official election results
+# PDFs for issue #9's 2020-present City Council backfill. Candidacy
+# list may include races run and lost, per that issue's explicit ask
+# to model winners AND losers.
+id: ocd-person/e0d41579-3e44-5b53-b1dd-8b72bd9c2717
+name: Steven Ray Berry
+candidacies:
+- contest_id: boston/2025-11-04/council-district-6
+  election_id: boston/2025-11-04/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-6
+  party: Nonpartisan
+  ballot_name: Steven Ray Berry
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-6.pdf
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-14'
+  pipeline: boston-city-council-backfill-2026-09-14
+sources:
+- url: https://www.boston.gov/departments/elections/state-and-city-boston-election-results
+  note: City of Boston official election results index
+  retrieved: '2026-09-14'

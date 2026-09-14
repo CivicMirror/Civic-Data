@@ -17,6 +17,15 @@ candidacies:
   status: active
   sources:
   - url: https://ocpf.us/filers?q=17446
+- contest_id: boston/2023-07-25/council-district-8
+  election_id: boston/2023-07-25/council-special
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-8
+  party: Nonpartisan
+  ballot_name: Kelechi Linardon
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2025/01/2023%20-%2007-25-23%20-%20Special%20Municipal%20Election%20-%20City%20Councillor%20District%208.pdf
 verification:
   status: machine-extracted
   pipeline: ocpf-filer-registry

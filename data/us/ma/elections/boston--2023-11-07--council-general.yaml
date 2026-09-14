@@ -1,0 +1,188 @@
+# Hand-built from the City of Boston's own official ward-by-ward election
+# results PDFs for issue #9's 2020-present City Council backfill (scoped
+# down from the issue's original 2005 ask -- see the closing comment on
+# the issue for that decision). Winners' membership start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency (see ma-house-3rd-barnstable-state-representative-vieira.yaml);
+# each individual election (winners AND losers) is instead recorded as a
+# `candidacies` entry on the relevant person record.
+id: boston/2023-11-07/council-general
+name: Boston 2023-11-07 municipal general election (City Council)
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: boston/2023-11-07/council-at-large
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/79eb6a78-3833-5250-b1d3-cf8116a77f5f
+  - ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+  - ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+  - ocd-person/441a3084-84b1-51e9-8e34-58cbf71c30b2
+  - ocd-person/b8600763-b8fe-5a15-ad03-c58a7f624d89
+  - ocd-person/36b559a7-642e-56b5-a77a-4d4557f66b1d
+  - ocd-person/09d1dd1b-e9a1-5636-89bc-fe78128c75a9
+  - ocd-person/93b3a005-4ef3-58c1-afea-e50dbc4a555a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/79eb6a78-3833-5250-b1d3-cf8116a77f5f
+    name: Ruthzee Louijeune
+    party: Nonpartisan
+  - person_id: ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+    name: Erin J. Murphy
+    party: Nonpartisan
+  - person_id: ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+    name: Julia M. Mejia
+    party: Nonpartisan
+  - person_id: ocd-person/441a3084-84b1-51e9-8e34-58cbf71c30b2
+    name: Henry Santana
+    party: Nonpartisan
+  seat: At-Large
+- id: boston/2023-11-07/council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/853d12c1-4506-5792-be2f-bb43913c9e9a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/853d12c1-4506-5792-be2f-bb43913c9e9a
+    name: Gabriela Coletta Zapata
+    party: Nonpartisan
+  seat: District 1
+- id: boston/2023-11-07/council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+    name: Edward M. Flynn
+    party: Nonpartisan
+  seat: District 2
+- id: boston/2023-11-07/council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/518ee774-e239-5940-bc4b-a2929e78f970
+  - ocd-person/bc36cd3a-5f58-5753-b749-784d0849cb69
+  result_status: certified
+  winners:
+  - person_id: ocd-person/518ee774-e239-5940-bc4b-a2929e78f970
+    name: John FitzGerald
+    party: Nonpartisan
+  seat: District 3
+- id: boston/2023-11-07/council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4fd90335-b590-5879-810d-35ab81e1a937
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4fd90335-b590-5879-810d-35ab81e1a937
+    name: Brian Worrell
+    party: Nonpartisan
+  seat: District 4
+- id: boston/2023-11-07/council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ec472cb0-59eb-5adc-a15e-9da0d21c1a66
+  - ocd-person/fb5b3c4e-d0a3-5129-b778-d8da433f1a6d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ec472cb0-59eb-5adc-a15e-9da0d21c1a66
+    name: Enrique J. Pepén
+    party: Nonpartisan
+  seat: District 5
+- id: boston/2023-11-07/council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f85f9833-68b0-52f9-b837-2515493d1950
+  - ocd-person/32cd7cc7-c8c6-5fab-81a0-f2dd587e247b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f85f9833-68b0-52f9-b837-2515493d1950
+    name: Benjamin J. Weber
+    party: Nonpartisan
+  seat: District 6
+- id: boston/2023-11-07/council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/22b597b0-dfc2-5052-878f-b03116f67c32
+  - ocd-person/c014896f-49a8-597c-aa70-6c44efbed281
+  - ocd-person/3a920311-008a-5270-ba68-65b2ce1b8c2c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/22b597b0-dfc2-5052-878f-b03116f67c32
+    name: Tania Fernandes Anderson
+    party: Nonpartisan
+  seat: District 7
+- id: boston/2023-11-07/council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+  - ocd-person/0ac6b831-580c-566b-bbf6-cd3ff96b04d9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a2a7d73f-5c17-53c1-ac18-f895f7119bd3
+    name: Sharon Durkan
+    party: Nonpartisan
+  seat: District 8
+- id: boston/2023-11-07/council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+  - ocd-person/68df0256-0943-5161-aa8e-22aa7402e2d2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+    name: Liz Breadon
+    party: Nonpartisan
+  seat: District 9
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-at-Large.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- At-Large
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-1.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 1
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-2.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 2
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-3.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 3
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-4.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 4
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-5.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 5
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-6.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 6
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-7.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 7
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-8.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 8
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-9.pdf
+  note: City of Boston official municipal election results, November 7, 2023 -- District 9
+  retrieved: '2026-09-14'

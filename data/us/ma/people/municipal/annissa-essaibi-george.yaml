@@ -17,6 +17,15 @@ candidacies:
   status: active
   sources:
   - url: https://ocpf.us/filers?q=15618
+- contest_id: boston/2019-11-05/council-at-large
+  election_id: boston/2019-11-05/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  party: Nonpartisan
+  ballot_name: Annissa Essaibi George
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20%20-%20City%20Councillor%20at%20Large%20-%20from%20RECOUNT.pdf
 verification:
   status: machine-extracted
   pipeline: ocpf-filer-registry

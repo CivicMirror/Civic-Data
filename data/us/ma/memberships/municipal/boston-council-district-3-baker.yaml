@@ -1,0 +1,20 @@
+# Hand-built from the City of Boston's own official election results PDFs
+# for issue #9's 2020-present City Council backfill. Start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency; regular-election wins are seated Jan 1 of the following year
+# per the existing boston-mayor-wu.yaml precedent, and special-election wins
+# use the election date itself (exact swearing-in date not independently
+# confirmed).
+id: boston-council-district-3-baker
+person_id: ocd-person/080cd118-97b3-5f59-a25f-95f3b0f870b2
+organization_id: ocd-organization/9d922241-7a1a-55be-b1a7-d19e2187be78
+post_id: boston/council-district-3
+role: City Councillor
+seat: District 3
+start: '2020-01-01'
+end: '2024-01-01'
+how_seated: elected
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-3.pdf
+  note: Won 2019 (unopposed) and 2021 district races; did not run for re-election in 2023 (later ran for an at-large seat in 2025 and lost -- same person, see candidacies)
+  retrieved: '2026-09-14'

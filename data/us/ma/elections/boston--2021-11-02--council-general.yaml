@@ -1,0 +1,187 @@
+# Hand-built from the City of Boston's own official ward-by-ward election
+# results PDFs for issue #9's 2020-present City Council backfill (scoped
+# down from the issue's original 2005 ask -- see the closing comment on
+# the issue for that decision). Winners' membership start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency (see ma-house-3rd-barnstable-state-representative-vieira.yaml);
+# each individual election (winners AND losers) is instead recorded as a
+# `candidacies` entry on the relevant person record.
+id: boston/2021-11-02/council-general
+name: Boston 2021-11-02 municipal general election (City Council)
+date: '2021-11-02'
+election_type: general
+status: certified
+contests:
+- id: boston/2021-11-02/council-at-large
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/e9ea929f-e956-5717-a9fd-2ba12c2fc3cf
+  - ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+  - ocd-person/79eb6a78-3833-5250-b1d3-cf8116a77f5f
+  - ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+  - ocd-person/02971ce8-aa15-5dcd-86dc-092202b7c712
+  - ocd-person/b3077f06-5ce7-5c73-8c78-d8d823997ea5
+  - ocd-person/b8600763-b8fe-5a15-ad03-c58a7f624d89
+  - ocd-person/c014896f-49a8-597c-aa70-6c44efbed281
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e9ea929f-e956-5717-a9fd-2ba12c2fc3cf
+    name: Michael F. Flaherty
+    party: Nonpartisan
+  - person_id: ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+    name: Julia M. Mejia
+    party: Nonpartisan
+  - person_id: ocd-person/79eb6a78-3833-5250-b1d3-cf8116a77f5f
+    name: Ruthzee Louijeune
+    party: Nonpartisan
+  - person_id: ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+    name: Erin J. Murphy
+    party: Nonpartisan
+  seat: At-Large
+- id: boston/2021-11-02/council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5278711f-55ec-4a67-acc9-edd1db1c4e8c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5278711f-55ec-4a67-acc9-edd1db1c4e8c
+    name: Lydia Marie Edwards
+    party: Nonpartisan
+  seat: District 1
+- id: boston/2021-11-02/council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+    name: Edward M. Flynn
+    party: Nonpartisan
+  seat: District 2
+- id: boston/2021-11-02/council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/080cd118-97b3-5f59-a25f-95f3b0f870b2
+  - ocd-person/29f44de5-c8a6-5b57-98bd-294e7f6d3258
+  result_status: certified
+  winners:
+  - person_id: ocd-person/080cd118-97b3-5f59-a25f-95f3b0f870b2
+    name: Frank Baker
+    party: Nonpartisan
+  seat: District 3
+- id: boston/2021-11-02/council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4fd90335-b590-5879-810d-35ab81e1a937
+  - ocd-person/952433b7-0a44-5de9-9456-153337076079
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4fd90335-b590-5879-810d-35ab81e1a937
+    name: Brian Worrell
+    party: Nonpartisan
+  seat: District 4
+- id: boston/2021-11-02/council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bf63ace6-aaae-54e8-8afd-686c35a13625
+  - ocd-person/942673da-6da1-5d48-8969-8fa3ce79f5c3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bf63ace6-aaae-54e8-8afd-686c35a13625
+    name: Ricardo Arroyo
+    party: Nonpartisan
+  seat: District 5
+- id: boston/2021-11-02/council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6f6700c8-359e-5f47-bb28-169f0d264a5b
+  - ocd-person/b55bb4ca-fc1e-51fb-a260-c78e58a7c832
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6f6700c8-359e-5f47-bb28-169f0d264a5b
+    name: Kendra Rosalie Hicks
+    party: Nonpartisan
+  seat: District 6
+- id: boston/2021-11-02/council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/22b597b0-dfc2-5052-878f-b03116f67c32
+  - ocd-person/3a920311-008a-5270-ba68-65b2ce1b8c2c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/22b597b0-dfc2-5052-878f-b03116f67c32
+    name: Tania Fernandes Anderson
+    party: Nonpartisan
+  seat: District 7
+- id: boston/2021-11-02/council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e047aa85-b435-5ca1-bcbf-06e41afea55d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e047aa85-b435-5ca1-bcbf-06e41afea55d
+    name: Priscilla Kenzie Bok
+    party: Nonpartisan
+  seat: District 8
+- id: boston/2021-11-02/council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+  - ocd-person/3b2678be-5c63-5e2f-bde1-857b6c2f5096
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+    name: Liz Breadon
+    party: Nonpartisan
+  seat: District 9
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-At-Large.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- At-Large
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-1.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 1
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-2.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 2
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-3.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 3
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-4.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 4
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-5.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 5
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-6.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 6
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-7.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 7
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-8.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 8
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-9.pdf
+  note: City of Boston official municipal election results, November 2, 2021 -- District 9
+  retrieved: '2026-09-14'

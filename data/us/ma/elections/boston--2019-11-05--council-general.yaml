@@ -1,0 +1,186 @@
+# Hand-built from the City of Boston's own official ward-by-ward election
+# results PDFs for issue #9's 2020-present City Council backfill (scoped
+# down from the issue's original 2005 ask -- see the closing comment on
+# the issue for that decision). Winners' membership start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency (see ma-house-3rd-barnstable-state-representative-vieira.yaml);
+# each individual election (winners AND losers) is instead recorded as a
+# `candidacies` entry on the relevant person record.
+id: boston/2019-11-05/council-general
+name: Boston 2019-11-05 municipal general election (City Council)
+date: '2019-11-05'
+election_type: general
+status: certified
+contests:
+- id: boston/2019-11-05/council-at-large
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-at-large
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+  - ocd-person/96f838a0-f384-5cd4-b927-ceb4b122cb37
+  - ocd-person/e9ea929f-e956-5717-a9fd-2ba12c2fc3cf
+  - ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+  - ocd-person/e6b8f53a-fe71-5e52-83fd-b37c1c32b97b
+  - ocd-person/ee43f586-c21b-5387-9b2e-74f8ea1ede32
+  - ocd-person/c014896f-49a8-597c-aa70-6c44efbed281
+  - ocd-person/02971ce8-aa15-5dcd-86dc-092202b7c712
+  result_status: certified
+  winners:
+  - person_id: ocd-person/857395e2-5894-5b7f-83ab-e819297716af
+    name: Michelle Wu
+    party: Nonpartisan
+  - person_id: ocd-person/96f838a0-f384-5cd4-b927-ceb4b122cb37
+    name: Annissa Essaibi George
+    party: Nonpartisan
+  - person_id: ocd-person/e9ea929f-e956-5717-a9fd-2ba12c2fc3cf
+    name: Michael F. Flaherty
+    party: Nonpartisan
+  - person_id: ocd-person/1ccfce80-4879-5cff-a77d-a37b4c6b621e
+    name: Julia M. Mejia
+    party: Nonpartisan
+  seat: At-Large
+- id: boston/2019-11-05/council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5278711f-55ec-4a67-acc9-edd1db1c4e8c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5278711f-55ec-4a67-acc9-edd1db1c4e8c
+    name: Lydia Marie Edwards
+    party: Nonpartisan
+  seat: District 1
+- id: boston/2019-11-05/council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a26db190-c6d5-5592-a4e9-08bcad5ce210
+    name: Edward M. Flynn
+    party: Nonpartisan
+  seat: District 2
+- id: boston/2019-11-05/council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/080cd118-97b3-5f59-a25f-95f3b0f870b2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/080cd118-97b3-5f59-a25f-95f3b0f870b2
+    name: Frank Baker
+    party: Nonpartisan
+  seat: District 3
+- id: boston/2019-11-05/council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/61a38294-eb3a-5e41-961c-b49876437f78
+  - ocd-person/df038ef5-5597-54d4-910a-dc9f912e99f3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/61a38294-eb3a-5e41-961c-b49876437f78
+    name: Andrea Joy Campbell
+    party: Nonpartisan
+  seat: District 4
+- id: boston/2019-11-05/council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bf63ace6-aaae-54e8-8afd-686c35a13625
+  - ocd-person/d0908baa-6a80-5192-8a6f-e7f88bacfe5e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bf63ace6-aaae-54e8-8afd-686c35a13625
+    name: Ricardo Arroyo
+    party: Nonpartisan
+  seat: District 5
+- id: boston/2019-11-05/council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7efbb27a-659c-566e-b28f-049dd35c49da
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7efbb27a-659c-566e-b28f-049dd35c49da
+    name: Matt O'Malley
+    party: Nonpartisan
+  seat: District 6
+- id: boston/2019-11-05/council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/49afe727-a82b-57ed-bbbe-ccd4a6a0d8e2
+  - ocd-person/3a920311-008a-5270-ba68-65b2ce1b8c2c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49afe727-a82b-57ed-bbbe-ccd4a6a0d8e2
+    name: Kim Janey
+    party: Nonpartisan
+  seat: District 7
+- id: boston/2019-11-05/council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e047aa85-b435-5ca1-bcbf-06e41afea55d
+  - ocd-person/78b8eebf-d459-566b-a9c4-87d1ae824f54
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e047aa85-b435-5ca1-bcbf-06e41afea55d
+    name: Priscilla Kenzie Bok
+    party: Nonpartisan
+  seat: District 8
+- id: boston/2019-11-05/council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+  - ocd-person/bb4c6d1d-ff09-592f-968c-f62f11c41b28
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3b880b80-2a91-5861-9c0a-c89676fe58d2
+    name: Liz Breadon
+    party: Nonpartisan
+  seat: District 9
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20%20-%20City%20Councillor%20at%20Large%20-%20from%20RECOUNT.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- At-Large
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%201%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 1
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%202%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 2
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%203%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 3
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%204%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 4
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%205%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 5
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%206%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 6
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%207%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 7
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%208%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 8
+  retrieved: '2026-09-14'
+- url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%209%20Ward%20%26%20Precinct%20Results.pdf
+  note: City of Boston official municipal election results, November 5, 2019 (at-large results reflect the certified recount) -- District 9
+  retrieved: '2026-09-14'

@@ -1,0 +1,24 @@
+# Hand-built from the City of Boston's own official election results
+# PDFs for issue #9's 2020-present City Council backfill. Candidacy
+# list may include races run and lost, per that issue's explicit ask
+# to model winners AND losers.
+id: ocd-person/d90a1711-6d17-5b9d-822d-2ba88ea66f4a
+name: Tania Del Rio
+candidacies:
+- contest_id: boston/2022-05-03/council-district-1
+  election_id: boston/2022-05-03/council-special
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-1
+  party: Nonpartisan
+  ballot_name: Tania Del Rio
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2025/01/001%20-%202022%20-%2005-03-22%20-%20City%20Councillor%20District%201.pdf
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-14'
+  pipeline: boston-city-council-backfill-2026-09-14
+sources:
+- url: https://www.boston.gov/departments/elections/state-and-city-boston-election-results
+  note: City of Boston official election results index
+  retrieved: '2026-09-14'

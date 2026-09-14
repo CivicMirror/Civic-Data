@@ -1,0 +1,54 @@
+# Hand-built from the City of Boston's own official election results
+# PDFs for issue #9's 2020-present City Council backfill. Candidacy
+# list may include races run and lost, per that issue's explicit ask
+# to model winners AND losers. Ran in all four elections in this backfill's
+# scope (2019, 2021, 2023 write-in, 2025 write-in); the 2019 ballot spelled
+# his name without a middle initial ("Roy Owens Sr.") -- merged here rather
+# than left as a separate person record.
+id: ocd-person/3a920311-008a-5270-ba68-65b2ce1b8c2c
+name: Roy A. Owens Sr.
+candidacies:
+- contest_id: boston/2019-11-05/council-district-7
+  election_id: boston/2019-11-05/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  party: Nonpartisan
+  ballot_name: Roy Owens Sr.
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2020/01/2019%20-%2011-05-19%20-%20City%20Councillor%20District%207%20Ward%20%26%20Precinct%20Results.pdf
+- contest_id: boston/2021-11-02/council-district-7
+  election_id: boston/2021-11-02/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  party: Nonpartisan
+  ballot_name: Roy A. Owens Sr.
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2021/11/2021-11-02-21-City-Councillor-District-7.pdf
+- contest_id: boston/2023-11-07/council-district-7
+  election_id: boston/2023-11-07/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  party: Nonpartisan
+  ballot_name: Roy A. Owens Sr.
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2024/01/2023-11-07-23-City-Councillor-District-7.pdf
+- contest_id: boston/2025-11-04/council-district-7
+  election_id: boston/2025-11-04/council-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-7
+  party: Nonpartisan
+  ballot_name: Roy A. Owens Sr.
+  status: active
+  sources:
+  - url: https://www.boston.gov/sites/default/files/file/2025/11/2025-11-04-City-Councillor-District-7.pdf
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-14'
+  pipeline: boston-city-council-backfill-2026-09-14
+sources:
+- url: https://www.boston.gov/departments/elections/state-and-city-boston-election-results
+  note: City of Boston official election results index
+  retrieved: '2026-09-14'

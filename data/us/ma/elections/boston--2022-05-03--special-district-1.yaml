@@ -1,0 +1,32 @@
+# Hand-built from the City of Boston's own official ward-by-ward election
+# results PDFs for issue #9's 2020-present City Council backfill (scoped
+# down from the issue's original 2005 ask -- see the closing comment on
+# the issue for that decision). Winners' membership start/end dates follow
+# the repo convention of one continuous membership per uninterrupted
+# incumbency (see ma-house-3rd-barnstable-state-representative-vieira.yaml);
+# each individual election (winners AND losers) is instead recorded as a
+# `candidacies` entry on the relevant person record.
+id: boston/2022-05-03/council-special
+name: Boston 2022-05-03 special municipal election (Council District 1)
+date: '2022-05-03'
+election_type: special
+status: certified
+contests:
+- id: boston/2022-05-03/council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boston/government
+  office_id: boston/council-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/853d12c1-4506-5792-be2f-bb43913c9e9a
+  - ocd-person/d90a1711-6d17-5b9d-822d-2ba88ea66f4a
+  - ocd-person/2f45b550-a429-56ab-a6bd-da9536fa922b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/853d12c1-4506-5792-be2f-bb43913c9e9a
+    name: Gabriela Coletta Zapata
+    party: Nonpartisan
+  seat: District 1
+sources:
+- url: https://www.boston.gov/sites/default/files/file/2025/01/001%20-%202022%20-%2005-03-22%20-%20City%20Councillor%20District%201.pdf
+  note: City of Boston official results, Special Municipal Election, City Councillor District 1, May 3, 2022 (filling Lydia Edwards' vacancy) -- District 1
+  retrieved: '2026-09-14'
