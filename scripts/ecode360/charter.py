@@ -8,8 +8,12 @@ from typing import Iterable, Iterator, Mapping
 from .errors import ECodeError
 from .models import CharterResult, SectionResult
 
-# eCode360 appends a zero-child `row` sentinel to some live TOCs.
-NODE_TYPES = {"code", "division", "chapter", "article", "part", "subarticle", "section", "row"}
+# eCode360 appends a zero-child `row` sentinel to some live TOCs. `litem` is
+# a leaf "list item" node for a lettered subsection within a section (e.g.
+# "(a) Composition.") -- it's only ever a descendant of a `section` node,
+# and page_targets()/expected_sections() both stop descending once they hit
+# a `section`, so it never needs its own handling beyond being accepted here.
+NODE_TYPES = {"code", "division", "chapter", "article", "part", "subarticle", "section", "row", "litem"}
 EXACT_LABELS = {
     "charter",
     "the charter",

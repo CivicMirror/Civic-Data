@@ -32,6 +32,15 @@ def test_rejects_duplicate_guids_and_empty_sections() -> None:
     assert empty_error.value.code == "toc_invalid"
 
 
+def test_accepts_litem_leaf_nodes() -> None:
+    # Regression for issue #69: eCode360 sometimes nests a leaf "litem" node
+    # (a lettered subsection like "(a) Composition.") under a section --
+    # this must not be rejected as an unknown node type.
+    section = node("section", "s1", "Purpose")
+    section["children"] = [node("litem", "s1a", "Composition.")]
+    validate_toc(toc([section]), "EX1000")
+
+
 def test_prefers_nested_charter_chapter_over_division() -> None:
     chapter = node("chapter", "chapter", "Charter", [node("section", "s1", "Purpose")])
     division = node("division", "division", "The Charter", [chapter])
