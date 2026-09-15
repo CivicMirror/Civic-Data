@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/1d558ab3-09e9-5874-baf5-8bbf0612c1d7
+name: Tantasqua Regional School Committee Member (Holland)
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:holland/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: holland-ma/regional-school-committee-member
+status: active
+sources:
+- url: https://masscivics.com/holland/school-committee/
+  retrieved: '2026-09-14'

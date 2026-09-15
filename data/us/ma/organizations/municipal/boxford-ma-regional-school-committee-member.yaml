@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/d23a2d8b-1089-5c04-bdae-63a6c48dd103
+name: Masconomet Regional School Committee Member (Boxford)
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:boxford/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: boxford-ma/regional-school-committee-member
+status: active
+sources:
+- url: https://www.masconomet.org/school-committee/about/masconomet-school-committee-information
+  retrieved: '2026-09-14'
