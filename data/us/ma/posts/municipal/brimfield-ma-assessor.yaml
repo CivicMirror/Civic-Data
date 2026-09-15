@@ -1,0 +1,11 @@
+# Hand-verified against the town's official election-results PDFs for
+# issue #66 (MA #34/#48: 171 towns with no Assessor post at all).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+id: brimfield-ma/assessor
+organization_id: ocd-organization/2e6c4a8d-7f1b-4c9e-8a5d-3f7b1e9c4a82
+title: Assessor
+seats: 3
+sources:
+- url: https://www.brimfieldma.org/sites/g/files/vyhlif4181/f/pages/elected_results_2026.pdf
+  note: 3-year staggered terms, 3 seats confirmed across 2025/2026 official results
+  retrieved: '2026-09-15'

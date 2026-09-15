@@ -1,0 +1,14 @@
+# Hand-verified against the town's official election-results PDFs for
+# issue #66 (MA #34/#48: 171 towns with no Assessor post at all).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+id: ocd-organization/1b3e7c9a-5d2f-4a8e-9c1b-6e4f2a8d3b71
+name: Board of Assessors
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:berkley/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: berkley-ma/assessor
+status: active
+sources:
+- url: https://townofberkleyma.gov/wp-content/uploads/2026/01/Annual-Town-Election-Official-Results-5.9.2026.pdf
+  note: Town Clerk official Annual Town Election results, "BOARD OF ASSESSORS -- 3 Years"
+  retrieved: '2026-09-15'
