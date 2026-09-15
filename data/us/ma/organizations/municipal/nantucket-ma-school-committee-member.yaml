@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/61c25ac0-3dbf-58d1-88cd-55d1d69ec03b
+name: Nantucket School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:nantucket/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: nantucket-ma/school-committee-member
+status: active
+sources:
+- url: https://ballotpedia.org/Nantucket_Public_Schools,_Massachusetts
+  retrieved: '2026-09-14'
