@@ -1,0 +1,15 @@
+# Hand-verified against the town's official Annual Town Election tally
+# sheets for issue #66 (MA #34/#48: 171 towns with no Assessor post at
+# all). Machine-extracted via a Claude web-fetch pass, pending human
+# sign-off.
+id: ocd-organization/3f7b1d9e-4a6c-4e8f-9d2b-5c8a1e6f3b72
+name: Board of Assessors
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:bolton/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: bolton-ma/assessor
+status: active
+sources:
+- url: https://www.bolton-ma.gov/DocumentCenter/View/5414/Unofficial-Tally-2026-ATE
+  note: Town's official 2026 Annual Town Election unofficial tally, "Board of Assessors -- 3 year -- Vote for 1"
+  retrieved: '2026-09-15'

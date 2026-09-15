@@ -1,0 +1,12 @@
+# Hand-verified against the town's official Annual Town Election tally
+# sheets for issue #66 (MA #34/#48: 171 towns with no Assessor post at
+# all). Machine-extracted via a Claude web-fetch pass, pending human
+# sign-off.
+id: bolton-ma/assessor
+organization_id: ocd-organization/3f7b1d9e-4a6c-4e8f-9d2b-5c8a1e6f3b72
+title: Assessor
+seats: 2
+sources:
+- url: https://www.bolton-ma.gov/DocumentCenter/View/5414/Unofficial-Tally-2026-ATE
+  note: Seat count reflects only the 2 individually-confirmed winners (one per year, 2025 and 2026, both "Vote for 1" 3-year-term races); total board size not otherwise confirmed. The town's own Assessors page lists 3 different names (Kelly Garlock, Rob Heckman, David Manzello) under titles like "Regional Assessor" and "Associate Regional Assessor" -- shared regional assessing staff, not the elected board (David Manzello also appears as a Millville Board of Assessors "member" per #66's earlier batches).
+  retrieved: '2026-09-15'

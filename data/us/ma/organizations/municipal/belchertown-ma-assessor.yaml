@@ -1,0 +1,15 @@
+# Hand-verified against the town's official "2026 Elected Officers"
+# document for issue #66 (MA #34/#48: 171 towns with no Assessor post at
+# all). Machine-extracted via a Claude web-fetch pass, pending human
+# sign-off.
+id: ocd-organization/6a3d8f1c-2e5b-4c9a-8d1f-7b3e9a5c2f64
+name: Board of Assessors
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:belchertown/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: belchertown-ma/assessor
+status: active
+sources:
+- url: https://ma-belchertown.civicplus.com/DocumentCenter/View/8111/2026-Officers
+  note: Town's official "2026 Elected Officers" document, lists Board of Assessors under that title (distinct from the separately-listed appointed "Director of Assessments" staff position)
+  retrieved: '2026-09-15'
