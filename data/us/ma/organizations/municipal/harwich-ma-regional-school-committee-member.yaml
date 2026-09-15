@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/c1378186-53e8-5e3f-b7f8-83053e048b76
+name: Monomoy Regional School Committee Member (Harwich)
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:harwich/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: harwich-ma/regional-school-committee-member
+status: active
+sources:
+- url: https://masscivics.com/harwich/school-committee/
+  retrieved: '2026-09-14'
