@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/3a489a9f-68c7-5d84-a786-06132788c271
+name: Holbrook School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:holbrook/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: holbrook-ma/school-committee-member
+status: active
+sources:
+- url: https://ballotpedia.org/Holbrook_Public_Schools,_Massachusetts,_elections
+  retrieved: '2026-09-14'

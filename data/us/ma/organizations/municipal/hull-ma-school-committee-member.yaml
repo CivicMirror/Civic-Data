@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/4e6633a4-28bc-5927-bb9f-c7a2b878c738
+name: Hull School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:hull/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: hull-ma/school-committee-member
+status: active
+sources:
+- url: https://www.town.hull.ma.us/DocumentCenter/View/1016/2025-Annual-Town-Election-Official-Results-PDF
+  retrieved: '2026-09-14'

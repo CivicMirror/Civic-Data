@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/2db888d8-be9f-5f5b-881a-23ef5495a764
+name: Belchertown School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:belchertown/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: belchertown-ma/school-committee-member
+status: active
+sources:
+- url: https://www.belchertown.org/DocumentCenter/View/8111/2026-Officers?bidId=
+  retrieved: '2026-09-09'

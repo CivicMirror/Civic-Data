@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/54022256-8465-59df-aa4c-32ca7fd1f306
+name: Dighton-Rehoboth Regional School Committee Member (Dighton)
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:dighton/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: dighton-ma/regional-school-committee-member
+status: active
+sources:
+- url: https://ballotpedia.org/Dighton-Rehoboth_Regional_School_District,_Massachusetts
+  retrieved: '2026-09-14'
