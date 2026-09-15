@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/97d4b9f9-3fd2-553c-a78b-50846d072331
+name: Kelli Robbins
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-15'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.town.holland.ma.us/sites/g/files/vyhlif3266/f/news/election_results_june_10_2025_0.pdf
+  note: Town of Holland official town-clerk-signed election results (2025 and 2024 ballots); 3rd seat not found in any current-dated source, not minted
+  retrieved: '2026-09-15'
