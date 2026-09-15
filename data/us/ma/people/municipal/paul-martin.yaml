@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/3d358c42-95b1-5dfd-be86-d6a56e3907f0
+name: Paul Martin
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-15'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://townofblandford.gov/wp-content/uploads/2024/06/election-results-060824.pdf
+  note: 'Town of Blandford official 2024-06-08 Annual Town Election results ballot: "Assessor for three years", Paul Martin re-elected unopposed, 75 votes.'
+  retrieved: '2026-09-15'
