@@ -1,0 +1,12 @@
+# Hand-verified against a direct email response from the Alford Town
+# Clerk (posted in issue #70) for issue #66 (MA #34/#48: 171 towns with
+# no Assessor post at all). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: alford-ma/assessor
+organization_id: ocd-organization/5c9e3b7a-1f4d-4a8c-9e6b-2d7a5c1f8e93
+title: Assessor
+seats: 2
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/issues/70
+  note: Seat count reflects only the 2 individually-confirmed winners (one per year, 2025 and 2026); total board size not stated by the town clerk and not otherwise confirmed. The town's own directory lists 3 different names (Tammy Blackwell, Mike Germain, Russell Kaphan) under Assessors, but that appears to be separate assessing staff/contractors, not the elected board -- neither name matches either election winner.
+  retrieved: '2026-09-15'
