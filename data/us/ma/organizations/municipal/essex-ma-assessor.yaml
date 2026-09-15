@@ -1,0 +1,15 @@
+# Hand-verified against the town's official election results and Board,
+# Committee and Commission Member Handbook for issue #66 (MA #34/#48:
+# 171 towns with no Assessor post at all). Machine-extracted via a
+# Claude web-fetch pass, pending human sign-off.
+id: ocd-organization/1e6c4b8a-7d3f-4a9e-8c2b-5f7a1d9e3c68
+name: Board of Assessors
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:essex/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: essex-ma/assessor
+status: active
+sources:
+- url: https://www.essexma.org/DocumentCenter/View/1295/Town-of-Essex-Board-Committee-and-Commission-Member-Handbook-PDF
+  note: 'Town''s own Board/Committee/Commission Member Handbook, "Elected Boards" section: "Members of the following boards are elected by ballot in the annual local election: ... Board of Assessors ..."'
+  retrieved: '2026-09-15'

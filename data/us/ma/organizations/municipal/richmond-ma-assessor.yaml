@@ -1,0 +1,14 @@
+# Hand-verified against the town's bylaws and Annual Town Report for
+# issue #66 (MA #34/#48: 171 towns with no Assessor post at all).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+id: ocd-organization/8d2f6a4c-3b9e-4c7a-9f1d-6e4b8a2c5f37
+name: Board of Assessors
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:richmond/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: richmond-ma/assessor
+status: active
+sources:
+- url: https://cms6.revize.com/revize/richmondma/Bylaws%20Final%20thru%20May%2021,%202025.pdf
+  note: 'Town bylaws, Town Officers section: "Members of the Board of Selectmen, Board of Assessors, Board of Health, School Committee, Finance Committee, and Library Trustees shall be elected for three (3) year terms."'
+  retrieved: '2026-09-15'

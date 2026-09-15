@@ -1,0 +1,12 @@
+# Hand-verified against the town's official election results and Board,
+# Committee and Commission Member Handbook for issue #66 (MA #34/#48:
+# 171 towns with no Assessor post at all). Machine-extracted via a
+# Claude web-fetch pass, pending human sign-off.
+id: essex-ma/assessor
+organization_id: ocd-organization/1e6c4b8a-7d3f-4a9e-8c2b-5f7a1d9e3c68
+title: Assessor
+seats: 3
+sources:
+- url: https://www.essexma.org/DocumentCenter/View/2441/May-11-2026-Local-Election-Official-Results
+  note: 3-year staggered terms, 3 seats confirmed across 2024/2025/2026 official election results. A separate "2 year unexpired term" Assessor race also appears in the 2026 results (won by Sally Ann Rich) -- not reflected in this seat count or minted, since it isn't clear which of the 3 regular seats it fills a vacancy on; flagged for follow-up per the batch-4 handoff note that this town needs someone to read the actual bylaw/charter board-composition language rather than just a status lookup.
+  retrieved: '2026-09-15'
