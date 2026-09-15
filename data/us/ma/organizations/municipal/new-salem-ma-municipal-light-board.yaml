@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-organization/8f1e3c7a-4d2b-4e9a-9c5f-6a3b8d1e0c47
+name: Municipal Light Board
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:new-salem/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: new-salem-ma/municipal-light-board
+status: active
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/issues/70
+  note: 2025 and 2026 Annual Town Election certifications list "Municipal Light Board, 3 years" as an elected office; the town's own warrant calls the same office "Municipal Light Plant (3 members)"
+  retrieved: '2026-09-14'

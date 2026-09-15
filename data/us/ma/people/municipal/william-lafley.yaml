@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/569d189a-6909-5d9d-8e31-cdac3097ddaa
+name: William Lafley
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-14'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/issues/70
+  note: 'New Salem 2025/2026 Annual Town Election certifications (issue #70 email); David Briand elected 2025-05-05, William Lafley elected 2026-05-04, both 3-year terms'
+  retrieved: '2026-09-14'

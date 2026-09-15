@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-organization/3c8f5d1a-9b2e-4f6a-a1d3-7e8b9c2f4a65
+name: Library Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:new-salem/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: new-salem-ma/library-trustees
+status: active
+sources:
+- url: https://www.newsalemma.org/m/directory/department?did=32
+  note: Town of New Salem directory, Public Library department page
+  retrieved: '2026-09-15'

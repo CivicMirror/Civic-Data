@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: new-salem-ma/board-of-health-member
+organization_id: ocd-organization/9a7d1a1e-2b6b-4c0e-9f9e-1c3f5a8d9e21
+title: Board of Health Member
+seats: 3
+sources:
+- url: https://www.newsalemma.org/1495/2023-Annual-Town-Meeting-Warrant
+  note: Town's own elected-official salary warrant lists "Board of Health (3 members)"
+  retrieved: '2026-09-15'
+- url: https://www.newsalemma.org/m/directory/department?did=17
+  note: Town of New Salem directory, Board of Health department page, current 3-member roster
+  retrieved: '2026-09-15'

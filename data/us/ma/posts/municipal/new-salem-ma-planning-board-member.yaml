@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: new-salem-ma/planning-board-member
+organization_id: ocd-organization/6e2b4f8a-1d5c-4a3e-8b7f-2d9c6a4e0f53
+title: Planning Board Member
+seats: 5
+sources:
+- url: https://www.newsalemma.org/m/directory/department?did=23
+  note: Town of New Salem directory, Planning Board department page, current 5-member roster (Chair, Clerk, Recording Secretary, Member, Treasurer)
+  retrieved: '2026-09-15'
+- url: https://www.newsalemma.org/1495/2023-Annual-Town-Meeting-Warrant
+  note: 5-year staggered term confirmed by ballot ("Planning Board, 5 years")
+  retrieved: '2026-09-15'
