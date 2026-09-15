@@ -1,0 +1,15 @@
+# Hand-verified against a direct email response from the Douglas Town
+# Clerk (posted in issue #70) for issue #66 (MA #34/#48: 171 towns with
+# no Assessor post at all). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-organization/4b8e2c6a-9f3d-4a7e-8c5b-1d9a3f6e2b84
+name: Board of Assessors
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:douglas/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: douglas-ma/assessor
+status: active
+sources:
+- url: https://github.com/CivicMirror/Civic-Data/issues/70
+  note: Direct email response from Douglas Town Clerk Christine E.G. Furno, providing the town's 2025/2026 Annual Town Election Assessor results -- confirms a real contested ballot race, i.e. elected.
+  retrieved: '2026-09-15'
