@@ -1,17 +1,21 @@
-# Created by the issue #66 structure-gap triage. Elected status
-# confirmed directly via the town's own official 2026 Annual Town
-# Election results: "ASSESSOR - 3 YR VOTE FOR TWO" (Sinton-Coffman
-# elected) plus a separate "ASSESSOR - 1YR UNEXPIRED VACANCY" seat
-# (Terranova elected) — 3 seats total, one currently on a 1-year
-# term catching up to the normal staggered cycle. Resolves the
-# conflicting evidence logged earlier in this issue (a Hull Times
-# article implying elected vs. a secondhand "appointed by Select
-# Board" claim that did not hold up against this primary source). No
-# membership data included, pending future research.
+# Created by the issue #66 structure-gap triage; seat count corrected
+# 2026-09-16 from #48 follow-up research. The original 3-seat estimate
+# (from the 2026 election alone: 2 regular + 1 unexpired-vacancy seat)
+# undercounted -- the town's own 2024 ("VOTE FOR TWO"), 2025 ("VOTE FOR
+# ONE") and 2026 ("VOTE FOR TWO" + a separate 1-yr-unexpired special)
+# results together account for 5 regular 3-year seat-slots across one
+# full staggered cycle (2+1+2=5), matching the 5 names the town's live
+# Assessors page currently lists. The 2026 unexpired-vacancy seat is not
+# a 6th seat -- its term-end (2027) matches what a 2024 winner's term
+# would have been, i.e. it refilled an existing seat vacated early
+# rather than adding one.
 id: hull-ma/board-of-assessors-member
 organization_id: ocd-organization/55182318-9208-5948-96bb-b774f8b2b0ca
 title: Board of Assessors Member
-seats: 3
+seats: 5
 sources:
 - url: https://www.town.hull.ma.us/DocumentCenter/View/2877/2026-Annual-Town-Election-Official-Results-PDF
   retrieved: '2026-09-14'
+- url: https://www.town.hull.ma.us/643/Assessors
+  note: 'Town of Hull live Board of Assessors page lists 5 current members with term-end years that exactly match the 2024/2025/2026 election results, confirming the corrected 5-seat count.'
+  retrieved: '2026-09-15'

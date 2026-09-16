@@ -1,0 +1,21 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+#
+# Merged into the existing Shawn Case person record (already on file
+# for a Narragansett Regional School Committee seat, also elected at a
+# Templeton Annual Town Election) rather than minting a duplicate --
+# same name, same town, both elected offices; a real dual-office
+# holder like several others already on file in this project.
+id: templeton-ma-board-of-assessors-shawn-case
+person_id: ocd-person/b14a782a-4b82-5f45-a1c0-8ffb495bb73b
+organization_id: ocd-organization/8c791374-e3ed-5a5f-92f4-75b3b31a0881
+post_id: templeton-ma/board-of-assessors
+role: Board of Assessors Member
+how_seated: elected
+sources:
+- url: https://www.templetonma.gov/DocumentCenter/View/2084/May-19-2025-Annual-Town-Election--PDF
+  note: 'Town of Templeton 2025-05-19 Annual Town Election official results: write-in-only Board of Assessors race, Shawn Case 14 votes -- the clear plurality winner among named write-ins (the undifferentiated ''Write Ins'' bucket totaled only 10; 258 blanks out of 282 ballots). Same seat Case first won as a 2-year-unexpired term at the 2023 Annual Town Election (176 votes, filed candidate), now renewed for a regular 3-year term. Completes Templeton''s Board of Assessors 3/3.'
+  retrieved: '2026-09-16'
+end: '2028'
