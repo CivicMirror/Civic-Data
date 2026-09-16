@@ -184,4 +184,20 @@ Batch 8 (warwick, webster, wellfleet, westborough, westhampton, westminster, wes
 - [x] westport-ma/regional-school-committee — filled (Paul Jennings, Diman Regional). 1/1.
 - [x] **Bonus find**: swansea-ma/diman-regional-school-committee — filled (Jeffrey Begin), found incidentally via the same Diman page used for Westport. Not part of the original 67-town list's remaining-open set (swansea's local seat is separately tracked in batch 7), but this Diman seat was 0/1 and cheap to close. 1/1.
 
-Next: batch 9 (final) of remaining towns (westwood, williamsburg, williamstown, winchester, winthrop, worthington, wrentham, yarmouth).
+Batch 9 (final — westwood, williamsburg, williamstown, winchester, winthrop, worthington, wrentham, yarmouth) researched 2026-09-16 — findings in issue45_batch9_findings.md.
+
+- [ ] westwood-ma/school-committee — NOT filled. Most tangled case this session: a Jan 2026 5-member roll call, a Feb 2026 resignation (Parmelee), and an April 2026 election with 3 seats up (French re-elected, Vidnovic newcomer, Willette uncontested for the vacancy) — but Plotkin's/Phillips's/Mullin's current status still unconfirmed. Full timeline documented in findings for a future pass.
+- [x] westwood-ma/blue-hills-regional-vocational-school-committee — filled (Sheila C. Vazquez). 1/1.
+- [x] williamsburg-ma/regional-school-committee — 2/3 (Lawrence Childs 2028 new; Sarah Crowther already on file). 3rd seat confirmed genuine vacancy, not fillable.
+- [ ] williamsburg-ma/local-school-committee — NOT filled. Near-total roster mismatch (1 of 5 names overlap), "Interim Chair/Vice Chair" framing suggests active turnover — needs town clerk records.
+- [x] williamstown-ma/northern-berkshire-vocational-school-committee — filled (Laila Boucher, David Westall). 2/2.
+- [x] winchester-ma/northeast-metro-tech-representative — filled (Pamela Cort). 1/1.
+- [x] winchester-ma/school-committee — filled (Timothy J. Matthews 2027, Stefanie Mnayarji 2028, Karen Maruyama Bolognese 2028, Tom Hopcroft 2027; Bellaire confirmed still current). 5/5.
+- [x] winthrop-ma/northeast-metro-tech-representative — filled (Robert O'Dwyer). 1/1.
+- [ ] worthington-ma/school-committee — NOT filled. 6 names found against a 5-seat post, zero overlap with on-file Schulze — needs town clerk records to determine if seats is stale or one name is non-voting.
+- [x] wrentham-ma/school-committee — filled (Philip Jordan 2027, Erin Greaney 2027, Meaghan Drennen 2028). 5/5.
+- [x] wrentham-ma/king-philip-regional-school-committee — filled (Cait Lanza 2027, Erin Greaney — same person as above, reused her person record as Wrentham's "Elementary Representative" cross-appointment). 3/3.
+- [x] yarmouth-ma/dennis-yarmouth-regional-school-committee — **not a real 5-seat gap, data fix + fill**: stale seats=5 corrected to 4 (same bug class as Lanesborough/Sherborn/Dudley/North Brookfield) per the district's own directory (4 Yarmouth-labeled seats, matching Dennis's 3 for the district's known 7-member total). Filled with Glenn Martin 2027, Tomas Tolentino 2028, Jon Pearson 2029 (Glynn already on file). 4/4.
+
+## Issue #45 status: original 67-town "partially filled" list is now fully worked through (batches 1-9).
+Remaining open items are all flagged discrepancies/turnovers needing town clerk records or further sourcing, not simple gaps — see each batch's findings file for detail. Summary of still-open posts across all batches: bridgewater-raynham (both sides), chesterfield, conway, erving, hingham, holyoke, millville's Veterans Memorial Park (untouched, sibling issue #57 territory), natick, new-ashford, newburyport, north-brookfield's local committee (n/a, resolved), plainfield, raynham, rehoboth, salisbury/triton, scituate, southampton's Norris seat, southbridge (both posts), stockbridge (2 of 3 seats), stoneham's local committee, westhampton, westwood's local committee, williamsburg's local committee, worthington.
