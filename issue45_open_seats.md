@@ -158,7 +158,7 @@ Batch 7 (spencer, stockbridge, stoneham, stoughton, sudbury, swansea) researched
 
 - [x] spencer-ma/spencer-east-brookfield-school-committee — filled (Melissa Martiros, official certified election results). 5/5.
 - [ ] spencer-ma/southern-worcester-vocational-school-committee — 2 of 3 filled (Robert Louis Zukowski, Mary C. Barrell, via both Spencer's own election PDF and the SWCVSD district-wide roster — cross-confirmed). 3rd seat's term wasn't on this cycle's ballot, no source found. 2/3.
-- [ ] stockbridge-ma/regional-school-committee — NOT filled. BHRSD's own page self-dated stale (Feb 2025), zero overlap with on-file Vogt — turnover discrepancy.
+- [ ] stockbridge-ma/regional-school-committee — 1/3 (Vogt only). User supplied corroborating sources (goodparty.org, term 2024-2028) confirming Vogt is still current — BHRSD's own page was the stale one, not Vogt. Added as a source on his person record. Other 2 seats still unconfirmed, no reliable source found yet.
 - [x] stoneham-ma/northeast-metro-vocational-school-representative — filled (Larry Means). 1/1.
 - [ ] stoneham-ma/school-committee — NOT filled. Current roster has 2 new names (Samborski, Fogarty) against only 1 open seat with on-file Jordan absent — can't tell which replaces Jordan without town clerk records.
 - [x] stoughton-ma/school-committee — filled (Chris Shannon, Armando Barbosa; official meeting minutes roll call). 5/5.
@@ -171,4 +171,17 @@ Batch 7 (spencer, stockbridge, stoneham, stoughton, sudbury, swansea) researched
 - north-brookfield-ma/southern-worcester-county-regional-vocational-school-district-representative — stale seats=1 corrected to 2; 2nd seat filled (James N. Caldwell). 2/2.
 - southampton-ma/hampshire-regional-school-committee-southampton-member — RESOLVED (was flagged as a discrepancy in batch 6). Town's own page confirms 4/4: Barcomb, Wayson (both already on file) + Geri Jennings, Cathy Thibodeau (new).
 
-Next: batch 8 of remaining towns (warwick, webster, wellfleet, westborough, westhampton, westminster, westport, westwood, williamsburg, williamstown, winchester, winthrop, worthington, wrentham, yarmouth).
+Batch 8 (warwick, webster, wellfleet, westborough, westhampton, westminster, westport) researched 2026-09-16 — findings in issue45_batch8_findings.md.
+
+- [x] warwick-ma/school-committee — filled (Alan Genovese 2027 [same person already on file as Select Board — reused], Diana Noble 2028, Louise Doud 2028). 5/5.
+- [x] webster-ma/school-committee — filled (Miranda Sgariglia 2027, Lauren Koleros 2028, Nicholas Adamopoulos 2027). 5/5.
+- [x] wellfleet-ma/elementary-school-committee — filled (Lauren E. Hill 2027, Melissa Jane Lynch 2027, Joan Zukas 2028). 5/5.
+- [x] westborough-ma/assabet-valley-school — filled (Paul L. George; medium confidence). 1/1.
+- [x] westborough-ma/school-committee — filled (Tim Askew 2027, Jane Owens 2028, Stephen Doret 2028). 5/5.
+- [ ] westhampton-ma/hampshire-regional-school-committee — NOT filled. Official district agenda PDF shows 3 Westhampton reps against a 2-seat post with ZERO overlap with on-file Scott Johndrow — worst turnover+stale-seat-count combo seen so far. Needs town clerk records.
+  - **Flag for review (no change made):** the same PDF lists Southampton's Hampshire Regional reps as 5 names including Jennifer Johnson (who's on file for the separate Norris post), conflicting with Southampton's post already recorded 4/4 from its own dedicated town page. Town's own page treated as more authoritative; not reverted, but flagged for human review.
+- [x] westminster-ma/regional-school-committee — filled (Nadine Leger, Kimberly Russo; medium confidence, source's term dates stale so left blank). 5/5.
+- [x] westport-ma/regional-school-committee — filled (Paul Jennings, Diman Regional). 1/1.
+- [x] **Bonus find**: swansea-ma/diman-regional-school-committee — filled (Jeffrey Begin), found incidentally via the same Diman page used for Westport. Not part of the original 67-town list's remaining-open set (swansea's local seat is separately tracked in batch 7), but this Diman seat was 0/1 and cheap to close. 1/1.
+
+Next: batch 9 (final) of remaining towns (westwood, williamsburg, williamstown, winchester, winthrop, worthington, wrentham, yarmouth).

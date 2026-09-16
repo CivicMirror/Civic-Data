@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/1a025f06-2481-591d-a6ef-90af97a34849
+name: Kimberly Russo
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.awrsd.org/school-committee-members
+  note: Ashburnham-Westminster Regional School District official roster page; medium confidence, page's stated term-end dates are stale (already past) so left blank, but 3 of 5 on-file names match this roster exactly
+  retrieved: '2026-09-16'
