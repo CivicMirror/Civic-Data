@@ -1,0 +1,17 @@
+# Hand-verified against the town's own website for issue #45's MA
+# municipal officeholder backfill. Reuses the existing person record
+# for Mayor Christopher C. Johnson (agawam-mayor-johnson) rather than
+# minting a duplicate identity -- the town's own page confirms the
+# Mayor is a full School Committee member and its chair, not a
+# ceremonial role.
+id: agawam-ma-school-committee-member-johnson
+person_id: ocd-person/1b6da875-da7b-5f3d-bb25-102ec1e1311b
+organization_id: ocd-organization/f8c1d1f5-6d66-5a02-aa8b-d4cc98fcec93
+post_id: agawam-ma/school-committee-member
+role: School Committee Member (Chair, ex officio)
+seat: Mayor
+how_seated: elected
+sources:
+- url: https://agawam.ma.us/576/School-Committee
+  note: 'Town of Agawam''s own School Committee page: Christopher C. Johnson listed as "Mayor/Chairperson," confirmed as a full member (7 total including the Mayor).'
+  retrieved: '2026-09-16'

@@ -5,7 +5,10 @@
 id: amesbury-ma/school-committee-member
 organization_id: ocd-organization/0be54254-9980-5baa-90ae-df5df6f7c584
 title: School Committee Member
-seats: 6
+seats: 7
 sources:
 - url: https://malegislature.gov/Laws/SessionLaws/Acts/2021/Chapter46
   retrieved: '2026-08-19'
+- url: https://schools.amesburyma.gov/aps-district/school-committee
+  note: 'Stale seat count corrected 6 -> 7, same bug class already fixed elsewhere in issue #45 (Chicopee, etc.). The district''s own page: "By City Charter, the Amesbury School Committee consists of 6 members, elected by ballot... The seventh member is the elected Mayor."'
+  retrieved: '2026-09-16'

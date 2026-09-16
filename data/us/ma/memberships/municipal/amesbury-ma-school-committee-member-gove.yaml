@@ -1,0 +1,16 @@
+# Hand-verified against the district's own website for issue #45's MA
+# municipal officeholder backfill. Reuses the existing person record
+# for Mayor Kassandra M. Gove (amesbury-mayor-gove) rather than
+# minting a duplicate identity -- the city charter makes the Mayor a
+# full School Committee member and its chair, not a ceremonial role.
+id: amesbury-ma-school-committee-member-gove
+person_id: ocd-person/da8ed046-1c4e-5fc7-bd16-c554e0d8b91a
+organization_id: ocd-organization/0be54254-9980-5baa-90ae-df5df6f7c584
+post_id: amesbury-ma/school-committee-member
+role: School Committee Member (Chair, ex officio)
+seat: Mayor
+how_seated: elected
+sources:
+- url: https://schools.amesburyma.gov/aps-district/school-committee
+  note: 'Amesbury Public Schools'' own School Committee page: "By City Charter, the Amesbury School Committee consists of 6 members, elected by ballot... The seventh member is the elected Mayor," Kassandra Gove, who chairs the committee.'
+  retrieved: '2026-09-16'
