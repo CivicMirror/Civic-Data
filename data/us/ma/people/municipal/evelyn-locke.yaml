@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/8dd9cbb6-5404-5925-af7c-904b3880c262
+name: Evelyn Locke
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://charlemont-ma.us/p/85/Mohawk-School-Committee
+  note: 'Town of Charlemont''s own Mohawk School Committee page: Evelyn Locke, one seat filled. The page explicitly shows a second seat as "Vacant" -- a confirmed vacancy, not an unresearched gap.'
+  retrieved: '2026-09-16'
