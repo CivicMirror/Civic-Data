@@ -132,4 +132,15 @@ Batch 4 (natick, new-ashford, newburyport, north-brookfield, norwood, pelham, pl
 - Bonus sibling-issue finds from the same PDFs (Millville-only, not part of issue #45's scope but minted since already sourced): millville-ma/constable (2 of 4 filled: Richard Keith Bremilst, Roland R. Desjarlais Jr. — issue #52), millville-ma/planning-board-member (+1, Roland R. Desjarlais Jr., now 3/5 — issue #46), millville-ma/library-trustee (+1, Pamela Anne Thistle, now 2/3 — issue #47). Not fully resolved — flagged for those issues' own passes, not chased further here.
 - Millville's Veterans Memorial Park Trustee (issue #57 territory) was NOT touched: the 2023/2025 election PDFs show separate "Veteran" and "Non-Veteran" seat categories that don't map cleanly onto the existing 3 on-file holders without risking a wrong seat assignment — left for that issue's own pass.
 
-Next: batch 5 of remaining towns (rehoboth, rochester, rowe, salisbury, scituate, seekonk, sherborn, shutesbury) — results in.
+Batch 5 (rehoboth, rochester, rowe, salisbury, scituate, seekonk, sherborn, shutesbury) researched 2026-09-16 — findings in issue45_batch5_findings.md.
+
+- [ ] rehoboth-ma/dighton-rehoboth-regional-school-committee-member — NOT filled. No new names found for 3 of 5 seats despite multiple source attempts (all blocked/empty); Barrett confirmed NOT current (lost re-election).
+- [x] rochester-ma/old-rochester-regional-school-committee-member — filled (Robin Rounseville, appointed; same person already on file as a Rochester Memorial School Committee member). 3/3.
+- [x] rowe-ma/school-committee-member — filled (Susan Zavotka 2029, Patrick Gonder 2027). 3/3.
+- [ ] salisbury-ma/triton-regional-school-committee-member-salisbury — NOT filled. tritonschools.org bot-protected on every URL tried; 2 seats' town assignment unconfirmed.
+- [ ] scituate-ma/school-committee-member — NOT filled. No working official-page fetch found; only stale/expired-term secondary names, not reliable enough to mint.
+- [x] seekonk-ma/school-committee-member — filled (Robert J. Gerardi 2028, Emily E. Field 2028, Lisa M. Rizzo 2027, Alicia A. MacManus 2027). 5/5.
+- [x] sherborn-ma/dover-sherborn-regional-school-committee-member — **not a real gap, data fix instead**: post's seats=4 was stale (same bug class as Lanesborough/Williamstown). Corrected to seats=3 per the regional agreement + district's own site; all 3 Sherborn seats were already correctly filled. 3/3.
+- [x] shutesbury-ma/school-committee-member — filled (Leah Jack, Nathaniel Longcope, Katrina Catalano). 5/5.
+
+Next: batch 6 of remaining towns (south-hadley, southampton, southborough, southbridge, southwick, spencer, stockbridge, stoneham, ...).
