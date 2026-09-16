@@ -105,4 +105,15 @@ Batch 2 (erving, fairhaven, grafton, greenfield, hadley, hanover, hingham, hinsd
 - [ ] hingham-ma/school-committee-member — NOT filled. Conflicting rosters across sources (7 names vs 6 seats, 2 with expired terms, active March 2026 election). Needs town-clerk certified election results.
 - [x] hinsdale-ma/regional-school-committee-member — filled (David Stuart, term-end 2026). 2/2.
 
-Next: batch 3 of remaining towns (holyoke, lanesborough, lee, leominster, longmeadow, marshfield, millville, monroe, ...).
+Batch 3 (holyoke, lanesborough, lee, leominster, longmeadow, marshfield, millville, monroe) researched 2026-09-16 — findings in issue45_batch3_findings.md.
+
+- [ ] holyoke-ma/school-committee-member — NOT filled. Official page shows 9 elected members against seats=8; discrepancy needs reconciliation (charter may allocate 9, not 8).
+- [x] lanesborough-ma/regional-school-committee-member — filled (Christina Conry, Curtis Elfenbein, Ursula Maloy). 3/3. **Also fixed a pre-existing bug**: these 3 were previously mis-minted under williamstown-ma/mount-greylock-regional-school-committee (which had a stale seats=7, the whole district's size, instead of Williamstown's actual 4). Moved their memberships to the correct post/org and corrected Williamstown's post to seats=4 — same class of bug as the West Tisbury/Up-Island case noted in the issue body.
+- [x] lee-ma/school-committee-member — filled (Craig Langlois, Nicole Kosiorek, Aaron Aubin, Heidi Cooper, Kirk Nichols, Ashley Salvini). 7/7.
+- [x] leominster-ma/school-committee — filled (Jennifer Lee Alker Ward 1, Ronald J. Houle Ward 2, Sandra Cucchiara Chiavaras Ward 3, from official certified election PDF). 8/8.
+- [x] longmeadow-ma/school-committee — filled (Nicole Choiniere, Bisrat Abebe, Matthew Casale, Jamie Hensch). 7/7.
+- [x] marshfield-ma/school-committee-member — filled (Sean Costello, Kendra Stetson). 5/5. Medium-confidence sourcing (no single official-page fetch succeeded).
+- [ ] millville-ma/blackstone-millville-regional-school-committee-member — NOT filled. 4th Millville seat's town assignment unconfirmed by any town-labeled source (same class of gap as Bridgewater-Raynham).
+- [x] monroe-ma/school-committee-member — filled (Michael Thoresen, term-end 2027). 3/3. Medium-confidence sourcing (WebSearch-summarized news article).
+
+Next: batch 4 of remaining towns (natick, new-ashford, newburyport, north-brookfield, norwood, pelham, plainfield, raynham, ...).

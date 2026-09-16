@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/601441ee-4dd8-5258-bfcb-6c8230ea015a
+name: Michael Thoresen
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.recorder.com
+  note: Greenfield Recorder, 'Monroe election sees no contests, some positions without candidates' (2024-04-24), via WebSearch summary -- elected 2024-05-06 unopposed, 3-year term; medium confidence, no direct page fetch
+  retrieved: '2026-09-16'
