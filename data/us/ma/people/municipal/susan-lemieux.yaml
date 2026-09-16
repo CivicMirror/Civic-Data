@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/50737228-6ae3-5cf6-9dce-12f24da18813
+name: Susan Lemieux
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.chicopeema.gov/DocumentCenter/View/21409/November-4-2025-Municipal-Election--Summary-Report
+  note: '2025-11-04 Chicopee Municipal Election, official results (OCR''d scan), cross-checked against Chicopee Public Schools'' own School Committee page (chicopeeps.org) and the city charter (ecode360.com/12595884: School Committee = Mayor + 2 at-large + 1 per ward, 9 wards = 11 total). Ward seats are 2-year terms, at-large 4-year non-concurrent terms.'
+  retrieved: '2026-09-16'

@@ -5,7 +5,13 @@
 id: chicopee-ma/school-committee-member
 organization_id: ocd-organization/66160f25-d442-5095-9069-210e1b805c91
 title: School Committee Member
-seats: 11
+seats: 12
 sources:
 - url: https://ecode360.com/12595888
   retrieved: '2026-08-19'
+- url: https://ecode360.com/12595884
+  note: 'Stale seat count corrected 11 -> 12, same bug class already fixed elsewhere in issue #45. Chicopee City Charter, Article III: the School Committee "consist[s] of the Mayor, two members at large and one from each ward" (9 wards) = 1 + 2 + 9 = 12, not 11. The Mayor is a full member and ex-officio chair, not merely a presiding non-member.'
+  retrieved: '2026-09-16'
+- url: https://www.chicopeeps.org/en-US/school-committee-9aceadb1
+  note: 'Second at-large seat (non-concurrent 4-year term, so not up in the 2025-11-04 election that filled the first) is unresolved: the district''s own page names "Susan Szetela-Lopes," but a 2024 news item (wmasspi.com) reported Szetela resigned that at-large seat, creating a vacancy. Not clear whether Szetela-Lopes is the same person having resumed the seat, a different appointee, or the page is simply stale. Not minted.'
+  retrieved: '2026-09-16'
