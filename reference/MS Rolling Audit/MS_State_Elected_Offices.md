@@ -1,8 +1,8 @@
 # Mississippi state elected office structure
 
 Issue #68, under master issue #36. Sources retrieved September 13, 2026.
-This pass creates offices and their supporting organizations/jurisdictions only;
-it adds no people, memberships, candidacies, or elections.
+The initial pass created offices and their supporting organizations/jurisdictions.
+The September 14 officeholder pass adds people and memberships as detailed below.
 
 | Office group | Posts / elected seats |
 | --- | ---: |
@@ -45,8 +45,51 @@ card as district 53; it is not a Senate district and is not imported as one.
 
 District attorneys remain a separate judicial-district item under #41. Existing
 county offices are not duplicated. Appointed offices and municipal offices are
-outside this state-office pass. No officeholder currency or human verification
-is asserted.
+outside this state-office pass. No human verification is asserted.
+
+## Officeholder backfill — September 14, 2026
+
+The current official rosters account for all 207 state posts: 204 named
+officeholders and three explicitly vacant legislative seats. This pass adds
+204 people and 204 memberships under `people/state/` and `memberships/state/`.
+
+| Office group | Memberships | Vacant posts |
+| --- | ---: | --- |
+| Statewide executive | 8 | None |
+| House | 120 | Districts 70 and 77 |
+| Senate | 51 | District 34 |
+| Supreme Court | 9 | None |
+| Court of Appeals | 10 | None |
+| Public Service Commission | 3 | None |
+| Transportation Commission | 3 | None |
+
+Sources retrieved September 14, 2026:
+
+- [MS.gov elected officials](https://www.ms.gov/government/elected-officials): executive office/name pairs.
+- [House roster](https://www.legislature.ms.gov/member/?chamber=H&fiscalyear=26) and [Senate roster](https://www.legislature.ms.gov/member/?chamber=S&fiscalyear=26): all numbered districts, names, portraits, and explicit vacancies. Leadership cards count toward their districts; the Lieutenant Governor's internal Senate district 53 card is excluded.
+- [Live Supreme Court roster](https://courts.ms.gov/appellatecourts/sc/scjustices.php) and [live Court of Appeals roster](https://courts.ms.gov/appellatecourts/coa/coajudges.php): current names and exact district/place or district/position assignments. Court of Appeals `Position` maps to the existing post's `Place`. Chief/presiding titles do not create additional memberships.
+- [Celeste Embrey Wilson appointment](https://governorreeves.ms.gov/governor-reeves-appoints-celeste-embrey-wilson-to-mississippi-supreme-court/): District 3, Place 1, effective August 1, 2026.
+- [Amanda Jones Tollison appointment](https://governorreeves.ms.gov/governor-reeves-appoints-amanda-jones-tollison-to-mississippi-supreme-court/): District 3, Place 2, effective September 1, 2026.
+- [PSC commissioners](https://www.psc.ms.gov/home/commissioners): names and Northern/Central/Southern assignments.
+- [MDOT commission contacts](https://mdot.ms.gov/portal/contacts): names and Northern/Central/Southern assignments, retrieved through indexed official-page content; direct page retrieval returned the JavaScript application shell.
+
+The live court pages returned HTTP 500 to ordinary retrieval but returned complete
+HTTP 200 rosters through the local FlareSolverr service. They supersede the older
+SOS court directory for officeholder identity; Robert P. Chamberlin and James D.
+Maxwell II are not imported as current state justices.
+
+People remain `machine-extracted`; no human review status is implied. The source
+retrieval date is not a term start. Exact starts and `how_seated: appointed` are
+recorded for Wilson and Tollison using the governor's announcements. Legislative
+memberships use `how_seated: elected`. Other starts, ends, and seating methods are
+omitted where this roster pass does not establish the current term or selection
+event; an old biography's initial appointment is not assumed to describe the
+current term. No election or candidacy records are synthesized.
+
+Existing-person checks found no Mississippi name matches (including first/last
+name comparisons). Exact-name matches in other states belong to separately
+modeled Texas school-board officials and California's federal representative;
+they are not merged merely by name. New people use fresh UUIDs.
 
 ## Validation baseline
 

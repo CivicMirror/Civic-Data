@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/571eacc2-a2ed-5cb1-a7a8-7d2623a757de
+name: Julie Goodman
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-10'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.town.canton.ma.us/213/Board-of-Health
+  note: Official Board of Health page lists three members; town Elected Boards & Committees page lists Board of Health as an elected board, and the BOH page states members serve 3-year terms.
+  retrieved: '2026-09-10'

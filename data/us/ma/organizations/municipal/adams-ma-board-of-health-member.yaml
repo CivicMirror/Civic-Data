@@ -1,0 +1,15 @@
+# Hand-verified against official town sources for issue #34's MA municipal
+# officeholder backfill. Added during the issue #49 Board of Health pass
+# after confirming the local office existed but was missing locally.
+id: ocd-organization/92ae3d48-08a2-43d3-92ad-4ec6a6c285eb
+name: Board of Health Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:adams/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: adams-ma/board-of-health-member
+status: active
+sources:
+- url: https://www.town.adams.ma.us/1253/Board-of-Health
+  retrieved: '2026-09-10'
+- url: https://www.town.adams.ma.us/DocumentCenter/View/2707
+  retrieved: '2026-09-10'

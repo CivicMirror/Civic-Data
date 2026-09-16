@@ -1,0 +1,15 @@
+# Hand-verified against official town sources for issue #34's MA municipal
+# officeholder backfill. Added during the issue #49 Board of Health pass
+# after confirming the local office existed but was missing locally.
+id: ocd-organization/3a91ae34-a721-4ca6-85bc-95e4c648a311
+name: Board of Health Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:belchertown/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: belchertown-ma/board-of-health-member
+status: active
+sources:
+- url: https://www.belchertown.org/262/Board-of-Health
+  retrieved: '2026-09-10'
+- url: https://www.belchertown.org/DocumentCenter/View/8111/2024-Officers
+  retrieved: '2026-09-10'

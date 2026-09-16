@@ -1,0 +1,15 @@
+# Hand-verified against official town sources for issue #34's MA municipal
+# officeholder backfill. Added during the issue #49 Board of Health pass
+# after confirming the local office existed but was missing locally.
+id: ocd-organization/760328d0-8aef-4cfc-947b-03e7af0954e3
+name: Board of Health Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:canton/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: canton-ma/board-of-health-member
+status: active
+sources:
+- url: https://www.town.canton.ma.us/911/Elected-Boards-Committees
+  retrieved: '2026-09-10'
+- url: https://www.town.canton.ma.us/213/Board-of-Health
+  retrieved: '2026-09-10'
