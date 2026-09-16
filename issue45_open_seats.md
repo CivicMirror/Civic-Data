@@ -143,4 +143,15 @@ Batch 5 (rehoboth, rochester, rowe, salisbury, scituate, seekonk, sherborn, shut
 - [x] sherborn-ma/dover-sherborn-regional-school-committee-member — **not a real gap, data fix instead**: post's seats=4 was stale (same bug class as Lanesborough/Williamstown). Corrected to seats=3 per the regional agreement + district's own site; all 3 Sherborn seats were already correctly filled. 3/3.
 - [x] shutesbury-ma/school-committee-member — filled (Leah Jack, Nathaniel Longcope, Katrina Catalano). 5/5.
 
-Next: batch 6 of remaining towns (south-hadley, southampton, southborough, southbridge, southwick, spencer, stockbridge, stoneham, ...).
+Batch 6 (south-hadley, southampton, southborough, southbridge, southwick) researched 2026-09-16 — findings in issue45_batch6_findings.md.
+
+- [x] south-hadley-ma/school-committee-member — filled (Eric Friesner). 5/5.
+- [ ] southampton-ma/hampshire-regional-school-committee-southampton-member — NOT filled. Official source shows 6 Southampton-labeled names against a 4-seat post, and on-file Lori Wayson is absent — same stale-seat-count bug class as Sherborn/Lanesborough, needs the regional agreement or town clerk records.
+- [ ] southampton-ma/norris-school-committee-member — NOT filled. On-file Jennifer Johnson absent from current 5-name roster — turnover, needs reconciliation.
+- [x] southborough-ma/northborough-southborough-regional-school-committee-southborough-member — filled (Jennifer Primack 2027, Matthew Spencer 2028; official town PDF, town-labeled). 5/5.
+- [ ] southbridge-ma/southern-worcester-county-regional-vocational-school-committee-member — NOT filled. baypath.net 404s everywhere; 0/2 confirmed.
+- [ ] southbridge-ma/school-committee-member — NOT filled. Only re-confirmed the 3 already on file; 0/4 remaining confirmed. District under state receivership (context, not a blocker — committee still elected).
+- [x] southwick-ma/district-school-committee — filled (Robert Stevenson 2027, Jennifer Burkholder 2028, Melissa Morrissey 2028). 5/5.
+- [x] southwick-ma/dickinson-school-trustee — filled (Gene H Theroux 2029, Dean M Rankin 2027, Patricia L. Odiorne 2028). Confirmed genuinely elected (Dickinson Fund trustees, not a self-perpetuating board). 3/3.
+
+Next: batch 7 of remaining towns (spencer, stockbridge, stoneham, stoughton, sudbury, swansea, warwick, webster, ...).
