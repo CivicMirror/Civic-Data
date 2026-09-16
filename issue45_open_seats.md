@@ -154,4 +154,21 @@ Batch 6 (south-hadley, southampton, southborough, southbridge, southwick) resear
 - [x] southwick-ma/district-school-committee — filled (Robert Stevenson 2027, Jennifer Burkholder 2028, Melissa Morrissey 2028). 5/5.
 - [x] southwick-ma/dickinson-school-trustee — filled (Gene H Theroux 2029, Dean M Rankin 2027, Patricia L. Odiorne 2028). Confirmed genuinely elected (Dickinson Fund trustees, not a self-perpetuating board). 3/3.
 
-Next: batch 7 of remaining towns (spencer, stockbridge, stoneham, stoughton, sudbury, swansea, warwick, webster, ...).
+Batch 7 (spencer, stockbridge, stoneham, stoughton, sudbury, swansea) researched 2026-09-16 — findings in issue45_batch7_findings.md.
+
+- [x] spencer-ma/spencer-east-brookfield-school-committee — filled (Melissa Martiros, official certified election results). 5/5.
+- [ ] spencer-ma/southern-worcester-vocational-school-committee — 2 of 3 filled (Robert Louis Zukowski, Mary C. Barrell, via both Spencer's own election PDF and the SWCVSD district-wide roster — cross-confirmed). 3rd seat's term wasn't on this cycle's ballot, no source found. 2/3.
+- [ ] stockbridge-ma/regional-school-committee — NOT filled. BHRSD's own page self-dated stale (Feb 2025), zero overlap with on-file Vogt — turnover discrepancy.
+- [x] stoneham-ma/northeast-metro-vocational-school-representative — filled (Larry Means). 1/1.
+- [ ] stoneham-ma/school-committee — NOT filled. Current roster has 2 new names (Samborski, Fogarty) against only 1 open seat with on-file Jordan absent — can't tell which replaces Jordan without town clerk records.
+- [x] stoughton-ma/school-committee — filled (Chris Shannon, Armando Barbosa; official meeting minutes roll call). 5/5.
+- [x] sudbury-ma/sudbury-school-committee — filled (Jessica McCready, appointed, term-end 2028). 5/5.
+- [ ] swansea-ma/school-committee — 2 of 3 filled (James Carvalho 2027, Ana Ponte-Porto 2027; medium confidence). 3rd (Solitro) left open, likely departed to Board of Selectmen. 4/5.
+
+## Bonus sibling/cross-town finds (from user-supplied SWCVSD roster + Southampton page)
+- charlton-ma/regional-vocational-school-committee-member — filled (Donald J. Montville, Clifford C. Cloutier). Not part of issue #45's original 67-town list, added since already sourced. 2/2.
+- dudley-ma/regional-vocational-school-committee-member — stale seats=1 corrected to 2 (same bug class as Lanesborough/Sherborn); 2nd seat filled (Timothy M. Schur). 2/2.
+- north-brookfield-ma/southern-worcester-county-regional-vocational-school-district-representative — stale seats=1 corrected to 2; 2nd seat filled (James N. Caldwell). 2/2.
+- southampton-ma/hampshire-regional-school-committee-southampton-member — RESOLVED (was flagged as a discrepancy in batch 6). Town's own page confirms 4/4: Barcomb, Wayson (both already on file) + Geri Jennings, Cathy Thibodeau (new).
+
+Next: batch 8 of remaining towns (warwick, webster, wellfleet, westborough, westhampton, westminster, westport, westwood, williamsburg, williamstown, winchester, winthrop, worthington, wrentham, yarmouth).
