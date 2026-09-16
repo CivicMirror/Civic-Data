@@ -116,4 +116,20 @@ Batch 3 (holyoke, lanesborough, lee, leominster, longmeadow, marshfield, millvil
 - [ ] millville-ma/blackstone-millville-regional-school-committee-member — NOT filled. 4th Millville seat's town assignment unconfirmed by any town-labeled source (same class of gap as Bridgewater-Raynham).
 - [x] monroe-ma/school-committee-member — filled (Michael Thoresen, term-end 2027). 3/3. Medium-confidence sourcing (WebSearch-summarized news article).
 
-Next: batch 4 of remaining towns (natick, new-ashford, newburyport, north-brookfield, norwood, pelham, plainfield, raynham, ...).
+Batch 4 (natick, new-ashford, newburyport, north-brookfield, norwood, pelham, plainfield, raynham) researched 2026-09-16 — findings in issue45_batch4_findings.md.
+
+- [ ] natick-ma/school-committee-member — NOT filled. Full-turnover discrepancy: current 8-name roll call vs 7-seat post, only 1 of 4 on-file names still present. Needs reconciliation.
+- [ ] new-ashford-ma/school-committee — NOT filled. Only source found (Frye/Jayko) is from 2018, unusable.
+- [ ] newburyport-ma/school-committee-member — NOT filled. Full-turnover discrepancy: zero overlap between current 6-member roster and 2 on-file names.
+- [x] north-brookfield-ma/school-committee-member — filled (Matt Grant, Kristen Giangrande). 5/5.
+- [x] norwood-ma/school-committee-member — filled (Judith Bromley, David Hiltz, Joan Giblin, Ben Moser, Michael Sangalang; Moser/Sangalang elected March 25 2026). 5/5.
+- [x] pelham-ma/school-committee-member — filled (Sarahbess Kenney). 5/5. Medium-confidence sourcing.
+- [ ] plainfield-ma/mohawk-trail-regional-school-committee-member — NOT filled. Current official reps (Bjorklund, Camilini) don't match on-file Patenaude — turnover, not a gap.
+- [ ] raynham-ma/bridgewater-raynham-regional-school-committee-raynham-member — NOT filled. Same district-wide-source-doesn't-label-town trap as Bridgewater (batch 1) and Millville (batch 3); on-file DuPont absent from every current source found.
+
+## Millville follow-up (resolved via user-supplied election-result links)
+- [x] millville-ma/blackstone-millville-regional-school-committee-member — RESOLVED. User supplied the town's own certified election-result PDFs directly. Tara Larkin confirmed as Millville's 4th BMR rep (won the "4 Year Term" seat, April 3 2023, uncontested). 4/4.
+- Bonus sibling-issue finds from the same PDFs (Millville-only, not part of issue #45's scope but minted since already sourced): millville-ma/constable (2 of 4 filled: Richard Keith Bremilst, Roland R. Desjarlais Jr. — issue #52), millville-ma/planning-board-member (+1, Roland R. Desjarlais Jr., now 3/5 — issue #46), millville-ma/library-trustee (+1, Pamela Anne Thistle, now 2/3 — issue #47). Not fully resolved — flagged for those issues' own passes, not chased further here.
+- Millville's Veterans Memorial Park Trustee (issue #57 territory) was NOT touched: the 2023/2025 election PDFs show separate "Veteran" and "Non-Veteran" seat categories that don't map cleanly onto the existing 3 on-file holders without risking a wrong seat assignment — left for that issue's own pass.
+
+Next: batch 5 of remaining towns (rehoboth, rochester, rowe, salisbury, scituate, seekonk, sherborn, shutesbury) — results in.
