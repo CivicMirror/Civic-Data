@@ -94,4 +94,15 @@ Batch 1 (bridgewater, canton, chesterfield, conway, dracut, dudley, duxbury, egr
 - [ ] conway-ma/grammar-school-committee — NOT filled. Official roster conflicts with file: Philip Kantor (on file) missing from current roster; Laurie Farkas + Patricia Vinchesi appear instead. Needs human reconciliation (possible departure), not a straight add.
 - [x] egremont-ma/regional-school-committee-member — confirmed genuine vacancy per SBRSD's own site. No action; stays open.
 
-Next: batch 2 of remaining towns (erving, fairhaven, grafton, greenfield, hadley, hanover, hingham, hinsdale, ...).
+Batch 2 (erving, fairhaven, grafton, greenfield, hadley, hanover, hingham, hinsdale) researched 2026-09-16 — findings in issue45_batch2_findings.md.
+
+- [ ] erving-ma/school-committee-member — NOT filled. Official page shows only 4 names against seats=5; possible stale seat count or genuine vacancy, not a sourcing failure. Leave open.
+- [x] fairhaven-ma/school-committee-member — filled (Nicole Pacheco 2027, Erik Andersen 2028, Kelly Ochoa 2028). 6/6.
+- [x] grafton-ma/regional-vocational-school-committee-member — filled (Anthony M. Yitts, BVT Secretary). 1/1.
+- [x] greenfield-ma/school-committee-member — filled (Stacey Sexton, Ann Childs, M. Mckenzie Webb, Elizabeth DeNeeve, Jeffrey Diteman, Melodie Goodwin). 6/6. Mayor's ex-officio seat excluded (has own post).
+- [x] hadley-ma/school-committee-member — filled (Humera Fasihuddin, Paul Phifer, Christine Pipczynski). 5/5.
+- [x] hanover-ma/school-committee-member — filled (Christopher Tracy, term-end May 2028). 5/5.
+- [ ] hingham-ma/school-committee-member — NOT filled. Conflicting rosters across sources (7 names vs 6 seats, 2 with expired terms, active March 2026 election). Needs town-clerk certified election results.
+- [x] hinsdale-ma/regional-school-committee-member — filled (David Stuart, term-end 2026). 2/2.
+
+Next: batch 3 of remaining towns (holyoke, lanesborough, lee, leominster, longmeadow, marshfield, millville, monroe, ...).
