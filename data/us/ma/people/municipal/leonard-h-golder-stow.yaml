@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/de38a1a7-ca10-5ee8-95e7-6e4b109247af
+name: Leonard H Golder
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.stow-ma.gov/DocumentCenter/View/9360/WEB-RESULTS-05162026-ATE?bidId=
+  note: '2026 Stow ATE, Nashoba Regional School District Committee, vote for TWO, 2nd place with 16 votes (Powell 1st, already on file). POSSIBLE MERGE CANDIDATE: an existing person record (ocd-person/2324d8c7-6cac-5b55-8e56-07684a9145e4, id leonard-h-golder) sourced from OCPF shows a same-name 2008 candidate for state representative in the 3rd Middlesex district, which covers Stow -- not confirmed as the same individual. Not merged; flagged for human review.'
+  retrieved: '2026-09-16'
