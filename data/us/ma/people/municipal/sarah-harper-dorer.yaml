@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/994e5d9a-2c32-5f50-ba27-1c8008780638
+name: Sarah Harper Dorer
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://bedfordma.gov/1042/Elections-Elected-Town-Officials
+  note: 'Town of Bedford''s own Elections/Elected Town Officials page: 2 Regional School Committee members with term-end years. Specific regional district name not given on this page.'
+  retrieved: '2026-09-16'
