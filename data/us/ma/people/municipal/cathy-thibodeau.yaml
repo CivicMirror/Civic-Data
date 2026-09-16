@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/bc8ac5d9-d776-5973-9e77-5364c761416f
+name: Cathy Thibodeau
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofsouthampton.org/government/boards-and-committees/school-committee-norris
+  note: Southampton's own official page listing Hampshire Regional School Committee Southampton members with terms, supplied directly by the user -- resolves the discrepancy flagged in batch 6 (hr-k12.org's page was over-inclusive/stale). Jon Lumbra listed on the same page is the Select Board Liaison, not a voting SC member, and is excluded.
+  retrieved: '2026-09-16'
