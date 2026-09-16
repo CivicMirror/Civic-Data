@@ -3,10 +3,15 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# seats corrected from 5 to 4 for issue #45 (2026-09-16): the Swift River
+# (New Salem-Wendell Regional) School Committee is 8 members total, 4 per
+# town, confirmed by New Salem's own election certs (#70) and
+# masscivics.com's named 8-member roster -- New Salem's post (seats: 4)
+# was already correct.
 id: wendell-ma/swift-river-school-committee
 organization_id: ocd-organization/f2f549ee-52cd-5158-b592-3bbe35f6e251
 title: Swift River School Committee Member
-seats: 5
+seats: 4
 sources:
-- url: https://www.swiftriverschool.org/school_committee/school_committee_members
-  retrieved: '2026-08-25'
+- url: https://masscivics.com/new-salem/school-committee/
+  retrieved: '2026-09-15'
