@@ -5,7 +5,10 @@
 id: braintree-ma/school-committee-member
 organization_id: ocd-organization/6ac7cda3-77c0-5df7-8670-8dcd08bc79cc
 title: School Committee Member
-seats: 6
+seats: 7
 sources:
 - url: https://braintreema.gov/374/School-Committee
   retrieved: '2026-08-19'
+- url: https://braintreema.gov/374/School-Committee
+  note: 'Stale seat count corrected 6 -> 7, same bug class already fixed elsewhere in issue #45 (Chicopee, Amesbury, Agawam). The town''s own page: "The mayor shall serve, by virtue of office, as the seventh member of the school committee" with equivalent authority as elected members.'
+  retrieved: '2026-09-16'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/6f4aecf6-8eae-55d7-a31a-c48233068566
+name: Marc Kurzberg
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://braintreema.gov/374/School-Committee
+  note: 'Town of Braintree''s own School Committee page: 6 elected members (Rollo - Chairman, Kurzberg - Vice Chairman, Fogarty - Recording Secretary). The Mayor is the 7th, ex officio, filed separately reusing the existing mayoral record. Term-end years not given.'
+  retrieved: '2026-09-16'

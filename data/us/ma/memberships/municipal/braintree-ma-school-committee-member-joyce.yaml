@@ -1,0 +1,16 @@
+# Hand-verified against the town's own website for issue #45's MA
+# municipal officeholder backfill. Reuses the existing person record
+# for Mayor Erin Venezia Joyce (braintree-mayor-joyce) rather than
+# minting a duplicate identity -- the town's own page confirms the
+# Mayor is the seventh School Committee member "by virtue of office."
+id: braintree-ma-school-committee-member-joyce
+person_id: ocd-person/710f4b87-2760-5b35-aa3e-a379ad1dfd65
+organization_id: ocd-organization/6ac7cda3-77c0-5df7-8670-8dcd08bc79cc
+post_id: braintree-ma/school-committee-member
+role: School Committee Member (ex officio)
+seat: Mayor
+how_seated: elected
+sources:
+- url: https://braintreema.gov/374/School-Committee
+  note: 'Town of Braintree''s own School Committee page: "The mayor shall serve, by virtue of office, as the seventh member of the school committee," Erin V. Joyce.'
+  retrieved: '2026-09-16'
