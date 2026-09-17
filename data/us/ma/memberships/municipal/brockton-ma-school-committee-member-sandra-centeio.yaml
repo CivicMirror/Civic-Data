@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: brockton-ma-school-committee-member-sandra-centeio
+person_id: ocd-person/b2c81a0c-c79d-50af-a9dc-1d3c061156fc
+organization_id: ocd-organization/c6d1465e-148b-51ed-a468-8855cb9c8122
+post_id: brockton-ma/school-committee-member
+role: School Committee Member
+how_seated: elected
+sources:
+- url: https://brockton.gov/city-departments/public-schools/
+  note: City public-schools page; 7 ward representatives matching post's 7 seats. Mayor Moises Rodrigues also listed as chairman -- not minted here, flagged separately to check whether Brockton's charter seats the mayor as an additional ex-officio member (pattern found in Amesbury/Agawam/Braintree/Chicopee).
+  retrieved: '2026-09-17'
+seat: Ward 5

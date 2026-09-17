@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/3cb4990c-cbcf-59e6-9a2d-de08cea4f607
+name: Liz Johnson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.leverettschool.org/school_information/school_committee/school_committee_members
+  note: District's own School Committee members page; 5/5 seats.
+  retrieved: '2026-09-17'

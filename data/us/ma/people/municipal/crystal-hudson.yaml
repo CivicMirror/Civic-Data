@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/dcbff2ee-5f03-5a49-84c8-c67fd7352406
+name: Crystal Hudson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.ebps.net/apps/pages/index.jsp?uREC_ID=1417231&type=d&pREC_ID=1603811
+  note: District's own School Committee members page; 6/6 seats. Hudson and McDonough explicitly listed as appointed, serving until 05/17/2026 (interim vacancy fills), not elected -- the other 4 are elected.
+  retrieved: '2026-09-17'
