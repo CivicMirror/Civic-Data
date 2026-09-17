@@ -36,7 +36,6 @@ durable backing copy.
    vacancies, which are a resolved state and excluded here)
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
-| Sharon | 2/6 | Remaining 4 seats not yet found |
 | Warren (Quaboag Regional) | 1/6 | Remaining 5 seats not yet found |
 | West Brookfield (Quaboag) | 2/6 | Remaining 4 seats not yet found |
 | Deerfield | 1/5 | Remaining 4 seats not yet found |
