@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/243964dd-6965-50b0-bfd0-3227b01e285d
+name: Alexander Salop
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.chilmarkma.gov/sites/g/files/vyhlif8411/f/uploads/town_of_chilmark_nov_8_2022_state_elections_record_book_results.pdf
+  note: 'Chilmark''s official Nov 8, 2022 State Election record book: "Up-Island Regional School Committee (vote for no more than 5)" -- both elected unopposed, 4-year term, and both still on chilmarkschool.org''s current committee roster. Neither holds a member-town seat (Lionette=Chilmark, Manter=West Tisbury, Ackerman=Aquinnah per the same results, though Aquinnah''s current holder is separately unresolved) so both are the 2 at-large seats by elimination.'
+  retrieved: '2026-09-17'
