@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4c4c4c1f-1a6b-5d3c-b29b-a08314159305
+name: James Reinke
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://sites.google.com/lpsma.net/lps-school-committee/home
+  note: Leicester School Committee's own official site; no term years published. Two different search-engine-synthesized rosters (mixing in prior years' members/candidates) were checked against this and discarded as stale/incorrect.
+  retrieved: '2026-09-17'
