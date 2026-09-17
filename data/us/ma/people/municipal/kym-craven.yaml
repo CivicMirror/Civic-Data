@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/d6435af4-0a98-5d19-9531-1182d1fd47e7
+name: Kym Craven
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.nmrsd.org/school-committee/representatives
+  note: North Middlesex Regional School District official Representatives page, filtered to Townsend's 2 town-specific seats (excludes the separate at-large representative).
+  retrieved: '2026-09-17'

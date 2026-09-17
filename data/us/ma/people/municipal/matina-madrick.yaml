@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/04f47acb-a5b1-52c1-9b6f-08dde8f0b1d9
+name: Matina Madrick
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.lincnet.org/schoolcommittee
+  note: Lincoln Public Schools official School Committee page, filtered to the 5 voting members (excludes the non-voting Hanscom and METCO representatives). No specific term-end dates given on the source page.
+  retrieved: '2026-09-17'
