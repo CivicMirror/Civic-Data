@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/fbe51e50-d3b3-50a1-b911-fd3aeaeb5b65
+name: Jennifer Bartosz
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.granbyschoolsma.org/page/school-committee
+  note: Granby Public Schools official School Committee page; lists 4 voting members plus a non-voting student representative (excluded). 5th adult seat not shown on this page -- left unminted.
+  retrieved: '2026-09-17'

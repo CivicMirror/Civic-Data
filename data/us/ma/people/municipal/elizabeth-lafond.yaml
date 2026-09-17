@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/af9a5d65-78b5-502a-9a9c-40e55fa432f0
+name: Elizabeth Lafond
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-17'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.granbyschoolsma.org/page/school-committee
+  note: Granby Public Schools official School Committee page; lists 4 voting members plus a non-voting student representative (excluded). 5th adult seat not shown on this page -- left unminted.
+  retrieved: '2026-09-17'
