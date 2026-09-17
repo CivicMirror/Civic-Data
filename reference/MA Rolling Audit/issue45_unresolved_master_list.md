@@ -36,8 +36,7 @@ durable backing copy.
    vacancies, which are a resolved state and excluded here)
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
-| Warren (Quaboag Regional) | 1/6 | Remaining 5 seats not yet found |
-| West Brookfield (Quaboag) | 2/6 | Remaining 4 seats not yet found |
+| West Brookfield (Quaboag) | 5/6 | Confirmed genuine vacancy, not a sourcing gap: West Brookfield's own certified 2024 and 2025 election results show Gregory S. Morse (2024, 3-year term) and Bryan S. Griffing (2025, 3-year term) both won seats that would still technically be running, but neither appears on the district's current roster page -- both have evidently left/resigned, leaving 1 of the 6 seats genuinely open. |
 | Deerfield | 1/5 | Remaining 4 seats not yet found |
 | Oakham | 1/2 | Remaining 1 seat not yet found |
 | Blackstone (regional district committee) | 0/4 | Separate Regional Vocational seat is fully filled (1/1); this 4-seat committee has no holders at all |
