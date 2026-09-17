@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/acd57d8e-d8e8-5dad-92ba-c006b8e9675c
+name: Shai Fuxman
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.natickma.gov/DocumentCenter/View/17206/2024_ANNUAL-TOWN-ELECTION_UNOFFICIAL-RESULTS_3-26-24
+  note: 'Natick 2024 Annual Town Election results: top 2 of 4 School Committee candidates elected (Brunell 5641, Fuxman 5480 vs. McKenzie 673, Roberts 1326), 3-year term. Corroborated by the district''s own School Committee roster page (natickps.org/page/school-committee, fetched via FlareSolverr for its Fastly JS-challenge wall).'
+  retrieved: '2026-09-16'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4ca0ffb9-cbfc-51e2-9919-69b032af9a25
+name: Caitlin Hunter
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://tritonschools.org/en-US/committee-members-31b11901
+  note: 'Triton Regional School District''s own Committee Members page (fetched via FlareSolverr for its Cloudflare challenge): full 9-member roster labeled by home town, of which exactly 3 represent Salisbury -- Litcofsky (Chair), Berger (Secretary, already on file), and Hunter -- matching the post''s seats:3.'
+  retrieved: '2026-09-16'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/1039feb2-881e-5645-8763-ccc5426b2ed7
+name: David Bjorkland
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-16'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.plainfield-ma.us/media/10036
+  note: 'Plainfield''s 2026 Annual Town Election official results (fetched by matching the site''s browser fingerprint/Sec-Fetch headers past its WAF, per this project''s established Plainfield fetch technique): School Committee, 3-year term, David Bjorkland unopposed with 107 votes. Fills the town''s previously-open 2nd Mohawk Trail Regional School Committee seat (MTRSD allocates 2 seats per member town) alongside the already-on-file Patenaude.'
+  retrieved: '2026-09-16'
