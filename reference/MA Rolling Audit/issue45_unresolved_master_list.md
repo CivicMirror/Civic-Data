@@ -19,17 +19,7 @@ https://github.com/CivicMirror/Civic-Data/issues/45 on 2026-09-17
 (replacing two earlier separate comments, merged here). This file is the
 durable backing copy.
 
-## 1. Structural seat-count mismatches (post's `seats` value conflicts with
-   the real roster — a post-record fix, not a membership-research gap)
-| Town / District | Filled | Notes/Reason |
-|---|---:|---|
-| Uxbridge | 0/5 | Official roster shows 7 members against a `seats: 5` post |
-| Bolton (Nashoba Regional) | 0/2 | Named members found during research exceed the post's seat count |
-| Lancaster (Nashoba Regional) | 0/3 | 4 named members found against `seats: 3` |
-| Tisbury | 0/3 | 4 names found against `seats: 3` — may partly belong to a different (MVYPS-wide) committee |
-| Holden (Wachusett Regional) | 0/10 | `seats: 10` looks too high — district is ~16 members across 5 towns; Princeton's mirrored agreement PDF was corrupted, couldn't confirm the real per-town split |
-
-## 2. No working source found (dead links / blocked / 404s)
+## 1. No working source found (dead links / blocked / 404s)
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
 | Clinton | 0/5 | 404, no source found across two attempts |
@@ -42,7 +32,7 @@ durable backing copy.
 | Barre (Quabbin Regional) | 0/5 | masscivics/mytowngovernment both bot-blocked; only the chair (David Deschamps) confirmed by name, not minted |
 | North Adams | 0/6 | Committee reported mid-turnover, no stable roster to source |
 
-## 3. Still-open partials (genuine remaining seats — not confirmed
+## 2. Still-open partials (genuine remaining seats — not confirmed
    vacancies, which are a resolved state and excluded here)
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
@@ -70,7 +60,7 @@ durable backing copy.
 | Wilmington (local + Shawsheen Valley Tech) | 0/7, 0/2 | Only fragmentary names from search snippets |
 | Phillipston (Narragansett Regional) | 0/3 | Seat allocation confirmed, no individuals found |
 
-## 4. Identity collisions flagged for human merge review (data is minted;
+## 3. Identity collisions flagged for human merge review (data is minted;
    this is a data-quality question, not a fill gap)
 | Person | Notes/Reason |
 |---|---|
@@ -79,18 +69,18 @@ durable backing copy.
 | Sheila Vaughn (Kingston) | Disambiguated as `sheila-vaughn-kingston`, separate from an existing `sheila-vaughn` record sourced from a general staff/board directory page |
 | James B. DuPont (Raynham) | Minted and filled (4/4 Raynham seats complete) — flagged only because he may be the same person as an existing OCPF-sourced record (ran for State Senate, Third Bristol and Plymouth, 2024, which covers Raynham); insufficient confirmation to merge |
 
-## 5. Seat-to-specific-post assignment unresolved despite having names
+## 4. Seat-to-specific-post assignment unresolved despite having names
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
 | Aquinnah's own Up-Island seat | 0/1 | Chilmark's certified Nov 8, 2022 State Election results confirm Roxane Ackerman won this seat (458 votes, 4-year term), but she doesn't appear on chilmarkschool.org's current roster and the on-file Shurrin (sourced from a 2025 town report, matching term-end year) isn't confirmed either — likely a mid-term vacancy/appointment not yet identified. West Tisbury's own seat and both at-large seats are resolved (Manter, Newman, Salop) via that same certified election. |
 
-## 6. Confirmed out of scope (documented, no further action)
+## 5. Confirmed out of scope (documented, no further action)
 | Town / District | Notes/Reason |
 |---|---|
 | Boston | Committee's one nominally-elected member is elected only by the student body, not the general public (2022 Home Rule Petition) |
 | New Ashford | No seat allocation on the Mount Greylock regional committee, no usable source for its own committee |
 
-## 7. Athol-Royalston — broader dispute, called off in an earlier pass
+## 6. Athol-Royalston — broader dispute, called off in an earlier pass
 Contested committee-member identities (Duquette's town assignment
 contradicted by the primary 2022 ballot; Newman/Wehmeyer unconfirmed) plus
 a dead source document. Royalston's specific 2026 vacancy (section 3 above)
