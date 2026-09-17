@@ -79,37 +79,18 @@ durable backing copy.
 | Sheila Vaughn (Kingston) | Disambiguated as `sheila-vaughn-kingston`, separate from an existing `sheila-vaughn` record sourced from a general staff/board directory page |
 | James B. DuPont (Raynham) | Minted and filled (4/4 Raynham seats complete) — flagged only because he may be the same person as an existing OCPF-sourced record (ran for State Senate, Third Bristol and Plymouth, 2024, which covers Raynham); insufficient confirmation to merge |
 
-## 5. Sourcing conflict between two primary sources (data is minted; flagged
-   for a human look, not a fill gap)
+## 5. Seat-to-specific-post assignment unresolved despite having names
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
-| Wales (Tantasqua Regional) | 1/1 | Town's own directory names Michael Valanzola; Tantasqua's own official committee page names Christine Randall. Minted as Randall (the district's own page is more authoritative for its own committee) but the conflict is unresolved |
+| Aquinnah's own Up-Island seat | 0/1 | Chilmark's certified Nov 8, 2022 State Election results confirm Roxane Ackerman won this seat (458 votes, 4-year term), but she doesn't appear on chilmarkschool.org's current roster and the on-file Shurrin (sourced from a 2025 town report, matching term-end year) isn't confirmed either — likely a mid-term vacancy/appointment not yet identified. West Tisbury's own seat and both at-large seats are resolved (Manter, Newman, Salop) via that same certified election. |
 
-## 6. Structural/scope issues requiring restructuring before further minting
-| Town / District | Filled | Notes/Reason |
-|---|---:|---|
-| Holyoke | 3/8 | Ward-based (7 wards + at-large) — needs ward-specific posts before the remaining seats can be minted correctly; same "ward-hybrid" trap as issue #43 |
-
-## 7. Elected-vs-appointed ambiguity (verify, don't infer — data is minted,
-   the `how_seated` value is what's in question)
-| Town / District | Filled | Notes/Reason |
-|---|---:|---|
-| Chilmark (Up-Island) | 1/1 | Recorded as elected, but the regional agreement's own Section I(b) is ambiguous on whether this seat is directly elected or Select-Board-appointed. **Update 2026-09-17:** user checked Chilmark's own 2024/2025/2026 Annual Town Election results AND West Tisbury's 2024/2025/2026 results directly — across all 6 documents (3 years × 2 towns) there is no candidate race for any Up-Island Regional School Committee seat, only a couple of unrelated UIRSD budget-override *questions*. This is much stronger evidence for appointment-in-practice than before, but still not a direct confirmation. User has emailed the district superintendent for the actual Up-Island Regional Agreement text (not found online) and is awaiting a reply — do not change `how_seated` until that lands. |
-
-## 8. Seat-to-specific-post assignment unresolved despite having names
-| Town / District | Filled | Notes/Reason |
-|---|---:|---|
-| Aquinnah's own Up-Island seat | 0/1 (was 1/1) | **Update 2026-09-17:** the on-file holder, Marsha Shurrin, has an already-elapsed term (`end: 2026`) and does not appear in chilmarkschool.org's current 4-name roster (Lionette, Manter, Newman, Salop) — her seat looks to have turned over with no identified successor yet. Treat as vacant/unknown rather than still-Shurrin. |
-| West Tisbury's own Up-Island seat | 0/1 | chilmarkschool.org's current roster gives 4 names for the district's 5 seats (Lionette confirmed as Chilmark's own); of the remaining 3 (Manter, Newman, Salop), Jeffrey "Skipper" Manter is independently confirmed as a West Tisbury elected official in the same period (won West Tisbury Select Board 2024, West Tisbury Finance Committee 2025) — circumstantial support he holds this seat, not a direct source naming him to it |
-| Up-Island at-large seats | 0/2 | Newman and Salop are the 2 remaining known names (assuming Manter is West Tisbury's own rep above), but neither is confirmed to a specific at-large seat vs. the alternative pairing |
-
-## 9. Confirmed out of scope (documented, no further action)
+## 6. Confirmed out of scope (documented, no further action)
 | Town / District | Notes/Reason |
 |---|---|
 | Boston | Committee's one nominally-elected member is elected only by the student body, not the general public (2022 Home Rule Petition) |
 | New Ashford | No seat allocation on the Mount Greylock regional committee, no usable source for its own committee |
 
-## 10. Athol-Royalston — broader dispute, called off in an earlier pass
+## 7. Athol-Royalston — broader dispute, called off in an earlier pass
 Contested committee-member identities (Duquette's town assignment
 contradicted by the primary 2022 ballot; Newman/Wehmeyer unconfirmed) plus
 a dead source document. Royalston's specific 2026 vacancy (section 3 above)
