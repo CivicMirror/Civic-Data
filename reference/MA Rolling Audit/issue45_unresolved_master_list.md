@@ -38,7 +38,6 @@ durable backing copy.
 | Town / District | Filled | Notes/Reason |
 |---|---:|---|
 | West Brookfield (Quaboag) | 5/6 | Confirmed genuine vacancy, not a sourcing gap: West Brookfield's own certified 2024 and 2025 election results show Gregory S. Morse (2024, 3-year term) and Bryan S. Griffing (2025, 3-year term) both won seats that would still technically be running, but neither appears on the district's current roster page -- both have evidently left/resigned, leaving 1 of the 6 seats genuinely open. |
-| Oakham (Quabbin Regional) | 1/2 | Seat count now confirmed correct via the district's own regional agreement; remaining 1 seat not yet found |
 | Blackstone (regional district committee) | 0/4 | Separate Regional Vocational seat is fully filled (1/1); this 4-seat committee has no holders at all |
 | Chicopee | 11/12 | 2nd at-large seat ambiguous — district page names a holder who reportedly resigned in 2024, not re-verified |
 | Northampton | 0/9 | 8 of 9 seats were named during research (2 at-large + wards 1/2/3/5/6/7) but Ward 4 and whether the Mayor's ex-officio chair counts within the 9 were never nailed down, so nothing was minted |
