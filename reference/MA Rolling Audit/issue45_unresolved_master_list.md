@@ -42,8 +42,10 @@ durable backing copy.
 | Chicopee | 11/12 | 2nd at-large seat ambiguous — district page names a holder who reportedly resigned in 2024, not re-verified |
 | Northampton | 0/9 | 8 of 9 seats were named during research (2 at-large + wards 1/2/3/5/6/7) but Ward 4 and whether the Mayor's ex-officio chair counts within the 9 were never nailed down, so nothing was minted |
 | Bellingham (local) | 0/5 | WebSearch-derived list produced 6 names, unreconcilable to 5 seats |
-| Sunderland (Frontier Regional) | 0/2 | Full 10-person committee roster found, but no per-town labels for the regional seats specifically |
-| Whately (Frontier Regional) | 0/1 | Same source/issue as Sunderland above |
+| Sunderland (Frontier Regional, elected) | 0/2 | Regional agreement confirms seat count is correct (2 elected). Full 11-person committee roster found (frsu38.org), but without per-town labels -- Sunderland's own town election results still needed to assign names |
+| Whately (Frontier Regional, elected) | 0/1 | Same as Sunderland -- seat count confirmed correct (1 elected), still needs Whately's own election results |
+| Deerfield (Frontier Regional, elected) | 1/3 | New gap found via the regional agreement -- Deerfield had no Frontier Regional post at all (only its own separate local committee, already 5/5); post now created, Olivia Leone minted (2024 election), 2 more elected seats still need names |
+| Frontier Regional appointed seats (1 per town: Conway, Deerfield, Sunderland, Whately) | 0/4 | New structural category found via the regional agreement -- 4 of the district's 11 seats are appointed annually by each town's own local School Committee from its own membership, not elected. Not modeled anywhere in this dataset yet; no posts created. Confirming current appointees needs school-committee meeting minutes, not election results. Lead: "Mary Ramon" on frsu38.org's roster exactly matches Deerfield's own local School Committee member Mary A. Ramon -- plausible she's Deerfield's appointee, not confirmed |
 | Russell (Gateway Regional) | 0/1 | Seat-count/roster conflict, needs a regional-agreement check |
 | Tyringham | 0/5 | Seat-count/roster conflict, needs a regional-agreement check |
 | Royalston (Athol-Royalston Regional) | 0/3 | 2026 winner Kiley Hall resigned weeks after the election following a contested 5-4 superintendent-contract vote; seat left vacant pending a replacement/special-election source |
