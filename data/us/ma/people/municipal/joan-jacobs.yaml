@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/ef6792a5-d5c4-5372-a3fe-5f43847519c8
+name: Joan Jacobs
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.norwoodma.gov/government/committees_boards/board_of_health/index.php
+  note: Town's own Board of Health page lists Kathleen Bishop (Chairwoman), Joan Jacobs, and Carolyn Riccardi as the 3 elected members serving 3-year terms, distinct from the appointed Superintendent/Director (Stacey Lane). No per-member term-end published.
+  retrieved: '2026-09-18'

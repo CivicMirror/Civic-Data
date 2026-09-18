@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/db1adbc7-e777-543b-b473-93fd9ad750f5
+name: Glenn Lawrence
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofrochestermass.com/183/Board-of-Health
+  note: Town's own live Board of Health page lists Sarah Tisdale Eby (Chair, term expires 2027), Glenn Lawrence (Vice-Chair, 2028), Michael Amato (Member, 2029). Page does not use the word 'elected' explicitly, but the town's 2023 Annual Town Report lists Board of Health members with the same term-expiring pattern under its elected-officials roster (Eby/Lawrence continuity confirmed), and Rochester is a general-law town where Board of Health is elected by MGL c.41 default absent a contrary charter provision.
+  retrieved: '2026-09-18'
