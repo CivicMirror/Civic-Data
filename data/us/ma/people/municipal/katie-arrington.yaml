@@ -1,0 +1,13 @@
+# Hand-verified against the district/town's official site for the MA
+# School Committee zero-holder backfill (issue #45).
+id: ocd-person/029202aa-5cd7-466c-b724-68f80be46257
+name: Katie Arrington
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-zero-holder-batch-2026-09-18'
+sources:
+- url: https://www.swampscottps.org/about/school-committee/
+  note: 'Swampscott Public Schools'' own 2026-2027 School Committee page (fresh fetch, 2026-09-18): full current 5-member roster is Glenn Paster (Chair), Miguel Contreras (Vice Chair), John Giantis, Katie Arrington, Martha Cesarz. Suzanne Wright, previously minted from the same URL on 2026-09-17, does not appear anywhere on this page -- her membership record has been removed as a likely extraction error from that prior pass, not confirmed turnover (no resignation notice or election result found).'
+  retrieved: '2026-09-18'
