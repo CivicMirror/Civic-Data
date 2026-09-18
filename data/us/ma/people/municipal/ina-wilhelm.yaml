@@ -1,0 +1,13 @@
+# Hand-verified against the district/town's official site for the MA
+# School Committee zero-holder backfill (issue #45).
+id: ocd-person/4c64b5d4-c3e7-410a-88f1-3b27fa0e64c0
+name: Ina Wilhelm
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-zero-holder-batch-2026-09-18'
+sources:
+- url: https://www.richmondconsolidated.org/school-committee
+  note: 'Richmond Consolidated School''s own School Committee page (JS-rendered; fetched via FlareSolverr): full 5-member roster with contact info. Term-expiration years not given on this page.'
+  retrieved: '2026-09-18'

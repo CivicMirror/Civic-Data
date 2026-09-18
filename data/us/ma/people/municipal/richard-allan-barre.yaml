@@ -1,0 +1,13 @@
+# Hand-verified against the district/town's official site for the MA
+# School Committee zero-holder backfill (issue #45).
+id: ocd-person/f07a06b6-967c-4b1f-8b98-5df9496c64e7
+name: Richard Allan
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-zero-holder-batch-2026-09-18'
+sources:
+- url: https://mytowngovernment.org/board/29001
+  note: 'mytowngovernment.org''s QRSD School Committee board listing (fetched via FlareSolverr, real JS challenge solved), which gives full member names with town and term-end year. 14 of the district''s 15 seats show a name; Barre shows 4 of its 5 allocated seats, consistent with a genuine current vacancy on the 5th (source qrsd.org itself lists only the Chair/Vice-Chair/Secretary by name, not a full per-town roster, so this cross-check is the only full-roster source found).'
+  retrieved: '2026-09-18'
