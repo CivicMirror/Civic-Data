@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/b7dd4cb2-8cea-5119-bac6-f049da8c75cf
+name: William "Dusty" Meier
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.bourne-ma.gov/Directory.aspx?did=86
+  note: Bourne Board of Health staff directory (5-member elected body); JS-rendered page fetched via FlareSolverr.
+  retrieved: '2026-09-18'

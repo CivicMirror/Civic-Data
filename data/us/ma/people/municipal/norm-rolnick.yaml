@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/8838343a-a2c4-53ac-b9d8-53f11120011b
+name: Norm Rolnick
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://clarksburgma.gov/board-of-health
+  note: 'Town of Clarksburg official Board of Health page; 3rd seat explicitly listed Vacant -- not minted. Office confirmed elected via the town''s own May 2025 election warrant (issue #66 research). No term-end years published.'
+  retrieved: '2026-09-18'
