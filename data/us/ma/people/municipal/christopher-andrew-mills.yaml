@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/beecbfd9-627e-546c-bea6-3600015992ad
+name: Christopher Andrew Mills
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://eastontownma.documents-on-demand.com/Document/0484edec-3b24-f011-a448-000c29a59557/2025.04.26%20-%20Annual%20Town%20Election%20-%20Voter%20Information%20and%20Results.pdf
+  note: 2025 and 2024 official Annual Town Election results (per-precinct tallies). Beuttler's 2024 win was a low-turnout write-in race (122 of 1764 ballots, plurality winner) -- moderate confidence, flag for review. 3rd/2026 seat not sourced.
+  retrieved: '2026-09-18'

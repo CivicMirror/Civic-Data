@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/d34c7760-48ce-5687-a62e-ea8b814450fa
+name: Michael Riley
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.grovelandma.com/government/boards_committees/board_of_health/index.php
+  note: Official Board of Health page lists all 3 members with term-end years; office confirmed elected via town's own ballot-preview page listing a Board of Health seat (3-yr term) for the 2026-05-04 election.
+  retrieved: '2026-09-18'
