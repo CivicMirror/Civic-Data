@@ -1,0 +1,13 @@
+# Hand-verified against the district/town's official site for the MA
+# School Committee zero-holder backfill (issue #45).
+id: ocd-person/4cd17175-1dde-4bca-99a1-f23a62124a61
+name: David Theoharides
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-zero-holder-batch-2026-09-18'
+sources:
+- url: https://whately.org/boards_committees/school_committees/index.php
+  note: 'Whately''s own board-terms management page (JS-rendered; fetched via FlareSolverr): full current 3-member roster, none vacant. Vice Chair, term ends 04/24/2029, appointed by Town Voters (elected). Won the 2026-04-28 Annual Town Election (132 votes).'
+  retrieved: '2026-09-18'
