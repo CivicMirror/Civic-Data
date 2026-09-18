@@ -1,0 +1,14 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill). Genuine "no post" gap -- Deerfield only had its own local
+# School Committee post on file. This post covers only Deerfield's 3
+# directly-elected seats on the Frontier Regional School Committee, per
+# the Regional Agreement Sec. I(C). Deerfield's 4th (appointed) seat is
+# a separate, not-yet-modeled category -- see the audit notes.
+id: deerfield-ma/frontier-regional-school-committee
+organization_id: ocd-organization/900c6256-dcea-4263-a33a-ba2a8ad239b5
+title: Frontier Regional School Committee Member
+seats: 3
+sources:
+- url: https://policies.sparqdata.com/masc/browse/frontierset/frontier/BB-1
+  note: 'Frontier Regional School District Agreement policy BB-1 ("File: BB-1 - REGIONAL AGREEMENT"), Section I(A) and I(C), full text supplied directly by the user (the live page is JS-rendered and not independently fetchable): 11-member Committee (4 Deerfield, 3 Sunderland, 2 Whately, 2 Conway); of Deerfield''s 4, 3 are elected and 1 is appointed by Deerfield''s own local School Committee.'
+  retrieved: '2026-09-18'
