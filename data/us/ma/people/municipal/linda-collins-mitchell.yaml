@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4559619b-f9ae-5921-a7ad-8257d37dd8f4
+name: Linda Collins-Mitchell
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.richmondma.org/government/boards_and_commissions/board_of_health.php
+  note: Richmond Board of Health page roster (JS-rendered, fetched via FlareSolverr); elected status + 5-seat/3-yr terms confirmed via town General Bylaws Ch. III Sec. 1. No individual term-end dates published.
+  retrieved: '2026-09-18'
