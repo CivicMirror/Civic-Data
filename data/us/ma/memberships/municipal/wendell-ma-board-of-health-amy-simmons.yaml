@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: wendell-ma-board-of-health-amy-simmons
+person_id: ocd-person/ae72e41f-85a5-585c-a6b1-70c600f7b373
+organization_id: ocd-organization/627be718-c701-53ae-9c08-b41c4b2a4ff4
+post_id: wendell-ma/board-of-health
+role: Board of Health Member
+how_seated: elected
+sources:
+- url: https://storage.googleapis.com/proudcity/wendellma/2025/06/wendell-2024-annual-report.pdf
+  note: 2024 Annual Town Report lists Board of Health under the "Elected Officials" section with per-member term-end years (2027/2025/2026); matches live department page's Chair/members (page's "Tom Siefert, Clerk" is a staff/recording role, not an elected seat).
+  retrieved: '2026-09-18'
+end: '2027'
