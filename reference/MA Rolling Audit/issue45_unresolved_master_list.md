@@ -56,7 +56,6 @@ durable backing copy.
 | West Bridgewater | 0/5 | Only fragmentary names from search snippets |
 | Westfield | 0/6 | Only fragmentary names from search snippets |
 | Wilmington (local + Shawsheen Valley Tech) | 0/7, 0/2 | Only fragmentary names from search snippets |
-| Phillipston (Narragansett Regional) | 0/3 | Seat allocation confirmed, no individuals found |
 
 ## 3. Identity collisions flagged for human merge review (data is minted;
    this is a data-quality question, not a fill gap)
