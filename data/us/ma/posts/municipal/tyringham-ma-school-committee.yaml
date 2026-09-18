@@ -3,10 +3,26 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+#
+# seats corrected from 5 to 3 on 2026-09-18: the town's own directory
+# page (/m/directory/department?did=14) lists 3 current School
+# Committee members (Amy Puntin, David Clark, Lisa Southard). Tyringham
+# is a non-operating district that tuitions all its students to Lee
+# Public Schools but elects its own local School Committee to oversee
+# that arrangement -- not part of any regional school district.
 id: tyringham-ma/school-committee
 organization_id: ocd-organization/63c8a0ab-a248-5653-ab74-b578179af6bb
 title: School Committee Member
-seats: 5
+seats: 3
 sources:
 - url: https://www.tyringham-ma.gov/
   retrieved: '2026-08-25'
+- url: https://www.tyringham-ma.gov/m/directory/department?did=14
+  note: 'Town directory listing, School Committee department: 3 current members. Supersedes the older /1343/School-Committee page, which only showed 2 (missing Lisa Southard).'
+  retrieved: '2026-09-18'
+- url: https://leepublicschools.net/en-US/committee-members-tyringham-ecd50869
+  note: 'Lee Public Schools'' own Tyringham Committee Members page, corroborates 3-member roster.'
+  retrieved: '2026-09-18'
+- url: https://www.tyringham-ma.gov/DocumentCenter/View/1598/Annual-Town-Election-Results-5182026
+  note: 'Official 2026 Annual Town Election results: School Committee ballot explicitly labeled "(2)" seats up, confirming staggered 3-year terms across a 3-seat committee.'
+  retrieved: '2026-09-18'

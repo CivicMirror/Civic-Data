@@ -1,0 +1,17 @@
+# Hand-verified against the town's own directory and School Committee
+# pages (JS-rendered; fetched via FlareSolverr) for the MA school
+# committee officeholder backfill (issue #45 hard-blocked queue).
+id: ocd-person/8a3d1e5c-4f2b-4a7e-9c6d-1b5e8f3a2c40
+name: David Clark
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.tyringham-ma.gov/m/directory/department?did=14
+  note: 'Town directory, School Committee department: David Clark, Member.'
+  retrieved: '2026-09-18'
+- url: https://www.tyringham-ma.gov/1343/School-Committee
+  note: 'Town School Committee page: David Clark, Member, term 2023-2026.'
+  retrieved: '2026-09-18'

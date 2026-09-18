@@ -1,0 +1,14 @@
+# Hand-verified against the town's own directory page (JS-rendered;
+# fetched via FlareSolverr) for the MA school committee officeholder
+# backfill (issue #45 hard-blocked queue).
+id: ocd-person/2d6c9a4e-7b1f-4e83-a5d0-9f2c6e8b1a73
+name: Lisa Southard
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.tyringham-ma.gov/m/directory/department?did=14
+  note: 'Town directory, School Committee department: Lisa Southard, Member. Not shown on the older /1343/School-Committee page, which lists only 2 of the 3 current members; term-expiration year not given on either page.'
+  retrieved: '2026-09-18'

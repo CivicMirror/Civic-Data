@@ -1,0 +1,21 @@
+# Hand-verified against the town's own directory page (JS-rendered;
+# fetched via FlareSolverr) and the official 2026 Annual Town Election
+# results (user-supplied PDF) for the MA school committee officeholder
+# backfill (issue #45 hard-blocked queue).
+id: tyringham-ma-school-committee-lisa-southard
+person_id: ocd-person/2d6c9a4e-7b1f-4e83-a5d0-9f2c6e8b1a73
+organization_id: ocd-organization/63c8a0ab-a248-5653-ab74-b578179af6bb
+post_id: tyringham-ma/school-committee
+role: School Committee Member
+how_seated: elected
+sources:
+- url: https://www.tyringham-ma.gov/m/directory/department?did=14
+  note: 'Town directory, School Committee department.'
+  retrieved: '2026-09-18'
+- url: https://leepublicschools.net/en-US/committee-members-tyringham-ecd50869
+  note: 'Lee Public Schools'' own Tyringham Committee Members page, corroborates roster.'
+  retrieved: '2026-09-18'
+- url: https://www.tyringham-ma.gov/DocumentCenter/View/1598/Annual-Town-Election-Results-5182026
+  note: 'Official 2026 Annual Town Election results (2026-05-18): School Committee (2 seats up), Lisa Southard elected unopposed with 30 votes -- newly elected, term 2026-2029. This is why she was absent from the older /1343/School-Committee page.'
+  retrieved: '2026-09-18'
+end: '2029'
