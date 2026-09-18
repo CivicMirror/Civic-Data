@@ -1,0 +1,14 @@
+# Hand-verified against the district's official website (JS-rendered;
+# fetched via FlareSolverr) for the MA school committee officeholder
+# backfill (issue #45 hard-blocked queue).
+id: ocd-person/c7e5199e-9d8f-44a3-ac42-d0d95c5d1806
+name: Peregrine Wiech
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.wbridgewaterschools.org/page/school-committee
+  note: 'West Bridgewater Public Schools'' own School Committee page (JS-rendered; fetched via FlareSolverr): 5 members elected to overlapping 3-year terms.'
+  retrieved: '2026-09-18'

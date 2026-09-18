@@ -1,0 +1,14 @@
+# Hand-verified against the district's official website (JS-rendered;
+# fetched via FlareSolverr) for the MA school committee officeholder
+# backfill (issue #45 hard-blocked queue).
+id: ocd-person/85f5dd98-16b0-4c53-b810-a05a34dcfb55
+name: Kick Sullivan
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.schoolsofwestfield.org/page/school-committee-2023
+  note: 'Westfield Public Schools'' own School Committee page (JS-rendered; fetched via FlareSolverr). Mayor Michael McCabe serves as ex-officio Chairperson -- already tracked under Westfield''s Mayor post, not duplicated here. Listed on the page as "Mr. Kick Sullivan"; the associated email (richard.sullivan@schoolsofwestfield.org) suggests "Kick" may be a nickname for a legal first name of Richard, but this isn''t confirmed, so the page''s displayed name is used as-is.'
+  retrieved: '2026-09-18'

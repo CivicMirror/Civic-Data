@@ -1,0 +1,14 @@
+# Hand-verified against the district's official website (JS-rendered;
+# fetched via FlareSolverr) for the MA school committee officeholder
+# backfill (issue #45 hard-blocked queue).
+id: ocd-person/fdeb904d-4ef3-4106-8805-6e5038f1ead1
+name: Emily Lehman Miller
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.westboylston-ma.gov/school-committee
+  note: 'West Boylston''s own School Committee page (JS-rendered; fetched via FlareSolverr): member table with term-expiration years.'
+  retrieved: '2026-09-18'
