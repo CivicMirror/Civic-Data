@@ -1,0 +1,18 @@
+# Hand-verified against the official 2025-11-04 Chicopee Municipal
+# Election summary report (OCR'd scan) and the district's own School
+# Committee page (chicopeeps.org) for the MA school committee
+# officeholder backfill (issue #45 hard-blocked queue).
+id: ocd-person/7f3a9c1e-5d2b-4e86-9c1a-3f8e6b2d9a54
+name: Robert George Cantin
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.chicopeema.gov/DocumentCenter/View/21409/November-4-2025-Municipal-Election--Summary-Report
+  note: '2025-11-04 Chicopee Municipal Election, official results: School Committee At-Large (vote for 1) -- Robert George Cantin elected with 2,727 votes (50.17%), defeating incumbent Mark Daniel McCarthy (2,689 votes, 49.47%).'
+  retrieved: '2026-09-18'
+- url: https://www.chicopeeps.org/en-US/school-committee-9aceadb1
+  note: 'Chicopee Public Schools'' own School Committee page confirms Robert Cantin as a current At-Large member; Mark Daniel McCarthy no longer appears on this page.'
+  retrieved: '2026-09-18'

@@ -1,0 +1,29 @@
+# Hand-verified against the official 2023-11-07 Chicopee Municipal
+# Election summary report and the district's own School Committee page
+# (chicopeeps.org) for the MA school committee officeholder backfill
+# (issue #45 hard-blocked queue).
+#
+# Distinct from her father, Chester "Chet" Szetela, who resigned his own
+# (separate) At-Large School Committee seat in October 2024 after 22
+# years -- that seat was filled by appointment (Mark Daniel McCarthy,
+# Nov 2024) and is unrelated to Susan's seat, which she has held
+# continuously since 2023 with no resignation. The two were conflated
+# in earlier research; see this record and its membership for the
+# correction.
+id: ocd-person/4c8e1f6a-9b3d-4e72-8a5c-1f6b3e9d2c87
+name: Susan Ann Szetela Lopes
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: 'ma-school-committee-hardblock-backfill-2026-09-18'
+sources:
+- url: https://www.chicopeema.gov/DocumentCenter/View/17619/November-7-2023---Municipal-Election-Summary-Report
+  note: '2023-11-07 Chicopee Municipal Election, official results: School Committee At-Large (vote for 1) -- Susan Ann Szetela Lopes elected unopposed with 7,043 votes (99.04%). 4-year at-large term per city charter (ecode360.com/12595884): term 2024-2027.'
+  retrieved: '2026-09-18'
+- url: https://www.chicopeeps.org/en-US/school-committee-9aceadb1
+  note: 'Chicopee Public Schools'' own School Committee page confirms Susan Szetela-Lopes as a current At-Large member.'
+  retrieved: '2026-09-18'
+- url: https://wmasspi.com/2024/10/briefings-now-chicopee-has-an-at-large-school-committee-vacancy-after-szetela-resigns.html
+  note: 'Clarifies that it was Chester "Chet" Szetela (Susan''s father), not Susan Szetela-Lopes, who resigned his own separate At-Large seat in October 2024 after 22 years. Susan''s own seat was never vacated.'
+  retrieved: '2026-09-18'
