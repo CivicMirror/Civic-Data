@@ -1,0 +1,19 @@
+# Created for issue #46 (MA #34 Stage 3 Planning Board backfill) -- Gosnold
+# had no Planning Board org/post on file. The Town's own Planning Board page
+# states: "The Gosnold Selectboard acts as the Planning Board" (per Annual
+# Town Meeting vote, May 22, 2000) -- there is no separate election. Members
+# below are the same three people already on file for Gosnold's elected
+# Selectboard / Board of Health post (see gosnold-ma-select-board-board-of-
+# health-member-*.yaml); reusing their existing person records rather than
+# minting duplicate identities for the same three officeholders.
+id: ocd-organization/152f5218-ef50-4c48-b372-56e131b7d17f
+name: Planning Board Member
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:gosnold/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: gosnold-ma/planning-board-member
+status: active
+sources:
+- url: https://www.gosnold-ma.gov/207/Planning-Board
+  note: '"The Gosnold Selectboard acts as the Planning Board." No separate board is elected; Selectboard elections elect the planning-board members.'
+  retrieved: '2026-09-19'

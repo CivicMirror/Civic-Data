@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/13cc038b-8254-5f59-8f21-35cb508aae36
+name: Kristofer Munroe
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-19'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.hubbardstonma.gov/164/Planning-Board
+  note: Town's official Planning Board page, current roster with term-expiration years (Mark Kresge, alternate/associate member, excluded as a non-voting appointed seat; one elected seat is vacant)
+  retrieved: '2026-09-19'
