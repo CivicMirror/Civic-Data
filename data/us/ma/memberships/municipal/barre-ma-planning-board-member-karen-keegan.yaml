@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: barre-ma-planning-board-member-karen-keegan
+person_id: ocd-person/13cbdc6f-25c4-5b3b-8f04-f5538b7f301e
+organization_id: ocd-organization/bc360938-63c6-5e46-9d10-2ad110f5ff21
+post_id: barre-ma/planning-board-member
+role: Planning Board Member
+how_seated: elected
+sources:
+- url: https://townofbarre.com/vertical/sites/%7BBE114F1B-906E-45B0-8413-50FFE8B51C22%7D/uploads/Town_Report_2024_FINAL_7.1.25.pdf
+  note: 2024 Annual Town Report (most recent report cleanly downloadable -- the 2025 report PDF on the town's own server is corrupted/truncated). 5-member roster with term-expiration years; some terms (Keegan 2025, Urban 2026) may since have turned over at a subsequent annual election not reflected here
+  retrieved: '2026-09-20'
+end: '2025'
