@@ -1,0 +1,18 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: amesbury-ma-planning-board-member-pascal-rettig
+person_id: ocd-person/cb29e594-9eb0-5f44-b04f-e470d8016c50
+organization_id: ocd-organization/ea442e1b-7ea9-46b4-a6ec-a1b54304f244
+post_id: amesbury-ma/planning-board-member
+role: Planning Board Member
+how_seated: elected
+sources:
+- url: https://www.amesburyma.gov/163/Planning-Board
+  note: City's official Planning Board page, current roster (chair/vice-chair/members); no term-end dates published
+  retrieved: '2026-09-19'
+- url: https://www.amesburyma.gov/329/Elections
+  note: November 4, 2025 official municipal election results (OFFICIAL RESULTS.xlsx), Planning Board 4-year seat winner
+  retrieved: '2026-09-19'
+end: '2029'
