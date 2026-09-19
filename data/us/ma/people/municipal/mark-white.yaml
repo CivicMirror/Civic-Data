@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/f3eb7c12-c17d-5186-a82d-20489eb90cf0
+name: Mark White
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://boxborough-ma.gov/306/Planning-Board
+  note: Town's official Planning Board page, current 5-member roster with term-expiration years (Nathaniel Stuntz, Associate Member, excluded)
+  retrieved: '2026-09-20'
