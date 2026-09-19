@@ -3,10 +3,23 @@
 # rolling audit, generated 2026-08-25) by scripts/
 # import_ma_charter_audit_v56_v58.py. Source rows were machine-extracted
 # from municipal government sites; see the record's sources for provenance.
+#
+# Corrected to 2 seats for issue #45/#70 (2026-09-19): the Gateway
+# Regional School District agreement Section I(A) allocates Montgomery
+# 2 seats, and the town clerk was contacted directly via issue #70 for
+# clarification after DeGregorio (the sole on-file holder) and grsd.org's
+# live roster disagreed with the seat count. Peter DeGregorio (sitting
+# member, elected 2024) confirmed the discrepancy by email 2026-09-18:
+# a second seat-holder, Erik Morrissey, was elected in 2024 but never
+# took office (resigning around the same time he left the Select Board
+# in 2025), leaving that seat vacant until Jakob Wyman won it in 2026.
 id: montgomery-ma/school-committee-representative
 organization_id: ocd-organization/8457a210-e18b-5431-bd8a-0d996d452f03
 title: Gateway Regional School Committee Representative
-seats: 1
+seats: 2
 sources:
 - url: https://montgomeryma.gov/wp-content/uploads/2026/05/MT-Breeze-MAY-2026.pdf
   retrieved: '2026-08-25'
+- url: https://github.com/CivicMirror/Civic-Data/issues/70#issuecomment-5742299947
+  note: Peter DeGregorio (sitting rep) email reply confirming 2-seat structure, Morrissey's non-service, and Wyman's 2026 election
+  retrieved: '2026-09-19'
