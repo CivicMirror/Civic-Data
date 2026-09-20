@@ -172,13 +172,19 @@ sources, but isn't needed for the embedded-office case.
 
 ### Government bodies and organizations
 
-`jurisdiction_id` currently identifies a geographic OCD division, while
-offices remain embedded in that division's file. This release deliberately
-does not add an organization/body entity. A future CivicPatch integration
-must not silently discard organization-scoped identifiers or equate a
-CivicPatch `post_id` with an `office.id`; those require an explicit mapping
-layer. The design and migration are tracked in
-[Civic-Data#5](https://github.com/CivicMirror/Civic-Data/issues/5).
+Resolved: [Civic-Data#5](https://github.com/CivicMirror/Civic-Data/issues/5)
+added the organization/body entity this section used to flag as an open
+question. `Organization` and `Post` are now standalone entities
+(`data/us/{state}/organizations/`, `data/us/{state}/posts/`), separate
+from the geographic `Jurisdiction` they sit under, with `classification:
+school` (among others) marking a jurisdiction whose governance scope
+doesn't coincide with a town/place division — see TX ISDs
+(`data/us/tx/jurisdictions/school/`) and the MA district-first remodel
+prototype ([#75](https://github.com/CivicMirror/Civic-Data/issues/75)).
+A future CivicPatch integration must still not silently discard
+organization-scoped identifiers or equate a CivicPatch `post_id` with
+this repo's `post.id` outright; that still needs an explicit mapping
+layer, since the two schemas evolved independently.
 
 - **Where does the repo live?** CivicPatch org, CivicMirror org, or a neutral
   shared org? (Neutral org avoids perceived ownership asymmetry.)

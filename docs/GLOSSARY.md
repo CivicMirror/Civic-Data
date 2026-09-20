@@ -31,8 +31,8 @@ YAML file per jurisdiction, under `data/us/{state}/jurisdictions/`.
 Identified by an OCD jurisdiction ID such as
 `ocd-jurisdiction/country:us/state:ma/place:millbury/government`; its
 `division_id` points to `ocd-division/country:us/state:ma/place:millbury`.
-Its `classification` is a governance type such as `government`, `school`,
-or `transit_authority`.
+Its `classification` is a governance type such as `government`,
+`judiciary`, `school`, or `transit_authority`.
 
 **Post** = **elected position** = **seat** (loosely) = **office name.**
 A position that exists within an Organization — e.g. "Mayor," "Select
@@ -93,8 +93,8 @@ hand/scraper-maintained.
 **classification** means two unrelated things depending on where it
 appears:
 - `jurisdiction.classification` — the jurisdiction's own governance type:
-  `government`, `legislature`, `executive`, `school`, `park`, `sewer`,
-  `forest`, or `transit_authority`.
+  `government`, `legislature`, `executive`, `judiciary`, `school`, `park`,
+  `sewer`, `forest`, or `transit_authority`.
 - `person.addresses[].classification` — which kind of physical office
   an address is: `capitol` or `district`.
 
