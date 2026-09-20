@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/abe2602d-7f5b-5a9b-9dd7-958572b641a2
+name: Zillie Bhuju
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.topsfield-ma.gov/DocumentCenter/View/8188/topsfield_annual_report_2025_online
+  note: Town's 2025 Annual Town Report (elected officers list, July 2024-June 2025), full 5-member roster with term-expiration years -- some terms may have since turned over at a subsequent annual election not reflected here
+  retrieved: '2026-09-20'
