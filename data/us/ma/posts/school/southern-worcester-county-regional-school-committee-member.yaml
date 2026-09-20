@@ -1,0 +1,20 @@
+# Consolidates 8 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - charlton-ma-regional-vocational-school-committee-member.yaml
+# - dudley-ma-regional-vocational-school-committee-member.yaml
+# - north-brookfield-ma-southern-worcester-county-regional-vocational-school-district-representative.yaml
+# - oxford-ma-southern-worcester-county-regional-vocational-school-district-committee-member.yaml
+# - paxton-ma-southern-worcester-county-regional-vocational-school-district-committee-member.yaml
+# - rutland-ma-southern-worcester-regional-vocational-school-committee-member.yaml
+# - southbridge-ma-southern-worcester-county-regional-vocational-school-committee-member.yaml
+# - spencer-ma-southern-worcester-vocational-school-committee.yaml
+id: southern-worcester-county-ma/school-committee-member
+organization_id: ocd-organization/b046406e-c259-44b2-a8c4-342d10667261
+title: School Committee Member
+seats: 20
+sources:
+- url: http://ma-auburn.civicplus.com/Archive.aspx?ADID=1544
+  retrieved: '2026-09-20'

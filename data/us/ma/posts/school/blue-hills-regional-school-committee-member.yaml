@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - milton-ma-blue-hills-regional-technical-school-committee-member.yaml
+# - norwood-ma-regional-vocational-school-district-commissioner.yaml
+# - westwood-ma-blue-hills-regional-vocational-school-committee.yaml
+id: blue-hills-ma/school-committee-member
+organization_id: ocd-organization/ac21f933-04d3-456f-8498-a3fcffb48655
+title: School Committee Member
+seats: 9
+sources:
+- url: https://www.bluehills.org/about/school-news/blue-hills-regional-technical-school-welcomes-two-newly-elected-district-school-committee-members
+  retrieved: '2026-09-20'

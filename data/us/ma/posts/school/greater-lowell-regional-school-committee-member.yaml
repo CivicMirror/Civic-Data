@@ -1,0 +1,14 @@
+# Consolidates 2 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - dunstable-ma-regional-vocational-school-committee-member.yaml
+# - tyngsborough-ma-greater-lowell-vocational-school-committee.yaml
+id: greater-lowell-ma/school-committee-member
+organization_id: ocd-organization/f5d8ddef-91e9-4d0d-a620-9a1d9c87012b
+title: School Committee Member
+seats: 8
+sources:
+- url: https://www.tyngsboroughma.gov/Archive/ViewFile/Item/62
+  retrieved: '2026-09-20'

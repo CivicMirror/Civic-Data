@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - somerset-ma-diman-regional-vocational-technical-school-committee-member.yaml
+# - swansea-ma-diman-regional-school-committee.yaml
+# - westport-ma-regional-school-committee.yaml
+id: greater-fall-river-ma/school-committee-member
+organization_id: ocd-organization/9ad5c1a3-ff04-4ea5-9ab4-66a5b00bcfcb
+title: School Committee Member
+seats: 3
+sources:
+- url: http://www.dimanregional.org/about/school-committee
+  retrieved: '2026-09-20'

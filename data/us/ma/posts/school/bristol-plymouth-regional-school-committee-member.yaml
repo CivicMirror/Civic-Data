@@ -1,0 +1,13 @@
+# Consolidates 1 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - freetown-ma-regional-vocational-school-committee-member.yaml
+id: bristol-plymouth-ma/school-committee-member
+organization_id: ocd-organization/c55f827a-e9f2-4ed0-aff7-c99604698292
+title: School Committee Member
+seats: 9
+sources:
+- url: https://www.bptech.org/about/school-committee
+  retrieved: '2026-09-20'

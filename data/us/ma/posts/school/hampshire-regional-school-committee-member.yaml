@@ -1,0 +1,16 @@
+# Consolidates 4 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - goshen-ma-regional-school-committee-member.yaml
+# - southampton-ma-hampshire-regional-school-committee-southampton-member.yaml
+# - westhampton-ma-hampshire-regional-school-committee.yaml
+# - williamsburg-ma-regional-school-committee.yaml
+id: hampshire-ma/school-committee-member
+organization_id: ocd-organization/4fb8a260-5a32-47e6-ab1b-d409ac47cea1
+title: School Committee Member
+seats: 17
+sources:
+- url: https://westhamptonma.gov/wp-content/uploads/2025-10-06-HRSC-Agenda.pdf
+  retrieved: '2026-09-20'

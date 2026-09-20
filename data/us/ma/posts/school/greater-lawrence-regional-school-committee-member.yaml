@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - lawrence-ma-regional-vocational-school-committee-member.yaml
+# - methuen-ma-greater-lawrence-technical-school-committee-member.yaml
+# - north-andover-ma-greater-lawrence-regional-technical-school-committee-member.yaml
+id: greater-lawrence-ma/school-committee-member
+organization_id: ocd-organization/3e4a802e-0e4c-49cb-9a9f-9989beb82731
+title: School Committee Member
+seats: 7
+sources:
+- url: https://resources.finalsite.net/images/v1744038954/gltsnet/aia07dykc5djongoful6/MM_189011-19-24OpenSessionMinutes.pdf
+  retrieved: '2026-09-20'

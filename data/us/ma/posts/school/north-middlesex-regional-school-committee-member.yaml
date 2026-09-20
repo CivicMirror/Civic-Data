@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts (ashby-ma-regional-school-committee-member.yaml,
+# townsend-ma-north-middlesex-regional-school-committee-townsend-representative.yaml,
+# pepperell-ma-north-middlesex-regional-school-committee-pepperell-representative.yaml)
+# into the one real district-level body they were fragments of
+# (district-first remodel, issue #75). Each holder's town-designated
+# seat is on their membership's `seat` field. The district's 3 at-large
+# seats are a separate post (north-middlesex-ma/school-committee-at-
+# large-member) since they are not town-specific.
+id: north-middlesex-ma/school-committee-member
+organization_id: ocd-organization/e273d943-7573-4929-ae61-30ce88da48e3
+title: School Committee Member
+seats: 6
+sources:
+- url: https://resources.finalsite.net/images/v1785160149/nmrsdorg/ok98regvczqjb0wbme9i/PolicyBB.pdf
+  retrieved: '2026-09-20'
