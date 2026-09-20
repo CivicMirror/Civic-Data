@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/65f2cce0-4847-534c-b976-08317e9e43b6
+name: James Hogan
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.wakefieldma.gov/180/Planning-Board
+  note: Town's official Planning Board page (current wakefieldma.gov domain, distinct from the older wakefield.ma.us site cited in this org's original source), full 5-member roster (Chair/Vice-Chair noted, no term-end dates published)
+  retrieved: '2026-09-20'

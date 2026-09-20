@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ware-ma-planning-board-member-richard-starodoj
+person_id: ocd-person/1d7bf811-faa1-5915-9513-54a2b53a200f
+organization_id: ocd-organization/4678ffe8-d506-54a8-8616-705930365ac1
+post_id: ware-ma/planning-board-member
+role: Planning Board Member
+how_seated: elected
+sources:
+- url: https://www.townofware.com/government/b_c/planning_board.php
+  note: Town's official Planning Board page, full 5-member roster with term-expiration years -- several terms shown (2024, 2025) have already lapsed per the page's own dates, and no more current roster was found; may be stale
+  retrieved: '2026-09-20'
+end: '2026'
