@@ -1,0 +1,25 @@
+# PROTOTYPE -- migrated from data/us/ma/memberships/municipal/,
+# as part of the district-first remodel discussed in issue #45
+# issue #45 (Quabbin consolidated from 5 per-town posts into one
+# district post; this person's town-designated seat now lives in
+# the `seat` field instead of the post/org split). Original
+# provenance comment below.
+# Hand-verified against the district/town's official site for the MA
+# School Committee zero-holder backfill (issue #45).
+id: barre-ma-regional-school-committee-member-david-deschamps
+person_id: ocd-person/60e67159-408c-445a-b73a-637ddb39a07a
+organization_id: ocd-organization/dbbb6df9-b415-40b1-a64d-936148d73aa9
+post_id: quabbin-regional-ma/school-committee-member
+seat: Barre
+role: School Committee Chair
+how_seated: elected
+sources:
+- url: https://mytowngovernment.org/board/29001
+  note: mytowngovernment.org's QRSD School Committee board listing (fetched via FlareSolverr,
+    real JS challenge solved), which gives full member names with town and term-end
+    year. 14 of the district's 15 seats show a name; Barre shows 4 of its 5 allocated
+    seats, consistent with a genuine current vacancy on the 5th (source qrsd.org itself
+    lists only the Chair/Vice-Chair/Secretary by name, not a full per-town roster,
+    so this cross-check is the only full-roster source found).
+  retrieved: '2026-09-18'
+end: '2027'

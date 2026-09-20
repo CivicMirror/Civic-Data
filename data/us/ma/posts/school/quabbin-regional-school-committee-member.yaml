@@ -1,0 +1,14 @@
+# PROTOTYPE -- one post for the whole district committee, seats: 15,
+# replacing 5 separate per-town posts that summed to the same total.
+# Each holder's town-designated seat is recorded on their membership's
+# `seat` field (Barre/Hardwick/Hubbardston/New Braintree/Oakham), the
+# same mechanism this repo already uses for MA state house/senate
+# district seats -- see docs/ARCHITECTURE.md section 7.
+id: quabbin-regional-ma/school-committee-member
+organization_id: ocd-organization/dbbb6df9-b415-40b1-a64d-936148d73aa9
+title: School Committee Member
+seats: 15
+sources:
+- url: https://www.hubbardstonma.gov/DocumentCenter/View/1409/Final-Draft----12-18-25-Working-Copy-Regional-Agreement?bidId=
+  note: 'Quabbin Regional School District Agreement, Section (B): 15 total seats -- 5 Barre, 3 Hardwick, 4 Hubbardston, 1 New Braintree, 2 Oakham.'
+  retrieved: '2026-09-17'

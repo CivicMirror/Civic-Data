@@ -1,0 +1,22 @@
+# PROTOTYPE -- consolidates 5 separate per-town organizations
+# (barre-ma-regional-school-committee-member.yaml,
+# hardwick-ma-quabbin-regional-school-committee-member.yaml,
+# hubbardston-ma-regional-school-committee-member.yaml,
+# new-braintree-ma-quabbin-regional-school-committee-member.yaml,
+# oakham-ma-school-committee-member.yaml) into the one real DESE
+# district-level body they were always fragments of. See issue #45
+# discussion on modeling school committees to the district, not the town.
+id: ocd-organization/dbbb6df9-b415-40b1-a64d-936148d73aa9
+name: Quabbin Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:quabbin/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '07530000'
+  source: https://educationtocareer.data.mass.gov/resource/5izv-jyrd.json
+status: active
+sources:
+- url: https://www.qrsd.org/our_district/school_committee
+  retrieved: '2026-09-14'
+- url: https://www.hubbardstonma.gov/DocumentCenter/View/1409/Final-Draft----12-18-25-Working-Copy-Regional-Agreement?bidId=
+  note: 'Quabbin Regional School District Agreement, Section (B): confirms the 15-seat, 5-town allocation (5 Barre, 3 Hardwick, 4 Hubbardston, 1 New Braintree, 2 Oakham).'
+  retrieved: '2026-09-17'
