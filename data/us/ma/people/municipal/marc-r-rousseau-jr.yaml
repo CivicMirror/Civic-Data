@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/71c05d6c-c747-59b9-9267-3c4fa0bca524
+name: Marc R. Rousseau, Jr.
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofrochesterma.gov/planning-board
+  note: 'Town''s own Planning Board page: current 7-member roster with term-end years (Johnson, DeMaggio, Bailey already on file). Rousseau listed as ''Associate Clerk'' but the town''s own materials describe this board''s associate seat as a normal elected/rotating seat within the same 7-seat post (no separate associate post exists in this repo''s structure for Rochester).'
+  retrieved: '2026-09-20'
