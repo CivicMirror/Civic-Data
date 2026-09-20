@@ -1,0 +1,16 @@
+id: ocd-organization/c0c96866-b0d8-4066-9900-95152dd65233
+name: Dover-Sherborn Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:dover-sherborn/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '06550000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.doverma.gov/334/School-Committees
+  retrieved: '2026-08-19'
+- url: https://www.sherbornma.org/DocumentCenter/View/4094/2025-Annual-Town-Report
+  retrieved: '2026-08-25'
+- url: https://www.doversherborn.org/school-committee/dover-sherborn-regional-school-committee
+  note: 'Corrected seats from 4 to 3 -- the D-S regional agreement provides for "three Dover members and three elected Sherborn members," and the district''s own site confirms Sherborn''s 3 current reps (Ashk, Lowder, Johnson) match the 3 already on file. Same class of stale-seat-count bug as the Lanesborough/Williamstown Mount Greylock case fixed for issue'
+  retrieved: '2026-09-16'

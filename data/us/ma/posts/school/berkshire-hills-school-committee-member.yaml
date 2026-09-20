@@ -1,0 +1,12 @@
+# Consolidates 3 per-town posts (great-barrington-ma-regional-school-committee-member.yaml, stockbridge-ma-regional-school-committee.yaml, west-stockbridge-ma-berkshire-hills-school.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: berkshire-hills-ma/school-committee-member
+organization_id: ocd-organization/a4c5ac2b-0150-4402-815a-aa069e5d5489
+title: School Committee Member
+seats: 10
+sources:
+- url: https://www.bhrsd.org/school-committee-members
+  retrieved: '2026-09-14'
+- url: https://www.stockbridge-ma.gov/media/20196
+  retrieved: '2026-08-25'
+- url: https://ecode360.com/33408739
+  retrieved: '2026-08-25'

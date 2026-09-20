@@ -1,0 +1,13 @@
+# Consolidates 2 per-town posts (dover-ma-regional-school-committee-member.yaml, sherborn-ma-dover-sherborn-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: dover-sherborn-ma/school-committee-member
+organization_id: ocd-organization/c0c96866-b0d8-4066-9900-95152dd65233
+title: School Committee Member
+seats: 6
+sources:
+- url: https://www.doverma.gov/334/School-Committees
+  retrieved: '2026-08-19'
+- url: https://www.sherbornma.org/DocumentCenter/View/4094/2025-Annual-Town-Report
+  retrieved: '2026-08-25'
+- url: https://www.doversherborn.org/school-committee/dover-sherborn-regional-school-committee
+  note: 'Corrected seats from 4 to 3 -- the D-S regional agreement provides for "three Dover members and three elected Sherborn members," and the district''s own site confirms Sherborn''s 3 current reps (Ashk, Lowder, Johnson) match the 3 already on file. Same class of stale-seat-count bug as the Lanesborough/Williamstown Mount Greylock case fixed for issue'
+  retrieved: '2026-09-16'

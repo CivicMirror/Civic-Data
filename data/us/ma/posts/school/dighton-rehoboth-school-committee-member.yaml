@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (dighton-ma-regional-school-committee-member.yaml, rehoboth-ma-dighton-rehoboth-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: dighton-rehoboth-ma/school-committee-member
+organization_id: ocd-organization/14476c13-4755-459d-aa5d-0c7f3523d446
+title: School Committee Member
+seats: 10
+sources:
+- url: https://ballotpedia.org/Dighton-Rehoboth_Regional_School_District,_Massachusetts
+  retrieved: '2026-09-14'
+- url: https://www.town.rehoboth.ma.us/sites/g/files/vyhlif4911/f/uploads/general_by_law_10-29-19-stm-final-2-3-2020.pdf
+  retrieved: '2026-08-25'

@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (acton-ma-regional-school-committee-member.yaml, boxborough-ma-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: acton-boxborough-ma/school-committee-member
+organization_id: ocd-organization/38d6ddea-7a7e-49b2-a79b-2dda3fb440cc
+title: School Committee Member
+seats: 11
+sources:
+- url: https://actonma.gov/election
+  retrieved: '2026-08-19'
+- url: https://boxborough-ma.gov/354/School-Committee
+  retrieved: '2026-08-19'

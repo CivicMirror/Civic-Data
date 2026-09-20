@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (ashburnham-ma-regional-school-committee-member.yaml, westminster-ma-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: ashburnham-westminster-ma/school-committee-member
+organization_id: ocd-organization/4e26b5f4-6cee-4a00-a8a4-02a11a611a8e
+title: School Committee Member
+seats: 10
+sources:
+- url: https://www.ashburnham-ma.gov/350/Elected-Town-Officials
+  retrieved: '2026-08-19'
+- url: https://www.westminster-ma.gov/sites/g/files/vyhlif1431/f/uploads/final_westminster_charter_w_changes_6mar19.pdf
+  retrieved: '2026-08-25'
