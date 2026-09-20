@@ -1,0 +1,16 @@
+# Consolidates 4 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - brimfield-ma-regional-school-committee-member.yaml
+# - holland-ma-regional-school-committee-member.yaml
+# - sturbridge-ma-tantasqua-regional-school-committee.yaml
+# - wales-ma-tantasqua-regional-school-committee.yaml
+id: tantasqua-ma/school-committee-member
+organization_id: ocd-organization/b1fb22e4-7caa-4cc0-97af-af377121f8c1
+title: School Committee Member
+seats: 13
+sources:
+- url: https://4.files.edl.io/14c5/02/07/23/203014-442ba6f2-55de-4023-9763-71b0816fd187.pdf
+  retrieved: '2026-09-20'
