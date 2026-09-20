@@ -1,12 +1,24 @@
 # Hand-added resolving Cummington's non-Select-Board elected offices
 # surfaced in issue #16's comment history (step-3 pass); see the org
 # record for details.
+#
+# seats corrected 6 -> 5 (issue #46): the FY2024 Annual Town Report's
+# Planning Board table lists 6 names, but one (James Wetterau) is
+# explicitly marked "(Resigned 1/1/24)" -- the original count didn't
+# exclude him. The town's own bylaws (Bylaws.php?Bylaws) confirm
+# "5 Planning Board Members, 5 years, one each year," matching the
+# live roster (Boards.php?13), which lists exactly 5 current members.
 id: cummington-ma/planning-board-member
 organization_id: ocd-organization/f09f67e8-407d-4afc-bffe-fc499ab25ee6
 title: Planning Board Member
-seats: 6
+seats: 5
 sources:
+- url: https://cummington-ma.gov/Bylaws.php?Bylaws
+  note: 'Town bylaws: "5 Planning Board Members, 5 years, one each year"'
+  retrieved: '2026-09-19'
+- url: https://cummington-ma.gov/Boards.php?13
+  note: Town's official Planning Board page, current roster (5 of 5 seats filled)
+  retrieved: '2026-09-19'
 - url: https://cummington-ma.gov/PDFs/TownReportFY2024.pdf
-  retrieved: '2026-08-31'
-- url: https://cummington-ma.gov/Content.php?14=
+  note: FY2024 Annual Report roster (6 names listed, one marked resigned 1/1/24 -- superseded by the two sources above)
   retrieved: '2026-08-31'
