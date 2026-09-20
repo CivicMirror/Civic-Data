@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/baf665f9-3d39-57e9-8020-d9a058500f01
+name: Robert Lever
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://townofberkleyma.gov/planning/
+  note: 'Town''s own Planning Board page: 4 of 5 elected seats named with term-end years (Unger already on file); the page itself lists the 5th seat as vacant -- a genuine vacancy, not an unfound gap.'
+  retrieved: '2026-09-20'
