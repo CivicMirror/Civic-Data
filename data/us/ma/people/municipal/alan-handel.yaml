@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/cf825410-8f53-51a5-87fb-8a0a070b746c
+name: Alan Handel
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.millisma.gov/page/planning-board
+  note: Town's official Planning Board page, current 5-member roster (Chair/Clerk noted, no term-end dates published; George Yered, Associate, excluded)
+  retrieved: '2026-09-20'

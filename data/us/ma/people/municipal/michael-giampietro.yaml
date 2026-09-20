@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4be8eefb-111a-5ad1-ab77-994f4c4ee1a8
+name: Michael Giampietro
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.millisma.gov/page/planning-board
+  note: Town's official Planning Board page, current 5-member roster (Chair/Clerk noted, no term-end dates published; George Yered, Associate, excluded)
+  retrieved: '2026-09-20'
