@@ -1,0 +1,8 @@
+# Consolidates 2 per-town posts (berlin-ma-regional-school-committee-member.yaml, boylston-ma-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: berlin-boylston-ma/school-committee-member
+organization_id: ocd-organization/cf9c8b5b-81f1-4c6c-8ac7-222d571b60ec
+title: School Committee Member
+seats: 6
+sources:
+- url: https://masscivics.com/berlin/school-committee/
+  retrieved: '2026-09-14'
