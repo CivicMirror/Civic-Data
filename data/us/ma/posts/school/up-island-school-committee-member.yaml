@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts (aquinnah-ma-up-island-school-committee.yaml,
+# chilmark-ma-up-island-school-committee.yaml,
+# west-tisbury-ma-up-island-school-committee.yaml) into the one real
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their membership's
+# `seat` field. The district's 2 at-large seats are a separate post
+# (up-island-ma/school-committee-at-large-member) since they are not
+# town-specific.
+id: up-island-ma/school-committee-member
+organization_id: ocd-organization/30c0ad48-04a9-49e4-b76c-2ef5189cfb87
+title: School Committee Member
+seats: 3
+sources:
+- url: https://www.chilmarkschool.org/-school-organizations/school-organizations.html
+  retrieved: '2026-09-16'
