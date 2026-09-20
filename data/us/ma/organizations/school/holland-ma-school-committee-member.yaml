@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/efbecde5-617d-517a-a5db-139056b8f3d9
+name: Holland Elementary School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:holland/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '01350000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: holland-ma/school-committee-member
+status: active
+sources:
+- url: https://masscivics.com/holland/school-committee/
+  retrieved: '2026-09-14'

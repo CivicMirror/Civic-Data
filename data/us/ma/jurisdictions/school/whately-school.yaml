@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:whately/school
+name: Whately Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:whately
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=03370000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Whately is the sole resident/member town for dist_code 03370000 ("Whately"), i.e. a single-town operating district distinct from any regional district Whately may also belong to.'
+  retrieved: '2026-09-20'

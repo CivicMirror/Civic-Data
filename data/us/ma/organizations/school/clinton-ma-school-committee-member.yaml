@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/78dac74c-63e1-56dc-b1dd-3ed98274d043
+name: Clinton School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:clinton/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '00640000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: clinton-ma/school-committee-member
+status: active
+sources:
+- url: https://www.clintonma.gov/CivicAlerts.aspx?AID=290&ARC=669
+  retrieved: '2026-09-14'

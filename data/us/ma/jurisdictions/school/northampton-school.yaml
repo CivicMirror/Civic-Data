@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:northampton/school
+name: Northampton Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:northampton
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=02100000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Northampton is the sole resident/member town for dist_code 02100000 ("Northampton"), i.e. a single-town operating district distinct from any regional district Northampton may also belong to.'
+  retrieved: '2026-09-20'

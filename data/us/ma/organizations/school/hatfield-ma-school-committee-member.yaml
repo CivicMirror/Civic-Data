@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/a4abc088-5630-5b68-86de-2cc0fa466aca
+name: Hatfield School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:hatfield/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '01270000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: hatfield-ma/school-committee-member
+status: active
+sources:
+- url: https://www.townofhatfield.org/DocumentCenter/View/3578
+  retrieved: '2026-09-14'

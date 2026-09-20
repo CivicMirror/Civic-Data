@@ -1,0 +1,12 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:northampton-smith-vocational/school
+name: Smith Vocational and Agricultural High School District
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:northampton-smith-vocational
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=04060000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member) lists dist_code 04060000, dist_name "Northampton-Smith Vocational Agricultural", with Northampton as its sole resident/member town -- a real DESE operating district distinct from Northampton''s own K-12 district (dist_code 02100000, Northampton Public Schools). Do not merge with or repoint to the regular Northampton school jurisdiction.'
+  retrieved: '2026-09-20'
+- url: https://www.smithtec.org/board-of-trustees
+  note: Smith Vocational and Agricultural High School's own site confirms the district is governed by its own Board of Trustees, a separate body from the Northampton School Committee.
+  retrieved: '2026-09-20'

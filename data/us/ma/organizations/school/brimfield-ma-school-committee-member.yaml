@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/60443ae4-258f-5c68-a30d-178fb20f201d
+name: Brimfield Elementary School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:brimfield/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '00430000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: brimfield-ma/school-committee-member
+status: active
+sources:
+- url: https://masscivics.com/brimfield/school-committee/
+  retrieved: '2026-09-14'

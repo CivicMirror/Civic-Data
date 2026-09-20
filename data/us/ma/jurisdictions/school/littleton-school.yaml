@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:littleton/school
+name: Littleton Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:littleton
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=01580000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Littleton is the sole resident/member town for dist_code 01580000 ("Littleton"), i.e. a single-town operating district distinct from any regional district Littleton may also belong to.'
+  retrieved: '2026-09-20'

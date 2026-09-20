@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:lincoln/school
+name: Lincoln Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:lincoln
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=01570000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Lincoln is the sole resident/member town for dist_code 01570000 ("Lincoln"), i.e. a single-town operating district distinct from any regional district Lincoln may also belong to.'
+  retrieved: '2026-09-20'
