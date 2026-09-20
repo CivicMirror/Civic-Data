@@ -13,3 +13,13 @@ how_seated: elected
 sources:
 - url: https://www.sandisfieldma.gov/government/pages/town-elected-and-appointed-officials
   retrieved: '2026-08-25'
+- url: https://www.sandisfieldma.gov/government/pages/town-elected-and-appointed-officials
+  note: >-
+    NAME CONFLICT FLAG (issue #46): re-fetching this same source URL on
+    2026-09-19 shows "Carol Garcia" for the identical seat/term (5
+    years, May 2026), not Bye -- see the new carol-garcia.yaml
+    membership record. Same page, same term, different name; more
+    likely a mis-extraction in the original v38 audit pass than a
+    genuine one-month turnover, but not confirmed either way. Not
+    deleted pending resolution.
+  retrieved: '2026-09-19'
