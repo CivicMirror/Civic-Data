@@ -1,0 +1,13 @@
+# Consolidates 1 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - essex-ma-regional-school-committee-member.yaml
+id: manchester-essex-regional-ma/school-committee-member
+organization_id: ocd-organization/93c1c533-34b6-48ad-a86a-970ef1d182ff
+title: School Committee Member
+seats: 7
+sources:
+- url: https://resources.finalsite.net/images/v1750790486/mersdorg/tkc4s4pyic5r4cuy589z/RegionalAgreement.pdf
+  retrieved: '2026-09-20'

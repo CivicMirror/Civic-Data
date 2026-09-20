@@ -1,0 +1,18 @@
+# Consolidates 6 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - becket-ma-regional-school-committee-member.yaml
+# - dalton-ma-regional-school-committee-member.yaml
+# - hinsdale-ma-regional-school-committee-member.yaml
+# - peru-ma-central-berkshire-regional-school-committee-member.yaml
+# - washington-ma-central-berkshire-regional-school-committee.yaml
+# - windsor-ma-central-berkshire-regional-school-committee.yaml
+id: central-berkshire-ma/school-committee-member
+organization_id: ocd-organization/98c0dcb2-908a-4589-8d43-24acac2c1249
+title: School Committee Member
+seats: 15
+sources:
+- url: https://resources.finalsite.net/images/v1652850858/cbrsdorg/cvtxhioq3gewqwt31qe9/regagtmay2000.pdf
+  retrieved: '2026-09-20'

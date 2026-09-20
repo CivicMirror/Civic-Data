@@ -1,0 +1,15 @@
+# Consolidates 1 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - whitman-ma-whitman-hanson-regional-school-committee.yaml
+id: whitman-hanson-ma/school-committee-member
+organization_id: ocd-organization/b10fe4cb-2ab7-4011-8f16-77f4712bbcad
+title: School Committee Member
+seats: 10
+sources:
+- url: https://cdnsm5-ss10.sharpschool.com/UserFiles/Servers/Server_18535382/File/Budget/WHRSD%20FY%2017%20Financial%20Statements.pdf
+  retrieved: '2026-09-20'
+- url: https://www.mass.gov/doc/whitman-hanson-ese-district-review-report-2014-0/download
+  retrieved: '2026-09-20'

@@ -1,0 +1,13 @@
+# Consolidates 1 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - wenham-ma-regional-school-committee.yaml
+id: hamilton-wenham-ma/school-committee-member
+organization_id: ocd-organization/2479100f-9c44-4bdc-a2e2-63e96c49b686
+title: School Committee Member
+seats: 7
+sources:
+- url: http://www.hwschools.net/uploaded/District/Documents_PDF's/14-15/HWRSD_Regional_Agreement_May_2010_Amended_2.13.14.pdf
+  retrieved: '2026-09-20'

@@ -1,0 +1,13 @@
+# Consolidates 1 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - hawley-ma-hawlemont-school-committee-member.yaml
+id: hawlemont-ma/school-committee-member
+organization_id: ocd-organization/a62977c7-1ff5-4d7c-b67e-876701cec6fc
+title: School Committee Member
+seats: 6
+sources:
+- url: https://townofhawley.com/wp-content/uploads/2023/09/2018-Hawley-Annual-Town-Report.pdf
+  retrieved: '2026-09-20'

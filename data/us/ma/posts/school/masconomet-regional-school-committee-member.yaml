@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - boxford-ma-regional-school-committee-member.yaml
+# - middleton-ma-regional-school-committee-member.yaml
+# - topsfield-ma-masconomet-regional-school-committee.yaml
+id: masconomet-ma/school-committee-member
+organization_id: ocd-organization/335a5547-6915-4b0a-aa84-350df952aa00
+title: School Committee Member
+seats: 11
+sources:
+- url: https://www.masconomet.org/school-committee/about/masconomet-regional-agreement
+  retrieved: '2026-09-20'

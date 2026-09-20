@@ -1,0 +1,16 @@
+# Consolidates 2 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - new-salem-ma-swift-river-school-committee.yaml
+# - wendell-ma-swift-river-school-committee.yaml
+id: new-salem-wendell-ma/school-committee-member
+organization_id: ocd-organization/afdc4ac0-f100-4084-b608-bc02c288cc34
+title: School Committee Member
+seats: 10
+sources:
+- url: https://cdnsm5-ss5.sharpschool.com/UserFiles/Servers/Server_3148216/File/BDA%20By-Laws%20of%20the%20New%20Salem%20Wendell%20Union%20School%20Committee%20Final%20Vote%2005-03-18.pdf
+  retrieved: '2026-09-20'
+- url: https://cdnsm5-ss5.sharpschool.com/UserFiles/Servers/Server_3148216/File/Family%20Handbook/XI.%20Swift%20River%20School%20Committee.pdf
+  retrieved: '2026-09-20'
