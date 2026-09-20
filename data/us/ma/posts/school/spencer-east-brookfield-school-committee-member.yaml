@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (east-brookfield-ma-regional-school-committee-member.yaml, spencer-ma-spencer-east-brookfield-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: spencer-east-brookfield-ma/school-committee-member
+organization_id: ocd-organization/fb387b60-f3ff-401b-8239-d2ab5eb357a2
+title: School Committee Member
+seats: 7
+sources:
+- url: https://eastbrookfieldma.us/DocumentCenter/View/345/Town-Government
+  retrieved: '2026-08-19'
+- url: https://www.spencerma.gov/DocumentCenter/View/3988/2025-Annual-Town-Report
+  retrieved: '2026-08-25'

@@ -1,0 +1,11 @@
+# Consolidates 2 per-town posts (phillipston-ma-narragansett-regional-school-committee-member.yaml, templeton-ma-narragansett-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: narragansett-ma/school-committee-member
+organization_id: ocd-organization/5f8b4607-0dd4-45c7-ac3b-e0124c81e607
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.phillipston-ma.gov/DocumentCenter/View/966/2025-ATR
+  retrieved: '2026-08-25'
+- url: https://www.templetonma.gov/1309/Annual-Special-State-Election-Informatio
+  note: 'The Narragansett Regional School District Committee has 8 members under the regional agreement (M.G.L. c. 71 s.14B and s.16E), apportioned 4 to Templeton and 4 to Phillipston. This post covers only Templeton''s four apportioned seats; Phillipston''s belong to that town. Note both member towns vote on the district''s seats, so Phillipston-apportioned seats also appear on Templeton ballots and are deliberately excluded here.'
+  retrieved: '2026-09-07'

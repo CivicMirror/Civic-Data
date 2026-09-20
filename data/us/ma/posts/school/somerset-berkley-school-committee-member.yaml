@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (berkley-ma-regional-school-committee-member.yaml, somerset-ma-somerset-berkley-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: somerset-berkley-ma/school-committee-member
+organization_id: ocd-organization/3511b894-087c-468a-af0c-d2808b33643b
+title: School Committee Member
+seats: 5
+sources:
+- url: https://townofberkleyma.gov/regional-boards-committees/
+  retrieved: '2026-09-14'
+- url: https://www.townofsomerset.org/314/Elected-Officials
+  retrieved: '2026-08-25'

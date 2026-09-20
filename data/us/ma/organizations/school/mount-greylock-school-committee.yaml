@@ -1,0 +1,16 @@
+id: ocd-organization/e6d592dc-35b6-46ec-ab3a-18f74924597e
+name: Mount Greylock Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:mount-greylock/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '07150000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.mgrhs.org/page/school-committee
+  retrieved: '2026-08-19'
+- url: https://williamstownma.gov/get-involved/
+  retrieved: '2026-08-25'
+- url: https://www.mgrsd.org/school-committee/mgrsd-school-committee
+  note: 'Corrected seats from 7 (the whole district committee''s size) to 4 -- MGRSD''s own page states "Williamstown has four members, while Lanesborough has three." The 3 Lanesborough-designated members previously minted under this post were moved to lanesborough-ma/regional-school-committee-member.'
+  retrieved: '2026-09-16'

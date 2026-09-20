@@ -1,0 +1,13 @@
+# Consolidates 2 per-town posts (lanesborough-ma-regional-school-committee-member.yaml, williamstown-ma-mount-greylock-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: mount-greylock-ma/school-committee-member
+organization_id: ocd-organization/e6d592dc-35b6-46ec-ab3a-18f74924597e
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.mgrhs.org/page/school-committee
+  retrieved: '2026-08-19'
+- url: https://williamstownma.gov/get-involved/
+  retrieved: '2026-08-25'
+- url: https://www.mgrsd.org/school-committee/mgrsd-school-committee
+  note: 'Corrected seats from 7 (the whole district committee''s size) to 4 -- MGRSD''s own page states "Williamstown has four members, while Lanesborough has three." The 3 Lanesborough-designated members previously minted under this post were moved to lanesborough-ma/regional-school-committee-member.'
+  retrieved: '2026-09-16'

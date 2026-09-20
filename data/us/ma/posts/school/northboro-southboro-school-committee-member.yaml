@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (northborough-ma-northborough-southborough-regional-school-committee-member.yaml, southborough-ma-northborough-southborough-regional-school-committee-southborough-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: northboro-southboro-ma/school-committee-member
+organization_id: ocd-organization/9e8beb36-e8a9-427f-a58e-ced904e6828f
+title: School Committee Member
+seats: 10
+sources:
+- url: https://ecode360.com/41986273
+  retrieved: '2026-08-25'
+- url: https://www.southboroughma.gov/AgendaCenter/ViewFile/Minutes/_04282026-6779
+  retrieved: '2026-08-25'

@@ -1,0 +1,23 @@
+id: ocd-organization/bd7497c3-be3a-49a4-a84b-df223a3b36e2
+name: Frontier Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:frontier/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '06700000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://conwayma.gov/files/Annual_Report_Conway_FY25.pdf
+  retrieved: '2026-08-31'
+- url: https://policies.sparqdata.com/masc/browse/frontierset/frontier/BB-1
+  note: 'Frontier Regional School District Agreement policy BB-1 ("File: BB-1 - REGIONAL AGREEMENT"), Section I: 11-member Committee total (4 Deerfield, 3 Sunderland, 2 Whately, 2 Conway), but only 7 of those are elected -- one seat per town is appointed annually (1-year term) by that town''s own local school committee: 3 elected + 1 appointed Deerfield, 2 elected + 1 appointed Sunderland, 1 elected + 1 appointed Conway, 1 elected + 1 appointed Whately. This post/org tracks only the 7 elected seats, matching this repo''s existing convention for appointed/ex-officio seats mixed into an otherwise-elected body (see e.g. the Smith Vocational and Agricultural Board of Trustees org, and Northampton/Agawam''s mayor-ex-officio school committee seats).'
+  retrieved: '2026-09-18'
+- url: https://github.com/CivicMirror/Civic-Data/issues/75#issuecomment-5750965990
+  note: Confirms the elected/appointed split above (Deerfield 3/1, Sunderland 2/1, Conway 1/1, Whately 1/1) and the weighted-voting/quorum rules for the elected seats' votes, cross-checking the BB-1 policy page.
+  retrieved: '2026-09-20'
+- url: https://www.deerfieldma.us/DocumentCenter/View/2132/Deerfield-2024-Town-Election-Official-Results?bidId=
+  retrieved: '2026-09-18'
+- url: https://www.townofsunderland.us/home/files/annual-report-2024-final
+  retrieved: '2026-08-25'
+- url: https://www.whately.org/town-clerk/minutes/special-town-meeting-minutes-1
+  retrieved: '2026-08-25'
