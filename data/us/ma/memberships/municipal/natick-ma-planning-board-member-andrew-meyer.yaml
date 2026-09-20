@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: natick-ma-planning-board-member-andrew-meyer
+person_id: ocd-person/8a7cfe53-980c-5218-8558-f6832fd7842b
+organization_id: ocd-organization/a0738983-7b50-5a65-b5af-d689b1a2320e
+post_id: natick-ma/planning-board-member
+role: Planning Board Member
+how_seated: elected
+sources:
+- url: https://natickma.granicus.com/boards/w/66ad2027862a4b1e/members
+  note: Town's official Granicus board-management roster, filtered to Planning Board entries with exact term-end dates (Raymond D. Powell, elected to a short 2026-2027 term consistent with the board's separately-elected 2-year Associate Member seat, excluded)
+  retrieved: '2026-09-20'
+end: '2029-03-27'

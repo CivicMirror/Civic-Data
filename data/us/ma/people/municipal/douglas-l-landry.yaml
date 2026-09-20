@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/045df91f-66a8-5cfc-8344-a6db5ceaa9dd
+name: Douglas L. Landry
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://natickma.granicus.com/boards/w/66ad2027862a4b1e/members
+  note: Town's official Granicus board-management roster, filtered to Planning Board entries with exact term-end dates (Raymond D. Powell, elected to a short 2026-2027 term consistent with the board's separately-elected 2-year Associate Member seat, excluded)
+  retrieved: '2026-09-20'
