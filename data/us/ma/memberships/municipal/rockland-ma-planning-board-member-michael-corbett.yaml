@@ -1,0 +1,16 @@
+# Resolving the Rockland Planning Board zero-holder gap surfaced in
+# issue #46. Sourced from Rockland's OnBoardGOV/Clerkbase board page,
+# fetched through FlareSolverr (the site is a JS SPA that fully renders
+# once the client-side app loads; earlier attempts that didn't wait for
+# render saw only a vacancy count, not the actual roster).
+id: rockland-ma-planning-board-member-michael-corbett
+person_id: ocd-person/f2ebcc52-c93d-446a-ae32-9c3bce3f43f1
+organization_id: ocd-organization/af21a3a1-d3c9-5850-8ea2-9afff5ee0b1c
+post_id: rockland-ma/planning-board-member
+role: Planning Board Chair
+how_seated: elected
+sources:
+- url: https://onboard.rockland-ma.gov/board/2470
+  note: 'OnBoardGOV/Clerkbase "Board Member Seats" table -- Chairman, Elected, Active, term 4/8/2022 - 4/7/2027'
+  retrieved: '2026-09-19'
+end: '2027'
