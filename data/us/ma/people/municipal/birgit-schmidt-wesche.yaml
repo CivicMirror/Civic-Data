@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/e21c28e9-c134-58ec-a21c-d1b7e5566e19
+name: Birgit Schmidt-Wesche
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.cohassetma.gov/214/Planning-Board
+  note: Town's official Planning Board page, current 5-member roster with term-expiration years (Dana Eagles, Associate Member elected to a 1-year vacancy-fill term, excluded)
+  retrieved: '2026-09-20'
