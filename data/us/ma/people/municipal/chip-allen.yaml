@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/332ff42a-4108-572b-a819-426058ced07c
+name: Chip Allen
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-20'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.montereyma.gov/planning-board/minutes/planning-board-meeting-minutes-040926
+  note: 'Town''s own official Planning Board meeting minutes (April 9, 2026), fetched via FlareSolverr: ''Planning Board members in attendance: Tom Sawyer, Laura Mensi, Mort Salomon, Josh Webb, Margy Abbott, Lauren Behrman, Chip Allen'' -- Mensi already on file, the other 6 complete the 7-seat board.'
+  retrieved: '2026-09-20'
