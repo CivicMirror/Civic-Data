@@ -1,0 +1,16 @@
+id: ocd-organization/2f6e860c-2fb9-4eb3-9c62-8f29fd705c0b
+name: Lincoln-Sudbury Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:lincoln-sudbury/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '06950000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.lincolntown.org/DocumentCenter/View/96611/2025-Annual-Town-Report-PDF
+  retrieved: '2026-08-25'
+- url: https://sudbury.ma.us/lsschoolcomm/members/
+  note: 'Lincoln-Sudbury Regional High School Committee members page (JS-rendered; fetched via FlareSolverr): 6 total members. Cross-checked against sudbury-ma/lincoln-sudbury-regional-school-committee (5 seats, elected, all filled) to derive Lincoln''s remaining allocation of 1.'
+  retrieved: '2026-09-18'
+- url: https://sudbury.ma.us/officials/
+  retrieved: '2026-08-25'

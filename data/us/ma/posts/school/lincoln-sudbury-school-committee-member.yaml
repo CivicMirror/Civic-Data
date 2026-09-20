@@ -1,0 +1,13 @@
+# Consolidates 2 per-town posts (lincoln-ma-lincoln-sudbury-regional-school-committee.yaml, sudbury-ma-lincoln-sudbury-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: lincoln-sudbury-ma/school-committee-member
+organization_id: ocd-organization/2f6e860c-2fb9-4eb3-9c62-8f29fd705c0b
+title: School Committee Member
+seats: 6
+sources:
+- url: https://www.lincolntown.org/DocumentCenter/View/96611/2025-Annual-Town-Report-PDF
+  retrieved: '2026-08-25'
+- url: https://sudbury.ma.us/lsschoolcomm/members/
+  note: 'Lincoln-Sudbury Regional High School Committee members page (JS-rendered; fetched via FlareSolverr): 6 total members. Cross-checked against sudbury-ma/lincoln-sudbury-regional-school-committee (5 seats, elected, all filled) to derive Lincoln''s remaining allocation of 1.'
+  retrieved: '2026-09-18'
+- url: https://sudbury.ma.us/officials/
+  retrieved: '2026-08-25'

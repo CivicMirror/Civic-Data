@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (freetown-ma-regional-school-committee-member.yaml, lakeville-ma-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: freetown-lakeville-ma/school-committee-member
+organization_id: ocd-organization/9c2284bb-d78f-4f50-afb3-4a502018f681
+title: School Committee Member
+seats: 8
+sources:
+- url: https://www.freetownma.gov/1296/Elected-Officials-Federal-State-Local
+  retrieved: '2026-08-19'
+- url: https://www.lakevillema.org/678/Election-Elected-Town-Officials
+  retrieved: '2026-08-19'
