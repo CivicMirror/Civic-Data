@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/e89a3825-cd5d-535d-9ff0-1e81626c2158
+name: Brad Piesco
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://westbridgewaterma.org/departments/board_of_health/index.php
+  note: Live Board of Health page lists Chairman/Clerk/Member; town's General By-Laws (Article on elected officers) confirm 3 elected Board of Health members, 3-year staggered terms. No per-member term-end dates published on the page.
+  retrieved: '2026-09-18'
