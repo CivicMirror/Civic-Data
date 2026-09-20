@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/61496a97-a651-5dc7-b42d-e2f69c4c94c2
+name: Linda Simpson
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://westbridgewaterma.org/departments/board_of_health/index.php
+  note: Live Board of Health page lists Chairman/Clerk/Member; town's General By-Laws (Article on elected officers) confirm 3 elected Board of Health members, 3-year staggered terms. No per-member term-end dates published on the page.
+  retrieved: '2026-09-18'

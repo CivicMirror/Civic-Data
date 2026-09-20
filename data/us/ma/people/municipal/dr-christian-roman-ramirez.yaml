@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/005edc59-f412-52c0-b0b2-f105e7958d1b
+name: Dr. Christian Roman-Ramirez
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-18'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townsendma.gov/departments/health_department/index.php
+  note: Board of Health page listing Chair, Vice-Chair, Clerk with term-end dates; charter (ecode360 45784886) Article 3 Section 3-6 confirms Board of Health is an elected office.
+  retrieved: '2026-09-18'
