@@ -1,0 +1,12 @@
+# Consolidates 3 per-town posts (newbury-ma-triton-regional-school-committee-member.yaml, rowley-ma-triton-regional-school-committee-member.yaml, salisbury-ma-triton-regional-school-committee-member-salisbury.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: triton-ma/school-committee-member
+organization_id: ocd-organization/5925aa14-e20a-4f40-81c2-4886fea5fc39
+title: School Committee Member
+seats: 9
+sources:
+- url: https://malegislature.gov/Laws/SessionLaws/Acts/2008/Chapter460
+  retrieved: '2026-08-21'
+- url: https://www.townofrowley.net/DocumentCenter/View/3922/Elected-Officials
+  retrieved: '2026-08-25'
+- url: https://www.salisburyma.gov/sites/g/files/vyhlif1166/f/uploads/salisbury-sample_ballot_5-12-2026_town_election.pdf
+  retrieved: '2026-08-25'

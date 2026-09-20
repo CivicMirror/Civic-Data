@@ -1,0 +1,10 @@
+# Consolidates 3 per-town posts (bernardston-ma-regional-school-committee-member.yaml, leyden-ma-regional-school-committee-member.yaml, northfield-ma-pioneer-valley-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: pioneer-valley-ma/school-committee-member
+organization_id: ocd-organization/94e6f79d-021e-4e28-8b6e-0170ab70ec0a
+title: School Committee Member
+seats: 9
+sources:
+- url: https://www.townofbernardston.org/home-page/page/school-committees
+  retrieved: '2026-09-14'
+- url: https://www.pvrsdk12.org/school-committee/members-elections
+  retrieved: '2026-08-25'

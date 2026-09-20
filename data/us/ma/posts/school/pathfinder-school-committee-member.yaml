@@ -1,0 +1,15 @@
+# Consolidates 9 per-town posts (belchertown-ma-pathfinder-regional-school-committee-member.yaml, granby-ma-pathfinder-regional-school-committee-member.yaml, hardwick-ma-pathfinder-regional-school-committee-member.yaml, monson-ma-pathfinder-regional-vocational-school-committee-member.yaml, new-braintree-ma-pathfinder-regional-vocational-school-committee-member.yaml, oakham-ma-pathfinder-regional-school-committee-member.yaml, palmer-ma-pathfinder-regional-school-committee-member.yaml, ware-ma-pathfinder-regional-school-committee-member.yaml, warren-ma-pathfinder-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: pathfinder-ma/school-committee-member
+organization_id: ocd-organization/c07e2553-f8b3-41df-84f6-78a7eafe1a2c
+title: School Committee Member
+seats: 12
+sources:
+- url: https://ma-belchertown.civicplus.com/DocumentCenter/View/8111/2026-Officers
+  retrieved: '2026-09-15'
+- url: https://pathfindertech.org/school-committe/
+  note: 'Pathfinder Regional School Committee''s own roster page (9 member towns; Belchertown and Palmer and Ware each seat 2, others 1).'
+  retrieved: '2026-09-18'
+- url: https://www.newbraintree.org/warrant.html
+  retrieved: '2026-08-21'
+- url: https://www.hardwick-ma.gov/media/6606
+  retrieved: '2026-09-14'

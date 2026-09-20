@@ -1,0 +1,25 @@
+# Consolidates 8 per-town posts (ashfield-ma-regional-school-committee-member.yaml, buckland-ma-mohawk-trail-regional-school-committee-member.yaml, charlemont-ma-regional-school-committee-member.yaml, colrain-ma-regional-school-committee-member.yaml, hawley-ma-mohawk-trail-school-committee-member.yaml, heath-ma-regional-school-committee-member.yaml, plainfield-ma-mohawk-trail-regional-school-committee-member.yaml, shelburne-ma-mohawk-trail-regional-school-committee-member-shelburne.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: mohawk-trail-ma/school-committee-member
+organization_id: ocd-organization/38f0a252-7eca-49e6-8957-462db44438d4
+title: School Committee Member
+seats: 15
+sources:
+- url: https://www.ashfield.org/2235/Schools
+  retrieved: '2026-09-14'
+- url: https://www.town.buckland.ma.us/sites/g/files/vyhlif356/f/uploads/ate_results_with_signature_6.2.26.pdf
+  retrieved: '2026-08-28'
+- url: https://charlemont-ma.us/files/January_2026_Newsletter.pdf
+  retrieved: '2026-08-19'
+- url: https://charlemont-ma.us/p/85/Mohawk-School-Committee
+  note: 'Stale seat count corrected 1 -> 2, matching MTRSD''s standard "two representatives from each member town" (already confirmed for Ashfield elsewhere in this issue). The town''s own page lists one filled seat (Evelyn Locke) and one explicitly "Vacant."'
+  retrieved: '2026-09-16'
+- url: https://colrain-ma.gov/g/55/Mohawk-Trail-Regional-School-Committee
+  retrieved: '2026-09-14'
+- url: https://townofhawley.com/mtrsd-schl-comm/
+  retrieved: '2026-08-19'
+- url: https://townofheath.org/g/88/Mohawk-District-School-Committee
+  retrieved: '2026-09-14'
+- url: https://www.plainfield-ma.us/media/2691
+  retrieved: '2026-08-25'
+- url: https://townofshelburnema.gov/files/2022_Annual_Town_Election_Results.pdf
+  retrieved: '2026-08-25'

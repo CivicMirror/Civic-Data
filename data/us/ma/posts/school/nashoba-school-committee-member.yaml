@@ -1,0 +1,10 @@
+# Consolidates 3 per-town posts (bolton-ma-regional-school-committee-member.yaml, lancaster-ma-regional-school-committee-member.yaml, stow-ma-nashoba-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: nashoba-ma/school-committee-member
+organization_id: ocd-organization/dc84e4af-dc4d-4a67-849f-b657f5aa5df6
+title: School Committee Member
+seats: 11
+sources:
+- url: https://masscivics.com/bolton/school-committee/
+  retrieved: '2026-09-14'
+- url: https://www.stow-ma.gov/DocumentCenter/View/8160/Town-Charter-PDF
+  retrieved: '2026-08-25'

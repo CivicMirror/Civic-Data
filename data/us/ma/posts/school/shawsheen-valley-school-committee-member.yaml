@@ -1,0 +1,13 @@
+# Consolidates 5 per-town posts (bedford-ma-shawsheen-valley-tech-school-committee.yaml, billerica-ma-shawsheen-valley-tech-school-committee.yaml, burlington-ma-shawsheen-valley-tech-school-committee.yaml, tewksbury-ma-shawsheen-regional-vocational-school-committee.yaml, wilmington-ma-shawsheen-valley-tech-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: shawsheen-valley-ma/school-committee-member
+organization_id: ocd-organization/c5d3bac1-e8a5-4455-835b-a2529c693c98
+title: School Committee Member
+seats: 10
+sources:
+- url: https://www.shawsheentech.org/page/school-committee
+  note: 'User-supplied Regional Agreement PDF (currently posted on the district site, no amendment on file changing seat allocation): Section I(A) -- Committee consists of two members from each of the five member towns (Bedford, Billerica, Burlington, Tewksbury, Wilmington), elected at annual town elections to 3-year terms.'
+  retrieved: '2026-09-18'
+- url: https://www.tewksbury-ma.gov/FAQ.aspx?QID=205
+  retrieved: '2026-08-25'
+- url: https://www.wilmingtonma.gov/sites/g/files/vyhlif12671/f/uploads/town_by-laws.pdf
+  retrieved: '2026-08-25'

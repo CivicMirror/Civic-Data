@@ -1,0 +1,10 @@
+# Consolidates 3 per-town posts (norfolk-ma-king-philip-regional-school-committee-member.yaml, plainville-ma-king-philip-regional-school-committee-member.yaml, wrentham-ma-king-philip-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: king-philip-ma/school-committee-member
+organization_id: ocd-organization/e99df31d-b3c9-4971-9462-ab2206453d30
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.kingphilip.org/about/school-committee/
+  retrieved: '2026-08-24'
+- url: https://www.wrentham.gov/DocumentCenter/View/6918/2026-Annual-Town-Election-Specimen-Ballot-PDF
+  retrieved: '2026-08-25'
