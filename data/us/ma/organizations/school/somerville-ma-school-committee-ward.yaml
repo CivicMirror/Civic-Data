@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Somerville's ward-elected school committee
+# (previously modeled under the municipal jurisdiction as
+# somerville-ma/ward-school-committee-member) is the elected board of DESE
+# single-town district 02740000 ("Somerville"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/0c8cf373-6eef-49a0-9666-54b4b9a9e5a1
+name: Somerville School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:somerville/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: somerville-ma/school-committee-ward
+- scheme: dese-org-code
+  identifier: '02740000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.somervillema.gov/government
+  retrieved: '2026-08-25'

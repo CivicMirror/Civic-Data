@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Rochester's Rochester Memorial school committee
+# (previously modeled under the municipal jurisdiction as
+# rochester-ma/rochester-memorial-school-committee-member) is the elected board of DESE
+# single-town district 02500000 ("Rochester"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/2b3460be-5d1e-4cbb-a6ce-72750664c397
+name: Rochester School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:rochester/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: rochester-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '02500000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.townofrochestermass.com/sites/g/files/vyhlif5446/f/events/fy2027_atm_warrant_-_stamped.pdf
+  retrieved: '2026-08-25'

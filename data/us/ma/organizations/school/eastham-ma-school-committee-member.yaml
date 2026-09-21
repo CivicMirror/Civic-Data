@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Eastham's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# eastham-ma/elementary-school-committee-member) is the elected board of DESE
+# single-town district 00850000 ("Eastham"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/922f26ef-fdf7-4161-8a81-16c53c1a01c9
+name: Eastham School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:eastham/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: eastham-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '00850000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.nausetschools.org/page/eastham-school-committee
+  retrieved: '2026-08-19'

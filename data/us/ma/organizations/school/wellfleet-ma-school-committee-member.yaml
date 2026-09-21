@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Wellfleet's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# wellfleet-ma/elementary-school-committee) is the elected board of DESE
+# single-town district 03180000 ("Wellfleet"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/d9740042-65a2-4314-8a1a-1c47935ec85e
+name: Wellfleet School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:wellfleet/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: wellfleet-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '03180000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.wellfleet-ma.gov/202/Wellfleet-Elementary-School-Committee
+  retrieved: '2026-08-25'

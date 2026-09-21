@@ -1,0 +1,14 @@
+# District-first remodel, issue #78: Eastham is a single-town operating
+# district (DESE dist_code 00850000), previously modeled only via
+# municipal-jurisdiction school-committee orgs. DESE treats single-town
+# entities as Districts (Walter's 2026-09-21 decision drops the
+# "elementary"/"local"/"grammar" qualifiers to match the other districts).
+id: ocd-jurisdiction/country:us/state:ma/school_district:eastham/school
+name: Eastham Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:eastham
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00850000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): "Eastham" (dist_code 00850000) is listed as a district with Eastham as a resident/member town, i.e. a single-town operating district.'
+  retrieved: '2026-09-21'

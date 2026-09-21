@@ -1,0 +1,12 @@
+# District-first remodel, issue #78: Lowell Public Schools is a
+# single-town operating district (DESE dist_code 01600000), previously
+# modeled only via municipal-jurisdiction school-committee orgs.
+id: ocd-jurisdiction/country:us/state:ma/school_district:lowell/school
+name: Lowell Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:lowell
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=01600000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Lowell is the sole resident/member town for dist_code 01600000 ("Lowell"), i.e. a single-town operating district.'
+  retrieved: '2026-09-21'

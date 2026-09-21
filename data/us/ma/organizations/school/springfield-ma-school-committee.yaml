@@ -1,0 +1,22 @@
+# District-first remodel, issue #78: consolidates the two municipal-
+# jurisdiction orgs (springfield-ma-school-committee-at-large,
+# springfield-ma-school-committee-district) into the one real district-
+# level body. Two post types under this org: 2 at-large seats and 4 ward
+# seats. The Mayor serves as chairman ex officio and is not modeled here.
+id: ocd-organization/a6d47eae-084f-404d-ab03-417f80c91bf6
+name: Springfield School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:springfield/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: springfield-ma/school-committee
+- scheme: dese-org-code
+  identifier: '02810000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://sps.ss18.sharpschool.com/school_committee
+  note: 'Springfield Public Schools official: "The Springfield School Committee consists of the Mayor, who serves as Chairman; two members elected at-large; and four members elected by ward representation."'
+  retrieved: '2026-09-21'
+- url: https://www.springfield-ma.gov/elections/votecounts.php
+  note: 'City of Springfield official election results (sourcing the seated members'' election).'
+  retrieved: '2026-08-25'
