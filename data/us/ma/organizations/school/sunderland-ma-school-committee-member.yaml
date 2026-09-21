@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Sunderland's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# sunderland-ma/elementary-school-committee) is the elected board of DESE
+# single-town district 02890000 ("Sunderland"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/8a748747-7889-4faf-8128-212e80c98c61
+name: Sunderland School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:sunderland/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: sunderland-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '02890000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.townofsunderland.us/home/files/annual-report-2024-final
+  retrieved: '2026-08-25'

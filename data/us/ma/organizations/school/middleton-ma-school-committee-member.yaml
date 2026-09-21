@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Middleton's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# middleton-ma/elementary-school-committee-member) is the elected board of DESE
+# single-town district 01840000 ("Middleton"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/ffc250c0-aa00-4e44-96d6-325607807180
+name: Middleton School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:middleton/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: middleton-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '01840000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://middletonma.gov/537/Town-Officials---Elected
+  retrieved: '2026-08-20'

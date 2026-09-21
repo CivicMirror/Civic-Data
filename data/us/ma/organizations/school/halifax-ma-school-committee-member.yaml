@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Halifax's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# halifax-ma/elementary-school-committee-member) is the elected board of DESE
+# single-town district 01180000 ("Halifax"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/6e18fd96-8bf4-4c30-8f78-07d957ccfb7f
+name: Halifax School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:halifax/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: halifax-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '01180000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.halifaxma.gov/DocumentCenter/View/7649
+  retrieved: '2026-08-19'

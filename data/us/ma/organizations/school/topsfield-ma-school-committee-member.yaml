@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Topsfield's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# topsfield-ma/elementary-school-committee) is the elected board of DESE
+# single-town district 02980000 ("Topsfield"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/7f79244f-8bda-4946-a561-c3ef93637856
+name: Topsfield School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:topsfield/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: topsfield-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '02980000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.topsfield-ma.gov/DocumentCenter/View/8188/topsfield_annual_report_2025_online?bidId=
+  retrieved: '2026-08-25'

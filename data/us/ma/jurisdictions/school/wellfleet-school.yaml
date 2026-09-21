@@ -1,0 +1,14 @@
+# District-first remodel, issue #78: Wellfleet is a single-town operating
+# district (DESE dist_code 03180000), previously modeled only via
+# municipal-jurisdiction school-committee orgs. DESE treats single-town
+# entities as Districts (Walter's 2026-09-21 decision drops the
+# "elementary"/"local"/"grammar" qualifiers to match the other districts).
+id: ocd-jurisdiction/country:us/state:ma/school_district:wellfleet/school
+name: Wellfleet Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:wellfleet
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=03180000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): "Wellfleet" (dist_code 03180000) is listed as a district with Wellfleet as a resident/member town, i.e. a single-town operating district.'
+  retrieved: '2026-09-21'

@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Williamsburg's local school committee
+# (previously modeled under the municipal jurisdiction as
+# williamsburg-ma/local-school-committee) is the elected board of DESE
+# single-town district 03400000 ("Williamsburg"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/ed90b9f6-3feb-440d-8d76-9a787afb28a0
+name: Williamsburg School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:williamsburg/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: williamsburg-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '03400000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.burgy.org/town-clerk/files/williamsburg-annual-town-election-ballot-2026
+  retrieved: '2026-08-25'

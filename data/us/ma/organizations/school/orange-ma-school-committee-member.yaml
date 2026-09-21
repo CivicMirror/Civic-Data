@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Orange's elementary school committee
+# (previously modeled under the municipal jurisdiction as
+# orange-ma/elementary-school-committee-member) is the elected board of DESE
+# single-town district 02230000 ("Orange"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/01d24d6e-f53e-4e86-a333-d851f5db9e8b
+name: Orange School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:orange/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: orange-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '02230000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.townoforange.org/214/Elections
+  retrieved: '2026-08-25'

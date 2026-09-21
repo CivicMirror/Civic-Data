@@ -1,0 +1,18 @@
+# District-first remodel, issue #78: Conway's grammar school committee
+# (previously modeled under the municipal jurisdiction as
+# conway-ma/grammar-school-committee) is the elected board of DESE
+# single-town district 00680000 ("Conway"). Qualifiers dropped per
+# Walter's 2026-09-21 decision; DESE treats single-town entities as Districts.
+id: ocd-organization/df92326c-40bc-423c-822e-256ea646ffe2
+name: Conway School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:conway/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: conway-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '00680000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://conwayma.gov/files/Annual_Report_Conway_FY25.pdf
+  retrieved: '2026-08-31'
