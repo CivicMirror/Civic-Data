@@ -141,6 +141,14 @@ def validate(data_dir: Path = DATA_DIR, schema_dir: Path = SCHEMA_DIR) -> int:
         else:
             warn(f"{path}: unrecognized data directory '{kind}', skipped")
 
+    for org_id, org in organizations.items():
+        total_seats = org.get("total_seats")
+        if total_seats is None:
+            continue
+        tracked_seats = sum(post["seats"] for post in posts.values() if post["organization_id"] == org_id)
+        if total_seats < tracked_seats:
+            error(f"{file_of[org_id]}: organization '{org_id}' total_seats ({total_seats}) is less than the sum of its posts' seats ({tracked_seats})")
+
     for person_id, person in people.items():
         path = file_of[person_id]
         for candidacy in person["candidacies"]:
