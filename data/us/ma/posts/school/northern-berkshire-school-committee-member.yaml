@@ -1,0 +1,13 @@
+# One post for the whole district committee, seats: 16, replacing
+# Williamstown's per-town post (2 seats) that was one fragment of it.
+# Each holder's town-designated seat is recorded on their membership's
+# `seat` field, the same mechanism this repo already uses for other
+# regional districts -- see docs/ARCHITECTURE.md section 7.
+id: northern-berkshire-regional-ma/school-committee-member
+organization_id: ocd-organization/d8691115-42e0-4d29-af3f-3a339904c3a8
+title: School Committee Member
+seats: 16
+sources:
+- url: https://www.mccanntech.org/about/history
+  note: 'Regional Agreement Section II(A)(2): 16 total seats -- North Adams (5), Adams (3), Cheshire (1), Clarksburg (1), Florida (1), Lanesborough (1), Monroe (1), Savoy (1), Williamstown (2).'
+  retrieved: '2026-09-21'

@@ -1,0 +1,13 @@
+# One post for the whole district committee, seats: 5, replacing 2
+# separate per-town posts (Otis 3, Sandisfield 2) that summed to the
+# same total. Each holder's town-designated seat is recorded on their
+# membership's `seat` field, the same mechanism this repo already uses
+# for other regional districts -- see docs/ARCHITECTURE.md section 7.
+id: farmington-river-regional-ma/school-committee-member
+organization_id: ocd-organization/5bdf0c3b-b3aa-4dec-a550-56b9d3bd776a
+title: School Committee Member
+seats: 5
+sources:
+- url: https://frrsd.org/wp-content/uploads/2025/05/FRRSD-RDA-Commissioner-approval-April-2025.pdf
+  note: 'Regional Agreement Section A: 5 total seats -- 3 Otis, 2 Sandisfield (2020 census apportionment).'
+  retrieved: '2026-09-21'
