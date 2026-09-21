@@ -1,3 +1,9 @@
+# PROTOTYPE -- migrated from data/us/ma/memberships/municipal/,
+# as part of the district-first remodel discussed in issue #45
+# issue #45 (Quabbin consolidated from 5 per-town posts into one
+# district post; this person's town-designated seat now lives in
+# the `seat` field instead of the post/org split). Original
+# provenance comment below.
 # Sourced from the 2025 Hardwick, MA Annual Town Election Warrant/
 # specimen ballot (https://www.hardwick-ma.gov/media/7161), retrieved 2026-08-26 -- an
 # unopposed candidate here is treated as elected (MA town elections
@@ -7,8 +13,9 @@
 # CivicPatch-comparison follow-up; see the record's sources for provenance.
 id: hardwick-ma-quabbin-regional-school-committee-member-garvey
 person_id: ocd-person/23b45464-2244-490b-8685-f52049c9f653
-organization_id: ocd-organization/26efd7fc-ae2c-4ff4-b452-37a9b5e39b92
-post_id: hardwick-ma/quabbin-regional-school-committee-member
+organization_id: ocd-organization/dbbb6df9-b415-40b1-a64d-936148d73aa9
+post_id: quabbin-regional-ma/school-committee-member
+seat: Hardwick
 role: K-12 Quabbin Regional School Committee Member
 sources:
 - url: https://www.hardwick-ma.gov/media/7161

@@ -1,0 +1,24 @@
+# PROTOTYPE -- migrated from data/us/ma/memberships/municipal/,
+# as part of the district-first remodel discussed in issue #45
+# issue #45 (Quabbin consolidated from 5 per-town posts into one
+# district post; this person's town-designated seat now lives in
+# the `seat` field instead of the post/org split). Original
+# provenance comment below.
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: oakham-ma-school-committee-member-walter-h-nutter
+person_id: ocd-person/396101f0-9642-5ce5-a601-3f72a35a8b7c
+organization_id: ocd-organization/dbbb6df9-b415-40b1-a64d-936148d73aa9
+post_id: quabbin-regional-ma/school-committee-member
+seat: Oakham
+role: School Committee Member
+how_seated: elected
+sources:
+- url: https://www.oakham-ma.gov/DocumentCenter/View/1016/Official-Annual-Town-Election-Results-5-18-2026pdf
+  note: '2026-05-18 Oakham Annual Town Election, official results: School Committee
+    -- Walter H. Nutter elected unopposed (320 votes; document OCRs the first name
+    as "WALTHER"), 3-year term. 1 of 2 seats not yet sourced.'
+  retrieved: '2026-09-16'
+end: '2029'

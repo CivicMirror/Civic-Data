@@ -1,0 +1,18 @@
+# PROTOTYPE -- district-first remodel for MA school committees, drafted
+# for review alongside the existing town-scoped records (see issue #45
+# discussion). Mirrors the TX ISD convention already used at
+# data/us/tx/jurisdictions/school/mexia-school.yaml: a school district is
+# its own jurisdiction, with its own OCD division spanning its member
+# towns, rather than a "government" jurisdiction embedded in one town.
+id: ocd-jurisdiction/country:us/state:ma/school_district:quabbin/school
+name: Quabbin Regional School District
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:quabbin
+classification: school
+sources:
+- url: https://www.hubbardstonma.gov/DocumentCenter/View/1409/Final-Draft----12-18-25-Working-Copy-Regional-Agreement?bidId=
+  note: 'Quabbin Regional School District Agreement, Section (B): 5 member towns (Barre, Hardwick, Hubbardston, New Braintree, Oakham), 15-member Committee (5/3/4/1/2).'
+  retrieved: '2026-09-17'
+- url: https://educationtocareer.data.mass.gov/resource/5izv-jyrd.json
+  note: 'DESE Chapter 70 district roster (Chapter 70 Foundation Budget and Net School Spending dataset), DIST_CODE 07530000, DIST_NAME "Quabbin" -- confirms this is DESE''s own operating-district unit, distinct from any one member town.'
+  retrieved: '2026-09-20'
