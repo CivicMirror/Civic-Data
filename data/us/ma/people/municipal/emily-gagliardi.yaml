@@ -1,14 +1,20 @@
-# Sourced from https://www.iberkshires.com/story/82563/2026-Town-Meeting-Election-Briefs.html, retrieved
-# 2026-08-31. Added by hand resolving the New Ashford Board of Health elected-office
-# item surfaced in issue #16's comment history (step-3 pass); see the
-# record's sources for provenance.
+# CORRECTED 2026-09-21 (issue #49): the iberkshires-sourced claim (elected
+# 2026, term ends 2029) is contradicted by the town clerk. Per the
+# clerk's 5/12/2026 post, Emilee Gagliardi was nominated for the 3-year
+# term at the 2026 caucus but "still had 1 year left in her present
+# term. She won the election in 2024. She will be up for re-election in
+# 2027." Correct record: elected 2024, term ends 2027. Name spelling
+# also corrected: Emilee, not Emily.
 id: ocd-person/82ec6fa7-e781-45ed-b0e2-eb643c14d144
-name: Emily Gagliardi
+name: Emilee Gagliardi
 candidacies: []
 verification:
   status: machine-extracted
-  reviewed_on: '2026-08-31'
-  pipeline: 'MA Municipality Research (issue #16 review queue)'
+  reviewed_on: '2026-09-21'
+  pipeline: ma-issue-49-backfill-2026-09-21
 sources:
 - url: https://www.iberkshires.com/story/82563/2026-Town-Meeting-Election-Briefs.html
   retrieved: '2026-08-31'
+- url: https://www.newashford-ma.us/from-the-clerks-office/
+  note: 'Town clerk''s 5/12/2026 post: Emilee Gagliardi was nominated for the 3-year term at the 2026 caucus but "still had 1 year left in her present term. She won the election in 2024. She will be up for re-election in 2027."'
+  retrieved: '2026-09-21'
