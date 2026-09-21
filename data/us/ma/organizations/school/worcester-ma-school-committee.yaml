@@ -1,0 +1,23 @@
+# District-first remodel, issue #78: consolidates the two municipal-
+# jurisdiction orgs (worcester-ma-school-committee-at-large,
+# worcester-ma-school-committee-district) into the one real district-
+# level body. Two post types under this org: 2 at-large seats and 6
+# district seats (districts A-F per Chapter 208 of the Acts of 2022).
+# The Mayor chairs ex officio and is not modeled here.
+id: ocd-organization/2f649b60-e41b-4b71-9e38-549f444f9843
+name: Worcester School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:worcester/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: worcester-ma/school-committee
+- scheme: dese-org-code
+  identifier: '03480000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.worcesterma.gov/media/8771
+  note: 'City of Worcester Clerk Department (2025 municipal election guide): "On September 1, 2022, Chapter 208 of the Acts of 2022 was signed into law that changed the Worcester City Charter starting with the 2023 Election. The School Committee will have SIX district seats and TWO at-large seats. The SIX districts are labelled as A, B, C, D, E, and F."'
+  retrieved: '2026-09-21'
+- url: https://www.worcesterma.gov/city-manager/documents/city-charter.pdf
+  note: 'Worcester City Charter (elected school committee).'
+  retrieved: '2026-08-25'

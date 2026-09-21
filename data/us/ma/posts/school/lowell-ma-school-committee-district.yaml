@@ -1,0 +1,14 @@
+# District-first remodel, issue #78: replaces the municipal-jurisdiction
+# post `lowell-ma/district-school-committee` (id normalized to match the
+# `school-committee-district` convention used by Springfield/Worcester);
+# now one of two post types under the Lowell School Committee
+# (school-district jurisdiction). Each holder's district is on their
+# membership's `seat` field.
+id: lowell-ma/school-committee-district
+organization_id: ocd-organization/52ab38b7-8e54-4f40-873b-d818c6bd7760
+title: District School Committee Member
+seats: 4
+sources:
+- url: https://www.lowellma.gov/DocumentCenter/View/23063/2025-Municipal-Election-Candidate-List-PDF
+  note: 'City of Lowell official 2025 Municipal Election candidate list: School Committee District seats are elected municipal offices.'
+  retrieved: '2026-08-25'

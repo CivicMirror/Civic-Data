@@ -1,0 +1,19 @@
+# District-first remodel, issue #78: consolidates the two municipal-
+# jurisdiction orgs (lowell-ma-school-committee-at-large,
+# lowell-ma-district-school-committee) into the one real district-level
+# body. Two post types under this org: 2 at-large seats and 4 district
+# seats, all elected at the municipal election.
+id: ocd-organization/52ab38b7-8e54-4f40-873b-d818c6bd7760
+name: Lowell School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:lowell/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: lowell-ma/school-committee
+- scheme: dese-org-code
+  identifier: '01600000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.lowellma.gov/DocumentCenter/View/23063/2025-Municipal-Election-Candidate-List-PDF
+  note: 'City of Lowell official 2025 Municipal Election candidate list: School Committee At-Large and School Committee District seats are elected municipal offices.'
+  retrieved: '2026-08-25'

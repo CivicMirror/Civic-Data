@@ -1,0 +1,12 @@
+# District-first remodel, issue #78: Worcester Public Schools is a
+# single-town operating district (DESE dist_code 03480000), previously
+# modeled only via municipal-jurisdiction school-committee orgs.
+id: ocd-jurisdiction/country:us/state:ma/school_district:worcester/school
+name: Worcester Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:worcester
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=03480000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Worcester is the sole resident/member town for dist_code 03480000 ("Worcester"), i.e. a single-town operating district.'
+  retrieved: '2026-09-21'
