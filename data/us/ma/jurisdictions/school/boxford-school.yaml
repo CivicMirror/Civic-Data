@@ -1,0 +1,17 @@
+# Net-new mint for issue #75 -- Boxford was one of three single-town
+# districts missed by the mechanical sweep (no local files existed at all;
+# the only Boxford files on disk were Masconomet Regional seats).
+# DESE dist_code 00380000. Elected: five members, 3-year terms, chosen at
+# the Annual Town Election (Tri-Town School Union: "each consist of five
+# elected citizens"; town meeting warrants list Boxford School Committee
+# seats on the ballot yearly).
+# Zero holders sourced yet -- roster backfill left open.
+id: ocd-jurisdiction/country:us/state:ma/school_district:boxford/school
+name: Boxford Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:boxford
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00380000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Boxford is the sole resident/member town for dist_code 00380000 ("Boxford"), i.e. a single-town operating district distinct from the Masconomet Regional district Boxford also belongs to.'
+  retrieved: '2026-09-21'

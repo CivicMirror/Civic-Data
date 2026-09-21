@@ -4,11 +4,14 @@
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
 id: ocd-organization/5d6aa588-0398-552f-a320-2af3d4d4874e
-name: Sudbury School Committee Member
-jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:sudbury/government
+name: Sudbury School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:sudbury/school
 identifiers:
 - scheme: civicmirror-office
-  identifier: sudbury-ma/sudbury-school-committee
+  identifier: sudbury-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '02880000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
 status: active
 sources:
 - url: https://sudbury.ma.us/officials/

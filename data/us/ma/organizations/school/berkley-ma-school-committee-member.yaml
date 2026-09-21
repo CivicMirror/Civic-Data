@@ -1,0 +1,19 @@
+# Net-new mint for issue #75 -- see the jurisdiction record's note.
+# Zero holders sourced yet -- roster backfill left open.
+id: ocd-organization/608a8a74-b600-45d3-838d-50ac481693e0
+name: Berkley School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:berkley/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: berkley-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '00270000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://townofberkleyma.gov/school-committee/
+  note: Town of Berkley School Committee page (Berkley Public Schools policy manual; active 2026 meeting agendas).
+  retrieved: '2026-09-21'
+- url: https://townofberkleyma.gov/wp-content/uploads/2026/01/Annual-Town-Election-Official-Results-5.9.2026.pdf
+  note: 'Official Annual Town Election results, May 9, 2026 (Town Clerk Heather J. Almy): BERKLEY SCHOOL COMMITTEE - 3 years, Jilleen M. Solomon 1,607 votes.'
+  retrieved: '2026-09-21'
