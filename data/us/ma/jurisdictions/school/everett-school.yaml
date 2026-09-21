@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:everett/school
+name: Everett Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:everett
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00930000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Everett is the sole resident/member town for dist_code 00930000 ("Everett"), i.e. a single-town operating district distinct from any regional district Everett may also belong to.'
+  retrieved: '2026-09-20'

@@ -12,6 +12,7 @@
     "jurisdiction_id": { "type": "string", "pattern": "^ocd-jurisdiction/country:us(/[a-z_]+:[a-z0-9~_.-]+)+/[a-z][a-z0-9_]*$" },
     "identifiers": { "type": "array", "uniqueItems": true, "items": { "$ref": "identifier.schema.json" } },
     "status": { "type": "string", "enum": ["active", "inactive", "historical"] },
+    "total_seats": { "type": "integer", "minimum": 1, "description": "Total seats on this body, including any not filled by general-public election. Present only when it exceeds the sum of this org's posts' `seats`; the mechanism for the remainder (ex officio, appointed, designated) belongs in `notes`." },
     "notes": { "type": "string" },
     "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["url"], "additionalProperties": false, "properties": { "url": { "type": "string", "format": "uri" }, "note": { "type": "string" }, "retrieved": { "type": "string", "format": "date" } } } }
   }

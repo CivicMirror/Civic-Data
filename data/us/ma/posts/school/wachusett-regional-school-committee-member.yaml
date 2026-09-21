@@ -1,0 +1,17 @@
+# Consolidates 5 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - holden-ma-regional-school-committee-member.yaml
+# - paxton-ma-wachusett-regional-school-committee-member.yaml
+# - princeton-ma-wachusett-regional-school-committee-member.yaml
+# - rutland-ma-wachusett-regional-school-committee-member.yaml
+# - sterling-ma-wachusett-school-committee.yaml
+id: wachusett-ma/school-committee-member
+organization_id: ocd-organization/2e1aeb73-bb2e-4689-b155-9f1e0f82a1ae
+title: School Committee Member
+seats: 16
+sources:
+- url: https://sterling-ma.gov/DocumentCenter/View/5871/2022-May-2-Annual-Town-Meeting-Warrant
+  retrieved: '2026-09-20'

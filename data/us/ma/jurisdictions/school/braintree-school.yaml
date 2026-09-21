@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:braintree/school
+name: Braintree Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:braintree
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00400000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Braintree is the sole resident/member town for dist_code 00400000 ("Braintree"), i.e. a single-town operating district distinct from any regional district Braintree may also belong to.'
+  retrieved: '2026-09-20'

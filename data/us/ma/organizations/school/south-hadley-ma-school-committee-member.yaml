@@ -1,0 +1,19 @@
+# Imported from reference/MA Rolling Audit/ (v41 MA municipal
+# charter/elected-office rolling audit preservation package, generated
+# 2026-08-25) by scripts/fix_ma_stale_office_conflicts.py. This office was
+# originally seeded by the v20 import; v41 re-researched it, and the
+# newer record supersedes the v20 one. Source rows were machine-extracted
+# from municipal government sites; see the record's sources for provenance.
+id: ocd-organization/13ef2305-da9a-594f-9c86-d53a8c9dc931
+name: South Hadley School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:south-hadley/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '02780000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: south-hadley-ma/school-committee-member
+status: active
+sources:
+- url: https://www.southhadley.org/DocumentCenter/View/14513/2026-South-Hadley-Election-Cycle-Key-Dates
+  retrieved: '2026-08-25'

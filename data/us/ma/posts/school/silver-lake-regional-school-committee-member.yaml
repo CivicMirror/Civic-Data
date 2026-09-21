@@ -1,0 +1,14 @@
+# Consolidates 2 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - kingston-ma-silver-lake-regional-school-committee-member.yaml
+# - plympton-ma-silver-lake-regional-school-committee-member.yaml
+id: silver-lake-ma/school-committee-member
+organization_id: ocd-organization/1beed728-9807-464d-a72d-d90358a41479
+title: School Committee Member
+seats: 9
+sources:
+- url: https://kingstonma.gov/DocumentCenter/View/3993/Fall-2023-Special-Town-Meeting-Warrant-Handout-Final-for-pdf
+  retrieved: '2026-09-20'

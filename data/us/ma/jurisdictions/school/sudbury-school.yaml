@@ -1,0 +1,12 @@
+# Late mechanical repoint for issue #75 -- missed by the original sweep's
+# filename pattern (doubled town name in the municipal filenames, same as
+# Southampton/Southborough). DESE dist_code 02880000.
+id: ocd-jurisdiction/country:us/state:ma/school_district:sudbury/school
+name: Sudbury Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:sudbury
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=02880000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Sudbury is the sole resident/member town for dist_code 02880000 ("Sudbury"), i.e. a single-town operating district distinct from the Lincoln-Sudbury Regional district Sudbury also belongs to.'
+  retrieved: '2026-09-21'

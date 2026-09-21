@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (ayer-ma-regional-school-committee-member.yaml, shirley-ma-ayer-shirley-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: ayer-shirley-ma/school-committee-member
+organization_id: ocd-organization/92043112-5a95-49ca-8d32-911bdf28d000
+title: School Committee Member
+seats: 6
+sources:
+- url: https://www.asrsd.org/school-committee/school-committee-members
+  retrieved: '2026-09-14'
+- url: https://www.shirley-ma.gov/DocumentCenter/View/1343/2025-2026-Elected-Town-Officials-PDF
+  retrieved: '2026-08-25'

@@ -1,0 +1,11 @@
+# Consolidates 2 per-town posts (athol-ma-athol-royalston-regional-school-committee-member.yaml, royalston-ma-athol-royalston-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: athol-royalston-ma/school-committee-member
+organization_id: ocd-organization/b0e6a4ee-1d81-4f69-b329-002be5c040ac
+title: School Committee Member
+seats: 10
+sources:
+- url: https://docs.google.com/document/d/1kwbbC86RPxCu47RXdwHQfzBT0ZcZyG4fsKVZ4mRzLiU/edit
+  note: 'Athol-Royalston Regional School District 1956 founding agreement -- 10 members, 7 Athol / 3 Royalston, elected annually first Monday of April.'
+  retrieved: '2026-09-16'
+- url: https://www.royalston-ma.gov/new-residents/files/boards-and-committees-handbook
+  retrieved: '2026-08-25'

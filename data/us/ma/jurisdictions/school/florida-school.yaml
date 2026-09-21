@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:florida/school
+name: Florida Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:florida
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00980000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Florida is the sole resident/member town for dist_code 00980000 ("Florida"), i.e. a single-town operating district distinct from any regional district Florida may also belong to.'
+  retrieved: '2026-09-20'

@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/926b7d3d-2a0b-587e-847b-0f3abea1944e
+name: Burlington School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:burlington/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '00480000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: burlington-ma/school-committee-member
+status: active
+sources:
+- url: https://www.burlington.org/AgendaCenter/ViewFile/Minutes/_04082025-2679
+  retrieved: '2026-09-14'

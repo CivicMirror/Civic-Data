@@ -1,0 +1,16 @@
+# Net-new mint for issue #75 -- Berkley was one of three single-town
+# districts missed by the mechanical sweep (no local files existed at all;
+# the only Berkley file on disk was a Somerset-Berkley Regional seat).
+# DESE dist_code 00270000. Elected: town's Annual Town Election chooses
+# School Committee members by ballot for 3-year terms (e.g. 2026-05-09
+# official results: Jilleen M. Solomon, 1,607 votes).
+# Zero holders sourced yet -- roster backfill left open.
+id: ocd-jurisdiction/country:us/state:ma/school_district:berkley/school
+name: Berkley Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:berkley
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00270000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Berkley is the sole resident/member town for dist_code 00270000 ("Berkley"), i.e. a single-town operating district distinct from the Somerset-Berkley Regional district Berkley also belongs to.'
+  retrieved: '2026-09-21'

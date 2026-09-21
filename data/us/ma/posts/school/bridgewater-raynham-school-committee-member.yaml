@@ -1,0 +1,11 @@
+# Consolidates 2 per-town posts (bridgewater-ma-bridgewater-raynham-regional-school-committee-bridgewater-member.yaml, raynham-ma-bridgewater-raynham-regional-school-committee-raynham-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: bridgewater-raynham-ma/school-committee-member
+organization_id: ocd-organization/53352bca-b3df-4ac8-b384-3df1bfd290da
+title: School Committee Member
+seats: 8
+sources:
+- url: https://github.com/user-attachments/files/32268571/REGIONAL.AGREEMENT.B-R.adopted.2011.pdf
+  note: 'Section I(A), Composition: 8 members total, 4 Bridgewater / 4 Raynham, all elected, 3-year terms.'
+  retrieved: '2026-09-16'
+- url: https://www.mass.gov/doc/bridgewater-raynhampdf/download
+  retrieved: '2026-08-25'

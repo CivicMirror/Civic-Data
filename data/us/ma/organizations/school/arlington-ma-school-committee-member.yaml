@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/fc1cd491-e24f-525e-9a37-4844d72e7f9d
+name: Arlington School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:arlington/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: arlington-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '00100000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.arlingtonma.gov/town-governance/boards-and-committees/school-committee
+  retrieved: '2026-09-14'

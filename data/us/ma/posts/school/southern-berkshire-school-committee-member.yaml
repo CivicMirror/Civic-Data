@@ -1,0 +1,14 @@
+# Consolidates 5 per-town posts (alford-ma-regional-school-committee-member.yaml, egremont-ma-regional-school-committee-member.yaml, monterey-ma-southern-berkshire-regional-school-committee-member.yaml, new-marlborough-ma-regional-school-committee-member.yaml, sheffield-ma-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: southern-berkshire-ma/school-committee-member
+organization_id: ocd-organization/d15bcb9c-c9fd-4727-9918-7c3d5ff05857
+title: School Committee Member
+seats: 10
+sources:
+- url: https://www.sbrsd.org/members
+  retrieved: '2026-09-14'
+- url: https://www.egremont-ma.gov/215/School-Committee
+  retrieved: '2026-08-19'
+- url: https://www.montereyma.gov/select-board/minutes/select-board-meeting-minutes-070125
+  retrieved: '2026-08-20'
+- url: https://www.newmarlboroughma.gov/1336/Town-By-Laws
+  retrieved: '2026-08-21'

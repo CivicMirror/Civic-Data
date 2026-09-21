@@ -1,0 +1,20 @@
+# Consolidates 8 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - malden-ma-regional-vocational-school-committee-member.yaml
+# - melrose-ma-northeast-metropolitan-regional-vocational-school-committee-member.yaml
+# - north-reading-ma-northeast-metropolitan-regional-vocational-school-committee-member.yaml
+# - reading-ma-northeast-metropolitan-regional-vocational-school-committee-member.yaml
+# - revere-ma-northeast-metropolitan-regional-vocational-school-committee-member.yaml
+# - saugus-ma-northeast-metro-regional-vocational-school-committee-member-saugus.yaml
+# - stoneham-ma-northeast-metro-vocational-school-representative.yaml
+# - wakefield-ma-northeast-metro-vocational-school-committee.yaml
+id: northeast-metropolitan-ma/school-committee-member
+organization_id: ocd-organization/922db5ae-fb4e-444a-9806-30ef314b2ca0
+title: School Committee Member
+seats: 12
+sources:
+- url: https://www.mass.gov/doc/northeast-metropolitan-rvt-ese-district-review-report-2012/download
+  retrieved: '2026-09-20'

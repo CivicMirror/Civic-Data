@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/eb85a2fb-af43-5555-a888-10267a6b2508
+name: Brookfield Elementary School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:brookfield/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '00450000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: brookfield-ma/school-committee-member
+status: active
+sources:
+- url: https://masscivics.com/brookfield/school-committee/
+  retrieved: '2026-09-14'

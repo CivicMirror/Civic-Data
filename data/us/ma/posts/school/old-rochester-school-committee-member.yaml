@@ -1,0 +1,12 @@
+# Consolidates 3 per-town posts (marion-ma-old-rochester-regional-school-committee-member.yaml, mattapoisett-ma-old-rochester-regional-school-committee-member.yaml, rochester-ma-old-rochester-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: old-rochester-ma/school-committee-member
+organization_id: ocd-organization/c9bb9060-20bf-40ef-be8c-3802490b4b38
+title: School Committee Member
+seats: 9
+sources:
+- url: https://www.marionma.gov/DocumentCenter/View/2345/Annual-Report-2024-PDF?bidId=
+  retrieved: '2026-08-20'
+- url: https://www.mattapoisett.gov/328/ORR-District-School-Committee
+  retrieved: '2026-08-20'
+- url: https://www.townofrochestermass.com/sites/g/files/vyhlif5446/f/events/fy2027_atm_warrant_-_stamped.pdf
+  retrieved: '2026-08-25'

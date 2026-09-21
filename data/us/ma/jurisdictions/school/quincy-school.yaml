@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:quincy/school
+name: Quincy Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:quincy
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=02430000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Quincy is the sole resident/member town for dist_code 02430000 ("Quincy"), i.e. a single-town operating district distinct from any regional district Quincy may also belong to.'
+  retrieved: '2026-09-20'

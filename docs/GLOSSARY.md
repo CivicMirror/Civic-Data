@@ -38,10 +38,16 @@ Its `classification` is a governance type such as `government`,
 A position that exists within an Organization — e.g. "Mayor," "Select
 Board Member," "U.S. Representative." A standalone file under
 `data/us/{state}/posts/`, not embedded in the jurisdiction. Identified by
-`post.id`, a slug in `<jurisdiction-slug>/<office-slug>` form (e.g.
-`oxford-ma/select-board`). Structural facts about the position —
-`seats` (how many people hold it at once), `organization_id` — live
-here, not on the person.
+`post.id`, an opaque slug (`schemas/post.schema.json` only requires
+`^[a-z0-9-]+/[a-z0-9-]+$`) historically minted as
+`<jurisdiction-slug>/<office-slug>` (e.g. `oxford-ma/select-board`) —
+this is a naming convention at mint time, not a live derivation: nothing
+in `scripts/validate.py` re-derives a jurisdiction from the id, so a
+post's id can keep its original slug after its organization is
+re-parented to a different jurisdiction (e.g. MA school-district-first
+remodel, [#75](https://github.com/CivicMirror/Civic-Data/issues/75)).
+Structural facts about the position — `seats` (how many people hold it
+at once), `organization_id` — live here, not on the person.
 
 **Person** — an individual, real or (in remaining sample data)
 fictional. One YAML file per person, under `data/us/{state}/people/`.

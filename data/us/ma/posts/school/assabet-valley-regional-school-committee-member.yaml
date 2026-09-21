@@ -1,0 +1,16 @@
+# Consolidates 4 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - maynard-ma-regional-vocational-school-committee-member.yaml
+# - northborough-ma-assabet-valley-regional-vocational-school-committee-member.yaml
+# - southborough-ma-assabet-valley-regional-vocational-school-district-committee-member.yaml
+# - westborough-ma-assabet-valley-school.yaml
+id: assabet-valley-ma/school-committee-member
+organization_id: ocd-organization/72a41ba3-0127-4462-a098-8306cd9b1d85
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.assabet.org/documents/Do-More/HR%20and%20Business%20Office/Policies/SC-Policy-Manual.pdf
+  retrieved: '2026-09-20'

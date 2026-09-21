@@ -1,0 +1,17 @@
+# Created for issue #45 (MA #34 Stage 3: School Committee officeholder
+# backfill) from the MassGIS/DESE Public School Districts feature service
+# (district existence + member towns) plus per-town primary-source
+# verification of seat count and elected status; see sources below.
+id: ocd-organization/2a2fc123-69ff-5881-9bff-e1c9cb43c3b4
+name: Auburn School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:auburn/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: auburn-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '00170000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://ballotpedia.org/Auburn_Public_Schools,_Massachusetts
+  retrieved: '2026-09-14'

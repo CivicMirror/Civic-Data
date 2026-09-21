@@ -1,0 +1,18 @@
+# Consolidates 2 separate per-town organizations
+# (otis-ma-farmington-river-regional-school-committee-member.yaml,
+# sandisfield-ma-school-committee-member-sandisfield.yaml) into the one
+# real DESE district-level body they were fragments of (district-first
+# remodel, issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+id: ocd-organization/5bdf0c3b-b3aa-4dec-a550-56b9d3bd776a
+name: Farmington River Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:farmington-river/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '06620000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://frrsd.org/wp-content/uploads/2025/05/FRRSD-RDA-Commissioner-approval-April-2025.pdf
+  note: 'Regional Agreement Section A/B: 5-member Committee, 3-year staggered terms elected at each Member Town''s Annual Town Election; 2020 census apportionment gives Otis 3 seats and Sandisfield 2 seats.'
+  retrieved: '2026-09-21'

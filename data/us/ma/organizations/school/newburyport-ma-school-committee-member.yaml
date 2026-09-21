@@ -1,0 +1,19 @@
+# Imported from reference/MA Rolling Audit/ (MA municipal charter/
+# elected-office rolling audit, generated 2026-08-21) by scripts/
+# import_ma_charter_audit_v27.py. Source rows were machine-extracted from
+# municipal government sites; see the record's sources for provenance.
+id: ocd-organization/28305782-6ea4-58d6-ac6b-0a568d7dff77
+name: Newburyport School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:newburyport/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '02040000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: newburyport-ma/school-committee-member
+status: active
+total_seats: 7
+notes: 'Sec. 4-1 of the city charter: 7 members total -- 6 elected at-large (4-year terms, staggered) plus the Mayor, who chairs ex officio. Per this repo''s elected-only scope rule, only the 6 elected seats are tracked in `post.seats`; the Mayor is not minted as a school-committee membership (tracked under the Mayor''s own office instead). Resolves the issue #45 hardblocked note on this district.'
+sources:
+- url: https://www.cityofnewburyport.com/charter-review-committee/pages/charter-related-laws
+  retrieved: '2026-08-21'

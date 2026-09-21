@@ -1,0 +1,19 @@
+# Net-new mint for issue #75 -- see the jurisdiction record's note.
+# Zero holders sourced yet -- roster backfill left open.
+id: ocd-organization/9e861c23-6457-4a12-b408-8755715a5847
+name: Boxford School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:boxford/school
+identifiers:
+- scheme: civicmirror-office
+  identifier: boxford-ma/school-committee-member
+- scheme: dese-org-code
+  identifier: '00380000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.tritownschoolunion.com/committees-home
+  note: 'Tri-Town School Union: "The Boxford School Committee, Middleton School Committee, and Topsfield School Committee each consist of five elected citizens from their respective towns."'
+  retrieved: '2026-09-21'
+- url: https://www.boxfordma.gov/DocumentCenter/View/3089/2026-Annual-Town-Meeting-Warrant?bidId=
+  note: '2026 Annual Town Meeting warrant: "Boxford School Committee, TWO members for three years" on the May 2026 ballot.'
+  retrieved: '2026-09-21'

@@ -1,0 +1,25 @@
+# Consolidates 13 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - bellingham-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - blackstone-ma-regional-vocational-school-representative.yaml
+# - douglas-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - grafton-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - hopedale-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - mendon-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - milford-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - millbury-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - millville-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - northbridge-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+# - sutton-ma-regional-vocational-school-committee.yaml
+# - upton-ma-blackstone-valley-vocational-school-committee.yaml
+# - uxbridge-ma-blackstone-valley-regional-vocational-school-committee-member.yaml
+id: blackstone-valley-ma/school-committee-member
+organization_id: ocd-organization/bca88073-a408-44f0-abad-b1b60a4aebff
+title: School Committee Member
+seats: 13
+sources:
+- url: https://www.valleytech.k12.ma.us/fs/resource-manager/view/b162a105-febc-48c0-8081-c289ac6e41f3
+  retrieved: '2026-09-20'

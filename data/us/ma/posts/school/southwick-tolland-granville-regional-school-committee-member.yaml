@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - granville-ma-regional-school-committee-member.yaml
+# - southwick-ma-district-school-committee.yaml
+# - tolland-ma-regional-school-committee.yaml
+id: southwick-tolland-granville-ma/school-committee-member
+organization_id: ocd-organization/d9bfb0b7-0bbd-4df8-a3fc-19a99d795dbf
+title: School Committee Member
+seats: 7
+sources:
+- url: https://cdnsm5-ss19.sharpschool.com/UserFiles/Servers/Server_914208/File/Departments/Finance%20and%20Operations/Budget/FY19%20STGRSD%20Year%20End%20Report.pdf
+  retrieved: '2026-09-20'

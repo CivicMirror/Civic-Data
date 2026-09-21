@@ -1,0 +1,18 @@
+# Consolidates 6 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - blandford-ma-regional-school-committee-member.yaml
+# - chester-ma-regional-school-committee-member.yaml
+# - huntington-ma-regional-school-committee-member.yaml
+# - middlefield-ma-gateway-regional-school-committee-member.yaml
+# - montgomery-ma-school-committee-representative.yaml
+# - russell-ma-gateway-regional-school-committee-member.yaml
+id: gateway-ma/school-committee-member
+organization_id: ocd-organization/31ce2fa8-7d6d-4d21-8271-2bceb80f58ba
+title: School Committee Member
+seats: 15
+sources:
+- url: https://middlefield-ma.gov/DocumentCenter/View/280/May-07-2022-Article13-PDF
+  retrieved: '2026-09-20'

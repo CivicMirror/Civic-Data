@@ -1,0 +1,13 @@
+# Consolidates 2 per-town posts (dennis-ma-regional-school-committee-member.yaml, yarmouth-ma-dennis-yarmouth-regional-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: dennis-yarmouth-ma/school-committee-member
+organization_id: ocd-organization/83d9c9e5-e83d-4ee8-b697-3fd0c64860d7
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.yarmouth.ma.us/DocumentCenter/View/11410/DY-Regional-Agreement-with-Tracked-Changes
+  retrieved: '2026-09-14'
+- url: https://www.yarmouth.ma.us/DocumentCenter/View/19816/2025-Annual-Town-Report-PDF
+  retrieved: '2026-08-25'
+- url: https://www.dy-regional.k12.ma.us/directory
+  note: 'Corrected seats from 5 to 4 -- the district''s own official directory (town-labeled) shows exactly 4 Yarmouth-designated members against Dennis''s 3, matching the district''s known 7-member total. Same class of stale-seat-count bug as Lanesborough/Williamstown, Sherborn, and Dudley/North Brookfield fixed elsewhere in issue'
+  retrieved: '2026-09-16'

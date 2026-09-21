@@ -1,0 +1,9 @@
+id: ocd-jurisdiction/country:us/state:ma/school_district:acushnet/school
+name: Acushnet Public Schools
+state: ma
+division_id: ocd-division/country:us/state:ma/school_district:acushnet
+classification: school
+sources:
+- url: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json?dist_code=00030000
+  note: 'DESE "Where Residents Go to School" dataset (SY2026, enr_reason=Resident/Member): Acushnet is the sole resident/member town for dist_code 00030000 ("Acushnet"), i.e. a single-town operating district distinct from any regional district Acushnet may also belong to.'
+  retrieved: '2026-09-20'

@@ -1,0 +1,8 @@
+# Consolidates 2 per-town posts (adams-ma-regional-school-committee-member.yaml, cheshire-ma-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: hoosac-valley-ma/school-committee-member
+organization_id: ocd-organization/e4cef955-3452-40af-909b-3c4f4384e2a9
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.iberkshires.com/story/56174/Adams-Cheshire-May-Become-Hoosac-Valley-Regional-School-District.html
+  retrieved: '2026-09-14'

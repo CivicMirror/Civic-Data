@@ -1,0 +1,19 @@
+# Imported from reference/MA Rolling Audit/ (v41 MA municipal
+# charter/elected-office rolling audit preservation package, generated
+# 2026-08-25) by scripts/fix_ma_stale_office_conflicts.py. This office was
+# originally seeded by the v20 import; v41 re-researched it, and the
+# newer record supersedes the v20 one. Source rows were machine-extracted
+# from municipal government sites; see the record's sources for provenance.
+id: ocd-organization/6ff1c75e-1839-5e04-9733-a00bb0548db0
+name: Southbridge School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:southbridge/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '02770000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+- scheme: civicmirror-office
+  identifier: southbridge-ma/school-committee-member
+status: active
+sources:
+- url: https://www.ci.southbridge.ma.us/DocumentCenter/View/5012/Southbridge-Home-Rule-Charter-with-revisions-from-2025-local-election-revised-31226
+  retrieved: '2026-08-25'

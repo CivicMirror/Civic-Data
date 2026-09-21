@@ -1,0 +1,15 @@
+# Consolidates 1 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - chesterfield-ma-regional-school-committee-member.yaml
+id: chesterfield-goshen-ma/school-committee-member
+organization_id: ocd-organization/fb10948a-d9e6-41fa-9148-5a38d641bb78
+title: School Committee Member
+seats: 6
+sources:
+- url: https://www.townofchesterfieldma.com/sites/g/files/vyhlif7606/f/uploads/chesterfieldtownreport_4.24.23_1.pdf
+  retrieved: '2026-09-20'
+- url: https://storage.googleapis.com/proudcity/goshenma/uploads/2022/05/Annual-Town-Report-2021.pdf
+  retrieved: '2026-09-20'

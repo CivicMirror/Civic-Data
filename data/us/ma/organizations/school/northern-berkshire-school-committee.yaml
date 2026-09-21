@@ -1,0 +1,25 @@
+# Structural remodel (issue #75): previously blocked (per-town evidence
+# conflicted on both total seat count and elected-vs-appointed method).
+# Resolved via the district's own regional agreement text (Section
+# II(A)(2)-(3), II(B)(3)): 16 total seats across 9 towns, all elected at
+# each member town's own municipal election -- no appointed seats.
+# Consolidates Williamstown's existing per-town organization
+# (williamstown-ma-northern-berkshire-vocational-school-committee.yaml)
+# into this district-level body. Coverage is partial: only Williamstown
+# (2/2) and Lanesborough (1/1) are sourced so far; North Adams (0/5),
+# Adams (0/3), Cheshire (0/1), Clarksburg (0/1), Florida (0/1), Monroe
+# (0/1), and Savoy (0/1) remain zero-coverage -- tracked under issue #45.
+id: ocd-organization/d8691115-42e0-4d29-af3f-3a339904c3a8
+name: Northern Berkshire Vocational Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:northern-berkshire/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '08510000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.mccanntech.org/about/school-committee
+  retrieved: '2026-09-16'
+- url: https://www.mccanntech.org/about/history
+  note: 'Regional Agreement Section II(A)(2)-(3): "The Committee membership shall be as follows: North Adams (5), Adams (3), Cheshire (1), Clarksburg (1), Florida (1), Lanesborough (1), Monroe (1), Savoy (1), and Williamstown (2)." "All members, under the provisions of this subsection shall be elected at each member municipality''s municipal election."'
+  retrieved: '2026-09-21'

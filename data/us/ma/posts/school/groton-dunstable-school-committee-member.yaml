@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (dunstable-ma-regional-school-committee-member.yaml, groton-ma-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: groton-dunstable-ma/school-committee-member
+organization_id: ocd-organization/61207ed8-2132-4ee7-9b53-1435399e8c6f
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.dunstable-ma.gov/home/news/school-committee-vacancy-and-appointment
+  retrieved: '2026-08-19'
+- url: https://www.grotonma.gov/government/boards-and-committees/groton-dunstable-regional-school-committee/
+  retrieved: '2026-09-14'

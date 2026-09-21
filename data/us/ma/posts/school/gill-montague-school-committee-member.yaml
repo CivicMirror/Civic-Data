@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (gill-ma-regional-school-committee-member.yaml, montague-ma-gill-montague-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: gill-montague-ma/school-committee-member
+organization_id: ocd-organization/48ad7ad7-8438-4c88-bde1-36bb2a241ecd
+title: School Committee Member
+seats: 7
+sources:
+- url: https://gillmass.org/p/36/Town-Clerk
+  retrieved: '2026-08-19'
+- url: https://www.gmrsd.org/school-committee-2
+  retrieved: '2026-08-20'

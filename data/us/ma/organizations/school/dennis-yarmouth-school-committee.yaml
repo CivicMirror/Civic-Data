@@ -1,0 +1,16 @@
+id: ocd-organization/83d9c9e5-e83d-4ee8-b697-3fd0c64860d7
+name: Dennis-Yarmouth Regional School Committee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/school_district:dennis-yarmouth/school
+identifiers:
+- scheme: dese-org-code
+  identifier: '06450000'
+  source: https://educationtocareer.data.mass.gov/resource/vxt3-k35x.json
+status: active
+sources:
+- url: https://www.yarmouth.ma.us/DocumentCenter/View/11410/DY-Regional-Agreement-with-Tracked-Changes
+  retrieved: '2026-09-14'
+- url: https://www.yarmouth.ma.us/DocumentCenter/View/19816/2025-Annual-Town-Report-PDF
+  retrieved: '2026-08-25'
+- url: https://www.dy-regional.k12.ma.us/directory
+  note: 'Corrected seats from 5 to 4 -- the district''s own official directory (town-labeled) shows exactly 4 Yarmouth-designated members against Dennis''s 3, matching the district''s known 7-member total. Same class of stale-seat-count bug as Lanesborough/Williamstown, Sherborn, and Dudley/North Brookfield fixed elsewhere in issue'
+  retrieved: '2026-09-16'

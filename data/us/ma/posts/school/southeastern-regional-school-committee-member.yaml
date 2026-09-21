@@ -1,0 +1,15 @@
+# Consolidates 3 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - mansfield-ma-regional-school-representative.yaml
+# - norton-ma-regional-vocational-school-committee-member.yaml
+# - stoughton-ma-southeastern-regional-vocational-school-committee.yaml
+id: southeastern-ma/school-committee-member
+organization_id: ocd-organization/eb4243af-783d-49ee-b483-0360ce45b20a
+title: School Committee Member
+seats: 10
+sources:
+- url: https://5il.co/24yby
+  retrieved: '2026-09-20'

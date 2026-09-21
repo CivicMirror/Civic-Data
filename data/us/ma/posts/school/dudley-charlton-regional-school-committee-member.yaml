@@ -1,0 +1,14 @@
+# Consolidates 2 per-town posts into the one real DESE
+# district-level body they were fragments of (district-first remodel,
+# issue #75). Each holder's town-designated seat is on their
+# membership's `seat` field.
+#
+# - charlton-ma-regional-school-committee-member.yaml
+# - dudley-ma-regional-school-committee-member.yaml
+id: dudley-charlton-ma/school-committee-member
+organization_id: ocd-organization/2d102195-93b7-403f-a455-13b9eeab4783
+title: School Committee Member
+seats: 7
+sources:
+- url: https://www.dcrsd.org/uploaded/District_Files/school_committee/DCRSD.District.Agreement.pdf
+  retrieved: '2026-09-20'

@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (blackstone-ma-regional-school-district-committee-member.yaml, millville-ma-blackstone-millville-regional-school-committee-member.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: blackstone-millville-ma/school-committee-member
+organization_id: ocd-organization/a5a93b51-904d-4d2f-912c-60a8eecea52a
+title: School Committee Member
+seats: 8
+sources:
+- url: https://ecode360.com/12065790
+  retrieved: '2026-08-19'
+- url: https://www.millvillema.org/home/files/2019-annual-town-report
+  retrieved: '2026-08-20'

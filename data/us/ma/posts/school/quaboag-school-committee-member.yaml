@@ -1,0 +1,10 @@
+# Consolidates 2 per-town posts (warren-ma-quaboag-regional-school-committee.yaml, west-brookfield-ma-quaboag-school-committee.yaml) into the one real DESE district-level body they were fragments of (district-first remodel, issue #75). Each holder's town-designated seat is on their membership's `seat` field.
+id: quaboag-ma/school-committee-member
+organization_id: ocd-organization/1a64b3e1-f1f6-4747-87ea-aa633077264c
+title: School Committee Member
+seats: 12
+sources:
+- url: https://www.warren-ma.gov/
+  retrieved: '2026-08-25'
+- url: https://www.quaboagrsd.org/
+  retrieved: '2026-08-25'
