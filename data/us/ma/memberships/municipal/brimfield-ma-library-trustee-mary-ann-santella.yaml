@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: brimfield-ma-library-trustee-mary-ann-santella
+person_id: ocd-person/335b6a13-60a6-514e-93b5-bc3938ae5aa1
+organization_id: ocd-organization/46281714-8ed1-453a-a42b-1898cfc76c2e
+post_id: brimfield-ma/library-trustee
+role: Library Trustee
+how_seated: elected
+sources:
+- url: https://www.brimfieldma.org/sites/g/files/vyhlif4181/f/pages/elected_results_2026.pdf
+  note: 5 of Brimfield's 6 Library Trustees, cross-confirmed between the town's own 2025/2026 election-results PDFs and the Brimfield Public Library board's current trustee list. Term-end years not cleanly extractable from the OCR'd PDFs -- recorded as none rather than guessed. A 6th trustee (recorded as 'Denise Fortuna' in the election PDF OCR vs. 'Denise Lang' on the library's own site) is left unminted pending a name re-check.
+  retrieved: '2026-09-22'

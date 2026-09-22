@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-organization/a66ccdcf-b114-4edb-8a34-8da86ae60881
+name: Boyden Library Trustee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:foxborough/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: foxborough-ma/boyden-library-trustee
+status: active
+sources:
+- url: https://boydenlibrary.org/about/library-board/
+  note: Boyden Library Board of Trustees page, current 6-member roster, corroborating the 6-member board derived from 2024/2025/2026 official Annual Town Election results.
+  retrieved: '2026-09-22'

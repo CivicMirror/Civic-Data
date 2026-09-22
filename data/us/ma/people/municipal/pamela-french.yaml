@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/6003352b-e31c-5842-99fb-dc1833166af3
+name: Pamela French
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-22'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://hansonlibrary.org/about-us/staff-trustees/
+  note: Hanson Public Library trustees page, current 6-member roster with term-end years; resolves the 2025/2026 election OCR ambiguity flagged earlier in this issue (French's and Duclos's seats confirmed won).
+  retrieved: '2026-09-22'
