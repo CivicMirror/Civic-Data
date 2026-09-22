@@ -2,8 +2,13 @@
 # elected-office rolling audit, generated 2026-08-20) by scripts/
 # import_ma_charter_audit_v20.py. Source rows were machine-extracted from
 # municipal government sites; see the record's sources for provenance.
+#
+# Retitled 2026-09-22 to match BELD's own site, which calls this board
+# "Municipal Light Board" (https://www.beld.com/mlb/). Absorbs the
+# separate braintree-ma/municipal-light-board-member org, a duplicate of
+# this same office created by the same rolling-audit import; deleted.
 id: ocd-organization/411f44d7-06be-559a-8e01-1b208923cc61
-name: Electric Light Board / BELD Commissioner
+name: Municipal Light Board
 jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
 identifiers:
 - scheme: civicmirror-office
@@ -12,3 +17,6 @@ status: active
 sources:
 - url: https://www.braintreema.gov/m/faq?cat=34
   retrieved: '2026-08-19'
+- url: https://www.beld.com/mlb/
+  note: BELD's own site confirms the board's official name and lists the same 3 current members
+  retrieved: '2026-09-22'
