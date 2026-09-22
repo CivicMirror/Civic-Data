@@ -1,0 +1,15 @@
+# Hand-verified against the town's own charter and official election
+# results for issue #61's MA misc/archaic elected-office officeholder
+# backfill. Machine-extracted via a Claude web-fetch pass, pending human
+# sign-off.
+id: ocd-organization/5c1abfd4-24c0-41c0-aae1-4b8963d3d6a2
+name: Municipal Light Board
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:hull/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: hull-ma/municipal-light-board
+status: active
+sources:
+- url: https://www.town.hull.ma.us/DocumentCenter/View/870/Town-Charter-PDF
+  note: 'Town charter Sec. 2 confirms the town continues to elect a Municipal Light Board'
+  retrieved: '2026-09-22'

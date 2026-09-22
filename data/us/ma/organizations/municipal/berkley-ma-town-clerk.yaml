@@ -1,0 +1,13 @@
+# Hand-verified against the town's official election results for issue
+# #61's MA misc/archaic elected-office officeholder backfill. Machine-
+# extracted via a Claude web-fetch pass, pending human sign-off.
+id: ocd-organization/de488115-9088-4068-9224-e2897d2962f1
+name: Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:berkley/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: berkley-ma/town-clerk
+status: active
+sources:
+- url: https://townofberkleyma.gov/wp-content/uploads/2026/01/Annual-Town-Election-Official-Results-5.9.2026.pdf
+  retrieved: '2026-09-22'
