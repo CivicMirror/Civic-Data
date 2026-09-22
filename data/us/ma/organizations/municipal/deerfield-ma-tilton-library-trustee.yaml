@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-organization/35bd8480-a2db-4a48-8638-24f53943927d
+name: Tilton Library Trustee
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:deerfield/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: deerfield-ma/tilton-library-trustee
+status: active
+sources:
+- url: https://www.deerfieldma.us/DocumentCenter/View/3632/2026-Deerfield-ATE-Official-Results?bidId=
+  note: 'Deerfield''s ballot title is "TILTON LIBRARY TRUSTEE" (single-seat, 3-year term, elected annually -- a 3-class staggered 3-seat board), confirmed by OCR of 3 straight years of official Annual Town Election results: 2024 James L. Cambias 1,319 votes (term to 2027); 2025 Kathleen Susan O''Rourke 1,070 votes (term to 2028); 2026 John William Stacey 732 votes, unopposed (term to 2029). Cross-checked against the 2025 Annual Town Report''s Tilton Library Board of Trustees table (matches Cambias/O''Rourke expiry years exactly). This 3-seat elected board is distinct from the town''s general 7-name Library Trustees directory page (deerfieldma.us/317/Library-Trustees), which does not reference an election process and whose names don''t match any of the 3 confirmed election winners -- likely a separate, non-elected board; not modeled here.'
+  retrieved: '2026-09-22'
