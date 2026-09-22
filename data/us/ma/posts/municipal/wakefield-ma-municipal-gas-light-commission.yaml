@@ -3,10 +3,19 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+#
+# Corrected seats 3 -> 5 on 2026-09-22: the town's own charter (eCode360
+# Part III, Elected Town Officers) reads "There shall be a Municipal Gas
+# and Light Commission composed of five (5) members elected for terms of
+# three (3) years each" -- the 2023 annual report this post was
+# originally sourced from undercounted the board.
 id: wakefield-ma/municipal-gas-light-commission
 organization_id: ocd-organization/a84645d4-19fc-5866-ad4e-a0d8edffd563
 title: Municipal Gas and Light Commissioner
-seats: 3
+seats: 5
 sources:
 - url: https://www.wakefield.ma.us/sites/g/files/vyhlif1366/f/uploads/2023_annual_report.pdf
   retrieved: '2026-08-25'
+- url: https://ecode360.com/13594234
+  note: 'Wakefield charter, Part III: "There shall be a Municipal Gas and Light Commission composed of five (5) members elected for terms of three (3) years each"'
+  retrieved: '2026-09-22'
