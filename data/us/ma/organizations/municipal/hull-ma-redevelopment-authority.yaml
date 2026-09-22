@@ -1,0 +1,15 @@
+# Hand-verified against the town's own charter and the Hull Redevelopment
+# Authority's own website for issue #61's MA misc/archaic elected-office
+# officeholder backfill. Machine-extracted via a Claude web-fetch pass,
+# pending human sign-off.
+id: ocd-organization/7a3c2e91-5e6f-4b8a-9c1d-2f4e6a8b0c3d
+name: Redevelopment Authority — locally elected
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:hull/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: hull-ma/redevelopment-authority
+status: active
+sources:
+- url: https://www.town.hull.ma.us/DocumentCenter/View/870/Town-Charter-PDF
+  note: 'Town charter Sec. 2 confirms the town continues to elect a Hull Redevelopment Authority'
+  retrieved: '2026-09-22'
