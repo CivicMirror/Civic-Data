@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/b7f2ef10-3aa2-5fcf-b1bc-a2bc8858d686
+name: Marc Becker
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-22'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.webster-ma.gov/154/Community-Development-Redevelopment-Auth
+  note: 'Town of Webster official Redevelopment Authority / Community Development page, current 5-member table (4 locally elected + 1 state appointee per MGL c.121B s.5). Kenneth Pizzetti already on file. Excludes Daniel Fales, the state appointee (term 2030), which is out of #61''s elected-office scope.'
+  retrieved: '2026-09-22'
