@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/5f9f09bc-dee7-5db4-977c-d788aef28dae
+name: Mari Enoch
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-22'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: http://web.archive.org/web/20250224151636/https://www.montereyma.gov/bylaw-review-committee
+  note: Town of Monterey official Bylaw Review Committee page (Wayback Machine snapshot 2025-02-24; current page now blocks automated fetch and no newer machine-readable roster was found). 5 elected members with staggered 3-year terms, term-end years as shown; Banducci's and Litwin's May-2025 terms may have since lapsed or been renewed -- not independently confirmed post-snapshot.
+  retrieved: '2026-09-22'
