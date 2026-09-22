@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/871e92b4-2ac1-50e1-bf82-be91871313ae
+name: Elizabeth Emhardt
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-22'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://library.canton.ma.us/191/Library-Trustees
+  note: 'Canton Public Library''s own Board of Trustees page, which (unlike the town government''s 249/Trustees-of-the-Public-Library page) reflects the 2026 election: Robert Fichman and Elizabeth Emhardt both elected 2026, replacing Betty Chemlow and Susan Cogliano (listed on this page as ''Emeritus Members'', service ending 2026). Corroborated by the 2026 Annual Town Election results (Emhardt 2,780 votes; Fichman''s win came via write-in against other fragmented write-ins for an uncontested-on-the-printed-ballot third seat, consistent with 2024/2025''s pattern of write-in-only seats). 3-year term -> end 2029.'
+  retrieved: '2026-09-22'
