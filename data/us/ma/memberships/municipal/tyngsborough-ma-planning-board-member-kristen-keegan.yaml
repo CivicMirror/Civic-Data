@@ -2,6 +2,12 @@
 # MA municipal officeholder backfill (never covered by issue #16's
 # original research pass). Machine-extracted via a Claude web-fetch
 # pass, pending human sign-off.
+#
+# Source/note corrected 2026-09-23 (issue #74): the original import
+# misread this as a 3-seat race won by all 3 candidates. User-supplied
+# unofficial results confirm it was a single-seat ("vote for one")
+# race -- Keegan won; Coughlin and Keefe both lost and are not current
+# board members (their stale records removed in this same pass).
 id: tyngsborough-ma-planning-board-member-kristen-keegan
 person_id: ocd-person/d8e162b4-aa49-5772-8989-aeb4b9330de3
 organization_id: ocd-organization/833d6a18-c45c-5b8b-b9ac-0f04ad2fa694
@@ -10,5 +16,6 @@ role: Planning Board Member
 how_seated: elected
 sources:
 - url: https://www.tyngsboroughma.gov/DocumentCenter/View/3361/May-19-2026-Official-Election-Results
-  note: '2026-05-19 Annual Town Election official results (town''s own document, precinct-level table). Planning Board: William Coughlin, 524 votes; Patrick Keefe, 332 votes; Kristen Keegan, 817 votes (3 of 5 seats up/filled this cycle; vote-for count not confirmed from the extracted text).'
+  note: '2026-05-19 Annual Town Election official results (town''s own document, precinct-level table). Planning Board (vote for one): Kristen Keegan, 813-817 votes (minor unofficial/official tally variance) -- won; William Coughlin (524) and Patrick Keefe (331-332) lost.'
   retrieved: '2026-09-09'
+end: '2031'
