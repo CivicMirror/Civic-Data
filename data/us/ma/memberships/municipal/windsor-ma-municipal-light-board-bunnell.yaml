@@ -2,14 +2,26 @@
 # charter/elected-office rolling audit preservation package, generated
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
-# record's sources for provenance.
+# record's sources for provenance. Confirmed superseded (issue #61
+# cross-check, 2026-09-24): Bunnell won a 2-year "fill vacancy" MLP seat
+# in the 2025 election (nominal term to 2027), but the 2026 ballot shows
+# ANOTHER 2-year "fill vacancy" MLP seat won by Gaye A Gregoire -- with
+# only 3 total board seats and Michele Johnson/Erin McLaughlin both
+# independently confirmed still serving, this can only be explained by
+# Bunnell leaving the board before her term ran out. No resignation date
+# found; `end` set to 2026 (the year she was definitively superseded)
+# rather than her nominal 2027 term-end.
 id: windsor-ma-municipal-light-board-bunnell
 person_id: ocd-person/c4a45efe-5079-5d6c-8568-c9ff4c589ed0
 organization_id: ocd-organization/a8c359bd-da2f-5e01-9577-5d8dcf906e77
 post_id: windsor-ma/municipal-light-board
 role: Municipal Light Board Member
 seat: '2'
+end: '2026'
 how_seated: elected
 sources:
 - url: https://www.windsormass.com/boards-departments/mlp-%2F-broadband-department
   retrieved: '2026-08-25'
+- url: https://drive.google.com/file/d/1ln9EmyKdiEi4HA9nHfWVhZdOuEhg6m29/view
+  note: 'Windsor Annual Town Election Results, May 11, 2026 (certified by Town Clerk Sandra G. Kalmus): a second consecutive 2-year "fill vacancy" MLP Board seat went to Gaye A Gregoire -- the town''s current site lists only Johnson and McLaughlin as serving, confirming Bunnell is no longer on the board.'
+  retrieved: '2026-09-24'
