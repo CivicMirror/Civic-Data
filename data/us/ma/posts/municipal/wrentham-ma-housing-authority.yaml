@@ -6,7 +6,10 @@
 id: wrentham-ma/housing-authority
 organization_id: ocd-organization/2bc0defb-7742-5345-a93b-fe78459a3ade
 title: Housing Authority Member
-seats: 3
+seats: 4
 sources:
 - url: https://www.wrentham.gov/DocumentCenter/View/6918/2026-Annual-Town-Election-Specimen-Ballot-PDF
   retrieved: '2026-08-25'
+- url: https://publichousingfacilityreview.mass.gov/Public/GridGetAPFile?Recno=1511
+  note: Corrected from 3 to 4 seats (issue #50) -- charter Sec. 3.10 describes 5 total (4 elected + 1 state-appointed), and the towns FY2026 EOHLC Annual Plan lists 5 Board of Commissioners members with no Category labels distinguishing a state seat.
+  retrieved: '2026-09-24'

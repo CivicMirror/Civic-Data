@@ -6,7 +6,10 @@
 id: seekonk-ma/housing-authority-member
 organization_id: ocd-organization/5b2cf22f-8385-59f0-8976-ab800aff2c0e
 title: Housing Authority Member
-seats: 3
+seats: 4
 sources:
 - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter121B/Section5
   retrieved: '2026-08-25'
+- url: https://publichousingfacilityreview.mass.gov/Public/GridGetAPFile?Recno=1341
+  note: Corrected from 3 to 4 seats (issue #50) -- Seekonk Home Rule Charter Sec. 1(H) describes 5 total (4 elected + 1 state-appointed), and the towns FY2027 EOHLC Annual Plan lists exactly 4 Board of Commissioners members with no Category labels distinguishing a state seat, consistent with all 4 being the towns elected slate (the 5th, state-appointed seat appears currently unfilled/unreported).
+  retrieved: '2026-09-24'
