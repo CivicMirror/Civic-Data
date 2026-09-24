@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/31e807d4-88c9-517d-852e-065339fe0db0
+name: Elizabeth Collins
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.westport-ma.com/government/boards_committees/housing_authority/index.php
+  note: 'Town of Westport official Housing Authority board page, cross-checked against the FY2027 EOHLC Annual Plan filing (term-end dates from EOHLC: both end 2031). Pauline Brodeur is explicitly labeled ''Tenant Member'' on the town page (the EOHLC filing left her Category blank, which would have been a mistake to mint) and the State Appointee seat is explicitly listed vacant -- confirming the board is 3 elected + 1 tenant + 1 state (vacant), not the 4-elected structure assumed elsewhere, so this post''s 3-seat count is correct as-is. Authority created under M.G.L. c. 121B per https://www.mass.gov/doc/westport-housing-authority/download.'
+  retrieved: '2026-09-24'
