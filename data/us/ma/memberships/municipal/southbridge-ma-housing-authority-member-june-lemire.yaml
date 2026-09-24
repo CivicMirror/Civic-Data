@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: southbridge-ma-housing-authority-member-june-lemire
+person_id: ocd-person/ceec92cf-7622-55c1-85d5-a0b94543821a
+organization_id: ocd-organization/0f2efcc3-75b8-5d19-a84d-c46517e5738e
+post_id: southbridge-ma/housing-authority-member
+role: Housing Authority Member
+how_seated: elected
+sources:
+- url: https://www.southbridgehousing.org/board.aspx
+  note: Southbridge Housing Authority's own board roster page. No election-results document could be found for this town (confirmed absent). 'Elected' is INFERRED here by process of elimination -- the page explicitly labels only Jennifer Boilard as 'State Appointee and Vice Chairperson' (excluded), and the remaining 4 names exactly match the charter's 4-elected-seat count (Sec. 3-5-1), but the page itself never states these 4 are elected, and no term-end dates are given. Flagging this inference for a human to confirm against an actual election result if one turns up.
+  retrieved: '2026-09-24'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: norwood-ma-housing-authority-member-michael-fitzgibbon
+person_id: ocd-person/c6d6a46e-b326-5c4c-a307-b009736acd55
+organization_id: ocd-organization/13108fb5-9cdb-5156-a886-1fddfec2c8eb
+post_id: norwood-ma/housing-authority-member
+role: Norwood Housing Authority Member
+how_seated: elected
+sources:
+- url: https://www.norwoodma.gov/government/elected_and_appointed_officials/elected_officials.php
+  note: Town of Norwood official Current Elected Officials roster -- explicitly labels the 2 non-elected seats (Christine Dias, Town Appointed; Kevin P. Flaherty, State Appointed), which are excluded here. Cross-checked against norwoodha.org/board-of-commissioners to confirm this is the real Norwood Housing Authority, not the separate Norwood Affordable Housing Corporation a prior pass found conflated on a different norwoodha.org page.
+  retrieved: '2026-09-24'
+end: '2026'

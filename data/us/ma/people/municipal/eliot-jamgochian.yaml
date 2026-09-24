@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/503b7661-53db-5d77-b781-b154ca3c238e
+name: Eliot Jamgochian
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.wrentham.gov/DocumentCenter/View/4117/2025-ATE-Minutes-and-Official-Results
+  note: 'Wrentham official Annual Town Election results. Mayhew: 2025-04-07, write-in, 178 of 260 write-in votes (68%), 5-yr seat -- confirms a previously-unverified lead exactly. Jamgochian: 2024-04-01, write-in, 53 of 119 write-in votes (44.5%), 5-yr seat -- end years inferred from standard term length. NOTE: the same 2024 ballot had a separate 3-yr Housing Authority write-in race that Jamgochian also led (12 of 29 votes) -- not minted, flagged for a human to check whether this is a real second seat or a tally/transcription quirk before adding it.'
+  retrieved: '2026-09-24'

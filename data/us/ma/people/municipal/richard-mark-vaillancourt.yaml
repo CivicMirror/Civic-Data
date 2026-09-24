@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/431164d4-f004-5cd9-89dd-995612badc11
+name: Richard Mark Vaillancourt
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://github.com/user-attachments/files/32612510/Official.Election.Results.3_31_26.pdf
+  note: 'North Andover official Annual Town Election results, 2022/2023/2026 (PDFs user-supplied in issue #50 comments). Excludes Tracy Watson (board.aspx roster''s 4th named non-appointee, term-exp 2026, but not confirmed in any of the 5 available ballot PDFs) and Edward Capodilupo (never appears in 2022-2026 results despite a term-exp-2030 seat -- likely the state-appointed seat, not verified).'
+  retrieved: '2026-09-24'
