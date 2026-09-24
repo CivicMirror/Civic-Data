@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: westwood-ma-housing-authority-eric-k-alden
+person_id: ocd-person/5cee963c-0d06-51fb-a20b-18c8abbc3ba6
+organization_id: ocd-organization/b10897da-22fc-56ef-8eee-012d0051d794
+post_id: westwood-ma/housing-authority
+role: Housing Authority Member
+how_seated: elected
+sources:
+- url: https://www.townhall.westwood.ma.us/home/showpublisheddocument/28442/638195006750004604
+  note: Town of Westwood official elected-officials roster document. 'State Appointee -- Vacant' explicitly labeled, confirming these 2 (plus the 2 already on file) are the town's 4 elected seats. How_seated is not stated outright on this page but is inferred by elimination against the explicitly-labeled vacant state seat. Rizoli's term end (2024) is stale as listed, no successor found this pass.
+  retrieved: '2026-09-24'
+end: '2026'

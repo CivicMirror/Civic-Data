@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4a6c1f66-80ed-5cd3-bd9d-f09c198a5470
+name: Frank R. Ferrara
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://publichousingfacilityreview.mass.gov/Public/GridGetAPFile?Recno=1509
+  note: EOHLC Annual Plan filing, LHA Board of Commissioners table. Blank Category = general elected seat (this project's convention); labeled categories (State Appointee, Tenant, etc.) excluded. Peter A. Caggiano (State Appointee) and Mary Lou Heighton (State Tenant Rep) excluded. Only 3 of the post's 4 seats have a general-elected candidate in this filing.
+  retrieved: '2026-09-24'

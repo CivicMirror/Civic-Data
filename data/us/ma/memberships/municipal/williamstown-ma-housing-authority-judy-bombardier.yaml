@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: williamstown-ma-housing-authority-judy-bombardier
+person_id: ocd-person/3eca6149-ad27-5928-ab4f-4828f72cfcd7
+organization_id: ocd-organization/37bd5e35-1ed5-5c45-8bf7-4de6015aa411
+post_id: williamstown-ma/housing-authority
+role: Housing Authority Member
+how_seated: elected
+sources:
+- url: https://publichousingfacilityreview.mass.gov/Public/GridGetAPFile?Recno=1188
+  note: 'EOHLC Annual Plan filing, LHA Board of Commissioners table. Blank Category = general elected seat (this project''s convention); labeled categories (State Appointee, Tenant, etc.) excluded. Paula McKenna (Category: Tenant) excluded.'
+  retrieved: '2026-09-24'
+end: '2030'
