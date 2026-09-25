@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/a8923d98-7c70-5614-9a72-cb95ee2b3da9
+name: David Gault
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.seekonk-ma.gov/288/Elections-Voting
+  note: Seekonk 2023-04-03 Annual Town Election results summary page -- David Gault won as a write-in. 5-yr term per Home Rule Charter Sec. 1(H) -- end year inferred from term length, election was on-ballot-confirmed but the summary page gives no vote count. 2024 race was a dead write-in contest (31 real votes, 2401 blanks); Housing Authority wasn't on the 2025 or 2026 ballots at all.
+  retrieved: '2026-09-24'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/e1ecb61c-f3eb-57e2-8312-fbcba702a708
+name: Matthew Brunell
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.southhadley.org/m/directory/department?did=69
+  note: Town staff directory roster (read live 2026-09-25) lists Blaney (Vice-Chair) and Brunell (Treasurer) among the 4 elected Housing Authority members; term-end years not published.
+  retrieved: '2026-09-25'

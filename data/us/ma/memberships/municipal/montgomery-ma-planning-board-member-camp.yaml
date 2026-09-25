@@ -1,0 +1,32 @@
+# Imported from reference/MA Rolling Audit/ma_charter_audit_v5{{6,7,8}}_
+# preservation_package_2026-08-25/ (MA municipal charter/elected-office
+# rolling audit, generated 2026-08-25) by scripts/
+# import_ma_charter_audit_v56_v58.py. Source rows were machine-extracted
+# from municipal government sites; see the record's sources for provenance.
+#
+# how_seated corrected 2026-09-23 (issue #74): the town's own boards
+# page (montgomeryma.gov/boards-committees/planning/) describes this
+# board as "volunteer"; a bylaws review found no Planning Board
+# establishment clause; and neither the 2024 (Annual Town Election
+# Minutes 5.6.24) nor 2025 (5.5.25 Official Results) town election
+# includes a Planning Board race. Converging evidence for appointed,
+# not elected -- corrected from the original import's "elected" tag.
+id: montgomery-ma-planning-board-member-camp
+person_id: ocd-person/6dccdabe-ac31-5603-bf4f-648bcc65d251
+organization_id: ocd-organization/51a0ef8a-f7fa-5f3d-ad3d-8210d9764842
+post_id: montgomery-ma/planning-board-member
+role: Planning Board Member
+seat: '1'
+how_seated: appointed
+sources:
+- url: https://montgomeryma.gov/wp-content/uploads/2026/05/MT-Breeze-MAY-2026.pdf
+  retrieved: '2026-08-25'
+- url: https://montgomeryma.gov/boards-committees/planning/
+  note: Town's own boards-and-committees page describes the Planning Board as "volunteer."
+  retrieved: '2026-09-23'
+- url: https://montgomeryma.gov/wp-content/uploads/2024/05/Annual-Town-Election-Minutes-5.6.24.pdf
+  note: 2024 Annual Town Election Minutes -- no Planning Board race listed.
+  retrieved: '2026-09-23'
+- url: https://montgomeryma.gov/wp-content/uploads/2025/05/5.5.25-OFFICIAL-RESULTS-ANNUAL-TOWN-ELECTION.pdf
+  note: 2025 Official Annual Town Election Results -- no Planning Board race listed.
+  retrieved: '2026-09-23'

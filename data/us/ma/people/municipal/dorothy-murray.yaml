@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/f8eba88a-dad5-5500-836a-472a40d9b8f0
+name: Dorothy Murray
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://rockland-ma.gov/DocumentCenter/View/4669
+  note: 'Rockland official Annual Town Election results, 2025-04-12, unopposed 1355 votes, 5-yr seat. NOTE: charter Sec. C-2.14A describes 4 elected + 1 state-appointed (5 total), but this post is modeled with only 3 seats -- may need a seat-count correction before more elected members can be minted here.'
+  retrieved: '2026-09-24'

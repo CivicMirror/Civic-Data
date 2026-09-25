@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/a70d03d2-1404-5720-ab05-431295d899bb
+name: Nancy Keeley-Maree
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.longmeadowma.gov/1240/Housing-Authority
+  note: Town of Longmeadow official Housing Authority page, explicit 'Elected' labels. Timothy Sheehan (MDHCD/state appointment) excluded.
+  retrieved: '2026-09-24'

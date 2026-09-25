@@ -1,0 +1,14 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: dracut-ma-housing-authority-member-charles-kanavos
+person_id: ocd-person/ab7e015b-c623-551a-aef9-b77b76ea3c7e
+organization_id: ocd-organization/8a2b3439-7bc5-5c2d-bfa2-de526cef460a
+post_id: dracut-ma/housing-authority-member
+role: Housing Authority Member
+how_seated: elected
+sources:
+- url: https://www.dracuthousingauthority.org/board-of-commissioners
+  note: 'Dracut Housing Authority board-of-commissioners roster, supplied in issue #50 comments (direct fetch 403-blocked, including via r.jina.ai). Page lists a ''Start Date'' column with values spanning 2027-2030 for sitting commissioners -- almost certainly mislabeled term-end/expiration years given 5-yr staggered terms, but not recorded as ''end'' here since the label itself is ambiguous; a human should confirm against the town clerk''s election results before adding term-end dates. Andre Dubuque, listed as ''Resident Member'', is excluded -- the town charter''s 5th seat is a DCA/state-appointed town resident, not one of the 4 elected seats this post models.'
+  retrieved: '2026-09-24'

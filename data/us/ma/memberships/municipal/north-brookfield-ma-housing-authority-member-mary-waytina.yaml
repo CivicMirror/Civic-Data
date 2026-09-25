@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: north-brookfield-ma-housing-authority-member-mary-waytina
+person_id: ocd-person/8f501148-18ab-5277-bbfb-c2b00c7b63f3
+organization_id: ocd-organization/64b6e548-9b68-52a5-875c-eb3392e240ff
+post_id: north-brookfield-ma/housing-authority-member
+role: Housing Authority Member
+how_seated: elected
+sources:
+- url: https://publichousingfacilityreview.mass.gov/Public/GridGetAPFile?Recno=1264
+  note: EOHLC Annual Plan filing, LHA Board of Commissioners table. Blank Category = general elected seat (this project's convention); labeled categories (State Appointee, Tenant, etc.) excluded. A 5th blank-category name, James Meccariello, was excluded -- his term expired 2024, stale relative to this FY2026 filing, and minting him would exceed the post's 4 seats alongside the 2 already on file.
+  retrieved: '2026-09-24'
+end: '2030'

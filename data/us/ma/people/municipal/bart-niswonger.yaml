@@ -1,0 +1,15 @@
+# Hand-verified against the town's own official Planning Board page/
+# election results for issue #74's 18-town Planning Board roster
+# backfill (2026-09-23 research pass, sibling issues #42-73 mined
+# first per project convention).
+id: ocd-person/339fff86-9fcf-4e40-a1b2-dfeb603c1b9e
+name: Bart Niswonger
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-23'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://worthington-ma.us/municipal-directory/planning-board/
+  note: 'Worthington Planning Board municipal-directory page: "Bart Niswonger -- Chair -- Term Expires 2027." This page does not explicitly say "elected"; how_seated is inferred from the existing Bavelock record''s own election-results sourcing and the town''s general elected-boards pattern (Board of Health bylaw language quoted in issue #49) -- not a direct per-seat statement. Flagged for a spot-check against a Worthington election-results PDF before treating as fully confirmed.'
+  retrieved: '2026-09-23'

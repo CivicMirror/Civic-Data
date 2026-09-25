@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/dd2f667e-7b5e-56a7-bd14-fff041663a7e
+name: Kenneth Martin
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-24'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.dracuthousingauthority.org/board-of-commissioners
+  note: 'Dracut Housing Authority board-of-commissioners roster, supplied in issue #50 comments (direct fetch 403-blocked, including via r.jina.ai). Page lists a ''Start Date'' column with values spanning 2027-2030 for sitting commissioners -- almost certainly mislabeled term-end/expiration years given 5-yr staggered terms, but not recorded as ''end'' here since the label itself is ambiguous; a human should confirm against the town clerk''s election results before adding term-end dates. Andre Dubuque, listed as ''Resident Member'', is excluded -- the town charter''s 5th seat is a DCA/state-appointed town resident, not one of the 4 elected seats this post models.'
+  retrieved: '2026-09-24'

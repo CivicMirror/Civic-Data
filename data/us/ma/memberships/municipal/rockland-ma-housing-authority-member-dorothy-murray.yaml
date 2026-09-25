@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: rockland-ma-housing-authority-member-dorothy-murray
+person_id: ocd-person/f8eba88a-dad5-5500-836a-472a40d9b8f0
+organization_id: ocd-organization/849dd173-c93f-5fab-8d7c-5806d39398d5
+post_id: rockland-ma/housing-authority-member
+role: Housing Authority Member — locally elected
+how_seated: elected
+sources:
+- url: https://rockland-ma.gov/DocumentCenter/View/4669
+  note: 'Rockland official Annual Town Election results, 2025-04-12, unopposed 1355 votes, 5-yr seat. NOTE: charter Sec. C-2.14A describes 4 elected + 1 state-appointed (5 total), but this post is modeled with only 3 seats -- may need a seat-count correction before more elected members can be minted here.'
+  retrieved: '2026-09-24'
+end: '2030'

@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/0b5a916a-b639-515f-a338-29c845e6773e
+name: Joseph Paul Collins
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.rehobothma.gov/sites/g/files/vyhlif4911/f/news/tally-ate-4-4-2023-official_results.pdf
+  note: 'Certified town-tally election results identify all 4 staggered Housing Authority seats by year: Ruehrwein elected 4/4/2023 (561 votes, 5-year term, end 2028); Collins elected 4/2/2024 (1,189 votes, end 2029, per tally-ate-4-2-2024-official-rehoboth PDF); Sousa elected 4/1/2025 (373 votes, end 2030, per 4-1-2025-annual_town_election_official_results PDF); Jacques already on file (re-elected 2026, end 2031). Ruehrwein''s seat is labeled ''Town appointed Tenant Board Member'' on the town''s Housing Authority page, but she was elected on the regular general-electorate town ballot (not a tenant-only franchise), consistent with the other 3 seats -- treated as locally elected.'
+  retrieved: '2026-09-25'
