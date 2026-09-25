@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Civic-Data Schema Guide</title>
+<style>
+  :root { --ink:#1c2333; --muted:#5b6478; --line:#e2e6ee; --bg:#f7f8fb; --card:#ffffff; --accent:#2456c8; --accent-soft:#e9effc; --code-bg:#f1f3f8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  header.hero { background:#16213a; color:#fff; padding:3rem 1.5rem 2.5rem; }
+  header.hero .wrap, main.wrap { max-width:960px; margin:0 auto; }
+  header.hero h1 { margin:0 0 .5rem; font-size:2rem; }
+  header.hero p { margin:.4rem 0; color:#c6cfE4; max-width:640px; }
+  header.hero a { color:#9db9f5; }
+  nav.toc { background:var(--card); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:10; }
+  nav.toc .wrap { display:flex; flex-wrap:wrap; gap:.25rem 1.25rem; padding:.7rem 1.5rem; max-width:960px; margin:0 auto; }
+  nav.toc a { color:var(--accent); text-decoration:none; font-size:.9rem; }
+  nav.toc a:hover { text-decoration:underline; }
+  main.wrap { padding:2rem 1.5rem 4rem; }
+  section.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:1.75rem 2rem; margin:0 0 1.75rem; }
+  h2 { margin-top:0; font-size:1.45rem; border-bottom:2px solid var(--accent-soft); padding-bottom:.4rem; }
+  h3 { margin:1.5rem 0 .5rem; font-size:1.1rem; }
+  p, li { color:var(--ink); }
+  .muted { color:var(--muted); }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.86em; background:var(--code-bg); padding:.12em .4em; border-radius:4px; }
+  pre { background:#101828; color:#e6ebf5; padding:1.1rem 1.25rem; border-radius:8px; overflow-x:auto; font-size:.82rem; line-height:1.55; }
+  pre code { background:none; padding:0; color:inherit; }
+  table.fields { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.92rem; }
+  table.fields th, table.fields td { text-align:left; padding:.55rem .7rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  table.fields th { background:var(--bg); font-size:.8rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+  .req { display:inline-block; background:var(--accent); color:#fff; font-size:.68rem; font-weight:700; border-radius:4px; padding:.1em .5em; margin-right:.5em; vertical-align:middle; }
+  .opt { display:inline-block; background:#dfe4ee; color:var(--muted); font-size:.68rem; font-weight:700; border-radius:4px; padding:.1em .5em; margin-right:.5em; vertical-align:middle; }
+  .chain { display:flex; flex-wrap:wrap; align-items:stretch; gap:0; margin:1.25rem 0; }
+  .chain .node { background:var(--accent-soft); border:1px solid #b9cdf3; border-radius:8px; padding:.7rem .9rem; text-align:center; flex:1 1 0; min-width:110px; }
+  .chain .node b { display:block; font-size:.92rem; }
+  .chain .node span { font-size:.75rem; color:var(--muted); }
+  .chain .arrow { align-self:center; padding:0 .35rem; color:var(--accent); font-weight:700; font-size:1.2rem; }
+  .callout { background:#fff8e6; border:1px solid #f0d98c; border-radius:8px; padding:.9rem 1.1rem; margin:1rem 0; font-size:.93rem; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem 3rem; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Civic-Data Schema Guide</h1>
+    <p>A shared, human-reviewable spine of U.S. civic identity data — jurisdictions, offices, people, candidacies, and elections — jointly consumed by <a href="https://civicpatch.org">CivicPatch</a> and <a href="https://civicmirror.app">CivicMirror</a>.</p>
+    <p>This page explains the data model for new contributors: the six entity types, how they link together, the field conventions, and what stays out of the repo. Normative field definitions live in <code>schemas/*.schema.json</code>; design rationale in <code>docs/ARCHITECTURE.md</code>.</p>
+  </div>
+</header>
+
+<nav class="toc"><div class="wrap">
+  <a href="#model">The model</a><a href="#jurisdiction">Jurisdiction</a><a href="#organization">Organization</a><a href="#post">Post</a><a href="#membership">Membership</a><a href="#person">Person</a><a href="#election">Election</a><a href="#conventions">Conventions</a><a href="#example">Worked example</a><a href="#keep-out">What stays out</a>
+</div></nav>
+
+<main class="wrap">
+
+<section class="card" id="model">
+  <h2>The model in one picture</h2>
+  <p>Government data is modeled as a chain: a <b>division</b> (a place on the map) has a <b>jurisdiction</b> (its government), which contains <b>organizations</b> (bodies like a council), which define <b>posts</b> (seats that exist whether or not someone holds them). A <b>membership</b> links a <b>person</b> to an organization and post for a bounded time. <b>Elections</b> record the contests that fill posts, with winners pointing back at people.</p>
+  <div class="chain">
+    <div class="node"><b>Division</b><span>ocd-division/…<br>geography</span></div><div class="arrow">→</div>
+    <div class="node"><b>Jurisdiction</b><span>ocd-jurisdiction/…<br>the government</span></div><div class="arrow">→</div>
+    <div class="node"><b>Organization</b><span>a council, board,<br>legislature</span></div><div class="arrow">→</div>
+    <div class="node"><b>Post</b><span>a seat: title +<br>seat count</span></div><div class="arrow">→</div>
+    <div class="node"><b>Membership</b><span>person holds post,<br>start → end</span></div><div class="arrow">→</div>
+    <div class="node"><b>Person</b><span>name, candidacies,<br>identifiers</span></div>
+  </div>
+  <p class="muted">One YAML file per entity, under <code>data/us/&lt;state&gt;/&lt;entity&gt;/</code>. Diffs are the review unit; PRs are the write path; <code>scripts/validate.py</code> (run in CI on every PR) is the first reviewer.</p>
+</section>
+
+<section class="card" id="jurisdiction">
+  <h2>Jurisdiction</h2>
+  <p>A governing authority within a geographic division. Keyed by <a href="https://github.com/opencivicdata/ocd-division-ids">OCD Division ID</a> plus a governance classification. Carries the official website, government form, and <i>site intelligence</i> (what CMS/vendor platform the jurisdiction publishes on) shared by both projects' scrapers.</p>
+  <table class="fields">
+    <tr><th>Field</th><th>Type</th><th>Notes</th></tr>
+    <tr><td><span class="req">required</span><code>id</code></td><td>string</td><td>OCD jurisdiction ID, e.g. <code>ocd-jurisdiction/country:us/state:ma/place:braintree/government</code></td></tr>
+    <tr><td><span class="req">required</span><code>name</code></td><td>string</td><td>Display name, e.g. <code>City of Braintree Town</code></td></tr>
+    <tr><td><span class="req">required</span><code>state</code></td><td>string</td><td>Two-letter state code</td></tr>
+    <tr><td><span class="req">required</span><code>division_id</code></td><td>string</td><td>The geographic OCD division governed</td></tr>
+    <tr><td><span class="req">required</span><code>classification</code></td><td>string</td><td><code>government</code>, <code>congressional-district</code>, etc.</td></tr>
+    <tr><td><span class="opt">optional</span><code>government_form</code></td><td>string</td><td>e.g. <code>mayor-council</code>, <code>council-manager</code>, <code>open town meeting</code></td></tr>
+    <tr><td><span class="opt">optional</span><code>website</code></td><td>string</td><td>Official site URL</td></tr>
+    <tr><td><span class="opt">optional</span><code>identifiers</code></td><td>array</td><td>Crosswalks to external datasets (see <a href="#conventions">identifier convention</a>)</td></tr>
+    <tr><td><span class="opt">optional</span><code>site_intelligence</code></td><td>object</td><td>Scraper intel: CMS/vendor platform, page patterns</td></tr>
+    <tr><td><span class="opt">optional</span><code>election_authority</code></td><td>object</td><td>Who administers this jurisdiction's elections</td></tr>
+    <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Provenance for every fact (see <a href="#conventions">sources</a>)</td></tr>
+  </table>
+<pre><code>id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+name: City of Braintree Town
+state: ma
+division_id: ocd-division/country:us/state:ma/place:braintree
+classification: government
+website: http://www.townofbraintree.gov
+sources:
+- url: https://www.census.gov/...
+  note: 'U.S. Census Bureau, 2022 Census of Governments ...'
+  retrieved: '2026-08-17'</code></pre>
+</section>
+
+<section class="card" id="organization">
+  <h2>Organization</h2>
+  <p>One immutable, canonically-IDed record per government body within a jurisdiction — a council, a board, a legislature. Source-system identifiers (CivicPatch, Open States) live in <code>identifiers[]</code>.</p>
+  <table class="fields">
+    <tr><th>Field</th><th>Type</th><th>Notes</th></tr>
+    <tr><td><span class="req">required</span><code>id</code></td><td>string</td><td><code>ocd-organization/&lt;uuid&gt;</code> — minted once, never reused</td></tr>
+    <tr><td><span class="req">required</span><code>name</code></td><td>string</td><td>e.g. <code>Office of the Mayor, Braintree</code></td></tr>
+    <tr><td><span class="req">required</span><code>jurisdiction_id</code></td><td>string</td><td>Links to the jurisdiction</td></tr>
+    <tr><td><span class="req">required</span><code>identifiers</code></td><td>array</td><td>Must include <code>{scheme: civicmirror-office, identifier: &lt;post-id&gt;}</code></td></tr>
+    <tr><td><span class="opt">optional</span><code>status</code></td><td>string</td><td><code>active</code> etc.</td></tr>
+    <tr><td><span class="opt">optional</span><code>total_seats</code></td><td>integer</td><td>All seats on the body, including any not filled by public election</td></tr>
+    <tr><td><span class="opt">optional</span><code>notes</code></td><td>string</td><td>Free-text curation notes</td></tr>
+    <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Provenance</td></tr>
+  </table>
+</section>
+
+<section class="card" id="post">
+  <h2>Post</h2>
+  <p>A position that exists independently of the person who holds it — a title plus a seat count, within an organization. The post is the stable join key: CivicPatch and CivicMirror join their datasets on the post (the seat), not on people or boundaries.</p>
+  <table class="fields">
+    <tr><th>Field</th><th>Type</th><th>Notes</th></tr>
+    <tr><td><span class="req">required</span><code>id</code></td><td>string</td><td>Slug like <code>braintree-ma/councilor-at-large</code> — the cross-project join key</td></tr>
+    <tr><td><span class="req">required</span><code>organization_id</code></td><td>string</td><td>Links to the organization</td></tr>
+    <tr><td><span class="req">required</span><code>title</code></td><td>string</td><td>Formal elected-office title, e.g. <code>Councilor At-Large</code></td></tr>
+    <tr><td><span class="req">required</span><code>seats</code></td><td>integer</td><td>Number of seats elected to this post</td></tr>
+    <tr><td><span class="opt">optional</span><code>identifiers</code></td><td>array</td><td>External crosswalks</td></tr>
+    <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Provenance — seat counts must cite the charter/bylaw or official roster</td></tr>
+  </table>
+  <div class="callout"><b>Title discipline:</b> posts track the <i>formal elected office</i> created by charter or statute — not internal board roles (Chair, Vice Chair, Clerk), which boards assign to themselves after the election and which never appear on a ballot.</div>
+<pre><code>id: braintree-ma/councilor-at-large
+organization_id: ocd-organization/0e48737d-de07-4420-b268-9be5cc6729fa
+title: Councilor At-Large
+seats: 3
+sources:
+- url: https://www.braintreema.gov/419/Town-Council
+  note: "Town's official Town Council page: nine Council Members, three
+    elected as Councilors-at-Large and six as District Councilors,
+    elected every two years."
+  retrieved: '2026-09-25'</code></pre>
+</section>
+
+<section class="card" id="membership">
+  <h2>Membership</h2>
+  <p>A time-bounded relationship linking a person to an organization and, usually, a post. <b>This is where officeholding lives</b> — person files do not carry office relationships directly. Start/end dates, <code>how_seated</code>, and sources are the core of the record.</p>
+  <table class="fields">
+    <tr><th>Field</th><th>Type</th><th>Notes</th></tr>
+    <tr><td><span class="req">required</span><code>id</code></td><td>string</td><td>Unique slug for the membership</td></tr>
+    <tr><td><span class="req">required</span><code>person_id</code></td><td>string</td><td>Links to the person</td></tr>
+    <tr><td><span class="req">required</span><code>organization_id</code></td><td>string</td><td>Links to the organization</td></tr>
+    <tr><td><span class="opt">optional</span><code>post_id</code></td><td>string</td><td>Links to the post (almost always present)</td></tr>
+    <tr><td><span class="req">required</span><code>role</code></td><td>string</td><td>e.g. <code>Mayor</code>, <code>Member</code></td></tr>
+    <tr><td><span class="opt">optional</span><code>seat</code></td><td>string</td><td>Sub-seat label, e.g. <code>District 1</code>, <code>At-Large</code></td></tr>
+    <tr><td><span class="opt">optional</span><code>start</code> / <code>end</code></td><td>string</td><td>ISO dates; end is omitted while the person holds the office. Never inferred — only recorded when a source states it.</td></tr>
+    <tr><td><span class="opt">optional</span><code>how_seated</code></td><td>string</td><td>e.g. <code>elected</code>, <code>appointed</code> — never inferred from a name appearing on a roster</td></tr>
+    <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Certified results or official roster for the seating event</td></tr>
+  </table>
+<pre><code>id: braintree-mayor-joyce
+person_id: ocd-person/710f4b87-2760-5b35-aa3e-a379ad1dfd65
+organization_id: ocd-organization/cd978ff2-6162-5e16-9c99-6163d431fc30
+post_id: braintree/mayor
+role: Mayor
+seat: At-Large
+start: '2024-01-01'
+how_seated: elected
+sources:
+- url: https://ocpf.us/filers?q=18370
+  note: OCPF filer profile for Erin Venezia Joyce (cpfId 18370)
+  retrieved: '2026-08-19'</code></pre>
+</section>
+
+<section class="card" id="person">
+  <h2>Person</h2>
+  <p>An individual independent of any office or election. One file per person carries reviewed external identifiers, public office contact info, candidacies, provenance, and verification. Current or historical officeholding lives in membership records, not here.</p>
+  <table class="fields">
+    <tr><th>Field</th><th>Type</th><th>Notes</th></tr>
+    <tr><td><span class="req">required</span><code>id</code></td><td>string</td><td><code>ocd-person/&lt;uuid&gt;</code></td></tr>
+    <tr><td><span class="req">required</span><code>name</code></td><td>string</td><td>Full name as officially published</td></tr>
+    <tr><td><span class="opt">optional</span><code>identifiers</code></td><td>array</td><td>Reviewed external IDs (CivicPatch, Open States, OCPF filer IDs…)</td></tr>
+    <tr><td><span class="req">required</span><code>candidacies</code></td><td>array</td><td>Participation in specific election contests</td></tr>
+    <tr><td><span class="opt">optional</span><code>image</code></td><td>string</td><td>Official portrait URL</td></tr>
+    <tr><td><span class="opt">optional</span><code>contact</code></td><td>object</td><td><b>Public office contact only</b> — no personal phones/emails, ever</td></tr>
+    <tr><td><span class="opt">optional</span><code>addresses</code></td><td>array</td><td>Office addresses only</td></tr>
+    <tr><td><span class="req">required</span><code>verification</code></td><td>object</td><td>Human-review status of the record</td></tr>
+    <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Provenance</td></tr>
+  </table>
+</section>
+
+<section class="card" id="election">
+  <h2>Election &amp; Contest</h2>
+  <p>One file per election, containing one or more contests. Contests link a race to a post (<code>office_id</code>), list candidates, and record certified winners as person IDs. This is deliberately small: precinct-level rows and live results snapshots stay in CivicMirror; only the reviewable outcome linkage lives here.</p>
+  <table class="fields">
+    <tr><th>Field</th><th>Type</th><th>Notes</th></tr>
+    <tr><td><span class="req">required</span><code>id</code></td><td>string</td><td>e.g. <code>braintree/2023-11-07/general</code></td></tr>
+    <tr><td><span class="req">required</span><code>name</code> / <code>date</code></td><td>string</td><td>Human name and ISO election date</td></tr>
+    <tr><td><span class="req">required</span><code>election_type</code></td><td>string</td><td><code>general</code>, <code>primary</code>, …</td></tr>
+    <tr><td><span class="req">required</span><code>status</code></td><td>string</td><td><code>certified</code> once official</td></tr>
+    <tr><td><span class="req">required</span><code>contests</code></td><td>array</td><td>Each contest: <code>office_id</code> (→ post), <code>candidate_ids</code>, <code>winners[]</code> with person IDs, <code>result_status</code></td></tr>
+    <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Certified results document</td></tr>
+  </table>
+<pre><code>id: braintree/2023-11-07/general
+name: braintree 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: braintree/2023-11-07/mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+  office_id: braintree/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5a053ae9-0775-51d2-a5d6-a28a9bb621c1
+  - ocd-person/710f4b87-2760-5b35-aa3e-a379ad1dfd65
+  result_status: certified
+  winners:
+  - person_id: ocd-person/710f4b87-2760-5b35-aa3e-a379ad1dfd65
+    name: Erin Venezia Joyce
+    party: Unenrolled
+  seat: At-Large</code></pre>
+</section>
+
+<section class="card" id="conventions">
+  <h2>Conventions that hold the repo together</h2>
+  <h3>Identifiers</h3>
+  <p>Every crosswalk entry is <code>{scheme, identifier}</code> (+ optional <code>source</code>). Internal IDs are OCD-style: <code>ocd-jurisdiction/…</code>, <code>ocd-organization/&lt;uuid&gt;</code>, <code>ocd-person/&lt;uuid&gt;</code>, <code>ocd-division/…</code>. Post IDs are human-readable slugs (<code>braintree-ma/councilor-at-large</code>) and serve as the cross-project join key. Organizations carry <code>{scheme: civicmirror-office, identifier: &lt;post-id&gt;}</code> to bind the org to its post.</p>
+  <h3>Sources</h3>
+  <p>Every entity requires <code>sources[]</code>; every entry has <code>url</code>, a <code>note</code> saying what the source establishes, and <code>retrieved</code> (ISO date). Rules of thumb: official sources only; cite the exact page or document for every fact; certified results over specimen ballots; never infer term ends, elected-vs-appointed status, or seat counts — verify against the charter, bylaws, or an official roster.</p>
+  <h3>Layout</h3>
+  <p><code>data/us/&lt;state&gt;/{jurisdictions,organizations,posts,memberships,people,elections}/</code>, tiered into <code>federal/</code>, <code>state-upper/</code>, <code>state-lower/</code>, <code>county/</code>, <code>municipal/</code> (people are further split per town). JSON Schemas for all seven entity types live in <code>schemas/</code>.</p>
+  <h3>Workflow</h3>
+  <p>PRs are the write path — bots and humans alike propose changes as pull requests, CI runs <code>scripts/validate.py</code> (schema + reference integrity + duplicate detection), and humans merge. Ambiguous field names are defined in <code>docs/GLOSSARY.md</code>; open modeling questions in <code>docs/open_questions.md</code>.</p>
+</section>
+
+<section class="card" id="example">
+  <h2>Worked example: one mayor, end to end</h2>
+  <p>How Erin Venezia Joyce's mayoralty of Braintree is represented across five files:</p>
+  <ol>
+    <li><b>Jurisdiction</b> <code>ocd-jurisdiction/country:us/state:ma/place:braintree/government</code> — the government of Braintree, inside <code>ocd-division/country:us/state:ma/place:braintree</code>.</li>
+    <li><b>Organization</b> <code>ocd-organization/cd978ff2-…</code> — “Office of the Mayor, Braintree”, in that jurisdiction.</li>
+    <li><b>Post</b> <code>braintree/mayor</code> — “Mayor of Braintree”, 1 seat, in that organization.</li>
+    <li><b>Membership</b> <code>braintree-mayor-joyce</code> — links her person record to the org + post, role Mayor, seat At-Large, started 2024-01-01, <code>how_seated: elected</code>, sourced to her OCPF filer profile.</li>
+    <li><b>Election</b> <code>braintree/2023-11-07/general</code> — the contest with <code>office_id: braintree/mayor</code> names her as the certified winner, closing the loop from ballot to officeholder.</li>
+  </ol>
+  <p class="muted">Her <b>person</b> file holds her name, candidacies, identifiers, and verification — and nothing about the office itself. If she leaves office, only the membership gains an <code>end</code> date; the person, post, and organization are untouched.</p>
+</section>
+
+<section class="card" id="keep-out">
+  <h2>What stays out</h2>
+  <ul>
+    <li><b>Raw election results</b> — precinct rows and live snapshots churn during canvass and make unreviewable diffs. Only compact, certified contest outcomes live here.</li>
+    <li><b>Internal board titles</b> — Chair, Vice Chair, Clerk are assigned by the board, not the ballot. Only the formal elected office is modeled.</li>
+    <li><b>Personal contact data</b> — filing addresses, personal phones, and personal emails never enter this repo. Public office contact only.</li>
+    <li><b>Single-project data</b> — the moment a field is only needed by one project, it moves back into that project's repo. This is the shared spine, not a merged project.</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  Civic-Data schema guide · generated from <a href="https://github.com/CivicMirror/Civic-Data/tree/main/schemas">schemas/*.schema.json</a> and <a href="https://github.com/CivicMirror/Civic-Data/blob/main/docs/ARCHITECTURE.md">docs/ARCHITECTURE.md</a> · contributions via pull request
+</footer>
+
+</body>
+</html>
