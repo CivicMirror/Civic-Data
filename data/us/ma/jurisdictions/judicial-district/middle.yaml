@@ -6,21 +6,21 @@
 # Worcester County town of Athol and includes Bellingham, which is in Norfolk
 # County. (worcesterda.com/about/meet-your-da/)
 #
-# division_id and classification are this repo's own construction, not an
-# adopted OCD-registry convention -- opencivicdata/ocd-division-ids#195
-# discusses prosecutor/DA districts but never landed a merged convention; this
-# follows maintainer rsimoes' fallback proposal there: mint a new id
-# subordinated to the state when no county or judicial-district id fits.
-# Treat as a reasoned local choice, not a canonical standard.
+# Modeled on the Texas judicial-district precedent (issue #26, commit
+# 2f21a5316): id subordinated as judicial_district:<slug>/judiciary with
+# classification judiciary, matching TX's 85 judicial districts and MS's
+# judicial-district tier. This supersedes the earlier district_attorney:middle
+# local choice -- see opencivicdata/ocd-division-ids#195, which discusses
+# prosecutor/DA district ids but never landed a merged convention.
 # Rebuilt under the new Jurisdiction/Organization/Post/Membership schema
 # (docs/FRESH-START-ORGANIZATIONS.md); content transcribed from the pre-reset
 # data (git history, commit 705e144) which used the old ocd-division-based
 # jurisdiction model.
-id: ocd-jurisdiction/country:us/state:ma/district_attorney:middle/executive
+id: ocd-jurisdiction/country:us/state:ma/judicial_district:middle/judiciary
 name: Middle District (Worcester County district attorney district)
 state: ma
-division_id: ocd-division/country:us/state:ma/district_attorney:middle
-classification: executive
+division_id: ocd-division/country:us/state:ma/judicial_district:middle
+classification: judiciary
 government_form: single-officer prosecutorial district (Massachusetts district attorney)
 website: https://worcesterda.com
 site_intelligence:
