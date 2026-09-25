@@ -115,6 +115,17 @@ sources:
     <tr><td><span class="opt">optional</span><code>notes</code></td><td>string</td><td>Free-text curation notes</td></tr>
     <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Provenance</td></tr>
   </table>
+<pre><code>id: ocd-organization/cd978ff2-6162-5e16-9c99-6163d431fc30
+name: Office of the Mayor, Braintree
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
+status: active
+identifiers:
+- scheme: civicmirror-office
+  identifier: braintree/mayor
+sources:
+- url: https://ocpf.us/filers?q=18370
+  note: OCPF filer profile for Erin Venezia Joyce (cpfId 18370)
+  retrieved: '2026-08-19'</code></pre>
 </section>
 
 <section class="card" id="post">
@@ -186,6 +197,28 @@ sources:
     <tr><td><span class="req">required</span><code>verification</code></td><td>object</td><td>Human-review status of the record</td></tr>
     <tr><td><span class="req">required</span><code>sources</code></td><td>array</td><td>Provenance</td></tr>
   </table>
+<pre><code>id: ocd-person/710f4b87-2760-5b35-aa3e-a379ad1dfd65
+name: Erin Venezia Joyce
+identifiers:
+- scheme: ocpf-filer-id
+  identifier: '18370'
+candidacies:
+- contest_id: braintree/2023-11-07/mayor
+  election_id: braintree/2023-11-07/general
+  office_id: braintree/mayor
+  party: Unenrolled
+  ballot_name: Erin Venezia Joyce
+  status: active
+contact:
+  profile_url: https://ocpf.us/filers?q=18370
+verification:
+  status: machine-extracted
+  pipeline: ocpf-filer-registry
+sources:
+- url: https://ocpf.us/filers?q=18370
+  note: OCPF filer profile for Erin Venezia Joyce (cpfId 18370)
+  retrieved: '2026-08-19'</code></pre>
+  <p class="muted">Note: <code>contact</code> carries only a public profile URL — personal phones, emails, and home addresses never appear. Officeholding itself is recorded in membership files, not here.</p>
 </section>
 
 <section class="card" id="election">
