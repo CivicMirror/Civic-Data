@@ -19,20 +19,25 @@ Each project keeps its own tooling, repos, and scope. This repo holds only the d
 schemas/                          JSON Schemas for every entity type
 data/
   us/
-    ma/                           One directory per state
-      jurisdictions/              One YAML file per place/district; tiered
-        <state>.yaml                 by government level:
-        federal/                     federal (Congress)
-        state-upper/ state-lower/    state legislature (sldu/sldl; per-district
-                                      jurisdiction files, added only if a tier
-                                      needs its own site_intelligence/sources)
-        county/                      counties + county-level districts (DA, etc.)
-        municipal/                   municipalities
-  people/                     One YAML file per person; same tiers
-        federal/ state-upper/ state-lower/ county/
-        municipal/<town-slug>/      further split per town — this is the one
-                                     tier where person-count sprawl warrants it
-      elections/                  One YAML file per contest linkage
+    <st>/                         One directory per state
+      jurisdictions/              One YAML file per jurisdiction; tiered
+        federal/                   by government level:
+        state/                     state legislature (per-district files)
+        county/                    counties (<county>-government.yaml)
+        municipal/                 municipalities (<town>-government.yaml)
+        school/                    school districts (<slug>-school.yaml)
+        judicial-district/         judicial/prosecutorial districts (bare slug)
+        ...                        states add tiers as needed
+                                   (TX: appellate-district, water districts, ...)
+      organizations/              One YAML file per government body; same tiers
+      posts/                      One YAML file per elected office; same tiers
+                                   (filename mirrors the post ID)
+      memberships/                One YAML file per officeholding; same tiers
+                                   (<post-file>-<person-slug>.yaml)
+      people/                     One YAML file per person; same tiers
+                                   (<name-slug>.yaml)
+      elections/                  One YAML file per contest linkage:
+                                   <jurisdiction>--<date>--<office>.yaml
 scripts/
   validate.py                     Schema validation + cross-validation
 docs/
@@ -106,7 +111,7 @@ python3 -m pytest -m live tests/test_ecode360_live.py -q -s
 
 - **IDs**: OCD Division IDs for geographic places, OCD Person-style UUIDs for people, and stable election/contest keys. External CivicMirror and CivicPatch identifiers are namespaced and accepted only after human review.
 - **Names/contacts**: verbatim from the official source.
-- **File naming**: currently one file per person, named by person (not jurisdiction), with the ID inside the file only — not appended to the filename the way Open States does it. See `docs/layout-demos/` for what the alternatives would look like; this is an open question, not yet finalized.
+- **File naming**: one file per record, tiered by government level. Post filenames mirror the post ID (`/` → `-`); memberships are `<post-file>-<person-slug>`; people are `<name-slug>.yaml` (`-<8hex>` on collision); elections are `<jurisdiction>--<date>--<office>.yaml`; jurisdiction files are `<slug>-<kind>.yaml` (`-government`, `-school`, chamber, or bare slug for judicial districts). Full per-entity conventions in the [schema guide](https://civicmirror.github.io/Civic-Data/) under "File naming".
 - **License**: [CC0 1.0](LICENSE) — public domain dedication, maximally reusable downstream.
 
 ## Status

@@ -261,9 +261,25 @@ contests:
   <h3>Sources</h3>
   <p>Every entity requires <code>sources[]</code>; every entry has <code>url</code>, a <code>note</code> saying what the source establishes, and <code>retrieved</code> (ISO date). Rules of thumb: official sources only; cite the exact page or document for every fact; certified results over specimen ballots; never infer term ends, elected-vs-appointed status, or seat counts — verify against the charter, bylaws, or an official roster.</p>
   <h3>Layout</h3>
-  <p><code>data/us/&lt;state&gt;/{jurisdictions,organizations,posts,memberships,people,elections}/</code>, tiered into <code>federal/</code>, <code>state-upper/</code>, <code>state-lower/</code>, <code>county/</code>, <code>municipal/</code> (people are further split per town). JSON Schemas for all seven entity types live in <code>schemas/</code>.</p>
+  <p><code>data/us/&lt;state&gt;/{jurisdictions,organizations,posts,memberships,people,elections}/</code>, tiered by government level — <code>federal/</code>, <code>state/</code>, <code>county/</code>, <code>municipal/</code>, <code>school/</code>, <code>judicial-district/</code> (states add tiers as needed; TX has <code>appellate-district/</code> plus water-district tiers). JSON Schemas for every entity type live in <code>schemas/</code>. File naming has its own <a href="#file-naming">section below</a>.</p>
   <h3>Workflow</h3>
   <p>PRs are the write path — bots and humans alike propose changes as pull requests, CI runs <code>scripts/validate.py</code> (schema + reference integrity + duplicate detection), and humans merge. Ambiguous field names are defined in <code>docs/GLOSSARY.md</code>; open modeling questions in <code>docs/open_questions.md</code>.</p>
+</section>
+
+<section class="card" id="file-naming">
+  <h2>File naming</h2>
+  <p>One file per record at <code>data/us/&lt;state&gt;/&lt;entity&gt;/&lt;tier&gt;/&lt;file&gt;.yaml</code>. Filenames are mint-time labels: records join on IDs, never on filenames, so renames are safe. The tier directory carries the government level; the filename carries the record's identity.</p>
+  <table class="fields">
+    <tr><th>Entity</th><th>Pattern</th><th>Example</th></tr>
+    <tr><td>Jurisdiction</td><td><code>&lt;slug&gt;-&lt;kind&gt;.yaml</code> — kind mirrors the jurisdiction's scope</td><td><code>municipal/cambridge-government.yaml</code>, <code>school/holliston-school.yaml</code>, <code>state/2nd-bristol-house.yaml</code>, <code>judicial-district/middle.yaml</code> (bare slug)</td></tr>
+    <tr><td>Post</td><td>Mirrors the post ID with <code>/</code> → <code>-</code>; municipal posts carry the <code>-&lt;st&gt;-</code> infix</td><td><code>braintree-ma-councilor-at-large.yaml</code> ↔ <code>braintree-ma/councilor-at-large</code></td></tr>
+    <tr><td>Organization</td><td>Slug of the body's name (org IDs are opaque UUIDs, so the filename is free)</td><td><code>agawam-mayor-office.yaml</code></td></tr>
+    <tr><td>Membership</td><td><code>&lt;post-file-base&gt;-&lt;person-slug&gt;.yaml</code></td><td><code>ashburnham-ma-board-of-health-member-thomas-flanagan.yaml</code></td></tr>
+    <tr><td>Person</td><td><code>&lt;first&gt;-[&lt;middle&gt;-]&lt;last&gt;.yaml</code>; <code>-&lt;8hex&gt;</code> appended on name collisions — never reuse a filename for a different person</td><td><code>thomas-glennon-5158d4ad.yaml</code></td></tr>
+    <tr><td>Election</td><td><code>&lt;jurisdiction-slug&gt;--&lt;YYYY-MM-DD&gt;--&lt;office-slug&gt;.yaml</code></td><td><code>fitchburg--2019-11-05--mayor.yaml</code></td></tr>
+  </table>
+  <p>Jurisdiction kind suffixes, verified across all 50 states: <code>-government</code> for general-purpose governments (the county-tier standard in 1,696 of 1,698 files), <code>-school</code> for school districts, chamber suffixes (<code>-house</code>/<code>-senate</code>) for state legislative districts, <code>cd-&lt;N&gt;</code> for congressional districts, and a bare slug for judicial districts (TX precedent, issue #26).</p>
+  <p>Open question: whether organization filenames should match their post's filename (currently they don't always — <code>agawam-mayor-office.yaml</code> vs <code>agawam-mayor.yaml</code>). Tracked in <code>docs/open_questions.md</code>.</p>
 </section>
 
 <section class="card" id="example">
