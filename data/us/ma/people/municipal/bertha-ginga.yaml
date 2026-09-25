@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/5c74d4d5-a519-5cf0-b84b-ab7dbbab405b
+name: Bertha Ginga
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://ma-southborough.civicplus.com/DocumentCenter/View/2387/Board-and-Committee-Members-as-of-862026?bidId=
+  note: Town's official Board and Committee Members list as of 8/6/2026, "Housing Authority - Elected" section.
+  retrieved: '2026-09-25'
