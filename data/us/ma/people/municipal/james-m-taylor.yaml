@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/1e5fa347-d251-554c-b83f-3cc77272d273
+name: James M. Taylor
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.town.adams.ma.us/DocumentCenter/View/2707/2026-Town-Elected-Officials?bidId=
+  note: Town clerk's 2026-2027 elected-officials list by ballot order; 3 members, 3-yr terms
+  retrieved: '2026-09-25'

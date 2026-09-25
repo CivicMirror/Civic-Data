@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/2b1d447c-c4e8-5a60-9b59-479cc18d1af5
+name: Alan Marchand
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.brimfieldma.org/sites/g/files/vyhlif4181/f/pages/elected_results_2026.pdf
+  note: Town's official 2026 election results; 5 constables, 3-yr terms
+  retrieved: '2026-09-25'
