@@ -111,7 +111,7 @@ python3 -m pytest -m live tests/test_ecode360_live.py -q -s
 
 - **IDs**: OCD Division IDs for geographic places, OCD Person-style UUIDs for people, and stable election/contest keys. External CivicMirror and CivicPatch identifiers are namespaced and accepted only after human review.
 - **Names/contacts**: verbatim from the official source.
-- **File naming**: one file per record, tiered by government level. Post filenames mirror the post ID (`/` → `-`); memberships are `<post-file>-<person-slug>`; people are `<name-slug>.yaml` (`-<8hex>` on collision); elections are `<jurisdiction>--<date>--<office>.yaml`; jurisdiction files are `<slug>-<kind>.yaml` (`-government`, `-school`, chamber, or bare slug for judicial districts). Full per-entity conventions in the [schema guide](https://civicmirror.github.io/Civic-Data/) under "File naming".
+- **File naming**: one file per record, tiered by government level. Post filenames mirror the post ID (`/` → `-`); memberships are `<post-file>-<person-slug>`; people are `<name-slug>.yaml` (`-<8hex>` on collision); elections are `<jurisdiction>--<date>--<office>.yaml`; jurisdiction files are `<slug>-<kind>.yaml` (`-government`, `-school`, chamber, or bare slug for judicial districts); organization files match their post's filename for single-post bodies and name the body for multi-post bodies. Full per-entity conventions in the [schema guide](https://civicmirror.github.io/Civic-Data/) under "File naming".
 - **License**: [CC0 1.0](LICENSE) — public domain dedication, maximally reusable downstream.
 
 ## Status
