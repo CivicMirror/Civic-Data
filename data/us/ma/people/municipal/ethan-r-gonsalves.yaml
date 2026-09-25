@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/f8b9c7f6-41b5-5169-949e-2d883e57cba5
+name: Ethan R. Gonsalves
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.swanseama.gov/government/town_clerk/elected_officials_in_swansea.php
+  note: Town Elected Officials page — PARK COMMISSION (5 YEARS); replaces repo's 404'd annual_report_proof.pdf import source
+  retrieved: '2026-09-25'

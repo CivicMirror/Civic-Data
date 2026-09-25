@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/18daf814-fa10-536c-8b54-a3662ebc8607
+name: Paul Waple
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-25'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.swanseama.gov/government/town_clerk/elected_officials_in_swansea.php
+  note: Town Elected Officials page — PARK COMMISSION (5 YEARS); replaces repo's 404'd annual_report_proof.pdf import source
+  retrieved: '2026-09-25'
