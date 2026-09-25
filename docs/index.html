@@ -273,13 +273,13 @@ contests:
     <tr><th>Entity</th><th>Pattern</th><th>Example</th></tr>
     <tr><td>Jurisdiction</td><td><code>&lt;slug&gt;-&lt;kind&gt;.yaml</code> — kind mirrors the jurisdiction's scope</td><td><code>municipal/cambridge-government.yaml</code>, <code>school/holliston-school.yaml</code>, <code>state/2nd-bristol-house.yaml</code>, <code>judicial-district/middle.yaml</code> (bare slug)</td></tr>
     <tr><td>Post</td><td>Mirrors the post ID with <code>/</code> → <code>-</code>; municipal posts carry the <code>-&lt;st&gt;-</code> infix</td><td><code>braintree-ma-councilor-at-large.yaml</code> ↔ <code>braintree-ma/councilor-at-large</code></td></tr>
-    <tr><td>Organization</td><td>Slug of the body's name (org IDs are opaque UUIDs, so the filename is free)</td><td><code>agawam-mayor-office.yaml</code></td></tr>
+    <tr><td>Organization</td><td>Single-post body: mirrors its post's filename. Multi-post body: slug of the body's name (org IDs are opaque UUIDs, so the filename is free)</td><td><code>attleboro-ma-mayor.yaml</code> (1:1); <code>boston-city-council.yaml</code> (1 org, 10 posts)</td></tr>
     <tr><td>Membership</td><td><code>&lt;post-file-base&gt;-&lt;person-slug&gt;.yaml</code></td><td><code>ashburnham-ma-board-of-health-member-thomas-flanagan.yaml</code></td></tr>
     <tr><td>Person</td><td><code>&lt;first&gt;-[&lt;middle&gt;-]&lt;last&gt;.yaml</code>; <code>-&lt;8hex&gt;</code> appended on name collisions — never reuse a filename for a different person</td><td><code>thomas-glennon-5158d4ad.yaml</code></td></tr>
     <tr><td>Election</td><td><code>&lt;jurisdiction-slug&gt;--&lt;YYYY-MM-DD&gt;--&lt;office-slug&gt;.yaml</code></td><td><code>fitchburg--2019-11-05--mayor.yaml</code></td></tr>
   </table>
   <p>Jurisdiction kind suffixes, verified across all 50 states: <code>-government</code> for general-purpose governments (the county-tier standard in 1,696 of 1,698 files), <code>-school</code> for school districts, chamber suffixes (<code>-house</code>/<code>-senate</code>) for state legislative districts, <code>cd-&lt;N&gt;</code> for congressional districts, and a bare slug for judicial districts (TX precedent, issue #26).</p>
-  <p>Open question: whether organization filenames should match their post's filename (currently they don't always — <code>agawam-mayor-office.yaml</code> vs <code>agawam-mayor.yaml</code>). Tracked in <code>docs/open_questions.md</code>.</p>
+  <p>Organization rule (settled 2026-09-25): a single-post body's filename matches its post's filename (<code>attleboro-ma-mayor.yaml</code>); a multi-post body's filename names the body (<code>boston-city-council.yaml</code> covers 10 posts, <code>acton-boxborough-school-committee.yaml</code> its member-town posts). This codifies existing practice, verified across all 1,509 Massachusetts organization files.</p>
 </section>
 
 <section class="card" id="example">
