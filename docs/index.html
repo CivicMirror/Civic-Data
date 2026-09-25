@@ -162,7 +162,7 @@ sources:
     <tr><td><span class="req">required</span><code>person_id</code></td><td>string</td><td>Links to the person</td></tr>
     <tr><td><span class="req">required</span><code>organization_id</code></td><td>string</td><td>Links to the organization</td></tr>
     <tr><td><span class="opt">optional</span><code>post_id</code></td><td>string</td><td>Links to the post (almost always present)</td></tr>
-    <tr><td><span class="req">required</span><code>role</code></td><td>string</td><td>e.g. <code>Mayor</code>, <code>Member</code></td></tr>
+    <tr><td><span class="req">required</span><code>role</code></td><td>string</td><td>The formal office title — e.g. <code>Select Board Member</code>, <code>Mayor</code>. Same title discipline as posts: a board's chair is recorded here as <code>Select Board Member</code>, because the chairmanship is assigned by the board after the election, not won on the ballot.</td></tr>
     <tr><td><span class="opt">optional</span><code>seat</code></td><td>string</td><td>Sub-seat label, e.g. <code>District 1</code>, <code>At-Large</code></td></tr>
     <tr><td><span class="opt">optional</span><code>start</code> / <code>end</code></td><td>string</td><td>ISO dates; end is omitted while the person holds the office. Never inferred — only recorded when a source states it.</td></tr>
     <tr><td><span class="opt">optional</span><code>how_seated</code></td><td>string</td><td>e.g. <code>elected</code>, <code>appointed</code> — never inferred from a name appearing on a roster</td></tr>
@@ -283,7 +283,7 @@ contests:
   <h2>What stays out</h2>
   <ul>
     <li><b>Raw election results</b> — precinct rows and live snapshots churn during canvass and make unreviewable diffs. Only compact, certified contest outcomes live here.</li>
-    <li><b>Internal board titles</b> — Chair, Vice Chair, Clerk are assigned by the board, not the ballot. Only the formal elected office is modeled.</li>
+    <li><b>Internal board titles</b> — Chair, Vice Chair, Clerk are assigned by the board itself after the election and never appear on a ballot. They are recorded in <i>neither</i> post titles <i>nor</i> membership roles: a board chair's membership carries the formal office role (e.g. <code>Select Board Member</code>).</li>
     <li><b>Personal contact data</b> — filing addresses, personal phones, and personal emails never enter this repo. Public office contact only.</li>
     <li><b>Single-project data</b> — the moment a field is only needed by one project, it moves back into that project's repo. This is the shared spine, not a merged project.</li>
   </ul>
