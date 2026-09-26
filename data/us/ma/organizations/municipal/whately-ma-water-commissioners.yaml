@@ -1,3 +1,10 @@
+# RETIRED 2026-09-26 (issue #53): the Whately Water District -- a special-act
+# district established by Chapter 433 of the Acts of 1971 -- was dissolved by
+# H.2250, "An Act dissolving the Whately Water District," which passed both
+# chambers in July 2026. The elected board of water commissioners no longer
+# exists; status changed from active to inactive rather than deleted, to
+# preserve the historical record. The open membership was removed since the
+# office is gone (memberships carry no end date).
 # Imported from reference/MA Rolling Audit/ (v53 MA municipal
 # charter/elected-office rolling audit preservation package, generated
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
@@ -9,7 +16,10 @@ jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:whately/government
 identifiers:
 - scheme: civicmirror-office
   identifier: whately-ma/water-commissioners
-status: active
+status: inactive
 sources:
 - url: https://www.whately.org/sites/g/files/vyhlif5211/f/uploads/2023_annual_town_report.pdf
   retrieved: '2026-08-25'
+- url: https://malegislature.gov/Reports/28673/H.2250%20Summary_Blais-Mark-dissolving%20the%20Whately%20Water%20District%20(1).pdf.pdf
+  note: Retirement citation -- see header note.
+  retrieved: '2026-09-26'
