@@ -1,0 +1,22 @@
+# Hand-verified against the town's official Recreation Committee minutes and committee page
+# for issue #54's MA park/recreation officeholder backfill (Shelburne follow-up,
+# 2026-09-26). Machine-extracted via a Claude web-fetch pass,
+# pending human sign-off.
+id: ocd-person/c280008b-f12e-41a4-8343-b22282ad34a2
+name: Walter Chadwick
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-26'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://TOWNOFSHELBURNEMA.GOV/files/Recreation_Committee_2026-06-17_minutes.pdf
+  note: Official Town of Shelburne Recreation Committee minutes, June 17,
+    2026 — attendees Dan Post, Diana Hardina, Norman Beebe, Stefan
+    Topolski, Walter Chadwick; no individual term ends stated
+  retrieved: '2026-09-26'
+- url: https://TownOfShelburneMA.gov/g/49/Recreation-Committee
+  note: Official Recreation Committee page — ‘The Recreation Committee is
+    an elected body consisting of five members’, each elected for a
+    five-year term
+  retrieved: '2026-09-26'

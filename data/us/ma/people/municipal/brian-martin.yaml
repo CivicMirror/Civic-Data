@@ -1,0 +1,22 @@
+# Hand-verified against the town's official Park Department roster page and charter
+# for issue #54's MA park/recreation officeholder backfill (Rockland follow-up,
+# 2026-09-26). Machine-extracted via a Claude web-fetch pass,
+# pending human sign-off.
+id: ocd-person/e707e19f-4b42-487a-b387-44a78450f57e
+name: Brian Martin
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-26'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: http://rockland-ma.gov/221/Park-Department
+  note: Official Town of Rockland Park Department page — lists Richard
+    Furlong, Brian Martin, and Joseph Reis as Park Commissioners; no
+    term ends stated
+  retrieved: '2026-09-26'
+- url: https://rockland-ma.gov/DocumentCenter/View/3598/Rockland-Charter---Current-and-Proposed
+  note: Rockland town charter — ‘There shall be a Board of Park
+    Commissioners consisting of three (3) members, each elected for a
+    three (3) year term’
+  retrieved: '2026-09-26'
