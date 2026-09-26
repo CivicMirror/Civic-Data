@@ -1,3 +1,13 @@
+# RETIRED 2026-09-26 (issue #53): no longer an elected office. Massachusetts
+# Acts of 2022, Chapter 372, "An Act Abolishing the Town of Hardwick Sewer
+# Commission and Delegating to the Select Board Control over the Hardwick
+# Sewer Redevelopment Project" (effective 2023-01-04), Section 1 abolishes
+# the sewer commission and Section 2 vests "the board of selectmen of the
+# town of Hardwick... all the powers and duties of sewer commissioners
+# provided for under any general or special law." Section 3 names the
+# Gilbertville and Wheelwright Water Pollution Control Facilities
+# specifically. Status changed from active to inactive rather than deleted,
+# to preserve the record; no memberships were on file.
 # Sourced from the official Hardwick, MA election results (https://www.hardwick-ma.gov/media/1346),
 # retrieved 2026-08-26. Added by hand during MA CivicPatch-comparison
 # follow-up; see the record's sources for provenance.
@@ -7,7 +17,10 @@ jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:hardwick/government
 identifiers:
 - scheme: civicmirror-office
   identifier: hardwick-ma/gville-wwright-sewer-commissioner
-status: active
+status: inactive
 sources:
 - url: https://www.hardwick-ma.gov/media/1346
   retrieved: '2026-08-26'
+- url: https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter372
+  note: Retirement citation -- see header note.
+  retrieved: '2026-09-26'

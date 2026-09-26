@@ -1,3 +1,12 @@
+# RETIRED 2026-09-26 (issue #53): not an elected office. The town's own FY2025
+# Annual Report of the Town Offices (p.11) lists "WATER COMMISSION:" under its
+# "APPOINTED:" roster, staffed by Laura Allen, Lucinda Vermeulen and Mary
+# Brazie -- the same three people as the Select Board. The 2022 town election
+# results (a complete ballot of every elected office that year) omit Water
+# Commissioner entirely, consistent with appointed status. Status changed
+# from active to inactive rather than deleted, to preserve the record; the
+# three open memberships were removed since this office is out of the
+# elected-inventory's scope (person records unchanged).
 # Imported from reference/MA Rolling Audit  V20/ (MA municipal charter/
 # elected-office rolling audit, generated 2026-08-20) by scripts/
 # import_ma_charter_audit_v20.py. Source rows were machine-extracted from
@@ -8,7 +17,13 @@ jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:egremont/government
 identifiers:
 - scheme: civicmirror-office
   identifier: egremont-ma/water-commissioner
-status: active
+status: inactive
 sources:
 - url: https://www.egremont-ma.gov/209/Water-Commission
   retrieved: '2026-08-19'
+- url: https://www.egremont-ma.gov/DocumentCenter/View/2676/FY-2025-Annual-Report-of-the-Town-Offices-PDF
+  note: 'Retirement citation -- see header note. Scanned/image-only PDF (no text
+    layer); "WATER COMMISSION:" appears on p.11 under the "APPOINTED:" roster
+    with Laura Allen, Lucinda Vermeulen, Mary Brazie -- the same three names as
+    the Select Board on p.6. Confirmed by OCR.'
+  retrieved: '2026-09-26'
