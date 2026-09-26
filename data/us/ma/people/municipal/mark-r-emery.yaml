@@ -1,0 +1,15 @@
+# Hand-verified against the town's official website for issue #34's
+# MA municipal officeholder backfill (never covered by issue #16's
+# original research pass). Machine-extracted via a Claude web-fetch
+# pass, pending human sign-off.
+id: ocd-person/4c949905-1022-5545-9fba-17cc762ceba8
+name: Mark R. Emery
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-26'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.townofrowley.net/sites/g/files/vyhlif4956/f/uploads/elected_officials_as_of_may_13_2025.pdf
+  note: Town of Rowley Elected Officials, As of May 13, 2025 Election; corrects a mis-extracted v37 audit import that had misattributed Lees/Smullin (Regional School Committee / Shellfish Commissioner members) to this post
+  retrieved: '2026-09-26'
