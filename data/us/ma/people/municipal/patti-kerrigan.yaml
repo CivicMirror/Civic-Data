@@ -1,0 +1,19 @@
+# Hand-verified against the town election results and the recreation
+# department's current-members page for issue #54's MA park/recreation
+# officeholder backfill (Clinton follow-up, 2026-09-26).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+id: ocd-person/41c5dce8-4dfa-450e-9310-632fae16744c
+name: Patti Kerrigan
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-26'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.clintonma.gov/DocumentCenter/View/3400/Town-Election-Results-June-2024
+  note: Official Town of Clinton June 10, 2024 election results — Parks &
+    Rec, 1,158 votes (top of 2-seat race)
+  retrieved: '2026-09-26'
+- url: https://www.clintonrec.org/newpage00f9303f
+  note: Clinton Recreation Department current-members page — Chair
+  retrieved: '2026-09-26'

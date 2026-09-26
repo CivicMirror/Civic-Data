@@ -1,0 +1,25 @@
+# Hand-verified against the town election results and the recreation
+# department's current-members page for issue #54's MA park/recreation
+# officeholder backfill (Clinton follow-up, 2026-09-26).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+# Won a 2-seat race in June 2023 (675 votes) and was re-elected in June
+# 2026 (1,592 votes).
+id: ocd-person/51c33e29-3a2e-4259-9621-4df656c69c19
+name: Ryan Rouillard
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-09-26'
+  pipeline: ma-town-website-verification-2026-09-06
+sources:
+- url: https://www.clintonma.gov/DocumentCenter/View/2985/2023-Town-Election-Results?bidId=
+  note: Official Town of Clinton 2023 town election results — Parks &
+    Rec., 675 votes (second of 2-seat race)
+  retrieved: '2026-09-26'
+- url: https://www.clintonma.gov/DocumentCenter/View/4191/Town-Election-Results-2026?bidId=
+  note: Official Town of Clinton June 8, 2026 election results — Parks &
+    Recreation, 1,592 votes (clear winner, 2 seats up; re-elected)
+  retrieved: '2026-09-26'
+- url: https://www.clintonrec.org/newpage00f9303f
+  note: Clinton Recreation Department current-members page — Commissioner
+  retrieved: '2026-09-26'

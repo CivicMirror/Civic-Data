@@ -2,11 +2,17 @@
 # elected-office rolling audit, generated 2026-08-20) by scripts/
 # import_ma_charter_audit_v20.py. Source rows were machine-extracted from
 # municipal government sites; see the record's sources for provenance.
+# Election details verified against official town results for issue #54
+# (Holliston follow-up, 2026-09-26).
 id: holliston-ma-park-commissioner-arsenault
 person_id: ocd-person/0e8162fd-5032-5d70-b71d-2fb375e426e5
 organization_id: ocd-organization/c841895b-5901-515b-a9af-d5d43cce0dc9
 post_id: holliston-ma/park-commissioner
 role: Park Commissioner
+how_seated: elected
 sources:
-- url: https://www.townofholliston.us/Archive/ViewFile/Item/284
-  retrieved: '2026-08-19'
+- url: https://drive.google.com/file/d/191cvpOlemAQ0aIDMx4dQ571dqXMQ-27B/view?usp=drivesdk
+  note: Official Town of Holliston Annual Town Election minutes, May 20,
+    2025 (Drive election-folder copy) — ELECTED Park Commissioner, 930 votes,
+    top-two finish; three-year term
+  retrieved: '2026-09-26'

@@ -1,0 +1,24 @@
+# Hand-verified against the town election results and the recreation
+# department's current-members page for issue #54's MA park/recreation
+# officeholder backfill (Clinton follow-up, 2026-09-26).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+# Term-end year not stated in the cited sources — omitted per the
+# no-inference rule.
+id: clinton-ma-parks-and-recreation-commissioner-ryan-rouillard
+person_id: ocd-person/51c33e29-3a2e-4259-9621-4df656c69c19
+organization_id: ocd-organization/98add376-fa2c-52f5-af3f-b9deb51ed551
+post_id: clinton-ma/parks-and-recreation-commissioner
+role: Parks and Recreation Commissioner
+how_seated: elected
+sources:
+- url: https://www.clintonma.gov/DocumentCenter/View/2985/2023-Town-Election-Results?bidId=
+  note: Official Town of Clinton 2023 town election results — elected
+    Parks & Rec., 675 votes (second of 2-seat race)
+  retrieved: '2026-09-26'
+- url: https://www.clintonma.gov/DocumentCenter/View/4191/Town-Election-Results-2026?bidId=
+  note: Official Town of Clinton June 8, 2026 election results — re-elected
+    Parks & Recreation, 1,592 votes (clear winner, 2 seats up)
+  retrieved: '2026-09-26'
+- url: https://www.clintonrec.org/newpage00f9303f
+  note: Clinton Recreation Department current-members page — Commissioner
+  retrieved: '2026-09-26'
