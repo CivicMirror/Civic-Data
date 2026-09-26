@@ -1,8 +1,11 @@
-# Hand-verified against the recreation department's current-members page
-# for issue #54's MA park/recreation officeholder backfill (Clinton
-# follow-up, 2026-09-26). Machine-extracted via a Claude web-fetch pass,
-# pending human sign-off. Election details unverified — presumed holder
-# of the 2025 seat; term-end year not stated — omitted per the
+# Hand-verified against the town election results and the recreation
+# department's current-members page for issue #54's MA park/recreation
+# officeholder backfill (Clinton follow-up, 2026-09-26).
+# Machine-extracted via a Claude web-fetch pass, pending human sign-off.
+# Won a 2-seat race in June 2023 (724 votes); that seat was up in June
+# 2026, where the official results name no winner for the second seat —
+# still serving per the current roster (write-in re-election or
+# appointment unverified). Term-end year not stated — omitted per the
 # no-inference rule.
 id: clinton-ma-parks-and-recreation-commissioner-mike-burgwinkel
 person_id: ocd-person/54421338-0879-41dd-bc33-3540200e233b
@@ -11,6 +14,10 @@ post_id: clinton-ma/parks-and-recreation-commissioner
 role: Parks and Recreation Commissioner
 how_seated: elected
 sources:
+- url: https://www.clintonma.gov/DocumentCenter/View/2985/2023-Town-Election-Results?bidId=
+  note: Official Town of Clinton 2023 town election results — elected
+    Parks & Rec., 724 votes (top of 2-seat race)
+  retrieved: '2026-09-26'
 - url: https://www.clintonrec.org/newpage00f9303f
   note: Clinton Recreation Department current-members page — Vice Chair
   retrieved: '2026-09-26'
