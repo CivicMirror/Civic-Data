@@ -1,12 +1,15 @@
-# Imported from reference/MA Rolling Audit/ (MA municipal charter/
-# elected-office rolling audit, generated 2026-08-21) by scripts/
-# import_ma_charter_audit_v27.py. Source rows were machine-extracted from
-# municipal government sites; see the record's sources for provenance.
+# Re-sourced 2026-09-27 for issue #57: official 2026 ATE tally gives the
+# re-election total; Town Elected Officers page still shows the prior
+# term end (April 2026) and is stale for this seat.
 id: needham-ma-memorial-park-trustee-gallello
 person_id: ocd-person/dae0a1ad-da9a-5856-a9b8-c06d71de25d0
 organization_id: ocd-organization/2759dc1b-f836-5cdc-a43d-c01173b4e906
 post_id: needham-ma/memorial-park-trustee
 role: Trustee of Memorial Park
+how_seated: elected
 sources:
-- url: https://needhamma.gov/DocumentCenter/View/61963/Final-Tally-4142026-Annual-Town-Election
-  retrieved: '2026-08-21'
+- url: https://needhamma.gov/DocumentCenter/View/61921/Tally-4142026-Annual-Town-Election
+  note: 'Official April 14, 2026 Annual Town Election tally: "TRUSTEE OF MEMORIAL PARK
+    (Trustee of Soldiers'' Memorials - Veteran) (for three years)" — John S. Gallello
+    4,240. Re-elected to a 3-year term; term end not stated, not inferred.'
+  retrieved: '2026-09-27'
