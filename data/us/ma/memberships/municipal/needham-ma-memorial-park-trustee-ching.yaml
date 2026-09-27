@@ -1,12 +1,15 @@
-# Imported from reference/MA Rolling Audit/ (MA municipal charter/
-# elected-office rolling audit, generated 2026-08-21) by scripts/
-# import_ma_charter_audit_v27.py. Source rows were machine-extracted from
-# municipal government sites; see the record's sources for provenance.
+# Re-sourced 2026-09-27 for issue #57: official Town Elected Officers roster
+# gives the veteran designation and term end. Previously an audit import
+# stub mis-cited to the 2026 tally (seat not on the 2026 ballot).
 id: needham-ma-memorial-park-trustee-ching
 person_id: ocd-person/03a28204-d31c-52b0-8d3e-df8143bd7dc9
 organization_id: ocd-organization/2759dc1b-f836-5cdc-a43d-c01173b4e906
 post_id: needham-ma/memorial-park-trustee
 role: Trustee of Memorial Park
+how_seated: elected
+end: '2028'
 sources:
-- url: https://needhamma.gov/DocumentCenter/View/61963/Final-Tally-4142026-Annual-Town-Election
-  retrieved: '2026-08-21'
+- url: https://www.needhamma.gov/5630/Town-Elected-Officers
+  note: 'Official Town Elected Officers: "5 Memorial Park Trustees, 3 years — Veteran,
+    Matthew L. Ching, April 2028".'
+  retrieved: '2026-09-27'
