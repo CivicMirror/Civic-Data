@@ -2,10 +2,20 @@
 # contested-races summary and/or the 2026-05-02 results, https://www.hardwick-ma.gov/media/8706),
 # retrieved 2026-08-26. Added by hand during MA CivicPatch-comparison
 # follow-up; see the record's sources for provenance.
+# 2026-09-27 (#57): corrected to 5 seats. The official 5/2/2026 results style the
+# race "PAIGE AGRICULTURAL FUND TRUSTEE. - 5 YEARS", and four consecutive annual
+# elections each filled one seat (2023 C. Stillman, 2024 H. Stillman, 2025 Goddard,
+# 2026 White) — 5-year staggered terms imply a 5-seat board. Third-party roster
+# (mytowngovernment.org/board/348001) corroborates five holders; the fifth
+# (Joseph R. Raskett) has no official source yet and is unminted.
 id: hardwick-ma/paige-agricultural-fund-trustee
 organization_id: ocd-organization/88612f49-344f-41e2-9b91-fa8eb49b73e0
 title: Paige Agricultural Fund Trustee
-seats: 4
+seats: 5
 sources:
 - url: https://www.hardwick-ma.gov/media/8706
   retrieved: '2026-08-26'
+- url: https://www.hardwick-ma.gov/DocumentCenter/View/442/2026-Annual-Town-Election-Results
+  note: 'Official 5/2/2026 Annual Town Election results (certified by Town Clerk Ryan J.
+    Witkos): "PAIGE AGRICULTURAL FUND TRUSTEE. - 5 YEARS" — 5-year terms confirmed.'
+  retrieved: '2026-09-27'
