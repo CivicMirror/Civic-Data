@@ -1,8 +1,8 @@
 # Imported from reference/MA Rolling Audit/ (v53 MA municipal
 # charter/elected-office rolling audit preservation package, generated
-# 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
-# were machine-extracted from municipal government sites; see the
-# record's sources for provenance.
+# 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Verified for
+# issue #55 (2026-09-28) against the town's official 5/16/2026 election
+# results: Walker Eaton won the 3-year Cemetery Commissioner seat (80 votes).
 id: wilbraham-ma-cemetery-commission-eaton
 person_id: ocd-person/46e73e6e-a2ce-50c7-911a-b479dd8694ec
 organization_id: ocd-organization/60c13db1-370f-54c1-a247-a0ba5290fc37
@@ -13,3 +13,6 @@ how_seated: elected
 sources:
 - url: https://wilbraham-ma.gov/DocumentCenter/View/7252/Wilbraham-Unofficial-Results--51626
   retrieved: '2026-08-25'
+- url: https://www.wilbraham-ma.gov/DocumentCenter/View/7252/Wilbraham-Unofficial-Results--51626
+  note: 'Town of Wilbraham UNOFFICIAL Election Results, Annual Town Election 5-16-2026: CEMETERY COMMISSIONER, 3yr -- Walker Eaton, 205 Maynard Rd, 80 votes (write-ins 56, blanks 744). Winner of the 3-year seat.'
+  retrieved: '2026-09-28'
