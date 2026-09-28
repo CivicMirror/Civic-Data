@@ -1,12 +1,14 @@
-# Imported from reference/MA Rolling Audit/ (MA municipal charter/
-# elected-office rolling audit, generated 2026-08-21) by scripts/
-# import_ma_charter_audit_v27.py. Source rows were machine-extracted from
-# municipal government sites; see the record's sources for provenance.
+# Monterey Parks Commission backfill (issue #54 follow-up). Upgraded
+# 2026-09-27: term end and official roster source added; was a bare
+# machine-extracted audit import.
 id: monterey-ma-park-commissioner-clarin
 person_id: ocd-person/da0a1d23-89be-5b01-bfbe-c677b5f1877b
 organization_id: ocd-organization/874dbd98-7a15-593a-a54f-e83494b94ae4
 post_id: monterey-ma/park-commissioner
 role: Park Commissioner
+how_seated: elected
 sources:
-- url: https://www.montereyma.gov/town-clerk/pages/election-ballots-and-results
-  retrieved: '2026-08-20'
+- url: https://www.montereyma.gov/parks-commission
+  note: 'Official Town of Monterey Parks Commission page: member roster with term expirations (Gerard Clarin, term expires May 2028). Roster content supplied by project lead 2026-09-27; page returned HTTP 403 to automated fetch.'
+  retrieved: '2026-09-27'
+end: '2028'
