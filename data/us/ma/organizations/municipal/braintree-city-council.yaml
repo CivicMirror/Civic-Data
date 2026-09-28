@@ -1,12 +1,10 @@
-# Restructured for issue #43 (MA ward-aware council imports): per-district posts; the two legacy council orgs merged into one.
+# Restructured for issue #43 (MA ward-aware council imports): flat ward post split into per-ward posts; the city's two legacy council orgs merged into one. Holder records preserved verbatim.
 id: ocd-organization/4ec6be66-6b90-401e-891f-1d985d406651
 name: Braintree Town Council
 jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:braintree/government
 identifiers:
 - scheme: civicmirror-office
   identifier: braintree-ma/district-councilor
-- scheme: civicmirror-office
-  identifier: braintree-ma/councilor-at-large
 status: active
 sources:
 - url: https://www.braintreema.gov/419/Town-Council
