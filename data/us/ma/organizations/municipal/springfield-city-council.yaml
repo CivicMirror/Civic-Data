@@ -1,0 +1,13 @@
+# Restructured for issue #43 (MA ward-aware council imports): flat ward post split into per-ward posts; the city's two legacy council orgs merged into one. Holder record preserved verbatim.
+id: ocd-organization/edba8d3c-e067-5311-9cc5-df9b7689d058
+name: Springfield City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:springfield/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: springfield-ma/city-council-ward
+- scheme: civicmirror-office
+  identifier: springfield-ma/city-council-at-large
+status: active
+sources:
+- url: https://www.springfield-ma.gov/cos/city-council
+  retrieved: '2026-08-25'
