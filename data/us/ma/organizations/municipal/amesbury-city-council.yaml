@@ -1,11 +1,15 @@
-# Created for issue #43 (MA ward-aware council imports).
+# Issue #43 (MA ward-aware council imports): single council org; per-district
+# posts amesbury/council-district-1..6 plus 3-seat amesbury/council-at-large.
+# Structure (6 district + 3 at-large = 9) confirmed by the city-published
+# official results of the November 4, 2025 Municipal Election.
 id: ocd-organization/f74b4578-5340-5f51-ba0c-602be94e0b96
 name: Amesbury City Council
 jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:amesbury/government
 identifiers: []
 status: active
 sources:
-- url: https://www.amesburyma.gov/
-  note: 'Issue #43 task brief: 6 ward + 3 at-large seats. Counts to be reconfirmed
-    against the city charter before holder minting.'
+- url: user-supplied XLSX, "Amesbury 2025 ATE.xlsx"
+  note: "City-published official results, November 4 2025 Municipal Election: six
+    district councilor races (Councilor D1 through D6, 1 seat each) plus Councilor
+    at Large (3 seats) = 9 seats. District terminology per the file's own labels."
   retrieved: '2026-09-28'
