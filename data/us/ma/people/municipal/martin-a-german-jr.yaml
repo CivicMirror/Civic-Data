@@ -1,14 +1,18 @@
-# LEAD-ONLY person record for issue #54: name appears in an official
-# source but current office-holding is UNVERIFIED (clerk contact pending).
-# Do NOT create a membership from this record without verification.
+# Spencer Park Commissioner backfill (issue #34 final sweep). Elected
+# Park Commissioner verified against the official 2025 annual town
+# election results supplied by the project lead (previously a lead-only
+# #54 record; office-holding now verified).
 id: ocd-person/87b6580f-f191-5dc3-a7db-c28f28f84939
 name: Martin A. German Jr.
 candidacies: []
 verification:
-  status: machine-extracted
+  status: volunteer-verified
   reviewed_on: '2026-09-25'
-  pipeline: ma-town-website-verification-2026-09-06
+  pipeline: ma-34-final-mint-2026-09-27
 sources:
+- url: user-supplied PDF, Town of Spencer May 13, 2025 Annual Town Election Official Results
+  note: 'Official Town of Spencer May 13, 2025 annual town election results (Park Commissioner 3 yr): Martin Anthony German, Jr., 1112 votes, elected to a 3-year term (July 1, 2025 - June 30, 2028 per General By-Laws Sec. 7). Also elected May 10, 2022 (596 votes).'
+  retrieved: '2026-09-27'
 - url: https://www.spencerma.gov/DocumentCenter/View/3988/2025-Annual-Town-Report
   note: 'LEAD ONLY — 2025 Annual Town Report ELECTED TOWN OFFICERS & COMMISSIONERS: PARK COMMISSIONERS, term shown 2028; office-holding unverified, no membership created'
   retrieved: '2026-09-25'
