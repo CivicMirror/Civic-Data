@@ -2,11 +2,18 @@
 # elected-office rolling audit, generated 2026-08-20) by scripts/
 # import_ma_charter_audit_v20.py. Source rows were machine-extracted from
 # municipal government sites; see the record's sources for provenance.
+# Verified for issue #55 (2026-09-28): re-elected 5-19-2026, 530 votes,
+# 3-year term ends 2029.
 id: dunstable-ma-cemetery-commissioner-rock
 person_id: ocd-person/0fc986d4-75bd-5c2d-8cb1-2e29a69187db
 organization_id: ocd-organization/45da5af1-6a9b-5ba7-8b50-4aa617a94431
 post_id: dunstable-ma/cemetery-commissioner
 role: Cemetery Commissioner
+how_seated: elected
+end: '2029'
 sources:
 - url: https://www.dunstable-ma.gov/town-clerk/files/annual-town-election-official-results-may-19-2026
   retrieved: '2026-08-19'
+- url: user-supplied
+  note: 'Dunstable 5-19-2026 official election results via Drive: Cemetery Commissioner - Three Years -- Carol Rock 530 (write-ins 1, blanks 80), re-elected, term ends 2029.'
+  retrieved: '2026-09-28'

@@ -3,12 +3,19 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# Verified for issue #55 (2026-09-28) against the FY2025 Annual Town Report
+# elected-officials roster: Garrett Foley, Cemetery Commissioner, 2028.
 id: phillipston-ma-cemetery-commissioner-foley
 person_id: ocd-person/27ad3a43-708c-5604-bfc7-731fbe66a8ab
 organization_id: ocd-organization/6a587afc-7032-56b7-b6ea-480ae97aab8e
 post_id: phillipston-ma/cemetery-commissioner
 role: Cemetery Commissioner
 seat: '1'
+how_seated: elected
+end: '2028'
 sources:
 - url: https://www.phillipston-ma.gov/DocumentCenter/View/966/2025-ATR
   retrieved: '2026-08-25'
+- url: user-supplied
+  note: 'Phillipston FY2025 Annual Town Report elected-officials roster via Drive: CEMETERY COMMISSIONERS -- Garrett Foley 2028.'
+  retrieved: '2026-09-28'

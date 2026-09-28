@@ -3,6 +3,8 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# Verified for issue #55 (2026-09-28): elected 2025, 143 votes,
+# 3-year term ends 2028.
 id: westminster-ma-cemetery-commission-jr
 person_id: ocd-person/87c75741-aab0-517e-b652-99ef7b214029
 organization_id: ocd-organization/2edf2101-7b7c-54aa-ba1d-f19c45013550
@@ -10,6 +12,10 @@ post_id: westminster-ma/cemetery-commission
 role: Cemetery Commissioner
 seat: '2'
 how_seated: elected
+end: '2028'
 sources:
 - url: https://www.westminster-ma.gov/town-clerk/files/2025-elected-officials
   retrieved: '2026-08-25'
+- url: user-supplied
+  note: 'Westminster 2025 Annual Town Election results via Drive: Cemetery Commission 3 Years -- Paul J. Banks, Jr. 143 (write-ins 1, blanks 20), elected, term ends 2028.'
+  retrieved: '2026-09-28'
