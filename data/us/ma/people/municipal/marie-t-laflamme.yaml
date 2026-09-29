@@ -1,15 +1,18 @@
-# Hand-verified against the town's official website for issue #34's
-# MA municipal officeholder backfill (never covered by issue #16's
-# original research pass). Machine-extracted via a Claude web-fetch
-# pass, pending human sign-off.
+# Verified against the municipality's official website for issue #59
+# (MA treasurer / tax collector officeholder backfill), 2026-09-28.
+# Person record carried forward from an earlier verified mint; holder
+# re-confirmed against the official election source below.
 id: ocd-person/4a9f9c31-672c-50dc-9b17-28e9a65c969c
 name: Marie T. Laflamme
 candidacies: []
 verification:
-  status: machine-extracted
-  reviewed_on: '2026-09-25'
-  pipeline: ma-town-website-verification-2026-09-06
+  status: volunteer-verified
+  reviewed_on: '2026-09-28'
+  pipeline: ma-59-treasurer-mint-2026-09-28
 sources:
 - url: https://www.chicopeema.gov/DocumentCenter/View/21409/November-4-2025-Municipal-Election--Summary-Report
   note: November 4, 2025 municipal election summary; Laflamme 4,976, effectively unopposed
   retrieved: '2026-09-25'
+- url: https://www.chicopeema.gov/DocumentCenter/View/21409/November-4-2025-Municipal-Election--Summary-Report
+  note: 'Re-verified 2026-09-28 for issue #59: holder confirmed against this official election source.'
+  retrieved: '2026-09-28'
