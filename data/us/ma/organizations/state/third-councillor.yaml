@@ -1,0 +1,17 @@
+# Structure only -- current officeholders not yet researched.
+# classification `executive` is deliberate, not a mistake: the
+# Governor's Council is a constitutionally executive-branch body
+# (Mass. Const. Pt. 2, Ch. II, Sec. III) even though it is
+# structured like a legislature. See issue #103's mapping-study
+# comment for the full derivation of this district's composition.
+id: ocd-organization/97becde3-efc9-50ec-aeea-50101e06919b
+name: Massachusetts Governor's Council -- Third District
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:third/executive
+identifiers: []
+sources:
+- url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVIII/Chapter57/Section2
+  note: 'MGL c.57 Sec. 2 defines the Third Councillor District as the union of five contiguous Senate districts: Third Middlesex; Fourth Middlesex; Middlesex and Worcester; Norfolk and Middlesex; Suffolk and Middlesex. Verified via a bijection check against this repo''s 40 jurisdictions/state/*-senate.yaml files -- see issue #103.'
+  retrieved: '2026-09-29'
+- url: https://malegislature.gov/Laws/Constitution
+  note: 'Amendments Art. XVI establishes the 8 elected councillor districts (one per district, each composed of 5 contiguous senatorial districts once the commonwealth has 40 such districts) and a 5-year MA residency requirement for candidacy. Amendments Art. LXXXII (superseding Arts. LXIV and LXXX) sets the councillor''s term: elected biennially, term begins at noon the Thursday after the first Wednesday in January following election and ends the same way in the third year following election -- distinct from the Governor/Lt. Governor/other 4 constitutional officers, who are quadrennial under the same article. Const. Pt. 2, Ch. II, Sec. III, Art. I: the Governor presides over the Council without a vote; the Lieutenant Governor is always a member ex officio -- neither is separately elected to the Council, so neither is minted here.'
+  retrieved: '2026-09-29'
