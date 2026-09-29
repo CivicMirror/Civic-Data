@@ -1,0 +1,21 @@
+# term_years: 6, seat_structure: district-wide, partisan: true
+# (no local schema field for these -- see the migration note above).
+# MGL c.36 §2: the register "shall be elected, as provided in [c.54 §157],
+# for the term of six years, beginning with the first Wednesday of January
+# following his election, and until his successor is qualified"; must be a
+# resident of the district or county.
+id: suffolk-ma-registry-district/register-of-deeds
+organization_id: ocd-organization/392212ad-7235-47fc-b01b-0013cd467ced
+title: Register of Deeds
+seats: 1
+identifiers: []
+sources:
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter36/Section1
+    note: 'MGL c.36 §1 -- district definition: the whole of Suffolk County (single registry district).'
+    retrieved: "2026-09-29"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter36/Section2
+    note: 'MGL c.36 §2 -- 6-year term; register must reside in the district or county.'
+    retrieved: "2026-09-29"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVIII/Chapter54/Section157
+    note: 'MGL c.54 §157 -- register chosen by the voters of each district every sixth year.'
+    retrieved: "2026-09-29"

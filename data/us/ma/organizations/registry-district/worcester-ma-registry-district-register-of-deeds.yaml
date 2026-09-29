@@ -1,0 +1,24 @@
+# State elected office structure; issues #63 / #104. No officeholders imported.
+# Moved from organizations/county/worcester-register-of-deeds.yaml to the new
+# registry-district tier (2026-09-29); org UUID preserved. Coverage corrected:
+# the Worcester District covers the remainder of Worcester County (55
+# municipalities), not all 60 -- the Fitchburg-area towns belong to the
+# Worcester Northern District per MGL c.36 §1.
+id: ocd-organization/dde7d1bb-0690-4ce3-8a90-435b034404a1
+name: Office of the Worcester District Register of Deeds
+jurisdiction_id: ocd-jurisdiction/country:us/state:ma/county:worcester/registry_district:worcester/executive
+identifiers: []
+sources:
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter36/Section1
+    note: 'MGL c.36 §1 -- district definition: the remainder of Worcester County -- 55 municipalities (registry office: Worcester).'
+    retrieved: "2026-09-29"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter36/Section2
+    note: 'MGL c.36 §2 -- 6-year term; register must reside in the district or county.'
+    retrieved: "2026-09-29"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVIII/Chapter54/Section157
+    note: 'MGL c.54 §157 -- register chosen by the voters of each district every sixth year.'
+    retrieved: "2026-09-29"
+  - url: https://massrods.com/worcester/
+    retrieved: "2026-08-12"
+  - url: https://massrods.com/worcester/meet-the-team/
+    retrieved: "2026-08-12"
