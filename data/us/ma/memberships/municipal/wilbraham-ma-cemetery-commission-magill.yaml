@@ -1,8 +1,10 @@
 # Imported from reference/MA Rolling Audit/ (v53 MA municipal
 # charter/elected-office rolling audit preservation package, generated
-# 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
-# were machine-extracted from municipal government sites; see the
-# record's sources for provenance.
+# 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Verified for
+# issue #55 (2026-09-28) against the official 5-18-2024 clerk tally sheet:
+# Todd Michael Magill won the 3-year Cemetery Commissioner seat (1,324 votes).
+# The town's 2024 Annual Town Report elected-officials roster confirms
+# Todd M. Magill (U), term to 2027.
 id: wilbraham-ma-cemetery-commission-magill
 person_id: ocd-person/c2612c78-aa74-59d8-b093-a7bea0c0ed93
 organization_id: ocd-organization/60c13db1-370f-54c1-a247-a0ba5290fc37
@@ -10,6 +12,13 @@ post_id: wilbraham-ma/cemetery-commission
 role: Cemetery Commissioner
 seat: '2'
 how_seated: elected
+end: '2027'
 sources:
 - url: https://wilbraham-ma.gov/DocumentCenter/View/7252/Wilbraham-Unofficial-Results--51626
   retrieved: '2026-08-25'
+- url: user-supplied
+  note: 'Official clerk tally sheet, Wilbraham Annual Town Election 5-18-2024, issue #55 comment 5874138285: CEMETERY COMMISSIONER 3yr -- Todd Michael Magill 1,324, Write-ins 11, Blanks 375. Winner of the 3-year seat (term ends 2027).'
+  retrieved: '2026-09-28'
+- url: user-supplied
+  note: 'Wilbraham 2024 Annual Town Report, elected-officials roster, issue #55 comment 5874138285: CEMETERY COMMISSIONERS -- Todd M. Magill (U) 2027.'
+  retrieved: '2026-09-28'
