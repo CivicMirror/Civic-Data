@@ -3,10 +3,18 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# Issue #52 (2026-09-28): seats corrected 3 -> 5. The town's own official
+# 2025 Annual Town Election results head the race "Constables 5/3yr" and the
+# vote totals confirm 5 seats open (739 ballots x 5 = 3695 votes). Only 3
+# named candidates won (Birdsey, Driver, Moran); the other 2 seats went
+# unfilled (blanks won) and are vacant — no holders minted for them.
 id: upton-ma/constable
 organization_id: ocd-organization/93381838-1b3e-5f44-85d5-df691accc595
 title: Constable
-seats: 3
+seats: 5
 sources:
 - url: https://www.uptonma.gov/Archive/ViewFile/Item/333
   retrieved: '2026-08-25'
+- url: user-supplied PDF, Town of Upton 2025 Annual Town Election Official Results
+  note: 'race headed "Constables 5/3yr"; 5 seats open, 3 filled'
+  retrieved: '2026-09-28'
