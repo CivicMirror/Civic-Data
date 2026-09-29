@@ -1,14 +1,16 @@
-# LEAD-ONLY person record for issue #54: name appears in an official
-# source but current office-holding is UNVERIFIED (clerk contact pending).
-# Do NOT create a membership from this record without verification.
+# Spencer Park Commission backfill (issue #34 final sweep). Verified elected
+# Park Commissioner; lead-only #54 record upgraded 2026-09-28.
 id: ocd-person/cff97e80-8c52-5ff3-968a-b997ffe0e452
 name: Anthony F. Toscano
 candidacies: []
 verification:
-  status: machine-extracted
-  reviewed_on: '2026-09-25'
-  pipeline: ma-town-website-verification-2026-09-06
+  status: volunteer-verified
+  reviewed_on: '2026-09-28'
+  pipeline: ma-34-final-mint-2026-09-28
 sources:
 - url: https://www.spencerma.gov/DocumentCenter/View/3988/2025-Annual-Town-Report
-  note: 'LEAD ONLY — 2025 Annual Town Report ELECTED TOWN OFFICERS & COMMISSIONERS: PARK COMMISSIONERS, term shown 2027; office-holding unverified, no membership created'
-  retrieved: '2026-09-25'
+  note: '2025 Annual Town Report ELECTED TOWN OFFICERS & COMMISSIONERS: PARK COMMISSIONERS - Anthony F. Toscano, term 2027.'
+  retrieved: '2026-09-28'
+- url: user-supplied PDF, Town of Spencer May 14, 2024 Annual Town Election Official Results
+  note: 'Park Commissioner 3 yr: Anthony Toscano 21 votes, the most of any candidate (blanks 1064 are not votes); town roster certifies the win.'
+  retrieved: '2026-09-28'

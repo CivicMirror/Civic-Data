@@ -3,13 +3,19 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# Issue #34 final sweep (2026-09-28): merged with megan-mooney-395b12db.yaml
+# (Sturbridge Recreation Committee, volunteer-verified 2026-09-27) per the
+# project lead's merge decision — same person (Sturbridge Megan Mooney).
 id: ocd-person/bf7e4d59-8715-53f4-853d-d08d1ad072b8
 name: Megan Mooney
 candidacies: []
 verification:
-  status: machine-extracted
-  reviewed_on: '2026-08-25'
-  pipeline: MA Municipality Research v43 overlay
+  status: volunteer-verified
+  reviewed_on: '2026-09-28'
 sources:
 - url: https://www.sturbridge.gov/school-committee
+  note: 'Machine-extracted from the official Town of Sturbridge School Committee page (audit import 2026-08-25).'
   retrieved: '2026-08-25'
+- url: https://www.sturbridge.gov/recreation
+  note: 'Official Town of Sturbridge Recreation page: Megan Mooney, Recreation Committee member (no term end stated).'
+  retrieved: '2026-09-27'
