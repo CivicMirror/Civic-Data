@@ -1,0 +1,19 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/emergency_services_district:harris-fort-bend-emergency-services-district-100/government
+name: 'Harris-Fort Bend Emergency Services District #100'
+state: tx
+division_id: ocd-division/country:us/state:tx/emergency_services_district:harris-fort-bend-emergency-services-district-100
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103226163'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.035
+  note: 'Harris-Fort Bend Emergency Services District #100 (SPD Public ID 103226163) -- Harris County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.035 (district located in more than one county: five-person elected board).'
+  retrieved: '2026-09-30'
+- url: https://www.esd100.org
+  note: 'Harris-Fort Bend Emergency Services District #100 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

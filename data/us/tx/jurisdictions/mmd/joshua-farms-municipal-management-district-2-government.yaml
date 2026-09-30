@@ -1,0 +1,19 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/municipal_management_district:joshua-farms-municipal-management-district-2/government
+name: Joshua Farms Municipal Management District No. 2
+state: tx
+division_id: ocd-division/country:us/state:tx/municipal_management_district:joshua-farms-municipal-management-district-2
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103226976'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.3929.htm
+  note: 'Joshua Farms Municipal Management District No. 2 (SPD Public ID 103226976) -- Johnson County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 3929 (board-composition section).'
+  retrieved: '2026-09-30'
+- url: https://www.winsteadspecialdistricts.com/johnson-county/joshua-farms-municipal-management-district-n
+  note: Joshua Farms Municipal Management District No. 2 website as listed in SPDPID.
+  retrieved: '2026-09-30'

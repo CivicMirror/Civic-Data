@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/hospital_district:knox-county-hospital-district/government
+name: Knox County Hospital District
+state: tx
+division_id: ocd-division/country:us/state:tx/hospital_district:knox-county-hospital-district
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103225860'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1050.htm
+  note: 'Knox County Hospital District (SPD Public ID 103225860) -- Knox County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1050, Sec. 1050.051. Positions 1-4 are appointed by the Knox County Commissioners Court -- only elected positions 5-7 are minted.'
+  retrieved: '2026-09-30'

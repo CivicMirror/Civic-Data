@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/d502d308-fd1e-5852-a5a6-15446322b2ee
+name: Salado Public Library District Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/library_district:salado-public-library-district/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/LG/htm/LG.326.htm#326.041
+  note: 'Salado Public Library District (SPD Public ID 103227735) -- Bell County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Local Government Code Sec. 326.041/326.043 (five elected trustees); district site confirms elected trustees.'
+  retrieved: '2026-09-30'
+- url: https://saladolibrary.org
+  note: Salado Public Library District website as listed in SPDPID.
+  retrieved: '2026-09-30'

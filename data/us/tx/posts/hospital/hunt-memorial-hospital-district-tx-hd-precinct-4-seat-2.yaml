@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: hunt-memorial-hospital-district-tx-hd/precinct-4-seat-2
+organization_id: ocd-organization/17ec2eab-d259-5c4b-8d46-ca580503fe3d
+title: Director, Precinct 4, Seat 2
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1044.htm
+  note: 'Hunt Memorial Hospital District (SPD Public ID 103225728) -- Hunt County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1044, Sec. 1044.051.'
+  retrieved: '2026-09-30'
+- url: https://www.huntregional.org
+  note: Hunt Memorial Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

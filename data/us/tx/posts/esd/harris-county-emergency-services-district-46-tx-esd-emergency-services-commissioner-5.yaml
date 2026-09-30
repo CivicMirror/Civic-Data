@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: harris-county-emergency-services-district-46-tx-esd/emergency-services-commissioner-5
+organization_id: ocd-organization/c7e60083-926a-5f30-8a19-a67dceae76cb
+title: Emergency Services Commissioner, Position 5
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Harris County Emergency Services District #46 (SPD Public ID 103227357) -- Harris County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(1) county >3,000,000: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://www.esd46.org
+  note: 'Harris County Emergency Services District #46 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

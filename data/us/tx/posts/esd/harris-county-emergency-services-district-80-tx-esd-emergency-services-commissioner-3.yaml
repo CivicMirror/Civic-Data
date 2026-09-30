@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: harris-county-emergency-services-district-80-tx-esd/emergency-services-commissioner-3
+organization_id: ocd-organization/d99e1477-afa4-505e-be37-e39a0da81d48
+title: Emergency Services Commissioner, Position 3
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Harris County Emergency Services District #80 (SPD Public ID 103227131) -- Harris County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(1) county >3,000,000: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://www.hcesd80.org
+  note: 'Harris County Emergency Services District #80 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

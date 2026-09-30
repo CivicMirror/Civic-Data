@@ -1,0 +1,13 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: north-wheeler-county-hospital-district-tx-hd/precinct-a-seat-1
+organization_id: ocd-organization/629dd322-7ada-59fe-ac1a-a809de488156
+title: Director, Precinct A, Seat 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1083.htm
+  note: 'North Wheeler County Hospital District (SPD Public ID 103225679) -- Wheeler County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1083, Sec. 1083.051. Two directors from each commissioners precinct included in the district (district covers two precincts) plus one at large -- 5 seats per Sec. 1083.051; precinct numbers not specified in statute, labelled Precinct A/B.'
+  retrieved: '2026-09-30'
