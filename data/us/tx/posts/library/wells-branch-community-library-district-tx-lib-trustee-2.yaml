@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: wells-branch-community-library-district-tx-lib/trustee-2
+organization_id: ocd-organization/585b9c10-b6be-54b2-b09c-80d9f4049f47
+title: Trustee, Position 2
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/LG/htm/LG.326.htm#326.041
+  note: 'Wells Branch Community Library District (SPD Public ID 103225698) -- Travis County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Local Government Code Sec. 326.041/326.043 (five elected trustees); district site confirms elected trustees.'
+  retrieved: '2026-09-30'
+- url: https://www.wblibrary.org
+  note: Wells Branch Community Library District website as listed in SPDPID.
+  retrieved: '2026-09-30'

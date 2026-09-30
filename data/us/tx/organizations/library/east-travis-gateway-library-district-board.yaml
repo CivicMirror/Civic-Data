@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/1de653bd-3a73-5b5b-90a2-ea951fed5bd0
+name: East Travis Gateway Library District Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/library_district:east-travis-gateway-library-district/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/LG/htm/LG.326.htm#326.041
+  note: 'East Travis Gateway Library District (SPD Public ID 103227767) -- Travis County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Local Government Code Sec. 326.041/326.043 (five elected trustees); district site confirms elected trustees.'
+  retrieved: '2026-09-30'
+- url: https://www.dvlibraries.org
+  note: East Travis Gateway Library District website as listed in SPDPID.
+  retrieved: '2026-09-30'
