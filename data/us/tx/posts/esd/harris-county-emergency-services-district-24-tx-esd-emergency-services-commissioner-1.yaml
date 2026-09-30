@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: harris-county-emergency-services-district-24-tx-esd/emergency-services-commissioner-1
+organization_id: ocd-organization/262e42e4-29e7-57fa-a84f-fbe014bbdc1e
+title: Emergency Services Commissioner, Position 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Harris County Emergency Services District #24 (SPD Public ID 103226777) -- Harris County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(1) county >3,000,000: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://www.hcesd24.org
+  note: 'Harris County Emergency Services District #24 website as listed in SPDPID.'
+  retrieved: '2026-09-30'
