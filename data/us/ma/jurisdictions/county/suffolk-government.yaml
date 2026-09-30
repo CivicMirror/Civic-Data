@@ -1,0 +1,20 @@
+# REAL JURISDICTION -- Suffolk County surviving elected offices
+# (issue #63). No separately elected county commissioners (MGL c.34 §4: Boston mayor/council, Chelsea and Revere councils, Winthrop selectmen exercise commissioner powers) and no elected county treasurer (MGL c.35 §1: Boston treasurer is county treasurer). Remaining county government abolished 1999-07-01 under MGL c.34B §1(e).
+# classification 'executive' represents these as independently-elected
+# administrative/constitutional offices rather than a legislative body.
+id: ocd-jurisdiction/country:us/state:ma/county:suffolk/executive
+name: Suffolk County (surviving elected offices)
+state: ma
+division_id: ocd-division/country:us/state:ma/county:suffolk
+classification: executive
+government_form: >-
+  No separately elected county commissioners (MGL c.34 §4: Boston mayor/council, Chelsea and Revere councils, Winthrop selectmen exercise commissioner powers) and no elected county treasurer (MGL c.35 §1: Boston treasurer is county treasurer). Remaining county government abolished 1999-07-01 under MGL c.34B §1(e).
+sources:
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter34/Section4
+    retrieved: "2026-09-28"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter35/Section1
+    retrieved: "2026-09-28"
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter34B/Section1
+    retrieved: "2026-09-28"
+  - url: https://www.sec.state.ma.us/divisions/cis/historical/incorporation-abolishment.htm
+    retrieved: "2026-09-28"

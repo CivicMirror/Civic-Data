@@ -1,0 +1,15 @@
+# REAL JURISDICTION -- Massachusetts's "Hampden District" district attorney's district.
+# (issue #63). District composition per MGL c.12 §13: Hampden County.
+# Modeled on the Texas judicial-district precedent (issue #26): id
+# subordinated as judicial_district:<slug>/judiciary with classification
+# judiciary, matching the existing Middle District file.
+id: ocd-jurisdiction/country:us/state:ma/judicial_district:hampden/judiciary
+name: Hampden District (Massachusetts district attorney district)
+state: ma
+division_id: ocd-division/country:us/state:ma/judicial_district:hampden
+classification: judiciary
+government_form: single-officer prosecutorial district (Massachusetts district attorney)
+sources:
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12/Section13
+    note: 'MGL c.12 §13 -- district attorney district definitions.'
+    retrieved: "2026-09-29"

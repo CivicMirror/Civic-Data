@@ -1,0 +1,15 @@
+# REAL JURISDICTION -- Massachusetts "Berkshire Southern District" registry of deeds district.
+# (issues #63 / #104). District composition per MGL c.36 §1: that portion of Berkshire County lying south of the middle district (registry office: Great Barrington).
+# Modeled on the judicial-district precedent but nested under the county in
+# the id, since registry districts never cross county lines (unlike DA
+# districts). Elected register, 6-year term per MGL c.36 §2.
+id: ocd-jurisdiction/country:us/state:ma/county:berkshire/registry_district:southern/executive
+name: Berkshire Southern District (Massachusetts registry district)
+state: ma
+division_id: ocd-division/country:us/state:ma/county:berkshire/registry_district:southern
+classification: executive
+government_form: single-officer registry district (Massachusetts register of deeds)
+sources:
+  - url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVI/Chapter36/Section1
+    note: 'MGL c.36 §1 -- district definition: that portion of Berkshire County lying south of the middle district (registry office: Great Barrington).'
+    retrieved: "2026-09-29"
