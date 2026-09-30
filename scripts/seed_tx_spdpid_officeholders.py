@@ -46,6 +46,9 @@ pilot found real, non-vacancy discrepancies in both directions:
     - headcount_over    -- reported count > minted seat count
     - headcount_under   -- reported count < minted seat count
     - duplicate_name    -- same normalized name appears 2+ times
+    - site_roster_mismatch -- (SUD batch onward) SPDPID names a person
+                          absent from the district's own current roster;
+                          see SITE_ROSTER_MISMATCH
 
 Flagged rows are written to a CSV under reference/TX Rolling Audit/ (not
 imported) for manual research, and that file is meant to be attached to
@@ -66,7 +69,19 @@ already have one for this district (it also won't retroactively update
 an existing membership if the person's title changed; that is future
 work, not silently overwritten here).
 
-Usage: python3 seed_tx_spdpid_officeholders.py [--write]
+Multi-ID districts: BrdMem rows are merged across all of a jurisdiction's
+tx-spdpid identifiers (fixed 2026-09-30; before that only the last ID's
+rows were read, which mis-flagged Ables Springs SUD as stale off its
+INACTIVE ID's 2023 filing). Plum Creek Conservation District (WCID, two
+IDs) was processed under the old behavior in the 2026-09-28 batch and was
+not re-run.
+
+"sud" was added 2026-09-30 after scripts/seed_tx_sud_orgs_posts.py
+minted SUD boards; that batch was run as
+  --types=sud --flagged-out=tx_spdpid_officeholders_manual_review_sud_2026-09-30.csv
+so the original 2026-09-28 review queue was not overwritten.
+
+Usage: python3 seed_tx_spdpid_officeholders.py [--write] [--types=a,b] [--flagged-out=FILE.csv]
 """
 import csv
 import glob
@@ -90,8 +105,28 @@ STALE_CUTOFF_YEAR = 2025  # latest report must be >= this to auto-import
 
 PHASE1_TYPES = [
     "wcid", "fwsd", "wid", "irrigation", "gcd", "drainage",
-    "conservation_reclamation", "eaa",
+    "conservation_reclamation", "eaa", "sud",
 ]
+
+# SUD batch (2026-09-30): each district's own current board page was
+# fetched while confirming seat counts, and SPDPID names were checked
+# against it. A headcount match is not a roster match -- these districts'
+# SPDPID self-report matches the seat count but names at least one person
+# absent from the district's own current roster (spelling variants such as
+# Prewitt/Prewett or Padelecki/Padalecki were cleared by hand first). They
+# are routed to review with the site roster attached, not imported.
+SITE_ROSTER_MISMATCH = {
+    "103228131": "AGUA SUD board page (District 1-7): Gerardo Perez (Sec, D1); Alex Moreno (D2); Roel De Hoyos (VP, D3); Jose Luis Ochoa Jr. (Pres, D4); Ana Maria Perez (D5); Ricardo Perez (Treas, D6); Dr. Adriana Villarreal (D7) -- SPDPID's Adolfo Mendez not listed",
+    "103227274": "Maurice Pittman (Pres); Thomas King (VP); Ann King (Sec-Treas); Chad Berberich; Bob Schmidtke; Paul Cauley; Rick Taylor -- SPDPID's Pete Slocum not listed",
+    "103225542": "Andy Yates (Pres); Allen Powers (VP); Ward Guffey (Sec/Treas); Bobby Sanders (Employee Relations Rep); Paul Cantrell -- SPDPID's Larry Ensor not listed",
+    "103226409": "board-elections page: Pos 1 Cheryl Patterson; Pos 2 Joseph Benavides; Pos 3 Jamie Trant; Pos 4 Nick Reininger; Pos 5 Ben Raska; Pos 6 Andrea Velasquez; Pos 7 VACANT. board-members page lists Pamela Kraft (Pres) instead of Reininger -- site pages disagree; SPDPID's Cynthia Cash not listed on either",
+    "103226559": "Roger Hankey (Pres); Bob Skipwith (VP); Bill Collins (Sec/Treas); Wayne Chumley; Pat Duval -- SPDPID's Mark Burnett not listed",
+    "103226896": "Ken Bonzo (Pres); Curt Deatrich (VP); William (Bill) Richey (Sec); Ed Cooke (Treas); Gary O'Dell (Asst Treas); Justin Fraley; Joseph Anselmo -- SPDPID's Bruce McDonald not listed",
+    "103226468": "Max Owens (Pres); Charles Nash (VP); Charles Ives (Treas/Sec); Margaret Avard; Bryan Wilson -- SPDPID's Scott Johnson, Albert Ellis, Glenn Vargas not listed",
+    "103228120": "maxwellwsc.com (page carries a 2022 alert, may be stale): Doug Spillmann (Pres); Valentin Yanez Jr. (VP); Liralen Canion (Treas); Doris Steubing (Asst Treas); Mabel Vaughn (Sec); Carol Thornton; Leah Gibson; Jess Stephens -- SPDPID's Roy Duran not listed; 9 seats confirmed by 2022 election order",
+    "103227550": "Michael Walker (Pres, Place 1); Matt Gauntt (VP, Place 2); Kim Lehere (Sec); Rob Adams; Michael Skelton (Place 3); Michael Bolton; Jeff Stafford; Mark Millar; Angela Zarallo -- SPDPID's Ken Mitchell not listed",
+    "103227789": "James Massey (Pres, 5/27); Brent Paterson (VP, 5/28); John Himmel (Treas, 5/29); Gwen Hattaway (Sec, 5/29); Travis Miller (5/27); Susan Lightfoot (5/28); David Ernstes (5/27); Perry Barboza (5/28); Dave Nutt (5/29) -- SPDPID 2025's Larry Michalcheck not listed",
+}
 
 PERSON_NS = uuid.UUID("2b8f6e2a-9c1d-4f7e-9a3b-6d5c4e3f2a1b")
 
@@ -157,12 +192,12 @@ def load_districts():
             continue
         for jf in sorted(jdir.glob("*.yaml")):
             jdoc = yaml.safe_load(jf.read_text()) or {}
-            spd_id = None
-            for ident in jdoc.get("identifiers", []):
-                if ident.get("scheme") == "tx-spdpid":
-                    spd_id = ident["identifier"]
-            if not spd_id:
+            spd_ids = [i["identifier"] for i in jdoc.get("identifiers", []) if i.get("scheme") == "tx-spdpid"]
+            if not spd_ids:
                 continue
+            # Keyed by the LAST identifier, as before 2026-09-30, so person ids
+            # already minted for multi-ID districts stay stable.
+            spd_id = spd_ids[-1]
             jur_id = jdoc["id"]
             org_doc = None
             for of in odir.glob("*.yaml"):
@@ -188,6 +223,7 @@ def load_districts():
                 "org_source_url": (org_doc.get("sources") or [{}])[0].get("url", ""),
                 "posts": posts,
                 "slug_base": jf.stem,
+                "spd_ids": spd_ids,
             }
     return districts
 
@@ -201,7 +237,15 @@ def load_boardmember_rows():
 
 
 def main():
+    global PHASE1_TYPES, FLAGGED_OUT
     write = "--write" in sys.argv[1:]
+    for arg in sys.argv[1:]:
+        # --types=sud restricts a run to later-minted types; --flagged-out=NAME
+        # keeps that run from overwriting an earlier run's review queue.
+        if arg.startswith("--types="):
+            PHASE1_TYPES = arg.split("=", 1)[1].split(",")
+        elif arg.startswith("--flagged-out="):
+            FLAGGED_OUT = FLAGGED_OUT.parent / arg.split("=", 1)[1]
 
     districts = load_districts()
     rows_by_spd = load_boardmember_rows()
@@ -233,7 +277,9 @@ def main():
 
     for spd_id, dist in sorted(districts.items()):
         t = dist["type"]
-        rows = rows_by_spd.get(spd_id, [])
+        # Merge BrdMem rows across every SPD ID on the jurisdiction (ACTIVE/
+        # INACTIVE re-registration pairs); latest year wins below.
+        rows = [r for i in dist["spd_ids"] for r in rows_by_spd.get(i, [])]
         if not rows:
             stats["flag_no_data"] += 1
             flagged.append({
@@ -262,6 +308,8 @@ def main():
         reason = None
         if int(latest_year) < STALE_CUTOFF_YEAR:
             reason = "stale"
+        elif spd_id in SITE_ROSTER_MISMATCH:
+            reason = "site_roster_mismatch"
         elif dupes:
             reason = "duplicate_name"
         elif reported_count > minted_count:
@@ -275,16 +323,18 @@ def main():
                 "reason": reason, "type": t, "spd_publ_id": spd_id,
                 "district_name": dist["name"], "minted_seats": minted_count,
                 "reported_count": reported_count, "latest_year": latest_year,
-                "names": "; ".join(f"{n} ({ti})" for n, ti in names_titles),
+                "names": "; ".join(f"{n} ({ti})" for n, ti in names_titles)
+                + (f" | SITE: {SITE_ROSTER_MISMATCH[spd_id]}" if reason == "site_roster_mismatch" else ""),
             })
             continue
 
         # Auto-import: stable order by (last-token, full name), assign
         # positionally to posts sorted by post id.
         ordered = sorted(names_titles, key=lambda nt: (nt[0].split()[-1], nt[0]))
-        source_url = f"https://spdpid.comptroller.texas.gov/view/{latest_year}/{spd_id}"
+        filed_spd_id = latest_rows[0]["spd_publ_id"]  # the ID that actually filed latest_year
+        source_url = f"https://spdpid.comptroller.texas.gov/view/{latest_year}/{filed_spd_id}"
         source_note = (
-            f"{dist['name']} (SPD Public ID {spd_id}) -- self-reported board "
+            f"{dist['name']} (SPD Public ID {filed_spd_id}) -- self-reported board "
             f"member disclosure to the Texas Comptroller's Special Purpose "
             f"District Public Information Database (SPDPID), required by "
             f"Gov't Code Sec. 403.0241(c), report year {latest_year}. "
