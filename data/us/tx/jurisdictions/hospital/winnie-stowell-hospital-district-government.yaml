@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/hospital_district:winnie-stowell-hospital-district/government
+name: Winnie-Stowell Hospital District
+state: tx
+division_id: ocd-division/country:us/state:tx/hospital_district:winnie-stowell-hospital-district
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103225923'
+sources:
+- url: http://wshd-tx.org/
+  note: 'Winnie-Stowell Hospital District (SPD Public ID 103225923) -- Chambers County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: district site: five-member elected Board of Directors, staggered four-year terms.'
+  retrieved: '2026-09-30'

@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: frio-hospital-district-tx-hd/precinct-3-seat-1
+organization_id: ocd-organization/c264b349-92d9-5715-a22c-04321f72a169
+title: Director, Precinct 3, Seat 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1030.htm
+  note: 'Frio Hospital District (SPD Public ID 103226389) -- Frio County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1030, Sec. 1030.051. Nine seats after annexation of Precinct 4 territory (Sec. 1030.357); district site confirms nine publicly elected members.'
+  retrieved: '2026-09-30'
+- url: https://www.frioregionalhospital.com/
+  note: Frio Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

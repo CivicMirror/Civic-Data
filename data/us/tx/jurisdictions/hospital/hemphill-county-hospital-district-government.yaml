@@ -1,0 +1,19 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/hospital_district:hemphill-county-hospital-district/government
+name: Hemphill County Hospital District
+state: tx
+division_id: ocd-division/country:us/state:tx/hospital_district:hemphill-county-hospital-district
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103227611'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1039.htm
+  note: 'Hemphill County Hospital District (SPD Public ID 103227611) -- Hemphill County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1039, Sec. 1039.051. Sec. 1039.052 lets voters approve single-member districts instead; site not checked for a change.'
+  retrieved: '2026-09-30'
+- url: https://www.hchdst.org
+  note: Hemphill County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

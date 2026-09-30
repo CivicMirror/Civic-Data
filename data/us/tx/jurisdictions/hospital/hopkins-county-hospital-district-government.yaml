@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/hospital_district:hopkins-county-hospital-district/government
+name: Hopkins County Hospital District
+state: tx
+division_id: ocd-division/country:us/state:tx/hospital_district:hopkins-county-hospital-district
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103227485'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1043.htm
+  note: 'Hopkins County Hospital District (SPD Public ID 103227485) -- Hopkins County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1043, Sec. 1043.051.'
+  retrieved: '2026-09-30'

@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: seminole-hospital-district-tx-hd/district-1
+organization_id: ocd-organization/b6a66794-2070-5714-95c6-e9cc0d020071
+title: Director, District 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1094.htm
+  note: 'Seminole Hospital District (SPD Public ID 103227592) -- Gaines County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1094, Sec. 1094.051.'
+  retrieved: '2026-09-30'
+- url: https://www.seminolehospitaldistrict.com
+  note: Seminole Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

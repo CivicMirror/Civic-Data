@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/a0de427f-fdb1-5704-bab6-af2150eafd28
+name: Electra Hospital District Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/hospital_district:electra-hospital-district/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1025.htm
+  note: 'Electra Hospital District (SPD Public ID 103227355) -- Wichita County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1025, Sec. 1025.051.'
+  retrieved: '2026-09-30'
+- url: https://www.electrahospital.com
+  note: Electra Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

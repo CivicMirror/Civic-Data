@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: eastland-memorial-hospital-district-tx-hd/director-3
+organization_id: ocd-organization/f57a0c0a-d0cc-5401-90b4-f390280bd3da
+title: Director, Position 3
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1023.htm
+  note: 'Eastland Memorial Hospital District (SPD Public ID 103227232) -- Eastland County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1023, Sec. 1023.051.'
+  retrieved: '2026-09-30'
+- url: https://eastlandmemorial.com
+  note: Eastland Memorial Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

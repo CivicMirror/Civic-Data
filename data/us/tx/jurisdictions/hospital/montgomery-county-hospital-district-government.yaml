@@ -1,0 +1,19 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/hospital_district:montgomery-county-hospital-district/government
+name: Montgomery County Hospital District
+state: tx
+division_id: ocd-division/country:us/state:tx/hospital_district:montgomery-county-hospital-district
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103227610'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1063.htm
+  note: 'Montgomery County Hospital District (SPD Public ID 103227610) -- Montgomery County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1063, Sec. 1063.051. Precinct directors elected by precinct voters; at-large directors elected by position.'
+  retrieved: '2026-09-30'
+- url: https://mchd-tx.org
+  note: Montgomery County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

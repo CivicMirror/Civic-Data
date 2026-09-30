@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: sutton-county-hospital-district-tx-hd/precinct-1
+organization_id: ocd-organization/8e22c588-ef12-55b9-badb-1c0c18a2a445
+title: Director, Precinct 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1101.htm
+  note: 'Sutton County Hospital District (SPD Public ID 103225565) -- Sutton County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1101, Sec. 1101.051.'
+  retrieved: '2026-09-30'
+- url: https://www.sonora-hospital.org
+  note: Sutton County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

@@ -1,0 +1,13 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/9ef6c3ea-09d6-50c7-a10f-d9faa12cb21b
+name: Medina County Hospital District Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/hospital_district:medina-county-hospital-district/government
+identifiers: []
+status: active
+sources:
+- url: https://www.medinahospital.net
+  note: 'Medina County Hospital District (SPD Public ID 103225995) -- Medina County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: district site: seven elected directors, four by county precinct and three at large.'
+  retrieved: '2026-09-30'
