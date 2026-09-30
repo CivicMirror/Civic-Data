@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: gateway-park-municipal-management-district-tx-mmd/director-1
+organization_id: ocd-organization/b5ae9f57-0709-542b-bc47-4b237b128812
+title: Director, Position 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.3985.htm
+  note: 'Gateway Park Municipal Management District (SPD Public ID 103228065) -- Wharton County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 3985 (board-composition section). Board is five directors: three elected under Water Code Ch. 49 Subch. D (minted) and two appointed by the city (not minted).'
+  retrieved: '2026-09-30'
+- url: https://www.winsteadspecialdistricts.com/wharton-county/gateway-park-municipal-management-district/
+  note: Gateway Park Municipal Management District website as listed in SPDPID.
+  retrieved: '2026-09-30'

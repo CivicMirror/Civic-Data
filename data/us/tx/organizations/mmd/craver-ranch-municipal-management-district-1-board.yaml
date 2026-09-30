@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/5129d2c2-ab92-5ca6-a856-79a6b042a932
+name: Craver Ranch Municipal Management District No. 1 Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/municipal_management_district:craver-ranch-municipal-management-district-1/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.4020.htm
+  note: 'Craver Ranch Municipal Management District No. 1 (SPD Public ID 103228706) -- Collin County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 4020 (board-composition section).'
+  retrieved: '2026-09-30'
+- url: https://www.winsteadspecialdistricts.com/denton-county/craver-ranch-municipal-management-district-no
+  note: Craver Ranch Municipal Management District No. 1 website as listed in SPDPID.
+  retrieved: '2026-09-30'
