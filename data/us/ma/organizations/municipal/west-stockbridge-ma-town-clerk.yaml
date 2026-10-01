@@ -1,3 +1,11 @@
+# No longer an elected office: the 5/12/2025 municipal-election ballot
+# question "Town Clerk to Appointed Position" passed 54-43 (10 blanks),
+# converting the office to appointed. Status changed from active to
+# inactive rather than deleted, to preserve the historical record; the
+# open elected membership was removed since the office is out of the
+# elected-inventory's scope (person record unchanged). Ballot-question
+# outcome per the Berkshire Edge's self-labeled unofficial results
+# (sourced from Town Administrator Marie Ryan); no holder minted from it.
 # Imported from reference/MA Rolling Audit/ (v51 MA municipal
 # charter/elected-office rolling audit preservation package, generated
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
@@ -9,7 +17,10 @@ jurisdiction_id: ocd-jurisdiction/country:us/state:ma/place:west-stockbridge/gov
 identifiers:
 - scheme: civicmirror-office
   identifier: west-stockbridge-ma/town-clerk
-status: active
+status: inactive
 sources:
 - url: https://ecode360.com/33408050
   retrieved: '2026-08-25'
+- url: https://theberkshireedge.com/west-stockbridge-municipal-election-unofficial-results/
+  note: 'Ballot-question outcome only: "Town Clerk to Appointed Position" passed 54-43 (10 blanks) at the 5/12/2025 municipal election; self-labeled unofficial results sourced from Town Administrator Marie Ryan. No holder minted from this source.'
+  retrieved: '2026-10-01'
