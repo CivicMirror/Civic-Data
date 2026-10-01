@@ -1,8 +1,13 @@
-# Imported from reference/MA Rolling Audit/ (v30 MA municipal charter/
-# elected-office rolling audit package, generated 2026-08-25) by scripts/
-# import_ma_charter_audit_v30_rolling.py. Source rows were machine-
-# extracted from municipal government sites; see the record's sources for
-# provenance.
+# 2026-10-01 issue #107 resolution: the town's Cemetery Commission web page
+# (/173/Cemetery-Commission) is stale (~2023-era: Jesse Law III, Richard Combra
+# Jr., John Tiernan). The official 2026 Board and Committee Members roster (dated
+# 2026-08-10) is authoritative: Gary Buckley (exp 2028), Jack Law (exp 2027),
+# John Tiernan (exp 2029), all elected. "Jack Law" is the same person as
+# Jesse Law III (town documents use the names interchangeably for the same seat).
+# Richard Combra, Jr. appears on no official cemetery roster (Nov 2024
+# spreadsheet and Aug 2026 roster both omit him; he is listed as a Parks
+# Commissioner instead) - his membership was removed. The April 16, 2026 ATE
+# re-elected John Victor Tiernan (490 votes) to a 3-year term.
 id: oak-bluffs-ma/cemetery-commissioner
 organization_id: ocd-organization/bf36b738-f4f0-5391-9c98-5b165e39363d
 title: Cemetery Commissioner
@@ -10,3 +15,9 @@ seats: 3
 sources:
 - url: https://www.oakbluffsma.gov/DocumentCenter/View/12986/Town-of-Oak-Bluffs-FY26-Budget
   retrieved: '2026-08-25'
+- url: https://www.oakbluffsma.gov/DocumentCenter/View/13502/2026-Board-and-Committee-Members?bidId=
+  retrieved: '2026-10-01'
+  note: 'Official 2026 Board and Committee Members roster (dated 2026-08-10): Cemetery Commissioners Buckley, Gary (exp 2028), Law, Jack (exp 2027), Tiernan - Chair, John (exp 2029), all elected'
+- url: https://www.oakbluffsma.gov/DocumentCenter/View/13154/OFFICIAL-ATE-RESULTS-2026?bidId=
+  retrieved: '2026-10-01'
+  note: 'Official April 16, 2026 ATE results: Cemetery Commissioner (3 years) - John Victor Tiernan 490 votes'
