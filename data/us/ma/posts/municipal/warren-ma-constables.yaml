@@ -3,6 +3,12 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# NEGATIVE EVIDENCE (2026-10-01): the official 5/5/2026 ATE results list 10
+# races and none is for constable; the word "constable" appears zero times in
+# the document. The March 2025 General Bylaws likewise have zero hits for
+# "constable". Warren may not elect constables at all - candidate for retiring
+# this post (cf. Avon, Goshen). Awaiting Walter's modeling call; seats left
+# at 5 meanwhile.
 id: warren-ma/constables
 organization_id: ocd-organization/2a231032-1619-5b90-aa0b-934566376981
 title: Constable
@@ -10,3 +16,9 @@ seats: 5
 sources:
 - url: https://www.warren-ma.gov/
   retrieved: '2026-08-25'
+- url: user-supplied PDF, Town of Warren 5/5/2026 Annual Election official results
+  note: 'Official 5/5/2026 ATE results: 10 races on the ballot (Moderator,
+    Selectmen, Park Commission, Assessor, Sewer Commissioner, Board of Health,
+    Planning Board, Housing Authority x2, Cemetery Commissioner) - no constable
+    race; "constable" appears zero times in the document.'
+  retrieved: '2026-10-01'
