@@ -2,6 +2,9 @@
 # elected-office rolling audit, generated 2026-08-21) by scripts/
 # import_ma_charter_audit_v27.py. Source rows were machine-extracted from
 # municipal government sites; see the record's sources for provenance.
+# 6 seats. The 3/25/2025 ATE elected 5 (Flynn 4,075; Gillenwater 4,010; Gorman
+# 3,946; Foss 3,555; Weiss 160). The 6th seat drew only 307 scattered write-ins
+# - no determinable winner, so it is vacant.
 id: natick-ma/constable
 organization_id: ocd-organization/b9238d4b-af99-5c27-a8dd-63b2f2836074
 title: Constable
@@ -9,3 +12,9 @@ seats: 6
 sources:
 - url: https://www.natickma.gov/DocumentCenter/View/15009/Complete-Charter-April-2023
   retrieved: '2026-08-21'
+- url: https://natickma.gov/DocumentCenter/View/19458/Official-Election-Results-3-25-25
+  note: 'Official 3/25/2025 ATE results: Constable (Two Years), Vote for not more
+    than 6 - Flynn 4,075; Gillenwater 4,010; Gorman 3,946; Foss 3,555; Weiss 160,
+    elected. 6th seat: All other writeins 307 (scattered), Blanks 15,107 - no
+    determinable winner (vacant).'
+  retrieved: '2026-10-01'

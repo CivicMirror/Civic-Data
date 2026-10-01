@@ -1,3 +1,20 @@
+# 4/5 complete 2026-10-01; 5th seat VACANT per Walter's 2026-10-01 modeling call.
+# Bylaw (eCode360 Ch. 45, Art. I, s.45-12, https://ecode360.com/33408062):
+# "there shall be elected five Constables, who shall be elected for terms of three years."
+# But only FOUR seats are ever filled: FY2023 report (PDF p.5), 2024 report
+# ("Elected Town Officers": William Cooper, Paul Faggioni, Karl G. Cooper,
+# Elizabeth Digrigoli, each "3 yr. 2026"), and Annual Town Report 2025
+# (https://www.weststockbridge-ma.gov/DocumentCenter/View/327/Annual-Town-Report-2025,
+# p.6, same four, terms to 2026; p.7 starts Appointed officers - no 5th constable).
+# 2026 ATE (official results https://www.weststockbridge-ma.gov/DocumentCenter/View/2109,
+# 5/11/2026, 168 ballots): Constable, 4 seats - Karl G. Cooper 127, Wayne Cooper 131,
+# Elizabeth Digrigoli 128, Paul Faggioni 135, Write-In 3, Blanks 148. No 5th-seat race.
+# (Note: reports say "William Cooper"; 2026 winners list "Wayne Cooper" - likely a
+# different person or a report typo; Wayne Cooper minted as the 2026 winner per the
+# official results.) 2025 ATE results link is dead (404, not archived); 2023/2024 results
+# not on the town site - but the 4 filled seats sit on the 2023/2026 cycle and the
+# 5/13/2024 warrant carried no constable race. No document anywhere names a 5th
+# constable.
 # Imported from reference/MA Rolling Audit/ (v51 MA municipal
 # charter/elected-office rolling audit preservation package, generated
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
@@ -8,5 +25,24 @@ organization_id: ocd-organization/c218c775-c804-5f71-ab29-009e59301233
 title: Constable
 seats: 5
 sources:
-- url: https://ecode360.com/33408050
-  retrieved: '2026-08-25'
+- url: https://ecode360.com/33408062
+  note: 'Town Code Ch. 45, Art. I, s.45-12 Constables: "there shall be elected five
+    Constables, who shall be elected for terms of three years."'
+  retrieved: '2026-10-01'
+- url: https://www.weststockbridge-ma.gov/DocumentCenter/View/327/Annual-Town-Report-2025
+  note: 'Annual Town Report 2025, p.6 Elected Town Officers - Constables: William Cooper,
+    Paul Faggioni, Karl G. Cooper, Elizabeth Digrigoli, each "3 yr. 2026". No 5th
+    constable listed (p.7 begins Appointed officers). Same four as FY2023 and 2024 reports.'
+  retrieved: '2026-10-01'
+- url: https://www.weststockbridge-ma.gov/DocumentCenter/View/2109
+  note: 'Official 5/11/2026 ATE results: Constable, 4 seats, 168 ballots cast -
+    Karl G. Cooper 127, Wayne Cooper 131, Elizabeth Digrigoli 128, Paul Faggioni 135,
+    Write-In 3, Blanks 148. No 5th-seat race on the ballot.'
+  retrieved: '2026-10-01'
+- url: user-supplied PDF, West Stockbridge Annual Town Report FY2023 (published April 2024)
+  note: 'PDF p.5 Elected Town Officers - Constables: William Cooper, Paul Faggioni,
+    Karl G. Cooper, Elizabeth Digrigoli, each "3 yr. 2026". Only 4 of the 5 seats
+    shown; 5th constable does not appear. 2025 ATE results link is dead (404, not
+    archived); 2023/2024 results not on the town site. 5/13/2024 warrant carried no
+    constable race.'
+  retrieved: '2026-10-01'

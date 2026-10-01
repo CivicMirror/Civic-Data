@@ -2,6 +2,11 @@
 # elected-office rolling audit, generated 2026-08-20) by scripts/
 # import_ma_charter_audit_v20.py. Source rows were machine-extracted from
 # municipal government sites; see the record's sources for provenance.
+# 4 seats, 3-year terms (FY2024 Annual Town Report, p. 115: "Constable (4 for 3
+# years)"). 2024 ATE elected 3: Richard Brittain (311), Sandra Cozzaglio (280),
+# Peter W. Warywoski (298). The 4th seat drew only 16 unnamed write-ins - no
+# determinable winner, so it is vacant. 2026 ATE (5/18/2026 official results)
+# carried no constable race.
 id: lee-ma/constable
 organization_id: ocd-organization/39015158-1f32-5f1b-b806-9e99fb46d7b4
 title: Constable
@@ -9,3 +14,11 @@ seats: 4
 sources:
 - url: https://www.lee.ma.us/sites/g/files/vyhlif12726/f/uploads/fy23_annual_town_report_final.pdf
   retrieved: '2026-08-19'
+- url: user-supplied PDF, Town of Lee FY2024 Annual Report
+  note: 'Official 2024 ATE results: Constable (4 for 3 years) - Brittain 311, Cozzaglio
+    280, Warywoski 298, elected; 16 unnamed write-ins, no 4th winner (vacant).'
+  retrieved: '2026-10-01'
+- url: user-supplied PDF, Town of Lee Annual Town Election OFFICIAL Results - May 18,
+    2026
+  note: 'No constable race on the 2026 ballot.'
+  retrieved: '2026-10-01'

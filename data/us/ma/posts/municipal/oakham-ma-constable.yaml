@@ -3,10 +3,29 @@
 # import_ma_charter_audit_v30_rolling.py. Source rows were machine-
 # extracted from municipal government sites; see the record's sources for
 # provenance.
+# Seat-count/modeling resolved 2026-10-01: Oakham elects SIX constables to 3-year
+# terms in a single vote-for-six race (2022 results: "Constable, 3 Years 6 Needed";
+# 2025 specimen ballot: "CONSTABLES ... Vote for Six"). The audit-imported 5 was wrong.
+# 5/6 complete 2026-10-01: official 5/19/2025 ATE results (FY2025 Annual Town Report):
+# Tammy J. Gehring 450, Sherry A. Bergin 434, Denise R. Collette 412,
+# Fred Jean-Francois 397, Lucy I. Tessnau 396 - the 6th seat went unfilled
+# ("All Others" 9 votes, no determinable candidate) and the elected-officers roster
+# confirms the five with terms to 2028 plus "Vacant 2028". The 5/18/2026 ATE ran a
+# "CONSTABLE - TWO YEARS" vacancy fill (term to 2028): all 398 ballots blank, no winner.
 id: oakham-ma/constable
 organization_id: ocd-organization/0bc9d797-4329-5b0c-87cb-c0d3e40ec133
 title: Constable
-seats: 5
+seats: 6
 sources:
 - url: https://www.oakham-ma.gov/sites/g/files/vyhlif6136/f/pages/fy2024_annual_town_report.pdf
   retrieved: '2026-08-25'
+- url: user-supplied PDF, Town of Oakham FY2025 Annual Town Report
+  note: 'Official 5/19/2025 ATE results: Constables 3 Year Term, vote for six -
+    Gehring 450, Bergin 434, Collette 412, Jean-Francois 397, Tessnau 396,
+    All Others 9. Elected-officers roster lists the five with terms to 2028 and
+    "Vacant 2028" for the 6th seat.'
+  retrieved: '2026-10-01'
+- url: user-supplied PDF, Town of Oakham official 5/18/2026 Annual Town Election results
+  note: 'CONSTABLE - TWO YEARS vacancy fill: all 398 ballots blank, no winner; the
+    6th seat remains vacant.'
+  retrieved: '2026-10-01'
