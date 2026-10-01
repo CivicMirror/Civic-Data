@@ -3,6 +3,9 @@
 # 2026-08-25) by scripts/import_ma_charter_audit_v32_v49.py. Source rows
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
+# Three district constables (North, Center, South), 1 for three years each.
+# North District: June 7, 2025 election drew only 9 unnamed write-ins - no
+# determinable winner, seat vacant (Douchkoff's term ended 2025, not re-elected).
 id: westhampton-ma/constables
 organization_id: ocd-organization/5706fdcb-64aa-508b-a955-f47d40159be7
 title: Constable
@@ -10,3 +13,12 @@ seats: 3
 sources:
 - url: https://westhamptonma.gov/wp-content/uploads/GENERAL-BYLAW-Master-Document-as-of-May-1-2025.pdf
   retrieved: '2026-08-25'
+- url: https://westhamptonma.gov/wp-content/uploads/ELECTION-RESULTS-Local-June-7-2025-1.pdf
+  note: 'Official June 7, 2025 Town Election results: CONSTABLE (North District) -
+    1 for three years - All Others 9, no named candidate, no winner (vacant).'
+  retrieved: '2026-10-01'
+- url: https://westhamptonma.gov/wp-content/uploads/2025-Annual-Town-Report-FINAL.pdf
+  note: '2025 Annual Town Report elected-officials roster: Charles Inman (South District)
+    term 2026, Robert E. Miller (Center District) term 2027; North District seat not
+    listed (vacant after the 2025 no-winner election).'
+  retrieved: '2026-10-01'
