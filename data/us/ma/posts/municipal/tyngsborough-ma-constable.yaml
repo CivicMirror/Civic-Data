@@ -4,15 +4,28 @@
 # were machine-extracted from municipal government sites; see the
 # record's sources for provenance.
 # 2026-10-01: Desmarais and Pelletier minted from the 2025 Annual Report
-# elected-CONSTABLES roster (terms to 2027) + 5/21/2024 tally. Third seat:
-# Steven A. Nocco's term expired 2026 per the same roster, and the official
-# 5/19/2026 results contain no constable race - seat status unresolved, not
-# recorded as vacant (needs 2026 annual report roster or town roster check).
+# elected-CONSTABLES roster (terms to 2027) + 5/21/2024 tally.
+# 2026-10-01: third seat resolved - the 2025 Annual Report (publ. 2026-05-03,
+# roster p. 11) lists only Desmarais and Pelletier under CONSTABLES; Steven A.
+# Nocco no longer appears as constable. The official 5/19/2026 ATE results contain
+# no constable race, and a 2026-05-06 Select Board memo ("List for Website - Seats
+# Up For Appointment") lists 1 Constable seat up for Select Board appointment,
+# 3-yr term beginning 7/1/2026. Per Walter's 2026-10-01 modeling call, the elected
+# post is now 2/2 - the third seat moved to appointment and is out of #52 scope.
 # Appointed constables (Dery, Gill) are a separate office - not this post.
 id: tyngsborough-ma/constable
 organization_id: ocd-organization/2c9f8bc7-0154-5096-8c5f-307d0f80c432
 title: Constable
-seats: 3
+seats: 2
 sources:
 - url: https://www.tyngsboroughma.gov/DocumentCenter/View/2693/2024-Tyngsborough-Annual-Town-Report-Standard
   retrieved: '2026-08-25'
+- url: https://tyngsboroughma.gov/DocumentCenter/View/3334/2025-Annual-Town-Report
+  retrieved: '2026-10-01'
+  note: 'Elected Boards & Commissions roster, report p. 11 - CONSTABLES lists only Desmarais (2027) and Pelletier (2027)'
+- url: https://tyngsboroughma.gov/DocumentCenter/View/3341/List-for-Website--Seats-Up-For-Appointmentdocx-1
+  retrieved: '2026-10-01'
+  note: 'Select Board memo 2026-05-06 - 1 Constable seat up for Select Board appointment, 3-yr term from 7/1/2026'
+- url: https://tyngsboroughma.gov/DocumentCenter/View/3361/May-19-2026-Official-Election-Results
+  retrieved: '2026-10-01'
+  note: 'Official 5/19/2026 ATE results - no constable race on the ballot'
