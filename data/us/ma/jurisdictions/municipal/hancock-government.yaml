@@ -3,6 +3,10 @@ name: Town of Hancock
 state: ma
 division_id: ocd-division/country:us/state:ma/place:hancock
 classification: government
+site_intelligence:
+  officials_directory_url: https://town.hancock.ma.us/2019/06/21/committees/
+  cms_platform: WordPress
+  notes: 'Manual research 2026-10-02 (issue #18): town Committees page (dated 2019-06-21) — the only roster the town publishes, but it appears stale (a 2024 site post names a selectman not on this roster). Verify currency on refresh; do not trust member names.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166466, FIPS 25-003-28180, county area=BERKSHIRE, active=Y'
