@@ -3,6 +3,10 @@ name: Town of Windsor
 state: ma
 division_id: ocd-division/country:us/state:ma/place:windsor
 classification: government
+site_intelligence:
+  officials_directory_url: https://www.windsormass.com/boards-departments/select-board
+  election_results_url: https://www.windsormass.com/requests-1/elections
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); Phase 2 (2026-10-02): election_results fields from observed sources, re-verify.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=106093, FIPS 25-003-80685, county area=BERKSHIRE, active=Y'

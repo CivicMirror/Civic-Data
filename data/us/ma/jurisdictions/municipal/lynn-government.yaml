@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:lynn
 classification: government
 website: http://www.cityoflynn.net
+site_intelligence:
+  officials_directory_url: https://www.lynnma.gov/cms/one.aspx?portalId=109810&pageId=135491
+  cms_platform: CivicLive
+  notes: 'Manual research 2026-10-02 (issue #18): City Council Members page, updated Sept 2026 (cityoflynn.net resolves to lynnma.gov) Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=106055, FIPS 25-009-37490, county area=ESSEX, active=Y'

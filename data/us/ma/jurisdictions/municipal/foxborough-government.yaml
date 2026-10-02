@@ -3,6 +3,9 @@ name: Town of Foxborough
 state: ma
 division_id: ocd-division/country:us/state:ma/place:foxborough
 classification: government
+site_intelligence:
+  officials_directory_url: https://foxboroughma.gov/departments/land_use
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh. tie broken by citation count; alternates: https://foxboroughma.gov/departments/town_clerk'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=193476, FIPS 25-021-24820, county area=NORFOLK, active=Y'

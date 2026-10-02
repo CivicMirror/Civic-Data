@@ -3,7 +3,11 @@ name: Town of Billerica
 state: ma
 division_id: ocd-division/country:us/state:ma/place:billerica
 classification: government
-website: http://www.town.billerica.ma.us/
+website: https://billerica.gov/
+site_intelligence:
+  officials_directory_url: https://billerica.gov/178/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board roster with terms; town.billerica.ma.us is dead, official site moved to billerica.gov Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=128142, FIPS 25-017-05805, county area=MIDDLESEX, active=Y'

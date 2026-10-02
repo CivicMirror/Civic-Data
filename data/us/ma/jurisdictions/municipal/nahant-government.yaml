@@ -4,6 +4,12 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:nahant
 classification: government
 website: http://www.nahant.org/
+site_intelligence:
+  officials_directory_url: https://www.nahant.org/departments/board-of-selectmen/
+  election_results_url: https://www.nahant.org/town-clerk/elections/
+  election_results_vendor: 'PDF only'
+  cms_platform: WordPress
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh. Manual resolution (nahant).'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:essex/place:nahant/government

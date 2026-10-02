@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:medford
 classification: government
 website: http://www.medford.org/
+site_intelligence:
+  officials_directory_url: https://www.medfordma.org/citycouncil
+  cms_platform: Finalsite
+  notes: 'Manual research 2026-10-02 (issue #18): City Council page, 2026-2028 members Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=185819, FIPS 25-017-39835, county area=MIDDLESEX, active=Y'

@@ -4,6 +4,9 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:watertown
 classification: government
 website: http://www.watertown-ma.gov
+site_intelligence:
+  officials_directory_url: https://www.watertown-ma.gov/city-council
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=194919, FIPS 25-017-73440, county area=MIDDLESEX, active=Y'

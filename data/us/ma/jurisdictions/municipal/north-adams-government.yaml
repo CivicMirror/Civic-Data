@@ -3,7 +3,11 @@ name: City of North Adams
 state: ma
 division_id: ocd-division/country:us/state:ma/place:north-adams
 classification: government
-website: http://www.northadamsma.gov
+website: https://www.northadams-ma.gov/
+site_intelligence:
+  officials_directory_url: https://www.northadams-ma.gov/government/city_council/index.php
+  cms_platform: Revize
+  notes: 'Manual research 2026-10-02 (issue #18): 2026 City Council roster; northadamsma.gov does not resolve, official domain is northadams-ma.gov Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=128101, FIPS 25-003-46225, county area=BERKSHIRE, active=Y'

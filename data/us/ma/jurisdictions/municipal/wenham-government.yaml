@@ -3,6 +3,10 @@ name: Town of Wenham
 state: ma
 division_id: ocd-division/country:us/state:ma/place:wenham
 classification: government
+site_intelligence:
+  officials_directory_url: https://www.wenhamma.gov/247/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=185830, FIPS 25-009-74595, county area=ESSEX, active=Y'

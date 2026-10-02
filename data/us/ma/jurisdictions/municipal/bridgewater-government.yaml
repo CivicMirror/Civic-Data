@@ -3,7 +3,12 @@ name: Town of Bridgewater
 state: ma
 division_id: ocd-division/country:us/state:ma/place:bridgewater
 classification: government
-website: http://www.bridgewaterma.org/
+website: https://www.bridgewaterma.gov/
+site_intelligence:
+  officials_directory_url: https://www.bridgewaterma.gov/government/town_council/index.php
+  election_results_vendor: 'PDF only'
+  cms_platform: Revize
+  notes: 'Manual research 2026-10-02 (issue #18): Town Council roster (9 councilors) with terms; bridgewaterma.org redirects to bridgewaterma.gov Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166545, FIPS 25-023-08085, county area=PLYMOUTH, active=Y'

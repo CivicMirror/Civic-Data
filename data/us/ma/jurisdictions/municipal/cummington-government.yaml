@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:cummington
 classification: government
 website: http://www.cummington-ma.gov
+site_intelligence:
+  officials_directory_url: https://cummington-ma.gov/TownGovList.php
+  cms_platform: DDGraphics
+  notes: 'Manual research 2026-10-02 (issue #18): Town Government Listing with links to board pages listing current officeholders and terms Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166511, FIPS 25-015-16040, county area=HAMPSHIRE, active=Y'

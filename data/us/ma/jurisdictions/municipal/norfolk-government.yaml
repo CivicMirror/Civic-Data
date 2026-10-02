@@ -3,7 +3,11 @@ name: Town of Norfolk
 state: ma
 division_id: ocd-division/country:us/state:ma/place:norfolk
 classification: government
-website: http://www.virtualnorfolk.org
+website: https://www.norfolkmass.gov/
+site_intelligence:
+  officials_directory_url: https://www.norfolkmass.gov/government/boards___committees/select_board/index.php
+  cms_platform: Revize
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board roster with terms; norfolk.ma.us redirects to norfolkmass.gov Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=106150, FIPS 25-021-46050, county area=NORFOLK, active=Y'

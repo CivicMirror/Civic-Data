@@ -4,6 +4,11 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:norwell
 classification: government
 website: http://WWW.TOWNOFNORWELL.NET
+site_intelligence:
+  officials_directory_url: https://townofnorwell.net/government/select_board/index.php
+  election_results_vendor: 'PDF only'
+  cms_platform: Revize
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board roster with current members and term ends Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166551, FIPS 25-023-50145, county area=PLYMOUTH, active=Y'

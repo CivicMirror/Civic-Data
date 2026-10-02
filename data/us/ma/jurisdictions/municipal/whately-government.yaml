@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:whately
 classification: government
 website: http://www.whately.org
+site_intelligence:
+  officials_directory_url: https://www.whately.org/boards_committees/selectboard/index.php
+  election_results_vendor: 'PDF only'
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); Phase 2 (2026-10-02): election_results fields from observed sources, re-verify.'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:franklin/place:whately/government

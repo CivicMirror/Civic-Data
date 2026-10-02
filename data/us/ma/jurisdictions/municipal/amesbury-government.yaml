@@ -4,6 +4,12 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:amesbury
 classification: government
 website: http://www.amesburyma.gov
+site_intelligence:
+  officials_directory_url: https://www.amesburyma.gov/163/Planning-Board
+  election_results_url: https://www.amesburyma.gov/329/Elections
+  election_results_vendor: 'PDF only'
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); Phase 2 (2026-10-02): election_results fields from observed sources, re-verify.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=224803, FIPS 25-009-01260, county area=ESSEX, active=Y'

@@ -3,7 +3,12 @@ name: Town of Royalston
 state: ma
 division_id: ocd-division/country:us/state:ma/place:royalston
 classification: government
-website: http://www.royalston.com/
+website: https://www.royalston-ma.gov/
+site_intelligence:
+  officials_directory_url: https://www.royalston-ma.gov/515/Select-Board
+  election_results_vendor: 'PDF only'
+  cms_platform: CivicPlus
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board members; royalston.com is dead, official site is royalston-ma.gov Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=183899, FIPS 25-027-58580, county area=WORCESTER, active=Y'

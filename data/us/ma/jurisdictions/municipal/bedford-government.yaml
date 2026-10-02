@@ -4,6 +4,12 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:bedford
 classification: government
 website: http://www.bedfordma.gov
+site_intelligence:
+  officials_directory_url: https://www.bedfordma.gov/1042/Elections-Elected-Town-Officials
+  election_results_url: https://bedfordma.gov/1042/Elections-Elected-Town-Officials
+  election_results_vendor: 'PDF only'
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); Phase 2 (2026-10-02): election_results fields from observed sources, re-verify.'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:middlesex/place:bedford/government
