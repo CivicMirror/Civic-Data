@@ -3,6 +3,10 @@ name: Town of Colrain
 state: ma
 division_id: ocd-division/country:us/state:ma/place:colrain
 classification: government
+site_intelligence:
+  officials_directory_url: https://colrain-ma.gov/g/47/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:franklin/place:colrain/government

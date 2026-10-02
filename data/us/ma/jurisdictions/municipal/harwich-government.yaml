@@ -4,6 +4,9 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:harwich
 classification: government
 website: http://www.harwich-ma.gov
+site_intelligence:
+  officials_directory_url: https://www.harwich-ma.gov/select-board?contentId=d07e4233-789f-4b2e-b470-b6e62b0eb7a7
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh. tie broken by citation count; alternates: https://www.harwich-ma.gov/select-board'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=190440, FIPS 25-001-29020, county area=BARNSTABLE, active=Y'

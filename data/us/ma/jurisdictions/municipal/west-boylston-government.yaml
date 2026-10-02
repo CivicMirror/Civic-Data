@@ -4,6 +4,9 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:west-boylston
 classification: government
 website: http://www.westboylstonma.gov
+site_intelligence:
+  officials_directory_url: https://www.westboylston-ma.gov/select-board
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=183919, FIPS 25-027-75155, county area=WORCESTER, active=Y'

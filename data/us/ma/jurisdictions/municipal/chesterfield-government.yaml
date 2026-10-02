@@ -4,6 +4,9 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:chesterfield
 classification: government
 website: http://www.townofchesterfieldma.com
+site_intelligence:
+  officials_directory_url: https://www.townofchesterfieldma.com/select-board/pages/annual-town-reports
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166510, FIPS 25-015-13590, county area=HAMPSHIRE, active=Y'

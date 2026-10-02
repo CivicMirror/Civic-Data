@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:webster
 classification: government
 website: http://www.websterma.gov
+site_intelligence:
+  officials_directory_url: https://www.webster-ma.gov/494/Board-of-Selectmen
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166577, FIPS 25-027-73895, county area=WORCESTER, active=Y'

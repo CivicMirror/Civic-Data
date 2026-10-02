@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:eastham
 classification: government
 website: http://www.easthamma.gov
+site_intelligence:
+  officials_directory_url: https://www.eastham-ma.gov/623/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh. tie broken by citation count; alternates: https://www.eastham-ma.gov/596/Select-Board, https://www.eastham-ma.gov/171/Town-Clerk'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=166460, FIPS 25-001-19295, county area=BARNSTABLE, active=Y'

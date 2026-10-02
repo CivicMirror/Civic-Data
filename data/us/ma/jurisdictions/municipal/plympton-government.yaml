@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:plympton
 classification: government
 website: http://www.town.plympton.ma.us
+site_intelligence:
+  officials_directory_url: https://www.town.plympton.ma.us/215/Board-of-Selectmen-and-Town-Administrato
+  cms_platform: CivicPlus
+  notes: 'Backfilled 2026-10-02 from existing record sources (issue #18 Phase 1); re-verify on refresh.'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:plymouth/place:plympton/government
