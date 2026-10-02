@@ -3,7 +3,11 @@ name: Town of Monson
 state: ma
 division_id: ocd-division/country:us/state:ma/place:monson
 classification: government
-website: http://www.monsonma.gov
+website: https://www.monson-ma.gov/
+site_intelligence:
+  officials_directory_url: https://www.monson-ma.gov/713/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board roster with terms; monsonma.gov does not resolve, official domain is monson-ma.gov Re-verify on refresh.'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:hampden/place:monson/government

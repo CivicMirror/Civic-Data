@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:westborough
 classification: government
 website: http://www.town.westborough.ma.us/
+site_intelligence:
+  officials_directory_url: https://www.westboroughma.gov/534/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board page with 5 current members (town.westborough.ma.us resolves here); no site-wide elected-officials page exists Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=193482, FIPS 25-027-75015, county area=WORCESTER, active=Y'

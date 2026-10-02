@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:marblehead
 classification: government
 website: http://www.marblehead.org
+site_intelligence:
+  officials_directory_url: https://marbleheadma.gov/select-board/
+  cms_platform: WordPress
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board roster with terms (marblehead.org redirects to marbleheadma.gov) Re-verify on refresh.'
 identifiers:
 - scheme: civicpatch
   identifier: ocd-jurisdiction/country:us/state:ma/county:essex/place:marblehead/government

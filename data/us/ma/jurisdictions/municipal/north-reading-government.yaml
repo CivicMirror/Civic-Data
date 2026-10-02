@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:north-reading
 classification: government
 website: http://www.northreadingma.gov
+site_intelligence:
+  officials_directory_url: https://www.northreadingma.gov/240/Select-Board
+  cms_platform: CivicPlus
+  notes: 'Manual research 2026-10-02 (issue #18): Select Board roster with current members and term ends Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=208269, FIPS 25-017-48955, county area=MIDDLESEX, active=Y'

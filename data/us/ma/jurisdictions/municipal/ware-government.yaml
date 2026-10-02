@@ -4,6 +4,10 @@ state: ma
 division_id: ocd-division/country:us/state:ma/place:ware
 classification: government
 website: http://www.townofware.com
+site_intelligence:
+  officials_directory_url: https://www.townofware.com/board_of_selectmen/index.php
+  cms_platform: Revize
+  notes: 'Manual research 2026-10-02 (issue #18): Selectboard members table with terms Re-verify on refresh.'
 sources:
 - url: https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html
   note: 'U.S. Census Bureau, 2022 Census of Governments: Organization — Government Units Listing (govt_units_2022.zip), General Purpose tab, CENSUS_ID_PID6=128139, FIPS 25-015-72880, county area=HAMPSHIRE, active=Y'
