@@ -1,0 +1,13 @@
+# Seeded from the TX SUD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_sud_orgs_posts.py. Structure only. Board size
+# individually confirmed from the district's own website, not assumed
+# from Water Code Sec. 65.101's 5-11 range -- see the script docstring.
+id: ocd-organization/8b58bc58-4080-589c-9f59-37be3517c117
+name: East Central Special Utility District Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/special_utility_district:east-central/sewer
+identifiers: []
+status: active
+sources:
+- url: https://www.eastcentralsudtx.gov/district/district.php
+  note: 'East Central Special Utility District (SPD Public ID 103227301). Water Code Sec. 65.101 sets an SUD board at 5-11 directors, fixed per district. Board size of 9 taken from the district''s own website (current roster with terms, three expiring each year), not from the general chapter or the SPDPID self-report. SPDPID self-reported headcount for the latest report year: 9.'
+  retrieved: '2026-09-30'
