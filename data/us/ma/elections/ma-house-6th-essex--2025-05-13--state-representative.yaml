@@ -1,0 +1,27 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results
+# for the 6th Essex special general election (2025-05-13), held for the
+# vacancy in the seat. Hannah Louise Bowen was seated 2025-05-21.
+id: ma-house-6th-essex/2025-05-13/special
+name: 6th Essex 2025-05-13 special general election
+date: '2025-05-13'
+election_type: special
+status: certified
+contests:
+- id: ma-house-6th-essex/2025-05-13/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:6th-essex/legislature
+  office_id: ma-house-6th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f9a6f401-206b-43df-a1b9-0fc1cd8a3417
+  - ocd-person/34e8e3ce-a8e4-4f00-a2e1-1a3b0a52e968
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f9a6f401-206b-43df-a1b9-0fc1cd8a3417
+    name: Hannah Louise Bowen
+    party: Democratic
+    votes: 4092
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/171339
+  note: "PD43+ official results, 2025 State Representative Special General Election, 6th Essex District -- Bowen 4,092 (Beverly 3,955 / Wenham 137); Long 1,452 (Beverly 1,408 / Wenham 44); All Others 27; Blanks 24; Total 5,595."
+  retrieved: '2026-10-04'

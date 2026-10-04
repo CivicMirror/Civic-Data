@@ -1,0 +1,27 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results
+# for the 3rd Bristol special general election (2025-06-10), held for the
+# vacancy in the seat. Lisa M. Field was seated 2025-07-16.
+id: ma-house-3rd-bristol/2025-06-10/special
+name: 3rd Bristol 2025-06-10 special general election
+date: '2025-06-10'
+election_type: special
+status: certified
+contests:
+- id: ma-house-3rd-bristol/2025-06-10/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:3rd-bristol/legislature
+  office_id: ma-house-3rd-bristol/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0a14e19e-3761-4aa2-887f-8b335d6e3eed
+  - ocd-person/f12efa24-bf27-4c9b-9cc2-95ca6eee191b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0a14e19e-3761-4aa2-887f-8b335d6e3eed
+    name: Lisa M. Field
+    party: Democratic
+    votes: 2575
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/171342/
+  note: "PD43+ official results, 2025 State Representative Special General Election, 3rd Bristol District -- Field 2,575 (Easton 1,033 / Taunton 1,542); Quintal 2,560 (Easton 962 / Taunton 1,598); All Others 8; Blanks 20; Total 5,163. Field won by 15 votes."
+  retrieved: '2026-10-04'

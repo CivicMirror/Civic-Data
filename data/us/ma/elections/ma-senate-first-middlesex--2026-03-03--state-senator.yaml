@@ -1,0 +1,28 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results
+# for the 1st Middlesex Senate special general election (2026-03-03), held for
+# the vacancy in the seat. Vanna Howard was seated 2026-03-18.
+id: ma-senate-first-middlesex/2026-03-03/special
+name: 1st Middlesex 2026-03-03 Senate special general election
+date: '2026-03-03'
+election_type: special
+status: certified
+contests:
+- id: ma-senate-first-middlesex/2026-03-03/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/053aae1e-ae76-41b0-912c-39f27f3f6d6f
+  - ocd-person/00c1d5a8-cda2-5466-8142-0890e35e2f2a
+  - ocd-person/91e6a873-a09b-5860-9742-061a0979cca9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/053aae1e-ae76-41b0-912c-39f27f3f6d6f
+    name: Vanna Howard
+    party: Democratic
+    votes: 4306
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/171923/
+  note: "PD43+ official results, 2026 State Senate Special General Election, 1st Middlesex District -- Howard (D) 4,306 (Lowell 2,543 / Pepperell 647 / Dracut 485 / Tyngsborough 386 / Dunstable 245); Meas (R) 1,699; Espinola (unenrolled) 1,379; All Others 16; Blanks 19; Total 7,419."
+  retrieved: '2026-10-04'
