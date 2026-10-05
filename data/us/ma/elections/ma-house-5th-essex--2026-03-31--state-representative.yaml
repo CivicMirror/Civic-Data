@@ -1,0 +1,28 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results
+# for the 5th Essex special general election (2026-03-31), held for the
+# vacancy in the seat. Andrew Francis Robert Tarr was seated 2026-04-15.
+id: ma-house-5th-essex/2026-03-31/special
+name: 5th Essex 2026-03-31 special general election
+date: '2026-03-31'
+election_type: special
+status: certified
+contests:
+- id: ma-house-5th-essex/2026-03-31/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:5th-essex/legislature
+  office_id: ma-house-5th-essex/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b4f97e46-d8cd-45f7-88c4-94926b0bf60b
+  - ocd-person/a1a7efcf-e417-4c95-a678-e032f064a53c
+  - ocd-person/190427b5-e5a6-4e4c-aa66-f795d2d5f8ef
+  - ocd-person/1438da33-0436-4dc0-b32c-6c080c8a0149
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b4f97e46-d8cd-45f7-88c4-94926b0bf60b
+    name: Andrew Francis Robert Tarr
+    votes: 3513
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/171924/
+  note: "PD43+ official results, 2026 State Representative Special General Election, 5th Essex District -- Tarr 3,513 (Gloucester 1,871 / Rockport 1,035 / Manchester 485 / Essex 122); Delisio 1,589; Frieden 377; Wilkinson (write-in) 20; All Others 7; Blanks 5; Total 5,511."
+  retrieved: '2026-10-04'

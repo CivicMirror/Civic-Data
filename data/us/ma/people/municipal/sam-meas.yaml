@@ -26,6 +26,15 @@ candidacies:
   status: active
   sources:
   - url: https://ocpf.us/filers?q=15519
+- contest_id: ma-senate-first-middlesex/2026-03-03/state-senator
+  election_id: ma-senate-first-middlesex/2026-03-03/special
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldu:first-middlesex/legislature
+  office_id: ma-senate-first-middlesex/state-senator
+  party: Republican
+  ballot_name: Sam S. Meas
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/171923/
 verification:
   status: machine-extracted
   pipeline: ocpf-filer-registry
