@@ -1,0 +1,29 @@
+# Hand-built from the Alaska Division of Elections 2024 general election
+# precinct results file (ENR export), supplied 2026-10-05. Alaska uses
+# ranked-choice voting; totals below are first-choice votes.
+id: ak-0-us-representative/2024-11-05/general
+name: Alaska At-Large U.S. Representative 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ak-0-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/cd:0/legislature
+  office_id: ak-0/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8dda2328-60be-53f8-b966-3133f0264490
+  - ocd-person/2e3cc0fd-1cb0-4f10-abbf-7096b82f5eec
+  - ocd-person/fe44366c-4f83-4ef1-b76e-89f58c93611e
+  - ocd-person/e79c5962-3755-4d94-8b1e-9e38fcb526b2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8dda2328-60be-53f8-b966-3133f0264490
+    name: Nicholas J. Begich III
+    party: Republican
+    votes: 159550
+  seat: At-Large
+sources:
+- url: https://www.elections.alaska.gov/
+  note: "Alaska Division of Elections 2024 general election precinct results (ENRbyPrecinct.csv), U.S. Representative first-choice totals -- Begich (REP) 159,550; Peltola (DEM) 152,828; Howe (AIP) 13,010; Hafner (DEM) 3,417. Division certifies the 2024 general as CERTIFIED. File supplied by maintainer 2026-10-05."
+  retrieved: '2026-10-05'

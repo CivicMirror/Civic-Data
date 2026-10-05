@@ -1,0 +1,20 @@
+id: ocd-person/2e3cc0fd-1cb0-4f10-abbf-7096b82f5eec
+name: Mary Peltola
+identifiers: []
+candidacies:
+- contest_id: ak-0-us-representative/2024-11-05/us-representative
+  election_id: ak-0-us-representative/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/cd:0/legislature
+  office_id: ak-0/us-representative
+  party: Democratic
+  ballot_name: Peltola, Mary S.
+  status: active
+  sources:
+  - url: https://www.elections.alaska.gov/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://www.elections.alaska.gov/results/24GENR/data/ENRbyPrecinct.csv
+  note: "Alaska Division of Elections 2024 general election precinct results (ENR export), U.S. Representative first-choice totals -- Peltola 152,828."
+  retrieved: '2026-10-05'

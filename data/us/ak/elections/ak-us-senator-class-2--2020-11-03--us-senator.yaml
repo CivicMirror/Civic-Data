@@ -1,0 +1,27 @@
+# Hand-built from the Alaska Division of Elections 2020 General Election
+# Summary Report (OFFICIAL RESULTS), supplied 2026-10-05.
+id: ak-us-senator-class-2/2020-11-03/general
+name: Alaska U.S. Senator (Class II) 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: certified
+contests:
+- id: ak-us-senator-class-2/2020-11-03/us-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/legislature
+  office_id: ak/us-senator-class-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/21712dc0-5159-59f5-a7f7-884e8d0185e9
+  - ocd-person/c6ec5200-0265-48f9-906a-be2dea8364fa
+  - ocd-person/fe44366c-4f83-4ef1-b76e-89f58c93611e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/21712dc0-5159-59f5-a7f7-884e8d0185e9
+    name: Dan Sullivan
+    party: Republican
+    votes: 191112
+  seat: Class II
+sources:
+- url: https://www.elections.alaska.gov/
+  note: "Alaska Division of Elections, 2020 General Election Summary Report (OFFICIAL RESULTS, November 3, 2020), U.S. Senator -- Sullivan (REP) 191,112; Gross (DEM) 146,068; Howe (AIP) 16,806; Write-in 601. Report file supplied by maintainer 2026-10-05."
+  retrieved: '2026-10-05'
