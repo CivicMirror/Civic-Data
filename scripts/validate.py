@@ -260,8 +260,15 @@ def _cross_validate(people: dict, memberships: dict, elections: dict, contests: 
             if norm_name(winner["name"]) not in holders:
                 current = ", ".join(repr(person["name"]) for person in by_office.get(office_id, [])) or "(no one on record)"
                 warn(f"CROSS[winner-not-seated] office '{office_id}': '{winner['name']}' won the certified {election['date']} election but people lists {current}")
+    # no-election-trace is scoped to the state/federal tiers: municipal, county,
+    # school and other local tiers are roster snapshots that were never built
+    # from election data, so the check is unactionable noise there.
     for membership_id, membership in memberships.items():
         if membership.get("how_seated") != "elected" or not membership.get("post_id"):
+            continue
+        parts = file_of[membership_id].parts
+        tier = parts[parts.index("memberships") + 1] if "memberships" in parts else ""
+        if tier not in ("state", "federal"):
             continue
         person_id = membership["person_id"]
         person = people.get(person_id)
