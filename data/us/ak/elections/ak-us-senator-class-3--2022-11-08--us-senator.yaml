@@ -1,0 +1,29 @@
+# Hand-built from the Alaska Division of Elections 2022 General Election
+# Summary Report (OFFICIAL RESULTS). Alaska uses ranked-choice voting;
+# totals below are first-round votes; Murkowski won after RCV tabulation.
+id: ak-us-senator-class-3/2022-11-08/general
+name: Alaska U.S. Senator (Class III) 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ak-us-senator-class-3/2022-11-08/us-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/legislature
+  office_id: ak/us-senator-class-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5357a786-fcf0-504b-ab42-fed879b706c0
+  - ocd-person/5b25b5dc-96b3-4b56-9b2f-6c9a8fb64a30
+  - ocd-person/20dd8c4e-b2cd-48fd-8cc2-57d225fa591f
+  - ocd-person/89e7aee6-aa66-4489-b544-9c35b782fea9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5357a786-fcf0-504b-ab42-fed879b706c0
+    name: Lisa Murkowski
+    party: Republican
+    votes: 113495
+  seat: Class III
+sources:
+- url: https://www.elections.alaska.gov/results/22GENR/ElectionSummaryReportRPT.pdf
+  note: "Alaska Division of Elections, 2022 General Election Summary Report (OFFICIAL RESULTS, November 8, 2022), U.S. Senator first-round totals -- Murkowski (REP) 113,495; Tshibaka (REP) 111,480; Chesbro (DEM) 27,145; Kelley (REP) 7,557; Write-in 2,028. Murkowski won after ranked-choice tabulation."
+  retrieved: '2026-10-05'
