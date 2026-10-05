@@ -1,0 +1,29 @@
+id: ocd-person/fe44366c-4f83-4ef1-b76e-89f58c93611e
+name: John Wayne Howe
+identifiers: []
+candidacies:
+- contest_id: ak-us-senator-class-2/2020-11-03/us-senator
+  election_id: ak-us-senator-class-2/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/legislature
+  office_id: ak/us-senator-class-2
+  party: Alaska Independence Party
+  ballot_name: Howe, John Wayne
+  status: active
+  sources:
+  - url: https://www.elections.alaska.gov/
+- contest_id: ak-0-us-representative/2024-11-05/us-representative
+  election_id: ak-0-us-representative/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/cd:0/legislature
+  office_id: ak-0/us-representative
+  party: Alaska Independence Party
+  ballot_name: Howe, John Wayne
+  status: active
+  sources:
+  - url: https://www.elections.alaska.gov/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://www.elections.alaska.gov/results/20GENR/data/ElectionSummaryReportRPT.xml
+  note: "Alaska Division of Elections official results -- 2020 U.S. Senate 16,806; 2024 U.S. Representative 13,010."
+  retrieved: '2026-10-05'

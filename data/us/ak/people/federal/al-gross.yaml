@@ -1,0 +1,20 @@
+id: ocd-person/c6ec5200-0265-48f9-906a-be2dea8364fa
+name: Al Gross
+identifiers: []
+candidacies:
+- contest_id: ak-us-senator-class-2/2020-11-03/us-senator
+  election_id: ak-us-senator-class-2/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ak/legislature
+  office_id: ak/us-senator-class-2
+  party: Democratic
+  ballot_name: Gross, Al
+  status: active
+  sources:
+  - url: https://www.elections.alaska.gov/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://www.elections.alaska.gov/results/20GENR/data/ElectionSummaryReportRPT.xml
+  note: "Alaska Division of Elections 2020 General Election Summary Report (OFFICIAL RESULTS), U.S. Senator -- Gross 146,068."
+  retrieved: '2026-10-05'
