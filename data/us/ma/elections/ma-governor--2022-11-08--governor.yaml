@@ -20,7 +20,20 @@ contests:
     party: Democratic
     votes: 1584403
   seat: At-Large
+- id: ma-governor/2022-11-08/lieutenant-governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/lieutenant-governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0b170541-3197-4dc1-9eae-f33913b757c1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0b170541-3197-4dc1-9eae-f33913b757c1
+    name: Kim Driscoll
+    party: Democratic
+    votes: 1584403
+  seat: At-Large
 sources:
 - url: https://electionstats.state.ma.us/elections/view/154338/
-  note: "PD43+ official results, Governor, 2022-11-08 -- Maura Healey (Democratic) 1,584,403; Geoff Diehl (Republican) 859,343; Kevin Reed (Libertarian) 39,244. Joint Governor/Lt. Governor ticket; PD43+ reports only the Governor race. Driscoll co-winner modeling pending Walter's call -- winners lists Healey only for now."
+  note: "PD43+ official results, Governor, 2022-11-08 -- Maura Healey (Democratic) 1,584,403; Geoff Diehl (Republican) 859,343; Kevin Reed (Libertarian) 39,244. Joint Governor/Lt. Governor ticket per Mass. Const. Amend. Art. LXXXVI (single vote for the grouped ticket counts as a vote for each candidate); PD43+ reports only the Governor race, so Driscoll is modeled as Lt. Governor winner on the same 1,584,403 ticket votes. No separate Lt. Governor general race in PD43+."
   retrieved: '2026-10-06'
