@@ -1,0 +1,13 @@
+# Seeded from the TX SUD rolling audit (issue #32, Phase 1) by
+# scripts/seed_tx_sud_orgs_posts.py. Structure only. Board size
+# individually confirmed from the district's own website, not assumed
+# from Water Code Sec. 65.101's 5-11 range -- see the script docstring.
+id: ocd-organization/d392d08b-12ff-5cb7-b990-1ad736b9b59f
+name: West Wise Special Utility District Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/special_utility_district:west-wise/sewer
+identifiers: []
+status: active
+sources:
+- url: https://www.westwisesud.com/board-members
+  note: West Wise Special Utility District (SPD Public ID 103227191). Water Code Sec. 65.101 sets an SUD board at 5-11 directors, fixed per district. Board size of 7 taken from the district's own website (current roster (no SPDPID board-member rows at all)), not from the general chapter or the SPDPID self-report. No SPDPID board-member self-report rows exist for this district.
+  retrieved: '2026-09-30'
