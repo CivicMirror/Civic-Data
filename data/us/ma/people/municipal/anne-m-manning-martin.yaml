@@ -5,7 +5,16 @@
 # record's sources for provenance.
 id: ocd-person/5cb38fbd-c452-5207-a237-fde746e26ae8
 name: Anne M. Manning-Martin
-candidacies: []
+candidacies:
+- contest_id: ma-fifth-councillor/2024-11-05/councillor
+  election_id: ma-fifth-councillor/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:fifth/executive
+  office_id: fifth-councillor/councillor
+  party: Republican
+  ballot_name: Anne M. Manning-Martin
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/165334/
 verification:
   status: machine-extracted
   reviewed_on: '2026-08-25'

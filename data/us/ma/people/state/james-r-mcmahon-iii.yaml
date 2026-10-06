@@ -1,0 +1,20 @@
+id: ocd-person/c40b64e1-22e7-4174-97c2-f74480dbf001
+name: James R. McMahon, III
+identifiers: []
+candidacies:
+- contest_id: ma-attorney-general/2022-11-08/attorney-general
+  election_id: ma-attorney-general/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/attorney-general
+  party: Republican
+  ballot_name: James R. McMahon, III
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154333/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Republican candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

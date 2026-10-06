@@ -1,0 +1,20 @@
+id: ocd-person/15d4696d-e1b2-4a19-8ed9-f20f93a90e93
+name: Anthony M. Amore
+identifiers: []
+candidacies:
+- contest_id: ma-auditor/2022-11-08/auditor
+  election_id: ma-auditor/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/auditor
+  party: Republican
+  ballot_name: Anthony M. Amore
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154334/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Republican candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

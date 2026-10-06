@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-seventh-councillor/2022-11-08/general
+name: Governor's Council Seventh District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-seventh-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:seventh/executive
+  office_id: seventh-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d6e80fb8-6f76-4f6e-8ca9-3dfd0bc457c5
+  - ocd-person/87bdd18b-873d-42a7-a167-a6122d92b5cf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d6e80fb8-6f76-4f6e-8ca9-3dfd0bc457c5
+    name: Paul M. Depalo
+    party: Democratic
+    votes: 163456
+  seat: Seventh
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154400/
+  note: "PD43+ official results, Governor's Council Seventh District, 2022-11-08 -- Paul M. Depalo (Democratic) 163,456; Gary Galonek (Republican) 123,084."
+  retrieved: '2026-10-06'

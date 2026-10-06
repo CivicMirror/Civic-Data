@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-fourth-councillor/2022-11-08/general
+name: Governor's Council Fourth District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-fourth-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:fourth/executive
+  office_id: fourth-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8bb3f004-a286-4be1-90e0-a1f9992a83ec
+  - ocd-person/e58cd557-6e16-476a-b577-d33107965f90
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8bb3f004-a286-4be1-90e0-a1f9992a83ec
+    name: Christopher A. Iannella, Jr.
+    party: Democratic
+    votes: 205182
+  seat: Fourth
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154335/
+  note: "PD43+ official results, Governor's Council Fourth District, 2022-11-08 -- Christopher A. Iannella, Jr. (Democratic) 205,182; Helene MacNeal (Republican) 84,005."
+  retrieved: '2026-10-06'

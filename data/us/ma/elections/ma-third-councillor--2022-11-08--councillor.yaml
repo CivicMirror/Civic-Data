@@ -1,0 +1,24 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-third-councillor/2022-11-08/general
+name: Governor's Council Third District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-third-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:third/executive
+  office_id: third-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1d6ba932-3a4c-4f25-85ac-5e7d8b70a858
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1d6ba932-3a4c-4f25-85ac-5e7d8b70a858
+    name: Marilyn Petitto Devaney
+    party: Democratic
+    votes: 248736
+  seat: Third
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154345/
+  note: "PD43+ official results, Governor's Council Third District, 2022-11-08 -- Marilyn Petitto Devaney (Democratic) 248,736. Unopposed."
+  retrieved: '2026-10-06'

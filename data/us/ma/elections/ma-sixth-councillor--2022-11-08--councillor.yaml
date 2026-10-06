@@ -1,0 +1,24 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-sixth-councillor/2022-11-08/general
+name: Governor's Council Sixth District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-sixth-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:sixth/executive
+  office_id: sixth-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ead1afe8-450e-4b7e-a5ae-96c2f9ae1329
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ead1afe8-450e-4b7e-a5ae-96c2f9ae1329
+    name: Terrence W. Kennedy
+    party: Democratic
+    votes: 203576
+  seat: Sixth
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154444/
+  note: "PD43+ official results, Governor's Council Sixth District, 2022-11-08 -- Terrence W. Kennedy (Democratic) 203,576. Unopposed."
+  retrieved: '2026-10-06'

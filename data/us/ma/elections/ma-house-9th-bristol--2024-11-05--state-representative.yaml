@@ -1,0 +1,24 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-house-9th-bristol/2024-11-05/general
+name: State Representative 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-9th-bristol/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:9th-bristol/legislature
+  office_id: ma-house-9th-bristol/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/560c5ca3-d9b4-4c47-998c-a9baa16a8309
+  result_status: certified
+  winners:
+  - person_id: ocd-person/560c5ca3-d9b4-4c47-998c-a9baa16a8309
+    name: Christopher M. Markey
+    party: Democratic
+    votes: 16627
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/165467/
+  note: "PD43+ official results, State Representative, 2024-11-05 -- Christopher M. Markey (Democratic) 16,627. Unopposed."
+  retrieved: '2026-10-06'

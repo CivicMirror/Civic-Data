@@ -1,0 +1,28 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-auditor/2022-11-08/general
+name: Auditor 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-auditor/2022-11-08/auditor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/auditor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/95391f30-3525-4b23-a351-1303c7482f76
+  - ocd-person/15d4696d-e1b2-4a19-8ed9-f20f93a90e93
+  - ocd-person/aa3c968c-ff17-4a0e-ad2e-0dd901f8c9a4
+  - ocd-person/2b0f3cd4-6590-5a8e-8939-a0d323fd2843
+  - ocd-person/85d71d5f-971c-47aa-9815-d29f5424ab6b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/95391f30-3525-4b23-a351-1303c7482f76
+    name: Diana DiZoglio
+    party: Democratic
+    votes: 1310773
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154334/
+  note: "PD43+ official results, Auditor, 2022-11-08 -- Diana DiZoglio (Democratic) 1,310,773; Anthony M. Amore (Republican) 897,223; Gloria A. Caballero-Roca (Green-Rainbow) 68,646; Dominic S. Giannone, III (Workers Party) 51,877; Daniel Werner Riek (Libertarian) 48,625."
+  retrieved: '2026-10-06'

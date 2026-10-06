@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-eighth-councillor/2022-11-08/general
+name: Governor's Council Eighth District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-eighth-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:eighth/executive
+  office_id: eighth-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/72337abd-df8c-466e-9f5a-a8d5a87d3d1e
+  - ocd-person/bf3588a9-49a2-4a54-948e-aaae0dbb3f9f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/72337abd-df8c-466e-9f5a-a8d5a87d3d1e
+    name: Tara J. Jacobs
+    party: Democratic
+    votes: 170120
+  seat: Eighth
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154361/
+  note: "PD43+ official results, Governor's Council Eighth District, 2022-11-08 -- Tara J. Jacobs (Democratic) 170,120; John M. Comerford (Republican) 104,839."
+  retrieved: '2026-10-06'

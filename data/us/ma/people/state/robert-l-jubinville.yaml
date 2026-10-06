@@ -1,0 +1,20 @@
+id: ocd-person/5fa6dd8b-45be-4ed5-b453-02b1349dce03
+name: Robert L. Jubinville
+identifiers: []
+candidacies:
+- contest_id: ma-second-councillor/2022-11-08/councillor
+  election_id: ma-second-councillor/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:second/executive
+  office_id: second-councillor/councillor
+  party: Democratic
+  ballot_name: Robert L. Jubinville
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154406/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Democratic candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'
