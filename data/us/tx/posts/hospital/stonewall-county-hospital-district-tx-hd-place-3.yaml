@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: stonewall-county-hospital-district-tx-hd/place-3
+organization_id: ocd-organization/9d4f98c7-0fdd-5cef-8132-2e4086ac40f7
+title: Director, Place 3
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1098.htm
+  note: 'Stonewall County Hospital District (SPD Public ID 103226241) -- Stonewall County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1098, Sec. 1098.051.'
+  retrieved: '2026-09-30'
+- url: https://stonewallhospital.org
+  note: Stonewall County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: orange-county-emergency-services-district-4-tx-esd/emergency-services-commissioner-2
+organization_id: ocd-organization/d8050e0c-58df-5e94-b42d-018a4e5e9001
+title: Emergency Services Commissioner, Position 2
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Orange County Emergency Services District #4 (SPD Public ID 103228362) -- Orange County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(3) county <200,000 bordering another state and the Gulf Intracoastal Waterway: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://ocesd4.com
+  note: 'Orange County Emergency Services District #4 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

@@ -1,0 +1,19 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/hospital_district:coleman-county-medical-center-hospital-district/government
+name: Coleman County Medical Center Hospital District
+state: tx
+division_id: ocd-division/country:us/state:tx/hospital_district:coleman-county-medical-center-hospital-district
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103226603'
+sources:
+- url: http://www.ccmchospitaldistrictboard.com/about-us.html
+  note: 'Coleman County Medical Center Hospital District (SPD Public ID 103226603) -- Coleman County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: district board site: board comprised of 7 members elected by county vote. Official district name not confirmed; its board site calls it the "CCMC Hospital District".'
+  retrieved: '2026-09-30'
+- url: https://colemancountymc.com
+  note: Coleman County Medical Center Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: smith-county-emergency-services-district-2-tx-esd/district-2
+organization_id: ocd-organization/5352c1a1-8a3b-5c56-aa0b-004212146112
+title: Emergency Services Commissioner, District 2
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Smith County Emergency Services District #2 (SPD Public ID 103226737) -- Smith County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(2),(b-1) (county >200,000 bordering Lake Palestine: five commissioners elected from single-member districts). Smith County ESD #2 site lists commissioners by Voting District 1-5.'
+  retrieved: '2026-09-30'
+- url: https://smithcountyfire.org
+  note: 'Smith County Emergency Services District #2 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

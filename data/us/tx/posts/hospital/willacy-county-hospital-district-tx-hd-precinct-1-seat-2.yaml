@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: willacy-county-hospital-district-tx-hd/precinct-1-seat-2
+organization_id: ocd-organization/419bb5c4-3ae2-5d3b-b8e8-a73c362e3fb5
+title: Director, Precinct 1, Seat 2
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1114.htm
+  note: 'Willacy County Hospital District (SPD Public ID 103225736) -- Willacy County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1114, Sec. 1114.051.'
+  retrieved: '2026-09-30'
+- url: https://willchd.org
+  note: Willacy County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

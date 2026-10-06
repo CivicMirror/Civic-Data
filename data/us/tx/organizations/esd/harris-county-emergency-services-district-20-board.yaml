@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/a8abe391-e5c6-5f80-a8bc-f9560af94a72
+name: 'Harris County Emergency Services District #20 Board of Emergency Services Commissioners'
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/emergency_services_district:harris-county-emergency-services-district-20/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Harris County Emergency Services District #20 (SPD Public ID 103228117) -- Harris County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(1) county >3,000,000: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://hcesd20.org
+  note: 'Harris County Emergency Services District #20 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

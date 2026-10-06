@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: karnes-county-hospital-district-tx-hd/place-6
+organization_id: ocd-organization/c8eb0aa1-828b-5c0c-88a7-2f722ccca781
+title: Director, Place 6
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1048.htm
+  note: 'Karnes County Hospital District (SPD Public ID 103226880) -- Karnes County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1048, Sec. 1048.051.'
+  retrieved: '2026-09-30'
+- url: https://www.okmh.org
+  note: Karnes County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

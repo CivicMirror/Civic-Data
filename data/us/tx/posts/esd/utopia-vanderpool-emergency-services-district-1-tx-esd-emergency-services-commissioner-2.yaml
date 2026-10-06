@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: utopia-vanderpool-emergency-services-district-1-tx-esd/emergency-services-commissioner-2
+organization_id: ocd-organization/94b30e46-ac92-5fea-8508-79a8892a6c35
+title: Emergency Services Commissioner, Position 2
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.035
+  note: 'Utopia Vanderpool Emergency Services District #1 (SPD Public ID 103228328) -- Uvalde County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.035 (district located in more than one county: five-person elected board).'
+  retrieved: '2026-09-30'
+- url: https://uvesd1.org
+  note: 'Utopia Vanderpool Emergency Services District #1 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/2df28f1b-17ef-54fb-98fd-b6b8df1d40f7
+name: 'Harris County Emergency Services District #75 Board of Emergency Services Commissioners'
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/emergency_services_district:harris-county-emergency-services-district-75/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Harris County Emergency Services District #75 (SPD Public ID 103225668) -- Harris County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(1) county >3,000,000: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://www.hcesd75.org
+  note: 'Harris County Emergency Services District #75 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

@@ -1,0 +1,19 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-jurisdiction/country:us/state:tx/emergency_services_district:orange-county-emergency-services-district-2/government
+name: 'Orange County Emergency Services District #2'
+state: tx
+division_id: ocd-division/country:us/state:tx/emergency_services_district:orange-county-emergency-services-district-2
+classification: government
+identifiers:
+- scheme: tx-spdpid
+  identifier: '103226768'
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.775.htm#775.0345
+  note: 'Orange County Emergency Services District #2 (SPD Public ID 103226768) -- Orange County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Health & Safety Code Sec. 775.0345(a)(3) county <200,000 bordering another state and the Gulf Intracoastal Waterway: five-person elected board.'
+  retrieved: '2026-09-30'
+- url: https://ocesd2.org/
+  note: 'Orange County Emergency Services District #2 website as listed in SPDPID.'
+  retrieved: '2026-09-30'

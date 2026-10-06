@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: midland-county-hospital-district-tx-hd/district-5
+organization_id: ocd-organization/d91b0206-7e9b-5cd9-ba59-b30af65e45a9
+title: Director, District 5
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1061.htm
+  note: 'Midland County Hospital District (SPD Public ID 103225556) -- Midland County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1061, Sec. 1061.051.'
+  retrieved: '2026-09-30'
+- url: https://www.midlandhealth.org
+  note: Midland County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

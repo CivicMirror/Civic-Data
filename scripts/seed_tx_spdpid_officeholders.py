@@ -81,7 +81,14 @@ minted SUD boards; that batch was run as
   --types=sud --flagged-out=tx_spdpid_officeholders_manual_review_sud_2026-09-30.csv
 so the original 2026-09-28 review queue was not overwritten.
 
-Usage: python3 seed_tx_spdpid_officeholders.py [--write] [--types=a,b] [--flagged-out=FILE.csv]
+The 2026-09-30 ESD/hospital/levee/library/MMD batch added --src (a
+different trimmed BrdMem file), --retrieved, --site-check (per-district
+site name check CSV) and structured-seat mapping (place/position/district/
+precinct posts are only filled when the SPDPID title names the seat).
+
+Usage: python3 seed_tx_spdpid_officeholders.py [--write] [--types=a,b]
+       [--flagged-out=FILE.csv] [--src=FILE.csv] [--retrieved=YYYY-MM-DD]
+       [--site-check=FILE.csv]
 """
 import csv
 import glob
@@ -106,7 +113,47 @@ STALE_CUTOFF_YEAR = 2025  # latest report must be >= this to auto-import
 PHASE1_TYPES = [
     "wcid", "fwsd", "wid", "irrigation", "gcd", "drainage",
     "conservation_reclamation", "eaa", "sud",
+    "esd", "hospital", "levee", "library", "mmd",
 ]
+
+# Optional per-district site name check (--site-check=FILE.csv, columns
+# spd_id,status,...): any status other than "ok" routes the district to
+# review under that status as the reason. Built for the 2026-09-30
+# ESD/hospital/levee/library/MMD batch by crawling each district's own site
+# and checking every latest-year SPDPID last name appears in the text.
+SITE_CHECK = {}
+
+# Post-id suffixes that are an undifferentiated at-large pool; anything else
+# (place-N, position-N, district-N, precinct-*, at-large*) is a structured
+# seat and is only filled when the SPDPID title names that seat.
+POOL_POST_RE = re.compile(r"/(director|trustee|emergency-services-commissioner)-\d+$")
+SEAT_IN_TITLE = [
+    (re.compile(r"\b(?:place|pl\.?)\s*#?\s*(\d+)", re.I), "place-{}"),
+    (re.compile(r"\b(?:position|pos\.?)\s*#?\s*(\d+)", re.I), "position-{}"),
+    (re.compile(r"\b(?:voting\s+)?(?:district|dist\.?|smd)\s*#?\s*(\d+)", re.I), "district-{}"),
+    (re.compile(r"\b(?:precinct|pct\.?)\s*#?\s*(\d+)", re.I), "precinct-{}"),
+]
+
+
+def map_structured(names_titles, posts):
+    """Map each (name, title) to a structured post named in the title, or None."""
+    by_suffix = {p["id"].split("/", 1)[1]: p for p in posts}
+    out, used = [], set()
+    for name, title in names_titles:
+        hit = None
+        for rx, fmt in SEAT_IN_TITLE:
+            m = rx.search(title)
+            if m and fmt.format(m.group(1)) in by_suffix:
+                hit = fmt.format(m.group(1))
+                break
+        if hit is None and re.search(r"at[\s-]*large", title, re.I):
+            free = [k for k in by_suffix if k.startswith("at-large") and k not in used]
+            hit = free[0] if len(free) == 1 or (free and "at-large" in by_suffix) else None
+        if hit is None or hit in used:
+            return None
+        used.add(hit)
+        out.append(((name, title), by_suffix[hit]))
+    return out
 
 # SUD batch (2026-09-30): each district's own current board page was
 # fetched while confirming seat counts, and SPDPID names were checked
@@ -237,7 +284,7 @@ def load_boardmember_rows():
 
 
 def main():
-    global PHASE1_TYPES, FLAGGED_OUT
+    global PHASE1_TYPES, FLAGGED_OUT, SRC_CSV, RETRIEVED
     write = "--write" in sys.argv[1:]
     for arg in sys.argv[1:]:
         # --types=sud restricts a run to later-minted types; --flagged-out=NAME
@@ -246,6 +293,14 @@ def main():
             PHASE1_TYPES = arg.split("=", 1)[1].split(",")
         elif arg.startswith("--flagged-out="):
             FLAGGED_OUT = FLAGGED_OUT.parent / arg.split("=", 1)[1]
+        elif arg.startswith("--src="):
+            SRC_CSV = SRC_CSV.parent / arg.split("=", 1)[1]
+        elif arg.startswith("--retrieved="):
+            RETRIEVED = arg.split("=", 1)[1]
+        elif arg.startswith("--site-check="):
+            with (SRC_CSV.parent / arg.split("=", 1)[1]).open(newline="") as f:
+                for r in csv.DictReader(f):
+                    SITE_CHECK[r["spd_id"]] = r
 
     districts = load_districts()
     rows_by_spd = load_boardmember_rows()
@@ -310,6 +365,8 @@ def main():
             reason = "stale"
         elif spd_id in SITE_ROSTER_MISMATCH:
             reason = "site_roster_mismatch"
+        elif spd_id in SITE_CHECK and SITE_CHECK[spd_id]["status"] != "ok":
+            reason = SITE_CHECK[spd_id]["status"]
         elif dupes:
             reason = "duplicate_name"
         elif reported_count > minted_count:
@@ -324,13 +381,30 @@ def main():
                 "district_name": dist["name"], "minted_seats": minted_count,
                 "reported_count": reported_count, "latest_year": latest_year,
                 "names": "; ".join(f"{n} ({ti})" for n, ti in names_titles)
-                + (f" | SITE: {SITE_ROSTER_MISMATCH[spd_id]}" if reason == "site_roster_mismatch" else ""),
+                + (f" | SITE: {SITE_ROSTER_MISMATCH[spd_id]}" if reason == "site_roster_mismatch" and spd_id in SITE_ROSTER_MISMATCH else "")
+                + (f" | NOT ON SITE ({SITE_CHECK[spd_id]['site_url']}): {SITE_CHECK[spd_id]['spdpid_names_missing_from_site'] or SITE_CHECK[spd_id].get('note', '')}"
+                   if spd_id in SITE_CHECK and SITE_CHECK[spd_id]["status"] != "ok" else ""),
             })
             continue
 
-        # Auto-import: stable order by (last-token, full name), assign
-        # positionally to posts sorted by post id.
-        ordered = sorted(names_titles, key=lambda nt: (nt[0].split()[-1], nt[0]))
+        if all(POOL_POST_RE.search(p["id"]) for p in dist["posts"]):
+            # Auto-import: stable order by (last-token, full name), assign
+            # positionally to posts sorted by post id.
+            ordered = sorted(names_titles, key=lambda nt: (nt[0].split()[-1], nt[0]))
+            assignments = list(zip(ordered, dist["posts"]))
+        else:
+            assignments = map_structured(names_titles, dist["posts"])
+            if assignments is None:
+                stats["flag_structured_seat_unmapped"] += 1
+                flagged.append({
+                    "reason": "structured_seat_unmapped", "type": t, "spd_publ_id": spd_id,
+                    "district_name": dist["name"], "minted_seats": minted_count,
+                    "reported_count": reported_count, "latest_year": latest_year,
+                    "names": "; ".join(f"{n} ({ti})" for n, ti in names_titles)
+                    + " | SEATS: " + ", ".join(p["id"].split("/", 1)[1] for p in dist["posts"]),
+                })
+                continue
+
         filed_spd_id = latest_rows[0]["spd_publ_id"]  # the ID that actually filed latest_year
         source_url = f"https://spdpid.comptroller.texas.gov/view/{latest_year}/{filed_spd_id}"
         source_note = (
@@ -343,7 +417,7 @@ def main():
             f"comment for the accuracy spot-check this import relies on."
         )
 
-        for (name, title), post in zip(ordered, dist["posts"]):
+        for (name, title), post in assignments:
             pid = person_id(spd_id, name)
             if pid not in existing_person_ids[t]:
                 stats["person_new"] += 1

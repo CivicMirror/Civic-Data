@@ -1,0 +1,16 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: jackson-county-hospital-district-tx-hd/precinct-4-seat-1
+organization_id: ocd-organization/4f3fb513-4153-5c78-a056-7c0660cc1977
+title: Director, Precinct 4, Seat 1
+seats: 1
+identifiers: []
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.1046.htm
+  note: 'Jackson County Hospital District (SPD Public ID 103225833) -- Jackson County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 1046, Sec. 1046.051.'
+  retrieved: '2026-09-30'
+- url: https://jchd.org
+  note: Jackson County Hospital District website as listed in SPDPID.
+  retrieved: '2026-09-30'

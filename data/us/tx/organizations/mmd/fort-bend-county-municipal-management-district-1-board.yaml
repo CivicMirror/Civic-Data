@@ -1,0 +1,13 @@
+# Seeded from the TX special-district rolling audit (issue #32) by
+# scripts/seed_tx_special_district_boards.py. Structure only. Elected
+# status and seat structure from the enabling statute or the district's
+# own site -- see the source note and the script docstring.
+id: ocd-organization/6ba85b44-52bd-5b15-9b58-cc16c391de4d
+name: Fort Bend County Municipal Management District No. 1 Board of Directors
+jurisdiction_id: ocd-jurisdiction/country:us/state:tx/municipal_management_district:fort-bend-county-municipal-management-district-1/government
+identifiers: []
+status: active
+sources:
+- url: https://statutes.capitol.texas.gov/Docs/SD/htm/SD.3927.htm
+  note: 'Fort Bend County Municipal Management District No. 1 (SPD Public ID 103227281) -- Fort Bend County. Enumerated via the Texas Comptroller''s Special Purpose District Public Information Database (SPDPID). Elected board and seat structure: Special District Local Laws Code Ch. 3927 (board-composition section).'
+  retrieved: '2026-09-30'
