@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-attorney-general/2022-11-08/general
+name: Attorney General 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-attorney-general/2022-11-08/attorney-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/attorney-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/61a38294-eb3a-5e41-961c-b49876437f78
+  - ocd-person/c40b64e1-22e7-4174-97c2-f74480dbf001
+  result_status: certified
+  winners:
+  - person_id: ocd-person/61a38294-eb3a-5e41-961c-b49876437f78
+    name: Andrea Joy Campbell
+    party: Democratic
+    votes: 1539624
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154333/
+  note: "PD43+ official results, Attorney General, 2022-11-08 -- Andrea Joy Campbell (Democratic) 1,539,624; James R. McMahon, III (Republican) 908,608."
+  retrieved: '2026-10-06'

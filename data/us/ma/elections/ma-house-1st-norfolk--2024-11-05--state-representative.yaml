@@ -1,0 +1,24 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-house-1st-norfolk/2024-11-05/general
+name: State Representative 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-house-1st-norfolk/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/sldl:1st-norfolk/legislature
+  office_id: ma-house-1st-norfolk/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f81b07bd-cc43-47be-95ea-dca26f19a647
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f81b07bd-cc43-47be-95ea-dca26f19a647
+    name: Bruce J. Ayers
+    party: Democratic
+    votes: 15517
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/165537/
+  note: "PD43+ official results, State Representative, 2024-11-05 -- Bruce J. Ayers (Democratic) 15,517. Unopposed."
+  retrieved: '2026-10-06'

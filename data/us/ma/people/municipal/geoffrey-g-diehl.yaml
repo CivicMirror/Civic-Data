@@ -44,6 +44,15 @@ candidacies:
   status: active
   sources:
   - url: https://ocpf.us/filers?q=14907
+- contest_id: ma-governor/2022-11-08/governor
+  election_id: ma-governor/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/governor
+  party: Republican
+  ballot_name: Geoff Diehl
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154338/
 verification:
   status: machine-extracted
   pipeline: ocpf-filer-registry

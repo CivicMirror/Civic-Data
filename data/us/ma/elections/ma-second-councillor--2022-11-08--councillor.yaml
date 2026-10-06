@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-second-councillor/2022-11-08/general
+name: Governor's Council Second District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-second-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:second/executive
+  office_id: second-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5fa6dd8b-45be-4ed5-b453-02b1349dce03
+  - ocd-person/2c117122-b7f8-4279-8459-f542c9d7937a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5fa6dd8b-45be-4ed5-b453-02b1349dce03
+    name: Robert L. Jubinville
+    party: Democratic
+    votes: 194480
+  seat: Second
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154406/
+  note: "PD43+ official results, Governor's Council Second District, 2022-11-08 -- Robert L. Jubinville (Democratic) 194,480; Dashe M. Videira (Republican) 112,941."
+  retrieved: '2026-10-06'

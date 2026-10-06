@@ -1,0 +1,24 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-first-councillor/2022-11-08/general
+name: Governor's Council First District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-first-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:first/executive
+  office_id: first-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/88b6416d-eec4-4c94-b354-491fce307ffb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/88b6416d-eec4-4c94-b354-491fce307ffb
+    name: Joseph C. Ferreira
+    party: Democratic
+    votes: 232118
+  seat: First
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154352/
+  note: "PD43+ official results, Governor's Council First District, 2022-11-08 -- Joseph C. Ferreira (Democratic) 232,118. Unopposed."
+  retrieved: '2026-10-06'

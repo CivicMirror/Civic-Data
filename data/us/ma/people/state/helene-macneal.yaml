@@ -1,0 +1,20 @@
+id: ocd-person/e58cd557-6e16-476a-b577-d33107965f90
+name: Helene MacNeal
+identifiers: []
+candidacies:
+- contest_id: ma-fourth-councillor/2022-11-08/councillor
+  election_id: ma-fourth-councillor/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:fourth/executive
+  office_id: fourth-councillor/councillor
+  party: Republican
+  ballot_name: Helene MacNeal
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154335/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Republican candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

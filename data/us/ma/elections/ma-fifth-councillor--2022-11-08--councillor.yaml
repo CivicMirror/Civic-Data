@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-fifth-councillor/2022-11-08/general
+name: Governor's Council Fifth District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-fifth-councillor/2022-11-08/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:fifth/executive
+  office_id: fifth-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5d98b7f8-0ed4-4444-9a72-d53dd9599f4b
+  - ocd-person/62d22492-0b62-487c-95bc-339580ef2523
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5d98b7f8-0ed4-4444-9a72-d53dd9599f4b
+    name: Eileen R. Duff
+    party: Democratic
+    votes: 175894
+  seat: Fifth
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154373/
+  note: "PD43+ official results, Governor's Council Fifth District, 2022-11-08 -- Eileen R. Duff (Democratic) 175,894; Michael C. Walsh (Republican) 119,175."
+  retrieved: '2026-10-06'

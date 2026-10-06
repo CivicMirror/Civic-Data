@@ -1,0 +1,20 @@
+id: ocd-person/6cdf331a-af32-47dc-af42-4539a40e5c91
+name: Rayla Campbell
+identifiers: []
+candidacies:
+- contest_id: ma-secretary-of-the-commonwealth/2022-11-08/secretary-of-the-commonwealth
+  election_id: ma-secretary-of-the-commonwealth/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/secretary-of-the-commonwealth
+  party: Republican
+  ballot_name: Rayla Campbell
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154341/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Republican candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

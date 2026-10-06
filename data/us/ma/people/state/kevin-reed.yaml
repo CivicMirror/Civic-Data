@@ -1,0 +1,20 @@
+id: ocd-person/b5023da6-1a4d-4734-a471-7ad93758cfb3
+name: Kevin Reed
+identifiers: []
+candidacies:
+- contest_id: ma-governor/2022-11-08/governor
+  election_id: ma-governor/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/governor
+  party: Libertarian
+  ballot_name: Kevin Reed
+  status: active
+  sources:
+  - url: https://electionstats.state.ma.us/elections/view/154338/
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Libertarian candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

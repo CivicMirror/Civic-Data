@@ -1,19 +1,20 @@
-id: ocd-person/fe049844-d540-4cb3-817e-996f85357160
-name: Deborah B. Goldberg
+id: ocd-person/69a1fd70-3521-4688-a22c-2054c4ad1cc2
+name: Cristina Crawford
 identifiers: []
 candidacies:
 - contest_id: ma-treasurer-and-receiver-general/2022-11-08/treasurer-and-receiver-general
   election_id: ma-treasurer-and-receiver-general/2022-11-08/general
   jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
   office_id: ma/treasurer-and-receiver-general
-  party: Democratic
-  ballot_name: Deborah B. Goldberg
+  party: Libertarian
+  ballot_name: Cristina Crawford
   status: active
   sources:
   - url: https://electionstats.state.ma.us/elections/view/154344/
 verification:
   status: unverified
-  pipeline: manual
+  pipeline: hand-built-from-official-results
 sources:
-- url: https://www.mass.gov/orgs/office-of-the-treasurer-and-receiver-general
-  retrieved: '2026-09-29'
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Libertarian candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

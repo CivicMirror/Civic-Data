@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-treasurer-and-receiver-general/2022-11-08/general
+name: Treasurer and Receiver-General 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: ma-treasurer-and-receiver-general/2022-11-08/treasurer-and-receiver-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/executive
+  office_id: ma/treasurer-and-receiver-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fe049844-d540-4cb3-817e-996f85357160
+  - ocd-person/69a1fd70-3521-4688-a22c-2054c4ad1cc2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fe049844-d540-4cb3-817e-996f85357160
+    name: Deborah B. Goldberg
+    party: Democratic
+    votes: 1709555
+  seat: At-Large
+sources:
+- url: https://electionstats.state.ma.us/elections/view/154344/
+  note: "PD43+ official results, Treasurer and Receiver-General, 2022-11-08 -- Deborah B. Goldberg (Democratic) 1,709,555; Cristina Crawford (Libertarian) 516,019."
+  retrieved: '2026-10-06'

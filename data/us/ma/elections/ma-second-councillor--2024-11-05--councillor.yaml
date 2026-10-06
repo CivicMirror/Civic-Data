@@ -1,0 +1,25 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-second-councillor/2024-11-05/general
+name: Governor's Council Second District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-second-councillor/2024-11-05/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:second/executive
+  office_id: second-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9bcd3246-9c87-423b-b4bb-2bbc6dd2b156
+  - ocd-person/168697e8-9a34-4887-91da-cc8a2242b4ae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9bcd3246-9c87-423b-b4bb-2bbc6dd2b156
+    name: Tamisha L. Civil
+    party: Democratic
+    votes: 236666
+  seat: Second
+sources:
+- url: https://electionstats.state.ma.us/elections/view/165367/
+  note: "PD43+ official results, Governor's Council Second District, 2024-11-05 -- Tamisha L. Civil (Democratic) 236,666; Francis T. Crimmins, Jr (Republican) 176,430."
+  retrieved: '2026-10-06'

@@ -1,21 +1,20 @@
-id: ocd-person/d6e80fb8-6f76-4f6e-8ca9-3dfd0bc457c5
-name: Paul M. Depalo
+id: ocd-person/87bdd18b-873d-42a7-a167-a6122d92b5cf
+name: Gary Galonek
 identifiers: []
 candidacies:
 - contest_id: ma-seventh-councillor/2022-11-08/councillor
   election_id: ma-seventh-councillor/2022-11-08/general
   jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:seventh/executive
   office_id: seventh-councillor/councillor
-  party: Democratic
-  ballot_name: Paul M. Depalo
+  party: Republican
+  ballot_name: Gary Galonek
   status: active
   sources:
   - url: https://electionstats.state.ma.us/elections/view/154400/
 verification:
   status: unverified
-  pipeline: manual
+  pipeline: hand-built-from-official-results
 sources:
-- url: https://electionstats.state.ma.us/elections
-  retrieved: '2026-09-29'
-- url: https://www.mass.gov/orgs/governors-council
-  retrieved: '2026-09-29'
+- url: https://electionstats.state.ma.us/elections/
+  note: "PD43+ (Secretary of the Commonwealth official elections database) -- Republican candidate in a 2022/2024 general election; no repo person record previously existed."
+  retrieved: '2026-10-06'

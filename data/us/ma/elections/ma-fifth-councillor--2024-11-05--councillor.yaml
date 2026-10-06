@@ -1,0 +1,26 @@
+# Hand-built from the Secretary of the Commonwealth's official PD43+ results.
+id: ma-fifth-councillor/2024-11-05/general
+name: Governor's Council Fifth District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ma-fifth-councillor/2024-11-05/councillor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ma/councillor_district:fifth/executive
+  office_id: fifth-councillor/councillor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/28563614-80d9-4a86-a297-1344dad9d8ea
+  - ocd-person/5cb38fbd-c452-5207-a237-fde746e26ae8
+  - ocd-person/a11bab42-b59e-41a8-91b9-1b3c9a6422cb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/28563614-80d9-4a86-a297-1344dad9d8ea
+    name: Eunice Delice Zeigler
+    party: Democratic
+    votes: 184275
+  seat: Fifth
+sources:
+- url: https://electionstats.state.ma.us/elections/view/165334/
+  note: "PD43+ official results, Governor's Council Fifth District, 2024-11-05 -- Eunice Delice Zeigler (Democratic) 184,275; Anne M. Manning-Martin (Republican) 158,961; Jody A. Elliott (Unenrolled) 46,634."
+  retrieved: '2026-10-06'
