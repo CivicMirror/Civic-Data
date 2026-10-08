@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-52-us-representative/2024-11-05/general
+name: California U.S. Representative District 52 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-52-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:52/legislature
+  office_id: ca-52/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f2db9477-0ef1-533e-9b38-3f8d82d27ded
+  - ocd-person/4cccab60-f5f3-4c06-b240-ef2567a34502
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f2db9477-0ef1-533e-9b38-3f8d82d27ded
+    name: Juan Vargas
+    party: Democratic
+    votes: 172217
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 52 -- Juan Vargas (DEM) 172,217; Justin Lee (REP) 87,501.'
+  retrieved: '2026-10-08'

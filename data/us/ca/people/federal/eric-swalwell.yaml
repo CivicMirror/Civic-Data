@@ -1,0 +1,20 @@
+id: ocd-person/fdafb7e9-9767-47db-b2bd-2d31f7b43545
+name: Eric Swalwell
+identifiers: []
+candidacies:
+- contest_id: ca-14-us-representative/2024-11-05/us-representative
+  election_id: ca-14-us-representative/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:14/legislature
+  office_id: ca-14/us-representative
+  party: Democratic
+  ballot_name: 'Eric Swalwell'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/25-us-rep-congress.xlsx
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13) -- Eric Swalwell: 187,263 votes for United States Representative District 14.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-35-us-representative/2024-11-05/general
+name: California U.S. Representative District 35 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-35-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:35/legislature
+  office_id: ca-35/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7116c1af-030c-52de-a35f-da87cac2ccbd
+  - ocd-person/077439cc-c7e9-4a3b-9a4e-4051f72b1fcd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7116c1af-030c-52de-a35f-da87cac2ccbd
+    name: Norma J. Torres
+    party: Democratic
+    votes: 136413
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 35 -- Norma J. Torres (DEM) 136,413; Mike Cargile (REP) 97,142.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,20 @@
+id: ocd-person/ef0b7e42-3746-4781-a4a0-fb9bec3aac1c
+name: Peter J. Bono
+identifiers: []
+candidacies:
+- contest_id: ca-50-us-representative/2024-11-05/us-representative
+  election_id: ca-50-us-representative/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:50/legislature
+  office_id: ca-50/us-representative
+  party: Republican
+  ballot_name: 'Peter J. Bono'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/25-us-rep-congress.xlsx
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13) -- Peter J. Bono: 128,859 votes for United States Representative District 50.'
+  retrieved: '2026-10-08'

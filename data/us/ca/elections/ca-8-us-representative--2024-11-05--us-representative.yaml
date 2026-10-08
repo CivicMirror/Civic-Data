@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-8-us-representative/2024-11-05/general
+name: California U.S. Representative District 8 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-8-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:8/legislature
+  office_id: ca-8/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/244ddc26-a77e-5721-b2d8-8b95da7b65d4
+  - ocd-person/a7160727-238d-4976-9d23-38b9a6ff808b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/244ddc26-a77e-5721-b2d8-8b95da7b65d4
+    name: John Garamendi
+    party: Democratic
+    votes: 201962
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 8 -- John Garamendi (DEM) 201,962; Rudy Recile (REP) 71,068.'
+  retrieved: '2026-10-08'

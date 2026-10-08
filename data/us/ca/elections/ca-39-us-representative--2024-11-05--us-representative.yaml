@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-39-us-representative/2024-11-05/general
+name: California U.S. Representative District 39 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-39-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:39/legislature
+  office_id: ca-39/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6ac147f7-1b84-5af2-bd26-8258e302b64c
+  - ocd-person/6fbf39f8-3646-4f1e-a251-e762f657eda3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6ac147f7-1b84-5af2-bd26-8258e302b64c
+    name: Mark Takano
+    party: Democratic
+    votes: 130191
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 39 -- Mark Takano (DEM) 130,191; David Serpa (REP) 99,469.'
+  retrieved: '2026-10-08'

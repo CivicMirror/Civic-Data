@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-36-us-representative/2024-11-05/general
+name: California U.S. Representative District 36 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-36-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:36/legislature
+  office_id: ca-36/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6035b5ec-5170-57cb-81de-54e6e3d3efb7
+  - ocd-person/a6d50100-bb8b-4d8e-b4f1-da62fb3c9ebe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6035b5ec-5170-57cb-81de-54e6e3d3efb7
+    name: Ted Lieu
+    party: Democratic
+    votes: 246002
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 36 -- Ted W. Lieu (DEM) 246,002; Melissa Toomim (REP) 111,985.'
+  retrieved: '2026-10-08'

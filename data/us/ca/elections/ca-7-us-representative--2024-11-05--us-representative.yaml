@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-7-us-representative/2024-11-05/general
+name: California U.S. Representative District 7 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-7-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:7/legislature
+  office_id: ca-7/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b34d57d1-f029-5919-a1fc-3ed00417c7c6
+  - ocd-person/a2a1e2da-40c7-491e-9bcc-c63242c6bb07
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b34d57d1-f029-5919-a1fc-3ed00417c7c6
+    name: Doris O. Matsui
+    party: Democratic
+    votes: 197429
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 7 -- Doris Matsui (DEM) 197,429; Tom Silva (REP) 98,341.'
+  retrieved: '2026-10-08'

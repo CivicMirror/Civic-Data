@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-51-us-representative/2024-11-05/general
+name: California U.S. Representative District 51 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-51-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:51/legislature
+  office_id: ca-51/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dc765aed-78b0-5363-9927-b365ba91f363
+  - ocd-person/f2686390-1bd2-4cff-ae61-b03741fb1baf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dc765aed-78b0-5363-9927-b365ba91f363
+    name: Sara Jacobs
+    party: Democratic
+    votes: 198835
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 51 -- Sara Jacobs (DEM) 198,835; Bill Wells (REP) 128,749.'
+  retrieved: '2026-10-08'

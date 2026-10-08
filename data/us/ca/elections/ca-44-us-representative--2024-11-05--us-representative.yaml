@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-44-us-representative/2024-11-05/general
+name: California U.S. Representative District 44 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-44-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:44/legislature
+  office_id: ca-44/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/81327102-fa80-5c45-bda9-574a8aa48cf8
+  - ocd-person/4ac7a04b-3cba-4499-9008-4b923dcfcc1a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/81327102-fa80-5c45-bda9-574a8aa48cf8
+    name: Nanette Diaz Barragán
+    party: Democratic
+    votes: 164765
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 44 -- Nanette Diaz Barragán (DEM) 164,765; Roger Groh (REP) 66,087.'
+  retrieved: '2026-10-08'

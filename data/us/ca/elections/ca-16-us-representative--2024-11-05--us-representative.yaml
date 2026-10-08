@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-16-us-representative/2024-11-05/general
+name: California U.S. Representative District 16 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-16-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:16/legislature
+  office_id: ca-16/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/84774b73-35c7-5cbd-a1cb-c0278a33f35f
+  - ocd-person/1fc261d5-ea05-4a5b-8e8d-7d6ac1c32e4e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/84774b73-35c7-5cbd-a1cb-c0278a33f35f
+    name: Sam T. Liccardo
+    party: Democratic
+    votes: 179583
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 16 -- Sam Liccardo (DEM) 179,583; Evan Low (DEM) 128,893.'
+  retrieved: '2026-10-08'

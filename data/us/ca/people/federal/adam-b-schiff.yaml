@@ -27,7 +27,25 @@ identifiers:
   identifier: '453'
 - scheme: fec-candidate-id
   identifier: S4CA00555
-candidacies: []
+candidacies:
+- contest_id: ca-us-senator-class-1/2024-11-05/us-senator
+  election_id: ca-us-senator-class-1/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/legislature
+  office_id: ca/us-senator-class-1
+  party: Democratic
+  ballot_name: 'Adam B. Schiff'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+- contest_id: ca-us-senator-class-1-partial/2024-11-05/us-senator
+  election_id: ca-us-senator-class-1-partial/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/legislature
+  office_id: ca/us-senator-class-1
+  party: Democratic
+  ballot_name: 'Adam B. Schiff'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
 contact:
   phone: 202-224-3841
   profile_url: https://www.schiff.senate.gov

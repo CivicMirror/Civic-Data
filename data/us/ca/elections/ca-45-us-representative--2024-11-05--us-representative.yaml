@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-45-us-representative/2024-11-05/general
+name: California U.S. Representative District 45 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-45-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:45/legislature
+  office_id: ca-45/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4e48af61-c41b-5ffa-b59a-65c42d5a5848
+  - ocd-person/1d86e4d9-886e-48d0-9318-aa9bc9423743
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4e48af61-c41b-5ffa-b59a-65c42d5a5848
+    name: Derek Tran
+    party: Democratic
+    votes: 158264
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 45 -- Derek Tran (DEM) 158,264; Michelle Steel (REP) 157,611.'
+  retrieved: '2026-10-08'

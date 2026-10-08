@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-32-us-representative/2024-11-05/general
+name: California U.S. Representative District 32 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-32-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:32/legislature
+  office_id: ca-32/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d381f108-fb1f-5e1f-9f45-78ddd54c776b
+  - ocd-person/fac25181-d6ad-4930-92bc-ed2d552b3487
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d381f108-fb1f-5e1f-9f45-78ddd54c776b
+    name: Brad Sherman
+    party: Democratic
+    votes: 212934
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 32 -- Brad Sherman (DEM) 212,934; Larry Thompson (REP) 108,711.'
+  retrieved: '2026-10-08'

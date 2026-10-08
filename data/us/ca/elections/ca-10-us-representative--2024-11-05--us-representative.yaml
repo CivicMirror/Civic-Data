@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-10-us-representative/2024-11-05/general
+name: California U.S. Representative District 10 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-10-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:10/legislature
+  office_id: ca-10/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/df605b86-985f-57c9-8bbc-5e6b89b6a245
+  - ocd-person/7fadcd68-9833-4b3f-9fe4-b42d360f2939
+  result_status: certified
+  winners:
+  - person_id: ocd-person/df605b86-985f-57c9-8bbc-5e6b89b6a245
+    name: Mark DeSaulnier
+    party: Democratic
+    votes: 242325
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 10 -- Mark DeSaulnier (DEM) 242,325; Katherine Piccinini (REP) 122,219.'
+  retrieved: '2026-10-08'

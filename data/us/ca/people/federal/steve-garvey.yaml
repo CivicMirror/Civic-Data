@@ -1,0 +1,29 @@
+id: ocd-person/8fb8cd27-169f-407b-8ca6-329a97ec71f7
+name: Steve Garvey
+identifiers: []
+candidacies:
+- contest_id: ca-us-senator-class-1/2024-11-05/us-senator
+  election_id: ca-us-senator-class-1/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/legislature
+  office_id: ca/us-senator-class-1
+  party: Republican
+  ballot_name: 'Steve Garvey'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+- contest_id: ca-us-senator-class-1-partial/2024-11-05/us-senator
+  election_id: ca-us-senator-class-1-partial/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/legislature
+  office_id: ca/us-senator-class-1
+  party: Republican
+  ballot_name: 'Steve Garvey'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/19-uss-ft.xlsx
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13) -- Steve Garvey: 6,312,594 votes for United States Senator (full term); 6,204,637 votes for United States Senator (partial/unexpired term).'
+  retrieved: '2026-10-08'

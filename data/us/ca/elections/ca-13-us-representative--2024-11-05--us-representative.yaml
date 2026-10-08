@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-13-us-representative/2024-11-05/general
+name: California U.S. Representative District 13 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-13-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:13/legislature
+  office_id: ca-13/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/13cda517-c93e-5caa-82cb-9f3c910f2321
+  - ocd-person/1d1b51d4-07da-4bfb-a59d-63a5a0847bcb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/13cda517-c93e-5caa-82cb-9f3c910f2321
+    name: Adam Gray
+    party: Democratic
+    votes: 105554
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 13 -- Adam Gray (DEM) 105,554; John Duarte (REP) 105,367.'
+  retrieved: '2026-10-08'

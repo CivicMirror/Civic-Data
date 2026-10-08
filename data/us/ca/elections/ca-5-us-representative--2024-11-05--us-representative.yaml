@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-5-us-representative/2024-11-05/general
+name: California U.S. Representative District 5 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-5-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:5/legislature
+  office_id: ca-5/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6c4fba6d-f4df-55dc-92a2-cae6f9f4d63e
+  - ocd-person/6aee2d02-1a0b-4315-89b5-691d9e81123e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6c4fba6d-f4df-55dc-92a2-cae6f9f4d63e
+    name: Tom McClintock
+    party: Republican
+    votes: 227643
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 5 -- Tom McClintock (REP) 227,643; Michael J. "Mike" Barkley (DEM) 140,919.'
+  retrieved: '2026-10-08'

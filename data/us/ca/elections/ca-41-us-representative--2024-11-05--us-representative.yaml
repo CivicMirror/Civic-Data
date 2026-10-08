@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-41-us-representative/2024-11-05/general
+name: California U.S. Representative District 41 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-41-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:41/legislature
+  office_id: ca-41/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/cd4e063c-d4d8-5bca-b37e-cedd3f132d7a
+  - ocd-person/81844e19-cc93-4b43-a41f-9eca411e8f35
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cd4e063c-d4d8-5bca-b37e-cedd3f132d7a
+    name: Ken Calvert
+    party: Republican
+    votes: 183216
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 41 -- Ken Calvert (REP) 183,216; Will Rollins (DEM) 171,229.'
+  retrieved: '2026-10-08'

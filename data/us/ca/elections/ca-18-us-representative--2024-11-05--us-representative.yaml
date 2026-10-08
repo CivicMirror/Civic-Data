@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-18-us-representative/2024-11-05/general
+name: California U.S. Representative District 18 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-18-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:18/legislature
+  office_id: ca-18/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5e093cca-b23b-52ec-b788-c7805b4aec9d
+  - ocd-person/ff3ad835-ea89-45f3-b9fa-4fb243ed014a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5e093cca-b23b-52ec-b788-c7805b4aec9d
+    name: Zoe Lofgren
+    party: Democratic
+    votes: 147674
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 18 -- Zoe Lofgren (DEM) 147,674; Peter D. Hernandez (REP) 80,832.'
+  retrieved: '2026-10-08'
