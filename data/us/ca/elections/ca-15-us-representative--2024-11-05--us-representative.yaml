@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-15-us-representative/2024-11-05/general
+name: California U.S. Representative District 15 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-15-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:15/legislature
+  office_id: ca-15/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/82912d95-e896-550e-85c3-46d92ae89046
+  - ocd-person/528628b8-7204-4fff-9ac5-8cf2e1d97eda
+  result_status: certified
+  winners:
+  - person_id: ocd-person/82912d95-e896-550e-85c3-46d92ae89046
+    name: Kevin Mullin
+    party: Democratic
+    votes: 211648
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 15 -- Kevin Mullin (DEM) 211,648; Anna Cheng Kramer (REP) 77,896.'
+  retrieved: '2026-10-08'

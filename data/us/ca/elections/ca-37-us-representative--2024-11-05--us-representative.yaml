@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-37-us-representative/2024-11-05/general
+name: California U.S. Representative District 37 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-37-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:37/legislature
+  office_id: ca-37/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e342ef99-4c79-58d2-89cf-0a25fb786544
+  - ocd-person/0c81fcd0-8115-4034-afaf-460f80f2c2d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e342ef99-4c79-58d2-89cf-0a25fb786544
+    name: Sydney Kamlager-Dove
+    party: Democratic
+    votes: 160364
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 37 -- Sydney Kamlager-Dove (DEM) 160,364; Juan Rey (NPP) 44,450.'
+  retrieved: '2026-10-08'

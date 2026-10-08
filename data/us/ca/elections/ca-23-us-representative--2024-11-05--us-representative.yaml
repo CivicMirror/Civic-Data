@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-23-us-representative/2024-11-05/general
+name: California U.S. Representative District 23 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-23-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:23/legislature
+  office_id: ca-23/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/514b818f-c14a-58fe-bc37-27c50680e848
+  - ocd-person/78a61ef9-d85b-48c1-ab57-3d3286a325c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/514b818f-c14a-58fe-bc37-27c50680e848
+    name: Jay Obernolte
+    party: Republican
+    votes: 159286
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 23 -- Jay Obernolte (REP) 159,286; Derek Marshall (DEM) 105,563.'
+  retrieved: '2026-10-08'

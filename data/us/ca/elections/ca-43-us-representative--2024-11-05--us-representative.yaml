@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-43-us-representative/2024-11-05/general
+name: California U.S. Representative District 43 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-43-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:43/legislature
+  office_id: ca-43/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/02e854fd-c9da-5b30-a8c6-86452317e61c
+  - ocd-person/3e74d9c8-9b0a-4bd9-83a3-d6e240ec8222
+  result_status: certified
+  winners:
+  - person_id: ocd-person/02e854fd-c9da-5b30-a8c6-86452317e61c
+    name: Maxine Waters
+    party: Democratic
+    votes: 160080
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 43 -- Maxine Waters (DEM) 160,080; Steve Williams (REP) 53,152.'
+  retrieved: '2026-10-08'

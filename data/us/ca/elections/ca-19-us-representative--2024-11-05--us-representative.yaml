@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-19-us-representative/2024-11-05/general
+name: California U.S. Representative District 19 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-19-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:19/legislature
+  office_id: ca-19/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7a1cf022-dc09-57b1-a539-e6f94c7d7119
+  - ocd-person/79d9d953-0198-421a-a6ac-04001b4895d5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7a1cf022-dc09-57b1-a539-e6f94c7d7119
+    name: Jimmy Panetta
+    party: Democratic
+    votes: 252458
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 19 -- Jimmy Panetta (DEM) 252,458; Jason Michael Anderson (REP) 111,862.'
+  retrieved: '2026-10-08'

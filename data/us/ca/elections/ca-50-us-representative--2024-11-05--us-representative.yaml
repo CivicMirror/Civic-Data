@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-50-us-representative/2024-11-05/general
+name: California U.S. Representative District 50 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-50-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:50/legislature
+  office_id: ca-50/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0b91e5df-d5c9-55d9-a4e7-487d4fa122bb
+  - ocd-person/ef0b7e42-3746-4781-a4a0-fb9bec3aac1c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0b91e5df-d5c9-55d9-a4e7-487d4fa122bb
+    name: Scott H. Peters
+    party: Democratic
+    votes: 231836
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 50 -- Scott Peters (DEM) 231,836; Peter J. Bono (REP) 128,859.'
+  retrieved: '2026-10-08'

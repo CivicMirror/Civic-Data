@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-26-us-representative/2024-11-05/general
+name: California U.S. Representative District 26 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-26-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:26/legislature
+  office_id: ca-26/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a45ca5d9-0260-52e5-8966-ae1e57899ce8
+  - ocd-person/e6325f3f-0394-44dc-897e-f07a6668fd04
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a45ca5d9-0260-52e5-8966-ae1e57899ce8
+    name: Julia Brownley
+    party: Democratic
+    votes: 187393
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 26 -- Julia Brownley (DEM) 187,393; Michael Koslow (REP) 146,913.'
+  retrieved: '2026-10-08'

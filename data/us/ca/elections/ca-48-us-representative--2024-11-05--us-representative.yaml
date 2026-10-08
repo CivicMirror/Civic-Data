@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-48-us-representative/2024-11-05/general
+name: California U.S. Representative District 48 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-48-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:48/legislature
+  office_id: ca-48/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/620d0942-ed35-5fc3-98d0-65d6330adbbb
+  - ocd-person/ff7daf46-bad5-4aa7-8c60-22345f017f8d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/620d0942-ed35-5fc3-98d0-65d6330adbbb
+    name: Darrell Issa
+    party: Republican
+    votes: 213625
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 48 -- Darrell E. Issa (REP) 213,625; Stephen Houlahan (DEM) 146,665.'
+  retrieved: '2026-10-08'

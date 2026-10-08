@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-25-us-representative/2024-11-05/general
+name: California U.S. Representative District 25 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-25-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:25/legislature
+  office_id: ca-25/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0c2f4fa0-86b1-5884-b181-588e2c6d9098
+  - ocd-person/19df59cf-114a-4987-b5a3-e49443d61995
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0c2f4fa0-86b1-5884-b181-588e2c6d9098
+    name: Raul Ruiz
+    party: Democratic
+    votes: 137837
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 25 -- Raul Ruiz (DEM) 137,837; Ian M. Weeks (REP) 107,194.'
+  retrieved: '2026-10-08'

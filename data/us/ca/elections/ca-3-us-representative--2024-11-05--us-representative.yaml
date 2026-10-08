@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-3-us-representative/2024-11-05/general
+name: California U.S. Representative District 3 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-3-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:3/legislature
+  office_id: ca-3/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/feed725b-2db9-5dc3-ad41-4539d19e9ba4
+  - ocd-person/e74a97e3-81f2-49e3-8af9-66401e2a9a57
+  result_status: certified
+  winners:
+  - person_id: ocd-person/feed725b-2db9-5dc3-ad41-4539d19e9ba4
+    name: Kevin Kiley
+    party: Republican
+    votes: 234246
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 3 -- Kevin Kiley (REP) 234,246; Jessica Morse (DEM) 188,067.'
+  retrieved: '2026-10-08'

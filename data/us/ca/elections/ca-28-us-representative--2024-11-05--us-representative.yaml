@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-28-us-representative/2024-11-05/general
+name: California U.S. Representative District 28 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-28-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:28/legislature
+  office_id: ca-28/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3927c155-cee9-5533-b3bc-3d82c62b621b
+  - ocd-person/2a2e31ba-34a7-4e64-b077-dd4c9704312b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3927c155-cee9-5533-b3bc-3d82c62b621b
+    name: Judy Chu
+    party: Democratic
+    votes: 204489
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 28 -- Judy Chu (DEM) 204,489; April A. Verlato (REP) 110,455.'
+  retrieved: '2026-10-08'

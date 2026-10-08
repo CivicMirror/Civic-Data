@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-40-us-representative/2024-11-05/general
+name: California U.S. Representative District 40 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-40-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:40/legislature
+  office_id: ca-40/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d2c04392-22dc-59ba-9fdd-e5b2fa1e9c9f
+  - ocd-person/a1e966e2-cb4b-4432-8949-1436ac31a2bd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d2c04392-22dc-59ba-9fdd-e5b2fa1e9c9f
+    name: Young Kim
+    party: Republican
+    votes: 211998
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 40 -- Young Kim (REP) 211,998; Joe Kerr (DEM) 171,637.'
+  retrieved: '2026-10-08'

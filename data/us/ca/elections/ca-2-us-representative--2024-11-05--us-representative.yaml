@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-2-us-representative/2024-11-05/general
+name: California U.S. Representative District 2 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-2-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:2/legislature
+  office_id: ca-2/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/16b6b512-cef6-5905-be07-a2e8798681ca
+  - ocd-person/c345febf-ca0e-4703-87cb-4ef9ebfd7b6a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/16b6b512-cef6-5905-be07-a2e8798681ca
+    name: Jared Huffman
+    party: Democratic
+    votes: 272883
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 2 -- Jared Huffman (DEM) 272,883; Chris Coulombe (REP) 106,734.'
+  retrieved: '2026-10-08'

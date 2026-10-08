@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-20-us-representative/2024-11-05/general
+name: California U.S. Representative District 20 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-20-us-representative/2024-11-05/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:20/legislature
+  office_id: ca-20/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1650395f-8390-5247-8bfa-c6f1a493dafb
+  - ocd-person/48d3cb7d-7705-4324-9779-c83cbcd517f9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1650395f-8390-5247-8bfa-c6f1a493dafb
+    name: Vince Fong
+    party: Republican
+    votes: 187862
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), United States Representative District 20 -- Vince Fong (REP) 187,862; Mike Boudreaux (REP) 100,926.'
+  retrieved: '2026-10-08'
