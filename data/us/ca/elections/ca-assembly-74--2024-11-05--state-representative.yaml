@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-74/2024-11-05/general
+name: California State Assembly District 74 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-74/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:74/legislature
+  office_id: ca-assembly-74/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/152101bd-751b-4a4f-8d9e-3be2e72a2703
+  - ocd-person/804172e0-98e2-4b43-a9e7-8c588eea69d5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/152101bd-751b-4a4f-8d9e-3be2e72a2703
+    name: Laurie Davies
+    party: Republican
+    votes: 117208
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 74 -- Laurie Davies (REP) 117,208; Chris Duncan (DEM) 113,338.'
+  retrieved: '2026-10-08'

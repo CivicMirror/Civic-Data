@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-7/2024-11-05/general
+name: California State Senator District 7 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-7/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:7/legislature
+  office_id: ca-senate-7/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c28db2ad-2819-4a8b-8747-4b218a425aa5
+  - ocd-person/3d54d204-3250-4c7d-a112-dad0e846f625
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c28db2ad-2819-4a8b-8747-4b218a425aa5
+    name: Jesse Arreguín
+    party: Democratic
+    votes: 199423
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 7 -- Jesse Arreguín (DEM) 199,423; Jovanka Beckles (DEM) 149,415.'
+  retrieved: '2026-10-08'

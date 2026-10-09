@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-71/2024-11-05/general
+name: California State Assembly District 71 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-71/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:71/legislature
+  office_id: ca-assembly-71/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/16f58837-fe18-4871-8be8-79b2773a655a
+  - ocd-person/38ec97ec-0bfe-4f22-a268-a5d1fe914100
+  result_status: certified
+  winners:
+  - person_id: ocd-person/16f58837-fe18-4871-8be8-79b2773a655a
+    name: Kate Sanchez
+    party: Republican
+    votes: 147932
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 71 -- Kate Sanchez (REP) 147,932; Gary Kephart (DEM) 92,424.'
+  retrieved: '2026-10-08'

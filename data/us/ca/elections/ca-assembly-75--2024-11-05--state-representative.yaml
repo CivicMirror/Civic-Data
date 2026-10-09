@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-75/2024-11-05/general
+name: California State Assembly District 75 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-75/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:75/legislature
+  office_id: ca-assembly-75/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c7dfc870-f78c-4ca0-9361-555988b8eede
+  - ocd-person/fe6dca59-da71-4514-a4b6-c8eea183af0b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c7dfc870-f78c-4ca0-9361-555988b8eede
+    name: Carl DeMaio
+    party: Republican
+    votes: 121167
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 75 -- Carl DeMaio (REP) 121,167; Andrew Hayes (REP) 91,337.'
+  retrieved: '2026-10-08'

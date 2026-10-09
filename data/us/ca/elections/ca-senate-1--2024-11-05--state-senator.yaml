@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-1/2024-11-05/general
+name: California State Senator District 1 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-1/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:1/legislature
+  office_id: ca-senate-1/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/22e62af9-ca00-4176-8451-1c035eb5ae80
+  - ocd-person/f9a03b1b-196f-4231-990d-76f11c935cee
+  result_status: certified
+  winners:
+  - person_id: ocd-person/22e62af9-ca00-4176-8451-1c035eb5ae80
+    name: Megan Dahle
+    party: Republican
+    votes: 274894
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 1 -- Megan Dahle (REP) 274,894; David Fennell (REP) 88,317.'
+  retrieved: '2026-10-08'

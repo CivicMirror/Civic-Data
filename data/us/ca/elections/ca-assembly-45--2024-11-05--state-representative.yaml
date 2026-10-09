@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-45/2024-11-05/general
+name: California State Assembly District 45 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-45/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:45/legislature
+  office_id: ca-assembly-45/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7dff8714-5284-404d-9e7d-f06937a9512a
+  - ocd-person/c0588c70-d59e-4ffa-b41a-a2f1970406b6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7dff8714-5284-404d-9e7d-f06937a9512a
+    name: James C. Ramos
+    party: Democratic
+    votes: 87062
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 45 -- James C. Ramos (DEM) 87,062; Scott P. Olson (REP) 49,304.'
+  retrieved: '2026-10-08'

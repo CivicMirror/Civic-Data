@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-29/2024-11-05/general
+name: California State Senator District 29 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-29/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:29/legislature
+  office_id: ca-senate-29/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a63fd81d-60cd-4a63-b273-0a3bc60bca7a
+  - ocd-person/6826ccd5-c07d-4b6d-9bf0-a56ff60b79f3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a63fd81d-60cd-4a63-b273-0a3bc60bca7a
+    name: Eloise Gomez Reyes
+    party: Democratic
+    votes: 160820
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 29 -- Eloise Gomez Reyes (DEM) 160,820; Carlos A. Garcia (REP) 121,085.'
+  retrieved: '2026-10-08'
