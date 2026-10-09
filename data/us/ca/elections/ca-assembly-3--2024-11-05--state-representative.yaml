@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-3/2024-11-05/general
+name: California State Assembly District 3 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-3/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:3/legislature
+  office_id: ca-assembly-3/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/345e4061-7e6f-4f67-af34-19d98c8952b2
+  - ocd-person/b47da7e2-3115-4684-a745-15668eca66c9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/345e4061-7e6f-4f67-af34-19d98c8952b2
+    name: Jamie "James" Gallagher
+    party: Republican
+    votes: 131578
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 3 -- Jamie "James" Gallagher (REP) 131,578; Aaron Draper (DEM) 66,962.'
+  retrieved: '2026-10-08'

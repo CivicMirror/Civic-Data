@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-13/2024-11-05/general
+name: California State Senator District 13 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-13/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:13/legislature
+  office_id: ca-senate-13/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/004da236-a6b8-4851-a65d-d1a0e11f323b
+  - ocd-person/8ca98ffd-8a11-4dbc-8d8e-f53d71eb6c59
+  result_status: certified
+  winners:
+  - person_id: ocd-person/004da236-a6b8-4851-a65d-d1a0e11f323b
+    name: Josh Becker
+    party: Democratic
+    votes: 314889
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 13 -- Josh Becker (DEM) 314,889; Alexander Glew (REP) 119,674.'
+  retrieved: '2026-10-08'

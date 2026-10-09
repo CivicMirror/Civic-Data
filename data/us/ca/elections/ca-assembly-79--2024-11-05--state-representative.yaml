@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-79/2024-11-05/general
+name: California State Assembly District 79 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-79/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:79/legislature
+  office_id: ca-assembly-79/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a5287d15-2976-4558-853a-f9af1a32a5b1
+  - ocd-person/8a5330bb-b325-40d4-8ce2-60f73736202f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a5287d15-2976-4558-853a-f9af1a32a5b1
+    name: LaShae Sharp-Collins
+    party: Democratic
+    votes: 79215
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 79 -- LaShae Sharp-Collins (DEM) 79,215; Colin Parent (DEM) 67,390.'
+  retrieved: '2026-10-08'

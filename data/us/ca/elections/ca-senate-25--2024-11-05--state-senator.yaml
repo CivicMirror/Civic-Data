@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-25/2024-11-05/general
+name: California State Senator District 25 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-25/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:25/legislature
+  office_id: ca-senate-25/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/91fb6cc9-b6a0-4b8b-9e38-6c5f14fd1a5a
+  - ocd-person/8c9dbfd1-8cdb-4b70-a91c-42f73348d7a1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/91fb6cc9-b6a0-4b8b-9e38-6c5f14fd1a5a
+    name: Sasha Renée Pérez
+    party: Democratic
+    votes: 243371
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 25 -- Sasha Renée Pérez (DEM) 243,371; Elizabeth Wong Ahlers (REP) 164,757.'
+  retrieved: '2026-10-08'

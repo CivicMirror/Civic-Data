@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-50/2024-11-05/general
+name: California State Assembly District 50 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-50/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:50/legislature
+  office_id: ca-assembly-50/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/13ad790b-d7a5-4b41-b5ca-9cde7116c6f2
+  - ocd-person/9583f6fd-ca75-49fb-8cdb-9ffebdbbc4ec
+  result_status: certified
+  winners:
+  - person_id: ocd-person/13ad790b-d7a5-4b41-b5ca-9cde7116c6f2
+    name: Robert Garcia
+    party: Democratic
+    votes: 77923
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 50 -- Robert Garcia (DEM) 77,923; Adam Perez (DEM) 60,360.'
+  retrieved: '2026-10-08'

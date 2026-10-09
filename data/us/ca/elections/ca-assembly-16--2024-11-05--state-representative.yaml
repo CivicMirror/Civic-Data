@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-16/2024-11-05/general
+name: California State Assembly District 16 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-16/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:16/legislature
+  office_id: ca-assembly-16/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f058d314-3c6e-4dc8-b9b7-59451b437fea
+  - ocd-person/58d8deb5-e381-4ba5-ad03-0e6b2d08b67a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f058d314-3c6e-4dc8-b9b7-59451b437fea
+    name: Rebecca Bauer-Kahan
+    party: Democratic
+    votes: 161029
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 16 -- Rebecca Bauer-Kahan (DEM) 161,029; Joseph A. Rubay (REP) 90,136.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-11/2024-11-05/general
+name: California State Senator District 11 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-11/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:11/legislature
+  office_id: ca-senate-11/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/60f921b8-2e49-4c35-9202-e1d9e0ce1886
+  - ocd-person/8e1d06ff-f7b3-4fbc-98e6-3babf75eb201
+  result_status: certified
+  winners:
+  - person_id: ocd-person/60f921b8-2e49-4c35-9202-e1d9e0ce1886
+    name: Scott Wiener
+    party: Democratic
+    votes: 325148
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 11 -- Scott Wiener (DEM) 325,148; Yvette Corkrean (REP) 92,715.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-33/2024-11-05/general
+name: California State Assembly District 33 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-33/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:33/legislature
+  office_id: ca-assembly-33/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9bea38fd-f050-4d3e-ab4c-14517200235b
+  - ocd-person/91db0699-0ff4-44e4-b7bc-be135aa3df6a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9bea38fd-f050-4d3e-ab4c-14517200235b
+    name: Alexandra Macedo
+    party: Republican
+    votes: 72575
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 33 -- Alexandra Macedo (REP) 72,575; Xavier Avila (REP) 42,773.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-5/2024-11-05/general
+name: California State Senator District 5 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-5/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:5/legislature
+  office_id: ca-senate-5/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/68516749-ecb6-463e-9e8e-09377dca55ed
+  - ocd-person/bb7c74c5-edc9-43c7-9c46-66d0cf5bb641
+  result_status: certified
+  winners:
+  - person_id: ocd-person/68516749-ecb6-463e-9e8e-09377dca55ed
+    name: Jerry McNerney
+    party: Democratic
+    votes: 189668
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 5 -- Jerry McNerney (DEM) 189,668; Jim Shoemaker (REP) 169,136.'
+  retrieved: '2026-10-08'

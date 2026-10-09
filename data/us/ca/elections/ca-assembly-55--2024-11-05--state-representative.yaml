@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-55/2024-11-05/general
+name: California State Assembly District 55 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-55/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:55/legislature
+  office_id: ca-assembly-55/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a8728863-6dfd-4e67-b3d3-eb5117b4b4fc
+  - ocd-person/e0b7d727-ef42-4d18-b6d4-19a0af341275
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a8728863-6dfd-4e67-b3d3-eb5117b4b4fc
+    name: Isaac G. Bryan
+    party: Democratic
+    votes: 148062
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 55 -- Isaac G. Bryan (DEM) 148,062; Keith G. Cascio (REP) 35,316.'
+  retrieved: '2026-10-08'

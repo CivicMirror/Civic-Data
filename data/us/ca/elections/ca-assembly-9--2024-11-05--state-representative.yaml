@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-9/2024-11-05/general
+name: California State Assembly District 9 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-9/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:9/legislature
+  office_id: ca-assembly-9/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/13cd40d8-5c69-4e6c-8397-b9a3f60c8f07
+  - ocd-person/495f27cc-8f9a-4a8d-962f-7bf869704c5b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/13cd40d8-5c69-4e6c-8397-b9a3f60c8f07
+    name: Heath Flora
+    party: Republican
+    votes: 129268
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 9 -- Heath Flora (REP) 129,268; Tami Nobriga (AI) 55,169.'
+  retrieved: '2026-10-08'

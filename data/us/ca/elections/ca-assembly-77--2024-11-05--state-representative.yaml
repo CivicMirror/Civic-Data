@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-77/2024-11-05/general
+name: California State Assembly District 77 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-77/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:77/legislature
+  office_id: ca-assembly-77/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6a4da973-fa26-49e8-bdbb-0c3785b0d3b2
+  - ocd-person/d7b99828-0ad6-42a6-968c-5becb78b3057
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6a4da973-fa26-49e8-bdbb-0c3785b0d3b2
+    name: Tasha Boerner
+    party: Democratic
+    votes: 154202
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 77 -- Tasha Boerner (DEM) 154,202; James Browne (REP) 100,954.'
+  retrieved: '2026-10-08'
