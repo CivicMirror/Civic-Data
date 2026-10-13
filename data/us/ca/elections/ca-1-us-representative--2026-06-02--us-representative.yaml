@@ -1,0 +1,32 @@
+# Hand-built from the California Secretary of State official canvass
+# for the June 2, 2026 special primary election (certified 2026-06-11),
+# held to fill the vacancy left by Doug LaMalfa's death. James Gallagher
+# received a majority of the votes cast in the primary, so no special
+# general election was held (Elections Code section 10705).
+id: ca-1-us-representative/2026-06-02/special
+name: California U.S. Representative District 1 2026-06-02 special election
+date: '2026-06-02'
+election_type: special
+status: certified
+contests:
+- id: ca-1-us-representative/2026-06-02/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:1/legislature
+  office_id: ca-1/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/345e4061-7e6f-4f67-af34-19d98c8952b2
+  - ocd-person/3cb6e8e3-bfe7-4803-80c0-f70670f075be
+  - ocd-person/bf5c8f9c-ae81-4a8b-a16e-b8cbbf53ff31
+  - ocd-person/1b1bc8aa-96ce-49b7-b44c-478981b189fd
+  - ocd-person/81c50d83-138b-4d9b-9eab-7af12ec014c6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/345e4061-7e6f-4f67-af34-19d98c8952b2
+    name: James Gallagher
+    party: Republican
+    votes: 123551
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2026-cd1/official-canvass
+  note: 'California Secretary of State, Official Canvass, June 2, 2026 special primary election (certified 2026-06-11), United States Representative District 1 -- James Gallagher (REP) 123,551; Audrey Denney (DEM) 36,841; Mike McGuire (DEM) 34,319; Jot Thiara (REP) 2,423; Richard Montgomery (NPP) 1,808.'
+  retrieved: '2026-10-13'
