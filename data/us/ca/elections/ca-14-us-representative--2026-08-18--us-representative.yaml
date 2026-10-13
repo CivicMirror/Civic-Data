@@ -1,0 +1,27 @@
+# Hand-built from the California Secretary of State official canvass
+# for the August 18, 2026 special general election (certified 2026-09-18),
+# held to fill the vacancy left by Eric Swalwell's resignation.
+id: ca-14-us-representative/2026-08-18/special
+name: California U.S. Representative District 14 2026-08-18 special election
+date: '2026-08-18'
+election_type: special
+status: certified
+contests:
+- id: ca-14-us-representative/2026-08-18/us-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:14/legislature
+  office_id: ca-14/us-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dafdc705-bffa-4bd4-abbf-d498a4ece128
+  - ocd-person/08615a5a-c154-4aba-93aa-3b57a3af5952
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dafdc705-bffa-4bd4-abbf-d498a4ece128
+    name: Aisha Wahab
+    party: Democratic
+    votes: 51734
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2026-cd14/official-canvass
+  note: 'California Secretary of State, Official Canvass, August 18, 2026 special general election (certified 2026-09-18), United States Representative District 14 -- Aisha Wahab (DEM) 51,734; Melissa Hernandez (DEM) 45,700.'
+  retrieved: '2026-10-13'
