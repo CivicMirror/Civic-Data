@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-26/2024-11-05/general
+name: California State Assembly District 26 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-26/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:26/legislature
+  office_id: ca-assembly-26/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c522530d-1802-467e-9db7-b2f068ea3962
+  - ocd-person/21b55ceb-b820-48c2-a207-92b81acae79c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c522530d-1802-467e-9db7-b2f068ea3962
+    name: Patrick Ahrens
+    party: Democratic
+    votes: 76807
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 26 -- Patrick Ahrens (DEM) 76,807; Tara Sreekrishnan (DEM) 60,392.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-31/2024-11-05/general
+name: California State Senator District 31 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-31/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:31/legislature
+  office_id: ca-senate-31/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/35a6d7d0-76ec-43aa-80be-b84ac0b6ed2d
+  - ocd-person/6ee95b98-53ba-403c-95ac-a177e7d1e3ca
+  result_status: certified
+  winners:
+  - person_id: ocd-person/35a6d7d0-76ec-43aa-80be-b84ac0b6ed2d
+    name: Sabrina Cervantes
+    party: Democratic
+    votes: 153282
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 31 -- Sabrina Cervantes (DEM) 153,282; Cynthia Navarro (REP) 128,994.'
+  retrieved: '2026-10-08'

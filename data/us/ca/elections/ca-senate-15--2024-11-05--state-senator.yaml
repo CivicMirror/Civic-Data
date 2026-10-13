@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-15/2024-11-05/general
+name: California State Senator District 15 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-15/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:15/legislature
+  office_id: ca-senate-15/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/31b22bdc-f775-4e81-9827-a57d20d467e8
+  - ocd-person/f1565635-bbc5-4c18-8430-d811306fc0d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/31b22bdc-f775-4e81-9827-a57d20d467e8
+    name: Dave Cortese
+    party: Democratic
+    votes: 260719
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 15 -- Dave Cortese (DEM) 260,719; Robert Paul Howell (REP) 119,310.'
+  retrieved: '2026-10-08'

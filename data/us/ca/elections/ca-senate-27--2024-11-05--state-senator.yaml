@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-27/2024-11-05/general
+name: California State Senator District 27 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-27/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:27/legislature
+  office_id: ca-senate-27/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/75d65f2c-acce-46bb-bee9-7674ad99d006
+  - ocd-person/f627cd7d-807e-4a40-9198-e5f9ab3ccd7f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/75d65f2c-acce-46bb-bee9-7674ad99d006
+    name: Henry Stern
+    party: Democratic
+    votes: 270005
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 27 -- Henry Stern (DEM) 270,005; Lucie Volotzky (REP) 183,967.'
+  retrieved: '2026-10-08'

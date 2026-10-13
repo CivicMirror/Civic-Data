@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-57/2024-11-05/general
+name: California State Assembly District 57 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-57/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:57/legislature
+  office_id: ca-assembly-57/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bd95a4e0-a4e4-4d93-8257-77d02da577cf
+  - ocd-person/ba02401a-5872-4d65-9353-901b5e55ac9d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bd95a4e0-a4e4-4d93-8257-77d02da577cf
+    name: Sade Elhawary
+    party: Democratic
+    votes: 54117
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 57 -- Sade Elhawary (DEM) 54,117; Efren Martinez (DEM) 34,506.'
+  retrieved: '2026-10-08'

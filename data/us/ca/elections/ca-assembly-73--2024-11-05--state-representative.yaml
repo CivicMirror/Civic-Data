@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-73/2024-11-05/general
+name: California State Assembly District 73 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-73/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:73/legislature
+  office_id: ca-assembly-73/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/13484860-2fc2-42c1-a91a-9ba9ba46d0c9
+  - ocd-person/54759a08-87ec-4a63-8115-ae80896dde10
+  result_status: certified
+  winners:
+  - person_id: ocd-person/13484860-2fc2-42c1-a91a-9ba9ba46d0c9
+    name: Cottie Petrie-Norris
+    party: Democratic
+    votes: 108445
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 73 -- Cottie Petrie-Norris (DEM) 108,445; Scotty Peotter (REP) 82,365.'
+  retrieved: '2026-10-08'

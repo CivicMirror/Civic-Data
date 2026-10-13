@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-8/2024-11-05/general
+name: California State Assembly District 8 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-8/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:8/legislature
+  office_id: ca-assembly-8/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f01fea95-ca47-49de-9d7d-5932e7b321ae
+  - ocd-person/e7ba0255-3340-4868-ac6e-2cf3227a9749
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f01fea95-ca47-49de-9d7d-5932e7b321ae
+    name: David J. Tangipa
+    party: Republican
+    votes: 113407
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 8 -- David J. Tangipa (REP) 113,407; George Radanovich (REP) 97,770.'
+  retrieved: '2026-10-08'

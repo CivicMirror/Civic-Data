@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-40/2024-11-05/general
+name: California State Assembly District 40 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-40/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:40/legislature
+  office_id: ca-assembly-40/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a2e00a28-aa45-483f-9759-2ff70bb10754
+  - ocd-person/2530f5be-f6b8-4ef3-bb8a-727c7cb3a3c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a2e00a28-aa45-483f-9759-2ff70bb10754
+    name: Pilar Schiavo
+    party: Democratic
+    votes: 119654
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 40 -- Pilar Schiavo (DEM) 119,654; Patrick Lee Gipson (REP) 106,960.'
+  retrieved: '2026-10-08'

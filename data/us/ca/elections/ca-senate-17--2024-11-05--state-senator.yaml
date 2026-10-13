@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-17/2024-11-05/general
+name: California State Senator District 17 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-17/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:17/legislature
+  office_id: ca-senate-17/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/adc8bd9c-9e2a-4442-a42a-571604efba7f
+  - ocd-person/54da39d4-398f-4030-a6fa-ff56afce26db
+  result_status: certified
+  winners:
+  - person_id: ocd-person/adc8bd9c-9e2a-4442-a42a-571604efba7f
+    name: John Laird
+    party: Democratic
+    votes: 269862
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 17 -- John Laird (DEM) 269,862; Tony Virrueta (REP) 144,992.'
+  retrieved: '2026-10-08'

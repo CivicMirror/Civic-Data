@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-42/2024-11-05/general
+name: California State Assembly District 42 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-42/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:42/legislature
+  office_id: ca-assembly-42/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2052ab18-4cc3-4233-9b9f-9f7d9e2f048c
+  - ocd-person/090cdcb2-248c-48a2-9424-c8eb8f48233f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2052ab18-4cc3-4233-9b9f-9f7d9e2f048c
+    name: Jacqui Irwin
+    party: Democratic
+    votes: 147218
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 42 -- Jacqui Irwin (DEM) 147,218; Ted Nordblum (REP) 123,940.'
+  retrieved: '2026-10-08'

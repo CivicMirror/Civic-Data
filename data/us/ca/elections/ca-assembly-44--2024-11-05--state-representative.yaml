@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-44/2024-11-05/general
+name: California State Assembly District 44 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-44/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:44/legislature
+  office_id: ca-assembly-44/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/69bd728a-ec57-4918-a5de-e75bc2e3c6b0
+  - ocd-person/03ea2089-cc34-4a80-8cf4-d6a3c8fed968
+  result_status: certified
+  winners:
+  - person_id: ocd-person/69bd728a-ec57-4918-a5de-e75bc2e3c6b0
+    name: Nick Schultz
+    party: Democratic
+    votes: 143625
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 44 -- Nick Schultz (DEM) 143,625; Tony Rodriguez (REP) 74,316.'
+  retrieved: '2026-10-08'

@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-senate-35/2024-11-05/general
+name: California State Senator District 35 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-senate-35/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldu:35/legislature
+  office_id: ca-senate-35/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/db54327b-4e23-4453-978f-cc3e10366738
+  - ocd-person/0194bf1a-504a-4342-bd20-d48c06fc3331
+  result_status: certified
+  winners:
+  - person_id: ocd-person/db54327b-4e23-4453-978f-cc3e10366738
+    name: Laura Richardson
+    party: Democratic
+    votes: 122862
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), State Senator District 35 -- Laura Richardson (DEM) 122,862; Michelle Chambers (DEM) 120,144.'
+  retrieved: '2026-10-08'

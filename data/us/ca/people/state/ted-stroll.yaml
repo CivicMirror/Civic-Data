@@ -1,0 +1,20 @@
+id: ocd-person/1f45337d-a87c-42ec-8de0-c9117be08c07
+name: Ted Stroll
+identifiers: []
+candidacies:
+- contest_id: ca-assembly-25/2024-11-05/state-representative
+  election_id: ca-assembly-25/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:25/legislature
+  office_id: ca-assembly-25/state-representative
+  party: Republican
+  ballot_name: 'Ted Stroll'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+verification:
+  status: unverified
+  pipeline: hand-built-from-official-results
+sources:
+- url: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.xlsx
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13) -- Ted Stroll: 49,861 votes for Member of the State Assembly District 25.'
+  retrieved: '2026-10-08'

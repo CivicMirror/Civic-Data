@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-76/2024-11-05/general
+name: California State Assembly District 76 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-76/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:76/legislature
+  office_id: ca-assembly-76/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/726b5b79-ec33-49fe-b25e-1b8b0796965f
+  - ocd-person/d239a0c3-4108-4b0e-8b84-8964369bf1c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/726b5b79-ec33-49fe-b25e-1b8b0796965f
+    name: Darshana Patel
+    party: Democratic
+    votes: 113242
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 76 -- Darshana Patel (DEM) 113,242; Kristie Bruce-Lane (REP) 96,358.'
+  retrieved: '2026-10-08'

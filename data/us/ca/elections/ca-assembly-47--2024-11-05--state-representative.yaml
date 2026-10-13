@@ -1,0 +1,26 @@
+# Hand-built from the California Secretary of State Statement of Vote
+# for the November 5, 2024 general election (certified 2024-12-13).
+id: ca-assembly-47/2024-11-05/general
+name: California State Assembly District 47 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: ca-assembly-47/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:47/legislature
+  office_id: ca-assembly-47/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e8f44717-9328-4251-bc5a-1e93de6b4db7
+  - ocd-person/f8f018d8-f50a-4dab-a677-cd2cd282ec92
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e8f44717-9328-4251-bc5a-1e93de6b4db7
+    name: Greg Wallis
+    party: Republican
+    votes: 119072
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+  note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13), Member of the State Assembly District 47 -- Greg Wallis (REP) 119,072; Christy Holstege (DEM) 113,538.'
+  retrieved: '2026-10-08'
