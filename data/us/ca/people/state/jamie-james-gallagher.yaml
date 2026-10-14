@@ -11,6 +11,15 @@ candidacies:
   status: active
   sources:
   - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+- contest_id: ca-1-us-representative/2026-06-02/us-representative
+  election_id: ca-1-us-representative/2026-06-02/special
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/cd:1/legislature
+  office_id: ca-1/us-representative
+  party: Republican
+  ballot_name: 'James Gallagher'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2026-cd1/official-canvass
 verification:
   status: unverified
   pipeline: hand-built-from-official-results
@@ -18,3 +27,6 @@ sources:
 - url: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.xlsx
   note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13) -- Jamie "James" Gallagher: 131,578 votes for Member of the State Assembly District 3.'
   retrieved: '2026-10-08'
+- url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2026-cd1/official-canvass
+  note: 'California Secretary of State, Official Canvass, June 2, 2026 special primary election (certified 2026-06-11) -- James Gallagher: 123,551 votes for United States Representative District 1.'
+  retrieved: '2026-10-13'
