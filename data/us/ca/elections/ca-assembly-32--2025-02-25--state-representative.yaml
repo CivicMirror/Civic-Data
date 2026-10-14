@@ -1,0 +1,30 @@
+# Hand-built from the California Secretary of State official canvass
+# for the February 25, 2025 special primary election, held to fill the
+# vacancy left by Vince Fong's resignation. Ellis won a majority in the
+# special primary, so no special general election was held.
+id: ca-assembly-32/2025-02-25/special
+name: California State Assembly District 32 2025-02-25 special election
+date: '2025-02-25'
+election_type: special
+status: certified
+contests:
+- id: ca-assembly-32/2025-02-25/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:32/legislature
+  office_id: ca-assembly-32/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/11be513a-77e8-428d-ac7a-6c795be87f63
+  - ocd-person/1f595fbb-01ec-4d10-aede-8e322e75525f
+  - ocd-person/6247345f-f91e-4f40-9f5c-ac95f993a4cc
+  - ocd-person/dd2cf2c0-dd36-4c9a-987e-d63a9c70919d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1f595fbb-01ec-4d10-aede-8e322e75525f
+    name: Stan W. Ellis
+    party: Republican
+    votes: 39410
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2025-ad32/official-canvass
+  note: 'California Secretary of State, Official Canvass, February 25, 2025 special primary election, Member of the State Assembly District 32 -- Stan W. Ellis (REP) 39,410; Chris Cruz-Boone (DEM) 17,474; Holli Willibey (REP) 2,665; William Brown Jr. (LIB) 1,427.'
+  retrieved: '2026-10-13'
