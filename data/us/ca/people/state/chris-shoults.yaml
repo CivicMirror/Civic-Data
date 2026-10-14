@@ -11,6 +11,15 @@ candidacies:
   status: active
   sources:
   - url: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-nov-5-2024/statement-vote
+- contest_id: ca-assembly-63/2025-08-26/state-representative
+  election_id: ca-assembly-63/2025-08-26/special
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:63/legislature
+  office_id: ca-assembly-63/state-representative
+  party: Democratic
+  ballot_name: 'Chris Shoults'
+  status: active
+  sources:
+  - url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2025-ad63/official-canvass
 verification:
   status: unverified
   pipeline: hand-built-from-official-results
@@ -18,3 +27,6 @@ sources:
 - url: https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.xlsx
   note: 'California Secretary of State, Statement of Vote, November 5, 2024 general election (certified 2024-12-13) -- Chris Shoults: 91,708 votes for Member of the State Assembly District 63.'
   retrieved: '2026-10-08'
+- url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2025-ad63/official-canvass
+  note: 'California Secretary of State, Official Canvass, August 26, 2025 special general election (certified 2025-09-15) -- Chris Shoults: 30,332 votes for Member of the State Assembly District 63.'
+  retrieved: '2026-10-13'

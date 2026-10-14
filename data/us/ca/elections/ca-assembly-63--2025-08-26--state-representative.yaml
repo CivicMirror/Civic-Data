@@ -1,0 +1,28 @@
+# Hand-built from the California Secretary of State official canvass
+# for the August 26, 2025 special general election (certified 2025-09-15),
+# held to fill the vacancy left by Bill Essayli's resignation. The June 24,
+# 2025 special primary is not modeled; only the decisive general is.
+id: ca-assembly-63/2025-08-26/special
+name: California State Assembly District 63 2025-08-26 special election
+date: '2025-08-26'
+election_type: special
+status: certified
+contests:
+- id: ca-assembly-63/2025-08-26/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ca/sldl:63/legislature
+  office_id: ca-assembly-63/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/59bf3470-a7be-4f45-aa99-3959daa14255
+  - ocd-person/2ee5c006-d653-4d3a-b915-264a9db0a43c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/59bf3470-a7be-4f45-aa99-3959daa14255
+    name: Natasha Johnson
+    party: Republican
+    votes: 34866
+  seat: At-Large
+sources:
+- url: https://www.sos.ca.gov/elections/prior-elections/special-elections/2025-ad63/official-canvass
+  note: 'California Secretary of State, Official Canvass, August 26, 2025 special general election (certified 2025-09-15), Member of the State Assembly District 63 -- Natasha Johnson (REP) 34,866; Chris Shoults (DEM) 30,332.'
+  retrieved: '2026-10-13'
