@@ -1,0 +1,22 @@
+# State and county elected office structure; issue #163
+# (VT master tracking). No officeholders imported.
+id: ocd-organization/c112b4b1-d583-5d96-9078-6ec1769fd505
+name: County of Windsor State's Attorney
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windsor/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: windsor-vt-county/states-attorney
+status: active
+sources:
+- url: https://legislature.Vermont.gov/statutes/chapter/24/005
+  note: 'Vermont Statutes Online, Title 24 chapter 5 (County Officers): Assistant
+    Judges at subchapter 1, Sheriffs at subchapter 5. County Clerk (subchapter 2,
+    section 171) and County Treasurer (subchapter 3, section 211) are appointed, not
+    elected, and are excluded.'
+  retrieved: '2026-10-16'
+- url: https://legislature.Vermont.gov/Documents/2024/WorkGroups/Senate%20Judiciary/Bills/PR.1/Drafts,%20Amendments,%20Legal%20Documents/PR.1~Tim%20Devlin~Memorandum-%20Removal%20of%20Elected%20County%20Officers%20from%20Office~2-20-2024.pdf
+  note: 'Legislative Counsel memorandum (2024-02-20) enumerating Vermont''s constitutional
+    officers: Governor, Lieutenant Governor, Secretary of State, Treasurer, Auditor
+    of Accounts, State''s Attorneys, Sheriffs, High Bailiffs, Judges of Probate, and
+    Assistant Judges.'
+  retrieved: '2026-10-16'
