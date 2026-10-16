@@ -84,11 +84,15 @@ five offices, against 13 office types per county in Mississippi.
 
 ### Municipal level (inventory in VT_Municipalities.xlsx)
 
-- Repo seed (Census 2022 Census of Governments): 275 municipal
-  jurisdictions -- 235 towns, 10 cities, 30 incorporated villages.
-  VLCT's current count splits the same 275 as 237 towns / 28 villages;
-  the two-place classification drift is flagged in the workbook's
-  Sources sheet and must be reconciled place-by-place in backfill.
+- Municipal inventory: 278 jurisdictions -- 237 towns, 10 cities,
+  31 active incorporated villages. The Census 2022 seed (275:
+  235 / 10 / 30) was reconciled place-by-place on 2026-10-16 against
+  the official Vermont.gov Towns & Cities explorer and the SOS/VSARA
+  List of Incorporated Villages: Bloomfield and Sudbury towns and
+  Jericho and Westbury villages added; Lyndonville village retired
+  (merged into the Town of Lyndon, Act M-14, 24 App. ch. 126).
+  Groton and Townshend villages are inactive per SOS and excluded.
+  VLCT's village headline (28) remains 3 below the SOS-governed 31.
 - Towns elect at annual town meeting (first Tuesday in March, or by
   Australian ballot where adopted) under 17 V.S.A. section 2646 and
   related sections: selectboard (3, or 5 if voted), town clerk, town
