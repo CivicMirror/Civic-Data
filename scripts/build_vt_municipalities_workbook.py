@@ -68,8 +68,9 @@ MUNICIPAL_OVERRIDES = {
             "sweep completed 2026-10-16 (worked example, tracking PR #168): Selectboard, "
             "Town Treasurer, and Justices of the Peace backfilled from SOS Elections "
             "Division directories; November 5, 2024 JP election record built. Town "
-            "Clerk holder HELD (SOS guide, SOS contact spreadsheet, and Vermont.gov "
-            "explorer name three different people). Lesser town officers await the "
+            "Clerk resolved to Ray Bowen (SOS clerk contact spreadsheet, June 2026; "
+            "the SOS guide's Robidas and the explorer's Routhier listings are stale "
+            "vintages). Lesser town officers await the "
             "printed town report or a clerk reply. No charter (general law), no "
             "official website, no published code."),
     },
@@ -428,6 +429,21 @@ def main():
         "name-for-name; every other office is outside its bounded scope.",
         "Municipalities (Bloomfield row), Status Log",
         "VT SOS Elections Division directories (selectboard directory; clerk/treasurer contact spreadsheets; JP listing); Title 24 Appendix chapter index (Vermont Statutes Online)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Bloomfield Town Clerk resolved (follow-up to the sweep entry above; tracking PR #168). "
+        "News/directory check at Walter's request, most recent first: Vermont Attorneys Title clerk "
+        "directory (data obtained September 1, 2026) names Ray Bowen; the SOS clerk contact spreadsheet "
+        "(June 12, 2026) names Ray Bowen; the North Star Monthly clerk directory (updated ~April 2026) "
+        "and the SOS guide (January 2026) name Susan Robidas; VPIRG's clerk list (~2022) names Paulette "
+        "Routhier -- the vintage the Vermont.gov explorer still carries. No news article covers the "
+        "change. Walter directed minting Bowen on 2026-10-16: clerk membership added (Bowen already "
+        "held a Justice of the Peace seat on the same person record). Robidas held the office into "
+        "early 2026; Routhier's listing is a ~2022 artifact.",
+        "Municipalities (Bloomfield row), Status Log",
+        "VT SOS clerk contact spreadsheet (June 12, 2026); Vermont Attorneys Title town clerk directory (September 1, 2026); North Star Monthly Kingdom Guide clerk directory; VPIRG clerk list (~2022)",
         "CivicMirror",
     ])
     style_header(ws)

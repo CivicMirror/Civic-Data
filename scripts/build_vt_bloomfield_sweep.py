@@ -26,11 +26,14 @@ Verified for Bloomfield (retrieved 2026-10-16):
   website and no published municipal code were found.
 
 HELD, deliberately not minted:
-- Town Clerk membership. Official sources conflict on the current
-  clerk: the SOS Guide (January 2026) names Susan Robidas; the SOS
-  town clerk contact spreadsheet (June 12, 2026) names Ray Bowen;
-  the vermont.gov Towns & Cities explorer names Paulette Routhier.
-  The post is created; the membership waits for a tiebreak.
+- Town Clerk: the SOS town clerk contact spreadsheet (June 12, 2026)
+  names Ray Bowen. Two other official listings conflict but are
+  stale vintages: the SOS Guide (January 2026) names Susan Robidas,
+  who held the office into early 2026 (North Star Monthly's clerk
+  directory, updated ~April 2026, agrees), and the vermont.gov
+  explorer carries a ~2022 listing naming Paulette Routhier. A
+  Vermont Attorneys Title directory pull (September 1, 2026) also
+  names Bowen. Walter directed minting Bowen on 2026-10-16.
 - Moderator, Listers, Auditors, Constables, Grand Juror, Town Agent,
   Collector of Delinquent Taxes: no official online source names
   Bloomfield's holders (no town website; the printed annual town
@@ -102,26 +105,34 @@ TREAS_GUIDE_SOURCE = {
     ),
     "retrieved": RETRIEVED,
 }
+CLERK_SOURCE = {
+    "url": (
+        "https://outside.vermont.gov/dept/sos/Elections_Division/"
+        "voters/vermont_town_clerk_contact_information.xlsx"
+    ),
+    "note": (
+        "Vermont Secretary of State, Elections Division, town clerk "
+        "contact information spreadsheet (last updated June 12, "
+        "2026), Bloomfield row: Ray Bowen, Town Clerk. Minted "
+        "2026-10-16 at Walter's direction after a source check "
+        "resolved the conflicting listings in the SOS Guide (January "
+        "2026, Susan Robidas) and the Vermont.gov explorer (stale "
+        "~2022 listing, Paulette Routhier) as older vintages; a "
+        "Vermont Attorneys Title directory pull dated September 1, "
+        "2026 also names Bowen."
+    ),
+    "retrieved": RETRIEVED,
+}
 CLERK_SOURCES = [
-    {
-        "url": (
-            "https://outside.vermont.gov/dept/sos/Elections_Division/"
-            "voters/vermont_town_clerk_contact_information.xlsx"
-        ),
-        "note": (
-            "Vermont Secretary of State, Elections Division, town "
-            "clerk contact information spreadsheet (last updated "
-            "June 12, 2026), Bloomfield row: Ray Bowen, Town Clerk."
-        ),
-        "retrieved": RETRIEVED,
-    },
+    CLERK_SOURCE,
     {
         "url": GUIDE_URL,
         "note": (
             "Vermont Secretary of State, Elections Division, 'Guide "
             "to Vermont's Town Clerks, Treasurers & County Clerks' "
             "(January 2026), Bloomfield entry: Susan Robidas, Clerk. "
-            "Conflicts with the June 2026 contact spreadsheet."
+            "Superseded: Robidas held the office into early 2026; "
+            "the June 2026 SOS contact spreadsheet names Ray Bowen."
         ),
         "retrieved": RETRIEVED,
     },
@@ -129,9 +140,9 @@ CLERK_SOURCES = [
         "url": "https://www.vermont.gov/towns-and-Cities",
         "note": (
             "Vermont.gov Towns & Cities explorer, Town of Bloomfield "
-            "entry: town clerk listed as Paulette Routhier. Conflicts "
-            "with both Secretary of State directories. Membership "
-            "held 2026-10-16 pending a tiebreak (issue #163)."
+            "entry: town clerk listed as Paulette Routhier. Stale "
+            "listing (matches a ~2022 VPIRG clerk list); not the "
+            "current holder."
         ),
         "retrieved": RETRIEVED,
     },
@@ -170,9 +181,11 @@ HEADER = (
     "# for the Vermont municipal tier; issue #163 (VT master tracking).\n"
 )
 CLERK_HEADER = (
-    "# Town Clerk POST ONLY -- membership held 2026-10-16: official\n"
-    "# sources conflict on the current clerk (see sources below and\n"
-    "# issue #163). Issue #163 (VT master tracking).\n"
+    "# Town Clerk: listings conflicted (SOS Guide Jan 2026 vs SOS\n"
+    "# contact spreadsheet Jun 2026 vs the stale vermont.gov explorer\n"
+    "# listing); resolved to Ray Bowen at Walter's direction,\n"
+    "# 2026-10-16 -- see sources below and issue #163.\n"
+    "# Issue #163 (VT master tracking).\n"
 )
 ELECTION_HEADER = (
     "# Bloomfield Justice of the Peace election, November 5, 2024;\n"
@@ -194,7 +207,7 @@ OFFICES = [
     (
         "town-clerk", "Town Clerk", 1, "Bloomfield Town Clerk",
         CLERK_SOURCES,
-        [],  # HELD: conflicting official sources, see header comment.
+        [("ray-bowen", "Ray Bowen", [CLERK_SOURCE])],
     ),
     (
         "town-treasurer", "Town Treasurer", 1, "Bloomfield Town Treasurer",
