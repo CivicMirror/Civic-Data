@@ -1,0 +1,37 @@
+# Bloomfield Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: bloomfield-vt/2024-11-05/general
+name: Bloomfield 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: bloomfield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bloomfield/government
+  office_id: bloomfield-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/c4b4f9ea-3701-53e8-ab6e-43a1521c00f2
+  - ocd-person/ade6376a-fbe9-535b-ad0e-74b9a35501dd
+  - ocd-person/eebdf271-a01f-55bc-b44c-799f41800686
+  - ocd-person/377b61cb-5de5-5208-928d-4349c514327d
+  - ocd-person/24088180-9c70-59d6-a185-ebd02062734b
+  result_status: official
+  winners:
+  - person_id: ocd-person/c4b4f9ea-3701-53e8-ab6e-43a1521c00f2
+    name: Bryant Wheeler
+  - person_id: ocd-person/ade6376a-fbe9-535b-ad0e-74b9a35501dd
+    name: Ray Bowen
+  - person_id: ocd-person/eebdf271-a01f-55bc-b44c-799f41800686
+    name: Sharon Belknap
+  - person_id: ocd-person/377b61cb-5de5-5208-928d-4349c514327d
+    name: Steven Bunnell
+  - person_id: ocd-person/24088180-9c70-59d6-a185-ebd02062734b
+    name: Suzanne Routhier
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025), whose Bloomfield entry
+    is marked valid as of 2024. Vote totals and party labels are not published in
+    that listing and are not recorded here.
+  retrieved: '2026-10-16'

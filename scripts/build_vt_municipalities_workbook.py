@@ -54,6 +54,28 @@ def load_jurisdictions(kind):
     return rows
 
 
+# Per-municipality backfill results that override the seeded
+# "Needs Research" cells, keyed by short municipality name.
+MUNICIPAL_OVERRIDES = {
+    "Bloomfield": {
+        "website": "None (no official town website)",
+        "charter": "None (general law; no Title 24 Appendix chapter)",
+        "code": "None published",
+        "status": "Roster backfilled 2026-10-16",
+        "note": (
+            "Added 2026-10-16 (issue #163 fix): missing from the Census 2022 seed; "
+            "verified on the official Vermont.gov Towns & Cities explorer. Municipal "
+            "sweep completed 2026-10-16 (worked example, tracking PR #168): Selectboard, "
+            "Town Treasurer, and Justices of the Peace backfilled from SOS Elections "
+            "Division directories; November 5, 2024 JP election record built. Town "
+            "Clerk holder HELD (SOS guide, SOS contact spreadsheet, and Vermont.gov "
+            "explorer name three different people). Lesser town officers await the "
+            "printed town report or a clerk reply. No charter (general law), no "
+            "official website, no published code."),
+    },
+}
+
+
 def main():
     munis = load_jurisdictions("municipal")
     counties = load_jurisdictions("county")
@@ -87,10 +109,18 @@ def main():
                 "Added 2026-10-16 (issue #163 fix): missing from the Census 2022 seed; "
                 "verified on the Vermont Secretary of State (VSARA) List of Incorporated "
                 "Villages. Charter/code/website backfill as per sheet.")
-        muni_rows.append([
+        row = [
             short, typ, county_area(note), d["id"], d.get("website") or "Needs Research",
             "Needs Research", "Needs Research", None, "Needs Research", row_note,
-        ])
+        ]
+        if short in MUNICIPAL_OVERRIDES:
+            o = MUNICIPAL_OVERRIDES[short]
+            row[4] = o.get("website", row[4])
+            row[5] = o.get("charter", row[5])
+            row[6] = o.get("code", row[6])
+            row[8] = o.get("status", row[8])
+            row[9] = o.get("note", row[9])
+        muni_rows.append(row)
     muni_rows.sort(key=lambda r: (r[0].lower()))
 
     county_rows = []
@@ -376,6 +406,28 @@ def main():
         "(28) remains 3 below the SOS-governed 31, definitional, unresolved in its document.",
         "Municipalities, Sources, Government Structure, Office Titles (Ref)",
         "Vermont.gov Towns & Cities explorer; SOS/VSARA List of Incorporated Villages; VT General Assembly H.490 (Act M-14); VLCT municipal counts (cross-check)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Bloomfield municipal sweep -- worked example for the VT municipal tier (tracking PR #168). "
+        "Roster backfilled from SOS Elections Division directories: Selectboard -- Eric Brault, Josh "
+        "Riley, Denault Routhier (SOS selectboard directory, June 5, 2026); Town Treasurer -- Sharon "
+        "Belknap (SOS treasurer contact spreadsheet, June 12, 2026, corroborated by the SOS clerk "
+        "guide, January 2026); Justices of the Peace x5 -- Ray Bowen, Sharon Belknap, Bryant Wheeler, "
+        "Suzanne Routhier, Steven Bunnell (SOS '2025-2026 Vermont Justices of the Peace' listing, "
+        "December 4, 2025), with the November 5, 2024 JP election record built from the same listing "
+        "(vote totals not published there and not recorded). Town Clerk membership HELD: the SOS guide "
+        "(January 2026) names Susan Robidas, the SOS clerk contact spreadsheet (June 2026) names Ray "
+        "Bowen, and the Vermont.gov explorer names Paulette Routhier -- post created, holder awaits a "
+        "tiebreak. Moderator, Listers, Auditors, Constables, Grand Juror, and Town Agent were NOT "
+        "minted: no official online source names Bloomfield's holders (no town website; the printed "
+        "annual town report is not posted). Charter: none -- no Title 24 Appendix chapter (general-law "
+        "town, full index checked); no official website; no published municipal code. Factory "
+        "concordance: the VT Jurisdiction Factory carries Selectboard only for Bloomfield and matches "
+        "name-for-name; every other office is outside its bounded scope.",
+        "Municipalities (Bloomfield row), Status Log",
+        "VT SOS Elections Division directories (selectboard directory; clerk/treasurer contact spreadsheets; JP listing); Title 24 Appendix chapter index (Vermont Statutes Online)",
         "CivicMirror",
     ])
     style_header(ws)

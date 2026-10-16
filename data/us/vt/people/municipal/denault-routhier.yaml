@@ -1,0 +1,16 @@
+# Town of Bloomfield municipal roster backfill -- worked example
+# for the Vermont municipal tier; issue #163 (VT master tracking).
+id: ocd-person/dbf6a7c4-624e-5030-a7fd-6633c372b7ec
+name: Denault Routhier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-16'
+  pipeline: build_vt_bloomfield_sweep
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (last updated June 5, 2026), Bloomfield entry: Eric Brault, Josh Riley,
+    Denault Routhier.'
+  retrieved: '2026-10-16'
