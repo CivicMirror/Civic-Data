@@ -1,0 +1,34 @@
+# Chittenden Central Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-senate-chittenden-central/2024-11-05/general
+name: Chittenden Central Senate District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-senate-chittenden-central/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:chittenden-central/legislature
+  office_id: vt-senate-chittenden-central/state-senator
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/14046568-a978-5af6-ab2a-10ad57feb4ca
+  - ocd-person/42debbe9-ec5b-5d96-bac5-502468641c16
+  - ocd-person/e86c0233-e804-50d6-81dd-c04f4d00a76c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/14046568-a978-5af6-ab2a-10ad57feb4ca
+    name: Martine Larocque Gulick
+  - person_id: ocd-person/42debbe9-ec5b-5d96-bac5-502468641c16
+    name: Phil Baruth
+  - person_id: ocd-person/e86c0233-e804-50d6-81dd-c04f4d00a76c
+    name: Tanya Vyhovsky
+sources:
+- url: https://electionarchive.vermont.gov/contest/161105
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Chittenden Central District'' (district
+    totals): Martine Larocque Gulick (Democratic) 18,191 votes; Phil Baruth (Democratic/Progressive)
+    17,782; Tanya Vyhovsky (Progressive/Democratic) 15,936; write-ins 1,086. The contest
+    page''s cited official source is the Secretary of State''s ''November 5, 2024
+    General Official Results.pdf''. State senators serve two-year terms; the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
