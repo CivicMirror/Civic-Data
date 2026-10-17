@@ -1,0 +1,27 @@
+# Chittenden County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: chittenden-vt-county/2024-11-05/general
+name: Chittenden County 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: chittenden-vt-county/2024-11-05/high-bailiff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:chittenden/government
+  office_id: chittenden-vt-county/high-bailiff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4260ba0f-dd2e-5b82-9d67-d49fb833c987
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4260ba0f-dd2e-5b82-9d67-d49fb833c987
+    name: Johnny Trutor
+sources:
+- url: https://electionarchive.vermont.gov/contest/160976
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Chittenden County'' (county totals): Johnny
+    Trutor (Democratic) 69,780 votes; write-ins 1,639. The contest page''s cited official
+    source is the Secretary of State''s ''November 5, 2024 General Official Results.pdf''.
+    High bailiffs are elected biennially (Vermont Constitution, Chapter II, section
+    43); the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

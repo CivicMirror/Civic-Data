@@ -1,0 +1,70 @@
+# Chittenden County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: chittenden-vt-county/2022-11-08/general
+name: Chittenden County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: chittenden-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:chittenden/government
+  office_id: chittenden-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/cd68ed33-8617-5f7d-9abb-a69cc7048926
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cd68ed33-8617-5f7d-9abb-a69cc7048926
+    name: Sarah F. George
+- id: chittenden-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:chittenden/government
+  office_id: chittenden-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9ae2da17-17e9-56d1-a671-e05e3dec59bd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9ae2da17-17e9-56d1-a671-e05e3dec59bd
+    name: Dan Gamelin
+- id: chittenden-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:chittenden/government
+  office_id: chittenden-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/ce73a037-d6a5-587e-8b7d-9d258ce67c4a
+  - ocd-person/f196bea0-7f8f-53b2-adf9-e147834ffdb4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ce73a037-d6a5-587e-8b7d-9d258ce67c4a
+    name: Suzanne Brown
+  - person_id: ocd-person/f196bea0-7f8f-53b2-adf9-e147834ffdb4
+    name: Connie Cain Ramsey
+sources:
+- url: https://electionarchive.vermont.gov/contest/158035
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Chittenden
+    County'' (county totals): Sarah F. George (Democratic/Progressive) 53,766 votes;
+    write-ins 3,867. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157895
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Chittenden County''
+    (county totals): Dan Gamelin (Democratic/Republican) 56,879 votes; write-ins 740.
+    The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157847
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Chittenden County'' (vote for 2; county
+    totals): Suzanne Brown (Democratic) 50,517 votes; Connie Cain Ramsey (Democratic)
+    44,916; write-ins 925. Suzanne Brown and Connie Cain Ramsey were the only two
+    candidates for the two seats. The contest page''s cited official source is the
+    official return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term
+    beginning February 1 after the election (Vermont Constitution, Chapter II, section
+    50); the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
