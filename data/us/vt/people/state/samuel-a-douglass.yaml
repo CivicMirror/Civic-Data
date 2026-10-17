@@ -1,0 +1,43 @@
+# Orleans Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/7b33e560-437b-5fed-9011-1b84e3fc9997
+name: Samuel A. Douglass
+identifiers: []
+candidacies:
+- contest_id: vt-senate-orleans/2024-11-05/state-senator
+  election_id: vt-senate-orleans/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:orleans/legislature
+  office_id: vt-senate-orleans/state-senator
+  party: Republican
+  ballot_name: Samuel A. Douglass
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_senate
+sources:
+- url: https://electionarchive.vermont.gov/contest/161102
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Orleans District'' (district totals): Samuel
+    A. Douglass (Republican) 7,168 votes; Katherine Sims (Democratic) 4,895; write-ins
+    38. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term. Samuel Douglass resigned
+    the seat in October 2025 (the Senate directory records the resignation date as
+    October 27, 2025). Governor Phil Scott appointed John Morley III to fill the vacancy,
+    effective December 5, 2025.'
+  retrieved: '2026-10-17'
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-appoints-john-morley-state-senate
+  note: 'Office of Governor Phil Scott, press release (December 5, 2025): Governor
+    Scott appointed John Morley to fill the vacant Orleans District Senate seat, replacing
+    Sam Douglass, who resigned in October; the appointment is effective December 5,
+    2025.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/single/2026/41884
+  note: 'Vermont General Assembly, Senator John Morley III''s member page (2025-2026
+    session): Orleans District, Republican -- the sitting senator.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/single/2026/40394
+  note: 'Vermont General Assembly, Samuel Douglass''s member page: Orleans District,
+    marked ''Resigned October 27, 2025''.'
+  retrieved: '2026-10-17'
