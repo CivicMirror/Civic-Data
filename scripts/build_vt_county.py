@@ -103,11 +103,19 @@ def contest_note(county_name, office_key, office):
                 f"The canvass certified a write-in winner: "
                 f"{w['name']}, {w['votes']:,} write-in votes.")
     elif office.get("no_candidates"):
-        body = (f"the contest page states 'No qualifying "
-                f"candidates in this contest'; the only votes "
-                f"recorded are write-ins: {wi:,}. No winner is "
-                f"named in the database and none is recorded "
-                f"here, and no holder is minted for the seat.")
+        if wi is None:
+            body = (f"the contest page states 'No qualifying "
+                    f"candidates in this contest' and publishes "
+                    f"no results data at all -- no candidate "
+                    f"votes and no write-in total. No winner is "
+                    f"named in the database and none is recorded "
+                    f"here, and no holder is minted for the seat.")
+        else:
+            body = (f"the contest page states 'No qualifying "
+                    f"candidates in this contest'; the only votes "
+                    f"recorded are write-ins: {wi:,}. No winner is "
+                    f"named in the database and none is recorded "
+                    f"here, and no holder is minted for the seat.")
     else:
         parts = []
         for i, c in enumerate(cands):
