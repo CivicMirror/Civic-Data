@@ -1,0 +1,85 @@
+{
+ "county": "lamoille",
+ "name": "Lamoille County",
+ "dept_url": "https://prosecutors.vermont.gov/offices/lamoille",
+ "dept_sa": "Aliena Gerhard",
+ "dept_sheriff": "Roger Marcoux",
+ "offices": {
+  "states-attorney": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/158039",
+   "candidates": [
+    {
+     "name": "Todd A. Shove",
+     "party": "Democratic",
+     "votes": 8702,
+     "winner": true
+    }
+   ],
+   "write_ins": 109,
+   "note_extra": "Mid-term change: the 2022 winner, Todd A. Shove, no longer holds the office; the Department page lists Aliena Gerhard as the sitting State's Attorney (see county notes)."
+  },
+  "sheriff": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157899",
+   "candidates": [
+    {
+     "name": "Roger M. Marcoux",
+     "party": "Democratic/Republican",
+     "votes": 9372,
+     "winner": true
+    }
+   ],
+   "write_ins": 107
+  },
+  "assistant-judge": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157851",
+   "vote_for": 2,
+   "candidates": [
+    {
+     "name": "David Yacovone",
+     "party": "Democratic",
+     "votes": 7884,
+     "winner": true
+    },
+    {
+     "name": "Madeline M. Motta",
+     "party": "Democratic",
+     "votes": 6153,
+     "winner": true
+    }
+   ],
+   "write_ins": 162
+  },
+  "high-bailiff": {
+   "election": "2024",
+   "db_url": "https://electionarchive.vermont.gov/contest/160980",
+   "candidates": [
+    {
+     "name": "Kevin Lehoe",
+     "party": "Republican",
+     "votes": 10390,
+     "winner": true
+    }
+   ],
+   "write_ins": 269
+  }
+ },
+ "sa_transition": {
+  "outgoing": "Todd A. Shove",
+  "event": "resigned December 2023",
+  "interim_and_current": "Aliena Gerhard",
+  "sources": [
+   {
+    "url": "https://governor.vermont.gov/press-release/governor-phil-scott-appoints-aliena-gerhard-lamoille-county-states-attorney",
+    "note": "Office of Governor Phil Scott press release, June 4, 2024: Governor Scott appointed Aliena Gerhard as Lamoille County State's Attorney, replacing Todd Shove. Gerhard joined the office as a deputy in 2021 and had served as acting State's Attorney since Shove's resignation in December 2023; her appointed term concludes January 31, 2027."
+   },
+   {
+    "url": "https://prosecutors.vermont.gov/offices/lamoille",
+    "note": "Department of State's Attorneys and Sheriffs, Lamoille County office page: lists Aliena Gerhard as the sitting State's Attorney as of the October 2026 retrieval."
+   }
+  ],
+  "build_note": "Shove: person + 2022 candidacy + winner entry, NO membership (resigned Dec 2023). Gerhard: person + membership, how_seated appointed, no candidacy."
+ }
+}
