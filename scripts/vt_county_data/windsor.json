@@ -1,0 +1,44 @@
+{
+  "county": "windsor",
+  "name": "Windsor County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/windsor",
+  "dept_sa": "Ward Goodenough",
+  "dept_sheriff": "Ryan Palmer",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158045",
+      "candidates": [
+        {"name": "Ward Hunt Goodenough", "party": "Democratic", "votes": 20017, "winner": true}
+      ],
+      "write_ins": 348
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157905",
+      "candidates": [
+        {"name": "Ryan Palmer", "party": "Democratic", "votes": 15643, "winner": true},
+        {"name": "Michael Chamberlain", "party": "Republican", "votes": 9840, "winner": false}
+      ],
+      "write_ins": 141
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157857",
+      "vote_for": 2,
+      "candidates": [
+        {"name": "Alison Johannensen", "party": "Democratic", "votes": 15005, "winner": true},
+        {"name": "David Singer", "party": "Democratic/Republican", "votes": 11688, "winner": true},
+        {"name": "Michael A. Ricci", "party": "Independent", "votes": 9641, "winner": false}
+      ],
+      "write_ins": 156
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160986",
+      "candidates": [],
+      "write_ins": 1870,
+      "no_candidates": true
+    }
+  }
+}
