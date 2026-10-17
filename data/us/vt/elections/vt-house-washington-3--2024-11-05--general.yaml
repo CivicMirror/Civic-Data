@@ -1,0 +1,31 @@
+# Washington-3 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-washington-3/2024-11-05/general
+name: Washington-3 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-washington-3/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:washington-3/legislature
+  office_id: vt-house-washington-3/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/8f50fe40-1322-53f1-ac77-00c4f23f0009
+  - ocd-person/d0b23c05-5ac4-5238-b360-a50fbea03684
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8f50fe40-1322-53f1-ac77-00c4f23f0009
+    name: Michael Boutin
+  - person_id: ocd-person/d0b23c05-5ac4-5238-b360-a50fbea03684
+    name: Edward "Teddy" Waszazak
+sources:
+- url: https://electionarchive.vermont.gov/contest/161077
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Washington-3 District'' (district
+    totals): Michael Boutin (Republican) 1,857 votes; Edward "Teddy" Waszazak (Democratic)
+    1,422; Jonathan Williams (Democratic) 1,384; Carol Dawes (Independent) 1,363;
+    write-ins 19. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
