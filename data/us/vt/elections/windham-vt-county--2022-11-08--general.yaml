@@ -1,0 +1,72 @@
+# Windham County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: windham-vt-county/2022-11-08/general
+name: Windham County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: windham-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windham/government
+  office_id: windham-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2b742457-0304-504b-a0bc-c57edb475a7a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2b742457-0304-504b-a0bc-c57edb475a7a
+    name: Tracy Kelly Shriver
+- id: windham-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windham/government
+  office_id: windham-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/973990e7-bf54-5b0f-8536-0339fe0e16b4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/973990e7-bf54-5b0f-8536-0339fe0e16b4
+    name: Mark Anderson
+- id: windham-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windham/government
+  office_id: windham-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/060f634e-cc29-5dde-a6aa-6bbd9980c9be
+  - ocd-person/e6b9128d-0445-526a-a4f0-56d4c33ef82c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/060f634e-cc29-5dde-a6aa-6bbd9980c9be
+    name: Carolyn W. Partridge
+  - person_id: ocd-person/e6b9128d-0445-526a-a4f0-56d4c33ef82c
+    name: Lamont Barnett
+sources:
+- url: https://electionarchive.vermont.gov/contest/158044
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Windham
+    County'' (county totals): Tracy Kelly Shriver (Democratic) 15,686 votes; write-ins
+    217. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term. Mid-term change: the 2022 winner, Tracy Kelly Shriver, no longer
+    holds the office; the Department page lists Steven Brown as the sitting State''s
+    Attorney (see county notes).'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157904
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Windham County''
+    (county totals): Mark Anderson (Democratic) 15,524 votes; write-ins 244. The contest
+    page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157856
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Windham County'' (vote for 2; county
+    totals): Carolyn W. Partridge (Democratic) 12,219 votes; Lamont Barnett (Democratic)
+    9,402; Mildred Barry (Independent) 5,637; write-ins 169. The contest page''s cited
+    official source is the official return vt-2022_11_08_General_ALL.pdf. The office
+    serves a four-year term beginning February 1 after the election (Vermont Constitution,
+    Chapter II, section 50); the November 3, 2026 general election decides the next
+    term.'
+  retrieved: '2026-10-17'
