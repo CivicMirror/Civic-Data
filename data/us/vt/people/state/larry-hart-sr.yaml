@@ -1,0 +1,39 @@
+# Orange Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/4bb39537-886b-5eca-b8d4-d059e24b00b5
+name: Larry Hart Sr
+identifiers: []
+candidacies:
+- contest_id: vt-senate-orange/2024-11-05/state-senator
+  election_id: vt-senate-orange/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:orange/legislature
+  office_id: vt-senate-orange/state-senator
+  party: Republican
+  ballot_name: Larry Hart Sr
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_senate
+sources:
+- url: https://electionarchive.vermont.gov/contest/161111
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Orange District'' (district totals): Larry
+    Hart Sr (Republican) 7,230 votes; Mark A. Macdonald (Democratic) 5,523; write-ins
+    43. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term. Larry Hart resigned the
+    seat: his resignation was submitted in October 2025 and took effect November 14,
+    2025 (the Senate directory records November 14, 2025). Governor Phil Scott appointed
+    John Benson to fill the vacancy on January 2, 2026.'
+  retrieved: '2026-10-17'
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-announces-legislative-appointments
+  note: 'Office of Governor Phil Scott, press release (January 2, 2026): Governor
+    Scott appointed John Benson to represent the Orange District in the Senate; Benson
+    replaces Larry Hart, who resigned.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/Senate
+  note: 'Vermont General Assembly, All Senators directory (2025-2026 session): lists
+    John Benson as the Orange District senator and marks Larry Hart ''Resigned November
+    14, 2025''.'
+  retrieved: '2026-10-17'
