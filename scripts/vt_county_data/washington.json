@@ -1,0 +1,45 @@
+{
+  "county": "washington",
+  "name": "Washington County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/washington",
+  "dept_sa": "Michelle Donnelly",
+  "dept_sheriff": "Marc Poulin",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158043",
+      "candidates": [
+        {"name": "Michelle Donnelly", "party": "Democratic", "votes": 21388, "winner": true}
+      ],
+      "write_ins": 421
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157903",
+      "candidates": [
+        {"name": "Marc Poulin", "party": "Democratic/Republican", "votes": 21245, "winner": true}
+      ],
+      "write_ins": 248
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157855",
+      "vote_for": 2,
+      "candidates": [
+        {"name": "Elizabeth Battey", "party": "Democratic", "votes": 16189, "winner": true},
+        {"name": "Leah Murphy Jones", "party": "Democratic", "votes": 15575, "winner": true},
+        {"name": "Bret Meyer", "party": "Republican", "votes": 7358, "winner": false},
+        {"name": "Ronald Cushing, Jr", "party": "Republican", "votes": 7190, "winner": false}
+      ],
+      "write_ins": 63
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160984",
+      "candidates": [
+        {"name": "Shawn M. McManis", "party": "Democratic", "votes": 25764, "winner": true}
+      ],
+      "write_ins": 717
+    }
+  }
+}
