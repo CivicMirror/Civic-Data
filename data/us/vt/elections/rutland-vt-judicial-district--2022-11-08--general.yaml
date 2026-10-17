@@ -1,0 +1,28 @@
+# Rutland Probate District -- VT probate tier (jurisdiction + post + holder + election together);
+# issue #163 (VT master tracking).
+id: rutland-vt-judicial-district/2022-11-08/general
+name: Rutland Probate District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: rutland-vt-judicial-district/2022-11-08/judge-of-probate
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/judicial_district:rutland/judiciary
+  office_id: rutland-vt-judicial-district/judge-of-probate
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/44bcadee-1398-5567-9425-fb0dc870ae44
+  result_status: certified
+  winners:
+  - person_id: ocd-person/44bcadee-1398-5567-9425-fb0dc870ae44
+    name: Karl C. Anderson
+sources:
+- url: https://electionarchive.vermont.gov/contest/157886
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Probate Judge, Rutland County'' (county totals): Karl
+    C. Anderson (Democratic/Republican) 21,645 votes; write-ins 193. The contest page''s
+    cited official source is the official return vt-2022_11_08_General_ALL.pdf. Probate
+    judges serve four-year terms beginning February 1 after the election (Vermont
+    Constitution, Chapter II, sections 50-51); the November 3, 2026 general election
+    decides the next term.'
+  retrieved: '2026-10-17'
