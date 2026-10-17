@@ -167,7 +167,10 @@ def main():
     header = (f"# {county_name} County -- VT county tier fan-out "
               f"(posts + holders + elections together);\n"
               f"# issue #163 (VT master tracking).\n")
-    transition = data.get("sa_transition")
+    transitions = dict(data.get("transitions", {}))
+    if data.get("sa_transition"):
+        transitions.setdefault("states-attorney",
+                               data["sa_transition"])
 
     dept_source = {
         "url": data["dept_url"],
@@ -223,8 +226,8 @@ def main():
 
         candidate_ids = []
         winner_entries = []
-        is_transition_sa = (office_key == "states-attorney"
-                            and transition)
+        office_transition = transitions.get(office_key)
+        is_transition_sa = bool(office_transition)
         for cand in winners:
             pslug = slugify(cand["name"])
             pid = oid("person", f"vt|{slug}-county|{pslug}")
@@ -280,6 +283,7 @@ def main():
             membership_count += 1
 
         if is_transition_sa:
+            transition = office_transition
             succ_name = transition["interim_and_current"]
             pslug = slugify(succ_name)
             pid = oid("person", f"vt|{slug}-county|{pslug}")

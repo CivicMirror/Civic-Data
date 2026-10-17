@@ -1,0 +1,71 @@
+# Bennington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: bennington-vt-county/2022-11-08/general
+name: Bennington County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: bennington-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/304e1ad9-7ec4-5a8c-9cc2-b505323fe9fb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/304e1ad9-7ec4-5a8c-9cc2-b505323fe9fb
+    name: Erica Albin Marthage
+- id: bennington-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8d2c8b58-5e70-5228-a6c0-7dfb409ef122
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8d2c8b58-5e70-5228-a6c0-7dfb409ef122
+    name: James A. Gulley, Jr
+- id: bennington-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/629c5d36-c91d-58ad-8b5e-d0ab4af76ecf
+  - ocd-person/d9307c9f-d3b2-5248-a2b4-e47a44d5579d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/629c5d36-c91d-58ad-8b5e-d0ab4af76ecf
+    name: Mary C. Frost
+  - person_id: ocd-person/d9307c9f-d3b2-5248-a2b4-e47a44d5579d
+    name: Brian W. Peat
+sources:
+- url: https://electionarchive.vermont.gov/contest/158033
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Bennington
+    County'' (county totals): Erica Albin Marthage (Democratic/Republican) 12,016
+    votes; write-ins 204. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157893
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Bennington County''
+    (county totals): James A. Gulley, Jr (Democratic) 8,478 votes; Joel R. Howard,
+    Jr (Republican) 5,576; Beau Alexander, Sr (Independent) 1,227; write-ins 12. The
+    contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157845
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Bennington County'' (vote for 2; county
+    totals): Mary C. Frost (Democratic/Republican) 11,096 votes; Brian W. Peat (Democratic/Republican)
+    9,872; write-ins 84. Mary C. Frost and Brian W. Peat were the only two candidates
+    for the two seats. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
