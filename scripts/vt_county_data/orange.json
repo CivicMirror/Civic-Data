@@ -1,0 +1,110 @@
+{
+ "county": "orange",
+ "name": "Orange County",
+ "dept_url": "https://prosecutors.vermont.gov/offices/orange",
+ "dept_sa": "Colin Seaman (listed as Interim State's Attorney)",
+ "dept_sheriff": "George Contois",
+ "offices": {
+  "states-attorney": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/158040",
+   "candidates": [
+    {
+     "name": "Dickson Corbett",
+     "party": "Independent",
+     "votes": 10249,
+     "winner": true
+    }
+   ],
+   "write_ins": 89,
+   "note_extra": "Mid-term change: the 2022 winner, Dickson Corbett, no longer holds the office; the Department page lists Colin Seaman as Interim State's Attorney (see county notes)."
+  },
+  "sheriff": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157900",
+   "candidates": [
+    {
+     "name": "George Contois",
+     "party": "Democratic",
+     "votes": 6606,
+     "winner": true
+    },
+    {
+     "name": "Bill Bohnyak",
+     "party": "Republican",
+     "votes": 6500,
+     "winner": false
+    }
+   ],
+   "write_ins": 20,
+   "final_note": "The figures recorded here are the final recount figures. The Elections Database contest page carries the canvass figures (Contois 6,603; Bohnyak 6,503; write-ins 20). Bohnyak petitioned for a recount; the recount, completed November 28, 2022 and certified by the Superior Court the following day, added three votes to Contois and removed three from Bohnyak, for a final tally of 6,606 to 6,500 (White River Valley Herald, 'Recount Confirms Contois Is Winner'). The Secretary of State's results index lists this race among the 2022 general election recounts.",
+   "extra_sources": [
+    {
+     "url": "https://www.ourherald.com/articles/recount-confirms-contois-is-winner/",
+     "note": "The White River Valley Herald, 'Recount Confirms Contois Is Winner' (November/December 2022): the recount expanded George Contois's lead to a final tally of 6,606 to 6,500 over incumbent Sheriff Bill Bohnyak; Superior Court Judge Elizabeth Mann certified the results on November 29, 2022."
+    }
+   ]
+  },
+  "assistant-judge": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157852",
+   "vote_for": 2,
+   "candidates": [
+    {
+     "name": "Laurel Mackin",
+     "party": "Democratic",
+     "votes": 8505,
+     "winner": true
+    },
+    {
+     "name": "Joyce McKeeman",
+     "party": "Democratic",
+     "votes": 8364,
+     "winner": true
+    }
+   ],
+   "write_ins": 234
+  },
+  "high-bailiff": {
+   "election": "2024",
+   "db_url": "https://electionarchive.vermont.gov/contest/160981",
+   "write_in_winner": true,
+   "candidates": [
+    {
+     "name": "Chris Helali",
+     "party": null,
+     "votes": 446,
+     "winner": true
+    }
+   ],
+   "write_ins": 1887,
+   "final_note": "The Elections Database names no candidate for this contest. Two write-in campaigns were waged for the seat (Chris Helali of Vershire and Tom Harty of Randolph); the state Canvassing Committee certified Helali the winner with 446 votes, as reported by The White River Valley Herald ('Helali Wins High Bailiff As Write-In', November 14, 2024, citing the official certification) and confirmed in Seven Days' 2026 retrospective. No party label attaches to a write-in candidacy.",
+   "extra_sources": [
+    {
+     "url": "https://www.sevendaysvt.com/news/election-2026/high-bailiff-position-is-in-the-spotlight-this-campaign-season/",
+     "note": "Seven Days (2026), 'High Bailiff Position Is in the Spotlight This Campaign Season': Chris Helali won the 2024 Orange County high bailiff election by earning 446 votes through a write-in campaign."
+    },
+    {
+     "url": "https://www.ourherald.com/articles/a-high-bailiff-abroad-from-russia-helali-talks-oc-role/",
+     "note": "The White River Valley Herald (2025): Christopher Helali was elected high bailiff in Orange County in November 2024 as a write-in candidate and holds the office."
+    }
+   ]
+  }
+ },
+ "sa_transition": {
+  "outgoing": "Dickson Corbett",
+  "event": "appointed a Superior Court judge in 2023 (he had himself been appointed SA in April 2021 and won election in 2022)",
+  "interim_and_current": "Colin L. Seaman",
+  "sources": [
+   {
+    "url": "https://www.ourherald.com/articles/governor-appoints-familiar-faces-to-important-posts/",
+    "note": "White River Valley Herald (2023), reporting Governor Scott's appointments: Colin Seaman was appointed Orange County State's Attorney replacing H. Dickson Corbett, who was appointed a Superior Court judge; Seaman serves until February 1, 2027. The Governor's office announced the appointment on September 8, 2023."
+   },
+   {
+    "url": "https://prosecutors.vermont.gov/offices/orange",
+    "note": "Department of State's Attorneys and Sheriffs, Orange County office page: lists Colin Seaman as the office's State's Attorney (styled 'Interim State's Attorney' in its staff list) as of the October 2026 retrieval."
+   }
+  ],
+  "build_note": "Corbett: person (ballot name Dickson Corbett) + 2022 candidacy + winner entry, NO membership (left for the bench in 2023). Seaman: person 'Colin L. Seaman' + membership, how_seated appointed, no candidacy. The note records the page's 'Interim' styling alongside the appointment reporting."
+ }
+}

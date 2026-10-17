@@ -1,0 +1,43 @@
+# Orange County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/02811ffd-7bf4-5ee1-b9e5-a83d5882f3eb
+name: Chris Helali
+identifiers: []
+candidacies:
+- contest_id: orange-vt-county/2024-11-05/high-bailiff
+  election_id: orange-vt-county/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orange/government
+  office_id: orange-vt-county/high-bailiff
+  party: null
+  ballot_name: Chris Helali
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/160981
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Orange County'' (county totals): no candidates
+    qualified for the ballot; the only votes recorded are write-ins: 1,887. The canvass
+    certified a write-in winner: Chris Helali, 446 write-in votes. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. High bailiffs are elected biennially (Vermont Constitution,
+    Chapter II, section 43); the November 3, 2026 general election decides the next
+    term. The Elections Database names no candidate for this contest. Two write-in
+    campaigns were waged for the seat (Chris Helali of Vershire and Tom Harty of Randolph);
+    the state Canvassing Committee certified Helali the winner with 446 votes, as
+    reported by The White River Valley Herald (''Helali Wins High Bailiff As Write-In'',
+    November 14, 2024, citing the official certification) and confirmed in Seven Days''
+    2026 retrospective. No party label attaches to a write-in candidacy.'
+  retrieved: '2026-10-17'
+- url: https://www.sevendaysvt.com/news/election-2026/high-bailiff-position-is-in-the-spotlight-this-campaign-season/
+  note: 'Seven Days (2026), ''High Bailiff Position Is in the Spotlight This Campaign
+    Season'': Chris Helali won the 2024 Orange County high bailiff election by earning
+    446 votes through a write-in campaign.'
+  retrieved: '2026-10-17'
+- url: https://www.ourherald.com/articles/a-high-bailiff-abroad-from-russia-helali-talks-oc-role/
+  note: 'The White River Valley Herald (2025): Christopher Helali was elected high
+    bailiff in Orange County in November 2024 as a write-in candidate and holds the
+    office.'
+  retrieved: '2026-10-17'

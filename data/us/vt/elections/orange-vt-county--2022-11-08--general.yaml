@@ -1,0 +1,79 @@
+# Orange County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: orange-vt-county/2022-11-08/general
+name: Orange County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: orange-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orange/government
+  office_id: orange-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/90006e1b-dab0-5408-a3fc-ca67d7aef8a9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/90006e1b-dab0-5408-a3fc-ca67d7aef8a9
+    name: Dickson Corbett
+- id: orange-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orange/government
+  office_id: orange-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6cd17e07-33fb-5855-a703-27daad399cf6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6cd17e07-33fb-5855-a703-27daad399cf6
+    name: George Contois
+- id: orange-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orange/government
+  office_id: orange-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/f6625b72-0a7e-5214-9688-fa61433c8884
+  - ocd-person/315055fb-f7d0-5398-996a-809694ce8463
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f6625b72-0a7e-5214-9688-fa61433c8884
+    name: Laurel Mackin
+  - person_id: ocd-person/315055fb-f7d0-5398-996a-809694ce8463
+    name: Joyce McKeeman
+sources:
+- url: https://electionarchive.vermont.gov/contest/158040
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Orange
+    County'' (county totals): Dickson Corbett (Independent) 10,249 votes; write-ins
+    89. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term. Mid-term change: the 2022 winner, Dickson Corbett, no longer holds
+    the office; the Department page lists Colin Seaman as Interim State''s Attorney
+    (see county notes).'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157900
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Orange County'' (county
+    totals): George Contois (Democratic) 6,606 votes; Bill Bohnyak (Republican) 6,500;
+    write-ins 20. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term. The figures recorded here are
+    the final recount figures. The Elections Database contest page carries the canvass
+    figures (Contois 6,603; Bohnyak 6,503; write-ins 20). Bohnyak petitioned for a
+    recount; the recount, completed November 28, 2022 and certified by the Superior
+    Court the following day, added three votes to Contois and removed three from Bohnyak,
+    for a final tally of 6,606 to 6,500 (White River Valley Herald, ''Recount Confirms
+    Contois Is Winner''). The Secretary of State''s results index lists this race
+    among the 2022 general election recounts.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157852
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Orange County'' (vote for 2; county
+    totals): Laurel Mackin (Democratic) 8,505 votes; Joyce McKeeman (Democratic) 8,364;
+    write-ins 234. Laurel Mackin and Joyce McKeeman were the only two candidates for
+    the two seats. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
