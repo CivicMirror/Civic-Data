@@ -1,0 +1,36 @@
+# Vermont Lieutenant Governor -- step 2 of the build order (post + holder together);
+# issue #163 (VT master tracking).
+id: ocd-person/5a1a4693-3a27-57ed-a942-9ec0d502510c
+name: John S. Rodgers
+identifiers: []
+candidacies:
+- contest_id: vt/2024-11-05/lieutenant-governor
+  election_id: vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/lieutenant-governor
+  party: Republican
+  ballot_name: John S. Rodgers
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-16'
+  pipeline: build_vt_lieutenant_governor
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/elections_results_data/2024_general_election_official_report_canvassing_committee_united_states_vermont_statewide_offices.pdf
+  note: 'Vermont Secretary of State, Elections Division, Official Report of the Canvassing
+    Committee -- United States and Vermont Statewide Offices, General Election, November
+    5, 2024 (canvassed under 17 V.S.A. sections 2368-2371). For Lieutenant Governor:
+    John S. Rodgers 171,854 votes (46.09%, a plurality); David Zuckerman 165,876;
+    Ian Diamondstone 13,671; write-in 1,013. No candidate received the major part
+    of the votes, so under Chapter II, section 47 of the Vermont Constitution the
+    General Assembly elected the office by joint ballot on January 9, 2025, choosing
+    Rodgers 158-18 over Zuckerman; Rodgers was sworn in the same day. Party labels
+    are not printed in the canvass report; Rodgers'' Republican affiliation is as
+    printed in the Elections Division''s Official Returns of Votes for the same election.
+    The November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-16'
+- url: https://ltgov.vermont.gov/about/john-rodgers
+  note: 'Official site of the Office of the Lieutenant Governor (ltgov.vermont.gov),
+    ''About John Rodgers'': names John Rodgers of Glover as Vermont''s Lieutenant
+    Governor -- confirms him as the sitting holder as of the retrieval date.'
+  retrieved: '2026-10-16'

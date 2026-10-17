@@ -1,4 +1,5 @@
-# Vermont Governor election, November 5, 2024;
+# Vermont general election, November 5, 2024 -- statewide contests
+# are added one office at a time under the build order;
 # issue #163 (VT master tracking).
 id: vt/2024-11-05/general
 name: Vermont 2024-11-05 general election
@@ -16,6 +17,16 @@ contests:
   winners:
   - person_id: ocd-person/e0ae07cc-feca-5181-a0c7-752cf4509d9e
     name: Phil Scott
+- id: vt/2024-11-05/lieutenant-governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/lieutenant-governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5a1a4693-3a27-57ed-a942-9ec0d502510c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5a1a4693-3a27-57ed-a942-9ec0d502510c
+    name: John S. Rodgers
 sources:
 - url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/elections_results_data/2024_general_election_official_report_canvassing_committee_united_states_vermont_statewide_offices.pdf
   note: 'Vermont Secretary of State, Elections Division, Official Report of the Canvassing
