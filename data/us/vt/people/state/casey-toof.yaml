@@ -1,0 +1,40 @@
+# Franklin-8 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/fb40fa78-864d-5a77-9e84-576d03438917
+name: Casey Toof
+identifiers: []
+candidacies:
+- contest_id: vt-house-franklin-8/2024-11-05/state-representative
+  election_id: vt-house-franklin-8/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:franklin-8/legislature
+  office_id: vt-house-franklin-8/state-representative
+  party: Republican
+  ballot_name: Casey Toof
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161047
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Franklin-8 District'' (district
+    totals): Casey Toof (Republican) 1,416 votes; Zach Scheffler (Democratic) 825;
+    write-ins 11. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term. Casey
+    Toof resigned the seat in January 2026 (the House directory records January 16,
+    2026). Governor Phil Scott appointed John (Jack) Brigham to fill the vacancy,
+    effective immediately on February 20, 2026.'
+  retrieved: '2026-10-17'
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-appoints-jack-brigham-house-representatives
+  note: 'Office of Governor Phil Scott, press release (February 20, 2026), ''Governor
+    Phil Scott Appoints Jack Brigham to House of Representatives'': the Governor appointed
+    John (Jack) Brigham of St. Albans Town to fill the vacant Franklin-8 seat, replacing
+    Casey Toof, who resigned in January; the appointment is effective immediately.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    marks Casey Toof ''Resigned Jan. 16, 2026'' and lists Jack Brigham as the Franklin-8
+    representative.'
+  retrieved: '2026-10-17'
