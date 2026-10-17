@@ -1,0 +1,27 @@
+# Addison County -- worked example for the VT county tier (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/15cb002a-a10f-5009-8d80-3b41dbb695bd
+name: Dave Silberman
+identifiers: []
+candidacies:
+- contest_id: addison-vt-county/2024-11-05/high-bailiff
+  election_id: addison-vt-county/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:addison/government
+  office_id: addison-vt-county/high-bailiff
+  party: Democratic
+  ballot_name: Dave Silberman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-16'
+  pipeline: build_vt_addison_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/160973
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Addison County'' (county totals): Dave
+    Silberman (Democratic) 11,793 votes; Ron Holmes (Republican) 9,355; write-ins
+    93. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. High bailiffs are elected biennially (Vermont
+    Constitution, Chapter II, section 43); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-16'

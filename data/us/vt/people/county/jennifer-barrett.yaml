@@ -1,0 +1,30 @@
+# Orleans County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/45d872af-4c7a-5c4f-8ceb-08e80e17691a
+name: Jennifer Barrett
+identifiers: []
+candidacies:
+- contest_id: orleans-vt-county/2022-11-08/states-attorney
+  election_id: orleans-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orleans/government
+  office_id: orleans-vt-county/states-attorney
+  party: Democratic/Republican
+  ballot_name: Jennifer Barrett
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/158041
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Orleans
+    County'' (county totals): Jennifer Barrett (Democratic/Republican) 8,041 votes;
+    write-ins 673. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term. Mid-term change: the 2022 winner,
+    Jennifer Barrett, no longer holds the office; the Department page associates Farzana
+    Leyva with the office but styles her Deputy State''s Attorney in its staff list
+    (see county notes - resolve before building).'
+  retrieved: '2026-10-17'

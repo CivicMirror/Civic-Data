@@ -1,0 +1,70 @@
+# Washington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: washington-vt-county/2022-11-08/general
+name: Washington County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: washington-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:washington/government
+  office_id: washington-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/07fd8d8f-638b-50dd-8197-60e4863b5b4d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/07fd8d8f-638b-50dd-8197-60e4863b5b4d
+    name: Michelle Donnelly
+- id: washington-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:washington/government
+  office_id: washington-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0a7b67d9-1cec-596e-8e2a-bd72ef2b5b95
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0a7b67d9-1cec-596e-8e2a-bd72ef2b5b95
+    name: Marc Poulin
+- id: washington-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:washington/government
+  office_id: washington-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/da3e34ac-656e-54c2-bafe-837eb06fa12c
+  - ocd-person/fa022892-3a1b-5e1c-ab2d-ddf8c476198b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/da3e34ac-656e-54c2-bafe-837eb06fa12c
+    name: Elizabeth Battey
+  - person_id: ocd-person/fa022892-3a1b-5e1c-ab2d-ddf8c476198b
+    name: Leah Murphy Jones
+sources:
+- url: https://electionarchive.vermont.gov/contest/158043
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Washington
+    County'' (county totals): Michelle Donnelly (Democratic) 21,388 votes; write-ins
+    421. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157903
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Washington County''
+    (county totals): Marc Poulin (Democratic/Republican) 21,245 votes; write-ins 248.
+    The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157855
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Washington County'' (vote for 2; county
+    totals): Elizabeth Battey (Democratic) 16,189 votes; Leah Murphy Jones (Democratic)
+    15,575; Bret Meyer (Republican) 7,358; Ronald Cushing, Jr (Republican) 7,190;
+    write-ins 63. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

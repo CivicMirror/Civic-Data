@@ -1,0 +1,70 @@
+# Essex County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: essex-vt-county/2022-11-08/general
+name: Essex County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: essex-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:essex/government
+  office_id: essex-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a78f3f40-06d1-5546-9bb2-ef828824ca01
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a78f3f40-06d1-5546-9bb2-ef828824ca01
+    name: Vincent Illuzzi
+- id: essex-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:essex/government
+  office_id: essex-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/146d3abb-cae2-535a-9cd6-aafb3bf6c843
+  result_status: certified
+  winners:
+  - person_id: ocd-person/146d3abb-cae2-535a-9cd6-aafb3bf6c843
+    name: Trevor Colby
+- id: essex-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:essex/government
+  office_id: essex-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/4cea3069-ea70-5d88-a02b-3d8c8f740587
+  - ocd-person/00564712-4027-57ab-8fda-0de467cde600
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4cea3069-ea70-5d88-a02b-3d8c8f740587
+    name: Evan Hammond
+  - person_id: ocd-person/00564712-4027-57ab-8fda-0de467cde600
+    name: Kenn Stransky
+sources:
+- url: https://electionarchive.vermont.gov/contest/158036
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Essex
+    County'' (county totals): Vincent Illuzzi (Republican) 1,865 votes; write-ins
+    54. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157896
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Essex County'' (county
+    totals): Trevor Colby (Democratic/Republican) 2,094 votes; write-ins 30. The contest
+    page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157848
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Essex County'' (vote for 2; county totals):
+    Evan Hammond (Republican) 1,632 votes; Kenn Stransky (Republican) 1,227; write-ins
+    33. Evan Hammond and Kenn Stransky were the only two candidates for the two seats.
+    The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'

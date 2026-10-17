@@ -1,0 +1,110 @@
+{
+  "county": "caledonia",
+  "name": "Caledonia County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/caledonia",
+  "dept_sa": "Claire Burns",
+  "dept_sheriff": "Brandon Thrailkill",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158034",
+      "candidates": [
+        {
+          "name": "Jessica E. Zaleski",
+          "party": "Democratic/Republican",
+          "votes": 9960,
+          "winner": true
+        }
+      ],
+      "write_ins": 118
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157894",
+      "candidates": [
+        {
+          "name": "James A. Hemond",
+          "party": "Republican",
+          "votes": 6279,
+          "winner": true
+        },
+        {
+          "name": "Joel M. Pierce",
+          "party": "Independent",
+          "votes": 5459,
+          "winner": false
+        }
+      ],
+      "write_ins": 34
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157846",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "John S. Hall",
+          "party": "Independent",
+          "votes": 8540,
+          "winner": true
+        },
+        {
+          "name": "Merle L. Haskins",
+          "party": "Independent",
+          "votes": 6971,
+          "winner": true
+        }
+      ],
+      "write_ins": 80
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160975",
+      "candidates": [
+        {
+          "name": "Robert Gerrish",
+          "party": "Republican",
+          "votes": 12575,
+          "winner": true
+        }
+      ],
+      "write_ins": 349
+    }
+  },
+  "transitions": {
+    "states-attorney": {
+      "interim_and_current": "Claire Burns",
+      "sources": [
+        {
+          "url": "https://prosecutors.vermont.gov/offices/caledonia",
+          "note": "Vermont Department of State's Attorneys and Sheriffs, Caledonia County office page: lists Claire Burns as State's Attorney -- the sitting holder as of the retrieval date. The 2022 winner, Jessica E. Zaleski, later vacated the office mid-term and Governor Scott appointed Burns to fill the vacancy; the appointment was publicly reported by September 2025, but no appointment instrument or exact date was located in official sources, so no date is asserted in this record. Burns is the incumbent running unopposed for the 2026 term (Hardwick Gazette, June 9, 2026)."
+        },
+        {
+          "url": "https://hardwickgazette.org/2025/09/23/judicial-system-fails-victims-of-sexual-abuse/",
+          "note": "Hardwick Gazette, September 23, 2025: reports that Caledonia County State's Attorney Claire Burns was appointed by Governor Scott."
+        },
+        {
+          "url": "https://hardwickgazette.org/2026/06/09/county-positions-up-for-election-this-year/",
+          "note": "Hardwick Gazette, June 9, 2026: Caledonia County State's Attorney Claire Burns (R-Walden) is running unopposed for re-election in 2026."
+        }
+      ]
+    },
+    "sheriff": {
+      "interim_and_current": "Brandon Thrailkill",
+      "sources": [
+        {
+          "url": "https://governor.vermont.gov/press-release/governor-phil-scott-appoints-brandon-thrailkill-caledonia-county-sheriff",
+          "note": "Office of Governor Phil Scott, press release, April 28, 2025: Governor Scott appointed Brandon Thrailkill of Lyndonville as Caledonia County Sheriff following the passing of Sheriff James Hemond earlier that spring; the appointment was effective immediately. Thrailkill, the department's state transport deputy and captain, had led the department since Hemond's death."
+        },
+        {
+          "url": "https://prosecutors.vermont.gov/offices/caledonia",
+          "note": "Vermont Department of State's Attorneys and Sheriffs, Caledonia County office page: lists Brandon Thrailkill as Sheriff -- the sitting holder as of the retrieval date."
+        },
+        {
+          "url": "https://hardwickgazette.org/2026/06/09/county-positions-up-for-election-this-year/",
+          "note": "Hardwick Gazette, June 9, 2026: Governor Scott swore in Sheriff Brandon Thrailkill on April 30, 2025, following the death of Sheriff James Hemond earlier that year; Thrailkill is running to continue serving as Sheriff."
+        }
+      ]
+    }
+  }
+}

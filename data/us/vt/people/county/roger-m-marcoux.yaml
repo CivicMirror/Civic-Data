@@ -1,0 +1,32 @@
+# Lamoille County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/49ef2b2a-0bf3-5ce9-9b41-19daefda72a8
+name: Roger M. Marcoux
+identifiers: []
+candidacies:
+- contest_id: lamoille-vt-county/2022-11-08/sheriff
+  election_id: lamoille-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:lamoille/government
+  office_id: lamoille-vt-county/sheriff
+  party: Democratic/Republican
+  ballot_name: Roger M. Marcoux
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157899
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Lamoille County''
+    (county totals): Roger M. Marcoux (Democratic/Republican) 9,372 votes; write-ins
+    107. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://prosecutors.vermont.gov/offices/lamoille
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Lamoille County office
+    page: lists Aliena Gerhard as State''s Attorney and Roger Marcoux as Sheriff --
+    the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,26 @@
+# Grand Isle County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: grand-isle-vt-county/2024-11-05/general
+name: Grand Isle County 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: grand-isle-vt-county/2024-11-05/high-bailiff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:grand-isle/government
+  office_id: grand-isle-vt-county/high-bailiff
+  vote_for: 1
+  candidate_ids: []
+  result_status: official
+  winners: []
+sources:
+- url: https://electionarchive.vermont.gov/contest/160979
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Grand Isle County'' (county totals): the
+    contest page states ''No qualifying candidates in this contest''; the only votes
+    recorded are write-ins: 434. No winner is named in the database and none is recorded
+    here, and no holder is minted for the seat. The contest page''s cited official
+    source is the Secretary of State''s ''November 5, 2024 General Official Results.pdf''.
+    High bailiffs are elected biennially (Vermont Constitution, Chapter II, section
+    43); the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

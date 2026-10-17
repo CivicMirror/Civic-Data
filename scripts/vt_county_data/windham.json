@@ -1,0 +1,85 @@
+{
+ "county": "windham",
+ "name": "Windham County",
+ "dept_url": "https://prosecutors.vermont.gov/offices/windham",
+ "dept_sa": "Steven Brown",
+ "dept_sheriff": "Mark Anderson",
+ "offices": {
+  "states-attorney": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/158044",
+   "candidates": [
+    {
+     "name": "Tracy Kelly Shriver",
+     "party": "Democratic",
+     "votes": 15686,
+     "winner": true
+    }
+   ],
+   "write_ins": 217,
+   "note_extra": "Mid-term change: the 2022 winner, Tracy Kelly Shriver, no longer holds the office; the Department page lists Steven Brown as the sitting State's Attorney (see county notes)."
+  },
+  "sheriff": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157904",
+   "candidates": [
+    {
+     "name": "Mark Anderson",
+     "party": "Democratic",
+     "votes": 15524,
+     "winner": true
+    }
+   ],
+   "write_ins": 244
+  },
+  "assistant-judge": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157856",
+   "vote_for": 2,
+   "candidates": [
+    {
+     "name": "Carolyn W. Partridge",
+     "party": "Democratic",
+     "votes": 12219,
+     "winner": true
+    },
+    {
+     "name": "Lamont Barnett",
+     "party": "Democratic",
+     "votes": 9402,
+     "winner": true
+    },
+    {
+     "name": "Mildred Barry",
+     "party": "Independent",
+     "votes": 5637,
+     "winner": false
+    }
+   ],
+   "write_ins": 169
+  },
+  "high-bailiff": {
+   "election": "2024",
+   "db_url": "https://electionarchive.vermont.gov/contest/160985",
+   "candidates": [],
+   "write_ins": 1505,
+   "no_candidates": true
+  }
+ },
+ "sa_transition": {
+  "outgoing": "Tracy Kelly Shriver",
+  "event": "retired (announced July 29, 2024)",
+  "interim_and_current": "Steven Brown",
+  "sources": [
+   {
+    "url": "https://prosecutors.vermont.gov/assets/Uploads/WCSAO-Kelly-Shriver-Press-Release-7.29.24.pdf",
+    "note": "Department of State's Attorneys and Sheriffs press release, July 29, 2024: Windham County State's Attorney Tracy Kelly-Shriver announced her retirement after 25 years as a Windham County prosecutor; Deputy State's Attorney Steve Brown to serve as interim State's Attorney pending the Governor's review of candidates. Brown had been a deputy in the office since 2007."
+   },
+   {
+    "url": "https://prosecutors.vermont.gov/offices/windham",
+    "note": "Department of State's Attorneys and Sheriffs, Windham County office page: lists Steven Brown as the sitting State's Attorney (and Mark Anderson as Sheriff) as of the October 2026 retrieval."
+   }
+  ],
+  "build_note": "Shriver: person + 2022 candidacy + election winner entry, NO membership (retired mid-term). Brown: membership as sitting SA, how_seated appointed; note states the retirement/interim sequence the sources establish; no appointment date asserted."
+ }
+}

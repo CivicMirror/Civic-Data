@@ -1,0 +1,33 @@
+# Addison County -- worked example for the VT county tier (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/0f267fb3-d4cf-5ce8-a8b0-6d9a0cfa559e
+name: Michael R. Elmore
+identifiers: []
+candidacies:
+- contest_id: addison-vt-county/2022-11-08/sheriff
+  election_id: addison-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:addison/government
+  office_id: addison-vt-county/sheriff
+  party: Democratic/Republican
+  ballot_name: Michael R. Elmore
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-16'
+  pipeline: build_vt_addison_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157892
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Addison County''
+    (county totals): Michael R. Elmore (Democratic/Republican) 8,177 votes; Gerald
+    Grant (Independent) 3,807; Mark A. Stacey (Independent) 3,106; write-ins 138.
+    The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-16'
+- url: https://prosecutors.vermont.gov/offices/addison
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Addison County office
+    page: lists Eva Vekos as Addison County State''s Attorney and Michael Elmore as
+    Addison County Sheriff -- the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-16'

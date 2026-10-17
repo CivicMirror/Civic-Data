@@ -1,0 +1,72 @@
+# Franklin County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: franklin-vt-county/2022-11-08/general
+name: Franklin County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: franklin-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:franklin/government
+  office_id: franklin-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/36c6f8d9-4dc5-559e-8421-813611f059ac
+  result_status: certified
+  winners:
+  - person_id: ocd-person/36c6f8d9-4dc5-559e-8421-813611f059ac
+    name: John Lavoie
+- id: franklin-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:franklin/government
+  office_id: franklin-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/016ad537-120d-54f8-99a5-7336f88a94e1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/016ad537-120d-54f8-99a5-7336f88a94e1
+    name: John Grismore
+- id: franklin-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:franklin/government
+  office_id: franklin-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/7e3cb0d6-4bd5-5018-b943-30c724268078
+  - ocd-person/2abf0488-210b-504b-83fc-d041631be253
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7e3cb0d6-4bd5-5018-b943-30c724268078
+    name: Kelly Fitzgerald Gosselin
+  - person_id: ocd-person/2abf0488-210b-504b-83fc-d041631be253
+    name: Josh Aldrich
+sources:
+- url: https://electionarchive.vermont.gov/contest/158037
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Franklin
+    County'' (county totals): John Lavoie (Democratic) 10,316 votes; Zach Weight (Republican)
+    8,512; write-ins 33. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term. Mid-term change:
+    the 2022 winner, John Lavoie, no longer holds the office; the Department page
+    lists Bram W. Kranichfeld as the sitting State''s Attorney (see county notes).'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157897
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Franklin County''
+    (county totals): John Grismore (Democratic/Republican) 8,900 votes; write-ins
+    7,373. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157849
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Franklin County'' (vote for 2; county
+    totals): Kelly Fitzgerald Gosselin (Democratic) 9,740 votes; Josh Aldrich (Republican)
+    8,727; Jay H. Sweeny (Democratic/Republican) 8,715; write-ins 69. The contest
+    page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'

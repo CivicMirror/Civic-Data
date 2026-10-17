@@ -1,0 +1,63 @@
+{
+  "county": "rutland",
+  "name": "Rutland County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/rutland",
+  "dept_sa": "Ian Sullivan",
+  "dept_sheriff": "David Fox",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158042",
+      "candidates": [
+        {
+          "name": "Ian Sullivan",
+          "party": "Democratic",
+          "votes": 18404,
+          "winner": true
+        }
+      ],
+      "write_ins": 525
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157902",
+      "candidates": [
+        {
+          "name": "David J. Fox",
+          "party": "Democratic/Republican",
+          "votes": 20468,
+          "winner": true
+        }
+      ],
+      "write_ins": 206
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157854",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Dave Wolk",
+          "party": "Independent",
+          "votes": 15285,
+          "winner": true
+        },
+        {
+          "name": "Stephen P. Benard",
+          "party": "Democratic/Republican",
+          "votes": 14736,
+          "winner": true
+        }
+      ],
+      "write_ins": 162
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160983",
+      "no_candidates": true,
+      "candidates": [],
+      "write_ins": null,
+      "final_note": "Before recording this contest winner-less, certification reporting was checked for a certified write-in winner (the check that found Orange County's Chris Helali and Essex County's Eric Engel): no source names a 2024 Rutland County high bailiff winner, so the seat is recorded with no winner and no holder, on the same footing as Grand Isle, Orleans, Windham and Windsor counties."
+    }
+  }
+}

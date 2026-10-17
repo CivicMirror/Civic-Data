@@ -1,0 +1,28 @@
+# Bennington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: bennington-vt-county/2024-11-05/general
+name: Bennington County 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: bennington-vt-county/2024-11-05/high-bailiff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/high-bailiff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a1feb2f2-1ca5-500e-b1bd-09e02781839c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a1feb2f2-1ca5-500e-b1bd-09e02781839c
+    name: William "Will" Greer
+sources:
+- url: https://electionarchive.vermont.gov/contest/160974
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Bennington County'' (county totals): William
+    "Will" Greer (Democratic) 9,744 votes; Andrew Shaw (Independent) 8,208; write-ins
+    210. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. High bailiffs are elected biennially (Vermont
+    Constitution, Chapter II, section 43); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'

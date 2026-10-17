@@ -1,0 +1,32 @@
+# Grand Isle County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/2d2baa6e-ee7c-5156-a479-62289063b40c
+name: Douglas Disabito
+identifiers: []
+candidacies:
+- contest_id: grand-isle-vt-county/2022-11-08/states-attorney
+  election_id: grand-isle-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:grand-isle/government
+  office_id: grand-isle-vt-county/states-attorney
+  party: Democratic/Republican
+  ballot_name: Douglas Disabito
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/158038
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Grand
+    Isle County'' (county totals): Douglas Disabito (Democratic/Republican) 3,425
+    votes; write-ins 22. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://prosecutors.vermont.gov/offices/grand-isle
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Grand Isle County
+    office page: lists Douglas DiSabito as State''s Attorney and Ray Allen as Sheriff
+    -- the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-17'

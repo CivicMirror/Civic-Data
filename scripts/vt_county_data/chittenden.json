@@ -1,0 +1,43 @@
+{
+  "county": "chittenden",
+  "name": "Chittenden County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/chittenden",
+  "dept_sa": "Sarah George",
+  "dept_sheriff": "Daniel Gamelin",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158035",
+      "candidates": [
+        {"name": "Sarah F. George", "party": "Democratic/Progressive", "votes": 53766, "winner": true}
+      ],
+      "write_ins": 3867
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157895",
+      "candidates": [
+        {"name": "Dan Gamelin", "party": "Democratic/Republican", "votes": 56879, "winner": true}
+      ],
+      "write_ins": 740
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157847",
+      "vote_for": 2,
+      "candidates": [
+        {"name": "Suzanne Brown", "party": "Democratic", "votes": 50517, "winner": true},
+        {"name": "Connie Cain Ramsey", "party": "Democratic", "votes": 44916, "winner": true}
+      ],
+      "write_ins": 925
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160976",
+      "candidates": [
+        {"name": "Johnny Trutor", "party": "Democratic", "votes": 69780, "winner": true}
+      ],
+      "write_ins": 1639
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Franklin County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/38df6c97-6e37-53f3-bd84-02faaee29fe1
+name: Nicholas A. Brosseau
+identifiers: []
+candidacies:
+- contest_id: franklin-vt-county/2024-11-05/high-bailiff
+  election_id: franklin-vt-county/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:franklin/government
+  office_id: franklin-vt-county/high-bailiff
+  party: Democratic/Republican
+  ballot_name: Nicholas A. Brosseau
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/160978
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Franklin County'' (county totals): Nicholas
+    A. Brosseau (Democratic/Republican) 21,916 votes; write-ins 333. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. High bailiffs are elected biennially (Vermont Constitution,
+    Chapter II, section 43); the November 3, 2026 general election decides the next
+    term.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,101 @@
+{
+ "county": "franklin",
+ "name": "Franklin County",
+ "dept_url": "https://prosecutors.vermont.gov/offices/franklin",
+ "dept_sa": "Bram W. Kranichfeld",
+ "dept_sheriff": "John Grismore",
+ "offices": {
+  "states-attorney": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/158037",
+   "candidates": [
+    {
+     "name": "John Lavoie",
+     "party": "Democratic",
+     "votes": 10316,
+     "winner": true
+    },
+    {
+     "name": "Zach Weight",
+     "party": "Republican",
+     "votes": 8512,
+     "winner": false
+    }
+   ],
+   "write_ins": 33,
+   "note_extra": "Mid-term change: the 2022 winner, John Lavoie, no longer holds the office; the Department page lists Bram W. Kranichfeld as the sitting State's Attorney (see county notes)."
+  },
+  "sheriff": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157897",
+   "candidates": [
+    {
+     "name": "John Grismore",
+     "party": "Democratic/Republican",
+     "votes": 8900,
+     "winner": true
+    }
+   ],
+   "write_ins": 7373
+  },
+  "assistant-judge": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157849",
+   "vote_for": 2,
+   "candidates": [
+    {
+     "name": "Kelly Fitzgerald Gosselin",
+     "party": "Democratic",
+     "votes": 9740,
+     "winner": true
+    },
+    {
+     "name": "Josh Aldrich",
+     "party": "Republican",
+     "votes": 8727,
+     "winner": true
+    },
+    {
+     "name": "Jay H. Sweeny",
+     "party": "Democratic/Republican",
+     "votes": 8715,
+     "winner": false
+    }
+   ],
+   "write_ins": 69
+  },
+  "high-bailiff": {
+   "election": "2024",
+   "db_url": "https://electionarchive.vermont.gov/contest/160978",
+   "candidates": [
+    {
+     "name": "Nicholas A. Brosseau",
+     "party": "Democratic/Republican",
+     "votes": 21916,
+     "winner": true
+    }
+   ],
+   "write_ins": 333
+  }
+ },
+ "sa_transition": {
+  "outgoing": "John Lavoie",
+  "event": "resigned August 2023 during a House impeachment inquiry",
+  "interim_and_current": "Bram W. Kranichfeld",
+  "sources": [
+   {
+    "url": "http://governor.vermont.gov/press-release/governor-phil-scott-appoints-bram-w-kranichfeld-franklin-county-interim-states",
+    "note": "Office of Governor Phil Scott press release (September 2023): Governor Scott appointed Bram W. Kranichfeld as Franklin County Interim State's Attorney following the resignation of John Lavoie, to serve until a permanent appointment was made."
+   },
+   {
+    "url": "https://www.samessenger.com/news/bram-kranichfeld-appointed-as-official-franklin-county-states-attorney/article_f915c550-e60e-11ee-aeaa-e7ddcb28303e.html",
+    "note": "St. Albans Messenger, March 19, 2024: Governor Scott announced the appointment of Bram Kranichfeld as Franklin County's State's Attorney (the permanent appointment, after his interim service from September 2023), to serve until the office's next election in 2026."
+   },
+   {
+    "url": "https://prosecutors.vermont.gov/offices/franklin",
+    "note": "Department of State's Attorneys and Sheriffs, Franklin County office page: lists Bram W. Kranichfeld as the sitting State's Attorney as of the October 2026 retrieval."
+   }
+  ],
+  "build_note": "Lavoie: person + 2022 candidacy + election winner entry, NO membership (resigned 2023). Kranichfeld: person + membership, how_seated appointed, no candidacy."
+ }
+}
