@@ -1,0 +1,31 @@
+# Grand Isle-Chittenden House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-grand-isle-chittenden/2024-11-05/general
+name: Grand Isle-Chittenden House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-grand-isle-chittenden/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:grand-isle-chittenden/legislature
+  office_id: vt-house-grand-isle-chittenden/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/e9596971-4e07-5be8-a234-56f1d050fa57
+  - ocd-person/33cec211-04ab-525a-b7b7-391704133e10
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e9596971-4e07-5be8-a234-56f1d050fa57
+    name: Michael R. Morgan
+  - person_id: ocd-person/33cec211-04ab-525a-b7b7-391704133e10
+    name: Leland Morgan
+sources:
+- url: https://electionarchive.vermont.gov/contest/161030
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Grand Isle-Chittenden District''
+    (district totals): Michael R. Morgan (Republican) 3,211 votes; Leland Morgan (Republican)
+    3,175; Josie Leavitt (Democratic) 2,368; Luke Richter (Democratic) 1,719; write-ins
+    23. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State representatives serve two-year terms;
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
