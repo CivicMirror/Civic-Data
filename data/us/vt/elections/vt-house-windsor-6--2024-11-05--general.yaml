@@ -1,0 +1,31 @@
+# Windsor-6 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-windsor-6/2024-11-05/general
+name: Windsor-6 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-windsor-6/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:windsor-6/legislature
+  office_id: vt-house-windsor-6/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/182ab682-146a-5381-abbf-e6cedcc30e33
+  - ocd-person/c501afde-c339-5d3b-88ae-4b957fcc9937
+  result_status: certified
+  winners:
+  - person_id: ocd-person/182ab682-146a-5381-abbf-e6cedcc30e33
+    name: Esme Cole
+  - person_id: ocd-person/c501afde-c339-5d3b-88ae-4b957fcc9937
+    name: Kevin "Coach" Christie
+sources:
+- url: https://electionarchive.vermont.gov/contest/161095
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Windsor-6 District'' (district
+    totals): Esme Cole (Democratic/Progressive) 2,997 votes; Kevin "Coach" Christie
+    (Democratic) 2,649; Joe Trottier (Republican) 2,025; write-ins 82. The contest
+    page''s cited official source is the Secretary of State''s ''November 5, 2024
+    General Official Results.pdf''. State representatives serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
