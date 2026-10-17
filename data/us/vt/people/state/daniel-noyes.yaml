@@ -1,0 +1,31 @@
+# Lamoille-2 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/1af7b382-76cd-5c8e-994b-ab67fcf0ed8c
+name: Daniel Noyes
+identifiers: []
+candidacies:
+- contest_id: vt-house-lamoille-2/2024-11-05/state-representative
+  election_id: vt-house-lamoille-2/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:lamoille-2/legislature
+  office_id: vt-house-lamoille-2/state-representative
+  party: Democratic
+  ballot_name: Daniel Noyes
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161050
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Lamoille-2 District'' (district
+    totals): Daniel Noyes (Democratic) 2,141 votes; Richard J. Bailey (Republican)
+    2,055; Malcolm "Mac" Teale (Republican) 1,671; Jim Ryan (Democratic) 1,658; write-ins
+    13. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State representatives serve two-year terms;
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Lamoille-2 District.'
+  retrieved: '2026-10-17'
