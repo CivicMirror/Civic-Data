@@ -1,0 +1,31 @@
+# Caledonia-Essex House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/9ef03133-f92d-59b9-98d4-8a35ad1c1328
+name: R. Scott Campbell
+identifiers: []
+candidacies:
+- contest_id: vt-house-caledonia-essex/2024-11-05/state-representative
+  election_id: vt-house-caledonia-essex/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:caledonia-essex/legislature
+  office_id: vt-house-caledonia-essex/state-representative
+  party: Democratic
+  ballot_name: R. Scott Campbell
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161011
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Caledonia-Essex District'' (district
+    totals): Deborah Cordz Dolgin (Republican) 2,225 votes; R. Scott Campbell (Democratic)
+    2,159; Frank Empsall (Democratic) 1,541; write-ins 74. The contest page''s cited
+    official source is the Secretary of State''s ''November 5, 2024 General Official
+    Results.pdf''. State representatives serve two-year terms; the November 3, 2026
+    general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Caledonia-Essex District.'
+  retrieved: '2026-10-17'
