@@ -66,11 +66,23 @@ five offices, against 13 office types per county in Mississippi.
   chapter 5, subchapter 1). They sit with Superior Court judges and also
   administer county property and the county tax -- the closest Vermont
   analog to a county commission, held as a judicial office.
-- **Judge of Probate** -- elected (Ch. II, section 51), but **HELD**:
-  Vermont has 18 probate districts, not 14. Four counties are split into
-  two districts each, so probate posts must be modeled on probate-district
-  jurisdictions from the Vermont Judiciary's official enumeration, not
-  minted per county. Do not guess the district list.
+- **Judge of Probate** -- elected (Ch. II, section 51). **BUILT
+  2026-10-17 (PR #168).** Correction to an earlier note here: Vermont
+  has **14** probate districts, not 18 -- 4 V.S.A. section 272
+  provides one Probate district in each county, designated by the
+  name of the county, each electing one Probate judge; the Judiciary
+  lists exactly 14 county Probate Divisions and the Elections
+  Database carries exactly 14 Probate Judge contests (2022). The
+  "18" figure was stale pre-2010 material (Act 154 of 2010
+  consolidated the districts). Modeled as judicial-district
+  jurisdictions on the repo precedent (MA Middle District, TX):
+  `ocd-jurisdiction/country:us/state:vt/judicial_district:<county>/judiciary`,
+  post `<county>-vt-judicial-district/judge-of-probate`. All 14
+  seats filled from the 2022 general election; every winner was
+  verified as the sitting judge against the Judiciary's Probate
+  Division court pages (each page's Court Staff list names the
+  elected probate judge as the division's "Superior Judge") --
+  no mid-term transitions in this tier.
 - **High Bailiff** -- one per county, a Vermont-only office that serves
   process the sheriff cannot serve and succeeds the sheriff on vacancy
   or incapacity. Elected at the November general election (Ch. II,
