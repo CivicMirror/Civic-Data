@@ -1,0 +1,38 @@
+# Windham Probate District -- VT probate tier (jurisdiction + post + holder + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/7567cbb8-f091-5afd-a8a9-2c1bafed8407
+name: Jodi P. French
+identifiers: []
+candidacies:
+- contest_id: windham-vt-judicial-district/2022-11-08/judge-of-probate
+  election_id: windham-vt-judicial-district/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/judicial_district:windham/judiciary
+  office_id: windham-vt-judicial-district/judge-of-probate
+  party: Democratic
+  ballot_name: Jodi P. French
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_probate
+sources:
+- url: https://electionarchive.vermont.gov/contest/157888
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Probate Judge, Windham County'' (county totals): Jodi
+    P. French (Democratic) 15,689 votes; write-ins 259. The contest page''s cited
+    official source is the official return vt-2022_11_08_General_ALL.pdf. Probate
+    judges serve four-year terms beginning February 1 after the election (Vermont
+    Constitution, Chapter II, sections 50-51); the November 3, 2026 general election
+    decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://www.vtcourts.gov/court-locations/windham-probate-division
+  note: 'Vermont Judiciary, Windham Probate Division court page, Court Staff list:
+    names Jodi P. French as the division''s Superior Judge -- probate judges sit as
+    judges of the Superior Court''s Probate Division -- the sitting holder as of the
+    retrieval date.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/162215
+  note: 'Vermont Elections Database, August 11, 2026 Democratic primary, Probate Judge,
+    Windham County: Jodi P. French, 5,273 votes, unopposed -- the incumbent judge
+    seeking re-election.'
+  retrieved: '2026-10-17'
