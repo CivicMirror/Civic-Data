@@ -1,0 +1,24 @@
+# Windsor Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-jurisdiction/country:us/state:vt/sldu:windsor/legislature
+name: Windsor district (Vermont Senate delegation)
+state: vt
+division_id: ocd-division/country:us/state:vt/sldu:windsor
+classification: legislature
+government_form: three-member district (Vermont Senate)
+sources:
+- url: https://legislature.vermont.gov/reports-and-research/research/reapportionment/
+  note: 'Vermont General Assembly, Reapportionment research page: the current Senate
+    and House districts are those of the 2022 reapportionment -- H.722, enacted as
+    2022 Acts and Resolves No. 89 (signed April 6, 2022) under Title 17, chapter 34A.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/161112
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Windsor District'' (district totals): Rebecca
+    White (Democratic) 17,930 votes; Alison H. Clarkson (Democratic) 17,864; Joe Major
+    (Democratic) 16,792; Andrea Murray (Republican) 12,318; Jack Williams (Republican)
+    10,844; Jonathan Gleason (Republican) 10,720; Marc Nemeth (Independent) 2,903;
+    write-ins 118. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State senators serve two-year
+    terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
