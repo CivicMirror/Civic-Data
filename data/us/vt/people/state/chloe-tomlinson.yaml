@@ -1,0 +1,30 @@
+# Chittenden-21 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/6ef197ee-cdde-5fb4-92fb-00b3acd767c0
+name: Chloe Tomlinson
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-21/2024-11-05/state-representative
+  election_id: vt-house-chittenden-21/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-21/legislature
+  office_id: vt-house-chittenden-21/state-representative
+  party: Progressive/Democratic
+  ballot_name: Chloe Tomlinson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161040
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-21 District'' (district
+    totals): Daisy Berbeco (Democratic) 2,554 votes; Chloe Tomlinson (Progressive/Democratic)
+    2,183; write-ins 79. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-21 District.'
+  retrieved: '2026-10-17'

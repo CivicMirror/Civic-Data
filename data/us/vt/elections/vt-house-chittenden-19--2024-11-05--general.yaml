@@ -1,0 +1,31 @@
+# Chittenden-19 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-19/2024-11-05/general
+name: Chittenden-19 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-19/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-19/legislature
+  office_id: vt-house-chittenden-19/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/53ddd42b-b0c4-53b4-85ec-a658595096d7
+  - ocd-person/3c6795d8-abaf-5bb8-997e-5190455b9c42
+  result_status: certified
+  winners:
+  - person_id: ocd-person/53ddd42b-b0c4-53b4-85ec-a658595096d7
+    name: Wendy Critchlow
+  - person_id: ocd-person/3c6795d8-abaf-5bb8-997e-5190455b9c42
+    name: Sarita Austin
+sources:
+- url: https://electionarchive.vermont.gov/contest/161021
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-19 District'' (district
+    totals): Wendy Critchlow (Democratic) 2,682 votes; Sarita Austin (Democratic)
+    2,458; Leland Gazo (Republican) 2,408; Spencer Sherman (Republican/Libertarian)
+    934; write-ins 23. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

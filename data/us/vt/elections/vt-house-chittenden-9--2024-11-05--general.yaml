@@ -1,0 +1,27 @@
+# Chittenden-9 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-9/2024-11-05/general
+name: Chittenden-9 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-9/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-9/legislature
+  office_id: vt-house-chittenden-9/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fd600c25-43a0-5ee2-abf0-68888e6bf206
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fd600c25-43a0-5ee2-abf0-68888e6bf206
+    name: Emilie Krasnow
+sources:
+- url: https://electionarchive.vermont.gov/contest/161038
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-9 District'' (district
+    totals): Emilie Krasnow (Democratic) 1,924 votes; write-ins 50. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. State representatives serve two-year terms; the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

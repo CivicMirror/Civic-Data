@@ -1,0 +1,31 @@
+# Chittenden-20 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-20/2024-11-05/general
+name: Chittenden-20 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-20/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-20/legislature
+  office_id: vt-house-chittenden-20/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/a0bc8c2c-04dd-5b8c-83af-b4c46d223fdf
+  - ocd-person/f0cefa7c-5119-541d-8e71-81c4fc38b4e1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a0bc8c2c-04dd-5b8c-83af-b4c46d223fdf
+    name: Doug Bishop
+  - person_id: ocd-person/f0cefa7c-5119-541d-8e71-81c4fc38b4e1
+    name: Gayle Pezzo
+sources:
+- url: https://electionarchive.vermont.gov/contest/161022
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-20 District'' (district
+    totals): Doug Bishop (Democratic) 2,233 votes; Gayle Pezzo (Democratic) 1,742;
+    Doug Wood (Republican) 1,690; Joshua Cropp (Republican) 1,184; write-ins 22. The
+    contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State representatives serve two-year terms;
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

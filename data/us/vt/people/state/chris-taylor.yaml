@@ -1,0 +1,41 @@
+# Chittenden-Franklin House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/47f5bcca-7960-59b3-921d-6d4091c37f0e
+name: Chris Taylor
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-franklin/2024-11-05/state-representative
+  election_id: vt-house-chittenden-franklin/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-franklin/legislature
+  office_id: vt-house-chittenden-franklin/state-representative
+  party: Republican
+  ballot_name: Chris Taylor
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161028
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-Franklin District''
+    (district totals): Chris Taylor (Republican) 2,655 votes; Anthony "Tony" Micklus
+    (Republican) 1,973; Lonnie Poland (Democratic) 1,775; Henry A. Bonges Iii (Democratic)
+    1,126; write-ins 19. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.
+    Chris Taylor resigned the seat in 2026 (the House directory records March 27,
+    2026). Governor Phil Scott appointed Kumulia Long to fill the vacancy, effective
+    immediately on April 1, 2026.'
+  retrieved: '2026-10-17'
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-appoints-kumulia-long-house-representatives
+  note: 'Office of Governor Phil Scott, press release (April 1, 2026), ''Governor
+    Phil Scott Appoints Kumulia Long to House of Representatives'': the Governor appointed
+    Kumulia Long of Milton to fill the vacant Chittenden-Franklin seat, effective
+    immediately.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    marks Chris Taylor ''Resigned March 27, 2026'' and lists Kumulia Long as a Chittenden-Franklin
+    representative.'
+  retrieved: '2026-10-17'

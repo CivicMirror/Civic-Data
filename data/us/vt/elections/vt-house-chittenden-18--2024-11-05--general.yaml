@@ -1,0 +1,34 @@
+# Chittenden-18 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-18/2024-11-05/general
+name: Chittenden-18 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-18/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-18/legislature
+  office_id: vt-house-chittenden-18/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/aa5cfa9f-58d2-5451-802e-6bb3bb6a5cf3
+  - ocd-person/279486d1-303c-55f2-bc18-c2cfcb6c8ac3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/aa5cfa9f-58d2-5451-802e-6bb3bb6a5cf3
+    name: Carol Ode
+  - person_id: ocd-person/279486d1-303c-55f2-bc18-c2cfcb6c8ac3
+    name: Robert J. Hooper
+sources:
+- url: https://electionarchive.vermont.gov/contest/161019
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-18 District'' (district
+    totals): Carol Ode (Democratic) 3,264 votes; Robert J. Hooper (Democratic) 3,091;
+    write-ins 123. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term. Robert
+    Hooper resigned the seat in 2026 (the House directory records March 16, 2026).
+    Governor Phil Scott appointed Kevin Scully to fill the vacancy; the Governor''s
+    office lists the appointment among its second-quarter 2026 appointments (no dedicated
+    appointment release was issued).'
+  retrieved: '2026-10-17'

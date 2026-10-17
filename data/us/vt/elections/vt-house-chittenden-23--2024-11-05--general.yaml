@@ -1,0 +1,31 @@
+# Chittenden-23 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-23/2024-11-05/general
+name: Chittenden-23 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-23/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-23/legislature
+  office_id: vt-house-chittenden-23/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/448e710e-405d-570b-981b-51b59eb42a2a
+  - ocd-person/77e098b4-f6a8-5e5f-8160-a94cc144c4a4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/448e710e-405d-570b-981b-51b59eb42a2a
+    name: Leonora Dodge
+  - person_id: ocd-person/77e098b4-f6a8-5e5f-8160-a94cc144c4a4
+    name: Golrang "Rey" Garofano
+sources:
+- url: https://electionarchive.vermont.gov/contest/161024
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-23 District'' (district
+    totals): Leonora Dodge (Democratic) 2,816 votes; Golrang "Rey" Garofano (Democratic)
+    2,395; Lynn U. Smith (Republican) 2,093; write-ins 8. The contest page''s cited
+    official source is the Secretary of State''s ''November 5, 2024 General Official
+    Results.pdf''. State representatives serve two-year terms; the November 3, 2026
+    general election decides the next term.'
+  retrieved: '2026-10-17'
