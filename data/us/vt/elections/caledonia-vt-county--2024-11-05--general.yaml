@@ -1,0 +1,27 @@
+# Caledonia County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: caledonia-vt-county/2024-11-05/general
+name: Caledonia County 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: caledonia-vt-county/2024-11-05/high-bailiff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:caledonia/government
+  office_id: caledonia-vt-county/high-bailiff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ea509170-829e-57a1-8b39-bc699fe38510
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ea509170-829e-57a1-8b39-bc699fe38510
+    name: Robert Gerrish
+sources:
+- url: https://electionarchive.vermont.gov/contest/160975
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Caledonia County'' (county totals): Robert
+    Gerrish (Republican) 12,575 votes; write-ins 349. The contest page''s cited official
+    source is the Secretary of State''s ''November 5, 2024 General Official Results.pdf''.
+    High bailiffs are elected biennially (Vermont Constitution, Chapter II, section
+    43); the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
