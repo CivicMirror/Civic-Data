@@ -1,0 +1,36 @@
+# Vermont Attorney General -- step 4 of the build order (post + holder together);
+# issue #163 (VT master tracking).
+id: ocd-person/91490526-620b-5fd0-b847-13db063ea337
+name: Charity R. Clark
+identifiers: []
+candidacies:
+- contest_id: vt/2024-11-05/attorney-general
+  election_id: vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/attorney-general
+  party: Democratic
+  ballot_name: Charity R. Clark
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-16'
+  pipeline: build_vt_statewide_office
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/elections_results_data/2024_general_election_official_report_canvassing_committee_united_states_vermont_statewide_offices.pdf
+  note: 'Vermont Secretary of State, Elections Division, Official Report of the Canvassing
+    Committee -- United States and Vermont Statewide Offices, General Election, November
+    5, 2024 (canvassed under 17 V.S.A. sections 2368-2371), section 9, For Attorney
+    General: Charity R. Clark* 200,711 votes; Ture Nelson 128,798; Kevin Gustafson
+    17,159; write-in 490. The asterisk marks the winner, who took an outright majority
+    of the votes cast for the office. Party labels are not printed in the canvass
+    report; the affiliation recorded here is as printed in the Elections Division''s
+    Official Returns of Votes for the same election. The November 3, 2026 general
+    election decides the next term. The office of Attorney General is statutory (3
+    V.S.A. section 151).'
+  retrieved: '2026-10-16'
+- url: https://ago.vermont.gov/blog/2026/07/17/attorney-general-clark-and-secretary-state-copeland-hanzas-release-joint-statement-reaffirming
+  note: 'Official site of the Vermont Attorney General (ago.vermont.gov), office release
+    dated July 17, 2026: ''Attorney General Charity Clark and Secretary of State Sarah
+    Copeland Hanzas today released a joint statement...'' -- names Clark as the sitting
+    Attorney General as of the retrieval date.'
+  retrieved: '2026-10-16'
