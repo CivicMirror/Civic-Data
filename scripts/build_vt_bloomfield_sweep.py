@@ -34,11 +34,21 @@ HELD, deliberately not minted:
   explorer carries a ~2022 listing naming Paulette Routhier. A
   Vermont Attorneys Title directory pull (September 1, 2026) also
   names Bowen. Walter directed minting Bowen on 2026-10-16.
-- Moderator, Listers, Auditors, Constables, Grand Juror, Town Agent,
-  Collector of Delinquent Taxes: no official online source names
-  Bloomfield's holders (no town website; the printed annual town
-  report is not posted online). Posts are NOT created on speculation;
-  they wait for the town report or a clerk records reply.
+- Moderator, Listers, Auditors, Grand Juror, Town Agent: no official
+  online source names Bloomfield's holders (no town website; the
+  printed annual town report is not posted online), so these five
+  posts are created as STRUCTURE ONLY from 17 V.S.A. section 2646 --
+  the same posts-first pattern as the state/county build in
+  PR #165. Memberships await the town report or a clerk records
+  reply.
+- Constables and Collector of Delinquent Taxes: posts NOT created.
+  A post requires a seat count, and Vermont towns elect one or two
+  constables by local vote, which is unverifiable for Bloomfield;
+  the collector of delinquent taxes is the treasurer ex officio
+  unless the town votes to elect one separately (section 2651d),
+  likewise unverifiable. Trustees of Public Funds and Cemetery
+  Commissioners are elective only on town-specific predicates that
+  are also unverifiable from published sources.
 
 Conventions follow the VT state/county build (issue #163) and the MA
 municipal files: post id "{town}-vt/{office}", org filename = post
@@ -228,6 +238,43 @@ OFFICES = [
     ),
 ]
 
+STATUTE_URL = "https://legislature.vermont.gov/statutes/section/17/055/02646"
+
+
+def structure_source(descriptor):
+    return {
+        "url": STATUTE_URL,
+        "note": (
+            f"Office established for Vermont towns by 17 V.S.A. "
+            f"section 2646 ({descriptor}). No official source found "
+            f"as of 2026-10-16 publishes the current Bloomfield "
+            f"holder; the post is created as structure only and the "
+            f"membership awaits the printed annual town report or a "
+            f"clerk records reply."
+        ),
+        "retrieved": RETRIEVED,
+    }
+
+
+# slug, post title, seats, org name, statutory descriptor
+STRUCTURE_OFFICES = [
+    ("moderator", "Moderator", 1, "Bloomfield Moderator",
+     "moderator, elected annually"),
+    ("lister", "Lister", 3, "Bloomfield Listers",
+     "board of listers elected at annual meeting; three members "
+     "serve staggered three-year terms under section 2649"),
+    ("auditor", "Auditor", 3, "Bloomfield Auditors",
+     "auditors elected at annual meeting; three serve staggered "
+     "three-year terms under section 2651. A town may vote to "
+     "eliminate the office and engage a public accountant under "
+     "section 2651b; whether Bloomfield has done so is not "
+     "determinable from published sources"),
+    ("grand-juror", "Grand Juror", 1, "Bloomfield Grand Juror",
+     "grand juror, elected annually"),
+    ("town-agent", "Town Agent", 1, "Bloomfield Town Agent",
+     "town agent, elected annually"),
+]
+
 ELECTION_ID = "bloomfield-vt/2024-11-05/general"
 JP_CONTEST_ID = "bloomfield-vt/2024-11-05/justice-of-the-peace"
 
@@ -308,6 +355,34 @@ def main():
             if office_slug == "justice-of-the-peace":
                 people[name_slug] = (entry[0], entry[1], True)
 
+    for office_slug, title, seats, org_name, descriptor in STRUCTURE_OFFICES:
+        post_id = f"{TOWN_PREFIX}/{office_slug}"
+        org_id = oid("organization", f"vt|municipal|{post_id}")
+        src = structure_source(descriptor)
+        org = {
+            "id": org_id,
+            "name": org_name,
+            "jurisdiction_id": JURISDICTION_ID,
+            "identifiers": [
+                {"scheme": "civicmirror-office", "identifier": post_id}
+            ],
+            "status": "active",
+            "sources": [src],
+        }
+        created += dump(
+            DATA_DIR / "organizations" / "municipal" / f"{TOWN_PREFIX}-{office_slug}.yaml",
+            org, write)
+        post = {
+            "id": post_id,
+            "organization_id": org_id,
+            "title": title,
+            "seats": seats,
+            "sources": [src],
+        }
+        created += dump(
+            DATA_DIR / "posts" / "municipal" / f"{TOWN_PREFIX}-{office_slug}.yaml",
+            post, write)
+
     for name_slug, (display_name, sources, is_jp) in sorted(people.items()):
         candidacies = []
         if is_jp:
@@ -365,7 +440,8 @@ def main():
         election, write, ELECTION_HEADER)
 
     print(f"{'Created' if write else 'Would create'} {created} files "
-          f"({len(OFFICES)} orgs, {len(OFFICES)} posts, "
+          f"({len(OFFICES) + len(STRUCTURE_OFFICES)} orgs, "
+          f"{len(OFFICES) + len(STRUCTURE_OFFICES)} posts, "
           f"{sum(len(o[5]) for o in OFFICES)} memberships, "
           f"{len(people)} people, 1 election).")
 

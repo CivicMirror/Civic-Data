@@ -70,8 +70,11 @@ MUNICIPAL_OVERRIDES = {
             "Division directories; November 5, 2024 JP election record built. Town "
             "Clerk resolved to Ray Bowen (SOS clerk contact spreadsheet, June 2026; "
             "the SOS guide's Robidas and the explorer's Routhier listings are stale "
-            "vintages). Lesser town officers await the "
-            "printed town report or a clerk reply. No charter (general law), no "
+            "vintages). Lesser town offices (Moderator, Listers x3, Auditors x3, "
+            "Grand Juror, Town Agent) created as structure-only posts from 17 "
+            "V.S.A. section 2646; holders await the printed town report or a clerk "
+            "reply. Constable and Collector of Delinquent Taxes posts not created "
+            "(per-town variations unverifiable). No charter (general law), no "
             "official website, no published code."),
     },
 }
@@ -444,6 +447,24 @@ def main():
         "early 2026; Routhier's listing is a ~2022 artifact.",
         "Municipalities (Bloomfield row), Status Log",
         "VT SOS clerk contact spreadsheet (June 12, 2026); Vermont Attorneys Title town clerk directory (September 1, 2026); North Star Monthly Kingdom Guide clerk directory; VPIRG clerk list (~2022)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Bloomfield data set completed as far as available information allows (tracking PR #168; "
+        "supersedes the sweep entry's 'not minted' note for five of the six lesser offices). The five "
+        "remaining section 2646 town offices - Moderator (1 seat), Listers (3), Auditors (3), Grand "
+        "Juror (1), Town Agent (1) - were created as structure-only posts from 17 V.S.A. section 2646, "
+        "the posts-first pattern used for the state and county build. No official source publishes "
+        "Bloomfield's current holders for these offices, so memberships await the printed annual town "
+        "report or a clerk records reply. Constable and Collector of Delinquent Taxes posts were NOT "
+        "created: a post requires a seat count, towns elect one or two constables by local vote, and "
+        "the collector is the treasurer ex officio unless the town votes to elect one separately "
+        "(section 2651d) - both unverifiable from published sources. A final sweep of the VT "
+        "Jurisdiction Factory confirmed it carries Bloomfield selectboard data only. Bloomfield totals "
+        "in the repo: 9 posts, 10 memberships, 8 people, 1 election record.",
+        "Municipalities (Bloomfield row), Status Log",
+        "17 V.S.A. sections 2646, 2649, 2651, 2651b, 2651d (Vermont Statutes Online); VT Jurisdiction Factory v0.1 (coverage re-check 2026-10-16)",
         "CivicMirror",
     ])
     style_header(ws)
