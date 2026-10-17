@@ -1,0 +1,32 @@
+# Rutland Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/31dd0234-9623-5a34-85f9-acd2035dd48d
+name: Brian "Bc" Collamore
+identifiers: []
+candidacies:
+- contest_id: vt-senate-rutland/2024-11-05/state-senator
+  election_id: vt-senate-rutland/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:rutland/legislature
+  office_id: vt-senate-rutland/state-senator
+  party: Republican
+  ballot_name: Brian "Bc" Collamore
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_senate
+sources:
+- url: https://electionarchive.vermont.gov/contest/161113
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Rutland District'' (district totals): Brian
+    "Bc" Collamore (Republican) 18,380 votes; David Weeks (Republican) 16,097; Terry
+    K. Williams (Republican) 15,998; Marsha Cassel (Democratic) 12,040; Dana Peterson
+    (Democratic) 9,704; Robert J. Richards (Democratic) 9,235; write-ins 100. The
+    contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/Senate
+  note: 'Vermont General Assembly, All Senators directory (2025-2026 session): lists
+    the sitting senator(s) for the Rutland District.'
+  retrieved: '2026-10-17'
