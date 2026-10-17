@@ -1,0 +1,27 @@
+# Orleans-4 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-orleans-4/2024-11-05/general
+name: Orleans-4 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-orleans-4/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:orleans-4/legislature
+  office_id: vt-house-orleans-4/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bd050ca5-369a-531e-8530-8d39ab1a1aa7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bd050ca5-369a-531e-8530-8d39ab1a1aa7
+    name: Leanne Harple
+sources:
+- url: https://electionarchive.vermont.gov/contest/161061
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Orleans-4 District'' (district
+    totals): Leanne Harple (Democratic) 1,284 votes; Anthony "Tony" Daniels (Republican)
+    1,164; write-ins 18. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
