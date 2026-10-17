@@ -96,7 +96,13 @@ def contest_note(county_name, office_key, office):
         head += f" (vote for {office.get('vote_for', 2)}; county totals): "
     else:
         head += " (county totals): "
-    if office.get("no_candidates"):
+    if office.get("write_in_winner"):
+        w = office["candidates"][0]
+        body = (f"no candidates qualified for the ballot; the "
+                f"only votes recorded are write-ins: {wi:,}. "
+                f"The canvass certified a write-in winner: "
+                f"{w['name']}, {w['votes']:,} write-in votes.")
+    elif office.get("no_candidates"):
         body = (f"the contest page states 'No qualifying "
                 f"candidates in this contest'; the only votes "
                 f"recorded are write-ins: {wi:,}. No winner is "
@@ -229,6 +235,9 @@ def main():
             if office_key in ("states-attorney", "sheriff") \
                     and not is_transition_sa:
                 sources = sources + [dept_source]
+            for extra in office.get("extra_sources", []):
+                sources = sources + [{**extra,
+                                      "retrieved": RETRIEVED}]
             person = {
                 "id": pid,
                 "name": cand["name"],
@@ -309,11 +318,13 @@ def main():
                 membership, header, write)
             membership_count += 1
 
-        # A no-candidate contest has no winner to certify; its
-        # figures are the official results, so it is recorded
-        # with result_status "official" (a certified contest
+        # A no-candidate contest with no certified write-in
+        # winner has no winner to certify; its figures are the
+        # official results, so it is recorded with
+        # result_status "official" (a certified contest
         # requires at least one winner under repo validation).
-        status = "official" if office.get("no_candidates") \
+        status = "official" if (office.get("no_candidates")
+                                and not winner_entries) \
             else "certified"
         election["contests"].append({
             "id": contest_id,

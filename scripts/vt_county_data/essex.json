@@ -1,42 +1,76 @@
 {
-  "county": "essex",
-  "name": "Essex County",
-  "dept_url": "https://prosecutors.vermont.gov/offices/essex",
-  "dept_sa": "Vincent Illuzzi",
-  "dept_sheriff": "Trevor Colby",
-  "offices": {
-    "states-attorney": {
-      "election": "2022",
-      "db_url": "https://electionarchive.vermont.gov/contest/158036",
-      "candidates": [
-        {"name": "Vincent Illuzzi", "party": "Republican", "votes": 1865, "winner": true}
-      ],
-      "write_ins": 54
-    },
-    "sheriff": {
-      "election": "2022",
-      "db_url": "https://electionarchive.vermont.gov/contest/157896",
-      "candidates": [
-        {"name": "Trevor Colby", "party": "Democratic/Republican", "votes": 2094, "winner": true}
-      ],
-      "write_ins": 30
-    },
-    "assistant-judge": {
-      "election": "2022",
-      "db_url": "https://electionarchive.vermont.gov/contest/157848",
-      "vote_for": 2,
-      "candidates": [
-        {"name": "Evan Hammond", "party": "Republican", "votes": 1632, "winner": true},
-        {"name": "Kenn Stransky", "party": "Republican", "votes": 1227, "winner": true}
-      ],
-      "write_ins": 33
-    },
-    "high-bailiff": {
-      "election": "2024",
-      "db_url": "https://electionarchive.vermont.gov/contest/160977",
-      "candidates": [],
-      "write_ins": 287,
-      "no_candidates": true
+ "county": "essex",
+ "name": "Essex County",
+ "dept_url": "https://prosecutors.vermont.gov/offices/essex",
+ "dept_sa": "Vincent Illuzzi",
+ "dept_sheriff": "Trevor Colby",
+ "offices": {
+  "states-attorney": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/158036",
+   "candidates": [
+    {
+     "name": "Vincent Illuzzi",
+     "party": "Republican",
+     "votes": 1865,
+     "winner": true
     }
+   ],
+   "write_ins": 54
+  },
+  "sheriff": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157896",
+   "candidates": [
+    {
+     "name": "Trevor Colby",
+     "party": "Democratic/Republican",
+     "votes": 2094,
+     "winner": true
+    }
+   ],
+   "write_ins": 30
+  },
+  "assistant-judge": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157848",
+   "vote_for": 2,
+   "candidates": [
+    {
+     "name": "Evan Hammond",
+     "party": "Republican",
+     "votes": 1632,
+     "winner": true
+    },
+    {
+     "name": "Kenn Stransky",
+     "party": "Republican",
+     "votes": 1227,
+     "winner": true
+    }
+   ],
+   "write_ins": 33
+  },
+  "high-bailiff": {
+   "election": "2024",
+   "db_url": "https://electionarchive.vermont.gov/contest/160977",
+   "write_in_winner": true,
+   "candidates": [
+    {
+     "name": "Eric Engel",
+     "party": null,
+     "votes": 89,
+     "winner": true
+    }
+   ],
+   "write_ins": 287,
+   "final_note": "The Elections Database names no candidate for this contest. The Hardwick Gazette's post-election report of the area counties' high bailiff results (November 11, 2024) reports that Essex County voters wrote in Eric Engel 89 times, the highest write-in total, of 287 write-in votes cast; he is recorded here as the seat's elected holder on that reporting. No party label attaches to a write-in candidacy.",
+   "extra_sources": [
+    {
+     "url": "https://hardwickgazette.org/2024/11/11/high-bailiffs-elected-in-area-counties/",
+     "note": "The Hardwick Gazette, 'High Bailiffs Elected in Area Counties' (November 11, 2024): in Essex County, where there was no one on the ballot, voters wrote in Eric Engel's name 89 times out of 3,456 mostly blank votes for the position -- the county's high bailiff result in the paper's report of the official returns."
+    }
+   ]
   }
+ }
 }
