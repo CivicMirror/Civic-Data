@@ -1,0 +1,25 @@
+# Town of Barton municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/733a57f0-72f3-5ebc-8357-7243a1c131b0
+name: Jodi Morley
+identifiers: []
+candidacies:
+- contest_id: barton-03550-vt/2024-11-05/justice-of-the-peace
+  election_id: barton-03550-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:barton-03550/government
+  office_id: barton-03550-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jodi Morley
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists eight Barton justices
+    of the peace. The listing spells the name ''Sheila Martin''; the Barton Village
+    officers page and the town report spell the same officeholder''s name ''Shelia
+    Martin,'' which is the form recorded for the person.'
+  retrieved: '2026-10-17'

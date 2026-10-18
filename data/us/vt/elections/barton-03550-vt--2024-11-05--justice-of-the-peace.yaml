@@ -1,0 +1,46 @@
+# Town of Barton -- justice of the peace election (VT municipal batch 2); issue #163 (VT master tracking).
+id: barton-03550-vt/2024-11-05/general
+name: Town of Barton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: barton-03550-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:barton-03550/government
+  office_id: barton-03550-vt/justice-of-the-peace
+  vote_for: 8
+  candidate_ids:
+  - ocd-person/027d1595-4e56-58a6-830a-db86c3c76c40
+  - ocd-person/d13b8ebe-519c-5d8a-b5b6-ef6b2069c011
+  - ocd-person/0d85785c-5f69-5375-946d-c1b876d212b2
+  - ocd-person/d257ab93-5201-5fc0-954e-61a2c6d2df7b
+  - ocd-person/7cb5803f-eb44-54d8-9260-8efe2d8e1d37
+  - ocd-person/733a57f0-72f3-5ebc-8357-7243a1c131b0
+  - ocd-person/564cb470-0dde-50e7-9fcd-69ce07cb2aff
+  - ocd-person/274e429d-f2ec-5c1a-95d1-bf8386979049
+  result_status: official
+  winners:
+  - person_id: ocd-person/027d1595-4e56-58a6-830a-db86c3c76c40
+    name: Anthony Pallotta
+  - person_id: ocd-person/d13b8ebe-519c-5d8a-b5b6-ef6b2069c011
+    name: Beth Martin
+  - person_id: ocd-person/0d85785c-5f69-5375-946d-c1b876d212b2
+    name: Cassandra Griffin
+  - person_id: ocd-person/d257ab93-5201-5fc0-954e-61a2c6d2df7b
+    name: Eliza Walters
+  - person_id: ocd-person/7cb5803f-eb44-54d8-9260-8efe2d8e1d37
+    name: Gerry Cahill
+  - person_id: ocd-person/733a57f0-72f3-5ebc-8357-7243a1c131b0
+    name: Jodi Morley
+  - person_id: ocd-person/564cb470-0dde-50e7-9fcd-69ce07cb2aff
+    name: Lawrence Burdick
+  - person_id: ocd-person/274e429d-f2ec-5c1a-95d1-bf8386979049
+    name: Sheila Martin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists eight Barton justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-17'
