@@ -1,0 +1,271 @@
+{
+  "label": "Town of Fairlee",
+  "place_slug": "fairlee",
+  "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:fairlee/government",
+  "header": "# Town of Fairlee municipal roster backfill -- Vermont\n# municipal fan-out batch 8; issue #163 (VT master tracking).\n",
+  "offices": [
+    {
+      "slug": "selectboard",
+      "title": "Selectboard Member",
+      "org_name": "Fairlee Selectboard",
+      "seats": 3,
+      "sources": [
+        {
+          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+          "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists three Fairlee Selectboard members: Peter Berger, Miranda Clemson (Chair), and Lance Mills."
+        },
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the March 3, 2026 town meeting re-elected Clemson to a 3-year term unopposed; Berger chaired the board before the 2026 reorganization and Clemson chairs it in the June 2026 directory."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Peter Berger",
+          "slug": "peter-berger"
+        },
+        {
+          "name": "Miranda Clemson",
+          "slug": "miranda-clemson"
+        },
+        {
+          "name": "Lance Mills",
+          "slug": "lance-mills"
+        }
+      ]
+    },
+    {
+      "slug": "moderator",
+      "title": "Moderator",
+      "org_name": "Fairlee Moderator",
+      "seats": 1,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): Article 1 elected Chaz Hinsley Moderator for one year, unopposed."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Chaz Hinsley",
+          "slug": "chaz-hinsley"
+        }
+      ]
+    },
+    {
+      "slug": "town-clerk",
+      "title": "Town Clerk",
+      "org_name": "Fairlee Town Clerk",
+      "seats": 1,
+      "sources": [
+        {
+          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+          "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Georgette Wolf-Ludwig as Town Clerk of Fairlee."
+        },
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the town's officers tables style the clerk elected for a 3-year term; Wolf-Ludwig has served continuously and no clerk election fell in 2025 or 2026."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Georgette Wolf-Ludwig",
+          "slug": "georgette-wolf-ludwig"
+        }
+      ]
+    },
+    {
+      "slug": "town-treasurer",
+      "title": "Town Treasurer",
+      "org_name": "Fairlee Town Treasurer",
+      "seats": 1,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/3030/Selectboard_Meeting_Minutes_20250310_Final.pdf",
+          "note": "Town of Fairlee Selectboard minutes, March 10, 2025 (fairleevt.gov): the March 10, 2025 Selectboard minutes handle the Treasurer inside the annual Appointment Slate ('Jess Chase will be working on the signatories tomorrow. As of now, Lisa Hinsley is still the official Fairlee Town Treasurer'), so the office is filled by appointment and Jessica Chase is recorded as the appointed holder. She is minted as a person distinct from Bradford's appointed Treasurer Jessica Chase: the shared name and office in adjacent towns do not by themselves prove identity."
+        },
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2865/Fairlee_AuditorsMinutes12.19.24.pdf",
+          "note": "Town of Fairlee Auditors' minutes, December 19, 2024 (fairleevt.gov): the December 19, 2024 auditors' minutes already style Jessica Chase as Treasurer, and she presented as Treasurer at the March 3, 2026 town meeting."
+        },
+        {
+          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+          "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Lisa Hinsley as Town Treasurer of Fairlee (January 2026), superseded by the town's own records above."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Jessica Chase",
+          "slug": "jessica-chase",
+          "how_seated": "appointed"
+        }
+      ]
+    },
+    {
+      "slug": "lister",
+      "title": "Lister",
+      "org_name": "Fairlee Listers",
+      "seats": 3,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the March 3, 2026 meeting elected Russ Collins Lister for a 3-year term, unopposed; the other two seats are unnamed in the sources read, so one is minted."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Russ Collins",
+          "slug": "russ-collins"
+        }
+      ]
+    },
+    {
+      "slug": "auditor",
+      "title": "Auditor",
+      "org_name": "Fairlee Auditors",
+      "seats": 3,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the March 3, 2026 meeting elected Jane Chambers Auditor for a 1-year term; the 2-year auditor seat drew no nominations and was passed over, leaving it vacant, and the third seat is unnamed in the sources read."
+        },
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2865/Fairlee_AuditorsMinutes12.19.24.pdf",
+          "note": "Town of Fairlee Auditors' minutes, December 19, 2024 (fairleevt.gov): the auditors' minutes are signed by Jane Wilson Chambers, her fuller form of name."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Jane Chambers",
+          "slug": "jane-chambers"
+        }
+      ]
+    },
+    {
+      "slug": "budget-committee",
+      "title": "Budget Committee Member",
+      "org_name": "Fairlee Budget Committee",
+      "seats": 3,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the town meeting elects one Budget Committee member yearly to a 3-year term (three seats); Keri Gelenian was elected March 3, 2026. The other two seats are unnamed in the sources read."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Keri Gelenian",
+          "slug": "keri-gelenian"
+        }
+      ]
+    },
+    {
+      "slug": "cemetery-commissioner",
+      "title": "Cemetery Commissioner",
+      "org_name": "Fairlee Cemetery Commission",
+      "seats": 5,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the town meeting elects one Cemetery Commissioner yearly to a 5-year term (five seats); Chaz Hinsley was elected March 3, 2026. The other four seats are unnamed in the sources read."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Chaz Hinsley",
+          "slug": "chaz-hinsley"
+        }
+      ]
+    },
+    {
+      "slug": "library-trustee",
+      "title": "Library Trustee",
+      "org_name": "Fairlee Library Trustees",
+      "seats": 5,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf",
+          "note": "Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov; the file is named 2025 but its contents are the 2026 minutes): the town meeting elects Library Trustees to 5-year terms (five seats); Charlotte Williams was elected March 3, 2026. The other four seats are unnamed in the sources read."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Charlotte Williams",
+          "slug": "charlotte-williams"
+        }
+      ]
+    },
+    {
+      "slug": "first-constable",
+      "title": "First Constable",
+      "org_name": "Fairlee First Constable",
+      "seats": 1,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/3030/Selectboard_Meeting_Minutes_20250310_Final.pdf",
+          "note": "Town of Fairlee Selectboard minutes, March 10, 2025 (fairleevt.gov): the March 10, 2025 Appointment Slate names Dan Ludwig as appointed First Constable for the ensuing year, so the office is appointive in Fairlee; no 2026 slate outcome was read, so the seat is left unfilled. Structure only."
+        }
+      ]
+    },
+    {
+      "slug": "collector-of-delinquent-taxes",
+      "title": "Collector of Delinquent Taxes",
+      "org_name": "Fairlee Collector of Delinquent Taxes",
+      "seats": 1,
+      "sources": [
+        {
+          "url": "https://fairleevt.gov/uploads/dm/3030/Selectboard_Meeting_Minutes_20250310_Final.pdf",
+          "note": "Town of Fairlee Selectboard minutes, March 10, 2025 (fairleevt.gov): the office of Collector of Delinquent Taxes sits on the Selectboard's annual Appointment Slate; the holder is unnamed in the sources read, so the seat is left unfilled. Structure only."
+        }
+      ]
+    },
+    {
+      "slug": "justice-of-the-peace",
+      "title": "Justice of the Peace",
+      "org_name": "Fairlee Justices of the Peace",
+      "seats": 5,
+      "sources": [
+        {
+          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+          "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists five Fairlee justices of the peace: Peter Berger, Eric Brooks, Rita Temple Brooks, Calista Diane, and Timothy Danen."
+        }
+      ],
+      "holders": [
+        {
+          "name": "Peter Berger",
+          "slug": "peter-berger"
+        },
+        {
+          "name": "Eric Brooks",
+          "slug": "eric-brooks"
+        },
+        {
+          "name": "Rita Temple Brooks",
+          "slug": "rita-temple-brooks"
+        },
+        {
+          "name": "Calista Diane",
+          "slug": "calista-diane"
+        },
+        {
+          "name": "Timothy Danen",
+          "slug": "timothy-danen"
+        }
+      ]
+    }
+  ],
+  "jp_election": {
+    "election_id": "fairlee-vt/2024-11-05/general",
+    "contest_id": "fairlee-vt/2024-11-05/justice-of-the-peace",
+    "name": "Town of Fairlee Justice of the Peace Election 2024-11-05",
+    "filename": "fairlee-vt--2024-11-05--justice-of-the-peace.yaml",
+    "vote_for": 5,
+    "sources": [
+      {
+        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+        "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists five Fairlee justices of the peace elected November 5, 2024: Peter Berger, Eric Brooks, Rita Temple Brooks, Calista Diane, and Timothy Danen. The listing publishes no vote totals or party labels and none are recorded."
+      }
+    ],
+    "header": "# Town of Fairlee -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking)."
+  }
+}
