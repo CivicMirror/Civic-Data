@@ -1,0 +1,22 @@
+# Town of Calais municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/23666223-e144-5a18-9d23-ed21ef2226c6
+name: Christy Mihaly
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Calais Selectboard members: William
+    Davis; Jordan Keyes (Chair); Barbara Mcandrew [directory casing]; Christy Mihaly;
+    and Jamie Moorby (Vice Chair).'
+  retrieved: '2026-10-18'
+- url: https://www.calaisvermont.gov/vertical/sites/%7B226D684E-C864-4AFA-B4A5-59BE32741B77%7D/uploads/Calais_Town_Meeting_Sample_Ballot(1).pdf
+  note: 'Town of Calais official ballot, Town Meeting March 3, 2026: Jordan Keyes
+    was the candidate for the three-year Selectboard term and William Davis for the
+    two-year term; both were elected.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,24 @@
+# Town of Calais municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/07de7c99-b627-5dec-9cc4-ab0d6a16984a
+name: Kristina Bielenberg
+identifiers: []
+candidacies:
+- contest_id: calais-vt/2024-11-05/justice-of-the-peace
+  election_id: calais-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:calais/government
+  office_id: calais-vt/justice-of-the-peace
+  party: null
+  ballot_name: Kristina Bielenberg
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Calais justices
+    of the peace: Janet Ancel, W. Scott Bassage, Charlotte Hanna Bassage, Kristina
+    Bielenberg, Barbara Butler, Dillon Burns, and Michael Loignon.'
+  retrieved: '2026-10-18'
