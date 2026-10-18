@@ -1,0 +1,38 @@
+# Town of Chelsea municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/417f8bef-44ad-56d7-96c4-b1d4bb2f58a8
+name: David Bradshaw
+identifiers: []
+candidacies:
+- contest_id: chelsea-vt/2024-11-05/justice-of-the-peace
+  election_id: chelsea-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:chelsea/government
+  office_id: chelsea-vt/justice-of-the-peace
+  party: null
+  ballot_name: David Bradshaw
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.chelseavt.org/category/news/page/11/
+  note: 'Town of Chelsea official website, town news post ''Congratulations to Chelsea''s
+    2025 elected officials!'' (March 2025): the town''s 2025 elected officials include
+    ''Trustee of the Public Money: David Bradshaw.'' One trustee is elected each year
+    to a three-year term (the 2026 table shows one three-year seat up), so the board
+    is recorded with three seats.'
+  retrieved: '2026-10-18'
+- url: https://www.chelseavt.org/voting-elections/
+  note: 'Town of Chelsea official website, Voting & Elections page, ''Town Offices
+    up for Election'' table for 2026: lists a Trustee of Public Funds seat (three-year
+    term) up in 2026, incumbent Edwin Coburn. His seat''s outcome is not published
+    in any source read, so he is not recorded; Bradshaw, elected in 2025 to a term
+    running to 2028, is.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Chelsea justices
+    of the peace: David Bradshaw, Susan A. Kay, Tracy S. Simon, Joseph L. Spinella,
+    and Emily Marshia.'
+  retrieved: '2026-10-18'

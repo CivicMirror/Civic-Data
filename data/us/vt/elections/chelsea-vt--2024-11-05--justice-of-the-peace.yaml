@@ -1,0 +1,37 @@
+# Town of Chelsea -- justice of the peace election (VT municipal batch 5); issue #163 (VT master tracking).
+id: chelsea-vt/2024-11-05/general
+name: Town of Chelsea Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: chelsea-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:chelsea/government
+  office_id: chelsea-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/417f8bef-44ad-56d7-96c4-b1d4bb2f58a8
+  - ocd-person/00030372-c609-53b6-90e0-234753a0dc9e
+  - ocd-person/5d705740-1098-55b0-ab1e-e73e7a6a99bb
+  - ocd-person/d34d44c7-4552-565b-a2f0-533ecd84d629
+  - ocd-person/086c5883-ed71-56e7-b869-954c258824b4
+  result_status: official
+  winners:
+  - person_id: ocd-person/417f8bef-44ad-56d7-96c4-b1d4bb2f58a8
+    name: David Bradshaw
+  - person_id: ocd-person/00030372-c609-53b6-90e0-234753a0dc9e
+    name: Emily Marshia
+  - person_id: ocd-person/5d705740-1098-55b0-ab1e-e73e7a6a99bb
+    name: Joseph L. Spinella
+  - person_id: ocd-person/d34d44c7-4552-565b-a2f0-533ecd84d629
+    name: Susan A. Kay
+  - person_id: ocd-person/086c5883-ed71-56e7-b869-954c258824b4
+    name: Tracy S. Simon
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Chelsea justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'
