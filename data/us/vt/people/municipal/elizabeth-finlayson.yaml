@@ -1,0 +1,35 @@
+# Town of Barnard municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/8e6f32f7-fc82-544b-857e-3e242d90139e
+name: Elizabeth Finlayson
+identifiers: []
+candidacies:
+- contest_id: barnard-vt/2024-11-05/justice-of-the-peace
+  election_id: barnard-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:barnard/government
+  office_id: barnard-vt/justice-of-the-peace
+  party: null
+  ballot_name: Elizabeth Finlayson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://barnardvt.us/
+  note: 'Town of Barnard, 2026 Town Report (FY25 Annual Report, July 1, 2024 - June
+    30, 2025), ''TOWN OFFICERS ELECTED'' table (report page 4): lists Auditors (3-year)
+    Beth Finlayson (term expiring 2027) and Tom Morse (term expiring 2028); Patricia
+    Hasson is listed with a term expiring in 2026. Finlayson is the justice of the
+    peace listing''s ''Elizabeth Finlayson.'''
+  retrieved: '2026-10-17'
+- url: https://barnardvt.us/vertical/sites/%7B5E566B10-782A-4449-B2FB-B76A35FC79A5%7D/uploads/March_4_2026_SB_Minutes.pdf
+  note: 'Town of Barnard Selectboard minutes, March 4, 2026 (the board''s first meeting
+    after the 2026 annual Town Meeting), item 8A: ''Chip Davis was elected at Town
+    Meeting to be one of three auditors.'''
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists four Barnard justices
+    of the peace: Paul Doton, Patricia Hasson, Elizabeth Finlayson, and Ellen Miles.'
+  retrieved: '2026-10-17'

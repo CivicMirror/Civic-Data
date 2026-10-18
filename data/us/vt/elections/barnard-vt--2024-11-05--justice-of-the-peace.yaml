@@ -1,0 +1,35 @@
+# Town of Barnard -- justice of the peace election (VT municipal batch 2); issue #163 (VT master tracking).
+id: barnard-vt/2024-11-05/general
+name: Town of Barnard Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: barnard-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:barnard/government
+  office_id: barnard-vt/justice-of-the-peace
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/8e6f32f7-fc82-544b-857e-3e242d90139e
+  - ocd-person/ee2c671c-c8d9-5655-a6c9-af78d5e789a0
+  - ocd-person/6004f10d-1911-527e-9581-101deb806155
+  - ocd-person/3265fad6-8450-58b2-8c31-dba0ddbf81e8
+  result_status: official
+  winners:
+  - person_id: ocd-person/8e6f32f7-fc82-544b-857e-3e242d90139e
+    name: Elizabeth Finlayson
+  - person_id: ocd-person/ee2c671c-c8d9-5655-a6c9-af78d5e789a0
+    name: Ellen Miles
+  - person_id: ocd-person/6004f10d-1911-527e-9581-101deb806155
+    name: Patricia Hasson
+  - person_id: ocd-person/3265fad6-8450-58b2-8c31-dba0ddbf81e8
+    name: Paul Doton
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists four Barnard justices
+    of the peace for the 2025-2026 term (Paul Doton, Patricia Hasson, Elizabeth Finlayson,
+    Ellen Miles); they are the winners of the November 5, 2024 election for the office.
+    The listing publishes no vote totals and no party designations for justices of
+    the peace.'
+  retrieved: '2026-10-17'
