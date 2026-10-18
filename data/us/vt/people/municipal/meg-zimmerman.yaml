@@ -1,0 +1,29 @@
+# Town of Essex municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/430b2432-742d-5964-b769-269bead9f949
+name: Meg Zimmerman
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/117
+  note: 'Charter of the Town of Essex, 24 Appendix V.S.A. ch. 117 (official text,
+    Vermont General Assembly): section 201 provides that the elected officers of the
+    town are Selectboard members and Moderator; section 202 fixes a Selectboard of
+    five.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Essex Selectboard members Kendall Chamberlin,
+    Shannon Jackson, and Ethan Lawrence among the board.'
+  retrieved: '2026-10-18'
+- url: https://www.essexvt.gov/DocumentCenter/View/16344/Election-Official-results-3-3-26
+  note: 'Town of Essex OFFICIAL RESULTS, March 3, 2026 election (essexvt.gov): Andy
+    Watts (977 votes) and Meg Zimmerman (1,012) won the two 3-year seats and Ethan
+    Lawrence (760) won the 1-year remainder seat on March 3, 2026; Chamberlin and
+    Jackson won their seats in 2025 and hold them to 2028. The remainder seat opened
+    when Chair Tracey Delphia resigned January 19, 2026; she is not minted.'
+  retrieved: '2026-10-18'
