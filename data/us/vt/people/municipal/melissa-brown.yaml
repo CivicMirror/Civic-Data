@@ -1,0 +1,26 @@
+# Town of Brookline municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/38151bc7-f01f-5f17-8114-104eb912a32f
+name: Melissa Brown
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://brooklinevt.com/elected-town-officers/
+  note: 'Town of Brookline official website, Elected Town Officers page: lists Melissa
+    Brown as Treasurer, appointed, term expiring 2027.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists Melissa Brown as Treasurer
+    of Brookline.'
+  retrieved: '2026-10-18'
+- url: https://brooklinevt.com/elected-town-officers/
+  note: 'Town of Brookline official website, Elected Town Officers page: lists Melissa
+    Brown as Delinquent Tax Collector, appointed, one-year term expiring 2027; the
+    town fills the office separately, so the post is created under 17 V.S.A. section
+    2651d.'
+  retrieved: '2026-10-18'
