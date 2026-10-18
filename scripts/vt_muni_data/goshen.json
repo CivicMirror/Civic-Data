@@ -1,0 +1,286 @@
+{
+ "label": "Town of Goshen",
+ "place_slug": "goshen",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:goshen/government",
+ "header": "# Town of Goshen municipal roster backfill -- Vermont\n# municipal fan-out batch 9; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Goshen Selectboard",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists three Goshen Selectboard members: Thomasina Magoon (Chair), Jasmine Hoffman, and Timothee Moffi."
+    },
+    {
+     "url": "https://goshenvt.org/selectboard/",
+     "note": "Town of Goshen Selectboard page (goshenvt.org): names Thomasina Magoon (Chair) and Timmi Moffi; the town's familiar 'Timmi' form is noted, and the SOS directory's 'Timothee Moffi' governs the person record."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Thomasina Magoon",
+     "slug": "thomasina-magoon"
+    },
+    {
+     "name": "Jasmine Hoffman",
+     "slug": "jasmine-hoffman"
+    },
+    {
+     "name": "Timothee Moffi",
+     "slug": "timothee-moffi"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Goshen Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx",
+     "note": "Vermont Secretary of State, Elections Division, '2026 VT Town Clerk Contact Info' spreadsheet: lists Martin Fjeld as Goshen Town Clerk."
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Martin Fjeld as Goshen Town Clerk (January 2026)."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Martin Fjeld",
+     "slug": "martin-fjeld"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Goshen Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx",
+     "note": "Vermont Secretary of State, Elections Division, '2026 VT Treasurers' Contact Info' spreadsheet: lists Heidi Larson as Goshen's Treasurer."
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Heidi Larson as Goshen Town Treasurer (January 2026)."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Heidi Larson",
+     "slug": "heidi-larson"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Moderator",
+   "org_name": "Goshen Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/elected-officials/",
+     "note": "Town of Goshen Elected Officials page (goshenvt.org), the town's own map of its elected offices: lists the Moderator as an elected office in Goshen."
+    },
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a town moderator at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "lister",
+   "title": "Lister",
+   "org_name": "Goshen Listers",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/elected-officials/",
+     "note": "Town of Goshen Elected Officials page (goshenvt.org), the town's own map of its elected offices: lists the Listers as an elected office in Goshen."
+    },
+    {
+     "url": "https://goshenvt.org/listers/",
+     "note": "Town of Goshen Listers page (goshenvt.org): prints surnames only (Brown, Fjeld, Reider, Walsh, Walsh-Viko), which do not identify the three listers to the standard for minting. Structure only."
+    }
+   ]
+  },
+  {
+   "slug": "auditor",
+   "title": "Auditor",
+   "org_name": "Goshen Auditors",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/auditors/",
+     "note": "Town of Goshen Auditors page (goshenvt.org): names the town's three auditors -- Barbara Walsh, Fran Viko, and Charlotte Reider-Smith."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Barbara Walsh",
+     "slug": "barbara-walsh"
+    },
+    {
+     "name": "Fran Viko",
+     "slug": "fran-viko"
+    },
+    {
+     "name": "Charlotte Reider-Smith",
+     "slug": "charlotte-reider-smith"
+    }
+   ]
+  },
+  {
+   "slug": "first-constable",
+   "title": "First Constable",
+   "org_name": "Goshen First Constable",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/constables/",
+     "note": "Town of Goshen Constables page (goshenvt.org): the town has two active constables and names Marci Hayes as First Constable. The page does not state the mode of appointment or election; the office is recorded as elected under the 17 V.S.A. section 2646 default."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Marci Hayes",
+     "slug": "marci-hayes"
+    }
+   ]
+  },
+  {
+   "slug": "second-constable",
+   "title": "Second Constable",
+   "org_name": "Goshen Second Constable",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/constables/",
+     "note": "Town of Goshen Constables page (goshenvt.org): confirms a second constable serves, but the holder's name does not appear in the page's published text. Structure only."
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Goshen Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/elected-officials/",
+     "note": "Town of Goshen Elected Officials page (goshenvt.org), the town's own map of its elected offices: lists the Collector of Delinquent Taxes as an elected office in Goshen."
+    },
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a collector of delinquent taxes where the town elects one at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "trustee-of-public-funds",
+   "title": "Trustee of Public Funds",
+   "org_name": "Goshen Trustees of Public Funds",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/elected-officials/",
+     "note": "Town of Goshen Elected Officials page (goshenvt.org), the town's own map of its elected offices: lists the Trustees of Public Funds as an elected office in Goshen (three trustees)."
+    },
+    {
+     "url": "https://goshenvt.org/trustee-of-public-funds/",
+     "note": "Town of Goshen Trustee of Public Funds page (goshenvt.org): names two of the three trustees -- Diane O'Classen and Vickee Whiting; the third seat is left unfilled."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Diane O'Classen",
+     "slug": "diane-oclassen"
+    },
+    {
+     "name": "Vickee Whiting",
+     "slug": "vickee-whiting"
+    }
+   ]
+  },
+  {
+   "slug": "cemetery-commissioner",
+   "title": "Cemetery Commissioner",
+   "org_name": "Goshen Cemetery Commission",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://goshenvt.org/cemetery-commission/",
+     "note": "Town of Goshen Cemetery Commission page (goshenvt.org): the commission maintains the town's three cemeteries and its contact block names three commissioners -- Ken Brown, Diane O'Classen, and Tammy Walsh. The page does not state the mode; a standalone town cemetery commission is an elected body under 18 V.S.A. section 5373, and the three are recorded as elected on that basis (flagged on issue #163)."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Ken Brown",
+     "slug": "ken-brown"
+    },
+    {
+     "name": "Diane O'Classen",
+     "slug": "diane-oclassen"
+    },
+    {
+     "name": "Tammy Walsh",
+     "slug": "tammy-walsh"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Goshen Justices of the Peace",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists five Goshen justices of the peace: Ken Brown, Marci Hayes, Jasmine Hoffman, Diane O'Classen, and Barbara Walsh."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Ken Brown",
+     "slug": "ken-brown"
+    },
+    {
+     "name": "Marci Hayes",
+     "slug": "marci-hayes"
+    },
+    {
+     "name": "Jasmine Hoffman",
+     "slug": "jasmine-hoffman"
+    },
+    {
+     "name": "Diane O'Classen",
+     "slug": "diane-oclassen"
+    },
+    {
+     "name": "Barbara Walsh",
+     "slug": "barbara-walsh"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "goshen-vt/2024-11-05/general",
+  "contest_id": "goshen-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Goshen Justice of the Peace Election 2024-11-05",
+  "filename": "goshen-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 5,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): the SOS listing names the five Goshen winners of the November 5, 2024 justice of the peace election. No Grand Juror or Town Agent posts are created (absent from the town's own elective-office map)."
+   }
+  ],
+  "header": "# Town of Goshen -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking)."
+ }
+}
