@@ -1,0 +1,21 @@
+# Town of Arlington municipal roster backfill -- Vermont
+# municipal fan-out batch 1; issue #163 (VT master tracking).
+id: ocd-person/f881ad66-958e-50d5-9589-875c129b90b2
+name: James Paustian
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (last updated June 5, 2026), Arlington entry: Matthew Bykowski (Vice-Chair);
+    Daniel Harvey (Chairperson); Sebastian Massey; James Paustian; Glenn Sherman.'
+  retrieved: '2026-10-17'
+- url: https://arlingtonvermont.org/town-clerk/arlington-town-information/
+  note: Town of Arlington official website, 'Arlington Town Information' page (read
+    October 17, 2026), lists the selectboard with the name form 'Jamie Paustian';
+    the Secretary of State selectboard directory form 'James Paustian' is recorded.
+  retrieved: '2026-10-17'

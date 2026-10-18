@@ -1,0 +1,42 @@
+# Arlington Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: arlington-vt/2024-11-05/general
+name: Arlington 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: arlington-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:arlington/government
+  office_id: arlington-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/1e1438ef-8ee4-5988-9d21-5a9cef4e3384
+  - ocd-person/63c458d2-f0bf-54c8-9380-212d057724a9
+  - ocd-person/a8279dae-55d5-5e8c-bee2-831d480c5b1d
+  - ocd-person/78a38a7b-4702-57a0-b042-b603fbbaae7b
+  - ocd-person/22c1fa08-2fa5-5e5a-9873-c62b3376e8c2
+  - ocd-person/e6a57fc0-9850-51b6-914f-1f9d2805fb71
+  - ocd-person/368fe563-3c9f-5333-a50b-ca85af8c12c3
+  result_status: official
+  winners:
+  - person_id: ocd-person/1e1438ef-8ee4-5988-9d21-5a9cef4e3384
+    name: Ali Elwell Zaiac
+  - person_id: ocd-person/63c458d2-f0bf-54c8-9380-212d057724a9
+    name: Chelsea Thompson
+  - person_id: ocd-person/a8279dae-55d5-5e8c-bee2-831d480c5b1d
+    name: Judy Bryan
+  - person_id: ocd-person/78a38a7b-4702-57a0-b042-b603fbbaae7b
+    name: Karen Krulikowski
+  - person_id: ocd-person/22c1fa08-2fa5-5e5a-9873-c62b3376e8c2
+    name: Keith Squires
+  - person_id: ocd-person/e6a57fc0-9850-51b6-914f-1f9d2805fb71
+    name: Susan Jennings
+  - person_id: ocd-person/368fe563-3c9f-5333-a50b-ca85af8c12c3
+    name: Susan Wirkki
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'
