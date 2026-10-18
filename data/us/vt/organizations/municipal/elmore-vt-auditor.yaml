@@ -1,0 +1,16 @@
+# Town of Elmore municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-organization/bf41ed00-3b69-5be2-9c1f-c8932263c68e
+name: Elmore Auditors
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:elmore/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: elmore-vt/auditor
+status: active
+sources:
+- url: https://elmorevt.org/town/town-directory/
+  note: 'Town of Elmore official Town Directory page (elmorevt.org, current): the
+    LOCALLY ELECTED table lists Jane Nutting as Auditor (2029); its other two auditor
+    entries are stale-dated (Carla Blood 2025, Diane Cote 2024), so only Nutting''s
+    seat is filled here.'
+  retrieved: '2026-10-18'

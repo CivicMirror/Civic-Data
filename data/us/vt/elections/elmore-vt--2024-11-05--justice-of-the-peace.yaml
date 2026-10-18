@@ -1,0 +1,41 @@
+# Town of Elmore -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking).
+id: elmore-vt/2024-11-05/general
+name: Town of Elmore Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: elmore-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:elmore/government
+  office_id: elmore-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/aff7275b-82fd-5ef6-a026-433cdae2e2b8
+  - ocd-person/005d6767-b33c-5162-870b-9be4b418375a
+  - ocd-person/f6ba8e24-e920-5e73-8ded-d7da5cec6d41
+  - ocd-person/47c85cdb-fe88-5df5-91f9-8fe7ab97aa13
+  - ocd-person/73ee2bd0-eef3-551a-a792-f59162c3c0ae
+  result_status: official
+  winners:
+  - person_id: ocd-person/aff7275b-82fd-5ef6-a026-433cdae2e2b8
+    name: Bruce Olsson
+  - person_id: ocd-person/005d6767-b33c-5162-870b-9be4b418375a
+    name: Connie Perlin
+  - person_id: ocd-person/f6ba8e24-e920-5e73-8ded-d7da5cec6d41
+    name: Diane Cote
+  - person_id: ocd-person/47c85cdb-fe88-5df5-91f9-8fe7ab97aa13
+    name: Sharon Fortune
+  - person_id: ocd-person/73ee2bd0-eef3-551a-a792-f59162c3c0ae
+    name: Trevor Braun
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Elmore justices
+    of the peace elected November 5, 2024: Trevor Braun, Diane Cote, Sharon Fortune,
+    Bruce Olsson, and Connie Perlin. The listing publishes no vote totals or party
+    labels and none are recorded.'
+  retrieved: '2026-10-18'
+- url: https://elmorevt.org/town/town-directory/
+  note: 'Town of Elmore official Town Directory page (elmorevt.org, current): the
+    Town Directory lists the same five justices of the peace.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,39 @@
+# Town of Elmore municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/47c85cdb-fe88-5df5-91f9-8fe7ab97aa13
+name: Sharon Fortune
+identifiers: []
+candidacies:
+- contest_id: elmore-vt/2024-11-05/justice-of-the-peace
+  election_id: elmore-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:elmore/government
+  office_id: elmore-vt/justice-of-the-peace
+  party: null
+  ballot_name: Sharon Fortune
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Elmore Selectboard members: Trevor
+    Braun, Sharon Fortune, and Glenn Schwartz.'
+  retrieved: '2026-10-18'
+- url: https://elmorevt.org/town/town-directory/
+  note: 'Town of Elmore official Town Directory page (elmorevt.org, current): the
+    LOCALLY ELECTED table lists Glenn Schwartz (Chair, to 2027), Sharon Fortune (2028),
+    and Trevor Braun (2029).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Elmore justices
+    of the peace: Trevor Braun, Diane Cote, Sharon Fortune, Bruce Olsson, and Connie
+    Perlin.'
+  retrieved: '2026-10-18'
+- url: https://elmorevt.org/town/town-directory/
+  note: 'Town of Elmore official Town Directory page (elmorevt.org, current): the
+    Town Directory lists the same five justices of the peace, printing the fuller
+    form Constance Perlin, which governs the name recorded here.'
+  retrieved: '2026-10-18'
