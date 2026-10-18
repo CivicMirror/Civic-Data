@@ -1,0 +1,23 @@
+# Ira municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/1cb0d8cc-8c6d-58b1-81f8-d575b3c86e02
+name: Robert Toppin
+identifiers: []
+candidacies:
+- contest_id: ira-vt/2024-11-05/justice-of-the-peace
+  election_id: ira-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ira/government
+  office_id: ira-vt/justice-of-the-peace
+  party: null
+  ballot_name: Robert Toppin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing names four justices
+    of the peace for Ira'
+  retrieved: '2026-10-18'

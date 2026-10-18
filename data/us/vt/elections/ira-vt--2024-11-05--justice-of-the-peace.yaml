@@ -1,0 +1,37 @@
+# Ira -- justice of the peace election (VT municipal batch 11); issue #163 (VT master tracking).
+id: ira-vt/2024-11-05/general
+name: Ira Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: ira-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ira/government
+  office_id: ira-vt/justice-of-the-peace
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/4e5cfa84-c795-5e48-ac76-7c300d99cab2
+  - ocd-person/921762d5-5f2d-53fa-a359-6d87ae31f7dc
+  - ocd-person/49c8d820-add6-518c-8f2e-61ff0fde5571
+  - ocd-person/1cb0d8cc-8c6d-58b1-81f8-d575b3c86e02
+  result_status: official
+  winners:
+  - person_id: ocd-person/4e5cfa84-c795-5e48-ac76-7c300d99cab2
+    name: Larry Taggart
+  - person_id: ocd-person/921762d5-5f2d-53fa-a359-6d87ae31f7dc
+    name: Madeline Kerstetter
+  - person_id: ocd-person/49c8d820-add6-518c-8f2e-61ff0fde5571
+    name: Mary Ann Black
+  - person_id: ocd-person/1cb0d8cc-8c6d-58b1-81f8-d575b3c86e02
+    name: Robert Toppin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the winners were Mary Ann Black,
+    Robert Toppin, Larry Taggart, and Madeline Kerstetter (four seats). The town''s
+    March 2025 officers sheet confirms the same four'
+  retrieved: '2026-10-18'
+- url: https://img1.wsimg.com/blobby/go/630ba3dc-3b66-416f-813c-e6ad9997a9cb/downloads/d8260db4-9647-47c5-9ead-4daf8c623e1f/2025%20Elections%20Officers.pdf?ver=1792249420681
+  note: 'Town of Ira, ''Town Officers as of March 2025 Election'' (official town website):
+    the officers sheet lists the same four justices'
+  retrieved: '2026-10-18'
