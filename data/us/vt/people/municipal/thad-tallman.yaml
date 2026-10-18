@@ -1,0 +1,26 @@
+# Town of Belvidere municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/6b37b75c-a4be-52fb-9991-e7232c7e0968
+name: Thad Tallman
+identifiers: []
+candidacies:
+- contest_id: belvidere-vt/2024-11-05/justice-of-the-peace
+  election_id: belvidere-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:belvidere/government
+  office_id: belvidere-vt/justice-of-the-peace
+  party: null
+  ballot_name: Thad Tallman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Belvidere justices
+    of the peace. The town website''s own justice listing names three of them with
+    variant forms (''Andy Iwaskiewicz'', ''Stephanie Draper'', ''Thad Tallman'');
+    the Secretary of State''s listing governs, and its ''Stephanie Domina'' is the
+    town lister of that name (the town site''s ''Draper'' is her other surname).'
+  retrieved: '2026-10-17'
