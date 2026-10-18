@@ -1,0 +1,35 @@
+# Lemington -- justice of the peace election (VT municipal batch 13); issue #163 (VT master tracking).
+id: lemington-vt/2024-11-05/general
+name: Lemington Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: lemington-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lemington/government
+  office_id: lemington-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/75f060d3-a4fa-564c-8fe9-99f9c544a35d
+  - ocd-person/b4d26dbc-e0a9-53c2-af84-8638dbdb88e5
+  - ocd-person/552abee9-91e3-5515-b418-96a1feff3124
+  - ocd-person/54161bac-479d-58b7-9abb-c05d87392247
+  - ocd-person/11569818-3ee7-5f28-b920-101d72d796d0
+  result_status: official
+  winners:
+  - person_id: ocd-person/75f060d3-a4fa-564c-8fe9-99f9c544a35d
+    name: Linda Young
+  - person_id: ocd-person/b4d26dbc-e0a9-53c2-af84-8638dbdb88e5
+    name: Mary Jane Walker
+  - person_id: ocd-person/552abee9-91e3-5515-b418-96a1feff3124
+    name: Myra Ellingwood
+  - person_id: ocd-person/54161bac-479d-58b7-9abb-c05d87392247
+    name: Sharon Ellingwood
+  - person_id: ocd-person/11569818-3ee7-5f28-b920-101d72d796d0
+    name: Walter Noyes
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the winners were Walter Noyes, Myra
+    Ellingwood, Mary Jane Walker, Linda Young, and Sharon Ellingwood'
+  retrieved: '2026-10-18'
