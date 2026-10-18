@@ -1,0 +1,36 @@
+# Hubbardton -- justice of the peace election (VT municipal batch 11); issue #163 (VT master tracking).
+id: hubbardton-vt/2024-11-05/general
+name: Hubbardton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: hubbardton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hubbardton/government
+  office_id: hubbardton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/2e12a34f-d110-5265-b9e7-35117d94f533
+  - ocd-person/5805fdb5-b32a-5c2f-99e7-609b4b0b0614
+  - ocd-person/63f23695-ec45-59d8-b83f-f14f0fdfbf9a
+  - ocd-person/1d011cf7-958d-5fba-9cf1-3e3234eac657
+  - ocd-person/aa476a60-3682-5f7b-a54c-2d159efa5aac
+  result_status: official
+  winners:
+  - person_id: ocd-person/2e12a34f-d110-5265-b9e7-35117d94f533
+    name: Elaine Nordmeyer
+  - person_id: ocd-person/5805fdb5-b32a-5c2f-99e7-609b4b0b0614
+    name: George W Davis Jr
+  - person_id: ocd-person/63f23695-ec45-59d8-b83f-f14f0fdfbf9a
+    name: Jacquelyn Frost
+  - person_id: ocd-person/1d011cf7-958d-5fba-9cf1-3e3234eac657
+    name: Michael Wetmore
+  - person_id: ocd-person/aa476a60-3682-5f7b-a54c-2d159efa5aac
+    name: Raymond McLaughlin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the winners were George W Davis
+    Jr, Jacquelyn Frost, Raymond McLaughlin, Elaine Nordmeyer, and Michael Wetmore
+    (five seats)'
+  retrieved: '2026-10-18'

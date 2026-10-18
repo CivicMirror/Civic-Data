@@ -1,0 +1,17 @@
+# Hubbardton municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/250e6a81-8116-586f-9207-af6e37db9ee1
+name: James Casey
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): the directory seats James Casey, Dwayne Gibbs,
+    Robert Gibbs (Chairman), Richard Grabowski, and Michael Wetmore. Hubbardton has
+    no reachable official town website; this is a spine build'
+  retrieved: '2026-10-18'
