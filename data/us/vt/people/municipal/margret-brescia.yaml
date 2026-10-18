@@ -1,0 +1,21 @@
+# Town of Alburgh municipal roster backfill -- Vermont
+# municipal fan-out batch 1; issue #163 (VT master tracking).
+id: ocd-person/a2732321-7a28-571f-b57b-369ec38c2b3b
+name: Margret Brescia
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers & County Clerks'' (January 2026), Alburgh entry: Margret Brescia,
+    Treasurer.'
+  retrieved: '2026-10-17'
+- url: https://alburghvt.org/town-clerk/
+  note: 'Town of Alburgh official website, Town Clerk page (read October 17, 2026):
+    Town Treasurer Margret Brescia, appointed by the selectboard. The Secretary of
+    State''s treasurer spreadsheet publishes no Alburgh treasurer.'
+  retrieved: '2026-10-17'
