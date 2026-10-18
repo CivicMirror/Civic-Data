@@ -1,0 +1,29 @@
+# Lunenburg -- justice of the peace election (VT municipal batch 13); issue #163 (VT master tracking).
+id: lunenburg-vt/2024-11-05/general
+name: Lunenburg Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: lunenburg-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lunenburg/government
+  office_id: lunenburg-vt/justice-of-the-peace
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/94e6faf8-3c19-5c7f-92a4-eac3e702ff76
+  - ocd-person/91846e2d-3165-5886-bddb-d3e6f7a27efd
+  - ocd-person/bf911b40-f901-510d-b597-285c4eeacdc4
+  result_status: official
+  winners:
+  - person_id: ocd-person/94e6faf8-3c19-5c7f-92a4-eac3e702ff76
+    name: Diane Peyton
+  - person_id: ocd-person/91846e2d-3165-5886-bddb-d3e6f7a27efd
+    name: James Peyton
+  - person_id: ocd-person/bf911b40-f901-510d-b597-285c4eeacdc4
+    name: Wyatt Peyton
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the winners were James Peyton, Diane
+    Peyton, and Wyatt Peyton'
+  retrieved: '2026-10-18'
