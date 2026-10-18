@@ -1,0 +1,22 @@
+# Town of Bennington municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/d6adaa9f-c1ce-5950-9a64-b0f6c0e9f31e
+name: Jackie Matts
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/103
+  note: 'Town of Bennington charter, 24 App. V.S.A. ch. 103 (official text, Vermont
+    General Assembly): section 201(a) provides for seven Select Board members elected
+    from the Town at large.'
+  retrieved: '2026-10-17'
+- url: https://benningtonvt.org/government/index.php
+  note: 'Town of Bennington official website, ''Elected Officials'' page: lists the
+    Select Board: Tom Haley (Chair), Jim Sullivan (Vice Chair), Clark Adams, Jackie
+    Matts, Sarah Perrin, Nancy White, and Ed Woods. The Secretary of State''s Selectboard
+    Members directory publishes no Bennington roster.'
+  retrieved: '2026-10-17'

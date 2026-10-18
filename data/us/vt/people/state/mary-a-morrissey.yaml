@@ -11,6 +11,13 @@ candidacies:
   party: Republican
   ballot_name: Mary A. Morrissey
   status: active
+- contest_id: bennington-vt/2024-11-05/justice-of-the-peace
+  election_id: bennington-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bennington/government
+  office_id: bennington-vt/justice-of-the-peace
+  party: null
+  ballot_name: Mary A. Morrissey
+  status: active
 verification:
   status: machine-extracted
   reviewed_on: '2026-10-17'
@@ -28,4 +35,7 @@ sources:
 - url: https://legislature.vermont.gov/people/all/2026/House
   note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
     lists the sitting representative(s) for the Bennington-5 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices of the Peace'' listing (updated December 4, 2025): lists Mary A. Morrissey of Bennington as a justice of the peace for the 2025-2026 term.'
   retrieved: '2026-10-17'
