@@ -1,0 +1,39 @@
+# Town of Bolton municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/ca9b9f25-d9fa-547a-bef0-bfb247931879
+name: Rich Reid
+identifiers: []
+candidacies:
+- contest_id: bolton-vt/2024-11-05/justice-of-the-peace
+  election_id: bolton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bolton/government
+  office_id: bolton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Rich Reid
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://boltonvt.com/boards/selectboard/
+  note: 'Town of Bolton official website, Select Board page: lists Victoria Raymond
+    (Chair), Rich Reid (Vice-Chair), Paula Gervia, Ryan Farrell, and Mica Cassara,
+    with term expirations running to 2027, 2028, and 2029. (The Secretary of State''s
+    directory publishes no Bolton roster.) The 2026 Town Report''s officials table
+    prints stale names (''Victoria Haler'', ''Leah Scott'') that the current Select
+    Board page supersedes.'
+  retrieved: '2026-10-18'
+- url: https://boltonvt.com/wp-content/uploads/2026/02/Bolton-2026-Town-Report.pdf
+  note: 'Town of Bolton 2026 Town Report: ''ELECTED TOWN OFFICIALS'' table lists the
+    Justices of the Peace elected in 2024 (two-year terms) as Paula Gervia, Rich Reid,
+    John Devine, Steve Diglio, and Jane Agran.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing''s text prints
+    only first names for Bolton (Brenda, Paula, Richard, John, Steve, with surnames
+    not extractable). Four match the town report''s slate; the fifth first name, ''Brenda'',
+    does not match the town report''s Jane Agran and is unexplained. The town report,
+    the official source publishing full names, governs Bolton''s slate.'
+  retrieved: '2026-10-18'
