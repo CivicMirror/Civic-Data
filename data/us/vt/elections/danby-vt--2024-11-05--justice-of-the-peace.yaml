@@ -1,0 +1,37 @@
+# Town of Danby -- justice of the peace election (VT municipal batch 6); issue #163 (VT master tracking).
+id: danby-vt/2024-11-05/general
+name: Town of Danby Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: danby-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:danby/government
+  office_id: danby-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/5feea16c-8623-5d68-86c9-897dce28b897
+  - ocd-person/88741a6a-4d6c-5419-94f1-c30aad57cfac
+  - ocd-person/372da83a-54ca-587d-b17d-db60b1180660
+  - ocd-person/75bca699-e1bd-5819-ae37-2f9c09c05109
+  - ocd-person/13fe1038-b213-5908-97cf-8f73e3f3c154
+  result_status: official
+  winners:
+  - person_id: ocd-person/5feea16c-8623-5d68-86c9-897dce28b897
+    name: Bradley J. Bender
+  - person_id: ocd-person/88741a6a-4d6c-5419-94f1-c30aad57cfac
+    name: Collette Yrsha
+  - person_id: ocd-person/372da83a-54ca-587d-b17d-db60b1180660
+    name: Daniel Garceau
+  - person_id: ocd-person/75bca699-e1bd-5819-ae37-2f9c09c05109
+    name: Terry J. Hosley II
+  - person_id: ocd-person/13fe1038-b213-5908-97cf-8f73e3f3c154
+    name: Zachary Fuller
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Danby justices of
+    the peace elected November 5, 2024: Bradley J. Bender, Zachary Fuller, Daniel
+    Garceau, Terry J. Hosley II, and Collette Yrsha. The listing publishes no vote
+    totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
