@@ -1,0 +1,29 @@
+# Kirby municipal roster backfill -- Vermont
+# municipal fan-out batch 12; issue #163 (VT master tracking).
+id: ocd-person/4c6879e9-f9a2-5bff-9726-055e50fd3efe
+name: Tracy Sherbrook
+identifiers: []
+candidacies:
+- contest_id: kirby-vt/2024-11-05/justice-of-the-peace
+  election_id: kirby-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:kirby/government
+  office_id: kirby-vt/justice-of-the-peace
+  party: null
+  ballot_name: Tracy Sherbrook
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names five justices of the peace for
+    Kirby: Timothy Peters, Flower Toomey, Tracy Sherbrook, Karen Moore, and Anne McClaughry'
+  retrieved: '2026-10-18'
+- url: https://www.kirbyvt.gov/government
+  note: 'Town of Kirby (official website), Government page: the ''Justices of the
+    Peace'' block names the same five: Karen Moore, Timothy Peters, Tracy Sherbrook,
+    Anne McClaughry, and Flower Toomey. Anne McClaughry is a different person from
+    Moderator John McClaughry; no relationship is asserted'
+  retrieved: '2026-10-18'
