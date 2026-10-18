@@ -1,0 +1,25 @@
+# Town of Bakersfield municipal roster backfill -- Vermont
+# municipal fan-out batch 1; issue #163 (VT master tracking).
+id: ocd-person/3441172a-d54d-54f0-9018-a23c4598f102
+name: Mark Doremus
+identifiers: []
+candidacies:
+- contest_id: bakersfield-vt/2024-11-05/justice-of-the-peace
+  election_id: bakersfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bakersfield/government
+  office_id: bakersfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Mark Doremus
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (last updated December 4, 2025), Bakersfield (Franklin
+    County): Pauline Cosgrove, Patrick Evans, Brenda Churchill, Arlene O''Rourke,
+    Sarah Willey Marcotte, Janice Ketchum Marcotte, Mark Doremus. The listing presents
+    the justices elected November 5, 2024.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,42 @@
+# Bakersfield Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: bakersfield-vt/2024-11-05/general
+name: Bakersfield 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: bakersfield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bakersfield/government
+  office_id: bakersfield-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/5166a653-1ce9-578f-a1e7-85baf0f230a5
+  - ocd-person/e5abd35f-847b-5b10-88ba-6ef6b0c272d1
+  - ocd-person/0f594797-ff8e-5485-9db8-fcd426de2f6e
+  - ocd-person/3441172a-d54d-54f0-9018-a23c4598f102
+  - ocd-person/b0e7abe7-c58e-5ec8-a79c-144422b12293
+  - ocd-person/b2097a90-1927-5a83-9e9f-26148cc828d0
+  - ocd-person/91424131-3c28-5896-9c71-90ab5382511f
+  result_status: official
+  winners:
+  - person_id: ocd-person/5166a653-1ce9-578f-a1e7-85baf0f230a5
+    name: Arlene O'Rourke
+  - person_id: ocd-person/e5abd35f-847b-5b10-88ba-6ef6b0c272d1
+    name: Brenda Churchill
+  - person_id: ocd-person/0f594797-ff8e-5485-9db8-fcd426de2f6e
+    name: Janice Ketchum Marcotte
+  - person_id: ocd-person/3441172a-d54d-54f0-9018-a23c4598f102
+    name: Mark Doremus
+  - person_id: ocd-person/b0e7abe7-c58e-5ec8-a79c-144422b12293
+    name: Patrick Evans
+  - person_id: ocd-person/b2097a90-1927-5a83-9e9f-26148cc828d0
+    name: Pauline Cosgrove
+  - person_id: ocd-person/91424131-3c28-5896-9c71-90ab5382511f
+    name: Sarah Willey Marcotte
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'
