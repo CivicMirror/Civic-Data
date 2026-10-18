@@ -1,0 +1,21 @@
+# Town of Derby municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/96bb5e60-1166-5575-bbea-be2bb2d8e3f5
+name: C. Michael Marsh
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://derbyvt.org/wp-content/uploads/2026/02/2025-Annual-Town-Report-1.pdf
+  note: 'Town of Derby 2025 Annual Town Report (derbyvt.org, February 2026): the ELECTED
+    TOWN OFFICIALS table lists Mark Linton (expiring 2028), C. Michael Marsh (2027),
+    and Nancy P. Moore (term expiring 2026).'
+  retrieved: '2026-10-18'
+- url: https://derbyvt.org/municipal-officers/
+  note: 'Town of Derby Municipal Directory page (derbyvt.org, current): the current
+    Municipal Directory seats the same three listers (printing ''Mike Marsh''), so
+    Moore remains in the seat that stood in 2026.'
+  retrieved: '2026-10-18'
