@@ -1,0 +1,21 @@
+# Town of Cambridge municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/e13c1037-96fc-5820-a6fa-2d07d1bd85c1
+name: Brooke Chouinard
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Cambridge Selectboard members: Toni
+    Bryce, Brooke Chouinard, Cody Marsh, Angela Pratt, and Dan St Cyr.'
+  retrieved: '2026-10-18'
+- url: https://www.cambridge.vermont.gov/document_center/Clerk%20Office/Certificate%20of%20Votes%20March%203%202026.pdf?t=202603041351320
+  note: 'Town of Cambridge, Certificate of Votes for the Annual Town Meeting, March
+    3, 2026 (attested by Dana Warren, Town Clerk): Toni Bryce was elected to a three-year
+    Selectboard term and Brooke Chouinard to a two-year term at the 2026 annual meeting.'
+  retrieved: '2026-10-18'

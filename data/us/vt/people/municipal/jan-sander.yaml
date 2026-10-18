@@ -1,0 +1,25 @@
+# Town of Cambridge municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/d8fb8770-72f7-53a1-896b-1304d90b8300
+name: Jan Sander
+identifiers: []
+candidacies:
+- contest_id: cambridge-11500-vt/2024-11-05/justice-of-the-peace
+  election_id: cambridge-11500-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:cambridge-11500/government
+  office_id: cambridge-11500-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jan Sander
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists nine Cambridge justices
+    of the peace: Cora Conly, Rosemary D''Elia, Linda Davis, Adam Howard, Justin Marsh,
+    Mark Nash, Jan Sander, Mark Schilling, and Denise Webster. Justin Marsh is a distinct
+    person from Selectboard member Cody Marsh.'
+  retrieved: '2026-10-18'
