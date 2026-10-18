@@ -1,0 +1,30 @@
+# Town of Bradford municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/958c5866-61d7-5e9e-a990-05faa2180ac1
+name: Jonathan Stimson
+identifiers: []
+candidacies:
+- contest_id: bradford-vt/2024-11-05/justice-of-the-peace
+  election_id: bradford-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bradford/government
+  office_id: bradford-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jonathan Stimson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Bradford justices
+    of the peace: Daniel Perry III, Heather Peets, Nathan Peets, Carole Taylor, Gary
+    Moore, Lawrence Coffin, Patrick Harrigan, Monique Priestley, Leonard Dobbins,
+    and Jonathan Stimson.'
+  retrieved: '2026-10-18'
+- url: https://bradford-vt.us/government/departments/justices_of_the_peace.php
+  note: 'Town of Bradford official website, Justices of the Peace page: lists eight
+    of the ten (omitting Harrigan and Dobbins) for the term February 1, 2025 - January
+    31, 2027; the Secretary of State''s listing governs the slate.'
+  retrieved: '2026-10-18'
