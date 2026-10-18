@@ -1,0 +1,36 @@
+# Baltimore Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: baltimore-vt/2024-11-05/general
+name: Baltimore 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: baltimore-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:baltimore/government
+  office_id: baltimore-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/fbb4438b-e610-5496-a9dc-f9269649016a
+  - ocd-person/d37aab3c-6fc7-510d-8e83-7127be5b777b
+  - ocd-person/ebc9b291-1651-58da-a086-31d009398486
+  - ocd-person/5afb70c4-503d-5782-8a55-1f620fb6f956
+  - ocd-person/ec141552-2644-5215-8739-47c9b20d30e5
+  result_status: official
+  winners:
+  - person_id: ocd-person/fbb4438b-e610-5496-a9dc-f9269649016a
+    name: Kathy Muther
+  - person_id: ocd-person/d37aab3c-6fc7-510d-8e83-7127be5b777b
+    name: Kevin Gould
+  - person_id: ocd-person/ebc9b291-1651-58da-a086-31d009398486
+    name: Lowell W Wheelock
+  - person_id: ocd-person/5afb70c4-503d-5782-8a55-1f620fb6f956
+    name: Martha J Jewett
+  - person_id: ocd-person/ec141552-2644-5215-8739-47c9b20d30e5
+    name: Robert L Metcalf
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'
