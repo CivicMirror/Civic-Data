@@ -1,0 +1,29 @@
+# Town of Eden municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/2429a793-118b-5bb5-b541-c0ce390cbd63
+name: Amy Fitzgerald
+identifiers: []
+candidacies:
+- contest_id: eden-vt/2024-11-05/justice-of-the-peace
+  election_id: eden-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:eden/government
+  office_id: eden-vt/justice-of-the-peace
+  party: null
+  ballot_name: Amy Fitzgerald
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Eden justices of
+    the peace: H. Bruce Burnor, Kelly Daige, Amy Fitzgerald, Tracey Morin, Molly Morin,
+    Steven Schmeltzer, and Leslie White.'
+  retrieved: '2026-10-18'
+- url: https://www.edenvt.org/wp-content/uploads/2026/02/Eden-Town-Report-24-25.pdf
+  note: 'Town of Eden 2024-25 Annual Town Report (edenvt.org): the TOWN OFFICERS table
+    lists the same seven justices of the peace (printing ''Steve Schmelzer''; the
+    listing''s form governs).'
+  retrieved: '2026-10-18'

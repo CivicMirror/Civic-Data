@@ -1,0 +1,47 @@
+# Town of Eden -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking).
+id: eden-vt/2024-11-05/general
+name: Town of Eden Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: eden-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:eden/government
+  office_id: eden-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/2429a793-118b-5bb5-b541-c0ce390cbd63
+  - ocd-person/c5290f8b-16cb-5f27-a655-161ed19db0fe
+  - ocd-person/40c385cb-b039-5c12-8da6-44cd3e3f321e
+  - ocd-person/8664f067-cf30-560a-aebe-56b8de23ef76
+  - ocd-person/0fcd707b-bc98-503b-9790-29de360fd50e
+  - ocd-person/33251745-5ef0-5c76-bf4b-890790eb6e95
+  - ocd-person/a0211b25-5a37-51d8-95e2-1e95359f5315
+  result_status: official
+  winners:
+  - person_id: ocd-person/2429a793-118b-5bb5-b541-c0ce390cbd63
+    name: Amy Fitzgerald
+  - person_id: ocd-person/c5290f8b-16cb-5f27-a655-161ed19db0fe
+    name: H. Bruce Burnor
+  - person_id: ocd-person/40c385cb-b039-5c12-8da6-44cd3e3f321e
+    name: Kelly Daige
+  - person_id: ocd-person/8664f067-cf30-560a-aebe-56b8de23ef76
+    name: Leslie White
+  - person_id: ocd-person/0fcd707b-bc98-503b-9790-29de360fd50e
+    name: Molly Morin
+  - person_id: ocd-person/33251745-5ef0-5c76-bf4b-890790eb6e95
+    name: Steven Schmeltzer
+  - person_id: ocd-person/a0211b25-5a37-51d8-95e2-1e95359f5315
+    name: Tracey Morin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Eden justices of
+    the peace elected November 5, 2024: H. Bruce Burnor, Kelly Daige, Amy Fitzgerald,
+    Tracey Morin, Molly Morin, Steven Schmeltzer, and Leslie White. The listing publishes
+    no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
+- url: https://www.edenvt.org/wp-content/uploads/2026/02/Eden-Town-Report-24-25.pdf
+  note: 'Town of Eden 2024-25 Annual Town Report (edenvt.org): the TOWN OFFICERS table
+    lists the same seven justices of the peace.'
+  retrieved: '2026-10-18'
