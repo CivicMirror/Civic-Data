@@ -1,0 +1,21 @@
+# Town of Coventry municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/751f7c55-c2b6-5e6a-a6e8-d3f502c99d98
+name: David Barlow
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://coventryvt.org/town-treasurer/
+  note: 'Town of Coventry official website, Town Treasurer page: ''The Town Treasurer
+    is hired by the Select Board'' and names David Barlow as Treasurer. The holder
+    is recorded as appointed.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists David Barlow as Town
+    Treasurer of Coventry.'
+  retrieved: '2026-10-18'
