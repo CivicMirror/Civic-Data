@@ -1,0 +1,28 @@
+# Town of Corinth municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/28c04992-bb6b-5460-8689-03fd3c76b623
+name: Russ Pazdro
+identifiers: []
+candidacies:
+- contest_id: corinth-vt/2024-11-05/justice-of-the-peace
+  election_id: corinth-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:corinth/government
+  office_id: corinth-vt/justice-of-the-peace
+  party: null
+  ballot_name: Russ Pazdro
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Corinth justices
+    of the peace: Kathy Chapman, Jane Conner, Anne Margolis, Tim O''Dell, Russ Pazdro,
+    Amy Peberdy, and Allegra Shumway.'
+  retrieved: '2026-10-18'
+- url: https://corinthvt.org/town-govt/town-officers/
+  note: 'Town of Corinth official website, Town Officers page: lists the same seven
+    justices of the peace (2-year terms expiring January 31, 2027).'
+  retrieved: '2026-10-18'

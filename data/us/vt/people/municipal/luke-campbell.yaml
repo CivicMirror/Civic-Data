@@ -1,0 +1,20 @@
+# Town of Corinth municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/ac394f9f-2eae-5c40-9745-681540b375e9
+name: Luke Campbell
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://corinthvt.org/town-govt/town-officers/
+  note: 'Town of Corinth official website, Town Officers page: lists three Cemetery
+    Commissioners (3-year terms): Luke Campbell (ends 2027), Norman Collette (Chair,
+    2029), and Raymond Moulton (2028).'
+  retrieved: '2026-10-18'
+- url: https://corinthvt.org/wp-content/uploads/2026/03/Corinth-Annual-Town-Meeting-Voting-Results-3-03-2026.pdf
+  note: 'Town of Corinth, March 3, 2026 Town Meeting voting results (posted on corinthvt.org):
+    record ''Cemetery Commissioner for 3 years -- WINNER: Norm Collette''.'
+  retrieved: '2026-10-18'
