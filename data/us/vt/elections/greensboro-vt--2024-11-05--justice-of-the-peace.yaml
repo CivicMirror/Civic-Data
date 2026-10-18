@@ -1,0 +1,35 @@
+# Town of Greensboro -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: greensboro-vt/2024-11-05/general
+name: Town of Greensboro Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: greensboro-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:greensboro/government
+  office_id: greensboro-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/22042154-1ac9-5f69-8aa5-830e38d58591
+  - ocd-person/b28197e5-0184-5a81-b9ff-914930c6ad31
+  - ocd-person/8fd17ca6-b22c-5fff-84a0-f3f477eda409
+  - ocd-person/075b31cd-91f1-593e-937a-f6b3d2aa159a
+  - ocd-person/2e61cd96-883f-58b7-b2b9-9ea7887f9dd1
+  result_status: official
+  winners:
+  - person_id: ocd-person/22042154-1ac9-5f69-8aa5-830e38d58591
+    name: Judy Carpenter
+  - person_id: ocd-person/b28197e5-0184-5a81-b9ff-914930c6ad31
+    name: Maya McCoy
+  - person_id: ocd-person/8fd17ca6-b22c-5fff-84a0-f3f477eda409
+    name: Mike Metcalf
+  - person_id: ocd-person/075b31cd-91f1-593e-937a-f6b3d2aa159a
+    name: Stew Arnold
+  - person_id: ocd-person/2e61cd96-883f-58b7-b2b9-9ea7887f9dd1
+    name: Tim Nisbet
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Greensboro winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'
