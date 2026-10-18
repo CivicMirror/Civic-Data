@@ -1,0 +1,20 @@
+# Town of Brattleboro municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/5e9222e7-9ddc-5352-9cc5-ac107d5c6cb4
+name: David Gartenstein
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/24APPENDIX/107/00002.02
+  note: 'Town of Brattleboro charter, 24 App. V.S.A. ch. 107, section 2.2 (official
+    text): section 2.2(7) provides for the election of a Moderator for a one-year
+    term.'
+  retrieved: '2026-10-18'
+- url: https://drive.google.com/file/d/1Cm-lMY13NZkT3fOYowYeCvY_-ECsXPU5/view
+  note: 'Town of Brattleboro, official March 3, 2026 election results (published by
+    the Town Clerk): David Gartenstein (1,911) won the Moderator contest in 2026.'
+  retrieved: '2026-10-18'
