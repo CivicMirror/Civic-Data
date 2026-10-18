@@ -1,0 +1,26 @@
+# Ludlow municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/6a9fdfc6-bb66-51ee-aca7-029d62f62ae1
+name: Joyce Washburn
+identifiers: []
+candidacies:
+- contest_id: ludlow-41275-vt/2024-11-05/justice-of-the-peace
+  election_id: ludlow-41275-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ludlow-41275/government
+  office_id: ludlow-41275-vt/justice-of-the-peace
+  party: null
+  ballot_name: Joyce Washburn
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names ten justices of the peace for
+    Ludlow: Laura Creaser, Theresa Gurdak-Carter, Joe Josselyn, John Merrow, Alice
+    Nitka, Judy Pullinen, Virginia Snyder, Jean Strong, John Murphy, and Joyce Washburn.
+    The town officers document''s JP block is the prior (November 2022) slate and
+    does not govern'
+  retrieved: '2026-10-18'
