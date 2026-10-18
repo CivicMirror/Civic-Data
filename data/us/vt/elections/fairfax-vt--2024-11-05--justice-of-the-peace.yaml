@@ -1,0 +1,63 @@
+# Town of Fairfax -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking).
+id: fairfax-vt/2024-11-05/general
+name: Town of Fairfax Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: fairfax-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fairfax/government
+  office_id: fairfax-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/5d4beccb-6912-51ec-85a9-1de7da61447e
+  - ocd-person/7d08dc4f-8e77-5336-93d5-9a76fed1be0d
+  - ocd-person/5a4fc343-ffe1-5e29-ada0-5f1e15a53a2a
+  - ocd-person/b734e5ca-9972-5b54-951c-cdc46adea4bb
+  - ocd-person/b65ff5a3-940f-5b2d-98ff-080b902c99c2
+  - ocd-person/0bed2c1d-9ae2-5d46-8dea-ac69c1633c8f
+  - ocd-person/ad1eecf1-f643-5e2b-a9c8-c17bb74a78dc
+  - ocd-person/ee2e8ede-b14d-5989-9444-1d3cbe47dbce
+  - ocd-person/1655a5ee-1d5f-54fe-96be-1d61af6ec7ed
+  - ocd-person/45637f6d-3f3b-5345-8627-b3bb63085631
+  - ocd-person/f46b646f-0564-513a-842e-5a7f0b0a370a
+  - ocd-person/54be6438-ac70-53f3-87af-f65d4486b4f4
+  result_status: official
+  winners:
+  - person_id: ocd-person/5d4beccb-6912-51ec-85a9-1de7da61447e
+    name: Barbara Murphy
+  - person_id: ocd-person/7d08dc4f-8e77-5336-93d5-9a76fed1be0d
+    name: Donna Meunier
+  - person_id: ocd-person/5a4fc343-ffe1-5e29-ada0-5f1e15a53a2a
+    name: Gregory Hartmann
+  - person_id: ocd-person/b734e5ca-9972-5b54-951c-cdc46adea4bb
+    name: James Minor
+  - person_id: ocd-person/b65ff5a3-940f-5b2d-98ff-080b902c99c2
+    name: Jeffrey Bartley
+  - person_id: ocd-person/0bed2c1d-9ae2-5d46-8dea-ac69c1633c8f
+    name: Julie Filiberti
+  - person_id: ocd-person/ad1eecf1-f643-5e2b-a9c8-c17bb74a78dc
+    name: Marjorie Ellsworth
+  - person_id: ocd-person/ee2e8ede-b14d-5989-9444-1d3cbe47dbce
+    name: Mary Kay Raymond
+  - person_id: ocd-person/1655a5ee-1d5f-54fe-96be-1d61af6ec7ed
+    name: Peter Fitzgerald
+  - person_id: ocd-person/45637f6d-3f3b-5345-8627-b3bb63085631
+    name: Robert Horr
+  - person_id: ocd-person/f46b646f-0564-513a-842e-5a7f0b0a370a
+    name: Steve Cormier
+  - person_id: ocd-person/54be6438-ac70-53f3-87af-f65d4486b4f4
+    name: Susan Mitchell
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Fairfax justices
+    of the peace elected November 5, 2024: Barbara Murphy, Steve Cormier, Julie Filiberti,
+    Mary Kay Raymond, Jeffrey Bartley, Marjorie Ellsworth, Peter Fitzgerald, Gregory
+    Hartmann, Robert Horr, Donna Meunier, James Minor, and Susan Mitchell. The listing
+    publishes no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
+- url: https://cms2.revize.com/revize/fairfax/2025%20Town%20Report%20Final.pdf
+  note: 'Town of Fairfax FY2025 Town Report (fairfax-vt.gov): the report''s table
+    lists the same twelve justices of the peace.'
+  retrieved: '2026-10-18'
