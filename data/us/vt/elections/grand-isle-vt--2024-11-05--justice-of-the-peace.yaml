@@ -1,0 +1,33 @@
+# Town of Grand Isle -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: grand-isle-vt/2024-11-05/general
+name: Town of Grand Isle Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: grand-isle-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:grand-isle/government
+  office_id: grand-isle-vt/justice-of-the-peace
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/21260997-f8ce-58ed-9051-abfbe03aa67e
+  - ocd-person/a504cc89-2861-5461-9419-f9c6fcedcffc
+  - ocd-person/f5781f5c-4c67-5fcb-b64a-1e6f86d7f53a
+  result_status: official
+  winners:
+  - person_id: ocd-person/21260997-f8ce-58ed-9051-abfbe03aa67e
+    name: AnnaMarie DeMars
+  - person_id: ocd-person/a504cc89-2861-5461-9419-f9c6fcedcffc
+    name: Howard DeMars
+  - person_id: ocd-person/f5781f5c-4c67-5fcb-b64a-1e6f86d7f53a
+    name: Susan Lawrence
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the three
+    Grand Isle winners of the November 5, 2024 justice of the peace election. No Constable
+    post is created (seat count unverifiable) and no Collector of Delinquent Taxes
+    post (the treasurer is collector ex officio unless the town votes otherwise).
+    Grand Isle drafted a town charter in August 2026 that is NOT adopted; the town
+    is built under general law.'
+  retrieved: '2026-10-18'

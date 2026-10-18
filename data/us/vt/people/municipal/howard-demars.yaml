@@ -1,0 +1,23 @@
+# Town of Grand Isle municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/a504cc89-2861-5461-9419-f9c6fcedcffc
+name: Howard DeMars
+identifiers: []
+candidacies:
+- contest_id: grand-isle-vt/2024-11-05/justice-of-the-peace
+  election_id: grand-isle-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:grand-isle/government
+  office_id: grand-isle-vt/justice-of-the-peace
+  party: null
+  ballot_name: Howard DeMars
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists three Grand Isle justices
+    of the peace: Susan Lawrence, AnnaMarie DeMars, and Howard DeMars.'
+  retrieved: '2026-10-18'
