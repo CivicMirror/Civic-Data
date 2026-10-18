@@ -1,0 +1,46 @@
+# Town of Bridgewater municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/c1620ef5-7e28-5be8-befa-ee15454be23c
+name: Gregory Jenne
+identifiers: []
+candidacies:
+- contest_id: bridgewater-vt/2024-11-05/justice-of-the-peace
+  election_id: bridgewater-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bridgewater/government
+  office_id: bridgewater-vt/justice-of-the-peace
+  party: null
+  ballot_name: Gregory Jenne
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.bridgewater.vt.gov/vertical/sites/%7B562C3348-6A49-4470-9BE0-69A4BB072D18%7D/uploads/Town_Meeting_Minutes_2026.pdf
+  note: 'Town of Bridgewater, Town Meeting Minutes (March 3, 2026): Article 1 elected
+    Greg Jenne Moderator by voice vote in 2026.'
+  retrieved: '2026-10-18'
+- url: https://www.bridgewater.vt.gov/vertical/sites/%7B562C3348-6A49-4470-9BE0-69A4BB072D18%7D/uploads/FY_2024_Town_Report.pdf
+  note: 'Town of Bridgewater FY2024 Town Report, ''ELECTED TOWN OFFICERS'' (report
+    p. 9): lists the Cemetery Commissioners as Roy (Butch) Wardwell (term printed
+    2022-2025), Gregory Jenne (2023-2026), and Owen Astbury (2024-2027).'
+  retrieved: '2026-10-18'
+- url: https://www.bridgewater.vt.gov/vertical/sites/%7B562C3348-6A49-4470-9BE0-69A4BB072D18%7D/uploads/Town_Meeting_Minutes_2026.pdf
+  note: 'Town of Bridgewater, Town Meeting Minutes (March 3, 2026): Article 5 elected
+    Gregory Jenne Cemetery Commissioner (three-year term) in 2026. Wardwell''s seat''s
+    outcome after 2025 is published in no official source, so only Jenne and Astbury
+    are recorded.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Bridgewater justices
+    of the peace: Gregory Jenne, Gloria Martin, Donna Williamson, Justin Wardwell,
+    and Jerry Oppenheimber (the listing''s spelling).'
+  retrieved: '2026-10-18'
+- url: https://www.bridgewater.vt.gov/index.asp?SEC=DDDFC09F-02A1-4831-B8B6-DC6F91A63616
+  note: 'Town of Bridgewater official website, Board of Civil Authority page: lists
+    the justices of the peace as Greg Jenne, Gloria Martin, Jerry Oppenheimer, Justin
+    Wardwell, and Donna Williamson. The town prints ''Oppenheimer'' (also in the FY2024
+    Town Report); that form is recorded, with the Secretary of State listing''s ''Oppenheimber''
+    kept as the ballot name.'
+  retrieved: '2026-10-18'
