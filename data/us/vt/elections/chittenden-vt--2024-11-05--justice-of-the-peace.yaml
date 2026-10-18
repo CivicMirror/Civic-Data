@@ -1,0 +1,43 @@
+# Town of Chittenden -- justice of the peace election (VT municipal batch 6); issue #163 (VT master tracking).
+id: chittenden-vt/2024-11-05/general
+name: Town of Chittenden Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: chittenden-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:chittenden/government
+  office_id: chittenden-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/3297299b-734e-570f-8218-c4787bc07308
+  - ocd-person/50907018-ac01-5d3e-84b0-4b765fad7475
+  - ocd-person/a29753a8-5a27-5792-b06b-63bd994de5fb
+  - ocd-person/27135b64-fd02-59f1-8755-e2b0dec75b9d
+  - ocd-person/690832fc-4aad-5eeb-a784-4d3c8407f246
+  - ocd-person/48cd5275-b6fe-5a73-b638-5f100391385d
+  - ocd-person/4c679eb4-dd8f-5240-b0f3-48ccad43c01f
+  result_status: official
+  winners:
+  - person_id: ocd-person/3297299b-734e-570f-8218-c4787bc07308
+    name: Alison Briggs
+  - person_id: ocd-person/50907018-ac01-5d3e-84b0-4b765fad7475
+    name: Bradford White
+  - person_id: ocd-person/a29753a8-5a27-5792-b06b-63bd994de5fb
+    name: Charles Ogg
+  - person_id: ocd-person/27135b64-fd02-59f1-8755-e2b0dec75b9d
+    name: David Sargent
+  - person_id: ocd-person/690832fc-4aad-5eeb-a784-4d3c8407f246
+    name: Jeffrey Spaulding
+  - person_id: ocd-person/48cd5275-b6fe-5a73-b638-5f100391385d
+    name: Katherine Hall
+  - person_id: ocd-person/4c679eb4-dd8f-5240-b0f3-48ccad43c01f
+    name: Linda Reis
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Chittenden (Rutland
+    County) justices of the peace elected November 5, 2024: Alison Briggs, Katherine
+    Hall, Charles Ogg, Linda Reis, David Sargent, Jeffrey Spaulding, and Bradford
+    White. The listing publishes no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
