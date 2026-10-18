@@ -1,0 +1,46 @@
+# Town of Clarendon -- justice of the peace election (VT municipal batch 6); issue #163 (VT master tracking).
+id: clarendon-vt/2024-11-05/general
+name: Town of Clarendon Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: clarendon-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:clarendon/government
+  office_id: clarendon-vt/justice-of-the-peace
+  vote_for: 8
+  candidate_ids:
+  - ocd-person/988449af-b58f-530d-9a9b-caf6d82d53b4
+  - ocd-person/738653a3-c237-5fcf-8167-103fb54a4d29
+  - ocd-person/a07c5b59-0925-58ad-a225-47b2873cf373
+  - ocd-person/0c72f37d-d5b1-5819-8f7f-efb97230905e
+  - ocd-person/98d41e01-2a50-5b57-8323-bbf24ff31320
+  - ocd-person/81722a94-9385-5d0d-88d5-2dc6640a0fe5
+  - ocd-person/ecb42075-c463-5163-a5bb-30a3ba24aa46
+  - ocd-person/cdd6eec5-e86f-5206-bcb5-d4c8f69e17c2
+  result_status: official
+  winners:
+  - person_id: ocd-person/988449af-b58f-530d-9a9b-caf6d82d53b4
+    name: Arthur Menard
+  - person_id: ocd-person/738653a3-c237-5fcf-8167-103fb54a4d29
+    name: Brownson Spencer
+  - person_id: ocd-person/a07c5b59-0925-58ad-a225-47b2873cf373
+    name: David Bosch
+  - person_id: ocd-person/0c72f37d-d5b1-5819-8f7f-efb97230905e
+    name: Deborah Dougherty
+  - person_id: ocd-person/98d41e01-2a50-5b57-8323-bbf24ff31320
+    name: George Ambrose
+  - person_id: ocd-person/81722a94-9385-5d0d-88d5-2dc6640a0fe5
+    name: John Colvin
+  - person_id: ocd-person/ecb42075-c463-5163-a5bb-30a3ba24aa46
+    name: Kevin Dougherty
+  - person_id: ocd-person/cdd6eec5-e86f-5206-bcb5-d4c8f69e17c2
+    name: Robert Congdon
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists eight Clarendon justices
+    of the peace elected November 5, 2024: George Ambrose, David Bosch, Robert Congdon,
+    John Colvin, Deborah Dougherty, Kevin Dougherty, Arthur Menard, and Brownson Spencer.
+    The listing publishes no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,35 @@
+# Town of Clarendon municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/cdd6eec5-e86f-5206-bcb5-d4c8f69e17c2
+name: Robert Congdon
+identifiers: []
+candidacies:
+- contest_id: clarendon-vt/2024-11-05/justice-of-the-peace
+  election_id: clarendon-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:clarendon/government
+  office_id: clarendon-vt/justice-of-the-peace
+  party: null
+  ballot_name: Robert Congdon
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Clarendon Selectboard members: George
+    Ambrose, Robert Congdon, Michael Klopchin, Don Pratt, and Cash Ruane.'
+  retrieved: '2026-10-18'
+- url: https://www.clarendonvt.gov/category/town-minutes-agenda/
+  note: 'Town of Clarendon official website, Town Minutes & Agenda archive: Selectboard
+    minutes, September-October 2026, seat the same five, with Mike Klopchin as Chair;
+    the March 2026 annual-meeting returns re-elected Klopchin (475 votes, 3-year term)
+    and Ruane (472 votes, 2-year term).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists eight Clarendon justices
+    of the peace: George Ambrose, David Bosch, Robert Congdon, John Colvin, Deborah
+    Dougherty, Kevin Dougherty, Arthur Menard, and Brownson Spencer.'
+  retrieved: '2026-10-18'
