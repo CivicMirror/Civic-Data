@@ -1,0 +1,58 @@
+# Town of Brandon -- justice of the peace election (VT municipal batch 3); issue #163 (VT master tracking).
+id: brandon-vt/2024-11-05/general
+name: Town of Brandon Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: brandon-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brandon/government
+  office_id: brandon-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/9b6010b8-ea37-5002-90a1-fb2c72d294cc
+  - ocd-person/d22d1fba-4b76-5256-8918-74dc3569c731
+  - ocd-person/14029d3e-fc06-5895-8f1d-ec8b11215e91
+  - ocd-person/595f00a0-6ee9-52b5-aaa7-7946c3228635
+  - ocd-person/44496840-1b4e-5a07-abf4-50ab39454e01
+  - ocd-person/6dfc902b-94fb-5f12-90a8-4894465a7546
+  - ocd-person/716a5bb8-580a-51eb-9d80-18e54af953cb
+  - ocd-person/3831ecce-0b11-5e8d-83da-61e7762c3d33
+  - ocd-person/7a409561-6634-5973-9324-df3d15a7bd8f
+  - ocd-person/cf116167-70c2-5253-bbb8-6ba5efb848fe
+  - ocd-person/e8841634-b814-57af-91a4-6dc8bdbb97f6
+  - ocd-person/451097bd-b44a-5591-9d8f-8c1ff6721e89
+  result_status: official
+  winners:
+  - person_id: ocd-person/9b6010b8-ea37-5002-90a1-fb2c72d294cc
+    name: Bill Moore
+  - person_id: ocd-person/d22d1fba-4b76-5256-8918-74dc3569c731
+    name: Bud Coolidge
+  - person_id: ocd-person/14029d3e-fc06-5895-8f1d-ec8b11215e91
+    name: Del Cook
+  - person_id: ocd-person/595f00a0-6ee9-52b5-aaa7-7946c3228635
+    name: Doug Bailey
+  - person_id: ocd-person/44496840-1b4e-5a07-abf4-50ab39454e01
+    name: Hillary Knapp
+  - person_id: ocd-person/6dfc902b-94fb-5f12-90a8-4894465a7546
+    name: John Peterson
+  - person_id: ocd-person/716a5bb8-580a-51eb-9d80-18e54af953cb
+    name: Kathy Clark
+  - person_id: ocd-person/3831ecce-0b11-5e8d-83da-61e7762c3d33
+    name: Laura Peterson
+  - person_id: ocd-person/7a409561-6634-5973-9324-df3d15a7bd8f
+    name: Patricia Welch
+  - person_id: ocd-person/cf116167-70c2-5253-bbb8-6ba5efb848fe
+    name: Sally Cook
+  - person_id: ocd-person/e8841634-b814-57af-91a4-6dc8bdbb97f6
+    name: Todd Nielsen
+  - person_id: ocd-person/451097bd-b44a-5591-9d8f-8c1ff6721e89
+    name: Wendy Rowe-Feldman
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Brandon justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'
