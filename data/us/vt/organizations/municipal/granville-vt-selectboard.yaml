@@ -1,0 +1,22 @@
+# Town of Granville municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-organization/f8fe264c-3b9d-5b05-8c75-33997f44bab3
+name: Granville Selectboard
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:granville/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: granville-vt/selectboard
+status: active
+sources:
+- url: https://granvillevermont.org/wp-content/uploads/2026/03/Annual-Town-Meeting-Minutes-2026.pdf
+  note: 'Town of Granville, Minutes of the Annual Town Meeting, March 3, 2026 (granvillevermont.org):
+    Robert Readie was elected to a three-year term (26 votes to Kevin Bagley''s 10)
+    and Jared Rouleau to the two years remaining on a term ending 2028 (24 votes);
+    the board is Readie, Rouleau, and Michael Eramo, whose term runs to 2027.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Granville''s three selectboard members
+    as Michael Eramo, Robert Readie (Chair), and Jared Rouleau -- concordant with
+    the town''s own 2026 meeting minutes.'
+  retrieved: '2026-10-18'

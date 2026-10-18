@@ -1,0 +1,23 @@
+# Town of Granville municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/1399aa9b-520d-5f25-a1af-2ab825b276ae
+name: Kate Stauss
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://granvillevermont.org/wp-content/uploads/2026/03/Annual-Town-Meeting-Minutes-2026.pdf
+  note: 'Town of Granville, Minutes of the Annual Town Meeting, March 3, 2026 (granvillevermont.org):
+    Veronica Parrish was elected Cemetery Commissioner to a three-year term ending
+    2029 (the Second seat in the commission''s First/Second/Third rotation).'
+  retrieved: '2026-10-18'
+- url: https://granvillevermont.org/wp-content/uploads/2025/03/Annual-Town-Meeting-2025-Minutes.pdf
+  note: 'Town of Granville, Minutes of the Annual Town Meeting, March 4, 2025 (granvillevermont.org):
+    Kate Stauss was elected Cemetery Commissioner to the two years remaining on a
+    term ending 2027, and William Brokof to a three-year term ending 2028. The commission''s
+    First, Second, and Third seats rotate on the pattern the two meetings'' minutes
+    fix.'
+  retrieved: '2026-10-18'
