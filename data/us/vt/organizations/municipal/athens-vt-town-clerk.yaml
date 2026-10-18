@@ -1,0 +1,23 @@
+# Town of Athens municipal roster backfill -- Vermont
+# municipal fan-out batch 1; issue #163 (VT master tracking).
+id: ocd-organization/851726d9-d040-5ff4-9495-044f4e04d446
+name: Athens Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:athens/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: athens-vt/town-clerk
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact information
+    spreadsheet (last updated June 12, 2026), Athens row: Amber Stevens, Town Clerk.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers & County Clerks'' (January 2026), Athens entry: Amber Stevens,
+    Clerk.'
+  retrieved: '2026-10-17'
+- url: https://www.athensvt.com/officials.html
+  note: 'Town of Athens official website, Officials page (read October 17, 2026):
+    Town Clerk & Treasurer Amber Stevens.'
+  retrieved: '2026-10-17'

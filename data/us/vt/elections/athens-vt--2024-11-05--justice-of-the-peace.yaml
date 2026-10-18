@@ -1,0 +1,36 @@
+# Athens Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: athens-vt/2024-11-05/general
+name: Athens 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: athens-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:athens/government
+  office_id: athens-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/3d2ddac1-f2c5-579f-945b-e900374718f6
+  - ocd-person/43cdacba-6481-52ab-8af8-ebd9aa098c66
+  - ocd-person/b9c4afe9-6adb-58c6-81d6-9ba7f09c474a
+  - ocd-person/ca4e3d21-c0f4-5a20-a116-4af0ca399580
+  - ocd-person/7e92579b-d550-5c66-acbe-dc21ef480c14
+  result_status: official
+  winners:
+  - person_id: ocd-person/3d2ddac1-f2c5-579f-945b-e900374718f6
+    name: April Lyman
+  - person_id: ocd-person/43cdacba-6481-52ab-8af8-ebd9aa098c66
+    name: David Bemis
+  - person_id: ocd-person/b9c4afe9-6adb-58c6-81d6-9ba7f09c474a
+    name: Janet Perry
+  - person_id: ocd-person/ca4e3d21-c0f4-5a20-a116-4af0ca399580
+    name: Kate Bova
+  - person_id: ocd-person/7e92579b-d550-5c66-acbe-dc21ef480c14
+    name: Sandi Capponcelli
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'
