@@ -1,0 +1,24 @@
+# Town of Granby municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/d2a74d1e-2660-5fa5-956a-c84740a06488
+name: Bruce Berryman
+identifiers: []
+candidacies:
+- contest_id: granby-vt/2024-11-05/justice-of-the-peace
+  election_id: granby-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:granby/government
+  office_id: granby-vt/justice-of-the-peace
+  party: null
+  ballot_name: Bruce Berryman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Granby justices
+    of the peace: Robert Peters, Sonia Peters, Reginald Bunnell, Bruce Berryman, and
+    John Noble.'
+  retrieved: '2026-10-18'
