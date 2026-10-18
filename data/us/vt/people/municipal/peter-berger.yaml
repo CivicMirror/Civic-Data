@@ -1,0 +1,35 @@
+# Town of Fairlee municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/4f2763ca-4f44-5ac9-a232-f59ae8cf8959
+name: Peter Berger
+identifiers: []
+candidacies:
+- contest_id: fairlee-vt/2024-11-05/justice-of-the-peace
+  election_id: fairlee-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fairlee/government
+  office_id: fairlee-vt/justice-of-the-peace
+  party: null
+  ballot_name: Peter Berger
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Fairlee Selectboard members: Peter
+    Berger, Miranda Clemson (Chair), and Lance Mills.'
+  retrieved: '2026-10-18'
+- url: https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf
+  note: 'Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov;
+    the file is named 2025 but its contents are the 2026 minutes): the March 3, 2026
+    town meeting re-elected Clemson to a 3-year term unopposed; Berger chaired the
+    board before the 2026 reorganization and Clemson chairs it in the June 2026 directory.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Fairlee justices
+    of the peace: Peter Berger, Eric Brooks, Rita Temple Brooks, Calista Diane, and
+    Timothy Danen.'
+  retrieved: '2026-10-18'
