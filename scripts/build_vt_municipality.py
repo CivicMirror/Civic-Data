@@ -62,6 +62,8 @@ def dump(path, doc, write, header):
     print(f"{'WRITE' if write else 'WOULD WRITE'}: {path.relative_to(REPO)}")
     if write:
         path.parent.mkdir(parents=True, exist_ok=True)
+        if not header.endswith("\n"):
+            header += "\n"
         path.write_text(
             header + yaml.safe_dump(doc, sort_keys=False, allow_unicode=True)
         )
@@ -76,7 +78,8 @@ def build(spec, write):
     created = 0
     people = {}  # (scope, slug) -> {"name":..., "sources":[...], "jp":bool}
 
-    def note_person(scope, slug, name, sources, is_jp):
+    def note_person(scope, slug, name, sources, is_jp, existing_id=None,
+                    ballot_name=None):
         entry = people.setdefault(
             (scope, slug), {"name": name, "sources": [], "jp": False})
         for s in sources:
@@ -84,28 +87,48 @@ def build(spec, write):
                 entry["sources"].append(s)
         if is_jp:
             entry["jp"] = True
+        if existing_id:
+            entry["existing_id"] = existing_id
+        if ballot_name:
+            # The SOS JP listing's printed form of the name, when it
+            # differs from the person's display name (e.g. the
+            # listing's "Sheila Martin" for Shelia Martin, or a
+            # suffixed "Tom Haley III" for Tom Haley).
+            entry["ballot_name"] = ballot_name
 
     for office in spec["offices"]:
         oslug = office["slug"]
         post_id = f"{prefix}/{oslug}"
-        org_id = oid("organization", f"vt|municipal|{post_id}")
+        # An office may share its organization with sibling posts
+        # (city council ward posts, a village board's president +
+        # trustee posts) by naming an "org_key"; the org file is
+        # written once, by the first post that defines it, and its
+        # filename names the body. Default: one org per post.
+        org_key = office.get("org_key", post_id)
+        org_id = oid("organization", f"vt|municipal|{org_key}")
         sources = []
         for s in office["sources"]:
             s = dict(s)
             s.setdefault("retrieved", RETRIEVED)
             sources.append(s)
+        org_sources = []
+        for s in office.get("org_sources", office["sources"]):
+            s = dict(s)
+            s.setdefault("retrieved", RETRIEVED)
+            org_sources.append(s)
         org = {
             "id": org_id,
             "name": office["org_name"],
             "jurisdiction_id": jurisdiction_id,
             "identifiers": [
-                {"scheme": "civicmirror-office", "identifier": post_id}
+                {"scheme": "civicmirror-office", "identifier": org_key}
             ],
             "status": "active",
-            "sources": sources,
+            "sources": org_sources,
         }
         created += dump(
-            DATA_DIR / "organizations" / "municipal" / f"{prefix}-{oslug}.yaml",
+            DATA_DIR / "organizations" / "municipal"
+            / (org_key.replace("/", "-") + ".yaml"),
             org, write, header)
         post = {
             "id": post_id,
@@ -127,7 +150,9 @@ def build(spec, write):
                 hsources.append(s)
             membership = {
                 "id": f"{prefix}-{oslug}-{holder['slug']}",
-                "person_id": person_id(scope, holder["slug"]),
+                "person_id": holder.get(
+                    "existing_person_id",
+                    person_id(scope, holder["slug"])),
                 "organization_id": org_id,
                 "post_id": post_id,
                 "role": office["title"],
@@ -139,10 +164,21 @@ def build(spec, write):
                 / f"{prefix}-{oslug}-{holder['slug']}.yaml",
                 membership, write, header)
             note_person(scope, holder["slug"], holder["name"], hsources,
-                        oslug == "justice-of-the-peace")
+                        oslug == "justice-of-the-peace",
+                        holder.get("existing_person_id"),
+                        holder.get("ballot_name"))
 
     jp_election = spec.get("jp_election")
     for (scope, slug), entry in sorted(people.items()):
+        if entry.get("existing_id"):
+            # Cross-tier reuse: the person record already exists in
+            # another tier. No person file is written here; the JP
+            # candidacy must be appended to the existing record by
+            # the operator (the build report lists these).
+            print(f"REUSE existing person {entry['existing_id']} "
+                  f"for {entry['name']} -- append the candidacy to "
+                  f"the existing person file manually")
+            continue
         candidacies = []
         if entry["jp"] and jp_election:
             candidacies = [{
@@ -153,7 +189,7 @@ def build(spec, write):
                 # required by schema; party is not published in the
                 # SOS JP listing and is recorded as null
                 "party": None,
-                "ballot_name": entry["name"],
+                "ballot_name": entry.get("ballot_name", entry["name"]),
                 "status": "active",
             }]
         person = {
@@ -185,7 +221,9 @@ def build(spec, write):
 
     if jp_election:
         jp_people = [
-            (slug, entry["name"])
+            (slug, entry.get("ballot_name", entry["name"]),
+             entry.get("existing_id",
+                       person_id(spec.get("jp_person_scope", place), slug)))
             for (scope, slug), entry in sorted(people.items()) if entry["jp"]
         ]
         esources = []
@@ -204,15 +242,11 @@ def build(spec, write):
                 "jurisdiction_id": jurisdiction_id,
                 "office_id": f"{prefix}/justice-of-the-peace",
                 "vote_for": jp_election["vote_for"],
-                "candidate_ids": [
-                    person_id(spec.get("jp_person_scope", place), slug)
-                    for slug, _ in jp_people
-                ],
+                "candidate_ids": [pid for _, _, pid in jp_people],
                 "result_status": "official",
                 "winners": [
-                    {"person_id": person_id(spec.get("jp_person_scope", place), slug),
-                     "name": name}
-                    for slug, name in jp_people
+                    {"person_id": pid, "name": name}
+                    for _, name, pid in jp_people
                 ],
             }],
             "sources": esources,
