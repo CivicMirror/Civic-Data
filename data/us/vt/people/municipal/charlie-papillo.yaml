@@ -1,0 +1,21 @@
+# Town of Colchester municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/8f97cd2c-0ce3-5fae-acda-f7ffbf1ce872
+name: Charlie Papillo
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Colchester Selectboard members: Maureen
+    Dakin, Pam Loranger, Jacki Murphy, Charlie Papillo, and Paul Pecor.'
+  retrieved: '2026-10-18'
+- url: https://colchestervt.gov/401/Selectboard
+  note: 'Town of Colchester official website, Selectboard page: lists ''Pam Loranger,
+    Chair'', ''Charlie Papillo, Vice Chair'', ''Jacki Murphy, Clerk'', ''Maureen Dakin'',
+    and ''Paul Pecor'' -- the same five.'
+  retrieved: '2026-10-18'
