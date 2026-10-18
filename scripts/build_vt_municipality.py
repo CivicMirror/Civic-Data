@@ -164,7 +164,8 @@ def build(spec, write):
                 / f"{prefix}-{oslug}-{holder['slug']}.yaml",
                 membership, write, header)
             note_person(scope, holder["slug"], holder["name"], hsources,
-                        oslug == "justice-of-the-peace",
+                        oslug == "justice-of-the-peace"
+                        and not holder.get("no_candidacy"),
                         holder.get("existing_person_id"),
                         holder.get("ballot_name"))
 
