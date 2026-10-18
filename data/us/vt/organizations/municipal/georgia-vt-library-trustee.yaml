@@ -1,0 +1,21 @@
+# Town of Georgia municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-organization/f0e436cf-b0ec-595d-8cfa-9cadf2bc60aa
+name: Georgia Public Library Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:georgia/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: georgia-vt/library-trustee
+status: active
+sources:
+- url: https://www.townofgeorgia.com/elections-voting
+  note: 'Town of Georgia Elections & Voting page (townofgeorgia.com), ''Local Offices
+    Open for 2026'': three Library Trustee seats stood in 2026 for one year -- the
+    seats are elected.'
+  retrieved: '2026-10-18'
+- url: https://www.georgiapubliclibraryvt.org/uploads/1/3/1/6/131684128/gplbot_01212026.pdf
+  note: 'Georgia Public Library trustee minutes, January 21, 2026 (georgiapubliclibraryvt.org):
+    the board has five trustees (Nicole Jamison, Chair; Debbie Mann; Kollene Caspers;
+    Terry Cleveland; Craig Volatile-Wood). That roster predates the March 2026 meeting
+    at which three seats stood, so no holders are minted. Structure only.'
+  retrieved: '2026-10-18'

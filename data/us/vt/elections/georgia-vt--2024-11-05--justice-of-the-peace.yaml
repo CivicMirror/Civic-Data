@@ -1,0 +1,59 @@
+# Town of Georgia -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: georgia-vt/2024-11-05/general
+name: Town of Georgia Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: georgia-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:georgia/government
+  office_id: georgia-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/49bbde00-3336-58d7-80e3-8a62c4bfa051
+  - ocd-person/210145d1-8a82-52cb-b344-bde7ae4766b1
+  - ocd-person/e5c11d7f-f5c9-573b-8308-bd8cad81f016
+  - ocd-person/a9ee7683-21f3-5fbb-8048-065597a57a9e
+  - ocd-person/d4f91af4-a4bb-567e-ae21-8374a893418b
+  - ocd-person/897726c0-7ed2-5df0-96a4-ffa16652c622
+  - ocd-person/d242d002-5e0f-59b2-9800-de180c0fbecc
+  - ocd-person/399422f6-4775-5401-ae3e-230822694742
+  - ocd-person/f734f50d-1ad1-5e94-8b59-38b6b8c93108
+  - ocd-person/9372c932-0586-5951-898c-e1ad1a19578f
+  - ocd-person/bc89123a-bb15-5970-ae1a-1507c7fa8553
+  result_status: official
+  winners:
+  - person_id: ocd-person/49bbde00-3336-58d7-80e3-8a62c4bfa051
+    name: Alan Parent
+  - person_id: ocd-person/210145d1-8a82-52cb-b344-bde7ae4766b1
+    name: Brian Dunsmore
+  - person_id: ocd-person/e5c11d7f-f5c9-573b-8308-bd8cad81f016
+    name: Craig Volatile-Wood
+  - person_id: ocd-person/a9ee7683-21f3-5fbb-8048-065597a57a9e
+    name: Ed Ballantyne
+  - person_id: ocd-person/d4f91af4-a4bb-567e-ae21-8374a893418b
+    name: Jacqui Hood
+  - person_id: ocd-person/897726c0-7ed2-5df0-96a4-ffa16652c622
+    name: Jen Kale
+  - person_id: ocd-person/d242d002-5e0f-59b2-9800-de180c0fbecc
+    name: Justin Holmes
+  - person_id: ocd-person/399422f6-4775-5401-ae3e-230822694742
+    name: Karen Brigham
+  - person_id: ocd-person/f734f50d-1ad1-5e94-8b59-38b6b8c93108
+    name: Linda Cramer
+  - person_id: ocd-person/9372c932-0586-5951-898c-e1ad1a19578f
+    name: Paul Jansen
+  - person_id: ocd-person/bc89123a-bb15-5970-ae1a-1507c7fa8553
+    name: Tony Heinlein
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names eleven
+    Georgia winners of the November 5, 2024 justice of the peace election and prints
+    the twelfth seat as ''Open''; the contest carries vote_for 12 with eleven winners
+    and the vacancy is the listing''s own. Georgia elects its Planning Commissioners
+    (a four-year seat and a one-year remainder stood in 2026), but no source read
+    fixes the commission''s size, so no post is created; the town has an appointed
+    Town Assessor (no listers) and its audits are performed by an outside firm (no
+    auditor post).'
+  retrieved: '2026-10-18'

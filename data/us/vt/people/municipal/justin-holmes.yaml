@@ -1,0 +1,25 @@
+# Town of Georgia municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/d242d002-5e0f-59b2-9800-de180c0fbecc
+name: Justin Holmes
+identifiers: []
+candidacies:
+- contest_id: georgia-vt/2024-11-05/justice-of-the-peace
+  election_id: georgia-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:georgia/government
+  office_id: georgia-vt/justice-of-the-peace
+  party: null
+  ballot_name: Justin Holmes
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Georgia justice
+    of the peace seats, eleven named and one printed ''Open'': Alan Parent, Jacqui
+    Hood, Ed Ballantyne, Karen Brigham, Linda Cramer, Brian Dunsmore, Justin Holmes,
+    Paul Jansen, Jen Kale, Craig Volatile-Wood, and Tony Heinlein.'
+  retrieved: '2026-10-18'
