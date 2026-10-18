@@ -1,0 +1,43 @@
+# Town of Brighton -- justice of the peace election (VT municipal batch 4); issue #163 (VT master tracking).
+id: brighton-vt/2024-11-05/general
+name: Town of Brighton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: brighton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brighton/government
+  office_id: brighton-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/fcd2666d-a74e-5671-b4ac-2d15abdb7615
+  - ocd-person/57234ba0-c231-5565-8160-b1d379c821e0
+  - ocd-person/b09b3aa7-f73b-523b-9d5f-6e7b186794e6
+  - ocd-person/2c9dabc3-86d9-5c2a-950d-e0322ca76609
+  - ocd-person/7be0c38e-80f8-5e2e-8ad6-d7d26d6c5e26
+  - ocd-person/4d349911-a2e5-5eb2-a81e-a1753139f29f
+  - ocd-person/9a838ffb-55cf-5267-9ccf-c84ca5c3e1b1
+  result_status: official
+  winners:
+  - person_id: ocd-person/fcd2666d-a74e-5671-b4ac-2d15abdb7615
+    name: David Robbins
+  - person_id: ocd-person/57234ba0-c231-5565-8160-b1d379c821e0
+    name: Dolores Robbins
+  - person_id: ocd-person/b09b3aa7-f73b-523b-9d5f-6e7b186794e6
+    name: Janet Osborne
+  - person_id: ocd-person/2c9dabc3-86d9-5c2a-950d-e0322ca76609
+    name: Kystyna Kurzej
+  - person_id: ocd-person/7be0c38e-80f8-5e2e-8ad6-d7d26d6c5e26
+    name: Peder Pederson
+  - person_id: ocd-person/4d349911-a2e5-5eb2-a81e-a1753139f29f
+    name: Stephanie Nagle
+  - person_id: ocd-person/9a838ffb-55cf-5267-9ccf-c84ca5c3e1b1
+    name: Susan Pederson
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Brighton justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'

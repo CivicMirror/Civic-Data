@@ -1,0 +1,25 @@
+# Town of Brighton municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/9a838ffb-55cf-5267-9ccf-c84ca5c3e1b1
+name: Susan Pederson
+identifiers: []
+candidacies:
+- contest_id: brighton-vt/2024-11-05/justice-of-the-peace
+  election_id: brighton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brighton/government
+  office_id: brighton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Susan Pederson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Brighton justices
+    of the peace: David Robbins, Dolores Robbins, Peder Pederson, Susan Pederson,
+    Janet Osborne, Kystyna Kurzej (spelled as printed in the listing), and Stephanie
+    Nagle.'
+  retrieved: '2026-10-18'
