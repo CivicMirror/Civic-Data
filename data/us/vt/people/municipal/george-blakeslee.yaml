@@ -1,0 +1,37 @@
+# Town of Guildhall municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/d87f5d1b-8dfa-5dee-9d11-fb555f3079e7
+name: George Blakeslee
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists George Blakeslee as
+    Guildhall town clerk.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/town-clerk.html
+  note: 'Town of Guildhall town clerk page (guildhallvt.org): the town''s clerk page
+    names George Blakeslee as Town Clerk with a term running to 2028.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists George Blakeslee as
+    Guildhall town treasurer.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/town-treasurer.html
+  note: 'Town of Guildhall town treasurer page (guildhallvt.org): the town''s treasurer
+    page names George Blakeslee as Town Treasurer with a term running to 2028; the
+    treasurer also acts as the town''s tax collector, so no separate delinquent-tax-collector
+    post is created.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/lister-board.html
+  note: 'Town of Guildhall lister board page (guildhallvt.org): the town''s lister
+    page names George Blakeslee (to 2027), Eileen Thietten (to 2028), and Patricia
+    Brown (to 2029; the page''s ''Patrica'' is corrected to the form the town''s cemetery
+    page prints).'
+  retrieved: '2026-10-18'

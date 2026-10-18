@@ -1,0 +1,20 @@
+# Town of Guildhall municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/9891acd7-f70f-5ed1-bdbe-439aef62804b
+name: Jason Sterling
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Guildhall''s three selectboard members
+    as Gary Brown (Chair), John Orlowski (Vice-Chair), and Jason Sterling.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/select-board.html
+  note: 'Town of Guildhall select board page (guildhallvt.org): the town''s selectboard
+    page names the same three.'
+  retrieved: '2026-10-18'

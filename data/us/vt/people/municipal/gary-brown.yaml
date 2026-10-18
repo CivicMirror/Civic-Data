@@ -1,0 +1,31 @@
+# Town of Guildhall municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/a409b02b-1904-5b56-89a2-2d185d4df65a
+name: Gary Brown
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Guildhall''s three selectboard members
+    as Gary Brown (Chair), John Orlowski (Vice-Chair), and Jason Sterling.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/select-board.html
+  note: 'Town of Guildhall select board page (guildhallvt.org): the town''s selectboard
+    page names the same three.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/cemetery-commission.html
+  note: 'Town of Guildhall cemetery commission page (guildhallvt.org): the town''s
+    cemetery page names Gary Brown (to 2028), Patricia Brown (to 2029), and Rich Schiller
+    (to 2027).'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/road-commission.html
+  note: 'Town of Guildhall road commission page (guildhallvt.org): the town''s road
+    commission page names Gary Brown as Road Commissioner. The page does not state
+    the mode of selection; the office is a town office under 17 V.S.A. section 2646
+    and the holder is recorded as elected.'
+  retrieved: '2026-10-18'

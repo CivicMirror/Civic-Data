@@ -1,0 +1,35 @@
+# Town of Guildhall -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: guildhall-vt/2024-11-05/general
+name: Town of Guildhall Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: guildhall-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:guildhall/government
+  office_id: guildhall-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/0af7793f-c93a-51e7-8b97-433279530fe6
+  - ocd-person/413f6b0f-1161-58c0-90c9-de4263f55d25
+  - ocd-person/64cd2983-bd69-5785-9e7e-fe269f58d7cf
+  - ocd-person/66eec582-26c9-54ee-83d0-d1aa77f2622f
+  - ocd-person/ba1b134c-0b22-5088-8dc3-4f3e6362f7df
+  result_status: official
+  winners:
+  - person_id: ocd-person/0af7793f-c93a-51e7-8b97-433279530fe6
+    name: Casey Dowland
+  - person_id: ocd-person/413f6b0f-1161-58c0-90c9-de4263f55d25
+    name: Kelly McLain
+  - person_id: ocd-person/64cd2983-bd69-5785-9e7e-fe269f58d7cf
+    name: Rebecca Bacon
+  - person_id: ocd-person/66eec582-26c9-54ee-83d0-d1aa77f2622f
+    name: Sarah Sterling
+  - person_id: ocd-person/ba1b134c-0b22-5088-8dc3-4f3e6362f7df
+    name: Valerie Foy
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Guildhall winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'
