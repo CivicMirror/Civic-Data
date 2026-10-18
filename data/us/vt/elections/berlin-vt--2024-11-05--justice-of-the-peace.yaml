@@ -1,0 +1,52 @@
+# Town of Berlin -- justice of the peace election (VT municipal batch 3); issue #163 (VT master tracking).
+id: berlin-vt/2024-11-05/general
+name: Town of Berlin Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: berlin-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:berlin/government
+  office_id: berlin-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/8f5351b9-c5e5-5e8f-bde0-f66385ad9b97
+  - ocd-person/c5ec31a8-1655-5c01-b0a7-a452124eac1a
+  - ocd-person/0f595a49-66d0-5b0f-b456-d49655ba2858
+  - ocd-person/35a0a8d1-037e-51b1-8613-efb0dfce4e71
+  - ocd-person/195fc0e2-1769-5e73-aeb1-698b99c5526a
+  - ocd-person/2cf5831a-ded8-537a-aaa8-896557c7cd81
+  - ocd-person/2a86b1ba-b04d-5bcf-85a5-cf964ea33a62
+  - ocd-person/5153b13f-ca43-5732-b80c-39f32e069b92
+  - ocd-person/f82791b5-16f2-510c-a87c-a38aa8b4756b
+  - ocd-person/50f8a34c-6cdf-5843-bb74-501c1cb288d8
+  result_status: official
+  winners:
+  - person_id: ocd-person/8f5351b9-c5e5-5e8f-bde0-f66385ad9b97
+    name: Alida Van Den Berg
+  - person_id: ocd-person/c5ec31a8-1655-5c01-b0a7-a452124eac1a
+    name: Colette Page
+  - person_id: ocd-person/0f595a49-66d0-5b0f-b456-d49655ba2858
+    name: Guy Page
+  - person_id: ocd-person/35a0a8d1-037e-51b1-8613-efb0dfce4e71
+    name: Judith Wernecke
+  - person_id: ocd-person/195fc0e2-1769-5e73-aeb1-698b99c5526a
+    name: Margaret Monley
+  - person_id: ocd-person/2cf5831a-ded8-537a-aaa8-896557c7cd81
+    name: Matthew Levin
+  - person_id: ocd-person/2a86b1ba-b04d-5bcf-85a5-cf964ea33a62
+    name: Muriel Morse
+  - person_id: ocd-person/5153b13f-ca43-5732-b80c-39f32e069b92
+    name: Robert "Joey" Conner
+  - person_id: ocd-person/f82791b5-16f2-510c-a87c-a38aa8b4756b
+    name: Susan Rich
+  - person_id: ocd-person/50f8a34c-6cdf-5843-bb74-501c1cb288d8
+    name: Zachary Cockrum
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Berlin justices of
+    the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'
