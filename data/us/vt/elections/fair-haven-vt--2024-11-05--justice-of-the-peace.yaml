@@ -1,0 +1,43 @@
+# Town of Fair Haven -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking).
+id: fair-haven-vt/2024-11-05/general
+name: Town of Fair Haven Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: fair-haven-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fair-haven/government
+  office_id: fair-haven-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/fb9a3b69-924d-53ef-879f-d5aba7c6b17e
+  - ocd-person/6829bcd7-58a4-575c-905e-0ee9cade8826
+  - ocd-person/6ec3129a-a66a-57e2-88aa-a83605e81072
+  - ocd-person/97e700bc-1814-533d-a707-b08dff1b3e79
+  - ocd-person/d6d68f04-871d-5222-bdd9-3bcb688ed238
+  - ocd-person/f3090e57-e62c-579b-9c2c-b21dcda989c4
+  - ocd-person/6f62c0e1-f033-5407-bdd4-f0f011cec2b0
+  result_status: official
+  winners:
+  - person_id: ocd-person/fb9a3b69-924d-53ef-879f-d5aba7c6b17e
+    name: Cynthia Adams
+  - person_id: ocd-person/6829bcd7-58a4-575c-905e-0ee9cade8826
+    name: Jason Scott Coupal
+  - person_id: ocd-person/6ec3129a-a66a-57e2-88aa-a83605e81072
+    name: John Adams
+  - person_id: ocd-person/97e700bc-1814-533d-a707-b08dff1b3e79
+    name: John (Jack) Adams
+  - person_id: ocd-person/d6d68f04-871d-5222-bdd9-3bcb688ed238
+    name: Judith Gevry
+  - person_id: ocd-person/f3090e57-e62c-579b-9c2c-b21dcda989c4
+    name: Lorraine Brown
+  - person_id: ocd-person/6f62c0e1-f033-5407-bdd4-f0f011cec2b0
+    name: Melissa (Katie) Adams-Sliva
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Fair Haven justices
+    of the peace elected November 5, 2024: Cynthia Adams, John Adams, John (Jack)
+    Adams, Melissa (Katie) Adams-Sliva, Lorraine Brown, Jason Scott Coupal, and Judith
+    Gevry. The listing publishes no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
