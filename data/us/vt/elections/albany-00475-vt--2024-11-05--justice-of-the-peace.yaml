@@ -1,0 +1,36 @@
+# Albany Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: albany-00475-vt/2024-11-05/general
+name: Albany 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: albany-00475-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:albany-00475/government
+  office_id: albany-00475-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/b7f95fd4-2f85-584e-815b-62e44a4f711e
+  - ocd-person/fe46f00d-7382-53a4-a3e3-54a5ac51a01d
+  - ocd-person/13115b00-897c-53e9-8c99-496fff7879ff
+  - ocd-person/198f5eb0-009f-52af-8575-3b41c1e48e14
+  - ocd-person/744de851-49a0-5e0f-b26f-81bbeb3c570b
+  result_status: official
+  winners:
+  - person_id: ocd-person/b7f95fd4-2f85-584e-815b-62e44a4f711e
+    name: Anthony Daniels
+  - person_id: ocd-person/fe46f00d-7382-53a4-a3e3-54a5ac51a01d
+    name: Chad Tollman
+  - person_id: ocd-person/13115b00-897c-53e9-8c99-496fff7879ff
+    name: Cheryl Dewees
+  - person_id: ocd-person/198f5eb0-009f-52af-8575-3b41c1e48e14
+    name: Kelsey Crelin
+  - person_id: ocd-person/744de851-49a0-5e0f-b26f-81bbeb3c570b
+    name: Vicki Strong
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'
