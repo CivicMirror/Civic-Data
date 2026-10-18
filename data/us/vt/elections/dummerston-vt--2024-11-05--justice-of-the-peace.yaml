@@ -1,0 +1,47 @@
+# Town of Dummerston -- justice of the peace election (VT municipal batch 7); issue #163 (VT master tracking).
+id: dummerston-vt/2024-11-05/general
+name: Town of Dummerston Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: dummerston-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:dummerston/government
+  office_id: dummerston-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/fd968279-95a0-556f-916e-42eb1f24aa74
+  - ocd-person/7802fe76-a0e0-56ca-b45e-e7c4248def64
+  - ocd-person/5b21965f-5c71-5983-b33b-5b7bc9b553e5
+  - ocd-person/5617c90f-6d7d-5880-9e76-d8f4df311646
+  - ocd-person/5fffb446-6495-5da7-bcc0-e0cc11cc233e
+  - ocd-person/e6ff2cd4-bc2f-52e3-9fcc-7455a6220a1c
+  - ocd-person/d369ded4-d84d-5198-95ef-5fa3ec601293
+  result_status: official
+  winners:
+  - person_id: ocd-person/fd968279-95a0-556f-916e-42eb1f24aa74
+    name: Betsy Bates
+  - person_id: ocd-person/7802fe76-a0e0-56ca-b45e-e7c4248def64
+    name: Elizabeth (Libby) Lafland
+  - person_id: ocd-person/5b21965f-5c71-5983-b33b-5b7bc9b553e5
+    name: Ezekiel Goodband
+  - person_id: ocd-person/5617c90f-6d7d-5880-9e76-d8f4df311646
+    name: Lew Sorenson
+  - person_id: ocd-person/5fffb446-6495-5da7-bcc0-e0cc11cc233e
+    name: Linda Hellus
+  - person_id: ocd-person/e6ff2cd4-bc2f-52e3-9fcc-7455a6220a1c
+    name: Paul Normandeau
+  - person_id: ocd-person/d369ded4-d84d-5198-95ef-5fa3ec601293
+    name: Ruth Hoffman
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Dummerston justices
+    of the peace elected November 5, 2024: Paul Normandeau, Ruth Hoffman, Lew Sorenson,
+    Linda Hellus, Betsy Bates, Elizabeth (Libby) Lafland, and Ezekiel Goodband. The
+    listing publishes no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
+- url: https://dummerston.org/gov/2025%20Town%20Report.pdf
+  note: 'Town of Dummerston ''Town Meeting 2026: Annual Report for 2025'' (dummerston.org):
+    the ELECTED OFFICERS table lists the same seven justices of the peace.'
+  retrieved: '2026-10-18'

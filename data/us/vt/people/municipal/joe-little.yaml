@@ -1,0 +1,20 @@
+# Town of Dummerston municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/672c471c-16ef-5a85-b2b5-65dc436541e8
+name: Joe Little
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://dummerston.org/gov/2025%20Town%20Report.pdf
+  note: 'Town of Dummerston ''Town Meeting 2026: Annual Report for 2025'' (dummerston.org):
+    the ELECTED OFFICERS table lists Ray Harris (term expiring 2026), Joe Little (2027),
+    and Ruth Hoffman (2028) as Auditors.'
+  retrieved: '2026-10-18'
+- url: https://dummerston.org/
+  note: 'Town of Dummerston official website (dummerston.org, current): the Town Clerk
+    page names Ruth Hoffman, Joe Little, and Ray Harris as the current auditors.'
+  retrieved: '2026-10-18'
