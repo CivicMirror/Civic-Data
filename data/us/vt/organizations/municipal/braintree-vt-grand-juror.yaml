@@ -1,0 +1,21 @@
+# Town of Braintree municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-organization/483c3d98-11b4-58cf-b7f6-9ce0b69fd661
+name: Braintree Grand Juror
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:braintree/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: braintree-vt/grand-juror
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: 17 V.S.A. section 2646 (official text, Vermont General Assembly) provides
+    for the election of a grand juror at annual town meeting.
+  retrieved: '2026-10-18'
+- url: https://braintreevt.gov/wp-content/uploads/2026/03/Braintree-Town-Meeting-Minutes-2026.pdf
+  note: 'Town of Braintree, Town Meeting Minutes (March 3, 2026; posted on the town''s
+    official website as draft/unapproved minutes of the floor elections): the Article
+    5 officer elections include no grand juror, and no other official source publishes
+    the holder, so none is recorded. (The same meeting eliminated the Trustee of Public
+    Funds office by vote, Article 3; no post is created for it.)'
+  retrieved: '2026-10-18'

@@ -1,0 +1,24 @@
+# Town of Braintree municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/5e8902f8-0bc4-5794-b8c1-35729e8a87e9
+name: Robert Moyer
+identifiers: []
+candidacies:
+- contest_id: braintree-vt/2024-11-05/justice-of-the-peace
+  election_id: braintree-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:braintree/government
+  office_id: braintree-vt/justice-of-the-peace
+  party: null
+  ballot_name: Robert Moyer
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Braintree justices
+    of the peace: Richard Bowen, Robert Moyer, Sherri Richardson, Katja Evans, and
+    Jackson Evans.'
+  retrieved: '2026-10-18'
