@@ -1,0 +1,35 @@
+# Town of Grafton -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: grafton-vt/2024-11-05/general
+name: Town of Grafton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: grafton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:grafton/government
+  office_id: grafton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/6b45b9f1-99c9-51af-b86f-8fbcd8c0582b
+  - ocd-person/cff74597-6b75-58bb-af1f-70073eece46b
+  - ocd-person/168f6ebb-fb76-5f66-8283-e045cce58154
+  - ocd-person/6da7d367-035d-5195-ad58-358d9fde278c
+  - ocd-person/1e9a3e7c-1957-5dc3-9311-9b110e689ea9
+  result_status: official
+  winners:
+  - person_id: ocd-person/6b45b9f1-99c9-51af-b86f-8fbcd8c0582b
+    name: Christopher Wallace
+  - person_id: ocd-person/cff74597-6b75-58bb-af1f-70073eece46b
+    name: David Hall
+  - person_id: ocd-person/168f6ebb-fb76-5f66-8283-e045cce58154
+    name: Mary Feder
+  - person_id: ocd-person/6da7d367-035d-5195-ad58-358d9fde278c
+    name: Samuel Battaglino
+  - person_id: ocd-person/1e9a3e7c-1957-5dc3-9311-9b110e689ea9
+    name: Wendy Martin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Grafton winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'
