@@ -1,0 +1,27 @@
+# Town of Charlotte municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/2e3803e8-f5d6-5766-8de4-f0cc93a29789
+name: Jill Abilock
+identifiers: []
+candidacies:
+- contest_id: charlotte-vt/2024-11-05/justice-of-the-peace
+  election_id: charlotte-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:charlotte/government
+  office_id: charlotte-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jill Abilock
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Charlotte justices
+    of the peace: Jill Abilock, Greg Cluff, Lorna Jimerson, Chea Waters Evans, Michael
+    Krasnow, Elizabeth Langfeldt, Robin Reid, Heather Roberts, Peggy Sharpe, Carrie
+    Spear, Mike Yantachka, and Seth Zimmerman. Chea Waters Evans is the sitting State
+    Representative for the Chittenden-5 district (Charlotte); her existing person
+    record is reused.'
+  retrieved: '2026-10-18'
