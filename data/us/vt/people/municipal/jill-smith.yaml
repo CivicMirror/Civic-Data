@@ -1,0 +1,39 @@
+# Town of Duxbury municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/b0a918e5-2f26-5229-a83f-3a38a2093626
+name: Jill Smith
+identifiers: []
+candidacies:
+- contest_id: duxbury-vt/2024-11-05/justice-of-the-peace
+  election_id: duxbury-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:duxbury/government
+  office_id: duxbury-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jill Smith
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.duxburyvermont.org/town-government/clerkandtreasurer
+  note: 'Town of Duxbury ''Annual Election Report 2025'' and ''Duxbury 2026 Town Meeting
+    Tally'' (March 3, 2026), reached through the Town Clerk and Treasurer page (duxburyvermont.org):
+    the report''s Elected Offices table lists the town-elected Budget Committee on
+    5-year terms: Ben MacKinney (resigned), Ann Harvey (expiring 2027), Mari Pratt
+    (2028), Jill Smith (2029), and Brenda Clarkson (appointed in 2025, expiring 2030);
+    the official 2026 tally records no winner for either Budget Committee seat that
+    stood in 2026. MacKinney, having resigned, is not recorded.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Duxbury justices
+    of the peace: Greg Trulson, Maurice Lavanway, Shawn Perry, Dan Cardozo, Jill Smith,
+    Lori Morse, and Cindy Senning.'
+  retrieved: '2026-10-18'
+- url: https://www.duxburyvermont.org/town-government/clerkandtreasurer
+  note: 'Town of Duxbury ''Annual Election Report 2025'' and ''Duxbury 2026 Town Meeting
+    Tally'' (March 3, 2026), reached through the Town Clerk and Treasurer page (duxburyvermont.org):
+    the report''s table lists the same seven justices of the peace, elected November
+    5, 2024 (printing the lister as ''Mo LaVarnway'').'
+  retrieved: '2026-10-18'

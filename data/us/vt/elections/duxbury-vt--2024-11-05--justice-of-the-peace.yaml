@@ -1,0 +1,48 @@
+# Town of Duxbury -- justice of the peace election (VT municipal batch 7); issue #163 (VT master tracking).
+id: duxbury-vt/2024-11-05/general
+name: Town of Duxbury Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: duxbury-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:duxbury/government
+  office_id: duxbury-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/ca285d4d-2502-5076-8076-8827f9ed1b80
+  - ocd-person/4d2c3029-82f6-5b60-8d82-ea462d6ddb7e
+  - ocd-person/30d3e8b0-1fbe-5c50-8958-fe61fc182759
+  - ocd-person/b0a918e5-2f26-5229-a83f-3a38a2093626
+  - ocd-person/7ec31ebf-c6ce-5c6d-86eb-5f15e2a2e81d
+  - ocd-person/7e1124f4-9401-510b-8e88-ee09bd91ac79
+  - ocd-person/d9808519-6602-567f-8514-734e93aa9839
+  result_status: official
+  winners:
+  - person_id: ocd-person/ca285d4d-2502-5076-8076-8827f9ed1b80
+    name: Cindy Senning
+  - person_id: ocd-person/4d2c3029-82f6-5b60-8d82-ea462d6ddb7e
+    name: Dan Cardozo
+  - person_id: ocd-person/30d3e8b0-1fbe-5c50-8958-fe61fc182759
+    name: Greg Trulson
+  - person_id: ocd-person/b0a918e5-2f26-5229-a83f-3a38a2093626
+    name: Jill Smith
+  - person_id: ocd-person/7ec31ebf-c6ce-5c6d-86eb-5f15e2a2e81d
+    name: Lori Morse
+  - person_id: ocd-person/7e1124f4-9401-510b-8e88-ee09bd91ac79
+    name: Maurice Lavanway
+  - person_id: ocd-person/d9808519-6602-567f-8514-734e93aa9839
+    name: Shawn Perry
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Duxbury justices
+    of the peace elected November 5, 2024: Greg Trulson, Maurice Lavanway, Shawn Perry,
+    Dan Cardozo, Jill Smith, Lori Morse, and Cindy Senning. The listing publishes
+    no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'
+- url: https://www.duxburyvermont.org/town-government/clerkandtreasurer
+  note: 'Town of Duxbury ''Annual Election Report 2025'' and ''Duxbury 2026 Town Meeting
+    Tally'' (March 3, 2026), reached through the Town Clerk and Treasurer page (duxburyvermont.org):
+    the report''s table lists the same seven justices of the peace.'
+  retrieved: '2026-10-18'
