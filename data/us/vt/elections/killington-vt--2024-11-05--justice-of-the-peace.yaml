@@ -1,0 +1,23 @@
+# Killington -- justice of the peace election (VT municipal batch 12); issue #163 (VT master tracking).
+id: killington-vt/2024-11-05/general
+name: Killington Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: killington-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:killington/government
+  office_id: killington-vt/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/84bc5ed5-4895-5a60-b12c-18f90f47cc02
+  result_status: official
+  winners:
+  - person_id: ocd-person/84bc5ed5-4895-5a60-b12c-18f90f47cc02
+    name: Patrick Cushing
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names one winner for Killington: Patrick
+    Cushing'
+  retrieved: '2026-10-18'
