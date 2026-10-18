@@ -1,0 +1,29 @@
+# Town of Benson municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/f6a31307-2a81-5415-ba0c-870f05d55bac
+name: Ed Peltier
+identifiers: []
+candidacies:
+- contest_id: benson-vt/2024-11-05/justice-of-the-peace
+  election_id: benson-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:benson/government
+  office_id: benson-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ed Peltier
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://bensonvermont.gov/
+  note: 'Town of Benson official website (bensonvermont.gov): the Municipal Administration
+    page names ''Lois Trenn, Gina Parker and Ed Peltier'' as the town''s listers.
+    The ''Benson Open Seats 2025'' post marks Gina Parker''s lister seat ''(Appointed)'';
+    her membership is recorded as appointed, the others as elected.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Benson justices
+    of the peace.'
+  retrieved: '2026-10-17'

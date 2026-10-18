@@ -1,0 +1,38 @@
+# Town of Benson -- justice of the peace election (VT municipal batch 2); issue #163 (VT master tracking).
+id: benson-vt/2024-11-05/general
+name: Town of Benson Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: benson-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:benson/government
+  office_id: benson-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/f6a31307-2a81-5415-ba0c-870f05d55bac
+  - ocd-person/792db636-1848-5606-818c-fe2587b03bae
+  - ocd-person/30fae029-8943-5a34-b3db-b7ebf1e14429
+  - ocd-person/23c48874-0679-5c38-911f-c4dadd8cd220
+  - ocd-person/daa2ae96-c1d5-5353-a188-f8ed4e698a50
+  result_status: official
+  winners:
+  - person_id: ocd-person/f6a31307-2a81-5415-ba0c-870f05d55bac
+    name: Ed Peltier
+  - person_id: ocd-person/792db636-1848-5606-818c-fe2587b03bae
+    name: Eric L. Shaw
+  - person_id: ocd-person/30fae029-8943-5a34-b3db-b7ebf1e14429
+    name: John Hill
+  - person_id: ocd-person/23c48874-0679-5c38-911f-c4dadd8cd220
+    name: Lauren Mohan
+  - person_id: ocd-person/daa2ae96-c1d5-5353-a188-f8ed4e698a50
+    name: Lynn Bowen
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Benson justices
+    of the peace for the 2025-2026 term (Lynn Bowen, John Hill, Lauren Mohan, Ed Peltier,
+    Eric L. Shaw); they are the winners of the November 5, 2024 election for the office.
+    The listing publishes no vote totals and no party designations for justices of
+    the peace.'
+  retrieved: '2026-10-17'
