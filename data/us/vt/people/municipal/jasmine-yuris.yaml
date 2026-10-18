@@ -1,0 +1,52 @@
+# Johnson municipal roster backfill -- Vermont
+# municipal fan-out batch 12; issue #163 (VT master tracking).
+id: ocd-person/91b512fb-3073-562d-9b7e-7e8455963fa6
+name: Jasmine Yuris
+identifiers: []
+candidacies:
+- contest_id: johnson-37075-vt/2024-11-05/justice-of-the-peace
+  election_id: johnson-37075-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:johnson-37075/government
+  office_id: johnson-37075-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jasmine Yuris
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://townofjohnson.com/library-board-of-trustees
+  note: 'Town of Johnson (official website), Library Board of Trustees page: the board
+    is Kelly Vandorn (Chair), Jasmine Yuris (Vice-chair), Eric Schulz, Suzanne Dodge,
+    and Trista Tallman'
+  retrieved: '2026-10-18'
+- url: https://storage.googleapis.com/juniper-media-library/237/2026/03/Town%20Meeting%20Results.pdf
+  note: 'Town of Johnson, Certificate of Votes for Town and LNMUU District Officers,
+    annual town meeting, March 3, 2026 (official town website): Trista Tallman (five-year
+    term, 213 votes) and Eric Schulz (three-year term, 225) were elected library trustees
+    at the March 3, 2026 meeting'
+  retrieved: '2026-10-18'
+- url: https://storage.googleapis.com/juniper-media-library/237/2026/02/Town%20Report%202025.pdf
+  note: 'Town of Johnson, 2025 Town Report (official town website), ''Town Officers
+    - 2025'' table: the pre-meeting board was Sabrina Rossi (term expired March 2026),
+    Vandorn, Yuris, Schulz, and Dodge on staggered five-year terms'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names twelve justices of the peace
+    for Johnson: Jennifer Burton, Michael Dunham, Jan Gearhart, Bari Gladstone, Martha
+    Leonard, Randy Manning, Kyle Nuse, Eric Osgood, Shayne Spence, Margaret Warden,
+    Jasmine Yuris, and Molly Zapp. The 2025 town report''s Board of Civil Authority
+    roster for the same term shares only seven of these names (and adds five others);
+    the certified Secretary of State listing governs the slate, and the divergence
+    is flagged on issue #163'
+  retrieved: '2026-10-18'
+- url: https://storage.googleapis.com/juniper-media-library/237/2026/02/Town%20Report%202025.pdf
+  note: 'Town of Johnson, 2025 Town Report (official town website), ''Town Officers
+    - 2025'' table: the Board of Civil Authority roster (term February 1, 2025 to
+    January 31, 2027) names Janice Gearhart, Bari Gladstone, Margo Warden, Cynthia
+    Hennard, Diane Lehouiller, Eric Osgood, Martha Leonard, Gary Underwood, Kyle Nuse,
+    Jasmine Yuris, Helen McElroy, and Gregory Hill; Michael Dunham sits on the board
+    ex officio as a selectboard member'
+  retrieved: '2026-10-18'
