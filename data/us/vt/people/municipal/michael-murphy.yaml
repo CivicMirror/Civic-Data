@@ -1,0 +1,21 @@
+# Town of Cavendish municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/847219e6-2ddd-5047-91c1-d6124c2d2c11
+name: Michael Murphy
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.cavendishvt.com/town-office
+  note: 'Town of Cavendish official website, Town Office page: ''Michael Murphy, Town
+    Clerk and Treasurer.'''
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists Diane McNamara as
+    Town Clerk of Cavendish and as Town Treasurer of Cavendish; she did not stand
+    for re-election in 2026, and the town''s current page governs.'
+  retrieved: '2026-10-18'
