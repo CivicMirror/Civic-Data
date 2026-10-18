@@ -1,0 +1,33 @@
+# Town of Guilford municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/4857a7e4-6374-58fb-a403-78e89c5186d9
+name: Skye Morse
+identifiers: []
+candidacies:
+- contest_id: guilford-vt/2024-11-05/justice-of-the-peace
+  election_id: guilford-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:guilford/government
+  office_id: guilford-vt/justice-of-the-peace
+  party: null
+  ballot_name: Skye Morse
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://guilfordvt.gov/wp-content/uploads/2026/02/Guilford-Town-Report-FY2025-FINAL.pdf
+  note: 'Town of Guilford FY2025 Town Report (guilfordvt.gov): the March 4, 2025 minutes
+    elect Lyndsey Mitchell auditor to a three-year term (the third seat, Reita Lashway''s
+    one-year remainder, expired in 2026 with no successor in the 2026 warning, so
+    it is unfilled).'
+  retrieved: '2026-10-18'
+- url: https://guilfordvt.gov/march-3rd-official-election-results/
+  note: 'Town of Guilford, ''March 3rd Official Election Results'' (guilfordvt.gov):
+    the official March 3, 2026 results elect Skye Morse auditor to a three-year term.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten justices of the peace
+    for Guilford.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,22 @@
+# Town of Guilford municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/55643fd6-9f66-5beb-a2b5-ca1afd76e143
+name: Carol Schnabel
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://guilfordvt.gov/boards-and-commissions/cemetery-commission/
+  note: 'Town of Guilford Cemetery Commission page (guilfordvt.gov): the commissioners
+    serve five-year staggered terms with one seat elected at each annual floor meeting,
+    which fixes five seats.'
+  retrieved: '2026-10-18'
+- url: https://guilfordvt.gov/wp-content/uploads/2026/02/Guilford-Town-Report-FY2025-FINAL.pdf
+  note: 'Town of Guilford FY2025 Town Report (guilfordvt.gov): the March 4, 2025 floor
+    meeting elected Carol Schnabel a cemetery commissioner; the February 28, 2026
+    floor winner and the remaining seats are published nowhere official, so they are
+    unfilled.'
+  retrieved: '2026-10-18'
