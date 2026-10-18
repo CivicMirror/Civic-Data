@@ -1,0 +1,37 @@
+# Town of Charleston -- justice of the peace election (VT municipal batch 5); issue #163 (VT master tracking).
+id: charleston-vt/2024-11-05/general
+name: Town of Charleston Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: charleston-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:charleston/government
+  office_id: charleston-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/dec99218-6401-5781-b33f-87db429cbe1d
+  - ocd-person/23ea2823-95ce-5555-aa84-8010824e7640
+  - ocd-person/82b4fa5f-10ba-5ca0-9fe5-87374fed28aa
+  - ocd-person/cbeec210-3905-5d4e-9c44-6bdccce30fa7
+  - ocd-person/278717a3-47d1-5a2f-a7a3-1386e917038e
+  result_status: official
+  winners:
+  - person_id: ocd-person/dec99218-6401-5781-b33f-87db429cbe1d
+    name: Amy Wagner
+  - person_id: ocd-person/23ea2823-95ce-5555-aa84-8010824e7640
+    name: Benjamin Applegate
+  - person_id: ocd-person/82b4fa5f-10ba-5ca0-9fe5-87374fed28aa
+    name: Carolyn Hannan
+  - person_id: ocd-person/cbeec210-3905-5d4e-9c44-6bdccce30fa7
+    name: Jean Wilson
+  - person_id: ocd-person/278717a3-47d1-5a2f-a7a3-1386e917038e
+    name: Samantha Stevens
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Charleston justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'

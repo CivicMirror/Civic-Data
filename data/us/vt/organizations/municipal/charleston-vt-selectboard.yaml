@@ -1,0 +1,33 @@
+# Town of Charleston municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-organization/606bf9ea-7ad8-5215-a89f-03a2ebdaf17c
+name: Charleston Selectboard
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:charleston/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: charleston-vt/selectboard
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Charleston Selectboard members:
+    Patrick Austin, Tim Jenness, and Terry Rollins.'
+  retrieved: '2026-10-18'
+- url: https://charlestonvt.org/wp-content/uploads/2026/02/WEB_Charleston.pdf
+  note: 'Town of Charleston, 2025 Annual Report (published February 2026), Town Officers
+    table: Selectboard: Patrick Austin (expires 2028), Timothy Jenness (2026), Terry
+    Rollins (2027).'
+  retrieved: '2026-10-18'
+- url: https://charlestonvt.org/wp-content/uploads/2026/03/2026-Town-of-Charleston-Town-and-School-Results.pdf
+  note: 'Town of Charleston, official ''Results of 2026 Annual Town & School Meeting''
+    (March 3, 2026): Timothy Jenness was elected Selectboard member for a three-year
+    term at the 2026 meeting, re-elected to the seat his term expired on.'
+  retrieved: '2026-10-18'
+- url: https://charlestonvt.org
+  note: 'Town of Charleston official website: the site''s Select Board header names
+    the board as Larry Allen, Patrick Austin, and Timothy Jenness (the board also
+    serves as Road Commissioners). Allen is recorded as an appointed member, the statutory
+    vacancy path (24 V.S.A. section 963), for the seat Rollins held to 2027 -- no
+    election record names Allen, the June 2026 directory still prints Rollins, and
+    Rollins is not recorded as a current member.'
+  retrieved: '2026-10-18'
