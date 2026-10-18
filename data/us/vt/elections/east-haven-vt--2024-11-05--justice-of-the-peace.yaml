@@ -1,0 +1,37 @@
+# Town of East Haven -- justice of the peace election (VT municipal batch 7); issue #163 (VT master tracking).
+id: east-haven-vt/2024-11-05/general
+name: Town of East Haven Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: east-haven-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:east-haven/government
+  office_id: east-haven-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/b3e480e3-b58d-5f1c-9e75-6a1baa7e751b
+  - ocd-person/3a641839-a0a2-523c-a1a3-9236d959a751
+  - ocd-person/03a5ce2d-be85-5b6b-be56-56e15ad09f7a
+  - ocd-person/19796488-76f6-5308-8a71-da0970cbed30
+  - ocd-person/a9c81526-d1be-539f-8596-484e0bf088c2
+  result_status: official
+  winners:
+  - person_id: ocd-person/b3e480e3-b58d-5f1c-9e75-6a1baa7e751b
+    name: Delbert Reed
+  - person_id: ocd-person/3a641839-a0a2-523c-a1a3-9236d959a751
+    name: Franklin Higgins
+  - person_id: ocd-person/03a5ce2d-be85-5b6b-be56-56e15ad09f7a
+    name: R.J. Burke
+  - person_id: ocd-person/19796488-76f6-5308-8a71-da0970cbed30
+    name: Rita Laferriere
+  - person_id: ocd-person/a9c81526-d1be-539f-8596-484e0bf088c2
+    name: Stephanie Wales
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five East Haven justices
+    of the peace elected November 5, 2024: Franklin Higgins, Rita Laferriere, R.J.
+    Burke, Delbert Reed, and Stephanie Wales. The listing publishes no vote totals
+    or party labels and none are recorded.'
+  retrieved: '2026-10-18'
