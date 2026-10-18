@@ -1,0 +1,27 @@
+# Lincoln municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/b3a060d8-9e08-51ee-91fd-e151f002f6ce
+name: Lisa Sargent
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Lincoln''s five selectboard members as
+    Lori Atkins, Joe Martell, Tim McGowan (Chair), Lisa Sargent, and Ken Stockman'
+  retrieved: '2026-10-18'
+- url: https://lincolnvermont.org/directory
+  note: 'Town of Lincoln (official website), Town Directory page: the Selectboard
+    is Tim McGowan (Chair), Ken Stockman (Vice Chair), Lisa Sargent, Joe Martell,
+    and Lori Atkins'
+  retrieved: '2026-10-18'
+- url: https://lincolnvermont.org/vertical/sites/%7B53E9A1A8-33C4-4381-8550-24F9124297B8%7D/uploads/2025_Lincoln_Town_Report.pdf
+  note: 'Town of Lincoln, 2025 Town Report: ''Elected Officials'' table seats the
+    same board except Jessica Erwin in the two-year seat expiring March 2026; the
+    current directory and the SOS directory seat Lori Atkins, who was elected to that
+    seat in 2026'
+  retrieved: '2026-10-18'

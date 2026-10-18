@@ -1,0 +1,42 @@
+# Lincoln municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/b80e47d1-3b3a-52b9-8745-db013cb2d409
+name: Nancy Stevens
+identifiers: []
+candidacies:
+- contest_id: lincoln-vt/2024-11-05/justice-of-the-peace
+  election_id: lincoln-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lincoln/government
+  office_id: lincoln-vt/justice-of-the-peace
+  party: null
+  ballot_name: Nancy Stevens
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://lincolnvermont.org/uploads/dm/7066/2026_Feb_28_Annual_Town_Meeting_Warning
+  note: 'Town of Lincoln, Warning for the February 28, 2026 annual town meeting (officers
+    elected by Australian ballot March 3, 2026): Article 1 elects a Collector of Delinquent
+    Taxes'
+  retrieved: '2026-10-18'
+- url: https://lincolnvermont.org/vertical/sites/%7B53E9A1A8-33C4-4381-8550-24F9124297B8%7D/uploads/2025_Lincoln_Town_Report.pdf
+  note: 'Town of Lincoln, 2025 Town Report: ''Elected Officials'' table: Nancy Stevens
+    is Collector of Delinquent Taxes'
+  retrieved: '2026-10-18'
+- url: https://lincolnvermont.org/directory
+  note: 'Town of Lincoln (official website), Town Directory page: Nancy Stevens is
+    Collector of Delinquent Taxes'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names six justices of the peace for
+    Lincoln and prints the seventh seat ''vacant'': Mark Mulqueen, Nancy Stevens,
+    Ari Kirshenbaum, Harrison Reynolds, Ilana Brett, and Sally Taylor'
+  retrieved: '2026-10-18'
+- url: https://lincolnvermont.org/vertical/sites/%7B53E9A1A8-33C4-4381-8550-24F9124297B8%7D/uploads/2025_Lincoln_Town_Report.pdf
+  note: 'Town of Lincoln, 2025 Town Report: ''Elected Officials'' table names the
+    same six (as ''Harry Reynolds'' for Harrison Reynolds; the certified listing form
+    is recorded)'
+  retrieved: '2026-10-18'

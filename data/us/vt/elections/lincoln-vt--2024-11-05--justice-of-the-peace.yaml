@@ -1,0 +1,39 @@
+# Lincoln -- justice of the peace election (VT municipal batch 13); issue #163 (VT master tracking).
+id: lincoln-vt/2024-11-05/general
+name: Lincoln Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: lincoln-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lincoln/government
+  office_id: lincoln-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/d02df686-9692-53e2-a821-29c6c90af6da
+  - ocd-person/8ffce224-a242-52c5-9582-4760218d361c
+  - ocd-person/17d28377-ebc5-5a84-b459-b3ac6ef06e7d
+  - ocd-person/19dd8fcf-3907-5733-ac52-873f7ab8b7b3
+  - ocd-person/b80e47d1-3b3a-52b9-8745-db013cb2d409
+  - ocd-person/0bab6986-53f1-5cdc-95b2-5ba803e2ed2c
+  result_status: official
+  winners:
+  - person_id: ocd-person/d02df686-9692-53e2-a821-29c6c90af6da
+    name: Ari Kirshenbaum
+  - person_id: ocd-person/8ffce224-a242-52c5-9582-4760218d361c
+    name: Harrison Reynolds
+  - person_id: ocd-person/17d28377-ebc5-5a84-b459-b3ac6ef06e7d
+    name: Ilana Brett
+  - person_id: ocd-person/19dd8fcf-3907-5733-ac52-873f7ab8b7b3
+    name: Mark Mulqueen
+  - person_id: ocd-person/b80e47d1-3b3a-52b9-8745-db013cb2d409
+    name: Nancy Stevens
+  - person_id: ocd-person/0bab6986-53f1-5cdc-95b2-5ba803e2ed2c
+    name: Sally Taylor
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): six winners were named -- Ilana Brett,
+    Ari Kirshenbaum, Mark Mulqueen, Harrison Reynolds, Nancy Stevens, and Sally Taylor
+    -- and the seventh seat is listed ''vacant'''
+  retrieved: '2026-10-18'
