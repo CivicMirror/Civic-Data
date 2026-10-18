@@ -1,0 +1,22 @@
+# Town of Cabot municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/a8d02c59-f792-5a9b-8bc3-acc958a8f805
+name: Jennifer Miner
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Cabot Selectboard members: Walter
+    (Skip) Bothfeld, Frederick Ducharme, Michael Hogan (Vice Chair), Peggy Miller,
+    and Jennifer Miner (Chair).'
+  retrieved: '2026-10-18'
+- url: https://cabotvt.us/selectboard/
+  note: 'Town of Cabot official website, Selectboard page: lists Jennifer Miner (Chair),
+    Michael Hogan (Vice Chair), Peggy Miller, Fred Ducharme, and Walter (Skip) Bothfeld,
+    Jr.'
+  retrieved: '2026-10-18'

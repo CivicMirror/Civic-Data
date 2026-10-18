@@ -1,0 +1,28 @@
+# Town of Cabot municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/cc8c6020-6418-5151-a6fb-c8ed64d322d0
+name: Roman Kokodyniak
+identifiers: []
+candidacies:
+- contest_id: cabot-vt/2024-11-05/justice-of-the-peace
+  election_id: cabot-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:cabot/government
+  office_id: cabot-vt/justice-of-the-peace
+  party: null
+  ballot_name: Roman Kokodyniak
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Cabot justices
+    of the peace: Susan Carpenter, Fred Ducharme, Cedric Alexander, Caleb Pitkin,
+    Carla Payne, Roman Kokodyniak, and Judy Pransky.'
+  retrieved: '2026-10-18'
+- url: https://cabotvt.us
+  note: 'Town of Cabot official website, Justice of the Peace page: names the same
+    seven justices of the peace.'
+  retrieved: '2026-10-18'
