@@ -1,0 +1,43 @@
+# Town of Burke -- justice of the peace election (VT municipal batch 4); issue #163 (VT master tracking).
+id: burke-vt/2024-11-05/general
+name: Town of Burke Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: burke-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:burke/government
+  office_id: burke-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/46c2ef18-f5ec-53cc-923f-140dc0cecb4b
+  - ocd-person/0a2c9699-349a-531f-98de-8165a8596e7b
+  - ocd-person/2641916c-98ad-5bbf-90de-3f3ab4620c93
+  - ocd-person/f85a63d1-6416-54f3-a1e4-37c43d7cab10
+  - ocd-person/4a7a0923-5a90-5de6-b299-005eeb9cdadd
+  - ocd-person/ad823f94-10f5-5d41-9d22-b8bd7826ff95
+  - ocd-person/5c22ee6c-a54f-5a65-ae75-ac88eb7a9b47
+  result_status: official
+  winners:
+  - person_id: ocd-person/46c2ef18-f5ec-53cc-923f-140dc0cecb4b
+    name: Anthony (Tony) DeMasi
+  - person_id: ocd-person/0a2c9699-349a-531f-98de-8165a8596e7b
+    name: Joan Harlowe
+  - person_id: ocd-person/2641916c-98ad-5bbf-90de-3f3ab4620c93
+    name: Joel Gilbert
+  - person_id: ocd-person/f85a63d1-6416-54f3-a1e4-37c43d7cab10
+    name: John Kascenska
+  - person_id: ocd-person/4a7a0923-5a90-5de6-b299-005eeb9cdadd
+    name: Kathleen Feeley
+  - person_id: ocd-person/ad823f94-10f5-5d41-9d22-b8bd7826ff95
+    name: Susan Carr
+  - person_id: ocd-person/5c22ee6c-a54f-5a65-ae75-ac88eb7a9b47
+    name: Wendy Bean
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Burke justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'
