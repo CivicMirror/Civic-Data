@@ -1,0 +1,28 @@
+# Town of Goshen municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/58b03131-22ce-557b-a53d-519851c8d54b
+name: Barbara Walsh
+identifiers: []
+candidacies:
+- contest_id: goshen-vt/2024-11-05/justice-of-the-peace
+  election_id: goshen-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:goshen/government
+  office_id: goshen-vt/justice-of-the-peace
+  party: null
+  ballot_name: Barbara Walsh
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://goshenvt.org/auditors/
+  note: 'Town of Goshen Auditors page (goshenvt.org): names the town''s three auditors
+    -- Barbara Walsh, Fran Viko, and Charlotte Reider-Smith.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Goshen justices
+    of the peace: Ken Brown, Marci Hayes, Jasmine Hoffman, Diane O''Classen, and Barbara
+    Walsh.'
+  retrieved: '2026-10-18'

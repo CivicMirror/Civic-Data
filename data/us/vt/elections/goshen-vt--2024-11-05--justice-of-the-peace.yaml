@@ -1,0 +1,37 @@
+# Town of Goshen -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: goshen-vt/2024-11-05/general
+name: Town of Goshen Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: goshen-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:goshen/government
+  office_id: goshen-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/58b03131-22ce-557b-a53d-519851c8d54b
+  - ocd-person/61ffff8c-1f1d-56f8-afe9-714556c8cc86
+  - ocd-person/358387a1-74c0-5d40-b00b-f4dceb46dd18
+  - ocd-person/2e1b56ed-74db-5c2f-9413-f413957efbc2
+  - ocd-person/584061d4-f6e4-5c21-a4ad-25c7167d3107
+  result_status: official
+  winners:
+  - person_id: ocd-person/58b03131-22ce-557b-a53d-519851c8d54b
+    name: Barbara Walsh
+  - person_id: ocd-person/61ffff8c-1f1d-56f8-afe9-714556c8cc86
+    name: Diane O'Classen
+  - person_id: ocd-person/358387a1-74c0-5d40-b00b-f4dceb46dd18
+    name: Jasmine Hoffman
+  - person_id: ocd-person/2e1b56ed-74db-5c2f-9413-f413957efbc2
+    name: Ken Brown
+  - person_id: ocd-person/584061d4-f6e4-5c21-a4ad-25c7167d3107
+    name: Marci Hayes
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Goshen winners of the November 5, 2024 justice of the peace election. No Grand
+    Juror or Town Agent posts are created (absent from the town''s own elective-office
+    map).'
+  retrieved: '2026-10-18'

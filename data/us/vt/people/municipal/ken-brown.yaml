@@ -1,0 +1,31 @@
+# Town of Goshen municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/2e1b56ed-74db-5c2f-9413-f413957efbc2
+name: Ken Brown
+identifiers: []
+candidacies:
+- contest_id: goshen-vt/2024-11-05/justice-of-the-peace
+  election_id: goshen-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:goshen/government
+  office_id: goshen-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ken Brown
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://goshenvt.org/cemetery-commission/
+  note: 'Town of Goshen Cemetery Commission page (goshenvt.org): the commission maintains
+    the town''s three cemeteries and its contact block names three commissioners --
+    Ken Brown, Diane O''Classen, and Tammy Walsh. The page does not state the mode;
+    a standalone town cemetery commission is an elected body under 18 V.S.A. section
+    5373, and the three are recorded as elected on that basis (flagged on issue #163).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Goshen justices
+    of the peace: Ken Brown, Marci Hayes, Jasmine Hoffman, Diane O''Classen, and Barbara
+    Walsh.'
+  retrieved: '2026-10-18'

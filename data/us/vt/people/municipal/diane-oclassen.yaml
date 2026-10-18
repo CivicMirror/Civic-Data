@@ -1,0 +1,41 @@
+# Town of Goshen municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/61ffff8c-1f1d-56f8-afe9-714556c8cc86
+name: Diane O'Classen
+identifiers: []
+candidacies:
+- contest_id: goshen-vt/2024-11-05/justice-of-the-peace
+  election_id: goshen-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:goshen/government
+  office_id: goshen-vt/justice-of-the-peace
+  party: null
+  ballot_name: Diane O'Classen
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://goshenvt.org/elected-officials/
+  note: 'Town of Goshen Elected Officials page (goshenvt.org), the town''s own map
+    of its elected offices: lists the Trustees of Public Funds as an elected office
+    in Goshen (three trustees).'
+  retrieved: '2026-10-18'
+- url: https://goshenvt.org/trustee-of-public-funds/
+  note: 'Town of Goshen Trustee of Public Funds page (goshenvt.org): names two of
+    the three trustees -- Diane O''Classen and Vickee Whiting; the third seat is left
+    unfilled.'
+  retrieved: '2026-10-18'
+- url: https://goshenvt.org/cemetery-commission/
+  note: 'Town of Goshen Cemetery Commission page (goshenvt.org): the commission maintains
+    the town''s three cemeteries and its contact block names three commissioners --
+    Ken Brown, Diane O''Classen, and Tammy Walsh. The page does not state the mode;
+    a standalone town cemetery commission is an elected body under 18 V.S.A. section
+    5373, and the three are recorded as elected on that basis (flagged on issue #163).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Goshen justices
+    of the peace: Ken Brown, Marci Hayes, Jasmine Hoffman, Diane O''Classen, and Barbara
+    Walsh.'
+  retrieved: '2026-10-18'

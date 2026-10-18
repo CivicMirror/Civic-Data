@@ -1,0 +1,21 @@
+# Town of Goshen municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/bb626a9b-21f1-57cf-9743-897b4b4eb314
+name: Vickee Whiting
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://goshenvt.org/elected-officials/
+  note: 'Town of Goshen Elected Officials page (goshenvt.org), the town''s own map
+    of its elected offices: lists the Trustees of Public Funds as an elected office
+    in Goshen (three trustees).'
+  retrieved: '2026-10-18'
+- url: https://goshenvt.org/trustee-of-public-funds/
+  note: 'Town of Goshen Trustee of Public Funds page (goshenvt.org): names two of
+    the three trustees -- Diane O''Classen and Vickee Whiting; the third seat is left
+    unfilled.'
+  retrieved: '2026-10-18'
