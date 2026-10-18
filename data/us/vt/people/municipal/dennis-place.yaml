@@ -1,0 +1,26 @@
+# Hinesburg municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/dc3d11a1-85ff-5cd7-9d48-95f64d6d947c
+name: Dennis Place
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://hinesburg.org/DocumentCenter/View/3676/Annual-Town-and-School-District-Meeting-Results-03-03-26
+  note: 'Town of Hinesburg, official marked ballot results, Annual Town and School
+    District Meeting, March 3, 2026: Merrily Lovell (835 votes) was re-elected to
+    a three-year Selectboard seat and Paul Lamberson (824) to a two-year seat'
+  retrieved: '2026-10-18'
+- url: https://hinesburg.org/DocumentCenter/View/3679/Hinesburg-Annual-Report-FY2025
+  note: 'Town of Hinesburg, FY2025 Annual Report, ''Elected Officials'' table: the
+    Selectboard table seats Maggie Gordon (2027), Paul Lamberson, Michael Loner (2028),
+    Merrily Lovell (Chair), and Dennis Place (2027)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): the directory seats Gordon (Vice-Chair), Lamberson,
+    Loner, Lovell (Chair), and Place'
+  retrieved: '2026-10-18'

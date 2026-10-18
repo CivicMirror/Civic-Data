@@ -1,0 +1,63 @@
+# Hinesburg -- justice of the peace election (VT municipal batch 11); issue #163 (VT master tracking).
+id: hinesburg-vt/2024-11-05/general
+name: Hinesburg Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: hinesburg-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hinesburg/government
+  office_id: hinesburg-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/67a45d6c-0398-5b1a-8219-902f6ea9c500
+  - ocd-person/b2d13458-6783-5cb5-bc12-6c9f47c5b4c3
+  - ocd-person/1ddc472e-7332-5f51-a87d-60b672aefc10
+  - ocd-person/9231dec2-c7a0-568f-b6d1-23b5c4d72b3c
+  - ocd-person/2ca2db26-5fb4-510a-82f3-f590ca1ea1bf
+  - ocd-person/7036aaaf-5259-5805-9a31-a647a7e2291e
+  - ocd-person/7da5b548-76a2-5dcc-b6af-bf0591b7fa0b
+  - ocd-person/22f98be2-2ba6-593b-9e12-375d728445e8
+  - ocd-person/c7f6c127-4213-5551-b16e-c92ab71a291a
+  - ocd-person/9e94a4d1-9a15-5d06-8561-70d5e66eb711
+  - ocd-person/0d24a92e-ad35-5d18-9f2d-8c47744c4afc
+  - ocd-person/2a76172b-51e0-5d89-8df7-b1764c6e292c
+  result_status: official
+  winners:
+  - person_id: ocd-person/67a45d6c-0398-5b1a-8219-902f6ea9c500
+    name: Andy Johnstone
+  - person_id: ocd-person/b2d13458-6783-5cb5-bc12-6c9f47c5b4c3
+    name: Bill Lippert
+  - person_id: ocd-person/1ddc472e-7332-5f51-a87d-60b672aefc10
+    name: Enrique Peredo
+  - person_id: ocd-person/9231dec2-c7a0-568f-b6d1-23b5c4d72b3c
+    name: Katherine Levasseur
+  - person_id: ocd-person/2ca2db26-5fb4-510a-82f3-f590ca1ea1bf
+    name: Kitty Frazier
+  - person_id: ocd-person/7036aaaf-5259-5805-9a31-a647a7e2291e
+    name: Lanny Dennison
+  - person_id: ocd-person/7da5b548-76a2-5dcc-b6af-bf0591b7fa0b
+    name: Lynn E Gardner
+  - person_id: ocd-person/22f98be2-2ba6-593b-9e12-375d728445e8
+    name: Marie A Gardner
+  - person_id: ocd-person/c7f6c127-4213-5551-b16e-c92ab71a291a
+    name: Missy Ross
+  - person_id: ocd-person/9e94a4d1-9a15-5d06-8561-70d5e66eb711
+    name: Sarah Toscano
+  - person_id: ocd-person/0d24a92e-ad35-5d18-9f2d-8c47744c4afc
+    name: Sheila Dodd
+  - person_id: ocd-person/2a76172b-51e0-5d89-8df7-b1764c6e292c
+    name: Tom Giroux
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the winners were Lanny Dennison,
+    Sheila Dodd, Kitty Frazier, Lynn E Gardner, Marie A Gardner, Tom Giroux, Andy
+    Johnstone, Katherine Levasseur, Bill Lippert, Enrique Peredo, Missy Ross, and
+    Sarah Toscano (twelve seats). The FY2025 Annual Report''s JP table omits Dennison;
+    the certified listing governs'
+  retrieved: '2026-10-18'
+- url: https://hinesburg.org/DocumentCenter/View/3679/Hinesburg-Annual-Report-FY2025
+  note: 'Town of Hinesburg, FY2025 Annual Report, ''Elected Officials'' table: the
+    report''s Justice of the Peace table names eleven of the twelve'
+  retrieved: '2026-10-18'
