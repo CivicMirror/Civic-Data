@@ -1259,6 +1259,10 @@ JER_CEM = {
     "url": "https://www.jerichovt.gov/208/Cemetery-Commission",
     "note": "PLACEHOLDER",
 }
+JER_LIST = {
+    "url": "https://www.jerichovt.gov/255/Lister-and-Assessor",
+    "note": "PLACEHOLDER",
+}
 
 
 def jer_results(what):
@@ -1349,33 +1353,45 @@ def jericho_spec():
                        how_seated="appointed")]),
         office("lister", "Lister", "Jericho Board of Listers", 3,
                [charter124("section 5: the selectboard "
-                           "appoints three listers; neither "
-                           "the town's Lister and Assessor "
-                           "page nor the town report's "
-                           "appointed-officers table names "
-                           "them, so the post is created "
-                           "without memberships")]),
+                           "appoints three listers"),
+                S(JER_LIST, "Town of Jericho (official "
+                            "website), Lister and Assessor "
+                            "page: the page's contact block "
+                            "names Lori Dykema, Martha "
+                            "Prince, and Nathan Zwynenburg, "
+                            "each styled 'Lister'")],
+               [holder("Lori Dykema", "lori-dykema",
+                       how_seated="appointed"),
+                holder("Martha Prince", "martha-prince",
+                       how_seated="appointed"),
+                holder("Nathan Zwynenburg", "nathan-zwynenburg",
+                       how_seated="appointed")]),
         office("cemetery-commissioner", "Cemetery Commissioner",
                "Jericho Cemetery Commission", 3,
                [S(JER_CEM, "Town of Jericho (official "
                            "website), Cemetery Commission "
-                           "page: the commissioners are "
-                           "Robert Grandchamp (term expires "
-                           "2026), Isabella Martin (2027), "
-                           "and Terry Hook (2029)"),
+                           "page: the page's members list "
+                           "names Isabella Martin (term "
+                           "expires 2027), Jim Adams (2028), "
+                           "and Terry Hook (2029); it also "
+                           "still carries Robert Grandchamp "
+                           "(term expires 2026), whose seat "
+                           "was the three-year seat filled "
+                           "at the 2026 meeting"),
                 jer_results("Terence B. Hook was elected to "
                             "a three-year cemetery "
                             "commissioner term (1,005 "
-                            "votes). The two-year seat drew "
-                            "no ballot candidate and only "
-                            "scattered write-ins (the leader "
-                            "had five); a write-in plurality "
-                            "alone does not seat a holder, "
-                            "and the town's commission page "
-                            "continues to seat Grandchamp, "
-                            "who is therefore carried as the "
-                            "third commissioner")],
-               [holder("Robert Grandchamp", "robert-grandchamp"),
+                            "votes), succeeding Grandchamp. "
+                            "The two-year seat (an unexpired "
+                            "term expiring 2028) drew no "
+                            "ballot candidate and only "
+                            "scattered write-ins, led by Jim "
+                            "Adams; the town's commission "
+                            "page seats Adams for that term, "
+                            "so the write-in leader holds "
+                            "the seat on the roster's "
+                            "concurrence")],
+               [holder("Jim Adams", "jim-adams"),
                 holder("Isabella Martin", "isabella-martin"),
                 holder("Terence Hook", "terence-hook",
                        ballot_name="Terence B. Hook")]),

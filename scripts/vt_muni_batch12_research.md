@@ -460,6 +460,14 @@ plus Jericho (town + village) TBD. Baseline 1,247.
 - Listers (3): post created STRUCTURE-ONLY (ch. 124 §5
   appointed office; the town's Lister page names no
   listers and the report's appointed table omits them).
+  **CORRECTION (2026-10-18, post-push): WRONG — the
+  Lister and Assessor page's contact block names Lori
+  Dykema, Martha Prince, and Nathan Zwynenburg, each
+  styled "Lister" (verified firsthand in the page's raw
+  HTML after the late-arriving delegated sweep reported
+  them; the firsthand rendered read had dropped the
+  contact block — the Goshen failure mode). All three
+  minted APPOINTED in the correction commit.**
 - Cemetery Commissioners (3): the town's Cemetery
   Commission page (post-election) seats Robert
   Grandchamp (2026), Isabella Martin (2027), Terry Hook
@@ -470,6 +478,21 @@ plus Jericho (town + village) TBD. Baseline 1,247.
   commission page continues to seat Grandchamp, so he
   is minted as a roster-sourced member with the failed
   contest disclosed in the note.
+  **CORRECTION (2026-10-18, post-push): the commission
+  page's members list carries FOUR lines — Grandchamp
+  (2026), Martin (2027), Jim Adams (2028), Hook (2029)
+  — verified firsthand in the raw HTML after the
+  late-arriving sweep reported Adams. The firsthand
+  read captured only three lines and misassigned the
+  seats: Grandchamp's term expired in 2026 and Hook
+  was certified elected to that 3-yr seat, so
+  Grandchamp is OUT; Adams led the write-ins for the
+  2-yr unexpired-term seat (expiring 2028) and the
+  town's roster seats him for exactly that term, so
+  under the write-in rule (plurality + roster
+  concurrence) he IS seated. Correction commit removes
+  Grandchamp's person + membership and mints Adams;
+  warning count is net-zero (1,331 stands).**
 - JPs (12): SOS listing = town report's JP block, fully
   concordant (Booth, Burton, Cheney, Cramer, Joslin,
   Paris, Schuckers, Smith, Sullivan, Sweeney, Tulis,
