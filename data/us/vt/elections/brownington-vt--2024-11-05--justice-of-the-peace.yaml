@@ -1,0 +1,37 @@
+# Town of Brownington -- justice of the peace election (VT municipal batch 4); issue #163 (VT master tracking).
+id: brownington-vt/2024-11-05/general
+name: Town of Brownington Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: brownington-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brownington/government
+  office_id: brownington-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/0ee7be3c-2056-594c-8edf-d7e01b0177c7
+  - ocd-person/27521539-17d1-5eb1-9107-6da79b9151ba
+  - ocd-person/ff5caaaf-aa53-5703-801b-666d58b52d2f
+  - ocd-person/96b773d8-cc79-5a0b-b77a-5f38d19c3ae6
+  - ocd-person/3527ac57-f6fc-50fa-9488-f0ac3670cf4f
+  result_status: official
+  winners:
+  - person_id: ocd-person/0ee7be3c-2056-594c-8edf-d7e01b0177c7
+    name: Andrew Swett
+  - person_id: ocd-person/27521539-17d1-5eb1-9107-6da79b9151ba
+    name: Armand Brunelle
+  - person_id: ocd-person/ff5caaaf-aa53-5703-801b-666d58b52d2f
+    name: Larry Chase
+  - person_id: ocd-person/96b773d8-cc79-5a0b-b77a-5f38d19c3ae6
+    name: Larry Faust
+  - person_id: ocd-person/3527ac57-f6fc-50fa-9488-f0ac3670cf4f
+    name: Michael Glodgett
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Brownington justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'
