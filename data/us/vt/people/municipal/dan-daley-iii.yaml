@@ -1,0 +1,45 @@
+# Lyndon municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/4b8659ec-6db5-5aeb-8bef-d547bbc84c04
+name: Dan Daley III
+identifiers: []
+candidacies:
+- contest_id: lyndon-vt/2024-11-05/justice-of-the-peace
+  election_id: lyndon-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lyndon/government
+  office_id: lyndon-vt/justice-of-the-peace
+  party: null
+  ballot_name: Dan Daley
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Lyndon''s five selectboard members as
+    Daniel Daley, Kevin Horner, Christopher Hunter, Susan Mills, and Christian Thompson'
+  retrieved: '2026-10-18'
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/126
+  note: '24 App. V.S.A. ch. 126 (Town of Lyndon): sections 22 and 26: five Selectboard
+    members are elected to three-year terms'
+  retrieved: '2026-10-18'
+- url: https://www.lyndonvt.org/wp-content/uploads/2026/02/2025-Town-Report.pdf
+  note: 'Town of Lyndon, 2025 Town Report: ''Town Officers 2025'' table seats Kermit
+    Fisher in the seat expiring 2026 where the June 2026 SOS directory seats Kevin
+    Horner; the directory set (Dan Daley III, Kevin Horner, Christopher Hunter, Susan
+    Mills, Christian Thompson) is the current board'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names fifteen justices of the peace
+    for Lyndon: Jeremiah Aiken, Catherine Boykin, Kevin Calkins, Dan Daley, Elizabeth
+    Dronkert, Libre Drouin, Reed Garfield, Robert Gerrish, Bruce James, Sue Mason,
+    Sean McFeeley, Brenda Mitchell, Beth Quimby, Susan Russell, and Kelsey Stetson'
+  retrieved: '2026-10-18'
+- url: https://www.lyndonvt.org/wp-content/uploads/2026/02/2025-Town-Report.pdf
+  note: 'Town of Lyndon, 2025 Town Report: ''Town Officers 2025'' table''s JP block
+    names Ashley Gerrish where the certified listing names Brenda Mitchell, and prints
+    ''Sue Russell'' for Susan Russell; the certified listing governs'
+  retrieved: '2026-10-18'

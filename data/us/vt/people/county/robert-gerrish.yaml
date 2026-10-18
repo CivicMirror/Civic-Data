@@ -1,0 +1,43 @@
+# Caledonia County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/ea509170-829e-57a1-8b39-bc699fe38510
+name: Robert Gerrish
+identifiers: []
+candidacies:
+- contest_id: caledonia-vt-county/2024-11-05/high-bailiff
+  election_id: caledonia-vt-county/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:caledonia/government
+  office_id: caledonia-vt-county/high-bailiff
+  party: Republican
+  ballot_name: Robert Gerrish
+  status: active
+- contest_id: lyndon-vt/2024-11-05/justice-of-the-peace
+  election_id: lyndon-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lyndon/government
+  office_id: lyndon-vt/justice-of-the-peace
+  party: null
+  ballot_name: Robert Gerrish
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/160975
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Caledonia County'' (county totals): Robert
+    Gerrish (Republican) 12,575 votes; write-ins 349. The contest page''s cited official
+    source is the Secretary of State''s ''November 5, 2024 General Official Results.pdf''.
+    High bailiffs are elected biennially (Vermont Constitution, Chapter II, section
+    43); the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: >-
+    Vermont Secretary of State, Elections Division, 'Vermont Justices
+    of the Peace' listing (updated December 4, 2025): names Robert Gerrish
+    among Lyndon's fifteen justices of the peace. He is the same person
+    as this record's Caledonia County High Bailiff -- the Hardwick
+    Gazette (June 9, 2026) styles the incumbent high bailiff 'Robert
+    Gerrish (D-Lyndon)'; the Lyndon justice-of-the-peace membership
+    reuses this person record (VT municipal batch 13).
+  retrieved: '2026-10-18'
