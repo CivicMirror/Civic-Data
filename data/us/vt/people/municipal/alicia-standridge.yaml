@@ -1,0 +1,26 @@
+# Town of Bristol municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/2640278d-7bf3-5528-96cf-cc56dafe4af8
+name: Alicia Standridge
+identifiers: []
+candidacies:
+- contest_id: bristol-vt/2024-11-05/justice-of-the-peace
+  election_id: bristol-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bristol/government
+  office_id: bristol-vt/justice-of-the-peace
+  party: null
+  ballot_name: Alicia Standridge
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Bristol justices
+    of the peace: Nathan Bouvier, Sharon Compagna, Dayna Epstein, Mark Gibson, Patricia
+    King, Daniel Lyons, Dave Sharpe, Ben Skolozdra, Alicia Standridge, Don Stratton,
+    Anne Wallace, and Helen Young. Nathan Bouvier is a distinct person from Selectboard
+    member Joel Bouvier and Lister Mark Bouvier.'
+  retrieved: '2026-10-18'
