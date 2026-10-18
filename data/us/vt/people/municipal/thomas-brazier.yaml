@@ -1,0 +1,21 @@
+# Town of East Montpelier municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/b6671cd8-f2da-5d11-a486-a24de5845711
+name: Thomas Brazier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five East Montpelier Selectboard members:
+    Thomas Brazier, Joseph Brooks, Carl Etnier, Seth Gardner, and Scott Hess.'
+  retrieved: '2026-10-18'
+- url: https://eastmontpeliervt.org/wp-content/uploads/2026/02/2025-EMont-Town-Report.pdf
+  note: 'Town of East Montpelier 176th Annual Report (eastmontpeliervt.org): the officer
+    tables list the same five, with Seth Gardner as Chair and Scott Hess as Vice Chair
+    (printing ''Tom Brazier'' and ''Joe Brooks'').'
+  retrieved: '2026-10-18'
