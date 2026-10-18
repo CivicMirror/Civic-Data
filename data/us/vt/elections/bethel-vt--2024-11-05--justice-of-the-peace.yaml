@@ -1,0 +1,43 @@
+# Town of Bethel -- justice of the peace election (VT municipal batch 3); issue #163 (VT master tracking).
+id: bethel-vt/2024-11-05/general
+name: Town of Bethel Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: bethel-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bethel/government
+  office_id: bethel-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/d588fd28-e5d7-5027-9c44-05a3dd90157c
+  - ocd-person/c4d05a73-9956-59d8-aa31-79c5855ffeb0
+  - ocd-person/517547b8-7a37-5a69-830c-e8080eae7e5a
+  - ocd-person/818804fa-c99a-53f7-b298-8631318e21dc
+  - ocd-person/a62311b4-5514-531c-9143-281c700774cb
+  - ocd-person/a6ff7a45-e0e2-5cca-aec7-c76e025c2530
+  - ocd-person/bf9f2183-4ec6-5773-9195-3d65f370cc81
+  result_status: official
+  winners:
+  - person_id: ocd-person/d588fd28-e5d7-5027-9c44-05a3dd90157c
+    name: Caleb Harwood
+  - person_id: ocd-person/c4d05a73-9956-59d8-aa31-79c5855ffeb0
+    name: Cathy Day
+  - person_id: ocd-person/517547b8-7a37-5a69-830c-e8080eae7e5a
+    name: D Gene Kraus
+  - person_id: ocd-person/818804fa-c99a-53f7-b298-8631318e21dc
+    name: Eleanor Griffin
+  - person_id: ocd-person/a62311b4-5514-531c-9143-281c700774cb
+    name: Kirk White
+  - person_id: ocd-person/a6ff7a45-e0e2-5cca-aec7-c76e025c2530
+    name: Lisa Campbell
+  - person_id: ocd-person/bf9f2183-4ec6-5773-9195-3d65f370cc81
+    name: Mark Heckmann
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Bethel justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'
