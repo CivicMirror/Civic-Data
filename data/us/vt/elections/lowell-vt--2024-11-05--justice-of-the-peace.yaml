@@ -1,0 +1,32 @@
+# Lowell -- justice of the peace election (VT municipal batch 13); issue #163 (VT master tracking).
+id: lowell-vt/2024-11-05/general
+name: Lowell Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: lowell-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:lowell/government
+  office_id: lowell-vt/justice-of-the-peace
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/1c72a86d-645a-5e79-846e-366ff6e750b9
+  - ocd-person/74331d94-909b-56b7-8ff7-d2f24e09fcaf
+  - ocd-person/56cc4eb2-ae6e-5435-94f7-b6144733483b
+  - ocd-person/9e98554c-4f32-5cfe-a622-d70b670fce1a
+  result_status: official
+  winners:
+  - person_id: ocd-person/1c72a86d-645a-5e79-846e-366ff6e750b9
+    name: Gordon Spencer
+  - person_id: ocd-person/74331d94-909b-56b7-8ff7-d2f24e09fcaf
+    name: Jeff Parsons
+  - person_id: ocd-person/56cc4eb2-ae6e-5435-94f7-b6144733483b
+    name: Richard Pion
+  - person_id: ocd-person/9e98554c-4f32-5cfe-a622-d70b670fce1a
+    name: William Herrera
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the winners were Jeffrey Parsons,
+    Gordon Spencer, Richard Pion, and William Herrera'
+  retrieved: '2026-10-18'
