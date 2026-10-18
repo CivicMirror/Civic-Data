@@ -1,0 +1,21 @@
+# Huntington municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/59e60c03-4634-532c-9bcd-fc26c809e59f
+name: Troy Liberty
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.huntingtonvt.org/selectboard/
+  note: 'Town of Huntington (official website), Selectboard page: Dori Barton (Chair,
+    term expires 2027), Landel Cochran (Vice Chair, 2027), Troy Liberty (2029), Roman
+    Livak (2028), and Karen Barber (2028). The page postdates the March 2026 meeting
+    (Liberty''s 2029 term)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): the directory seats the same five'
+  retrieved: '2026-10-18'
