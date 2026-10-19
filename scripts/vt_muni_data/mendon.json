@@ -1,0 +1,217 @@
+{
+ "label": "Town of Mendon",
+ "place_slug": "mendon",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:mendon/government",
+ "header": "# Town of Mendon municipal roster backfill -- Vermont\n# municipal fan-out batch 14; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Mendon Selectboard",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists Mendon's three selectboard members as Megan Smith (Chair), Seth Bridge, and Sarah Buxton"
+    },
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: the 'Elected Town Officers' table seats Megan Smith (Chair, to 2028), Sarah Buxton (to 2027), and Seth Bridge (to 2029)"
+    },
+    {
+     "url": "https://www.mendonvt.gov/209/Selectboard",
+     "note": "Town of Mendon (official website), Selectboard page: the town's current Selectboard page seats Seth Bridge as Vice Chair; his three-year seat was the one on the 2026 ballot, where he was the sole printed candidate"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Megan Smith",
+     "slug": "megan-smith"
+    },
+    {
+     "name": "Seth Bridge",
+     "slug": "seth-bridge"
+    },
+    {
+     "name": "Sarah Buxton",
+     "slug": "sarah-buxton"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Moderator",
+   "org_name": "Mendon Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 establishes the office (elected town moderator, one-year term); no official source publishes the current holder, so the post is created without a membership"
+    },
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: Christopher Corsones held the moderator's office in 2025 and was the sole printed candidate on the March 3, 2026 ballot, but no post-meeting source reachable seats him after March 2026, so he is not minted"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Mendon Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: the 'Appointed Town Officers' table lists the Town Clerk as an appointed office (three-year appointed term) held by Jesse Bridge; Mendon has adopted an appointed clerk under 17 V.S.A. section 2651e, and the 2026 warning elects no clerk"
+    },
+    {
+     "url": "https://www.mendonvt.gov/directory.aspx",
+     "note": "Town of Mendon (official website), directory: the town's current directory styles Jesse Bridge Town Clerk"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx",
+     "note": "Vermont Secretary of State, Elections Division, town clerk contact spreadsheet (updated June 12, 2026): lists Jesse Bridge as Mendon's town clerk (name concordant; mode is appointed per the town report)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jesse Bridge",
+     "slug": "jesse-bridge",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Mendon Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: the 'Appointed Town Officers' table lists the Town Treasurer as an appointed office (three-year appointed term) held by Jesse Bridge; Mendon has adopted an appointed treasurer under 17 V.S.A. section 2651f, and the 2026 warning elects no treasurer"
+    },
+    {
+     "url": "https://www.mendonvt.gov/directory.aspx",
+     "note": "Town of Mendon (official website), directory: the town's current directory styles Jesse Bridge Town Treasurer"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx",
+     "note": "Vermont Secretary of State, Elections Division, town treasurer contact spreadsheet (updated June 12, 2026): lists Jesse Bridge as Mendon's town treasurer (name concordant; mode is appointed per the town report)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jesse Bridge",
+     "slug": "jesse-bridge",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Mendon Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: the 'Elected Town Officers' table seats Nancy Bridge Merrill as Collector of Delinquent Taxes (elected, three-year term to 2028); the 2025 ballot concurs"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Nancy Bridge Merrill",
+     "slug": "nancy-bridge-merrill"
+    }
+   ]
+  },
+  {
+   "slug": "constable",
+   "title": "Constable",
+   "org_name": "Mendon Constable",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: the 'Appointed Town Officers' table lists the Constable as an appointed office held by Mark Fiore (appointed January 2026, succeeding Lema Carter, who resigned January 2026)"
+    },
+    {
+     "url": "https://www.mendonvt.gov/directory.aspx",
+     "note": "Town of Mendon (official website), directory: styles Mark Fiore 'Mendon's Constable/Director of Public Safety'"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Mark Fiore",
+     "slug": "mark-fiore",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Mendon Justices of the Peace",
+   "seats": 7,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Mendon justices of the peace elected November 5, 2024"
+    },
+    {
+     "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+     "note": "Town of Mendon, 2025 Town Report: the report's justice of the peace block names the same seven (in short forms: 'Betsy Reddy' for Elizabeth Reddy and 'Al Wakefield' for J. Alvin Wakefield; the certified listing's full forms are recorded)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Rich Carlson",
+     "slug": "rich-carlson"
+    },
+    {
+     "name": "Susannah Loffredo",
+     "slug": "susannah-loffredo"
+    },
+    {
+     "name": "Lindsey MacCuaig",
+     "slug": "lindsey-maccuaig"
+    },
+    {
+     "name": "Elizabeth Reddy",
+     "slug": "elizabeth-reddy"
+    },
+    {
+     "name": "James Reddy",
+     "slug": "james-reddy"
+    },
+    {
+     "name": "Megan Smith",
+     "slug": "megan-smith"
+    },
+    {
+     "name": "J. Alvin Wakefield",
+     "slug": "j-alvin-wakefield"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "mendon-vt/2024-11-05/general",
+  "contest_id": "mendon-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Mendon Justice of the Peace Election 2024-11-05",
+  "filename": "mendon-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 7,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Mendon justices of the peace elected November 5, 2024: Rich Carlson, Susannah Loffredo, Lindsey MacCuaig, Elizabeth Reddy, James Reddy, Megan Smith, and J. Alvin Wakefield. The listing publishes no vote totals or party labels and none are recorded"
+   },
+   {
+    "url": "https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF",
+    "note": "Town of Mendon, 2025 Town Report: the report's justice of the peace block names the same seven"
+   }
+  ],
+  "header": "# Town of Mendon -- justice of the peace election (VT municipal batch 14); issue #163 (VT master tracking)."
+ }
+}
