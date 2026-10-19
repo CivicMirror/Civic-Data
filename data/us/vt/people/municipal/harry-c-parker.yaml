@@ -1,0 +1,29 @@
+# Town of North Hero municipal roster backfill -- Vermont
+# municipal fan-out batch 16; issue #163 (VT master tracking).
+id: ocd-person/b4b56ca6-0df5-576b-a7f3-31ba784040ec
+name: Harry C. Parker
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://northherovt.com/33/selectboard
+  note: 'Town of North Hero (official website), Selectboard page: lists the selectboard
+    as Karl Raacke (Chair), Joe Latimer (Vice Chair), Harry Parker, Clair LaVoie,
+    and Frank Codey; the page''s ''Clair LaVoie'' is a typo against the town''s term
+    table and the Secretary of State''s directory, which both give Claire (the table
+    prints the surname LaVoie)'
+  retrieved: '2026-10-18'
+- url: https://northherovt.com/document/554
+  note: 'Town of North Hero (official website), ''North Hero Elected Officials Term
+    Lengths'' table (linked from the Elections page): prints selectboard terms: Harry
+    C. Parker to 2027, Karl Raacke to 2027, Roland (Joe) Latimer II to 2028, Claire
+    LaVoie to 2028, and Frank Codey to 2029'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists North Hero''s selectboard as Frank Codey,
+    Joe Latimer (Vice Chair), Claire Lavoie, Harry Parker, and Karl Raacke (Chair)'
+  retrieved: '2026-10-18'
