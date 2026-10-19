@@ -1,0 +1,20 @@
+# Town of Moretown municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/5b215f11-75d3-5b8d-b1b2-7d2fd3c54765
+name: Clarence Wood
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.moretownvt.org/wp-content/uploads/2026/01/MORETOWN-VT-BALLOT-PROOF-030326.pdf
+  note: 'Town of Moretown (official website), official ballot for the March 3, 2026
+    town meeting: prints Clarence Wood as the candidate for Second Constable'
+  retrieved: '2026-10-18'
+- url: https://www.moretownvt.org/wp-content/uploads/2026/02/Moretown-Town-Report-2025.pdf
+  note: 'Town of Moretown, 2025 Town Report, officers table submitted by the Town
+    Clerk: lists Clarence Wood as Second Constable, one-year term expiring 2026 --
+    the incumbent standing again in 2026'
+  retrieved: '2026-10-18'

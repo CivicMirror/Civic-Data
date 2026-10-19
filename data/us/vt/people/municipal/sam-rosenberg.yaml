@@ -1,0 +1,46 @@
+# Town of Moretown municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/3dab9d67-2128-57fa-9313-df254593247b
+name: Sam Rosenberg
+identifiers: []
+candidacies:
+- contest_id: moretown-vt/2024-11-05/justice-of-the-peace
+  election_id: moretown-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:moretown/government
+  office_id: moretown-vt/justice-of-the-peace
+  party: null
+  ballot_name: Sam Rosenberg
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.moretownvt.org/minutes-and-agendas/selectboard-minutes-agendas/
+  note: 'Town of Moretown (official website), Selectboard minutes: the Selectboard
+    minutes of October 5, 2026 list as members present Tom Martin, Mike Brown, Sam
+    Rosenberg, Callie Streeter, and Don Wexler'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Michael Brown and Thomas Martin among
+    Moretown''s selectboard members'
+  retrieved: '2026-10-18'
+- url: https://www.moretownvt.org/wp-content/uploads/2026/02/Moretown-Town-Report-2025.pdf
+  note: 'Town of Moretown, 2025 Town Report, officers table submitted by the Town
+    Clerk: the officers table lists the selectboard before the 2026 meeting as Tom
+    Martin, Michael Brown, Robin Campbell, Don Wexler, and Callie Streeter; Campbell''s
+    three-year term expired in 2026 and the October 2026 minutes seat Rosenberg in
+    the current five'
+  retrieved: '2026-10-18'
+- url: https://www.moretownvt.org/wp-content/uploads/2026/02/Moretown-Town-Report-2025.pdf
+  note: 'Town of Moretown, 2025 Town Report, officers table submitted by the Town
+    Clerk: lists seven justices of the peace: Steve Magill, Ron Shems, Bridget Harty,
+    Sam Rosenberg, William Nowlan, Sybil Schlesinger, and Kate O''Neill'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the Moretown block lists only four
+    of the seven (Bridget Harty, Stephen Magill, William Nowlan, and Kathryn O''Neill);
+    the town report''s superset governs -- see the election note'
+  retrieved: '2026-10-18'
