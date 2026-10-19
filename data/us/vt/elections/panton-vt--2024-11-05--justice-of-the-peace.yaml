@@ -1,0 +1,35 @@
+# Town of Panton -- justice of the peace election (VT municipal batch 17); issue #163 (VT master tracking).
+id: panton-vt/2024-11-05/general
+name: Town of Panton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: panton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:panton/government
+  office_id: panton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/b632704c-b2c0-5e90-89eb-715d608505f9
+  - ocd-person/b17a737f-b506-5e36-ac7b-63f22dc0212e
+  - ocd-person/30160034-c2f4-5224-9d9a-ea5cf2297893
+  - ocd-person/ffdff27b-64ab-5f0c-b10c-c8b5c2e08f07
+  - ocd-person/7c1f2cd1-5e29-5d72-b75a-a1f458e94f6d
+  result_status: official
+  winners:
+  - person_id: ocd-person/b632704c-b2c0-5e90-89eb-715d608505f9
+    name: Diane Raphael
+  - person_id: ocd-person/b17a737f-b506-5e36-ac7b-63f22dc0212e
+    name: Eileen Brennan
+  - person_id: ocd-person/30160034-c2f4-5224-9d9a-ea5cf2297893
+    name: Gretchen Bailey
+  - person_id: ocd-person/ffdff27b-64ab-5f0c-b10c-c8b5c2e08f07
+    name: James Dayton
+  - person_id: ocd-person/7c1f2cd1-5e29-5d72-b75a-a1f458e94f6d
+    name: Paula Moore
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Panton''s five justice of the peace seats'
+  retrieved: '2026-10-19'

@@ -1,0 +1,22 @@
+# Town of Panton municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/4032fef9-e508-5b51-a322-c9539e85e512
+name: Reece Jaring
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists the Panton selectboard: Zach Weaver (Chair),
+    Teresa Boucher (Vice Chair), Kirsten De La Cruz, Robert Degraaf, and Reece Jaring'
+  retrieved: '2026-10-19'
+- url: https://pantonvt.gov/wp-content/uploads/sites/52/2026/08/2026-Panton-Town-Meeting-Results.pdf
+  note: 'Town of Panton, Official Return of Votes, March 3, 2026 town meeting (certified
+    by the Town Clerk/Treasurer; 138 voters): Zachary Weaver was re-elected to a two-year
+    seat with 122 votes and Robert T. DeGraaf to a three-year seat with 122 votes;
+    Teresa Boucher, Kirsten De La Cruz, and Reece Jaring did not stand and continue'
+  retrieved: '2026-10-19'
