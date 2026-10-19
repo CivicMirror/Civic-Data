@@ -1,0 +1,36 @@
+# Town of Marlboro municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/092c2e10-5367-5f2d-8a11-9fe6c76e0de2
+name: Marcia Hamilton
+identifiers: []
+candidacies:
+- contest_id: marlboro-vt/2024-11-05/justice-of-the-peace
+  election_id: marlboro-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:marlboro/government
+  office_id: marlboro-vt/justice-of-the-peace
+  party: null
+  ballot_name: Marcia L. Hamilton
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://marlborovt.us/wp-content/uploads/2026/03/Official-Return-of-Votes-3.3.2026-Town-School-Election.pdf
+  note: 'Town of Marlboro, Official Return of Votes, March 3, 2026 town election (certified):
+    Sally M. White was re-elected Cemetery Commissioner in 2026 with 354 votes'
+  retrieved: '2026-10-18'
+- url: https://marlborovt.us/wp-content/uploads/2026/01/Marlboro_2025_Vermont-Municipal-Report.pdf
+  note: 'Town of Marlboro, 2025 Town Report: the ''Elected Officers'' table seats
+    the three cemetery commissioners Sally M. White (to 2029), Hollis Burbank-Hammarlund
+    (to 2027), and Marcia L. Hamilton (to 2028)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Marlboro justices of the
+    peace elected November 5, 2024'
+  retrieved: '2026-10-18'
+- url: https://marlborovt.us/wp-content/uploads/2026/01/Marlboro_2025_Vermont-Municipal-Report.pdf
+  note: 'Town of Marlboro, 2025 Town Report: the report''s justice of the peace block
+    names the same five'
+  retrieved: '2026-10-18'
