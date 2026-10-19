@@ -1,0 +1,25 @@
+# Town of Putney municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/65abe766-b92e-5b1e-b503-c184c6a85392
+name: Nancy Olson
+identifiers: []
+candidacies:
+- contest_id: putney-vt/2024-11-05/justice-of-the-peace
+  election_id: putney-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:putney/government
+  office_id: putney-vt/justice-of-the-peace
+  party: null
+  ballot_name: Nancy Olson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Putney justices of the peace:
+    Laura Chapman, Karen Gustafson, Holly Hammond, Abby Jacobson, Nancy Olson, Amelia
+    Struthers, Vanessa Vadim, Wendy Wilson, Gay Foster, and Lynne Wilken (the town
+    report prints ''Lynne Wilkins''; the certified listing governs)'
+  retrieved: '2026-10-19'
