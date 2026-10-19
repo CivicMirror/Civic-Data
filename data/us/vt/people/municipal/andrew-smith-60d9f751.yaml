@@ -1,0 +1,22 @@
+# Town of Ryegate municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/a696e947-f44d-5bd5-8587-60d9f7512026
+name: Andrew Smith
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Ryegate''s three selectboard members:
+    Regina Hazel, Darryl Perkins, and Andrew Smith'
+  retrieved: '2026-10-19'
+- url: https://www.ryegatevt.org/board-of-selectmen
+  note: 'Town of Ryegate, Board of Selectmen page (ryegatevt.org): the selectboard
+    members are Regina Hazel, Darryl Perkins, and Andrew Smith. This Andrew Smith
+    is a Ryegate resident and a different man from the Town of Berkshire''s selectboard
+    member of the same name'
+  retrieved: '2026-10-19'

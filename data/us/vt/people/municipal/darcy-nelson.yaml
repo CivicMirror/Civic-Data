@@ -1,0 +1,24 @@
+# Town of Ryegate municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/254ec81f-5065-560a-a72f-60252cb862cc
+name: Darcy Nelson
+identifiers: []
+candidacies:
+- contest_id: ryegate-vt/2024-11-05/justice-of-the-peace
+  election_id: ryegate-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ryegate/government
+  office_id: ryegate-vt/justice-of-the-peace
+  party: null
+  ballot_name: Darcy Nelson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Ryegate justices of the
+    peace: Michael Murray, Darcy Nelson, Robert Rowden, Nancy Perkins, Jerry Esposito,
+    Sr., Lauren Nelson, and William Dickey'
+  retrieved: '2026-10-19'
