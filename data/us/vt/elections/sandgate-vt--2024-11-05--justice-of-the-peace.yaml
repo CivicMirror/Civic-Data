@@ -1,0 +1,35 @@
+# Town of Sandgate -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: sandgate-vt/2024-11-05/general
+name: Town of Sandgate Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sandgate-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sandgate/government
+  office_id: sandgate-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/5d38a4c7-4dfa-5ec8-bfa9-2ad9231b7419
+  - ocd-person/b0b845cd-9333-5f7f-a414-e125624485b8
+  - ocd-person/aacd8522-ff5a-5363-a8db-592ee584831e
+  - ocd-person/1cc2ded4-1aec-5f83-b72d-d53b65baefa5
+  - ocd-person/b6905986-a7ee-577f-9a2f-e6ff7359d181
+  result_status: official
+  winners:
+  - person_id: ocd-person/5d38a4c7-4dfa-5ec8-bfa9-2ad9231b7419
+    name: Joyce Trachte
+  - person_id: ocd-person/b0b845cd-9333-5f7f-a414-e125624485b8
+    name: Julie Robertson
+  - person_id: ocd-person/aacd8522-ff5a-5363-a8db-592ee584831e
+    name: Margaret Phelps
+  - person_id: ocd-person/1cc2ded4-1aec-5f83-b72d-d53b65baefa5
+    name: Nancy Tschorn
+  - person_id: ocd-person/b6905986-a7ee-577f-9a2f-e6ff7359d181
+    name: Valerie dePeyster
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Sandgate''s five justice of the peace seats'
+  retrieved: '2026-10-19'

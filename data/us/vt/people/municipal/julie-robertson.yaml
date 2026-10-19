@@ -1,0 +1,29 @@
+# Town of Sandgate municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/b0b845cd-9333-5f7f-a414-e125624485b8
+name: Julie Robertson
+identifiers: []
+candidacies:
+- contest_id: sandgate-vt/2024-11-05/justice-of-the-peace
+  election_id: sandgate-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sandgate/government
+  office_id: sandgate-vt/justice-of-the-peace
+  party: null
+  ballot_name: Julie Robertson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://sandgatevermont.org/elected_officers/
+  note: 'Town of Sandgate, ''Elected Officers'' page (sandgatevermont.org), headed
+    ''As of March 3, 2026'' -- the town''s current post-meeting roster: the cemetery
+    commissioners are Ann Hammerle, Kathleen Hill, and Julie Robertson'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Sandgate justices of the
+    peace: Valerie dePeyster, Julie Robertson, Nancy Tschorn, Joyce Trachte, and Margaret
+    Phelps; the town''s elected-officers page agrees exactly'
+  retrieved: '2026-10-19'
