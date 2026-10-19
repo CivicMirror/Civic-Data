@@ -1,0 +1,33 @@
+# Town of Mount Holly municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/b3d82f26-5a4e-5772-b776-bed114d75c09
+name: Diana Garrow
+identifiers: []
+candidacies:
+- contest_id: mount-holly-vt/2024-11-05/justice-of-the-peace
+  election_id: mount-holly-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:mount-holly/government
+  office_id: mount-holly-vt/justice-of-the-peace
+  party: null
+  ballot_name: Diana Garrow
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.mounthollyvt.org/town-services/selectboard/
+  note: 'Town of Mount Holly (official website), Select Board page: lists the three
+    selectboard members as Mark Turco (Chair), Jeff Chase, and Diana Garrow, elected
+    to three-year terms with one expiring every year'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): carries no Mount Holly roster (it directs readers
+    to contact the town clerk)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Mount Holly justices of
+    the peace elected November 5, 2024'
+  retrieved: '2026-10-18'

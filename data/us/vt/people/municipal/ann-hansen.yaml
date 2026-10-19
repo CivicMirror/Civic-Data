@@ -1,0 +1,20 @@
+# Town of Mount Holly municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/6cbfe579-2541-558c-ae16-974fbb6383bf
+name: Ann Hansen
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.mounthollyvt.org/town-services/board-of-listers/
+  note: 'Town of Mount Holly (official website), Board of Listers page: states the
+    position of Lister is an elected office and lists the three listers as Ann Hansen,
+    Tiffany Austin, and Mary Surething'
+  retrieved: '2026-10-18'
+- url: https://www.mounthollyvt.org/wp-content/uploads/2026/03/Select-Board-2026-03-10-Regular-Meeting-Minutes.pdf
+  note: 'Town of Mount Holly, Select Board regular meeting minutes, March 10, 2026:
+    the minutes welcome Tiffany Austin as a newly elected Lister'
+  retrieved: '2026-10-18'
