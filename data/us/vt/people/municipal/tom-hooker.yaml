@@ -1,0 +1,22 @@
+# Town of Pittsford municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/8ab907aa-d7e8-5fe2-840a-f8f120955c00
+name: Tom Hooker
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Pittsford''s five selectboard members:
+    Daniel Adams, Tom Hooker, Alicia Malay (Chair), David Mills, and Mark Winslow'
+  retrieved: '2026-10-19'
+- url: https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf
+  note: 'Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com):
+    Mark Winslow was elected to a three-year term with 262 votes (Erin Eugair 216,
+    write-ins 3) and Dan Adams was re-elected to a two-year term with 445 votes at
+    the March 3, 2026 election'
+  retrieved: '2026-10-19'
