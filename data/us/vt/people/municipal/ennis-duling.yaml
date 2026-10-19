@@ -1,0 +1,22 @@
+# Town of Poultney municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/eb1b0c8d-b8e5-5edd-907f-b79a70d8ca72
+name: Ennis Duling
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/133
+  note: '24 App. V.S.A. ch. 133 (Town of Poultney): sections 302(1) and 304(c): five
+    library trustees on five-year terms, one elected each year'
+  retrieved: '2026-10-19'
+- url: https://www.poultneyvt.gov/fileadmin/files/Selectboard/Town_Reports/2025_Poultney_Report.pdf
+  note: Town of Poultney, 2025 Town Report (poultneyvt.gov), 'Elected Town Officers'
+    table submitted by Betsy J. Wescott, Town Clerk lists library trustees Jean S.
+    Davis (term to 2027), D. Bruce Williams (2028), Ennis Duling (2029), Nancy Luzer
+    (2030), and Emily Sosnoff (2026). The seat that stood in 2026 (Sosnoff's) has
+    no published outcome, so it is created without a membership
+  retrieved: '2026-10-19'
