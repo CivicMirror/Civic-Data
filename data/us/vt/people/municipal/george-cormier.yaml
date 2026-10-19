@@ -1,0 +1,26 @@
+# Town of Morristown municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/6ffe6e64-766c-578e-9826-e3f4eb1289e6
+name: George Cormier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.morristownvt.gov/directory
+  note: 'Town of Morristown (official website), staff and boards directory: lists
+    the five selectboard members as Donald McDowell (Chair), Richard Craig, George
+    Cormier, Leah Hollenberger, and Rose Belanger'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Donald McDowell (Chair), Rose Belanger,
+    and George Cormier among Morristown''s selectboard members'
+  retrieved: '2026-10-18'
+- url: https://www.morristownvt.gov/media/6656
+  note: 'Town of Morristown, 2025 Annual Town Report: the certified results of the
+    March 4, 2025 annual town meeting re-elected Richard Craig (836 votes, three-year
+    term) and Donald McDowell (1,120 votes, two-year term)'
+  retrieved: '2026-10-18'
