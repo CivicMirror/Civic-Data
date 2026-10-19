@@ -1,0 +1,22 @@
+# Town of Rochester municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-organization/92544a08-7b43-571c-a7de-af8727fa6564
+name: Town of Rochester Justices of the Peace
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:rochester/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: rochester-vt/justice-of-the-peace
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Rochester justices of the
+    peace: Kevin Dougherty, Michael Harvey, Brenda B Goupee, Annette West, and Amy
+    Braun (Braun''s line spills past a page header in the listing, at a Rochester
+    address; the town report''s five-name slate agrees)'
+  retrieved: '2026-10-19'
+- url: https://rochestervermont.org/wp-content/uploads/2026/02/Rochester-Town-Report-FY-2025.pdf
+  note: 'Town of Rochester, FY2025 Town Report, Elected Officials table: the town
+    table lists the same five justices; the person record uses the report''s ''Brenda
+    Goupee'' with the listing''s ''Brenda B Goupee'' as the ballot name'
+  retrieved: '2026-10-19'

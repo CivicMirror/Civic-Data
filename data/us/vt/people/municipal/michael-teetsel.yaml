@@ -1,0 +1,24 @@
+# Town of Rochester municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/98d67855-8032-5ff3-8b20-3fe4c352a197
+name: Michael Teetsel
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Rochester''s three selectboard members:
+    Mary Fratini, Patricia Harvey, and Michael Teetsel'
+  retrieved: '2026-10-19'
+- url: https://rochestervermont.org/wp-content/uploads/2026/03/2026-DRAFT-TOWN-MEETING-MINUTES.pdf
+  note: 'Town of Rochester, DRAFT Minutes of the Annual Town Meeting, March 2, 2026
+    (draft status disclosed; the White River Valley Herald''s report of the meeting
+    concurs on every outcome): Mary Fratini won the three-year seat that Chad Richardson
+    had held (81-19 over Alvina Risinger-Harvey); Patricia Harvey (Chair, to 2027)
+    and Michael Teetsel (to 2028) continue (the report table prints ''Pat Harvey''
+    and ''Mike Teetsel'')'
+  retrieved: '2026-10-19'
