@@ -1,0 +1,18 @@
+# Town of Middletown Springs municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/c2010c7c-61bd-5a32-ae44-99186a70b5e9
+name: Heather Grier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://storage.googleapis.com/juniper-media-library/359/2025/07/FY%202024%20Town%20Report.pdf
+  note: 'Town of Middletown Springs, FY2024 Town Report: the FY2024 report''s elected-officers
+    table carries Heather Grier as Collector of Delinquent Taxes with the footnote
+    ''* Appointed Until Town Meeting 2025'': the office is elective (three-year term)
+    but her last verified mode is the appointment and no published 2025 outcome was
+    reachable, so she is minted appointed and flagged for recheck'
+  retrieved: '2026-10-18'

@@ -1,0 +1,33 @@
+# Town of Middletown Springs municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/13212c00-a308-5c03-8ed0-11a8dac051ed
+name: Meredith Morgan
+identifiers: []
+candidacies:
+- contest_id: middletown-springs-vt/2024-11-05/justice-of-the-peace
+  election_id: middletown-springs-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:middletown-springs/government
+  office_id: middletown-springs-vt/justice-of-the-peace
+  party: null
+  ballot_name: Meredith Morgan
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://middletownsprings.vt.gov/auditors
+  note: 'Town of Middletown Springs (official website), Auditors page: heads its roster
+    ''Auditors as of March 2025'' on the town''s current page and names Juanita Burch-Clay,
+    Tracy Weatherhogg, and Meredith Morgan; the roster''s date is disclosed here.
+    The FY2024 report prints ''Juanita Burch Clay''; the page''s hyphenated form governs'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Middletown Springs justices
+    of the peace elected November 5, 2024'
+  retrieved: '2026-10-18'
+- url: https://storage.googleapis.com/juniper-media-library/359/2025/07/FY%202024%20Town%20Report.pdf
+  note: 'Town of Middletown Springs, FY2024 Town Report: the FY2024 report''s justice
+    of the peace block names the same five'
+  retrieved: '2026-10-18'
