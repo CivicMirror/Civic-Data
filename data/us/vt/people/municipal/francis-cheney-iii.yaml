@@ -1,0 +1,20 @@
+# City of Newport municipal roster backfill -- Vermont
+# municipal fan-out batch 16; issue #163 (VT master tracking).
+id: ocd-person/421fa28d-c5c5-5705-9af2-5f26e1d09e78
+name: Francis Cheney, III
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/007
+  note: '24 App. V.S.A. ch. 007 (City of Newport): section 8 provides for a Collector
+    of Taxes appointed by the City Council'
+  retrieved: '2026-10-18'
+- url: https://www.newportvermont.org/wp-content/uploads/2026/02/2025-Newport-City-Annual-Report.pdf
+  note: 'City of Newport, 2025 Annual Report: the Special Appointments column carries
+    Francis Cheney, III as Delinquent Tax Collector (he is also the appointed Tax
+    Assessor); the post is created with an appointed membership'
+  retrieved: '2026-10-18'
