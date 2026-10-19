@@ -1,0 +1,35 @@
+# Town of Peru -- justice of the peace election (VT municipal batch 18); issue #163 (VT master tracking).
+id: peru-vt/2024-11-05/general
+name: Town of Peru Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: peru-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:peru/government
+  office_id: peru-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/71e8c640-e0a7-5cdc-9980-b29d265a5358
+  - ocd-person/377cb568-2213-5cde-9e64-48a82cb45bef
+  - ocd-person/6b247092-391b-53b0-abe9-64fd24717c42
+  - ocd-person/850fba54-5c86-5dd6-86d2-29af462f1519
+  - ocd-person/6759bbe5-61b9-5994-8ed5-561e550a26c2
+  result_status: official
+  winners:
+  - person_id: ocd-person/71e8c640-e0a7-5cdc-9980-b29d265a5358
+    name: Gary Ameden
+  - person_id: ocd-person/377cb568-2213-5cde-9e64-48a82cb45bef
+    name: Iwanna Reed
+  - person_id: ocd-person/6b247092-391b-53b0-abe9-64fd24717c42
+    name: Karen Utiger
+  - person_id: ocd-person/850fba54-5c86-5dd6-86d2-29af462f1519
+    name: Olivia Rukat
+  - person_id: ocd-person/6759bbe5-61b9-5994-8ed5-561e550a26c2
+    name: Tracy Black
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Peru''s five justice of the peace seats'
+  retrieved: '2026-10-19'

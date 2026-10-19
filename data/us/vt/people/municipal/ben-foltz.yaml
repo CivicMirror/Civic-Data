@@ -1,0 +1,21 @@
+# Town of Peru municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/434a0c9e-6ecd-5a8c-b72f-74688871b414
+name: Ben Foltz
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Peru''s three selectboard members: Andy
+    Dahlstrom (Chair), Ben Foltz, and Laurie Gayda'
+  retrieved: '2026-10-19'
+- url: https://peruvt.org/government/
+  note: 'Town of Peru, Government page (peruvt.org): the town''s published elected-officials
+    roster, with term years lists Andy Dahlstrom (Chair, term to 2028), Ben Foltz
+    (2027), and Laurie Gayda (2029)'
+  retrieved: '2026-10-19'

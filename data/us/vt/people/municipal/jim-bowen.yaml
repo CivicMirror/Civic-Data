@@ -1,0 +1,20 @@
+# Town of Peru municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/e9498a03-98fd-5c20-b982-f91521684d9d
+name: Jim Bowen
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of listers of three on staggered
+    three-year terms'
+  retrieved: '2026-10-19'
+- url: https://peruvt.org/government/
+  note: 'Town of Peru, Government page (peruvt.org): the town''s published elected-officials
+    roster, with term years lists listers Jack Pennypacker (Chair, term to 2027),
+    Jim Bowen (2028), and Richard Rockwell (2029)'
+  retrieved: '2026-10-19'
