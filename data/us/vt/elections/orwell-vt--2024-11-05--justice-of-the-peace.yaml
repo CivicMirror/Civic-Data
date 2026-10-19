@@ -1,0 +1,35 @@
+# Town of Orwell -- justice of the peace election (VT municipal batch 17); issue #163 (VT master tracking).
+id: orwell-vt/2024-11-05/general
+name: Town of Orwell Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: orwell-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:orwell/government
+  office_id: orwell-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/dcc4a31f-7475-5a07-84f5-80774a4e88e6
+  - ocd-person/d9274a70-686d-5874-800c-75cb660d5704
+  - ocd-person/20aeb6a3-9f18-56dd-8387-21c9437dee05
+  - ocd-person/f3142538-711f-5044-bda3-a7d70705758a
+  - ocd-person/18a6a996-8c4f-5deb-8c83-368ef134bbc6
+  result_status: official
+  winners:
+  - person_id: ocd-person/dcc4a31f-7475-5a07-84f5-80774a4e88e6
+    name: Glen Cousineau
+  - person_id: ocd-person/d9274a70-686d-5874-800c-75cb660d5704
+    name: Lisa Limoge
+  - person_id: ocd-person/20aeb6a3-9f18-56dd-8387-21c9437dee05
+    name: Michael R Audet
+  - person_id: ocd-person/f3142538-711f-5044-bda3-a7d70705758a
+    name: Richard O Buxton, Jr
+  - person_id: ocd-person/18a6a996-8c4f-5deb-8c83-368ef134bbc6
+    name: Stephanie Bruyneel Corey
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Orwell''s five justice of the peace seats'
+  retrieved: '2026-10-19'
