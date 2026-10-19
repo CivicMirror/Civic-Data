@@ -1,0 +1,25 @@
+# Town of Royalton municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/23b079dc-0dfe-57ca-8db3-3da1ec2bb8cf
+name: Joshua Powers
+identifiers: []
+candidacies:
+- contest_id: royalton-vt/2024-11-05/justice-of-the-peace
+  election_id: royalton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:royalton/government
+  office_id: royalton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Joshua 'Bushrod' Powers
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Royalton justices of the
+    peace: Peg Ainsworth, Charles Bascom, John Dumville, Allison Fulcher, Robert ''Bob''
+    Hull, Suzanne Long, Bruce Post, Joshua ''Bushrod'' Powers, Scott Puopolo, and
+    Larry Trottier'
+  retrieved: '2026-10-19'

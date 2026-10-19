@@ -1,0 +1,50 @@
+# Town of Royalton -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: royalton-vt/2024-11-05/general
+name: Town of Royalton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: royalton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:royalton/government
+  office_id: royalton-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/8d648e55-73bd-5766-a7b9-c9f7680d5143
+  - ocd-person/971ac030-2778-55a9-814f-3faa6e651a66
+  - ocd-person/48aac3f1-e1b5-595d-a08f-3a2df31953c7
+  - ocd-person/418a6c49-5aac-5916-abf3-f6a5003f3e0a
+  - ocd-person/23b079dc-0dfe-57ca-8db3-3da1ec2bb8cf
+  - ocd-person/2c5da12b-5dbb-50cc-8bb2-9ccc70dcb3d2
+  - ocd-person/7b31eefa-214e-59ca-9802-5a756dbb359b
+  - ocd-person/8d0f5b9c-8694-5adb-aa2d-33f8750df0e6
+  - ocd-person/1c9f2007-a817-57a3-9667-e66c7f72ec91
+  - ocd-person/cfb3a820-dbf7-55cf-a108-3114725078f2
+  result_status: official
+  winners:
+  - person_id: ocd-person/8d648e55-73bd-5766-a7b9-c9f7680d5143
+    name: Allison Fulcher
+  - person_id: ocd-person/971ac030-2778-55a9-814f-3faa6e651a66
+    name: Bruce Post
+  - person_id: ocd-person/48aac3f1-e1b5-595d-a08f-3a2df31953c7
+    name: Charles Bascom
+  - person_id: ocd-person/418a6c49-5aac-5916-abf3-f6a5003f3e0a
+    name: John Dumville
+  - person_id: ocd-person/23b079dc-0dfe-57ca-8db3-3da1ec2bb8cf
+    name: Joshua 'Bushrod' Powers
+  - person_id: ocd-person/2c5da12b-5dbb-50cc-8bb2-9ccc70dcb3d2
+    name: Larry Trottier
+  - person_id: ocd-person/7b31eefa-214e-59ca-9802-5a756dbb359b
+    name: Peg Ainsworth
+  - person_id: ocd-person/8d0f5b9c-8694-5adb-aa2d-33f8750df0e6
+    name: Robert 'Bob' Hull
+  - person_id: ocd-person/1c9f2007-a817-57a3-9667-e66c7f72ec91
+    name: Scott Puopolo
+  - person_id: ocd-person/cfb3a820-dbf7-55cf-a108-3114725078f2
+    name: Suzanne Long
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names ten winners
+    for Royalton''s ten justice of the peace seats'
+  retrieved: '2026-10-19'
