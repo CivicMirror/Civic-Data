@@ -1,0 +1,43 @@
+# Town of Marshfield -- justice of the peace election (VT municipal batch 14); issue #163 (VT master tracking).
+id: marshfield-43600-vt/2024-11-05/general
+name: Town of Marshfield Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: marshfield-43600-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:marshfield-43600/government
+  office_id: marshfield-43600-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/31113262-ab05-55f2-b60d-4de52b3a729f
+  - ocd-person/2480162b-b6e6-5069-9359-3cb2a27f0e9c
+  - ocd-person/db77f10b-d590-59d5-b25b-28f2b37f01ca
+  - ocd-person/d2d7b925-8879-5e71-ad6e-f1b9584c3f39
+  - ocd-person/89a8d5b1-1d61-5ea9-a580-78744771a259
+  - ocd-person/f9fde464-97b3-5dee-ac6c-07470e753ec2
+  - ocd-person/e2a98d66-0f16-5301-a240-940b3ac5363a
+  result_status: official
+  winners:
+  - person_id: ocd-person/31113262-ab05-55f2-b60d-4de52b3a729f
+    name: Ellen Halperin
+  - person_id: ocd-person/2480162b-b6e6-5069-9359-3cb2a27f0e9c
+    name: James Arisman
+  - person_id: ocd-person/db77f10b-d590-59d5-b25b-28f2b37f01ca
+    name: Judy Henkin
+  - person_id: ocd-person/d2d7b925-8879-5e71-ad6e-f1b9584c3f39
+    name: Margaret Eberhardt
+  - person_id: ocd-person/89a8d5b1-1d61-5ea9-a580-78744771a259
+    name: Marie Maclay
+  - person_id: ocd-person/f9fde464-97b3-5dee-ac6c-07470e753ec2
+    name: Mary Leahy
+  - person_id: ocd-person/e2a98d66-0f16-5301-a240-940b3ac5363a
+    name: Michael Sabourin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Marshfield justices of
+    the peace elected November 5, 2024: James Arisman, Margaret Eberhardt, Ellen Halperin,
+    Judy Henkin, Mary Leahy, Marie Maclay, and Michael Sabourin. The listing publishes
+    no vote totals or party labels and none are recorded'
+  retrieved: '2026-10-18'

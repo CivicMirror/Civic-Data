@@ -1,0 +1,32 @@
+# Town of Marshfield municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/d2d7b925-8879-5e71-ad6e-f1b9584c3f39
+name: Margaret Eberhardt
+identifiers: []
+candidacies:
+- contest_id: marshfield-43600-vt/2024-11-05/justice-of-the-peace
+  election_id: marshfield-43600-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:marshfield-43600/government
+  office_id: marshfield-43600-vt/justice-of-the-peace
+  party: null
+  ballot_name: Margaret Eberhardt
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://hardwickgazette.org/2026/03/24/everything-passes-at-marshfield-town-meeting/
+  note: 'Hardwick Gazette, ''Everything Passes at Marshfield Town Meeting'' (March
+    24, 2026), reporting the town''s draft annual-meeting minutes officer by officer:
+    Kathleen Hayes was elected lister in 2026 (three-year term); a second lister seat
+    (two-year remainder) drew no nominations and stands vacant for Selectboard appointment,
+    so it is left unfilled. The Gazette''s Selectboard-meeting reporting names ''Listers
+    Meg Eberhardt and Kathleen Hayes'' as the sitting board; Eberhardt''s full name
+    is Margaret, per the justice of the peace listing'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Marshfield justices of
+    the peace elected November 5, 2024'
+  retrieved: '2026-10-18'
