@@ -1,0 +1,35 @@
+# Town of Peacham -- justice of the peace election (VT municipal batch 18); issue #163 (VT master tracking).
+id: peacham-vt/2024-11-05/general
+name: Town of Peacham Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: peacham-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:peacham/government
+  office_id: peacham-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/fe7982b7-73dd-576a-a05a-813adc62a3ac
+  - ocd-person/d9b0bfa7-66c7-5918-bdbc-6bca7eb3bb1d
+  - ocd-person/4595e822-3574-513c-8aeb-52dd1650d4d2
+  - ocd-person/01fdd41d-b217-561a-8f5c-3cbbbcd0c297
+  - ocd-person/8fd2ae39-e636-5829-a4e4-412520b215cb
+  result_status: official
+  winners:
+  - person_id: ocd-person/fe7982b7-73dd-576a-a05a-813adc62a3ac
+    name: Cynther Greene
+  - person_id: ocd-person/d9b0bfa7-66c7-5918-bdbc-6bca7eb3bb1d
+    name: Diana Senturia
+  - person_id: ocd-person/4595e822-3574-513c-8aeb-52dd1650d4d2
+    name: Rick Scholes
+  - person_id: ocd-person/01fdd41d-b217-561a-8f5c-3cbbbcd0c297
+    name: Sabrina Kaufman
+  - person_id: ocd-person/8fd2ae39-e636-5829-a4e4-412520b215cb
+    name: Sam Kempton
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Peacham''s five justice of the peace seats'
+  retrieved: '2026-10-19'
