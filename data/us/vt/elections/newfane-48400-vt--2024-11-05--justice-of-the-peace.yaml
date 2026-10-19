@@ -1,0 +1,52 @@
+# Town of Newfane -- justice of the peace election (VT municipal batch 16); issue #163 (VT master tracking).
+id: newfane-48400-vt/2024-11-05/general
+name: Town of Newfane Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: newfane-48400-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:newfane-48400/government
+  office_id: newfane-48400-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/bde5e278-bf6b-5ec6-b9a4-95611f6547f2
+  - ocd-person/d3645908-d7fe-5b93-acc2-693bf93191b5
+  - ocd-person/8ad6b8ad-fc33-53f3-b95f-bc9cc510eb09
+  - ocd-person/75213242-f132-5ebf-9aa1-e1f4e5ad0177
+  - ocd-person/c39dd215-b121-5780-b88b-2474d4992dff
+  - ocd-person/7e051ca5-d066-5441-bb38-8bea2d558638
+  - ocd-person/ccfc1884-a89f-5f1b-803a-2a68dcc78653
+  result_status: official
+  winners:
+  - person_id: ocd-person/bde5e278-bf6b-5ec6-b9a4-95611f6547f2
+    name: Caroline Apple Gifford
+  - person_id: ocd-person/d3645908-d7fe-5b93-acc2-693bf93191b5
+    name: Fiona Chevalier
+  - person_id: ocd-person/8ad6b8ad-fc33-53f3-b95f-bc9cc510eb09
+    name: Gloria Cristelli
+  - person_id: ocd-person/75213242-f132-5ebf-9aa1-e1f4e5ad0177
+    name: Kate Gehring
+  - person_id: ocd-person/c39dd215-b121-5780-b88b-2474d4992dff
+    name: Lynn Forrest
+  - person_id: ocd-person/7e051ca5-d066-5441-bb38-8bea2d558638
+    name: Priscilla Cottron
+  - person_id: ocd-person/ccfc1884-a89f-5f1b-803a-2a68dcc78653
+    name: Steve Levine
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Newfane justices of the
+    peace elected November 5, 2024: Priscilla Cottron, Gloria Cristelli, Fiona Chevalier,
+    Lynn Forrest, Caroline Apple Gifford, Steve Levine, and Kate Gehring. The town
+    report''s justice column names Cottron (spelled ''Cotton''), Cristelli, Gifford,
+    and Levine, plus Sandra Dadik, Abigail Dillon, and Evelyn Sirois, omitting Chevalier,
+    Forrest, and Gehring -- an equal-count name swap, so the certified listing governs
+    and Dadik, Dillon, and Sirois (possible mid-term Board of Civil Authority appointees)
+    are held as stragglers in this note. The listing publishes no vote totals or party
+    labels and none are recorded'
+  retrieved: '2026-10-18'
+- url: https://newfanevt.com/pdf/2025-town-report.pdf
+  note: 'Town of Newfane, 2025 Annual Town Report: the officers table''s justice of
+    the peace column names a partly different set of seven (see the election note)'
+  retrieved: '2026-10-18'
