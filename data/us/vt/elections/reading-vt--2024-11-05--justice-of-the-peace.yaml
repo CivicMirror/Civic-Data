@@ -1,0 +1,35 @@
+# Town of Reading -- justice of the peace election (VT municipal batch 19); issue #163 (VT master tracking).
+id: reading-vt/2024-11-05/general
+name: Town of Reading Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: reading-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:reading/government
+  office_id: reading-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/8fa7b6ab-8cb6-571e-8d96-1e0b1371531d
+  - ocd-person/b4183611-bee1-55e2-aed8-0a78d3935a9c
+  - ocd-person/5d50e613-728a-5e6a-9737-35b78a41fc69
+  - ocd-person/9199da5a-e261-555d-856b-5447bc8c074e
+  - ocd-person/d1f3bd19-f51a-55f1-837d-91bbc4c52483
+  result_status: official
+  winners:
+  - person_id: ocd-person/8fa7b6ab-8cb6-571e-8d96-1e0b1371531d
+    name: Jonathan Springer
+  - person_id: ocd-person/b4183611-bee1-55e2-aed8-0a78d3935a9c
+    name: Mary Springer
+  - person_id: ocd-person/5d50e613-728a-5e6a-9737-35b78a41fc69
+    name: Rayna Bishop
+  - person_id: ocd-person/9199da5a-e261-555d-856b-5447bc8c074e
+    name: Robert Hartnett
+  - person_id: ocd-person/d1f3bd19-f51a-55f1-837d-91bbc4c52483
+    name: Steven Vogl
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Reading''s five justice of the peace seats'
+  retrieved: '2026-10-19'
