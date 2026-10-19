@@ -1,0 +1,35 @@
+# Town of Pittsfield -- justice of the peace election (VT municipal batch 18); issue #163 (VT master tracking).
+id: pittsfield-vt/2024-11-05/general
+name: Town of Pittsfield Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: pittsfield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:pittsfield/government
+  office_id: pittsfield-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/fcacbfb5-2f04-584e-a34a-9d8e10f9e4a0
+  - ocd-person/efc5d371-b9d6-522f-bf3f-e0ae8991c048
+  - ocd-person/ca9142d4-6dab-5855-a0c9-dd64557254b7
+  - ocd-person/86718ce7-1c65-5755-a8a7-4c17c284655a
+  - ocd-person/b35ee753-2fe1-5997-a81d-d2a762f4bf43
+  result_status: official
+  winners:
+  - person_id: ocd-person/fcacbfb5-2f04-584e-a34a-9d8e10f9e4a0
+    name: Candace Kadimik
+  - person_id: ocd-person/efc5d371-b9d6-522f-bf3f-e0ae8991c048
+    name: George J. Deblon
+  - person_id: ocd-person/ca9142d4-6dab-5855-a0c9-dd64557254b7
+    name: Kim E. Barber
+  - person_id: ocd-person/86718ce7-1c65-5755-a8a7-4c17c284655a
+    name: Mary Elizabeth Stanton
+  - person_id: ocd-person/b35ee753-2fe1-5997-a81d-d2a762f4bf43
+    name: Roger Stevens
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Pittsfield''s five justice of the peace seats'
+  retrieved: '2026-10-19'
