@@ -11,6 +11,13 @@ candidacies:
   party: Democratic/Progressive
   ballot_name: Conor Casey
   status: active
+- contest_id: montpelier-vt/2024-11-05/justice-of-the-peace
+  election_id: montpelier-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:montpelier/government
+  office_id: montpelier-vt/justice-of-the-peace
+  party: null
+  ballot_name: Conor Casey
+  status: active
 verification:
   status: machine-extracted
   reviewed_on: '2026-10-17'
@@ -28,3 +35,11 @@ sources:
   note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
     lists the sitting representative(s) for the Washington-4 District.'
   retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names Conor Casey among
+    Montpelier''s fifteen justices of the peace, at 2 Mechanic St., Montpelier;
+    Washington-4 is Montpelier''s House district, and the Montpelier
+    justice-of-the-peace membership reuses this person record (VT municipal
+    batch 15).'
+  retrieved: '2026-10-18'

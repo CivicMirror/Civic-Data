@@ -1,0 +1,20 @@
+# City of Montpelier municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/e6001f13-98a3-5593-9c89-0f5b2c8360fa
+name: Sal Alfano
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/005
+  note: '24 App. V.S.A. ch. 005 (City of Montpelier): section 302 provides for two
+    council members from each of the three voting districts, serving staggered two-year
+    terms'
+  retrieved: '2026-10-18'
+- url: https://www.montpelier-vt.org/258/City-Council-Mayor
+  note: 'City of Montpelier (official website), City Council & Mayor page: lists the
+    District 2 councilors as Pelin Kohn (term 2025-2027) and Sal Alfano (term 2026-2028)'
+  retrieved: '2026-10-18'
