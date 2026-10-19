@@ -1,0 +1,37 @@
+# Town of Pomfret -- justice of the peace election (VT municipal batch 18); issue #163 (VT master tracking).
+id: pomfret-vt/2024-11-05/general
+name: Town of Pomfret Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: pomfret-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:pomfret/government
+  office_id: pomfret-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/9b189a2b-9b82-58e9-aff1-5febaf55dde4
+  - ocd-person/04c29e7e-cde6-5c4d-a065-f557f6a055f5
+  - ocd-person/e7f830ff-88a9-5a6d-967c-e4be3dda04f4
+  - ocd-person/9349e183-9b16-574c-a1c7-718dd1ee4e93
+  result_status: official
+  winners:
+  - person_id: ocd-person/9b189a2b-9b82-58e9-aff1-5febaf55dde4
+    name: Anne Bower
+  - person_id: ocd-person/04c29e7e-cde6-5c4d-a065-f557f6a055f5
+    name: Charles Gundersen
+  - person_id: ocd-person/e7f830ff-88a9-5a6d-967c-e4be3dda04f4
+    name: James Robinson
+  - person_id: ocd-person/9349e183-9b16-574c-a1c7-718dd1ee4e93
+    name: Michael Doten
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Pomfret''s five justice of the peace seats: Anne Bower, Michael Doten, Charles
+    Gundersen, James Robinson, and Marjorie Wakefield. The listing publishes no vote
+    totals or party labels and none are recorded. Wakefield died in May 2026 (she
+    had also been elected to the Selectboard and as a Trustee of Public Funds in March
+    2026), so no person or membership is minted for her and her seats stand vacant;
+    the four surviving winners are recorded here'
+  retrieved: '2026-10-19'

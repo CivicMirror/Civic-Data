@@ -1,0 +1,40 @@
+# Town of Pomfret municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/9349e183-9b16-574c-a1c7-718dd1ee4e93
+name: Michael Doten
+identifiers: []
+candidacies:
+- contest_id: pomfret-vt/2024-11-05/justice-of-the-peace
+  election_id: pomfret-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:pomfret/government
+  office_id: pomfret-vt/justice-of-the-peace
+  party: null
+  ballot_name: Michael Doten
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns that hold trust funds elect trustees of public
+    funds'
+  retrieved: '2026-10-19'
+- url: https://pomfretvt.us/index.php/download_file/view/2830/225/
+  note: 'Town of Pomfret, Official Results, Australian Ballot, March 3, 2026 (pomfretvt.us):
+    Trustee of Public Funds, three years -- Marjorie Wakefield 326 votes. Wakefield
+    died in May 2026, so her seat is created without a membership'
+  retrieved: '2026-10-19'
+- url: https://pomfretvt.us/index.php/download_file/view/2818/225/
+  note: 'Town of Pomfret, 2025 Town Report (pomfretvt.us): the report''s town officers
+    table lists trustees of public funds Robert Coates, Michael Doten, and Marjorie
+    Wakefield'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Pomfret justices of the
+    peace: Anne Bower, Michael Doten, Charles Gundersen, James Robinson, and Marjorie
+    Wakefield. Four are minted; Wakefield died in May 2026 (see the election note),
+    so her seat stands vacant. The town report''s officers table styles Gundersen
+    ''Chuck Gundersen'' and Robinson ''Jim Robinson'''
+  retrieved: '2026-10-19'

@@ -1,0 +1,22 @@
+# Town of Pomfret municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/152a845b-9553-5ca4-a5cd-423e6dc339c2
+name: Mary Worrell
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://pomfretvt.us/index.php/download_file/view/2818/225/
+  note: 'Town of Pomfret, 2025 Town Report (pomfretvt.us): the report''s town officers
+    table lists six library trustees; the 2026 warning stood two three-year seats,
+    one two-year seat to finish a term, and the remaining seats'
+  retrieved: '2026-10-19'
+- url: https://pomfretvt.us/index.php/download_file/view/2830/225/
+  note: 'Town of Pomfret, Official Results, Australian Ballot, March 3, 2026 (pomfretvt.us):
+    Library Trustee, two years to finish a term -- Heather Durkel 325 votes. The two
+    three-year seats had NO declared candidates, so they are created without memberships;
+    the seats were held by Douglas Abbott and Betsy Rhodes'
+  retrieved: '2026-10-19'
