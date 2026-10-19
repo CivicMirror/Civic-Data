@@ -1,0 +1,42 @@
+# City of Rutland municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/acea1b13-be2f-5401-8a66-2e71f0ec394d
+name: Thomas Donahue
+identifiers: []
+candidacies:
+- contest_id: rutland-vt/2024-11-05/justice-of-the-peace
+  election_id: rutland-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:rutland/government
+  office_id: rutland-vt/justice-of-the-peace
+  party: null
+  ballot_name: Tom Donahue
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/009
+  note: '24 App. V.S.A. ch. 9 (City of Rutland): section 2.1(a): the mayor is elected
+    at the March election in odd-numbered years to a two-year term'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org/wp-content/uploads/2026/03/Election-Results-March-3-2026-1.xlsx
+  note: 'City of Rutland, official election results for the March 3, 2026 city election
+    (the clerk''s official totals spreadsheet): Thomas Donahue won the 2026 mayoral
+    election with 1,323 votes over David Allaire (1,000) and six others. The seat
+    was filled for a ONE-YEAR term -- the remainder of the two-year term Mike Doenges
+    won in March 2025 before departing mid-term; Doenges is not recorded as a holder'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org/wp-content/uploads/2025/03/Election-Results-March-4-2025.pdf
+  note: 'City of Rutland, official election results for the March 4, 2025 city election
+    (the clerk''s official results): Mike Doenges won the 2025 mayoral election with
+    2,075 votes'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Rutland City justices
+    of the peace: David Allaire, Barry Beauchamp, Phil Beauchamp, Chris Bove, Paul
+    Clifford, Larry Cupoli, Tom Donahue, Peter Fagan, Peg Flory, Sandra Gartner, William
+    ''Billy'' Gillam, Cheryl Hooker, George Hooker, Mary E. Howard, and Jack Welch,
+    Jr.'
+  retrieved: '2026-10-19'

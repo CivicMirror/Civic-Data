@@ -1,0 +1,26 @@
+# City of Rutland municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/2fc6c201-aa90-5496-90c9-4041dcfdb7c1
+name: Peg Flory
+identifiers: []
+candidacies:
+- contest_id: rutland-vt/2024-11-05/justice-of-the-peace
+  election_id: rutland-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:rutland/government
+  office_id: rutland-vt/justice-of-the-peace
+  party: null
+  ballot_name: Peg Flory
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Rutland City justices
+    of the peace: David Allaire, Barry Beauchamp, Phil Beauchamp, Chris Bove, Paul
+    Clifford, Larry Cupoli, Tom Donahue, Peter Fagan, Peg Flory, Sandra Gartner, William
+    ''Billy'' Gillam, Cheryl Hooker, George Hooker, Mary E. Howard, and Jack Welch,
+    Jr.'
+  retrieved: '2026-10-19'

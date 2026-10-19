@@ -1,0 +1,26 @@
+# City of Rutland municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/676bdd89-7bd2-5068-bde2-28192f446c4a
+name: Becky Boggess
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/009
+  note: '24 App. V.S.A. ch. 9 (City of Rutland): section 2.8: each ward elects a First,
+    a Second, and a Third Inspector of Elections at the even-year election, to two-year
+    terms -- twelve seats across four wards'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org/wp-content/uploads/2026/03/Election-Results-March-3-2026-1.xlsx
+  note: 'City of Rutland, official election results for the March 3, 2026 city election
+    (the clerk''s official totals spreadsheet): the inspectors elected in 2026 are
+    First Inspectors Gary Spaulding (Ward 1), Thomas A. Carpenter (Ward 2), Stephen
+    A. Leach (Ward 3), and Judy A. Delpha (Ward 4); Second Inspectors Cynthia Sinos
+    (Ward 2), Denise Caggige Leach (Ward 3), and Angela M. Rivers (Ward 4); and Third
+    Inspector Becky Boggess (Ward 2). Four seats -- Ward 1 Second and Third, Ward
+    3 Third, and Ward 4 Third -- returned no winner (write-ins only) and are left
+    unfilled'
+  retrieved: '2026-10-19'

@@ -1,0 +1,23 @@
+# City of Rutland municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/8c5db290-9b80-5dbe-8e0e-e7a7c9ca614a
+name: Barbara Spaulding
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/009
+  note: '24 App. V.S.A. ch. 9 (City of Rutland): section 2.8: each ward elects a Ward
+    Clerk at the even-year election, to a two-year term; the city has four wards (charter
+    section 1.3 leaves ward boundaries to ordinance, and the city''s 2026 ballots
+    are issued for four wards)'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org/wp-content/uploads/2026/03/Election-Results-March-3-2026-1.xlsx
+  note: 'City of Rutland, official election results for the March 3, 2026 city election
+    (the clerk''s official totals spreadsheet): the ward clerks elected in 2026 are
+    Barbara Spaulding (Ward 1), Beth Kiernan (Ward 2), Anthony P. Romeo, Jr. (Ward
+    3), and Steve Reynolds (Ward 4)'
+  retrieved: '2026-10-19'
