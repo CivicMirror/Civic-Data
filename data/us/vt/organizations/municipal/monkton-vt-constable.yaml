@@ -1,0 +1,20 @@
+# Town of Monkton municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-organization/f96883d9-132d-5e3d-a82a-7b552f438024
+name: Monkton Constable
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:monkton/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: monkton-vt/constable
+status: active
+sources:
+- url: https://monktonvt.com/wp-content/uploads/2026/08/Monkton-Directory-of-Town-Officials-08-24-26.xlsx-List-for-Town-Website.pdf
+  note: 'Town of Monkton (official website), Directory of Town Officials (updated
+    August 24, 2026): lists the constable office as elected to a one-year term and
+    marked ''** Open **'' -- no holder is published, so the post is created without
+    a membership'
+  retrieved: '2026-10-18'
+- url: https://monktonvt.com/2026/03/03/march-3-2026-monkton-municipal-election-results/
+  note: 'Town of Monkton (official website), March 3, 2026 municipal election results:
+    the 2026 results post shows the constable line blank'
+  retrieved: '2026-10-18'
