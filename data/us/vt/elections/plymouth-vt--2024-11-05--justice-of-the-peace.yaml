@@ -1,0 +1,35 @@
+# Town of Plymouth -- justice of the peace election (VT municipal batch 18); issue #163 (VT master tracking).
+id: plymouth-vt/2024-11-05/general
+name: Town of Plymouth Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: plymouth-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:plymouth/government
+  office_id: plymouth-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/b833958d-71a0-51fc-8fb0-c94dccfbf481
+  - ocd-person/d1bb9b1b-ab41-5f68-94fb-2133e56b5e21
+  - ocd-person/44df3a11-06f8-5deb-b47a-c4c5abd962a1
+  - ocd-person/9f72c7ab-5e86-5a65-b369-1af020bb5b8e
+  - ocd-person/4ed68264-3374-5441-9ec3-02efca740df4
+  result_status: official
+  winners:
+  - person_id: ocd-person/b833958d-71a0-51fc-8fb0-c94dccfbf481
+    name: Chase Morsey III
+  - person_id: ocd-person/d1bb9b1b-ab41-5f68-94fb-2133e56b5e21
+    name: Karen Evans
+  - person_id: ocd-person/44df3a11-06f8-5deb-b47a-c4c5abd962a1
+    name: Richard Olmstead
+  - person_id: ocd-person/9f72c7ab-5e86-5a65-b369-1af020bb5b8e
+    name: Shawn Bemis
+  - person_id: ocd-person/4ed68264-3374-5441-9ec3-02efca740df4
+    name: Steven Radonis
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Plymouth''s five justice of the peace seats'
+  retrieved: '2026-10-19'
