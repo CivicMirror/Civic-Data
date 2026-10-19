@@ -1,0 +1,27 @@
+# Town of Proctor municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/d9f4732b-9630-5ff5-ab52-7fd44f56d509
+name: Albert Wenta
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Proctor''s five selectboard members: Bruce
+    Baccei, Linda Doty, Lisa Miser, Jason Thornton, and Albert Wenta'
+  retrieved: '2026-10-19'
+- url: https://proctorvermont.com/selectboard/
+  note: 'Town of Proctor, Selectboard page (proctorvermont.com): Lisa Miser, Chair;
+    Bruce Baccei, Vice Chair; Linda Doty; Albert Wenta; and Jay Thornton (the directory''s
+    Jason Thornton)'
+  retrieved: '2026-10-19'
+- url: https://proctorvermont.com/cemetery-commission/
+  note: 'Town of Proctor, Cemetery Commission page (proctorvermont.com): ''The Riverside
+    Cemetery Commissioner is Albert Wenta... Since there is no Commission other than
+    Albert Wenta'' -- Proctor''s cemetery commission is a single commissioner, on
+    a five-year term expiring in 2028'
+  retrieved: '2026-10-19'

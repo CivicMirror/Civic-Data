@@ -1,0 +1,21 @@
+# Town of Proctor municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/c74ca1ce-216d-5d73-9f57-29900cc0b3a9
+name: Jason Thornton
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Proctor''s five selectboard members: Bruce
+    Baccei, Linda Doty, Lisa Miser, Jason Thornton, and Albert Wenta'
+  retrieved: '2026-10-19'
+- url: https://proctorvermont.com/selectboard/
+  note: 'Town of Proctor, Selectboard page (proctorvermont.com): Lisa Miser, Chair;
+    Bruce Baccei, Vice Chair; Linda Doty; Albert Wenta; and Jay Thornton (the directory''s
+    Jason Thornton)'
+  retrieved: '2026-10-19'
