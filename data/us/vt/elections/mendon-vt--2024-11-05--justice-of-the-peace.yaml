@@ -1,0 +1,47 @@
+# Town of Mendon -- justice of the peace election (VT municipal batch 14); issue #163 (VT master tracking).
+id: mendon-vt/2024-11-05/general
+name: Town of Mendon Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: mendon-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:mendon/government
+  office_id: mendon-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/11430c98-3051-5e11-9192-92a5e19bd2ae
+  - ocd-person/1f7727be-130d-5d54-9631-f7fa57be9352
+  - ocd-person/89930329-5dde-5055-bba6-90fb9a57575a
+  - ocd-person/7c7d9227-75ac-53c2-a6c6-f1ecf62d92f0
+  - ocd-person/41e325ef-8b70-530c-ad23-eb0342190d96
+  - ocd-person/8bbf6a77-63f7-5ffc-9e08-19fb098d96c2
+  - ocd-person/e5e73de0-f02d-52e0-a452-f946aa3cce87
+  result_status: official
+  winners:
+  - person_id: ocd-person/11430c98-3051-5e11-9192-92a5e19bd2ae
+    name: Elizabeth Reddy
+  - person_id: ocd-person/1f7727be-130d-5d54-9631-f7fa57be9352
+    name: J. Alvin Wakefield
+  - person_id: ocd-person/89930329-5dde-5055-bba6-90fb9a57575a
+    name: James Reddy
+  - person_id: ocd-person/7c7d9227-75ac-53c2-a6c6-f1ecf62d92f0
+    name: Lindsey MacCuaig
+  - person_id: ocd-person/41e325ef-8b70-530c-ad23-eb0342190d96
+    name: Megan Smith
+  - person_id: ocd-person/8bbf6a77-63f7-5ffc-9e08-19fb098d96c2
+    name: Rich Carlson
+  - person_id: ocd-person/e5e73de0-f02d-52e0-a452-f946aa3cce87
+    name: Susannah Loffredo
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Mendon justices of the
+    peace elected November 5, 2024: Rich Carlson, Susannah Loffredo, Lindsey MacCuaig,
+    Elizabeth Reddy, James Reddy, Megan Smith, and J. Alvin Wakefield. The listing
+    publishes no vote totals or party labels and none are recorded'
+  retrieved: '2026-10-18'
+- url: https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF
+  note: 'Town of Mendon, 2025 Town Report: the report''s justice of the peace block
+    names the same seven'
+  retrieved: '2026-10-18'

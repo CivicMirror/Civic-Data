@@ -1,0 +1,25 @@
+# Town of Mendon municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-organization/a8e4a2b2-2ae2-5380-8d53-95f0cb98d309
+name: Mendon Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:mendon/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: mendon-vt/town-clerk
+status: active
+sources:
+- url: https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF
+  note: 'Town of Mendon, 2025 Town Report: the ''Appointed Town Officers'' table lists
+    the Town Clerk as an appointed office (three-year appointed term) held by Jesse
+    Bridge; Mendon has adopted an appointed clerk under 17 V.S.A. section 2651e, and
+    the 2026 warning elects no clerk'
+  retrieved: '2026-10-18'
+- url: https://www.mendonvt.gov/directory.aspx
+  note: 'Town of Mendon (official website), directory: the town''s current directory
+    styles Jesse Bridge Town Clerk'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): lists Jesse Bridge as Mendon''s town clerk (name concordant;
+    mode is appointed per the town report)'
+  retrieved: '2026-10-18'
