@@ -1,0 +1,40 @@
+# Town of Middlesex -- justice of the peace election (VT municipal batch 14); issue #163 (VT master tracking).
+id: middlesex-vt/2024-11-05/general
+name: Town of Middlesex Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: middlesex-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:middlesex/government
+  office_id: middlesex-vt/justice-of-the-peace
+  vote_for: 6
+  candidate_ids:
+  - ocd-person/60b66c46-98e1-53fa-9b0c-35e136a02ee5
+  - ocd-person/633ada86-cfc4-52af-9fe9-12296e4f249f
+  - ocd-person/9978cec3-17cc-5b76-b36f-b303aa39a2e6
+  - ocd-person/cc6dba05-d027-5ddb-927a-642c5d985c49
+  - ocd-person/dcf46cf3-fb8a-5500-a560-cff292d00171
+  - ocd-person/3fea32ef-f7b1-5706-82ff-e5763c2432c4
+  result_status: official
+  winners:
+  - person_id: ocd-person/60b66c46-98e1-53fa-9b0c-35e136a02ee5
+    name: Chris McVeigh
+  - person_id: ocd-person/633ada86-cfc4-52af-9fe9-12296e4f249f
+    name: Dorinda Crowell
+  - person_id: ocd-person/9978cec3-17cc-5b76-b36f-b303aa39a2e6
+    name: Jan Thouron
+  - person_id: ocd-person/cc6dba05-d027-5ddb-927a-642c5d985c49
+    name: John Demeter
+  - person_id: ocd-person/dcf46cf3-fb8a-5500-a560-cff292d00171
+    name: Mary Just Skinner
+  - person_id: ocd-person/3fea32ef-f7b1-5706-82ff-e5763c2432c4
+    name: Tammy McCullough
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists six Middlesex justices of the
+    peace elected November 5, 2024: Dorinda Crowell, Jan Thouron, Chris McVeigh, Mary
+    Just Skinner, John Demeter, and Tammy McCullough. The listing publishes no vote
+    totals or party labels and none are recorded'
+  retrieved: '2026-10-18'
