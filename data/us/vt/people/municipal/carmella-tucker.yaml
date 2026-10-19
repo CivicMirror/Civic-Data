@@ -1,0 +1,22 @@
+# Town of Orange municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/9eacb3c2-f720-53e2-aaaf-6ffe8d614b33
+name: Carmella Tucker
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists the Orange selectboard: Steve Simpson
+    (Chair), Kristin Paya, and Carmella Tucker'
+  retrieved: '2026-10-19'
+- url: https://www.orangevt.org/town-office/
+  note: 'Town of Orange, Town Officers page (orangevt.org), which classifies the roster
+    as ''TOWN OFFICERS - ELECTED'' and ''TOWN OFFICERS - APPOINTED'' with term years:
+    Steve Simpson (Chair, term to 2027), Kristin Paya (term to 2028), and Carmella
+    Tucker (term to 2029, re-elected in 2026)'
+  retrieved: '2026-10-19'
