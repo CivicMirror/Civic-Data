@@ -1,0 +1,35 @@
+# Town of Searsburg -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: searsburg-vt/2024-11-05/general
+name: Town of Searsburg Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: searsburg-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:searsburg/government
+  office_id: searsburg-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/f0fec7d7-4fce-522e-a9ec-c1374fcec219
+  - ocd-person/c4da1568-ed4f-504e-8a1a-f21918a4b185
+  - ocd-person/d732fd1a-ec83-5159-a808-c27a9720bf1f
+  - ocd-person/20ae30b1-6ae4-54ed-bbb9-1e0106a5169a
+  - ocd-person/a65ca0eb-8b3b-575b-9076-b3f4154fcb29
+  result_status: official
+  winners:
+  - person_id: ocd-person/f0fec7d7-4fce-522e-a9ec-c1374fcec219
+    name: Daniel Hollister
+  - person_id: ocd-person/c4da1568-ed4f-504e-8a1a-f21918a4b185
+    name: Derick Lind
+  - person_id: ocd-person/d732fd1a-ec83-5159-a808-c27a9720bf1f
+    name: Sherrie Fox
+  - person_id: ocd-person/20ae30b1-6ae4-54ed-bbb9-1e0106a5169a
+    name: Tamera Wood
+  - person_id: ocd-person/a65ca0eb-8b3b-575b-9076-b3f4154fcb29
+    name: Tammy Hollister
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Searsburg''s five justice of the peace seats'
+  retrieved: '2026-10-19'
