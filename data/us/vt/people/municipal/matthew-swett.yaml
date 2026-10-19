@@ -1,0 +1,23 @@
+# Town of Norwich municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/ec4f0587-f8e0-5f78-9da0-860fa8f403d4
+name: Matthew Swett
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists the Norwich selectboard: Brendan Classon,
+    Robert Gere, James Griggs, Mary Layton, and Matthew Swett'
+  retrieved: '2026-10-19'
+- url: https://norwich.vt.us/wp-content/uploads/2026/03/20260303210433.pdf
+  note: 'Town of Norwich, official marked ballot, March 3, 2026 town meeting election
+    (954 voters): Brendan Classon was elected to a three-year seat with 732 votes;
+    the two-year seat had no printed candidate and the ballot''s own handwritten write-in
+    tally reads ''GERE: 342 SMITH: 290'', making Robert Gere the certified write-in
+    winner; James Griggs, Mary Layton, and Matthew Swett did not stand and continue'
+  retrieved: '2026-10-19'

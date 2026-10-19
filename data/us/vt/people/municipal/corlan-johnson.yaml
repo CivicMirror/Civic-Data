@@ -1,0 +1,25 @@
+# Town of Norwich municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/b29d343f-fd34-5168-a1b6-a2bf84a1bd47
+name: Corlan Johnson
+identifiers: []
+candidacies:
+- contest_id: norwich-vt/2024-11-05/justice-of-the-peace
+  election_id: norwich-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:norwich/government
+  office_id: norwich-vt/justice-of-the-peace
+  party: null
+  ballot_name: Corlan Johnson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Norwich elects twelve justices of
+    the peace; the listing names Jedediah Baker, Frances R De Gasta, Corlan Johnson,
+    Suzanne Leiter, Kristin Maffei, Alix Manny, Robert E. Pitiger, Emily Scherer,
+    Dianne Amme, David Krimmel, Arline Rotman, and Ernest Ciccotelli'
+  retrieved: '2026-10-19'
