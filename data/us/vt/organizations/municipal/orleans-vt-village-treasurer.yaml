@@ -1,0 +1,16 @@
+# Village of Orleans municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-organization/050a7ca2-3ef0-5ec1-a305-1e6ae24e08c4
+name: Village of Orleans Treasurer
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:orleans/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: orleans-vt/village-treasurer
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/261
+  note: '24 App. V.S.A. ch. 261 (Village of Orleans): section 8 provides for a Treasurer
+    elected annually; no official source publishes the village''s current holders
+    (the village has no website and the VT Jurisdiction Factory holds Orleans as unresolved),
+    so the post is created without a membership'
+  retrieved: '2026-10-19'
