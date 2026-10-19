@@ -1,0 +1,28 @@
+# Town of Manchester municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/44f807bb-dc5f-590b-8b27-2746ec679a8a
+name: Jonathan West
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.manchester-vt.gov/selectboard
+  note: 'Town of Manchester (official website), Selectboard page: ''Current Selectboard
+    Members are: Ivan Beattie (Chair), Heidi Chamberlain (Vice Chair), Jonathan West
+    (Clerk), Laurie Kunz, Jackie Wilson'' -- the town''s own page governs'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Manchester''s selectboard as Ivan Beattie,
+    Heidi Chamberlain, Cynthia Kilburn, Laurie Kunz, and Jonathan West; the directory
+    is stale on the fifth seat -- the town page seats Jackie Wilson, elected June
+    2, 2026, and Kilburn no longer sits'
+  retrieved: '2026-10-18'
+- url: https://www.manchester-vt.gov/elections
+  note: 'Town of Manchester (official website), Elections page: the town-posted tally
+    of the June 2, 2026 special election: Jackie Wilson 288, Rebecca Nawrath 200,
+    Karen Dillon 84, Katie Stannard 78'
+  retrieved: '2026-10-18'
