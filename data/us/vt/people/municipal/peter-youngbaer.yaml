@@ -1,0 +1,40 @@
+# Town of Plainfield municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/b1957da5-f164-5f89-8f01-928539510fa9
+name: Peter Youngbaer
+identifiers: []
+candidacies:
+- contest_id: plainfield-vt/2024-11-05/justice-of-the-peace
+  election_id: plainfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:plainfield/government
+  office_id: plainfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Peter Youngbaer
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Plainfield''s five selectboard members:
+    Karen Hatcher, Patti Jamele, Andy Robinson, Frances Subbiondo (Vice Chair), and
+    Peter Youngbaer (Chair)'
+  retrieved: '2026-10-19'
+- url: https://web.archive.org/web/20260305174110/https://www.plainfieldvt.gov/uploads/8/1/0/6/81063668/article_iii_australian_ballot_official_return_of_votes.pdf
+  note: 'Town of Plainfield, Official Return of Votes, Article III (Election of Officers),
+    Australian ballot, March 3, 2026, certified by Town Clerk Jaime Hammack (366 voters
+    checked off the entrance checklist). The live PDF on the town website now returns
+    a 404 error; this is the Wayback Machine''s March 5, 2026 capture of the town''s
+    own official return: Selectboard, three years -- Karen Hatcher 194 votes; the
+    return itself tallies the write-ins by name (Vicki McDonald 143 of 146 total write-in
+    votes), and Hatcher is the winner. Selectboard, one year -- Andy Robinson 290
+    votes. The other three members did not stand in 2026'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Plainfield justices of
+    the peace: Carolyn "Becky" Atchinson, Dale Bartlett, Charles Cogbill, Steven Farnham,
+    Mary R. Niebling, Anne Van Couvering, and Peter Youngbaer'
+  retrieved: '2026-10-19'
