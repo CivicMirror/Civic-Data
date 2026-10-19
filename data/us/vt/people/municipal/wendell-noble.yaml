@@ -1,0 +1,30 @@
+# Town of Milton municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/71fba133-200a-52d2-b7ae-54b26def6224
+name: Wendell Noble
+identifiers: []
+candidacies:
+- contest_id: milton-vt/2024-11-05/justice-of-the-peace
+  election_id: milton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:milton/government
+  office_id: milton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Wendell Noble
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Milton justices of the
+    peace elected November 5, 2024'
+  retrieved: '2026-10-18'
+- url: https://legislature.vermont.gov/people/single/2022/30960
+  note: 'Vermont General Assembly, Representative Leland Morgan''s member page and
+    biography: Representative Leland Morgan''s biography gives his mailing address
+    as 23 Morgan Rd., Milton -- the address the justice of the peace listing prints
+    for Leland Morgan -- and states he is presently a Justice of the Peace; the Milton
+    justice of the peace membership reuses his existing person record'
+  retrieved: '2026-10-18'
