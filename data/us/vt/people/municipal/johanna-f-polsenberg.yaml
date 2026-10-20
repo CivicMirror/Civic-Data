@@ -1,0 +1,24 @@
+# Town of Stannard municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/a3672de9-eb5c-5db5-9b75-31ec2d23618f
+name: Johanna F. Polsenberg
+identifiers: []
+candidacies:
+- contest_id: stannard-vt/2024-11-05/justice-of-the-peace
+  election_id: stannard-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stannard/government
+  office_id: stannard-vt/justice-of-the-peace
+  party: null
+  ballot_name: Johanna F. Polsenberg
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Stannard justices of the
+    peace: Christine Foster, Joseph Gresser, Johanna F. Polsenberg, Joseph Chip Troiano,
+    and Cynthia Wheeler'
+  retrieved: '2026-10-19'
