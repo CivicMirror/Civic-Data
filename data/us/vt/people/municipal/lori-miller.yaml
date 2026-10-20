@@ -1,0 +1,36 @@
+# Town of Victory municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/89d9cbf7-3b1f-53a1-ab8f-1a23a1ce6c32
+name: Lori Miller
+identifiers: []
+candidacies:
+- contest_id: victory-vt/2024-11-05/justice-of-the-peace
+  election_id: victory-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:victory/government
+  office_id: victory-vt/justice-of-the-peace
+  party: null
+  ballot_name: Lori Miller
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): publishes no Victory members (''Contact the
+    Town Clerk for more information'')'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Town of Victory, ''ELECTED OFFICIALS'' roster for 2026/2027 supplied by Town
+    Clerk Tracey Martel on September 28, 2026, and logged in the Vermont Jurisdiction
+    Factory''s source-evidence record src-vt-recovery-073-victory-roster: Edward Brown
+    (Chairman, to March 2027), Lori Miller (to March 2028), and Clifford Whiting (to
+    March 2029)'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Victory justices of the
+    peace: Laurie Gilman, Howard Lynaugh, Sylvia McKinstry, Lori Miller, and Walter
+    Neborsky'
+  retrieved: '2026-10-20'
