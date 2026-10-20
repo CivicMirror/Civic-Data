@@ -1,0 +1,30 @@
+# Town of Wallingford municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/8745cb18-c868-534c-ac05-3b30ac2bdbcb
+name: Patricia Pranger
+identifiers: []
+candidacies:
+- contest_id: wallingford-vt/2024-11-05/justice-of-the-peace
+  election_id: wallingford-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wallingford/government
+  office_id: wallingford-vt/justice-of-the-peace
+  party: null
+  ballot_name: Patricia Pranger
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.wallingfordvt.com/government/elected-appointed-officers/
+  note: 'Town of Wallingford, Elected and Appointed Officers page (wallingfordvt.com):
+    ''Trustees of Public Funds: Pat Pranger, Anne Awad, and John Rauch'' (Pranger
+    is the justices of the peace listing''s Patricia Pranger)'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Wallingford justices of
+    the peace: Wendy Savery, Sandy Eddy, Gary Fredette, Curtis Lidstone, Anthony Petrossi,
+    Nikolaus Houghton, Maureen Duchesne, Nanette Dubin, Michael Luzader, and Patricia
+    Pranger'
+  retrieved: '2026-10-20'
