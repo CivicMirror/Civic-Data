@@ -1,0 +1,21 @@
+# Town of Tinmouth municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/43d7ab76-73b1-5502-8a70-89aed0116c1f
+name: Kevin Eaton
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://tinmouthvt.gov/boards-commissions-committees-officials
+  note: 'Town of Tinmouth official website, boards, commissions, committees and officials
+    page: names Kevin Eaton (Chair) and Melody Squier'
+  retrieved: '2026-10-20'
+- url: https://storage.googleapis.com/juniper-media-library/611/2026/06/2025-Tinmouth-Town-Report.pdf
+  note: 'Town of Tinmouth, 2025 Town Report, ''ELECTED TOWN AND SCHOOL OFFICERS''
+    page: Kevin Eaton (term to 2028) and Melody Squier (to 2027); Judy Gilmore''s
+    seat expired in 2026 and its outcome is published in no official source in hand,
+    so she is not seated'
+  retrieved: '2026-10-20'
