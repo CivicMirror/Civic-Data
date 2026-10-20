@@ -1,0 +1,24 @@
+# Town of Shoreham municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/0740bb7f-2071-5387-b61a-800189976b12
+name: Roberta Blodgett
+identifiers: []
+candidacies:
+- contest_id: shoreham-vt/2024-11-05/justice-of-the-peace
+  election_id: shoreham-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:shoreham/government
+  office_id: shoreham-vt/justice-of-the-peace
+  party: null
+  ballot_name: Roberta Blodgett
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists two Shoreham justices of the
+    peace: Roberta Blodgett and Martha Teer (verified against the raw listing text
+    -- the slate is not truncated at a page break)'
+  retrieved: '2026-10-19'
