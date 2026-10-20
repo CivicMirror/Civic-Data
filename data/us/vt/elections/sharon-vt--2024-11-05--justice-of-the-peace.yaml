@@ -1,0 +1,44 @@
+# Town of Sharon -- justice of the peace election (VT municipal batch 21); issue #163 (VT master tracking).
+id: sharon-vt/2024-11-05/general
+name: Town of Sharon Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sharon-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sharon/government
+  office_id: sharon-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/51f709c3-99fe-5993-9e82-19b1e01681bc
+  - ocd-person/60961fb3-a991-5e21-94e8-0e98de5bf2a5
+  - ocd-person/1909bd33-25b5-5060-aabf-9a7fa6ae554d
+  - ocd-person/8688079b-5b0b-52cf-94b7-f84094af23d2
+  result_status: official
+  winners:
+  - person_id: ocd-person/51f709c3-99fe-5993-9e82-19b1e01681bc
+    name: Chelsea Gray
+  - person_id: ocd-person/60961fb3-a991-5e21-94e8-0e98de5bf2a5
+    name: Helen Barrett
+  - person_id: ocd-person/1909bd33-25b5-5060-aabf-9a7fa6ae554d
+    name: Suzanne Jones
+  - person_id: ocd-person/8688079b-5b0b-52cf-94b7-f84094af23d2
+    name: Victoria Fullerton
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Sharon''s five justice of the peace seats. Only four of the five serve: the
+    2025 town report''s elected list shows Barrett, Fullerton, Gray, and Jones, with
+    Sherri Lorette seated by state appointment to fill a vacancy -- Lisa Flanders,
+    the fifth name in the listing, appears nowhere in the town''s records and is excluded
+    entirely under the departed-winner pattern, her story told here. The town voted
+    in March 2025 to increase its justices to seven, effective for the next cycle'
+  retrieved: '2026-10-19'
+- url: https://webgen1files1.revize.com/sharonvt/Documents/Annual%20Reports/2025%20Digital%20Town%20Report.pdf
+  note: 'Town of Sharon, 2025 Town Report, ''Town of Sharon 2025 Elected Officials''
+    and ''2025 Appointed Officials'' lists (report pp. 14-15): the Justices of the
+    Peace list names Helen Barrett, Victoria Fullerton, Chelsea Gray, and Suzanne
+    Jones from the November 2024 general election, plus Sherri Lorette by state appointment
+    to fill a vacancy'
+  retrieved: '2026-10-19'
