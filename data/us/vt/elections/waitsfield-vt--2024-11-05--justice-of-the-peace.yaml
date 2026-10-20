@@ -1,0 +1,46 @@
+# Town of Waitsfield -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: waitsfield-vt/2024-11-05/general
+name: Town of Waitsfield Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: waitsfield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waitsfield/government
+  office_id: waitsfield-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/30b6c3bc-7b35-59d9-bffd-c53b915a8dfb
+  - ocd-person/a5bc0ecb-c668-5c20-b8b8-4167ab9d07d5
+  - ocd-person/34ad206e-7e23-5869-9b6a-b721855e887b
+  - ocd-person/985192e3-6322-5961-9327-bc48e66bc6df
+  - ocd-person/4003e61f-4a72-55a1-a4d9-01a99db50f5d
+  - ocd-person/4a144b2c-14fd-57f4-ae77-16de55531be3
+  - ocd-person/efc07b85-3390-5e08-8bcc-f749f7f741da
+  result_status: official
+  winners:
+  - person_id: ocd-person/30b6c3bc-7b35-59d9-bffd-c53b915a8dfb
+    name: Andreas Lehner
+  - person_id: ocd-person/a5bc0ecb-c668-5c20-b8b8-4167ab9d07d5
+    name: Cecil "Zeke" Church
+  - person_id: ocd-person/34ad206e-7e23-5869-9b6a-b721855e887b
+    name: Helen Myers
+  - person_id: ocd-person/985192e3-6322-5961-9327-bc48e66bc6df
+    name: Jennifer Peterson
+  - person_id: ocd-person/4003e61f-4a72-55a1-a4d9-01a99db50f5d
+    name: Karen Rookwood
+  - person_id: ocd-person/4a144b2c-14fd-57f4-ae77-16de55531be3
+    name: Mary Lehner
+  - person_id: ocd-person/efc07b85-3390-5e08-8bcc-f749f7f741da
+    name: Roberta "Bobbi" Rood
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Waitsfield''s seven justice of the peace seats'
+  retrieved: '2026-10-20'
+- url: https://waitsfieldvt.gov/fileadmin/files/Departments/Town_Clerk/Annual_Reports/2025_Waitsfield_Town_Report.pdf
+  note: 'Town of Waitsfield, 2025 Annual Report, ''TOWN OFFICERS 2025'' pages: elected
+    by Australian ballot, elected from the floor, and appointed by the Selectboard:
+    the report''s justice of the peace table matches the certified listing exactly'
+  retrieved: '2026-10-20'
