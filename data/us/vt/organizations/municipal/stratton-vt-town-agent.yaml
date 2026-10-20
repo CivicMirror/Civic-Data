@@ -1,0 +1,17 @@
+# Town of Stratton municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-organization/ba071c2b-97e7-5c20-ac54-e318ea6986ec
+name: Town of Stratton Town Agent
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stratton/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: stratton-vt/town-agent
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town agent'
+  retrieved: '2026-10-20'
+- url: https://www.townofstrattonvt.com/town-meeting-report
+  note: 'Town of Stratton, minutes of the annual town meeting of March 3, 2026 (town
+    website, town meeting page): Victor Rivas was elected Town Agent'
+  retrieved: '2026-10-20'
