@@ -1,0 +1,31 @@
+# Town of Starksboro municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/2b8143af-0014-54fe-b95a-a1f4fc909a9d
+name: Amy McCormick
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town clerk'
+  retrieved: '2026-10-19'
+- url: https://starksborovt.org
+  note: 'Town of Starksboro official website, town clerk page: Amy McCormick is the
+    Town Clerk'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Amy McCormick
+    as Starksboro''s Town Clerk'
+  retrieved: '2026-10-19'
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a collector of delinquent taxes'
+  retrieved: '2026-10-19'
+- url: https://starksborovt.org/sites/default/files/uploads/content/Town%20Meeting/starksboro-election-results-2026.pdf
+  note: 'Town of Starksboro, official results ballot for the annual meeting of March
+    3, 2026 (town website, starksborovt.org): Amy McCormick was elected Collector
+    of Delinquent Taxes with 330 votes'
+  retrieved: '2026-10-19'

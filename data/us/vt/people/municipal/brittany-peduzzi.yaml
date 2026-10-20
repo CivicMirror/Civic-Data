@@ -1,0 +1,24 @@
+# Town of Starksboro municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/69642bf8-6a58-5c77-aced-a051fd6ee6f9
+name: Brittany Peduzzi
+identifiers: []
+candidacies:
+- contest_id: starksboro-vt/2024-11-05/justice-of-the-peace
+  election_id: starksboro-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:starksboro/government
+  office_id: starksboro-vt/justice-of-the-peace
+  party: null
+  ballot_name: Brittany Peduzzi
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Starksboro justices of
+    the peace: Norman Cota, Margaret ''Peg'' Casey, Luke McCarthy, Laurie Webber,
+    Edward ''Ben'' Campbell, Alan Quittner, and Brittany Peduzzi'
+  retrieved: '2026-10-19'
