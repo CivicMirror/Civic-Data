@@ -1,0 +1,26 @@
+# Town of Thetford municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/1826fd42-648c-5033-b147-a2acbf35018c
+name: Kate Van Arman
+identifiers: []
+candidacies:
+- contest_id: thetford-vt/2024-11-05/justice-of-the-peace
+  election_id: thetford-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:thetford/government
+  office_id: thetford-vt/justice-of-the-peace
+  party: null
+  ballot_name: Kate Van Arman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Thetford justices of the
+    peace: Richard Balagur, Martie Betts, Robin Brown, Wendy Cole, Jessica Eaton,
+    Gregory Kasten, Bill Keegan, Diana Kimball Anderson, Orin Pacht, and Kate Van
+    Arman (the town roster hyphenates Kimball-Anderson; the certified listing''s form
+    governs)'
+  retrieved: '2026-10-20'

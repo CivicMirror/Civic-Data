@@ -1,0 +1,54 @@
+# Town of Thetford -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: thetford-vt/2024-11-05/general
+name: Town of Thetford Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: thetford-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:thetford/government
+  office_id: thetford-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/fd6197b0-acf8-5cd3-91b4-ed06e672805c
+  - ocd-person/0d5caa1c-3ed3-51d1-914b-4193f6a6e7d1
+  - ocd-person/e2eda834-e08e-569d-8353-7cc43614af8f
+  - ocd-person/2712d137-703d-569d-b3a2-652454fee5df
+  - ocd-person/1826fd42-648c-5033-b147-a2acbf35018c
+  - ocd-person/eb7c1e1f-1538-526a-83cd-fb3dd744b4fe
+  - ocd-person/c161d215-c602-565d-a9f3-0e5c9ae752c9
+  - ocd-person/18fe2059-f1ac-5443-9923-678ad7bad52b
+  - ocd-person/3d53de56-e6e5-5ae9-af41-d7f8cd62b510
+  - ocd-person/4089353b-e057-53b3-ab21-c386751a722b
+  result_status: official
+  winners:
+  - person_id: ocd-person/fd6197b0-acf8-5cd3-91b4-ed06e672805c
+    name: Bill Keegan
+  - person_id: ocd-person/0d5caa1c-3ed3-51d1-914b-4193f6a6e7d1
+    name: Diana Kimball Anderson
+  - person_id: ocd-person/e2eda834-e08e-569d-8353-7cc43614af8f
+    name: Gregory Kasten
+  - person_id: ocd-person/2712d137-703d-569d-b3a2-652454fee5df
+    name: Jessica Eaton
+  - person_id: ocd-person/1826fd42-648c-5033-b147-a2acbf35018c
+    name: Kate Van Arman
+  - person_id: ocd-person/eb7c1e1f-1538-526a-83cd-fb3dd744b4fe
+    name: Martie Betts
+  - person_id: ocd-person/c161d215-c602-565d-a9f3-0e5c9ae752c9
+    name: Orin Pacht
+  - person_id: ocd-person/18fe2059-f1ac-5443-9923-678ad7bad52b
+    name: Richard Balagur
+  - person_id: ocd-person/3d53de56-e6e5-5ae9-af41-d7f8cd62b510
+    name: Robin Brown
+  - person_id: ocd-person/4089353b-e057-53b3-ab21-c386751a722b
+    name: Wendy Cole
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names ten winners
+    for Thetford''s ten justice of the peace seats'
+  retrieved: '2026-10-20'
+- url: https://www.thetfordvt.gov
+  note: 'Town of Thetford, ''Elected and Appointed Officers'' roster (updated September
+    22, 2026; town website): lists the same ten justices of the peace'
+  retrieved: '2026-10-20'
