@@ -1,0 +1,35 @@
+# Town of Sudbury -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: sudbury-vt/2024-11-05/general
+name: Town of Sudbury Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sudbury-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sudbury/government
+  office_id: sudbury-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/daba6625-5e43-5b05-90de-55aeca2d99ea
+  - ocd-person/5cc2aeae-3334-580b-b21f-938026bca3b4
+  - ocd-person/592893c4-c99a-54d7-9e9b-0cfc6c4da501
+  - ocd-person/a562291c-d4a2-59bf-b56e-61cb482eee56
+  - ocd-person/f08b7624-9b4e-54f7-9712-2af578b59071
+  result_status: official
+  winners:
+  - person_id: ocd-person/daba6625-5e43-5b05-90de-55aeca2d99ea
+    name: Arnold "Skip" Abelson
+  - person_id: ocd-person/5cc2aeae-3334-580b-b21f-938026bca3b4
+    name: Philip "Ted" Russell
+  - person_id: ocd-person/592893c4-c99a-54d7-9e9b-0cfc6c4da501
+    name: Ross Eisenbrey
+  - person_id: ocd-person/a562291c-d4a2-59bf-b56e-61cb482eee56
+    name: Steve Sgorbati
+  - person_id: ocd-person/f08b7624-9b4e-54f7-9712-2af578b59071
+    name: Tim Williams
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Sudbury''s five justice of the peace seats'
+  retrieved: '2026-10-20'
