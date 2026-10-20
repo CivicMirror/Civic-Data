@@ -1,0 +1,22 @@
+# Town of South Hero municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/bbc46113-2877-530b-95d9-4b4332513a45
+name: Kim T. Julow
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://southherovt.org/wp-content/uploads/2026/02/Town-Election-Results-March-2025.pdf
+  note: 'Town of South Hero, Official Return of Votes, March 4, 2025 annual meeting
+    (688 voters; certified by Town Clerk Naomi King): the voters authorized the Selectboard
+    to appoint a Treasurer as provided in 17 V.S.A. section 2651f (YES 578, NO 83)'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Kim T. Julow
+    as South Hero''s Town Treasurer -- she continues in the office as the appointee
+    after the conversion vote (disclosed on issue #163)'
+  retrieved: '2026-10-19'

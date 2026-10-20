@@ -1,0 +1,50 @@
+# Town of South Hero -- justice of the peace election (VT municipal batch 21); issue #163 (VT master tracking).
+id: south-hero-vt/2024-11-05/general
+name: Town of South Hero Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: south-hero-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:south-hero/government
+  office_id: south-hero-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/58d41b50-0f8b-5791-8154-c7b0c0469990
+  - ocd-person/d21c6f66-41e1-501f-8b7a-99b4c15c9af7
+  - ocd-person/275d270f-24e6-5911-8288-364811556973
+  - ocd-person/42585337-456c-576b-9dd3-4b8b83cc52d0
+  - ocd-person/c0506807-e7a6-5b6e-8e2e-138408c8d598
+  - ocd-person/0112d95c-ade7-521b-858c-3a32e9f5799b
+  - ocd-person/b7d9f28e-5013-5b7c-b2e6-8e20ca9ff32e
+  result_status: official
+  winners:
+  - person_id: ocd-person/58d41b50-0f8b-5791-8154-c7b0c0469990
+    name: Carol Tremble
+  - person_id: ocd-person/d21c6f66-41e1-501f-8b7a-99b4c15c9af7
+    name: Christine Mack
+  - person_id: ocd-person/275d270f-24e6-5911-8288-364811556973
+    name: David Carter
+  - person_id: ocd-person/42585337-456c-576b-9dd3-4b8b83cc52d0
+    name: Emily Lee
+  - person_id: ocd-person/c0506807-e7a6-5b6e-8e2e-138408c8d598
+    name: Karen Browning
+  - person_id: ocd-person/0112d95c-ade7-521b-858c-3a32e9f5799b
+    name: Kevin Winch
+  - person_id: ocd-person/b7d9f28e-5013-5b7c-b2e6-8e20ca9ff32e
+    name: Mary Jane Wirsing
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for South Hero''s seven justice of the peace seats. Note: ch. 148 sec.
+    3 makes the town''s three listers and its delinquent tax collector Selectboard-appointed
+    and sec. 4 makes the auditor appointed, so no posts are created for those offices;
+    the town nevertheless balloted lister seats in 2025 and 2026, and those ballot
+    winners are not recorded because the charter controls (flagged on issue #163)'
+  retrieved: '2026-10-19'
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/148
+  note: '24 App. V.S.A. ch. 148 (Town of South Hero): sec. 3: the Selectboard appoints
+    the delinquent tax collector and three town listers; sec. 4: the Selectboard appoints
+    the town auditor annually'
+  retrieved: '2026-10-19'
