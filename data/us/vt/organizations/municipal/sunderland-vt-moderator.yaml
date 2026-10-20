@@ -1,0 +1,22 @@
+# Town of Sunderland municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-organization/7f8f3b37-dadf-52fe-9935-1893d50a686e
+name: Town of Sunderland Town Moderator
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sunderland/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: sunderland-vt/moderator
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: 17 V.S.A. section 2646 establishes the office (towns elect a moderator for
+    a one-year term); no official source publishes the current holder, so the post
+    is created without a membership
+  retrieved: '2026-10-20'
+- url: https://sunderlandvt.org/wp-content/uploads/2026/03/Australian-Ballot-Official-Return-Of-Votes-2026.pdf
+  note: 'Town of Sunderland, Official Return of Votes, Australian ballot election
+    of March 3, 2026 (certified; town website): the moderator election was write-in
+    only -- incumbent Alyson Grzyb received 20 of 164 votes cast (135 blank) and the
+    return declares no winner; no post-election roster names a moderator, so no membership
+    is created (a write-in plurality alone does not seat)'
+  retrieved: '2026-10-20'

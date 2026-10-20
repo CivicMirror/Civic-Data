@@ -1,0 +1,35 @@
+# Town of Sunderland -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: sunderland-vt/2024-11-05/general
+name: Town of Sunderland Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sunderland-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sunderland/government
+  office_id: sunderland-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/1a80f56e-51a6-5ec2-9f4c-6f5c87ee4881
+  - ocd-person/43fe4f0c-36a3-5bae-a07c-7032bf1d6517
+  - ocd-person/8185da6e-fcb7-5653-97d8-ae262399514b
+  - ocd-person/d17426ec-731b-5625-9184-bc9377849dba
+  - ocd-person/cb2af7f0-02c1-5c23-aeaa-5dbc90fe876e
+  result_status: official
+  winners:
+  - person_id: ocd-person/1a80f56e-51a6-5ec2-9f4c-6f5c87ee4881
+    name: Julia "Julie" Hutchinson-Smith
+  - person_id: ocd-person/43fe4f0c-36a3-5bae-a07c-7032bf1d6517
+    name: Lorene "Loree" Zeif
+  - person_id: ocd-person/8185da6e-fcb7-5653-97d8-ae262399514b
+    name: Samuel E. Liss
+  - person_id: ocd-person/d17426ec-731b-5625-9184-bc9377849dba
+    name: Theodore "Ted" Rappahahn
+  - person_id: ocd-person/cb2af7f0-02c1-5c23-aeaa-5dbc90fe876e
+    name: Virginia Dexter
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Sunderland''s five justice of the peace seats'
+  retrieved: '2026-10-20'
