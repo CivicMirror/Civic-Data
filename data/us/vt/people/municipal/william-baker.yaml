@@ -1,0 +1,30 @@
+# Town of Waterville municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/0b0919c9-7980-5132-b7db-6f9e843d324c
+name: William Baker
+identifiers: []
+candidacies:
+- contest_id: waterville-vt/2024-11-05/justice-of-the-peace
+  election_id: waterville-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waterville/government
+  office_id: waterville-vt/justice-of-the-peace
+  party: null
+  ballot_name: William Baker
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: http://www.watervillevt.org/wp-content/uploads/2026/02/Waterville-Town-Report-2025.pdf
+  note: 'Town of Waterville, 2025 Town Report, ''Town Officers'' list: lists Cathy
+    Day (term to 2027) and William Baker (term to 2028); Linda Ward''s seat expired
+    in 2026 -- straggler (Ward remains a Justice of the Peace). Baker is also a JP;
+    one record carries both'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Waterville justices of
+    the peace: William Baker, Trista Hutchins, Edna Lafountain, Wanda Locke, and Linda
+    Ward'
+  retrieved: '2026-10-20'

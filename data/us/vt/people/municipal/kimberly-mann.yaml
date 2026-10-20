@@ -1,0 +1,23 @@
+# Town of Waterville municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/17b08fc4-515c-571e-8b1f-6e829d226dfb
+name: Kimberly Mann
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: http://www.watervillevt.org/wp-content/uploads/2026/02/Waterville-Town-Report-2025.pdf
+  note: 'Town of Waterville, 2025 Town Report, ''Town Officers'' list: the report''s
+    own list fixes the board at seven seats and names Annie Schools (to 2027), Kimberly
+    Mann (to 2028), and Laurie Ferron (to 2028)'
+  retrieved: '2026-10-20'
+- url: http://www.watervillevt.org/boards/
+  note: 'Town of Waterville, Boards & Minutes page: names the same three as the library
+    board''s Chair, Vice Chair, and Secretary. The page also names Lisa Towery (Treasurer),
+    who is not in the report -- she may hold the seat warned in 2026 (Wade Chivington''s),
+    outcome unpublished; Towery and the report''s three 2027 trustees absent from
+    the page (Fairweather, Bressel, Nielson) are stragglers (disclosed on #163)'
+  retrieved: '2026-10-20'

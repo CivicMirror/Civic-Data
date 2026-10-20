@@ -1,0 +1,20 @@
+# Town of Waterville municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-organization/0ea7458a-bec8-595d-a6cc-c5b0e96d6e02
+name: Town of Waterville Town Treasurer
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waterville/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: waterville-vt/town-treasurer
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Brandi Broe as
+    Waterville''s Town Treasurer'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town treasurer contact spreadsheet
+    (updated June 12, 2026): names Brandi Broe as Waterville''s Town Treasurer. Incumbent-continuity
+    mint on the same basis as the clerk''s office (disclosed on #163)'
+  retrieved: '2026-10-20'

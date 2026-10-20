@@ -1,0 +1,24 @@
+# Town of Waterville municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/4f3bb684-d7a1-5162-af0b-efcdfd87046b
+name: Edna Lafountain
+identifiers: []
+candidacies:
+- contest_id: waterville-vt/2024-11-05/justice-of-the-peace
+  election_id: waterville-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waterville/government
+  office_id: waterville-vt/justice-of-the-peace
+  party: null
+  ballot_name: Edna Lafountain
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Waterville justices of
+    the peace: William Baker, Trista Hutchins, Edna Lafountain, Wanda Locke, and Linda
+    Ward'
+  retrieved: '2026-10-20'
