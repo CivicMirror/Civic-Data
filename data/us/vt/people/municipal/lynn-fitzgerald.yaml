@@ -1,0 +1,26 @@
+# City of St. Albans municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/a7b2e413-4567-5b5e-a3de-225ba5175588
+name: Lynn Fitzgerald
+identifiers: []
+candidacies:
+- contest_id: st-albans-vt/2024-11-05/justice-of-the-peace
+  election_id: st-albans-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-albans/government
+  office_id: st-albans-vt/justice-of-the-peace
+  party: null
+  ballot_name: Lynn Fitzgerald
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen St. Albans City justices
+    of the peace: Michael Boulerice, Helene Biggie, Kathleen Keenan, Joe Beaudry,
+    Marty Manahan, Joe Luneau, Megan Manahan Bliss, David Chambers, Richard Stahl,
+    Helen Short, Suzanne Kenyon, Linda Pacheco, Andrew Boomhower, Lynn Fitzgerald,
+    and Jeremy Allard'
+  retrieved: '2026-10-19'

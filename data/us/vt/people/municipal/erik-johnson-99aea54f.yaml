@@ -1,0 +1,21 @@
+# City of St. Albans municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/71b04cb4-c498-502a-8167-99aea54ff9b9
+name: Erik Johnson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/011
+  note: '24 App. V.S.A. ch. 11 (City of St. Albans): sec. 10 (one Council member per
+    ward, three-year staggered terms)'
+  retrieved: '2026-10-19'
+- url: https://www.stalbansvt.com/government/mayor___city_council/index.php
+  note: 'City of St. Albans official website, ''Mayor & City Council'' contacts page
+    (stalbansvt.com), which prints each member''s term expiry: Ward 5 - Erik Johnson
+    (term expires March 2027); Johnson is a different person from Jericho''s selectboard
+    member of the same name'
+  retrieved: '2026-10-19'
