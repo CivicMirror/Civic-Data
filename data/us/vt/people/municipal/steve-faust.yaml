@@ -1,0 +1,24 @@
+# Town of St. George municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/4d3fca96-3479-5e45-9f54-c2490c480352
+name: Steve Faust
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a moderator for a one-year term'
+  retrieved: '2026-10-19'
+- url: https://webgen1.revize.com/revize/stgeorgevt/Minutes/Town%20Meeting/2025%20Town%20Meeting%20Minutes.pdf
+  note: 'Town of St. George, Minutes of the Annual Town Meeting of March 4, 2025:
+    Article 1 -- Charles Scott nominated Steve Faust; nominations closed and the vote
+    for Faust as Moderator passed unanimously'
+  retrieved: '2026-10-19'
+- url: https://stgeorgevt.com
+  note: 'Town of St. George official website, Minutes of the Annual Town Meeting of
+    March 3, 2026 (town document center): Faust was nominated by Phil Gingrow and
+    re-elected Moderator by unanimous vote'
+  retrieved: '2026-10-19'

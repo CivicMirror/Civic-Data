@@ -1,0 +1,34 @@
+# Town of St. George -- justice of the peace election (VT municipal batch 22); issue #163 (VT master tracking).
+id: st-george-vt/2024-11-05/general
+name: Town of St. George Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: st-george-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-george/government
+  office_id: st-george-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/69be4e77-8eec-5413-860a-87f8b139ee09
+  - ocd-person/97906030-5436-5772-a441-70ba13a44ee5
+  - ocd-person/22b9e6b8-04e3-563b-a7a5-f916be767b80
+  - ocd-person/70294d2f-b521-532e-9126-61b2705a1d3a
+  result_status: official
+  winners:
+  - person_id: ocd-person/69be4e77-8eec-5413-860a-87f8b139ee09
+    name: Charles Scott
+  - person_id: ocd-person/97906030-5436-5772-a441-70ba13a44ee5
+    name: Judith R. Pillsbury
+  - person_id: ocd-person/22b9e6b8-04e3-563b-a7a5-f916be767b80
+    name: Kelly A. Bowen
+  - person_id: ocd-person/70294d2f-b521-532e-9126-61b2705a1d3a
+    name: Mary Alice Favro
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names four winners
+    for St. George; the town''s 2025 annual report prints five justice of the peace
+    lines with the fifth marked ''Vacant'', so the election''s vote_for is the town''s
+    five-seat slate with four winners seated'
+  retrieved: '2026-10-19'
