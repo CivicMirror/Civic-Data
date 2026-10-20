@@ -1,0 +1,35 @@
+# Town of Sheffield -- justice of the peace election (VT municipal batch 21); issue #163 (VT master tracking).
+id: sheffield-vt/2024-11-05/general
+name: Town of Sheffield Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sheffield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sheffield/government
+  office_id: sheffield-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/96ca4baa-8e7c-5f7f-9177-cb8ddf5bea50
+  - ocd-person/10575dc0-5584-5981-977f-7a26c70c09c8
+  - ocd-person/2512491f-facf-52f3-9efa-15ee82e5e509
+  - ocd-person/1739be7a-1dab-5493-9b87-c5a025427101
+  - ocd-person/e1aee9cd-f742-563c-96ab-dcf1487bc822
+  result_status: official
+  winners:
+  - person_id: ocd-person/96ca4baa-8e7c-5f7f-9177-cb8ddf5bea50
+    name: Barbara 'Bobbie' Bristol
+  - person_id: ocd-person/10575dc0-5584-5981-977f-7a26c70c09c8
+    name: Edward Jewell
+  - person_id: ocd-person/2512491f-facf-52f3-9efa-15ee82e5e509
+    name: Gay Ellis
+  - person_id: ocd-person/1739be7a-1dab-5493-9b87-c5a025427101
+    name: Kathy Newland
+  - person_id: ocd-person/e1aee9cd-f742-563c-96ab-dcf1487bc822
+    name: Sally Wood-Simons
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Sheffield''s five justice of the peace seats'
+  retrieved: '2026-10-19'

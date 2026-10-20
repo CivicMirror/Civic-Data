@@ -1,0 +1,23 @@
+# Town of Sheffield municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/298a68a4-7bdb-5f69-a1ac-ac735c9ea436
+name: Kate Berry-Buonanno
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Sheffield''s three selectboard members:
+    Kate Berry-Buonanno, Erik Lavallee (Chairman), and Benjamin Robinson (Walter Smith,
+    whose term expired in 2026, has departed)'
+  retrieved: '2026-10-19'
+- url: https://sheffieldvt.org
+  note: 'Town of Sheffield, 2025 Annual Report, ''Town Officers'' tables (elected
+    and appointed; terms with expiry years), pp. 4-5: the report prints the chair
+    as ''Kate Buonanno'' -- the Secretary of State directory''s fuller form ''Kate
+    Berry-Buonanno'' governs'
+  retrieved: '2026-10-19'

@@ -1,0 +1,31 @@
+# Town of Sheffield municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/96ca4baa-8e7c-5f7f-9177-cb8ddf5bea50
+name: Barbara Bristol
+identifiers: []
+candidacies:
+- contest_id: sheffield-vt/2024-11-05/justice-of-the-peace
+  election_id: sheffield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sheffield/government
+  office_id: sheffield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Barbara 'Bobbie' Bristol
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://sheffieldvt.org
+  note: 'Town of Sheffield, 2025 Annual Report, ''Town Officers'' tables (elected
+    and appointed; terms with expiry years), pp. 4-5: the report''s elected officers
+    table lists an elected Planning Commission of five (24 V.S.A. section 4323 permits
+    an elected commission): Barbara Bristol (to 2027), Al Robertson and Carolyn Crankshaw
+    (to 2028); two seats'' terms expired in 2026 with no published outcome'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Sheffield justices of the
+    peace: Kathy Newland, Sally Wood-Simons, Edward Jewell, Gay Ellis, and Barbara
+    ''Bobbie'' Bristol'
+  retrieved: '2026-10-19'
