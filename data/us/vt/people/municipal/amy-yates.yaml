@@ -1,0 +1,35 @@
+# Town of West Windsor municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/880f1bcc-57a5-5bb1-beb7-7141b186622d
+name: Amy Yates
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://westwindsorvt.govoffice2.com/vertical/sites/%7BD8CDCAEE-6783-4071-AE03-8A27DD92A280%7D/uploads/West_Windsor_Town_Report_2025.pdf
+  note: 'Town of West Windsor, 2025 Town Report: the elected ''TOWN OFFICES'' roster
+    omits the clerk, and the report''s directory names ''Amy W. Yates, Town Clerk/Treasurer'';
+    the 2026 warning (printed in the report) lists the officers to be elected in its
+    Article 3 and omits the clerk'
+  retrieved: '2026-10-20'
+- url: https://westwindsorvt.govoffice2.com/vertical/sites/%7BD8CDCAEE-6783-4071-AE03-8A27DD92A280%7D/uploads/2024_West_Windsor_Town_Report.pdf
+  note: 'Town of West Windsor, 2024 Town Report: the warning for the March 2025 meeting
+    likewise omits the clerk from the officers to be elected. Two consecutive warnings
+    plus the roster omission are read as a conversion of the office to appointment
+    under 17 V.S.A. sec. 2651e; Yates is seated as the appointee (call disclosed on
+    #163)'
+  retrieved: '2026-10-20'
+- url: https://westwindsorvt.govoffice2.com/vertical/sites/%7BD8CDCAEE-6783-4071-AE03-8A27DD92A280%7D/uploads/West_Windsor_Town_Report_2025.pdf
+  note: 'Town of West Windsor, 2025 Town Report: the elected roster omits the treasurer;
+    its directory names ''Amy W. Yates, Town Clerk/Treasurer,'' and she signs the
+    treasurer''s report. Read as a sec. 2651f appointment conversion on the same evidence
+    as the clerkship (disclosed on #163)'
+  retrieved: '2026-10-20'
+- url: https://westwindsorvt.govoffice2.com/
+  note: 'Town of West Windsor, official website homepage, ''2026 Town Meeting Recap'':
+    ''Delinquent Tax Collector - Amy Yates, reelected by voice vote'' (2026) -- this
+    membership is elected, unlike her appointed clerk and treasurer posts'
+  retrieved: '2026-10-20'

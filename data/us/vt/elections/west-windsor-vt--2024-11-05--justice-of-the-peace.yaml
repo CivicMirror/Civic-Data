@@ -1,0 +1,36 @@
+# Town of West Windsor -- justice of the peace election (VT municipal batch 26); issue #163 (VT master tracking).
+id: west-windsor-vt/2024-11-05/general
+name: Town of West Windsor Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: west-windsor-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-windsor/government
+  office_id: west-windsor-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/1ff2d7f8-6195-53d7-9364-99a206e03f65
+  - ocd-person/77b93446-e865-53f8-8850-998baa3f2872
+  - ocd-person/8f7bb271-155e-5b18-919e-27f2eb1aad59
+  - ocd-person/ab96f871-4ddf-516e-8929-dd56cea9d58f
+  - ocd-person/3858c7f1-19d2-5d2c-a2f7-d9edb6107a08
+  result_status: official
+  winners:
+  - person_id: ocd-person/1ff2d7f8-6195-53d7-9364-99a206e03f65
+    name: Anne P. Yates
+  - person_id: ocd-person/77b93446-e865-53f8-8850-998baa3f2872
+    name: Debra Bullock Spackman
+  - person_id: ocd-person/8f7bb271-155e-5b18-919e-27f2eb1aad59
+    name: Debra Shearer
+  - person_id: ocd-person/ab96f871-4ddf-516e-8929-dd56cea9d58f
+    name: Margaret Clough
+  - person_id: ocd-person/3858c7f1-19d2-5d2c-a2f7-d9edb6107a08
+    name: Nancy Gaynor
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the five winners of West
+    Windsor''s November 5, 2024 justice of the peace election (vote for five): Margaret
+    Clough, Nancy Gaynor, Debra Shearer, Debra Bullock Spackman, and Anne P. Yates'
+  retrieved: '2026-10-20'
