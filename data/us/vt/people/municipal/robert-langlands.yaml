@@ -1,0 +1,22 @@
+# Town of Troy municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/305470a3-8f8b-539a-a751-26a04e91f073
+name: Robert Langlands
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Robert Langlands (Chair), Anne Quirion,
+    and Gaston Bathalon for Troy''s three-member board'
+  retrieved: '2026-10-20'
+- url: https://troyvt.gov/town/selectboard
+  note: 'Town of Troy, Selectboard page (troyvt.gov): lists the same three members.
+    On March 1, 2022 the town voted to hire New England Municipal Consultants to perform
+    the duties of the listers'' office (town Assessors page), so no lister post is
+    created'
+  retrieved: '2026-10-20'
