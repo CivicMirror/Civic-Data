@@ -1,0 +1,20 @@
+# Town of Warren municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/a4171c19-c1da-57e1-9524-80bc655f0240
+name: Joel Taplin
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.warrenvt.org/departments/select-board/
+  note: 'Town of Warren, Select Board page (warrenvt.org): lists the current board
+    -- Devin Klein Corrigan (Chair), Harvey Blake, Joel Taplin, and Jeremiah Kemp
+    -- four members of a five-seat board; the fifth seat is VACANT. The June 2026
+    Secretary of State directory''s Camilla Behn is stale. J Kenneth Scott was the
+    printed candidate for a two-year seat on the March 2026 ballot but is not on the
+    current board; the vacancy sequence is unpublished and Scott is minted only as
+    a Justice of the Peace (disclosed on #163)'
+  retrieved: '2026-10-20'
