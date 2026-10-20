@@ -1,0 +1,45 @@
+# Town of Townshend -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: townshend-vt/2024-11-05/general
+name: Town of Townshend Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: townshend-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:townshend/government
+  office_id: townshend-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/0253db3f-fa34-5b8d-841a-2ba6cf7d09ab
+  - ocd-person/0a9ffcf9-8ae3-56f1-b4d4-3217dae56e54
+  - ocd-person/1244f82f-a704-5216-b4d9-8db7cf4a7032
+  - ocd-person/b81e66df-a5d4-5f5c-b16b-1097c49841a2
+  - ocd-person/55a66197-1318-541f-a86f-9f495bb72fd8
+  - ocd-person/fdd2aa13-a446-5380-a34d-3ef9a50228ad
+  - ocd-person/14a9cedd-139e-5514-b283-89dbba19bf27
+  result_status: official
+  winners:
+  - person_id: ocd-person/0253db3f-fa34-5b8d-841a-2ba6cf7d09ab
+    name: Alene 'Allie' Evans
+  - person_id: ocd-person/0a9ffcf9-8ae3-56f1-b4d4-3217dae56e54
+    name: Barbara Guerrero
+  - person_id: ocd-person/1244f82f-a704-5216-b4d9-8db7cf4a7032
+    name: Catherine 'Katie' Marrow
+  - person_id: ocd-person/b81e66df-a5d4-5f5c-b16b-1097c49841a2
+    name: Constance "Connie" Holt
+  - person_id: ocd-person/55a66197-1318-541f-a86f-9f495bb72fd8
+    name: Elizabeth Brown
+  - person_id: ocd-person/fdd2aa13-a446-5380-a34d-3ef9a50228ad
+    name: Ellenka Wilson
+  - person_id: ocd-person/14a9cedd-139e-5514-b283-89dbba19bf27
+    name: Kathleen "Kathy" Greve
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Townshend''s seven justice of the peace seats'
+  retrieved: '2026-10-20'
+- url: https://www.townshendvt.gov/boards-meetings/board-of-civil-authority
+  note: 'Town of Townshend official website, Board of Civil Authority page: names
+    the town''s justices of the peace'
+  retrieved: '2026-10-20'
