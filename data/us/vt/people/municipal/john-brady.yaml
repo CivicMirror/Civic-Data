@@ -1,0 +1,21 @@
+# Town of Springfield municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/591fbd27-7b12-51fb-9687-9b7063215d0f
+name: John Brady
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/149
+  note: '24 App. V.S.A. ch. 149 (Town of Springfield): sec. 23(a): the Moderator is
+    an elective office'
+  retrieved: '2026-10-19'
+- url: https://springfieldvt.gov/elections
+  note: 'Town of Springfield, Australian Ballot Official Return of Votes, Annual Town
+    Meeting, March 3, 2026 (1,357 ballots of 6,562 registered voters; certified by
+    Town Clerk Barbara A. Courchesne and Assistant Town Clerk Carrie M. Kellow): John
+    Brady was re-elected Town Moderator with 1,148 votes'
+  retrieved: '2026-10-19'
