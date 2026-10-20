@@ -1,0 +1,24 @@
+# Town of St. Albans municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-organization/37a813c6-cb05-5f6a-b9ed-bcc93c1d22dc
+name: Town of St. Albans Town Constable
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-albans-61750/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: st-albans-61750-vt/constable
+status: active
+sources:
+- url: https://cms7files.revize.com/stalbansvt/Town%20Report%20FY%202025.pdf
+  note: 'Town of St. Albans, FY 2025 Town Report, ''ELECTED TOWN OFFICERS'' table
+    (officers with term lengths and expiry years) and the March 3, 2026 annual meeting
+    warning printed in the report: Peter Hatfield held the constable''s one-year term
+    to 2026, and the warning in the report elects a Town Constable for a one-year
+    term at the March 3, 2026 meeting'
+  retrieved: '2026-10-19'
+- url: https://cms7files.revize.com/stalbansvt/Town%20Meeting%20Day%20Results%203.3.26.pdf
+  note: 'Town of St. Albans, official ballot for the Annual Town Meeting of March
+    3, 2026 with the hand-tallied results, attested by Town Clerk Anna Bourdon (830
+    total votes): the Town Constable contest was write-in only, with no printed candidate
+    and no total published, so the seat stands unfilled here (Hatfield is seated as
+    a justice of the peace below)'
+  retrieved: '2026-10-19'
