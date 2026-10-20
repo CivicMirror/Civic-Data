@@ -1,0 +1,45 @@
+# Town of Tunbridge -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: tunbridge-vt/2024-11-05/general
+name: Town of Tunbridge Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: tunbridge-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:tunbridge/government
+  office_id: tunbridge-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/ead4c969-eae4-57b5-915d-00c09c4d571b
+  - ocd-person/7e14c5de-f69f-589a-9052-2dc4404b6c9a
+  - ocd-person/30575a27-331b-50e4-9e82-49e91c1a97b6
+  - ocd-person/19667a71-3cfc-5ee5-9bac-411221fe668d
+  - ocd-person/e55f89cc-2bed-5dbb-9e37-6ee715c73630
+  - ocd-person/41cbf025-cda6-5a8e-a868-dca0d2afdc0e
+  - ocd-person/2d8bf6bd-be9d-53bb-b395-28d198206d36
+  result_status: official
+  winners:
+  - person_id: ocd-person/ead4c969-eae4-57b5-915d-00c09c4d571b
+    name: Gordon Barnaby
+  - person_id: ocd-person/7e14c5de-f69f-589a-9052-2dc4404b6c9a
+    name: Helen O'Donnell
+  - person_id: ocd-person/30575a27-331b-50e4-9e82-49e91c1a97b6
+    name: John O'Brien
+  - person_id: ocd-person/19667a71-3cfc-5ee5-9bac-411221fe668d
+    name: Jonathan Bicknell
+  - person_id: ocd-person/e55f89cc-2bed-5dbb-9e37-6ee715c73630
+    name: Judy Howe
+  - person_id: ocd-person/41cbf025-cda6-5a8e-a868-dca0d2afdc0e
+    name: Margaret Rogers
+  - person_id: ocd-person/2d8bf6bd-be9d-53bb-b395-28d198206d36
+    name: Rob Howe
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Tunbridge''s seven justice of the peace seats'
+  retrieved: '2026-10-20'
+- url: https://tunbridgevt.org/wp-content/uploads/2026/02/2025-town-report-tunbridge-vt.pdf
+  note: 'Town of Tunbridge, 2025 Annual Report, ''Elected Town Officers'' page (town
+    website): concurs on the seven justices of the peace'
+  retrieved: '2026-10-20'

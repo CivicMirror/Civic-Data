@@ -1,0 +1,22 @@
+# Town of Tunbridge municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/3e3be711-f164-5792-90bf-0f8b2cbe2427
+name: Deb Mullen
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://tunbridgevt.org/wp-content/uploads/2026/03/20260303-town-meeting-mins-tunbridge-vt.pdf
+  note: 'Town of Tunbridge, minutes of the annual town meeting of March 3, 2026 (signed;
+    town website): Christine Battcock won the three-year lister seat in 2026; the
+    minutes'' Article 11 line for the two-year seat is blank in the document itself,
+    but the same minutes present Daniel Ruddell and Deb Mullen as sitting listers'
+  retrieved: '2026-10-20'
+- url: https://tunbridgevt.org/wp-content/uploads/2026/02/2025-town-report-tunbridge-vt.pdf
+  note: 'Town of Tunbridge, 2025 Annual Report, ''Elected Town Officers'' page (town
+    website): lists Christine Battcock, Deb Mullen, and Daniel Ruddell as the three
+    listers'
+  retrieved: '2026-10-20'
