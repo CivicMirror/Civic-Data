@@ -1,0 +1,27 @@
+# Town of Swanton municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/778f9a77-4fc3-5b3f-8762-3db8f3562a5e
+name: Nicole Draper
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.swantonvt.gov/town/selectboard
+  note: 'Town of Swanton official website, Selectboard page: names Joel Clark (Chair),
+    Nicholas Brosseau (Vice Chair), Nicole Draper, Earl Fournier, and Ronald Underwood'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Joel Clark (Chair), Nicholas Brosseau
+    (Vice Chair), Nicole Draper, Earl Fournier, and Ronald Underwood for Swanton''s
+    five-member board'
+  retrieved: '2026-10-20'
+- url: https://www.swantonvt.gov/fileadmin/files/town/Town_Meeting/Signed_Warning_2026.pdf
+  note: 'Town of Swanton, Warning for the 2026 annual town meeting, signed January
+    2026 (town/village website): the January 2026 signature block still shows Steven
+    J. Bourgeois, whose three-year seat stood in 2026; he is absent from the current
+    board and is not seated'
+  retrieved: '2026-10-20'

@@ -1,0 +1,47 @@
+# Town of Swanton municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/79cccd4c-d062-5109-a857-ed77ae0a95f5
+name: Brian K. Savage
+identifiers: []
+candidacies:
+- contest_id: swanton-71725-vt/2024-11-05/justice-of-the-peace
+  election_id: swanton-71725-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:swanton-71725/government
+  office_id: swanton-71725-vt/justice-of-the-peace
+  party: null
+  ballot_name: Brian Savage
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect trustees of public funds; Swanton styles
+    the office Trustees of Public Money'
+  retrieved: '2026-10-20'
+- url: https://www.swantonvt.gov/fileadmin/files/town/Town_Meeting/2025_Town_Report.pdf
+  note: 'Town of Swanton, 2025 Town Report, ''ELECTED TOWN OFFICERS'' page (town/village
+    website): Nicholas A. Brosseau (term to 2027) and Brian K. Savage (to 2028); Cody
+    Hemenway''s seat stood in 2026 and its outcome is published in no official source
+    in hand'
+  retrieved: '2026-10-20'
+- url: https://www.swantonvt.gov/services/cemetery
+  note: 'Town of Swanton official website, Cemetery Commission page: names Nicholas
+    Brosseau, John Kaczkowski, Brian Savage, and Macy Lavoie-Dupont as the current
+    commissioners'
+  retrieved: '2026-10-20'
+- url: https://www.swantonvt.gov/fileadmin/files/town/Town_Meeting/2025_Town_Report.pdf
+  note: 'Town of Swanton, 2025 Town Report, ''ELECTED TOWN OFFICERS'' page (town/village
+    website): the report''s roster also carried Cody Hemenway with a term to 2029;
+    he is absent from the current commission page and is not seated'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Town of Swanton justices
+    of the peace: Tamar Bouchard, Randy Brock, Nicholas A. Brosseau, Donald Collins,
+    Edward Daniel, Stephanie Gagne, Steven D. Pike, Pamela Pouliot, Jeffery ''Jeff''
+    Raleigh, Joseph ''Joe'' Raleigh, Brian Savage, Alan Shannon, Neal Speer, Matthew
+    E. Walker, and Suzanne Washburn. Village of Swanton residents vote in this election,
+    so the village has no justice of the peace post of its own'
+  retrieved: '2026-10-20'
