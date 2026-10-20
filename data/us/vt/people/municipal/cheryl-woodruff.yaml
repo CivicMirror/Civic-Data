@@ -1,0 +1,42 @@
+# Town of Wells municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/5e1af7ed-84c5-52ce-93d6-768064b836b5
+name: Cheryl Woodruff
+identifiers: []
+candidacies:
+- contest_id: wells-vt/2024-11-05/justice-of-the-peace
+  election_id: wells-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wells/government
+  office_id: wells-vt/justice-of-the-peace
+  party: null
+  ballot_name: Cheryl Woodruff
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://wellsvermont.town/documents-reports/
+  note: 'Town of Wells, 2025 Annual Report (posted on the town''s Documents & Reports
+    page), ''TOWN OFFICIALS'' table: fixes the commission at seven seats (one shown
+    vacant). Wells elects its planning commissioners (24 V.S.A. sec. 4323; the 2025
+    official ballot carried planning commission races)'
+  retrieved: '2026-10-20'
+- url: https://wellsvermont.town/planning-commission/
+  note: 'Town of Wells, Planning Commission page (wellsvermont.town): names the current
+    members -- William Chmielewski, Cherry Hopson, Cheryl Woodruff, Heather Thomas,
+    and Fran Gilman. Woodruff''s and Chmielewski''s report-listed terms expired in
+    2026, but the current page presents both as members. DIVERGENCE: Douglas Schlaefer
+    (report term to 2027) is not on the current page -- straggler, not seated (disclosed
+    on #163). Woodruff is also a Justice of the Peace; one record carries both'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Wells justices of the peace:
+    Michelle Bates, William Steinmetz, Cheryl Woodruff, Jerry Stein, and Victoria
+    Angis'
+  retrieved: '2026-10-20'
+- url: https://wellsvermont.town/justice-of-the-peace/
+  note: 'Town of Wells, Justice of the Peace page (wellsvermont.town): concurs on
+    the five names but misspells Angis as ''Angus'' -- the certified form governs'
+  retrieved: '2026-10-20'
