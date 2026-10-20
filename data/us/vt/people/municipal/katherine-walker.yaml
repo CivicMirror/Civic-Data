@@ -1,0 +1,23 @@
+# Town of Vernon municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/0bd74e1c-4400-5ed4-973c-acd50b5233a9
+name: Katherine Walker
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://storage.googleapis.com/juniper-media-library/62/2026/03/2026%20Vernon%20Town%20Meeting%20minutes%20(003).pdf
+  note: 'Town of Vernon, minutes of the annual town meeting of March 2-3, 2026 (signed;
+    town website): Article 9 passed 52-38 on March 2, 2026, authorizing the Selectboard
+    to appoint the Town Treasurer as Finance Director under 17 V.S.A. section 2651f;
+    Katherine Walker holds the office by appointment. The warned ballot''s treasurer
+    candidate Joshua Kubecka was therefore not seated and is not recorded'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town treasurer contact spreadsheet
+    (updated June 12, 2026): names ''Katerine Walker, Financial Director'' as Vernon''s
+    treasurer contact'
+  retrieved: '2026-10-20'
