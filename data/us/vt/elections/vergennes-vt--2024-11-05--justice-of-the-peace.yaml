@@ -1,0 +1,55 @@
+# City of Vergennes -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: vergennes-vt/2024-11-05/general
+name: City of Vergennes Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vergennes-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:vergennes/government
+  office_id: vergennes-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/648f0ea9-5255-58a1-af25-2dd386846ea7
+  - ocd-person/f841b707-8e0e-57f3-b8ce-be713869d932
+  - ocd-person/8fb0eafc-c2cf-574a-9b0b-e4677047e19d
+  - ocd-person/36ce1730-fdf8-5c08-871f-5692a9efa160
+  - ocd-person/24e2293a-9444-5a4d-af5a-87a5a53d8c30
+  - ocd-person/3f64dcf6-3d61-52dd-925d-fad09baec383
+  - ocd-person/a67a88b1-4c59-58f5-97c4-dc7ff521d7b2
+  - ocd-person/ea8b77f0-db2e-58e5-9bb7-0a4eec4c11d8
+  - ocd-person/138557cc-d318-5930-b4a7-a3129ce580a3
+  - ocd-person/544928ef-805d-5d8b-9884-5b991c089da3
+  result_status: official
+  winners:
+  - person_id: ocd-person/648f0ea9-5255-58a1-af25-2dd386846ea7
+    name: Abigail Blum
+  - person_id: ocd-person/f841b707-8e0e-57f3-b8ce-be713869d932
+    name: Beth Bearor
+  - person_id: ocd-person/8fb0eafc-c2cf-574a-9b0b-e4677047e19d
+    name: Christopher Bearor
+  - person_id: ocd-person/36ce1730-fdf8-5c08-871f-5692a9efa160
+    name: Christopher Spencer
+  - person_id: ocd-person/24e2293a-9444-5a4d-af5a-87a5a53d8c30
+    name: Lowell Bertrand
+  - person_id: ocd-person/3f64dcf6-3d61-52dd-925d-fad09baec383
+    name: Mark Koenig
+  - person_id: ocd-person/a67a88b1-4c59-58f5-97c4-dc7ff521d7b2
+    name: Nial Rele
+  - person_id: ocd-person/ea8b77f0-db2e-58e5-9bb7-0a4eec4c11d8
+    name: Patricia Ganson
+  - person_id: ocd-person/138557cc-d318-5930-b4a7-a3129ce580a3
+    name: Rena Trepanier
+  - person_id: ocd-person/544928ef-805d-5d8b-9884-5b991c089da3
+    name: Tara Brooks
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names ten winners
+    for Vergennes'' ten justice of the peace seats'
+  retrieved: '2026-10-20'
+- url: https://www.dropbox.com/scl/fi/6nexrlvrr71dfvy1naqld/2026-Annual-Report-Corrected-ver.1.pdf?rlkey=sx1tpjd6iz5y06omf8zp1icoz&st=kc45msyz&dl=1
+  note: 'City of Vergennes, 2026 Annual Report, table of city officials as of December
+    31, 2025 (report page 46): the report''s justice of the peace table matches the
+    certified listing exactly'
+  retrieved: '2026-10-20'
