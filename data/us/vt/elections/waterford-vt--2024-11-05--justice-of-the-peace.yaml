@@ -1,0 +1,43 @@
+# Town of Waterford -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: waterford-vt/2024-11-05/general
+name: Town of Waterford Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: waterford-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waterford/government
+  office_id: waterford-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/f5b7b34b-3e5a-5abb-999f-5c5f94da5024
+  - ocd-person/438bcd2a-34ae-544b-ba84-088b72d4fdd6
+  - ocd-person/41d0dd7e-bd50-5de7-b424-46fce94aef5d
+  - ocd-person/c5387804-9068-51ca-aa2d-bcd6ca97002c
+  - ocd-person/9dec24f3-5112-5e32-bf34-0923bcf8537b
+  - ocd-person/1786ecc3-e42b-560f-9147-f46c5e0e83b2
+  - ocd-person/5b6e38ec-bff4-554c-aa5b-b8d095a047a2
+  result_status: official
+  winners:
+  - person_id: ocd-person/f5b7b34b-3e5a-5abb-999f-5c5f94da5024
+    name: Bernard Willey
+  - person_id: ocd-person/438bcd2a-34ae-544b-ba84-088b72d4fdd6
+    name: David Morrison
+  - person_id: ocd-person/41d0dd7e-bd50-5de7-b424-46fce94aef5d
+    name: Erin Dimick
+  - person_id: ocd-person/c5387804-9068-51ca-aa2d-bcd6ca97002c
+    name: Kathleen Hodgdon
+  - person_id: ocd-person/9dec24f3-5112-5e32-bf34-0923bcf8537b
+    name: Kevin Gillander
+  - person_id: ocd-person/1786ecc3-e42b-560f-9147-f46c5e0e83b2
+    name: Kristen Fessenden
+  - person_id: ocd-person/5b6e38ec-bff4-554c-aa5b-b8d095a047a2
+    name: Miriam Simon
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the seven winners of Waterford''s
+    November 5, 2024 justice of the peace election (vote for seven): Erin Dimick,
+    Kristen Fessenden, Kevin Gillander, Kathleen Hodgdon, David Morrison, Miriam Simon,
+    and Bernard Willey. All seven remain in office'
+  retrieved: '2026-10-20'
