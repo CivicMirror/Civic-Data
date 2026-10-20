@@ -1,0 +1,37 @@
+# Town of Stamford municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/5a108e55-6494-5fdc-8a40-c66fb89470df
+name: Sally A. Bohl
+identifiers: []
+candidacies:
+- contest_id: stamford-vt/2024-11-05/justice-of-the-peace
+  election_id: stamford-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stamford/government
+  office_id: stamford-vt/justice-of-the-peace
+  party: null
+  ballot_name: Sally A. Bohl
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a collector of delinquent taxes'
+  retrieved: '2026-10-19'
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, official marked results ballot for the annual meeting of
+    March 3, 2026 (town website, stamfordvt.net): Sally A. Bohl was elected Collector
+    of Delinquent Taxes with 89 votes'
+  retrieved: '2026-10-19'
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, 2023 Town Report, ''Elected Town Officers'' and ''Appointed
+    Town Officers'' lists and the 2024 annual meeting warning printed in the report:
+    Bohl also held the office in 2023'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Stamford justices of the
+    peace: Sally A. Bohl, Marta Miller, Sheila Pecor, Peter Greenbush, and Mary Lou
+    Wright'
+  retrieved: '2026-10-19'

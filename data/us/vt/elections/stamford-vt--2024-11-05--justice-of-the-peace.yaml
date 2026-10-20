@@ -1,0 +1,35 @@
+# Town of Stamford -- justice of the peace election (VT municipal batch 22); issue #163 (VT master tracking).
+id: stamford-vt/2024-11-05/general
+name: Town of Stamford Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: stamford-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stamford/government
+  office_id: stamford-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/3369eb9f-9c99-5ad6-9f7a-fb4cc1ddc1fd
+  - ocd-person/a4ec128a-f055-5943-b848-9dad156f5586
+  - ocd-person/0b6447fd-735a-5510-a73a-19acb8973343
+  - ocd-person/5a108e55-6494-5fdc-8a40-c66fb89470df
+  - ocd-person/9aebe48b-a79a-5fcf-923b-fe3ea1cd9601
+  result_status: official
+  winners:
+  - person_id: ocd-person/3369eb9f-9c99-5ad6-9f7a-fb4cc1ddc1fd
+    name: Marta Miller
+  - person_id: ocd-person/a4ec128a-f055-5943-b848-9dad156f5586
+    name: Mary Lou Wright
+  - person_id: ocd-person/0b6447fd-735a-5510-a73a-19acb8973343
+    name: Peter Greenbush
+  - person_id: ocd-person/5a108e55-6494-5fdc-8a40-c66fb89470df
+    name: Sally A. Bohl
+  - person_id: ocd-person/9aebe48b-a79a-5fcf-923b-fe3ea1cd9601
+    name: Sheila Pecor
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Stamford''s five justice of the peace seats'
+  retrieved: '2026-10-19'

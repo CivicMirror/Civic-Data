@@ -1,0 +1,22 @@
+# Town of Stamford municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/5fa20923-8b13-5862-8240-3d6138f1053e
+name: Luke McKay
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, official marked results ballot for the annual meeting of
+    March 3, 2026 (town website, stamfordvt.net): Luke McKay was elected Cemetery
+    Commissioner with 98 votes'
+  retrieved: '2026-10-19'
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, 2023 Town Report, ''Elected Town Officers'' and ''Appointed
+    Town Officers'' lists and the 2024 annual meeting warning printed in the report:
+    the 2023 roster (David McKay, Sheila G. Lawrence, and one further seat) predates
+    two election cycles and is stale, so the other two seats stand unfilled'
+  retrieved: '2026-10-19'
