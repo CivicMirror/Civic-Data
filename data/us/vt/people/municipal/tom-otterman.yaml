@@ -1,0 +1,20 @@
+# Town of Topsham municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/ebd9c0b6-c5bf-51f9-a20b-f857bcff6e61
+name: Tom Otterman
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.townoftopshamvt.org/town
+  note: 'Town of Topsham official website, Town Officials and Employees page: names
+    Jim Bulger, Tom Otterman, Carl Hildebrandt, Jake Thompson, and Brad Calhoun'
+  retrieved: '2026-10-20'
+- url: https://www.townoftopshamvt.org/selectboardmeetings/town-meeting
+  note: 'Town of Topsham, summary of the minutes of the town meeting of March 5, 2024
+    (town website): James Bulger chairs the board; Tom Otterman and Brad Calhoun won
+    their seats at the 2024 meeting (Calhoun by paper ballot, 58-52)'
+  retrieved: '2026-10-20'

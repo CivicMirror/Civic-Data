@@ -1,0 +1,25 @@
+# Town of Topsham municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/d90f087a-b104-532e-80ff-53b206ba5eef
+name: Peggy Welch
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect auditors (three, staggered terms) unless
+    the office is eliminated'
+  retrieved: '2026-10-20'
+- url: https://www.townoftopshamvt.org/town
+  note: 'Town of Topsham official website, Town Officials and Employees page: names
+    Peggy Welch and Nancy Frost as the town''s auditors'
+  retrieved: '2026-10-20'
+- url: https://www.townoftopshamvt.org/selectboardmeetings/town-meeting
+  note: 'Town of Topsham, summary of the minutes of the town meeting of March 5, 2024
+    (town website): the 2024 meeting drew no auditor nominations at all; Welch and
+    Frost are seated on the current officials page''s presentation of them as the
+    town''s auditors'
+  retrieved: '2026-10-20'
