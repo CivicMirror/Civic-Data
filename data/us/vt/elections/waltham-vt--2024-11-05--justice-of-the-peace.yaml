@@ -1,0 +1,30 @@
+# Town of Waltham -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: waltham-vt/2024-11-05/general
+name: Town of Waltham Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: waltham-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waltham/government
+  office_id: waltham-vt/justice-of-the-peace
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/2f76398b-c4dd-54d8-9b1c-e530590f621b
+  - ocd-person/00e32bd6-61a2-5963-a897-f10984c5c0a9
+  - ocd-person/33631560-fccf-525d-baa6-e8e91bf9b79e
+  result_status: official
+  winners:
+  - person_id: ocd-person/2f76398b-c4dd-54d8-9b1c-e530590f621b
+    name: Rachel Steponaitis
+  - person_id: ocd-person/00e32bd6-61a2-5963-a897-f10984c5c0a9
+    name: Roberta "Cookie" Steponaitis
+  - person_id: ocd-person/33631560-fccf-525d-baa6-e8e91bf9b79e
+    name: Terrance Evarts
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the three winners of Waltham''s
+    November 5, 2024 justice of the peace election (vote for three): Roberta ''Cookie''
+    Steponaitis, Terrance Evarts, and Rachel Steponaitis. All three remain in office'
+  retrieved: '2026-10-20'
