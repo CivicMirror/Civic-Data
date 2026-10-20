@@ -1,0 +1,30 @@
+# Town of Stowe municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/d41a5f37-1415-5272-946b-527bad39d1ca
+name: Drew Clymer
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/153
+  note: '24 App. V.S.A. ch. 153 (Town of Stowe): sec. 401(a) lists the Moderator among
+    the town''s elected officers'
+  retrieved: '2026-10-19'
+- url: https://www.stowevt.gov/Departments/Town-Clerk-Treasurer/Election-Information-Results
+  note: 'Town of Stowe, ''Official Results - Annual Town and School Meeting, March
+    3, 2026'', signed and certified by Penny A. Davis, Town Clerk (town website, Election
+    Information & Results page): Article 1 (elect a Moderator for a one-year term)
+    was decided by write-ins, and the signed official tally names ''Drew Clymer''
+    with 75 votes, marked ELECTED in the tally''s own legend (Leighton Detora received
+    20) -- a certified write-in outcome with the winner named in the official results
+    (flagged on issue #163)'
+  retrieved: '2026-10-19'
+- url: https://www.stowevt.gov/Departments/Town-Clerk-Treasurer/Election-Information-Results
+  note: 'Town of Stowe, 2025 Annual Town Report, ''ELECTED TOWN OFFICERS'' list (report
+    p. 1, pre-dating the March 2026 election) and the March 3, 2026 annual meeting
+    warning printed in the report: the report names Drew Clymer as Moderator on the
+    one-year term expiring 2026, so the 2026 write-in result is his re-election'
+  retrieved: '2026-10-19'

@@ -1,0 +1,27 @@
+# Town of Stowe municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/19d79b6a-a9c1-5d68-82ed-93b2fad7736d
+name: Pall Spera
+identifiers: []
+candidacies:
+- contest_id: stowe-vt/2024-11-05/justice-of-the-peace
+  election_id: stowe-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stowe/government
+  office_id: stowe-vt/justice-of-the-peace
+  party: null
+  ballot_name: Pall Spera
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists twelve Stowe justices of the
+    peace: Mary S. Black, Suzanne Clark, Leighton Detora, Lyndall Heyer, Liz Lackey,
+    Charles Lusk, Maura Mancini, Marina Meerburg, Janet ''Jan'' Reynolds, Pall Spera,
+    Sarah Sterner, and Arnold Ziegel. The town''s annual report and Board of Civil
+    Authority page print the last name as ''Ziegler'', but the listing''s form is
+    corroborated by his own email address in the listing and governs'
+  retrieved: '2026-10-19'
