@@ -1,0 +1,31 @@
+# Town of Shelburne municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/7c3dfb19-1a13-568a-b856-382968bf91e7
+name: Peter E. Gadue
+identifiers: []
+candidacies:
+- contest_id: shelburne-vt/2024-11-05/justice-of-the-peace
+  election_id: shelburne-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:shelburne/government
+  office_id: shelburne-vt/justice-of-the-peace
+  party: null
+  ballot_name: Peter E. Gadue
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://shelburnevt.org/Archive.aspx?AMID=38
+  note: 'Town of Shelburne, Town Report for 2025 (238th Annual Town Report), elected
+    and appointed officers lists, pp. 5-6: the elected officials list names Pete Gadue
+    as Champlain Water District Director, term to 2027 (Shelburne elects its representative
+    to the district)'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Shelburne justices of
+    the peace: Nancy E. Baker, Susan Bowen, Jessica Brumsted, Joanna Cole, Bill Deming,
+    Mike Donohue, Peter E. Gadue, Joan G. Lenes, Jennifer Leopold, Deb Mayfield, Rebecca
+    A. Moore, Judy P. Rosenstreich, Randy Roland, Lee Suskin, and David W. Webster'
+  retrieved: '2026-10-19'

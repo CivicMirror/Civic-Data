@@ -1,0 +1,25 @@
+# Town of Shelburne municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/78627e9e-59a4-53af-80a4-58bb5a320e5d
+name: Rebecca A. Moore
+identifiers: []
+candidacies:
+- contest_id: shelburne-vt/2024-11-05/justice-of-the-peace
+  election_id: shelburne-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:shelburne/government
+  office_id: shelburne-vt/justice-of-the-peace
+  party: null
+  ballot_name: Rebecca A. Moore
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Shelburne justices of
+    the peace: Nancy E. Baker, Susan Bowen, Jessica Brumsted, Joanna Cole, Bill Deming,
+    Mike Donohue, Peter E. Gadue, Joan G. Lenes, Jennifer Leopold, Deb Mayfield, Rebecca
+    A. Moore, Judy P. Rosenstreich, Randy Roland, Lee Suskin, and David W. Webster'
+  retrieved: '2026-10-19'
