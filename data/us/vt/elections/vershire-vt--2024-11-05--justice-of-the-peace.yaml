@@ -1,0 +1,35 @@
+# Town of Vershire -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: vershire-vt/2024-11-05/general
+name: Town of Vershire Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vershire-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:vershire/government
+  office_id: vershire-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/cec30352-6074-5d55-ae8a-7ec257024295
+  - ocd-person/6ad62b5a-cb9b-5e26-8747-41d15a124631
+  - ocd-person/37ec12fe-b5ec-59b8-b5d9-67f7782f75ff
+  - ocd-person/1505d3d7-5d18-5415-8c3f-e8d878acf731
+  - ocd-person/7889390e-e81f-5825-b368-ed3f8e14c72f
+  result_status: official
+  winners:
+  - person_id: ocd-person/cec30352-6074-5d55-ae8a-7ec257024295
+    name: Andrea Wasserman
+  - person_id: ocd-person/6ad62b5a-cb9b-5e26-8747-41d15a124631
+    name: Benjamin "Pat" Barnes
+  - person_id: ocd-person/37ec12fe-b5ec-59b8-b5d9-67f7782f75ff
+    name: Bonnie Strout
+  - person_id: ocd-person/1505d3d7-5d18-5415-8c3f-e8d878acf731
+    name: Margaret "Peggy" Darrow
+  - person_id: ocd-person/7889390e-e81f-5825-b368-ed3f8e14c72f
+    name: Reva Seybolt
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Vershire''s five justice of the peace seats'
+  retrieved: '2026-10-20'

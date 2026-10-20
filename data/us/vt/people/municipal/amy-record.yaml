@@ -1,0 +1,21 @@
+# Town of Vershire municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/16536f5d-9eeb-50e2-9528-e53c3d4fbf09
+name: Amy Record
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Nicole White-Fogarty (Chair), Vernal Stone,
+    and Amy Record for Vershire''s three-member board'
+  retrieved: '2026-10-20'
+- url: https://vershirevt.org/wp-content/uploads/2026/04/2026-Town-Meeting-article-results-1.pdf
+  note: 'Town of Vershire, published results of the annual town meeting of April 11,
+    2026 (postponed from March; town website): Nicole White-Fogarty won the three-year
+    ballot seat 88-60 over Gene Craft'
+  retrieved: '2026-10-20'
