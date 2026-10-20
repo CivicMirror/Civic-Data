@@ -1,0 +1,20 @@
+# Town of Waterbury municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/370e0a24-e201-507d-bf0c-7fb92dfbd77a
+name: Wes Pollock
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.waterburyvt.com/departments/clerk
+  note: 'Town of Waterbury, Clerk page (waterburyvt.com): names Wes Pollock as Town
+    Clerk. The Secretary of State''s Guide lists Beth Jones as ''temporary'' clerk
+    (stale -- Jones now sits as a lister)'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): names Wes Pollock as Waterbury''s Town Clerk'
+  retrieved: '2026-10-20'
