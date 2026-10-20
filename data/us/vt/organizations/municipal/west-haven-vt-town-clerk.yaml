@@ -1,0 +1,19 @@
+# Town of West Haven municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-organization/2fd60a2f-90e6-5fac-b6de-7f3821d413ed
+name: Town of West Haven Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-haven/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: west-haven-vt/town-clerk
+status: active
+sources:
+- url: https://townofwesthavenvt.org/officials-staff/
+  note: 'Town of West Haven, Officials & Staff page (townofwesthavenvt.org): ''Town
+    Clerk: Jenny Jackson'''
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): names Jennifer Jackson as West Haven''s Town Clerk --
+    the full form governs over the town page''s diminutive'
+  retrieved: '2026-10-20'

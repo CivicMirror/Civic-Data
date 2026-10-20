@@ -1,0 +1,24 @@
+# Town of West Haven municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/9ca61a6c-a333-5c02-a4b3-91af686e7c29
+name: Leland Ellis
+identifiers: []
+candidacies:
+- contest_id: west-haven-vt/2024-11-05/justice-of-the-peace
+  election_id: west-haven-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-haven/government
+  office_id: west-haven-vt/justice-of-the-peace
+  party: null
+  ballot_name: Leland Ellis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five West Haven justices of
+    the peace: Brian Book, Theresa Book, Leland Ellis, Kerry Ellis, and Carol Richards.
+    Ellis also holds a selectboard seat; one record carries both memberships'
+  retrieved: '2026-10-20'
