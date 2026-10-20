@@ -1,0 +1,29 @@
+# Town of West Fairlee municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/a073c575-94d9-515b-883f-d500a8692ddb
+name: Staci Sargent
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://westfairleevt.gov/clerk
+  note: 'Town of West Fairlee, Town Clerk page: Staci Sargent, Town Clerk; she also
+    recorded the 2026 warning'
+  retrieved: '2026-10-20'
+- url: https://westfairleevt.govoffice3.com/vertical/Sites/%7B11C05066-8FAE-4AAC-9EBF-DC9E04E9CB00%7D/uploads/Town_Meeting_Day_Election_Results_2026.pdf
+  note: 'Town of West Fairlee, Town Meeting Day election results tally (the tally
+    the clerk''s page links as the March 3, 2026 results is in fact the March 2024
+    tally -- it carries the 2024 presidential primary and is dated March 4, 2024;
+    cited here as 2024 evidence only, divergence disclosed on #163): Staci Sargent
+    was elected Town Clerk for a three-year term in March 2024'
+  retrieved: '2026-10-20'
+- url: https://westfairleevt.gov/tax-collector
+  note: 'Town of West Fairlee, Tax Collector page: Staci Sargent, Collector of Delinquent
+    Taxes'
+  retrieved: '2026-10-20'
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a collector of delinquent taxes'
+  retrieved: '2026-10-20'
