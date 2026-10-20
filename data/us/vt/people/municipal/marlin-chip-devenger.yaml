@@ -1,0 +1,32 @@
+# Town of Sutton municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/3ce98ee9-de49-5ca9-acaa-00935c943c18
+name: Marlin "Chip" Devenger
+identifiers: []
+candidacies:
+- contest_id: sutton-vt/2024-11-05/justice-of-the-peace
+  election_id: sutton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sutton/government
+  office_id: sutton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Chip Devenger
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a moderator for a one-year term'
+  retrieved: '2026-10-20'
+- url: https://irp.cdn-website.com/e7d9f92e/files/uploaded/Town+Meeting+Minutes.pdf
+  note: 'Town of Sutton, minutes of the annual town meeting of March 3, 2026 (town
+    website): Marlin ''Chip'' Devenger called the meeting to order and was re-elected
+    Moderator'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists three Sutton justices of the
+    peace: Dianna Simpson, Chip Devenger, and Adam Bruggeman; the town''s own minutes
+    and government page give Devenger''s full name as Marlin ''Chip'' Devenger'
+  retrieved: '2026-10-20'

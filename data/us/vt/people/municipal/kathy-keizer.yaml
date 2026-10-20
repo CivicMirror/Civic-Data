@@ -1,0 +1,18 @@
+# Town of Sutton municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/db636726-85d4-5b1f-9325-4340bbb08c7b
+name: Kathy Keizer
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a grand juror'
+  retrieved: '2026-10-20'
+- url: https://irp.cdn-website.com/e7d9f92e/files/uploaded/Town+Meeting+Minutes.pdf
+  note: 'Town of Sutton, minutes of the annual town meeting of March 3, 2026 (town
+    website): Kathy Keizer was elected Grand Juror'
+  retrieved: '2026-10-20'
