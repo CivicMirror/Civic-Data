@@ -1,0 +1,251 @@
+{
+ "label": "Town of Westfield",
+ "place_slug": "westfield",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:westfield/government",
+ "header": "# Town of Westfield municipal roster backfill -- Vermont\n# municipal fan-out batch 26; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Town of Westfield Selectboard",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): names Jacques Couture (Chair), Richard Degre, and Dennis Vincent for Westfield's three-member board"
+    },
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Selectboard: (elected): Jacques Couture, Chair (expires 2028); Dennis Vincent, Vice-Chair (expires 2029); Richard Degre (expires 2027)'"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jacques Couture",
+     "slug": "jacques-couture"
+    },
+    {
+     "name": "Dennis Vincent",
+     "slug": "dennis-vincent"
+    },
+    {
+     "name": "Richard Degre",
+     "slug": "richard-degre"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Town of Westfield Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Town Clerk: Niki Dunn (appointed by Selectboard to fill one year of an unexpired term - expires 2027)' -- the office is elective but the current holder is an appointee. The Secretary of State's clerk spreadsheet gives her full name as Nicole Dunn; the Guide's 'LaDonna Dunn' is her Assistant Town Clerk (appointed by the Clerk), a staff role with no post. Dunn also holds a justice of the peace seat; one record carries both"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Nicole Dunn",
+     "slug": "nicole-dunn",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Town of Westfield Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Town Treasurer: Lisa Deslandes (elected-expires 2027)'"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Lisa Deslandes",
+     "slug": "lisa-deslandes"
+    }
+   ]
+  },
+  {
+   "slug": "lister",
+   "title": "Lister",
+   "org_name": "Town of Westfield Board of Listers",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Listers: (elected): Danny Young (Chair) (term expires 2029); Shelley Martin (term expires 2028); Lisa Deslandes* (term expires 2027)' with the page's footnote '*Appointed 7/20/2026' on Deslandes -- her lister membership is appointed; Young and Martin are elected"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Danny Young",
+     "slug": "danny-young"
+    },
+    {
+     "name": "Shelley Martin",
+     "slug": "shelley-martin"
+    },
+    {
+     "name": "Lisa Deslandes",
+     "slug": "lisa-deslandes",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Town of Westfield Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Delinquent Tax Collector: Lisa Deslandes (appointed*)' with the page's note 'At the 2024 Town Meeting the voters approved making this an appointed position'"
+    },
+    {
+     "url": "https://westfield.vt.gov/",
+     "note": "Town of Westfield, official website homepage: 'Tax Collector/Delinquent Tax Collector, Lisa Deslandes'"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Lisa Deslandes",
+     "slug": "lisa-deslandes",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "library-trustee",
+   "title": "Library Trustee",
+   "org_name": "Town of Westfield Library Trustees",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Library Trustees: (elected) Karen Blais (2027); Jenn Stelma (2028); Carrie Glessner (2029); Rebecca Velazquez (2030); Carolyn Lyster (2031)' -- five-year staggered terms"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Karen Blais",
+     "slug": "karen-blais"
+    },
+    {
+     "name": "Jenn Stelma",
+     "slug": "jenn-stelma"
+    },
+    {
+     "name": "Carrie Glessner",
+     "slug": "carrie-glessner"
+    },
+    {
+     "name": "Rebecca Velazquez",
+     "slug": "rebecca-velazquez"
+    },
+    {
+     "name": "Carolyn Lyster",
+     "slug": "carolyn-lyster"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Town Moderator",
+   "org_name": "Town of Westfield Town Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): 'Moderator: Pat Sagui (elected-term expires 2027)'; Sagui also holds a justice of the peace seat on the same record"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Pat Sagui",
+     "slug": "pat-sagui"
+    }
+   ]
+  },
+  {
+   "slug": "first-constable",
+   "title": "First Constable",
+   "org_name": "Town of Westfield First Constable",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): '1st Constable: VACANT' -- the post is created without a membership"
+    }
+   ],
+   "holders": []
+  },
+  {
+   "slug": "second-constable",
+   "title": "Second Constable",
+   "org_name": "Town of Westfield Second Constable",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): '2nd Constable: VACANT' -- the post is created without a membership"
+    }
+   ],
+   "holders": []
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Town of Westfield Justices of the Peace",
+   "seats": 4,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists four Westfield justices of the peace: Nicole Dunn, Anne Lazor, Michael Piper, and Pat Sagui"
+    },
+    {
+     "url": "https://westfield.vt.gov/town-departments/",
+     "note": "Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the page labels each office '(elected)' or appointed): the town's justice of the peace list names Karen Blais, Niki Dunn, Michael Piper, and Pat Sagui -- it swaps Blais in for the certified Anne Lazor at equal count. The certified listing governs: Lazor is seated and Blais (minted as a library trustee) is held as a straggler for this office (divergence flagged on #163)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Nicole Dunn",
+     "slug": "nicole-dunn"
+    },
+    {
+     "name": "Anne Lazor",
+     "slug": "anne-lazor"
+    },
+    {
+     "name": "Michael Piper",
+     "slug": "michael-piper"
+    },
+    {
+     "name": "Pat Sagui",
+     "slug": "pat-sagui"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "westfield-vt/2024-11-05/general",
+  "contest_id": "westfield-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Westfield Justice of the Peace Election 2024-11-05",
+  "filename": "westfield-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 4,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): certifies the four winners of Westfield's November 5, 2024 justice of the peace election (vote for four): Nicole Dunn, Anne Lazor, Michael Piper, and Pat Sagui"
+   }
+  ],
+  "header": "# Town of Westfield -- justice of the peace election (VT municipal batch 26); issue #163 (VT master tracking)."
+ }
+}
