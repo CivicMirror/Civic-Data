@@ -1,0 +1,23 @@
+# Town of Weathersfield municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/d371745f-bf97-5605-9989-1e3f12035832
+name: Barbara Thomas
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.weathersfieldvt.org/DocumentCenter/View/419/FY2025-Town-Report
+  note: 'Town of Weathersfield, FY2024-2025 Town Report, ''Town of Weathersfield,
+    Vermont Elected Officials'' list (as of December 31, 2025): lists Barbara Thomas
+    (three-year term to 2027); the other two seats are shown VACANT'
+  retrieved: '2026-10-20'
+- url: https://www.weathersfieldvt.org/DocumentCenter/View/3229/3326-Town-Voting-Results
+  note: 'Town of Weathersfield, ''3/3/26 Town Voting Results'' -- the official March
+    3, 2026 ballot with handwritten tallies, posted on the town''s Voting Results
+    page: both vacant seats stood in 2026 as write-in races; the handwritten write-in
+    names on the tally are not legibly readable, so those winners are stragglers,
+    not seated'
+  retrieved: '2026-10-20'

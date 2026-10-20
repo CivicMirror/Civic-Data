@@ -1,0 +1,32 @@
+# Town of Weathersfield municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/ffca009c-5a2c-5f27-94e7-b65689fb0634
+name: Andrea Murray
+identifiers: []
+candidacies:
+- contest_id: weathersfield-vt/2024-11-05/justice-of-the-peace
+  election_id: weathersfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:weathersfield/government
+  office_id: weathersfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Andrea Murray
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Weathersfield justices of
+    the peace: John Arrison, Andrea Murray, Joseph Bublat, Michael J. Stankevich,
+    James Cahill, Steven Hier, Julia Lloyd-Wright, August Murray, Annemarie Christensen,
+    and Elaine Dunham'
+  retrieved: '2026-10-20'
+- url: https://www.weathersfieldvt.org/DocumentCenter/View/419/FY2025-Town-Report
+  note: 'Town of Weathersfield, FY2024-2025 Town Report, ''Town of Weathersfield,
+    Vermont Elected Officials'' list (as of December 31, 2025): the town''s own justice
+    list concurs on the ten names (in the variants ''Andrea DeLuna-Murray,'' ''Annmarie
+    Christensen,'' ''Steve Hier'') and records Elaine Dunham as RESIGNED -- only the
+    nine surviving winners are seated (departed-winner pattern)'
+  retrieved: '2026-10-20'
