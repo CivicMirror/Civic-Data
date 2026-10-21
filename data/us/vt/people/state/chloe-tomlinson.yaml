@@ -11,6 +11,13 @@ candidacies:
   party: Progressive/Democratic
   ballot_name: Chloe Tomlinson
   status: active
+- contest_id: winooski-vt/2024-11-05/justice-of-the-peace
+  election_id: winooski-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:winooski/government
+  office_id: winooski-vt/justice-of-the-peace
+  party: null
+  ballot_name: Chloe Tomlinson
+  status: active
 verification:
   status: machine-extracted
   reviewed_on: '2026-10-17'
@@ -28,3 +35,7 @@ sources:
   note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
     lists the sitting representative(s) for the Chittenden-21 District.'
   retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Chloe Tomlinson is one of the fifteen Winooski justices of the peace certified from the November 5, 2024 election. Appended during the Winooski municipal build (VT municipal batch 28); she also sits as a Chittenden-21 state representative.'
+  retrieved: '2026-10-21'
