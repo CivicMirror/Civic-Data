@@ -1,0 +1,25 @@
+# Town of Westminster municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/36a2dbdf-06cb-5530-be26-59f6104d02dc
+name: Barbara Taylor
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.westminstervt.org/selectboard/
+  note: 'Town of Westminster, Selectboard minutes, April 14, 2026 (draft/unapproved,
+    disclosed; each motion carried 3-0 for a one-year term ending March 2027): Barbara
+    Taylor was appointed ''Trustee of the Campbell and Public Fund'', filling her
+    own seat, which had drawn only write-ins at the March 3, 2026 election. The single
+    bundled motion names her trustee of BOTH funds, so she is recorded on both trustee
+    posts (modeling call disclosed on issue #163).'
+  retrieved: '2026-10-21'
+- url: https://www.westminstervt.org/selectboard/
+  note: 'Town of Westminster, Selectboard minutes, April 14, 2026 (draft/unapproved,
+    disclosed; each motion carried 3-0 for a one-year term ending March 2027): Barbara
+    Taylor was appointed ''Trustee of the Campbell and Public Fund'' under the same
+    bundled motion (see the Campbell Fund entry). One Public Funds seat stays open.'
+  retrieved: '2026-10-21'
