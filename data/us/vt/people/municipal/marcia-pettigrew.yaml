@@ -1,0 +1,22 @@
+# Town of Danville municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/db764176-cf65-5b7f-87e9-bdc5c7d8a24a
+name: Marcia Pettigrew
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://danvillevt.gov
+  note: 'Town of Danville, 2025 Annual Town Report, elected officers tables (pp. 10-12):
+    Listers J. Timothy Ide (term to 2028), John Blackmore (2027), and Marcia Pettigrew
+    (2026).'
+  retrieved: '2026-10-21'
+- url: https://danvillevt.gov
+  note: 'Town of Danville, DRAFT Annual Town Meeting minutes, March 3, 2026: Pettigrew
+    was re-elected lister (new term to 2029). This corrects the batch-6 build, which
+    seated two listers who appear in no Danville document (their memberships are removed)
+    and carried the post at two seats; the post is corrected to three seats.'
+  retrieved: '2026-10-21'

@@ -1,0 +1,21 @@
+# Town of Danville municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/7da801b4-cf92-540d-8a5b-8730ee891807
+name: Edward Ledo
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://danvillevt.gov
+  note: 'Town of Danville, 2025 Annual Town Report, elected officers tables (pp. 10-12):
+    Collector of Delinquent Taxes Edward Ledo (term to 2026).'
+  retrieved: '2026-10-21'
+- url: https://danvillevt.gov
+  note: 'Town of Danville, 2026 Annual Town Meeting Warning (January 15, 2026) and
+    DRAFT minutes, March 3, 2026: the warning carries a Delinquent Tax Collector article
+    and the minutes record Ed Ledo re-elected. The batch-6 build created no DTC post
+    for Danville; it is created here.'
+  retrieved: '2026-10-21'
