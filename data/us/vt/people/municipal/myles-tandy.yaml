@@ -1,0 +1,19 @@
+# Town of Hardwick municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/ebce5833-780d-5128-8d5c-1ac2c17f87d6
+name: Myles Tandy
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://hardwickvt.gov/wp-content/uploads/2026/03/2026-Town-Meeting-minutes.pdf
+  note: 'Town of Hardwick, Annual Town Meeting minutes, March 3, 2026 (floor elections):
+    Beth McIntyre was elected Library Trustee for a three-year term and Myles Tandy
+    for a one-year remainder. The minutes print ''Myles Tandy''; the Hardwick Electric
+    Department page prints a ''Myles Kamisher-Koch'' -- possibly the same person,
+    but the records are NOT merged (identity rule); both records stand and the question
+    is flagged on issue #163.'
+  retrieved: '2026-10-21'
