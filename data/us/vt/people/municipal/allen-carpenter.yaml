@@ -1,0 +1,32 @@
+# Town of Wolcott municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/1b126376-c9ac-587c-bacc-85fa20811fa7
+name: Allen Carpenter
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a selectboard'
+  retrieved: '2026-10-21'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): refers readers to the town''s own roster for
+    Wolcott'
+  retrieved: '2026-10-21'
+- url: https://wolcottvt.org/selectboard/
+  note: 'Town of Wolcott, Selectboard page (live, October 2026): Linda J. Martin (Chair),
+    Michael Paradee (Vice Chair), Kurt Billings, Allen Carpenter, and Dolan Patrick'
+  retrieved: '2026-10-21'
+- url: https://wolcottvt.org/wp-content/uploads/2026/02/Wolcott-Town-Report-2025-1.4.pdf
+  note: 'Town of Wolcott, FY2025 Town Report, officers table (published February 2026):
+    Martin (Chair), Paradee (Vice Chair), Billings (to 2027), and Carpenter (to 2028)
+    elected; the fifth seat was Richard Lee''s (to 2027). Lee has departed and Dolan
+    Patrick sits with no election record, so Patrick is minted as a vacancy appointee
+    on this hybrid post (flagged). Martin''s and Paradee''s printed terms expired
+    in 2026; both still chair the live board, so they are carried on incumbent-continuity
+    (disclosed)'
+  retrieved: '2026-10-21'
