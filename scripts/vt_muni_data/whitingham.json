@@ -1,0 +1,295 @@
+{
+ "label": "Town of Whitingham",
+ "place_slug": "whitingham",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:whitingham/government",
+ "header": "# Town of Whitingham municipal roster backfill -- Vermont\n# municipal fan-out batch 27; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Town of Whitingham Selectboard",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): names Scott Reed (Chair), Rick Gramlin, Craig Hammer, and Lyman Tefft, plus an anomalous 'Town Council' row for Bob Fisher, who is the town's counsel and not a board member"
+    },
+    {
+     "url": "https://whitinghamvt.org/TownDepartments/whitingham-selectboard",
+     "note": "Town of Whitingham, Selectboard page: names five current members -- Scott Reed (Chair), Rick Gramlin, Lyman 'Skip' Tefft Jr., Craig Hammer, and Dennis Pike"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Election%20Results%20of%2003.03.26.pdf",
+     "note": "Town of Whitingham, Election Results of March 3, 2026 (attested by Rachel Littlehale, Town Clerk): Craig Hammer was elected to the two-year seat (131 votes) and Rick Gramlin to the three-year seat (136 votes)"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Warning%20for%20Town%20Meeting%202026_0.pdf",
+     "note": "Town of Whitingham, Warning for Town Meeting 2026 (signed January 21, 2026): the board's signature block names James Weber as Vice Chair. Weber has since departed, and the board's minutes of May 7, 2026 show Dennis Pike sitting as a member; no election seated Pike, so he holds the seat as a vacancy appointee (the appointment minutes are not in the published set; flagged on issue #163)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Scott Reed",
+     "slug": "scott-reed"
+    },
+    {
+     "name": "Rick Gramlin",
+     "slug": "rick-gramlin"
+    },
+    {
+     "name": "Lyman Tefft Jr.",
+     "slug": "lyman-tefft-jr"
+    },
+    {
+     "name": "Craig Hammer",
+     "slug": "craig-hammer"
+    },
+    {
+     "name": "Dennis Pike",
+     "slug": "dennis-pike",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Town Moderator",
+   "org_name": "Town of Whitingham Town Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a moderator for a one-year term"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Election%20Results%20of%2003.03.26.pdf",
+     "note": "Town of Whitingham, Election Results of March 3, 2026 (attested by Rachel Littlehale, Town Clerk): Seth Boyd was elected Town Moderator (151 votes)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Seth Boyd",
+     "slug": "seth-boyd"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Town of Whitingham Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a town clerk"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Rachel Littlehale as Whitingham's Town Clerk"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Election%20Results%20of%2003.03.26.pdf",
+     "note": "Town of Whitingham, Election Results of March 3, 2026 (attested by Rachel Littlehale, Town Clerk): Rachel Littlehale was elected Town Clerk (143 votes) to the two years remaining on a three-year term. The term was won in 2025 by Almira Aekus (Election Night Results, March 4, 2025), who departed within the year; Aekus is not minted"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Rachel Littlehale",
+     "slug": "rachel-littlehale"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Town of Whitingham Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Annual%20Town%20Report%20fye%2006.30.24.pdf",
+     "note": "Town of Whitingham, Annual Town Report for the fiscal year ending June 30, 2024, 'Officers for the Town of Whitingham for the Year 2024': the officers table marks the Town Treasurer with the footnote '*Position will be an appointed position beginning March 5, 2025' (the town advertised the post in February 2025)"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Marylee Putnam as Whitingham's Town Treasurer"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Marylee Putnam",
+     "slug": "marylee-putnam",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Town of Whitingham Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Annual%20Town%20Report%20fye%2006.30.24.pdf",
+     "note": "Town of Whitingham, Annual Town Report for the fiscal year ending June 30, 2024, 'Officers for the Town of Whitingham for the Year 2024': the officers table marks the Delinquent Tax Collector with the same footnote -- an appointed position beginning March 5, 2025"
+    },
+    {
+     "url": "https://whitinghamvt.org/TownDepartments/collector-taxes",
+     "note": "Town of Whitingham, Collector of Taxes page: 'The town Treasurer is the collector of current and delinquent taxes'; contact person Marylee Putnam"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Marylee Putnam",
+     "slug": "marylee-putnam",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "road-commissioner",
+   "title": "Road Commissioner",
+   "org_name": "Town of Whitingham Road Commissioner",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Election%20Results%20of%2003.03.26.pdf",
+     "note": "Town of Whitingham, Election Results of March 3, 2026 (attested by Rachel Littlehale, Town Clerk): Stanley Janovsky Jr was elected Road Commissioner for a three-year term (142 votes); the 2024 officers table shows him holding the same seat on the prior cycle"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Stanley Janovsky Jr.",
+     "slug": "stanley-janovsky-jr"
+    }
+   ]
+  },
+  {
+   "slug": "library-trustee",
+   "title": "Library Trustee",
+   "org_name": "Town of Whitingham Library Trustees",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Annual%20Town%20Report%20fye%2006.30.24.pdf",
+     "note": "Town of Whitingham, Annual Town Report for the fiscal year ending June 30, 2024, 'Officers for the Town of Whitingham for the Year 2024': the library trustee lines of the officers table resolve to five seats on three-year staggered terms"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Election%20Results%20of%2003.03.26.pdf",
+     "note": "Town of Whitingham, Election Results of March 3, 2026 (attested by Rachel Littlehale, Town Clerk): Wendy Sergeant was elected Library Trustee for a three-year term (138 votes). The continuing trustees, from the March 4, 2025 Election Night Results, are Judy (Judith) Bernard and Tanya Bernard (three-year terms) and Angela Dornburgh (a two-year remainder), with Shandell Soumar seated on the 2024 table"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Wendy Sergeant",
+     "slug": "wendy-sergeant"
+    },
+    {
+     "name": "Shandell Soumar",
+     "slug": "shandell-soumar"
+    },
+    {
+     "name": "Angela Dornburgh",
+     "slug": "angela-dornburgh"
+    },
+    {
+     "name": "Tanya Bernard",
+     "slug": "tanya-bernard"
+    },
+    {
+     "name": "Judith Bernard",
+     "slug": "judith-bernard"
+    }
+   ]
+  },
+  {
+   "slug": "cemetery-commissioner",
+   "title": "Cemetery Commissioner",
+   "org_name": "Town of Whitingham Cemetery Commissioners",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Election%20Results%20of%2003.03.26.pdf",
+     "note": "Town of Whitingham, Election Results of March 3, 2026 (attested by Rachel Littlehale, Town Clerk): Bradford Lackey was elected Cemetery Commissioner for a three-year term (150 votes) and Katherine MacLean to the two years remaining on a three-year term (141 votes) -- the seat that drew no candidate in 2025"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Cemetery%20Commission%20Minutes%2009.26.26.pdf",
+     "note": "Town of Whitingham, Cemetery Commission minutes, September 29, 2026: attendees Brad Lackey, Madeline Klein, and Katherine MacLean -- the commission is these three members; Klein is the continuing member (term to 2027)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Bradford Lackey",
+     "slug": "bradford-lackey"
+    },
+    {
+     "name": "Madeline Klein",
+     "slug": "madeline-klein"
+    },
+    {
+     "name": "Katherine MacLean",
+     "slug": "katherine-maclean"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Town of Whitingham Justices of the Peace",
+   "seats": 7,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Whitingham justices of the peace: Seth Boyd, Julie Muller, Abbie Corse, Susan Cooke Johnson, Mary LeMaire, Terry Morse, and Rosemary Tefft"
+    },
+    {
+     "url": "https://whitinghamvt.org/sites/default/files/Annual%20Town%20Report%20fye%2006.30.24.pdf",
+     "note": "Town of Whitingham, Annual Town Report for the fiscal year ending June 30, 2024, 'Officers for the Town of Whitingham for the Year 2024': the prior cycle's justices table prints 'Abigail Corse' in full; the certified form 'Abbie Corse' governs the person name. Rosemary Tefft is a different person from Selectboard member Lyman Tefft Jr."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Seth Boyd",
+     "slug": "seth-boyd"
+    },
+    {
+     "name": "Julie Muller",
+     "slug": "julie-muller"
+    },
+    {
+     "name": "Abbie Corse",
+     "slug": "abbie-corse"
+    },
+    {
+     "name": "Susan Cooke Johnson",
+     "slug": "susan-cooke-johnson"
+    },
+    {
+     "name": "Mary LeMaire",
+     "slug": "mary-lemaire"
+    },
+    {
+     "name": "Terry Morse",
+     "slug": "terry-morse"
+    },
+    {
+     "name": "Rosemary Tefft",
+     "slug": "rosemary-tefft"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "whitingham-vt/2024-11-05/general",
+  "contest_id": "whitingham-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Whitingham Justice of the Peace Election 2024-11-05",
+  "filename": "whitingham-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 7,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): certifies the November 5, 2024 election of seven justices of the peace for Whitingham: Seth Boyd, Julie Muller, Abbie Corse, Susan Cooke Johnson, Mary LeMaire, Terry Morse, and Rosemary Tefft"
+   }
+  ],
+  "header": "# Town of Whitingham -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking)."
+ }
+}
