@@ -1,0 +1,20 @@
+# Town of Woodstock municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-organization/8371aa1e-e3a7-5f2e-834a-da1f2d26ea1d
+name: Town of Woodstock Town Agent
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:woodstock-85975/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: woodstock-85975-vt/town-agent
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: 17 V.S.A. section 2646 establishes the office (towns elect a town agent);
+    no official source publishes the current holder, so the post is created without
+    a membership
+  retrieved: '2026-10-21'
+- url: https://townofwoodstock.org/fileadmin/files/Boards_and_Committees/Finance_Committee/TownReport2026-Final07.30.26.pdf
+  note: 'Town of Woodstock, 2026 Annual Town Report, Elected Officials table and 2026
+    warning (Article 9): the town agent line printed VACANT (expiring 2026); the 2026
+    warning carried the election and the outcome is unpublished'
+  retrieved: '2026-10-21'
