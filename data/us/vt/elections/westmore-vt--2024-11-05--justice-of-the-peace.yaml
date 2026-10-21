@@ -1,0 +1,36 @@
+# Town of Westmore -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking).
+id: westmore-vt/2024-11-05/general
+name: Town of Westmore Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: westmore-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:westmore/government
+  office_id: westmore-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/52c0e659-1f51-5747-8722-637d28cdc57e
+  - ocd-person/5d92f7db-fd7e-5d0a-9afd-c9b321e5aae0
+  - ocd-person/9a6e0e30-1664-56d6-8bd6-306de8feb3d2
+  - ocd-person/6d8961ab-72e6-522c-ba7f-6ba8f0de2cde
+  - ocd-person/c34e8841-25a4-5b63-a34a-3d013fa5f254
+  result_status: official
+  winners:
+  - person_id: ocd-person/52c0e659-1f51-5747-8722-637d28cdc57e
+    name: Alison Valley
+  - person_id: ocd-person/5d92f7db-fd7e-5d0a-9afd-c9b321e5aae0
+    name: Christine Evans
+  - person_id: ocd-person/9a6e0e30-1664-56d6-8bd6-306de8feb3d2
+    name: Joanna Burgess
+  - person_id: ocd-person/6d8961ab-72e6-522c-ba7f-6ba8f0de2cde
+    name: Kathy L Homes
+  - person_id: ocd-person/c34e8841-25a4-5b63-a34a-3d013fa5f254
+    name: Linda Michniewicz
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of five justices of the peace for Westmore: Alison J Valley, Christine Evans,
+    Kathy L Homes, Linda Michniewicz, and Joanna Burgess'
+  retrieved: '2026-10-20'
