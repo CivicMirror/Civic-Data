@@ -1,0 +1,29 @@
+# Town of Weston municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/362c0732-b9bf-54bf-bcc1-dbf6cf744d86
+name: Donna Taranko-Moulton
+identifiers: []
+candidacies:
+- contest_id: weston-vt/2024-11-05/justice-of-the-peace
+  election_id: weston-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:weston/government
+  office_id: weston-vt/justice-of-the-peace
+  party: null
+  ballot_name: Donna Taranko-Moulton
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Weston justices of the
+    peace: Marisa Bolognese, Carolyn L. Brosseau, Wayne G. Granquist, William ''Bill''
+    Hoyt, and Donna Taranko-Moulton'
+  retrieved: '2026-10-20'
+- url: https://www.westonvt.org/s/Official-Results-11-5-2024.pdf
+  note: 'Town of Weston, ''Justice of the Peace Results, November 5, 2024'' (official
+    town PDF): confirms the same five winners. The 2025 Town Report''s JP table (Charles
+    Goodwin, Marguerite Mason) is stale and is not used'
+  retrieved: '2026-10-20'
