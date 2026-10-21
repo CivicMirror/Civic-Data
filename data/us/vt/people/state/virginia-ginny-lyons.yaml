@@ -11,6 +11,13 @@ candidacies:
   party: Democratic
   ballot_name: Virginia "Ginny" Lyons
   status: active
+- contest_id: williston-vt/2024-11-05/justice-of-the-peace
+  election_id: williston-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:williston/government
+  office_id: williston-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ginny Lyons
+  status: active
 verification:
   status: machine-extracted
   reviewed_on: '2026-10-17'
@@ -30,3 +37,9 @@ sources:
   note: 'Vermont General Assembly, All Senators directory (2025-2026 session): lists
     the sitting senator(s) for the Chittenden Southeast District.'
   retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Ginny Lyons is one of the fifteen
+    Williston justices of the peace certified from the November 5, 2024 election.
+    Appended during the Williston municipal build (VT municipal batch 27).'
+  retrieved: '2026-10-20'
