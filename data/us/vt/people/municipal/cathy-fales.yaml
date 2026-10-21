@@ -1,0 +1,19 @@
+# Town of Windham municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/0886807d-f15d-5f8c-a9b7-535c94c7410c
+name: Cathy Fales
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town treasurer'
+  retrieved: '2026-10-20'
+- url: https://townofwindhamvt.org/town-directory/
+  note: 'Town of Windham, Town Directory (live): Town Treasurer Cathy Fales. The August
+    2025 officials form names Courtney Roth, who has since departed; the turnover
+    mechanism is unpublished (flagged on issue #163)'
+  retrieved: '2026-10-20'

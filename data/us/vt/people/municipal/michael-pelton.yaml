@@ -1,0 +1,21 @@
+# Town of Windham municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/818ac95a-bb28-5813-a14f-efd662c07b5d
+name: Michael Pelton
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): refers Windham inquiries to the Town Clerk;
+    no members are named'
+  retrieved: '2026-10-20'
+- url: https://docs.google.com/document/d/1Hn2P1BtVJZt4R46Y89IMjhUREp0OSraT/edit
+  note: 'Town of Windham, ''Town Officials of Windham'' (August 2025), the town''s
+    own officials form linked from its Town Directory: Selectboard -- Kord Scott (Chair),
+    George Dutton, and Michael Pelton'
+  retrieved: '2026-10-20'

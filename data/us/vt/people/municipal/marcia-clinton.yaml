@@ -1,0 +1,29 @@
+# Town of Windham municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/92eaf45f-1588-5923-8e1a-9ec514ca8ea1
+name: Marcia Clinton
+identifiers: []
+candidacies:
+- contest_id: windham-vt/2024-11-05/justice-of-the-peace
+  election_id: windham-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:windham/government
+  office_id: windham-vt/justice-of-the-peace
+  party: null
+  ballot_name: Marcia Clinton
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Windham justices of the
+    peace: Marcia Clinton, Mary McCoy, Philip McDuffie, Alan McLaine, and Meredith
+    Tips-McLaine'
+  retrieved: '2026-10-20'
+- url: https://townofwindhamvt.org/town-directory/
+  note: 'Town of Windham, Town Directory (live), Justices of the Peace: Mary McCoy,
+    Marcia Clinton, Meredith Tips-McLaine, and Al McLaine -- four names; Philip McDuffie
+    no longer appears and is treated as a departed winner (see the election note)'
+  retrieved: '2026-10-20'

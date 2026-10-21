@@ -1,0 +1,19 @@
+# Town of Windham municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/27e87da3-9559-557b-af70-fb8a47fc1882
+name: Emily Shusdock
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town clerk'
+  retrieved: '2026-10-20'
+- url: https://townofwindhamvt.org/town-directory/
+  note: 'Town of Windham, Town Directory (live): Town Clerk Emily Shusdock. The August
+    2025 officials form and the Secretary of State''s Guide name Bea Eliastam, who
+    has since departed; the turnover mechanism is unpublished (flagged on issue #163)'
+  retrieved: '2026-10-20'
