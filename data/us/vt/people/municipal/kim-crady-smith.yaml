@@ -1,0 +1,36 @@
+# Town of Wheelock municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/5f1dd330-90f0-5809-ae0a-f4eb0b5a2fa9
+name: Kim Crady-Smith
+identifiers: []
+candidacies:
+- contest_id: wheelock-vt/2024-11-05/justice-of-the-peace
+  election_id: wheelock-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wheelock/government
+  office_id: wheelock-vt/justice-of-the-peace
+  party: null
+  ballot_name: Kim Crady-Smith
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of auditors'
+  retrieved: '2026-10-20'
+- url: https://townofwheelockvt.org/contacts
+  note: 'Town of Wheelock, town contacts page (townofwheelockvt.org): Auditors Kim
+    Crady-Smith (2027), Scott Lange (2028), and Enid Ellis (2029), all labeled Elected'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists four Wheelock justices of the
+    peace: Carol Rossi, Kim Crady-Smith, Eileen Boland, and Steve Amos'
+  retrieved: '2026-10-20'
+- url: https://townofwheelockvt.org/contacts
+  note: 'Town of Wheelock, town contacts page (townofwheelockvt.org): the town page
+    lists five sitting justices of the peace -- the four certified winners plus Sharon
+    Fialco, who has no election record; she is seated as an appointee to the fifth
+    seat (the appointment mechanism is unpublished; flagged on issue #163)'
+  retrieved: '2026-10-20'

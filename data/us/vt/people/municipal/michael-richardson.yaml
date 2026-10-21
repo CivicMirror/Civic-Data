@@ -1,0 +1,22 @@
+# Town of Wheelock municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/c6886bb2-4e5f-5f1d-a4ef-0bf188a552f2
+name: Michael Richardson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Ann Lawless (Chair), Charlton Dill, and
+    Michael Richardson'
+  retrieved: '2026-10-20'
+- url: https://townofwheelockvt.org/contacts
+  note: 'Town of Wheelock, town contacts page (townofwheelockvt.org): Selectboard
+    -- Ann Lawless (Chair, to 2028), Chuck Dill (to 2027), and Michael Richardson
+    (Vice Chair, to 2029), all labeled Elected; the directory''s full form Charlton
+    Dill governs over the page''s ''Chuck'''
+  retrieved: '2026-10-20'
