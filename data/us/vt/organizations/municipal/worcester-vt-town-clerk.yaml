@@ -1,0 +1,23 @@
+# Town of Worcester municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-organization/ee67dfdb-562e-5966-bdcb-c44e975508bb
+name: Town of Worcester Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:worcester/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: worcester-vt/town-clerk
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town clerk'
+  retrieved: '2026-10-21'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Jennifer LeStat
+    as Worcester''s Town Clerk'
+  retrieved: '2026-10-21'
+- url: https://worcestervt.org/wp/public_html/wp/wp-content/uploads/2026/03/Worcester-Town-Meeting-3.3.2026.pdf
+  note: 'Town of Worcester, official minutes of the annual town meeting, March 3,
+    2026: Town Clerk Jennifer LeStat declared the polls open for the Australian ballot
+    items and signed the minutes as Town Clerk'
+  retrieved: '2026-10-21'

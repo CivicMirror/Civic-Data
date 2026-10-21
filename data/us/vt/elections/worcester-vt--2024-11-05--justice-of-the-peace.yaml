@@ -1,0 +1,36 @@
+# Town of Worcester -- justice of the peace election (VT municipal batch 28); issue #163 (VT master tracking).
+id: worcester-vt/2024-11-05/general
+name: Town of Worcester Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: worcester-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:worcester/government
+  office_id: worcester-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/e66c66a8-9fd5-5624-95d4-8ca265bf4d79
+  - ocd-person/7cda4135-ddc8-5162-a693-2798ba7ef79c
+  - ocd-person/73955eda-0dea-57f5-a732-9316ecda60af
+  - ocd-person/a7301695-19f6-53f8-8f90-08132de553ee
+  - ocd-person/6285b97a-8d60-5235-b47d-e6d4981dcb79
+  result_status: official
+  winners:
+  - person_id: ocd-person/e66c66a8-9fd5-5624-95d4-8ca265bf4d79
+    name: Angelica Angie Romero
+  - person_id: ocd-person/7cda4135-ddc8-5162-a693-2798ba7ef79c
+    name: Marcia Mimi Hill
+  - person_id: ocd-person/73955eda-0dea-57f5-a732-9316ecda60af
+    name: Michele Hill
+  - person_id: ocd-person/a7301695-19f6-53f8-8f90-08132de553ee
+    name: Paul Hanlon
+  - person_id: ocd-person/6285b97a-8d60-5235-b47d-e6d4981dcb79
+    name: Sara Baker
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of five justices of the peace for Worcester: Paul Hanlon, Marcia Mimi Hill, Michele
+    Hill, Sara Baker, and Angelica Angie Romero'
+  retrieved: '2026-10-21'

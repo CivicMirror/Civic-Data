@@ -1,0 +1,33 @@
+# Town of Worcester municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/6d115837-87d8-5304-a291-2c77e919e451
+name: Heather Pagel
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town treasurer'
+  retrieved: '2026-10-21'
+- url: https://worcestervt.org/wp/directory
+  note: 'Town of Worcester, Directory page (live): ''Town Treasurer/Tax Collector/Delinquent
+    Taxes/Billing: Heather Pagel'' at the treasurer''s email address, and Delinquent
+    Tax Collector Katie Miller listed separately. The Secretary of State''s Guide
+    (January 2026) and June 2026 spreadsheet name Katie Miller as treasurer, so a
+    turnover occurred in 2026; its mechanism is unpublished, and Pagel is minted as
+    an appointee (the vacancy-appointment reading) -- flagged on issue #163'
+  retrieved: '2026-10-21'
+- url: https://legislature.vermont.gov/statutes/section/18/121/05373
+  note: 18 V.S.A. section 5373 provides for a three-member board of cemetery commissioners
+    on staggered terms
+  retrieved: '2026-10-21'
+- url: https://worcestervt.org/wp/public_html/wp/wp-content/uploads/2026/03/Worcester-Town-Meeting-3.3.2026.pdf
+  note: 'Town of Worcester, official minutes of the annual town meeting, March 3,
+    2026: Article 5 -- Heather Pagel was elected Cemetery Commissioner for a term
+    of three years. The board''s size (3) follows the statute''s three-member pattern
+    and the single-seat three-year election in the minutes -- a flagged derivation;
+    the other two seats'' holders are unpublished'
+  retrieved: '2026-10-21'
