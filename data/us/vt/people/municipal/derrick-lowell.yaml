@@ -1,0 +1,20 @@
+# Town of Wolcott municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/61b583e8-3901-53c1-8a95-275b6db1ee08
+name: Derrick Lowell
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://wolcottvt.org/
+  note: 'Town of Wolcott, Annual Town Meeting minutes, March 3, 2026 (read from the
+    town''s official site; the site serves a captcha interstitial to direct fetches,
+    so the minutes were read in the browser): Lucien Gravel was elected Cemetery Commissioner
+    for a five-year term and Derrick Lowell for a four-year term, completing the five-member
+    commission. The commission''s own page lists six names, including Belinda Clegg
+    (the town clerk); the minutes'' elected set and the five-seat count leave no seat
+    for her and she is not minted.'
+  retrieved: '2026-10-21'
