@@ -1,0 +1,19 @@
+# Town of Weybridge municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/8ec83c72-173a-5cae-b506-1e0e4680aba4
+name: Kristin Bowdish
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/167
+  note: '24 App. V.S.A. ch. 167 (Town of Weybridge): sec. 103: the Selectboard appoints
+    other town officers, including the Constable'
+  retrieved: '2026-10-20'
+- url: https://weybridgevt.govoffice.com/vertical/Sites/%7B69F46EA2-C090-426C-A030-0C9E82EFF0C1%7D/uploads/Town_Report_2025.pdf
+  note: 'Town of Weybridge, 2025 Town Report, officers table (pp. 5-8): Constable
+    Kristin Bowdish, shown as an appointed officer'
+  retrieved: '2026-10-20'

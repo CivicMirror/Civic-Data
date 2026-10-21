@@ -1,0 +1,36 @@
+# Town of Weybridge -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking).
+id: weybridge-vt/2024-11-05/general
+name: Town of Weybridge Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: weybridge-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:weybridge/government
+  office_id: weybridge-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/49aba21a-d23c-5e67-82b6-4c448ed6c2d9
+  - ocd-person/6647a2a1-5a47-56b4-88a1-eddc52ab2f97
+  - ocd-person/f920575e-d27e-5b87-8ca7-475226a5bac7
+  - ocd-person/0db1642d-3307-585f-a340-0ac9d481c177
+  - ocd-person/2df1c8df-f253-5106-9f14-e839c78f4e57
+  result_status: official
+  winners:
+  - person_id: ocd-person/49aba21a-d23c-5e67-82b6-4c448ed6c2d9
+    name: Amy Mason
+  - person_id: ocd-person/6647a2a1-5a47-56b4-88a1-eddc52ab2f97
+    name: Heather Neuwirth Lovejoy
+  - person_id: ocd-person/f920575e-d27e-5b87-8ca7-475226a5bac7
+    name: Jamie K. McCallum
+  - person_id: ocd-person/0db1642d-3307-585f-a340-0ac9d481c177
+    name: Megan Sutton
+  - person_id: ocd-person/2df1c8df-f253-5106-9f14-e839c78f4e57
+    name: Peter James
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of five justices of the peace for Weybridge: Peter James, Amy Mason, Megan Sutton,
+    Jamie K. McCallum, and Heather Neuwirth Lovejoy'
+  retrieved: '2026-10-20'
