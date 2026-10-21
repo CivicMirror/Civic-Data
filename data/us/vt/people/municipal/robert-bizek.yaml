@@ -1,0 +1,19 @@
+# Town of Benson municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/5d91f7cd-8799-565a-8626-d61e79aee0f6
+name: Robert Bizek
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://bensonvermont.gov/
+  note: 'Town of Benson, Annual Town Meeting minutes, February 28 and March 3, 2026
+    (floor elections): Lynn Bowen was elected auditor.'
+  retrieved: '2026-10-21'
+- url: https://bensonvermont.gov/
+  note: 'Town of Benson, 2024-2025 Annual Report, elected officers table (term-continuity):
+    auditors Cheryl Murray (term to 2027) and Robert Bizek (term to 2028).'
+  retrieved: '2026-10-21'
