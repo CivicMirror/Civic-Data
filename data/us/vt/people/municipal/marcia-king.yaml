@@ -1,0 +1,23 @@
+# Town of Whiting municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/c75c9ab3-57c7-5c64-8da6-6a04d9d8e0f9
+name: Marcia King
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists only Steven Quenneville for Whiting --
+    a thin directory entry'
+  retrieved: '2026-10-20'
+- url: https://www.whitingvt.com/documents
+  note: 'Town of Whiting, Selectboard minutes (town site): the August 24, 2026 minutes''
+    attendance line names the board as ''SB- Bob Wood, Steve Quenneville, Marcia King'';
+    the July 27, 2026 minutes concur. The minutes print ''Bob'' and ''Steve''; the
+    directory and factory full forms (Robert Wood, Steven Quenneville, Marcia King)
+    govern the person names'
+  retrieved: '2026-10-20'
