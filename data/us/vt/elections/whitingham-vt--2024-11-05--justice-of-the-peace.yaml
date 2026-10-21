@@ -1,0 +1,42 @@
+# Town of Whitingham -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking).
+id: whitingham-vt/2024-11-05/general
+name: Town of Whitingham Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: whitingham-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:whitingham/government
+  office_id: whitingham-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/3d3346fc-f670-5ef2-a75e-a9d3798591cf
+  - ocd-person/1ed113f1-577b-5828-b6fa-62fa94064d8c
+  - ocd-person/1b26d2f2-bfc7-50e3-ba24-2db9407dbe07
+  - ocd-person/f2a04a8d-dd3c-5331-a3ca-fdc3c2c9bd16
+  - ocd-person/81fe73d0-a1a5-5f2f-bcc7-fe41defa9c8b
+  - ocd-person/d7615503-0f01-51aa-9f9e-d7a0a1f91c77
+  - ocd-person/54c5598c-400e-5c9b-978c-704f50078665
+  result_status: official
+  winners:
+  - person_id: ocd-person/3d3346fc-f670-5ef2-a75e-a9d3798591cf
+    name: Abbie Corse
+  - person_id: ocd-person/1ed113f1-577b-5828-b6fa-62fa94064d8c
+    name: Julie Muller
+  - person_id: ocd-person/1b26d2f2-bfc7-50e3-ba24-2db9407dbe07
+    name: Mary LeMaire
+  - person_id: ocd-person/f2a04a8d-dd3c-5331-a3ca-fdc3c2c9bd16
+    name: Rosemary Tefft
+  - person_id: ocd-person/81fe73d0-a1a5-5f2f-bcc7-fe41defa9c8b
+    name: Seth Boyd
+  - person_id: ocd-person/d7615503-0f01-51aa-9f9e-d7a0a1f91c77
+    name: Susan Cooke Johnson
+  - person_id: ocd-person/54c5598c-400e-5c9b-978c-704f50078665
+    name: Terry Morse
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of seven justices of the peace for Whitingham: Seth Boyd, Julie Muller, Abbie
+    Corse, Susan Cooke Johnson, Mary LeMaire, Terry Morse, and Rosemary Tefft'
+  retrieved: '2026-10-20'
