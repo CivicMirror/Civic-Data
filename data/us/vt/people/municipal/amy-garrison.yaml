@@ -1,0 +1,17 @@
+# Town of Vernon municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/f46f9fc1-f9fe-5b1e-a885-73fabd265ee6
+name: Amy Garrison
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://vernonvt.org/board-of-listers
+  note: 'Town of Vernon, Board of Listers page (live, raw HTML callout): ''Lister
+    ( Appointed-unexpired term) - Amy Garrison''. Currency flag (issue #163): Jesse
+    Jobin, minted as a 2026 winner in the municipal fan-out, does not appear on the
+    page; his record is not changed on a page omission alone.'
+  retrieved: '2026-10-21'
