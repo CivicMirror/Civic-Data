@@ -1,0 +1,16 @@
+# Town of Wilmington municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-organization/3e02fa7a-da68-5adc-9f2b-13ed7c6d53ec
+name: Town of Wilmington Trustees of C.C. Haynes Fund
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wilmington/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: wilmington-vt/trustee-of-cc-haynes-fund
+status: active
+sources:
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/02/Town-Report-Final.pdf
+  note: 'Town of Wilmington, 2025 Town Report, ''2025 Town Officers, Boards, and Commissions'':
+    the elected officials table carries the heading ''Trustee of C.C. Haynes Fund''
+    with no holder named; the seat count is also unpublished, so the post is created
+    with one seat and no membership, flagged on issue #163'
+  retrieved: '2026-10-20'

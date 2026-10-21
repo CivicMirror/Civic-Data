@@ -1,0 +1,39 @@
+# Town of Wilmington -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking).
+id: wilmington-vt/2024-11-05/general
+name: Town of Wilmington Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: wilmington-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wilmington/government
+  office_id: wilmington-vt/justice-of-the-peace
+  vote_for: 6
+  candidate_ids:
+  - ocd-person/a7f5eda7-3bd4-5f05-9040-248a10f3252d
+  - ocd-person/f2c9be95-5b38-5038-ab41-6407b3c875d1
+  - ocd-person/5d8d3467-7ac5-555e-8c8f-026d769ac139
+  - ocd-person/1a0217fb-8d9e-5740-9caa-d238cd4eb354
+  - ocd-person/58b6aaf5-3083-5bcb-8e26-c6110adb93c0
+  result_status: official
+  winners:
+  - person_id: ocd-person/a7f5eda7-3bd4-5f05-9040-248a10f3252d
+    name: Andrew Kirkman
+  - person_id: ocd-person/f2c9be95-5b38-5038-ab41-6407b3c875d1
+    name: Bonnie L. Lorimer
+  - person_id: ocd-person/5d8d3467-7ac5-555e-8c8f-026d769ac139
+    name: John Lebron
+  - person_id: ocd-person/1a0217fb-8d9e-5740-9caa-d238cd4eb354
+    name: Margaret "Meg" Streeter
+  - person_id: ocd-person/58b6aaf5-3083-5bcb-8e26-c6110adb93c0
+    name: Polly "Nicki" Steel
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of six justices of the peace for Wilmington: Bonnie L. Lorimer, Margaret ''Meg''
+    Streeter, Joanne Fowler, Andrew Kirkman, John Lebron, and Polly ''Nicki'' Steel.
+    Fowler is not carried as a winner: the town''s 2025 Town Report roster shows Matthew
+    Moore sitting in her place, so she is treated as a departed winner and excluded
+    entirely (the contest''s vote_for remains six); Moore sits as an appointee'
+  retrieved: '2026-10-20'

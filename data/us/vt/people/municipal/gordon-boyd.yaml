@@ -1,0 +1,20 @@
+# Town of Wilmington municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/7c524f6c-38a0-55ea-a12e-0c69c767999d
+name: Gordon Boyd
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect constables'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/03/TM-Cert-of-Votes-Wilmington-2026-1.pdf
+  note: 'Town of Wilmington, Certificate of Votes for March 3, 2026 (attested by Therese
+    M. Lounsbury, Town Clerk): Gordon ''Joe'' Boyd was elected First Constable (191
+    votes). He held the Second Constable office in 2025; the 2025 First Constable,
+    Gary Wax, has departed'
+  retrieved: '2026-10-20'

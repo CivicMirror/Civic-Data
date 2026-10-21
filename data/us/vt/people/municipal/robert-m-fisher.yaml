@@ -1,0 +1,18 @@
+# Town of Wilmington municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/ece1cbab-3d1e-51e3-a8aa-570960c1d30e
+name: Robert M. Fisher
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a moderator for a one-year term'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/03/TM-Cert-of-Votes-Wilmington-2026-1.pdf
+  note: 'Town of Wilmington, Certificate of Votes for March 3, 2026 (attested by Therese
+    M. Lounsbury, Town Clerk): Robert M. Fisher was elected Town Moderator (202 votes)'
+  retrieved: '2026-10-20'
