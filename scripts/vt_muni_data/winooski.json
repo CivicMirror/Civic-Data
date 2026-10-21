@@ -1,0 +1,208 @@
+{
+ "label": "City of Winooski",
+ "place_slug": "winooski",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:winooski/government",
+ "header": "# City of Winooski municipal roster backfill -- Vermont\n# municipal fan-out batch 28; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "mayor",
+   "title": "Mayor",
+   "org_name": "City of Winooski Mayor",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/19",
+     "note": "24 App. V.S.A. ch. 19 (City of Winooski): sec. 303 provides for a mayor serving a three-year term; sec. 301 vests the city's legislative body in the mayor and four councilors"
+    },
+    {
+     "url": "https://winooskivt.gov/DocumentCenter/View/10778",
+     "note": "City of Winooski, Official Return of Votes, March 3, 2026 (certified by City Clerk Jenny Willingham): Thomas Renner elected Mayor in 2026 (780 votes) to the one-year remainder of the unexpired mayoral term"
+    },
+    {
+     "url": "https://winooskivt.gov/1473/City-Council",
+     "note": "City of Winooski, City Council page (live): Mayor Thomas Renner, term expiring March 2, 2027"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Thomas Renner",
+     "slug": "thomas-renner"
+    }
+   ]
+  },
+  {
+   "slug": "city-councilor",
+   "title": "City Councilor",
+   "org_name": "City of Winooski City Council",
+   "seats": 4,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/19",
+     "note": "24 App. V.S.A. ch. 19 (City of Winooski): sec. 301: the council consists of the mayor and four councilors elected at large for staggered two-year terms"
+    },
+    {
+     "url": "https://winooskivt.gov/DocumentCenter/View/10778",
+     "note": "City of Winooski, Official Return of Votes, March 3, 2026 (certified by City Clerk Jenny Willingham): Elsie Goodrich (727 votes), Eli Ogilvie (651), and Al Turkos (722, one-year remainder of a two-year term) elected in 2026"
+    },
+    {
+     "url": "https://winooskivt.gov/1473/City-Council",
+     "note": "City of Winooski, City Council page (live): Bryn Oakleaf (Deputy Mayor, term to March 2, 2027), Elsie Goodrich, Eli Ogilvie, and Al Turkos"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Bryn Oakleaf",
+     "slug": "bryn-oakleaf"
+    },
+    {
+     "name": "Elsie Goodrich",
+     "slug": "elsie-goodrich"
+    },
+    {
+     "name": "Eli Ogilvie",
+     "slug": "eli-ogilvie"
+    },
+    {
+     "name": "Al Turkos",
+     "slug": "al-turkos"
+    }
+   ]
+  },
+  {
+   "slug": "city-clerk",
+   "title": "City Clerk",
+   "org_name": "City of Winooski City Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/19",
+     "note": "24 App. V.S.A. ch. 19 (City of Winooski): sec. 506(b)-(c): city officers other than the council are appointed by the city manager; the city clerk is enumerated among the appointive offices"
+    },
+    {
+     "url": "https://winooskivt.gov/152/City-Clerks-Office",
+     "note": "City of Winooski, City Clerk's Office page: Jenny Willingham is the City Clerk; she certified the March 3, 2026 return of votes in that office"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jenny Willingham",
+     "slug": "jenny-willingham",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "city-treasurer",
+   "title": "City Treasurer",
+   "org_name": "City of Winooski City Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/19",
+     "note": "24 App. V.S.A. ch. 19 (City of Winooski): sec. 506(a)-(b): the city has the officers provided by law for towns, and all officers other than the council are appointed by the city manager; no treasurer is enumerated in sec. 506(c), so the appointment basis is the sec. 506(a)/(b) reading, disclosed on issue #163"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx",
+     "note": "Vermont Secretary of State, Elections Division, town treasurer contact spreadsheet (updated June 12, 2026): lists Johnathan Fenney as Winooski's City Treasurer (the Guide prints 'John Fenney'; the June 2026 spreadsheet's fuller form is minted)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Johnathan Fenney",
+     "slug": "johnathan-fenney",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "City of Winooski Justices of the Peace",
+   "seats": 15,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists fifteen Winooski justices of the peace: Daisy Berbeco, Stewart Ledbetter, Katherine Decarreau, Susan O'Brien, Taylor Small, Emily Bowers, Thomas Renner, Steven Berbeco, Chloe Tomlinson, George Cross, Michael O'Brien, Diana Gonzalez, Thea Wurzburg, Bridget Ahrens, and Mary Hussmann"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Daisy Berbeco",
+     "slug": "daisy-berbeco",
+     "existing_person_id": "ocd-person/a7fdd2dc-e7e7-5bbb-ab6e-6a7f05fdf575"
+    },
+    {
+     "name": "Stewart Ledbetter",
+     "slug": "stewart-ledbetter"
+    },
+    {
+     "name": "Katherine Decarreau",
+     "slug": "katherine-decarreau"
+    },
+    {
+     "name": "Susan O'Brien",
+     "slug": "susan-o-brien"
+    },
+    {
+     "name": "Taylor Small",
+     "slug": "taylor-small"
+    },
+    {
+     "name": "Emily Bowers",
+     "slug": "emily-bowers"
+    },
+    {
+     "name": "Thomas Renner",
+     "slug": "thomas-renner"
+    },
+    {
+     "name": "Steven Berbeco",
+     "slug": "steven-berbeco"
+    },
+    {
+     "name": "Chloe Tomlinson",
+     "slug": "chloe-tomlinson",
+     "existing_person_id": "ocd-person/6ef197ee-cdde-5fb4-92fb-00b3acd767c0"
+    },
+    {
+     "name": "George Cross",
+     "slug": "george-cross"
+    },
+    {
+     "name": "Michael O'Brien",
+     "slug": "michael-o-brien"
+    },
+    {
+     "name": "Diana Gonzalez",
+     "slug": "diana-gonzalez"
+    },
+    {
+     "name": "Thea Wurzburg",
+     "slug": "thea-wurzburg"
+    },
+    {
+     "name": "Bridget Ahrens",
+     "slug": "bridget-ahrens"
+    },
+    {
+     "name": "Mary Hussmann",
+     "slug": "mary-hussmann"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "winooski-vt/2024-11-05/general",
+  "contest_id": "winooski-vt/2024-11-05/justice-of-the-peace",
+  "name": "City of Winooski Justice of the Peace Election 2024-11-05",
+  "filename": "winooski-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 15,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): certifies the November 5, 2024 election of fifteen justices of the peace for Winooski: Daisy Berbeco, Stewart Ledbetter, Katherine Decarreau, Susan O'Brien, Taylor Small, Emily Bowers, Thomas Renner, Steven Berbeco, Chloe Tomlinson, George Cross, Michael O'Brien, Diana Gonzalez, Thea Wurzburg, Bridget Ahrens, and Mary Hussmann. Berbeco and Tomlinson are Winooski's Chittenden-21 state representatives; their existing state-tier records are reused and the JP candidacies are appended to them"
+   }
+  ],
+  "header": "# City of Winooski -- justice of the peace election (VT municipal batch 28); issue #163 (VT master tracking)."
+ }
+}

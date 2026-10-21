@@ -42,7 +42,7 @@ import yaml
 
 REPO = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO / "data" / "us" / "vt"
-RETRIEVED = "2026-10-20"
+RETRIEVED = "2026-10-21"
 
 NS = uuid.UUID("6f3f1c2a-6b2b-5a2b-9b8a-1e6a7f9c2d4e")
 
