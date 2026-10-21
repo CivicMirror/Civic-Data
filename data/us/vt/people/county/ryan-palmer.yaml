@@ -11,6 +11,13 @@ candidacies:
   party: Democratic
   ballot_name: Ryan Palmer
   status: active
+- contest_id: windsor-vt/2024-11-05/justice-of-the-peace
+  election_id: windsor-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:windsor/government
+  office_id: windsor-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ryan Palmer
+  status: active
 verification:
   status: machine-extracted
   reviewed_on: '2026-10-17'
@@ -30,3 +37,10 @@ sources:
     page: lists Ward Goodenough as State''s Attorney and Ryan Palmer as Sheriff --
     the sitting holders as of the retrieval date.'
   retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Ryan Palmer is one of the twelve
+    Windsor justices of the peace certified from the November 5, 2024 election.
+    Appended during the Windsor municipal build (VT municipal batch 28); he also
+    sits as Windsor County''s elected Sheriff.'
+  retrieved: '2026-10-21'
