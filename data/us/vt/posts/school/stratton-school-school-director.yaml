@@ -1,0 +1,24 @@
+# School-district tier; issue #163 (VT master tracking).
+id: stratton-school/school-director
+organization_id: ocd-organization/a066423d-0ef7-55ba-b6f6-d2d60802ae80
+title: School Director
+seats: 5
+sources:
+- url: https://www.windhamcentral.org/stratton-board-members
+  note: 'Windham Central SU "Stratton Board Members" page (official), read
+    from the page''s raw HTML on 2026-10-22 -- the member names are dropped
+    by rendered-text extraction (the River Valleys batch-8 pattern) but are
+    present in the HTML: Melissa Walker (Chairperson), term length 3, expiry
+    2027; Joe Frigo (Vice-Chairperson), term length 1, expiry 2026; Morgan
+    Taylor (Clerk), term length 3, expiry 2029; Kellie D''Elia-Laskin
+    (Member), term length 3, expiry 2026; Maddie Mindich (Member), no term
+    data published. Taylor''s 2029 expiry shows the page was touched after
+    the March 2026 election, but Frigo''s and D''Elia-Laskin''s cards still
+    show terms expiring at that election -- internally inconsistent about
+    currency, so Frigo and D''Elia-Laskin are HELD (resolving document: the
+    March 3, 2026 Stratton SD annual meeting warning/minutes or return, Town
+    Clerk). Walker, Taylor and Mindich are minted off the current roster
+    (Mindich with no end -- none is published for her). Board size five is
+    as the SU page presents the board (a section 423(b) expansion implied,
+    the vote itself not fetched).'
+  retrieved: '2026-10-22'
