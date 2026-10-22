@@ -1,0 +1,95 @@
+{
+ "label": "Village of Marshfield",
+ "place_slug": "marshfield",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:marshfield/government",
+ "header": "# Village of Marshfield -- minted as it stands at Walter's direction, 2026-10-22; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "village-president",
+   "title": "Village President",
+   "org_name": "Village of Marshfield",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://sos.vermont.gov/vsara/learn/municipalities/incorporated-villages",
+     "note": "Roster as it currently stands, minted at Walter's direction 2026-10-22 (no new information was found): the Village of Marshfield publishes no officer roster and has no website; the only roster is the reply of the Village Clerk/Treasurer (Meg Eberhardt) to a records inquiry, as logged in the VT Jurisdiction Factory workbook's source evidence (src-vt-reply-063-marshfield-clerk): President Arthur Gilman; Trustees Marie Olson-Badeau, Tamara McKee and Nicole Auerbach; the board totals five seats including the president, with one trustee seat vacant. Auerbach's role term is logged APPOINTED (2026-09-23), consistent with a mid-term vacancy appointment; the others are recorded elected. URL given is the Secretary of State's incorporated-villages list, which carries the village itself; the roster rests on the clerk's reply as stated.",
+     "retrieved": "2026-10-22"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Arthur Gilman",
+     "slug": "arthur-gilman"
+    }
+   ]
+  },
+  {
+   "slug": "village-trustee",
+   "title": "Village Trustee",
+   "org_name": "Marshfield Village Board of Trustees",
+   "seats": 4,
+   "sources": [
+    {
+     "url": "https://sos.vermont.gov/vsara/learn/municipalities/incorporated-villages",
+     "note": "Roster as it currently stands, minted at Walter's direction 2026-10-22 (no new information was found): the Village of Marshfield publishes no officer roster and has no website; the only roster is the reply of the Village Clerk/Treasurer (Meg Eberhardt) to a records inquiry, as logged in the VT Jurisdiction Factory workbook's source evidence (src-vt-reply-063-marshfield-clerk): President Arthur Gilman; Trustees Marie Olson-Badeau, Tamara McKee and Nicole Auerbach; the board totals five seats including the president, with one trustee seat vacant. Auerbach's role term is logged APPOINTED (2026-09-23), consistent with a mid-term vacancy appointment; the others are recorded elected. URL given is the Secretary of State's incorporated-villages list, which carries the village itself; the roster rests on the clerk's reply as stated. Trustee seats are modeled as four (five board seats including the separately modeled president), three filled and one vacant.",
+     "retrieved": "2026-10-22"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Marie Olson-Badeau",
+     "slug": "marie-olson-badeau"
+    },
+    {
+     "name": "Tamara McKee",
+     "slug": "tamara-mckee"
+    },
+    {
+     "name": "Nicole Auerbach",
+     "slug": "nicole-auerbach",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "village-clerk",
+   "title": "Village Clerk",
+   "org_name": "Village of Marshfield",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://sos.vermont.gov/vsara/learn/municipalities/incorporated-villages",
+     "note": "The clerk's reply logged in the VT Jurisdiction Factory (src-vt-reply-063-marshfield-clerk) is attributed to 'Village of Marshfield, Inc. -- Clerk/Treasurer Meg Eberhardt'; she is recorded as the village's Clerk on that attribution, minted at Walter's direction 2026-10-22 as the village currently stands. She is the Town of Marshfield's lister and a justice of the peace in this dataset; this membership reuses that person record.",
+     "retrieved": "2026-10-22"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Margaret Eberhardt",
+     "slug": "margaret-eberhardt",
+     "person_scope": "marshfield-43600"
+    }
+   ]
+  },
+  {
+   "slug": "village-treasurer",
+   "title": "Village Treasurer",
+   "org_name": "Village of Marshfield",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://sos.vermont.gov/vsara/learn/municipalities/incorporated-villages",
+     "note": "Same attribution as the village-clerk record: the clerk's reply logged in the VT Jurisdiction Factory is attributed to 'Village of Marshfield, Inc. -- Clerk/Treasurer Meg Eberhardt'; she is recorded as the village's Treasurer on that attribution, minted at Walter's direction 2026-10-22.",
+     "retrieved": "2026-10-22"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Margaret Eberhardt",
+     "slug": "margaret-eberhardt",
+     "person_scope": "marshfield-43600"
+    }
+   ]
+  }
+ ]
+}
