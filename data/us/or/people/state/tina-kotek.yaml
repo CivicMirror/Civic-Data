@@ -1,0 +1,33 @@
+# Oregon Governor -- step 1 of the build order (post + holder together);
+# issue #170 (OR master tracking).
+id: ocd-person/f6a3b9f6-9e4d-5bc7-81b7-5e825fb9c111
+name: Tina Kotek
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/governor
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/governor
+  party: Democratic
+  ballot_name: Tina Kotek
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_governor
+sources:
+- url: https://sos.oregon.gov/elections/Documents/results/november-general-2022.pdf
+  note: 'Oregon Secretary of State, Elections Division, November 8, 2022 General Election
+    Abstract of Votes (certified county-by-county abstract). For Governor: Tina Kotek
+    (D) 917,074 votes, marked ** as elected; Christine Drazan (R) 850,347; Betsy Johnson
+    (NAV) 168,431; Donice Noelle Smith (C) 8,051; R Leon Noble (L) 6,867; miscellaneous
+    write-ins 2,113. Kotek won by a plurality of 66,727 votes. Party labels are as
+    printed in the abstract: (D) Democratic, (R) Republican, (NAV) Nonaffiliated,
+    (C) Constitution, (L) Libertarian. Kotek was sworn in on January 9, 2023; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-23'
+- url: https://www.oregon.gov/gov/pages/meet-the-governor.aspx
+  note: 'Official site of the Governor of Oregon (oregon.gov), ''Meet the Governor'':
+    names Tina Kotek as Governor of Oregon and records that she was elected on November
+    8, 2022 -- confirms her as the sitting Governor as of the retrieval date.'
+  retrieved: '2026-10-23'
