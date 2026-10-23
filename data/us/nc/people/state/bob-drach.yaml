@@ -1,0 +1,21 @@
+# Minted from the NC State Board of Elections official Nov. 5, 2024
+# general election results (Council of State worked example,
+# Civic-Data issue #172).
+id: ocd-person/3ab95a81-7879-567d-9157-53cbe8e06284
+name: Bob Drach
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/state-auditor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/state-auditor
+  party: Libertarian
+  ballot_name: 'Bob Drach'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_council_of_state
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Auditor -- Dave Boliek (REP) 2,729,780; Jessica Holmes (DEM) 2,633,607; Bob Drach (LIB) 167,701. Dave Boliek won with 2,729,780 votes.'
+  retrieved: '2026-10-23'

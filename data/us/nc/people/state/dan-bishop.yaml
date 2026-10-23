@@ -1,0 +1,21 @@
+# Minted from the NC State Board of Elections official Nov. 5, 2024
+# general election results (Council of State worked example,
+# Civic-Data issue #172).
+id: ocd-person/f808d2ed-2314-59af-8654-72400920010f
+name: Dan Bishop
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/attorney-general
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/attorney-general
+  party: Republican
+  ballot_name: 'Dan Bishop'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_council_of_state
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Attorney General -- Jeff Jackson (DEM) 2,874,960; Dan Bishop (REP) 2,715,411. Jeff Jackson won with 2,874,960 votes.'
+  retrieved: '2026-10-23'

@@ -3,7 +3,14 @@
 id: ocd-person/85d69e57-fb4b-580b-aaf6-848e8393b762
 name: Steve Troxler
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/commissioner-of-agriculture
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/commissioner-of-agriculture
+  party: Republican
+  ballot_name: 'Steve Troxler'
+  status: active
 verification:
   status: unverified
   pipeline: manual
@@ -11,3 +18,6 @@ sources:
 - url: https://www.nc.gov/your-government/executive
   note: Official nc.gov executive branch directory, confirmed against the NCSBE-certified Nov. 5, 2024 general election results
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Commissioner of Agriculture -- Steve Troxler (REP) 2,922,483; Sarah Taber (DEM) 2,496,474; Sean Haugh (LIB) 135,513. Steve Troxler won with 2,922,483 votes.'
+  retrieved: '2026-10-23'

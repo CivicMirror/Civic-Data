@@ -3,7 +3,14 @@
 id: ocd-person/d59e0c85-1ae4-5449-a144-e009561e68eb
 name: Rachel Hunt
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/lieutenant-governor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/lieutenant-governor
+  party: Democratic
+  ballot_name: 'Rachel Hunt'
+  status: active
 verification:
   status: unverified
   pipeline: manual
@@ -11,3 +18,6 @@ sources:
 - url: https://www.nc.gov/your-government/executive
   note: Official nc.gov executive branch directory, confirmed against the NCSBE-certified Nov. 5, 2024 general election results
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Lieutenant Governor -- Rachel Hunt (DEM) 2,768,539; Hal Weatherman (REP) 2,663,183; Shannon W. Bray (LIB) 104,192; Wayne Jones (CST) 53,938. Rachel Hunt won with 2,768,539 votes.'
+  retrieved: '2026-10-23'
