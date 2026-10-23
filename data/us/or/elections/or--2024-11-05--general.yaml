@@ -1,0 +1,43 @@
+# Oregon general election, November 5, 2024 -- statewide
+# contests are added one office at a time under the build
+# order; issue #170 (OR master tracking).
+id: or/2024-11-05/general
+name: Oregon 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: or/2024-11-05/secretary-of-state
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/secretary-of-state
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c71feac1-f9fd-5a90-98d8-4b1d7be720dc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c71feac1-f9fd-5a90-98d8-4b1d7be720dc
+    name: Tobias Read
+- id: or/2024-11-05/state-treasurer
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/state-treasurer
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6a07aa8d-2a15-562c-863d-ff1c8e1ac2cf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6a07aa8d-2a15-562c-863d-ff1c8e1ac2cf
+    name: Elizabeth Steiner
+- id: or/2024-11-05/attorney-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/attorney-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c83aabb8-82bb-5619-a7c8-763c5bdc74b4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c83aabb8-82bb-5619-a7c8-763c5bdc74b4
+    name: Dan Rayfield
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Elections Division, November 5, 2024 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. Statewide contests built so far: Secretary of State, State Treasurer, Attorney General (see the office files for the certified totals).'
+  retrieved: '2026-10-23'

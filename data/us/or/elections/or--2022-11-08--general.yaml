@@ -17,8 +17,18 @@ contests:
   winners:
   - person_id: ocd-person/f6a3b9f6-9e4d-5bc7-81b7-5e825fb9c111
     name: Tina Kotek
+- id: or/2022-11-08/labor-commissioner
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/labor-commissioner
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/41c4ad58-052a-5f17-b2fb-ba4f0665f749
+  result_status: certified
+  winners:
+  - person_id: ocd-person/41c4ad58-052a-5f17-b2fb-ba4f0665f749
+    name: Christina Stephenson
 sources:
-- url: https://sos.oregon.gov/elections/Documents/results/november-general-2022.pdf
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
   note: 'Oregon Secretary of State, Elections Division, November 8, 2022 General Election
     Abstract of Votes (certified county-by-county abstract). For Governor: Tina Kotek
     (D) 917,074 votes, marked ** as elected; Christine Drazan (R) 850,347; Betsy Johnson
@@ -27,4 +37,7 @@ sources:
     printed in the abstract: (D) Democratic, (R) Republican, (NAV) Nonaffiliated,
     (C) Constitution, (L) Libertarian. Kotek was sworn in on January 9, 2023; the
     November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-23'
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Elections Division, November 8, 2022 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For Commissioner of the Bureau of Labor and Industries (a nonpartisan office; the abstract prints no party labels for this contest): Christina E Stephenson 916,455 votes, marked ** as elected; Cheri Helt 582,609; miscellaneous write-ins 9,826. Stephenson won by a plurality of 333,846 votes. She assumed office on January 2, 2023.'
   retrieved: '2026-10-23'
