@@ -1,0 +1,20 @@
+# Oregon Legislative Assembly -- issue #170 (OR master tracking).
+id: ocd-person/d336191c-1ac6-5309-9c6a-f0d77c231aca
+name: Court Boice
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/house-district-1
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldl:1/legislature
+  office_id: or-house-1/state-representative
+  party: Republican
+  ballot_name: Court Boice
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_legislative
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Elections Division, November 5, 2024 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For State Representative, District 1: Court Boice (R) 26,950 votes, marked ** as elected; Bret Cecil (D) 13,036; miscellaneous write-ins 94. Court Boice won by a plurality of 13,914 votes. Party labels are as printed in the abstract: (R) Republican, (D) Democratic.'
+  retrieved: '2026-10-23'
