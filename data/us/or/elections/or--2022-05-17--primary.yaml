@@ -1,0 +1,54 @@
+# Built for issue #170 (Oregon master tracking): judicial contests from the
+# certified Abstract of Votes. Oregon nonpartisan judicial races are decided
+# at the primary when a candidate wins a majority; only races without a
+# primary majority (or with a canceled primary) reach the general election.
+id: or/2022-05-17/primary
+name: Oregon 2022-05-17 primary election
+date: '2022-05-17'
+election_type: primary
+status: official
+contests:
+- id: or/2022-05-17/court-of-appeals-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/602f651e-6c42-5af0-a801-3a784a0c6114
+  result_status: certified
+  winners:
+  - person_id: ocd-person/602f651e-6c42-5af0-a801-3a784a0c6114
+    name: Darleen Ortega
+- id: or/2022-05-17/court-of-appeals-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9f953e52-3e24-5160-8cf6-7d8b70f0bec0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9f953e52-3e24-5160-8cf6-7d8b70f0bec0
+    name: Scott Shorr
+- id: or/2022-05-17/court-of-appeals-position-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8dae443e-99d7-5572-8cf3-271feb0b6d1d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8dae443e-99d7-5572-8cf3-271feb0b6d1d
+    name: Ramón Pagán
+- id: or/2022-05-17/supreme-court-position-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1c21b495-6c5d-5158-a780-066ca5ea8e30
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1c21b495-6c5d-5158-a780-066ca5ea8e30
+    name: Roger DeHoog
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-23'

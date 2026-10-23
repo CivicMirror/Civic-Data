@@ -787,6 +787,28 @@ contests:
   winners:
   - person_id: ocd-person/f4b1c104-7099-54b7-9cfd-8c155a978685
     name: Mark Owens
+- id: or/2024-11-05/supreme-court-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d1ba8900-84d5-555d-92b9-912986c66607
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d1ba8900-84d5-555d-92b9-912986c66607
+    name: Stephen Bushong
+- id: or/2024-11-05/supreme-court-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f6ae03ff-c69b-5c9a-a9ba-6a787822c458
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f6ae03ff-c69b-5c9a-a9ba-6a787822c458
+    name: Bronson James
+
+
 sources:
 - url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
   note: 'Oregon Secretary of State, Elections Division, November 5, 2024 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. Statewide contests built so far: Secretary of State, State Treasurer, Attorney General (see the office files for the certified totals).'

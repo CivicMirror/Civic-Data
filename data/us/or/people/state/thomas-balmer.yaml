@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/7693701b-7e9c-5131-8f19-945fa8e55e85
+name: Thomas Balmer
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/supreme-court-position-1
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-1
+  party: Nonpartisan
+  ballot_name: Thomas A Balmer
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Supreme Court, Position 1: Thomas A Balmer 727,421; Van Pounds 295,887; miscellaneous write-ins 3,638.'
+  retrieved: '2026-10-23'

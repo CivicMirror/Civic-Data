@@ -1,0 +1,94 @@
+# Built for issue #170 (Oregon master tracking): judicial contests from the
+# certified Abstract of Votes. Oregon nonpartisan judicial races are decided
+# at the primary when a candidate wins a majority; only races without a
+# primary majority (or with a canceled primary) reach the general election.
+id: or/2024-05-21/primary
+name: Oregon 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: or/2024-05-21/court-of-appeals-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a79b0df3-8abb-5c6b-836f-8c458c7b73af
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a79b0df3-8abb-5c6b-836f-8c458c7b73af
+    name: Megan Jacquot
+- id: or/2024-05-21/court-of-appeals-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9df8cc17-0d3f-56aa-82a7-9e94b8bf13be
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9df8cc17-0d3f-56aa-82a7-9e94b8bf13be
+    name: Robyn Aoyagi
+- id: or/2024-05-21/court-of-appeals-position-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4c4fbc83-e593-5d87-8abb-22a2fa0b2e83
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4c4fbc83-e593-5d87-8abb-22a2fa0b2e83
+    name: James Egan
+- id: or/2024-05-21/court-of-appeals-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/05e1d238-cdb4-54ab-bb2a-3b9a7e0b042f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/05e1d238-cdb4-54ab-bb2a-3b9a7e0b042f
+    name: Steven Powers
+- id: or/2024-05-21/supreme-court-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e36cf490-11f1-5477-97a2-13a8d07b1bae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e36cf490-11f1-5477-97a2-13a8d07b1bae
+    name: Rebecca Duncan
+- id: or/2024-05-21/supreme-court-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4682ddb6-861d-5dd1-ac54-818e197e2afa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4682ddb6-861d-5dd1-ac54-818e197e2afa
+    name: Meagan Flynn
+- id: or/2024-05-21/supreme-court-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/44c39ae8-38fe-5b05-95e7-e35f15b487f0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/44c39ae8-38fe-5b05-95e7-e35f15b487f0
+    name: Aruna Masih
+- id: or/2024-05-21/tax-court
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-tax-court/judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d8a195cb-371a-5148-855a-d167e156a920
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d8a195cb-371a-5148-855a-d167e156a920
+    name: Robert Manicke
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election.'
+  retrieved: '2026-10-23'

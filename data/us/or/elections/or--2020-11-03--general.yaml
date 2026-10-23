@@ -1,0 +1,34 @@
+# Built for issue #170 (Oregon master tracking): judicial contests from the
+# certified Abstract of Votes. Oregon nonpartisan judicial races are decided
+# at the primary when a candidate wins a majority; only races without a
+# primary majority (or with a canceled primary) reach the general election.
+id: or/2020-11-03/general
+name: Oregon 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: official
+contests:
+- id: or/2020-11-03/court-of-appeals-position-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/741a09d9-d465-5736-9f4f-02239fd9e029
+  result_status: certified
+  winners:
+  - person_id: ocd-person/741a09d9-d465-5736-9f4f-02239fd9e029
+    name: Jacqueline Kamins
+- id: or/2020-11-03/supreme-court-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ba4ce7a5-4aa8-5937-b0a3-9f3d2e84a123
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ba4ce7a5-4aa8-5937-b0a3-9f3d2e84a123
+    name: Christopher Garrett
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735450
+  note: 'Oregon Secretary of State, Abstract of Votes, November 3, 2020 General Election.'
+  retrieved: '2026-10-23'

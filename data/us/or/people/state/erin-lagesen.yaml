@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/ab10b912-03ce-5ed1-a2b6-16b66213f40d
+name: Erin Lagesen
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/court-of-appeals-position-12
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-12
+  party: Nonpartisan
+  ballot_name: Erin C Lagesen
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Court of Appeals, Position 12: Erin C Lagesen 804,231; miscellaneous write-ins 8,595.'
+  retrieved: '2026-10-23'

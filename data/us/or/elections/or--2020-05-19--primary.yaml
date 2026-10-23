@@ -1,0 +1,74 @@
+# Built for issue #170 (Oregon master tracking): judicial contests from the
+# certified Abstract of Votes. Oregon nonpartisan judicial races are decided
+# at the primary when a candidate wins a majority; only races without a
+# primary majority (or with a canceled primary) reach the general election.
+id: or/2020-05-19/primary
+name: Oregon 2020-05-19 primary election
+date: '2020-05-19'
+election_type: primary
+status: official
+contests:
+- id: or/2020-05-19/court-of-appeals-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/41d1c614-5f8b-5c79-9741-fc23b400f04c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/41d1c614-5f8b-5c79-9741-fc23b400f04c
+    name: Josephine Mooney
+- id: or/2020-05-19/court-of-appeals-position-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-11
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/db71d1a9-c5d7-5cc6-852a-6fdd09c5e19a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/db71d1a9-c5d7-5cc6-852a-6fdd09c5e19a
+    name: Joel DeVore
+- id: or/2020-05-19/court-of-appeals-position-12
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-12
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ab10b912-03ce-5ed1-a2b6-16b66213f40d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ab10b912-03ce-5ed1-a2b6-16b66213f40d
+    name: Erin Lagesen
+- id: or/2020-05-19/court-of-appeals-position-13
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-13
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a7d51c57-27d6-56ac-b4a7-ae44e22b996c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a7d51c57-27d6-56ac-b4a7-ae44e22b996c
+    name: Douglas Tookey
+- id: or/2020-05-19/supreme-court-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7693701b-7e9c-5131-8f19-945fa8e55e85
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7693701b-7e9c-5131-8f19-945fa8e55e85
+    name: Thomas Balmer
+- id: or/2020-05-19/supreme-court-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0a66db2c-6c2d-5ecd-a051-3309b33086cc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0a66db2c-6c2d-5ecd-a051-3309b33086cc
+    name: Martha Walters
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election.'
+  retrieved: '2026-10-23'
