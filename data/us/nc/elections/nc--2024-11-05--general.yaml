@@ -1,0 +1,154 @@
+# Built from the North Carolina State Board of Elections official
+# precinct-level results file for the November 5, 2024 general
+# election (results_pct_20241105.txt), aggregated by contest across
+# all 100 counties. Council of State worked example, issue #172.
+id: nc/2024-11-05/general
+name: North Carolina 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+- id: nc/2024-11-05/governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/12b4fa58-9331-5854-af9d-40cf9a5766ac
+  - ocd-person/31f7dbc2-5964-55cd-9b97-5dee102a7983
+  - ocd-person/8462fb26-b785-5a00-8b17-73a9bc4e3445
+  - ocd-person/4ecb8f9d-b1a2-5bf7-8bf9-6c5c86a44d74
+  - ocd-person/c206a316-d562-5e01-a568-2a743bb71689
+  result_status: certified
+  winners:
+  - person_id: ocd-person/12b4fa58-9331-5854-af9d-40cf9a5766ac
+    name: 'Josh Stein'
+    party: Democratic
+    votes: 3069496
+- id: nc/2024-11-05/lieutenant-governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/lieutenant-governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d59e0c85-1ae4-5449-a144-e009561e68eb
+  - ocd-person/abcb1e76-96c7-5ae4-85f0-6974b5ac625c
+  - ocd-person/9f32b9f8-f7fc-596c-96ea-f5c0d5cca838
+  - ocd-person/c6f59eba-3b5a-5ae4-82f6-eb220bcee51d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d59e0c85-1ae4-5449-a144-e009561e68eb
+    name: 'Rachel Hunt'
+    party: Democratic
+    votes: 2768539
+- id: nc/2024-11-05/secretary-of-state
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/secretary-of-state
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/45db7628-99bb-57a2-a327-7c26ba6cf12f
+  - ocd-person/963d240a-07f5-541a-a822-25300f8270db
+  result_status: certified
+  winners:
+  - person_id: ocd-person/45db7628-99bb-57a2-a327-7c26ba6cf12f
+    name: 'Elaine F. Marshall'
+    party: Democratic
+    votes: 2837994
+- id: nc/2024-11-05/attorney-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/attorney-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d1c346d5-5331-5b89-b0e8-822be2bf9060
+  - ocd-person/f808d2ed-2314-59af-8654-72400920010f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d1c346d5-5331-5b89-b0e8-822be2bf9060
+    name: 'Jeff Jackson'
+    party: Democratic
+    votes: 2874960
+- id: nc/2024-11-05/state-auditor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/state-auditor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fff4b3e9-2030-56e5-b049-c05aa9388fa4
+  - ocd-person/e687e338-e0fe-5f37-8d7f-0e3aeb7de23c
+  - ocd-person/3ab95a81-7879-567d-9157-53cbe8e06284
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fff4b3e9-2030-56e5-b049-c05aa9388fa4
+    name: 'Dave Boliek'
+    party: Republican
+    votes: 2729780
+- id: nc/2024-11-05/state-treasurer
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/state-treasurer
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/34c58ccf-3d74-5aef-9a0a-497fe9e11b8a
+  - ocd-person/75ead67f-a435-535b-9e96-a7add9c40184
+  result_status: certified
+  winners:
+  - person_id: ocd-person/34c58ccf-3d74-5aef-9a0a-497fe9e11b8a
+    name: 'Brad Briner'
+    party: Republican
+    votes: 2900059
+- id: nc/2024-11-05/commissioner-of-agriculture
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/commissioner-of-agriculture
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/85d69e57-fb4b-580b-aaf6-848e8393b762
+  - ocd-person/a4530b9e-8d2c-5f90-b52a-7ec58e3186fb
+  - ocd-person/bfcc6c0c-ad9e-552e-9c51-3604758f4518
+  result_status: certified
+  winners:
+  - person_id: ocd-person/85d69e57-fb4b-580b-aaf6-848e8393b762
+    name: 'Steve Troxler'
+    party: Republican
+    votes: 2922483
+- id: nc/2024-11-05/commissioner-of-insurance
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/commissioner-of-insurance
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2041eeee-4505-50e7-95a4-e8851e2b7ae4
+  - ocd-person/4a8f8d78-08b8-5cc0-a0c7-65125fe8085e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2041eeee-4505-50e7-95a4-e8851e2b7ae4
+    name: 'Mike Causey'
+    party: Republican
+    votes: 2883996
+- id: nc/2024-11-05/commissioner-of-labor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/commissioner-of-labor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/086e7d2b-84b6-5659-be9f-22bf6d2c9b0d
+  - ocd-person/eead8689-d10f-5d2b-becd-2f5eced7f76a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/086e7d2b-84b6-5659-be9f-22bf6d2c9b0d
+    name: 'Luke Farley'
+    party: Republican
+    votes: 2904331
+- id: nc/2024-11-05/superintendent-of-public-instruction
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/superintendent-of-public-instruction
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0ebc5651-32e7-583c-a670-85ef8631ed47
+  - ocd-person/18f987a8-52e3-5720-af91-76cf17ab6c2b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0ebc5651-32e7-583c-a670-85ef8631ed47
+    name: 'Maurice (Mo) Green'
+    party: Democratic
+    votes: 2837606
+sources:
+- url: https://www.ncsbe.gov/results-data/election-results/historical-election-results-data
+  note: 'NCSBE Historical Election Results Data page: the November 5, 2024 general election Results (ZIP) file (results_pct_20241105.txt) is the official precinct-level results file for the election, certified November 26, 2024. This election record covers the ten Council of State contests; vote totals here are aggregated from that file across all 100 counties and cross-checked so each candidate''s method columns (Election Day + early + absentee by mail + provisional) sum to the file''s total-votes column on every precinct row.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'Direct download of the November 5, 2024 general election results file (results_pct_20241105.txt, tab-delimited per layout_results_pct.txt) used for the contest totals in this record.'
+  retrieved: '2026-10-23'
