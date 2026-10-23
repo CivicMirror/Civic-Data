@@ -1,0 +1,21 @@
+# Minted from the NC State Board of Elections official Nov. 5, 2024
+# general election results (Council of State worked example,
+# Civic-Data issue #172).
+id: ocd-person/4a8f8d78-08b8-5cc0-a0c7-65125fe8085e
+name: Natasha Marcus
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/commissioner-of-insurance
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/commissioner-of-insurance
+  party: Democratic
+  ballot_name: 'Natasha Marcus'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_council_of_state
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Commissioner of Insurance -- Mike Causey (REP) 2,883,996; Natasha Marcus (DEM) 2,649,353. Mike Causey won with 2,883,996 votes.'
+  retrieved: '2026-10-23'
