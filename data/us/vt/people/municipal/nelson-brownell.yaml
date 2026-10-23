@@ -1,0 +1,28 @@
+# Town of Pownal municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/246acb26-d00d-5f54-932f-577d0dcd3df2
+name: Nelson Brownell
+identifiers: []
+candidacies:
+- contest_id: pownal-vt/2024-11-05/justice-of-the-peace
+  election_id: pownal-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:pownal/government
+  office_id: pownal-vt/justice-of-the-peace
+  party: null
+  ballot_name: Nelson Brownell
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists twelve Pownal justices of the
+    peace: Alonzo Bisson, Cindy Brownell, Bryan Harris, Harry Percey Sr., Megan Randall,
+    Olden Dwyer, Nelson Brownell, Leslie Morgenthal, Harry (Jamie) Percey Jr, James
+    (Jim) Winchester, David Low, and Zachary (Zach) Rose. The listing itself distinguishes
+    Harry Percey Sr. (a justice only) from Harry (Jamie) Percey Jr (a justice and
+    the selectboard member) -- two people. Bryan Harris remains a justice although
+    he has left the Selectboard'
+  retrieved: '2026-10-19'

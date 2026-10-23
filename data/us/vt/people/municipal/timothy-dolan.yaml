@@ -1,0 +1,29 @@
+# Town of Dover municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/938228a8-05f2-5342-b4a3-ab72b6289111
+name: Timothy Dolan
+identifiers: []
+candidacies:
+- contest_id: dover-vt/2024-11-05/justice-of-the-peace
+  election_id: dover-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:dover/government
+  office_id: dover-vt/justice-of-the-peace
+  party: null
+  ballot_name: Timothy Dolan
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Dover justices of
+    the peace: Timothy Dolan, Linda Holland, Catherine Kaufmann, Chelsea Samani, and
+    Shannon Wheeler.'
+  retrieved: '2026-10-18'
+- url: https://www.doververmont.com/media/11501
+  note: 'Town of Dover 2026 Town Report (Annual Report 2024-2025) (doververmont.com):
+    the ELECTED TOWN OFFICERS table lists the same five justices of the peace (printing
+    Linda L. Holland and Catherine D. Kaufmann).'
+  retrieved: '2026-10-18'

@@ -1,0 +1,20 @@
+# Town of Westmore municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/7886676f-ef96-51d0-9e83-968379254fc9
+name: Stephen Davenport
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://westmoreonline.org/cemetery
+  note: 'Town of Westmore, Cemetery page: names Miriam Simonds and William Perkins
+    as commissioner contacts'
+  retrieved: '2026-10-20'
+- url: https://irp.cdn-website.com/2728571a/files/uploaded/Westmore_2025.F.pdf
+  note: 'Town of Westmore, 2025 Town Report (dated February 23, 2026), ELECTED OFFICIALS
+    table: Cemetery Commissioners Stephen Davenport (2027), William Perkins (2028),
+    and Miriam Simonds (2029)'
+  retrieved: '2026-10-20'

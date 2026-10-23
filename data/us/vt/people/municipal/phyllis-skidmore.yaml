@@ -1,0 +1,20 @@
+# Town of Sandgate municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/bcf74bed-15b9-5bd7-9726-9a1753672211
+name: Phyllis Skidmore
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of listers of three'
+  retrieved: '2026-10-19'
+- url: https://sandgatevermont.org/elected_officers/
+  note: 'Town of Sandgate, ''Elected Officers'' page (sandgatevermont.org), headed
+    ''As of March 3, 2026'' -- the town''s current post-meeting roster: the listers
+    are Phyllis Skidmore and Adam Hess; the third seat reads ''pending appointment''
+    and is left unfilled'
+  retrieved: '2026-10-19'

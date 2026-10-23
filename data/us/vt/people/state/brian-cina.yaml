@@ -1,0 +1,30 @@
+# Chittenden-15 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/63b05f8f-c72b-5c61-8cad-f09c4f52800b
+name: Brian Cina
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-15/2024-11-05/state-representative
+  election_id: vt-house-chittenden-15/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-15/legislature
+  office_id: vt-house-chittenden-15/state-representative
+  party: Progressive/Democratic
+  ballot_name: Brian Cina
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161016
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-15 District'' (district
+    totals): Brian Cina (Progressive/Democratic) 2,124 votes; Troy Headrick (Progressive/Democratic)
+    1,898; write-ins 53. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-15 District.'
+  retrieved: '2026-10-17'

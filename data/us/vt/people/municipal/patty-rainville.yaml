@@ -1,0 +1,23 @@
+# Highgate municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/4ad7f052-4207-59ec-9cbf-15e60cfcb583
+name: Patty Rainville
+identifiers: []
+candidacies:
+- contest_id: highgate-vt/2024-11-05/justice-of-the-peace
+  election_id: highgate-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:highgate/government
+  office_id: highgate-vt/justice-of-the-peace
+  party: null
+  ballot_name: Patty Rainville
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing names six justices
+    of the peace for Highgate'
+  retrieved: '2026-10-18'

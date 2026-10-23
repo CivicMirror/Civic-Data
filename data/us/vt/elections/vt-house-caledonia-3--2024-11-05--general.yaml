@@ -1,0 +1,31 @@
+# Caledonia-3 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-caledonia-3/2024-11-05/general
+name: Caledonia-3 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-caledonia-3/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:caledonia-3/legislature
+  office_id: vt-house-caledonia-3/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/6ce8c8a0-4adb-5a3e-b239-cbf8b6b48906
+  - ocd-person/9f4beff5-b85f-53c6-b97a-24d474013304
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6ce8c8a0-4adb-5a3e-b239-cbf8b6b48906
+    name: Martha "Marty" Feltus
+  - person_id: ocd-person/9f4beff5-b85f-53c6-b97a-24d474013304
+    name: Beth M. Quimby
+sources:
+- url: https://electionarchive.vermont.gov/contest/161012
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Caledonia-3 District'' (district
+    totals): Martha "Marty" Feltus (Republican) 2,335 votes; Beth M. Quimby (Republican)
+    2,222; Dennis Labounty (Democratic) 1,487; Eileen Boland (Democratic) 1,191; write-ins
+    10. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State representatives serve two-year terms;
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

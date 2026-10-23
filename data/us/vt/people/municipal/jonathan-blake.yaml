@@ -1,0 +1,38 @@
+# Town of Salisbury municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/1f82f414-571f-5d38-9e55-beb6704d1d95
+name: Jonathan Blake
+identifiers: []
+candidacies:
+- contest_id: salisbury-vt/2024-11-05/justice-of-the-peace
+  election_id: salisbury-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:salisbury/government
+  office_id: salisbury-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jonathon Blake
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Salisbury''s five selectboard members:
+    Patrick Dunn (Chair), Jonathan Blake (Vice Chair), Robbie Devoid, Mark Gleason,
+    and Susan Mackey'
+  retrieved: '2026-10-19'
+- url: https://www.townofsalisbury.org
+  note: 'Town of Salisbury official website (townofsalisbury.org): the selectboard
+    pages name the same five members. Jonathan Blake is styled a former state representative
+    on the town''s volunteers page; the sitting Addison-4 representatives are Herb
+    Olson and Karen Lueders, and Blake is minted new here'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Salisbury justices of
+    the peace: Jonathan Blake (as ''Jonathon Blake''), Brian Christie, Jaclyn Davidson,
+    Jeff McDonough, David Moats, Kathryn Schloff, and Susan Scott. This Jeff McDonough
+    is a Salisbury resident, a different man from the Town of Leicester''s first constable
+    of the same name'
+  retrieved: '2026-10-19'

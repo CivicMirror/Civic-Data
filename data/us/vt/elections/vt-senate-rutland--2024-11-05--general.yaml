@@ -1,0 +1,35 @@
+# Rutland Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-senate-rutland/2024-11-05/general
+name: Rutland Senate District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-senate-rutland/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:rutland/legislature
+  office_id: vt-senate-rutland/state-senator
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/31dd0234-9623-5a34-85f9-acd2035dd48d
+  - ocd-person/6c80308b-fe27-53d8-8f13-18363a636a89
+  - ocd-person/0a5c0337-556d-5893-afcf-22a6470f2ea5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/31dd0234-9623-5a34-85f9-acd2035dd48d
+    name: Brian "Bc" Collamore
+  - person_id: ocd-person/6c80308b-fe27-53d8-8f13-18363a636a89
+    name: David Weeks
+  - person_id: ocd-person/0a5c0337-556d-5893-afcf-22a6470f2ea5
+    name: Terry K. Williams
+sources:
+- url: https://electionarchive.vermont.gov/contest/161113
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Rutland District'' (district totals): Brian
+    "Bc" Collamore (Republican) 18,380 votes; David Weeks (Republican) 16,097; Terry
+    K. Williams (Republican) 15,998; Marsha Cassel (Democratic) 12,040; Dana Peterson
+    (Democratic) 9,704; Robert J. Richards (Democratic) 9,235; write-ins 100. The
+    contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

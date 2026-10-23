@@ -1,0 +1,29 @@
+# Highgate municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/6b129be2-f3d4-51ee-9a1d-4b0ad0877e43
+name: Christopher LaPan
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.highgatevt.org/board-members
+  note: 'Town of Highgate (official website, Selectboard page): the town''s Selectboard
+    page seats Merry Souza (Chair, term expires March 2027), Henry Rainville (2027),
+    Claude Chevalier (2027), Christopher LaPan (Vice-Chair, 2028), and Chad Carr (2029).
+    Carr''s 2029 expiry proves the page postdates the March 2026 meeting (his seat
+    stood and he was re-elected to a three-year term)'
+  retrieved: '2026-10-18'
+- url: https://www.highgatevt.org/vertical/sites/%7B27DD8364-9602-460E-9A11-4C6436D74153%7D/uploads/2025_HIGHGATE_TOWN_REPORT.pdf
+  note: 'Town of Highgate, 2025 Annual Report (official town website): the pre-meeting
+    officers table seats Souza as Chair with Vern Brosky III as Vice-Chair, Richard
+    Flint, Carr (term expired March 2026), and a fifth seat vacant (to 2028)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): the directory seats Carr, Lapan, and Souza but
+    also Richard Flint as Chair and Vern Brosky III, both absent from the town''s
+    current page -- the directory is stale for Highgate and the town''s own page governs'
+  retrieved: '2026-10-18'

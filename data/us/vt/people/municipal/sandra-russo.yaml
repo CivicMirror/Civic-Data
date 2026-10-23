@@ -1,0 +1,24 @@
+# Town of Cavendish municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/d1ce3092-dc30-587d-956b-584669298f30
+name: Sandra Russo
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Cavendish Selectboard members: Shannon
+    Devereux, Robert Glidden (Chairman), David Norton, Michael Ripley, and Sandra
+    Russo.'
+  retrieved: '2026-10-18'
+- url: https://www.cavendishvt.com/boards-and-committees
+  note: 'Town of Cavendish official website, Boards and Committees page: lists the
+    same five Selectboard members (the site prints ''Robert W. Glidden'' and ''Mike
+    Ripley''). The page also states the Water Commissioners are appointed by the Selectboard
+    and that the Selectboard sits as the Board of Sewer Commissioners, so no separate
+    utility posts are created.'
+  retrieved: '2026-10-18'

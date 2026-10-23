@@ -1,0 +1,35 @@
+# Town of Stratton -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: stratton-vt/2024-11-05/general
+name: Town of Stratton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: stratton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stratton/government
+  office_id: stratton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/c188f8ba-ba2c-55b0-bda9-ef175fdc1e3f
+  - ocd-person/dd69a24a-2300-5c13-8732-720b042b5605
+  - ocd-person/5589efef-6803-556b-b926-948bcc931676
+  - ocd-person/4b767b6b-6157-50d0-95e9-d5481383e361
+  - ocd-person/58c58f36-37f1-5fa2-ba6e-0b8693b3d9e4
+  result_status: official
+  winners:
+  - person_id: ocd-person/c188f8ba-ba2c-55b0-bda9-ef175fdc1e3f
+    name: Diane Niederhauser
+  - person_id: ocd-person/dd69a24a-2300-5c13-8732-720b042b5605
+    name: Helen Fuller Eddy
+  - person_id: ocd-person/5589efef-6803-556b-b926-948bcc931676
+    name: Lorraine Weeks-Newell
+  - person_id: ocd-person/4b767b6b-6157-50d0-95e9-d5481383e361
+    name: Nancy Ferrucci
+  - person_id: ocd-person/58c58f36-37f1-5fa2-ba6e-0b8693b3d9e4
+    name: Patricia Coolidge
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Stratton''s five justice of the peace seats'
+  retrieved: '2026-10-20'

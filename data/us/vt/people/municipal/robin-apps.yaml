@@ -1,0 +1,29 @@
+# Town of Winhall municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/a0dedc6e-e04a-55a3-ae2e-5d48885abdaa
+name: Robin Apps
+identifiers: []
+candidacies:
+- contest_id: winhall-vt/2024-11-05/justice-of-the-peace
+  election_id: winhall-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:winhall/government
+  office_id: winhall-vt/justice-of-the-peace
+  party: null
+  ballot_name: Robin Apps
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Winhall justices of the
+    peace: Timothy Apps, Robin Apps, Christie Boswell, Michael Cole, and Cliff DesMarais'
+  retrieved: '2026-10-21'
+- url: https://winhall.org/TownReportDraftFull.pdf
+  note: 'Town of Winhall, 2026 Annual Town Report, officers tables: the town report''s
+    JP line prints the third justice ''Christina Boswell''; the certified listing,
+    the certified 2026 return, and the live Selectboard page all give Christie Boswell,
+    which governs'
+  retrieved: '2026-10-21'

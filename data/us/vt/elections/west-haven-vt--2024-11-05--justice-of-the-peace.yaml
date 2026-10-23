@@ -1,0 +1,36 @@
+# Town of West Haven -- justice of the peace election (VT municipal batch 26); issue #163 (VT master tracking).
+id: west-haven-vt/2024-11-05/general
+name: Town of West Haven Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: west-haven-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-haven/government
+  office_id: west-haven-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/da24606a-3da7-52f2-89dd-fb5e9cd1aea3
+  - ocd-person/633a7193-1ca7-5cbc-8b2a-491074018903
+  - ocd-person/0546f05a-d03c-5ae5-81e2-c58d441b67f6
+  - ocd-person/9ca61a6c-a333-5c02-a4b3-91af686e7c29
+  - ocd-person/70779393-75a0-5c08-831d-81102f545a5b
+  result_status: official
+  winners:
+  - person_id: ocd-person/da24606a-3da7-52f2-89dd-fb5e9cd1aea3
+    name: Brian Book
+  - person_id: ocd-person/633a7193-1ca7-5cbc-8b2a-491074018903
+    name: Carol Richards
+  - person_id: ocd-person/0546f05a-d03c-5ae5-81e2-c58d441b67f6
+    name: Kerry Ellis
+  - person_id: ocd-person/9ca61a6c-a333-5c02-a4b3-91af686e7c29
+    name: Leland Ellis
+  - person_id: ocd-person/70779393-75a0-5c08-831d-81102f545a5b
+    name: Theresa Book
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the five winners of West
+    Haven''s November 5, 2024 justice of the peace election (vote for five): Brian
+    Book, Theresa Book, Leland Ellis, Kerry Ellis, and Carol Richards'
+  retrieved: '2026-10-20'

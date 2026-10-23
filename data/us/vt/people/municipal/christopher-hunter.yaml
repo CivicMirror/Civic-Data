@@ -1,0 +1,26 @@
+# Lyndon municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/354c3405-94a6-5d6e-aaa2-5495b158e1de
+name: Christopher Hunter
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Lyndon''s five selectboard members as
+    Daniel Daley, Kevin Horner, Christopher Hunter, Susan Mills, and Christian Thompson'
+  retrieved: '2026-10-18'
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/126
+  note: '24 App. V.S.A. ch. 126 (Town of Lyndon): sections 22 and 26: five Selectboard
+    members are elected to three-year terms'
+  retrieved: '2026-10-18'
+- url: https://www.lyndonvt.org/wp-content/uploads/2026/02/2025-Town-Report.pdf
+  note: 'Town of Lyndon, 2025 Town Report: ''Town Officers 2025'' table seats Kermit
+    Fisher in the seat expiring 2026 where the June 2026 SOS directory seats Kevin
+    Horner; the directory set (Dan Daley III, Kevin Horner, Christopher Hunter, Susan
+    Mills, Christian Thompson) is the current board'
+  retrieved: '2026-10-18'

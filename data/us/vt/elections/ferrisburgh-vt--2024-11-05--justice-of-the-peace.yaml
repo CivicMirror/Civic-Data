@@ -1,0 +1,50 @@
+# Town of Ferrisburgh -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: ferrisburgh-vt/2024-11-05/general
+name: Town of Ferrisburgh Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: ferrisburgh-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ferrisburgh/government
+  office_id: ferrisburgh-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/1e14aa3f-1933-52ab-b99e-6a5efc5210ec
+  - ocd-person/aa7053e7-63bb-5f8f-80a9-f971dcf2dde8
+  - ocd-person/644cf147-48fe-5ea2-aa87-fd67b46ef897
+  - ocd-person/e01a3070-d6af-5cce-976a-26a20b54a4a7
+  - ocd-person/ecdcbb47-92f5-5112-b40b-24810c81913b
+  - ocd-person/57c56154-fb49-531e-94ee-ffd088040193
+  - ocd-person/56c96c41-c583-5b84-841c-f364aa6e8b41
+  - ocd-person/43b0d913-c400-5235-bbad-52dd0c6089a2
+  - ocd-person/78d28072-e40f-5973-85c4-89135fb34198
+  - ocd-person/2a98abc7-f140-5227-9714-475c91063b3d
+  result_status: official
+  winners:
+  - person_id: ocd-person/1e14aa3f-1933-52ab-b99e-6a5efc5210ec
+    name: Art Cohn
+  - person_id: ocd-person/aa7053e7-63bb-5f8f-80a9-f971dcf2dde8
+    name: Chris Kayhart
+  - person_id: ocd-person/644cf147-48fe-5ea2-aa87-fd67b46ef897
+    name: Chris McClain
+  - person_id: ocd-person/e01a3070-d6af-5cce-976a-26a20b54a4a7
+    name: Jean Richardson
+  - person_id: ocd-person/ecdcbb47-92f5-5112-b40b-24810c81913b
+    name: Jon-Taylor Vincent
+  - person_id: ocd-person/57c56154-fb49-531e-94ee-ffd088040193
+    name: Joseph Baker
+  - person_id: ocd-person/56c96c41-c583-5b84-841c-f364aa6e8b41
+    name: Judy Chaves
+  - person_id: ocd-person/43b0d913-c400-5235-bbad-52dd0c6089a2
+    name: Lissa Gebo
+  - person_id: ocd-person/78d28072-e40f-5973-85c4-89135fb34198
+    name: Robert North
+  - person_id: ocd-person/2a98abc7-f140-5227-9714-475c91063b3d
+    name: Silas Towler
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the ten
+    Ferrisburgh winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'

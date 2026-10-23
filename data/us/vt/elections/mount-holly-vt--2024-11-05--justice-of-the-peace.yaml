@@ -1,0 +1,43 @@
+# Town of Mount Holly -- justice of the peace election (VT municipal batch 15); issue #163 (VT master tracking).
+id: mount-holly-vt/2024-11-05/general
+name: Town of Mount Holly Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: mount-holly-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:mount-holly/government
+  office_id: mount-holly-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/a0a0443f-56c0-5013-a49a-9026009d1f6e
+  - ocd-person/51b75859-54ec-58f9-8d2e-2654d5397b9c
+  - ocd-person/b3d82f26-5a4e-5772-b776-bed114d75c09
+  - ocd-person/94b10120-284d-5f03-8c94-b2c424c2bece
+  - ocd-person/d20a2825-abfd-597c-b415-c34ce96e1af6
+  - ocd-person/f1368987-18d0-5512-ad3a-6d0393a75f33
+  - ocd-person/53eb3d07-791f-5c55-acd5-3b4ed1838560
+  result_status: official
+  winners:
+  - person_id: ocd-person/a0a0443f-56c0-5013-a49a-9026009d1f6e
+    name: Brigid Sullivan
+  - person_id: ocd-person/51b75859-54ec-58f9-8d2e-2654d5397b9c
+    name: David Johnson
+  - person_id: ocd-person/b3d82f26-5a4e-5772-b776-bed114d75c09
+    name: Diana Garrow
+  - person_id: ocd-person/94b10120-284d-5f03-8c94-b2c424c2bece
+    name: Linda Miller
+  - person_id: ocd-person/d20a2825-abfd-597c-b415-c34ce96e1af6
+    name: Marc Miller
+  - person_id: ocd-person/f1368987-18d0-5512-ad3a-6d0393a75f33
+    name: Millicent Johnson
+  - person_id: ocd-person/53eb3d07-791f-5c55-acd5-3b4ed1838560
+    name: Robert Herbst
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Mount Holly justices of
+    the peace elected November 5, 2024: Diana Garrow, David Johnson, Millicent Johnson,
+    Robert Herbst, Marc Miller, Brigid Sullivan, and Linda Miller. The listing publishes
+    no vote totals or party labels and none are recorded'
+  retrieved: '2026-10-18'

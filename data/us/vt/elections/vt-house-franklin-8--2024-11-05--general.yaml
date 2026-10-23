@@ -1,0 +1,30 @@
+# Franklin-8 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-franklin-8/2024-11-05/general
+name: Franklin-8 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-franklin-8/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:franklin-8/legislature
+  office_id: vt-house-franklin-8/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fb40fa78-864d-5a77-9e84-576d03438917
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fb40fa78-864d-5a77-9e84-576d03438917
+    name: Casey Toof
+sources:
+- url: https://electionarchive.vermont.gov/contest/161047
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Franklin-8 District'' (district
+    totals): Casey Toof (Republican) 1,416 votes; Zach Scheffler (Democratic) 825;
+    write-ins 11. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term. Casey
+    Toof resigned the seat in January 2026 (the House directory records January 16,
+    2026). Governor Phil Scott appointed John (Jack) Brigham to fill the vacancy,
+    effective immediately on February 20, 2026.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,24 @@
+# Town of Williamstown municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/17172f2e-aa3c-5363-b01b-eee006a7ec8d
+name: Matt Couillard
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://williamstownvt.org/town-officers/
+  note: 'Town of Williamstown, Town Officers page (williamstownvt.org): Cemetery Commissioners
+    Daphne Herwig (2027), Matt Walker (2028), Matt Couillard (2030), and Susan Lyons
+    (2031) -- five seats on five-year staggered terms, one seat (2029) unlisted and
+    vacant'
+  retrieved: '2026-10-20'
+- url: https://williamstownvt.org/cemetery/
+  note: 'Town of Williamstown, Cemetery page: names commissioners Matt Couillard,
+    Susan Lyons, and Daphne Herwig. DIVERGENCE: the department page omits Matt Walker,
+    who is carried on the officers page with a term to 2028; the officers page governs
+    and the divergence is flagged on issue #163. The pages spell the family name both
+    Couillard and Coulliard; Couillard governs'
+  retrieved: '2026-10-20'

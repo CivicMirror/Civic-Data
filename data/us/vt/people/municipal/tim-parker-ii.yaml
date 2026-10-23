@@ -1,0 +1,28 @@
+# Town of Royalton municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/41d2523a-a9f5-5506-8a51-d1a67cd73753
+name: Tim Parker II
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Royalton''s five selectboard members:
+    Kip Bergstrom, Patrick Dakin, Nell Gwin, Tim Parker II (styled ''Selectboard-Appointment
+    through March 2027''), and Larry Trottier'
+  retrieved: '2026-10-19'
+- url: https://royaltonvt.gov/Australian%20Ballot%20Official%20Return%20Of%20Votes%20(3).pdf
+  note: 'Town of Royalton, Official Return of Votes, March 3, 2026 town meeting (certified
+    by the Town Clerk; 390 ballots cast): Nell Gwin was re-elected to a two-year seat
+    (323 votes) and Christopher ''Kip'' Bergstrom won the three-year seat (198 votes)'
+  retrieved: '2026-10-19'
+- url: https://royaltonvt.gov
+  note: 'Town of Royalton, Selectboard minutes of March 10, 2026: the board organized
+    with Patrick Dakin as Chair and Larry Trottier as Vice Chair, with Bergstrom seated.
+    Tim Parker II holds the fifth seat by appointment (see the directory note); he
+    fills the seat Robert A. Gray, Jr. held at the March 10 meeting before departing'
+  retrieved: '2026-10-19'

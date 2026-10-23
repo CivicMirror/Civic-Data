@@ -1,0 +1,27 @@
+# City of Essex Junction municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/67e6e23d-eee0-5d35-a356-c179c2336b8e
+name: Dylan Giambatista
+identifiers: []
+candidacies:
+- contest_id: essex-junction-vt/2024-11-05/justice-of-the-peace
+  election_id: essex-junction-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:essex-junction/government
+  office_id: essex-junction-vt/justice-of-the-peace
+  party: null
+  ballot_name: Dylan Giambatista
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists fifteen City of Essex
+    Junction justices of the peace: Kelly McCutcheon Adams, Katie Ballard, Rajan Chawla,
+    Sandra Chittenden, Diane Clemens, Cheri Davis, Dylan Giambatista, Elaine Haney,
+    Ryan Mclaren, Stephanie Holden, Brian Shelden, Gibson Smith, Carmon Verasamy,
+    Jordan Verasamy, and Elisa Ziglar. The city elects its own justices of the peace.
+    Rajan Chawla is City Councilor Raj Chawla.'
+  retrieved: '2026-10-18'

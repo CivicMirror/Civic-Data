@@ -1,0 +1,30 @@
+# Franklin Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-senate-franklin/2024-11-05/general
+name: Franklin Senate District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-senate-franklin/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:franklin/legislature
+  office_id: vt-senate-franklin/state-senator
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/351d1b5d-e438-5984-b81d-14f8eaada494
+  - ocd-person/b87888eb-81dc-5e58-afea-0d4d8da5b659
+  result_status: certified
+  winners:
+  - person_id: ocd-person/351d1b5d-e438-5984-b81d-14f8eaada494
+    name: Randy Brock
+  - person_id: ocd-person/b87888eb-81dc-5e58-afea-0d4d8da5b659
+    name: Robert W. Norris
+sources:
+- url: https://electionarchive.vermont.gov/contest/161108
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Franklin District'' (district totals):
+    Randy Brock (Republican/Democratic) 16,411 votes; Robert W. Norris (Republican/Democratic)
+    15,680; write-ins 410. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State senators
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,41 @@
+# Town of Danville municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/11f7eb5e-6d81-5e23-9997-6f9e6a18bfae
+name: Eric Bach
+identifiers: []
+candidacies:
+- contest_id: danville-vt/2024-11-05/justice-of-the-peace
+  election_id: danville-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:danville/government
+  office_id: danville-vt/justice-of-the-peace
+  party: null
+  ballot_name: Eric Bach
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Danville Selectboard members: Eric
+    Bach, Kristen Calkins, Matt Choate, Alison Low, and Janice Ouellette (the directory
+    spells Calkins ''Kristin''; the town''s own records print Kristen).'
+  retrieved: '2026-10-18'
+- url: https://danvillevt.gov
+  note: 'Town of Danville official website (danvillevt.gov): the clerk-signed ''Results
+    of Officers Elected'' for March 3, 2026 and Selectboard minutes, March-October
+    2026, seat the same five, with Alison Low as Chair and Eric Bach as Vice Chair;
+    Bach and Calkins were elected in 2026.'
+  retrieved: '2026-10-18'
+- url: https://danvillevt.gov
+  note: 'Town of Danville official website (danvillevt.gov): Selectboard minutes and
+    the town roster name Eric Bach as Moderator, elected annually.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Danville justices
+    of the peace: Eric Bach, Matthew Choate, Barbara Hawley, Libby Hillhouse, Virginia
+    Incerpi, Julie Larrabee, Bruce Melendy, Jenny Rafuse, Phyllis Kehley Sweeney,
+    and Brittany Larrabee Wilson.'
+  retrieved: '2026-10-18'

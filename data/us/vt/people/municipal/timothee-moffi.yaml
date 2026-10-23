@@ -1,0 +1,21 @@
+# Town of Goshen municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/11b2401e-0b7e-51e5-9642-86afe4d097f1
+name: Timothee Moffi
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Goshen Selectboard members: Thomasina
+    Magoon (Chair), Jasmine Hoffman, and Timothee Moffi.'
+  retrieved: '2026-10-18'
+- url: https://goshenvt.org/selectboard/
+  note: 'Town of Goshen Selectboard page (goshenvt.org): names Thomasina Magoon (Chair)
+    and Timmi Moffi; the town''s familiar ''Timmi'' form is noted, and the SOS directory''s
+    ''Timothee Moffi'' governs the person record.'
+  retrieved: '2026-10-18'

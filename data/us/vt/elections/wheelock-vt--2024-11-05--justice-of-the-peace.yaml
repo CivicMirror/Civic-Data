@@ -1,0 +1,33 @@
+# Town of Wheelock -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking).
+id: wheelock-vt/2024-11-05/general
+name: Town of Wheelock Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: wheelock-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wheelock/government
+  office_id: wheelock-vt/justice-of-the-peace
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/371aa565-c29b-51e8-8ac1-0f2b35fc977d
+  - ocd-person/864fc1a9-dd0c-5619-80ea-e41913053414
+  - ocd-person/5f1dd330-90f0-5809-ae0a-f4eb0b5a2fa9
+  - ocd-person/a2f60f06-0661-5f49-8f6c-069735a6016f
+  result_status: official
+  winners:
+  - person_id: ocd-person/371aa565-c29b-51e8-8ac1-0f2b35fc977d
+    name: Carol Rossi
+  - person_id: ocd-person/864fc1a9-dd0c-5619-80ea-e41913053414
+    name: Eileen Boland
+  - person_id: ocd-person/5f1dd330-90f0-5809-ae0a-f4eb0b5a2fa9
+    name: Kim Crady-Smith
+  - person_id: ocd-person/a2f60f06-0661-5f49-8f6c-069735a6016f
+    name: Steve Amos
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of four justices of the peace for Wheelock: Carol Rossi, Kim Crady-Smith, Eileen
+    Boland, and Steve Amos'
+  retrieved: '2026-10-20'

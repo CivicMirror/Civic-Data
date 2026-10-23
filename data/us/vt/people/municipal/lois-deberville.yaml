@@ -1,0 +1,34 @@
+# Town of Washington municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/2ef240e1-ef48-5641-89f6-25ce6c6e57f5
+name: Lois Deberville
+identifiers: []
+candidacies:
+- contest_id: washington-vt/2024-11-05/justice-of-the-peace
+  election_id: washington-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:washington/government
+  office_id: washington-vt/justice-of-the-peace
+  party: null
+  ballot_name: Lois Deberville
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.washingtonvt.org/current-officials
+  note: 'Town of Washington, ''Current Officials'' page (washingtonvt.org): lists
+    Lois Deberville as Town Clerk, three-year term to 2028. She is also a Justice
+    of the Peace; one person record carries both memberships'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Lois Deberville
+    as Washington''s Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Washington justices of
+    the peace: Scott Blanchard, Peter Carbee, Lois Deberville, Ray McCormack, H. Brooke
+    Paige, Harry Roush, and Anna Strong'
+  retrieved: '2026-10-20'

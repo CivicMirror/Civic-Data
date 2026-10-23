@@ -1,0 +1,32 @@
+# Bennington Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-senate-bennington/2024-11-05/general
+name: Bennington Senate District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-senate-bennington/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:bennington/legislature
+  office_id: vt-senate-bennington/state-senator
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/2a1e60e7-f7c5-5ba9-aa56-e96381c41a17
+  - ocd-person/b907ab76-5b42-5aeb-9471-ddda2872a864
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2a1e60e7-f7c5-5ba9-aa56-e96381c41a17
+    name: Seth Bongartz
+  - person_id: ocd-person/b907ab76-5b42-5aeb-9471-ddda2872a864
+    name: Rob Plunkett
+sources:
+- url: https://electionarchive.vermont.gov/contest/161100
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Bennington District'' (district totals):
+    Seth Bongartz (Democratic) 10,053 votes; Rob Plunkett (Democratic) 9,160; Joseph
+    "Joe" Gervais (Republican) 8,647; Lawrence "Spike" Whitmire (Independent) 3,539;
+    Cynthia Browning (Independent) 2,867; Steve Berry (Independent) 2,459; write-ins
+    60. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

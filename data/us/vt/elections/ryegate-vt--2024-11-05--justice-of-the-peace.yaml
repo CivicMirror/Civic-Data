@@ -1,0 +1,41 @@
+# Town of Ryegate -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: ryegate-vt/2024-11-05/general
+name: Town of Ryegate Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: ryegate-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ryegate/government
+  office_id: ryegate-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/254ec81f-5065-560a-a72f-60252cb862cc
+  - ocd-person/3ff74bed-520e-5051-ac4c-6796316ccf9a
+  - ocd-person/5d2c76d0-63e4-509d-98b9-4f45c343157c
+  - ocd-person/34c3f477-8bb7-59c0-a70a-c0e507d6076b
+  - ocd-person/1ac8c754-8b30-59b6-80f2-b5b11893ba0e
+  - ocd-person/43d7b765-3ba5-5c96-9c90-344743723737
+  - ocd-person/b65cb0e8-8b9c-59b8-8b97-f67913591076
+  result_status: official
+  winners:
+  - person_id: ocd-person/254ec81f-5065-560a-a72f-60252cb862cc
+    name: Darcy Nelson
+  - person_id: ocd-person/3ff74bed-520e-5051-ac4c-6796316ccf9a
+    name: Jerry Esposito, Sr.
+  - person_id: ocd-person/5d2c76d0-63e4-509d-98b9-4f45c343157c
+    name: Lauren Nelson
+  - person_id: ocd-person/34c3f477-8bb7-59c0-a70a-c0e507d6076b
+    name: Michael Murray
+  - person_id: ocd-person/1ac8c754-8b30-59b6-80f2-b5b11893ba0e
+    name: Nancy Perkins
+  - person_id: ocd-person/43d7b765-3ba5-5c96-9c90-344743723737
+    name: Robert Rowden
+  - person_id: ocd-person/b65cb0e8-8b9c-59b8-8b97-f67913591076
+    name: William Dickey
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Ryegate''s seven justice of the peace seats'
+  retrieved: '2026-10-19'

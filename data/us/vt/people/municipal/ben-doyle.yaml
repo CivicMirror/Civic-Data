@@ -1,0 +1,29 @@
+# City of Montpelier municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/e2b6721c-3d35-5f08-b0c3-32f82b6df989
+name: Ben Doyle
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/005
+  note: '24 App. V.S.A. ch. 005 (City of Montpelier): section 302 provides for two
+    council members from each of the three voting districts, serving staggered two-year
+    terms; section 303 provides that the Council appoints a replacement when a council
+    vacancy has more than 90 days of unexpired term remaining'
+  retrieved: '2026-10-18'
+- url: https://www.montpelier-vt.org/258/City-Council-Mayor
+  note: 'City of Montpelier (official website), City Council & Mayor page: lists the
+    District 1 councilors as Ben Doyle (term 2025-2027) and Paul Costello (term August
+    12, 2026 to March 2, 2027)'
+  retrieved: '2026-10-18'
+- url: http://www.montpelier-vt.org/Archive.aspx?ADID=6964
+  note: 'City of Montpelier, City Manager''s Weekly Report (July 31, 2026): announces
+    that the District 1 seat was recently vacated by Councilmember Adrienne Gil and
+    that the City Council would appoint a replacement on August 12, 2026 to serve
+    until March 2, 2027; Costello holds the seat by that appointment and Gil, who
+    departed, is not recorded'
+  retrieved: '2026-10-18'

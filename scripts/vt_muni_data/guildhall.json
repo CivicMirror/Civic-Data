@@ -1,0 +1,274 @@
+{
+ "label": "Town of Guildhall",
+ "place_slug": "guildhall",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:guildhall/government",
+ "header": "# Town of Guildhall municipal roster backfill -- Vermont\n# municipal fan-out batch 10; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Guildhall Selectboard",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists Guildhall's three selectboard members as Gary Brown (Chair), John Orlowski (Vice-Chair), and Jason Sterling."
+    },
+    {
+     "url": "https://guildhallvt.org/select-board.html",
+     "note": "Town of Guildhall select board page (guildhallvt.org): the town's selectboard page names the same three."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Gary Brown",
+     "slug": "gary-brown"
+    },
+    {
+     "name": "John Orlowski",
+     "slug": "john-orlowski"
+    },
+    {
+     "name": "Jason Sterling",
+     "slug": "jason-sterling"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Guildhall Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists George Blakeslee as Guildhall town clerk."
+    },
+    {
+     "url": "https://guildhallvt.org/town-clerk.html",
+     "note": "Town of Guildhall town clerk page (guildhallvt.org): the town's clerk page names George Blakeslee as Town Clerk with a term running to 2028."
+    }
+   ],
+   "holders": [
+    {
+     "name": "George Blakeslee",
+     "slug": "george-blakeslee"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Guildhall Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists George Blakeslee as Guildhall town treasurer."
+    },
+    {
+     "url": "https://guildhallvt.org/town-treasurer.html",
+     "note": "Town of Guildhall town treasurer page (guildhallvt.org): the town's treasurer page names George Blakeslee as Town Treasurer with a term running to 2028; the treasurer also acts as the town's tax collector, so no separate delinquent-tax-collector post is created."
+    }
+   ],
+   "holders": [
+    {
+     "name": "George Blakeslee",
+     "slug": "george-blakeslee"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Moderator",
+   "org_name": "Guildhall Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a moderator at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "auditor",
+   "title": "Auditor",
+   "org_name": "Guildhall Auditors",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://guildhallvt.org/auditors.html",
+     "note": "Town of Guildhall auditors page (guildhallvt.org): the town's auditors page names Ed Clark (term to 2029), Kelly McLain (to 2027), and Bill Ghelli (to 2028)."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Ed Clark",
+     "slug": "ed-clark"
+    },
+    {
+     "name": "Kelly McLain",
+     "slug": "kelly-mclain"
+    },
+    {
+     "name": "Bill Ghelli",
+     "slug": "bill-ghelli"
+    }
+   ]
+  },
+  {
+   "slug": "lister",
+   "title": "Lister",
+   "org_name": "Guildhall Listers",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://guildhallvt.org/lister-board.html",
+     "note": "Town of Guildhall lister board page (guildhallvt.org): the town's lister page names George Blakeslee (to 2027), Eileen Thietten (to 2028), and Patricia Brown (to 2029; the page's 'Patrica' is corrected to the form the town's cemetery page prints)."
+    }
+   ],
+   "holders": [
+    {
+     "name": "George Blakeslee",
+     "slug": "george-blakeslee"
+    },
+    {
+     "name": "Eileen Thietten",
+     "slug": "eileen-thietten"
+    },
+    {
+     "name": "Patricia Brown",
+     "slug": "patricia-brown"
+    }
+   ]
+  },
+  {
+   "slug": "cemetery-commissioner",
+   "title": "Cemetery Commissioner",
+   "org_name": "Guildhall Cemetery Commission",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://guildhallvt.org/cemetery-commission.html",
+     "note": "Town of Guildhall cemetery commission page (guildhallvt.org): the town's cemetery page names Gary Brown (to 2028), Patricia Brown (to 2029), and Rich Schiller (to 2027)."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Gary Brown",
+     "slug": "gary-brown"
+    },
+    {
+     "name": "Patricia Brown",
+     "slug": "patricia-brown"
+    },
+    {
+     "name": "Rich Schiller",
+     "slug": "rich-schiller"
+    }
+   ]
+  },
+  {
+   "slug": "road-commissioner",
+   "title": "Road Commissioner",
+   "org_name": "Guildhall Road Commissioner",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://guildhallvt.org/road-commission.html",
+     "note": "Town of Guildhall road commission page (guildhallvt.org): the town's road commission page names Gary Brown as Road Commissioner. The page does not state the mode of selection; the office is a town office under 17 V.S.A. section 2646 and the holder is recorded as elected."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Gary Brown",
+     "slug": "gary-brown"
+    }
+   ]
+  },
+  {
+   "slug": "grand-juror",
+   "title": "Grand Juror",
+   "org_name": "Guildhall Grand Juror",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a grand juror at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "town-agent",
+   "title": "Town Agent",
+   "org_name": "Guildhall Town Agent",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a town agent at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "trustee-of-public-funds",
+   "title": "Trustee of Public Funds",
+   "org_name": "Guildhall Trustees of Public Funds",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of trustees of public funds at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Guildhall Justices of the Peace",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists five justices of the peace for Guildhall."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Rebecca Bacon",
+     "slug": "rebecca-bacon"
+    },
+    {
+     "name": "Casey Dowland",
+     "slug": "casey-dowland"
+    },
+    {
+     "name": "Valerie Foy",
+     "slug": "valerie-foy"
+    },
+    {
+     "name": "Kelly McLain",
+     "slug": "kelly-mclain"
+    },
+    {
+     "name": "Sarah Sterling",
+     "slug": "sarah-sterling"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "guildhall-vt/2024-11-05/general",
+  "contest_id": "guildhall-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Guildhall Justice of the Peace Election 2024-11-05",
+  "filename": "guildhall-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 5,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): the SOS listing names the five Guildhall winners of the November 5, 2024 justice of the peace election."
+   }
+  ],
+  "header": "# Town of Guildhall -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking)."
+ }
+}

@@ -1,0 +1,20 @@
+# Town of Brownington municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-organization/c9769fba-6aa3-5d79-b0d8-f34b636789a1
+name: Brownington Selectboard
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brownington/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: brownington-vt/selectboard
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Brownington Selectboard members:
+    Byron Burdick, Mike Glodgett, and Marilyn Martinez (Chair).'
+  retrieved: '2026-10-18'
+- url: https://www.browningtonvt.com/town-officials/select-board
+  note: 'Town of Brownington official website, Select Board page: lists Mike Glodgett
+    (term expires 2027), Marilyn Martinez, Chairman (term expires 2028), and Byron
+    Burdick (term expires 2029).'
+  retrieved: '2026-10-18'

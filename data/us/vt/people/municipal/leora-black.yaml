@@ -1,0 +1,35 @@
+# Town of Colchester municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/d15483d3-26c1-5086-827c-6e278e1887c4
+name: Leora Black
+identifiers: []
+candidacies:
+- contest_id: colchester-vt/2024-11-05/justice-of-the-peace
+  election_id: colchester-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:colchester/government
+  office_id: colchester-vt/justice-of-the-peace
+  party: null
+  ballot_name: Leora Black
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/24APPENDIX/113/00202
+  note: 'Colchester town charter, 24 Appendix V.S.A. chapter 113, section 202 (official
+    text): provides for the election of one Library Trustee each year to a 5-year
+    term (a board of five).'
+  retrieved: '2026-10-18'
+- url: https://colchestervt.gov/409/Library-Board-of-Trustees
+  note: 'Town of Colchester official website, Burnham Memorial Library Board of Trustees
+    page: lists Toni Josey (Chair), Leora Black, Carol Anderson, Rebecca McMahon,
+    and Brent Litterer.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists fifteen Colchester justices
+    of the peace: Carol Anderson, Sarita Austin, Leora Black, Ruth Blauwiekel, Mary
+    Brennan, Patrick Brennan, Wendy Critchlow, Maureen Dakin, Peg Gillard, Julie Hulburd,
+    Marie-Reine Pepin, Curt Taylor, Tom Yasewicz, Jeanette Berry, and Robby Mazza.'
+  retrieved: '2026-10-18'

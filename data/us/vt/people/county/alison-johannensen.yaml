@@ -1,0 +1,28 @@
+# Windsor County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/09b8e8da-ac2c-566d-9439-f25d82ed2f38
+name: Alison Johannensen
+identifiers: []
+candidacies:
+- contest_id: windsor-vt-county/2022-11-08/assistant-judge
+  election_id: windsor-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windsor/government
+  office_id: windsor-vt-county/assistant-judge
+  party: Democratic
+  ballot_name: Alison Johannensen
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157857
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Windsor County'' (vote for 2; county
+    totals): Alison Johannensen (Democratic) 15,005 votes; David Singer (Democratic/Republican)
+    11,688; Michael A. Ricci (Independent) 9,641; write-ins 156. The contest page''s
+    cited official source is the official return vt-2022_11_08_General_ALL.pdf. The
+    office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'

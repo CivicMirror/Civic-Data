@@ -1,0 +1,74 @@
+# Orleans County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: orleans-vt-county/2022-11-08/general
+name: Orleans County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: orleans-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orleans/government
+  office_id: orleans-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/45d872af-4c7a-5c4f-8ceb-08e80e17691a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/45d872af-4c7a-5c4f-8ceb-08e80e17691a
+    name: Jennifer Barrett
+- id: orleans-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orleans/government
+  office_id: orleans-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c2c92c77-0ac8-51f7-aa53-ff3fbd72df1e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c2c92c77-0ac8-51f7-aa53-ff3fbd72df1e
+    name: Jennifer Harlow Jacobs
+- id: orleans-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:orleans/government
+  office_id: orleans-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/b7792563-825d-5774-b757-bfbb88740101
+  - ocd-person/beea4d34-8a65-5fb8-be17-8f2aa614e3b7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b7792563-825d-5774-b757-bfbb88740101
+    name: Benjamin M. Batchelder
+  - person_id: ocd-person/beea4d34-8a65-5fb8-be17-8f2aa614e3b7
+    name: Curtis A. Hardy
+sources:
+- url: https://electionarchive.vermont.gov/contest/158041
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Orleans
+    County'' (county totals): Jennifer Barrett (Democratic/Republican) 8,041 votes;
+    write-ins 673. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term. Mid-term change: the 2022 winner,
+    Jennifer Barrett, no longer holds the office; the Department page associates Farzana
+    Leyva with the office but styles her Deputy State''s Attorney in its staff list
+    (see county notes - resolve before building).'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157901
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Orleans County''
+    (county totals): Jennifer Harlow Jacobs (Democratic/Republican) 8,857 votes; write-ins
+    144. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157853
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Orleans County'' (vote for 2; county
+    totals): Benjamin M. Batchelder (Democratic/Republican) 7,391 votes; Curtis A.
+    Hardy (Democratic/Republican) 6,775; write-ins 69. Benjamin M. Batchelder and
+    Curtis A. Hardy were the only two candidates for the two seats. The contest page''s
+    cited official source is the official return vt-2022_11_08_General_ALL.pdf. The
+    office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'

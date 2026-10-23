@@ -1,0 +1,33 @@
+# Town of Westfield municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/6e9a7af3-cf91-5170-82dc-d541f93ca417
+name: Lisa Deslandes
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://westfield.vt.gov/town-departments/
+  note: 'Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the
+    page labels each office ''(elected)'' or appointed): ''Town Treasurer: Lisa Deslandes
+    (elected-expires 2027)'''
+  retrieved: '2026-10-20'
+- url: https://westfield.vt.gov/town-departments/
+  note: 'Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the
+    page labels each office ''(elected)'' or appointed): ''Listers: (elected): Danny
+    Young (Chair) (term expires 2029); Shelley Martin (term expires 2028); Lisa Deslandes*
+    (term expires 2027)'' with the page''s footnote ''*Appointed 7/20/2026'' on Deslandes
+    -- her lister membership is appointed; Young and Martin are elected'
+  retrieved: '2026-10-20'
+- url: https://westfield.vt.gov/town-departments/
+  note: 'Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the
+    page labels each office ''(elected)'' or appointed): ''Delinquent Tax Collector:
+    Lisa Deslandes (appointed*)'' with the page''s note ''At the 2024 Town Meeting
+    the voters approved making this an appointed position'''
+  retrieved: '2026-10-20'
+- url: https://westfield.vt.gov/
+  note: 'Town of Westfield, official website homepage: ''Tax Collector/Delinquent
+    Tax Collector, Lisa Deslandes'''
+  retrieved: '2026-10-20'

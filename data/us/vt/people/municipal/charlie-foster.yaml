@@ -1,0 +1,26 @@
+# Town of Wilmington municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/0cdb3cf6-77e3-5ea4-8f3b-54eb7285111a
+name: Charlie Foster
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Thomas Fitzgerald (Chair), John Lebron,
+    Vince Rice, Tony Tribuno, and Charlie Foster (the directory''s row for Foster
+    is transposed)'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/03/TM-Cert-of-Votes-Wilmington-2026-1.pdf
+  note: 'Town of Wilmington, Certificate of Votes for March 3, 2026 (attested by Therese
+    M. Lounsbury, Town Clerk): Thomas J. Fitzgerald was elected to the two-year seat
+    (161 votes) and Tony Tribuno to the three-year seat (40 votes)'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/boards-committees/selectboard/
+  note: 'Town of Wilmington, Selectboard page (2026): Tom Fitzgerald (Chair), Vince
+    Rice (Vice Chair), Tony Tribuno, Charlie Foster, and John Lebron'
+  retrieved: '2026-10-20'

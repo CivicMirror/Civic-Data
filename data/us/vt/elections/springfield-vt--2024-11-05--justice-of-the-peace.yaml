@@ -1,0 +1,65 @@
+# Town of Springfield -- justice of the peace election (VT municipal batch 21); issue #163 (VT master tracking).
+id: springfield-vt/2024-11-05/general
+name: Town of Springfield Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: springfield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:springfield/government
+  office_id: springfield-vt/justice-of-the-peace
+  vote_for: 15
+  candidate_ids:
+  - ocd-person/03b80132-73dd-5092-ac62-3d240998978d
+  - ocd-person/144b1c84-6e55-5d1a-92c2-63c2a5859259
+  - ocd-person/ff1b5593-1881-59b2-a918-830bda204ce7
+  - ocd-person/79b4893f-d78b-5995-8fed-0c4dedd7fa6a
+  - ocd-person/c23318aa-f2ba-5e66-be7e-6a249bc11310
+  - ocd-person/da9cc7d3-fc11-52a7-8481-cc158c7cf654
+  - ocd-person/2eae4339-8ce3-5417-94e6-555db6e1cfc3
+  - ocd-person/66cf9249-fe80-540e-9b13-ff599ff7ee32
+  - ocd-person/09551a0a-e91a-5f19-8403-43ce2d8d857e
+  - ocd-person/55ca2397-488d-532d-b2fc-8f4a1532e829
+  - ocd-person/fa212e16-7583-5518-b9a0-c60c7bd9696b
+  - ocd-person/be8d3109-a15f-5d1d-9678-54cf2f457e31
+  - ocd-person/3800f547-b8d5-54e7-856b-ce024c6d2a45
+  - ocd-person/6d722ffd-6451-5220-91e9-e0d033622749
+  - ocd-person/acdb1c95-c1d0-5601-a3e8-ec39092ebf9a
+  result_status: official
+  winners:
+  - person_id: ocd-person/03b80132-73dd-5092-ac62-3d240998978d
+    name: Alice M. Emmons
+  - person_id: ocd-person/144b1c84-6e55-5d1a-92c2-63c2a5859259
+    name: Asa Baptie Jr.
+  - person_id: ocd-person/ff1b5593-1881-59b2-a918-830bda204ce7
+    name: Elizabeth Gray
+  - person_id: ocd-person/79b4893f-d78b-5995-8fed-0c4dedd7fa6a
+    name: Ernest Lamphere
+  - person_id: ocd-person/c23318aa-f2ba-5e66-be7e-6a249bc11310
+    name: James Fog
+  - person_id: ocd-person/da9cc7d3-fc11-52a7-8481-cc158c7cf654
+    name: Judith Stern
+  - person_id: ocd-person/2eae4339-8ce3-5417-94e6-555db6e1cfc3
+    name: Julia Buffum
+  - person_id: ocd-person/66cf9249-fe80-540e-9b13-ff599ff7ee32
+    name: Lisa Young
+  - person_id: ocd-person/09551a0a-e91a-5f19-8403-43ce2d8d857e
+    name: Michael Jasinski
+  - person_id: ocd-person/55ca2397-488d-532d-b2fc-8f4a1532e829
+    name: Randy Gray
+  - person_id: ocd-person/fa212e16-7583-5518-b9a0-c60c7bd9696b
+    name: Scott Farr
+  - person_id: ocd-person/be8d3109-a15f-5d1d-9678-54cf2f457e31
+    name: Steve Matush
+  - person_id: ocd-person/3800f547-b8d5-54e7-856b-ce024c6d2a45
+    name: Ted Cody
+  - person_id: ocd-person/6d722ffd-6451-5220-91e9-e0d033622749
+    name: Timothy Gagnier
+  - person_id: ocd-person/acdb1c95-c1d0-5601-a3e8-ec39092ebf9a
+    name: Warren Cross
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names fifteen
+    winners for Springfield''s fifteen justice of the peace seats'
+  retrieved: '2026-10-19'

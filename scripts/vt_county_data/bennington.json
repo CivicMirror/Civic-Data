@@ -1,0 +1,46 @@
+{
+  "county": "bennington",
+  "name": "Bennington County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/bennington",
+  "dept_sa": "Erica Marthage",
+  "dept_sheriff": "James Gulley Jr.",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158033",
+      "candidates": [
+        {"name": "Erica Albin Marthage", "party": "Democratic/Republican", "votes": 12016, "winner": true}
+      ],
+      "write_ins": 204
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157893",
+      "candidates": [
+        {"name": "James A. Gulley, Jr", "party": "Democratic", "votes": 8478, "winner": true},
+        {"name": "Joel R. Howard, Jr", "party": "Republican", "votes": 5576, "winner": false},
+        {"name": "Beau Alexander, Sr", "party": "Independent", "votes": 1227, "winner": false}
+      ],
+      "write_ins": 12
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157845",
+      "vote_for": 2,
+      "candidates": [
+        {"name": "Mary C. Frost", "party": "Democratic/Republican", "votes": 11096, "winner": true},
+        {"name": "Brian W. Peat", "party": "Democratic/Republican", "votes": 9872, "winner": true}
+      ],
+      "write_ins": 84
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160974",
+      "candidates": [
+        {"name": "William \"Will\" Greer", "party": "Democratic", "votes": 9744, "winner": true},
+        {"name": "Andrew Shaw", "party": "Independent", "votes": 8208, "winner": false}
+      ],
+      "write_ins": 210
+    }
+  }
+}

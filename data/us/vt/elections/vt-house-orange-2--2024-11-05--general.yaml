@@ -1,0 +1,27 @@
+# Orange-2 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-orange-2/2024-11-05/general
+name: Orange-2 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-orange-2/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:orange-2/legislature
+  office_id: vt-house-orange-2/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f022c8ed-582e-5cae-9ab5-7118a0de9a51
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f022c8ed-582e-5cae-9ab5-7118a0de9a51
+    name: Monique Priestley
+sources:
+- url: https://electionarchive.vermont.gov/contest/161055
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Orange-2 District'' (district totals):
+    Monique Priestley (Democratic) 1,314 votes; Zachary Michael Lang (Republican)
+    1,138; write-ins 8. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

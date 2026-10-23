@@ -1,0 +1,20 @@
+# Town of Mount Holly municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-organization/50889dbf-9b06-504a-99f2-bc25d07f85fb
+name: Mount Holly Selectboard
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:mount-holly/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: mount-holly-vt/selectboard
+status: active
+sources:
+- url: https://www.mounthollyvt.org/town-services/selectboard/
+  note: 'Town of Mount Holly (official website), Select Board page: lists the three
+    selectboard members as Mark Turco (Chair), Jeff Chase, and Diana Garrow, elected
+    to three-year terms with one expiring every year'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): carries no Mount Holly roster (it directs readers
+    to contact the town clerk)'
+  retrieved: '2026-10-18'

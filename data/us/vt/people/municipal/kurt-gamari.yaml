@@ -1,0 +1,22 @@
+# Town of Stamford municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/43225eb6-6882-53f2-9338-11e1bc5570bb
+name: Kurt Gamari
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Nancy Bushika (Chair), Michael Denault,
+    John Dunn, Kurt Gamari, and Jedidiah Gramlin'
+  retrieved: '2026-10-19'
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, official marked results ballot for the annual meeting of
+    March 3, 2026 (town website, stamfordvt.net): Kurt Gamari was elected to the three-year
+    seat with 99 votes and Jedidiah Gramlin to the two-year seat with 84 votes (Stamford
+    elects its five members on mixed two- and three-year terms)'
+  retrieved: '2026-10-19'

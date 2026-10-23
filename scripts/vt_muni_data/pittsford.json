@@ -1,0 +1,233 @@
+{
+ "label": "Town of Pittsford",
+ "place_slug": "pittsford",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:pittsford/government",
+ "header": "# Town of Pittsford municipal roster backfill -- Vermont\n# municipal fan-out batch 18; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "moderator",
+   "title": "Town Moderator",
+   "org_name": "Town of Pittsford Town Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a moderator for a one-year term"
+    },
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf",
+     "note": "Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com): the March 3, 2026 ballot results read into the minutes record that Moderator Robb Spensley 'received enough votes to continue' in the office"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Robb Spensley",
+     "slug": "robb-spensley"
+    }
+   ]
+  },
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Town of Pittsford Selectboard",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists Pittsford's five selectboard members: Daniel Adams, Tom Hooker, Alicia Malay (Chair), David Mills, and Mark Winslow"
+    },
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf",
+     "note": "Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com): Mark Winslow was elected to a three-year term with 262 votes (Erin Eugair 216, write-ins 3) and Dan Adams was re-elected to a two-year term with 445 votes at the March 3, 2026 election"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Daniel Adams",
+     "slug": "daniel-adams"
+    },
+    {
+     "name": "Tom Hooker",
+     "slug": "tom-hooker"
+    },
+    {
+     "name": "Alicia Malay",
+     "slug": "alicia-malay",
+     "existing_person_id": "ocd-person/5c402261-3cd7-5302-ada8-ee1b6afaad16"
+    },
+    {
+     "name": "David Mills",
+     "slug": "david-mills"
+    },
+    {
+     "name": "Mark Winslow",
+     "slug": "mark-winslow"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Town of Pittsford Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/01/Town-Meeting-Warning-2026.pdf",
+     "note": "Town of Pittsford, Town Meeting Warning 2026: floor Article 6 asked whether the voters would authorize the Selectboard to appoint the Town Clerk under 17 V.S.A. section 2651e, and ballot Article 9 elected a Town Clerk for a three-year term"
+    },
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf",
+     "note": "Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com): the ballot results read into the minutes give Dolores Gecha 456 votes for Town Clerk; the same minutes then record, after executive session, that the Selectboard appointed Dolores Gecha as Town Clerk effective 45 days from the Town Meeting election (April 17, 2026) for a term of three years. The voters having authorized appointment, she holds the office by appointment, and she is minted appointed; no separate election record is created for the office"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Dolores Gecha",
+     "slug": "dolores-gecha",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Town of Pittsford Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/01/Town-Meeting-Warning-2026.pdf",
+     "note": "Town of Pittsford, Town Meeting Warning 2026: floor Article 7 asked whether the voters would authorize the Selectboard to appoint the Town Treasurer under 17 V.S.A. section 2651f, and ballot Article 9 elected a Town Treasurer for a three-year term"
+    },
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf",
+     "note": "Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com): the ballot results read into the minutes give the Town Treasurer race 457 votes (the results line does not repeat the winner's name); the same minutes record that the Selectboard appointed Dolores Gecha as Town Treasurer, with the clerkship, effective 45 days from the Town Meeting election (April 17, 2026) for a term of three years. She is minted appointed"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Dolores Gecha",
+     "slug": "dolores-gecha",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "trustee-of-public-funds",
+   "title": "Trustee of Public Funds",
+   "org_name": "Town of Pittsford Trustees of Public Funds",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/01/Town-Meeting-Warning-2026.pdf",
+     "note": "Town of Pittsford, Town Meeting Warning 2026: ballot Article 9 elects a Trustee of Public Funds for a three-year term; one such seat stands each year, so the board has three seats"
+    },
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf",
+     "note": "Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com): Dolores Gecha was elected Trustee of Public Funds with 450 votes. The other two seats' holders are published in no current official source, so they are created without memberships"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Dolores Gecha",
+     "slug": "dolores-gecha"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Town of Pittsford Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://www.pittsfordvermont.com/wp-content/uploads/2026/03/Selectboard-Minutes-3-4-2026.pdf",
+     "note": "Town of Pittsford, Selectboard Minutes, March 4, 2026 (pittsfordvermont.com): the Selectboard's annual appointments motion of March 4, 2026 appoints the Town Manager, Ann Reed, as Collector of Delinquent Taxes. The office is filled by appointment in Pittsford"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Ann Reed",
+     "slug": "ann-reed",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Town of Pittsford Justices of the Peace",
+   "seats": 12,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists twelve Pittsford justices of the peace: Charles \"Butch\" Shaw, Matthew Candon, Matthew Markowski, Ernie Clerihew, Terry Poor, Sue Markowski, Jill Blanchard, Bonnie Stewart, Brian Nolan, Bill Drummond, Donna Wilson, and Elizabeth Simpson"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Charles Shaw",
+     "slug": "charles-shaw",
+     "ballot_name": "Charles \"Butch\" Shaw"
+    },
+    {
+     "name": "Matthew Candon",
+     "slug": "matthew-candon"
+    },
+    {
+     "name": "Matthew Markowski",
+     "slug": "matthew-markowski"
+    },
+    {
+     "name": "Ernie Clerihew",
+     "slug": "ernie-clerihew"
+    },
+    {
+     "name": "Terry Poor",
+     "slug": "terry-poor"
+    },
+    {
+     "name": "Sue Markowski",
+     "slug": "sue-markowski"
+    },
+    {
+     "name": "Jill Blanchard",
+     "slug": "jill-blanchard"
+    },
+    {
+     "name": "Bonnie Stewart",
+     "slug": "bonnie-stewart"
+    },
+    {
+     "name": "Brian Nolan",
+     "slug": "brian-nolan"
+    },
+    {
+     "name": "Bill Drummond",
+     "slug": "bill-drummond"
+    },
+    {
+     "name": "Donna Wilson",
+     "slug": "donna-wilson"
+    },
+    {
+     "name": "Elizabeth Simpson",
+     "slug": "elizabeth-simpson"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "pittsford-vt/2024-11-05/general",
+  "contest_id": "pittsford-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Pittsford Justice of the Peace Election 2024-11-05",
+  "filename": "pittsford-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 12,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): the certified listing names twelve winners for Pittsford's twelve justice of the peace seats"
+   }
+  ],
+  "header": "# Town of Pittsford -- justice of the peace election (VT municipal batch 18); issue #163 (VT master tracking)."
+ }
+}

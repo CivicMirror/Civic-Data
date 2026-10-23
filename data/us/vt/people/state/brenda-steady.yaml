@@ -1,0 +1,44 @@
+# Chittenden-25 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/13210973-ba5b-581d-9bc9-16e0e5f10e07
+name: Brenda Steady
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-25/2024-11-05/state-representative
+  election_id: vt-house-chittenden-25/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-25/legislature
+  office_id: vt-house-chittenden-25/state-representative
+  party: Republican
+  ballot_name: Brenda Steady
+  status: active
+- contest_id: milton-vt/2024-11-05/justice-of-the-peace
+  election_id: milton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:milton/government
+  office_id: milton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Brenda Steady
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161029
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-25 District'' (district
+    totals): Brenda Steady (Republican) 1,437 votes; Julia Andrews (Democratic) 1,296;
+    write-ins 8. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-25 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names Brenda Steady among Milton''s
+    fifteen justices of the peace, at 138 McMullen Rd., Milton; Chittenden-25 is
+    Milton''s own House district, and the Milton justice-of-the-peace membership
+    reuses this person record (VT municipal batch 15).'
+  retrieved: '2026-10-18'

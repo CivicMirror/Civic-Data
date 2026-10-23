@@ -1,0 +1,23 @@
+# Irasburg -- justice of the peace election (VT municipal batch 11); issue #163 (VT master tracking).
+id: irasburg-vt/2024-11-05/general
+name: Irasburg Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: irasburg-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:irasburg/government
+  office_id: irasburg-vt/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ee5861d9-200d-51f7-887c-a31e6a011d18
+  result_status: official
+  winners:
+  - person_id: ocd-person/ee5861d9-200d-51f7-887c-a31e6a011d18
+    name: Robert Booth
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing names one winner
+    for Irasburg: Robert Booth (one seat as listed)'
+  retrieved: '2026-10-18'

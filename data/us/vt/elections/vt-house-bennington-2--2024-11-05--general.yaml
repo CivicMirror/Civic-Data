@@ -1,0 +1,31 @@
+# Bennington-2 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-bennington-2/2024-11-05/general
+name: Bennington-2 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-bennington-2/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:bennington-2/legislature
+  office_id: vt-house-bennington-2/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/9f9d042b-04fd-5e03-850e-e470deba6f85
+  - ocd-person/a1feb2f2-1ca5-500e-b1bd-09e02781839c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9f9d042b-04fd-5e03-850e-e470deba6f85
+    name: Timothy R. Corcoran Ii
+  - person_id: ocd-person/a1feb2f2-1ca5-500e-b1bd-09e02781839c
+    name: William "Will" Greer
+sources:
+- url: https://electionarchive.vermont.gov/contest/160999
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Bennington-2 District'' (district
+    totals): Timothy R. Corcoran Ii (Democratic) 2,136 votes; William "Will" Greer
+    (Democratic) 1,858; Anthony A. Cook (Republican) 1,363; write-ins 52. The contest
+    page''s cited official source is the Secretary of State''s ''November 5, 2024
+    General Official Results.pdf''. State representatives serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

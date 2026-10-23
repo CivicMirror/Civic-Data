@@ -1,0 +1,22 @@
+# Town of Peru municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/721cb7e9-a8df-5016-b8e9-ff9b3d202fee
+name: Will Crandall
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://peruvt.org/wp-content/uploads/2026/01/Peru-Annual-Meeting-Warning-2026-1.pdf
+  note: 'Town of Peru, Annual Meeting Warning 2026: Article 3 elects a Cemetery Commissioner
+    for a five-year term; Peru''s commissioners serve staggered five-year terms'
+  retrieved: '2026-10-19'
+- url: https://peruvt.org/government/
+  note: 'Town of Peru, Government page (peruvt.org): the town''s published elected-officials
+    roster, with term years lists cemetery commissioners Will Crandall (Chair, term
+    to 2029), Carl Holcomb (2027), Jeremy LaPan (2030), and Ivanna Reed (2031). The
+    fifth seat''s holder is published in no official source, so it is created without
+    a membership'
+  retrieved: '2026-10-19'

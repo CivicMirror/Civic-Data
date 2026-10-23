@@ -1,0 +1,32 @@
+# Essex County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/146d3abb-cae2-535a-9cd6-aafb3bf6c843
+name: Trevor Colby
+identifiers: []
+candidacies:
+- contest_id: essex-vt-county/2022-11-08/sheriff
+  election_id: essex-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:essex/government
+  office_id: essex-vt-county/sheriff
+  party: Democratic/Republican
+  ballot_name: Trevor Colby
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157896
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Essex County'' (county
+    totals): Trevor Colby (Democratic/Republican) 2,094 votes; write-ins 30. The contest
+    page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://prosecutors.vermont.gov/offices/essex
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Essex County office
+    page: lists Vincent Illuzzi as State''s Attorney and Trevor Colby as Sheriff --
+    the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-17'

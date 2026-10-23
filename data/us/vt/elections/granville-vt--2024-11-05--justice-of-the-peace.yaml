@@ -1,0 +1,35 @@
+# Town of Granville -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: granville-vt/2024-11-05/general
+name: Town of Granville Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: granville-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:granville/government
+  office_id: granville-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/9693018b-6498-5c2e-af88-774c9cc2dd51
+  - ocd-person/b790a36a-fa69-5d56-9b05-9b915da3398e
+  - ocd-person/8d30016e-841c-5965-a1ae-c16cd7b0b7e3
+  - ocd-person/faea8b5d-22e4-5708-bc1e-cb9c9fbecf79
+  - ocd-person/85835549-61fb-5146-9477-e20b31d78de1
+  result_status: official
+  winners:
+  - person_id: ocd-person/9693018b-6498-5c2e-af88-774c9cc2dd51
+    name: James Parrish
+  - person_id: ocd-person/b790a36a-fa69-5d56-9b05-9b915da3398e
+    name: Janet Brown
+  - person_id: ocd-person/8d30016e-841c-5965-a1ae-c16cd7b0b7e3
+    name: Kristina Fuller
+  - person_id: ocd-person/faea8b5d-22e4-5708-bc1e-cb9c9fbecf79
+    name: Nancy Demers
+  - person_id: ocd-person/85835549-61fb-5146-9477-e20b31d78de1
+    name: Robin Hagerman
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Granville winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'

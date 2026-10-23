@@ -1,0 +1,46 @@
+# Chittenden-24 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/65bad7fd-3995-5891-a77d-58527653962b
+name: Alyssa Black
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-24/2024-11-05/state-representative
+  election_id: vt-house-chittenden-24/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-24/legislature
+  office_id: vt-house-chittenden-24/state-representative
+  party: Democratic
+  ballot_name: Alyssa Black
+  status: active
+- contest_id: essex-vt/2024-11-05/justice-of-the-peace
+  election_id: essex-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:essex/government
+  office_id: essex-vt/justice-of-the-peace
+  party: null
+  ballot_name: Alyssa Black
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161025
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-24 District'' (district
+    totals): Alyssa Black (Democratic) 1,531 votes; Ron Lawrence (Republican) 1,122;
+    write-ins 1. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-24 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists Alyssa Black among
+    the Town of Essex''s fifteen justices of the peace. She is the same Alyssa Black
+    of Essex who holds the Chittenden-24 House seat (an Essex Town district); her
+    official legislature biography records that her family settled in Essex in
+    1995. The justice of the peace candidacy above is appended to this record rather
+    than minting a second person (VT municipal batch 8, issue #163).'
+  retrieved: '2026-10-18'

@@ -1,0 +1,22 @@
+# Town of Plymouth municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/6fc90a89-0458-52c9-9b60-aedd50fef356
+name: William Lambert
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.plymouthvt.org/wp-content/uploads/2026/03/Local-Results-March-3-2026-1.pdf
+  note: 'Town of Plymouth, ''Local Results - March 3, 2026'', the official return
+    of votes for the March 3, 2026 local election, certified by Town Clerk Angela
+    Kissell (173 ballots counted), as published on the town website: Cemetery Commissioner,
+    three years -- Andrew M. Crossman 163 votes'
+  retrieved: '2026-10-19'
+- url: https://www.plymouthvt.org/elected-town-officials/
+  note: 'Town of Plymouth, Elected Town Officials page (plymouthvt.org): lists Cemetery
+    Commissioners Andrew Crossman (term to 2026), William Lambert (2027), and Michael
+    Pierson (2028)'
+  retrieved: '2026-10-19'

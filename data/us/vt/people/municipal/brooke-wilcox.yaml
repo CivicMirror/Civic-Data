@@ -1,0 +1,22 @@
+# Town of Ripton municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/7aee1921-9b72-5107-9b89-1cde07cc301c
+name: Brooke Wilcox
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Ripton''s three selectboard members: Giles
+    Hoyler, William Hunsinger, and ''H Wilcox'' (the directory truncates her given
+    name)'
+  retrieved: '2026-10-19'
+- url: https://www.riptonvermont.org/selectboard
+  note: 'Town of Ripton, Selectboard page (riptonvermont.org): Giles Hoyler (Chair),
+    Bill Hunsinger, and Brooke Wilcox; Laureen ''Laurie'' Cox retired at the 2026
+    meeting after 40 years'
+  retrieved: '2026-10-19'

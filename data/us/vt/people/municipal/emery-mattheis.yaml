@@ -1,0 +1,38 @@
+# Town of Randolph municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/90f15577-e112-5d57-adb7-384569953008
+name: Emery Mattheis
+identifiers: []
+candidacies:
+- contest_id: randolph-vt/2024-11-05/justice-of-the-peace
+  election_id: randolph-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:randolph/government
+  office_id: randolph-vt/justice-of-the-peace
+  party: null
+  ballot_name: Emery Mattheis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Randolph''s five selectboard members:
+    Emery Mattheis, Alissa Matthews, Larry Satkowitz, Bethany Silloway, and Stephanie
+    Tyler (the directory''s name columns are swapped for Tyler)'
+  retrieved: '2026-10-19'
+- url: https://www.ourherald.com/articles/randolph-keeps-meeting-passes-budgets/
+  note: 'White River Valley Herald, ''Randolph Keeps Meeting, Passes Budgets'' (March
+    5, 2026): the town''s March 2026 outcomes (newspaper source, disclosed; the town
+    posts no 2026 results) -- Emery Mattheis won the three-year seat (480-460 over
+    Ashley Lincoln) and Bethany Silloway won the two-year seat (514-418 over Dustin
+    Adams); Alissa Matthews, Larry Satcowitz, and Stephanie Tyler continue'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists eight Randolph justices of the
+    peace: Dennis Brown, Kristin Chandler, Kristen Gage, Thomas Harty, Emery Mattheis,
+    Ceciele Smith, Stephen Webster, and Peter Nowlan (the town report''s twelve-name
+    list is the stale 2022 slate; the certified listing governs)'
+  retrieved: '2026-10-19'

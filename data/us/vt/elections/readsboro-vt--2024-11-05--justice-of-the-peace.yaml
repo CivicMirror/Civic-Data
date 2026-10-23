@@ -1,0 +1,35 @@
+# Town of Readsboro -- justice of the peace election (VT municipal batch 19); issue #163 (VT master tracking).
+id: readsboro-vt/2024-11-05/general
+name: Town of Readsboro Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: readsboro-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:readsboro/government
+  office_id: readsboro-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/c62b485e-e1e5-5e84-a514-f0572de55e27
+  - ocd-person/8e22ab1a-85ff-594f-848d-b4a52d81cf45
+  - ocd-person/565783b5-f832-584a-85d4-073b98edd5d7
+  - ocd-person/83638a73-90c6-594b-b12c-02913ec0ece3
+  - ocd-person/b8adfa9d-937b-5cd6-803a-d1896adec310
+  result_status: official
+  winners:
+  - person_id: ocd-person/c62b485e-e1e5-5e84-a514-f0572de55e27
+    name: Bruce Busa
+  - person_id: ocd-person/8e22ab1a-85ff-594f-848d-b4a52d81cf45
+    name: Normajean Marchegiani
+  - person_id: ocd-person/565783b5-f832-584a-85d4-073b98edd5d7
+    name: Raymond Eilers
+  - person_id: ocd-person/83638a73-90c6-594b-b12c-02913ec0ece3
+    name: Rhonda Eilers Smith
+  - person_id: ocd-person/b8adfa9d-937b-5cd6-803a-d1896adec310
+    name: Richard Codogni
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Readsboro''s five justice of the peace seats'
+  retrieved: '2026-10-19'

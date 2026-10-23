@@ -1,0 +1,30 @@
+# Chittenden-22 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-22/2024-11-05/general
+name: Chittenden-22 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-22/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-22/legislature
+  office_id: vt-house-chittenden-22/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/e4dd3113-936e-5155-8558-971d6ab23013
+  - ocd-person/a8305f55-aa42-57fd-b1f5-60d35d6af8de
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e4dd3113-936e-5155-8558-971d6ab23013
+    name: Lori Houghton
+  - person_id: ocd-person/a8305f55-aa42-57fd-b1f5-60d35d6af8de
+    name: Karen Dolan
+sources:
+- url: https://electionarchive.vermont.gov/contest/161023
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-22 District'' (district
+    totals): Lori Houghton (Democratic) 3,631 votes; Karen Dolan (Democratic) 3,500;
+    write-ins 186. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

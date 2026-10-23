@@ -1,0 +1,22 @@
+# Town of Ferrisburgh municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/b020bc47-181a-5861-992d-8251544910ec
+name: James Benoit
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.ferrisburghvt.org/vertical/Sites/{B16C9BC8-6A0C-4814-B183-6F54A75E8A13}/uploads/FERRSIBURGH_2026_ELECTED_AND_APPOINTED_OFFICERS_LIST.pdf
+  note: 'Town of Ferrisburgh, ''2026 Elected & Appointed Officials'' list (ferrisburghvt.org):
+    lists five elected Selectboard members: Chris Campbell (Chair), Walter E. Reed
+    II (Vice Chair), Rick Ebel (Clerk), James Benoit, and Liz Markowski.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): confirms the Ferrisburgh roster, including Liz
+    Markowski; the pre-meeting chair, Clark Hinsdale, rotated off at the February
+    28, 2026 town meeting and is not seated.'
+  retrieved: '2026-10-18'

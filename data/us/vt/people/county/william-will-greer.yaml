@@ -1,0 +1,57 @@
+# Bennington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/a1feb2f2-1ca5-500e-b1bd-09e02781839c
+name: William "Will" Greer
+identifiers: []
+candidacies:
+- contest_id: bennington-vt-county/2024-11-05/high-bailiff
+  election_id: bennington-vt-county/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/high-bailiff
+  party: Democratic
+  ballot_name: William "Will" Greer
+  status: active
+- contest_id: vt-house-bennington-2/2024-11-05/state-representative
+  election_id: vt-house-bennington-2/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:bennington-2/legislature
+  office_id: vt-house-bennington-2/state-representative
+  party: Democratic
+  ballot_name: William "Will" Greer
+  status: active
+- contest_id: bennington-vt/2024-11-05/justice-of-the-peace
+  election_id: bennington-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bennington/government
+  office_id: bennington-vt/justice-of-the-peace
+  party: null
+  ballot_name: William Greer
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/160974
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, High Bailiff, Bennington County'' (county totals): William
+    "Will" Greer (Democratic) 9,744 votes; Andrew Shaw (Independent) 8,208; write-ins
+    210. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. High bailiffs are elected biennially (Vermont
+    Constitution, Chapter II, section 43); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/160999
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Bennington-2 District'' (district
+    totals): Timothy R. Corcoran Ii (Democratic) 2,136 votes; William "Will" Greer
+    (Democratic) 1,858; Anthony A. Cook (Republican) 1,363; write-ins 52. The contest
+    page''s cited official source is the Secretary of State''s ''November 5, 2024
+    General Official Results.pdf''. State representatives serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Bennington-2 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices of the Peace'' listing (updated December 4, 2025): lists William Greer of Bennington as a justice of the peace for the 2025-2026 term.'
+  retrieved: '2026-10-17'

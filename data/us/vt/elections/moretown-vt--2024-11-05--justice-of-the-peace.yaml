@@ -1,0 +1,51 @@
+# Town of Moretown -- justice of the peace election (VT municipal batch 15); issue #163 (VT master tracking).
+id: moretown-vt/2024-11-05/general
+name: Town of Moretown Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: moretown-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:moretown/government
+  office_id: moretown-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/fa7c506a-63b6-5c15-acc4-9c1a155e06ae
+  - ocd-person/cc95c451-6b1f-5a3a-95c8-ce836fb0dd90
+  - ocd-person/56a10611-9642-587d-8981-fc2596cddfd8
+  - ocd-person/3dab9d67-2128-57fa-9313-df254593247b
+  - ocd-person/96febb4a-5772-56ae-b6f0-ea51f18ac9ff
+  - ocd-person/0e78b6b9-3447-55b0-88ea-2b444dd9b3dc
+  - ocd-person/2db843e0-636d-51ba-aef3-52dbfb9988a6
+  result_status: official
+  winners:
+  - person_id: ocd-person/fa7c506a-63b6-5c15-acc4-9c1a155e06ae
+    name: Bridget Harty
+  - person_id: ocd-person/cc95c451-6b1f-5a3a-95c8-ce836fb0dd90
+    name: Kate O'Neill
+  - person_id: ocd-person/56a10611-9642-587d-8981-fc2596cddfd8
+    name: Ron Shems
+  - person_id: ocd-person/3dab9d67-2128-57fa-9313-df254593247b
+    name: Sam Rosenberg
+  - person_id: ocd-person/96febb4a-5772-56ae-b6f0-ea51f18ac9ff
+    name: Stephen Magill
+  - person_id: ocd-person/0e78b6b9-3447-55b0-88ea-2b444dd9b3dc
+    name: Sybil Schlesinger
+  - person_id: ocd-person/2db843e0-636d-51ba-aef3-52dbfb9988a6
+    name: William Nowlan
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the Moretown block lists four justices
+    of the peace elected November 5, 2024: Bridget Harty, Stephen Magill, William
+    Nowlan, and Kathryn O''Neill. The Town of Moretown''s 2025 Town Report officers
+    table lists SEVEN justices of the peace -- the same four plus Ron Shems, Sam Rosenberg,
+    and Sybil Schlesinger -- a superset of the listing, and the table proved seat-accurate
+    for the selectboard, cemetery commission, and library trustees against the town''s
+    2026 ballot. The town report governs and the seven are recorded as the winners.
+    The listing publishes no vote totals or party labels and none are recorded'
+  retrieved: '2026-10-18'
+- url: https://www.moretownvt.org/wp-content/uploads/2026/02/Moretown-Town-Report-2025.pdf
+  note: 'Town of Moretown, 2025 Town Report, officers table submitted by the Town
+    Clerk: lists the seven justices of the peace named in the election note'
+  retrieved: '2026-10-18'

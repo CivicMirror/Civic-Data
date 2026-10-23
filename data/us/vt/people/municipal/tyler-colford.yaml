@@ -1,0 +1,28 @@
+# Jacksonville municipal roster backfill -- Vermont
+# municipal fan-out batch 12; issue #163 (VT master tracking).
+id: ocd-person/07e5873c-a3e3-5128-831d-b9e1c05743a9
+name: Tyler Colford
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/227
+  note: '24 App. V.S.A. ch. 227 (Village of Jacksonville charter): section 3(a), as
+    amended by 2005 No. M-15: five trustees are elected at the annual meeting and
+    serve until their successors are elected; section 3(b) the trustees elect one
+    of themselves President, so no president post is created'
+  retrieved: '2026-10-18'
+- url: https://www.jec.energy/board/
+  note: 'Village of Jacksonville (official site of the Jacksonville Electric Company,
+    the village''s municipal utility), ''Board of Trustees'' page: the page styles
+    the body ''The Village of Jacksonville''s Board of Trustee[s]'' and lists the
+    current trustees as Kenneth Bernard (term to 2027), Laura Allen, Interim (2028),
+    John Doty, Treasurer (2029), Jenepher Burnell, President (2030), and Tyler Colford,
+    Clerk (2031); the parenthetical roles are board offices, not separate posts. Allen
+    is styled ''Interim''; the charter fills vacancies only at special meetings called
+    for that purpose (section 3(a)), so she is recorded as a seated trustee with the
+    styling disclosed'
+  retrieved: '2026-10-18'

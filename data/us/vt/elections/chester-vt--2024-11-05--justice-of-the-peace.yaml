@@ -1,0 +1,58 @@
+# Town of Chester -- justice of the peace election (VT municipal batch 5); issue #163 (VT master tracking).
+id: chester-vt/2024-11-05/general
+name: Town of Chester Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: chester-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:chester/government
+  office_id: chester-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/14503fb8-5323-5408-b418-3abb2c4e3a2a
+  - ocd-person/12af0817-3f8e-5bce-a719-7e696c07c7c1
+  - ocd-person/10c5b054-19ba-546b-a681-caefa962d430
+  - ocd-person/3b3697f9-cb90-5f13-80bb-cbf5e1b40920
+  - ocd-person/0981f1d7-9126-5f96-b67c-0c04ba3d4cec
+  - ocd-person/5816746c-cba8-5890-b7bf-461a3b4b148d
+  - ocd-person/7aad41c6-5770-5ce9-9312-58bddb4e2cb3
+  - ocd-person/70b7adf8-1a79-59f6-828f-24e87a583871
+  - ocd-person/3f35c070-f740-5b52-bb98-0f369e61a52e
+  - ocd-person/55f5cd79-6f89-5eb8-99a3-72fe1cbd95b2
+  - ocd-person/c75d95c8-e235-507f-8979-be136978979a
+  - ocd-person/53422314-f65b-5dfd-93f3-dc0a4b329882
+  result_status: official
+  winners:
+  - person_id: ocd-person/14503fb8-5323-5408-b418-3abb2c4e3a2a
+    name: Cheryl LeClair
+  - person_id: ocd-person/12af0817-3f8e-5bce-a719-7e696c07c7c1
+    name: Edward Grossman
+  - person_id: ocd-person/10c5b054-19ba-546b-a681-caefa962d430
+    name: Gerald Gleason
+  - person_id: ocd-person/3b3697f9-cb90-5f13-80bb-cbf5e1b40920
+    name: Heather Chase
+  - person_id: ocd-person/0981f1d7-9126-5f96-b67c-0c04ba3d4cec
+    name: Jessica Krust
+  - person_id: ocd-person/5816746c-cba8-5890-b7bf-461a3b4b148d
+    name: Kenneth D. Barrett
+  - person_id: ocd-person/7aad41c6-5770-5ce9-9312-58bddb4e2cb3
+    name: Larry Semones
+  - person_id: ocd-person/70b7adf8-1a79-59f6-828f-24e87a583871
+    name: Lisa Duncan
+  - person_id: ocd-person/3f35c070-f740-5b52-bb98-0f369e61a52e
+    name: Marilyn Mahusky
+  - person_id: ocd-person/55f5cd79-6f89-5eb8-99a3-72fe1cbd95b2
+    name: Patricia Budnick
+  - person_id: ocd-person/c75d95c8-e235-507f-8979-be136978979a
+    name: Russell Monier
+  - person_id: ocd-person/53422314-f65b-5dfd-93f3-dc0a4b329882
+    name: Sarah Vail
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Chester justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'

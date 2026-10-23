@@ -1,0 +1,72 @@
+# Town of Hartford -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: hartford-vt/2024-11-05/general
+name: Town of Hartford Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: hartford-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hartford/government
+  office_id: hartford-vt/justice-of-the-peace
+  vote_for: 15
+  candidate_ids:
+  - ocd-person/200ca9cf-9470-5780-8537-18565646b54c
+  - ocd-person/98f474f8-5523-5742-a63b-b8fb2de8d04b
+  - ocd-person/09b5e1ce-5464-5ce3-b361-2c90b5c7d907
+  - ocd-person/fb138bec-3178-550f-bb9a-0c5acc0e7169
+  - ocd-person/08342155-e8bd-5df1-b018-151fc1610b67
+  - ocd-person/83eac58f-3e30-570e-bf66-7f9e8f00de35
+  - ocd-person/f924b597-90c2-5c89-9fd0-f33450a94f5d
+  - ocd-person/222f112f-29cb-56cd-9abb-622499e52e04
+  - ocd-person/e89f2dd9-7af4-5081-b9e6-572a07e019cd
+  - ocd-person/9d73321d-65c7-582c-bf77-6aa6643b1c40
+  - ocd-person/5a9558bd-bb54-592f-bc91-6849096172b5
+  - ocd-person/7ad1b233-0c70-555d-9199-0e828292ffbc
+  - ocd-person/05027f42-040e-5a38-81b2-633ef09ea2a0
+  - ocd-person/7b526ff4-d572-5f0b-81d3-68be5fc25b47
+  - ocd-person/c6015316-caa5-5f37-9987-300b979ebdb7
+  result_status: official
+  winners:
+  - person_id: ocd-person/200ca9cf-9470-5780-8537-18565646b54c
+    name: Adam Ricker
+  - person_id: ocd-person/98f474f8-5523-5742-a63b-b8fb2de8d04b
+    name: Brett Mayfield
+  - person_id: ocd-person/09b5e1ce-5464-5ce3-b361-2c90b5c7d907
+    name: Don Foster
+  - person_id: ocd-person/fb138bec-3178-550f-bb9a-0c5acc0e7169
+    name: Jennifer Horn
+  - person_id: ocd-person/08342155-e8bd-5df1-b018-151fc1610b67
+    name: Jo Alexander
+  - person_id: ocd-person/83eac58f-3e30-570e-bf66-7f9e8f00de35
+    name: Linda Simon Miller
+  - person_id: ocd-person/f924b597-90c2-5c89-9fd0-f33450a94f5d
+    name: Lynn Bohi
+  - person_id: ocd-person/222f112f-29cb-56cd-9abb-622499e52e04
+    name: Mark McNamee
+  - person_id: ocd-person/e89f2dd9-7af4-5081-b9e6-572a07e019cd
+    name: Nancy Howe
+  - person_id: ocd-person/9d73321d-65c7-582c-bf77-6aa6643b1c40
+    name: Pat Cook
+  - person_id: ocd-person/5a9558bd-bb54-592f-bc91-6849096172b5
+    name: Rebecca White
+  - person_id: ocd-person/7ad1b233-0c70-555d-9199-0e828292ffbc
+    name: Ryan Walther
+  - person_id: ocd-person/05027f42-040e-5a38-81b2-633ef09ea2a0
+    name: Sara Blood
+  - person_id: ocd-person/7b526ff4-d572-5f0b-81d3-68be5fc25b47
+    name: Scott Farnsworth
+  - person_id: ocd-person/c6015316-caa5-5f37-9987-300b979ebdb7
+    name: Susan Kirincich
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the fifteen
+    Hartford winners of the November 5, 2024 justice of the peace election; the first-listed,
+    Rebecca White, is the sitting Windsor-district state senator and her existing
+    person record is reused. No lister post: the charter''s contracted assessor performs
+    the listers'' functions. No delinquent-tax-collector post: the Town Manager holds
+    the duties (ch. 123A section 203(c)). No West Hartford Library trustee post: its
+    trustees are town-elected on five-year terms but no official source fixes the
+    board''s size (verified elected: Karen Powell and Mary Smith, 2025; Torrelee F.
+    ''Fisher-Sass'' Sass, 2026).'
+  retrieved: '2026-10-18'

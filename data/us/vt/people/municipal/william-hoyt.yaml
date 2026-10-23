@@ -1,0 +1,38 @@
+# Town of Weston municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/41b6e98d-71c9-57e2-9f01-59603457cec7
+name: William Hoyt
+identifiers: []
+candidacies:
+- contest_id: weston-vt/2024-11-05/justice-of-the-peace
+  election_id: weston-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:weston/government
+  office_id: weston-vt/justice-of-the-peace
+  party: null
+  ballot_name: William "Bill" Hoyt
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.westonvt.org/cemeteries
+  note: 'Town of Weston, Cemeteries page: the Cemetery Commissioners are Duane Hart
+    (2030), William Hoyt (2028), Doris Ingram (2029), Richard ''Dick'' Lechthaler,
+    and Patrick Walsh (2027), on five-year terms'
+  retrieved: '2026-10-20'
+- url: https://www.westonvt.org/s/2026-TM-Results.pdf
+  note: 'Town of Weston, official Town Meeting Results, March 3, 2026: Richard Lechthaler
+    was re-elected Cemetery Commissioner in 2026'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Weston justices of the
+    peace: Marisa Bolognese, Carolyn L. Brosseau, Wayne G. Granquist, William ''Bill''
+    Hoyt, and Donna Taranko-Moulton'
+  retrieved: '2026-10-20'
+- url: https://www.westonvt.org/s/Official-Results-11-5-2024.pdf
+  note: 'Town of Weston, ''Justice of the Peace Results, November 5, 2024'' (official
+    town PDF): confirms the same five winners. The 2025 Town Report''s JP table (Charles
+    Goodwin, Marguerite Mason) is stale and is not used'
+  retrieved: '2026-10-20'

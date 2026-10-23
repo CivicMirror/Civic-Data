@@ -1,0 +1,40 @@
+# Town of Hancock municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/815691c8-4045-509e-a829-8096fd09e226
+name: Maurice Eaton
+identifiers: []
+candidacies:
+- contest_id: hancock-vt/2024-11-05/justice-of-the-peace
+  election_id: hancock-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hancock/government
+  office_id: hancock-vt/justice-of-the-peace
+  party: null
+  ballot_name: Maurice Eaton Jr
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.hancockvt.org/wp-content/uploads/2026/02/Town-Report-2026-Hancock.pdf
+  note: 'Town of Hancock 2026 Town Report (hancockvt.org): the officers table seats
+    Larry Bettis to 2027 and Geraldine K. Twitchell to 2028.'
+  retrieved: '2026-10-18'
+- url: https://www.hancockvt.org/wp-content/uploads/2026/03/Town-Meeting-Minutes-2026.docx
+  note: 'Town of Hancock, Minutes of the Annual Town Meeting, March 3, 2026 (hancockvt.org):
+    Maurice Eaton was re-elected a cemetery commissioner at the March 3, 2026 meeting.'
+  retrieved: '2026-10-18'
+- url: https://www.hancockvt.org/wp-content/uploads/2026/02/Town-Report-2026-Hancock.pdf
+  note: 'Town of Hancock 2026 Town Report (hancockvt.org): the officers table seats
+    Maurice Eaton to 2027 and Marjorie Ross to 2028 on the town''s elected Advisory
+    Budget Committee.'
+  retrieved: '2026-10-18'
+- url: https://www.hancockvt.org/wp-content/uploads/2026/03/Town-Meeting-Minutes-2026.docx
+  note: 'Town of Hancock, Minutes of the Annual Town Meeting, March 3, 2026 (hancockvt.org):
+    Linda Straley was re-elected to the Budget Committee at the March 3, 2026 meeting.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists three justices of the
+    peace for Hancock (the third as Maurice Eaton Jr).'
+  retrieved: '2026-10-18'

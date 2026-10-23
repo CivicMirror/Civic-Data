@@ -1,0 +1,42 @@
+# Addison Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: addison-vt/2024-11-05/general
+name: Addison 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: addison-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:addison/government
+  office_id: addison-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/af473c1d-f6ef-5d72-adaf-34fbb8d56a72
+  - ocd-person/688e6d8d-c065-555a-8cee-a243c480e4ef
+  - ocd-person/443f234e-5a1d-55e4-b6b1-eae2590d39e7
+  - ocd-person/31a068aa-6c12-5571-91e9-e01607ef1888
+  - ocd-person/2ed59f72-d00d-593c-a5fc-c7c789b5d6d8
+  - ocd-person/221ee4ab-9f07-5c90-b2fb-736d39509e05
+  - ocd-person/1dde09df-916e-5127-b695-a8e0420c71f2
+  result_status: official
+  winners:
+  - person_id: ocd-person/af473c1d-f6ef-5d72-adaf-34fbb8d56a72
+    name: Jane Spencer
+  - person_id: ocd-person/688e6d8d-c065-555a-8cee-a243c480e4ef
+    name: Jason Sampson
+  - person_id: ocd-person/443f234e-5a1d-55e4-b6b1-eae2590d39e7
+    name: Jennifer Barrett
+  - person_id: ocd-person/31a068aa-6c12-5571-91e9-e01607ef1888
+    name: Starr Phillips
+  - person_id: ocd-person/2ed59f72-d00d-593c-a5fc-c7c789b5d6d8
+    name: Tom Fisher
+  - person_id: ocd-person/221ee4ab-9f07-5c90-b2fb-736d39509e05
+    name: Vincent Paradis
+  - person_id: ocd-person/1dde09df-916e-5127-b695-a8e0420c71f2
+    name: William Munoff
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'

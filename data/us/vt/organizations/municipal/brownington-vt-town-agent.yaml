@@ -1,0 +1,15 @@
+# Town of Brownington municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-organization/a39d05fb-c3d1-52db-ab60-eb0b95cb3960
+name: Brownington Town Agent
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brownington/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: brownington-vt/town-agent
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646 (official text, Vermont General Assembly) provides
+    for the election of a town agent at annual town meeting. Structure only: no official
+    source publishes the current holder; the seat is left unfilled rather than guessed.'
+  retrieved: '2026-10-18'

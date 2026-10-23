@@ -1,0 +1,43 @@
+# Town of Calais -- justice of the peace election (VT municipal batch 5); issue #163 (VT master tracking).
+id: calais-vt/2024-11-05/general
+name: Town of Calais Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: calais-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:calais/government
+  office_id: calais-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/77bb7dbc-76e1-53ef-b8db-df9e5b0997d1
+  - ocd-person/39e6eddb-a0f8-579e-80b5-24393acd05a0
+  - ocd-person/7e4ef63d-e4af-5230-a35a-b4f8dbe34fd1
+  - ocd-person/93fc7541-d4bc-5a57-83a3-909157c5bdf5
+  - ocd-person/07de7c99-b627-5dec-9cc4-ab0d6a16984a
+  - ocd-person/e2c151c5-06cd-565f-a1f5-5aba2d14c27d
+  - ocd-person/881d8fb7-571d-5ea6-8c86-81ebc65da2c2
+  result_status: official
+  winners:
+  - person_id: ocd-person/77bb7dbc-76e1-53ef-b8db-df9e5b0997d1
+    name: Barbara Butler
+  - person_id: ocd-person/39e6eddb-a0f8-579e-80b5-24393acd05a0
+    name: Charlotte Hanna Bassage
+  - person_id: ocd-person/7e4ef63d-e4af-5230-a35a-b4f8dbe34fd1
+    name: Dillon Burns
+  - person_id: ocd-person/93fc7541-d4bc-5a57-83a3-909157c5bdf5
+    name: Janet Ancel
+  - person_id: ocd-person/07de7c99-b627-5dec-9cc4-ab0d6a16984a
+    name: Kristina Bielenberg
+  - person_id: ocd-person/e2c151c5-06cd-565f-a1f5-5aba2d14c27d
+    name: Michael Loignon
+  - person_id: ocd-person/881d8fb7-571d-5ea6-8c86-81ebc65da2c2
+    name: W. Scott Bassage
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Calais justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'

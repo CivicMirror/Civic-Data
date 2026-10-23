@@ -1,0 +1,23 @@
+# Town of Rupert municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/6ddc82f2-0e6b-5158-a8b8-2ed51442e336
+name: Anniken Davenport
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://rupert.vt.gov/wp-content/uploads/2026/03/Certificate-of-Election-3-3-2026.pdf
+  note: 'Town of Rupert, Certificate of Votes, Results of Town Meeting, March 3, 2026
+    (196 votes cast; certified by the Town Clerk): Wendy McRoy (179 votes) and Lynn
+    Vail (182 votes) were elected library trustees, taking the two seats expiring
+    in 2026'
+  retrieved: '2026-10-19'
+- url: https://rupert.vt.gov
+  note: 'Town of Rupert, 2025 Town Report, ''Rupert Town Officers'' table: the Rosalind
+    Keshin Kittay Library has seven trustees: Judy Zinn, Jean Nardi, and Morgan Horton
+    (terms to 2028), Sarah Porter and Anniken Davenport (to 2027), and Wendy McRoy
+    and Lynn Vail (elected 2026)'
+  retrieved: '2026-10-19'

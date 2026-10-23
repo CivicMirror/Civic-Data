@@ -1,0 +1,24 @@
+# Town of Warren municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/954a6142-f5ec-5c1e-b6ea-34b5c67ddf57
+name: J Kenneth Scott
+identifiers: []
+candidacies:
+- contest_id: warren-vt/2024-11-05/justice-of-the-peace
+  election_id: warren-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:warren/government
+  office_id: warren-vt/justice-of-the-peace
+  party: null
+  ballot_name: J Kenneth Scott
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Warren justices of the
+    peace: J Kenneth Scott, Margaret Bullock Wade, Susan K Bauchner, Joni Zweig, and
+    Sandra L Brodeur'
+  retrieved: '2026-10-20'

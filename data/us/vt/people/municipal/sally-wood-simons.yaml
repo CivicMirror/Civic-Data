@@ -1,0 +1,24 @@
+# Town of Sheffield municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/e1aee9cd-f742-563c-96ab-dcf1487bc822
+name: Sally Wood-Simons
+identifiers: []
+candidacies:
+- contest_id: sheffield-vt/2024-11-05/justice-of-the-peace
+  election_id: sheffield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sheffield/government
+  office_id: sheffield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Sally Wood-Simons
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Sheffield justices of the
+    peace: Kathy Newland, Sally Wood-Simons, Edward Jewell, Gay Ellis, and Barbara
+    ''Bobbie'' Bristol'
+  retrieved: '2026-10-19'

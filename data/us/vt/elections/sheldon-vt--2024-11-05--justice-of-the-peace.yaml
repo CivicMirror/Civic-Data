@@ -1,0 +1,35 @@
+# Town of Sheldon -- justice of the peace election (VT municipal batch 21); issue #163 (VT master tracking).
+id: sheldon-vt/2024-11-05/general
+name: Town of Sheldon Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sheldon-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sheldon/government
+  office_id: sheldon-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/18ac8c36-60e9-5e05-a49c-e8121738c260
+  - ocd-person/daefdb26-f147-5051-8c98-89cd212dcb30
+  - ocd-person/97201ee6-ee0e-5d82-830b-08d8dfeac540
+  - ocd-person/51102201-f61f-5cce-b272-c56341514c70
+  - ocd-person/9ad4fe94-2b5d-5896-b624-61e8781aaf7e
+  result_status: official
+  winners:
+  - person_id: ocd-person/18ac8c36-60e9-5e05-a49c-e8121738c260
+    name: Deborah Kittell
+  - person_id: ocd-person/daefdb26-f147-5051-8c98-89cd212dcb30
+    name: Dianne Crane
+  - person_id: ocd-person/97201ee6-ee0e-5d82-830b-08d8dfeac540
+    name: Shannon Kane
+  - person_id: ocd-person/51102201-f61f-5cce-b272-c56341514c70
+    name: Stephen Dodd
+  - person_id: ocd-person/9ad4fe94-2b5d-5896-b624-61e8781aaf7e
+    name: Susan Brooks
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Sheldon''s five justice of the peace seats'
+  retrieved: '2026-10-19'

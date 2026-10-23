@@ -1,0 +1,36 @@
+# Town of West Windsor municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/3858c7f1-19d2-5d2c-a2f7-d9edb6107a08
+name: Nancy Gaynor
+identifiers: []
+candidacies:
+- contest_id: west-windsor-vt/2024-11-05/justice-of-the-peace
+  election_id: west-windsor-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-windsor/government
+  office_id: west-windsor-vt/justice-of-the-peace
+  party: null
+  ballot_name: Nancy Gaynor
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://westwindsorvt.govoffice2.com/vertical/sites/%7BD8CDCAEE-6783-4071-AE03-8A27DD92A280%7D/uploads/West_Windsor_Town_Report_2025.pdf
+  note: 'Town of West Windsor, 2025 Town Report, ''TOWN OFFICES'' elected-officers
+    list (with term-expiry years): Auditors -- Justin Burrows (term to 2026); Nancy
+    Gaynor (to 2027); Barbara Gerstner (to 2028)'
+  retrieved: '2026-10-20'
+- url: https://westwindsorvt.govoffice2.com/
+  note: 'Town of West Windsor, official website homepage, ''2026 Town Meeting Recap'':
+    ''Auditor - Justin Burrows, reelected by voice vote'' (2026). Gaynor also holds
+    a justice of the peace seat; one record carries both memberships'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five West Windsor justices of
+    the peace: Margaret Clough, Nancy Gaynor, Debra Shearer, Debra Bullock Spackman,
+    and Anne P. Yates; the town report''s short forms (Deb Shearer, Deb Spackman,
+    Anne Yates) yield to the certified forms. Anne Yates is a different person from
+    Amy Yates the clerk/treasurer'
+  retrieved: '2026-10-20'

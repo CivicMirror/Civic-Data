@@ -1,0 +1,146 @@
+{
+ "district_slug": "west-river-modified-union",
+ "district_name": "West River Modified Union Education District",
+ "jurisdiction_sources": [
+  {
+   "url": "https://legislature.vermont.gov/statutes/section/16/010/00603",
+   "note": "16 V.S.A. section 603(a)(5)(D) inventory: West River Modified Union Education District, a modified union district in the Windham Central Supervisory Union (member towns: Brookline, Jamaica, Newfane, Townshend for PK-12; Windham for grades 7-12 only).",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "url": "https://www.windhamcentral.org",
+   "note": "Windham Central Supervisory Union (official site).",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "board": {
+  "org_name": "West River Modified Union Education District Board",
+  "sources": [
+   {
+    "url": "https://www.windhamcentral.org/wred-board-members",
+    "note": "WCSU WRED Board Members page (official, fetched 2026-10-22; roster recovered from the page's raw HTML member cards -- rendered-text extraction drops every card): Townshend -- Winrich (Chairperson) exp. 2029, Claussen (Vice-Chairperson) exp. 2029; Brookline -- Jillson (Clerk) exp. 2029; Jamaica -- West exp. 2028, Hazelton exp. 2027; Newfane -- Long exp. 2028, Bertram exp. 2027; Windham -- Pelton exp. 2028; At-large -- Webb (\"At Large (Brookline)\") exp. 2027, Gehring (\"At Large (Newfane)\") exp. 2026; and Chevalier, exp. 2029, with NO town published on her card. MODEL: town seats are elected by their own towns at town meeting (Townshend 2023 town report; Jamaica 2020 town meeting minutes) and at-large seats on the district ballot (official April 8, 2026 ballot, Art. 9: one at-large director, 3-year term, district-wide commingled count). HELD: the at-large seat published exp. 2026 (Gehring) -- the April 2026 ballot warned it with NO printed candidate (write-in only) and no certified return was fetched. Chevalier is minted in the at-large post (the only seat class filled in 2026 carrying a 2029 expiry, matching the Art. 9 article), flagged: if the certified return or the Articles show a town seat, she moves. Board size 11 and the allocation rest on the roster cards; the Articles of Agreement were not fetched. Excluded (not directors): the district's elected officers (Wilson, Clerk; Liebow, Moderator; Russ, Treasurer) and two student members.",
+    "retrieved": "2026-10-22"
+   }
+  ]
+ },
+ "directors": [
+  {
+   "name": "Joe Winrich",
+   "slug": "joe-winrich",
+   "how_seated": "elected",
+   "post": "school-director-townshend",
+   "end": "2029",
+   "note": "Board Chairperson."
+  },
+  {
+   "name": "Al Claussen",
+   "slug": "al-claussen",
+   "how_seated": "elected",
+   "post": "school-director-townshend",
+   "end": "2029",
+   "note": "Vice-Chairperson."
+  },
+  {
+   "name": "Lee-Ann Jillson",
+   "slug": "lee-ann-jillson",
+   "how_seated": "elected",
+   "post": "school-director-brookline",
+   "end": "2029",
+   "note": "Board Clerk (officer role not modeled)."
+  },
+  {
+   "name": "Dana West",
+   "slug": "dana-west",
+   "how_seated": "elected",
+   "post": "school-director-jamaica",
+   "end": "2028"
+  },
+  {
+   "name": "Drew Hazelton",
+   "slug": "drew-hazelton",
+   "how_seated": "elected",
+   "post": "school-director-jamaica",
+   "end": "2027"
+  },
+  {
+   "name": "Emily Long",
+   "slug": "emily-long",
+   "how_seated": "elected",
+   "post": "school-director-newfane",
+   "existing_person_id": "ocd-person/dbe5fa99-fd19-5071-8045-73586e9e3528",
+   "end": "2028",
+   "note": "Same person as the state representative record for Windham-5 (Newfane) in the General Assembly tier."
+  },
+  {
+   "name": "Lindsey Bertram",
+   "slug": "lindsey-bertram",
+   "how_seated": "elected",
+   "post": "school-director-newfane",
+   "end": "2027"
+  },
+  {
+   "name": "Michael Pelton",
+   "slug": "michael-pelton",
+   "how_seated": "elected",
+   "post": "school-director-windham",
+   "existing_person_id": "ocd-person/818ac95a-bb28-5813-a14f-efd662c07b5d",
+   "end": "2028",
+   "note": "Same person as the Windham selectboard record."
+  },
+  {
+   "name": "Sara Webb",
+   "slug": "sara-webb",
+   "how_seated": "elected",
+   "post": "school-director-at-large",
+   "end": "2027",
+   "note": "Card styles her \"At Large (Brookline)\" -- an at-large seat held by a Brookline resident."
+  },
+  {
+   "name": "Fiona Chevalier",
+   "slug": "fiona-chevalier",
+   "how_seated": "elected",
+   "post": "school-director-at-large",
+   "existing_person_id": "ocd-person/d3645908-d7fe-5b93-acc2-693bf93191b5",
+   "end": "2029",
+   "note": "Her card publishes no town; minted at-large per the 2029-expiry match with the April 2026 Art. 9 article -- flagged in the board sources. Same person as the Newfane justice of the peace record."
+  }
+ ],
+ "posts": [
+  {
+   "key": "school-director-townshend",
+   "title": "School Director (Townshend)",
+   "seats": 2,
+   "note": "West River MUED: Townshend seats, elected by Townshend voters at town meeting."
+  },
+  {
+   "key": "school-director-brookline",
+   "title": "School Director (Brookline)",
+   "seats": 1,
+   "note": "West River MUED: Brookline seat, elected by Brookline voters at town meeting."
+  },
+  {
+   "key": "school-director-jamaica",
+   "title": "School Director (Jamaica)",
+   "seats": 2,
+   "note": "West River MUED: Jamaica seats, elected by Jamaica voters at town meeting."
+  },
+  {
+   "key": "school-director-newfane",
+   "title": "School Director (Newfane)",
+   "seats": 2,
+   "note": "West River MUED: Newfane seats, elected by Newfane voters at town meeting."
+  },
+  {
+   "key": "school-director-windham",
+   "title": "School Director (Windham)",
+   "seats": 1,
+   "note": "West River MUED: Windham seat, elected by Windham voters; Windham is a member for grades 7-12 only (its elementary district survives separately)."
+  },
+  {
+   "key": "school-director-at-large",
+   "title": "School Director (At-Large)",
+   "seats": 3,
+   "note": "West River MUED: at-large seats, elected district-wide on the district ballot. One seat (published expiry 2026) is held -- see the board sources."
+  }
+ ]
+}

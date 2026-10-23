@@ -1,0 +1,32 @@
+# Town of St. Johnsbury municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/76e6998b-0c52-5892-aa6c-026f8202c9bd
+name: Durward Ellis
+identifiers: []
+candidacies:
+- contest_id: st-johnsbury-vt/2024-11-05/justice-of-the-peace
+  election_id: st-johnsbury-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-johnsbury/government
+  office_id: st-johnsbury-vt/justice-of-the-peace
+  party: null
+  ballot_name: Durward Ellis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen St. Johnsbury justices
+    of the peace: Brent Abare, Durward Ellis, Chase Empsall, Frank Empsall, Stephanie
+    Churchill, Diane Holmes, Robert Holmes, William Y. Hyde, Loraine Janowski, Tristan
+    Lemieux, Kevin Oddy, Jane Pompeo, Heather Whitemore, Lynn Wurzburg, and Janssen
+    Willhoit'
+  retrieved: '2026-10-19'
+- url: https://docs.stjvt.com
+  note: 'Town of St. Johnsbury, 2025 Annual Report, ''ELECTED OFFICIALS'' and ''APPOINTED
+    OFFICIALS'' tables in the town officers section (officers with term-expiry years),
+    published in the town''s document center: the report''s justice of the peace list
+    matches the certified listing name for name'
+  retrieved: '2026-10-19'

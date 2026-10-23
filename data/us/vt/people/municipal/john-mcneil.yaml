@@ -1,0 +1,24 @@
+# Town of Orange municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/9d1fa053-6062-5326-ac25-62cc10b9490f
+name: John McNeil
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.orangevt.org/town-office/
+  note: 'Town of Orange, Town Officers page (orangevt.org), which classifies the roster
+    as ''TOWN OFFICERS - ELECTED'' and ''TOWN OFFICERS - APPOINTED'' with term years:
+    the elected listers are John McNeil (term to 2027), Art McNeil (term to 2028),
+    and Ed Bedard (term to 2029)'
+  retrieved: '2026-10-19'
+- url: https://www.orangevt.org/town-office/
+  note: 'Town of Orange, Town Officers page (orangevt.org), which classifies the roster
+    as ''TOWN OFFICERS - ELECTED'' and ''TOWN OFFICERS - APPOINTED'' with term years:
+    the Delinquent Tax Collector is listed under TOWN OFFICERS - APPOINTED as ''John
+    McNeil - by Selectboard'', so his membership is recorded as appointed; he also
+    holds an elected lister seat'
+  retrieved: '2026-10-19'

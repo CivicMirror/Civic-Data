@@ -1,0 +1,70 @@
+# Windsor County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: windsor-vt-county/2022-11-08/general
+name: Windsor County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: windsor-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windsor/government
+  office_id: windsor-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e1d8e886-110b-52e4-9a14-c65c141086d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e1d8e886-110b-52e4-9a14-c65c141086d4
+    name: Ward Hunt Goodenough
+- id: windsor-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windsor/government
+  office_id: windsor-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/489b6937-5dd5-5eb5-9aa1-9a43cde0c2ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/489b6937-5dd5-5eb5-9aa1-9a43cde0c2ed
+    name: Ryan Palmer
+- id: windsor-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windsor/government
+  office_id: windsor-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/09b8e8da-ac2c-566d-9439-f25d82ed2f38
+  - ocd-person/941fe5cb-e70d-57fa-9dc1-448aeb03dc0d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/09b8e8da-ac2c-566d-9439-f25d82ed2f38
+    name: Alison Johannensen
+  - person_id: ocd-person/941fe5cb-e70d-57fa-9dc1-448aeb03dc0d
+    name: David Singer
+sources:
+- url: https://electionarchive.vermont.gov/contest/158045
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Windsor
+    County'' (county totals): Ward Hunt Goodenough (Democratic) 20,017 votes; write-ins
+    348. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157905
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Windsor County''
+    (county totals): Ryan Palmer (Democratic) 15,643 votes; Michael Chamberlain (Republican)
+    9,840; write-ins 141. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157857
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Windsor County'' (vote for 2; county
+    totals): Alison Johannensen (Democratic) 15,005 votes; David Singer (Democratic/Republican)
+    11,688; Michael A. Ricci (Independent) 9,641; write-ins 156. The contest page''s
+    cited official source is the official return vt-2022_11_08_General_ALL.pdf. The
+    office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,19 @@
+# Town of Roxbury municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/d7b905c1-b30b-5a37-b51c-041d16f5e8da
+name: Jacqueline Frazier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a moderator for a one-year term'
+  retrieved: '2026-10-19'
+- url: https://roxburyvt.gov/wp-content/uploads/2026/03/town-ballot-results.pdf
+  note: 'Town of Roxbury, Certificate of Election, Town Officers, March 3, 2026 (attested
+    by Town Clerk Tammy Legacy, March 4, 2026): Jacqueline Frazier was elected Moderator
+    with 161 votes'
+  retrieved: '2026-10-19'

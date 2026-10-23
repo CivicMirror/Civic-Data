@@ -1,0 +1,17 @@
+# Town of Georgia municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/1971df4c-49ff-5322-92a5-a55741134e8a
+name: Cheryl Letourneau
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.townofgeorgia.com/elections-voting/page/election-results
+  note: 'Town of Georgia, official election results page, Annual Town Meeting, March
+    3, 2026: Cheryl Letourneau was elected Town Clerk, 712 votes, for a term ending
+    March 2029. The results page misspells the surname ''Letorunaeu''; the form here
+    is the town clerk block''s own spelling.'
+  retrieved: '2026-10-21'

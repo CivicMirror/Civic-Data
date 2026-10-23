@@ -1,0 +1,39 @@
+# Alburgh Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: alburgh-00860-vt/2024-11-05/general
+name: Alburgh 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: alburgh-00860-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:alburgh-00860/government
+  office_id: alburgh-00860-vt/justice-of-the-peace
+  vote_for: 6
+  candidate_ids:
+  - ocd-person/70de5f73-f23f-5126-bb5d-286c6f8681fa
+  - ocd-person/fe4118b7-82d2-5e70-8686-aecd7a9da6b5
+  - ocd-person/46fd8f80-a5fb-58c4-a39a-40b4210dbd47
+  - ocd-person/4851ae44-8048-5bdc-a5c6-f7dfbfd029b5
+  - ocd-person/a5798033-ae42-5b47-9b7b-326cbe6644a2
+  - ocd-person/ed2287fc-c5e1-5cd0-a70c-5ee05b83dd1d
+  result_status: official
+  winners:
+  - person_id: ocd-person/70de5f73-f23f-5126-bb5d-286c6f8681fa
+    name: Christopher Higgins
+  - person_id: ocd-person/fe4118b7-82d2-5e70-8686-aecd7a9da6b5
+    name: Constance Boutin
+  - person_id: ocd-person/46fd8f80-a5fb-58c4-a39a-40b4210dbd47
+    name: Gina Lewis
+  - person_id: ocd-person/4851ae44-8048-5bdc-a5c6-f7dfbfd029b5
+    name: John Goodrich
+  - person_id: ocd-person/a5798033-ae42-5b47-9b7b-326cbe6644a2
+    name: Lisa Arnold
+  - person_id: ocd-person/ed2287fc-c5e1-5cd0-a70c-5ee05b83dd1d
+    name: Loretta Knight
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'

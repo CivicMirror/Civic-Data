@@ -1,0 +1,35 @@
+# Town of Victory -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: victory-vt/2024-11-05/general
+name: Town of Victory Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: victory-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:victory/government
+  office_id: victory-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/f5dd1912-2d7e-5577-ae00-7d2b42e5dc97
+  - ocd-person/8da265f0-9b65-5225-923a-6f85f76f95ce
+  - ocd-person/89d9cbf7-3b1f-53a1-ab8f-1a23a1ce6c32
+  - ocd-person/9894d135-479e-56c6-8bb4-bccfaa503564
+  - ocd-person/667578cd-4165-556e-a66f-5ad96abefd6e
+  result_status: official
+  winners:
+  - person_id: ocd-person/f5dd1912-2d7e-5577-ae00-7d2b42e5dc97
+    name: Howard Lynaugh
+  - person_id: ocd-person/8da265f0-9b65-5225-923a-6f85f76f95ce
+    name: Laurie Gilman
+  - person_id: ocd-person/89d9cbf7-3b1f-53a1-ab8f-1a23a1ce6c32
+    name: Lori Miller
+  - person_id: ocd-person/9894d135-479e-56c6-8bb4-bccfaa503564
+    name: Sylvia McKinstry
+  - person_id: ocd-person/667578cd-4165-556e-a66f-5ad96abefd6e
+    name: Walter Neborsky
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Victory''s five justice of the peace seats'
+  retrieved: '2026-10-20'

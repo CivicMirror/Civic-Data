@@ -1,0 +1,24 @@
+# City of Newport municipal roster backfill -- Vermont
+# municipal fan-out batch 16; issue #163 (VT master tracking).
+id: ocd-person/cf0bfda0-974b-5965-a32c-8d72f93ca934
+name: Pamela Ladds
+identifiers: []
+candidacies:
+- contest_id: newport-vt/2024-11-05/justice-of-the-peace
+  election_id: newport-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:newport/government
+  office_id: newport-vt/justice-of-the-peace
+  party: null
+  ballot_name: Pamela Ladds
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five City of Newport justices
+    of the peace elected November 5, 2024; the city report''s justice list names four,
+    omitting Carl King, and the listing governs'
+  retrieved: '2026-10-18'

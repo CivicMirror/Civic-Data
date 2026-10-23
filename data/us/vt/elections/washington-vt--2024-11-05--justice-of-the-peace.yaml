@@ -1,0 +1,43 @@
+# Town of Washington -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: washington-vt/2024-11-05/general
+name: Town of Washington Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: washington-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:washington/government
+  office_id: washington-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/541c687e-32aa-5b2d-930a-b25852f11e22
+  - ocd-person/614cc6c0-981b-5a1e-bedb-17235e0bd29f
+  - ocd-person/7e969f70-0db6-546e-8f03-d12faaa49c44
+  - ocd-person/2ef240e1-ef48-5641-89f6-25ce6c6e57f5
+  - ocd-person/03038787-24ab-5696-9935-318efb5e12e4
+  - ocd-person/a129c360-909b-55ed-bd7b-84df2f6adc5f
+  - ocd-person/88b70b62-2296-5b4b-8de1-9d0d9a091fe5
+  result_status: official
+  winners:
+  - person_id: ocd-person/541c687e-32aa-5b2d-930a-b25852f11e22
+    name: Anna Strong
+  - person_id: ocd-person/614cc6c0-981b-5a1e-bedb-17235e0bd29f
+    name: H. Brooke Paige
+  - person_id: ocd-person/7e969f70-0db6-546e-8f03-d12faaa49c44
+    name: Harry Roush
+  - person_id: ocd-person/2ef240e1-ef48-5641-89f6-25ce6c6e57f5
+    name: Lois Deberville
+  - person_id: ocd-person/03038787-24ab-5696-9935-318efb5e12e4
+    name: Peter Carbee
+  - person_id: ocd-person/a129c360-909b-55ed-bd7b-84df2f6adc5f
+    name: Ray McCormack
+  - person_id: ocd-person/88b70b62-2296-5b4b-8de1-9d0d9a091fe5
+    name: Scott Blanchard
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the seven winners of Washington''s
+    November 5, 2024 justice of the peace election (vote for seven): Scott Blanchard,
+    Peter Carbee, Lois Deberville, Ray McCormack, H. Brooke Paige, Harry Roush, and
+    Anna Strong. All seven remain in office'
+  retrieved: '2026-10-20'

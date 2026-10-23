@@ -1,0 +1,22 @@
+# Town of Wallingford municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/38c178ff-df76-5204-ac42-1646a0c9989e
+name: Glenn Mayer
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists only Carolyn Behrendt and Katherine Luzader
+    of Wallingford''s five-member board'
+  retrieved: '2026-10-20'
+- url: https://www.wallingfordvt.com/government/elected-appointed-officers/
+  note: 'Town of Wallingford, Elected and Appointed Officers page (wallingfordvt.com):
+    Anne Awad, Rob Barker, Carolyn Behrendt, Kathy Luzader (Chair), and Glenn Mayer
+    (Vice Chair). The directory''s ''Katherine Luzader'' is the Chair''s formal variant;
+    the town''s own page and the roster of record read Kathy Luzader'
+  retrieved: '2026-10-20'

@@ -1,0 +1,41 @@
+# Chittenden-21 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/a7fdd2dc-e7e7-5bbb-ab6e-6a7f05fdf575
+name: Daisy Berbeco
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-21/2024-11-05/state-representative
+  election_id: vt-house-chittenden-21/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-21/legislature
+  office_id: vt-house-chittenden-21/state-representative
+  party: Democratic
+  ballot_name: Daisy Berbeco
+  status: active
+- contest_id: winooski-vt/2024-11-05/justice-of-the-peace
+  election_id: winooski-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:winooski/government
+  office_id: winooski-vt/justice-of-the-peace
+  party: null
+  ballot_name: Daisy Berbeco
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161040
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-21 District'' (district
+    totals): Daisy Berbeco (Democratic) 2,554 votes; Chloe Tomlinson (Progressive/Democratic)
+    2,183; write-ins 79. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-21 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Daisy Berbeco is one of the fifteen Winooski justices of the peace certified from the November 5, 2024 election. Appended during the Winooski municipal build (VT municipal batch 28); she also sits as a Chittenden-21 state representative.'
+  retrieved: '2026-10-21'

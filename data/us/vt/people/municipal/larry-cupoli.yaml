@@ -1,0 +1,52 @@
+# City of Rutland municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/9bd1621e-34d9-5a86-83da-fae484af996f
+name: Larry Cupoli
+identifiers: []
+candidacies:
+- contest_id: rutland-vt/2024-11-05/justice-of-the-peace
+  election_id: rutland-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:rutland/government
+  office_id: rutland-vt/justice-of-the-peace
+  party: null
+  ballot_name: Larry Cupoli
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/009
+  note: '24 App. V.S.A. ch. 9 (City of Rutland): sections 2.1(a)-(b): six aldermen
+    are elected in odd-numbered years and five in even-numbered years, each to two-year
+    terms; section 15.7(a): a vacancy in an elective office is filled by mayoral appointment
+    until the next annual meeting'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org/wp-content/uploads/2025/03/Election-Results-March-4-2025.pdf
+  note: 'City of Rutland, official election results for the March 4, 2025 city election
+    (the clerk''s official results): the 2025 aldermanic winners included David Allaire,
+    Paul Clifford, Larry Cupoli, Bill Gillam, Jr., Thomas Donahue, and Kiana McClure'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org/wp-content/uploads/2026/03/Election-Results-March-3-2026-1.xlsx
+  note: 'City of Rutland, official election results for the March 3, 2026 city election
+    (the clerk''s official totals spreadsheet): the five 2026 aldermanic winners were
+    Alex Adams, Sharon Davis, Peter Franzoni, Anna Tadio, and Michael Talbott'
+  retrieved: '2026-10-19'
+- url: https://rutlandcity.org
+  note: 'City of Rutland, Board of Aldermen roster (rutlandcity.org): the sitting
+    board is David Allaire (President), Paul Clifford, Larry Cupoli, and Bill Gillam,
+    Jr. of the 2025 class (terms to March 2027); Alex Adams, Sharon Davis, Peter Franzoni,
+    Anna Tadio, and Michael Talbott of the 2026 class (to March 2028); and Barry Beauchamp
+    and Curt Esposito, seated in the 2025 class. Donahue vacated his aldermanic seat
+    on winning the mayoralty and McClure departed; Beauchamp and Esposito won in neither
+    certified election and hold the two seats by appointment under section 15.7(a).
+    (The June 2026 Secretary of State directory still lists McClure -- stale.)'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists fifteen Rutland City justices
+    of the peace: David Allaire, Barry Beauchamp, Phil Beauchamp, Chris Bove, Paul
+    Clifford, Larry Cupoli, Tom Donahue, Peter Fagan, Peg Flory, Sandra Gartner, William
+    ''Billy'' Gillam, Cheryl Hooker, George Hooker, Mary E. Howard, and Jack Welch,
+    Jr.'
+  retrieved: '2026-10-19'

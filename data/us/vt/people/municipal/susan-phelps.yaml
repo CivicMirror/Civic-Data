@@ -1,0 +1,29 @@
+# Town of Springfield municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/f1a68fb1-9315-52be-a04a-e2a1aa25fe0c
+name: Susan Phelps
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/149
+  note: '24 App. V.S.A. ch. 149 (Town of Springfield): sec. 23(a): Trustees of Public
+    Funds are an elective office'
+  retrieved: '2026-10-19'
+- url: https://springfieldvt.gov
+  note: 'Town of Springfield, Trustees of Public Funds page (current): Marc Aube (elected
+    March 5, 2024, term to 2027) and Peter Andrews (elected March 4, 2025, term to
+    2028)'
+  retrieved: '2026-10-19'
+- url: https://springfieldvt.gov/elections
+  note: 'Town of Springfield, Australian Ballot Official Return of Votes, Annual Town
+    Meeting, March 3, 2026 (1,357 ballots of 6,562 registered voters; certified by
+    Town Clerk Barbara A. Courchesne and Assistant Town Clerk Carrie M. Kellow): the
+    three-year trustee contest had no ballot candidate; Sue Phelps was the highest
+    write-in with 68 votes, and the town''s trustees page records her as ''Elected:
+    3/5/2026, Term Expires: 2029'' -- a write-in winner named in the certified tally
+    with roster concurrence, recorded as elected (disclosed on issue #163)'
+  retrieved: '2026-10-19'

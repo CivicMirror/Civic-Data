@@ -1,0 +1,30 @@
+# Town of Northfield municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/9d19b37e-b8f7-5ad4-bc4c-236e835d89ec
+name: Dexter Rowe
+identifiers: []
+candidacies:
+- contest_id: northfield-vt/2024-11-05/justice-of-the-peace
+  election_id: northfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:northfield/government
+  office_id: northfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Dexter Rowe
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Northfield elects fourteen justices
+    of the peace; the listing names Anne Donahue, Kenneth Goslant, Jessica Amell,
+    Paul Bean, Richard Wobby, Lea Hatch, Denise Macmartin, Carolyn Stevens, Britta
+    Eberle, Elizabeth Ellsworth, Dexter Rowe, Merry Kay Shernock, Lawrence Garland,
+    and Scott Blanchard'
+  retrieved: '2026-10-19'
+- url: https://www.northfield-vt.gov/_files/ugd/13fb68_7162d3578f974b7cb5dc9de55216c910.pdf
+  note: 'Town of Northfield, 2026 Town Report, Elected Officers table: the town''s
+    party-tagged justice of the peace table names the same fourteen justices'
+  retrieved: '2026-10-19'

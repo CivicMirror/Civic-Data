@@ -1,0 +1,23 @@
+# Town of Roxbury municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/9e34f466-70f5-5d9e-abd2-a731764374c1
+name: Timothy Martin
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Roxbury''s five selectboard members: Jeremy
+    Reed (Chair), Donna French (Vice Chair), Nathan Donahue, Heather Holter, and Timothy
+    Martin'
+  retrieved: '2026-10-19'
+- url: https://roxburyvt.gov/wp-content/uploads/2026/03/town-ballot-results.pdf
+  note: 'Town of Roxbury, Certificate of Election, Town Officers, March 3, 2026 (attested
+    by Town Clerk Tammy Legacy, March 4, 2026): Heather Holter won the three-year
+    selectboard seat (160 votes) and Timothy Martin the two-year seat (113 votes)
+    at the March 3, 2026 election'
+  retrieved: '2026-10-19'

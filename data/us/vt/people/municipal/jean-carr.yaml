@@ -1,0 +1,21 @@
+# Town of Vernon municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/49996f05-2217-54ef-9fa6-d06aca0c062c
+name: Jean Carr
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Sandra Harris (Chair), Brandon Bucossi,
+    Jean Carr, Shelli Harvey, and Jim Pinkerton for Vernon''s five-member board'
+  retrieved: '2026-10-20'
+- url: https://storage.googleapis.com/juniper-media-library/62/2026/03/2026%20Vernon%20Town%20Meeting%20minutes%20(003).pdf
+  note: 'Town of Vernon, minutes of the annual town meeting of March 2-3, 2026 (signed;
+    town website): Jean Carr and Shelli Harvey won the two selectboard seats on the
+    2026 ballot (the Warning prints Harvey as ''Shelli Dunklee Harvey'')'
+  retrieved: '2026-10-20'

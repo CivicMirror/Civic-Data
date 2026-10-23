@@ -1,0 +1,35 @@
+# Town of Fair Haven municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/d6d68f04-871d-5222-bdd9-3bcb688ed238
+name: Judith Gevry
+identifiers: []
+candidacies:
+- contest_id: fair-haven-vt/2024-11-05/justice-of-the-peace
+  election_id: fair-haven-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fair-haven/government
+  office_id: fair-haven-vt/justice-of-the-peace
+  party: null
+  ballot_name: Judith Gevry
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://fairhavenvt.gov/wp-content/uploads/2026/01/Sample-Ballot-Town-Meeting-March-3-2026.pdf
+  note: 'Town of Fair Haven official sample ballot, Town Meeting March 3, 2026 (fairhavenvt.gov):
+    Maureen Hall was the sole printed candidate for the 3-year Trustee of Public Funds
+    seat in 2026 and is minted as elected.'
+  retrieved: '2026-10-18'
+- url: https://fairhavenvt.gov/wp-content/uploads/2025/02/Town-Meeting-Ballot-March-4-2025.pdf
+  note: 'Town of Fair Haven official sample ballot, Town Meeting March 4, 2025 (fairhavenvt.gov):
+    Peter M. Laramie (3-year term) and Judith Gevry (2-year remainder) were the sole
+    printed candidates in 2025 and are minted as elected (sole-candidate pattern).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Fair Haven justices
+    of the peace: Cynthia Adams, John Adams, John (Jack) Adams, Melissa (Katie) Adams-Sliva,
+    Lorraine Brown, Jason Scott Coupal, and Judith Gevry. The slate itself distinguishes
+    John Adams from John (Jack) Adams; both are minted as listed.'
+  retrieved: '2026-10-18'

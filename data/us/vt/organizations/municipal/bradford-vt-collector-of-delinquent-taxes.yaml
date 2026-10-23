@@ -1,0 +1,19 @@
+# Town of Bradford municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-organization/5427ebe5-4dad-5278-9007-530fa8019107
+name: Bradford Collector of Delinquent Taxes
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bradford/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: bradford-vt/collector-of-delinquent-taxes
+status: active
+sources:
+- url: https://bradford-vt.us/government/departments/town_treasurer.php
+  note: 'Town of Bradford official website, ''Treasurer & Assistant Treasurer'' page:
+    ''Nikki Tomlinson, Delinquent Tax Collector''.'
+  retrieved: '2026-10-18'
+- url: https://cms2.revize.com/revize/bradford/documents/Departments/Town%20Clerk/Official%20Return%20of%20Votes%2003-03-2026%20Annual%20Town%20Meeting.pdf
+  note: 'Town of Bradford, ''Official Return of Votes, Annual Town Meeting'' (March
+    3, 2026, certified): Tomlinson (44) was also the leading write-in in the Collector
+    of Delinquent Taxes contest.'
+  retrieved: '2026-10-18'

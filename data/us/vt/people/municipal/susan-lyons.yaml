@@ -1,0 +1,48 @@
+# Town of Williamstown municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/7bde131f-1942-5524-93fd-8b6ce9a63ad2
+name: Susan Lyons
+identifiers: []
+candidacies:
+- contest_id: williamstown-vt/2024-11-05/justice-of-the-peace
+  election_id: williamstown-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:williamstown/government
+  office_id: williamstown-vt/justice-of-the-peace
+  party: null
+  ballot_name: Susan Lyons
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://williamstownvt.org/town-officers/
+  note: 'Town of Williamstown, Town Officers page (williamstownvt.org): Cemetery Commissioners
+    Daphne Herwig (2027), Matt Walker (2028), Matt Couillard (2030), and Susan Lyons
+    (2031) -- five seats on five-year staggered terms, one seat (2029) unlisted and
+    vacant'
+  retrieved: '2026-10-20'
+- url: https://williamstownvt.org/cemetery/
+  note: 'Town of Williamstown, Cemetery page: names commissioners Matt Couillard,
+    Susan Lyons, and Daphne Herwig. DIVERGENCE: the department page omits Matt Walker,
+    who is carried on the officers page with a term to 2028; the officers page governs
+    and the divergence is flagged on issue #163. The pages spell the family name both
+    Couillard and Coulliard; Couillard governs'
+  retrieved: '2026-10-20'
+- url: https://williamstownvt.org/town-officers/
+  note: 'Town of Williamstown, Town Officers page (williamstownvt.org): Trustees of
+    Henry S. Baker Fund Jasmin Couillard (2027), Marie Graham (2027), and Susan Lyons
+    (2028)'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Williamstown justices of
+    the peace (the town''s block runs across the listing''s pp. 39-40 page break):
+    Justin Ducey, Barbara Graham, Orvil Lasell, Susan Lyons, Heather King, Philip
+    Winters, Sherry Chase, Elaine Owen, C. Christopher Cate, and Willet Knight Jr'
+  retrieved: '2026-10-20'
+- url: https://williamstownvt.org/town-officers/
+  note: 'Town of Williamstown, Town Officers page (williamstownvt.org): the town''s
+    justice of the peace list concurs, printing ''Phil Winters'' and ''Willett Knight,
+    Jr.''; the certified forms govern'
+  retrieved: '2026-10-20'

@@ -1,0 +1,31 @@
+# Washington-2 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-washington-2/2024-11-05/general
+name: Washington-2 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-washington-2/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:washington-2/legislature
+  office_id: vt-house-washington-2/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/26b3a562-96a5-57a5-b87d-59554868420c
+  - ocd-person/d4210717-0a2a-5468-a0f9-b1b786532743
+  result_status: certified
+  winners:
+  - person_id: ocd-person/26b3a562-96a5-57a5-b87d-59554868420c
+    name: Candice White
+  - person_id: ocd-person/d4210717-0a2a-5468-a0f9-b1b786532743
+    name: Dara Torre
+sources:
+- url: https://electionarchive.vermont.gov/contest/161080
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Washington-2 District'' (district
+    totals): Candice White (Democratic) 3,164 votes; Dara Torre (Democratic) 2,644;
+    John J. Burns (Independent) 2,201; Eugene Bifano (COMMON SENSE) 1,039; write-ins
+    41. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State representatives serve two-year terms;
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

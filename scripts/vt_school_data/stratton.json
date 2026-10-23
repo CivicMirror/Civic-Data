@@ -1,0 +1,51 @@
+{
+ "district_slug": "stratton",
+ "district_name": "Stratton School District",
+ "jurisdiction_sources": [
+  {
+   "url": "https://legislature.vermont.gov/statutes/section/16/010/00603",
+   "note": "16 V.S.A. section 603(a)(5)(D) inventory: Stratton School District, a town school district in the Windham Central Supervisory Union (member town: Stratton). Non-operating: tuitions all grades.",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "url": "https://www.windhamcentral.org",
+   "note": "Windham Central Supervisory Union (official site).",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "board": {
+  "org_name": "Stratton School Board",
+  "post_title": "School Director",
+  "seats": 5,
+  "post_note": "Stratton SD: five directors at-large under 16 V.S.A. section 423(a)-(b) as the SU presents the board. Two seats are held (see the source note).",
+  "sources": [
+   {
+    "url": "https://www.windhamcentral.org/stratton-board-members",
+    "note": "Windham Central SU \"Stratton Board Members\" page (official), read from the page's raw HTML on 2026-10-22 -- the member names are dropped by rendered-text extraction (the River Valleys batch-8 pattern) but are present in the HTML: Melissa Walker (Chairperson), term length 3, expiry 2027; Joe Frigo (Vice-Chairperson), term length 1, expiry 2026; Morgan Taylor (Clerk), term length 3, expiry 2029; Kellie D'Elia-Laskin (Member), term length 3, expiry 2026; Maddie Mindich (Member), no term data published. Taylor's 2029 expiry shows the page was touched after the March 2026 election, but Frigo's and D'Elia-Laskin's cards still show terms expiring at that election -- internally inconsistent about currency, so Frigo and D'Elia-Laskin are HELD (resolving document: the March 3, 2026 Stratton SD annual meeting warning/minutes or return, Town Clerk). Walker, Taylor and Mindich are minted off the current roster (Mindich with no end -- none is published for her). Board size five is as the SU page presents the board (a section 423(b) expansion implied, the vote itself not fetched).",
+    "retrieved": "2026-10-22"
+   }
+  ]
+ },
+ "directors": [
+  {
+   "name": "Melissa Walker",
+   "slug": "melissa-walker",
+   "how_seated": "elected",
+   "end": "2027",
+   "note": "Chairperson; term per the SU board page (raw HTML)."
+  },
+  {
+   "name": "Morgan Taylor",
+   "slug": "morgan-taylor",
+   "how_seated": "elected",
+   "end": "2029",
+   "note": "Board Clerk (officer role not modeled); term per the SU board page (raw HTML)."
+  },
+  {
+   "name": "Maddie Mindich",
+   "slug": "maddie-mindich",
+   "how_seated": "elected",
+   "note": "On the SU board page with no term data published for her seat."
+  }
+ ]
+}

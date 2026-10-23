@@ -1,0 +1,38 @@
+# Franklin Probate District -- VT probate tier (jurisdiction + post + holder + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/ba64315a-a093-5da2-b9ee-ff5ec0aa7ffe
+name: Bob Farrar
+identifiers: []
+candidacies:
+- contest_id: franklin-vt-judicial-district/2022-11-08/judge-of-probate
+  election_id: franklin-vt-judicial-district/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/judicial_district:franklin/judiciary
+  office_id: franklin-vt-judicial-district/judge-of-probate
+  party: Republican
+  ballot_name: Bob Farrar
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_probate
+sources:
+- url: https://electionarchive.vermont.gov/contest/157881
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Probate Judge, Franklin County'' (county totals): Bob
+    Farrar (Republican) 10,169 votes; Vaughn P. S. Comeau (Democratic) 8,970; write-ins
+    24. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    Probate judges serve four-year terms beginning February 1 after the election (Vermont
+    Constitution, Chapter II, sections 50-51); the November 3, 2026 general election
+    decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://www.vtcourts.gov/court-locations/franklin-probate-division
+  note: 'Vermont Judiciary, Franklin Probate Division court page, Court Staff list:
+    names Bob Farrar as the division''s Superior Judge -- probate judges sit as judges
+    of the Superior Court''s Probate Division -- the sitting holder as of the retrieval
+    date.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/162612
+  note: 'Vermont Elections Database, August 11, 2026 Republican primary, Probate Judge,
+    Franklin County: Bob Farrar, 1,782 votes, unopposed -- the incumbent judge seeking
+    re-election (he also won the Democratic primary as a write-in).'
+  retrieved: '2026-10-17'

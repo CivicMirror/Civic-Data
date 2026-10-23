@@ -1,0 +1,30 @@
+# Bennington-Rutland House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/a120cc5c-a50e-57e2-ac4b-8d60cf37460d
+name: Sandra "Sandy" Pinsonault
+identifiers: []
+candidacies:
+- contest_id: vt-house-bennington-rutland/2024-11-05/state-representative
+  election_id: vt-house-bennington-rutland/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:bennington-rutland/legislature
+  office_id: vt-house-bennington-rutland/state-representative
+  party: Republican
+  ballot_name: Sandra "Sandy" Pinsonault
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161001
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Bennington-Rutland District'' (district
+    totals): Sandra "Sandy" Pinsonault (Republican) 1,475 votes; Mike Rice (Democratic)
+    1,225; write-ins 5. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Bennington-Rutland District.'
+  retrieved: '2026-10-17'

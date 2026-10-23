@@ -1,0 +1,26 @@
+# Town of Brattleboro municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/c81d5c70-1322-5b71-9029-8188bf8cd68d
+name: Franklin Chrisco
+identifiers: []
+candidacies:
+- contest_id: brattleboro-vt/2024-11-05/justice-of-the-peace
+  election_id: brattleboro-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brattleboro/government
+  office_id: brattleboro-vt/justice-of-the-peace
+  party: null
+  ballot_name: Franklin Chrisco
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists fifteen Brattleboro justices
+    of the peace: Jane Buckingham, Franklin Chrisco, Diane Cooke, Richard Cooke, Ian
+    Goodnow, Peter Gould, William "Bill" Harvey, Martha Healey-Nelson, Thomas "Tom"
+    Kuralt, John Lightfoot, Lee Madden, Mary "Beverly" Miller, Kate O''Connor, Robert
+    Oeser, and Veronica Wheelock.'
+  retrieved: '2026-10-18'

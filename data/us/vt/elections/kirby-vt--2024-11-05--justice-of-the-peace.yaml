@@ -1,0 +1,35 @@
+# Kirby -- justice of the peace election (VT municipal batch 12); issue #163 (VT master tracking).
+id: kirby-vt/2024-11-05/general
+name: Kirby Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: kirby-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:kirby/government
+  office_id: kirby-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/caab69ce-b567-5880-b475-3fbf1f47647d
+  - ocd-person/03803b37-aa4e-520e-a066-be75c624753e
+  - ocd-person/aa333f95-1a55-5d04-b140-38ecbff2974b
+  - ocd-person/39ce2726-0059-5d58-b603-debe18e092de
+  - ocd-person/4c6879e9-f9a2-5bff-9726-055e50fd3efe
+  result_status: official
+  winners:
+  - person_id: ocd-person/caab69ce-b567-5880-b475-3fbf1f47647d
+    name: Anne McClaughry
+  - person_id: ocd-person/03803b37-aa4e-520e-a066-be75c624753e
+    name: Flower Toomey
+  - person_id: ocd-person/aa333f95-1a55-5d04-b140-38ecbff2974b
+    name: Karen Moore
+  - person_id: ocd-person/39ce2726-0059-5d58-b603-debe18e092de
+    name: Timothy Peters
+  - person_id: ocd-person/4c6879e9-f9a2-5bff-9726-055e50fd3efe
+    name: Tracy Sherbrook
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names five winners for Kirby: Timothy
+    Peters, Flower Toomey, Tracy Sherbrook, Karen Moore, and Anne McClaughry'
+  retrieved: '2026-10-18'

@@ -1,0 +1,19 @@
+# Town of Peacham municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/94764b37-30d1-5a25-90f1-dfa99b509ece
+name: Nate Giroux
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns may elect a second constable; Peacham''s warning
+    elects one'
+  retrieved: '2026-10-19'
+- url: https://peachamvt.org/wp-content/uploads/2026/04/Town-Meeting-minutes-2026-signed.pdf
+  note: 'Town of Peacham, Town Meeting Minutes, March 3, 2026 (signed; peachamvt.org):
+    Article 19 -- Nate Giroux was re-elected Second Constable for a one-year term'
+  retrieved: '2026-10-19'

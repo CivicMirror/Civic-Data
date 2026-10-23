@@ -1,0 +1,16 @@
+# Village of Orleans municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-organization/1d261f6c-1ac3-5c36-8f6c-f0c80bca113e
+name: Village of Orleans Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:orleans/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: orleans-vt/village-clerk
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/261
+  note: '24 App. V.S.A. ch. 261 (Village of Orleans): section 8 provides for a Clerk
+    elected annually; no official source publishes the village''s current holders
+    (the village has no website and the VT Jurisdiction Factory holds Orleans as unresolved),
+    so the post is created without a membership'
+  retrieved: '2026-10-19'

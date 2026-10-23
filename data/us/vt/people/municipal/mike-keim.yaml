@@ -1,0 +1,28 @@
+# Town of Putney municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/7393074b-02e6-5cfc-b1d4-380716093059
+name: Mike Keim
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://putneyvt.gov/Documents/Department/Clerk/Town%20Reports/2025_Town_Report.pdf
+  note: 'Town of Putney, 2025 Town Report, ELECTED OFFICIALS table and directory pages:
+    the library trustees are nine, on staggered three-year terms, elected from the
+    floor (2026 warning Article 2 elects four)'
+  retrieved: '2026-10-19'
+- url: https://putneyvt.gov/Documents/Department/Clerk/Annual%20Town%20Meetings/2026/03.03.26%20Draft%20Town%20Meeting%20Minutes.pdf
+  note: 'Town of Putney, DRAFT Minutes of the Annual Town Meeting, March 3, 2026 (the
+    town''s posted 2026 results documents returned 404; the draft minutes record the
+    outcomes): Amber Paris, Trish Roberts, Mike Keim, and Lydia Mathewson were elected
+    library trustees from the floor'
+  retrieved: '2026-10-19'
+- url: https://putneylibrary.org/about-the-library/library-board-governance/
+  note: 'Putney Public Library, Library Board Governance page (putneylibrary.org):
+    the current board names Amber Paris (Chair), Trish Roberts, Mike Keim, Lydia Mathewson,
+    and Nancy Hood. The report table''s other mid-term names do not appear on the
+    library''s current page and are not recorded; four seats are unfilled'
+  retrieved: '2026-10-19'

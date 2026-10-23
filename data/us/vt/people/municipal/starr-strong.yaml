@@ -1,0 +1,37 @@
+# Town of Brookfield municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/2d15ff42-c992-5e88-b4f3-254cf49c5e9d
+name: Starr Strong
+identifiers: []
+candidacies:
+- contest_id: brookfield-vt/2024-11-05/justice-of-the-peace
+  election_id: brookfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brookfield/government
+  office_id: brookfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Starr Strong
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.brookfieldvt.org/wp/wp-content/uploads/2026/02/Brookfield-Report-2025_2-1.pdf
+  note: 'Town of Brookfield, 2025 Annual Town Report, ''Town of Brookfield Officers
+    2025'' table: lists five Library Trustees (three-year terms): Emily Noyes (term
+    ended March 7, 2026), Susan O''Brien (term ended March 7, 2026), Amy Borgman (term
+    to 2028), Dan Childs (term to 2027), and Starr Strong (term to 2027). The seats
+    whose terms ended in March 2026 are left unfilled; no official source publishes
+    their outcomes.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Brookfield justices
+    of the peace: Elizabeth "Beth" DeForge, Billi Gosh, C. Curtis Koren, Linda Runnion,
+    Perry Kacik, Kym Anderson, and Starr Strong.'
+  retrieved: '2026-10-18'
+- url: https://www.brookfieldvt.org/wp/wp-content/uploads/2026/02/Brookfield-Report-2025_2-1.pdf
+  note: 'Town of Brookfield, 2025 Annual Town Report, ''Town of Brookfield Officers
+    2025'' table: lists the same seven justices of the peace, terms ending February
+    1, 2027.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,23 @@
+# Town of Wilmington municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-organization/0bd1bd3a-4514-5240-acf7-ad28cba3b6d5
+name: Town of Wilmington Justices of the Peace
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wilmington/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: wilmington-vt/justice-of-the-peace
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists six Wilmington justices of the
+    peace: Bonnie L. Lorimer, Margaret ''Meg'' Streeter, Joanne Fowler, Andrew Kirkman,
+    John Lebron, and Polly ''Nicki'' Steel'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/02/Town-Report-Final.pdf
+  note: 'Town of Wilmington, 2025 Town Report, ''2025 Town Officers, Boards, and Commissions'':
+    the town''s justice of the peace roster lists six names plus a ''Vacant'' line
+    (seven seats): the certified winner Joanne Fowler no longer appears, and Matthew
+    Moore sits in her place; Moore is seated as an appointee to the vacancy (mechanism
+    unpublished; flagged on issue #163)'
+  retrieved: '2026-10-20'

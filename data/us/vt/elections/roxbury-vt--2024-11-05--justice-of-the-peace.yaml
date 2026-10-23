@@ -1,0 +1,35 @@
+# Town of Roxbury -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: roxbury-vt/2024-11-05/general
+name: Town of Roxbury Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: roxbury-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:roxbury/government
+  office_id: roxbury-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/3411429b-80f2-5a82-b8cc-0c90d4ca3621
+  - ocd-person/9cd10a95-3d18-5869-82a4-2b86515735d2
+  - ocd-person/3a184374-4fc9-59bd-a91b-3b5788fbad17
+  - ocd-person/d82653f6-686c-5d7b-a226-1cc1f11e5f24
+  - ocd-person/8975b7f2-116e-5d42-a27e-23f15234487b
+  result_status: official
+  winners:
+  - person_id: ocd-person/3411429b-80f2-5a82-b8cc-0c90d4ca3621
+    name: Amy Barrett
+  - person_id: ocd-person/9cd10a95-3d18-5869-82a4-2b86515735d2
+    name: Gerald D'Amico
+  - person_id: ocd-person/3a184374-4fc9-59bd-a91b-3b5788fbad17
+    name: Sarah Kirn
+  - person_id: ocd-person/d82653f6-686c-5d7b-a226-1cc1f11e5f24
+    name: Susan Nevins
+  - person_id: ocd-person/8975b7f2-116e-5d42-a27e-23f15234487b
+    name: William Hansen
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Roxbury''s five justice of the peace seats'
+  retrieved: '2026-10-19'

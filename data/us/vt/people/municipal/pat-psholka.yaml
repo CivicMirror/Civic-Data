@@ -1,0 +1,20 @@
+# Town of Tinmouth municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/cf8429a5-deba-580b-8b62-5b7aaf25dbe4
+name: Pat Psholka
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect three listers on staggered three-year
+    terms'
+  retrieved: '2026-10-20'
+- url: https://storage.googleapis.com/juniper-media-library/611/2026/06/2025-Tinmouth-Town-Report.pdf
+  note: 'Town of Tinmouth, 2025 Town Report, ''ELECTED TOWN AND SCHOOL OFFICERS''
+    page: Pat Psholka (term to 2027) and Rick Fallar (to 2028); Gail Fallar''s lister
+    seat expired in 2026 and its outcome is unpublished'
+  retrieved: '2026-10-20'

@@ -1,0 +1,23 @@
+# Town of Brookline municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/77e0d675-9f78-5885-9af5-6ca2b82c3c7c
+name: Laurie Nau-Martocci
+identifiers: []
+candidacies:
+- contest_id: brookline-vt/2024-11-05/justice-of-the-peace
+  election_id: brookline-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brookline/government
+  office_id: brookline-vt/justice-of-the-peace
+  party: null
+  ballot_name: Laurie J. Nau-Martocci
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists two Brookline justices
+    of the peace: Laurie J. Nau-Martocci and Dorothy Maggio.'
+  retrieved: '2026-10-18'

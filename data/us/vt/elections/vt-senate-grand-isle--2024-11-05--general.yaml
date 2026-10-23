@@ -1,0 +1,27 @@
+# Grand Isle Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-senate-grand-isle/2024-11-05/general
+name: Grand Isle Senate District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-senate-grand-isle/2024-11-05/state-senator
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:grand-isle/legislature
+  office_id: vt-senate-grand-isle/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a23d70d4-b9fa-5133-96f7-3c6aab505878
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a23d70d4-b9fa-5133-96f7-3c6aab505878
+    name: Pat Brennan
+sources:
+- url: https://electionarchive.vermont.gov/contest/161106
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Grand Isle District'' (district totals):
+    Pat Brennan (Republican) 6,744 votes; Andy Julow (Democratic) 6,019; write-ins
+    11. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

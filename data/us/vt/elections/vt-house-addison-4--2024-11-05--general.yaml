@@ -1,0 +1,33 @@
+# Addison-4 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-addison-4/2024-11-05/general
+name: Addison-4 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-addison-4/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:addison-4/legislature
+  office_id: vt-house-addison-4/state-representative
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/85c3bf8a-b6bd-5c5d-9fb8-10a40c9c7fb3
+  - ocd-person/14601186-3e06-5473-a1f2-6bf776c07370
+  result_status: certified
+  winners:
+  - person_id: ocd-person/85c3bf8a-b6bd-5c5d-9fb8-10a40c9c7fb3
+    name: Herb Olson
+  - person_id: ocd-person/14601186-3e06-5473-a1f2-6bf776c07370
+    name: Mari Cordes
+sources:
+- url: https://electionarchive.vermont.gov/contest/160992
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Addison-4 District'' (district
+    totals): Herb Olson (Democratic) 3,041 votes; Mari Cordes (Democratic) 2,830;
+    Chanin Hill (Republican) 2,374; Renee Mcguinness (Republican) 1,975; write-ins
+    3. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State representatives serve two-year terms;
+    the November 3, 2026 general election decides the next term. Mari Cordes resigned
+    the seat in 2025 (the House directory records June 19, 2025). Governor Phil Scott
+    appointed Karen Lueders to fill the vacancy on October 17, 2025.'
+  retrieved: '2026-10-17'

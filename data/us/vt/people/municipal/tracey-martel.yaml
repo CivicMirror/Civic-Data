@@ -1,0 +1,32 @@
+# Town of Victory municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/6a700cf0-7df3-5dd1-8bd6-c1bac6b4b24a
+name: Tracey Martel
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Tracey Martel
+    as Victory''s Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): names Tracey Martel as Victory''s Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town treasurer'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Tracey Martel
+    as Victory''s Town Treasurer (the treasurer contact spreadsheet carries no Victory
+    row)'
+  retrieved: '2026-10-20'

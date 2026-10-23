@@ -1,0 +1,35 @@
+# Town of Orange -- justice of the peace election (VT municipal batch 17); issue #163 (VT master tracking).
+id: orange-vt/2024-11-05/general
+name: Town of Orange Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: orange-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:orange/government
+  office_id: orange-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/e52ef762-69e8-5e1c-8f13-72e61509a156
+  - ocd-person/028bff65-9c56-5cdd-9387-cd3ea257e5bb
+  - ocd-person/ba334564-85b8-5549-9846-177e15e49309
+  - ocd-person/97fc5d1a-1e1b-59dc-9755-1f45aff98338
+  - ocd-person/c2d43cad-cdc4-57da-872e-d54f6ed19a60
+  result_status: official
+  winners:
+  - person_id: ocd-person/e52ef762-69e8-5e1c-8f13-72e61509a156
+    name: Carl "Lee" Martenson
+  - person_id: ocd-person/028bff65-9c56-5cdd-9387-cd3ea257e5bb
+    name: Francis "Fred" Kidder
+  - person_id: ocd-person/ba334564-85b8-5549-9846-177e15e49309
+    name: Kevin Wilson
+  - person_id: ocd-person/97fc5d1a-1e1b-59dc-9755-1f45aff98338
+    name: Sue Perreault
+  - person_id: ocd-person/c2d43cad-cdc4-57da-872e-d54f6ed19a60
+    name: Tina Otis
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Orange''s five justice of the peace seats'
+  retrieved: '2026-10-19'

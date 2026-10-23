@@ -1,0 +1,24 @@
+# Town of Bridport municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/90287228-fa12-50e1-88e9-f059c9f0eed8
+name: Steve Huestis
+identifiers: []
+candidacies:
+- contest_id: bridport-vt/2024-11-05/justice-of-the-peace
+  election_id: bridport-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bridport/government
+  office_id: bridport-vt/justice-of-the-peace
+  party: null
+  ballot_name: Steve Huestis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Bridport justices
+    of the peace: Michael Bordeleau, Joan Huestis, Judd Markowski, Chris Goodrich,
+    Philip Wagner, Steve Huestis, and Heather Hodsden.'
+  retrieved: '2026-10-18'

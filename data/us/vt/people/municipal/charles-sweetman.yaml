@@ -1,0 +1,29 @@
+# Landgrove municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/78182109-19fa-5ab8-9a39-8416f77f265c
+name: Charles Sweetman
+identifiers: []
+candidacies:
+- contest_id: landgrove-vt/2024-11-05/justice-of-the-peace
+  election_id: landgrove-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:landgrove/government
+  office_id: landgrove-vt/justice-of-the-peace
+  party: null
+  ballot_name: Chuck Sweetman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names five justices of the peace for
+    Landgrove: John Ogden, Chuck Sweetman, Claudia Harris, Virginia LaPrade, and Steve
+    Hall'
+  retrieved: '2026-10-18'
+- url: https://landgrove.vermont.gov/uploads/1/1/0/0/11002514/town_report2025_web.pdf
+  note: 'Town of Landgrove, 2025 Town Report: ''Town Officers Elected'' table prints
+    the JP block as Charles Sweetman (recorded so here) and names Charlie Howard where
+    the certified listing names John Ogden; the certified listing governs'
+  retrieved: '2026-10-18'

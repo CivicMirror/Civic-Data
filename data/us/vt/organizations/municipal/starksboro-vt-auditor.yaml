@@ -1,0 +1,20 @@
+# Town of Starksboro municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-organization/9937a4b3-b101-5b85-a59e-6ebe88c196f8
+name: Town of Starksboro Auditors
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:starksboro/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: starksboro-vt/auditor
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect auditors (three, staggered terms) unless
+    the office is eliminated'
+  retrieved: '2026-10-19'
+- url: https://starksborovt.org/sites/default/files/uploads/content/Town%20Meeting/starksboro-election-results-2026.pdf
+  note: 'Town of Starksboro, official results ballot for the annual meeting of March
+    3, 2026 (town website, starksborovt.org): both 2026 auditor contests were write-in
+    only and no winner is named in the official results, so the post is created without
+    memberships (straggler)'
+  retrieved: '2026-10-19'

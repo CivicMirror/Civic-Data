@@ -1,0 +1,41 @@
+# Chittenden-19 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/3c6795d8-abaf-5bb8-997e-5190455b9c42
+name: Sarita Austin
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-19/2024-11-05/state-representative
+  election_id: vt-house-chittenden-19/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-19/legislature
+  office_id: vt-house-chittenden-19/state-representative
+  party: Democratic
+  ballot_name: Sarita Austin
+  status: active
+- contest_id: colchester-vt/2024-11-05/justice-of-the-peace
+  election_id: colchester-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:colchester/government
+  office_id: colchester-vt/justice-of-the-peace
+  party: null
+  ballot_name: Sarita Austin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161021
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-19 District'' (district
+    totals): Wendy Critchlow (Democratic) 2,682 votes; Sarita Austin (Democratic)
+    2,458; Leland Gazo (Republican) 2,408; Spencer Sherman (Republican/Libertarian)
+    934; write-ins 23. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-19 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices of the Peace'' listing (updated December 4, 2025): lists Sarita Austin among the fifteen Colchester justices of the peace elected November 5, 2024.'
+  retrieved: '2026-10-18'

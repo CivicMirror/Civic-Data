@@ -1,0 +1,27 @@
+# Town of Sandgate municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/175ac7c8-b6d9-55f1-bc6f-3618f87eee46
+name: Jean Eisenhart
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town agent'
+  retrieved: '2026-10-19'
+- url: https://sandgatevermont.org/elected_officers/
+  note: 'Town of Sandgate, ''Elected Officers'' page (sandgatevermont.org), headed
+    ''As of March 3, 2026'' -- the town''s current post-meeting roster: Jean Eisenhart
+    is Town Agent'
+  retrieved: '2026-10-19'
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a grand juror for a one-year term'
+  retrieved: '2026-10-19'
+- url: https://sandgatevermont.org/elected_officers/
+  note: 'Town of Sandgate, ''Elected Officers'' page (sandgatevermont.org), headed
+    ''As of March 3, 2026'' -- the town''s current post-meeting roster: Jean Eisenhart
+    is Grand Juror'
+  retrieved: '2026-10-19'

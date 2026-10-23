@@ -1,0 +1,20 @@
+# Town of Walden municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/aac7c648-7a43-556e-ba6f-541f7ed28d8c
+name: Jonathan Augeri
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Jonathan Augeri, Brenda Huntoon, and Randolph
+    Wilson for Walden''s three-member board'
+  retrieved: '2026-10-20'
+- url: https://waldenvt.gov/selectboard
+  note: 'Town of Walden, Selectboard page (waldenvt.gov): Randolph Wilson (Chair),
+    Brenda Huntoon, and Jon Augeri'
+  retrieved: '2026-10-20'

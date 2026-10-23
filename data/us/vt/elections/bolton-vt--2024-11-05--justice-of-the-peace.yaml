@@ -1,0 +1,42 @@
+# Town of Bolton -- justice of the peace election (VT municipal batch 3); issue #163 (VT master tracking).
+id: bolton-vt/2024-11-05/general
+name: Town of Bolton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: bolton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bolton/government
+  office_id: bolton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/40609ed6-c028-574a-8b2c-9f2786465ae9
+  - ocd-person/38224eb3-3887-536b-8a30-a4f20b7da1f7
+  - ocd-person/bedbb136-f967-5976-86fe-b851966741f1
+  - ocd-person/ca9b9f25-d9fa-547a-bef0-bfb247931879
+  - ocd-person/0369cc41-a920-51a3-9a3b-02e0855022d2
+  result_status: official
+  winners:
+  - person_id: ocd-person/40609ed6-c028-574a-8b2c-9f2786465ae9
+    name: Jane Agran
+  - person_id: ocd-person/38224eb3-3887-536b-8a30-a4f20b7da1f7
+    name: John Devine
+  - person_id: ocd-person/bedbb136-f967-5976-86fe-b851966741f1
+    name: Paula Gervia
+  - person_id: ocd-person/ca9b9f25-d9fa-547a-bef0-bfb247931879
+    name: Rich Reid
+  - person_id: ocd-person/0369cc41-a920-51a3-9a3b-02e0855022d2
+    name: Steve Diglio
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing''s text prints
+    only first names for Bolton, so the winners are recorded from the Town of Bolton
+    2026 Town Report (see the post''s sources). They are the winners of the November
+    5, 2024 election for the office.'
+  retrieved: '2026-10-18'
+- url: https://boltonvt.com/wp-content/uploads/2026/02/Bolton-2026-Town-Report.pdf
+  note: 'Town of Bolton 2026 Town Report: ''ELECTED TOWN OFFICIALS'' table lists the
+    Justices of the Peace elected in 2024 as Paula Gervia, Rich Reid, John Devine,
+    Steve Diglio, and Jane Agran.'
+  retrieved: '2026-10-18'

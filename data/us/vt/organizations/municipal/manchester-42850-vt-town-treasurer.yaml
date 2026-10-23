@@ -1,0 +1,20 @@
+# Town of Manchester municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-organization/5d9c605b-dacc-5707-ae9c-71a2e24ac387
+name: Manchester Town Treasurer
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:manchester-42850/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: manchester-42850-vt/town-treasurer
+status: active
+sources:
+- url: https://www.manchester-vt.gov/selectboard
+  note: 'Town of Manchester (official website), Selectboard page: the Selectboard''s
+    June 9, 2026 agenda, item 8, ''Possibly Re-Appoint Patrick Owens as Town Constable
+    and Brian Vogel as Town Treasurer'' -- the treasurer is a Selectboard appointee'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town treasurer contact spreadsheet
+    (updated June 12, 2026): lists Brian Vogel as Manchester''s town treasurer (name
+    concordant; mode is appointed per the agenda)'
+  retrieved: '2026-10-18'

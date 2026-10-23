@@ -1,0 +1,27 @@
+# Lamoille-1 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-lamoille-1/2024-11-05/general
+name: Lamoille-1 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-lamoille-1/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:lamoille-1/legislature
+  office_id: vt-house-lamoille-1/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fa320787-70ce-598e-a661-c02e232b1c3f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fa320787-70ce-598e-a661-c02e232b1c3f
+    name: Jed Lipsky
+sources:
+- url: https://electionarchive.vermont.gov/contest/161054
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Lamoille-1 District'' (district
+    totals): Jed Lipsky (Independent) 2,345 votes; write-ins 34. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. State representatives serve two-year terms; the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

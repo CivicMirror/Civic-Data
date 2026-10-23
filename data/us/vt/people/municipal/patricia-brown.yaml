@@ -1,0 +1,22 @@
+# Town of Guildhall municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/9a13b104-fcc4-5e6a-998f-d69c519338ce
+name: Patricia Brown
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://guildhallvt.org/lister-board.html
+  note: 'Town of Guildhall lister board page (guildhallvt.org): the town''s lister
+    page names George Blakeslee (to 2027), Eileen Thietten (to 2028), and Patricia
+    Brown (to 2029; the page''s ''Patrica'' is corrected to the form the town''s cemetery
+    page prints).'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/cemetery-commission.html
+  note: 'Town of Guildhall cemetery commission page (guildhallvt.org): the town''s
+    cemetery page names Gary Brown (to 2028), Patricia Brown (to 2029), and Rich Schiller
+    (to 2027).'
+  retrieved: '2026-10-18'

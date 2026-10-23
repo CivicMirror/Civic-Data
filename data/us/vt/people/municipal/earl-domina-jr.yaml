@@ -1,0 +1,20 @@
+# Town of Belvidere municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/9c22369d-84fa-5d3f-83fa-17ecaf79f00e
+name: Earl Domina Jr.
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Belvidere Selectboard members: Kenneth
+    Adams, Jr., Earl Domina, Jr. (Chair), and Kevin Leavitt.'
+  retrieved: '2026-10-17'
+- url: https://townofbelviderevt.com/select-board/
+  note: 'Town of Belvidere official website, Select Board page: lists Earl Domina,
+    Jr. (Chair), Ken Adams, Jr., and Kevin Leavitt.'
+  retrieved: '2026-10-17'

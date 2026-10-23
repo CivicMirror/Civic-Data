@@ -1,0 +1,41 @@
+# Town of Starksboro -- justice of the peace election (VT municipal batch 22); issue #163 (VT master tracking).
+id: starksboro-vt/2024-11-05/general
+name: Town of Starksboro Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: starksboro-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:starksboro/government
+  office_id: starksboro-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/e629b85c-8508-54f4-a2c5-6bd23a3ab693
+  - ocd-person/69642bf8-6a58-5c77-aced-a051fd6ee6f9
+  - ocd-person/8d15b6a8-9e68-5952-9914-7a345d02e9ef
+  - ocd-person/e72d9465-d5ca-5fa7-978f-dbf77a8f27a2
+  - ocd-person/d446ff15-e976-5b06-a754-6ba43ef877e2
+  - ocd-person/aa8ca0cf-566f-51fa-89ba-14f2b89eed0d
+  - ocd-person/56c1c30e-9fa7-5e3e-ae8a-8c03115215f5
+  result_status: official
+  winners:
+  - person_id: ocd-person/e629b85c-8508-54f4-a2c5-6bd23a3ab693
+    name: Alan Quittner
+  - person_id: ocd-person/69642bf8-6a58-5c77-aced-a051fd6ee6f9
+    name: Brittany Peduzzi
+  - person_id: ocd-person/8d15b6a8-9e68-5952-9914-7a345d02e9ef
+    name: Edward 'Ben' Campbell
+  - person_id: ocd-person/e72d9465-d5ca-5fa7-978f-dbf77a8f27a2
+    name: Laurie Webber
+  - person_id: ocd-person/d446ff15-e976-5b06-a754-6ba43ef877e2
+    name: Luke McCarthy
+  - person_id: ocd-person/aa8ca0cf-566f-51fa-89ba-14f2b89eed0d
+    name: Margaret 'Peg' Casey
+  - person_id: ocd-person/56c1c30e-9fa7-5e3e-ae8a-8c03115215f5
+    name: Norman Cota
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Starksboro''s seven justice of the peace seats'
+  retrieved: '2026-10-19'

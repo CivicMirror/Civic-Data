@@ -1,0 +1,25 @@
+# Town of Braintree municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/e490928b-56f6-56be-ac0d-fcab7f7d4c29
+name: Jessica Brassard
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://braintreevt.gov/services/town-clerk/
+  note: 'Town of Braintree official website, Town Clerk page: ''Town Clerk & Treasurer:
+    Jessica Brassard''.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists Jessica Brassard as
+    Town Clerk of Braintree and as Town Treasurer of Braintree.'
+  retrieved: '2026-10-18'
+- url: https://braintreevt.gov/wp-content/uploads/2026/03/Braintree-Town-Meeting-Minutes-2026.pdf
+  note: 'Town of Braintree, Town Meeting Minutes (March 3, 2026; posted on the town''s
+    official website as draft/unapproved minutes of the floor elections): Article
+    5 elected Jessica Brassard Delinquent Tax Collector (one-year term) in 2026.'
+  retrieved: '2026-10-18'

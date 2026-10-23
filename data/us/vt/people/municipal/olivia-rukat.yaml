@@ -1,0 +1,25 @@
+# Town of Peru municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/850fba54-5c86-5dd6-86d2-29af462f1519
+name: Olivia Rukat
+identifiers: []
+candidacies:
+- contest_id: peru-vt/2024-11-05/justice-of-the-peace
+  election_id: peru-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:peru/government
+  office_id: peru-vt/justice-of-the-peace
+  party: null
+  ballot_name: Olivia Rukat
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Peru justices of the peace:
+    Olivia Rukat, Karen Utiger, Iwanna Reed, Gary Ameden, and Tracy Black. The town''s
+    government page names the same five and styles her ''Ivanna Reed''; the person
+    record uses the town''s form and the candidacy the listing''s'
+  retrieved: '2026-10-19'

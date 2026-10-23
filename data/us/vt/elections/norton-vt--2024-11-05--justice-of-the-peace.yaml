@@ -1,0 +1,35 @@
+# Town of Norton -- justice of the peace election (VT municipal batch 17); issue #163 (VT master tracking).
+id: norton-vt/2024-11-05/general
+name: Town of Norton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: norton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:norton/government
+  office_id: norton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/36aa6af8-1e27-5156-a239-ad1564213d91
+  - ocd-person/47f216ab-fea0-5b8f-80c3-dd3ad5bda9ab
+  - ocd-person/24c6e088-beac-5d02-884f-b70dfb34628f
+  - ocd-person/12e66662-f71e-5777-8fa8-522cfabf70ed
+  - ocd-person/66ba90e0-39b6-57c2-b543-2c81cbf1064e
+  result_status: official
+  winners:
+  - person_id: ocd-person/36aa6af8-1e27-5156-a239-ad1564213d91
+    name: Betsy Fontaine
+  - person_id: ocd-person/47f216ab-fea0-5b8f-80c3-dd3ad5bda9ab
+    name: Christina Duffy
+  - person_id: ocd-person/24c6e088-beac-5d02-884f-b70dfb34628f
+    name: Gina Vigneault
+  - person_id: ocd-person/12e66662-f71e-5777-8fa8-522cfabf70ed
+    name: Jocelyn "Jody" Gordon
+  - person_id: ocd-person/66ba90e0-39b6-57c2-b543-2c81cbf1064e
+    name: Julie Lavallee
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Norton''s five justice of the peace seats'
+  retrieved: '2026-10-19'

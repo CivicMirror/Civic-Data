@@ -1,0 +1,26 @@
+# Town of Richmond municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/9d1b4ef5-c374-5dcb-bf4f-a570c732957c
+name: Matthew Moultroup
+identifiers: []
+candidacies:
+- contest_id: richmond-vt/2024-11-05/justice-of-the-peace
+  election_id: richmond-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:richmond/government
+  office_id: richmond-vt/justice-of-the-peace
+  party: null
+  ballot_name: Matthew Moultroup
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists twelve Richmond justices of
+    the peace: Aimee Alexander, Denise Barnard, Andrew Bessette, Heather Chadwick,
+    Francis Churchill, Joel Furr, Mary Houle, Keith Kasper, Matthew Moultroup, Michael
+    Parent, Marshall Paulsen, and Becky Vigneault (the town report''s garbled ''Denise
+    Begins Barnard'' is the listing''s Denise Barnard)'
+  retrieved: '2026-10-19'

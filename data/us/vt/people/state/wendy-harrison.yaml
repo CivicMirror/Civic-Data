@@ -1,0 +1,32 @@
+# Windham Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/c3faabe7-1c71-5c45-9e72-320bb37576d1
+name: Wendy Harrison
+identifiers: []
+candidacies:
+- contest_id: vt-senate-windham/2024-11-05/state-senator
+  election_id: vt-senate-windham/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:windham/legislature
+  office_id: vt-senate-windham/state-senator
+  party: Democratic
+  ballot_name: Wendy Harrison
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_senate
+sources:
+- url: https://electionarchive.vermont.gov/contest/161114
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Windham District'' (district totals): Wendy
+    Harrison (Democratic) 13,477 votes; Nader Hashim (Democratic) 11,741; Richard
+    "Rick" Morton (Republican) 5,577; Dale L. Gassett (Republican) 5,216; Ken Fay
+    (Independent) 1,743; write-ins 39. The contest page''s cited official source is
+    the Secretary of State''s ''November 5, 2024 General Official Results.pdf''. State
+    senators serve two-year terms; the November 3, 2026 general election decides the
+    next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/Senate
+  note: 'Vermont General Assembly, All Senators directory (2025-2026 session): lists
+    the sitting senator(s) for the Windham District.'
+  retrieved: '2026-10-17'

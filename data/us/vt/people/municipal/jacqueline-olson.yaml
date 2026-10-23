@@ -1,0 +1,25 @@
+# Lincoln municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/dcf33f1b-23a2-5148-8edf-93f45179e97d
+name: Jacqueline Olson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://lincolnvermont.org/vertical/sites/%7B53E9A1A8-33C4-4381-8550-24F9124297B8%7D/uploads/2025_Lincoln_Town_Report.pdf
+  note: 'Town of Lincoln, 2025 Town Report: ''Elected Officials'' table lists five
+    elected Lincoln Library Trustees (alongside four trustees appointed by the Library
+    Board and one associate trustee, who are not modeled): Anna Smith (term to March
+    2028), Jacqueline Olson, Chair (2028), and Christine Dumond (2027) hold over;
+    the two seats expiring March 2026 (Lonny Edwards''s and Jenny Lawson Bates''s)
+    were warned for election in 2026 but no official source publishes the outcome,
+    so they are left unfilled'
+  retrieved: '2026-10-18'
+- url: https://lincolnvermont.org/uploads/dm/7066/2026_Feb_28_Annual_Town_Meeting_Warning
+  note: 'Town of Lincoln, Warning for the February 28, 2026 annual town meeting (officers
+    elected by Australian ballot March 3, 2026): Article 1 elects two Lincoln Library
+    Trustees for three-year terms'
+  retrieved: '2026-10-18'

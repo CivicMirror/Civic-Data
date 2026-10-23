@@ -1,0 +1,58 @@
+# Town of Bristol -- justice of the peace election (VT municipal batch 4); issue #163 (VT master tracking).
+id: bristol-vt/2024-11-05/general
+name: Town of Bristol Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: bristol-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bristol/government
+  office_id: bristol-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/2640278d-7bf3-5528-96cf-cc56dafe4af8
+  - ocd-person/ba2d8e24-7699-582f-b91f-5009234acd66
+  - ocd-person/59960a7a-413d-5848-8a91-6f7cd55c289b
+  - ocd-person/f1b589eb-210d-5cd7-991d-e8d2c113f7e5
+  - ocd-person/c67a5a50-3d06-5297-8cce-495d66baad01
+  - ocd-person/814087ad-0ea8-5079-985f-d151793cde3a
+  - ocd-person/72d1bc80-3265-5394-812a-063d437c60d3
+  - ocd-person/fcffd699-9f5e-54f2-82b3-774411b42f99
+  - ocd-person/c24d2035-0286-557a-8355-ac5edd07ded5
+  - ocd-person/2b079976-5c53-5f57-8116-814c097238a1
+  - ocd-person/ff0dcf53-32d2-5a8a-9738-d5e010602308
+  - ocd-person/2d7bf68e-1ce8-5666-b2e1-9aeda351ca36
+  result_status: official
+  winners:
+  - person_id: ocd-person/2640278d-7bf3-5528-96cf-cc56dafe4af8
+    name: Alicia Standridge
+  - person_id: ocd-person/ba2d8e24-7699-582f-b91f-5009234acd66
+    name: Anne Wallace
+  - person_id: ocd-person/59960a7a-413d-5848-8a91-6f7cd55c289b
+    name: Ben Skolozdra
+  - person_id: ocd-person/f1b589eb-210d-5cd7-991d-e8d2c113f7e5
+    name: Daniel Lyons
+  - person_id: ocd-person/c67a5a50-3d06-5297-8cce-495d66baad01
+    name: Dave Sharpe
+  - person_id: ocd-person/814087ad-0ea8-5079-985f-d151793cde3a
+    name: Dayna Epstein
+  - person_id: ocd-person/72d1bc80-3265-5394-812a-063d437c60d3
+    name: Don Stratton
+  - person_id: ocd-person/fcffd699-9f5e-54f2-82b3-774411b42f99
+    name: Helen Young
+  - person_id: ocd-person/c24d2035-0286-557a-8355-ac5edd07ded5
+    name: Mark Gibson
+  - person_id: ocd-person/2b079976-5c53-5f57-8116-814c097238a1
+    name: Nathan Bouvier
+  - person_id: ocd-person/ff0dcf53-32d2-5a8a-9738-d5e010602308
+    name: Patricia King
+  - person_id: ocd-person/2d7bf68e-1ce8-5666-b2e1-9aeda351ca36
+    name: Sharon Compagna
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Bristol justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'

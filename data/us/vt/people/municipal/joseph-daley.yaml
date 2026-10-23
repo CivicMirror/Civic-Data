@@ -1,0 +1,17 @@
+# Lemington municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/770d3bc4-211b-59bf-9513-669988b31e06
+name: Joseph Daley
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Lemington''s three selectboard members
+    as Scott Cooper, Joseph Daley (Chair), and Edward Manemeit. Lemington has no official
+    town website; the build follows the Bloomfield SOS-spine pattern'
+  retrieved: '2026-10-18'

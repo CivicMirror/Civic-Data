@@ -1,0 +1,36 @@
+# Town of Fairfax municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/5d4beccb-6912-51ec-85a9-1de7da61447e
+name: Barbara Murphy
+identifiers: []
+candidacies:
+- contest_id: fairfax-vt/2024-11-05/justice-of-the-peace
+  election_id: fairfax-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fairfax/government
+  office_id: fairfax-vt/justice-of-the-peace
+  party: null
+  ballot_name: Barbara Murphy
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://cms2.revize.com/revize/fairfax/2025%20Town%20Report%20Final.pdf
+  note: 'Town of Fairfax FY2025 Town Report (fairfax-vt.gov): the Elected Officers
+    table lists five elected Community Library Trustees: Barbara Murphy (Chair, 2027),
+    Marti Sterin (2027), Elizabeth Griffin (2028), Sarah Barnes (2029), and Amy Palmer
+    (2029); the 2026 results corroborate Barnes (638 votes) and Palmer (502).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Fairfax justices
+    of the peace: Barbara Murphy, Steve Cormier, Julie Filiberti, Mary Kay Raymond,
+    Jeffrey Bartley, Marjorie Ellsworth, Peter Fitzgerald, Gregory Hartmann, Robert
+    Horr, Donna Meunier, James Minor, and Susan Mitchell.'
+  retrieved: '2026-10-18'
+- url: https://cms2.revize.com/revize/fairfax/2025%20Town%20Report%20Final.pdf
+  note: 'Town of Fairfax FY2025 Town Report (fairfax-vt.gov): the report''s table
+    lists the same twelve justices of the peace (printing ''Greg Hartman''; the listing''s
+    Gregory Hartmann governs).'
+  retrieved: '2026-10-18'

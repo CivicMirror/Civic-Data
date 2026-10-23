@@ -1,0 +1,33 @@
+# Town of Wardsboro -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: wardsboro-vt/2024-11-05/general
+name: Town of Wardsboro Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: wardsboro-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wardsboro/government
+  office_id: wardsboro-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/bc797e8e-1655-5e49-ba24-b3faab803715
+  - ocd-person/ef06bf62-b6c6-5418-9840-e7c806ddc0c1
+  - ocd-person/b328e3e6-4e04-5fa8-9cb8-68a63a97f756
+  result_status: official
+  winners:
+  - person_id: ocd-person/bc797e8e-1655-5e49-ba24-b3faab803715
+    name: Cherie Keeler Moran
+  - person_id: ocd-person/ef06bf62-b6c6-5418-9840-e7c806ddc0c1
+    name: Nancy Clark Dawson
+  - person_id: ocd-person/b328e3e6-4e04-5fa8-9cb8-68a63a97f756
+    name: Nancy Meinhard
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the five winners of Wardsboro''s
+    November 5, 2024 justice of the peace election (vote for five): Ken Brace, Nancy
+    Clark Dawson, Nancy Meinhard, Cherie Keeler Moran, and George Wilson. The town''s
+    2026 Annual Report lists only Dawson, Meinhard, and Moran in office, with two
+    vacancies, so Brace and Wilson are recorded as winners who no longer hold the
+    seat and are not seated; the winners list holds the three survivors'
+  retrieved: '2026-10-20'

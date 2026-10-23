@@ -1,0 +1,27 @@
+# Town of Walden municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-organization/b207c7f9-4280-5647-9516-d8c469bdc9c6
+name: Town of Walden Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:walden/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: walden-vt/town-clerk
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Deborah Messier
+    as Walden''s Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): names the clerk as ''Debbie Messier,'' a diminutive;
+    the town''s own site gives Deborah Messier, which governs'
+  retrieved: '2026-10-20'
+- url: https://waldenvt.gov/boardsandcommissions
+  note: 'Town of Walden, Boards and Commissions page (waldenvt.gov): ''Walden Town
+    Clerk, Deborah Messier'''
+  retrieved: '2026-10-20'

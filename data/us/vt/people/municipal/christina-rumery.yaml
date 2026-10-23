@@ -1,0 +1,26 @@
+# Town of Peacham municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-person/75c83bd8-4a31-5415-80e2-710fc72518b8
+name: Christina Rumery
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Peacham''s five selectboard members: Alfred
+    Dedam (Chair), Will Kempton, Andrea Otto, Christina Rumery, and Christian Snow'
+  retrieved: '2026-10-19'
+- url: https://peachamvt.org/wp-content/uploads/2026/04/Town-Meeting-minutes-2026-signed.pdf
+  note: 'Town of Peacham, Town Meeting Minutes, March 3, 2026 (signed; peachamvt.org):
+    Article 13 -- Andrea Otto was elected to a three-year term (she had been filling
+    a vacancy; Peter Craig departed); Article 14 -- Christian Snow was re-elected
+    to a two-year term; Article 15 -- Christina Rumery was elected to a one-year term
+    completing a vacated term'
+  retrieved: '2026-10-19'
+- url: https://peachamvt.org/selectboard/
+  note: 'Town of Peacham, Selectboard page (peachamvt.org): lists the same five members'
+  retrieved: '2026-10-19'

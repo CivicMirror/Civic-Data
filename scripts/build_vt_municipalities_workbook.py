@@ -54,6 +54,32 @@ def load_jurisdictions(kind):
     return rows
 
 
+# Per-municipality backfill results that override the seeded
+# "Needs Research" cells, keyed by short municipality name.
+MUNICIPAL_OVERRIDES = {
+    "Bloomfield": {
+        "website": "None (no official town website)",
+        "charter": "None (general law; no Title 24 Appendix chapter)",
+        "code": "None published",
+        "status": "Roster backfilled 2026-10-16",
+        "note": (
+            "Added 2026-10-16 (issue #163 fix): missing from the Census 2022 seed; "
+            "verified on the official Vermont.gov Towns & Cities explorer. Municipal "
+            "sweep completed 2026-10-16 (worked example, tracking PR #168): Selectboard, "
+            "Town Treasurer, and Justices of the Peace backfilled from SOS Elections "
+            "Division directories; November 5, 2024 JP election record built. Town "
+            "Clerk resolved to Ray Bowen (SOS clerk contact spreadsheet, June 2026; "
+            "the SOS guide's Robidas and the explorer's Routhier listings are stale "
+            "vintages). Lesser town offices (Moderator, Listers x3, Auditors x3, "
+            "Grand Juror, Town Agent) created as structure-only posts from 17 "
+            "V.S.A. section 2646; holders await the printed town report or a clerk "
+            "reply. Constable and Collector of Delinquent Taxes posts not created "
+            "(per-town variations unverifiable). No charter (general law), no "
+            "official website, no published code."),
+    },
+}
+
+
 def main():
     munis = load_jurisdictions("municipal")
     counties = load_jurisdictions("county")
@@ -71,14 +97,34 @@ def main():
         else:
             typ, short = "Needs Research", name
         counts[typ] = counts.get(typ, 0) + 1
-        muni_rows.append([
+        if "govt_units_2022" in note:
+            row_note = (
+                "Seeded from repo jurisdiction file (Census 2022 Census of Governments). "
+                "Charter chapter in Title 24 Appendix V.S.A. and code link to be backfilled "
+                "from the Vermont Legislature municipal charters index and the official "
+                "municipal website.")
+        elif "Vermont.gov" in note:
+            row_note = (
+                "Added 2026-10-16 (issue #163 fix): missing from the Census 2022 seed; "
+                "verified on the official Vermont.gov Towns & Cities explorer. "
+                "Charter/code/website backfill as per sheet.")
+        else:
+            row_note = (
+                "Added 2026-10-16 (issue #163 fix): missing from the Census 2022 seed; "
+                "verified on the Vermont Secretary of State (VSARA) List of Incorporated "
+                "Villages. Charter/code/website backfill as per sheet.")
+        row = [
             short, typ, county_area(note), d["id"], d.get("website") or "Needs Research",
-            "Needs Research", "Needs Research", None, "Needs Research",
-            "Seeded from repo jurisdiction file (Census 2022 Census of Governments). "
-            "Charter chapter in Title 24 Appendix V.S.A. and code link to be backfilled "
-            "from the Vermont Legislature municipal charters index and the official "
-            "municipal website.",
-        ])
+            "Needs Research", "Needs Research", None, "Needs Research", row_note,
+        ]
+        if short in MUNICIPAL_OVERRIDES:
+            o = MUNICIPAL_OVERRIDES[short]
+            row[4] = o.get("website", row[4])
+            row[5] = o.get("charter", row[5])
+            row[6] = o.get("code", row[6])
+            row[8] = o.get("status", row[8])
+            row[9] = o.get("note", row[9])
+        muni_rows.append(row)
     muni_rows.sort(key=lambda r: (r[0].lower()))
 
     county_rows = []
@@ -114,7 +160,7 @@ def main():
     for row in [
         ["README", "This guide. Regenerate coverage counts whenever another sheet's row counts change.", "--"],
         ["Government Structure", "Sheet 1 of issue #163: how Vermont government is organized at each level, which offices are elected vs appointed, terms, and the statute/constitution basis. Vermont is a Dillon's Rule, town-meeting state whose counties are judicial / law-enforcement units, not general-purpose governments like MA counties were.", "Complete for state + county (2026-10-16); municipal detail per-town is backfill."],
-        ["Municipalities", "Every Vermont municipality in the repo: 235 towns, 10 cities, 30 incorporated villages (275 total, Census 2022), with county, jurisdiction ID, website on file, and charter/code backfill status. VLCT's current (Apr. 2026) count is 237 towns / 28 villages -- a two-place classification drift against the Census 2022 seed, flagged for reconciliation in backfill (see Sources).", f"{len(muni_rows)} municipalities seeded (repo split: 235 towns / 10 cities / 30 villages); charters & code links = Needs Research."],
+        ["Municipalities", "Every Vermont municipality in the repo: 237 towns, 10 cities, 31 active incorporated villages (278 total), with county, jurisdiction ID, website on file, and charter/code backfill status. The Census 2022 seed (235 / 10 / 30 = 275) was reconciled place-by-place on 2026-10-16 against the official Vermont.gov Towns & Cities explorer and the SOS/VSARA List of Incorporated Villages: Bloomfield and Sudbury towns and Jericho and Westbury villages added; Lyndonville village retired (merged into the Town of Lyndon, Act M-14). VLCT's headline count (237 / 10 / 28) still differs on villages by 3, unexplained in its document; the SOS list governs. Two SOS-listed villages are inactive and excluded: Groton (town assumed functions 1965/67) and Townshend (inactive since 1961).", f"{len(muni_rows)} municipalities (repo split: {counts.get('Town')} towns / {counts.get('City')} cities / {counts.get('Village')} villages); charters & code links = Needs Research."],
         ["Counties", "The 14 counties with FIPS, county website status, and the elected-office seeding status.", "14 counties; 4 elected offices per county seeded as posts (56 posts, 70 seats). Probate held."],
         ["Office Titles (Ref)", "Reference: which municipal / county / state offices are popularly elected, with statute basis. Per-town variation (charters, votes to appoint or eliminate an office) is resolved per municipality during backfill.", "Reference -- verify per municipality."],
         ["Sources", "Source registry for this workbook and the VT build.", "Seed sources registered."],
@@ -197,7 +243,7 @@ def main():
          "10 cities", "City charters, Title 24 Appendix (one chapter per city)",
          "Vermont cities are charter governments ( Burlington, Rutland, Barre, Montpelier, Newport, St. Albans, South Burlington, Winooski, Vergennes, Essex Junction -- a city only since 2022). Each charter enumerates its own elected offices: mayor, council/aldermen, clerk, treasurer, and in some cities listers/auditors/constables or a city grand juror."],
         ["Municipal (village)", "Board of Trustees (village president, trustees, clerk, treasurer)", "Elected",
-         "Charter terms", "30 in the Census 2022 repo seed (VLCT current count: 28 -- reconcile)",
+         "Charter terms", "31 active incorporated villages per the SOS/VSARA list (33 listed incl. 2 inactive: Groton, Townshend; VLCT headline count is 28, definitional difference unresolved)",
          "Village charters, Title 24 Appendix; 24 V.S.A. chapter 81",
          "Incorporated villages are municipalities INSIDE towns (a second, overlapping general-purpose layer -- VT is one of three New England states with them). Village officers are elected at the village annual meeting. The host town's offices are unaffected."],
         ["Unorganized", "Unified Towns and Gores of Essex County (UTG) + unorganized towns/gores",
@@ -250,7 +296,7 @@ def main():
         ["Justice of the Peace", "Elected", "Vt. Const. Ch. II section 52", "Town office on the November ballot; 2-year terms; counts apportioned by population."],
         ["Mayor (city)", "Elected", "City charters, Title 24 Appendix", "All 10 cities elect a mayor."],
         ["City Councilor / Alderman", "Elected", "City charters, Title 24 Appendix", "By ward/district and/or at-large per charter."],
-        ["Village Trustee / Village President", "Elected", "Village charters, Title 24 Appendix; 24 V.S.A. chapter 81", "28 incorporated villages."],
+        ["Village Trustee / Village President", "Elected", "Village charters, Title 24 Appendix; 24 V.S.A. chapter 81", "31 active incorporated villages (SOS/VSARA list)."],
         ["State's Attorney", "Elected", "Vt. Const. Ch. II section 50", "County office, 4-year term. Seeded."],
         ["Sheriff", "Elected", "Vt. Const. Ch. II section 50", "County office, 4-year term. Seeded."],
         ["Assistant Judge", "Elected", "Vt. Const. Ch. II section 50", "2 per county, 4-year terms. Seeded (one post, seats: 2)."],
@@ -271,8 +317,8 @@ def main():
         ["U.S. Census Bureau -- 2022 Census of Governments, Government Units Listing",
          "State", "Official (federal)", "Bulk download",
          "https://www.census.gov/data/datasets/2022/econ/gus/public-use-files.html",
-         "Enumeration of VT general-purpose governments seeded into repo jurisdiction files (275 municipal + 14 county).",
-         "USED -- seeded repo jurisdictions (2026-08-17)", "Municipality / county mapping and websites in this workbook come from those repo files."],
+         "Enumeration of VT general-purpose governments seeded into repo jurisdiction files (275 municipal + 14 county at seed time; corrected 2026-10-16 -- see Status Log).",
+         "USED -- seeded repo jurisdictions (2026-08-17)", "Municipality / county mapping and websites in this workbook come from those repo files. The seed is stale in four places and wrong-by-omission in one more (Lyndonville merger) -- all corrected from official state sources on 2026-10-16."],
         ["Vermont Statutes Online -- Title 24, chapter 5 (County Officers)",
          "County", "Official (state)", "Scrape",
          "https://legislature.Vermont.gov/statutes/chapter/24/005",
@@ -298,8 +344,8 @@ def main():
          "Municipal", "Secondary (association)", "Scrape / manual",
          "https://www.vlct.org/print/pdf/node/3294",
          "Plain-language guide to elected town officers; municipal counts (237 towns, 10 cities incl. Essex Junction, 28 incorporated villages, 1 UTG).",
-         "USED -- cross-check of the 275 repo jurisdictions",
-         "Association, not government: use to locate/verify official sources, never as source of record (the MS MML rule). COUNT DRIFT FLAGGED 2026-10-16: VLCT totals also sum to 275 (237 towns + 10 cities + 28 villages) but the repo Census 2022 seed splits as 235 towns + 10 cities + 30 villages. Two places are classified differently between the two sources; identify them in backfill before treating either split as final."],
+         "USED -- cross-check of the repo jurisdictions",
+         "Association, not government: use to locate/verify official sources, never as source of record (the MS MML rule). COUNT RECONCILIATION RESOLVED 2026-10-16: VLCT's town count (237) proved right and its village count (28) still differs by 3 from the SOS-governed active count (31); the Census seed's split (235 towns / 30 villages) was stale, not differently classified -- see Status Log."],
         ["Vermont Secretary of State -- Elections Division",
          "State/County", "Official (state)", "Scrape / manual",
          "https://sos.vermont.gov/secretarys-desk/contact/",
@@ -310,6 +356,21 @@ def main():
          "https://www.vermontjudiciary.org/",
          "Probate division districts and judges; assistant judge listings. Source for resolving the 18 probate districts.",
          "TODO -- probate district enumeration", "Do not mint probate posts until this enumeration is in hand."],
+        ["Vermont.gov -- Towns & Cities explorer",
+         "Municipal", "Official (state)", "Scrape / manual",
+         "https://www.vermont.gov/towns-and-Cities",
+         "The state portal's per-town/city entries: county, census population, land area, town clerk, website. Covers towns and cities (plus gores/grants) -- NOT incorporated villages.",
+         "USED -- municipality reconciliation (2026-10-16)", "Source of record for the town/city universe; verified Bloomfield and Sudbury, missing from the Census 2022 seed."],
+        ["Vermont Secretary of State (VSARA) -- List of Incorporated Villages",
+         "Municipal", "Official (state)", "Scrape / manual",
+         "https://sos.vermont.gov/vsara/learn/municipalities/incorporated-villages",
+         "The official village universe: 33 villages named with parent town/county and incorporation citation; Groton and Townshend flagged inactive on the page itself.",
+         "USED -- village reconciliation (2026-10-16)", "Governs the village count (31 active). Added Jericho (1933) and Westbury (2023) to the repo; Lyndonville absent from the current page, consistent with its merger."],
+        ["Vermont General Assembly -- H.490 bill status (Act M-14)",
+         "Municipal", "Official (state)", "Manual",
+         "https://legislature.vermont.gov/bill/status/2024/H.490",
+         "Merger of the Village of Lyndonville with the Town of Lyndon: voter approval 2022-11-08, Governor approval 2023-06-19; Town of Lyndon charter at 24 App. V.S.A. chapter 126.",
+         "USED -- Lyndonville retirement (2026-10-16)", "Basis for deleting the Lyndonville jurisdiction and noting the merger on the Town of Lyndon record."],
     ]:
         ws.append(r)
     style_header(ws)
@@ -323,13 +384,87 @@ def main():
         "Constitution and Titles 17/24 (town-meeting state; counties are judicial/law-enforcement "
         "units whose only elected officers are State's Attorney, Sheriff, Assistant Judges x2, "
         "Judge of Probate, and High Bailiff; county clerk and treasurer are appointed). "
-        "Municipalities seeded with all 275 repo jurisdictions (237 towns, 10 cities, 28 "
+        "Municipalities seeded with all 275 repo jurisdictions (Census 2022 split: 235 towns, 10 cities, 30 "
         "incorporated villages; VLCT's current split is 237 towns / 28 villages -- same 275 total, two-place classification drift flagged in Sources). Counties seeded (14). "
         "State executive posts (6) and county posts (56 posts / 70 seats) built in the repo by "
         "scripts/build_vt_state_county_posts.py; validation PASSED, 0 errors (5 pre-existing "
         "federal no-election-trace warnings). HELD: probate posts (18 districts, not 14), "
         "legislative districts (House 150 / Senate 30), all memberships, school districts, UTG.",
         "All", "Vt. Const. Ch. II; Titles 17/24 V.S.A.; Census 2022 Census of Governments (via repo); VLCT (cross-check)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Municipality reconciliation fix (same day, at Walter's direction). A name-level diff "
+        "against the VT Jurisdiction Factory (276) plus official verification settled the count "
+        "drift: (1) Town of Bloomfield (Essex Co.) and Town of Sudbury (Rutland Co.) were missing "
+        "from the Census 2022 seed entirely -- both verified on the official Vermont.gov Towns & "
+        "Cities explorer and added as jurisdictions. (2) Village of Jericho (Act 12, Special "
+        "Session 1933) and Village of Westbury (Colchester, 2023) were missing from BOTH the seed "
+        "and the factory -- added from the SOS/VSARA List of Incorporated Villages. (3) Village of "
+        "Lyndonville was retired: merged into the Town of Lyndon by Act M-14 (H.490; voters "
+        "2022-11-08, Governor 2023-06-19; charter at 24 App. ch. 126), noted on the Lyndon record. "
+        "Groton and Townshend villages were NOT added (SOS flags both inactive). New totals: 278 "
+        "municipal jurisdictions (237 towns / 10 cities / 31 active villages). Towns now reconcile "
+        "exactly across Census-corrected repo, factory, and VLCT (237); VLCT's village headline "
+        "(28) remains 3 below the SOS-governed 31, definitional, unresolved in its document.",
+        "Municipalities, Sources, Government Structure, Office Titles (Ref)",
+        "Vermont.gov Towns & Cities explorer; SOS/VSARA List of Incorporated Villages; VT General Assembly H.490 (Act M-14); VLCT municipal counts (cross-check)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Bloomfield municipal sweep -- worked example for the VT municipal tier (tracking PR #168). "
+        "Roster backfilled from SOS Elections Division directories: Selectboard -- Eric Brault, Josh "
+        "Riley, Denault Routhier (SOS selectboard directory, June 5, 2026); Town Treasurer -- Sharon "
+        "Belknap (SOS treasurer contact spreadsheet, June 12, 2026, corroborated by the SOS clerk "
+        "guide, January 2026); Justices of the Peace x5 -- Ray Bowen, Sharon Belknap, Bryant Wheeler, "
+        "Suzanne Routhier, Steven Bunnell (SOS '2025-2026 Vermont Justices of the Peace' listing, "
+        "December 4, 2025), with the November 5, 2024 JP election record built from the same listing "
+        "(vote totals not published there and not recorded). Town Clerk membership HELD: the SOS guide "
+        "(January 2026) names Susan Robidas, the SOS clerk contact spreadsheet (June 2026) names Ray "
+        "Bowen, and the Vermont.gov explorer names Paulette Routhier -- post created, holder awaits a "
+        "tiebreak. Moderator, Listers, Auditors, Constables, Grand Juror, and Town Agent were NOT "
+        "minted: no official online source names Bloomfield's holders (no town website; the printed "
+        "annual town report is not posted). Charter: none -- no Title 24 Appendix chapter (general-law "
+        "town, full index checked); no official website; no published municipal code. Factory "
+        "concordance: the VT Jurisdiction Factory carries Selectboard only for Bloomfield and matches "
+        "name-for-name; every other office is outside its bounded scope.",
+        "Municipalities (Bloomfield row), Status Log",
+        "VT SOS Elections Division directories (selectboard directory; clerk/treasurer contact spreadsheets; JP listing); Title 24 Appendix chapter index (Vermont Statutes Online)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Bloomfield Town Clerk resolved (follow-up to the sweep entry above; tracking PR #168). "
+        "News/directory check at Walter's request, most recent first: Vermont Attorneys Title clerk "
+        "directory (data obtained September 1, 2026) names Ray Bowen; the SOS clerk contact spreadsheet "
+        "(June 12, 2026) names Ray Bowen; the North Star Monthly clerk directory (updated ~April 2026) "
+        "and the SOS guide (January 2026) name Susan Robidas; VPIRG's clerk list (~2022) names Paulette "
+        "Routhier -- the vintage the Vermont.gov explorer still carries. No news article covers the "
+        "change. Walter directed minting Bowen on 2026-10-16: clerk membership added (Bowen already "
+        "held a Justice of the Peace seat on the same person record). Robidas held the office into "
+        "early 2026; Routhier's listing is a ~2022 artifact.",
+        "Municipalities (Bloomfield row), Status Log",
+        "VT SOS clerk contact spreadsheet (June 12, 2026); Vermont Attorneys Title town clerk directory (September 1, 2026); North Star Monthly Kingdom Guide clerk directory; VPIRG clerk list (~2022)",
+        "CivicMirror",
+    ])
+    ws.append([
+        RETRIEVED,
+        "Bloomfield data set completed as far as available information allows (tracking PR #168; "
+        "supersedes the sweep entry's 'not minted' note for five of the six lesser offices). The five "
+        "remaining section 2646 town offices - Moderator (1 seat), Listers (3), Auditors (3), Grand "
+        "Juror (1), Town Agent (1) - were created as structure-only posts from 17 V.S.A. section 2646, "
+        "the posts-first pattern used for the state and county build. No official source publishes "
+        "Bloomfield's current holders for these offices, so memberships await the printed annual town "
+        "report or a clerk records reply. Constable and Collector of Delinquent Taxes posts were NOT "
+        "created: a post requires a seat count, towns elect one or two constables by local vote, and "
+        "the collector is the treasurer ex officio unless the town votes to elect one separately "
+        "(section 2651d) - both unverifiable from published sources. A final sweep of the VT "
+        "Jurisdiction Factory confirmed it carries Bloomfield selectboard data only. Bloomfield totals "
+        "in the repo: 9 posts, 10 memberships, 8 people, 1 election record.",
+        "Municipalities (Bloomfield row), Status Log",
+        "17 V.S.A. sections 2646, 2649, 2651, 2651b, 2651d (Vermont Statutes Online); VT Jurisdiction Factory v0.1 (coverage re-check 2026-10-16)",
         "CivicMirror",
     ])
     style_header(ws)

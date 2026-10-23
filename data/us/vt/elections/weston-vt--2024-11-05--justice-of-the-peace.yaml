@@ -1,0 +1,36 @@
+# Town of Weston -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking).
+id: weston-vt/2024-11-05/general
+name: Town of Weston Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: weston-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:weston/government
+  office_id: weston-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/8f1f9b20-1373-511c-b362-09bde14843e7
+  - ocd-person/362c0732-b9bf-54bf-bcc1-dbf6cf744d86
+  - ocd-person/dc9edd00-4b6b-55ae-8681-46277d5a0781
+  - ocd-person/6a739578-12fe-5d9a-9df2-a2525ea75fbd
+  - ocd-person/41b6e98d-71c9-57e2-9f01-59603457cec7
+  result_status: official
+  winners:
+  - person_id: ocd-person/8f1f9b20-1373-511c-b362-09bde14843e7
+    name: Carolyn L. Brosseau
+  - person_id: ocd-person/362c0732-b9bf-54bf-bcc1-dbf6cf744d86
+    name: Donna Taranko-Moulton
+  - person_id: ocd-person/dc9edd00-4b6b-55ae-8681-46277d5a0781
+    name: Marisa Bolognese
+  - person_id: ocd-person/6a739578-12fe-5d9a-9df2-a2525ea75fbd
+    name: Wayne G. Granquist
+  - person_id: ocd-person/41b6e98d-71c9-57e2-9f01-59603457cec7
+    name: William "Bill" Hoyt
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the November 5, 2024 election
+    of five justices of the peace for Weston: Marisa Bolognese, Carolyn L. Brosseau,
+    Wayne G. Granquist, William ''Bill'' Hoyt, and Donna Taranko-Moulton'
+  retrieved: '2026-10-20'

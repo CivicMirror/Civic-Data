@@ -1,0 +1,33 @@
+# Jamaica municipal roster backfill -- Vermont
+# municipal fan-out batch 12; issue #163 (VT master tracking).
+id: ocd-person/eb1bc90e-b22f-54b7-b405-1cd424d588d4
+name: Karen Ameden
+identifiers: []
+candidacies:
+- contest_id: jamaica-vt/2024-11-05/justice-of-the-peace
+  election_id: jamaica-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:jamaica/government
+  office_id: jamaica-vt/justice-of-the-peace
+  party: null
+  ballot_name: Karen Ameden
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/123B
+  note: '24 App. V.S.A. ch. 123B (Town of Jamaica charter): section 7: three listers
+    are elected for staggered three-year terms, one term ending each year'
+  retrieved: '2026-10-18'
+- url: https://jamaicavermont.org/wp-content/uploads/2026/02/Town-Report-Fixed.pdf
+  note: 'Town of Jamaica, 2026 Town Report (official town website), town officers
+    table: the officers table seats Karen Ameden (term to 2028) and April Green (to
+    2028); Patricia Meulemans''s term expired March 2026 and no official source publishes
+    the 2026 outcome, so the third seat is left unfilled'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names five justices of the peace for
+    Jamaica: Karen Ameden, Greg Joly, Rob Willis, Tom Tolbert, and Clara Robinson'
+  retrieved: '2026-10-18'

@@ -1,0 +1,18 @@
+# Town of Wheelock municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/b627cb62-e235-5097-986d-cfb78a12c91c
+name: Teresa Stimpson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a collector of delinquent taxes'
+  retrieved: '2026-10-20'
+- url: https://townofwheelockvt.org/contacts
+  note: 'Town of Wheelock, town contacts page (townofwheelockvt.org): Collector of
+    Delinquent Taxes Teresa Stimpson (2027), labeled Elected'
+  retrieved: '2026-10-20'

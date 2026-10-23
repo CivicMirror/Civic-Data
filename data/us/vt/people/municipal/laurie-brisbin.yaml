@@ -1,0 +1,20 @@
+# Town of Richmond municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/5a5b2a73-978a-527e-8113-e8e38166b134
+name: Laurie Brisbin
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/143
+  note: '24 App. V.S.A. ch. 143 (Town of Richmond): section 303(b): the collector
+    of delinquent taxes is appointed by the Selectboard'
+  retrieved: '2026-10-19'
+- url: https://www.richmondvt.gov/fileadmin/files/News/2026/02/2025_Richmond_Town_Report.pdf
+  note: 'Town of Richmond, 2025 Town Report, ELECTED and APPOINTED officials tables:
+    the APPOINTED officials table names Laurie Brisbin as Collector of Delinquent
+    Taxes'
+  retrieved: '2026-10-19'

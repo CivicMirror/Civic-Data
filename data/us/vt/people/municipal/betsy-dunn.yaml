@@ -1,0 +1,28 @@
+# Town of Essex municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/9864abbe-71c9-5b18-85dd-d728a0f06cc3
+name: Betsy Dunn
+identifiers: []
+candidacies:
+- contest_id: essex-vt/2024-11-05/justice-of-the-peace
+  election_id: essex-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:essex/government
+  office_id: essex-vt/justice-of-the-peace
+  party: null
+  ballot_name: Betsy Dunn
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists fifteen Town of Essex
+    justices of the peace: Alyssa Black, Iris Banks, Leonora Dodge, Alexis Dubief,
+    Betsy Dunn, Rey Garofano, Dawn Hill-Fleury, Georgia Lavigne, Erik Post, Cindy
+    Seivwright, Ken Signorello, Margaret Smith, Liz Subin, Laura Taylor, and Irene
+    Wrenner. Black, Dodge, and Garofano are the sitting Chittenden-24 and Chittenden-23
+    state representatives, each styled ''of Essex'' in the House Journal; their existing
+    state-tier person records are reused.'
+  retrieved: '2026-10-18'

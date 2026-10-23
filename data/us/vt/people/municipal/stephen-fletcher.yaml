@@ -1,0 +1,23 @@
+# Town of Richford municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/a6f01636-5607-57e4-9cdc-a76c88f13ed6
+name: Stephen Fletcher
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists four of Richford''s five selectboard members:
+    Joseph Desmarais, Stephen Fletcher, Kristin Murphy, and Wallace Steinhour'
+  retrieved: '2026-10-19'
+- url: https://www.richfordvt.org/select-board.html
+  note: 'Town of Richford, Select Board page (richfordvt.org): the current board is
+    Wallace Steinhour (Chair), Alan Fletcher (Vice Chair), Joseph Desmarais, Stephen
+    Fletcher, and Kristin Murphy (the report table spells the chair ''Steinour'';
+    the board page''s Steinhour governs). The two seats that stood in 2026 were held
+    by Sherry Paquette and Andrew Pond, who departed'
+  retrieved: '2026-10-19'

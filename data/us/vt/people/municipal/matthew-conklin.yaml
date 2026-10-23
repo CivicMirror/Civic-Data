@@ -1,0 +1,51 @@
+# Town of Westminster municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/46d21441-5f1f-5e8c-b779-464e4aafd5b1
+name: Matthew Conklin
+identifiers: []
+candidacies:
+- contest_id: westminster-vt/2024-11-05/justice-of-the-peace
+  election_id: westminster-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:westminster-81400/government
+  office_id: westminster-81400-vt/justice-of-the-peace
+  party: null
+  ballot_name: Matt Conklin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.westminstervt.org/wp-content/uploads/2026/03/TOWN-REPORT-2025-2026.pdf
+  note: 'Town of Westminster, Town Report 2025-2026, ''Town of Westminster - Elected
+    Officials'' list (with term-expiration dates): Trustees of Campbell Fund: (3 Year)
+    Michael Fawcett (to 2027); Peter Harrison (to 2028, marked ''Resigned''); Barbara
+    Taylor (to 2026)'
+  retrieved: '2026-10-20'
+- url: https://www.westminstervt.org/wp-content/uploads/2026/03/20260304124744.pdf
+  note: 'Town of Westminster, certified return of votes for the March 3, 2026 annual
+    election (machine tally, certified by the election inspectors; posted on the town
+    clerk''s page): TRUSTEE CAMPBELL FUND -- Matthew S. Conklin 220 (the resigned
+    seat''s remaining two years). The three-year seat (Taylor) drew 22 scattered write-in
+    votes with no name tallied, so no winner is recorded for it'
+  retrieved: '2026-10-20'
+- url: https://www.westminstervt.org/wp-content/uploads/2026/02/WESTMINSTER-VT-BALLOT-PROOF-030326.pdf
+  note: 'Town of Westminster, official ballot for March 3, 2026: Trustee of Public
+    Funds races for a three-year term and for the remaining two years of a three-year
+    term (Matthew S. Conklin the printed candidate for the remainder)'
+  retrieved: '2026-10-20'
+- url: https://www.westminstervt.org/wp-content/uploads/2026/03/20260304124744.pdf
+  note: 'Town of Westminster, certified return of votes for the March 3, 2026 annual
+    election (machine tally, certified by the election inspectors; posted on the town
+    clerk''s page): TRUSTEE OF PUBLIC FUNDS 2 YEARS REM -- Matthew S. Conklin 227.
+    The three-year race drew 25 scattered write-in votes with no name tallied, so
+    no winner is recorded for that seat'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists eleven Westminster justices
+    of the peace: Matt Conklin, Frances (Nancy) Dalzell, John Ewald, Elizabeth Harlow,
+    Susan Harlow, Charles Lovell, Adrienne Major, Susan Roman, Peggy O''Toole, Jeanette
+    Staley, and Sarah Waldo. Conklin''s full form, Matthew Conklin, follows the town''s
+    certified 2026 tally'
+  retrieved: '2026-10-20'

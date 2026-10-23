@@ -1,0 +1,24 @@
+# Londonderry municipal roster backfill -- Vermont
+# municipal fan-out batch 13; issue #163 (VT master tracking).
+id: ocd-person/dd2d4be9-f85b-52d8-a374-743aa49412f0
+name: Melvin Twitchell
+identifiers: []
+candidacies:
+- contest_id: londonderry-vt/2024-11-05/justice-of-the-peace
+  election_id: londonderry-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:londonderry/government
+  office_id: londonderry-vt/justice-of-the-peace
+  party: null
+  ballot_name: Melvin Twitchell
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names seven justices of the peace
+    for Londonderry: Georgianne (George) Mora, Melvin Twitchell, Melissa Brown, Julie
+    Charlton, Elizabeth Labeau, Maureen Cronin, and Helena Wu'
+  retrieved: '2026-10-18'

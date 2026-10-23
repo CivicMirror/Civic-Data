@@ -1,0 +1,37 @@
+# Town of Cornwall -- justice of the peace election (VT municipal batch 6); issue #163 (VT master tracking).
+id: cornwall-vt/2024-11-05/general
+name: Town of Cornwall Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: cornwall-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:cornwall/government
+  office_id: cornwall-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/26ebee13-9b3d-5cfb-ac91-002ebca88ce1
+  - ocd-person/fca9dedd-52f5-580b-bdcc-3ff7fbd58313
+  - ocd-person/0810bfce-d3eb-5c06-aa83-060bc6338244
+  - ocd-person/40b9865e-5bfc-51a2-84eb-fa40c160fa85
+  - ocd-person/6d598f2a-6d74-5e7a-bad5-578184e7230a
+  result_status: official
+  winners:
+  - person_id: ocd-person/26ebee13-9b3d-5cfb-ac91-002ebca88ce1
+    name: David Anderson
+  - person_id: ocd-person/fca9dedd-52f5-580b-bdcc-3ff7fbd58313
+    name: Gary Margolis
+  - person_id: ocd-person/0810bfce-d3eb-5c06-aa83-060bc6338244
+    name: Jordan Young
+  - person_id: ocd-person/40b9865e-5bfc-51a2-84eb-fa40c160fa85
+    name: Marjorie Drexler
+  - person_id: ocd-person/6d598f2a-6d74-5e7a-bad5-578184e7230a
+    name: Susan Johnson
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Cornwall justices
+    of the peace elected November 5, 2024: David Anderson, Marjorie Drexler, Susan
+    Johnson, Gary Margolis, and Jordan Young. The listing publishes no vote totals
+    or party labels and none are recorded.'
+  retrieved: '2026-10-18'

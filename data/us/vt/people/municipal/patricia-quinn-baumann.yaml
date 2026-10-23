@@ -1,0 +1,36 @@
+# Huntington municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/b7d8f684-488c-5f3b-8100-54814fc3316b
+name: Patricia Quinn Baumann
+identifiers: []
+candidacies:
+- contest_id: huntington-vt/2024-11-05/justice-of-the-peace
+  election_id: huntington-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:huntington/government
+  office_id: huntington-vt/justice-of-the-peace
+  party: null
+  ballot_name: Patricia Quinn Baumann
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.huntingtonvt.org/board-of-auditors/
+  note: 'Town of Huntington (official website), Board of Auditors page: Dan Towle
+    (term expires 2027), Patricia Quinn Baumann (Chair), and Marilyn Hinsdale (2028).
+    Baumann''s printed term expired in 2026; the town''s maintained page -- on the
+    same site whose Selectboard page is post-meeting current -- continues to seat
+    her as Chair, so she is minted as re-elected with the stale expiry field disclosed'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing names seven justices
+    of the peace for Huntington'
+  retrieved: '2026-10-18'
+- url: https://www.huntingtonvt.org/
+  note: 'Town of Huntington (official website), homepage post: Justice of the Peace
+    Beverly Little Thunder died in office; the Board of Civil Authority recommended
+    Barrett Grimm and the Governor appointed him in mid-April 2026 to fill the vacancy.
+    Huntington has seven JPs'
+  retrieved: '2026-10-18'

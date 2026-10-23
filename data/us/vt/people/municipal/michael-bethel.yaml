@@ -1,0 +1,25 @@
+# Town of Castleton municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/d631d3c1-c16f-555f-bdc2-5bb7d1dce05b
+name: Michael Bethel
+identifiers: []
+candidacies:
+- contest_id: castleton-vt/2024-11-05/justice-of-the-peace
+  election_id: castleton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:castleton/government
+  office_id: castleton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Michael Bethel
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Castleton justices
+    of the peace: Patricia Albin-Diercksen, Gerard Ashton, Michael Bethel, Yvonne
+    DeLance, Robert Grace, Mary Beth Hadeka, Jennifer Jones, Toni Lobdell, Deborah
+    Rosmus, Laura Sargent, Patricia Schroeder, and Lilian Sheren.'
+  retrieved: '2026-10-18'

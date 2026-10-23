@@ -1,0 +1,23 @@
+# Town of Warren municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/82710a87-2d40-557d-999f-7921c093c629
+name: David Ellison
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.warrenvt.org/wp-content/uploads/2023/02/2023-Warren-Town-Report.pdf
+  note: 'Town of Warren, 2023 Town Report: fixes the library board at five seats on
+    three-year terms (the ballot styles the office ''Library Commission'') and lists
+    David Ellison'
+  retrieved: '2026-10-20'
+- url: https://www.warrenvt.org/wp-content/uploads/2026/02/2026-3-Warnings-Town-Meeting-Combined.pdf
+  note: 'Town of Warren, 2026 Town Meeting combined warnings and sample ballot (official):
+    Ellison was the sole printed candidate for one of the two 2026 seats, for a second
+    consecutive cycle. Minted under the disclosed sole-candidate + incumbency exception
+    (#163). The second seat''s printed candidate has no incumbency evidence and no
+    published outcome -- not minted'
+  retrieved: '2026-10-20'

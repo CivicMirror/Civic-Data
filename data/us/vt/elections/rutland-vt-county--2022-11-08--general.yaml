@@ -1,0 +1,70 @@
+# Rutland County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: rutland-vt-county/2022-11-08/general
+name: Rutland County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: rutland-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:rutland/government
+  office_id: rutland-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6b463b98-bdb9-577c-9b06-d258eb0ce607
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6b463b98-bdb9-577c-9b06-d258eb0ce607
+    name: Ian Sullivan
+- id: rutland-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:rutland/government
+  office_id: rutland-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8bc32fd5-6d44-503f-abc4-b4cff558fabc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8bc32fd5-6d44-503f-abc4-b4cff558fabc
+    name: David J. Fox
+- id: rutland-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:rutland/government
+  office_id: rutland-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/19f77f26-bd2d-5704-bd60-dc23d3549ed4
+  - ocd-person/edf6d941-e547-5333-ab76-6053f35995c3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/19f77f26-bd2d-5704-bd60-dc23d3549ed4
+    name: Dave Wolk
+  - person_id: ocd-person/edf6d941-e547-5333-ab76-6053f35995c3
+    name: Stephen P. Benard
+sources:
+- url: https://electionarchive.vermont.gov/contest/158042
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Rutland
+    County'' (county totals): Ian Sullivan (Democratic) 18,404 votes; write-ins 525.
+    The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157902
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Rutland County''
+    (county totals): David J. Fox (Democratic/Republican) 20,468 votes; write-ins
+    206. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://electionarchive.vermont.gov/contest/157854
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Rutland County'' (vote for 2; county
+    totals): Dave Wolk (Independent) 15,285 votes; Stephen P. Benard (Democratic/Republican)
+    14,736; write-ins 162. Dave Wolk and Stephen P. Benard were the only two candidates
+    for the two seats. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

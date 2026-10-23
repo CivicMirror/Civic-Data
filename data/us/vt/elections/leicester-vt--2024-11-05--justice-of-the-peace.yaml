@@ -1,0 +1,35 @@
+# Leicester -- justice of the peace election (VT municipal batch 13); issue #163 (VT master tracking).
+id: leicester-vt/2024-11-05/general
+name: Leicester Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: leicester-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:leicester/government
+  office_id: leicester-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/fc26cb5a-dba9-54f8-af0d-3c0878ac5fa2
+  - ocd-person/041aed43-814f-5052-9e05-5526285fbc6f
+  - ocd-person/d02e4582-8f18-55b0-8f17-41aa819a3a4d
+  - ocd-person/e730f511-9b09-5af0-8dd1-cb6e40065883
+  - ocd-person/c2482269-da96-566d-b0c5-1c4558fc2c22
+  result_status: official
+  winners:
+  - person_id: ocd-person/fc26cb5a-dba9-54f8-af0d-3c0878ac5fa2
+    name: Cheryl Morrison
+  - person_id: ocd-person/041aed43-814f-5052-9e05-5526285fbc6f
+    name: Diane Benware
+  - person_id: ocd-person/d02e4582-8f18-55b0-8f17-41aa819a3a4d
+    name: Greg Bernhardt
+  - person_id: ocd-person/e730f511-9b09-5af0-8dd1-cb6e40065883
+    name: Hilary Hatch
+  - person_id: ocd-person/c2482269-da96-566d-b0c5-1c4558fc2c22
+    name: Tom Barker
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the winners were Diane Benware, Tom
+    Barker, Cheryl Morrison, Greg Bernhardt, and Hilary Hatch'
+  retrieved: '2026-10-18'

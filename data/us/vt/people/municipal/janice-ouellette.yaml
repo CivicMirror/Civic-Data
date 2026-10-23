@@ -1,0 +1,23 @@
+# Town of Danville municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/ebd0543c-3c5b-58bb-8884-815b3e49e464
+name: Janice Ouellette
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Danville Selectboard members: Eric
+    Bach, Kristen Calkins, Matt Choate, Alison Low, and Janice Ouellette (the directory
+    spells Calkins ''Kristin''; the town''s own records print Kristen).'
+  retrieved: '2026-10-18'
+- url: https://danvillevt.gov
+  note: 'Town of Danville official website (danvillevt.gov): the clerk-signed ''Results
+    of Officers Elected'' for March 3, 2026 and Selectboard minutes, March-October
+    2026, seat the same five, with Alison Low as Chair and Eric Bach as Vice Chair;
+    Bach and Calkins were elected in 2026.'
+  retrieved: '2026-10-18'

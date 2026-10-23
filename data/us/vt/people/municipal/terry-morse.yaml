@@ -1,0 +1,31 @@
+# Town of Whitingham municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/54c5598c-400e-5c9b-978c-704f50078665
+name: Terry Morse
+identifiers: []
+candidacies:
+- contest_id: whitingham-vt/2024-11-05/justice-of-the-peace
+  election_id: whitingham-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:whitingham/government
+  office_id: whitingham-vt/justice-of-the-peace
+  party: null
+  ballot_name: Terry Morse
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Whitingham justices of
+    the peace: Seth Boyd, Julie Muller, Abbie Corse, Susan Cooke Johnson, Mary LeMaire,
+    Terry Morse, and Rosemary Tefft'
+  retrieved: '2026-10-20'
+- url: https://whitinghamvt.org/sites/default/files/Annual%20Town%20Report%20fye%2006.30.24.pdf
+  note: 'Town of Whitingham, Annual Town Report for the fiscal year ending June 30,
+    2024, ''Officers for the Town of Whitingham for the Year 2024'': the prior cycle''s
+    justices table prints ''Abigail Corse'' in full; the certified form ''Abbie Corse''
+    governs the person name. Rosemary Tefft is a different person from Selectboard
+    member Lyman Tefft Jr.'
+  retrieved: '2026-10-20'

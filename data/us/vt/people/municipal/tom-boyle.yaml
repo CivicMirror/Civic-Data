@@ -1,0 +1,20 @@
+# Town of Craftsbury municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/3f20c1a4-8d3c-57d3-86a1-d719c737136e
+name: Tom Boyle
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://craftsbury.gov/departments/listers/
+  note: 'Town of Craftsbury official website, Listers page: lists three elected Listers
+    on 3-year terms: Harry Miller, Jeremiah McCann, and Tom Boyle.'
+  retrieved: '2026-10-18'
+- url: https://craftsbury.gov/wp-content/uploads/sites/39/2026/02/final-town-report-1-27-2026-version5.pdf
+  note: 'Town of Craftsbury, 2025 Annual Town Report, ''2025 Craftsbury Elected Positions''
+    roster (craftsbury.gov): lists ''LISTER (3 year term): Tom Boyle (2026), Harry
+    Miller (2027), Jeremiah McCann (2028)''.'
+  retrieved: '2026-10-18'

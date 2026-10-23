@@ -1,0 +1,41 @@
+# Town of Pawlet -- justice of the peace election (VT municipal batch 17); issue #163 (VT master tracking).
+id: pawlet-vt/2024-11-05/general
+name: Town of Pawlet Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: pawlet-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:pawlet/government
+  office_id: pawlet-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/ebf79d85-a4c1-5442-885a-59baa6534bfc
+  - ocd-person/809d9c34-91bf-5cad-9315-6842dbce1428
+  - ocd-person/7bd4dcbb-95a6-5bab-a2f1-dd48200087ea
+  - ocd-person/ef7aff4f-f29c-5108-9d57-2dae1f534dc2
+  - ocd-person/e6079551-61d6-5a55-900d-25b3c4681e50
+  - ocd-person/877224ae-286b-5403-ac7f-77dfd721fa0c
+  - ocd-person/adcd1177-1246-5115-a6c0-9f3d34e41310
+  result_status: official
+  winners:
+  - person_id: ocd-person/ebf79d85-a4c1-5442-885a-59baa6534bfc
+    name: Beth Moser Duquette
+  - person_id: ocd-person/809d9c34-91bf-5cad-9315-6842dbce1428
+    name: Bradley Myerson
+  - person_id: ocd-person/7bd4dcbb-95a6-5bab-a2f1-dd48200087ea
+    name: Carol Schoenwetter
+  - person_id: ocd-person/ef7aff4f-f29c-5108-9d57-2dae1f534dc2
+    name: John Malcolm
+  - person_id: ocd-person/e6079551-61d6-5a55-900d-25b3c4681e50
+    name: Leon Corey
+  - person_id: ocd-person/877224ae-286b-5403-ac7f-77dfd721fa0c
+    name: Raymond Duquette Sr.
+  - person_id: ocd-person/adcd1177-1246-5115-a6c0-9f3d34e41310
+    name: Sue LaPorte
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Pawlet''s seven justice of the peace seats'
+  retrieved: '2026-10-19'

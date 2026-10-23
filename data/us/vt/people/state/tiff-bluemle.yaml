@@ -1,0 +1,30 @@
+# Chittenden-13 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/3e9eba3e-03a4-5e34-8e58-665d13a20d55
+name: Tiff Bluemle
+identifiers: []
+candidacies:
+- contest_id: vt-house-chittenden-13/2024-11-05/state-representative
+  election_id: vt-house-chittenden-13/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-13/legislature
+  office_id: vt-house-chittenden-13/state-representative
+  party: Democratic
+  ballot_name: Tiff Bluemle
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161014
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-13 District'' (district
+    totals): Tiff Bluemle (Democratic) 3,801 votes; Bram Kleppner (Democratic) 3,296;
+    write-ins 66. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Chittenden-13 District.'
+  retrieved: '2026-10-17'

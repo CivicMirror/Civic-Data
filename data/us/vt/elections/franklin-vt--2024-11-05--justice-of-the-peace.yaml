@@ -1,0 +1,37 @@
+# Town of Franklin -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: franklin-vt/2024-11-05/general
+name: Town of Franklin Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: franklin-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:franklin/government
+  office_id: franklin-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/24e665be-d2c2-5516-8cd7-1af19af3642d
+  - ocd-person/10a42005-6928-5f15-92fc-bb2c621f21b9
+  - ocd-person/08d6de8c-14ce-584e-87cf-db6df485c21d
+  - ocd-person/52ee145f-cd4c-54f4-a304-0dc4957c3d6c
+  - ocd-person/66dd94a6-5e0e-545d-a07c-f05bbeac46f9
+  result_status: official
+  winners:
+  - person_id: ocd-person/24e665be-d2c2-5516-8cd7-1af19af3642d
+    name: George Godin
+  - person_id: ocd-person/10a42005-6928-5f15-92fc-bb2c621f21b9
+    name: Kimberly Gates Maynard
+  - person_id: ocd-person/08d6de8c-14ce-584e-87cf-db6df485c21d
+    name: Matthew Rainville
+  - person_id: ocd-person/52ee145f-cd4c-54f4-a304-0dc4957c3d6c
+    name: Pauline Gadbois
+  - person_id: ocd-person/66dd94a6-5e0e-545d-a07c-f05bbeac46f9
+    name: Peter Magnant
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Franklin winners of the November 5, 2024 justice of the peace election. Peter
+    Magnant also holds the Selectboard and Moderator offices, and Pauline Gadbois
+    the Town Clerk office, on single person records.'
+  retrieved: '2026-10-18'

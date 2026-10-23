@@ -1,0 +1,54 @@
+# Town of Hardwick -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: hardwick-vt/2024-11-05/general
+name: Town of Hardwick Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: hardwick-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hardwick/government
+  office_id: hardwick-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/7f25cb21-f93e-570b-9684-ccabc25a865c
+  - ocd-person/79d118a0-0b21-5847-9d2a-6337c8d12d56
+  - ocd-person/97af36c8-9bd6-5737-bc5e-c9c8ccca4cc3
+  - ocd-person/81a24c47-38c9-58b9-a445-40be56ac7f2c
+  - ocd-person/03661ca6-873f-50d8-bc8e-7ed2983eb4d9
+  - ocd-person/40f526e2-999b-5f53-8f07-b0388ea1cdf7
+  - ocd-person/fb5379a4-dfa3-5374-b089-232e478b5568
+  - ocd-person/faafba49-912d-58a5-989b-4091f45973dd
+  - ocd-person/80867a98-3dc8-5f57-ac36-2011321ac1ae
+  - ocd-person/358b4483-a10b-5fb0-8374-6d5098432548
+  result_status: official
+  winners:
+  - person_id: ocd-person/7f25cb21-f93e-570b-9684-ccabc25a865c
+    name: Abrah Griggs
+  - person_id: ocd-person/79d118a0-0b21-5847-9d2a-6337c8d12d56
+    name: Alexandra Jump
+  - person_id: ocd-person/97af36c8-9bd6-5737-bc5e-c9c8ccca4cc3
+    name: Amy Rosenthal
+  - person_id: ocd-person/81a24c47-38c9-58b9-a445-40be56ac7f2c
+    name: Jean Hackett
+  - person_id: ocd-person/03661ca6-873f-50d8-bc8e-7ed2983eb4d9
+    name: Ken Leslie
+  - person_id: ocd-person/40f526e2-999b-5f53-8f07-b0388ea1cdf7
+    name: Lenore Renaud
+  - person_id: ocd-person/fb5379a4-dfa3-5374-b089-232e478b5568
+    name: Mary Whitaker
+  - person_id: ocd-person/faafba49-912d-58a5-989b-4091f45973dd
+    name: Paul Fixx
+  - person_id: ocd-person/80867a98-3dc8-5f57-ac36-2011321ac1ae
+    name: Robin Leslie
+  - person_id: ocd-person/358b4483-a10b-5fb0-8374-6d5098432548
+    name: Tracy Martin
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the ten
+    Hardwick winners of the November 5, 2024 justice of the peace election. No cemetery-trustee
+    post is created: the town''s table seats the Selectboard itself as trustee of
+    all seven town cemeteries, an ex officio trusteeship. No delinquent-tax-collector
+    post: the Town Manager holds the function. The charter''s fire-department officers
+    (section 302(a)(10)) are not modeled pending a scope ruling.'
+  retrieved: '2026-10-18'

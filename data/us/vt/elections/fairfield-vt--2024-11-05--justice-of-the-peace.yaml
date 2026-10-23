@@ -1,0 +1,43 @@
+# Town of Fairfield -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking).
+id: fairfield-vt/2024-11-05/general
+name: Town of Fairfield Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: fairfield-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fairfield/government
+  office_id: fairfield-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/f3c91fa6-532d-5dbd-9b45-f8a980299aca
+  - ocd-person/02d8d339-0c85-520b-9e57-08e4cf3871a0
+  - ocd-person/17dac9a6-3aad-592c-a22d-0afdca0ba471
+  - ocd-person/82ef8bc1-82df-59bc-8b62-97f0f714bda0
+  - ocd-person/9d51818c-a46b-57a9-bcef-5101ddb78e9d
+  - ocd-person/cc11c689-fe54-5972-a77a-9c1d14b9bfac
+  - ocd-person/c2ca17ab-431c-5e7e-b7aa-8f9c1efb4b59
+  result_status: official
+  winners:
+  - person_id: ocd-person/f3c91fa6-532d-5dbd-9b45-f8a980299aca
+    name: Bridget Howrigan Rivet
+  - person_id: ocd-person/02d8d339-0c85-520b-9e57-08e4cf3871a0
+    name: James Consentino
+  - person_id: ocd-person/17dac9a6-3aad-592c-a22d-0afdca0ba471
+    name: Jonathan Branon
+  - person_id: ocd-person/82ef8bc1-82df-59bc-8b62-97f0f714bda0
+    name: Julie Wolcott
+  - person_id: ocd-person/9d51818c-a46b-57a9-bcef-5101ddb78e9d
+    name: Marianne Dubie
+  - person_id: ocd-person/cc11c689-fe54-5972-a77a-9c1d14b9bfac
+    name: Marty Hornick
+  - person_id: ocd-person/c2ca17ab-431c-5e7e-b7aa-8f9c1efb4b59
+    name: Paula Boomhower
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Fairfield justices
+    of the peace elected November 5, 2024: Jonathan Branon, Bridget Howrigan Rivet,
+    Julie Wolcott, Paula Boomhower, Marianne Dubie, James Consentino, and Marty Hornick.
+    The listing publishes no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'

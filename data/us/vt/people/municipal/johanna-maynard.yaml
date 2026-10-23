@@ -1,0 +1,24 @@
+# Town of Shrewsbury municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/f355401b-2270-5e82-b91b-720f9b122d0f
+name: Johanna Maynard
+identifiers: []
+candidacies:
+- contest_id: shrewsbury-vt/2024-11-05/justice-of-the-peace
+  election_id: shrewsbury-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:shrewsbury/government
+  office_id: shrewsbury-vt/justice-of-the-peace
+  party: null
+  ballot_name: Johanna (Taffy) Maynard
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Shrewsbury justices of
+    the peace: Barry E. Griffith, Adrienne Raymond, Patricia Norton, Betsy Jesser,
+    Robert W. Ferguson, Johanna (Taffy) Maynard, and Lucy (Ludy) Biddle'
+  retrieved: '2026-10-19'

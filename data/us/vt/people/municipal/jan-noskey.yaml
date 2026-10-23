@@ -1,0 +1,31 @@
+# Town of Woodstock municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/b39d02ae-b001-5235-9e74-a54e856e0633
+name: Jan Noskey
+identifiers: []
+candidacies:
+- contest_id: woodstock-85975-vt/2024-11-05/justice-of-the-peace
+  election_id: woodstock-85975-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:woodstock-85975/government
+  office_id: woodstock-85975-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jan Noskey
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Woodstock justices of the
+    peace: Fred Barr, Susan Chiefsky, Rick Fiske, David Green, Matt Maxham, Jan Noskey,
+    Michael Ricci, Mary Riley, Bill Boardman, and Jill Davies (Davies''s entry continues
+    across the listing''s pp. 42-43 page break)'
+  retrieved: '2026-10-21'
+- url: https://townofwoodstock.org/fileadmin/files/Boards_and_Committees/Finance_Committee/TownReport2026-Final07.30.26.pdf
+  note: 'Town of Woodstock, 2026 Annual Town Report, Elected Officials table and 2026
+    warning (Article 9): the report''s justices table names twelve, adding Jane Soule,
+    Catie Baumgartner, and BJ Dunn and omitting certified winners Jan Noskey and Michael
+    Ricci; the certified slate governs and the table is disclosed on issue #163'
+  retrieved: '2026-10-21'

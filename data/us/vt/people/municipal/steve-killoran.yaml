@@ -1,0 +1,20 @@
+# Town of Calais municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/15f1fef4-7af6-5f8c-963e-c1d9403e32b2
+name: Steve Killoran
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://calaisvermont.govoffice.com/vertical/Sites/%7B226D684E-C864-4AFA-B4A5-59BE32741B77%7D/uploads/Town_Meeting_Warning_2026_SIGNED.pdf
+  note: 'Town of Calais, Warning for the Annual Meeting of March 3, 2026 (signed):
+    Article 3 elects a Trustee of Public Funds for a three-year term expiring 2029.'
+  retrieved: '2026-10-18'
+- url: https://www.calaisvermont.gov
+  note: 'Town of Calais official website: the 2025 Town Report lists three Trustees
+    of Public Funds: Rodney A. Buck, Scott G. Grzankowski, and Steve Killoran; the
+    town''s 2026 Certificate of Votes records Buck (as ''Rod Buck'') re-elected.'
+  retrieved: '2026-10-18'

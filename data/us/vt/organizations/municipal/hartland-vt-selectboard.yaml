@@ -1,0 +1,17 @@
+# Town of Hartland municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-organization/9d68d97c-9730-5fa9-9450-a112001c69b9
+name: Hartland Selectboard
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hartland/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: hartland-vt/selectboard
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Hartland''s five selectboard members as
+    Phil Hobbie, Clyde Jenne, Thomas Kennedy, James Rielly, and Trace Tancreti. Hartland''s
+    own town website was unreachable from every path tried, so this roster rests on
+    the Secretary of State''s directories (the Bloomfield posture).'
+  retrieved: '2026-10-18'

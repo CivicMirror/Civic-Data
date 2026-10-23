@@ -1,0 +1,24 @@
+# Town of Tinmouth municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/91b7e08f-578d-501c-a6c9-05192dce2b81
+name: Marshall Squier
+identifiers: []
+candidacies:
+- contest_id: tinmouth-vt/2024-11-05/justice-of-the-peace
+  election_id: tinmouth-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:tinmouth/government
+  office_id: tinmouth-vt/justice-of-the-peace
+  party: null
+  ballot_name: Marshall Squier
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Tinmouth justices of the
+    peace: Nelson Jaquay, Marshall Squier, Alan Gilmore, Anna Majorell, and Michael
+    Fallar'
+  retrieved: '2026-10-20'

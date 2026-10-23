@@ -1,0 +1,26 @@
+# Town of West Windsor municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/1ff2d7f8-6195-53d7-9364-99a206e03f65
+name: Anne Yates
+identifiers: []
+candidacies:
+- contest_id: west-windsor-vt/2024-11-05/justice-of-the-peace
+  election_id: west-windsor-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-windsor/government
+  office_id: west-windsor-vt/justice-of-the-peace
+  party: null
+  ballot_name: Anne P. Yates
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five West Windsor justices of
+    the peace: Margaret Clough, Nancy Gaynor, Debra Shearer, Debra Bullock Spackman,
+    and Anne P. Yates; the town report''s short forms (Deb Shearer, Deb Spackman,
+    Anne Yates) yield to the certified forms. Anne Yates is a different person from
+    Amy Yates the clerk/treasurer'
+  retrieved: '2026-10-20'

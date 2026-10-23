@@ -1,0 +1,37 @@
+# Town of Bristol municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/ff0dcf53-32d2-5a8a-9738-d5e010602308
+name: Patricia King
+identifiers: []
+candidacies:
+- contest_id: bristol-vt/2024-11-05/justice-of-the-peace
+  election_id: bristol-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bristol/government
+  office_id: bristol-vt/justice-of-the-peace
+  party: null
+  ballot_name: Patricia King
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://bristolvt.org
+  note: 'Town of Bristol official website, town directory: lists Patricia King, Douglas
+    Corkins, and Mark Bouvier as the town''s Listers.'
+  retrieved: '2026-10-18'
+- url: http://bristolvt.org/wp-content/uploads/2026/02/Town_of_Bristol_FY2025_Annual_Report_web.pdf
+  note: 'Town of Bristol, FY2025 Annual Report, Elected Town Officials page: lists
+    Patricia L. King (term expiring 2026), Douglas Corkins (term expiring 2027), and
+    Mark Bouvier (term expiring 2028) as Listers. The lister seat filled in March
+    2026 was contested by write-in only and the town published no tally; the town
+    directory continues to list King, and she is recorded from it.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Bristol justices
+    of the peace: Nathan Bouvier, Sharon Compagna, Dayna Epstein, Mark Gibson, Patricia
+    King, Daniel Lyons, Dave Sharpe, Ben Skolozdra, Alicia Standridge, Don Stratton,
+    Anne Wallace, and Helen Young. Nathan Bouvier is a distinct person from Selectboard
+    member Joel Bouvier and Lister Mark Bouvier.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,19 @@
+# Town of Guildhall municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-organization/93389c15-f81b-5670-b443-e1a42507827d
+name: Guildhall Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:guildhall/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: guildhall-vt/town-clerk
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists George Blakeslee as
+    Guildhall town clerk.'
+  retrieved: '2026-10-18'
+- url: https://guildhallvt.org/town-clerk.html
+  note: 'Town of Guildhall town clerk page (guildhallvt.org): the town''s clerk page
+    names George Blakeslee as Town Clerk with a term running to 2028.'
+  retrieved: '2026-10-18'

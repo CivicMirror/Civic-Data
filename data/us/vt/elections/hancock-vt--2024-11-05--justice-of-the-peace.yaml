@@ -1,0 +1,31 @@
+# Town of Hancock -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: hancock-vt/2024-11-05/general
+name: Town of Hancock Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: hancock-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hancock/government
+  office_id: hancock-vt/justice-of-the-peace
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/815691c8-4045-509e-a829-8096fd09e226
+  - ocd-person/4fd1be4e-61dc-5683-945a-f7518a173375
+  - ocd-person/f0dc8cee-8510-58fb-8579-3e7dca6aef0e
+  result_status: official
+  winners:
+  - person_id: ocd-person/815691c8-4045-509e-a829-8096fd09e226
+    name: Maurice Eaton Jr
+  - person_id: ocd-person/4fd1be4e-61dc-5683-945a-f7518a173375
+    name: Monica Collins
+  - person_id: ocd-person/f0dc8cee-8510-58fb-8579-3e7dca6aef0e
+    name: Roger Comes
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the three
+    Hancock winners of the November 5, 2024 justice of the peace election. The listers''
+    office carries no post: the town''s officers table records ''OFFICE ELIMINATED
+    TM 2022.'''
+  retrieved: '2026-10-18'

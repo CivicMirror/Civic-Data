@@ -1,0 +1,38 @@
+# Essex-Orleans House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/21ad5645-d4cc-52ab-9f4c-62bc4f75397d
+name: Larry Labor
+identifiers: []
+candidacies:
+- contest_id: vt-house-essex-orleans/2024-11-05/state-representative
+  election_id: vt-house-essex-orleans/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:essex-orleans/legislature
+  office_id: vt-house-essex-orleans/state-representative
+  party: Republican
+  ballot_name: Larry Labor
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161041
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Essex-Orleans District'' (district
+    totals): Larry Labor (Republican) 2,164 votes; write-ins 75. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. State representatives serve two-year terms; the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Essex-Orleans District.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/single/2021.1/36152
+  note: 'Vermont General Assembly, Representative Larry Labor''s biography: states
+    he ''was elected to the Morgan select board in 2009 and continues in the role of
+    select board member, having served for three terms as chair of the board''; the
+    Town of Morgan''s Town Government page (2025-2026 officers) also lists Larry
+    Labor among its three selectmen. The Morgan selectboard membership reuses this
+    person record (VT municipal batch 15).'
+  retrieved: '2026-10-18'

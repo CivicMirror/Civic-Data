@@ -1,0 +1,35 @@
+# Town of Topsham -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: topsham-vt/2024-11-05/general
+name: Town of Topsham Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: topsham-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:topsham/government
+  office_id: topsham-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/f7e23e2c-729f-5aea-927f-d3deae579c41
+  - ocd-person/4fc23dcf-11c0-5d39-9397-168ee13dbcdc
+  - ocd-person/4bb39537-886b-5eca-b8d4-d059e24b00b5
+  - ocd-person/1ff79003-7988-53f3-b317-11f6d0e6cf05
+  - ocd-person/3ff9ab44-9467-5ea2-8da3-a0b4a20e830e
+  result_status: official
+  winners:
+  - person_id: ocd-person/f7e23e2c-729f-5aea-927f-d3deae579c41
+    name: Donna Otterman
+  - person_id: ocd-person/4fc23dcf-11c0-5d39-9397-168ee13dbcdc
+    name: Dylan Magwire
+  - person_id: ocd-person/4bb39537-886b-5eca-b8d4-d059e24b00b5
+    name: Larry Hart Sr.
+  - person_id: ocd-person/1ff79003-7988-53f3-b317-11f6d0e6cf05
+    name: Sheila Herman
+  - person_id: ocd-person/3ff9ab44-9467-5ea2-8da3-a0b4a20e830e
+    name: Yvette Tomlinson
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Topsham''s five justice of the peace seats'
+  retrieved: '2026-10-20'

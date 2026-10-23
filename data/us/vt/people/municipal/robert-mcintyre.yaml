@@ -1,0 +1,25 @@
+# Town of Dover municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/5d56d7e6-41fd-52a7-abe2-fcd7b23664ad
+name: Robert McIntyre
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.doververmont.com/media/11501
+  note: 'Town of Dover 2026 Town Report (Annual Report 2024-2025) (doververmont.com):
+    the ELECTED TOWN OFFICERS table lists Tamara Allen (term expiring 2026), Michelle
+    Pinkham (2027), and Robert A. McIntyre (2028).'
+  retrieved: '2026-10-18'
+- url: https://www.doververmont.com/media/11696
+  note: 'Town of Dover official election results, Town Meeting March 3, 2026 (doververmont.com):
+    records Tamara Allen re-elected Auditor for a 3-year term on March 3, 2026 (90
+    votes).'
+  retrieved: '2026-10-18'
+- url: https://www.doververmont.com/bc-toa
+  note: 'Town of Dover Town Officer Appointments page (doververmont.com, current):
+    the current roster names the same three auditors (printing ''Robert McIntyre Jr.'').'
+  retrieved: '2026-10-18'

@@ -1,0 +1,22 @@
+# Town of Dummerston municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/3fb99926-2811-57c0-94d6-8a68885e54ee
+name: Michael Silberman
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://dummerston.org/gov/2025%20Town%20Report.pdf
+  note: 'Town of Dummerston ''Town Meeting 2026: Annual Report for 2025'' (dummerston.org):
+    the ELECTED OFFICERS table lists Charlotte Neer Annis (term expiring 2026), Michael
+    Silberman (2027), and Stephan Mindel (2028) as Listers.'
+  retrieved: '2026-10-18'
+- url: https://dummerston.org/
+  note: 'Town of Dummerston official website (dummerston.org, current): the current
+    Municipal Staff listing names Mathew Leger as Lister alongside Silberman and Mindel.
+    No published tally records the 2026 lister outcome; Leger is recorded as the current
+    holder of the third seat on the town''s listing, and Annis is not recorded.'
+  retrieved: '2026-10-18'

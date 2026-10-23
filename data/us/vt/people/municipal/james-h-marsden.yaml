@@ -1,0 +1,23 @@
+# Town of Bennington municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/90e9d325-a2d8-5ee9-a440-c2b5738f7d7f
+name: James H. Marsden
+identifiers: []
+candidacies:
+- contest_id: bennington-vt/2024-11-05/justice-of-the-peace
+  election_id: bennington-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bennington/government
+  office_id: bennington-vt/justice-of-the-peace
+  party: null
+  ballot_name: James H. Marsden
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists fifteen Bennington justices
+    of the peace.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,29 @@
+# Town of Moretown municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/96febb4a-5772-56ae-b6f0-ea51f18ac9ff
+name: Stephen Magill
+identifiers: []
+candidacies:
+- contest_id: moretown-vt/2024-11-05/justice-of-the-peace
+  election_id: moretown-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:moretown/government
+  office_id: moretown-vt/justice-of-the-peace
+  party: null
+  ballot_name: Stephen Magill
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.moretownvt.org/wp-content/uploads/2026/02/Moretown-Town-Report-2025.pdf
+  note: 'Town of Moretown, 2025 Town Report, officers table submitted by the Town
+    Clerk: lists seven justices of the peace: Steve Magill, Ron Shems, Bridget Harty,
+    Sam Rosenberg, William Nowlan, Sybil Schlesinger, and Kate O''Neill'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the Moretown block lists only four
+    of the seven (Bridget Harty, Stephen Magill, William Nowlan, and Kathryn O''Neill);
+    the town report''s superset governs -- see the election note'
+  retrieved: '2026-10-18'

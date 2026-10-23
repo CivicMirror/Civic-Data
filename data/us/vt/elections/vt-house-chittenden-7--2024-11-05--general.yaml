@@ -1,0 +1,27 @@
+# Chittenden-7 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-chittenden-7/2024-11-05/general
+name: Chittenden-7 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-chittenden-7/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:chittenden-7/legislature
+  office_id: vt-house-chittenden-7/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f362157e-aaf7-5417-b4ea-9e17bc97f73c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f362157e-aaf7-5417-b4ea-9e17bc97f73c
+    name: Shawn Sweeney
+sources:
+- url: https://electionarchive.vermont.gov/contest/161032
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Chittenden-7 District'' (district
+    totals): Shawn Sweeney (Democratic) 2,422 votes; write-ins 51. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. State representatives serve two-year terms; the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

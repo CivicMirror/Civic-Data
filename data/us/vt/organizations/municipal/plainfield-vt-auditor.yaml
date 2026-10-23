@@ -1,0 +1,22 @@
+# Town of Plainfield municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-organization/eb5440af-a060-5690-a372-f15bb72907b7
+name: Town of Plainfield Auditors
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:plainfield/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: plainfield-vt/auditor
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect three auditors'
+  retrieved: '2026-10-19'
+- url: https://web.archive.org/web/20260305174110/https://www.plainfieldvt.gov/uploads/8/1/0/6/81063668/article_iii_australian_ballot_official_return_of_votes.pdf
+  note: 'Town of Plainfield, Official Return of Votes, Article III (Election of Officers),
+    Australian ballot, March 3, 2026, certified by Town Clerk Jaime Hammack (366 voters
+    checked off the entrance checklist). The live PDF on the town website now returns
+    a 404 error; this is the Wayback Machine''s March 5, 2026 capture of the town''s
+    own official return: Auditor, one year, vote for not more than three -- the race
+    had NO declared candidates: 7 scattered write-in votes and 1,091 blank votes,
+    so no winner can be recorded and all three seats are created without memberships'
+  retrieved: '2026-10-19'

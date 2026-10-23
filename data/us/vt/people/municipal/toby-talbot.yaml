@@ -1,0 +1,19 @@
+# Town of Calais municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/e8f04f81-a0c8-5fcf-a10c-ab8abd5f8cb9
+name: Toby Talbot
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.calaisvermont.gov
+  note: 'Town of Calais official website: the 2025 Town Report''s town officers table
+    lists three listers: Wilson Hughes, John McCullough, and Toby Talbot.'
+  retrieved: '2026-10-18'
+- url: https://www.calaisvermont.gov/vertical/sites/%7B226D684E-C864-4AFA-B4A5-59BE32741B77%7D/uploads/Calais_Town_Meeting_Sample_Ballot(1).pdf
+  note: 'Town of Calais official ballot, Town Meeting March 3, 2026: Toby Talbot was
+    the candidate for Lister, three-year term ending March 2029; he was elected.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,30 @@
+# Chittenden North Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/3a8d2206-7615-5329-8b26-648a71ba278c
+name: Chris Mattos
+identifiers: []
+candidacies:
+- contest_id: vt-senate-chittenden-north/2024-11-05/state-senator
+  election_id: vt-senate-chittenden-north/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:chittenden-north/legislature
+  office_id: vt-senate-chittenden-north/state-senator
+  party: Republican
+  ballot_name: Chris Mattos
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_senate
+sources:
+- url: https://electionarchive.vermont.gov/contest/161107
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Chittenden North District'' (district totals):
+    Chris Mattos (Republican) 7,383 votes; Irene Wrenner (Democratic) 5,768; write-ins
+    24. The contest page''s cited official source is the Secretary of State''s ''November
+    5, 2024 General Official Results.pdf''. State senators serve two-year terms; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/Senate
+  note: 'Vermont General Assembly, All Senators directory (2025-2026 session): lists
+    the sitting senator(s) for the Chittenden North District.'
+  retrieved: '2026-10-17'

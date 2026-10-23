@@ -1,0 +1,29 @@
+# Hyde Park municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/7a496110-9f45-5fb1-a3d8-1e9c3307ebe2
+name: Edward French
+identifiers: []
+candidacies:
+- contest_id: hyde-park-35050-vt/2024-11-05/justice-of-the-peace
+  election_id: hyde-park-35050-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hyde-park-35050/government
+  office_id: hyde-park-35050-vt/justice-of-the-peace
+  party: null
+  ballot_name: Edward Ed B French
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://hydeparkvt.com/boardscommissions/cemeteries/index.php
+  note: 'Town of Hyde Park (official website), Cemeteries page (updated September
+    25, 2026): ''five elected Cemetery Commissioners'' -- Christine Cooney (term expires
+    2028), Kim Lambert (2029), Edward French (2030), Kylah Jones (2031), and Sarrah
+    Patch (2027)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing names ten justices
+    of the peace for Hyde Park'
+  retrieved: '2026-10-18'

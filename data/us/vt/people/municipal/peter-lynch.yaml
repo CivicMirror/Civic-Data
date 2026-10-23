@@ -1,0 +1,36 @@
+# Town of Shoreham municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/41b92ba7-1552-5e5c-bb58-97b2684e7737
+name: Peter Lynch
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Shoreham''s five selectboard members:
+    Stephen Goodrich (Chair), Rebecca Kerr (Vice Chair), Peter Lynch, Mark Spitzner,
+    and Loren Wood'
+  retrieved: '2026-10-19'
+- url: https://shorehamvt.us
+  note: 'Town of Shoreham, Official Return of Votes, Annual Town Meeting, March 3,
+    2026 (191 voters; certified by Town Clerk Laura Siebecker), published on the town
+    website shorehamvt.us: Rebecca Kerr was re-elected (166 votes), Peter Lynch re-elected
+    to a three-year term (172), and Mark Spitzner elected (163); Molly Francis departed'
+  retrieved: '2026-10-19'
+- url: https://shorehamvt.us
+  note: 'Town of Shoreham, 2024 Annual Report, elected and appointed town officers
+    tables: the report''s elected table lists a seven-member elected Planning Commission;
+    Caroline Paske holds a term to 2028. The four seats filled at the 2025 meeting
+    are published nowhere, so their holders are held as stragglers (flagged on issue
+    #163)'
+  retrieved: '2026-10-19'
+- url: https://shorehamvt.us
+  note: 'Town of Shoreham, Official Return of Votes, Annual Town Meeting, March 3,
+    2026 (191 voters; certified by Town Clerk Laura Siebecker), published on the town
+    website shorehamvt.us: Carrie Marini was re-elected (150 votes), Timothy Steady
+    elected (164), and Peter Lynch elected to a one-year remainder (168)'
+  retrieved: '2026-10-19'

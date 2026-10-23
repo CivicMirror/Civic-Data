@@ -1,0 +1,347 @@
+{
+ "label": "Town of Williamstown",
+ "place_slug": "williamstown",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:williamstown/government",
+ "header": "# Town of Williamstown municipal roster backfill -- Vermont\n# municipal fan-out batch 27; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Town of Williamstown Selectboard",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): names Cote Griggs, Laurence Hebert (Chairman), Scott McCarthy, Tyler Mitchell, and Clayton Woodworth"
+    },
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Selectboard -- Clayton Woodworth (2027), Larry Hebert (2027), Cote Griggs (2028), Tyler Mitchell (2028), and Scott McCarthy (2029)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Scott McCarthy",
+     "slug": "scott-mccarthy"
+    },
+    {
+     "name": "Cote Griggs",
+     "slug": "cote-griggs"
+    },
+    {
+     "name": "Tyler Mitchell",
+     "slug": "tyler-mitchell"
+    },
+    {
+     "name": "Clayton Woodworth",
+     "slug": "clayton-woodworth"
+    },
+    {
+     "name": "Larry Hebert",
+     "slug": "larry-hebert"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Town Moderator",
+   "org_name": "Town of Williamstown Town Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a moderator for a one-year term"
+    },
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Moderator Heather King (term expiring 2027)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Heather King",
+     "slug": "heather-king"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Town of Williamstown Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a town clerk; ch. 169 converted only the treasurer"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Barbara Graham as Williamstown's Town Clerk"
+    },
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Town Clerk Barbara Graham (term expiring 2028)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Barbara Graham",
+     "slug": "barbara-graham"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Town of Williamstown Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/169",
+     "note": "24 App. V.S.A. ch. 169 (Town of Williamstown): sec. 1-2: the elective Town Treasurer was converted to a Selectboard-appointed position (eff. May 7, 2012)"
+    },
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): under Appointed Town Officers -- Town Treasurer Jenn Allard"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jenn Allard",
+     "slug": "jenn-allard",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-taxes",
+   "title": "Collector of Taxes",
+   "org_name": "Town of Williamstown Collector of Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): under Appointed Town Officers -- Tax Collector Jenn Allard (the Treasurer serves as collector of current taxes)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jenn Allard",
+     "slug": "jenn-allard",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Town of Williamstown Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): under Appointed Town Officers -- Delinquent Tax Collector Ryan Lockwood (the Town Manager)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Ryan Lockwood",
+     "slug": "ryan-lockwood",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "trustee-of-public-funds",
+   "title": "Trustee of Public Funds",
+   "org_name": "Town of Williamstown Trustees of Public Funds",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect trustees of public funds"
+    },
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Trustees of Public Funds Orvil Lasell (2027) and Gary Storrs (2028); the third seat is printed 'Vacant (2029)'"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Orvil Lasell",
+     "slug": "orvil-lasell"
+    },
+    {
+     "name": "Gary Storrs",
+     "slug": "gary-storrs"
+    }
+   ]
+  },
+  {
+   "slug": "cemetery-commissioner",
+   "title": "Cemetery Commissioner",
+   "org_name": "Town of Williamstown Cemetery Commissioners",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Cemetery Commissioners Daphne Herwig (2027), Matt Walker (2028), Matt Couillard (2030), and Susan Lyons (2031) -- five seats on five-year staggered terms, one seat (2029) unlisted and vacant"
+    },
+    {
+     "url": "https://williamstownvt.org/cemetery/",
+     "note": "Town of Williamstown, Cemetery page: names commissioners Matt Couillard, Susan Lyons, and Daphne Herwig. DIVERGENCE: the department page omits Matt Walker, who is carried on the officers page with a term to 2028; the officers page governs and the divergence is flagged on issue #163. The pages spell the family name both Couillard and Coulliard; Couillard governs"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Daphne Herwig",
+     "slug": "daphne-herwig"
+    },
+    {
+     "name": "Matt Walker",
+     "slug": "matt-walker"
+    },
+    {
+     "name": "Matt Couillard",
+     "slug": "matt-couillard"
+    },
+    {
+     "name": "Susan Lyons",
+     "slug": "susan-lyons"
+    }
+   ]
+  },
+  {
+   "slug": "library-trustee",
+   "title": "Library Trustee",
+   "org_name": "Town of Williamstown Library Trustees",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Library Trustees (Ainsworth Public Library) Laura Carter (2027), Richard Ferno (2027), Jill McGlynn (2028), Liesl Wulff (2029), and Helen Duke (2030) -- five seats; the doubled 2027 expiry is the page's own"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Laura Carter",
+     "slug": "laura-carter"
+    },
+    {
+     "name": "Richard Ferno",
+     "slug": "richard-ferno"
+    },
+    {
+     "name": "Jill McGlynn",
+     "slug": "jill-mcglynn"
+    },
+    {
+     "name": "Liesl Wulff",
+     "slug": "liesl-wulff"
+    },
+    {
+     "name": "Helen Duke",
+     "slug": "helen-duke"
+    }
+   ]
+  },
+  {
+   "slug": "trustee-of-henry-s-baker-fund",
+   "title": "Trustee of Henry S. Baker Fund",
+   "org_name": "Town of Williamstown Trustees of Henry S. Baker Fund",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): Trustees of Henry S. Baker Fund Jasmin Couillard (2027), Marie Graham (2027), and Susan Lyons (2028)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jasmin Couillard",
+     "slug": "jasmin-couillard"
+    },
+    {
+     "name": "Marie Graham",
+     "slug": "marie-graham"
+    },
+    {
+     "name": "Susan Lyons",
+     "slug": "susan-lyons"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Town of Williamstown Justices of the Peace",
+   "seats": 10,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists ten Williamstown justices of the peace (the town's block runs across the listing's pp. 39-40 page break): Justin Ducey, Barbara Graham, Orvil Lasell, Susan Lyons, Heather King, Philip Winters, Sherry Chase, Elaine Owen, C. Christopher Cate, and Willet Knight Jr"
+    },
+    {
+     "url": "https://williamstownvt.org/town-officers/",
+     "note": "Town of Williamstown, Town Officers page (williamstownvt.org): the town's justice of the peace list concurs, printing 'Phil Winters' and 'Willett Knight, Jr.'; the certified forms govern"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Justin Ducey",
+     "slug": "justin-ducey"
+    },
+    {
+     "name": "Barbara Graham",
+     "slug": "barbara-graham"
+    },
+    {
+     "name": "Orvil Lasell",
+     "slug": "orvil-lasell"
+    },
+    {
+     "name": "Susan Lyons",
+     "slug": "susan-lyons"
+    },
+    {
+     "name": "Heather King",
+     "slug": "heather-king"
+    },
+    {
+     "name": "Philip Winters",
+     "slug": "philip-winters"
+    },
+    {
+     "name": "Sherry Chase",
+     "slug": "sherry-chase"
+    },
+    {
+     "name": "Elaine Owen",
+     "slug": "elaine-owen"
+    },
+    {
+     "name": "C. Christopher Cate",
+     "slug": "c-christopher-cate"
+    },
+    {
+     "name": "Willet Knight Jr.",
+     "slug": "willet-knight-jr"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "williamstown-vt/2024-11-05/general",
+  "contest_id": "williamstown-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Williamstown Justice of the Peace Election 2024-11-05",
+  "filename": "williamstown-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 10,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): certifies the November 5, 2024 election of ten justices of the peace for Williamstown: Justin Ducey, Barbara Graham, Orvil Lasell, Susan Lyons, Heather King, Philip Winters, Sherry Chase, Elaine Owen, C. Christopher Cate, and Willet Knight Jr"
+   }
+  ],
+  "header": "# Town of Williamstown -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking)."
+ }
+}

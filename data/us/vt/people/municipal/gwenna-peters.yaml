@@ -1,0 +1,31 @@
+# Town of Duxbury municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/018c53aa-9df3-50f4-b38f-750623049ca2
+name: Gwenna Peters
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists four Duxbury Selectboard members: Patrick
+    Zachary (Chair), Mari Pratt (Vice Chair), Gwenna Peters, and Matt Schroeder.'
+  retrieved: '2026-10-18'
+- url: https://www.duxburyvermont.org/town-government/clerkandtreasurer
+  note: 'Town of Duxbury ''Annual Election Report 2025'' and ''Duxbury 2026 Town Meeting
+    Tally'' (March 3, 2026), reached through the Town Clerk and Treasurer page (duxburyvermont.org):
+    the report''s Elected Offices table lists FIVE members, adding Jamison Ervin (3-year
+    term expiring 2026); the official 2026 tally records Mari Pratt (258 votes) and
+    Matt Schroeder (286) elected to 1-year terms and Gwenna Peters (285) elected to
+    the remaining two years of her term, and NO winner for the 3-year seat (write-ins
+    did not reach the required 12 votes). Schroeder and Peters had been serving as
+    appointees and are recorded as elected on the 2026 tally.'
+  retrieved: '2026-10-18'
+- url: https://www.duxburyvermont.org/town-government/selectboard
+  note: 'Town of Duxbury Selectboard page (duxburyvermont.org, current): the current
+    roster seats Zachary (Chair, term expiring 2027), Pratt (Vice Chair), Schroeder,
+    and Peters, and posts the fifth seat as Vacant. Ervin is not recorded.'
+  retrieved: '2026-10-18'

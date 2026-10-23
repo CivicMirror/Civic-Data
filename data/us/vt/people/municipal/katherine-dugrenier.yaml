@@ -1,0 +1,20 @@
+# Town of Townshend municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/218f9fa1-40e7-5fa2-8bad-b2ae90ce66f8
+name: Katherine Dugrenier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.townshendvt.gov/boards-meetings/library-trustees
+  note: 'Town of Townshend official website, Library Trustees page: names Sandy Glaser,
+    Miriam Schuldenfrei, Katherine Dugrenier, Judy Slowik, and Elizabeth Brown'
+  retrieved: '2026-10-20'
+- url: https://www.townshendvt.gov/fileadmin/files/Boards_and_Committees/Selectboard/Town_Meeting/2026_Town_meeting_minutes_-_signed.pdf
+  note: 'Town of Townshend, signed minutes of the annual town meeting of March 3,
+    2026 (town website): Sandy Glaser won the 2026 five-year seat after Marilee Attley
+    declined'
+  retrieved: '2026-10-20'

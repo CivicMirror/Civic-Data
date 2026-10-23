@@ -1,0 +1,15 @@
+# Town of Washington municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-organization/8d4ee584-5444-5f55-9187-f19341c06107
+name: Town of Washington Board of Auditors
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:washington/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: washington-vt/auditor
+status: active
+sources:
+- url: https://www.washingtonvt.org/current-officials
+  note: 'Town of Washington, ''Current Officials'' page (washingtonvt.org): the town''s
+    own page states all three auditor seats are VACANT, so the post is created without
+    memberships'
+  retrieved: '2026-10-20'

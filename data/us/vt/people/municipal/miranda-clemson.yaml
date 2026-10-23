@@ -1,0 +1,22 @@
+# Town of Fairlee municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/37e937cb-1105-5b52-937e-4c078a135a1b
+name: Miranda Clemson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Fairlee Selectboard members: Peter
+    Berger, Miranda Clemson (Chair), and Lance Mills.'
+  retrieved: '2026-10-18'
+- url: https://fairleevt.gov/uploads/dm/2672/2025_Town_Meeting_Minutes.pdf
+  note: 'Town of Fairlee official Town Meeting Minutes, March 3, 2026 (fairleevt.gov;
+    the file is named 2025 but its contents are the 2026 minutes): the March 3, 2026
+    town meeting re-elected Clemson to a 3-year term unopposed; Berger chaired the
+    board before the 2026 reorganization and Clemson chairs it in the June 2026 directory.'
+  retrieved: '2026-10-18'

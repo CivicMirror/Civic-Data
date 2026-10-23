@@ -1,0 +1,30 @@
+# Town of Dorset municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/500d9d5c-fa9f-552e-b75f-e3d2661adfb2
+name: Russell Appelman
+identifiers: []
+candidacies:
+- contest_id: dorset-vt/2024-11-05/justice-of-the-peace
+  election_id: dorset-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:dorset/government
+  office_id: dorset-vt/justice-of-the-peace
+  party: null
+  ballot_name: Russell Appelman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Dorset justices of
+    the peace: Russell Appelman, Howard W Coolidge, Tom Cooper, Lee Fox, Jennifer
+    Halligan Comar, Michelle Pagan, Sandra "Sandy" Pinsonault, John "Will" Rucker,
+    Roger Squire, and Bo Thorn.'
+  retrieved: '2026-10-18'
+- url: https://dorsetvt.org/uploads/3/5/3/5/35356792/2025_town_report_final.pdf
+  note: 'Town of Dorset 2025 Town Report (dorsetvt.org): the elected-officers table
+    lists the same ten justices of the peace (the report spells the tenth ''Roger
+    Squires''; the Secretary of State listing''s ''Roger Squire'' governs).'
+  retrieved: '2026-10-18'

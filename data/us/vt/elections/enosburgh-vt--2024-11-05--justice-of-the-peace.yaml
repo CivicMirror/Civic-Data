@@ -1,0 +1,58 @@
+# Town of Enosburgh -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking).
+id: enosburgh-vt/2024-11-05/general
+name: Town of Enosburgh Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: enosburgh-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:enosburgh/government
+  office_id: enosburgh-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/ebfbefa0-d07d-598e-be6c-4a2aa21ab669
+  - ocd-person/751a0c73-0ead-5fb9-917d-84e5d756a18a
+  - ocd-person/a61ba4bb-2a0e-592e-81e5-127e775069fd
+  - ocd-person/dd83016a-c56c-52b0-a20d-4de6c49a1590
+  - ocd-person/9aa7a14e-a469-56f6-a0dd-aaa6fcae067a
+  - ocd-person/f848e841-af18-5489-b7c1-60afe5b197b3
+  - ocd-person/9d9da31e-5ce3-5130-842c-552442e6cf12
+  - ocd-person/04bacc9e-d4f3-5ece-8da7-e4224e0ca752
+  - ocd-person/d23290b5-5aa9-536f-ba28-5d1e2037173e
+  result_status: official
+  winners:
+  - person_id: ocd-person/ebfbefa0-d07d-598e-be6c-4a2aa21ab669
+    name: Angela Wright
+  - person_id: ocd-person/751a0c73-0ead-5fb9-917d-84e5d756a18a
+    name: Lucien Robtoy
+  - person_id: ocd-person/a61ba4bb-2a0e-592e-81e5-127e775069fd
+    name: Patricia Boucher
+  - person_id: ocd-person/dd83016a-c56c-52b0-a20d-4de6c49a1590
+    name: Peter Perley
+  - person_id: ocd-person/9aa7a14e-a469-56f6-a0dd-aaa6fcae067a
+    name: Pierre Letourneau
+  - person_id: ocd-person/f848e841-af18-5489-b7c1-60afe5b197b3
+    name: Robert Young
+  - person_id: ocd-person/9d9da31e-5ce3-5130-842c-552442e6cf12
+    name: Sandra Murphy
+  - person_id: ocd-person/04bacc9e-d4f3-5ece-8da7-e4224e0ca752
+    name: Sarah Downes
+  - person_id: ocd-person/d23290b5-5aa9-536f-ba28-5d1e2037173e
+    name: Timothy Stetson
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Enosburgh justices
+    of the peace elected November 5, 2024: Patricia Boucher, Timothy Stetson, Peter
+    Perley, Sandra Murphy, Lucien Robtoy, Robert Young, Avis Gervais, Pierre Letourneau,
+    Sarah Downes, and Angela Wright. The listing publishes no vote totals or party
+    labels and none are recorded. Avis Gervais died July 26, 2025 (the Village of
+    Enosburg Falls 2025 Annual Report is dedicated in part to her memory), so no person
+    or membership is minted for her and her seat stands vacant; the nine surviving
+    winners are recorded here.'
+  retrieved: '2026-10-18'
+- url: https://villageofenosburgfalls.org/wp-content/uploads/2026/02/2025-ANNUAL-REPORT-VOEF-FINAL-COPY.pdf
+  note: 'Village of Enosburg Falls Annual Report for the year ending December 31,
+    2025 (villageofenosburgfalls.org): the report is dedicated in part to the memory
+    of Justice of the Peace Avis Gervais, who passed away July 26, 2025.'
+  retrieved: '2026-10-18'

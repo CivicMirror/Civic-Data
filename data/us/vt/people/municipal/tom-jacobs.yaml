@@ -1,0 +1,17 @@
+# Town of Strafford municipal roster backfill -- Vermont
+# held-straggler sweep; issue #163 (VT master tracking).
+id: ocd-person/fe3226c4-bd44-58f6-9761-c54696e6b17f
+name: Tom Jacobs
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.straffordvt.org/
+  note: 'Town of Strafford, 2024 Annual Town Report, officers table (p. 3) -- term-continuity:
+    each term below runs to March 2027, past the March 2026 meeting: Lister Tom Jacobs.
+    (The seats of the other two listers named in research could not be verified to
+    the same standard and stay open.)'
+  retrieved: '2026-10-21'

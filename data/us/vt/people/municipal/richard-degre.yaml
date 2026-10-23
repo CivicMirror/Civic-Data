@@ -1,0 +1,22 @@
+# Town of Westfield municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/04c33974-bfc2-5b83-bf45-462901a403ad
+name: Richard Degre
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Jacques Couture (Chair), Richard Degre,
+    and Dennis Vincent for Westfield''s three-member board'
+  retrieved: '2026-10-20'
+- url: https://westfield.vt.gov/town-departments/
+  note: 'Town of Westfield, Town Officers/Departments page (westfield.vt.gov; the
+    page labels each office ''(elected)'' or appointed): ''Selectboard: (elected):
+    Jacques Couture, Chair (expires 2028); Dennis Vincent, Vice-Chair (expires 2029);
+    Richard Degre (expires 2027)'''
+  retrieved: '2026-10-20'

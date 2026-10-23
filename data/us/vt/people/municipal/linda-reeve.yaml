@@ -1,0 +1,29 @@
+# Town of Wolcott municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/f9846151-c118-5a08-b468-c652ce0ec053
+name: Linda Reeve
+identifiers: []
+candidacies:
+- contest_id: wolcott-vt/2024-11-05/justice-of-the-peace
+  election_id: wolcott-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wolcott/government
+  office_id: wolcott-vt/justice-of-the-peace
+  party: null
+  ballot_name: Linda Reeve
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Wolcott justices of the
+    peace: Katie Black, Stacey Boivin, Sarena Moodie Boland, Amy Kolb Noyes, Linda
+    Reeve, Kimberly Gravel, and Lucien Gravel'
+  retrieved: '2026-10-21'
+- url: https://wolcottvt.org/wp-content/uploads/2026/02/Wolcott-Town-Report-2025-1.4.pdf
+  note: 'Town of Wolcott, FY2025 Town Report, officers table (published February 2026):
+    the report''s justices line names six of the seven, omitting Amy Kolb Noyes; the
+    certified listing governs'
+  retrieved: '2026-10-21'

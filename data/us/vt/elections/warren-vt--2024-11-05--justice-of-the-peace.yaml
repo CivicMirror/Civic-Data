@@ -1,0 +1,37 @@
+# Town of Warren -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: warren-vt/2024-11-05/general
+name: Town of Warren Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: warren-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:warren/government
+  office_id: warren-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/954a6142-f5ec-5c1e-b6ea-34b5c67ddf57
+  - ocd-person/69b6644a-e504-5f4a-ac7c-901f84fed197
+  - ocd-person/7482ad6a-653b-5373-9881-12bb3ac17c41
+  - ocd-person/6ae77f47-e1dc-5b67-8595-cb4b70002c2d
+  - ocd-person/4f84b6d1-d29d-53b0-802a-6cbc1e9e8d42
+  result_status: official
+  winners:
+  - person_id: ocd-person/954a6142-f5ec-5c1e-b6ea-34b5c67ddf57
+    name: J Kenneth Scott
+  - person_id: ocd-person/69b6644a-e504-5f4a-ac7c-901f84fed197
+    name: Joni Zweig
+  - person_id: ocd-person/7482ad6a-653b-5373-9881-12bb3ac17c41
+    name: Margaret Bullock Wade
+  - person_id: ocd-person/6ae77f47-e1dc-5b67-8595-cb4b70002c2d
+    name: Sandra L Brodeur
+  - person_id: ocd-person/4f84b6d1-d29d-53b0-802a-6cbc1e9e8d42
+    name: Susan K Bauchner
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the five winners of Warren''s
+    November 5, 2024 justice of the peace election (vote for five): J Kenneth Scott,
+    Margaret Bullock Wade, Susan K Bauchner, Joni Zweig, and Sandra L Brodeur. All
+    five remain in office'
+  retrieved: '2026-10-20'

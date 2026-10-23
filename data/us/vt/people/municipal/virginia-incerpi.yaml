@@ -1,0 +1,25 @@
+# Town of Danville municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/5d6efe27-8bd1-598e-bb8c-8ab822d538ea
+name: Virginia Incerpi
+identifiers: []
+candidacies:
+- contest_id: danville-vt/2024-11-05/justice-of-the-peace
+  election_id: danville-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:danville/government
+  office_id: danville-vt/justice-of-the-peace
+  party: null
+  ballot_name: Virginia Incerpi
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Danville justices
+    of the peace: Eric Bach, Matthew Choate, Barbara Hawley, Libby Hillhouse, Virginia
+    Incerpi, Julie Larrabee, Bruce Melendy, Jenny Rafuse, Phyllis Kehley Sweeney,
+    and Brittany Larrabee Wilson.'
+  retrieved: '2026-10-18'

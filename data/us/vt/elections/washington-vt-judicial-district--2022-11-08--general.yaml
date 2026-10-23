@@ -1,0 +1,28 @@
+# Washington Probate District -- VT probate tier (jurisdiction + post + holder + election together);
+# issue #163 (VT master tracking).
+id: washington-vt-judicial-district/2022-11-08/general
+name: Washington Probate District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: washington-vt-judicial-district/2022-11-08/judge-of-probate
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/judicial_district:washington/judiciary
+  office_id: washington-vt-judicial-district/judge-of-probate
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fdec4c73-987b-5357-a33d-75887ee593d1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fdec4c73-987b-5357-a33d-75887ee593d1
+    name: Jeffrey P. Kilgore
+sources:
+- url: https://electionarchive.vermont.gov/contest/157887
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Probate Judge, Washington County'' (county totals): Jeffrey
+    P. Kilgore (Democratic/Republican) 21,901 votes; write-ins 211. The contest page''s
+    cited official source is the official return vt-2022_11_08_General_ALL.pdf. Probate
+    judges serve four-year terms beginning February 1 after the election (Vermont
+    Constitution, Chapter II, sections 50-51); the November 3, 2026 general election
+    decides the next term.'
+  retrieved: '2026-10-17'

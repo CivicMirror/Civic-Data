@@ -1,0 +1,386 @@
+{
+ "label": "Town of Weston",
+ "place_slug": "weston",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:weston/government",
+ "header": "# Town of Weston municipal roster backfill -- Vermont\n# municipal fan-out batch 27; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Town of Weston Selectboard",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): names Denis Benson (Chair), Pamela Dickman, Brian Gehlich, James Linville (Vice Chair), and Kathleen Moriarty-Fitzpatrick -- a pre-September 2026 vintage"
+    },
+    {
+     "url": "https://www.westonvt.org/selectboard",
+     "note": "Town of Weston, Selectboard page (live): Duane Hart (Chair, seat to 2029), Jim Linville (Vice Chair, 2028), Kathleen Moriarty-Fitzpatrick (2028), Brian Gehlich (2027), and Susan Morris (2027)"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Denis Benson was re-elected to the three-year seat and a two-year seat was left vacant"
+    },
+    {
+     "url": "https://www.westonvt.org/s/Sept-26-2026-Special-TM-Results.pdf",
+     "note": "Town of Weston, official Special Town Meeting Results, September 26, 2026: after Benson's departure, the special meeting elected Duane Hart to the remainder of the three-year seat (to March 2029) and Susan Morris to the remainder of the two-year seat (to March 2027); both are minted as elected. Pamela Dickman no longer sits"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Duane Hart",
+     "slug": "duane-hart"
+    },
+    {
+     "name": "Jim Linville",
+     "slug": "jim-linville"
+    },
+    {
+     "name": "Kathleen Moriarty-Fitzpatrick",
+     "slug": "kathleen-moriarty-fitzpatrick"
+    },
+    {
+     "name": "Brian Gehlich",
+     "slug": "brian-gehlich"
+    },
+    {
+     "name": "Susan Morris",
+     "slug": "susan-morris"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Town Moderator",
+   "org_name": "Town of Weston Town Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a moderator for a one-year term"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Article 1 elected Wayne Granquist Moderator for the ensuing year"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Wayne Granquist",
+     "slug": "wayne-granquist"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Town of Weston Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a town clerk"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Kim Seymour as Weston's Town Clerk"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Kim Seymour was elected Town Clerk (one-year term, as Weston elects the office)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Kim Seymour",
+     "slug": "kim-seymour"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Town of Weston Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a town treasurer"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Kim Seymour as Weston's Town Treasurer"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Kim Seymour was elected Town Treasurer (one-year term)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Kim Seymour",
+     "slug": "kim-seymour"
+    }
+   ]
+  },
+  {
+   "slug": "lister",
+   "title": "Lister",
+   "org_name": "Town of Weston Listers",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a board of listers"
+    },
+    {
+     "url": "https://www.westonvt.org/listers",
+     "note": "Town of Weston, Listers page: names Greg Carroll and Jeff Seymour; the third seat is printed 'VACANT'"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: the three-year lister seat 'remains vacant'; the seated listers' terms run to 2027 (Carroll) and 2028 (Seymour)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Greg Carroll",
+     "slug": "greg-carroll"
+    },
+    {
+     "name": "Jeff Seymour",
+     "slug": "jeff-seymour"
+    }
+   ]
+  },
+  {
+   "slug": "library-trustee",
+   "title": "Library Trustee",
+   "org_name": "Town of Weston Library Trustees",
+   "seats": 10,
+   "sources": [
+    {
+     "url": "https://www.westonvt.org/library",
+     "note": "Town of Weston, Library page and the 2025 Town Report's trustees table: a ten-member board of library trustees on staggered five-year terms (the board size is derived from the report's table together with the four seats warned in 2026 -- flagged on issue #163)"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Carrie Chalmers, Nicole Pfister, Linda Saarnijoki, and Nancy O'Connell were elected library trustees in 2026; the continuing trustees are Deborah Granquist and Joanne Prouty (2027), Tina Hartell (2028), and Malcolm Hamblett, Richard Lechthaler, and Gene Palma (2030)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Carrie Chalmers",
+     "slug": "carrie-chalmers"
+    },
+    {
+     "name": "Nicole Pfister",
+     "slug": "nicole-pfister"
+    },
+    {
+     "name": "Linda Saarnijoki",
+     "slug": "linda-saarnijoki"
+    },
+    {
+     "name": "Nancy O'Connell",
+     "slug": "nancy-oconnell"
+    },
+    {
+     "name": "Deborah Granquist",
+     "slug": "deborah-granquist"
+    },
+    {
+     "name": "Joanne Prouty",
+     "slug": "joanne-prouty"
+    },
+    {
+     "name": "Tina Hartell",
+     "slug": "tina-hartell"
+    },
+    {
+     "name": "Malcolm Hamblett",
+     "slug": "malcolm-hamblett"
+    },
+    {
+     "name": "Richard Lechthaler",
+     "slug": "richard-lechthaler"
+    },
+    {
+     "name": "Gene Palma",
+     "slug": "gene-palma"
+    }
+   ]
+  },
+  {
+   "slug": "trustee-of-public-funds",
+   "title": "Trustee of Public Funds",
+   "org_name": "Town of Weston Trustees of Public Funds",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect trustees of public funds"
+    },
+    {
+     "url": "https://www.westonvt.org/trusteespublicfunds",
+     "note": "Town of Weston, Trustees of Public Funds page: Andrew Clapp, Nicole Pfister, and Ronald Prouty (terms to 2028, 2027, and 2028)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Andrew Clapp",
+     "slug": "andrew-clapp"
+    },
+    {
+     "name": "Nicole Pfister",
+     "slug": "nicole-pfister"
+    },
+    {
+     "name": "Ronald Prouty",
+     "slug": "ronald-prouty"
+    }
+   ]
+  },
+  {
+   "slug": "cemetery-commissioner",
+   "title": "Cemetery Commissioner",
+   "org_name": "Town of Weston Cemetery Commissioners",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://www.westonvt.org/cemeteries",
+     "note": "Town of Weston, Cemeteries page: the Cemetery Commissioners are Duane Hart (2030), William Hoyt (2028), Doris Ingram (2029), Richard 'Dick' Lechthaler, and Patrick Walsh (2027), on five-year terms"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Richard Lechthaler was re-elected Cemetery Commissioner in 2026"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Duane Hart",
+     "slug": "duane-hart"
+    },
+    {
+     "name": "William Hoyt",
+     "slug": "william-hoyt"
+    },
+    {
+     "name": "Doris Ingram",
+     "slug": "doris-ingram"
+    },
+    {
+     "name": "Richard Lechthaler",
+     "slug": "richard-lechthaler"
+    },
+    {
+     "name": "Patrick Walsh",
+     "slug": "patrick-walsh"
+    }
+   ]
+  },
+  {
+   "slug": "constable",
+   "title": "Constable",
+   "org_name": "Town of Weston Constable",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect constables"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Marisa Bolognese was elected Constable (one-year term)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Marisa Bolognese",
+     "slug": "marisa-bolognese"
+    }
+   ]
+  },
+  {
+   "slug": "collector-of-delinquent-taxes",
+   "title": "Collector of Delinquent Taxes",
+   "org_name": "Town of Weston Collector of Delinquent Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646: towns elect a collector of delinquent taxes"
+    },
+    {
+     "url": "https://www.westonvt.org/collectordelinquentaxes",
+     "note": "Town of Weston, Collector of Delinquent Taxes page: Gretchen Hauser states she was appointed to fill a vacancy in 2025"
+    },
+    {
+     "url": "https://www.westonvt.org/s/2026-TM-Results.pdf",
+     "note": "Town of Weston, official Town Meeting Results, March 3, 2026: Gretchen Hauser was elected Collector of Delinquent Taxes in 2026 (one-year term)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Gretchen Hauser",
+     "slug": "gretchen-hauser"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Town of Weston Justices of the Peace",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists five Weston justices of the peace: Marisa Bolognese, Carolyn L. Brosseau, Wayne G. Granquist, William 'Bill' Hoyt, and Donna Taranko-Moulton"
+    },
+    {
+     "url": "https://www.westonvt.org/s/Official-Results-11-5-2024.pdf",
+     "note": "Town of Weston, 'Justice of the Peace Results, November 5, 2024' (official town PDF): confirms the same five winners. The 2025 Town Report's JP table (Charles Goodwin, Marguerite Mason) is stale and is not used"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Marisa Bolognese",
+     "slug": "marisa-bolognese"
+    },
+    {
+     "name": "Carolyn L. Brosseau",
+     "slug": "carolyn-l-brosseau"
+    },
+    {
+     "name": "Wayne G. Granquist",
+     "slug": "wayne-g-granquist",
+     "ballot_name": "Wayne G. Granquist"
+    },
+    {
+     "name": "William Hoyt",
+     "slug": "william-hoyt",
+     "ballot_name": "William \"Bill\" Hoyt"
+    },
+    {
+     "name": "Donna Taranko-Moulton",
+     "slug": "donna-taranko-moulton"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "weston-vt/2024-11-05/general",
+  "contest_id": "weston-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Weston Justice of the Peace Election 2024-11-05",
+  "filename": "weston-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 5,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): certifies the November 5, 2024 election of five justices of the peace for Weston: Marisa Bolognese, Carolyn L. Brosseau, Wayne G. Granquist, William 'Bill' Hoyt, and Donna Taranko-Moulton"
+   }
+  ],
+  "header": "# Town of Weston -- justice of the peace election (VT municipal batch 27); issue #163 (VT master tracking)."
+ }
+}

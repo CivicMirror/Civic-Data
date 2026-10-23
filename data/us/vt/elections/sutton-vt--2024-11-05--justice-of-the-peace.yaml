@@ -1,0 +1,29 @@
+# Town of Sutton -- justice of the peace election (VT municipal batch 23); issue #163 (VT master tracking).
+id: sutton-vt/2024-11-05/general
+name: Town of Sutton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: sutton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:sutton/government
+  office_id: sutton-vt/justice-of-the-peace
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/5a249435-98ad-5884-a6a7-74fc9134af36
+  - ocd-person/60710059-97c7-5bbf-9c72-79b5eee6be37
+  - ocd-person/3ce98ee9-de49-5ca9-acaa-00935c943c18
+  result_status: official
+  winners:
+  - person_id: ocd-person/5a249435-98ad-5884-a6a7-74fc9134af36
+    name: Adam Bruggeman
+  - person_id: ocd-person/60710059-97c7-5bbf-9c72-79b5eee6be37
+    name: Dianna Simpson
+  - person_id: ocd-person/3ce98ee9-de49-5ca9-acaa-00935c943c18
+    name: Chip Devenger
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names three
+    winners for Sutton''s three justice of the peace seats'
+  retrieved: '2026-10-20'

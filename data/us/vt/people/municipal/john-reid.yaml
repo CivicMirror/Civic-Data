@@ -1,0 +1,18 @@
+# Town of Woodbury municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/59cd9bef-e573-5675-b2da-53f7db2d1ad6
+name: John Reid
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of auditors'
+  retrieved: '2026-10-21'
+- url: https://woodburyvt.org/directory
+  note: 'Town of Woodbury, Directory page (live): Auditors Jonah Meacham (to 2027),
+    John Reid (Chair, to 2028), and Susan Martin (to 2029), labeled Elected'
+  retrieved: '2026-10-21'

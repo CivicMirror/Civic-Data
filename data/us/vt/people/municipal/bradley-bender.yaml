@@ -1,0 +1,38 @@
+# Town of Danby municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/5feea16c-8623-5d68-86c9-897dce28b897
+name: Bradley J. Bender
+identifiers: []
+candidacies:
+- contest_id: danby-vt/2024-11-05/justice-of-the-peace
+  election_id: danby-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:danby/government
+  office_id: danby-vt/justice-of-the-peace
+  party: null
+  ballot_name: Bradley J. Bender
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.danbyvt.org/_files/ugd/f9b078_998234b13f6048af95a8694db8088898.pdf
+  note: 'Town of Danby, Annual Report 2025 (danbyvt.org): the ''TOWN OFFICERS 2025''
+    roster and the Selectboard''s own minutes (January-March 2026) seat five members:
+    Bradley J. Bender (Chairman), Greg Heaton, Kenneth Abbott Jr., Steve Haines, and
+    Tom Fuller Jr. The Secretary of State directory (June 5, 2026) publishes only
+    Heaton for Danby and styles him Chairman; the town''s minutes show Bender chairing,
+    and the directory entry is stale in that respect.'
+  retrieved: '2026-10-18'
+- url: https://www.danbyvt.org/_files/ugd/f9b078_998234b13f6048af95a8694db8088898.pdf
+  note: 'Town of Danby, Annual Report 2025 (danbyvt.org): the ''TOWN OFFICERS 2025''
+    roster lists three Trustees of Public Funds: Shelley Taylor (term expiring 2026),
+    Bradley J. Bender (2027), and Hilda Haines (2028); the town''s March 3, 2026 results
+    tally records Taylor re-elected.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Danby justices of
+    the peace: Bradley J. Bender, Zachary Fuller, Daniel Garceau, Terry J. Hosley
+    II, and Collette Yrsha.'
+  retrieved: '2026-10-18'

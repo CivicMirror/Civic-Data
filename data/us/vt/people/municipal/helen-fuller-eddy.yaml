@@ -1,0 +1,24 @@
+# Town of Stratton municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/dd69a24a-2300-5c13-8732-720b042b5605
+name: Helen Fuller Eddy
+identifiers: []
+candidacies:
+- contest_id: stratton-vt/2024-11-05/justice-of-the-peace
+  election_id: stratton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stratton/government
+  office_id: stratton-vt/justice-of-the-peace
+  party: null
+  ballot_name: Helen Fuller Eddy
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Stratton justices of the
+    peace: Patricia Coolidge, Nancy Ferrucci, Lorraine Weeks-Newell, Helen Fuller
+    Eddy, and Diane Niederhauser'
+  retrieved: '2026-10-20'

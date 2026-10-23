@@ -1,0 +1,24 @@
+# Town of Northfield municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/18dad04d-e4c3-583b-bab2-4ba2fdb9170a
+name: Thomas Alsheimer
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of listers of three members on
+    staggered terms'
+  retrieved: '2026-10-19'
+- url: https://www.northfield-vt.gov/board-of-listers
+  note: 'Town of Northfield, Board of Listers page: names only the chair, Thomas Alsheimer'
+  retrieved: '2026-10-19'
+- url: https://www.northfield-vt.gov/_files/ugd/13fb68_7162d3578f974b7cb5dc9de55216c910.pdf
+  note: 'Town of Northfield, 2026 Town Report, Elected Officers table: Thomas Alsheimer
+    (Chair), term to 2027; the other two seats stood at the March 2026 election (a
+    three-year seat and a two-year remainder) and no official source publishes their
+    outcome, so two seats are created without memberships'
+  retrieved: '2026-10-19'

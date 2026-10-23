@@ -1,0 +1,26 @@
+# Town of Marlboro municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/4a93665a-69f2-5115-b3a9-96a7787cf408
+name: Molly Welch
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Marlboro''s three selectboard members
+    as Molly Welch (Chair), Jeffrey Skramstad (Vice Chair), and Kate Kirkwood'
+  retrieved: '2026-10-18'
+- url: https://marlborovt.us/wp-content/uploads/2026/03/Official-Return-of-Votes-3.3.2026-Town-School-Election.pdf
+  note: 'Town of Marlboro, Official Return of Votes, March 3, 2026 town election (certified):
+    Jeff Skramstad was re-elected to the Selectboard in 2026 with 314 votes; town
+    sources print ''Jeff'', and the recorded name is the directory''s full form Jeffrey'
+  retrieved: '2026-10-18'
+- url: https://marlborovt.us/wp-content/uploads/2026/01/Marlboro_2025_Vermont-Municipal-Report.pdf
+  note: 'Town of Marlboro, 2025 Town Report: the ''Elected Officers'' table seats
+    Molly Welch (Chair, to 2028), Jeff Skramstad (to 2029), and Kate Kirkwood (to
+    2027)'
+  retrieved: '2026-10-18'

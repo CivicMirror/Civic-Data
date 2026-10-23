@@ -1,0 +1,30 @@
+# Windham-6 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/7e4a1fa6-a319-576c-862a-f532197b19a7
+name: Emily Carris-Duncan
+identifiers: []
+candidacies:
+- contest_id: vt-house-windham-6/2024-11-05/state-representative
+  election_id: vt-house-windham-6/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:windham-6/legislature
+  office_id: vt-house-windham-6/state-representative
+  party: Democratic
+  ballot_name: Emily Carris-Duncan
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161091
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Windham-6 District'' (district
+    totals): Emily Carris-Duncan (Democratic) 1,316 votes; Pam Baker (Republican)
+    1,062; write-ins 2. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Windham-6 District.'
+  retrieved: '2026-10-17'

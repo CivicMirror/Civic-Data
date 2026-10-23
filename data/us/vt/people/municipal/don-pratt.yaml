@@ -1,0 +1,22 @@
+# Town of Clarendon municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/811b86fa-d626-5a0f-8d8b-a57b0b398b54
+name: Don Pratt
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Clarendon Selectboard members: George
+    Ambrose, Robert Congdon, Michael Klopchin, Don Pratt, and Cash Ruane.'
+  retrieved: '2026-10-18'
+- url: https://www.clarendonvt.gov/category/town-minutes-agenda/
+  note: 'Town of Clarendon official website, Town Minutes & Agenda archive: Selectboard
+    minutes, September-October 2026, seat the same five, with Mike Klopchin as Chair;
+    the March 2026 annual-meeting returns re-elected Klopchin (475 votes, 3-year term)
+    and Ruane (472 votes, 2-year term).'
+  retrieved: '2026-10-18'

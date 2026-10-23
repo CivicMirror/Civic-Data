@@ -1,0 +1,81 @@
+# Vermont general election, November 5, 2024 -- statewide contests
+# are added one office at a time under the build order;
+# issue #163 (VT master tracking).
+id: vt/2024-11-05/general
+name: Vermont 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt/2024-11-05/governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e0ae07cc-feca-5181-a0c7-752cf4509d9e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e0ae07cc-feca-5181-a0c7-752cf4509d9e
+    name: Phil Scott
+- id: vt/2024-11-05/lieutenant-governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/lieutenant-governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5a1a4693-3a27-57ed-a942-9ec0d502510c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5a1a4693-3a27-57ed-a942-9ec0d502510c
+    name: John S. Rodgers
+- id: vt/2024-11-05/secretary-of-state
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/secretary-of-state
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4b1ed935-cd81-5857-bda8-c66d409102d8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4b1ed935-cd81-5857-bda8-c66d409102d8
+    name: Sarah Copeland Hanzas
+- id: vt/2024-11-05/attorney-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/attorney-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/91490526-620b-5fd0-b847-13db063ea337
+  result_status: certified
+  winners:
+  - person_id: ocd-person/91490526-620b-5fd0-b847-13db063ea337
+    name: Charity R. Clark
+- id: vt/2024-11-05/state-treasurer
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/state-treasurer
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ecf3db2f-a9b2-5a44-8558-a5420ae4193a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ecf3db2f-a9b2-5a44-8558-a5420ae4193a
+    name: Mike Pieciak
+- id: vt/2024-11-05/auditor-of-accounts
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/executive
+  office_id: vt/auditor-of-accounts
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d359a6b3-b1ec-5253-8b3d-66d7301c6a5d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d359a6b3-b1ec-5253-8b3d-66d7301c6a5d
+    name: Doug Hoffer
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/elections_results_data/2024_general_election_official_report_canvassing_committee_united_states_vermont_statewide_offices.pdf
+  note: 'Vermont Secretary of State, Elections Division, Official Report of the Canvassing
+    Committee -- United States and Vermont Statewide Offices, General Election, November
+    5, 2024 (canvassed under 17 V.S.A. sections 2368-2371). For Governor: Phil Scott*
+    266,439 votes; Esther Charlestin 79,217; Kevin Hoyt 9,368; June Goodband 4,512;
+    Eli "Poa" Mutino 2,414; write-in 891. The asterisk marks the winner in the report.
+    Party labels are not printed in the canvass report; Scott''s Republican affiliation
+    is as printed in the Elections Division''s Official Returns of Votes for the same
+    election. The 2024 winners took office at the January 2025 inauguration; the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-16'

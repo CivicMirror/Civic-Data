@@ -1,0 +1,44 @@
+# Town of Barnet -- justice of the peace election (VT municipal batch 2); issue #163 (VT master tracking).
+id: barnet-vt/2024-11-05/general
+name: Town of Barnet Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: barnet-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:barnet/government
+  office_id: barnet-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/43d6f123-0947-5541-b666-6f594ae60326
+  - ocd-person/cdf90457-33cf-5954-90c3-7112dc242bac
+  - ocd-person/53f6021b-3e6f-5e67-80b7-90cddb7d9e11
+  - ocd-person/6c053ec4-4bdf-5a67-9bf8-0f6f820e6ec8
+  - ocd-person/15cd7ffd-56cb-5f60-8193-6936cfa0d69b
+  - ocd-person/652f5989-2105-57e4-93d3-a10e44f5d9db
+  - ocd-person/07010328-6db0-5adf-a629-d49d2ab7db51
+  result_status: official
+  winners:
+  - person_id: ocd-person/43d6f123-0947-5541-b666-6f594ae60326
+    name: Dennis McLam
+  - person_id: ocd-person/cdf90457-33cf-5954-90c3-7112dc242bac
+    name: Maurice Roberts
+  - person_id: ocd-person/53f6021b-3e6f-5e67-80b7-90cddb7d9e11
+    name: Rebecca Boardman
+  - person_id: ocd-person/6c053ec4-4bdf-5a67-9bf8-0f6f820e6ec8
+    name: Shellie Samuels
+  - person_id: ocd-person/15cd7ffd-56cb-5f60-8193-6936cfa0d69b
+    name: Stanley Robinson
+  - person_id: ocd-person/652f5989-2105-57e4-93d3-a10e44f5d9db
+    name: Susan Coppenrath
+  - person_id: ocd-person/07010328-6db0-5adf-a629-d49d2ab7db51
+    name: William Graves
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Barnet justices
+    of the peace for the 2025-2026 term (Shellie Samuels, William Graves, Susan Coppenrath,
+    Stanley Robinson, Rebecca Boardman, Dennis McLam, Maurice Roberts); they are the
+    winners of the November 5, 2024 election for the office. The listing publishes
+    no vote totals and no party designations for justices of the peace.'
+  retrieved: '2026-10-17'

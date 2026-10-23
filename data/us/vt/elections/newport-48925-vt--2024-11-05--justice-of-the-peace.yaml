@@ -1,0 +1,49 @@
+# Town of Newport -- justice of the peace election (VT municipal batch 16); issue #163 (VT master tracking).
+id: newport-48925-vt/2024-11-05/general
+name: Town of Newport Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: newport-48925-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:newport-48925/government
+  office_id: newport-48925-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/b26b490b-1915-5dc5-b3a2-0b06af4770df
+  - ocd-person/2064b38f-af37-5849-98cd-13b13353bea5
+  - ocd-person/7f534d52-dc84-5bdf-af01-606d0821dc93
+  - ocd-person/c027f64d-c97f-5907-a381-e019fe654cb4
+  - ocd-person/89bcf861-6346-56cb-953c-9b93c4b6c9a5
+  - ocd-person/8f0fed92-d2ac-52f3-965b-4b0b6f854204
+  - ocd-person/fbc6546c-fa1f-5d09-a445-3efc59ee5dee
+  result_status: official
+  winners:
+  - person_id: ocd-person/b26b490b-1915-5dc5-b3a2-0b06af4770df
+    name: Jim Hilliker
+  - person_id: ocd-person/2064b38f-af37-5849-98cd-13b13353bea5
+    name: Linda Waterman
+  - person_id: ocd-person/7f534d52-dc84-5bdf-af01-606d0821dc93
+    name: Maureen McGuire
+  - person_id: ocd-person/c027f64d-c97f-5907-a381-e019fe654cb4
+    name: Robert Hilliker
+  - person_id: ocd-person/89bcf861-6346-56cb-953c-9b93c4b6c9a5
+    name: Stephen Lowell
+  - person_id: ocd-person/8f0fed92-d2ac-52f3-965b-4b0b6f854204
+    name: Steve Edgerley
+  - person_id: ocd-person/fbc6546c-fa1f-5d09-a445-3efc59ee5dee
+    name: William Bursey
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Town of Newport justices
+    of the peace elected November 5, 2024: Stephen Lowell, Jim Hilliker, Robert Hilliker,
+    Linda Waterman, Maureen McGuire, Steve Edgerley, and William Bursey. The town''s
+    2024 annual report names six of them, omitting Bursey; the listing governs. The
+    listing publishes no vote totals or party labels and none are recorded'
+  retrieved: '2026-10-18'
+- url: https://townofnewport.org/wp-content/uploads/2025/03/ANNUAL-REPORT-2024.pdf
+  note: 'Town of Newport, 2024 Annual Report, ''Town Officers'' roster: names justices
+    of the peace Stephen Lowell, Jim Hilliker, Linda Waterman, Robert Hilliker, Steve
+    Edgerley, and Maureen McGuire'
+  retrieved: '2026-10-18'

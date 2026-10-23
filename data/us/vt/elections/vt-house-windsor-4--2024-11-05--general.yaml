@@ -1,0 +1,29 @@
+# Windsor-4 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-windsor-4/2024-11-05/general
+name: Windsor-4 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-windsor-4/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:windsor-4/legislature
+  office_id: vt-house-windsor-4/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/431ac59c-d55b-5d13-9cbc-2e6102017b6e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/431ac59c-d55b-5d13-9cbc-2e6102017b6e
+    name: Heather Surprenant
+sources:
+- url: https://electionarchive.vermont.gov/contest/161094
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Windsor-4 District'' (district
+    totals): Heather Surprenant (Democratic) 2,050 votes; write-ins 94. The contest
+    page''s cited official source is the Secretary of State''s ''November 5, 2024
+    General Official Results.pdf''. State representatives serve two-year terms; the
+    November 3, 2026 general election decides the next term. Heather Surprenant resigned
+    the seat in September 2025 (the House directory records September 29, 2025). Governor
+    Phil Scott appointed Michael Hoyt to fill the vacancy, effective December 2, 2025.'
+  retrieved: '2026-10-17'

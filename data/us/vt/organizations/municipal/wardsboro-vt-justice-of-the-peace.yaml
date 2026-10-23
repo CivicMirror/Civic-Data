@@ -1,0 +1,23 @@
+# Town of Wardsboro municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-organization/d09cc1a8-f9f2-5c79-99e9-c9b50f90c4f8
+name: Town of Wardsboro Justices of the Peace
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wardsboro/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: wardsboro-vt/justice-of-the-peace
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Wardsboro justices of the
+    peace: Ken Brace, Nancy Clark Dawson, Nancy Meinhard, Cherie Keeler Moran, and
+    George Wilson'
+  retrieved: '2026-10-20'
+- url: https://wardsborovt.gov/wp-content/uploads/2026/02/Wardsboro-2026-Annual-Town-Report.pdf
+  note: 'Town of Wardsboro, 2026 Annual Town Report, ''Elected Town Officials'' list:
+    the town''s own list names only Dawson, Meinhard, and Moran, with ''2 vacancies''
+    -- Brace and Wilson have left the office, so only the three surviving winners
+    are seated (departed-winner pattern). Dawson is also a cemetery commissioner;
+    one record carries both memberships'
+  retrieved: '2026-10-20'

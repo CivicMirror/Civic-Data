@@ -1,0 +1,21 @@
+# Town of Thetford municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/575c06b8-3f0c-558e-bd5b-106228304966
+name: Barbara Harrington
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect three listers on staggered three-year
+    terms'
+  retrieved: '2026-10-20'
+- url: https://www.thetfordvt.gov
+  note: 'Town of Thetford, ''Elected and Appointed Officers'' roster (updated September
+    22, 2026; town website): names Sean Boyce (term to 2027), Sue Howard (printed
+    as expiring 2026 -- her seat stood at the March 2026 meeting and the updated September
+    roster still presents her as a sitting lister), and Barbara Harrington (to 2028)'
+  retrieved: '2026-10-20'

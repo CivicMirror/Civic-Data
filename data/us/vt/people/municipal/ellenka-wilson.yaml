@@ -1,0 +1,41 @@
+# Town of Townshend municipal roster backfill -- Vermont
+# municipal fan-out batch 23; issue #163 (VT master tracking).
+id: ocd-person/fdd2aa13-a446-5380-a34d-3ef9a50228ad
+name: Ellenka Wilson
+identifiers: []
+candidacies:
+- contest_id: townshend-vt/2024-11-05/justice-of-the-peace
+  election_id: townshend-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:townshend/government
+  office_id: townshend-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ellenka Wilson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town clerk; Townshend elects its clerk
+    to one-year terms'
+  retrieved: '2026-10-20'
+- url: https://www.townshendvt.gov/fileadmin/files/Boards_and_Committees/Selectboard/Town_Meeting/2026_Town_meeting_minutes_-_signed.pdf
+  note: 'Town of Townshend, signed minutes of the annual town meeting of March 3,
+    2026 (town website): Ellenka Wilson was elected Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Ellenka Wilson
+    as Townshend''s Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): names Ellenka Wilson as Townshend''s Town Clerk'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Townshend justices of
+    the peace: Elizabeth Brown, Alene ''Allie'' Evans, Kathleen ''Kathy'' Greve, Barbara
+    Guerrero, Constance ''Connie'' Holt, Catherine ''Katie'' Marrow, and Ellenka Wilson'
+  retrieved: '2026-10-20'

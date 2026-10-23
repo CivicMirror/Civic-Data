@@ -1,0 +1,42 @@
+{
+  "county": "grand-isle",
+  "name": "Grand Isle County",
+  "dept_url": "https://prosecutors.vermont.gov/offices/grand-isle",
+  "dept_sa": "Douglas DiSabito",
+  "dept_sheriff": "Ray Allen",
+  "offices": {
+    "states-attorney": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/158038",
+      "candidates": [
+        {"name": "Douglas Disabito", "party": "Democratic/Republican", "votes": 3425, "winner": true}
+      ],
+      "write_ins": 22
+    },
+    "sheriff": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157898",
+      "candidates": [
+        {"name": "Ray C. Allen", "party": "Democratic/Republican", "votes": 3503, "winner": true}
+      ],
+      "write_ins": 36
+    },
+    "assistant-judge": {
+      "election": "2022",
+      "db_url": "https://electionarchive.vermont.gov/contest/157850",
+      "vote_for": 2,
+      "candidates": [
+        {"name": "Sherri Potvin", "party": "Democratic", "votes": 2683, "winner": true},
+        {"name": "Joanne R. Batchelder", "party": "Republican", "votes": 2345, "winner": true}
+      ],
+      "write_ins": 17
+    },
+    "high-bailiff": {
+      "election": "2024",
+      "db_url": "https://electionarchive.vermont.gov/contest/160979",
+      "candidates": [],
+      "write_ins": 434,
+      "no_candidates": true
+    }
+  }
+}

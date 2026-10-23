@@ -1,0 +1,22 @@
+# Town of Shrewsbury municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/c3647ae6-8d07-54bb-816c-226fbd1b2c32
+name: Marc Cimonetti
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Shrewsbury''s three selectboard members:
+    Marc Cimonetti (the directory''s ''Cimonette'' is a misprint -- its own email
+    for him reads mcimonetti), Aaron Korzun (Chairman), and Francis Wyatt'
+  retrieved: '2026-10-19'
+- url: https://shrewsburyvt.org
+  note: 'Town of Shrewsbury, published results of the March 3, 2026 annual meeting
+    (Australian ballot): Francis Wyatt was re-elected with 154 votes; Marc Cimonetti''s
+    term runs to 2028 and Aaron Korzun''s to 2027'
+  retrieved: '2026-10-19'

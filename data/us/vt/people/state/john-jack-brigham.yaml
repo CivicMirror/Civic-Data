@@ -1,0 +1,35 @@
+# Franklin-8 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/d351e830-660f-58d4-a8e8-3e61ced2d12d
+name: John "Jack" Brigham
+identifiers: []
+candidacies:
+- contest_id: st-albans-61750-vt/2024-11-05/justice-of-the-peace
+  election_id: st-albans-61750-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-albans-61750/government
+  office_id: st-albans-61750-vt/justice-of-the-peace
+  party: null
+  ballot_name: John "Jack" Brigham
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-appoints-jack-brigham-house-representatives
+  note: 'Office of Governor Phil Scott, press release (February 20, 2026), ''Governor
+    Phil Scott Appoints Jack Brigham to House of Representatives'': the Governor appointed
+    John (Jack) Brigham of St. Albans Town to fill the vacant Franklin-8 seat, replacing
+    Casey Toof, who resigned in January; the appointment is effective immediately.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    marks Casey Toof ''Resigned Jan. 16, 2026'' and lists Jack Brigham as the Franklin-8
+    representative.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists John "Jack" Brigham among the
+    Town of St. Albans''s fifteen justices of the peace, elected November 5, 2024
+    (municipal batch 22, issue #163).'
+  retrieved: '2026-10-19'

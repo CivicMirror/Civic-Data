@@ -1,0 +1,58 @@
+{
+ "district_slug": "addison-northwest",
+ "district_name": "Addison Northwest School District",
+ "jurisdiction_sources": [
+  {
+   "url": "https://legislature.vermont.gov/statutes/section/16/010/00603",
+   "note": "16 V.S.A. section 603(a) inventory: the Addison Northwest Supervisory District's sole district is the Addison Northwest School District (unified union; member towns Addison, Ferrisburgh, Panton, Vergennes, Waltham).",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "url": "https://www.anwsd.org",
+   "note": "Addison Northwest School District (official district website).",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "board": {
+  "org_name": "Addison Northwest School Board",
+  "sources": [
+   {
+    "url": "https://pantonvt.gov/wp-content/uploads/sites/52/2026/08/2025-Town-Report.pdf",
+    "note": "Addison Northwest elects its directors proportional-to-town (16 V.S.A. section 730(a)(1)): each town elects its own allocated director(s) on its own ballot -- the Town of Panton 2025 Town Report (published 2026) lists a single 'Addison Northwest School District Board Representative' among the town's elected officers. Seat counts confirmed from town sources: Vergennes 4, Panton 1, Waltham 1; the Addison and Ferrisburgh allocations could not be confirmed from an official source, so no posts are modeled for those towns yet.",
+    "retrieved": "2026-10-22"
+   }
+  ]
+ },
+ "posts": [
+  {
+   "key": "school-director-vergennes",
+   "title": "School Director - Vergennes",
+   "seats": 4
+  },
+  {
+   "key": "school-director-panton",
+   "title": "School Director - Panton",
+   "seats": 1
+  },
+  {
+   "key": "school-director-waltham",
+   "title": "School Director - Waltham",
+   "seats": 1
+  }
+ ],
+ "directors": [
+  {
+   "name": "Martha DeGraaf",
+   "slug": "martha-degraaf",
+   "existing_person_id": "ocd-person/24f0ff68-dda3-542c-a723-6b1277ce4734",
+   "post": "school-director-panton",
+   "sources": [
+    {
+     "url": "https://pantonvt.gov/wp-content/uploads/sites/52/2026/08/2025-Town-Report.pdf",
+     "note": "Town of Panton 2025 Town Report (published 2026): 'Addison Northwest School District Board Representative -- Martha DeGraaf -- 2028 (3-year term)'.",
+     "retrieved": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

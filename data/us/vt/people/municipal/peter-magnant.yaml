@@ -1,0 +1,37 @@
+# Town of Franklin municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/66dd94a6-5e0e-545d-a07c-f05bbeac46f9
+name: Peter Magnant
+identifiers: []
+candidacies:
+- contest_id: franklin-vt/2024-11-05/justice-of-the-peace
+  election_id: franklin-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:franklin/government
+  office_id: franklin-vt/justice-of-the-peace
+  party: null
+  ballot_name: Peter Magnant
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.franklinvermont.org
+  note: 'Town of Franklin official website (franklinvermont.org), minutes of the March
+    3, 2026 annual town meeting: the meeting elected five Selectboard members by Australian
+    ballot: Peter Magnant, Brooks Sturtevant, Yvon Dandurand, Dave Bennion, and Justin
+    Rainville. DIVERGENCE: the June 2026 SOS directory and the factory carry Michael
+    Grant and Jay Hartman in place of Dandurand and Magnant -- the directory''s Franklin
+    entry is stale and the town''s own certified meeting record governs.'
+  retrieved: '2026-10-18'
+- url: https://www.franklinvermont.org
+  note: 'Town of Franklin official website (franklinvermont.org), minutes of the March
+    3, 2026 annual town meeting: the meeting elected Peter Magnant Moderator; the
+    incumbent, Eric Paradee, lost the March 2026 floor election and is not seated.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Franklin justices
+    of the peace: Pauline Gadbois, Kimberly Gates Maynard, Peter Magnant, George Godin,
+    and Matthew Rainville.'
+  retrieved: '2026-10-18'

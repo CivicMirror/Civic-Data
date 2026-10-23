@@ -1,0 +1,28 @@
+# Town of Berkshire municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/d6f4e569-516a-580d-8a6a-69d261e82236
+name: Ryan Roy
+identifiers: []
+candidacies:
+- contest_id: berkshire-vt/2024-11-05/justice-of-the-peace
+  election_id: berkshire-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:berkshire/government
+  office_id: berkshire-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ryan Roy
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists six Berkshire justices
+    of the peace: Jerod Adams, Trish Adams, Meghan Corrigan, Stacy Gregoire, Marilyn
+    "Lyn" Lauffer, and Ryan Roy.'
+  retrieved: '2026-10-18'
+- url: https://www.berkshirevt.com/town-officers.html
+  note: 'Town of Berkshire official website, ''Town Officers'' page: lists the same
+    six justices of the peace.'
+  retrieved: '2026-10-18'

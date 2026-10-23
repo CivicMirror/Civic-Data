@@ -1,0 +1,37 @@
+# Town of Wells -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: wells-vt/2024-11-05/general
+name: Town of Wells Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: wells-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wells/government
+  office_id: wells-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/5e1af7ed-84c5-52ce-93d6-768064b836b5
+  - ocd-person/ed2665b6-6dc7-53e6-a797-a85ab9d6a0f1
+  - ocd-person/956f6461-1a5d-5abb-bbcc-617f5dd374ae
+  - ocd-person/b6eb1209-52ab-50ee-8abf-eef4a3f2431f
+  - ocd-person/b57e52b6-f1d3-56f0-9e70-fd42ff80587a
+  result_status: official
+  winners:
+  - person_id: ocd-person/5e1af7ed-84c5-52ce-93d6-768064b836b5
+    name: Cheryl Woodruff
+  - person_id: ocd-person/ed2665b6-6dc7-53e6-a797-a85ab9d6a0f1
+    name: Jerry Stein
+  - person_id: ocd-person/956f6461-1a5d-5abb-bbcc-617f5dd374ae
+    name: Michelle Bates
+  - person_id: ocd-person/b6eb1209-52ab-50ee-8abf-eef4a3f2431f
+    name: Victoria Angis
+  - person_id: ocd-person/b57e52b6-f1d3-56f0-9e70-fd42ff80587a
+    name: William Steinmetz
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the five winners of Wells''s
+    November 5, 2024 justice of the peace election (vote for five): Michelle Bates,
+    William Steinmetz, Cheryl Woodruff, Jerry Stein, and Victoria Angis. All five
+    remain in office'
+  retrieved: '2026-10-20'

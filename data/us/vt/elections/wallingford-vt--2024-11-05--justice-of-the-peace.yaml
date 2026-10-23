@@ -1,0 +1,55 @@
+# Town of Wallingford -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: wallingford-vt/2024-11-05/general
+name: Town of Wallingford Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: wallingford-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wallingford/government
+  office_id: wallingford-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/6e73c06d-d2c9-5f53-b6ee-02b469f4e8c0
+  - ocd-person/fa2f548d-69d9-5208-8ca6-a2ca3d2dbdc7
+  - ocd-person/72fd9120-9992-5713-b4e4-a8fa6868fb73
+  - ocd-person/8ae8d45a-5ed8-595c-ad6c-ca989fc5c7aa
+  - ocd-person/7b0b3af7-2c8c-5822-acc9-237245ce10c0
+  - ocd-person/def69f7f-16b4-55c3-a7b2-59ef51c647fa
+  - ocd-person/02bea131-f02e-57c6-8b07-c3114f6993f8
+  - ocd-person/8745cb18-c868-534c-ac05-3b30ac2bdbcb
+  - ocd-person/078db26a-2b1e-5cca-876d-186f3c80b76b
+  - ocd-person/0061f883-7da0-558a-87f3-ddeb18b332e4
+  result_status: official
+  winners:
+  - person_id: ocd-person/6e73c06d-d2c9-5f53-b6ee-02b469f4e8c0
+    name: Anthony Petrossi
+  - person_id: ocd-person/fa2f548d-69d9-5208-8ca6-a2ca3d2dbdc7
+    name: Curtis Lidstone
+  - person_id: ocd-person/72fd9120-9992-5713-b4e4-a8fa6868fb73
+    name: Gary Fredette
+  - person_id: ocd-person/8ae8d45a-5ed8-595c-ad6c-ca989fc5c7aa
+    name: Maureen Duchesne
+  - person_id: ocd-person/7b0b3af7-2c8c-5822-acc9-237245ce10c0
+    name: Michael Luzader
+  - person_id: ocd-person/def69f7f-16b4-55c3-a7b2-59ef51c647fa
+    name: Nanette Dubin
+  - person_id: ocd-person/02bea131-f02e-57c6-8b07-c3114f6993f8
+    name: Nikolaus Houghton
+  - person_id: ocd-person/8745cb18-c868-534c-ac05-3b30ac2bdbcb
+    name: Patricia Pranger
+  - person_id: ocd-person/078db26a-2b1e-5cca-876d-186f3c80b76b
+    name: Sandy Eddy
+  - person_id: ocd-person/0061f883-7da0-558a-87f3-ddeb18b332e4
+    name: Wendy Savery
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names ten winners
+    for Wallingford''s ten justice of the peace seats'
+  retrieved: '2026-10-20'
+- url: https://www.wallingfordvt.com/government/elected-appointed-officers/
+  note: 'Town of Wallingford, Elected and Appointed Officers page (wallingfordvt.com):
+    lists all ten justices of the peace in short forms (Tony Petrossi, Nik Houghton,
+    Nan Dubin); the certified listing''s full forms govern'
+  retrieved: '2026-10-20'

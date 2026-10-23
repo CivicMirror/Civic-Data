@@ -1,0 +1,25 @@
+# Town of Addison municipal roster backfill -- Vermont
+# municipal fan-out batch 1; issue #163 (VT master tracking).
+id: ocd-person/443f234e-5a1d-55e4-b6b1-eae2590d39e7
+name: Jennifer Barrett
+identifiers: []
+candidacies:
+- contest_id: addison-vt/2024-11-05/justice-of-the-peace
+  election_id: addison-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:addison/government
+  office_id: addison-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jennifer Barrett
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (last updated December 4, 2025), Addison (Addison County):
+    Tom Fisher, William Munoff, Starr Phillips, Jane Spencer, Jennifer Barrett, Vincent
+    Paradis, Jason Sampson. The listing presents the justices elected November 5,
+    2024.'
+  retrieved: '2026-10-17'

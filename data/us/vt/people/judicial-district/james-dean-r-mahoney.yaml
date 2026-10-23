@@ -1,0 +1,43 @@
+# Lamoille Probate District -- VT probate tier (jurisdiction + post + holder + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/6ac708cb-2f07-57de-b131-61872ff23a6b
+name: James Dean R. Mahoney
+identifiers: []
+candidacies:
+- contest_id: lamoille-vt-judicial-district/2022-11-08/judge-of-probate
+  election_id: lamoille-vt-judicial-district/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/judicial_district:lamoille/judiciary
+  office_id: lamoille-vt-judicial-district/judge-of-probate
+  party: Independent
+  ballot_name: James Dean R. Mahoney
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_probate
+sources:
+- url: https://electionarchive.vermont.gov/contest/157883
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Probate Judge, Lamoille County'' (county totals): James
+    Dean R. Mahoney (Independent) 8,991 votes; write-ins 58. The contest page''s cited
+    official source is the official return vt-2022_11_08_General_ALL.pdf. Probate
+    judges serve four-year terms beginning February 1 after the election (Vermont
+    Constitution, Chapter II, sections 50-51); the November 3, 2026 general election
+    decides the next term. The court''s own published notices style the judge ''James
+    R. Dean Mahoney''; the ballot form printed in the official returns and the Elections
+    Database is used here.'
+  retrieved: '2026-10-17'
+- url: https://www.vtcourts.gov/court-locations/lamoille-probate-division
+  note: 'Vermont Judiciary, Lamoille Probate Division court page, Court Staff list:
+    names James Dean R. Mahoney as the division''s Superior Judge -- probate judges
+    sit as judges of the Superior Court''s Probate Division -- the sitting holder
+    as of the retrieval date.'
+  retrieved: '2026-10-17'
+- url: https://vtassistantjudges.org/counties/lamoille-vt/
+  note: 'Vermont Assistant Judges Association, Lamoille County courthouse page: lists
+    ''PROBATE JUDGE Hon. James R. Dean Mahoney'' among the county officials.'
+  retrieved: '2026-10-17'
+- url: https://www.sevendaysvt.com/legal-notices/state-of-vermont-superior-court-probate-division-lamoille-unit-docket-no-24-pr-04684-41916989
+  note: 'Vermont Superior Court, Probate Division, Lamoille Unit, published legal
+    notice (September 25, 2024): signed ''Probate Judge, James R Dean Mahoney''.'
+  retrieved: '2026-10-17'

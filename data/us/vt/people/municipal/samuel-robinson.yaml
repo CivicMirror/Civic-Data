@@ -1,0 +1,23 @@
+# Town of South Hero municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/01e92b78-f079-5d51-80cc-9af60f9dcd38
+name: Samuel Robinson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://southherovt.org/wp-content/uploads/2026/02/Town-Election-Results-March-2025.pdf
+  note: 'Town of South Hero, Official Return of Votes, March 4, 2025 annual meeting
+    (688 voters; certified by Town Clerk Naomi King): James G. Robinson was elected
+    Cemetery Commissioner for three years with 635 votes'
+  retrieved: '2026-10-19'
+- url: https://southherovt.org/town-report/
+  note: 'Town of South Hero, Official Return of Votes, March 3, 2026 annual meeting
+    (526 voters; certified by Town Clerk Naomi S. King), published on the town website
+    southherovt.org: Samuel Robinson was elected Cemetery Commissioner for three years
+    with 483 votes. One seat is filled each year on three-year terms, fixing the commission
+    at three seats; the third seat''s holder is published nowhere'
+  retrieved: '2026-10-19'

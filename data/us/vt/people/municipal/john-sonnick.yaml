@@ -1,0 +1,20 @@
+# Town of Essex municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/36122195-32ba-55f7-816c-02738ff8ebe1
+name: John Sonnick
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/117
+  note: 'Charter of the Town of Essex, 24 Appendix V.S.A. ch. 117 (official text,
+    Vermont General Assembly): section 201 lists the Moderator among the town''s elected
+    officers.'
+  retrieved: '2026-10-18'
+- url: https://www.essexvt.gov/DocumentCenter/View/16344/Election-Official-results-3-3-26
+  note: 'Town of Essex OFFICIAL RESULTS, March 3, 2026 election (essexvt.gov): John
+    Sonnick was elected Moderator with 1,286 votes on March 3, 2026.'
+  retrieved: '2026-10-18'

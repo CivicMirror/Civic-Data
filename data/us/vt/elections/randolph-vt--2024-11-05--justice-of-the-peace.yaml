@@ -1,0 +1,44 @@
+# Town of Randolph -- justice of the peace election (VT municipal batch 19); issue #163 (VT master tracking).
+id: randolph-vt/2024-11-05/general
+name: Town of Randolph Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: randolph-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:randolph/government
+  office_id: randolph-vt/justice-of-the-peace
+  vote_for: 8
+  candidate_ids:
+  - ocd-person/1d5c28ea-836f-5b11-af2b-c7bdf48415e1
+  - ocd-person/16d7a83b-0bd9-5a79-a6f0-c64a713287cd
+  - ocd-person/90f15577-e112-5d57-adb7-384569953008
+  - ocd-person/a0b14cf4-d65e-552a-ad85-3c3b28cf9fed
+  - ocd-person/6ac0b710-1153-5fb9-b0ca-6c0e73009ad5
+  - ocd-person/12495996-0c49-535c-b6f4-48b955894f30
+  - ocd-person/f8670745-be2c-54a7-8544-f4e6fc4d35ac
+  - ocd-person/ea13fbf1-f503-5000-9e83-ece4eb6ce921
+  result_status: official
+  winners:
+  - person_id: ocd-person/1d5c28ea-836f-5b11-af2b-c7bdf48415e1
+    name: Ceciele Smith
+  - person_id: ocd-person/16d7a83b-0bd9-5a79-a6f0-c64a713287cd
+    name: Dennis Brown
+  - person_id: ocd-person/90f15577-e112-5d57-adb7-384569953008
+    name: Emery Mattheis
+  - person_id: ocd-person/a0b14cf4-d65e-552a-ad85-3c3b28cf9fed
+    name: Kristen Gage
+  - person_id: ocd-person/6ac0b710-1153-5fb9-b0ca-6c0e73009ad5
+    name: Kristin Chandler
+  - person_id: ocd-person/12495996-0c49-535c-b6f4-48b955894f30
+    name: Peter Nowlan
+  - person_id: ocd-person/f8670745-be2c-54a7-8544-f4e6fc4d35ac
+    name: Stephen Webster
+  - person_id: ocd-person/ea13fbf1-f503-5000-9e83-ece4eb6ce921
+    name: Thomas Harty
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names eight
+    winners for Randolph''s eight justice of the peace seats'
+  retrieved: '2026-10-19'

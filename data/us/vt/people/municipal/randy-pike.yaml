@@ -1,0 +1,27 @@
+# Town of Halifax municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/b6850d76-6e36-5e9c-b225-188b0f0be34a
+name: Randy Pike
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://halifaxvt.com/wp-content/uploads/2026/02/Halifax-VT-TOWN-MEETING-BOOK-FY2025-Final-20260202.pdf
+  note: 'Town of Halifax FY2025 Town Meeting Book (halifaxvt.com): the ELECTED OFFICERS
+    table seats Edee Edwards (Chair) to 2028, Rhonda Ashcraft to 2027, and Lori Marchegiani
+    to 2027.'
+  retrieved: '2026-10-18'
+- url: https://halifaxvt.com/wp-content/uploads/2026/03/Official-Return-of-Votes-March-3-2026.pdf
+  note: 'Town of Halifax, Official Return of Votes, March 3, 2026 (halifaxvt.com):
+    the certified March 3, 2026 return re-elects Randy Pike to a three-year term (124
+    votes) and Karen Christofferson to a two-year term (114).'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Halifax''s five selectboard members as
+    Rhonda Ashcraft, Karen Christofferson, Edee Edwards, Lori Marchegiani, and Randy
+    Pike -- concordant.'
+  retrieved: '2026-10-18'

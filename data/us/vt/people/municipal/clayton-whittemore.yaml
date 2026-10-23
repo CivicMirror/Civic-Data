@@ -1,0 +1,22 @@
+# Town of Eden municipal roster backfill -- Vermont
+# municipal fan-out batch 8; issue #163 (VT master tracking).
+id: ocd-person/b0e09b3e-d0df-533c-83b0-f4490048de9d
+name: Clayton Whittemore
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three Eden Selectboard members: Timothy
+    Bullard (Chair), Ricky Morin, and Clayton Whittemore.'
+  retrieved: '2026-10-18'
+- url: https://www.edenvt.org/wp-content/uploads/2026/02/Eden-Town-Report-24-25.pdf
+  note: 'Town of Eden 2024-25 Annual Town Report (edenvt.org): the TOWN OFFICERS table
+    lists Tim Bullard (term to 2028), Ricky Morin (2027), and Clayton Whittemore (2026);
+    the June 2026 directory seats all three after the March 2026 meeting, so Whittemore
+    holds the seat that stood in 2026.'
+  retrieved: '2026-10-18'

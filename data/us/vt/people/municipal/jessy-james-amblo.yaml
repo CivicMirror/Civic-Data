@@ -1,0 +1,16 @@
+# Town of Ferrisburgh municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/97072a7d-f937-5edf-991c-d4a1f4e52841
+name: Jessy James Amblo
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.ferrisburghvt.org/vertical/Sites/{B16C9BC8-6A0C-4814-B183-6F54A75E8A13}/uploads/FERRSIBURGH_2026_ELECTED_AND_APPOINTED_OFFICERS_LIST.pdf
+  note: 'Town of Ferrisburgh, ''2026 Elected & Appointed Officials'' list (ferrisburghvt.org):
+    lists Jessy James Amblo as elected First Constable; no second constable appears
+    anywhere in the town''s list, so no Second Constable post is created.'
+  retrieved: '2026-10-18'

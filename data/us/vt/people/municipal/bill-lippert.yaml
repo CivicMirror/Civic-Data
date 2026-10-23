@@ -1,0 +1,23 @@
+# Hinesburg municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: ocd-person/b2d13458-6783-5cb5-bc12-6c9f47c5b4c3
+name: Bill Lippert
+identifiers: []
+candidacies:
+- contest_id: hinesburg-vt/2024-11-05/justice-of-the-peace
+  election_id: hinesburg-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hinesburg/government
+  office_id: hinesburg-vt/justice-of-the-peace
+  party: null
+  ballot_name: Bill Lippert
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the listing names twelve justices
+    of the peace for Hinesburg'
+  retrieved: '2026-10-18'

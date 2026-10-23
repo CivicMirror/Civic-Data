@@ -1,0 +1,21 @@
+# Town of Plymouth municipal roster backfill -- Vermont
+# municipal fan-out batch 18; issue #163 (VT master tracking).
+id: ocd-organization/83cc8dee-3373-57f1-a733-e7b53d4a5e16
+name: Town of Plymouth Town Clerk
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:plymouth/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: plymouth-vt/town-clerk
+status: active
+sources:
+- url: https://www.plymouthvt.org/town-officers-appointments/
+  note: 'Town of Plymouth, Town Officers / Appointments page (plymouthvt.org): lists
+    ''Town Clerk & Treasurer: Angela Kissell'' among the town''s appointed/hired officers;
+    no clerk appears in the town''s elected-officials table and no clerk race was
+    warned in 2026, so she holds the office by appointment'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Angela Kissell
+    as Plymouth''s Town Clerk'
+  retrieved: '2026-10-19'

@@ -1,0 +1,25 @@
+# Town of Mendon municipal roster backfill -- Vermont
+# municipal fan-out batch 14; issue #163 (VT master tracking).
+id: ocd-person/9edf9763-4edb-5593-a094-7f5f583647fb
+name: Seth Bridge
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Mendon''s three selectboard members as
+    Megan Smith (Chair), Seth Bridge, and Sarah Buxton'
+  retrieved: '2026-10-18'
+- url: https://www.mendonvt.gov/DocumentCenter/View/201/2025-Mendon-Town-Report-PDF
+  note: 'Town of Mendon, 2025 Town Report: the ''Elected Town Officers'' table seats
+    Megan Smith (Chair, to 2028), Sarah Buxton (to 2027), and Seth Bridge (to 2029)'
+  retrieved: '2026-10-18'
+- url: https://www.mendonvt.gov/209/Selectboard
+  note: 'Town of Mendon (official website), Selectboard page: the town''s current
+    Selectboard page seats Seth Bridge as Vice Chair; his three-year seat was the
+    one on the 2026 ballot, where he was the sole printed candidate'
+  retrieved: '2026-10-18'

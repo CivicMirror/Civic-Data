@@ -1,0 +1,36 @@
+# Andover Justice of the Peace election, November 5, 2024;
+# issue #163 (VT master tracking).
+id: andover-vt/2024-11-05/general
+name: Andover 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: andover-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:andover/government
+  office_id: andover-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/513fb734-93e9-573b-941f-422def15972c
+  - ocd-person/d77a32c2-ccee-5496-a385-939c758f076a
+  - ocd-person/c3783c53-6262-5293-9fe2-62a82de25d47
+  - ocd-person/173706e4-5210-57ee-910e-a079c8ed6870
+  - ocd-person/9f8c0d32-6650-52da-a5bd-2f3e8d24345d
+  result_status: official
+  winners:
+  - person_id: ocd-person/513fb734-93e9-573b-941f-422def15972c
+    name: Donna Faturos
+  - person_id: ocd-person/d77a32c2-ccee-5496-a385-939c758f076a
+    name: Jean Petraska
+  - person_id: ocd-person/c3783c53-6262-5293-9fe2-62a82de25d47
+    name: Jonathan Bliss
+  - person_id: ocd-person/173706e4-5210-57ee-910e-a079c8ed6870
+    name: Linda Bargfrede
+  - person_id: ocd-person/9f8c0d32-6650-52da-a5bd-2f3e8d24345d
+    name: Ron Theissen
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: Winners per the Vermont Secretary of State's official '2025-2026 Vermont Justices
+    of the Peace' listing (last updated December 4, 2025). Vote totals and party labels
+    are not published in that listing and are not recorded here.
+  retrieved: '2026-10-17'

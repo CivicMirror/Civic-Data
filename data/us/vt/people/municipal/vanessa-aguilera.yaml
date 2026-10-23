@@ -1,0 +1,21 @@
+# Town of Sheffield municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/f886e6f5-dbca-5775-aacb-ce77e3dc37bd
+name: Vanessa Aguilera
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect auditors (three, staggered terms) unless
+    the office is eliminated'
+  retrieved: '2026-10-19'
+- url: https://sheffieldvt.org
+  note: 'Town of Sheffield, 2025 Annual Report, ''Town Officers'' tables (elected
+    and appointed; terms with expiry years), pp. 4-5: Sarah Warner holds an auditor
+    term to 2027 and Vanessa Aguilera a term to 2028; the third seat''s term expired
+    in 2026 and no outcome is published'
+  retrieved: '2026-10-19'

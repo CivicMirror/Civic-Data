@@ -1,0 +1,71 @@
+# Addison County -- worked example for the VT county tier (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: addison-vt-county/2022-11-08/general
+name: Addison County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: addison-vt-county/2022-11-08/states-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:addison/government
+  office_id: addison-vt-county/states-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0f53cf68-6c62-5c45-82b8-e5bbdb3b23fe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0f53cf68-6c62-5c45-82b8-e5bbdb3b23fe
+    name: Eva P. Vekos
+- id: addison-vt-county/2022-11-08/sheriff
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:addison/government
+  office_id: addison-vt-county/sheriff
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0f267fb3-d4cf-5ce8-a8b0-6d9a0cfa559e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0f267fb3-d4cf-5ce8-a8b0-6d9a0cfa559e
+    name: Michael R. Elmore
+- id: addison-vt-county/2022-11-08/assistant-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:addison/government
+  office_id: addison-vt-county/assistant-judge
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/5432493f-fbdb-5a22-b1f8-ac23561bfe58
+  - ocd-person/d437c81b-9294-5f69-b9d5-460a7e1bfa35
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5432493f-fbdb-5a22-b1f8-ac23561bfe58
+    name: Patricia Ross
+  - person_id: ocd-person/d437c81b-9294-5f69-b9d5-460a7e1bfa35
+    name: Nicole Wilkerson
+sources:
+- url: https://electionarchive.vermont.gov/contest/158032
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Addison
+    County'' (county totals): Eva P. Vekos (Democratic) 9,029 votes; Peter M. Bevere
+    (Independent) 6,546; write-ins 68. The contest page''s cited official source is
+    the official return vt-2022_11_08_General_ALL.pdf. The office serves a four-year
+    term beginning February 1 after the election (Vermont Constitution, Chapter II,
+    section 50); the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-16'
+- url: https://electionarchive.vermont.gov/contest/157892
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Addison County''
+    (county totals): Michael R. Elmore (Democratic/Republican) 8,177 votes; Gerald
+    Grant (Independent) 3,807; Mark A. Stacey (Independent) 3,106; write-ins 138.
+    The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-16'
+- url: https://electionarchive.vermont.gov/elections/view/157844/
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Addison County'' (vote for 2; county
+    totals): Patricia Ross (Democratic) 12,242 votes and Nicole Wilkerson (Democratic)
+    11,685; write-ins 214. Ross and Wilkerson were the only two candidates for the
+    two seats. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-16'

@@ -1,0 +1,29 @@
+# Town of Starksboro municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/56c1c30e-9fa7-5e3e-ae8a-8c03115215f5
+name: Norman Cota
+identifiers: []
+candidacies:
+- contest_id: starksboro-vt/2024-11-05/justice-of-the-peace
+  election_id: starksboro-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:starksboro/government
+  office_id: starksboro-vt/justice-of-the-peace
+  party: null
+  ballot_name: Norman Cota
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://starksborovt.org/sites/default/files/uploads/content/Town%20Meeting/starksboro-election-results-2026.pdf
+  note: 'Town of Starksboro, official results ballot for the annual meeting of March
+    3, 2026 (town website, starksborovt.org): Norman Cota was elected Cemetery Commissioner
+    with 326 votes; the other two seats'' current holders are published nowhere official'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Starksboro justices of
+    the peace: Norman Cota, Margaret ''Peg'' Casey, Luke McCarthy, Laurie Webber,
+    Edward ''Ben'' Campbell, Alan Quittner, and Brittany Peduzzi'
+  retrieved: '2026-10-19'

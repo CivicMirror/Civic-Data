@@ -1,0 +1,49 @@
+# Windsor Senate District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/5a9558bd-bb54-592f-bc91-6849096172b5
+name: Rebecca White
+identifiers: []
+candidacies:
+- contest_id: vt-senate-windsor/2024-11-05/state-senator
+  election_id: vt-senate-windsor/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldu:windsor/legislature
+  office_id: vt-senate-windsor/state-senator
+  party: Democratic
+  ballot_name: Rebecca White
+  status: active
+- contest_id: hartford-vt/2024-11-05/justice-of-the-peace
+  election_id: hartford-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hartford/government
+  office_id: hartford-vt/justice-of-the-peace
+  party: null
+  ballot_name: Rebecca White
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_senate
+sources:
+- url: https://electionarchive.vermont.gov/contest/161112
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Senate, Windsor District'' (district totals): Rebecca
+    White (Democratic) 17,930 votes; Alison H. Clarkson (Democratic) 17,864; Joe Major
+    (Democratic) 16,792; Andrea Murray (Republican) 12,318; Jack Williams (Republican)
+    10,844; Jonathan Gleason (Republican) 10,720; Marc Nemeth (Independent) 2,903;
+    write-ins 118. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State senators serve two-year
+    terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/Senate
+  note: 'Vermont General Assembly, All Senators directory (2025-2026 session): lists
+    the sitting senator(s) for the Windsor District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists Rebecca White first
+    among the Town of Hartford''s fifteen justices of the peace. She is the same
+    Rebecca White who sits for the Windsor District: her General Assembly
+    biography places her in Hartford (grew up in Wilder, lives in White River
+    Junction, and served two terms on the Hartford Selectboard). Her existing
+    person record is reused for the Hartford justice of the peace seat rather
+    than duplicated.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,41 @@
+# Town of Salisbury -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: salisbury-vt/2024-11-05/general
+name: Town of Salisbury Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: salisbury-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:salisbury/government
+  office_id: salisbury-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/163b7ebc-1c11-51c4-a7ad-f7c0fcda1378
+  - ocd-person/4fdfa1b3-3e4d-50f6-b9df-10d772ede76b
+  - ocd-person/e0737a2f-14f3-5b53-addf-b23e539443cd
+  - ocd-person/5c35b5af-4fd5-542b-be32-9aad9cfaf4b6
+  - ocd-person/1f82f414-571f-5d38-9e55-beb6704d1d95
+  - ocd-person/1ff06465-54b3-5949-8234-08deac105e70
+  - ocd-person/c9a7b6fe-22c6-5727-88ba-d0b26835bc11
+  result_status: official
+  winners:
+  - person_id: ocd-person/163b7ebc-1c11-51c4-a7ad-f7c0fcda1378
+    name: Brian Christie
+  - person_id: ocd-person/4fdfa1b3-3e4d-50f6-b9df-10d772ede76b
+    name: David Moats
+  - person_id: ocd-person/e0737a2f-14f3-5b53-addf-b23e539443cd
+    name: Jaclyn Davidson
+  - person_id: ocd-person/5c35b5af-4fd5-542b-be32-9aad9cfaf4b6
+    name: Jeff McDonough
+  - person_id: ocd-person/1f82f414-571f-5d38-9e55-beb6704d1d95
+    name: Jonathon Blake
+  - person_id: ocd-person/1ff06465-54b3-5949-8234-08deac105e70
+    name: Kathryn Schloff
+  - person_id: ocd-person/c9a7b6fe-22c6-5727-88ba-d0b26835bc11
+    name: Susan Scott
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names seven
+    winners for Salisbury''s seven justice of the peace seats'
+  retrieved: '2026-10-19'

@@ -1,0 +1,37 @@
+# Town of Vernon municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/e61a60df-2731-50f0-9a71-f77b96de1259
+name: Jesse Jobin
+identifiers: []
+candidacies:
+- contest_id: vernon-vt/2024-11-05/justice-of-the-peace
+  election_id: vernon-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:vernon/government
+  office_id: vernon-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jesse Jobin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://storage.googleapis.com/juniper-media-library/62/2026/03/2026%20Vernon%20Town%20Meeting%20minutes%20(003).pdf
+  note: 'Town of Vernon, minutes of the annual town meeting of March 2-3, 2026 (signed;
+    town website): Chad Baldwin won the 2026 lister seat; Jesse Jobin''s term runs
+    to 2028. The third seat drew no candidate (''Lister - remaining year - None''
+    on the Warning) and is left without a membership'
+  retrieved: '2026-10-20'
+- url: https://storage.googleapis.com/juniper-media-library/62/2026/03/2026%20Vernon%20Town%20Meeting%20minutes%20(003).pdf
+  note: 'Town of Vernon, minutes of the annual town meeting of March 2-3, 2026 (signed;
+    town website): Jesse Jobin won the First Constable seat on the 2026 ballot'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists ten Vernon justices of the peace:
+    Tim Arsenault, Sue Arsenault, David Emery Sr, Sandra Harris, Robert Miller, Susan
+    Miller, Lynda Starorypinski, Marylynn Scherlin, Jesse Jobin, and Nancy Gassett
+    (the town''s block continues across the listing''s page break; the annual report''s
+    justice table omits Scherlin and styles Robert Miller ''Jr.'', and the certified
+    listing governs)'
+  retrieved: '2026-10-20'

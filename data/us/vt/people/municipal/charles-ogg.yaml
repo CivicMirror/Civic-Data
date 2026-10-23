@@ -1,0 +1,30 @@
+# Town of Chittenden municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/a29753a8-5a27-5792-b06b-63bd994de5fb
+name: Charles Ogg
+identifiers: []
+candidacies:
+- contest_id: chittenden-vt/2024-11-05/justice-of-the-peace
+  election_id: chittenden-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:chittenden/government
+  office_id: chittenden-vt/justice-of-the-peace
+  party: null
+  ballot_name: Charles Ogg
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Chittenden (Rutland
+    County) justices of the peace: Alison Briggs, Katherine Hall, Charles Ogg, Linda
+    Reis, David Sargent, Jeffrey Spaulding, and Bradford White.'
+  retrieved: '2026-10-18'
+- url: https://sites.google.com/townofchittenden.com/chittenden-vt/meeting-documents-reports
+  note: 'Town of Chittenden (Rutland County) official website, Meeting Documents &
+    Reports page (town documents hosted on the town''s Google Drive): the 2025 Chittenden
+    Town Report officers table lists the same seven justices of the peace (2-year
+    terms, February 1, 2025 - January 31, 2027).'
+  retrieved: '2026-10-18'

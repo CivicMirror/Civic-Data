@@ -1,0 +1,27 @@
+# Rutland-9 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-rutland-9/2024-11-05/general
+name: Rutland-9 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-rutland-9/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:rutland-9/legislature
+  office_id: vt-house-rutland-9/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e8841634-b814-57af-91a4-6dc8bdbb97f6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e8841634-b814-57af-91a4-6dc8bdbb97f6
+    name: Todd Nielsen
+sources:
+- url: https://electionarchive.vermont.gov/contest/161066
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Rutland-9 District'' (district
+    totals): Todd Nielsen (Republican) 1,260 votes; Stephanie Zak Jerome (Democratic)
+    1,056; write-ins 0. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

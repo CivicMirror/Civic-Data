@@ -1,0 +1,30 @@
+# Rutland-Windsor House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/0272ff1e-66b4-5735-876a-253b4935269c
+name: Kevin C. Winter
+identifiers: []
+candidacies:
+- contest_id: vt-house-rutland-windsor/2024-11-05/state-representative
+  election_id: vt-house-rutland-windsor/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:rutland-windsor/legislature
+  office_id: vt-house-rutland-windsor/state-representative
+  party: Republican
+  ballot_name: Kevin C. Winter
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161071
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Rutland-Windsor District'' (district
+    totals): Kevin C. Winter (Republican) 1,572 votes; Adrienne Raymond (Democratic)
+    1,153; write-ins 8. The contest page''s cited official source is the Secretary
+    of State''s ''November 5, 2024 General Official Results.pdf''. State representatives
+    serve two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Rutland-Windsor District.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,38 @@
+# Town of Belvidere -- justice of the peace election (VT municipal batch 2); issue #163 (VT master tracking).
+id: belvidere-vt/2024-11-05/general
+name: Town of Belvidere Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: belvidere-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:belvidere/government
+  office_id: belvidere-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/c9a65cf6-4ab1-57f5-858c-1442658b52f6
+  - ocd-person/408cf61a-be21-5e65-ad49-3268166cabc5
+  - ocd-person/ee226a5f-481b-5dca-9fe3-a830623ea3a4
+  - ocd-person/50bf15ff-2e16-545f-9a9e-6ded295a8726
+  - ocd-person/6b37b75c-a4be-52fb-9991-e7232c7e0968
+  result_status: official
+  winners:
+  - person_id: ocd-person/c9a65cf6-4ab1-57f5-858c-1442658b52f6
+    name: Andrew Iwaskiewicz
+  - person_id: ocd-person/408cf61a-be21-5e65-ad49-3268166cabc5
+    name: Cathy Mander-Adams
+  - person_id: ocd-person/ee226a5f-481b-5dca-9fe3-a830623ea3a4
+    name: Stephanie Domina
+  - person_id: ocd-person/50bf15ff-2e16-545f-9a9e-6ded295a8726
+    name: Stephen Brown
+  - person_id: ocd-person/6b37b75c-a4be-52fb-9991-e7232c7e0968
+    name: Thad Tallman
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Belvidere justices
+    of the peace for the 2025-2026 term (Cathy Mander-Adams, Stephanie Domina, Thad
+    Tallman, Stephen Brown, Andrew Iwaskiewicz); they are the winners of the November
+    5, 2024 election for the office. The listing publishes no vote totals and no party
+    designations for justices of the peace.'
+  retrieved: '2026-10-17'

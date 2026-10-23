@@ -1,0 +1,23 @@
+# Town of Waltham municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/d1f4c7b2-fcdf-597e-8aa1-913e846148da
+name: Rhonda Williams
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Anthony Duprey, Don Ross, and Rhonda Williams
+    for Waltham''s three-member board'
+  retrieved: '2026-10-20'
+- url: https://www.walthamvt.org/s/2026-Waltham-Town-Report-final.pdf
+  note: 'Town of Waltham, 2026 Town Report (posted on the town''s Town Meetings &
+    Reports page): the pre-meeting elected-officials table lists Dan Morris (term
+    to 2028) as the third member and Don Ross as Moderator; the June 2026 directory
+    and the post-meeting state give Ross the seat -- Morris departed and Ross took
+    the seat (divergence disclosed on #163)'
+  retrieved: '2026-10-20'

@@ -1,0 +1,29 @@
+# Town of Windsor municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/bf2f1d3a-15cd-5113-9daf-22b8d6370b01
+name: Donna Sweaney
+identifiers: []
+candidacies:
+- contest_id: windsor-vt/2024-11-05/justice-of-the-peace
+  election_id: windsor-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:windsor/government
+  office_id: windsor-vt/justice-of-the-peace
+  party: null
+  ballot_name: Donna Sweaney
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists twelve Windsor justices of the
+    peace: William Ballantyne, Paul Belaski, Marianne N Blake, Janet Farley, Linda
+    Farnsworth, Patricia Crikett French, Steve Giroux, Amy McMullen, David Morin,
+    Sara Morin, Ryan Palmer, and Donna Sweaney'
+  retrieved: '2026-10-21'
+- url: https://windsorvt.org/DocumentCenter/View/847
+  note: 'Town of Windsor, Justices of the Peace list (DocumentCenter/View/847): names
+    the same twelve'
+  retrieved: '2026-10-21'

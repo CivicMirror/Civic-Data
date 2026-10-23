@@ -1,0 +1,26 @@
+# Town of Berlin municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-person/b1ba8490-41f9-55ab-a96a-87e7c9958a40
+name: Brian Divelbliss
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.berlinvt.gov/selectboard
+  note: 'Town of Berlin official website, Selectboard page: lists Jared Felch (Chair),
+    Brian Divelbliss (Vice-Chair), Karla Nuissl (Secretary), Florence "Flo" Smith,
+    and Kris Hayward.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists the same five Berlin Selectboard members.'
+  retrieved: '2026-10-18'
+- url: https://www.berlinvt.gov/s/2026-Town-Official-Results.pdf
+  note: 'Town of Berlin, ''2026 Town Meeting Official Results'' (March 3, 2026): Florence
+    "Flo" Smith (309) won the three-year seat, Kris Hayward (224) won the two-years-remaining
+    seat, and Brian Divelbliss (364) won the one-year seat; the other two seats were
+    not up in 2026.'
+  retrieved: '2026-10-18'

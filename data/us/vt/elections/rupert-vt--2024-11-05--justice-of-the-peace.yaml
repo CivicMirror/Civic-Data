@@ -1,0 +1,35 @@
+# Town of Rupert -- justice of the peace election (VT municipal batch 20); issue #163 (VT master tracking).
+id: rupert-vt/2024-11-05/general
+name: Town of Rupert Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: rupert-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:rupert/government
+  office_id: rupert-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/c84fba88-a295-5bb0-9df5-d95c42247e7d
+  - ocd-person/a0ece4f2-d910-5de0-818f-13b98ca18cc4
+  - ocd-person/cdf79473-74a5-5fca-b19d-aab2fe79898d
+  - ocd-person/6b771359-73fb-5f91-abd9-87f0c3732f0d
+  - ocd-person/a9020a74-20ac-5856-a243-8e701382ffbb
+  result_status: official
+  winners:
+  - person_id: ocd-person/c84fba88-a295-5bb0-9df5-d95c42247e7d
+    name: Jeremy Russo
+  - person_id: ocd-person/a0ece4f2-d910-5de0-818f-13b98ca18cc4
+    name: Karen Graf
+  - person_id: ocd-person/cdf79473-74a5-5fca-b19d-aab2fe79898d
+    name: Kate Canning
+  - person_id: ocd-person/6b771359-73fb-5f91-abd9-87f0c3732f0d
+    name: Kelli Raymond
+  - person_id: ocd-person/a9020a74-20ac-5856-a243-8e701382ffbb
+    name: Mark Lourie
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Rupert''s five justice of the peace seats'
+  retrieved: '2026-10-19'

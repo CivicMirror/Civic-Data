@@ -1,0 +1,35 @@
+# Jay -- justice of the peace election (VT municipal batch 12); issue #163 (VT master tracking).
+id: jay-vt/2024-11-05/general
+name: Jay Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: jay-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:jay/government
+  office_id: jay-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/b03c86e9-86ff-5e4f-8016-2a99c01f81ee
+  - ocd-person/c70673cf-c385-5d0e-9bf2-7e1a690607bc
+  - ocd-person/0ffb4e11-4d2e-5054-89b6-d1ba3c32eb98
+  - ocd-person/7c03ddb0-fb81-5442-88fc-17285cd84233
+  - ocd-person/62225b27-a654-5020-92c1-e39393f9c651
+  result_status: official
+  winners:
+  - person_id: ocd-person/b03c86e9-86ff-5e4f-8016-2a99c01f81ee
+    name: Arnold Cota Jr
+  - person_id: ocd-person/c70673cf-c385-5d0e-9bf2-7e1a690607bc
+    name: Benjamin Zev
+  - person_id: ocd-person/0ffb4e11-4d2e-5054-89b6-d1ba3c32eb98
+    name: Elizabeth Sargent
+  - person_id: ocd-person/7c03ddb0-fb81-5442-88fc-17285cd84233
+    name: Hailey Morse
+  - person_id: ocd-person/62225b27-a654-5020-92c1-e39393f9c651
+    name: Le-Ann Tetrault
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): names five winners for Jay: Arnold
+    Cota Jr, Hailey Morse, Elizabeth Sargent, Benjamin Zev, and Le-Ann Tetrault'
+  retrieved: '2026-10-18'

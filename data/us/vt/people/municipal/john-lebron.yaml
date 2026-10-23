@@ -1,0 +1,46 @@
+# Town of Wilmington municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/5d8d3467-7ac5-555e-8c8f-026d769ac139
+name: John Lebron
+identifiers: []
+candidacies:
+- contest_id: wilmington-vt/2024-11-05/justice-of-the-peace
+  election_id: wilmington-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:wilmington/government
+  office_id: wilmington-vt/justice-of-the-peace
+  party: null
+  ballot_name: John Lebron
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Thomas Fitzgerald (Chair), John Lebron,
+    Vince Rice, Tony Tribuno, and Charlie Foster (the directory''s row for Foster
+    is transposed)'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/03/TM-Cert-of-Votes-Wilmington-2026-1.pdf
+  note: 'Town of Wilmington, Certificate of Votes for March 3, 2026 (attested by Therese
+    M. Lounsbury, Town Clerk): Thomas J. Fitzgerald was elected to the two-year seat
+    (161 votes) and Tony Tribuno to the three-year seat (40 votes)'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/boards-committees/selectboard/
+  note: 'Town of Wilmington, Selectboard page (2026): Tom Fitzgerald (Chair), Vince
+    Rice (Vice Chair), Tony Tribuno, Charlie Foster, and John Lebron'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists six Wilmington justices of the
+    peace: Bonnie L. Lorimer, Margaret ''Meg'' Streeter, Joanne Fowler, Andrew Kirkman,
+    John Lebron, and Polly ''Nicki'' Steel'
+  retrieved: '2026-10-20'
+- url: https://wilmingtonvermont.us/wp-content/uploads/2026/02/Town-Report-Final.pdf
+  note: 'Town of Wilmington, 2025 Town Report, ''2025 Town Officers, Boards, and Commissions'':
+    the town''s justice of the peace roster lists six names plus a ''Vacant'' line
+    (seven seats): the certified winner Joanne Fowler no longer appears, and Matthew
+    Moore sits in her place; Moore is seated as an appointee to the vacancy (mechanism
+    unpublished; flagged on issue #163)'
+  retrieved: '2026-10-20'

@@ -1,0 +1,21 @@
+# Town of Bradford municipal roster backfill -- Vermont
+# municipal fan-out batch 3; issue #163 (VT master tracking).
+id: ocd-organization/0b7d2d6f-374b-50c0-adcd-7edeb85efcf1
+name: Bradford Selectboard
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bradford/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: bradford-vt/selectboard
+status: active
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Bradford Selectboard members: Josh
+    Allen (Vice Chair), Meroa Benjamin (Chair), Jean Carlan, Jarrod Kosakowski, and
+    Carole Taylor.'
+  retrieved: '2026-10-18'
+- url: https://cms2.revize.com/revize/bradford/documents/Departments/Town%20Clerk/Official%20Return%20of%20Votes%2003-03-2026%20Annual%20Town%20Meeting.pdf
+  note: 'Town of Bradford, ''Official Return of Votes, Annual Town Meeting'' (March
+    3, 2026, certified): Josh Allen (199), Jarrod Kosakowski (208), and Jean Carlan
+    (182) won the three Selectboard seats filled in 2026.'
+  retrieved: '2026-10-18'

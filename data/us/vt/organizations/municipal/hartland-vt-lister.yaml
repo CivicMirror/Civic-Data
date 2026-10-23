@@ -1,0 +1,16 @@
+# Town of Hartland municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-organization/e5ff4f4b-7a54-5c93-96d1-6a4e986cf804
+name: Hartland Listers
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:hartland/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: hartland-vt/lister
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646 (official text, Vermont General Assembly) provides
+    for the election of three listers on staggered three-year terms at annual town
+    meeting. Structure only: no official source publishes the current holder; the
+    seat is left unfilled rather than guessed.'
+  retrieved: '2026-10-18'

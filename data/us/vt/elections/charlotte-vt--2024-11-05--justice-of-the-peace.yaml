@@ -1,0 +1,58 @@
+# Town of Charlotte -- justice of the peace election (VT municipal batch 5); issue #163 (VT master tracking).
+id: charlotte-vt/2024-11-05/general
+name: Town of Charlotte Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: charlotte-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:charlotte/government
+  office_id: charlotte-vt/justice-of-the-peace
+  vote_for: 12
+  candidate_ids:
+  - ocd-person/48841feb-8d15-54de-8060-2763bc6e15a6
+  - ocd-person/8ad2ba30-c495-53bc-998e-a4b0f902ca31
+  - ocd-person/14856be2-9659-52b3-8e8f-7b8ea293aa66
+  - ocd-person/68eb924c-0b17-5834-884e-cf18f361404d
+  - ocd-person/6b8a9b1d-de39-5169-90c4-115f344f6ae0
+  - ocd-person/2e3803e8-f5d6-5766-8de4-f0cc93a29789
+  - ocd-person/4d657973-fd47-5ff1-939d-4c006e24f242
+  - ocd-person/633d0c80-b767-55b6-b6e4-b4eb136f3101
+  - ocd-person/a11ec5ed-d72b-5c17-9931-9e298afea2da
+  - ocd-person/af4b8570-c600-563c-bbdf-75b5a71913d7
+  - ocd-person/4709021a-37d3-5360-8215-5a60e17b2dc7
+  - ocd-person/4b5d0696-f3ff-51bd-b57e-123d39086ecf
+  result_status: official
+  winners:
+  - person_id: ocd-person/48841feb-8d15-54de-8060-2763bc6e15a6
+    name: Carrie Spear
+  - person_id: ocd-person/8ad2ba30-c495-53bc-998e-a4b0f902ca31
+    name: Chea Waters Evans
+  - person_id: ocd-person/14856be2-9659-52b3-8e8f-7b8ea293aa66
+    name: Elizabeth Langfeldt
+  - person_id: ocd-person/68eb924c-0b17-5834-884e-cf18f361404d
+    name: Greg Cluff
+  - person_id: ocd-person/6b8a9b1d-de39-5169-90c4-115f344f6ae0
+    name: Heather Roberts
+  - person_id: ocd-person/2e3803e8-f5d6-5766-8de4-f0cc93a29789
+    name: Jill Abilock
+  - person_id: ocd-person/4d657973-fd47-5ff1-939d-4c006e24f242
+    name: Lorna Jimerson
+  - person_id: ocd-person/633d0c80-b767-55b6-b6e4-b4eb136f3101
+    name: Michael Krasnow
+  - person_id: ocd-person/a11ec5ed-d72b-5c17-9931-9e298afea2da
+    name: Mike Yantachka
+  - person_id: ocd-person/af4b8570-c600-563c-bbdf-75b5a71913d7
+    name: Peggy Sharpe
+  - person_id: ocd-person/4709021a-37d3-5360-8215-5a60e17b2dc7
+    name: Robin Reid
+  - person_id: ocd-person/4b5d0696-f3ff-51bd-b57e-123d39086ecf
+    name: Seth Zimmerman
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists twelve Charlotte justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing publishes no vote totals and no party designations
+    for justices of the peace.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,46 @@
+# Windsor County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/489b6937-5dd5-5eb5-9aa1-9a43cde0c2ed
+name: Ryan Palmer
+identifiers: []
+candidacies:
+- contest_id: windsor-vt-county/2022-11-08/sheriff
+  election_id: windsor-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:windsor/government
+  office_id: windsor-vt-county/sheriff
+  party: Democratic
+  ballot_name: Ryan Palmer
+  status: active
+- contest_id: windsor-vt/2024-11-05/justice-of-the-peace
+  election_id: windsor-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:windsor/government
+  office_id: windsor-vt/justice-of-the-peace
+  party: null
+  ballot_name: Ryan Palmer
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157905
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Windsor County''
+    (county totals): Ryan Palmer (Democratic) 15,643 votes; Michael Chamberlain (Republican)
+    9,840; write-ins 141. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://prosecutors.vermont.gov/offices/windsor
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Windsor County office
+    page: lists Ward Goodenough as State''s Attorney and Ryan Palmer as Sheriff --
+    the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Ryan Palmer is one of the twelve
+    Windsor justices of the peace certified from the November 5, 2024 election.
+    Appended during the Windsor municipal build (VT municipal batch 28); he also
+    sits as Windsor County''s elected Sheriff.'
+  retrieved: '2026-10-21'

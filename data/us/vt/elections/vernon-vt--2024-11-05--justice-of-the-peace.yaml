@@ -1,0 +1,50 @@
+# Town of Vernon -- justice of the peace election (VT municipal batch 24); issue #163 (VT master tracking).
+id: vernon-vt/2024-11-05/general
+name: Town of Vernon Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vernon-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:vernon/government
+  office_id: vernon-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/a7922a37-7aa1-5d65-82e4-c6aed897dab8
+  - ocd-person/e61a60df-2731-50f0-9a71-f77b96de1259
+  - ocd-person/2b52d62e-9307-5478-a570-cf70fc70dfec
+  - ocd-person/2b5c8bd7-eb7a-5660-93ee-13511abac9d7
+  - ocd-person/67b7bb48-ad47-505c-bd60-f84a13a8de35
+  - ocd-person/87400957-2f21-5e85-b971-587216e21c49
+  - ocd-person/56b575f1-7c60-5d51-ba73-8fe96517bea3
+  - ocd-person/27f16bfc-c533-5284-8196-634ed584de6d
+  - ocd-person/168e02a6-2aeb-5303-994c-627d89ddd30f
+  - ocd-person/2577fb7e-12c7-5bed-b406-4a5d50ac4cfd
+  result_status: official
+  winners:
+  - person_id: ocd-person/a7922a37-7aa1-5d65-82e4-c6aed897dab8
+    name: David Emery Sr
+  - person_id: ocd-person/e61a60df-2731-50f0-9a71-f77b96de1259
+    name: Jesse Jobin
+  - person_id: ocd-person/2b52d62e-9307-5478-a570-cf70fc70dfec
+    name: Lynda Starorypinski
+  - person_id: ocd-person/2b5c8bd7-eb7a-5660-93ee-13511abac9d7
+    name: Marylynn Scherlin
+  - person_id: ocd-person/67b7bb48-ad47-505c-bd60-f84a13a8de35
+    name: Nancy Gassett
+  - person_id: ocd-person/87400957-2f21-5e85-b971-587216e21c49
+    name: Robert Miller
+  - person_id: ocd-person/56b575f1-7c60-5d51-ba73-8fe96517bea3
+    name: Sandra Harris
+  - person_id: ocd-person/27f16bfc-c533-5284-8196-634ed584de6d
+    name: Sue Arsenault
+  - person_id: ocd-person/168e02a6-2aeb-5303-994c-627d89ddd30f
+    name: Susan Miller
+  - person_id: ocd-person/2577fb7e-12c7-5bed-b406-4a5d50ac4cfd
+    name: Tim Arsenault
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names ten winners
+    for Vernon''s ten justice of the peace seats'
+  retrieved: '2026-10-20'

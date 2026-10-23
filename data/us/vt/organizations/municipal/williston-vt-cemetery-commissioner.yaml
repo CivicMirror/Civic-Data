@@ -1,0 +1,20 @@
+# Town of Williston municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-organization/590fdf6d-2e5c-5cfe-a27c-60064b960719
+name: Town of Williston Cemetery Commissioners
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:williston/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: williston-vt/cemetery-commissioner
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/171
+  note: '24 App. V.S.A. ch. 171 (Town of Williston): sec. 15(b)(5): the Cemetery Commission
+    (up to five members) is appointed by the Selectboard'
+  retrieved: '2026-10-20'
+- url: https://www.town.williston.vt.us/index.asp?Type=B_DIR&SEC={3076BCA1-3425-474F-8F7E-1103631082A0}
+  note: 'Town of Williston, Cemetery Commission page: ''There are five Commissioners
+    appointed by the Selectboard to staggered five-year terms'' -- Tim Ross (6/30/2027),
+    Hazel Winter (6/30/2028), and Cameron Clark (6/30/2029); the 2030 and 2031 seats
+    are open'
+  retrieved: '2026-10-20'

@@ -1,0 +1,215 @@
+{
+ "label": "Town of Wells",
+ "place_slug": "wells",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:wells/government",
+ "header": "# Town of Wells municipal roster backfill -- Vermont\n# municipal fan-out batch 25; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Town of Wells Selectboard",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://wellsvermont.town/town-offices/",
+     "note": "Town of Wells, Select Board page (wellsvermont.town): the current board is Don Preuss (Chair), Paul Woodruff, and Julie Cannata -- the page states Cannata 'replaces Tammy as select board member' (Holcomb, whose 2025-report term expired in 2026). The Secretary of State directory carries only a referral row for Wells"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Don Preuss",
+     "slug": "don-preuss"
+    },
+    {
+     "name": "Paul Woodruff Jr.",
+     "slug": "paul-woodruff"
+    },
+    {
+     "name": "Julie Cannata",
+     "slug": "julie-cannata"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Town of Wells Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://wellsvermont.town/documents-reports/",
+     "note": "Town of Wells, 2025 Annual Report (posted on the town's Documents & Reports page), 'TOWN OFFICIALS' table: lists Nora Sargent as Clerk/Treasurer on a three-year term to 2028; the 2025 official ballot carried the clerk and treasurer as separate races, so the offices are modeled as two posts with one holder"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Nora Sargent as Wells's Town Clerk"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx",
+     "note": "Vermont Secretary of State, Elections Division, town clerk contact spreadsheet (updated June 12, 2026): names Nora Sargent as Wells's Town Clerk"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Nora Sargent",
+     "slug": "nora-sargent"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Town of Wells Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://wellsvermont.town/documents-reports/",
+     "note": "Town of Wells, 2025 Annual Report (posted on the town's Documents & Reports page), 'TOWN OFFICIALS' table: lists Nora Sargent as Clerk/Treasurer, three-year term to 2028"
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, and County Officials' (January 2026): lists Nora Sargent as Wells's Town Treasurer"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Nora Sargent",
+     "slug": "nora-sargent"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Town Moderator",
+   "org_name": "Town of Wells Town Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://wellsvermont.town/documents-reports/",
+     "note": "Town of Wells, 2025 Annual Report (posted on the town's Documents & Reports page), 'TOWN OFFICIALS' table: lists Francis Gilman as Moderator on a one-year term expiring 2026. The seat stood at the March 2026 meeting and the outcome is unpublished -- straggler (Gilman is seated as a planning commissioner on the town's current page)"
+    }
+   ],
+   "holders": []
+  },
+  {
+   "slug": "library-trustee",
+   "title": "Library Trustee",
+   "org_name": "Town of Wells Library Trustees",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://wellsvermont.town/documents-reports/",
+     "note": "Town of Wells, 2025 Annual Report (posted on the town's Documents & Reports page), 'TOWN OFFICIALS' table: lists five trustees on five-year terms -- Amanda Butler (to 2030), Annie Constantinos (to 2029), Michael Lindley (to 2028), and Nancy Dauenhauer (to 2027); MaryBeth Harrison's seat expired in 2026, outcome unpublished -- straggler"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Amanda Butler",
+     "slug": "amanda-butler"
+    },
+    {
+     "name": "Annie Constantinos",
+     "slug": "annie-constantinos"
+    },
+    {
+     "name": "Michael Lindley",
+     "slug": "michael-lindley"
+    },
+    {
+     "name": "Nancy Dauenhauer",
+     "slug": "nancy-dauenhauer"
+    }
+   ]
+  },
+  {
+   "slug": "planning-commissioner",
+   "title": "Planning Commissioner",
+   "org_name": "Town of Wells Planning Commission",
+   "seats": 7,
+   "sources": [
+    {
+     "url": "https://wellsvermont.town/documents-reports/",
+     "note": "Town of Wells, 2025 Annual Report (posted on the town's Documents & Reports page), 'TOWN OFFICIALS' table: fixes the commission at seven seats (one shown vacant). Wells elects its planning commissioners (24 V.S.A. sec. 4323; the 2025 official ballot carried planning commission races)"
+    },
+    {
+     "url": "https://wellsvermont.town/planning-commission/",
+     "note": "Town of Wells, Planning Commission page (wellsvermont.town): names the current members -- William Chmielewski, Cherry Hopson, Cheryl Woodruff, Heather Thomas, and Fran Gilman. Woodruff's and Chmielewski's report-listed terms expired in 2026, but the current page presents both as members. DIVERGENCE: Douglas Schlaefer (report term to 2027) is not on the current page -- straggler, not seated (disclosed on #163). Woodruff is also a Justice of the Peace; one record carries both"
+    }
+   ],
+   "holders": [
+    {
+     "name": "William Chmielewski",
+     "slug": "william-chmielewski"
+    },
+    {
+     "name": "Cherry Hopson",
+     "slug": "cherry-hopson"
+    },
+    {
+     "name": "Cheryl Woodruff",
+     "slug": "cheryl-woodruff"
+    },
+    {
+     "name": "Heather Thomas",
+     "slug": "heather-thomas"
+    },
+    {
+     "name": "Francis Gilman",
+     "slug": "francis-gilman"
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Town of Wells Justices of the Peace",
+   "seats": 5,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): lists five Wells justices of the peace: Michelle Bates, William Steinmetz, Cheryl Woodruff, Jerry Stein, and Victoria Angis"
+    },
+    {
+     "url": "https://wellsvermont.town/justice-of-the-peace/",
+     "note": "Town of Wells, Justice of the Peace page (wellsvermont.town): concurs on the five names but misspells Angis as 'Angus' -- the certified form governs"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Michelle Bates",
+     "slug": "michelle-bates"
+    },
+    {
+     "name": "William Steinmetz",
+     "slug": "william-steinmetz"
+    },
+    {
+     "name": "Cheryl Woodruff",
+     "slug": "cheryl-woodruff"
+    },
+    {
+     "name": "Jerry Stein",
+     "slug": "jerry-stein"
+    },
+    {
+     "name": "Victoria Angis",
+     "slug": "victoria-angis"
+    }
+   ]
+  }
+ ],
+ "jp_election": {
+  "election_id": "wells-vt/2024-11-05/general",
+  "contest_id": "wells-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Wells Justice of the Peace Election 2024-11-05",
+  "filename": "wells-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 5,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, 'Vermont Justices of the Peace' listing (updated December 4, 2025): certifies the five winners of Wells's November 5, 2024 justice of the peace election (vote for five): Michelle Bates, William Steinmetz, Cheryl Woodruff, Jerry Stein, and Victoria Angis. All five remain in office"
+   }
+  ],
+  "header": "# Town of Wells -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking)."
+ }
+}

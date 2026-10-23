@@ -1,0 +1,20 @@
+# Town of Woodford municipal roster backfill -- Vermont
+# municipal fan-out batch 28; issue #163 (VT master tracking).
+id: ocd-person/ad2d00b9-66db-5a0f-a6f7-f0e4c9336a5f
+name: Linda Dovitski
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-21'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/175
+  note: '24 App. V.S.A. ch. 175 (Town of Woodford): sec. 11(a)(8): cemetery commissioners
+    are appointed'
+  retrieved: '2026-10-21'
+- url: https://woodfordvt.org/uploads/woodford-town-report-2024.pdf
+  note: 'Town of Woodford, 2024 Annual Report, office-holders table (p. 4): the appointed
+    officials table lists Cemetery Commissioners Maureen O''Neil, Linda Dovitski,
+    and Virginia Ulitsch on indefinite terms (2024 vintage, disclosed)'
+  retrieved: '2026-10-21'

@@ -1,0 +1,33 @@
+# Town of Mount Tabor municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/70054b22-8cd5-5995-ad43-b804c4e9b6d4
+name: Noel Weeks
+identifiers: []
+candidacies:
+- contest_id: mount-tabor-vt/2024-11-05/justice-of-the-peace
+  election_id: mount-tabor-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:mount-tabor/government
+  office_id: mount-tabor-vt/justice-of-the-peace
+  party: null
+  ballot_name: Noel Weeks
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): lists Noel Weeks as Mount Tabor''s town clerk (townclerk@mounttaborvt.gov)'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): names William Basso
+    II as Mount Tabor''s town clerk; the June 2026 clerk contact spreadsheet is the
+    later source and governs'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Mount Tabor justices of
+    the peace elected November 5, 2024'
+  retrieved: '2026-10-18'

@@ -1,0 +1,32 @@
+# Town of Hartford municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/5773d5ce-a680-54a0-afdd-cb4787faa820
+name: Tim Fariel
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Hartford''s seven selectboard members
+    as Ashley Andreas, Miranda Dupre, Mike Eigenbrode, Mary Erdei, Tim Fariel, Ida
+    Griesemer (Chair), and Erik Krauss.'
+  retrieved: '2026-10-18'
+- url: https://www.hartford-vt.org/DocumentCenter/View/13225/2026-OFFICIAL-TOWN-RESULTS
+  note: 'Town of Hartford, Certificate of Results, Annual Town Meeting, March 3, 2026
+    (hartford-vt.org): the certified 2026 results re-elect Ashley Andreas (821) and
+    Tim Fariel (828) to two-year seats over Janet Sharkey Potter (638), and Mike Eigenbrode
+    (1,005) to a three-year seat.'
+  retrieved: '2026-10-18'
+- url: https://www.hartford-vt.org/DocumentCenter/View/12114/TOWN-OFFICIAL-RESULTS-March-4-2025
+  note: 'Town of Hartford, Official Ballot Results, Annual Town Meeting, March 4,
+    2025 (hartford-vt.org): the official 2025 results elect Mary Erdei (1,191) and
+    Miranda Dupre (807) and Erik Krauss (1,068).'
+  retrieved: '2026-10-18'
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/123A
+  note: 'Charter of the Town of Hartford, 24 App. V.S.A. ch. 123A (official text,
+    Vermont General Assembly): section 202(e)(1) fixes a seven-member elected selectboard.'
+  retrieved: '2026-10-18'

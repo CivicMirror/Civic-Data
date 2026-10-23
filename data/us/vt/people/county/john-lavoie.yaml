@@ -1,0 +1,29 @@
+# Franklin County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/36c6f8d9-4dc5-559e-8421-813611f059ac
+name: John Lavoie
+identifiers: []
+candidacies:
+- contest_id: franklin-vt-county/2022-11-08/states-attorney
+  election_id: franklin-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:franklin/government
+  office_id: franklin-vt-county/states-attorney
+  party: Democratic
+  ballot_name: John Lavoie
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/158037
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Franklin
+    County'' (county totals): John Lavoie (Democratic) 10,316 votes; Zach Weight (Republican)
+    8,512; write-ins 33. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term. Mid-term change:
+    the 2022 winner, John Lavoie, no longer holds the office; the Department page
+    lists Bram W. Kranichfeld as the sitting State''s Attorney (see county notes).'
+  retrieved: '2026-10-17'

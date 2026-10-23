@@ -1,0 +1,20 @@
+# Town of Calais municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/ce4a1409-5b32-53f4-bca7-965359323b89
+name: Teegan Dykeman-Brown
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, & County Clerks'' (January 2026): lists Teegan Dykeman-Brown
+    as Town Clerk of Calais.'
+  retrieved: '2026-10-18'
+- url: https://www.calaisvermont.gov/vertical/sites/%7B226D684E-C864-4AFA-B4A5-59BE32741B77%7D/uploads/Calais_Town_Meeting_Sample_Ballot(1).pdf
+  note: 'Town of Calais official ballot, Town Meeting March 3, 2026: Teegan Dykeman-Brown
+    was the candidate for Town Clerk, three-year term ending March 2029; she was elected.'
+  retrieved: '2026-10-18'

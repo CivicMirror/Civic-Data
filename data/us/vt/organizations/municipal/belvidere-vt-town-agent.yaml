@@ -1,0 +1,19 @@
+# Town of Belvidere municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-organization/96103221-5616-588c-afee-64d6d9541a04
+name: Belvidere Town Agent
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:belvidere/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: belvidere-vt/town-agent
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: 17 V.S.A. section 2646 (official text, Vermont General Assembly) provides
+    for the election of a town agent to prosecute and defend suits at annual town
+    meeting.
+  retrieved: '2026-10-17'
+- url: https://townofbelviderevt.com/
+  note: 'Town of Belvidere official website, homepage ''Elected Town Positions'' listing:
+    does not list a town agent, and no other official source publishes the holder.'
+  retrieved: '2026-10-17'

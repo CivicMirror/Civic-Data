@@ -1,0 +1,31 @@
+# Orange-Washington-Addison House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/114ea60f-1703-5f9f-bb47-2954c01589cc
+name: Jay Hooper
+identifiers: []
+candidacies:
+- contest_id: vt-house-orange-washington-addison/2024-11-05/state-representative
+  election_id: vt-house-orange-washington-addison/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:orange-washington-addison/legislature
+  office_id: vt-house-orange-washington-addison/state-representative
+  party: Democratic
+  ballot_name: Jay Hooper
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/160994
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Orange-Washington-Addison District''
+    (district totals): Jay Hooper (Democratic) 2,885 votes; Larry Satcowitz (Democratic)
+    2,089; Wayne Townsend (Republican) 1,955; Kenneth "Rob" Sikora (Republican) 1,516;
+    write-ins 21. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Orange-Washington-Addison District.'
+  retrieved: '2026-10-17'

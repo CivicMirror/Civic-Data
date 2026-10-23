@@ -1,0 +1,23 @@
+# Town of Granville municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/b790a36a-fa69-5d56-9b05-9b915da3398e
+name: Janet Brown
+identifiers: []
+candidacies:
+- contest_id: granville-vt/2024-11-05/justice-of-the-peace
+  election_id: granville-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:granville/government
+  office_id: granville-vt/justice-of-the-peace
+  party: null
+  ballot_name: Janet Brown
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five justices of the
+    peace for Granville.'
+  retrieved: '2026-10-18'

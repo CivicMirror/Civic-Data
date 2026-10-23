@@ -1,0 +1,20 @@
+# City of Newport municipal roster backfill -- Vermont
+# municipal fan-out batch 16; issue #163 (VT master tracking).
+id: ocd-organization/5c593d94-a798-5c5c-9ecb-51b5eb903fd2
+name: Newport Constable
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:newport/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: newport-vt/constable
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/007
+  note: '24 App. V.S.A. ch. 007 (City of Newport): section 6 provides for one Constable
+    elected in city election'
+  retrieved: '2026-10-18'
+- url: https://www.newportvermont.org/wp-content/uploads/2026/02/2025-Newport-City-Annual-Report.pdf
+  note: 'City of Newport, 2025 Annual Report: the March 2026 warning (Art. 1) elects
+    a Constable for one year ensuing, but the report names no constable and no outcome
+    is published in any official source located, so the post is created without a
+    membership'
+  retrieved: '2026-10-18'

@@ -1,0 +1,40 @@
+# Washington-Orange House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/c781218e-25cd-51eb-9dea-0b098d743a3e
+name: Francis "Topper" Mcfaun
+identifiers: []
+candidacies:
+- contest_id: vt-house-washington-orange/2024-11-05/state-representative
+  election_id: vt-house-washington-orange/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:washington-orange/legislature
+  office_id: vt-house-washington-orange/state-representative
+  party: Republican/Democratic
+  ballot_name: Francis "Topper" Mcfaun
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161060
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Washington-Orange District'' (district
+    totals): Gina Galfetti (Republican) 3,271 votes; Francis "Topper" Mcfaun (Republican/Democratic)
+    2,911; Melissa Battah (Democratic) 1,781; write-ins 35. The contest page''s cited
+    official source is the Secretary of State''s ''November 5, 2024 General Official
+    Results.pdf''. State representatives serve two-year terms; the November 3, 2026
+    general election decides the next term. Francis ''Topper'' McFaun resigned the
+    seat in 2026 (the House directory records April 3, 2026). Governor Phil Scott
+    appointed David Soucy to fill the vacancy, effective immediately on April 9, 2026.'
+  retrieved: '2026-10-17'
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-appoints-david-soucy-house-representatives
+  note: 'Office of Governor Phil Scott, press release (April 9, 2026), ''Governor
+    Phil Scott Appoints David Soucy to House of Representatives'': the Governor appointed
+    David Soucy of Barre Town to fill the vacant Washington-Orange seat, effective
+    immediately; the release thanks the departing member as ''Topper McFaun''.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    marks Francis McFaun ''Resigned April 3, 2026'' and lists David Soucy as a Washington-Orange
+    representative.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,29 @@
+# Town of Morgan municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/a0909cdf-7a99-577e-86b3-3dedbfa56457
+name: Eric Pope
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://townofmorgan.com/town-government/
+  note: 'Town of Morgan (official website), Town Government page (2025-2026 officers):
+    lists the three selectmen as Eric Pope (Chair, to 2029), Larry Labor (to 2027),
+    and Bruce Remick -- Remick''s row prints a stale ''2025'' expiry year on the town''s
+    2025-2026 officers page, and the June 2026 Secretary of State directory also seats
+    him, so he is recorded as a current member'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Bruce Remick among Morgan''s selectboard
+    members'
+  retrieved: '2026-10-18'
+- url: https://legislature.vermont.gov/people/single/2021.1/36152
+  note: 'Vermont General Assembly, Representative Larry Labor''s member page and biography:
+    Representative Larry Labor''s biography states he ''was elected to the Morgan
+    select board in 2009 and continues in the role of select board member''; the Morgan
+    membership reuses his existing person record'
+  retrieved: '2026-10-18'

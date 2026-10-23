@@ -1,0 +1,26 @@
+# Town of Troy municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/5ed97da1-6012-5ab2-ac0c-3342d29aadf4
+name: Samuel Douglass
+identifiers: []
+candidacies:
+- contest_id: troy-vt/2024-11-05/justice-of-the-peace
+  election_id: troy-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:troy/government
+  office_id: troy-vt/justice-of-the-peace
+  party: null
+  ballot_name: Samuel Douglass
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Troy justices of the peace:
+    Robert Starr, John Starr, Holly Wyllie, Eric McCann, Cris Choquette, Helene Croteau,
+    and Samuel Douglass. Helene Croteau is also a Village of North Troy trustee (batch
+    17); one person record carries both memberships, and her candidacy is appended
+    to that record'
+  retrieved: '2026-10-20'

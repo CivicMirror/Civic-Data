@@ -1,0 +1,22 @@
+# Town of Montgomery municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/efdad562-df3f-5a00-84c7-876e2db53221
+name: Mark Brouillette
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://montgomeryvt.us/wp-content/uploads/2026/03/Officer-List.-updated-as-of-3.11.26.pdf
+  note: 'Town of Montgomery (official website), ''Elected & Appointed Officer List''
+    (updated March 11, 2026): lists the five selectboard members as Charlie Hancock,
+    Dennis Himes, Mark Brouillette, Christopher Dixson-Boles, and Daniel Khan, all
+    elected'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Charles Hancock (Chair) among Montgomery''s
+    selectboard members'
+  retrieved: '2026-10-18'

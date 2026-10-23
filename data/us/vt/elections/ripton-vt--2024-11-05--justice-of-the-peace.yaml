@@ -1,0 +1,42 @@
+# Town of Ripton -- justice of the peace election (VT municipal batch 19); issue #163 (VT master tracking).
+id: ripton-vt/2024-11-05/general
+name: Town of Ripton Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: ripton-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:ripton/government
+  office_id: ripton-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/3e29c1f5-cb14-5273-8c6c-30d383c516c7
+  - ocd-person/b7f2ee0c-4ad9-5932-8116-ededa5770017
+  - ocd-person/c73e5aef-a66f-5e90-9dbc-e226940dc270
+  - ocd-person/12009d4f-2482-5e7c-8920-1e8487384ccd
+  result_status: official
+  winners:
+  - person_id: ocd-person/3e29c1f5-cb14-5273-8c6c-30d383c516c7
+    name: Alexander Cox
+  - person_id: ocd-person/b7f2ee0c-4ad9-5932-8116-ededa5770017
+    name: Jenna Hunsinger
+  - person_id: ocd-person/c73e5aef-a66f-5e90-9dbc-e226940dc270
+    name: Norm Tjossem
+  - person_id: ocd-person/12009d4f-2482-5e7c-8920-1e8487384ccd
+    name: Richard Kim Kimler
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Ripton''s five justice of the peace seats; one winner, Amy McGlashan, vacated
+    the seat in 2025 and is not recorded (the 2025 Town Report''s justice list shows
+    Irene Poole ''appointed 2025'' in her place); the winners list holds the four
+    surviving elected justices while vote_for stays at the slate size, per the Enosburgh/Maidstone/Pomfret
+    pattern'
+  retrieved: '2026-10-19'
+- url: https://drive.google.com/file/d/1M3hBxYFnzukIMUEIJVBJ5lyY0qcFk_qE/view
+  note: 'Town of Ripton, 2025 Town Report: the signed 2026 warning (floor meeting
+    March 2, 2026; Australian ballot March 3, 2026, Article 9) and the Elected and
+    Appointed Town Officers tables: the report''s justice of the peace list shows
+    Irene Poole appointed in 2025 and does not list McGlashan'
+  retrieved: '2026-10-19'

@@ -1,0 +1,42 @@
+# Town of Greensboro municipal roster backfill -- Vermont
+# municipal fan-out batch 10; issue #163 (VT master tracking).
+id: ocd-person/8fd17ca6-b22c-5fff-84a0-f3f477eda409
+name: Mike Metcalf
+identifiers: []
+candidacies:
+- contest_id: greensboro-vt/2024-11-05/justice-of-the-peace
+  election_id: greensboro-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:greensboro/government
+  office_id: greensboro-vt/justice-of-the-peace
+  party: null
+  ballot_name: Mike Metcalf
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://greensborovt.gov/selectboard/
+  note: 'Town of Greensboro Selectboard page (greensborovt.gov): lists the sitting
+    board with terms: Ellen Celnik to 2028, Tim Brennan to 2028, Mike Metcalf to 2027,
+    Judy Carpenter to 2029, and the Chair, whose term runs to 2027 and who is styled
+    only by the surname MacNeil in every official source -- the town report''s officers
+    table, the board''s minutes, and the town contact page alike. The Chair''s seat
+    is left unfilled rather than minted on a partial name; the 2026 Warning stood
+    exactly the two seats (Celnik''s and Carpenter''s) whose printed terms the page
+    updates.'
+  retrieved: '2026-10-18'
+- url: https://greensborovt.gov/wp-content/uploads/documents/Minutes/Selectboard/2026-0909-SB-meeting/2026-0909-SB-minutes.pdf
+  note: 'Town of Greensboro Selectboard minutes, September 9, 2026 (greensborovt.gov):
+    the board sits as MacNeil (Chair), Ellen Celnik, Tim Brennan, Mike Metcalf, and
+    Judy Carpenter.'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five justices of the
+    peace for Greensboro.'
+  retrieved: '2026-10-18'
+- url: https://greensborovt.gov/wp-content/uploads/town-office-documents/Town-Report/2026-Town-Report.pdf
+  note: 'Town of Greensboro 2026 Town Report (greensborovt.gov): the report''s Board
+    of Civil Authority block names the same five.'
+  retrieved: '2026-10-18'

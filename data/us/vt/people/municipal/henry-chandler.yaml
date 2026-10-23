@@ -1,0 +1,23 @@
+# Town of Dorset municipal roster backfill -- Vermont
+# municipal fan-out batch 7; issue #163 (VT master tracking).
+id: ocd-person/b2001878-bd98-5bb4-81b1-416fdb7d8f7d
+name: Henry Chandler
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists five Dorset Selectboard members: Megan
+    Thorn (Chair), Henry Chandler (Vice Chair), Alison Clarke, Frank Parent, and Jim
+    Salsgiver.'
+  retrieved: '2026-10-18'
+- url: https://dorsetvt.org/uploads/3/5/3/5/35356792/2025_town_report_final.pdf
+  note: 'Town of Dorset 2025 Town Report (dorsetvt.org): the elected-officers table
+    (p. 6) lists the same five, and the town''s official newsletter reported the March
+    3, 2026 results re-electing Chandler (203 votes), Salsgiver (153), and Parent
+    (268) to the three seats that stood.'
+  retrieved: '2026-10-18'

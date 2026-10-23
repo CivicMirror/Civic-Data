@@ -1,0 +1,25 @@
+# Town of Colchester municipal roster backfill -- Vermont
+# municipal fan-out batch 6; issue #163 (VT master tracking).
+id: ocd-person/8bedc725-bc5a-53a2-92ab-4d644bc7af44
+name: Curt Taylor
+identifiers: []
+candidacies:
+- contest_id: colchester-vt/2024-11-05/justice-of-the-peace
+  election_id: colchester-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:colchester/government
+  office_id: colchester-vt/justice-of-the-peace
+  party: null
+  ballot_name: Curt Taylor
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists fifteen Colchester justices
+    of the peace: Carol Anderson, Sarita Austin, Leora Black, Ruth Blauwiekel, Mary
+    Brennan, Patrick Brennan, Wendy Critchlow, Maureen Dakin, Peg Gillard, Julie Hulburd,
+    Marie-Reine Pepin, Curt Taylor, Tom Yasewicz, Jeanette Berry, and Robby Mazza.'
+  retrieved: '2026-10-18'

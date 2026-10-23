@@ -1,0 +1,25 @@
+# Town of Bloomfield municipal roster backfill -- worked example
+# for the Vermont municipal tier; issue #163 (VT master tracking).
+id: ocd-person/377b61cb-5de5-5208-928d-4349c514327d
+name: Steven Bunnell
+identifiers: []
+candidacies:
+- contest_id: bloomfield-vt/2024-11-05/justice-of-the-peace
+  election_id: bloomfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:bloomfield/government
+  office_id: bloomfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Steven Bunnell
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-16'
+  pipeline: build_vt_bloomfield_sweep
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (last updated December 4, 2025), Bloomfield (Essex County):
+    Ray Bowen, Sharon Belknap, Bryant Wheeler, Suzanne Routhier, Steven Bunnell. The
+    listing marks Bloomfield''s information valid as of 2024, i.e. the cohort elected
+    November 5, 2024.'
+  retrieved: '2026-10-16'

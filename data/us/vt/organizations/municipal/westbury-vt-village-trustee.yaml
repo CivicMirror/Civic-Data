@@ -1,0 +1,21 @@
+# Village of Westbury municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-organization/d5ff1d55-7543-5fdb-8f7a-b67cfa1a2fc5
+name: Village of Westbury Board of Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:westbury/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: westbury-vt/village-trustee
+status: active
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24/039
+  note: '24 V.S.A. ch. 39 (incorporated villages): sec. 1304 elects five trustees
+    at the village meeting'
+  retrieved: '2026-10-20'
+- url: https://sos.vermont.gov/vsara/learn/municipalities/incorporated-villages
+  note: 'Secretary of State, incorporated villages list: ''Westbury: in Colchester,
+    Chittenden County; acknowledged by Colchester Selectboard in 2023.'' No official
+    source publishes the village''s officers (the formation project''s website names
+    none), so the post is created without memberships and the roster is held for the
+    straggler sweep'
+  retrieved: '2026-10-20'

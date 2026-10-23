@@ -1,0 +1,23 @@
+# Town of Weston municipal roster backfill -- Vermont
+# municipal fan-out batch 27; issue #163 (VT master tracking).
+id: ocd-person/c5c3aaf6-c448-5189-a132-8d74995a31a9
+name: Jeff Seymour
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of listers'
+  retrieved: '2026-10-20'
+- url: https://www.westonvt.org/listers
+  note: 'Town of Weston, Listers page: names Greg Carroll and Jeff Seymour; the third
+    seat is printed ''VACANT'''
+  retrieved: '2026-10-20'
+- url: https://www.westonvt.org/s/2026-TM-Results.pdf
+  note: 'Town of Weston, official Town Meeting Results, March 3, 2026: the three-year
+    lister seat ''remains vacant''; the seated listers'' terms run to 2027 (Carroll)
+    and 2028 (Seymour)'
+  retrieved: '2026-10-20'

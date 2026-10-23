@@ -1,0 +1,26 @@
+# Town of Burke municipal roster backfill -- Vermont
+# municipal fan-out batch 4; issue #163 (VT master tracking).
+id: ocd-person/2641916c-98ad-5bbf-90de-3f3ab4620c93
+name: Joel Gilbert
+identifiers: []
+candidacies:
+- contest_id: burke-vt/2024-11-05/justice-of-the-peace
+  election_id: burke-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:burke/government
+  office_id: burke-vt/justice-of-the-peace
+  party: null
+  ballot_name: Joel Gilbert
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Burke justices
+    of the peace: Wendy Bean, Susan Carr, Anthony (Tony) DeMasi, Kathleen Feeley,
+    Joel Gilbert, Joan Harlowe, and John Kascenska. The town website''s justices page
+    names a different set of six (including a Daniel Tanner and omitting Harlowe);
+    the Secretary of State listing governs the election record.'
+  retrieved: '2026-10-18'

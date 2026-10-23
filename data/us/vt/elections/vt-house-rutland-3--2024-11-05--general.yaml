@@ -1,0 +1,30 @@
+# Rutland-3 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: vt-house-rutland-3/2024-11-05/general
+name: Rutland-3 House District 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: vt-house-rutland-3/2024-11-05/state-representative
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:rutland-3/legislature
+  office_id: vt-house-rutland-3/state-representative
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3c74fce3-66a4-5a7e-9090-ed445e9d0273
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3c74fce3-66a4-5a7e-9090-ed445e9d0273
+    name: Chris Brown
+sources:
+- url: https://electionarchive.vermont.gov/contest/161067
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Rutland-3 District'' (district
+    totals): Chris Brown (Republican) 1,727 votes; write-ins 54. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. State representatives serve two-year terms; the November
+    3, 2026 general election decides the next term. Chris Brown resigned the seat
+    in December 2024 (the House directory records December 13, 2024), before the 2025-2026
+    session convened. Governor Phil Scott appointed Zachary Harvey to fill the vacancy,
+    effective January 8, 2025.'
+  retrieved: '2026-10-17'

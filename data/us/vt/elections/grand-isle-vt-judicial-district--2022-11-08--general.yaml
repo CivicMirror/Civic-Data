@@ -1,0 +1,28 @@
+# Grand Isle Probate District -- VT probate tier (jurisdiction + post + holder + election together);
+# issue #163 (VT master tracking).
+id: grand-isle-vt-judicial-district/2022-11-08/general
+name: Grand Isle Probate District 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: grand-isle-vt-judicial-district/2022-11-08/judge-of-probate
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/judicial_district:grand-isle/judiciary
+  office_id: grand-isle-vt-judicial-district/judge-of-probate
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2683841a-5788-5ef6-a3cd-b19a753623bf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2683841a-5788-5ef6-a3cd-b19a753623bf
+    name: George E. Spear
+sources:
+- url: https://electionarchive.vermont.gov/contest/157882
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Probate Judge, Grand Isle County'' (county totals): George
+    E. Spear (Democratic/Republican) 3,262 votes; write-ins 24. The contest page''s
+    cited official source is the official return vt-2022_11_08_General_ALL.pdf. Probate
+    judges serve four-year terms beginning February 1 after the election (Vermont
+    Constitution, Chapter II, sections 50-51); the November 3, 2026 general election
+    decides the next term.'
+  retrieved: '2026-10-17'

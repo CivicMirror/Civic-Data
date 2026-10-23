@@ -1,0 +1,45 @@
+# Town of St. George municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/70294d2f-b521-532e-9126-61b2705a1d3a
+name: Mary Alice Favro
+identifiers: []
+candidacies:
+- contest_id: st-george-vt/2024-11-05/justice-of-the-peace
+  election_id: st-george-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-george/government
+  office_id: st-george-vt/justice-of-the-peace
+  party: null
+  ballot_name: Mary Alice Favro
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://webgen1.revize.com/revize/stgeorgevt/2025%20Annual%20Report.pdf
+  note: 'Town of St. George, 2025 Annual Report, ''2025 ELECTED OFFICERS'' and ''2025
+    Town Officials / 2025 Appointed Officers'' pages (officers with term lengths and
+    expiry years): Cemetery Commissioners (three-year terms) -- Adam Dantzscher (term
+    expires 2028), Mary Alice Favro (2026), Terri Hallenbeck (2027)'
+  retrieved: '2026-10-19'
+- url: https://stgeorgevt.com
+  note: 'Town of St. George official website: the March 2026 annual meeting warning
+    (Article 8, ''To elect a Cemetery Commissioner for a 3-year term expiring in 2029'')
+    and the March 3, 2026 minutes record Mary Alice Favro elected to that term; the
+    town''s cemetery bylaws describe the cemetery as ''maintained by an elected board
+    of three cemetery commissioners'', and the contact list names Favro (Chair), Dantzscher,
+    and Hallenbeck'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists four St. George justices of
+    the peace: Kelly A. Bowen, Mary Alice Favro, Judith R. Pillsbury, and Charles
+    Scott'
+  retrieved: '2026-10-19'
+- url: https://webgen1.revize.com/revize/stgeorgevt/2025%20Annual%20Report.pdf
+  note: 'Town of St. George, 2025 Annual Report, ''2025 ELECTED OFFICERS'' and ''2025
+    Town Officials / 2025 Appointed Officers'' pages (officers with term lengths and
+    expiry years): the elected-officers page prints five justice of the peace lines
+    -- the four winners above plus one ''Vacant'' -- so the town''s slate is five
+    seats with four filled'
+  retrieved: '2026-10-19'

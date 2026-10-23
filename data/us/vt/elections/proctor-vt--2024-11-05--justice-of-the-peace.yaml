@@ -1,0 +1,35 @@
+# Town of Proctor -- justice of the peace election (VT municipal batch 19); issue #163 (VT master tracking).
+id: proctor-vt/2024-11-05/general
+name: Town of Proctor Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: proctor-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:proctor/government
+  office_id: proctor-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/db301700-1dae-5730-99db-39221cfde742
+  - ocd-person/46968e6f-5e45-5990-89de-f20a594bee3a
+  - ocd-person/ff10495f-6a45-5704-bf54-a84cc4bd3c13
+  - ocd-person/4d4b9996-5ee1-54ac-a269-e54813fbbb8f
+  - ocd-person/fa2b8a4e-272b-5f11-bb74-5c6bbdfb0a27
+  result_status: official
+  winners:
+  - person_id: ocd-person/db301700-1dae-5730-99db-39221cfde742
+    name: Bruce Baccei
+  - person_id: ocd-person/46968e6f-5e45-5990-89de-f20a594bee3a
+    name: Frank Beyette
+  - person_id: ocd-person/ff10495f-6a45-5704-bf54-a84cc4bd3c13
+    name: Judith Taranovich
+  - person_id: ocd-person/4d4b9996-5ee1-54ac-a269-e54813fbbb8f
+    name: Lisa Miser
+  - person_id: ocd-person/fa2b8a4e-272b-5f11-bb74-5c6bbdfb0a27
+    name: Raymond Beyette
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names five winners
+    for Proctor''s five justice of the peace seats'
+  retrieved: '2026-10-19'

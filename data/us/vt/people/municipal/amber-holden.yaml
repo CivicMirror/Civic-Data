@@ -1,0 +1,26 @@
+# Town of Newark municipal roster backfill -- Vermont
+# municipal fan-out batch 16; issue #163 (VT master tracking).
+id: ocd-person/47ecb404-1059-5938-9939-2a4845cfa4aa
+name: Amber Holden
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_clerk_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town clerk contact spreadsheet
+    (updated June 12, 2026): lists Amber Holden as Newark''s town clerk'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): names Amber Holden
+    as Newark''s town clerk'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): names Amber Holden
+    as Newark''s town treasurer; no treasurer contact spreadsheet entry covers Newark,
+    and nothing located shows the Guide entry stale'
+  retrieved: '2026-10-18'

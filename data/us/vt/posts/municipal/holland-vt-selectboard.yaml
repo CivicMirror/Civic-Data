@@ -1,0 +1,17 @@
+# Holland municipal roster backfill -- Vermont
+# municipal fan-out batch 11; issue #163 (VT master tracking).
+id: holland-vt/selectboard
+organization_id: ocd-organization/c8646b55-369a-5d56-9d02-a4f39de7f61b
+title: Selectboard Member
+seats: 3
+sources:
+- url: https://hollandvt.gov/assets/documents/HOLLAND_AnnualReport_25.F.pdf
+  note: 'Town of Holland, 2025 Annual Report (official town website): the report''s
+    Town Officers table prints the office, its term, the holder, and the term''s expiry'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): the directory seats Dave Jacobs, Hugh Flynn,
+    and Trevor Gray (Chair) after the March 2026 meeting; the report table seats the
+    same three (Flynn''s term printed expiring 2026)'
+  retrieved: '2026-10-18'

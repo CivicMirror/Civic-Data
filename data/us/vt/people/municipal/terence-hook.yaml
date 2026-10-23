@@ -1,0 +1,25 @@
+# Jericho municipal roster backfill -- Vermont
+# municipal fan-out batch 12; issue #163 (VT master tracking).
+id: ocd-person/4f7ed474-0b0f-588a-98b6-93a2d4beeb95
+name: Terence Hook
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.jerichovt.gov/208/Cemetery-Commission
+  note: 'Town of Jericho (official website), Cemetery Commission page: the page''s
+    members list names Isabella Martin (term expires 2027), Jim Adams (2028), and
+    Terry Hook (2029); it also still carries Robert Grandchamp (term expires 2026),
+    whose seat was the three-year seat filled at the 2026 meeting'
+  retrieved: '2026-10-18'
+- url: https://www.jerichovt.gov/DocumentCenter/View/1321/2026-03-03-Jericho-Election-Results
+  note: 'Town of Jericho, official election-night results, annual town meeting, March
+    3, 2026 (official town website): Terence B. Hook was elected to a three-year cemetery
+    commissioner term (1,005 votes), succeeding Grandchamp. The two-year seat (an
+    unexpired term expiring 2028) drew no ballot candidate and only scattered write-ins,
+    led by Jim Adams; the town''s commission page seats Adams for that term, so the
+    write-in leader holds the seat on the roster''s concurrence'
+  retrieved: '2026-10-18'

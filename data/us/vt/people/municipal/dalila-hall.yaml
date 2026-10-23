@@ -1,0 +1,28 @@
+# Town of Rockingham municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/d6f5b253-02e4-5f8f-b92c-3c25ff6a8f9a
+name: Dalila Hall
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists three of Rockingham''s five selectboard
+    members: Dalila Hall, Amy Howlett, and Bonnie North (the directory''s Rockingham
+    entry is truncated)'
+  retrieved: '2026-10-19'
+- url: https://www.rockinghamvt.org/rockinghamselect
+  note: 'Town of Rockingham, Selectboard page (rockinghamvt.org): the current board
+    is Rick Cowan, John Dunbar, Amy Howlett, Bonnie North, and Dalila Hall'
+  retrieved: '2026-10-19'
+- url: https://vimnews.org/authorproofs/COMM-0855.rock.TM_election_results.authorproof.pdf
+  note: 'The Commons, report of the March 3, 2026 Rockingham Australian ballot (newspaper
+    source, disclosed; the town posts no 2026 results document): Amy Howlett won a
+    three-year seat (391-73 over William Crowther) and Bonnie North (315) and Dalila
+    Hall (251) won the two one-year seats -- the vacancy remainders of the departed
+    Peter Golec and Elijah Zimmer -- in an eight-candidate field'
+  retrieved: '2026-10-19'

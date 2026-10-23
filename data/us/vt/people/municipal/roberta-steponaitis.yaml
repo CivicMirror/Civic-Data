@@ -1,0 +1,29 @@
+# Town of Waltham municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/00e32bd6-61a2-5963-a897-f10984c5c0a9
+name: Roberta "Cookie" Steponaitis
+identifiers: []
+candidacies:
+- contest_id: waltham-vt/2024-11-05/justice-of-the-peace
+  election_id: waltham-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waltham/government
+  office_id: waltham-vt/justice-of-the-peace
+  party: null
+  ballot_name: Roberta "Cookie" Steponaitis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.walthamvt.org/s/2026-Waltham-Town-Report-final.pdf
+  note: 'Town of Waltham, 2026 Town Report (posted on the town''s Town Meetings &
+    Reports page): elected-officials table lists Roberta ''Cookie'' Steponaitis as
+    Collector of Delinquent Taxes, term to 2027. She is also a Justice of the Peace;
+    one person record carries both memberships'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists three Waltham justices of the
+    peace: Roberta ''Cookie'' Steponaitis, Terrance Evarts, and Rachel Steponaitis'
+  retrieved: '2026-10-20'

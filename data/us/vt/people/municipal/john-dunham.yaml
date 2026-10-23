@@ -1,0 +1,26 @@
+# Town of Monkton municipal roster backfill -- Vermont
+# municipal fan-out batch 15; issue #163 (VT master tracking).
+id: ocd-person/44ab8e09-7b80-5d8b-9c50-2f6142681460
+name: John Dunham
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://monktonvt.com/wp-content/uploads/2026/08/Monkton-Directory-of-Town-Officials-08-24-26.xlsx-List-for-Town-Website.pdf
+  note: 'Town of Monkton (official website), Directory of Town Officials (updated
+    August 24, 2026): lists the five selectboard members as Sam Peisch (Chair), John
+    Dunham (Vice Chair), Walter Crandall, Sarah Bouchard, and Joseph Szarejko, all
+    elected'
+  retrieved: '2026-10-18'
+- url: https://monktonvt.com/2026/03/03/march-3-2026-monkton-municipal-election-results/
+  note: 'Town of Monkton (official website), March 3, 2026 municipal election results:
+    Sam Peisch was re-elected with 371 votes and Walter Crandall with 357 votes'
+  retrieved: '2026-10-18'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): lists Sam Peisch among Monkton''s selectboard
+    members'
+  retrieved: '2026-10-18'

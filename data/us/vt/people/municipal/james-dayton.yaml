@@ -1,0 +1,25 @@
+# Town of Panton municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/ffdff27b-64ab-5f0c-b10c-c8b5c2e08f07
+name: James Dayton
+identifiers: []
+candidacies:
+- contest_id: panton-vt/2024-11-05/justice-of-the-peace
+  election_id: panton-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:panton/government
+  office_id: panton-vt/justice-of-the-peace
+  party: null
+  ballot_name: James Dayton
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): Panton elects five justices of the
+    peace; the listing names Gretchen Bailey, Eileen Brennan, James Dayton, Paula
+    Moore, and Diane Raphael; the town report''s variants (''Jamie Dayton'', ''Diana
+    Raphael'') do not govern'
+  retrieved: '2026-10-19'

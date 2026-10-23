@@ -1,0 +1,26 @@
+{
+ "label": "Town of Bradford",
+ "place_slug": "bradford",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:bradford/government",
+ "header": "# Town of Bradford municipal roster backfill -- Vermont\n# held-straggler sweep; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "collector-of-taxes",
+   "title": "Collector of Taxes",
+   "org_name": "Bradford Collector of Taxes",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://bradford-vt.us/",
+     "note": "Town of Bradford, Tax Collection page (live): 'Town Treasurer / Jessica Chase / Current Tax Collector' and 'Nikki Tomlinson / Delinquent Tax Collector' -- Chase, the sitting Town Treasurer (seated in batch 3), also holds the Collector of Taxes office; Tomlinson, the Town Clerk, is the Delinquent Tax Collector. (An earlier sweep research pass misread Tomlinson as the treasurer; the repo state and this page agree she is not.)"
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jessica Chase",
+     "slug": "jessica-chase"
+    }
+   ]
+  }
+ ]
+}

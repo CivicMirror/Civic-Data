@@ -1,0 +1,29 @@
+# Town of Brookline -- justice of the peace election (VT municipal batch 4); issue #163 (VT master tracking).
+id: brookline-vt/2024-11-05/general
+name: Town of Brookline Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: brookline-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:brookline/government
+  office_id: brookline-vt/justice-of-the-peace
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/82236c1a-5be0-51dd-a3ce-600e94ed0705
+  - ocd-person/77e0d675-9f78-5885-9af5-6ca2b82c3c7c
+  result_status: official
+  winners:
+  - person_id: ocd-person/82236c1a-5be0-51dd-a3ce-600e94ed0705
+    name: Dorothy Maggio
+  - person_id: ocd-person/77e0d675-9f78-5885-9af5-6ca2b82c3c7c
+    name: Laurie J. Nau-Martocci
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists two Brookline justices
+    of the peace for the 2025-2026 term; they are the winners of the November 5, 2024
+    election for the office. The listing names only two justices for Brookline; any
+    remaining seat is a possible vacancy the listing does not explain. The listing
+    publishes no vote totals and no party designations for justices of the peace.'
+  retrieved: '2026-10-18'

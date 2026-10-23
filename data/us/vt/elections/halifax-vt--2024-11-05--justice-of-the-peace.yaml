@@ -1,0 +1,35 @@
+# Town of Halifax -- justice of the peace election (VT municipal batch 10); issue #163 (VT master tracking).
+id: halifax-vt/2024-11-05/general
+name: Town of Halifax Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: halifax-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:halifax/government
+  office_id: halifax-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/a6d8ae91-0c50-5746-86b3-4c4294f99d93
+  - ocd-person/f1887a9f-4bfd-5105-b104-a5817d015eaa
+  - ocd-person/d3a90eac-fe2c-5343-9dac-7af94ad96e59
+  - ocd-person/7f8f6f8a-a5b1-5cc8-a3e8-fdc2511f468d
+  - ocd-person/6015d2a4-651b-5070-9895-b8f4eac763b5
+  result_status: official
+  winners:
+  - person_id: ocd-person/a6d8ae91-0c50-5746-86b3-4c4294f99d93
+    name: Craig J. Stone
+  - person_id: ocd-person/f1887a9f-4bfd-5105-b104-a5817d015eaa
+    name: Joan Wonsey-Courser
+  - person_id: ocd-person/d3a90eac-fe2c-5343-9dac-7af94ad96e59
+    name: Kaitlin Stone
+  - person_id: ocd-person/7f8f6f8a-a5b1-5cc8-a3e8-fdc2511f468d
+    name: Malcolm Sumner
+  - person_id: ocd-person/6015d2a4-651b-5070-9895-b8f4eac763b5
+    name: Patricia Pusey
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Halifax winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'

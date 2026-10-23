@@ -1,0 +1,27 @@
+# Town of St. George municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-organization/290b570d-9888-5646-9c62-47548315aaae
+name: Town of St. George Town Treasurer
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:st-george/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: st-george-vt/town-treasurer
+status: active
+sources:
+- url: https://webgen1.revize.com/revize/stgeorgevt/Minutes/Town%20Meeting/2025%20Town%20Meeting%20Minutes.pdf
+  note: 'Town of St. George, Minutes of the Annual Town Meeting of March 4, 2025:
+    the officer reports introduce ''Adam Beach, Town Treasurer & Delinquent Tax Collector,
+    hired September 2023'' -- the town hires its treasurer, so he is seated APPOINTED,
+    not elected'
+  retrieved: '2026-10-19'
+- url: https://webgen1.revize.com/revize/stgeorgevt/2025%20Annual%20Report.pdf
+  note: 'Town of St. George, 2025 Annual Report, ''2025 ELECTED OFFICERS'' and ''2025
+    Town Officials / 2025 Appointed Officers'' pages (officers with term lengths and
+    expiry years): the officials page lists ''Town Treasurer - Adam Beach'' among
+    the town''s officials, not on the elected-officers page'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Adam Beach as
+    St. George''s Town Treasurer'
+  retrieved: '2026-10-19'

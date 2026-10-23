@@ -1,0 +1,32 @@
+# Town of West Fairlee -- justice of the peace election (VT municipal batch 26); issue #163 (VT master tracking).
+id: west-fairlee-vt/2024-11-05/general
+name: Town of West Fairlee Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: west-fairlee-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:west-fairlee/government
+  office_id: west-fairlee-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/454c1c9f-0897-59ff-b645-226e8d28d092
+  - ocd-person/9cb2769d-33b9-5b97-9565-da47860effac
+  - ocd-person/1d33d001-7047-5496-b4b9-6dfb0bf0994d
+  result_status: official
+  winners:
+  - person_id: ocd-person/454c1c9f-0897-59ff-b645-226e8d28d092
+    name: Jen Shatney
+  - person_id: ocd-person/9cb2769d-33b9-5b97-9565-da47860effac
+    name: Maurice "Chuck" Eaton
+  - person_id: ocd-person/1d33d001-7047-5496-b4b9-6dfb0bf0994d
+    name: Rebecca Wurdack
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the winners of West Fairlee''s
+    November 5, 2024 justice of the peace election: Maurice "Chuck" Eaton, Jen Shatney,
+    and Rebecca Wurdack were elected; two of the five seats drew no winning candidate
+    (the town''s own justice of the peace page shows the two vacancies), so the winners
+    list holds the three elected justices'
+  retrieved: '2026-10-20'

@@ -1,0 +1,22 @@
+# Town of West Rutland municipal roster backfill -- Vermont
+# municipal fan-out batch 26; issue #163 (VT master tracking).
+id: ocd-person/5e3ada8c-9fa8-5d5b-b886-1b205c6b0773
+name: Chester Brown
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names John Harvey, Chester Brown, John Center,
+    David Webster, and Robert Bach for West Rutland''s five-member board'
+  retrieved: '2026-10-20'
+- url: https://www.westrutlandvt.org/town-officers-appointments/
+  note: 'Town of West Rutland, Town Officers / Appointments table (the table marks
+    appointed rows ''(by appointment)''; unmarked rows are elected): Selectpersons
+    -- John Harvey, Chair (term to 2027); Chester Brown, Vice Chair (to 2029); John
+    Center, Secretary (to 2028); David Webster (to 2027); Robert Bach (to 2027)'
+  retrieved: '2026-10-20'

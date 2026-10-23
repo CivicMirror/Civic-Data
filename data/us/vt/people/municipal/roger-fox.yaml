@@ -1,0 +1,24 @@
+# Town of Walden municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/68e8af48-79c1-52a1-b864-5799e3f9c677
+name: Roger Fox
+identifiers: []
+candidacies:
+- contest_id: walden-vt/2024-11-05/justice-of-the-peace
+  election_id: walden-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:walden/government
+  office_id: walden-vt/justice-of-the-peace
+  party: null
+  ballot_name: Roger Fox
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Walden justices of the
+    peace: Diane Cochran, Jeremiah Cook, Roger Fox, Annie Gaillard, and Elizabeth
+    Wilkel'
+  retrieved: '2026-10-20'

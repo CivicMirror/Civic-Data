@@ -1,0 +1,39 @@
+# Rutland-11 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/bbdebfd8-14a5-51cf-8444-9c7e207b4ba6
+name: Jim Harrison
+identifiers: []
+candidacies:
+- contest_id: vt-house-rutland-11/2024-11-05/state-representative
+  election_id: vt-house-rutland-11/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:rutland-11/legislature
+  office_id: vt-house-rutland-11/state-representative
+  party: Republican
+  ballot_name: Jim Harrison
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161068
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Rutland-11 District'' (district
+    totals): Jim Harrison (Republican) 2,175 votes; write-ins 39. The contest page''s
+    cited official source is the Secretary of State''s ''November 5, 2024 General
+    Official Results.pdf''. State representatives serve two-year terms; the November
+    3, 2026 general election decides the next term. Jim Harrison resigned the seat
+    effective January 6, 2026. Governor Phil Scott appointed Valorie Taylor (announced
+    as Val Taylor) to fill the vacancy on January 2, 2026.'
+  retrieved: '2026-10-17'
+- url: https://governor.vermont.gov/press-release/governor-phil-scott-announces-legislative-appointments
+  note: 'Office of Governor Phil Scott, press release (January 2, 2026), ''Governor
+    Phil Scott Announces Legislative Appointments'': the Governor appointed Val Taylor
+    to represent the Rutland-11 district in the House; Taylor replaces Representative
+    Jim Harrison, who would be resigning effective January 6, 2026.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    marks Jim Harrison ''Resigned Jan. 6, 2026'' and lists Valorie Taylor as the Rutland-11
+    representative.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,39 @@
+# Village of Bellows Falls municipal roster backfill -- Vermont
+# municipal fan-out batch 2; issue #163 (VT master tracking).
+id: ocd-person/6d6d72e1-192d-5297-9e70-0ca72fb41e6f
+name: Paul Obuchowski
+identifiers: []
+candidacies:
+- contest_id: rockingham-vt/2024-11-05/justice-of-the-peace
+  election_id: rockingham-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:rockingham/government
+  office_id: rockingham-vt/justice-of-the-peace
+  party: null
+  ballot_name: Paul Obuchowski
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/207
+  note: 'Village of Bellows Falls charter, 24 App. V.S.A. ch. 207 (official text,
+    Vermont General Assembly): section 5 provides for a President and four Trustees,
+    elected at the annual meeting; by section 7 the President is a member of the Board
+    of Trustees and presides over it.'
+  retrieved: '2026-10-17'
+- url: https://www.rockinghamvt.org/
+  note: 'Village of Bellows Falls annual meeting minutes, May 18, 2026, published
+    on the Town of Rockingham / Village of Bellows Falls website (Agendas and Minutes,
+    2026): the ''Present'' list names Paul Obuchowski, Village President, and Wade
+    Masure, Taylor Pichette, Samantha Snow, and Jonathan Wright, Trustees.'
+  retrieved: '2026-10-17'
+- url: https://www.rockinghamvt.org/villagetrustees
+  note: 'Village of Bellows Falls, Village Trustees page (Town of Rockingham website):
+    lists Wade Masure, Taylor Pichette, and Samantha Snow as Trustees but still shows
+    Wendy M. Levy as Village President and Jeff Dunbar as a Trustee. The attested
+    minutes of the May 18, 2026 annual meeting govern; Levy and Dunbar are not recorded.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the Peace'' listing (updated December 4, 2025): names Paul Obuchowski among Rockingham''s fourteen elected justices of the peace (one further seat is listed ''Vacant''); candidacy appended in municipal batch 19.'
+  retrieved: '2026-10-19'

@@ -1,0 +1,23 @@
+# Town of Roxbury municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/aefc363d-4e18-53d8-934b-bf996512af6c
+name: Thomas L. Frazier
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of listers of three'
+  retrieved: '2026-10-19'
+- url: https://roxburyvt.gov/wp-content/uploads/2026/03/town-ballot-results.pdf
+  note: 'Town of Roxbury, Certificate of Election, Town Officers, March 3, 2026 (attested
+    by Town Clerk Tammy Legacy, March 4, 2026): William Hansen won the three-year
+    lister seat (164 votes) and Thomas L. Frazier the two-year remainder (146 votes)'
+  retrieved: '2026-10-19'
+- url: https://roxburyvt.gov
+  note: 'Town of Roxbury, 2024 Annual Report, town officers table (terms with expiry
+    years): Robert Ketchel''s lister term runs to 2027'
+  retrieved: '2026-10-19'

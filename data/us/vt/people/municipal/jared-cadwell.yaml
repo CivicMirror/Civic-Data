@@ -1,0 +1,24 @@
+# Town of Fayston municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/b62dc348-a582-5f80-9529-0d5d0e88cc13
+name: Jared Cadwell
+identifiers: []
+candidacies:
+- contest_id: fayston-vt/2024-11-05/justice-of-the-peace
+  election_id: fayston-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fayston/government
+  office_id: fayston-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jared Cadwell
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Fayston justices
+    of the peace: Peter Forbes, Jared Cadwell, Cynthia Seckler, Fedrick Rayfield,
+    and Danielle Dukette.'
+  retrieved: '2026-10-18'

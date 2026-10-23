@@ -1,0 +1,66 @@
+{
+ "district_slug": "peacham",
+ "district_name": "Peacham School District",
+ "jurisdiction_sources": [
+  {
+   "url": "https://legislature.vermont.gov/statutes/section/16/010/00603",
+   "note": "16 V.S.A. section 603(a)(6)(A) inventory: Peacham School District, a town school district in the Caledonia Central Supervisory Union (member town: Peacham). Operates PK-6; tuitions grades 7-12.",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "url": "https://peacham.ccsuvt.net",
+   "note": "Peacham School District (official site).",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "board": {
+  "org_name": "Peacham School Board",
+  "post_title": "School Director",
+  "seats": 5,
+  "post_note": "Peacham SD: five directors at-large under 16 V.S.A. section 423(a)-(b).",
+  "sources": [
+   {
+    "url": "https://peacham.ccsuvt.net/141427_3",
+    "note": "Peacham SD board members page (official, fetched 2026-10-22): Hibbert (Chair) expires 2027; Clough (Vice Chair) 2027; Maclean 2028; Dedam 2028; Devine (Clerk) 2029. The board has five directors (section 423 as expanded under 423(b); the expansion vote itself was not fetched). The Town of Peacham's school-board page is STALE (it lists Diana Senturia in Dedam's seat and Clough as chair, while the district's Oct. 5, 2026 minutes show Hibbert chairing) -- the district page governs. Resolving documents for the Dedam flag: the Peacham School Meeting Minutes 2026 and any spring-fall 2026 appointment minutes (both town-posted PDFs failed text extraction this session).",
+    "retrieved": "2026-10-22"
+   }
+  ]
+ },
+ "directors": [
+  {
+   "name": "Andra Hibbert",
+   "slug": "andra-hibbert",
+   "how_seated": "elected",
+   "end": "2027",
+   "note": "Board Chair (Oct. 5, 2026 minutes)."
+  },
+  {
+   "name": "Mark Clough",
+   "slug": "mark-clough",
+   "how_seated": "elected",
+   "end": "2027",
+   "note": "Vice Chair."
+  },
+  {
+   "name": "Alex Maclean",
+   "slug": "alex-maclean",
+   "how_seated": "elected",
+   "end": "2028",
+   "note": "Name as the district page prints it (\"Alexandra MacLean\" on the town page)."
+  },
+  {
+   "name": "Rose Dedam",
+   "slug": "rose-dedam",
+   "how_seated": "elected",
+   "end": "2028",
+   "note": "Minted off the district's current official roster with its published end -- FLAGGED: the stale town page lists Diana Senturia in this seat, and how Dedam took the seat (election vs. mid-term appointment) is documented in no fetched source; the 2026 school meeting minutes / appointment record would settle it."
+  },
+  {
+   "name": "Daniel Devine",
+   "slug": "daniel-devine",
+   "how_seated": "elected",
+   "end": "2029",
+   "note": "Board Clerk (\"Dan Devine\" in minutes; officer role not modeled)."
+  }
+ ]
+}

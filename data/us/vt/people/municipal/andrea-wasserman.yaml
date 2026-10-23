@@ -1,0 +1,27 @@
+# Town of Vershire municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/cec30352-6074-5d55-ae8a-7ec257024295
+name: Andrea Wasserman
+identifiers: []
+candidacies:
+- contest_id: vershire-vt/2024-11-05/justice-of-the-peace
+  election_id: vershire-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:vershire/government
+  office_id: vershire-vt/justice-of-the-peace
+  party: null
+  ballot_name: Andrea Wasserman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Vershire justices of the
+    peace: Benjamin ''Pat'' Barnes, Margaret ''Peggy'' Darrow, Bonnie Strout, Reva
+    Seybolt, and Andrea Wasserman. The town report''s justice table swaps Strout for
+    Dawn Hancy, an equal-count name-swap; the certified slate governs, Strout''s only
+    documented resignation being from her appointed lister seat, and Hancy is recorded
+    as the divergence'
+  retrieved: '2026-10-20'

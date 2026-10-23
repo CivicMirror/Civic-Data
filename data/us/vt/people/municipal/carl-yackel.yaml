@@ -1,0 +1,24 @@
+# Town of Rupert municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/cdb29b98-64b0-57b6-963a-22702b481bd5
+name: Carl Yackel
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a board of listers of three'
+  retrieved: '2026-10-19'
+- url: https://rupert.vt.gov/wp-content/uploads/2026/03/Certificate-of-Election-3-3-2026.pdf
+  note: 'Town of Rupert, Certificate of Votes, Results of Town Meeting, March 3, 2026
+    (196 votes cast; certified by the Town Clerk): Jed Rubin was re-elected a lister
+    with 166 votes'
+  retrieved: '2026-10-19'
+- url: https://rupert.vt.gov
+  note: 'Town of Rupert, 2025 Town Report, ''Rupert Town Officers'' table: the listers
+    are Jed Rubin (Chair), Carl Yackel (term to 2027), and Daniel Fuller (term to
+    2028)'
+  retrieved: '2026-10-19'

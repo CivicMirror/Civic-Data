@@ -1,0 +1,20 @@
+# Town of Calais municipal roster backfill -- Vermont
+# municipal fan-out batch 5; issue #163 (VT master tracking).
+id: ocd-person/f72af1e0-5967-5845-b3a9-7b4ae88512b6
+name: Michael Fullerton
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://calaisvermont.govoffice.com/vertical/Sites/%7B226D684E-C864-4AFA-B4A5-59BE32741B77%7D/uploads/Town_Meeting_Warning_2026_SIGNED.pdf
+  note: 'Town of Calais, Warning for the Annual Meeting of March 3, 2026 (signed):
+    Article 3 elects a Cemetery Commissioner for a five-year term expiring 2031.'
+  retrieved: '2026-10-18'
+- url: https://www.calaisvermont.gov
+  note: 'Town of Calais official website: the 2025 Town Report lists five Cemetery
+    Commissioners: Michael Fullerton, Juanita Nunn, Laura Dailey, Shari Fitch, and
+    Sage Kennedy; Dailey was re-elected in 2026.'
+  retrieved: '2026-10-18'

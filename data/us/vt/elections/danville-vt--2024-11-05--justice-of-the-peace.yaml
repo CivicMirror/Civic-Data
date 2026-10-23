@@ -1,0 +1,53 @@
+# Town of Danville -- justice of the peace election (VT municipal batch 6); issue #163 (VT master tracking).
+id: danville-vt/2024-11-05/general
+name: Town of Danville Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: danville-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:danville/government
+  office_id: danville-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/92995afa-a7e5-5b11-be48-46cbfaf3e5b3
+  - ocd-person/44a69020-1294-5617-9dff-a910e53938e4
+  - ocd-person/a455a2a4-1d6a-52de-8bc9-2e0df9c4d6ba
+  - ocd-person/11f7eb5e-6d81-5e23-9997-6f9e6a18bfae
+  - ocd-person/52fd2fc2-327c-5ea0-b15e-bef058155202
+  - ocd-person/dd9d51cc-dc44-5be5-812c-b93c30b01e6b
+  - ocd-person/fcc9faf7-4b10-58fb-a8d0-ec238fc9a12f
+  - ocd-person/5175ca3f-67fb-5f83-8c15-0b0c36920822
+  - ocd-person/42d85c37-9e76-5e8d-b310-ff91ae1057fd
+  - ocd-person/5d6efe27-8bd1-598e-bb8c-8ab822d538ea
+  result_status: official
+  winners:
+  - person_id: ocd-person/92995afa-a7e5-5b11-be48-46cbfaf3e5b3
+    name: Barbara Hawley
+  - person_id: ocd-person/44a69020-1294-5617-9dff-a910e53938e4
+    name: Brittany Larrabee Wilson
+  - person_id: ocd-person/a455a2a4-1d6a-52de-8bc9-2e0df9c4d6ba
+    name: Bruce Melendy
+  - person_id: ocd-person/11f7eb5e-6d81-5e23-9997-6f9e6a18bfae
+    name: Eric Bach
+  - person_id: ocd-person/52fd2fc2-327c-5ea0-b15e-bef058155202
+    name: Jenny Rafuse
+  - person_id: ocd-person/dd9d51cc-dc44-5be5-812c-b93c30b01e6b
+    name: Julie Larrabee
+  - person_id: ocd-person/fcc9faf7-4b10-58fb-a8d0-ec238fc9a12f
+    name: Libby Hillhouse
+  - person_id: ocd-person/5175ca3f-67fb-5f83-8c15-0b0c36920822
+    name: Matthew Choate
+  - person_id: ocd-person/42d85c37-9e76-5e8d-b310-ff91ae1057fd
+    name: Phyllis Kehley Sweeney
+  - person_id: ocd-person/5d6efe27-8bd1-598e-bb8c-8ab822d538ea
+    name: Virginia Incerpi
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Danville justices
+    of the peace elected November 5, 2024: Eric Bach, Matthew Choate, Barbara Hawley,
+    Libby Hillhouse, Virginia Incerpi, Julie Larrabee, Bruce Melendy, Jenny Rafuse,
+    Phyllis Kehley Sweeney, and Brittany Larrabee Wilson. The listing publishes no
+    vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'

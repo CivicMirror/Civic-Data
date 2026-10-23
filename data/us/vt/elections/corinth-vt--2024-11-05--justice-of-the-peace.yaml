@@ -1,0 +1,43 @@
+# Town of Corinth -- justice of the peace election (VT municipal batch 6); issue #163 (VT master tracking).
+id: corinth-vt/2024-11-05/general
+name: Town of Corinth Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: corinth-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:corinth/government
+  office_id: corinth-vt/justice-of-the-peace
+  vote_for: 7
+  candidate_ids:
+  - ocd-person/f7bc27f2-5126-58cc-bc05-fc10d81eb7c6
+  - ocd-person/f85462f1-12a9-56b0-909f-71aafa9478df
+  - ocd-person/5bbc9439-9e16-50a1-81cf-7e370be75165
+  - ocd-person/6872f51d-50f4-58cc-97bf-117210507af4
+  - ocd-person/7111958e-722c-5332-ae00-8d07235dc693
+  - ocd-person/28c04992-bb6b-5460-8689-03fd3c76b623
+  - ocd-person/f2cd47d1-7976-5a8d-99c1-aaa03e51295b
+  result_status: official
+  winners:
+  - person_id: ocd-person/f7bc27f2-5126-58cc-bc05-fc10d81eb7c6
+    name: Allegra Shumway
+  - person_id: ocd-person/f85462f1-12a9-56b0-909f-71aafa9478df
+    name: Amy Peberdy
+  - person_id: ocd-person/5bbc9439-9e16-50a1-81cf-7e370be75165
+    name: Anne Margolis
+  - person_id: ocd-person/6872f51d-50f4-58cc-97bf-117210507af4
+    name: Jane Conner
+  - person_id: ocd-person/7111958e-722c-5332-ae00-8d07235dc693
+    name: Kathy Chapman
+  - person_id: ocd-person/28c04992-bb6b-5460-8689-03fd3c76b623
+    name: Russ Pazdro
+  - person_id: ocd-person/f2cd47d1-7976-5a8d-99c1-aaa03e51295b
+    name: Tim O'Dell
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists seven Corinth justices
+    of the peace elected November 5, 2024: Kathy Chapman, Jane Conner, Anne Margolis,
+    Tim O''Dell, Russ Pazdro, Amy Peberdy, and Allegra Shumway. The listing publishes
+    no vote totals or party labels and none are recorded.'
+  retrieved: '2026-10-18'

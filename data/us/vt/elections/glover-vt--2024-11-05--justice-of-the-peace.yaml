@@ -1,0 +1,35 @@
+# Town of Glover -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: glover-vt/2024-11-05/general
+name: Town of Glover Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: glover-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:glover/government
+  office_id: glover-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/1fadee26-87e4-5745-ad57-27a566eceec0
+  - ocd-person/88986457-5c70-5a58-be9f-1bb482e010ec
+  - ocd-person/276c5ffd-1ed0-5952-a892-d487d3f34235
+  - ocd-person/bd050ca5-369a-531e-8530-8d39ab1a1aa7
+  - ocd-person/74350e88-40cb-5c2a-b86f-2257a2e12a75
+  result_status: official
+  winners:
+  - person_id: ocd-person/1fadee26-87e4-5745-ad57-27a566eceec0
+    name: Carmella Young
+  - person_id: ocd-person/88986457-5c70-5a58-be9f-1bb482e010ec
+    name: Carol Borland
+  - person_id: ocd-person/276c5ffd-1ed0-5952-a892-d487d3f34235
+    name: Elizabeth Nelson
+  - person_id: ocd-person/bd050ca5-369a-531e-8530-8d39ab1a1aa7
+    name: Leanne Harple
+  - person_id: ocd-person/74350e88-40cb-5c2a-b86f-2257a2e12a75
+    name: Sarah Becky Galloway
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the five
+    Glover winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'

@@ -1,0 +1,21 @@
+# Town of Starksboro municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/fc150c3a-9139-54c2-82bc-248eb82b0d1d
+name: Eric Cota
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Selectboard Members''
+    directory (updated June 5, 2026): names Koran Cousino (Chair), Eric Cota, Carin
+    Mccarthy, Tony Porter, and David Schmidt'
+  retrieved: '2026-10-19'
+- url: https://starksborovt.org/sites/default/files/uploads/content/Town%20Meeting/starksboro-election-results-2026.pdf
+  note: 'Town of Starksboro, official results ballot for the annual meeting of March
+    3, 2026 (town website, starksborovt.org): Koran Cousino was re-elected with 249
+    votes, Carin H. McCarthy with 298, and Tony Porter to a remainder seat with 310'
+  retrieved: '2026-10-19'

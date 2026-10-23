@@ -1,0 +1,37 @@
+# Town of Morgan -- justice of the peace election (VT municipal batch 15); issue #163 (VT master tracking).
+id: morgan-vt/2024-11-05/general
+name: Town of Morgan Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: morgan-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:morgan/government
+  office_id: morgan-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/5d44299b-df4e-51a1-8371-7f9ac51b9453
+  - ocd-person/69bb4668-9dfc-57fa-992d-6323741e8ee9
+  - ocd-person/8370b4ac-e85e-5f83-b95a-e09bd88eb312
+  - ocd-person/5c51b7ea-7dbe-56df-84a6-45ff8c7bca2f
+  - ocd-person/a0842f3f-cf24-5da7-b52d-24ab329ab821
+  result_status: official
+  winners:
+  - person_id: ocd-person/5d44299b-df4e-51a1-8371-7f9ac51b9453
+    name: Debra Bevins
+  - person_id: ocd-person/69bb4668-9dfc-57fa-992d-6323741e8ee9
+    name: Donna Young
+  - person_id: ocd-person/8370b4ac-e85e-5f83-b95a-e09bd88eb312
+    name: Jane Malgeri
+  - person_id: ocd-person/5c51b7ea-7dbe-56df-84a6-45ff8c7bca2f
+    name: Julia Norton
+  - person_id: ocd-person/a0842f3f-cf24-5da7-b52d-24ab329ab821
+    name: Meredith Augustoni
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists five Morgan justices of the
+    peace elected November 5, 2024: Jane Malgeri, Donna Young, Julia Norton, Debra
+    Bevins, and Meredith Augustoni. The listing publishes no vote totals or party
+    labels and none are recorded'
+  retrieved: '2026-10-18'

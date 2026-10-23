@@ -1,0 +1,40 @@
+# Holland -- justice of the peace election (VT municipal batch 11); issue #163 (VT master tracking).
+id: holland-vt/2024-11-05/general
+name: Holland Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: holland-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:holland/government
+  office_id: holland-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/1b5422ee-a595-5e9c-8240-d01943882a08
+  - ocd-person/7087fcf1-df41-5e9b-826d-388b35d24f0e
+  - ocd-person/a6a19806-78d0-5522-a8eb-c458cf54b53c
+  - ocd-person/b499bec9-f261-530a-b229-4b0ee08ef86d
+  - ocd-person/c92b9fc7-4c70-59d5-98da-228e3e3061d2
+  result_status: official
+  winners:
+  - person_id: ocd-person/1b5422ee-a595-5e9c-8240-d01943882a08
+    name: Brian Currier
+  - person_id: ocd-person/7087fcf1-df41-5e9b-826d-388b35d24f0e
+    name: Diane Judd
+  - person_id: ocd-person/a6a19806-78d0-5522-a8eb-c458cf54b53c
+    name: Kenric Gonyaw
+  - person_id: ocd-person/b499bec9-f261-530a-b229-4b0ee08ef86d
+    name: Lucy Neel
+  - person_id: ocd-person/c92b9fc7-4c70-59d5-98da-228e3e3061d2
+    name: Thomas Adams
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the winners were Diane Judd,
+    Brian Currier, Thomas Adams, Kenric Gonyaw, and Lucy Neel (five seats). The town
+    report''s JP block concurs'
+  retrieved: '2026-10-18'
+- url: https://hollandvt.gov/assets/documents/HOLLAND_AnnualReport_25.F.pdf
+  note: 'Town of Holland, 2025 Annual Report (official town website): the report''s
+    Town Officers table prints the office, its term, the holder, and the term''s expiry'
+  retrieved: '2026-10-18'

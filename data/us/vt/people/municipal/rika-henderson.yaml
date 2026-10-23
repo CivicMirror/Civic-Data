@@ -1,0 +1,32 @@
+# Town of Weathersfield municipal roster backfill -- Vermont
+# municipal fan-out batch 25; issue #163 (VT master tracking).
+id: ocd-person/b7bec158-b092-5ee3-b624-60d661981a88
+name: Rika Henderson
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://www.weathersfieldvt.org/326/Selectboard
+  note: 'Town of Weathersfield, Selectboard page (weathersfieldvt.org): lists the
+    current board -- Rika Henderson (Chair, term to 2029), Dave Fuller (Vice Chair,
+    to 2027), deForest Bearse (to 2028), Zach Van Valkenburgh (to 2027), and Joseph
+    Bublat (to 2028)'
+  retrieved: '2026-10-20'
+- url: https://www.weathersfieldvt.org/DocumentCenter/View/3229/3326-Town-Voting-Results
+  note: 'Town of Weathersfield, ''3/3/26 Town Voting Results'' -- the official March
+    3, 2026 ballot with handwritten tallies, posted on the town''s Voting Results
+    page: Henderson was re-elected to a three-year term (543 votes) and Bublat elected
+    to a two-year term (471) on March 3, 2026'
+  retrieved: '2026-10-20'
+- url: https://www.weathersfieldvt.org/DocumentCenter/View/419/FY2025-Town-Report
+  note: 'Town of Weathersfield, FY2024-2025 Town Report, ''Town of Weathersfield,
+    Vermont Elected Officials'' list (as of December 31, 2025): the December 2025
+    roster -- Michael Todd, Henderson, Kelly O''Brien, Bearse, Nathan McNaughton --
+    is what the June 2026 Secretary of State directory carries (stale). Fuller and
+    Van Valkenburgh now sit in the seats the report gave Todd and O''Brien (both expiring
+    2027); the succession mechanism is unpublished and the town''s current page governs
+    (disclosed on #163)'
+  retrieved: '2026-10-20'

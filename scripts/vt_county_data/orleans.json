@@ -1,0 +1,79 @@
+{
+ "county": "orleans",
+ "name": "Orleans County",
+ "dept_url": "https://prosecutors.vermont.gov/offices/orleans",
+ "dept_sa": "Farzana Leyva (name under the State's Attorney heading; staff list styles her Deputy State's Attorney - status to resolve)",
+ "dept_sheriff": "Jennifer Harlow",
+ "offices": {
+  "states-attorney": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/158041",
+   "candidates": [
+    {
+     "name": "Jennifer Barrett",
+     "party": "Democratic/Republican",
+     "votes": 8041,
+     "winner": true
+    }
+   ],
+   "write_ins": 673,
+   "note_extra": "Mid-term change: the 2022 winner, Jennifer Barrett, no longer holds the office; the Department page associates Farzana Leyva with the office but styles her Deputy State's Attorney in its staff list (see county notes - resolve before building)."
+  },
+  "sheriff": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157901",
+   "candidates": [
+    {
+     "name": "Jennifer Harlow Jacobs",
+     "party": "Democratic/Republican",
+     "votes": 8857,
+     "winner": true
+    }
+   ],
+   "write_ins": 144
+  },
+  "assistant-judge": {
+   "election": "2022",
+   "db_url": "https://electionarchive.vermont.gov/contest/157853",
+   "vote_for": 2,
+   "candidates": [
+    {
+     "name": "Benjamin M. Batchelder",
+     "party": "Democratic/Republican",
+     "votes": 7391,
+     "winner": true
+    },
+    {
+     "name": "Curtis A. Hardy",
+     "party": "Democratic/Republican",
+     "votes": 6775,
+     "winner": true
+    }
+   ],
+   "write_ins": 69
+  },
+  "high-bailiff": {
+   "election": "2024",
+   "db_url": "https://electionarchive.vermont.gov/contest/160982",
+   "candidates": [],
+   "write_ins": 1094,
+   "no_candidates": true
+  }
+ },
+ "sa_transition": {
+  "outgoing": "Jennifer Barrett",
+  "event": "appointed to the Superior Court in September 2022; she was the only candidate on the November 2022 ballot and won the vote but could not assume the office",
+  "interim_and_current": "Farzana Leyva",
+  "sources": [
+   {
+    "url": "http://governor.vermont.gov/press-release/governor-phil-scott-appoints-farzana-leyva-orleans-county-states-attorney",
+    "note": "Office of Governor Phil Scott press release, January 30, 2023: Governor Scott appointed Farzana Leyva, of Westfield, as Orleans County State's Attorney. Leyva had served as acting State's Attorney since former State's Attorney Jennifer Barrett was appointed to the Superior Court; Barrett was the only candidate on the 2022 ballot for the office and could not assume the role, leaving the vacancy."
+   },
+   {
+    "url": "https://prosecutors.vermont.gov/offices/orleans",
+    "note": "Department of State's Attorneys and Sheriffs, Orleans County office page: lists Farzana Leyva at the head of the State's Attorney's office as of the October 2026 retrieval."
+   }
+  ],
+  "build_note": "Barrett: person + 2022 candidacy + winner entry, NO membership (never assumed the office; took the bench). Leyva: person + membership, how_seated appointed, no candidacy (her fall 2022 write-in campaign is not a database candidacy; the 673 write-ins are not attributed)."
+ }
+}

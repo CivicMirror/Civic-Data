@@ -1,0 +1,25 @@
+# Town of Shaftsbury municipal roster backfill -- Vermont
+# municipal fan-out batch 21; issue #163 (VT master tracking).
+id: ocd-person/1b0740d9-e9a5-5cf3-bd94-1bdd89e14d68
+name: Karen Mellinger
+identifiers: []
+candidacies:
+- contest_id: shaftsbury-vt/2024-11-05/justice-of-the-peace
+  election_id: shaftsbury-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:shaftsbury/government
+  office_id: shaftsbury-vt/justice-of-the-peace
+  party: null
+  ballot_name: Karen Mellinger
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists twelve Shaftsbury justices of
+    the peace: Nancy Burns, Mike Caslin, Abby Chaloux, Joe Coonradt, Marna Dailey,
+    Joan Dornhoefer, Carol Korman, Ann Mele, Karen Mellinger, Alice Miller, Linda
+    Morris, and Joan Vargo'
+  retrieved: '2026-10-19'

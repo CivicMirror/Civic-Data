@@ -1,0 +1,16 @@
+# Town of Bloomfield municipal roster backfill -- worked example
+# for the Vermont municipal tier; issue #163 (VT master tracking).
+id: bloomfield-vt/town-treasurer
+organization_id: ocd-organization/3255301e-d0a7-50ce-b2c0-8dc7ea5acfc7
+title: Town Treasurer
+seats: 1
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/vermont_town_treasurer_contact_information.xlsx
+  note: 'Vermont Secretary of State, Elections Division, town treasurer contact information
+    spreadsheet (last updated June 12, 2026), Bloomfield row: Sharon Belknap, Treasurer.'
+  retrieved: '2026-10-16'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers & County Clerks'' (January 2026), Bloomfield entry: Sharon
+    Belknap, Treasurer (corroborates the contact spreadsheet).'
+  retrieved: '2026-10-16'

@@ -1,0 +1,50 @@
+# Town of Richford -- justice of the peace election (VT municipal batch 19); issue #163 (VT master tracking).
+id: richford-vt/2024-11-05/general
+name: Town of Richford Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: richford-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:richford/government
+  office_id: richford-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/1cd3194f-a1d7-539d-bfd8-b06e7d1e08b8
+  - ocd-person/7252ee01-a8b2-5218-9336-15a8011de449
+  - ocd-person/10dc74b1-8e13-538c-809d-a4f9d6984ed4
+  - ocd-person/1616f9d0-376d-566e-8ab0-e2f91ad8a264
+  - ocd-person/274bfb5c-8294-5393-a45d-57ee0edde425
+  - ocd-person/865c08eb-4256-5afc-9953-e9535aebd226
+  - ocd-person/7592b7fa-215d-5a3b-b852-bc898f4cbd57
+  - ocd-person/a2004b2c-bd9d-50e2-b3df-113e0bb8cccc
+  - ocd-person/0c6efddf-6323-546c-8b77-d0dcd71e8bfe
+  - ocd-person/3b876b04-b5f8-53a1-b348-b325fc4346a7
+  result_status: official
+  winners:
+  - person_id: ocd-person/1cd3194f-a1d7-539d-bfd8-b06e7d1e08b8
+    name: Alan Fletcher
+  - person_id: ocd-person/7252ee01-a8b2-5218-9336-15a8011de449
+    name: Ann Lavery
+  - person_id: ocd-person/10dc74b1-8e13-538c-809d-a4f9d6984ed4
+    name: Daniel Newton
+  - person_id: ocd-person/1616f9d0-376d-566e-8ab0-e2f91ad8a264
+    name: Eric Collins
+  - person_id: ocd-person/274bfb5c-8294-5393-a45d-57ee0edde425
+    name: Heidi Tessier
+  - person_id: ocd-person/865c08eb-4256-5afc-9953-e9535aebd226
+    name: Mary Finola Cournane
+  - person_id: ocd-person/7592b7fa-215d-5a3b-b852-bc898f4cbd57
+    name: Mary Robinson
+  - person_id: ocd-person/a2004b2c-bd9d-50e2-b3df-113e0bb8cccc
+    name: Morton H. Greenwood
+  - person_id: ocd-person/0c6efddf-6323-546c-8b77-d0dcd71e8bfe
+    name: Noela McGroarty
+  - person_id: ocd-person/3b876b04-b5f8-53a1-b348-b325fc4346a7
+    name: Timothy Greene
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): the certified listing names ten winners
+    for Richford''s ten justice of the peace seats'
+  retrieved: '2026-10-19'

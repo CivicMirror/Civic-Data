@@ -1,0 +1,26 @@
+# Town of St. George municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-person/da41d71c-2210-5885-b642-d5f527efbdf0
+name: Lisa Hodgkins
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect auditors (three, staggered three-year
+    terms)'
+  retrieved: '2026-10-19'
+- url: https://webgen1.revize.com/revize/stgeorgevt/2025%20Annual%20Report.pdf
+  note: 'Town of St. George, 2025 Annual Report, ''2025 ELECTED OFFICERS'' and ''2025
+    Town Officials / 2025 Appointed Officers'' pages (officers with term lengths and
+    expiry years): Auditors -- Caroline Jalbert (term expires 2028), Lisa Hodgkins
+    (2026), Sandra Jarvis (2027)'
+  retrieved: '2026-10-19'
+- url: https://stgeorgevt.com
+  note: 'Town of St. George official website, Minutes of the Annual Town Meeting of
+    March 3, 2026: Lisa Hodgkins was elected Auditor for a three-year term expiring
+    2029'
+  retrieved: '2026-10-19'

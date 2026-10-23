@@ -1,0 +1,16 @@
+# Johnson municipal roster backfill -- Vermont
+# municipal fan-out batch 12; issue #163 (VT master tracking).
+id: ocd-person/830eeaa3-4001-5a16-bb7d-ea16854768c9
+name: Dean Locke
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://storage.googleapis.com/juniper-media-library/237/2026/02/Town%20Report%202025.pdf
+  note: 'Town of Johnson, 2025 Town Report (official town website), ''Town Officers
+    - 2025'' table: the APPOINTMENTS section of the officers table names Dean Locke
+    as First Constable, an appointment of the selectboard'
+  retrieved: '2026-10-18'

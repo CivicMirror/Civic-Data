@@ -1,0 +1,25 @@
+# Town of Glover municipal roster backfill -- Vermont
+# municipal fan-out batch 9; issue #163 (VT master tracking).
+id: ocd-person/1fadee26-87e4-5745-ad57-27a566eceec0
+name: Carmella Young
+identifiers: []
+candidacies:
+- contest_id: glover-vt/2024-11-05/justice-of-the-peace
+  election_id: glover-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:glover/government
+  office_id: glover-vt/justice-of-the-peace
+  party: null
+  ballot_name: Carmella Young
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-18'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists five Glover justices
+    of the peace: Carol Borland, Sarah Becky Galloway, Leanne Harple, Elizabeth Nelson,
+    and Carmella Young. Harple is the sitting Orleans-4 state representative; her
+    existing state-tier person record is reused.'
+  retrieved: '2026-10-18'

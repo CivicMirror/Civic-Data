@@ -1,0 +1,24 @@
+# Town of Albany municipal roster backfill -- Vermont
+# municipal fan-out batch 1; issue #163 (VT master tracking).
+id: ocd-person/744de851-49a0-5e0f-b26f-81bbeb3c570b
+name: Vicki Strong
+identifiers: []
+candidacies:
+- contest_id: albany-00475-vt/2024-11-05/justice-of-the-peace
+  election_id: albany-00475-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:albany-00475/government
+  office_id: albany-00475-vt/justice-of-the-peace
+  party: null
+  ballot_name: Vicki Strong
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_municipality
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (last updated December 4, 2025), Albany (Orleans County):
+    Chad Tollman, Anthony Daniels, Vicki Strong, Cheryl Dewees, Kelsey Crelin. The
+    listing presents the justices elected November 5, 2024.'
+  retrieved: '2026-10-17'

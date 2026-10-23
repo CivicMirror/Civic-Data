@@ -1,0 +1,41 @@
+# Washington-3 House District -- VT legislative pass (district + post + members + election together);
+# issue #163 (VT master tracking).
+id: ocd-person/8f50fe40-1322-53f1-ac77-00c4f23f0009
+name: Michael Boutin
+identifiers: []
+candidacies:
+- contest_id: vt-house-washington-3/2024-11-05/state-representative
+  election_id: vt-house-washington-3/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/sldl:washington-3/legislature
+  office_id: vt-house-washington-3/state-representative
+  party: Republican
+  ballot_name: Michael Boutin
+  status: active
+- contest_id: barre-vt/2024-11-05/justice-of-the-peace
+  election_id: barre-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:barre/government
+  office_id: barre-vt/justice-of-the-peace
+  party: null
+  ballot_name: Michael Boutin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_house
+sources:
+- url: https://electionarchive.vermont.gov/contest/161077
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2024
+    Nov 5, General Election, State Representative, Washington-3 District'' (district
+    totals): Michael Boutin (Republican) 1,857 votes; Edward "Teddy" Waszazak (Democratic)
+    1,422; Jonathan Williams (Democratic) 1,384; Carol Dawes (Independent) 1,363;
+    write-ins 19. The contest page''s cited official source is the Secretary of State''s
+    ''November 5, 2024 General Official Results.pdf''. State representatives serve
+    two-year terms; the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
+- url: https://legislature.vermont.gov/people/all/2026/House
+  note: 'Vermont General Assembly, All Representatives directory (2025-2026 session):
+    lists the sitting representative(s) for the Washington-3 District.'
+  retrieved: '2026-10-17'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices of the Peace'' listing (updated December 4, 2025): lists Michael Boutin of Barre City as a justice of the peace for the 2025-2026 term.'
+  retrieved: '2026-10-17'

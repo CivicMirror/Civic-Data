@@ -1,0 +1,37 @@
+# Town of Waterville -- justice of the peace election (VT municipal batch 25); issue #163 (VT master tracking).
+id: waterville-vt/2024-11-05/general
+name: Town of Waterville Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: waterville-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waterville/government
+  office_id: waterville-vt/justice-of-the-peace
+  vote_for: 5
+  candidate_ids:
+  - ocd-person/4f3bb684-d7a1-5162-af0b-efcdfd87046b
+  - ocd-person/8d088840-4706-5d8a-adff-939972a69760
+  - ocd-person/757d6036-4564-5dae-a0ba-e520eff3c81b
+  - ocd-person/d3315484-ae9b-5f9b-869d-1f3967d811cc
+  - ocd-person/0b0919c9-7980-5132-b7db-6f9e843d324c
+  result_status: official
+  winners:
+  - person_id: ocd-person/4f3bb684-d7a1-5162-af0b-efcdfd87046b
+    name: Edna Lafountain
+  - person_id: ocd-person/8d088840-4706-5d8a-adff-939972a69760
+    name: Linda Ward
+  - person_id: ocd-person/757d6036-4564-5dae-a0ba-e520eff3c81b
+    name: Trista Hutchins
+  - person_id: ocd-person/d3315484-ae9b-5f9b-869d-1f3967d811cc
+    name: Wanda Locke
+  - person_id: ocd-person/0b0919c9-7980-5132-b7db-6f9e843d324c
+    name: William Baker
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): certifies the five winners of Waterville''s
+    November 5, 2024 justice of the peace election (vote for five): William Baker,
+    Trista Hutchins, Edna Lafountain, Wanda Locke, and Linda Ward. All five remain
+    in office'
+  retrieved: '2026-10-20'

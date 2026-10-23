@@ -1,0 +1,46 @@
+# Town of Waitsfield municipal roster backfill -- Vermont
+# municipal fan-out batch 24; issue #163 (VT master tracking).
+id: ocd-person/985192e3-6322-5961-9327-bc48e66bc6df
+name: Jennifer Peterson
+identifiers: []
+candidacies:
+- contest_id: waitsfield-vt/2024-11-05/justice-of-the-peace
+  election_id: waitsfield-vt/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:waitsfield/government
+  office_id: waitsfield-vt/justice-of-the-peace
+  party: null
+  ballot_name: Jennifer Peterson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-20'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/fullchapter/24APPENDIX/157
+  note: '24 App. V.S.A. ch. 157 (Town of Waitsfield): section 5(a): the Selectboard
+    appoints the Town Clerk to a term of one to three years'
+  retrieved: '2026-10-20'
+- url: https://waitsfieldvt.gov/fileadmin/files/Departments/Town_Clerk/Annual_Reports/2025_Waitsfield_Town_Report.pdf
+  note: 'Town of Waitsfield, 2025 Annual Report, ''TOWN OFFICERS 2025'' pages: elected
+    by Australian ballot, elected from the floor, and appointed by the Selectboard:
+    lists Jennifer Peterson as Town Clerk (appointed, term to March 2027); the town''s
+    live Town Clerk page concurs'
+  retrieved: '2026-10-20'
+- url: https://waitsfieldvt.gov/fileadmin/files/Departments/Town_Clerk/Annual_Reports/2025_Waitsfield_Town_Report.pdf
+  note: 'Town of Waitsfield, 2025 Annual Report, ''TOWN OFFICERS 2025'' pages: elected
+    by Australian ballot, elected from the floor, and appointed by the Selectboard:
+    lists Jennifer Peterson as Collector of Delinquent Taxes (elected); the 2026 Warning''s
+    Article 3 confirms the one-year term stood in 2026 (and asks to lengthen it to
+    three years from 2027)'
+  retrieved: '2026-10-20'
+- url: https://www.waitsfieldvt.gov/departments/town-clerk
+  note: 'Town of Waitsfield, Town Clerk page: styles Jennifer Peterson ''Town Clerk,
+    Delinquent Tax Collector, Assistant Town Treasurer'' today -- incumbent continuity
+    on the town''s own current presentation'
+  retrieved: '2026-10-20'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Vermont Justices of the
+    Peace'' listing (updated December 4, 2025): lists seven Waitsfield justices of
+    the peace: Cecil ''Zeke'' Church, Andreas Lehner, Mary Lehner, Helen Myers, Jennifer
+    Peterson, Roberta ''Bobbi'' Rood, and Karen Rookwood'
+  retrieved: '2026-10-20'

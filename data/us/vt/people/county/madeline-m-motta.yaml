@@ -1,0 +1,28 @@
+# Lamoille County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/1cf54cbb-e0a6-5f46-a682-fd8744e7bf52
+name: Madeline M. Motta
+identifiers: []
+candidacies:
+- contest_id: lamoille-vt-county/2022-11-08/assistant-judge
+  election_id: lamoille-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:lamoille/government
+  office_id: lamoille-vt-county/assistant-judge
+  party: Democratic
+  ballot_name: Madeline M. Motta
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157851
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Lamoille County'' (vote for 2; county
+    totals): David Yacovone (Democratic) 7,884 votes; Madeline M. Motta (Democratic)
+    6,153; write-ins 162. David Yacovone and Madeline M. Motta were the only two candidates
+    for the two seats. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

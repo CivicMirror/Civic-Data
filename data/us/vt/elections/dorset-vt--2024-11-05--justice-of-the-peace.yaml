@@ -1,0 +1,57 @@
+# Town of Dorset -- justice of the peace election (VT municipal batch 7); issue #163 (VT master tracking).
+id: dorset-vt/2024-11-05/general
+name: Town of Dorset Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: dorset-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:dorset/government
+  office_id: dorset-vt/justice-of-the-peace
+  vote_for: 10
+  candidate_ids:
+  - ocd-person/7ec57b01-d714-5af0-a9ff-b5e502484a97
+  - ocd-person/c58b62ec-922f-5ae3-8af0-28795f6ec5c6
+  - ocd-person/761b3d44-52ac-507f-899b-80dca5b3fa71
+  - ocd-person/f19613ba-7ed0-5b16-a0c6-c5a5e8c49be0
+  - ocd-person/715d2c87-b7a5-5dfc-8c5e-f0b6d152189f
+  - ocd-person/df9eed0c-e2d4-50f3-abcd-4d14ab67bf5b
+  - ocd-person/eaec2a54-12cd-5095-8fda-b75412c0371a
+  - ocd-person/500d9d5c-fa9f-552e-b75f-e3d2661adfb2
+  - ocd-person/46859325-58c0-57ea-8a41-767024564dd7
+  - ocd-person/c5a65b7a-24d7-50d2-b01d-27e327fbc152
+  result_status: official
+  winners:
+  - person_id: ocd-person/7ec57b01-d714-5af0-a9ff-b5e502484a97
+    name: Bo Thorn
+  - person_id: ocd-person/c58b62ec-922f-5ae3-8af0-28795f6ec5c6
+    name: Howard W. Coolidge
+  - person_id: ocd-person/761b3d44-52ac-507f-899b-80dca5b3fa71
+    name: Jennifer Halligan Comar
+  - person_id: ocd-person/f19613ba-7ed0-5b16-a0c6-c5a5e8c49be0
+    name: John "Will" Rucker
+  - person_id: ocd-person/715d2c87-b7a5-5dfc-8c5e-f0b6d152189f
+    name: Lee Fox
+  - person_id: ocd-person/df9eed0c-e2d4-50f3-abcd-4d14ab67bf5b
+    name: Michelle Pagan
+  - person_id: ocd-person/eaec2a54-12cd-5095-8fda-b75412c0371a
+    name: Roger Squire
+  - person_id: ocd-person/500d9d5c-fa9f-552e-b75f-e3d2661adfb2
+    name: Russell Appelman
+  - person_id: ocd-person/46859325-58c0-57ea-8a41-767024564dd7
+    name: Sandra "Sandy" Pinsonault
+  - person_id: ocd-person/c5a65b7a-24d7-50d2-b01d-27e327fbc152
+    name: Tom Cooper
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): lists ten Dorset justices of
+    the peace elected November 5, 2024: Russell Appelman, Howard W Coolidge, Tom Cooper,
+    Lee Fox, Jennifer Halligan Comar, Michelle Pagan, Sandra "Sandy" Pinsonault, John
+    "Will" Rucker, Roger Squire, and Bo Thorn. The listing publishes no vote totals
+    or party labels and none are recorded.'
+  retrieved: '2026-10-18'
+- url: https://dorsetvt.org/uploads/3/5/3/5/35356792/2025_town_report_final.pdf
+  note: 'Town of Dorset 2025 Town Report (dorsetvt.org): the elected-officers table
+    lists the same ten justices of the peace.'
+  retrieved: '2026-10-18'

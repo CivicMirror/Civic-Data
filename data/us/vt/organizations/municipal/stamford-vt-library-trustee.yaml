@@ -1,0 +1,23 @@
+# Town of Stamford municipal roster backfill -- Vermont
+# municipal fan-out batch 22; issue #163 (VT master tracking).
+id: ocd-organization/9484ae3b-86cb-5571-ad5f-e803dbb7a8ed
+name: Town of Stamford Library Trustees
+jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:stamford/government
+identifiers:
+- scheme: civicmirror-office
+  identifier: stamford-vt/library-trustee
+status: active
+sources:
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, 2023 Town Report, ''Elected Town Officers'' and ''Appointed
+    Town Officers'' lists and the 2024 annual meeting warning printed in the report:
+    the Stamford Free Library''s trustees are elected (the 2023 report''s elected
+    list shows five trustees, although its term labels conflict between three- and
+    five-year terms -- flagged on issue #163)'
+  retrieved: '2026-10-19'
+- url: https://stamfordvt.net
+  note: 'Town of Stamford, official marked results ballot for the annual meeting of
+    March 3, 2026 (town website, stamfordvt.net): the single 2026 library seat drew
+    no write-in votes and the current trustees are published nowhere official, so
+    the post is created without memberships (straggler)'
+  retrieved: '2026-10-19'

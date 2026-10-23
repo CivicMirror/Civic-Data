@@ -1,0 +1,29 @@
+# Town of Fletcher -- justice of the peace election (VT municipal batch 9); issue #163 (VT master tracking).
+id: fletcher-vt/2024-11-05/general
+name: Town of Fletcher Justice of the Peace Election 2024-11-05
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: fletcher-vt/2024-11-05/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/place:fletcher/government
+  office_id: fletcher-vt/justice-of-the-peace
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/9010f855-0789-5485-ba4f-fc3f53af94d4
+  - ocd-person/40ff0c84-d779-5a05-81e3-7266df3f8b90
+  - ocd-person/93950f7b-d2dd-52cf-941a-6838610de50f
+  result_status: official
+  winners:
+  - person_id: ocd-person/9010f855-0789-5485-ba4f-fc3f53af94d4
+    name: David Clark
+  - person_id: ocd-person/40ff0c84-d779-5a05-81e3-7266df3f8b90
+    name: Jeremy Ayotte
+  - person_id: ocd-person/93950f7b-d2dd-52cf-941a-6838610de50f
+    name: Todd Baumeister
+sources:
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''2025-2026 Vermont Justices
+    of the Peace'' listing (updated December 4, 2025): the SOS listing names the three
+    Fletcher winners of the November 5, 2024 justice of the peace election.'
+  retrieved: '2026-10-18'

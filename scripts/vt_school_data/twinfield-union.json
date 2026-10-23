@@ -1,0 +1,88 @@
+{
+ "district_slug": "twinfield-union",
+ "district_name": "Twinfield Union School District",
+ "jurisdiction_sources": [
+  {
+   "url": "https://legislature.vermont.gov/statutes/section/16/010/00603",
+   "note": "16 V.S.A. section 603(a)(6)(A) inventory: Twinfield Union School District, a union school district in the Caledonia Central Supervisory Union (member towns: Marshfield, Plainfield), formed 1967. Operates PK-12.",
+   "retrieved": "2026-10-22"
+  },
+  {
+   "url": "https://twinfield.ccsuvt.net",
+   "note": "Twinfield Union School / Caledonia Central SU (official site).",
+   "retrieved": "2026-10-22"
+  }
+ ],
+ "board": {
+  "org_name": "Twinfield Union School Board",
+  "sources": [
+   {
+    "url": "https://law.justia.com/codes/vermont/2019/title-16-appendix/chapter-95/null/",
+    "note": "Twinfield Articles of Agreement (1967), codified at 16 V.S.A. App. ch. 95(b): each member district is entitled to one director plus one per 100 enrolled students (or major fraction) -- currently 3 Marshfield + 3 Plainfield on every recent official roster. The district's School Board Members page (twinfield.ccsuvt.net, fetched 2026-10-22) publishes the current board with towns and expirations: Barry (M) 2027, Baer (M) 2028, Bezak (M) 2029, Osman (P) 2028, Padilla (P) 2027, Andrews (P) 2029. FLAG (Padilla): the Plainfield seat expiring 2027 was Milena Yasus's in the 2022 annual report (her term there expiring 2024, consistent with a March 2024 election for the 2027 class); how Padilla took the seat (2024 election vs. appointment and later election) is documented in no fetched source -- she is minted ELECTED off the current official roster holding an unexpired term, with the succession flagged. Resolving documents: the board's 2024-2026 minutes and the March 2026 warning/results.",
+    "retrieved": "2026-10-22"
+   }
+  ]
+ },
+ "directors": [
+  {
+   "name": "Erin Barry",
+   "slug": "erin-barry",
+   "how_seated": "elected",
+   "post": "school-director-marshfield",
+   "end": "2027",
+   "note": "Board Chair."
+  },
+  {
+   "name": "Asa Baer",
+   "slug": "asa-baer",
+   "how_seated": "elected",
+   "post": "school-director-marshfield",
+   "end": "2028",
+   "note": "Vice-Chair."
+  },
+  {
+   "name": "Reta Bezak",
+   "slug": "reta-bezak",
+   "how_seated": "elected",
+   "post": "school-director-marshfield",
+   "end": "2029"
+  },
+  {
+   "name": "Janna Osman",
+   "slug": "janna-osman",
+   "how_seated": "elected",
+   "post": "school-director-plainfield",
+   "end": "2028"
+  },
+  {
+   "name": "Kendra Padilla",
+   "slug": "kendra-padilla",
+   "how_seated": "elected",
+   "post": "school-director-plainfield",
+   "end": "2027",
+   "note": "Succession to the Yasus seat undocumented -- see the flag in the board sources."
+  },
+  {
+   "name": "Sara Andrews",
+   "slug": "sara-andrews",
+   "how_seated": "elected",
+   "post": "school-director-plainfield",
+   "end": "2029",
+   "note": "Board Clerk (officer role not modeled)."
+  }
+ ],
+ "posts": [
+  {
+   "key": "school-director-marshfield",
+   "title": "School Director (Marshfield)",
+   "seats": 3,
+   "note": "Twinfield Union: Marshfield seats -- each member district elects its own directors (proportional; 16 V.S.A. App. ch. 95(b) enrollment formula, currently three per town)."
+  },
+  {
+   "key": "school-director-plainfield",
+   "title": "School Director (Plainfield)",
+   "seats": 3,
+   "note": "Twinfield Union: Plainfield seats -- each member district elects its own directors (proportional; ch. 95(b) formula)."
+  }
+ ]
+}

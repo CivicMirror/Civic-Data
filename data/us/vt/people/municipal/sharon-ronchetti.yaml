@@ -1,0 +1,21 @@
+# Town of Orwell municipal roster backfill -- Vermont
+# municipal fan-out batch 17; issue #163 (VT master tracking).
+id: ocd-person/e404c4f6-8cdb-55b0-8e28-cabbc610f60f
+name: Sharon Ronchetti
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://townoforwellvt.org/election-results-2/
+  note: 'Town of Orwell, Local Election Results 2026 page (signed by the Town Clerk):
+    Sharon Ronchetti was elected lister for a two-year remainder of a three-year term;
+    the three-year seat and the one-year remainder both returned Vacant'
+  retrieved: '2026-10-19'
+- url: https://townoforwellvt.org/listers/
+  note: 'Town of Orwell, Listers page: names Sharon Ronchetti and states one vacancy;
+    the second unfilled seat is created without a membership and no further holder
+    is asserted'
+  retrieved: '2026-10-19'

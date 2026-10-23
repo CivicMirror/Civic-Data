@@ -1,0 +1,26 @@
+# Town of Putney municipal roster backfill -- Vermont
+# municipal fan-out batch 19; issue #163 (VT master tracking).
+id: ocd-person/13fa6e53-b0ea-5cc1-bcb5-21c10aed606b
+name: Kimberly Munro
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://legislature.vermont.gov/statutes/section/17/055/02646
+  note: '17 V.S.A. section 2646: towns elect a town treasurer unless the town has
+    voted to authorize appointment under 17 V.S.A. section 2651f'
+  retrieved: '2026-10-19'
+- url: https://putneyvt.gov/Documents/Department/Clerk/Town%20Reports/2025_Town_Report.pdf
+  note: 'Town of Putney, 2025 Town Report, ELECTED OFFICIALS table and directory pages:
+    the Town Treasurer does not appear in the town''s ELECTED OFFICIALS table nor
+    on the 2025 or 2026 ballots; Kimberly Munro serves as Town Treasurer by appointment
+    (disclosed as for the clerk)'
+  retrieved: '2026-10-19'
+- url: https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf
+  note: 'Vermont Secretary of State, Elections Division, ''Guide to Vermont''s Town
+    Clerks, Treasurers, and County Officials'' (January 2026): lists Kimberly Munro
+    as Putney''s Town Treasurer'
+  retrieved: '2026-10-19'

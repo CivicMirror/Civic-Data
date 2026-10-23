@@ -1,0 +1,22 @@
+# Town of Roxbury municipal roster backfill -- Vermont
+# municipal fan-out batch 20; issue #163 (VT master tracking).
+id: ocd-person/76bee5cc-03a5-5fb2-9d75-d0d870a7c1a6
+name: Heidi Albright
+identifiers: []
+candidacies: []
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-19'
+  pipeline: build_vt_municipality
+sources:
+- url: https://roxburyvt.gov/wp-content/uploads/2026/03/town-ballot-results.pdf
+  note: 'Town of Roxbury, Certificate of Election, Town Officers, March 3, 2026 (attested
+    by Town Clerk Tammy Legacy, March 4, 2026): Heidi Albright was re-elected a library
+    trustee (165 votes); the other two 2026 trustee seats returned ''No one received
+    enough votes'''
+  retrieved: '2026-10-19'
+- url: https://roxburyvt.gov
+  note: 'Town of Roxbury, 2024 Annual Report, town officers table (terms with expiry
+    years): Carl Ellis''s library trustee term runs to 2027. A third seat filled in
+    2025 has no published holder, so three of the five seats are left unfilled'
+  retrieved: '2026-10-19'
