@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/81b5a79d-2ffe-5b52-a2ff-806528bba0fb
+name: Michelle A McIver
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-11-position-8
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-11/judiciary
+  office_id: or-circuit-court-district-11/judge-position-8
+  party: Nonpartisan
+  ballot_name: Michelle A McIver
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 11th District, Position 8: Michelle A McIver 35,389; miscellaneous write-ins 460.'
+  retrieved: '2026-10-23'

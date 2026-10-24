@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/534ebf52-fd9b-50cf-9427-4d982a7b90bb
+name: Amy Holmes Hehn
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-4-position-14
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-14
+  party: Nonpartisan
+  ballot_name: Amy Holmes Hehn
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 4th District, Position 14: Amy Holmes Hehn 152,037; miscellaneous write-ins 1,552.'
+  retrieved: '2026-10-23'

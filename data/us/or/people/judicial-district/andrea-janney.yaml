@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/d24d92ce-dfce-5b21-a4a5-5310dbd4ac52
+name: Andrea M Janney
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-13-position-1
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-13/judiciary
+  office_id: or-circuit-court-district-13/judge-position-1
+  party: Nonpartisan
+  ballot_name: Andrea M Janney
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 13th District, Position 1: Andrea M Janney 10,034; miscellaneous write-ins 145.'
+  retrieved: '2026-10-23'

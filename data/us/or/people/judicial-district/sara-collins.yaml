@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/b8d13099-15bd-5306-8570-10a89b32c3ff
+name: Sara J Collins
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/circuit-court-district-1-position-8
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-1/judiciary
+  office_id: or-circuit-court-district-1/judge-position-8
+  party: Nonpartisan
+  ballot_name: Sara J Collins
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for Judge of the Circuit Court, 1st District, Position 8: Sara J Collins 66,358; miscellaneous write-ins 757.'
+  retrieved: '2026-10-23'

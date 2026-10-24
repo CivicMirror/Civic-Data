@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/d8e3d7e2-9841-5445-b187-c334e77df176
+name: Jay A McAlpin
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-2-position-7
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-7
+  party: Nonpartisan
+  ballot_name: Jay A McAlpin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 2nd District, Position 7: Jay A McAlpin 48,781; miscellaneous write-ins 692.'
+  retrieved: '2026-10-23'

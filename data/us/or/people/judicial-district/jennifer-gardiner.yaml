@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/40b4ff76-47b0-5ae4-9784-c9a9e2ed93ca
+name: Jennifer K Gardiner
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/circuit-court-district-3-position-3
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-3
+  party: Nonpartisan
+  ballot_name: Jennifer K Gardiner
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Circuit Court, 3rd District, Position 3: Jennifer K Gardiner 70,257; miscellaneous write-ins 1,359.'
+  retrieved: '2026-10-23'

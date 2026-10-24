@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/1958947b-f3dc-5aee-996e-beac1ecb4c17
+name: Courtland Geyer
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-3-position-12
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-12
+  party: Nonpartisan
+  ballot_name: Courtland Geyer
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 3rd District, Position 12: Courtland Geyer 36,078; miscellaneous write-ins 351.'
+  retrieved: '2026-10-23'
