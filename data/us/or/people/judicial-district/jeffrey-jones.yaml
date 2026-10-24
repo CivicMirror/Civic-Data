@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/18a03438-f484-5903-8555-30ca5228bc4c
+name: Jeffrey S Jones
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-5-position-1
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-1
+  party: Nonpartisan
+  ballot_name: Jeffrey S Jones
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 5th District, Position 1: Jeffrey S Jones 54,294; miscellaneous write-ins 402.'
+  retrieved: '2026-10-23'

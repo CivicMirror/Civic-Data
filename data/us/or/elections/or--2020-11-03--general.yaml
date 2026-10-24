@@ -1,0 +1,194 @@
+# Built for issue #170 (Oregon master tracking): judicial contests from the
+# certified Abstract of Votes. Oregon nonpartisan judicial races are decided
+# at the primary when a candidate wins a majority; only races without a
+# primary majority (or with a canceled primary) reach the general election.
+id: or/2020-11-03/general
+name: Oregon 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: official
+contests:
+- id: or/2020-11-03/court-of-appeals-position-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/741a09d9-d465-5736-9f4f-02239fd9e029
+  result_status: certified
+  winners:
+  - person_id: ocd-person/741a09d9-d465-5736-9f4f-02239fd9e029
+    name: Jacqueline Kamins
+- id: or/2020-11-03/supreme-court-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ba4ce7a5-4aa8-5937-b0a3-9f3d2e84a123
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ba4ce7a5-4aa8-5937-b0a3-9f3d2e84a123
+    name: Christopher Garrett
+- id: or/2020-11-03/circuit-court-district-2-position-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e951346b-a234-5959-bf42-0c56ec30f664
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e951346b-a234-5959-bf42-0c56ec30f664
+    name: Amit Kapoor
+- id: or/2020-11-03/circuit-court-district-2-position-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-10
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/02b58978-c583-5773-9bd6-9184c0096a71
+  result_status: certified
+  winners:
+  - person_id: ocd-person/02b58978-c583-5773-9bd6-9184c0096a71
+    name: Kamala Shugar
+- id: or/2020-11-03/circuit-court-district-4-position-12
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-12
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/036063a4-2080-5106-8aa5-28ee74eb3ad3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/036063a4-2080-5106-8aa5-28ee74eb3ad3
+    name: Adrian L Brown
+- id: or/2020-11-03/circuit-court-district-4-position-26
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-26
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1182b502-c37b-523d-9eba-4d8db93b402b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1182b502-c37b-523d-9eba-4d8db93b402b
+    name: Steffan Alexander
+- id: or/2020-11-03/circuit-court-district-8-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-8/judiciary
+  office_id: or-circuit-court-district-8/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e226502f-c617-5f84-920e-36f9acc222d1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e226502f-c617-5f84-920e-36f9acc222d1
+    name: Matthew B Shirtcliff
+- id: or/2020-11-03/circuit-court-district-11-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-11/judiciary
+  office_id: or-circuit-court-district-11/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6444b546-9d24-5394-ab1b-0fcb49e07609
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6444b546-9d24-5394-ab1b-0fcb49e07609
+    name: Alycia N Sykora
+- id: or/2020-11-03/circuit-court-district-13-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-13/judiciary
+  office_id: or-circuit-court-district-13/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7ab55c6e-5477-5635-9e4c-c546670d90fd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7ab55c6e-5477-5635-9e4c-c546670d90fd
+    name: Alycia Edgeworth Kersey
+- id: or/2020-11-03/circuit-court-district-14-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1202cc08-f6f7-53fd-b87b-1966349324c6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1202cc08-f6f7-53fd-b87b-1966349324c6
+    name: Brandon S Thueson
+- id: or/2020-11-03/circuit-court-district-14-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6a3e3483-4ffe-5c88-bb17-69432459afc0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6a3e3483-4ffe-5c88-bb17-69432459afc0
+    name: Sarah E McGlaughlin
+- id: or/2020-11-03/circuit-court-district-17-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-17/judiciary
+  office_id: or-circuit-court-district-17/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/85fdd864-a9c2-5b12-ad52-290c4cb662e5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/85fdd864-a9c2-5b12-ad52-290c4cb662e5
+    name: Marcia Buckley
+- id: or/2020-11-03/circuit-court-district-19-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-19/judiciary
+  office_id: or-circuit-court-district-19/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4e432d52-2852-5117-967e-6c099aeb7e52
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4e432d52-2852-5117-967e-6c099aeb7e52
+    name: Michael T Clarke
+- id: or/2020-11-03/circuit-court-district-20-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b471664c-6bbf-588f-b3a2-5a9f82622b9a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b471664c-6bbf-588f-b3a2-5a9f82622b9a
+    name: Kelly D Lemarr
+- id: or/2020-11-03/circuit-court-district-20-position-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-10
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/43f2a7fe-1ec1-5f1b-856b-853bbd12187b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/43f2a7fe-1ec1-5f1b-856b-853bbd12187b
+    name: Brandon M Thompson
+- id: or/2020-11-03/circuit-court-district-21-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-21/judiciary
+  office_id: or-circuit-court-district-21/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/021074ee-a113-51a8-8eec-4e2b93c9e251
+  result_status: certified
+  winners:
+  - person_id: ocd-person/021074ee-a113-51a8-8eec-4e2b93c9e251
+    name: Joan E Demarest
+- id: or/2020-11-03/circuit-court-district-23-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-23/judiciary
+  office_id: or-circuit-court-district-23/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/63894481-64ea-5f82-9fad-afdadc50eef5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/63894481-64ea-5f82-9fad-afdadc50eef5
+    name: Brendan J Kane
+- id: or/2020-11-03/circuit-court-district-24-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-24/judiciary
+  office_id: or-circuit-court-district-24/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e527bdb7-7047-5322-863d-0a75fd44bb23
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e527bdb7-7047-5322-863d-0a75fd44bb23
+    name: Robert S Raschio
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735450
+  note: 'Oregon Secretary of State, Abstract of Votes, November 3, 2020 General Election.'
+  retrieved: '2026-10-23'

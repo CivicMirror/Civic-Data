@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): Justice of the Peace
+# contest(s) from Columbia County's official results for this election.
+# Oregon nonpartisan judicial races are decided at the primary when a
+# candidate wins a majority; only races without a primary majority
+# reach the general election.
+id: columbia/2024-05-21/primary
+name: Columbia County 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: columbia/2024-05-21/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:columbia/government
+  office_id: or-columbia/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/44dd2901-6368-5c63-8e60-3379e5ca328f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/44dd2901-6368-5c63-8e60-3379e5ca328f
+    name: James Gibson
+sources:
+- url: https://www.columbiacountyor.gov/media/Election/Abstracts/2024-05-21_Certified_SUMMARY-ABSTRACT_Columbia.pdf
+  note: 'Columbia County, May 21, 2024 Primary Election Certified Final Results -- Summary Abstract.'
+  retrieved: '2026-10-23'

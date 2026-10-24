@@ -1,0 +1,11 @@
+# Oregon State Senator District 24 -- step 3 of the build order (post + holder together);
+# issue #170 (OR master tracking).
+id: ocd-jurisdiction/country:us/state:or/sldu:24/legislature
+name: District 24 (Oregon State Senate delegation)
+state: or
+division_id: ocd-division/country:us/state:or/sldu:24
+classification: legislature
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Elections Division, November 8, 2022 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For State Senator, District 24: Stan Catherman (R) 18,948; Kayse Jama (D) 27,021 votes, marked ** as elected; miscellaneous write-ins 50. Kayse Jama won by a plurality of 8,073 votes. Party labels are as printed in the abstract: (R) Republican, (D) Democratic. Senators elected in 2022 were sworn in on January 9, 2023.'
+  retrieved: '2026-10-23'

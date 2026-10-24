@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/1202cc08-f6f7-53fd-b87b-1966349324c6
+name: Brandon S Thueson
+identifiers: []
+candidacies:
+- contest_id: or/2020-11-03/circuit-court-district-14-position-1
+  election_id: or/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-1
+  party: Nonpartisan
+  ballot_name: Brandon S Thueson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735450
+  note: 'Oregon Secretary of State, Abstract of Votes, November 3, 2020 General Election: for Judge of the Circuit Court, 14th District, Position 1: Brandon S Thueson 19,819; Amanda Thorpe 19,347; miscellaneous write-ins 242.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,35 @@
+# Built for issue #170 (Oregon master tracking): Justice of the Peace
+# contest(s) from Douglas County's official results for this election.
+# Oregon nonpartisan judicial races are decided at the primary when a
+# candidate wins a majority; only races without a primary majority
+# reach the general election.
+id: douglas/2024-05-21/primary
+name: Douglas County 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: douglas/2024-05-21/justice-of-the-peace-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:douglas/government
+  office_id: or-douglas/justice-of-the-peace-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/99e835e1-92d5-5585-828c-b81cd966cc9b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/99e835e1-92d5-5585-828c-b81cd966cc9b
+    name: Machelle Briggs-Mayfield
+- id: douglas/2024-05-21/justice-of-the-peace-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:douglas/government
+  office_id: or-douglas/justice-of-the-peace-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b8a1a742-1e85-5ca9-95fd-1403ba447cd1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b8a1a742-1e85-5ca9-95fd-1403ba447cd1
+    name: Kathleen Miller
+sources:
+- url: https://www.douglascountyor.gov/DocumentCenter/View/25777/May-21-2024-Official-Final-Results-Summary-Certified-PDF
+  note: 'Douglas County, May 21, 2024 Official Final Results Summary (Certified).'
+  retrieved: '2026-10-23'

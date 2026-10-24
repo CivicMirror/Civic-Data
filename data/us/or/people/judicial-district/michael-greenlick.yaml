@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/3f9354d5-ed8c-5c7c-9547-9508eb4734a2
+name: Michael A Greenlick
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-4-position-19
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-19
+  party: Nonpartisan
+  ballot_name: Michael A Greenlick
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 4th District, Position 19: Michael A Greenlick 150,799; miscellaneous write-ins 1,584.'
+  retrieved: '2026-10-23'

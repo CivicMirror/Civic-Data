@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): Justice of the Peace
+# contest(s) from Deschutes County's official results for this election.
+# Oregon nonpartisan judicial races are decided at the primary when a
+# candidate wins a majority; only races without a primary majority
+# reach the general election.
+id: deschutes/2022-05-17/primary
+name: Deschutes County 2022-05-17 primary election
+date: '2022-05-17'
+election_type: primary
+status: official
+contests:
+- id: deschutes/2022-05-17/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:deschutes/government
+  office_id: or-deschutes/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/38c1b91f-02a2-5f03-ba06-f0f0a364b4ef
+  result_status: certified
+  winners:
+  - person_id: ocd-person/38c1b91f-02a2-5f03-ba06-f0f0a364b4ef
+    name: Charles Fadeley
+sources:
+- url: https://weblink.deschutes.org/Public/DocView.aspx?id=95932&dbid=0&repo=LFPUB
+  note: 'Deschutes County Clerk, 2022-05-17 Canvass Report (Laserfiche public portal, document 95932), p. 7.'
+  retrieved: '2026-10-23'

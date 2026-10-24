@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/8f7016c2-1306-5a95-ae79-4f37d3522f25
+name: Thanh H Tran
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/circuit-court-district-5-position-10
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-10
+  party: Nonpartisan
+  ballot_name: Thanh H Tran
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for Judge of the Circuit Court, 5th District, Position 10: Thanh H Tran 114,908; miscellaneous write-ins 3,103.'
+  retrieved: '2026-10-23'

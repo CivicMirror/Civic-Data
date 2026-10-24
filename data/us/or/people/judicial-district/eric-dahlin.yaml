@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/614343dd-0130-5fe6-824a-f4a759a46cbe
+name: Eric L Dahlin
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-4-position-24
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-24
+  party: Nonpartisan
+  ballot_name: Eric L Dahlin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 4th District, Position 24: Eric L Dahlin 107,675; miscellaneous write-ins 1,207.'
+  retrieved: '2026-10-23'
