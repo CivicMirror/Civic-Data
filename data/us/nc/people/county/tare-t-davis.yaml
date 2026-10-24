@@ -15,6 +15,13 @@ candidacies:
   party: Democratic
   ballot_name: Tare (T) Davis
   status: active
+- contest_id: nc/2022-11-08/warren-commissioner-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:warren/government
+  office_id: warren/commissioner-district-2
+  party: Democratic
+  ballot_name: Tare (T) Davis
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -24,4 +31,7 @@ sources:
   retrieved: '2026-08-19'
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 2 -- Norman W. Sanderson (REP) 63,006; Tare (T) Davis (DEM) 47,001; Maria Cormos (LIB) 2,406. Norman W. Sanderson won with 63,006 votes.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Warren County Board Of Commissioners District 02 -- Tare (T) Davis (DEM) 5,666.'
   retrieved: '2026-10-23'

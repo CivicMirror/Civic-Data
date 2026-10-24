@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/a82bc71d-44e0-568f-8b24-d82a57fe1115
+name: Jonathan B. Sawyer IV
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/washington-commissioner-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:washington/government
+  office_id: washington/commissioner-district-4
+  party: Republican
+  ballot_name: Jonathan B. Sawyer IV
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Washington County Board Of Commissioners District 04 -- Ann C. Keyes (DEM) 782; Jonathan B. Sawyer IV (REP) 618.'
+  retrieved: '2026-10-23'

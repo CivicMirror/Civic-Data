@@ -10,9 +10,12 @@ organization_id: ocd-organization/4b1e4828-d189-58be-9668-94210e0c7f9a
 post_id: watauga/commissioner-district-3
 role: County Commissioner (District 3)
 seat: District 3
-start: '2024-12-02'
+start: '2022-12-05'
 how_seated: elected
 sources:
 - url: https://www.wataugacounty.org/App_Pages/Dept/BOC/members.aspx
   note: Official county government current Board of Commissioners roster
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'Start corrected in the #172 county reconciliation pass: SBE results show this holder also won this post in the November 8, 2022 general election, so service on the post began December 5, 2022 (the merged county build had kept only the latest cycle''s start).'
+  retrieved: '2026-10-23'

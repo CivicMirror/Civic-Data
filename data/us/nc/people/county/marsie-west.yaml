@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/6f211a39-c251-567b-8c02-248f53bc8c3d
+name: Marsie West
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/forsyth-commissioner-district-b
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:forsyth/government
+  office_id: forsyth/commissioner-district-b
+  party: Democratic
+  ballot_name: Marsie West
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Forsyth County Board Of Commissioners District B -- Richard V. Linville (REP) 67,380; Gloria D. Whisenhunt (REP) 63,829; Gray Wilson (REP) 62,967; Curtis Fentress (DEM) 60,730; Valerie Brockenbrough (DEM) 59,993; Marsie West (DEM) 57,153.'
+  retrieved: '2026-10-23'

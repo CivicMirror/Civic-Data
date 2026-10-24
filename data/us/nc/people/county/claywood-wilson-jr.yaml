@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/93cbc091-ad5b-580c-a0cb-a9abcdecad93
+name: Claywood Wilson, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/currituck-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:currituck/government
+  office_id: currituck/commissioner-at-large
+  party: Democratic
+  ballot_name: Claywood Wilson, Jr.
+  status: active
+- contest_id: nc/2024-11-05/currituck-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:currituck/government
+  office_id: currituck/commissioner-at-large
+  party: Democratic
+  ballot_name: Claywood Wilson, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Currituck County Board Of Commissioners At-Large -- Kevin E. McCord (REP) 8,789; Claywood Wilson, Jr. (DEM) 2,718.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Currituck County Board Of Commissioners At-Large -- Paul O''Neal (REP) 13,171; Claywood Wilson, Jr. (DEM) 4,199.'
+  retrieved: '2026-10-23'

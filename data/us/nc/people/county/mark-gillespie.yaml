@@ -7,7 +7,14 @@
 id: ocd-person/4de1f5bd-6a26-55c2-8d6f-f0d6dbcabe0f
 name: Mark Gillespie
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/bladen-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:bladen/government
+  office_id: bladen/commissioner-at-large
+  party: Democratic
+  ballot_name: Mark Gillespie
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Bladen County Board Of Commissioners County-Wide -- David R. Gooden (REP) 4,632; Ray Britt (REP) 4,510; Mark Gillespie (DEM) 3,556; G. Michael Cogdell (DEM) 3,524. The ballot instructs voters to vote for 1, but 3 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 3 finishers are the winners.'
+  retrieved: '2026-10-23'

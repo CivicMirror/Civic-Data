@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/791dd6c5-0fa1-5f9a-b65c-cfdc4edbca37
+name: Kenneth Leonard Parton
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/swain-commissioner-members
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:swain/government
+  office_id: swain/commissioner-members
+  party: Republican
+  ballot_name: Kenneth Leonard Parton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Swain County Board Of Commissioners Members -- Tanner Lawson (REP) 2,962; Bobby Jenkins (UNA) 2,637; Kenneth Leonard Parton (REP) 2,612; Ben King (UNA) 1,856.'
+  retrieved: '2026-10-23'

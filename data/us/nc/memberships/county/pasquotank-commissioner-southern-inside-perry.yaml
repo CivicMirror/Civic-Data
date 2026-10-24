@@ -16,3 +16,7 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'End added in the #172 county reconciliation pass: this seat was filled for the unexpired remainder at the November 5, 2024 general election (Clifford Shaw won); service is modeled to the successor''s December 2, 2024 start.'
+  retrieved: '2026-10-23'
+end: '2024-12-02'

@@ -7,7 +7,14 @@
 id: ocd-person/3a41bd27-9b27-5925-a577-e9bd1155de40
 name: Steven Hair
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/montgomery-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:montgomery/government
+  office_id: montgomery/commissioner-at-large
+  party: Republican
+  ballot_name: Steven Hair
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Montgomery County Board Of Commissioners At-Large -- Steven Hair (REP) 5,082; John Shaw (REP) 4,541; Wade Auman (DEM) 2,322; Rosa Little (DEM) 2,243.'
+  retrieved: '2026-10-23'

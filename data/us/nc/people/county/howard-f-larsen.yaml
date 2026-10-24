@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/b6e3206f-86a8-5b34-83b2-46a38d685ffa
+name: Howard F. Larsen
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/mitchell-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:mitchell/government
+  office_id: mitchell/commissioner-at-large
+  party: Democratic
+  ballot_name: Howard F. Larsen
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Mitchell County Board Of Commissioners -- Steve Pitman (REP) 4,485; Jeff Harding (REP) 4,236; Clayton Roberts (REP) 4,193; Howard F. Larsen (DEM) 1,721. The ballot instructs voters to vote for 3, but 2 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 2 finishers are the winners.'
+  retrieved: '2026-10-23'

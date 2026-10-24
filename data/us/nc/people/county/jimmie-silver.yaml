@@ -7,7 +7,14 @@
 id: ocd-person/e649310b-32ac-5eb1-84d6-a33e6f22c75e
 name: Jimmie Silver
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/halifax-commissioner-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:halifax/government
+  office_id: halifax/commissioner-district-1
+  party: Democratic
+  ballot_name: Jimmie Silver
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Halifax County Board Of Commissioners District 01 -- Jimmie Silver (DEM) 6,873.'
+  retrieved: '2026-10-23'

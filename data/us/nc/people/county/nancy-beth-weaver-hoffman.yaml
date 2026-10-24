@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/8e325e79-ef7c-5a2c-aa62-300e736bf025
+name: Nancy Beth Weaver-Hoffman
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/ashe-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:ashe/government
+  office_id: ashe/commissioner-at-large
+  party: Democratic
+  ballot_name: Nancy Beth Weaver-Hoffman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Ashe County Board Of Commissioners -- Wes Greene (REP) 10,690; Russell M. Killen (REP) 10,601; Jerry D. Powers (REP) 9,898; Ann Rose (DEM) 4,068; Nancy Beth Weaver-Hoffman (DEM) 3,914; Tanya Robinson (DEM) 3,706.'
+  retrieved: '2026-10-23'

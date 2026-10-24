@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/869fcdaf-47ba-54f7-a203-54789cf9dade
+name: Jennifer (Jennie) Helms
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/stanly-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:stanly/government
+  office_id: stanly/register-of-deeds
+  party: Republican
+  ballot_name: Jennifer (Jennie) Helms
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Stanly County Register Of Deeds -- Jennifer (Jennie) Helms (REP) 30,047.'
+  retrieved: '2026-10-23'

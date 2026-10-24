@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/982fc3e9-6599-5ef9-85e0-e88b4a55ca10
+name: Anthony Pierce
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/alamance-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:alamance/government
+  office_id: alamance/commissioner-at-large
+  party: Democratic
+  ballot_name: Anthony Pierce
+  status: active
+- contest_id: nc/2024-11-05/alamance-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:alamance/government
+  office_id: alamance/commissioner-at-large
+  party: Democratic
+  ballot_name: Anthony Pierce
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Alamance County Board Of Commissioners -- Craig Turner (REP) 35,290; Steve Carter (REP) 35,012; Anthony Pierce (DEM) 26,116.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Alamance County Board Of Commissioners -- Pamela Tyler Thompson (REP) 44,170; John Paisley, Jr. (REP) 43,624; Ed Priola (REP) 42,311; Carissa Graves (DEM) 39,673; Anthony Pierce (DEM) 37,505; Chris Smith (DEM) 36,774.'
+  retrieved: '2026-10-23'

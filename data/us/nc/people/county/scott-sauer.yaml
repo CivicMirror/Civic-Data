@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/37f5b64f-50f5-5f4f-abe5-5c806782a111
+name: Scott Sauer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/bertie-commissioner-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:bertie/government
+  office_id: bertie/commissioner-district-2
+  party: Unaffiliated
+  ballot_name: Scott Sauer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Bertie County Board Of Commissioners District 02 -- Michael White (DEM) 4,018; Scott Sauer (UNA) 2,084.'
+  retrieved: '2026-10-23'

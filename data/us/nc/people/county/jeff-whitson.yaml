@@ -7,7 +7,14 @@
 id: ocd-person/2f591a67-d6de-51c4-9e6e-f9b3d9d9573c
 name: Jeff Whitson
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/yancey-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:yancey/government
+  office_id: yancey/commissioner-at-large
+  party: Republican
+  ballot_name: Jeff Whitson
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Yancey County Board Of Commissioners -- Mark Ledford (REP) 6,039; Jeff Whitson (REP) 5,597; Sandi Norton (REP) 4,963; Brandi Buckner Young (UNA) 4,811; Hillary (Mandy) Young (DEM) 4,321; Jim Parlier (DEM) 3,964.'
+  retrieved: '2026-10-23'

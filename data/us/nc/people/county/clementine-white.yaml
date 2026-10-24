@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/bf44134e-5a64-5ee3-9e6c-d604c0a509f4
+name: Clementine (Clem) White
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pasquotank-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:pasquotank/government
+  office_id: pasquotank/register-of-deeds
+  party: Democratic
+  ballot_name: Clementine (Clem) White
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Pasquotank County Register Of Deeds -- Penny Newbern (REP) 10,274; Clementine (Clem) White (DEM) 9,489.'
+  retrieved: '2026-10-23'

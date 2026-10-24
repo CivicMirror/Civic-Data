@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/a9c475c5-d84e-5f4e-a346-3e9b483b555f
+name: Brandon Hooker
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/stokes-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:stokes/government
+  office_id: stokes/register-of-deeds
+  party: Republican
+  ballot_name: Brandon Hooker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Stokes County Register Of Deeds -- Brandon Hooker (REP) 23,110.'
+  retrieved: '2026-10-23'

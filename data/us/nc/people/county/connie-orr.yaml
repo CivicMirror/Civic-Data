@@ -7,7 +7,14 @@
 id: ocd-person/391494f4-e38c-5516-927c-42d41e841e81
 name: Connie Orr
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/graham-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:graham/government
+  office_id: graham/commissioner-at-large
+  party: Republican
+  ballot_name: Connie Orr
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Graham County Board Of Commissioners -- Meggan Smith (REP) 3,103; Lynn Cody (REP) 2,264; Connie Orr (REP) 2,191; Thomas Menard (UNA) 2,109; Machelle Crisp (DEM) 1,374.'
+  retrieved: '2026-10-23'

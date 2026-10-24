@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/a0ee9a26-84ae-5156-8068-6387286acc94
+name: Art McCulloch
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mecklenburg-commissioner-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:mecklenburg/government
+  office_id: mecklenburg/commissioner-district-5
+  party: Republican
+  ballot_name: Art McCulloch
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Mecklenburg County Board Of Commissioners District 05 -- Laura Meier (DEM) 55,030; Art McCulloch (REP) 44,107.'
+  retrieved: '2026-10-23'

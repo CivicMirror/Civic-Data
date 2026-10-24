@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/0d60a1b8-8575-5fe4-ba75-09efb1b5dd80
+name: Princess Foster
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/martin-commissioner-eastern-district
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:martin/government
+  office_id: martin/commissioner-eastern-district
+  party: Democratic
+  ballot_name: Princess Foster
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Martin County Board Of Commissioners Eastern District -- David (Skip) Gurganus (REP) 6,147; Jeremiah Taylor (REP) 5,267; Dempsey Bond, Jr. (DEM) 3,092; McKinley Boston, Jr. (DEM) 2,799; Princess Foster (DEM) 2,546. The ballot instructs voters to vote for 2, but 3 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 3 finishers are the winners.'
+  retrieved: '2026-10-23'

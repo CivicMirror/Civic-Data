@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/f2315f90-57a8-5830-b0ae-8c63db95b64c
+name: Bryan Adams
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/iredell-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:iredell/government
+  office_id: iredell/commissioner-at-large
+  party: Democratic
+  ballot_name: Bryan Adams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Iredell County Board Of Commissioners -- Gene Houpe (REP) 61,991; Melissa Neader (REP) 60,808; Scottie Brown (REP) 57,169; Beverly Maurice (DEM) 31,473; Bryan Adams (DEM) 26,882.'
+  retrieved: '2026-10-23'
