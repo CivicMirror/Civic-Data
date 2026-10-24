@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/d46ffe8a-52b4-5501-bcd5-8ba3274a0b4e
+name: Frank Pierce
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-13
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:13/legislature
+  office_id: nc-13/us-representative
+  party: Democratic
+  ballot_name: Frank Pierce
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 13 -- Brad Knott (REP) 243,655; Frank Pierce (DEM) 171,835. Brad Knott won with 243,655 votes.'
+  retrieved: '2026-10-23'

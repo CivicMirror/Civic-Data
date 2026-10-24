@@ -17,7 +17,14 @@ identifiers:
   identifier: '213685'
 - scheme: fec-candidate-id
   identifier: H4NC06177
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:6/legislature
+  office_id: nc-6/us-representative
+  party: Republican
+  ballot_name: Addison McDowell
+  status: active
 contact:
   phone: 202-225-3065
   profile_url: https://mcdowell.house.gov
@@ -38,3 +45,6 @@ sources:
   note: unitedstates/congress-legislators (current), bioguide M001240 -- primary source for identity, terms, class, dates.
 - url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
   note: District office addresses/phones.
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 6 -- Addison McDowell (REP) 233,303; Kevin E. Hayes (CST) 104,017. Addison McDowell won with 233,303 votes.'
+  retrieved: '2026-10-23'

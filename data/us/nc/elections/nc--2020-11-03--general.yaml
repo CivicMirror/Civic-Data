@@ -1,0 +1,31 @@
+# Built from the North Carolina State Board of Elections official
+# precinct-level results file for the November 3, 2020 general
+# election (results_pct_20201103.txt). Federal pass, issue #172.
+id: nc/2020-11-03/general
+name: North Carolina 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: certified
+contests:
+- id: nc/2020-11-03/us-senate
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d6675c8a-9c36-595b-9888-e5e218ad9e64
+  - ocd-person/11dd863e-d8a4-534e-9aed-588fff321b16
+  - ocd-person/9f32b9f8-f7fc-596c-96ea-f5c0d5cca838
+  - ocd-person/b2c53b9d-2921-5898-839f-6306e9722603
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d6675c8a-9c36-595b-9888-e5e218ad9e64
+    name: Thom Tillis
+    party: Republican
+    votes: 2665598
+sources:
+- url: https://www.ncsbe.gov/results-data/election-results/historical-election-results-data
+  note: 'NCSBE Historical Election Results Data page: the November 3, 2020 general election Results (ZIP) file (results_pct_20201103.txt) is the official precinct-level results file for the election. This record currently carries the U.S. Senate (Class II) contest, built for the federal pass of issue #172; each candidate''s method columns (Election Day + one-stop early + absentee by mail + provisional) sum to the file''s total-votes column on every precinct row.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: Direct download of the November 3, 2020 general election results file used for the contest totals in this record.
+  retrieved: '2026-10-23'
