@@ -3,7 +3,14 @@
 id: ocd-person/034ed56d-8058-4489-be3e-3d4b9977ac4b
 name: Diane Wheatley
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-43
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:43/legislature
+  office_id: nc-house-43/state-representative
+  party: Republican
+  ballot_name: Diane Wheatley
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/785/Low
 contact:
   phone: 919-733-5959
@@ -22,3 +29,6 @@ sources:
 - url: https://justfacts.votesmart.org/candidate/biography/92358/diane-wheatley
 - url: https://www.ncleg.gov/Members/Biography/H/785
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 43 -- Diane Wheatley (REP) 24,753; Janene (Dublin) Ackles (DEM) 18,422. Diane Wheatley won with 24,753 votes.'
+  retrieved: '2026-10-23'

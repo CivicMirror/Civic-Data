@@ -5,7 +5,14 @@ name: John Bell
 identifiers:
 - scheme: openstates-legacy-id
   identifier: NCL000267
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-10
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:10/legislature
+  office_id: nc-house-10/state-representative
+  party: Republican
+  ballot_name: John Bell
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/661/Low
 contact:
   phone: 919-715-3017
@@ -23,3 +30,6 @@ sources:
 - url: https://en.wikipedia.org/wiki/John_R._Bell_IV
 - url: https://www.ncleg.gov/Members/Biography/H/661
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 10 -- John Bell (REP) 24,475; Beatrice Jones (DEM) 15,789. John Bell won with 24,475 votes.'
+  retrieved: '2026-10-23'

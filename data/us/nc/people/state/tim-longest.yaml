@@ -3,7 +3,14 @@
 id: ocd-person/1bc1818f-49fd-478a-affa-1f167adcfb51
 name: Tim Longest
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-34
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:34/legislature
+  office_id: nc-house-34/state-representative
+  party: Democratic
+  ballot_name: Tim Longest
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/818/Low
 contact:
   phone: 919-733-5773
@@ -22,3 +29,6 @@ sources:
 - url: https://www.linkedin.com/in/tim-longest-66889045
 - url: https://www.ncleg.gov/Members/Biography/H/818
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 34 -- Tim Longest (DEM) 33,839; Ed George (LIB) 10,808. Tim Longest won with 33,839 votes.'
+  retrieved: '2026-10-23'

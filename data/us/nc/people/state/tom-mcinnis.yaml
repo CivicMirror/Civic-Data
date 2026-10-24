@@ -5,7 +5,14 @@ name: Tom McInnis
 identifiers:
 - scheme: openstates-legacy-id
   identifier: NCL000329
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-senate-21
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldu:21/legislature
+  office_id: nc-senate-21/state-senator
+  party: Republican
+  ballot_name: Tom McInnis
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/S/389/Low
 contact:
   phone: 919-733-5953
@@ -25,3 +32,6 @@ sources:
 - url: https://www.linkedin.com/in/tom-mcinnis-37564b23
 - url: https://www.ncleg.gov/Members/Biography/S/389
 - url: https://www.ncleg.gov/Members/MemberTable/S
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 21 -- Tom McInnis (REP) 67,494; Maurice (Butch) Holland, Jr. (DEM) 40,052. Tom McInnis won with 67,494 votes.'
+  retrieved: '2026-10-23'

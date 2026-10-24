@@ -1,0 +1,21 @@
+# Minted from the NC State Board of Elections official Nov. 5, 2024
+# general election results (General Assembly pass, Civic-Data
+# issue #172).
+id: ocd-person/71b64bc7-36ce-5fde-a763-045bd09eedd7
+name: Chris Walters
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/state-senate-48
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldu:48/legislature
+  office_id: nc-senate-48/state-senator
+  party: Democratic
+  ballot_name: Chris Walters
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_general_assembly
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 48 -- Tim Moffitt (REP) 73,373; Chris Walters (DEM) 41,399. Tim Moffitt won with 73,373 votes.'
+  retrieved: '2026-10-23'

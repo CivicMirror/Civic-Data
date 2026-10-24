@@ -5,7 +5,14 @@ name: Garland Pierce
 identifiers:
 - scheme: openstates-legacy-id
   identifier: NCL000148
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-48
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:48/legislature
+  office_id: nc-house-48/state-representative
+  party: Democratic
+  ballot_name: Garland E. Pierce
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/497/Low
 contact:
   phone: 919-733-5803
@@ -24,3 +31,6 @@ sources:
 - url: https://justfacts.votesmart.org/candidate/biography/40990/garland-pierce
 - url: https://www.ncleg.gov/Members/Biography/H/497
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 48 -- Garland E. Pierce (DEM) 18,845; Ralph Carter (REP) 17,453. Garland E. Pierce won with 18,845 votes.'
+  retrieved: '2026-10-23'

@@ -3,7 +3,14 @@
 id: ocd-person/3a96a66b-58e9-4ce5-bc6c-803b19c2746d
 name: John Blust
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-62
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:62/legislature
+  office_id: nc-house-62/state-representative
+  party: Republican
+  ballot_name: John M. Blust
+  status: active
 image: https://storage.googleapis.com/enview-public-general/legislative-people-photos/21657.jpg
 contact:
   phone: 919-733-5877
@@ -22,3 +29,6 @@ sources:
 - url: https://www.iveymcclellan.com/north-carolina-attorneys/john-blust
 - url: https://www.ncleg.gov/Members/Biography/H/234
 - url: https://www.ncleg.gov/Members/Biography/H/824
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 62 -- John M. Blust (REP) 29,389; Marjorie Benbow (DEM) 25,597. John M. Blust won with 29,389 votes.'
+  retrieved: '2026-10-23'

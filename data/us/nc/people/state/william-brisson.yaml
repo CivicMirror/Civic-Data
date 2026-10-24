@@ -5,7 +5,14 @@ name: William Brisson
 identifiers:
 - scheme: openstates-legacy-id
   identifier: NCL000069
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-22
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:22/legislature
+  office_id: nc-house-22/state-representative
+  party: Republican
+  ballot_name: William Brisson
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/558/Low
 contact:
   phone: 919-733-5772
@@ -24,3 +31,6 @@ sources:
 - url: https://justfacts.votesmart.org/candidate/41187/william-brisson
 - url: https://www.ncleg.gov/Members/Biography/H/558
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 22 -- William Brisson (REP) 26,176; Joshua Harrell (DEM) 16,729. William Brisson won with 26,176 votes.'
+  retrieved: '2026-10-23'

@@ -3,7 +3,14 @@
 id: ocd-person/e9c35f8c-48f0-46e3-bd47-2e9481abc971
 name: Julia Greenfield
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-100
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:100/legislature
+  office_id: nc-house-100/state-representative
+  party: Democratic
+  ballot_name: Julia Greenfield
+  status: active
 image: https://greenvoterguidenc.org/wp-content/uploads/Julia-Greenfield-square-400x400.png
 contact:
   phone: 919-715-0706
@@ -19,3 +26,6 @@ verification:
 sources:
 - url: https://ballotpedia.org/Julia_Greenfield
 - url: https://www.ncleg.gov/Members/Biography/H/829
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 100 -- Julia Greenfield (DEM) 28,937. Julia Greenfield won with 28,937 votes.'
+  retrieved: '2026-10-23'
