@@ -27,6 +27,12 @@ Two 2024 unexpired winners (Wilkes, Transylvania) are recorded as
 election winners with candidacies but no membership: the at-large posts
 already carry a full complement of open memberships and the departed
 incumbent cannot be identified from the SBE files alone.
+
+Party values: the schema requires a party on every candidacy. Candidates
+coded UNA in the SBE file are Unaffiliated. Named write-in candidates
+(the file gives them no party designation) are recorded with party
+'Write-In' (Walter's ruling, 2026-10-23) -- it describes how they
+appeared rather than asserting an affiliation the source does not give.
 """
 import json, re, sys, uuid
 from pathlib import Path
@@ -51,6 +57,11 @@ county = json.loads((Path.home() / "workspace/nc172/county.json").read_text())
 plan = json.loads((Path.home() / "workspace/nc172/county_plan.json").read_text())
 K_OVERRIDE = {("2022", "CLAY COUNTY BOARD OF COMMISSIONERS"): 3,
               ("2022", "UNION COUNTY BOARD OF COMMISSIONERS"): 3}
+
+def party_for(c):
+    if "(Write-In)" in c["choice"]:
+        return "Write-In"
+    return PARTY.get(c["party"] or "")
 
 def slugify(name):
     s = re.sub(r"\([^)]*\)", "", name).lower()
@@ -367,12 +378,12 @@ for yr in ("2022", "2024"):
                 continue
             seen_pids.add(pid)
             add_candidacy(pid, contest_id, election_id, jur_id, post,
-                          PARTY.get(c["party"] or ""), ballot, ZIPS[yr], note)
+                          party_for(c), ballot, ZIPS[yr], note)
             cand_pids.append(pid)
         winners = []
         for i in range(K):
             w = {"person_id": cand_pids[i], "name": people[cand_pids[i]]["name"], "votes": cands[i]["total"]}
-            wp = PARTY.get(cands[i]["party"] or "")
+            wp = party_for(cands[i])
             if wp:
                 w["party"] = wp
             winners.append(w)
