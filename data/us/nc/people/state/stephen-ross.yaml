@@ -3,7 +3,14 @@
 id: ocd-person/6b6dc936-a880-4bdb-9fba-11e0a2ff9f01
 name: Stephen Ross
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-63
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:63/legislature
+  office_id: nc-house-63/state-representative
+  party: Republican
+  ballot_name: Stephen Ross
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/812/Low
 contact:
   phone: 919-733-5820
@@ -23,3 +30,6 @@ sources:
 - url: https://www.linkedin.com/in/stephen-ross-4481953b
 - url: https://www.ncleg.gov/Members/Biography/H/812
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 63 -- Stephen Ross (REP) 23,812; Robin Wintringham (DEM) 19,460. Stephen Ross won with 23,812 votes.'
+  retrieved: '2026-10-23'

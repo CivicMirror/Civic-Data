@@ -5,7 +5,14 @@ name: Ralph Hise
 identifiers:
 - scheme: openstates-legacy-id
   identifier: NCL000187
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-senate-47
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldu:47/legislature
+  office_id: nc-senate-47/state-senator
+  party: Republican
+  ballot_name: Ralph Hise
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/S/298/Low
 contact:
   phone: 919-733-3460
@@ -25,3 +32,6 @@ sources:
 - url: https://www.ncleg.gov/Members/Biography/S/298
 - url: https://www.ncleg.gov/Members/Biography/s/298
 - url: https://www.ncleg.gov/Members/MemberTable/S
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 47 -- Ralph Hise (REP) 75,607; Frank Patton Hughes III (DEM) 42,247. Ralph Hise won with 75,607 votes.'
+  retrieved: '2026-10-23'
