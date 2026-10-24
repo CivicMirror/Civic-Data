@@ -17,7 +17,14 @@ identifiers:
   identifier: '41316'
 - scheme: fec-candidate-id
   identifier: H4NC14015
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-14
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:14/legislature
+  office_id: nc-14/us-representative
+  party: Republican
+  ballot_name: Tim Moore
+  status: active
 contact:
   phone: 202-225-5634
   profile_url: https://timmoore.house.gov
@@ -38,3 +45,6 @@ sources:
   note: unitedstates/congress-legislators (current), bioguide M001236 -- primary source for identity, terms, class, dates.
 - url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
   note: District office addresses/phones.
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 14 -- Tim Moore (REP) 232,987; Pam Genant (DEM) 168,269. Tim Moore won with 232,987 votes.'
+  retrieved: '2026-10-23'
