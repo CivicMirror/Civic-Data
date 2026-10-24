@@ -7,7 +7,14 @@
 id: ocd-person/8a77b2c3-a2f9-55a6-a567-c9e0cd8ac055
 name: Rodney Hester
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/bladen-commissioner-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:bladen/government
+  office_id: bladen/commissioner-district-2
+  party: Republican
+  ballot_name: Rodney Hester
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Bladen County Board Of Commissioners District 02 -- Rodney Hester (REP) 4,425.'
+  retrieved: '2026-10-23'

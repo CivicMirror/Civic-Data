@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/836353ff-5bc9-51b7-9ea8-84588da7b2d9
+name: Foy Jenkins
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/sampson-commissioner-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:sampson/government
+  office_id: sampson/commissioner-district-4
+  party: Unaffiliated
+  ballot_name: Foy Jenkins (Write-In)
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Sampson County Board Of Commissioners District 04 -- Lethia R. Lee (DEM) 2,945; Foy Jenkins (Write-In) 1,234.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/5e8a65b4-d82b-57a3-bcbd-3a2890ef8def
+name: Andy Millard
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/polk-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:polk/government
+  office_id: polk/commissioner-at-large
+  party: Democratic
+  ballot_name: Andy Millard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Polk County Board Of Commissioners -- Tommy W. Melton (REP) 5,293; David Moore (REP) 5,126; Paul (Little) Beiler (REP) 4,859; Ray Gasperson (DEM) 4,266; Andy Millard (DEM) 3,861. The ballot instructs voters to vote for 3, but 2 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 2 finishers are the winners.'
+  retrieved: '2026-10-23'

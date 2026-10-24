@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/9611177c-1cb6-5f45-8f11-59574d625a97
+name: Benjamin (Ben) Curtis
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/rockingham-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:rockingham/government
+  office_id: rockingham/register-of-deeds
+  party: Republican
+  ballot_name: Benjamin (Ben) Curtis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Rockingham County Register Of Deeds -- Benjamin (Ben) Curtis (REP) 37,162.'
+  retrieved: '2026-10-23'

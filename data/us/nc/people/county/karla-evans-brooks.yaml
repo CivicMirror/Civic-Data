@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/3b9f38ac-dfb3-5f14-9aea-88ed032b2d50
+name: Karla Evans Brooks
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/camden-clerk-of-superior-court
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:camden/government
+  office_id: camden/clerk-of-superior-court
+  party: Unaffiliated
+  ballot_name: Karla Evans Brooks (Write-In)
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Camden County Clerk Of Superior Court -- Jennifer Gray (REP) 2,870; Karla Evans Brooks (Write-In) 1,054.'
+  retrieved: '2026-10-23'

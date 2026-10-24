@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/10fb45dd-f960-5df2-a4bd-5594698d7bff
+name: Ariadne T. DeGarr
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/moore-commissioner-district-ii-unexpired
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:moore/government
+  office_id: moore/commissioner-district-ii
+  party: Democratic
+  ballot_name: Ariadne T. DeGarr
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Moore County Board Of Commissioners District Ii (Unexpired) -- Nick Picerno (REP) 28,163; Ariadne T. DeGarr (DEM) 13,365. This is an unexpired-term contest: the winner serves the remainder of the term.'
+  retrieved: '2026-10-23'

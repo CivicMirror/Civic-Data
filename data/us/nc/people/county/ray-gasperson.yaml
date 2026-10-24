@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/0906ef24-b0da-5a27-8dd1-313111b0ce34
+name: Ray Gasperson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/polk-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:polk/government
+  office_id: polk/commissioner-at-large
+  party: Democratic
+  ballot_name: Ray Gasperson
+  status: active
+- contest_id: nc/2024-11-05/polk-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:polk/government
+  office_id: polk/commissioner-at-large
+  party: Democratic
+  ballot_name: Ray Gasperson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Polk County Board Of Commissioners -- Tommy W. Melton (REP) 5,293; David Moore (REP) 5,126; Paul (Little) Beiler (REP) 4,859; Ray Gasperson (DEM) 4,266; Andy Millard (DEM) 3,861. The ballot instructs voters to vote for 3, but 2 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 2 finishers are the winners.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Polk County Board Of Commissioners -- Myron Yoder (REP) 6,300; Jennifer Hargett (REP) 5,974; Paul (Little) Beiler (REP) 5,962; Ray Gasperson (DEM) 5,449; Karen Pack (DEM) 4,386; Libby Morris (DEM) 4,015.'
+  retrieved: '2026-10-23'

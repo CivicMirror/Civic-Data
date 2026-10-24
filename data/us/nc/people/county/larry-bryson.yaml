@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/bb6f79ed-b123-589c-be96-1796d5ed2a21
+name: Larry Bryson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/haywood-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:haywood/government
+  office_id: haywood/sheriff
+  party: Democratic
+  ballot_name: Larry Bryson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Haywood County Sheriff -- William (Bill) Wilke (REP) 16,249; Larry Bryson (DEM) 10,416.'
+  retrieved: '2026-10-23'

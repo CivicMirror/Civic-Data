@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/845b1f4d-8038-5be5-a110-af31426a12d5
+name: Michael John McArthur
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/chowan-clerk-of-superior-court
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:chowan/government
+  office_id: chowan/clerk-of-superior-court
+  party: Democratic
+  ballot_name: Michael John McArthur
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Chowan County Clerk Of Superior Court -- Dwayne L. Goodwin (UNA) 2,964; Michael John McArthur (DEM) 2,440.'
+  retrieved: '2026-10-23'

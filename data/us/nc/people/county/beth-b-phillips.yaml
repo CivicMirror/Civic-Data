@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/5c51ef07-e92e-5763-99f9-2a040c3412b0
+name: Beth B. Phillips
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/northampton-commissioner-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:northampton/government
+  office_id: northampton/commissioner-district-1
+  party: Unaffiliated
+  ballot_name: Beth B. Phillips
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Northampton County Board Of Commissioners District 01 -- Keith Hugh Edwards (DEM) 6,195; Beth B. Phillips (UNA) 2,037.'
+  retrieved: '2026-10-23'

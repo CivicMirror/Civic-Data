@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/7f3109e2-2e73-5938-8e17-7664b12f7182
+name: Karen Rose Simmons
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/tyrrell-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:tyrrell/government
+  office_id: tyrrell/commissioner-at-large
+  party: Democratic
+  ballot_name: Karen Rose Simmons
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Tyrrell County Board Of Commissioners -- Robert Thompson (REP) 620; Nathan T. (Tommy) Everett (DEM) 456; Darryl Liverman (UNA) 369; Karen Rose Simmons (DEM) 279. The ballot instructs voters to vote for 1, but 3 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 3 finishers are the winners.'
+  retrieved: '2026-10-23'

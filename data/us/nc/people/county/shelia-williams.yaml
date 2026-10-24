@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/72e84f1c-176f-5651-ba90-54598eddfbcb
+name: Shelia Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/warren-commissioner-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:warren/government
+  office_id: warren/commissioner-district-4
+  party: Unaffiliated
+  ballot_name: Shelia Williams (Write-In)
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Warren County Board Of Commissioners District 04 -- Bertadean Williams Baker (DEM) 4,739; Shelia Williams (Write-In) 960; Miscellaneous (Write-In) 19.'
+  retrieved: '2026-10-23'

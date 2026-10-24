@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/562a32e1-0d54-5683-b90b-7121609b37ad
+name: Cody Lewis
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/jackson-commissioner-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:jackson/government
+  office_id: jackson/commissioner-district-3
+  party: Democratic
+  ballot_name: Cody Lewis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Jackson County Board Of Commissioners District 03 -- Jenny Lynn Hooper (REP) 11,256; Cody Lewis (DEM) 9,961; Susan Bogardus (Write-In) 54.'
+  retrieved: '2026-10-23'

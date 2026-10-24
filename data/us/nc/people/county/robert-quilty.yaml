@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/6ccb870b-2396-577f-94f9-b87e03598623
+name: Robert (Bob) Quilty
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/lee-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:lee/government
+  office_id: lee/commissioner-at-large
+  party: Republican
+  ballot_name: Robert (Bob) Quilty
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Lee County Board Of Commissioners At-Large -- Samantha Martin (REP) 14,311; Mark Lovick (DEM) 13,805; Cameron Sharpe (DEM) 13,510; David Z. Smoak (REP) 13,228; Bob Joyce (DEM) 13,174; Robert (Bob) Quilty (REP) 13,117.'
+  retrieved: '2026-10-23'

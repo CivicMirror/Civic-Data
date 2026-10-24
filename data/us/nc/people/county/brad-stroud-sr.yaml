@@ -7,7 +7,14 @@
 id: ocd-person/fbf129fd-5bec-5aad-9d54-025494ffa148
 name: Brad Stroud, Sr.
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/iredell-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:iredell/government
+  office_id: iredell/commissioner-at-large
+  party: Republican
+  ballot_name: Brad Stroud, Sr.
+  status: active
 verification:
   status: unverified
   pipeline: manual
@@ -18,3 +25,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Iredell County Board Of Commissioners -- Brad Stroud, Sr. (REP) 45,539; Bert Connolly (REP) 44,781; Gene Houpe (REP) 42,348; Frank L. Johnson (DEM) 20,461; M. Goree (DEM) 17,875. The ballot instructs voters to vote for 3, but 2 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 2 finishers are the winners.'
+  retrieved: '2026-10-23'

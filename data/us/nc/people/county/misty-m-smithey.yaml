@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/fb8173f3-47f6-5b45-a815-509c7178c9de
+name: Misty M. Smithey
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/wilkes-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:wilkes/government
+  office_id: wilkes/register-of-deeds
+  party: Republican
+  ballot_name: Misty M. Smithey
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Wilkes County Register Of Deeds -- Misty M. Smithey (REP) 30,694.'
+  retrieved: '2026-10-23'

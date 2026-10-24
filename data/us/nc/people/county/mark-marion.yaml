@@ -7,7 +7,14 @@
 id: ocd-person/8f44e494-687d-56e7-a1a9-b57c147bb20b
 name: Mark Marion
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/surry-commissioner-central-district
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:surry/government
+  office_id: surry/commissioner-central-district
+  party: Republican
+  ballot_name: Mark Marion
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Surry County Board Of Commissioners Central District -- Mark Marion (REP) 19,055; Ken Badgett (DEM) 5,417.'
+  retrieved: '2026-10-23'

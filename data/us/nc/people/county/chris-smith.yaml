@@ -7,7 +7,14 @@
 id: ocd-person/01c2b6b8-fcf5-52f1-8520-f61f0f3812b6
 name: Chris Smith
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/columbus-commissioner-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:columbus/government
+  office_id: columbus/commissioner-district-2
+  party: Republican
+  ballot_name: Chris Smith
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Columbus County Board Of Commissioners District 02 -- Chris Smith (REP) 2,897.'
+  retrieved: '2026-10-23'

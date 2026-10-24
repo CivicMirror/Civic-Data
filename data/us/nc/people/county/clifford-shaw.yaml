@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/8d3f196d-6c21-5557-821f-43bc97ca0daa
+name: Clifford Shaw
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pasquotank-commissioner-southern-inside-unexpired
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:pasquotank/government
+  office_id: pasquotank/commissioner-southern-inside
+  party: Democratic
+  ballot_name: Clifford Shaw
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Pasquotank County Commissioners Southern Inside (Unexpired) -- Clifford Shaw (DEM) 3,269. This is an unexpired-term contest: the winner serves the remainder of the term.'
+  retrieved: '2026-10-23'

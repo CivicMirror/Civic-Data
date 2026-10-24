@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/f7b9e14e-851b-5e61-aa51-5af4dea94cc3
+name: Kyle Whisnant
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/burke-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:burke/government
+  office_id: burke/commissioner-at-large
+  party: Democratic
+  ballot_name: Kyle Whisnant
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Burke County Board Of Commissioners -- Randy Burns (REP) 19,490; Phil Smith (REP) 19,390; Steve W. Starnes (DEM) 7,765; Kyle Whisnant (DEM) 7,762.'
+  retrieved: '2026-10-23'

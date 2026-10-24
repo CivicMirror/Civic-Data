@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/cb847562-e57c-52de-8bae-c0f368883df9
+name: Kimberly Morrison-Hansley
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/union-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:union/government
+  office_id: union/commissioner-at-large
+  party: Democratic
+  ballot_name: Kimberly Morrison-Hansley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Union County Board Of Commissioners -- Brian W. Helms (REP) 56,314; Melissa Merrell (REP) 54,411; Stony Rushing (REP) 54,289; Kimberly Morrison-Hansley (DEM) 29,595; Kevin Daniels (DEM) 29,583; Gina Palandri (DEM) 27,879.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/74e1c8af-1462-5206-b35f-25d0e413b751
+name: Cyndy Hayworth
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/rockingham-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:rockingham/government
+  office_id: rockingham/commissioner-at-large
+  party: Unaffiliated
+  ballot_name: Cyndy Hayworth (Write-In)
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Rockingham County Board Of Commissioners -- Jeff Kallam (REP) 28,733; Mark Richardson (REP) 21,002; Kevin Berger (REP) 20,920; Lynn Knight (Write-In) 7,330; Cyndy Hayworth (Write-In) 7,255.'
+  retrieved: '2026-10-23'

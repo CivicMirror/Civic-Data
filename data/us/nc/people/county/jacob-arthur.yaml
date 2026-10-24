@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/58725828-7cfc-52ff-88bc-9e17421c2ff1
+name: Jacob Arthur
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/wake-commissioner-district-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:wake/government
+  office_id: wake/commissioner-district-6
+  party: Republican
+  ballot_name: Jacob Arthur
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Wake County Board Of Commissioners District 06 -- Shinica Thomas (DEM) 51,684; Jacob Arthur (REP) 44,548.'
+  retrieved: '2026-10-23'

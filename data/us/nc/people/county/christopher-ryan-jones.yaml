@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/1bf82294-f9cb-5551-8747-0ac824b8c6ec
+name: Christopher Ryan Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pamlico-commissioner-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:pamlico/government
+  office_id: pamlico/commissioner-district-5
+  party: Unaffiliated
+  ballot_name: Christopher Ryan Jones
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Pamlico County Board Of Commissioners District 05 -- Ken Heath (REP) 1,262; Christopher Ryan Jones (UNA) 530.'
+  retrieved: '2026-10-23'

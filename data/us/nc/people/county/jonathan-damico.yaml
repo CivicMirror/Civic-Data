@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/efeddbac-4b67-58df-b274-00f5e92c3a8a
+name: Jonathan Damico
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/brunswick-commissioner-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:brunswick/government
+  office_id: brunswick/commissioner-district-5
+  party: Democratic
+  ballot_name: Jonathan Damico
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Brunswick County Board Of Commissioners District 05 -- Frank Williams (REP) 62,682; Jonathan Damico (DEM) 41,645.'
+  retrieved: '2026-10-23'

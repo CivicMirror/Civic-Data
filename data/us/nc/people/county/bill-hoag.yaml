@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/4cbd95c9-79f7-547f-89da-15d03536295e
+name: Bill Hoag
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mitchell-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:mitchell/government
+  office_id: mitchell/commissioner-at-large
+  party: Unaffiliated
+  ballot_name: Bill Hoag
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Mitchell County Board Of Commissioners -- Dale Blevins (REP) 5,692; Lee Ellis (REP) 5,433; Harley Masters (REP) 4,764; Bill Hoag (UNA) 2,517; Ron McKinney (DEM) 1,539; Jan Hamilton (DEM) 1,476.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/aeec75f4-ba1d-5ccd-9cc6-09e81011fcb5
+name: Mike Burrus
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/dare-commissioner-district-1-unexpired
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:dare/government
+  office_id: dare/commissioner-district-1
+  party: Republican
+  ballot_name: Mike Burrus
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Dare County Board Of Commissioners District 01 (Unexpired) -- Mike Burrus (REP) 16,528. This is an unexpired-term contest: the winner serves the remainder of the term.'
+  retrieved: '2026-10-23'

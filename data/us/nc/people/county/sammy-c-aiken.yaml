@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/ef0d718c-b7a2-54e1-b99c-dab4ba17d34a
+name: Sammy C. Aiken
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/lenoir-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:lenoir/government
+  office_id: lenoir/commissioner-at-large
+  party: Democratic
+  ballot_name: Sammy C. Aiken
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Lenoir County Board Of Commissioners At-Large -- Linda Rouse Sutton (DEM) 14,220; Keith King (REP) 13,945; Sammy C. Aiken (DEM) 8,252.'
+  retrieved: '2026-10-23'

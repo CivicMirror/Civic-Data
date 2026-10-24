@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/96c02ab8-92c5-59a5-89ff-9209bf549a47
+name: John Hinnant
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/new-hanover-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:new-hanover/government
+  office_id: new-hanover/commissioner-at-large
+  party: Republican
+  ballot_name: John Hinnant
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: New Hanover County Board Of Commissioners -- Bill Rivenbark (REP) 62,797; Stephanie Walker (DEM) 61,468; Dane Scalise (REP) 61,425; Jonathan Barfield, Jr. (DEM) 61,176; John Hinnant (REP) 59,264; Cassidy Santaguida (DEM) 58,819.'
+  retrieved: '2026-10-23'

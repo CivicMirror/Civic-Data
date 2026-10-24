@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/6d7e3c52-bce7-548f-ab81-f9ea1443c1e7
+name: Matt Rhodes
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/new-hanover-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:new-hanover/government
+  office_id: new-hanover/sheriff
+  party: Republican
+  ballot_name: Matt Rhodes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: New Hanover County Sheriff -- Ed McMahon (DEM) 60,003; Matt Rhodes (REP) 32,891.'
+  retrieved: '2026-10-23'

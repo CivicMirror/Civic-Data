@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/c6949684-af97-51b1-9ecc-50ed3deb9110
+name: Jerry Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/macon-commissioner-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:macon/government
+  office_id: macon/commissioner-district-1
+  party: Unaffiliated
+  ballot_name: Jerry Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Macon County Board Of Commissioners District 01 -- John Shearl (REP) 9,401; Jerry Moore (UNA) 5,620.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/c3514221-6b59-541f-9d20-01e23a4c722e
+name: Cassandra (DeeDee) Wall
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/richmond-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:richmond/government
+  office_id: richmond/commissioner-at-large
+  party: Democratic
+  ballot_name: Cassandra (DeeDee) Wall
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Richmond County Board Of Commissioners -- Jeff Smart (REP) 9,606; Jamie Gathings (REP) 9,569; Andy Grooms (REP) 9,423; Linda Ross (DEM) 6,491; Cassandra (DeeDee) Wall (DEM) 5,416; Deborah Washington Crumpton (DEM) 4,399; Michael Legrand (UNA) 3,352; Richard Robinson (LIB) 961.'
+  retrieved: '2026-10-23'

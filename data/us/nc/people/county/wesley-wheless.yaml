@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/901cf590-16dd-588e-941c-3144d8f21a2d
+name: Wesley Wheless
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/franklin-commissioner-at-large-seat-07
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:franklin/government
+  office_id: franklin/commissioner-at-large-seat-07
+  party: Democratic
+  ballot_name: Wesley Wheless
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Franklin County Board Of Commissioners At-Large Seat 07 -- Stuart May (REP) 23,670; Wesley Wheless (DEM) 17,670.'
+  retrieved: '2026-10-23'
