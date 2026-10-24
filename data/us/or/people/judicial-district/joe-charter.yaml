@@ -10,6 +10,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Joe Charter
   status: active
+- contest_id: jackson/2024-11-05/justice-of-the-peace
+  election_id: jackson/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:jackson/government
+  office_id: or-jackson/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: Joe Charter
+  status: active
 verification:
   status: machine-extracted
   reviewed_on: '2026-10-23'
@@ -17,4 +24,13 @@ verification:
 sources:
 - url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
   note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 1st District, Position 8: Joe Charter 35,226; Lisa C Greif 26,123; miscellaneous write-ins 86.'
+  retrieved: '2026-10-23'
+- url: https://webarchive.jacksoncountyor.gov/DesktopModules/Bring2mind/DMX/API/Entries/Download?Command=Core_Download&EntryId=11918&language=en-US&PortalId=0&TabId=41
+  note: 'Jackson County, Statement of Votes Cast by Geography, November 5, 2024 General Election -- Official Results, Precinct Level Report: Joe Charter 43,176 (98.88%), the only named candidate; write-in 490; total contest votes 43,666. The county document is precinct-level and prints no contest aggregate; 43,176 is the sum of its 43 Justice of the Peace precinct blocks, re-verified.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/jackson.aspx
+  note: 'Oregon Blue Book, Jackson County page (Secretary of State): county officials list ''Justice of the Peace Joseph Charter (2031)''; Jackson County''s own officials list likewise names Joe Charter as Justice of the Peace.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/jackson.aspx
+  note: 'Charter previously served as a Circuit Court judge (District 1, Position 8), winning that seat at the May 19, 2020 primary; his candidacy for that seat is on his person record. He left the circuit bench in 2024 and won this seat at the November 5, 2024 general election; the circuit departure date is a held research item on issue #170.'
   retrieved: '2026-10-23'

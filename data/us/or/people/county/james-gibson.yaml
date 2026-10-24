@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/44dd2901-6368-5c63-8e60-3379e5ca328f
+name: James Gibson
+identifiers: []
+candidacies:
+- contest_id: columbia/2024-05-21/justice-of-the-peace
+  election_id: columbia/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:columbia/government
+  office_id: or-columbia/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: James (Jim) Gibson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://www.columbiacountyor.gov/media/Election/Abstracts/2024-05-21_Certified_SUMMARY-ABSTRACT_Columbia.pdf
+  note: 'Columbia County, May 21, 2024 Primary Election Certified Final Results -- Summary Abstract: James (Jim) Gibson 7,297 (97.88%), unopposed; write-in totals 158; total votes cast 7,455; undervotes 4,163.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/columbia.aspx
+  note: 'Oregon Blue Book, Columbia County page (Secretary of State): county officials list ''Justice of the Peace James Gibson (2031)''.'
+  retrieved: '2026-10-23'

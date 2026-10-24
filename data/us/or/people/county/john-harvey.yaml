@@ -1,0 +1,26 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/e28be936-423e-5e10-9442-83d46b34fb01
+name: John Harvey
+identifiers: []
+candidacies:
+- contest_id: hood-river/2022-05-17/justice-of-the-peace
+  election_id: hood-river/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:hood-river/government
+  office_id: or-hood-river/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: John Harvey
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://www.hoodrivercounty.gov/
+  note: 'Hood River County, certified May 17, 2022 primary election results summary (Official Election Results Summary): John Harvey 205 (93.18%); write-in 15; total 220; undervotes 73; 293 ballots cast, 974 registered voters in the district.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/hood-river.aspx
+  note: 'Oregon Blue Book, Hood River County page (Secretary of State): county officials list ''Justice of the Peace John Harvey (2027)'' -- see the election note: the county''s certified documents do not support the 2027 attribution.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/hood-river.aspx
+  note: 'The county''s certified May and November 2020 summaries were read in full and contain no Justice of the Peace contest, so the Blue Book''s (2027) term attribution is not supported; the certified record puts his election at the May 17, 2022 primary for the six-year term that began January 2, 2023. County financial reports have variously shown his term expiring December 31, 2022 (FY2019) and December 31, 2024 (FY2024) for earlier service; the discrepancy is flagged on issue #170.'
+  retrieved: '2026-10-23'
