@@ -19,7 +19,20 @@ contests:
   winners:
   - person_id: ocd-person/bdb1137e-6bca-5669-bb58-aad082828dab
     name: Eve A Costello
+- id: klamath/2022-05-17/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:klamath/government
+  office_id: or-klamath/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8322cd45-d0fa-55fe-872e-9ef3c65d5e7b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8322cd45-d0fa-55fe-872e-9ef3c65d5e7b
+    name: Karen Oakes
 sources:
 - url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
   note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-25'
+- url: https://em.klamathcounty.org/DocumentCenter/View/32676/Summary-Report-County-Races-Certified-Results-pdf
+  note: 'Klamath County Clerk, certified Statement of Votes Cast (Summary Report -- County Races), May 17, 2022 primary: Justice of the Peace -- Karen Oakes 10,374 (98.93%), write-ins 112, total votes 10,486. Located in the research step on issue #170 (October 2026); the county-pass build had recorded this total as a clerk-request item.'
   retrieved: '2026-10-25'
