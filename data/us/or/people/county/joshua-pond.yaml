@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/5eee95b7-5fbd-588e-9411-8dfd4aa28e59
+name: Joshua Pond
+identifiers: []
+candidacies:
+- contest_id: columbia/2024-11-05/district-attorney
+  election_id: columbia/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:columbia/government
+  office_id: or-columbia/district-attorney
+  party: Nonpartisan
+  ballot_name: Joshua Pond
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for District Attorney, Columbia County: Joshua Pond 18,524; miscellaneous write-ins 488. District attorneys are elected to four-year terms (ORS 8.610). Pond won a November 5, 2024 special election after DA Jeff Auxier (elected 2022) left office mid-term; the Blue Book gives Pond''s term-expiry year as 2027, the remainder of the 2022 class term.'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/columbia.aspx
+  note: 'Oregon Blue Book, Columbia County page (Secretary of State): county officials list ''Dist. Atty. Joshua Pond''.'
+  retrieved: '2026-10-25'

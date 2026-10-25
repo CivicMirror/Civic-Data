@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/0180a495-9f82-581b-9be8-48b185473059
+name: Jeff Auxier
+identifiers: []
+candidacies:
+- contest_id: columbia/2022-05-17/district-attorney
+  election_id: columbia/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:columbia/government
+  office_id: or-columbia/district-attorney
+  party: Nonpartisan
+  ballot_name: Jeff Auxier
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Columbia County: Jeff Auxier 9,171; miscellaneous write-ins 189. Auxier won the May 2022 primary; he left office mid-term and the seat was filled at a November 2024 special election. No membership is modeled for Auxier because his departure date is not documented in the sources read.'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/columbia.aspx
+  note: 'Oregon Blue Book, Columbia County page (Secretary of State): county officials list.'
+  retrieved: '2026-10-25'

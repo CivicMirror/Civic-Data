@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: coos/2024-05-21/primary
+name: Coos County 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: coos/2024-05-21/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:coos/government
+  office_id: or-coos/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c52637b4-d534-5064-9019-e0bfaa0a1b3f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c52637b4-d534-5064-9019-e0bfaa0a1b3f
+    name: Jody Newby
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election.'
+  retrieved: '2026-10-25'
