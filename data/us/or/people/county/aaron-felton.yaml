@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/281bac56-3c29-5092-b132-0a29baeee669
+name: Aaron Felton
+identifiers: []
+candidacies:
+- contest_id: polk/2024-05-21/district-attorney
+  election_id: polk/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:polk/government
+  office_id: or-polk/district-attorney
+  party: Nonpartisan
+  ballot_name: Aaron Felton
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Polk County: Aaron Felton 13,665; miscellaneous write-ins 212. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/polk.aspx
+  note: 'Oregon Blue Book, Polk County page (Secretary of State): county officials list ''Dist. Atty. Aaron Felton''.'
+  retrieved: '2026-10-25'

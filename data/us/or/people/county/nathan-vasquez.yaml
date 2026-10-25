@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/96e80054-dc02-5386-9ede-cc157763b71c
+name: Nathan Vasquez
+identifiers: []
+candidacies:
+- contest_id: multnomah/2024-05-21/district-attorney
+  election_id: multnomah/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:multnomah/government
+  office_id: or-multnomah/district-attorney
+  party: Nonpartisan
+  ballot_name: Nathan Vasquez
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Multnomah County: Nathan Vasquez 102,481; Mike Schmidt 89,058; miscellaneous write-ins 766. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/multnomah.aspx
+  note: 'Oregon Blue Book, Multnomah County page (Secretary of State): county officials list ''Dist. Atty. Nathan Vasquez''.'
+  retrieved: '2026-10-25'
