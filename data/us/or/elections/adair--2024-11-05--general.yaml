@@ -1,0 +1,32 @@
+# Built for issue #170 (Oregon master tracking).
+id: adair/2024-11-05/general
+name: 'Adair Village 2024 General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: adair/2024-11-05/general/mayor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:adair/government
+    office_id: or-adair/mayor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/546a4740-18c2-5842-a983-e9beef0417fc
+    result_status: certified
+    winners:
+      - person_id: ocd-person/546a4740-18c2-5842-a983-e9beef0417fc
+        name: Bill Currier
+  - id: adair/2024-11-05/general/councilor-ward-4
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:adair/government
+    office_id: or-adair/councilor-ward-4
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/702466d5-521d-5783-a54b-5bf49b09d359
+      - ocd-person/8f7592db-d620-5479-898e-afc33242ff73
+    result_status: certified
+    winners:
+      - person_id: ocd-person/702466d5-521d-5783-a54b-5bf49b09d359
+        name: John P. Wilson
+sources:
+- url: https://re.bentoncountyor.gov/wp-content/uploads/2024/12/2024Nov05-Cumulative-Results_secured.pdf
+  note: 'Benton County Elections, 2024 November 5 General Election Cumulative Results (certified)'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/f7b38801-4c74-5fa4-99ea-5fb8ca586a8b
+name: Nick Nims
+identifiers: []
+candidacies:
+  - contest_id: antelope/2025-11-10/special/mayor
+    election_id: antelope/2025-11-10/special
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:antelope/government
+    office_id: or-antelope/mayor
+    party: null
+    ballot_name: 'Nick Nims'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: https://cms5.revize.com/revize/wascocounty25/document_center/Clerk/Elections/Wasco County Official Abstract - Special Election - City of Antelope- Website.pdf
+  note: 'Wasco County Clerk, Final Official Abstract, November 10, 2025 Special Election, City of Antelope (certified December 1, 2025)'
+  retrieved: '2026-10-25'
