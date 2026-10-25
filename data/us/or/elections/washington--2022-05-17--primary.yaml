@@ -19,7 +19,20 @@ contests:
   winners:
   - person_id: ocd-person/66e84826-f3df-5e6d-aec0-a372ba9e3396
     name: Dan Cross
+- id: washington/2022-05-17/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:washington/government
+  office_id: or-washington/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c469a643-a7b6-5100-9f4e-e190accdf771
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c469a643-a7b6-5100-9f4e-e190accdf771
+    name: Kevin Barton
 sources:
 - url: https://www.washingtoncountyor.gov/elections/documents/may-2022-ballots-cast-contest-precincts/download?inline
   note: 'Washington County, Ballots Cast per Contest with Precincts -- May 2022 Primary Election (official results).'
   retrieved: '2026-10-23'
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-25'

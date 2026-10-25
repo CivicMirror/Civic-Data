@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): County Judge
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: wheeler/2022-05-17/primary
+name: Wheeler County 2022-05-17 primary election
+date: '2022-05-17'
+election_type: primary
+status: official
+contests:
+- id: wheeler/2022-05-17/county-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:wheeler/government
+  office_id: or-wheeler/county-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/81b6b855-670b-5b7d-97ae-80a77b83c2f7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/81b6b855-670b-5b7d-97ae-80a77b83c2f7
+    name: Lynn Morley
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-25'

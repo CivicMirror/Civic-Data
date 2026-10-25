@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/dd9d8516-0e13-59f4-814f-a2393a36a17b
+name: Gretchen Ladd Dobler
+identifiers: []
+candidacies:
+- contest_id: wheeler/2024-05-21/district-attorney
+  election_id: wheeler/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:wheeler/government
+  office_id: or-wheeler/district-attorney
+  party: Nonpartisan
+  ballot_name: Gretchen Dobler
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Wheeler County: Gretchen Dobler 383; miscellaneous write-ins 9. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/wheeler.aspx
+  note: 'Oregon Blue Book, Wheeler County page (Secretary of State): county officials list ''Dist. Atty. Gretchen Ladd Dobler''.'
+  retrieved: '2026-10-25'
