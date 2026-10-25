@@ -1,0 +1,14 @@
+# Built for issue #170 (Oregon master tracking).
+id: or-baker-councilor-gratton-miller
+person_id: ocd-person/a8d5c4d4-c1b2-54c9-8501-eaabe45266ab
+organization_id: ocd-organization/0a922e7c-8c55-5700-919e-8bed936fb185
+post_id: or-baker/councilor
+role: Councilor
+how_seated: elected
+sources:
+- url: https://www.bakercity.com/2168/City-Council
+  note: 'City of Baker City, City Council page and 2022 charter (city site)'
+  retrieved: '2026-10-25'
+- url: https://bakercityor.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=366,plainText=false)
+  note: 'City of Baker City, council agenda, June 23, 2026 (mayor and councilors as listed)'
+  retrieved: '2026-10-25'
