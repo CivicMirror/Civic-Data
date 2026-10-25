@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/fef954b0-5b3b-57fb-bd71-ca312804eb6a
+name: Paul Charas
+identifiers: []
+candidacies:
+- contest_id: lake/2024-05-21/district-attorney
+  election_id: lake/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:lake/government
+  office_id: or-lake/district-attorney
+  party: Nonpartisan
+  ballot_name: Paul J Charas
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Lake County: Paul J Charas 1,263; Ted K Martin 613; miscellaneous write-ins 12. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/lake.aspx
+  note: 'Oregon Blue Book, Lake County page (Secretary of State): county officials list ''Dist. Atty. Paul Charas''.'
+  retrieved: '2026-10-25'

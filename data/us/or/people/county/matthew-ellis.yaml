@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/7df7f9c0-23ed-5e8e-93ce-411eeb203ff3
+name: Matthew Ellis
+identifiers: []
+candidacies:
+- contest_id: hood-river/2024-05-21/district-attorney
+  election_id: hood-river/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:hood-river/government
+  office_id: or-hood-river/district-attorney
+  party: Nonpartisan
+  ballot_name: Matthew Ellis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Hood River County: Matthew Ellis 4,660; miscellaneous write-ins 147. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/hood-river.aspx
+  note: 'Oregon Blue Book, Hood River County page (Secretary of State): county officials list ''Dist. Atty. Matthew Ellis''.'
+  retrieved: '2026-10-25'

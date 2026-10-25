@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: klamath/2022-05-17/primary
+name: Klamath County 2022-05-17 primary election
+date: '2022-05-17'
+election_type: primary
+status: official
+contests:
+- id: klamath/2022-05-17/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:klamath/government
+  office_id: or-klamath/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bdb1137e-6bca-5669-bb58-aad082828dab
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bdb1137e-6bca-5669-bb58-aad082828dab
+    name: Eve A Costello
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-25'
