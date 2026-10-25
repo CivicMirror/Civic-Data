@@ -1,0 +1,31 @@
+# Built for issue #170 (Oregon master tracking).
+id: dayville/2024-11-05/general
+name: 'Dayville 2024 General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: dayville/2024-11-05/general/mayor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:dayville/government
+    office_id: or-dayville/mayor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/dac9c73b-1086-537c-8910-c0a0442777fd
+    result_status: certified
+    winners:
+      - person_id: ocd-person/dac9c73b-1086-537c-8910-c0a0442777fd
+        name: Valli Hettinga
+  - id: dayville/2024-11-05/general/councilor-position-5
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:dayville/government
+    office_id: or-dayville/councilor-position-5
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/9ad6a990-57b4-5396-99e0-c3d831ae35b1
+    result_status: certified
+    winners:
+      - person_id: ocd-person/9ad6a990-57b4-5396-99e0-c3d831ae35b1
+        name: Skip Inscore
+sources:
+- url: https://grantcountyoregon.net/DocumentCenter/View/1891/General-Election-2024-Official-Results
+  note: 'Grant County Clerk, certified abstract of the November 5, 2024 general election (Dayville contests)'
+  retrieved: '2026-10-25'
