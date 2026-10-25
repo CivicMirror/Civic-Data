@@ -1,0 +1,12 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-organization/39bdfe2c-2334-58d3-ab3e-4a8244e63ff2
+name: Malin City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:malin/government
+identifiers: []
+sources:
+- url: https://cityofmalin.org/electedofficials
+  note: 'City of Malin, elected officials page (roster present but not extractable as text): BUILT FAIL-CLOSED: the city''s elected-officials page exists, but its roster does not extract as text (the names sit in images/scripts), so NO holder is verified from a city source and no memberships are built. The structure -- a directly elected mayor and six at-large councilors on staggered terms (vote for three at the November 2026 election) -- is corroborated by Klamath County''s official sample ballot. The factory lead names Mayor John Hughto and Councilors Ryan Bartholomew, Connie Venegas, Heath Haywood, Christa Moore, Brandon Zieg and Rick Dickinson; none is minted.'
+  retrieved: '2026-10-25'
+- url: https://cityofmalin.org/electedofficials
+  note: 'Klamath County Clerk, official sample ballot, November 3, 2026 (Malin structure: elected mayor; at-large councilors, vote for three), as read in verification'
+  retrieved: '2026-10-25'
