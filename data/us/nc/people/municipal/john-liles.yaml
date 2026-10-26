@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3bcf9204-a785-5237-ac31-730d8b8087e3
+name: John Liles
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/wadesboro-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wadesboro/government
+  office_id: wadesboro/council-member
+  party: Nonpartisan
+  ballot_name: John Liles
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wadesboro Town Council -- Tamara Garris (Nonpartisan) 356; Donald Sellers (Nonpartisan) 314; Ida Cason (Nonpartisan) 295; John Liles (Nonpartisan) 295; Stephen Greene (Nonpartisan) 293; Kevin Adams (Nonpartisan) 207; Jerel Miller (Nonpartisan) 204; Lawrence Parsons (Nonpartisan) 122; Michael Livingston (Nonpartisan) 113; Mack Daniels (Nonpartisan) 73; Alexandria Smith (Nonpartisan) 49; Rebecca King (Nonpartisan) 22; Jason Rigsby (Nonpartisan) 11; Chandra Waller (Nonpartisan) 10; Steve Harris (Nonpartisan) 4. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

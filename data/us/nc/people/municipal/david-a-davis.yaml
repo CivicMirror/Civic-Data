@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cc873f5f-f3cf-514b-a932-4a707fdba5ef
+name: David A. Davis
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/bessemer-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bessemer/government
+  office_id: bessemer/mayor
+  party: Nonpartisan
+  ballot_name: David A. Davis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Bessemer Mayor -- Becky Steelman Smith (Nonpartisan) 270; Michael Meeks, Sr. (Nonpartisan) 141; Aaron Grosdidier (Nonpartisan) 103; David A. Davis (Nonpartisan) 36; John Bridgeman (Nonpartisan) 29; Christopher Burch (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

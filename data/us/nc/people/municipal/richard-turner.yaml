@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8e5c64e7-b1f6-5975-8ff4-66d8c4d80c61
+name: Richard Turner
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/belmont-mayor-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+  office_id: belmont/mayor
+  party: Nonpartisan
+  ballot_name: Richard Turner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Belmont Mayor (Unexpired Term) -- Richard Turner (Nonpartisan) 1,341; Martha Stowe (Nonpartisan) 1,044; Rick Jordan (Nonpartisan) 201; Amanda Wall (Nonpartisan) 64; Brooke Davis (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0e3366a5-c60e-51a1-b2b3-6a1c7bae1ef9
+name: Jon Olson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/wendell-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wendell/government
+  office_id: wendell/commissioner
+  party: Nonpartisan
+  ballot_name: Jon Olson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Wendell Board of Commissioners -- Joe DeLoach (Nonpartisan) 616; Braxton Davis Honeycutt (Nonpartisan) 580; Philip Tarnaski (Nonpartisan) 464; Kris Rixon (Nonpartisan) 456; Jorge E. Cordova (Nonpartisan) 385; Jon Olson (Nonpartisan) 309; Taylor Ullrich (Nonpartisan) 295. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

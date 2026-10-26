@@ -8,19 +8,29 @@
 id: ocd-person/cb675d8f-61a1-421f-ba63-4297faa11452
 name: Dejuana Bigelow
 identifiers:
-  - scheme: civicpatch-person
-    identifier: b2f108ff-2237-444f-9c0a-f1b7d07f0fbe
-candidacies: []
+- scheme: civicpatch-person
+  identifier: b2f108ff-2237-444f-9c0a-f1b7d07f0fbe
+candidacies:
+- contest_id: nc/2023-11-07/burlington-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:burlington/government
+  office_id: burlington/council-member
+  party: Nonpartisan
+  ballot_name: Dejuana Bigelow
+  status: active
 contact:
   email: dbigelow@burlingtonnc.gov
-  phone: "(336) 222-5020"
+  phone: (336) 222-5020
   profile_url: https://burlingtonnc.gov/2603/Dejuana-Bigelow-Councilmember
 image: https://burlingtonnc.gov/ImageRepository/Document?documentId=28467
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://burlingtonnc.gov/2603/Dejuana-Bigelow-Councilmember
-    retrieved: "2026-08-14"
-  - url: https://burlingtonnc.gov/43/City-Council
-    retrieved: "2026-08-14"
+- url: https://burlingtonnc.gov/2603/Dejuana-Bigelow-Councilmember
+  retrieved: '2026-08-14'
+- url: https://burlingtonnc.gov/43/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Burlington Government Town Council -- Dejuana Bigelow (Nonpartisan) 3,221; Bob Ward (Nonpartisan) 3,072; Charlie Beasley (Nonpartisan) 2,542; Celo Faucette (Nonpartisan) 1,803; Brandy Whittaker (Write-In) (Write-In) 7. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

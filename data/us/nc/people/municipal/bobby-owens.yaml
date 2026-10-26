@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0efdd8f4-2c92-5740-b0ac-8b2d88cf334d
+name: Bobby Owens
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/manteo-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:manteo/government
+  office_id: manteo/mayor
+  party: Nonpartisan
+  ballot_name: Bobby Owens
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Manteo Mayor -- Sherry Butcher Wickstrom (Nonpartisan) 309; Bobby Owens (Nonpartisan) 177. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

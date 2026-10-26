@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0c5c0fb4-1a94-56df-87fe-fcdb1296e027
+name: William Goedert
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/louisburg-mayor
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:louisburg/government
+  office_id: louisburg/mayor
+  party: Nonpartisan
+  ballot_name: William Goedert
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Louisburg Mayor -- Christopher Neal (Nonpartisan) 350; Boyd Sturges (Nonpartisan) 236; William Goedert (Nonpartisan) 38. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

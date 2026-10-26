@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c372d941-04ee-5330-84b3-bd60b4e1723f
+name: Don Frantz
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/cary-council-member
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cary/government
+  office_id: cary/council-member
+  party: Write-In
+  ballot_name: Don Frantz
+  status: active
+- contest_id: nc/2023-10-10/cary-mayor
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cary/government
+  office_id: cary/mayor
+  party: Write-In
+  ballot_name: Don Frantz
+  status: active
+- contest_id: nc/2023-10-10/cary-council-member-district-b
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cary/government
+  office_id: cary/council-member
+  party: Nonpartisan
+  ballot_name: Don Frantz
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Cary Town Council (At-Large) -- Lori Bush (Nonpartisan) 10,750; Mary Insprucker (Nonpartisan) 3,705; Matthew Gronke (Nonpartisan) 689; Sarika Bansal (Write-In) (Write-In) 13; Don Frantz (Write-In) (Write-In) 5; Michelle Craig (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Cary Mayor -- Harold Weinbrecht, Jr. (Nonpartisan) 13,035; Lori Bush (Write-In) (Write-In) 34; Don Frantz (Write-In) (Write-In) 18; Sarika Bansal (Write-In) (Write-In) 15; Mary Collins (Write-In) (Write-In) 13; Dennis Midkiff (Write-In) (Write-In) 5; Ed Yerha (Write-In) (Write-In) 5; Jack Smith (Write-In) (Write-In) 5; Mary Insprucker (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Cary Town Council, District B -- Michelle Craig (Nonpartisan) 2,846; Don Frantz (Nonpartisan) 1,796. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

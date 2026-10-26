@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d07fff05-e1b3-5715-aff4-5345dffbf6ba
+name: Anne K. Harwood
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/badin-council-member-member-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:badin/government
+  office_id: badin/council-member
+  party: Nonpartisan
+  ballot_name: Anne K. Harwood
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Badin Town Council, Member At-large -- Dale Ward (Nonpartisan) 219; Anne K. Harwood (Nonpartisan) 130; Selenia L. Hinson (Nonpartisan) 82. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

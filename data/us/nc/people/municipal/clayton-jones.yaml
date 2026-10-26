@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c42117a4-bd18-5232-b991-68a6c71b906f
+name: Clayton Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/weddington-council-member-district-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:weddington/government
+  office_id: weddington/council-member
+  party: Nonpartisan
+  ballot_name: Clayton Jones
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Weddington Town Council, District 3 -- Clayton Jones (Nonpartisan) 1,711; Cathy Brown (Write-In) (Write-In) 307. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -14,19 +14,49 @@
 id: ocd-person/c6874cce-4cc7-43f4-aca4-c5da50cc5dbe
 name: Robert C. Clark
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 5a123c8e-4882-4f9a-9f1a-6396b140aeab
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 5a123c8e-4882-4f9a-9f1a-6396b140aeab
+candidacies:
+- contest_id: nc/2024-11-05/winston-salem-council-member-west-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Republican
+  ballot_name: Robert C. Clark
+  status: active
+- contest_id: nc/2024-11-05/winston-salem-council-member-southeast-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: Robert C. Clark
+  status: active
+- contest_id: nc/2024-11-05/winston-salem-council-member-southwest-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: Robert C. Clark
+  status: active
 contact:
   email: robertc@cityofws.org
-  phone: "(336) 416-0190"
+  phone: (336) 416-0190
   profile_url: https://www.cityofws.org/3568/Council-Member-Robert-C-Clark
 image: https://www.cityofws.org/ImageRepository/Document?documentId=36325
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.cityofws.org/3499/City-Council
-    retrieved: "2026-08-14"
-  - url: https://www.cityofws.org/3568/Council-Member-Robert-C-Clark
-    retrieved: "2026-08-14"
+- url: https://www.cityofws.org/3499/City-Council
+  retrieved: '2026-08-14'
+- url: https://www.cityofws.org/3568/Council-Member-Robert-C-Clark
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, West Ward -- Robert C. Clark (Republican) 10,119; Christopher Smith (Democratic) 9,894. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Southeast Ward -- James Taylor (Democratic) 8,301; Robert C. Clark (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Southwest Ward -- Scott Andree-Bowen (Democratic) 11,626; James Taylor (Write-In) (Write-In) 7; Robert C. Clark (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

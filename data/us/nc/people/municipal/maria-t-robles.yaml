@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/90eefd7d-5410-5e46-81c5-eb4ca80f61c1
+name: Maria T. Robles
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pollocksville-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pollocksville/government
+  office_id: pollocksville/commissioner
+  party: Nonpartisan
+  ballot_name: Maria T. Robles
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Pollocksville Board of Commissioners -- Ellis Banks (Nonpartisan) 89; Maria T. Robles (Nonpartisan) 86; Vic Bryan (Nonpartisan) 77. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

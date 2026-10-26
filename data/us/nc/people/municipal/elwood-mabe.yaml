@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9d21188a-82dc-527f-9d3d-f6083da660a7
+name: Elwood Mabe
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/walnut-cove-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:walnut-cove/government
+  office_id: walnut-cove/commissioner
+  party: Nonpartisan
+  ballot_name: Elwood Mabe
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Walnut Cove Board of Commissioners -- Sandrae Scheib Johnston (Nonpartisan) 108; Thomas Mitchell (Nonpartisan) 89; Elwood Mabe (Nonpartisan) 72; Danny Hairston (Nonpartisan) 60. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

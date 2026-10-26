@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b34e60c9-4168-54a7-be99-8a6a6cea5768
+name: Lloyd G. Armstrong
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/columbia-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:columbia/government
+  office_id: columbia/alderman
+  party: Nonpartisan
+  ballot_name: Lloyd G. Armstrong
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Columbia Board of Aldermen -- Lloyd G. Armstrong (Nonpartisan) 40; Sandra Owens (Nonpartisan) 33. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

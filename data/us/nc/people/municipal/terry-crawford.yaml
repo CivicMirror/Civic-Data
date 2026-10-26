@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1346ff5f-b2e0-5bf1-b1e0-e666a760d0d6
+name: Terry Crawford
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/concord-council-member-district-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:concord/government
+  office_id: concord/council-member
+  party: Nonpartisan
+  ballot_name: Terry Crawford
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Concord City Council, District 5 -- Terry Crawford (Nonpartisan) 9,152. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/618fc6a7-78bb-5477-97b8-681405d51119
+name: Nick Shook
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/askewville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:askewville/government
+  office_id: askewville/commissioner
+  party: Write-In
+  ballot_name: Nick Shook
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Askewville Board of Commissioners -- Michael Baker (Nonpartisan) 24; Nicholas Pritt (Nonpartisan) 22; Carla Sue Pesce (Nonpartisan) 21; Kay W. Brantley (Nonpartisan) 7; Nick Shook (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

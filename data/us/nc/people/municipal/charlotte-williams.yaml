@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/63be4eee-1c6e-5987-9a1e-7326c3f2c3b3
+name: Charlotte Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hickory-alderman-ward-2
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hickory/government
+  office_id: hickory/alderman
+  party: Nonpartisan
+  ballot_name: Charlotte Williams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hickory Board of Aldermen, Ward 2 -- Charlotte Williams (Nonpartisan) 1,007. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

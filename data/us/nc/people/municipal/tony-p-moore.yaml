@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fd0f295f-0cd6-5b94-a593-1a82fd393ca7
+name: Tony P. Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/winterville-council-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winterville/government
+  office_id: winterville/council-member
+  party: Nonpartisan
+  ballot_name: Tony P. Moore
+  status: active
+- contest_id: nc/2025-11-04/winterville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winterville/government
+  office_id: winterville/mayor
+  party: Nonpartisan
+  ballot_name: Tony P. Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Winterville Town Council (Unexpired Term) -- Shantel Hawkins (Nonpartisan) 743; Tony P. Moore (Nonpartisan) 617. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Winterville Mayor -- Ricky Hines (Nonpartisan) 1,118; Tony P. Moore (Nonpartisan) 578; Ken Pearce (Nonpartisan) 162; Veronica Roberson (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

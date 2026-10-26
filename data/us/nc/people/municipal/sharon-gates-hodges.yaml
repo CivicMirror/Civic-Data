@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7e6798c1-3edc-516e-ac4c-62d35fdb9fc3
+name: Sharon Gates-Hodges
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/dobson-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dobson/government
+  office_id: dobson/commissioner
+  party: Nonpartisan
+  ballot_name: Sharon Gates-Hodges
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Dobson Board of Commissioners -- J. Wayne Atkins (Nonpartisan) 184; Walter White (Nonpartisan) 167; John Jonczak (Nonpartisan) 159; Sharon Gates-Hodges (Nonpartisan) 106. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

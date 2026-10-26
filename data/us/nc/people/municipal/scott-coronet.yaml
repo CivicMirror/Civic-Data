@@ -7,16 +7,26 @@
 id: ocd-person/9c96b88c-9ff3-4e46-8f33-5c43b0cca05c
 name: Scott Coronet
 identifiers:
-  - scheme: civicpatch-person
-    identifier: fb52761b-ac51-4f35-aa72-6b803245f9bb
-candidacies: []
+- scheme: civicpatch-person
+  identifier: fb52761b-ac51-4f35-aa72-6b803245f9bb
+candidacies:
+- contest_id: nc/2025-11-04/huntersville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:huntersville/government
+  office_id: huntersville/commissioner
+  party: Nonpartisan
+  ballot_name: Scott Coronet
+  status: active
 contact:
   email: scoronet@huntersville.org
-  phone: "(704) 464-5316"
+  phone: (704) 464-5316
   profile_url: https://www.huntersville.org/directory.aspx?EID=240
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.huntersville.org/Directory.aspx?did=14
-    retrieved: "2026-08-14"
+- url: https://www.huntersville.org/Directory.aspx?did=14
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Huntersville Government Board of Commissioners -- Jennifer Hunt (Nonpartisan) 8,097; Nick Walsh (Nonpartisan) 7,618; Edwin Quarles (Nonpartisan) 7,580; LaToya Rivers (Nonpartisan) 7,433; Scott Coronet (Nonpartisan) 7,285; Heather Smallwood (Nonpartisan) 6,535; Dan Boone (Nonpartisan) 6,040; Jamie Wideman (Nonpartisan) 5,881; Frank Gammon (Nonpartisan) 5,869; Noelle Burton (Write-In) (Write-In) 150. Winners are the top 6 by total votes.'
+  retrieved: '2026-10-25'

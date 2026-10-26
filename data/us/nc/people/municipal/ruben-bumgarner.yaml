@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2d998cdb-c3a5-5271-87ff-dca9aeef3158
+name: Ruben Bumgarner
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/ronda-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ronda/government
+  office_id: ronda/commissioner
+  party: Nonpartisan
+  ballot_name: Ruben Bumgarner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Ronda Board of Commissioners -- Bobby Munsey (Nonpartisan) 74; Ruben Bumgarner (Nonpartisan) 52; Victor Varela (Nonpartisan) 46; Manuel Wood (Nonpartisan) 39; Kevin Reece (Write-In) (Write-In) 34; Steven Mathis (Nonpartisan) 31; Rex Carter (Write-In) (Write-In) 31. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

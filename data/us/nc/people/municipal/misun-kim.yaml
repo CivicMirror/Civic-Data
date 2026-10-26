@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d79c3134-3b78-50fe-bbe5-9176e2c818ed
+name: Misun Kim
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/charlotte-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/mayor
+  party: Republican
+  ballot_name: Misun Kim
+  status: active
+- contest_id: nc/2025-11-04/charlotte-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/council-member
+  party: Republican
+  ballot_name: Misun Kim
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Charlotte Mayor -- Vi Lyles (Democratic) 64,564; Misun Kim (Republican) 18,713; Rob Yates (Libertarian) 4,087; Ken May (Write-In) (Write-In) 5; Braxton Winston (Write-In) (Write-In) 4; Jennifer Roberts (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Charlotte City Council (At-Large) -- Dimple Ajmera (Democratic) 96,599; Victoria Watlington (Democratic) 95,212; James (Smuggie) Mitchell, Jr. (Democratic) 90,177; LaWana Slack-Mayfield (Democratic) 87,866; Edwin B. Peacock III (Republican) 46,190; Misun Kim (Republican) 36,564; Lia White (Write-In) (Write-In) 205; Larken Egleston (Write-In) (Write-In) 12. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

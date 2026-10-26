@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9ef8e7c7-7e43-5513-9e36-efb4af2e270c
+name: Michael F. Steiner
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/mount-pleasant-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mount-pleasant/government
+  office_id: mount-pleasant/commissioner
+  party: Nonpartisan
+  ballot_name: Michael F. Steiner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mount Pleasant Board of Commissioners -- Lori Furr (Nonpartisan) 182; Michael F. Steiner (Nonpartisan) 132; Elizabeth (Liz) Poole (Nonpartisan) 84; William Edward Meadows (Nonpartisan) 84; Ashley Troutman Starnes (Nonpartisan) 66; Brylie Mae Newton (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

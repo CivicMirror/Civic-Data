@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/96938f2a-f156-55e1-8693-db6ee06b330d
+name: Jamie Noble
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/elizabeth-mayor
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/mayor
+  party: Nonpartisan
+  ballot_name: Jamie Noble
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Elizabeth City Mayor -- Kirk Rivers (Nonpartisan) 1,138; Christina Williams (Nonpartisan) 394; Jamie Noble (Nonpartisan) 95. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

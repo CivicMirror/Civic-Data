@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5b1c673b-0b30-5bce-8425-63e4b7b25f5b
+name: Fred McBee
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/mcadenville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mcadenville/government
+  office_id: mcadenville/council-member
+  party: Nonpartisan
+  ballot_name: Fred McBee
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mcadenville Town Council -- Greg Richardson (Nonpartisan) 177; Fred McBee (Nonpartisan) 169; Susan Elkins (Nonpartisan) 144; Jay McCosh (Nonpartisan) 133; Abigail Kelm (Nonpartisan) 78; Carrie Breyare Bailey (Nonpartisan) 22. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

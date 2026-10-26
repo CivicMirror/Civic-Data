@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2606a553-8468-5b4d-864a-59d53f5f0de4
+name: Robbie Conley
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/pinebluff-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pinebluff/government
+  office_id: pinebluff/mayor
+  party: Write-In
+  ballot_name: Robbie Conley
+  status: active
+- contest_id: nc/2025-11-04/pinebluff-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pinebluff/government
+  office_id: pinebluff/commissioner
+  party: Nonpartisan
+  ballot_name: Robbie Conley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pinebluff Mayor -- Ronald L. McDonald (Nonpartisan) 147; Mike Ough (Write-In) (Write-In) 19; Robbie Conley (Write-In) (Write-In) 16; Charlie Kirk (Write-In) (Write-In) 9. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pinebluff Board of Commissioners -- Robbie Conley (Nonpartisan) 205; Thomas Rindfleisch (Nonpartisan) 136; Jerry O. Williams (Nonpartisan) 81. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

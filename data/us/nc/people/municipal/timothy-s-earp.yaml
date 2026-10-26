@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/59aba5f2-1d9e-5394-8217-09bc3e0910c5
+name: Timothy S. Earp
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/micro-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:micro/government
+  office_id: micro/commissioner
+  party: Nonpartisan
+  ballot_name: Timothy S. Earp
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Micro Board of Commissioners -- Timothy S. Earp (Nonpartisan) 16; Kathryn Garcia (Nonpartisan) 14; Kevin Worley (Nonpartisan) 13. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

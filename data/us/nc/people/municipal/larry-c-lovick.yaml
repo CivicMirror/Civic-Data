@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/78dcee65-1667-5e3c-8aea-31fcaef4b7d2
+name: Larry C. Lovick
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/falcon-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:falcon/government
+  office_id: falcon/commissioner
+  party: Nonpartisan
+  ballot_name: Larry C. Lovick
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Falcon Board of Commissioners -- R. Dwayne Dunning, Sr. (Nonpartisan) 41; James Danny Nelson (Nonpartisan) 38; John C. Wheeler (Nonpartisan) 32; Larry C. Lovick (Nonpartisan) 25; Sue Brigman (Nonpartisan) 24; Chris Stone (Nonpartisan) 21. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

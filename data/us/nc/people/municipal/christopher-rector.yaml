@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2ee80310-9f06-5736-8bfe-373aa8ca1e6a
+name: Christopher Rector
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/chadbourn-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chadbourn/government
+  office_id: chadbourn/council-member
+  party: Write-In
+  ballot_name: Christopher Rector
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Chadbourn Town Council -- Tony Carson Jordan (Nonpartisan) 173; Danny W. Clewis, Sr. (Nonpartisan) 170; Colene (Tootie) Kelly Faulk (Nonpartisan) 169; Antonio Ashley (Nonpartisan) 165; James Green (Nonpartisan) 157; Christopher Rector (Write-In) (Write-In) 1; Shanna K Williamson (Write-In) (Write-In) 1; William Schalk (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

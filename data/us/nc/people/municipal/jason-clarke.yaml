@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7250a68d-c420-551a-a646-6e0a6825646a
+name: Jason Clarke
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lilesville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lilesville/government
+  office_id: lilesville/commissioner
+  party: Nonpartisan
+  ballot_name: Jason Clarke
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lilesville Board of Commissioners -- John Montgomery (Nonpartisan) 39; Christopher Harrington (Nonpartisan) 33; Charles Chuck Cook (Nonpartisan) 25; Gaye Harrington (Nonpartisan) 24; Jason Clarke (Nonpartisan) 22. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

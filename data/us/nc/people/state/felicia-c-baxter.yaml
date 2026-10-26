@@ -12,6 +12,20 @@ candidacies:
   party: Democratic
   ballot_name: Felicia C. Baxter
   status: active
+- contest_id: nc/2023-11-07/smithfield-council-member-members-at-large
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:smithfield/government
+  office_id: smithfield/council-member
+  party: Nonpartisan
+  ballot_name: Felicia C. Baxter
+  status: active
+- contest_id: nc/2025-11-04/smithfield-council-member-member-district-1
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:smithfield/government
+  office_id: smithfield/council-member
+  party: Nonpartisan
+  ballot_name: Felicia C. Baxter
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_general_assembly
@@ -19,3 +33,9 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 10 -- Benton Sawrey (REP) 70,773; Felicia C. Baxter (DEM) 45,346; Christopher Sessions (LIB) 4,351. Benton Sawrey won with 70,773 votes.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Smithfield Town Council, Members At-large -- Roger A. Wood (Nonpartisan) 652; Stephen Rabil (Nonpartisan) 623; John A. Dunn (Nonpartisan) 614; Doris Louise Wallace (Nonpartisan) 467; Stuart Ashby Lee (Nonpartisan) 295; Felicia C. Baxter (Nonpartisan) 238. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Smithfield Town Council, Member District 1 -- Gettys Cohen, Jr. (Nonpartisan) 141; Felicia C. Baxter (Nonpartisan) 132. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

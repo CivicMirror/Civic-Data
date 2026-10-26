@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a01dd56d-acf1-5956-b65a-d256da12570a
+name: Brenda Lucas
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/spring-hope-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:spring-hope/government
+  office_id: spring-hope/commissioner
+  party: Nonpartisan
+  ballot_name: Brenda Lucas
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Spring Hope Board of Commissioners -- William T. Toney, Jr. (Nonpartisan) 117; Brenda Lucas (Nonpartisan) 115; Stephen Brumfield (Nonpartisan) 76; Jason Himmelright (Nonpartisan) 69; Tim Garland (Nonpartisan) 39; Garrett Quinn (Nonpartisan) 7. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

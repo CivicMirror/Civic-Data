@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0fbb5c7b-a775-594f-a03e-297c8b4e81f0
+name: Arthur Birx
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/connelly-springs-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:connelly-springs/government
+  office_id: connelly-springs/alderman
+  party: Write-In
+  ballot_name: Arthur Birx
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Connelly Springs Board of Aldermen -- Ramona A. Duncan (Nonpartisan) 88; Deborah Pelick (Nonpartisan) 63; Johnny Berry (Write-In) (Write-In) 35; Adam Greene (Write-In) (Write-In) 28; Arthur Birx (Write-In) (Write-In) 15. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

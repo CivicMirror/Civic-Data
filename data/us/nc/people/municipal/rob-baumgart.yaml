@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2d2e61cf-c1b0-575b-9f0b-a08b1e8f30c0
+name: Rob Baumgart
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/raleigh-council-member
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:raleigh/government
+  office_id: raleigh/council-member
+  party: Write-In
+  ballot_name: Rob Baumgart
+  status: active
+- contest_id: nc/2022-11-08/raleigh-council-member-district-d
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:raleigh/government
+  office_id: raleigh/council-member
+  party: Nonpartisan
+  ballot_name: Rob Baumgart
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Raleigh City Council (At-Large) -- Ms. Stormie Denise Forte (Nonpartisan) 61,235; Jonathan Melton (Nonpartisan) 50,700; Anne S. Franklin (Nonpartisan) 39,167; John Odom (Nonpartisan) 36,798; James Bledsoe (Nonpartisan) 31,367; Portia W. Rochelle (Nonpartisan) 25,388; Joshua Bradley (Nonpartisan) 18,262; Minu Lee (Write-In) (Write-In) 29; Mary Black-Branch (Write-In) (Write-In) 26; Corey Branch (Write-In) (Write-In) 18; Whitney Hill (Write-In) (Write-In) 15; Megan Patton (Write-In) (Write-In) 14; Jane Harrison (Write-In) (Write-In) 14; Christina Jones (Write-In) (Write-In) 14; Frank Fields (Write-In) (Write-In) 13; Cat Lawson (Write-In) (Write-In) 11; Rob Baumgart (Write-In) (Write-In) 9; Paul Fitts (Write-In) (Write-In) 7. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Raleigh City Council, District D -- Jane Harrison (Nonpartisan) 12,408; Jennifer Truman (Nonpartisan) 4,310; Todd Kennedy (Nonpartisan) 2,889; Rob Baumgart (Nonpartisan) 2,353. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/44da9c1e-6e39-5842-aa4c-1e22fa439114
+name: Renee Garner
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/matthews-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:matthews/government
+  office_id: matthews/commissioner
+  party: Nonpartisan
+  ballot_name: Renee Garner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Matthews Board of Commissioners -- Gina Hoover (Nonpartisan) 2,429; Mark Tofano (Nonpartisan) 2,394; Renee Garner (Nonpartisan) 2,336; Ken McCool (Nonpartisan) 2,246; Leon Threatt (Nonpartisan) 2,110; John R. Urban (Nonpartisan) 2,051; Jonathan Clayton (Nonpartisan) 1,909; Jeff Miller (Nonpartisan) 1,767; David Gaertner (Nonpartisan) 1,714; David Wieser (Nonpartisan) 1,535; George Young (Nonpartisan) 1,519; Sebastian Sadovsky (Nonpartisan) 1,260. Winners are the top 6 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4fca7272-7e40-52c0-88e8-29b5e778240f
+name: Bob Floyd
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/cedar-rock-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cedar-rock/government
+  office_id: cedar-rock/mayor
+  party: Nonpartisan
+  ballot_name: Bob Floyd
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cedar Rock Mayor -- Bob Floyd (Nonpartisan) 110; Pamela Mayberry (Write-In) (Write-In) 67. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

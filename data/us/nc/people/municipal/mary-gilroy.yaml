@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0d04c082-ee21-57cb-9180-6558273eab1a
+name: Mary Gilroy
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/foxfire-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:foxfire/government
+  office_id: foxfire/council-member
+  party: Nonpartisan
+  ballot_name: Mary Gilroy
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Foxfire Village Council -- Janice Gregorich (Nonpartisan) 127; Mary Gilroy (Nonpartisan) 109; Warren Morgan (Nonpartisan) 87; George F. Hedrick (Nonpartisan) 23. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

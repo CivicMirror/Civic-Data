@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d2fa8f8b-e03c-5a3b-990c-396349f912cb
+name: Raequan Outlaw
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/woodland-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:woodland/government
+  office_id: woodland/commissioner
+  party: Write-In
+  ballot_name: Raequan Outlaw
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Woodland Board of Commissioners -- David Cooper (Nonpartisan) 24; Cassandra Langford (Write-In) (Write-In) 2; Kenneth Guyum (Write-In) (Write-In) 1; Raequan Outlaw (Write-In) (Write-In) 1; Sidney Joyner (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

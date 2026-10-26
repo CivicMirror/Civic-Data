@@ -1,0 +1,90 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a2dea6f7-0ef6-59dc-b8cc-47461e30ad4e
+name: Blank
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hamlet-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamlet/government
+  office_id: hamlet/council-member
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2023-11-07/rockingham-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rockingham/government
+  office_id: rockingham/mayor
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2023-11-07/fair-bluff-commissioner-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fair-bluff/government
+  office_id: fair-bluff/commissioner
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2023-11-07/hoffman-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hoffman/government
+  office_id: hoffman/council-member
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2023-11-07/ellerbe-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ellerbe/government
+  office_id: ellerbe/council-member
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2025-11-04/windsor-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:windsor/government
+  office_id: windsor/mayor
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2025-11-04/colerain-mayor-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:colerain/government
+  office_id: colerain/mayor
+  party: Write-In
+  ballot_name: Blank
+  status: active
+- contest_id: nc/2025-11-04/garysburg-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:garysburg/government
+  office_id: garysburg/commissioner
+  party: Write-In
+  ballot_name: BLANK
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hamlet City Council -- Abbie Covington (Nonpartisan) 358; Maurice Lee Stuart II (Nonpartisan) 313; Oscar Sellers (Nonpartisan) 268; Ray Mills (Nonpartisan) 201; Blank (Write-In) (Write-In) 2; Charles D Dulin (Write-In) (Write-In) 2; Dewey Brower (Write-In) (Write-In) 1; Robert David (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Rockingham Mayor -- John P. Hutchinson (Nonpartisan) 538; Steve Morris (Write-In) (Write-In) 4; Blank (Write-In) (Write-In) 3; Ann Edwards (Write-In) (Write-In) 1; Anyone Else (Write-In) (Write-In) 1; Denise Sullivan (Write-In) (Write-In) 1; Jesus Christ (Write-In) (Write-In) 1; Noah Wallace (Write-In) (Write-In) 1; Philip T. Stone (Write-In) (Write-In) 1; Tina Glass (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Fair Bluff Board of Commissioners (Unexpired Term) -- Spruell R. Britt (Nonpartisan) 94; Blank (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hoffman Town Council -- Daniel Kelly (Nonpartisan) 32; Ricky Riccardo Anderson (Nonpartisan) 32; Rory Jones (Nonpartisan) 32; Kyonna Jones (Nonpartisan) 31; Cynthia Northcutt (Nonpartisan) 25; Grace Bostick (Write-In) (Write-In) 7; Trevor Feight (Write-In) (Write-In) 3; Blank (Write-In) (Write-In) 1; Du-Vale Dalton (Write-In) (Write-In) 1; Gracie Feight (Write-In) (Write-In) 1; JoAnn Jasper (Write-In) (Write-In) 1; Lauren Bostick (Write-In) (Write-In) 1; Sandra Marsh (Write-In) (Write-In) 1; Shane English (Write-In) (Write-In) 1; WD Taylor (Write-In) (Write-In) 1. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Ellerbe Town Council -- John Sears, Jr. (Nonpartisan) 37; Jeremy McKenzie (Nonpartisan) 27; Fred Cloninger (Write-In) (Write-In) 6; Blank (Write-In) (Write-In) 1; Fred Cloninger Jr. (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Windsor Mayor -- Lewis Hoggard (Nonpartisan) 333; Lewis Dameron (Write-In) (Write-In) 2; Blank (Write-In) (Write-In) 1; Darrell L. Cherry (Write-In) (Write-In) 1; David L. Jeanette Jr. (Write-In) (Write-In) 1; God (Write-In) (Write-In) 1; Hingle McKringleberry (Write-In) (Write-In) 1; Marvin Ray (Write-In) (Write-In) 1; Minnie Outlaw (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Colerain Mayor (Unexpired Term) -- Jacques Turner (Nonpartisan) 24; Blank (Write-In) (Write-In) 1; Lynn Askew (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Garysburg Board of Commissioners -- Rita Coleman Williams (Nonpartisan) 186; Wallace Ransom (Nonpartisan) 178; Semiko Jacobs (Nonpartisan) 165; Darryl Whittle (Nonpartisan) 132; Curtis Williams (Write-In) (Write-In) 53; Iris Williams (Write-In) (Write-In) 4; Rodreeck L. Webb (Write-In) (Write-In) 4; Katharine Bergeron (Write-In) (Write-In) 2; BLANK (Write-In) (Write-In) 1; C. Williams (Write-In) (Write-In) 1; Clinton Williams (Write-In) (Write-In) 1; James Mayo (Write-In) (Write-In) 1; Ky''Juan Faison-Mobley (Write-In) (Write-In) 1. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7b7e5626-17b2-5ac4-937c-0380b8c91ee1
+name: Danny Hairston
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/walnut-cove-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:walnut-cove/government
+  office_id: walnut-cove/commissioner
+  party: Nonpartisan
+  ballot_name: Danny Hairston
+  status: active
+- contest_id: nc/2025-11-04/walnut-cove-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:walnut-cove/government
+  office_id: walnut-cove/commissioner
+  party: Nonpartisan
+  ballot_name: Danny Hairston
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Walnut Cove Board of Commissioners -- Chad Jarvis (Write-In) (Write-In) 103; Johnnie Hairston (Nonpartisan) 100; Linda Dale Moore (Nonpartisan) 98; Danny Hairston (Nonpartisan) 81; Christy Gossett (Nonpartisan) 59. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Walnut Cove Board of Commissioners -- Sandrae Scheib Johnston (Nonpartisan) 108; Thomas Mitchell (Nonpartisan) 89; Elwood Mabe (Nonpartisan) 72; Danny Hairston (Nonpartisan) 60. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

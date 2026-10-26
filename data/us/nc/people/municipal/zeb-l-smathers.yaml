@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/941be2f7-27ea-53f2-9ffa-768a9343500d
+name: Zeb L. Smathers
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/canton-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:canton/government
+  office_id: canton/mayor
+  party: Nonpartisan
+  ballot_name: Zeb L. Smathers
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Canton Mayor -- Zeb L. Smathers (Nonpartisan) 364; Mike Ray (Write-In) (Write-In) 12. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

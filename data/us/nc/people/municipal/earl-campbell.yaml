@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4c7498f8-0bd4-538a-865a-696af3e3ac88
+name: Earl Campbell
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/sims-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:sims/government
+  office_id: sims/mayor
+  party: Nonpartisan
+  ballot_name: Earl Campbell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Sims Mayor -- Miranda Boykin (Nonpartisan) 46; Earl Campbell (Nonpartisan) 20. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

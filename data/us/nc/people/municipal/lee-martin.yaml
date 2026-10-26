@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/927c5d02-1846-5620-9960-4769382b3dcb
+name: Lee Martin
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/elizabeth-council-member-1st-ward
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/council-member
+  party: Nonpartisan
+  ballot_name: Lee Martin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Elizabeth City City Council, 1st Ward -- Joseph Peel (Nonpartisan) 480; Johnson Biggs (Nonpartisan) 425; Lee Martin (Nonpartisan) 105. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

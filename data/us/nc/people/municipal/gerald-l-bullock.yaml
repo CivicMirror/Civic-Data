@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7d03b2f9-19c6-554a-ab43-f15ed8595f9f
+name: Gerald L. Bullock
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/chocowinity-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chocowinity/government
+  office_id: chocowinity/commissioner
+  party: Nonpartisan
+  ballot_name: Gerald L. Bullock
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Chocowinity Board of Commissioners -- William J. (Billy) Albritton (Nonpartisan) 125; Gerald L. Bullock (Nonpartisan) 119. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

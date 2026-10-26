@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/380e87b3-7c23-5a7e-b8e1-2c40e6ac02ed
+name: Christopher Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/gaston-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gaston/government
+  office_id: gaston/commissioner
+  party: Nonpartisan
+  ballot_name: Christopher Jones
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gaston Board of Commissioners -- Donald W. Conner (Nonpartisan) 74; Gloria Motley Branch (Nonpartisan) 68; Kimberly Dickens (Nonpartisan) 51; Christopher Jones (Nonpartisan) 39; Terrance Lamont Smith (Nonpartisan) 13; Jerry Dickerson (Write-In) (Write-In) 1; Mike Phelps (Write-In) (Write-In) 1; Wade Moseley (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

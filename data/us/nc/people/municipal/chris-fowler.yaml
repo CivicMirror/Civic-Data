@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f554dc9c-b890-5b86-826c-d55a09954f2f
+name: Chris Fowler
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/tabor-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:tabor/government
+  office_id: tabor/council-member
+  party: Nonpartisan
+  ballot_name: Chris Fowler
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Tabor City Town Council -- Lamont Grate (Nonpartisan) 237; Chris Fowler (Nonpartisan) 236; Mitchell K. Strickland (Nonpartisan) 112; Bryan Culbertson (Nonpartisan) 45. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

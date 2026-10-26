@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/75898f1d-8c87-5fcb-bb00-d82da8af3a20
+name: Kyle Stalls
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/summerfield-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:summerfield/government
+  office_id: summerfield/council-member
+  party: Nonpartisan
+  ballot_name: Kyle Stalls
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Summerfield Town Council -- Kyle Stalls (Nonpartisan) 994; John Doggett (Nonpartisan) 919; Janelle Robinson (Nonpartisan) 737; Teresa Winfree Perryman (Nonpartisan) 545. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

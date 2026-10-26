@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/05385e00-c861-5745-85fd-145770ea4f4d
+name: Nancy Jones Taylor
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/whitakers-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whitakers/government
+  office_id: whitakers/commissioner
+  party: Nonpartisan
+  ballot_name: Nancy Jones Taylor
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Whitakers Board of Commissioners -- Nancy Jones Taylor (Nonpartisan) 80; Doris Ann Howington (Nonpartisan) 56; John Ford (Write-In) (Write-In) 42; Douglas Howington (Write-In) (Write-In) 28. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

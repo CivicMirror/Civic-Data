@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ee34fd0f-8d13-58a5-9d52-38d79c56189f
+name: Glenn Deal
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/taylorsville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:taylorsville/government
+  office_id: taylorsville/council-member
+  party: Nonpartisan
+  ballot_name: Glenn Deal
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Taylorsville Town Council -- Eric Bumgarner (Nonpartisan) 206; Kimberly Brown (Nonpartisan) 169; Tamara Odom (Nonpartisan) 141; Jack Simms (Nonpartisan) 139; Jonathan Coley (Nonpartisan) 123; Glenn Deal (Nonpartisan) 121; Jason Durmire (Nonpartisan) 113; Tristan St. Clair (Nonpartisan) 111; Greg Foster (Nonpartisan) 98; Megan Hefner Fishel (Nonpartisan) 96; Harold Dagenhart (Nonpartisan) 78; Edd Elliott (Nonpartisan) 65; William J. Fox II (Nonpartisan) 37. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

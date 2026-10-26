@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/929cdb01-fccc-54d3-89f3-ec5d446b9338
+name: Stephen Rabil
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/smithfield-council-member-members-at-large
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:smithfield/government
+  office_id: smithfield/council-member
+  party: Nonpartisan
+  ballot_name: Stephen Rabil
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Smithfield Town Council, Members At-large -- Roger A. Wood (Nonpartisan) 652; Stephen Rabil (Nonpartisan) 623; John A. Dunn (Nonpartisan) 614; Doris Louise Wallace (Nonpartisan) 467; Stuart Ashby Lee (Nonpartisan) 295; Felicia C. Baxter (Nonpartisan) 238. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

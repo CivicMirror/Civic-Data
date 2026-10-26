@@ -7,19 +7,39 @@
 id: ocd-person/b59f9f89-2a2d-46b3-a56e-9d13e8c439db
 name: Regina Ford Hall
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 49c61d4f-d128-467b-88bf-63fad588501e
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 49c61d4f-d128-467b-88bf-63fad588501e
+candidacies:
+- contest_id: nc/2024-11-05/winston-salem-council-member-northwest-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Democratic
+  ballot_name: Regina Ford Hall
+  status: active
+- contest_id: nc/2024-11-05/winston-salem-council-member-northeast-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: Regina Ford Hall
+  status: active
 contact:
   email: reginafh@cityofws.org
-  phone: "(336) 771-5178"
+  phone: (336) 771-5178
   profile_url: https://www.cityofws.org/3569/Council-Member-Regina-Ford-Hall
 image: https://www.cityofws.org/ImageRepository/Document?documentId=36324
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.cityofws.org/3569/Council-Member-Regina-Ford-Hall
-    retrieved: "2026-08-14"
-  - url: https://www.cityofws.org/3499/City-Council
-    retrieved: "2026-08-14"
+- url: https://www.cityofws.org/3569/Council-Member-Regina-Ford-Hall
+  retrieved: '2026-08-14'
+- url: https://www.cityofws.org/3499/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Northwest Ward -- Regina Ford Hall (Democratic) 11,269; James (Jimmy) Hodson (Republican) 6,336. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Northeast Ward -- Barbara Hanes Burke (Democratic) 10,472; Contessa Smith (Write-In) (Write-In) 85; Regina Ford Hall (Write-In) (Write-In) 19; Paula McCoy (Write-In) (Write-In) 12. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/280cbbea-5fa2-5982-9e79-6241f85a80c3
+name: Heather Seibles
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/fairmont-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fairmont/government
+  office_id: fairmont/council-member
+  party: Nonpartisan
+  ballot_name: Heather Seibles
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Fairmont Town Council -- Jeffery (JJ) McCree (Nonpartisan) 322; Heather Seibles (Nonpartisan) 301; Jan Tedder-Rogers (Nonpartisan) 286; Reshelle (Necie) Watson (Write-In) (Write-In) 123. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

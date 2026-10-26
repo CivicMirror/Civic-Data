@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/07215f49-d602-5c33-befe-a1be3d8dec48
+name: David Jenkins
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/gastonia-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/mayor
+  party: Write-In
+  ballot_name: David Jenkins
+  status: active
+- contest_id: nc/2023-11-07/gastonia-council-member-ward-3
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/council-member
+  party: Write-In
+  ballot_name: David Jenkins
+  status: active
+- contest_id: nc/2023-11-07/robersonville-council-member-district-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:robersonville/government
+  office_id: robersonville/council-member
+  party: Nonpartisan
+  ballot_name: David Jenkins
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gastonia Government Mayor -- Richard Franks (Nonpartisan) 2,931; Walker Reid (Nonpartisan) 2,680; Robert Kellogg (Nonpartisan) 1,457; Joseph Elliott (Nonpartisan) 793; Walter J. Hart, Jr. (Nonpartisan) 91; Charles Jamison (Write-In) (Write-In) 1; David Jenkins (Write-In) (Write-In) 1; James Henson (Write-In) (Write-In) 1; Joseph W. Buckner (Write-In) (Write-In) 1; Kent Lupton (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gastonia Government Town Council, Ward 3 -- Jim Gallagher (Nonpartisan) 4,962; Reece Shirley (Nonpartisan) 2,625; Jeff D. Bryson (Write-In) (Write-In) 2; David Jenkins (Write-In) (Write-In) 1; David Mitchell (Write-In) (Write-In) 1; Mark Sollars (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Robersonville Town Council, District 1 -- David Jenkins (Nonpartisan) 69; Debra Hines Armstrong (Nonpartisan) 41; Jonathan Cohen (Nonpartisan) 24. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

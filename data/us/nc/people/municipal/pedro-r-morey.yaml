@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/47e98611-0116-5698-9527-3f3b45a1d293
+name: Pedro R. Morey
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/waxhaw-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:waxhaw/government
+  office_id: waxhaw/commissioner
+  party: Nonpartisan
+  ballot_name: Pedro R. Morey
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Waxhaw Board of Commissioners -- Susanna Wedra (Nonpartisan) 2,284; Richard Daunt (Nonpartisan) 2,276; Anne M. Simpson (Nonpartisan) 1,279; Pedro R. Morey (Nonpartisan) 1,270. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e1b54f35-ea67-584d-8817-790ed7335195
+name: Bill McGregor
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/brookford-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:brookford/government
+  office_id: brookford/alderman
+  party: Nonpartisan
+  ballot_name: Bill McGregor
+  status: active
+- contest_id: nc/2025-11-04/brookford-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:brookford/government
+  office_id: brookford/mayor
+  party: Nonpartisan
+  ballot_name: Bill McGregor
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Brookford Board of Aldermen -- James F. Weaver (Nonpartisan) 46; Bill McGregor (Nonpartisan) 43; Sue Noblitt (Nonpartisan) 43; Dallas McKinney (Nonpartisan) 35. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Brookford Mayor -- Bill McGregor (Nonpartisan) 54; Thomas Schronce (Nonpartisan) 54. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

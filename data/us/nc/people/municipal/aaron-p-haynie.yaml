@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/65aecb15-2e15-5f27-a4ab-cef717c0de8a
+name: Aaron P. Haynie
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/marshall-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:marshall/government
+  office_id: marshall/mayor
+  party: Democratic
+  ballot_name: Aaron P. Haynie
+  status: active
+- contest_id: nc/2025-11-04/marshall-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:marshall/government
+  office_id: marshall/mayor
+  party: Democratic
+  ballot_name: Aaron P. Haynie
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Marshall Mayor -- Aaron P. Haynie (Democratic) 92. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Marshall Mayor -- Aaron P. Haynie (Democratic) 66. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

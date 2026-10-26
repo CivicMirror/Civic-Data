@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9b04bef5-1d60-5afb-8ca7-1fa3d99e5c06
+name: Bill Willis
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/grover-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:grover/government
+  office_id: grover/commissioner
+  party: Nonpartisan
+  ballot_name: Bill Willis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Grover Board of Commissioners -- Richard D. Smith (Nonpartisan) 46; Bill Willis (Nonpartisan) 41; Dylan Emory (Nonpartisan) 23; Thor Inman (Nonpartisan) 15. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

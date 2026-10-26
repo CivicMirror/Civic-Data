@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/eccf3ab9-c7b9-5957-b52d-1646aa10a4da
+name: Erin M. Adams
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/old-fort-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:old-fort/government
+  office_id: old-fort/alderman
+  party: Nonpartisan
+  ballot_name: Erin M. Adams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Old Fort Board of Aldermen -- Iretha Hancock (Nonpartisan) 80; Erin M. Adams (Nonpartisan) 74; Jamie Grindstaff (Nonpartisan) 74; Jeremy Poore (Nonpartisan) 58. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/08d0aa7d-e4da-5f35-b332-e5a4f9acd695
+name: Hope Hollingsworth
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/rosman-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rosman/government
+  office_id: rosman/alderman
+  party: Nonpartisan
+  ballot_name: Hope Hollingsworth
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Rosman Board of Aldermen -- Hope Hollingsworth (Nonpartisan) 69; Missy Smith Hendricks (Nonpartisan) 68; Geri Morgan (Nonpartisan) 49; Nathan Moody (Nonpartisan) 48. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

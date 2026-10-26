@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/22694045-ca47-589a-80f7-3fd4b73acc0c
+name: Lee (Monk) Greeson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/whitsett-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whitsett/government
+  office_id: whitsett/council-member
+  party: Nonpartisan
+  ballot_name: Lee (Monk) Greeson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Whitsett Town Council -- Cindy Wheeler (Nonpartisan) 24; Lee (Monk) Greeson (Nonpartisan) 22. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

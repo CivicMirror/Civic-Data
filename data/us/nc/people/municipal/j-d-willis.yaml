@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a61b87b6-3b12-5788-9907-8379ff49935a
+name: J.D. Willis
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/laurinburg-council-member-member-district-1
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:laurinburg/government
+  office_id: laurinburg/council-member
+  party: Nonpartisan
+  ballot_name: J.D. Willis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Laurinburg City Council, Member District 1 -- DeMarco Allen (Nonpartisan) 371; J.D. Willis (Nonpartisan) 344. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

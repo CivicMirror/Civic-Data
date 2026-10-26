@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bb8943e8-f037-58bc-9e45-c2d0e2099caa
+name: Elizabeth Sharp
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/chapel-hill-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chapel-hill/government
+  office_id: chapel-hill/council-member
+  party: Nonpartisan
+  ballot_name: Elizabeth Sharp
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Chapel Hill Town Council -- Amy Ryan (Nonpartisan) 6,510; Melissa McCullough (Nonpartisan) 6,490; Theodore Nollert (Nonpartisan) 6,362; Elizabeth Sharp (Nonpartisan) 5,022; Renuka Soll (Nonpartisan) 5,016; Erik Valera (Nonpartisan) 4,472; David Adams (Nonpartisan) 4,468; Breckany Teal Eckhardt (Nonpartisan) 4,093; Jon Mitchell (Nonpartisan) 4,029; Jeffrey Hoagland (Nonpartisan) 394. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5cff8271-3118-57ba-b334-0fb6b33d9c3a
+name: Michael De Iulio
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/waxhaw-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:waxhaw/government
+  office_id: waxhaw/commissioner
+  party: Nonpartisan
+  ballot_name: Michael De Iulio
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Waxhaw Board of Commissioners -- Daniel Farris (Nonpartisan) 1,644; Michael De Iulio (Nonpartisan) 1,623; John Gemignani (Nonpartisan) 1,619; Jordan Benn (Nonpartisan) 974; John Mullen (Nonpartisan) 831; Michael Doby (Nonpartisan) 552; Alex Montalvo (Nonpartisan) 343. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

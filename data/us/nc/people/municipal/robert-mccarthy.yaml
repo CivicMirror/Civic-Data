@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/818e403b-4d2c-5df9-9b0c-009fd1e5ecfc
+name: Robert McCarthy
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/greenville-council-member-district-4
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:greenville/government
+  office_id: greenville/council-member
+  party: Nonpartisan
+  ballot_name: Robert McCarthy
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Greenville City Council, District 4 -- Matthew Scully (Nonpartisan) 1,398; Robert McCarthy (Nonpartisan) 777. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

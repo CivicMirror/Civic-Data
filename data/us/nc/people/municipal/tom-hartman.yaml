@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e193eb2e-6bff-5668-8488-979bf5df29d6
+name: Tom Hartman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/west-jefferson-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:west-jefferson/government
+  office_id: west-jefferson/mayor
+  party: Nonpartisan
+  ballot_name: Tom Hartman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): West Jefferson Mayor -- Tom Hartman (Nonpartisan) 131. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fc9acf78-13be-5b3b-b328-6e66cf79b06c
+name: Lou Ostendorff
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/oriental-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oriental/government
+  office_id: oriental/commissioner
+  party: Nonpartisan
+  ballot_name: Lou Ostendorff
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Oriental Board of Commissioners -- Paul Jordan (Nonpartisan) 385; Chris Moffat (Nonpartisan) 380; Iris Cooper (Nonpartisan) 311; Lou Ostendorff (Nonpartisan) 287; Don McGuire (Nonpartisan) 270; Paul Fairbank (Nonpartisan) 263; Greg Bohmert (Nonpartisan) 153; Mary Ellen Ham (Nonpartisan) 140; Bonnie Crosser (Nonpartisan) 124; Allen Price (Nonpartisan) 106; Bob Maxbauer (Nonpartisan) 53. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

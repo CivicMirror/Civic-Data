@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bd1995d2-702b-522c-a6be-6e5ce4df2845
+name: Lia White
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/charlotte-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/mayor
+  party: Write-In
+  ballot_name: Lia White
+  status: active
+- contest_id: nc/2025-11-04/charlotte-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/council-member
+  party: Write-In
+  ballot_name: Lia White
+  status: active
+- contest_id: nc/2025-11-04/charlotte-council-member-district-2
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/council-member
+  party: Write-In
+  ballot_name: Lia White
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Charlotte Mayor -- Vi Lyles (Democratic) 92,537; Terrie D. Donovan (Republican) 33,533; Rob Yates (Libertarian) 4,717; Jennifer Roberts (Write-In) (Write-In) 29; Lia White (Write-In) (Write-In) 11; Samir Hamid (Write-In) (Write-In) 10. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Charlotte City Council (At-Large) -- Dimple Ajmera (Democratic) 96,599; Victoria Watlington (Democratic) 95,212; James (Smuggie) Mitchell, Jr. (Democratic) 90,177; LaWana Slack-Mayfield (Democratic) 87,866; Edwin B. Peacock III (Republican) 46,190; Misun Kim (Republican) 36,564; Lia White (Write-In) (Write-In) 205; Larken Egleston (Write-In) (Write-In) 12. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Charlotte City Council, District 2 -- Malcolm Graham (Democratic) 13,530; Lia White (Write-In) (Write-In) 629. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

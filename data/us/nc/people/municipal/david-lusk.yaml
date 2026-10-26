@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0865c844-6404-58fc-aecb-709989b7252e
+name: David Lusk
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/davidson-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:davidson/government
+  office_id: davidson/commissioner
+  party: Nonpartisan
+  ballot_name: David Lusk
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Davidson Board of Commissioners -- Autumn Rierson Michael (Nonpartisan) 2,813; Tracy Mattison Brandon (Nonpartisan) 2,736; Steve Justus (Nonpartisan) 2,642; Ryan Fay (Nonpartisan) 2,606; Connie Wessner (Nonpartisan) 2,100; David Lusk (Nonpartisan) 1,561. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

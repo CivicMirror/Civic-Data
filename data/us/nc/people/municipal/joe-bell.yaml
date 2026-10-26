@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/86ca4d4b-6b39-58de-a3cf-e7c3246aeb5c
+name: Joe Bell
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/topsail-beach-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:topsail-beach/government
+  office_id: topsail-beach/commissioner
+  party: Nonpartisan
+  ballot_name: Joe Bell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Topsail Beach Board of Commissioners -- Joe Bell (Nonpartisan) 124; John Gunter (Nonpartisan) 114; Anne Pizzi (Write-In) (Write-In) 13; Susan Croom (Write-In) (Write-In) 10; John Best (Write-In) (Write-In) 6. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

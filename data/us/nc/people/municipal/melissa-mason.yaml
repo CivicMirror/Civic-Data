@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/322dd0b0-7130-5d0d-b0c9-3e258fa2a26a
+name: Melissa Mason
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/pine-knoll-shores-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-knoll-shores/government
+  office_id: pine-knoll-shores/commissioner
+  party: Nonpartisan
+  ballot_name: Melissa Mason
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pine Knoll Shores Board of Commissioners -- Ken Rozewski (Nonpartisan) 328; Darryl Moore (Nonpartisan) 306; Alicia Kramer (Nonpartisan) 239; Marian Goetzinger (Nonpartisan) 200; Melissa Mason (Nonpartisan) 57; Cynthia Berry (Write-In) (Write-In) 10. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

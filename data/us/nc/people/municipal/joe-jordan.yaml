@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b9214fce-5c34-543e-8253-518949c63e7b
+name: Joe Jordan
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/belmont-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+  office_id: belmont/mayor
+  party: Nonpartisan
+  ballot_name: Joe Jordan
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Belmont Mayor -- Joe Jordan (Nonpartisan) 2,284; Cory Miller (Nonpartisan) 1,288. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

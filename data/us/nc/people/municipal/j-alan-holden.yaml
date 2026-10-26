@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a6ef8112-6051-53c3-bff0-e1b8d1c30ff2
+name: J. Alan Holden
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/holden-beach-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:holden-beach/government
+  office_id: holden-beach/mayor
+  party: Nonpartisan
+  ballot_name: J. Alan Holden
+  status: active
+- contest_id: nc/2025-11-04/holden-beach-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:holden-beach/government
+  office_id: holden-beach/mayor
+  party: Nonpartisan
+  ballot_name: J. Alan Holden
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Holden Beach Mayor -- J. Alan Holden (Nonpartisan) 234; Mike Felmly (Nonpartisan) 196. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Holden Beach Mayor -- J. Alan Holden (Nonpartisan) 394; Mike Felmly (Nonpartisan) 174. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

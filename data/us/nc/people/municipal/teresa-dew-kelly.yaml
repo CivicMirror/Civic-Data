@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ca3fe75e-06a9-5d05-add4-628e943f4747
+name: Teresa Dew Kelly
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/broadway-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:broadway/government
+  office_id: broadway/commissioner
+  party: Nonpartisan
+  ballot_name: Teresa Dew Kelly
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Broadway Board of Commissioners -- Lynne West Green (Nonpartisan) 109; Teresa Dew Kelly (Nonpartisan) 94. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

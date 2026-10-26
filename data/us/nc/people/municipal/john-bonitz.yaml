@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8e107eab-6473-50c9-a32e-932d18a4704f
+name: John Bonitz
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/pittsboro-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pittsboro/government
+  office_id: pittsboro/commissioner
+  party: Nonpartisan
+  ballot_name: John Bonitz
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Pittsboro Board of Commissioners -- John Bonitz (Nonpartisan) 579; J.A. (Jay) Farrell (Nonpartisan) 531; John Foley (Nonpartisan) 467; Allen B. Wilson (Nonpartisan) 340; C. P. Stewart (Nonpartisan) 196; Kali Korey (Nonpartisan) 61. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

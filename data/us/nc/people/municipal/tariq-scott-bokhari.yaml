@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/44568f69-7f7d-5905-807f-aaa86de3071c
+name: Tariq Scott Bokhari
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/charlotte-council-member-district-6
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/council-member
+  party: Republican
+  ballot_name: Tariq Scott Bokhari
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Charlotte City Council, District 6 -- Tariq Scott Bokhari (Republican) 11,727; Stephanie Hand (Democratic) 11,413. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

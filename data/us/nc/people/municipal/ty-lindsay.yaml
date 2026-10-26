@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1983a91a-def2-5ca8-9f45-dfd189a59322
+name: Ty Lindsay
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/oak-ridge-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oak-ridge/government
+  office_id: oak-ridge/council-member
+  party: Nonpartisan
+  ballot_name: Ty Lindsay
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Oak Ridge Town Council -- Ann Schneider (Nonpartisan) 634; Lindsey Clark (Nonpartisan) 596; Ty Lindsay (Nonpartisan) 592; Jim Kinneman (Nonpartisan) 491; Adrian Eckenrod (Nonpartisan) 484. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

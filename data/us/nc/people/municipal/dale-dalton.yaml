@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a885a819-85f6-5c98-bcef-138e484e3c2d
+name: Dale Dalton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mint-hill-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mint-hill/government
+  office_id: mint-hill/commissioner
+  party: Nonpartisan
+  ballot_name: Dale Dalton
+  status: active
+- contest_id: nc/2025-11-04/mint-hill-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mint-hill/government
+  office_id: mint-hill/mayor
+  party: Nonpartisan
+  ballot_name: Dale Dalton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mint Hill Board of Commissioners -- Dale Dalton (Nonpartisan) 2,390; Tony Long (Nonpartisan) 2,366; Twanna Henderson (Nonpartisan) 2,284; Patrick Holton (Nonpartisan) 2,171; Matthew Schwoebel (Nonpartisan) 1,506. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mint Hill Mayor -- Dale Dalton (Nonpartisan) 3,601; Tim Radzicki (Nonpartisan) 1,967; Bridget Lightner (Write-In) (Write-In) 8. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

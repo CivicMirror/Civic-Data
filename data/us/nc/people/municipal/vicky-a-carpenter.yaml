@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ea67f9d9-7f80-5528-830e-e2ae8a5824e8
+name: Vicky A. Carpenter
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/hildebran-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hildebran/government
+  office_id: hildebran/council-member
+  party: Nonpartisan
+  ballot_name: Vicky A. Carpenter
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Hildebran Town Council -- Michael Stroupe (Nonpartisan) 416; Terry Weaver (Nonpartisan) 336; Vicky A. Carpenter (Nonpartisan) 322; Christopher Noah Gilbert (Nonpartisan) 228. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

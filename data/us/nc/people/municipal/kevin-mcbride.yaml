@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/be20aa39-0362-5f48-8d40-f9a8b5ee3e56
+name: Kevin McBride
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/seagrove-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:seagrove/government
+  office_id: seagrove/commissioner
+  party: Nonpartisan
+  ballot_name: Kevin McBride
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Seagrove Board of Commissioners -- Kevin McBride (Nonpartisan) 51; Ed Walker (Nonpartisan) 36; Sandra Walker (Nonpartisan) 35; Jeremy Steinhart (Nonpartisan) 20. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

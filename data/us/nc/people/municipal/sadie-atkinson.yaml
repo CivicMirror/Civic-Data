@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/78346f1f-9aaa-5421-88c8-80bd0be443e5
+name: Sadie Atkinson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/castalia-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:castalia/government
+  office_id: castalia/commissioner
+  party: Nonpartisan
+  ballot_name: Sadie Atkinson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Castalia Board of Commissioners -- Marvin Wood (Nonpartisan) 19; Sadie Atkinson (Nonpartisan) 19. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

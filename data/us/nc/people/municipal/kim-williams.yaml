@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/38b6eeb9-7ad4-54ec-aca1-29eb98e8bbf7
+name: Kim Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/plymouth-council-member-ward-3
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:plymouth/government
+  office_id: plymouth/council-member
+  party: Nonpartisan
+  ballot_name: Kim Williams
+  status: active
+- contest_id: nc/2025-11-04/plymouth-council-member-ward-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:plymouth/government
+  office_id: plymouth/council-member
+  party: Nonpartisan
+  ballot_name: Kim Williams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Plymouth Town Council, Ward 3 -- Mary D. Nixon (Nonpartisan) 97; Mary Ann Byers (Nonpartisan) 90; Kim Williams (Nonpartisan) 87; Chinta Crowder (Nonpartisan) 83. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Plymouth Town Council, Ward 3 -- Kim Williams (Nonpartisan) 105; Steven Brown (Nonpartisan) 93; John Shelton (Nonpartisan) 88; Mary Ann Byers (Nonpartisan) 86; Tristan Spencer (Nonpartisan) 55. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

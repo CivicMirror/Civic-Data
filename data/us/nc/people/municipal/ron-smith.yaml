@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/40a35e4e-887f-5421-951f-8cfb8b6dbd19
+name: Ron Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/harrisburg-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:harrisburg/government
+  office_id: harrisburg/council-member
+  party: Nonpartisan
+  ballot_name: Ron Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Harrisburg Town Council -- LaTrecia Glover (Nonpartisan) 1,351; Rodney H. Dellinger (Nonpartisan) 1,163; Ron Smith (Nonpartisan) 1,094; Chris Faw (Nonpartisan) 1,038; Ian Patrick (Nonpartisan) 1,000; Crystal Anderson (Nonpartisan) 848; Wendell Fant (Nonpartisan) 742; Justin B. Hagler (Nonpartisan) 703; Robin Torrence (Nonpartisan) 485. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

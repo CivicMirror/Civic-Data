@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6c3000aa-6b29-55b8-9174-4ae2faff0347
+name: Raymond Mills
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hamlet-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamlet/government
+  office_id: hamlet/mayor
+  party: Write-In
+  ballot_name: Raymond Mills
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hamlet Mayor -- Amy Guinn (Nonpartisan) 455; Raymond Mills (Write-In) (Write-In) 67. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

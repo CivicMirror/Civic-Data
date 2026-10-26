@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/de4b0b3b-bce9-57bc-ba9c-c54c4de885f5
+name: Elmo Vance
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/garner-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:garner/government
+  office_id: garner/mayor
+  party: Write-In
+  ballot_name: Elmo Vance
+  status: active
+- contest_id: nc/2023-11-07/garner-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:garner/government
+  office_id: garner/council-member
+  party: Nonpartisan
+  ballot_name: Elmo Vance
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Garner Mayor -- Buddy Gupton (Nonpartisan) 1,956; Ken Marshburn (Write-In) (Write-In) 11; Elmo Vance (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Garner Town Council -- Elmo Vance (Nonpartisan) 1,849; Demian Dellinger (Nonpartisan) 1,634; Phil Matthews (Nonpartisan) 1,340; Rex Whaley (Nonpartisan) 1,130. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

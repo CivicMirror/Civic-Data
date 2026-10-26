@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/09d7ebff-148a-5898-8aed-5e9c97f9de15
+name: Shelley Goins
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mount-airy-commissioner-north-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mount-airy/government
+  office_id: mount-airy/commissioner
+  party: Nonpartisan
+  ballot_name: Shelley Goins
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Mount Airy Board of Commissioners, North Ward -- David R. Hall (Nonpartisan) 2,429; Shelley Goins (Nonpartisan) 2,235. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

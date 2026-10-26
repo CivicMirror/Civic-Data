@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/20c3fc7c-9f9c-5bbb-b89d-d2919ecc1b72
+name: J. Percy Wetherington
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/dover-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dover/government
+  office_id: dover/mayor
+  party: Nonpartisan
+  ballot_name: J. Percy Wetherington
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Dover Mayor -- Randy Mitchell (Nonpartisan) 94; J. Percy Wetherington (Nonpartisan) 75. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

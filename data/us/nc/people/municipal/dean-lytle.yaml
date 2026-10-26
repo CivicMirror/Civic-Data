@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2c7d8ca3-64b7-53b0-8303-5275401254cc
+name: Dean Lytle
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/brevard-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:brevard/government
+  office_id: brevard/council-member
+  party: Nonpartisan
+  ballot_name: Dean Lytle
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Brevard City Council -- Dean Lytle (Nonpartisan) 1,451; Aaron Baker (Nonpartisan) 1,318; Doug Miller (Nonpartisan) 1,314; Rick Harbin (Nonpartisan) 598. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

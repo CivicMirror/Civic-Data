@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/47df0019-abc2-5de1-9644-db1f49e96f04
+name: Peter Edquist
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/misenheimer-council-member
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:misenheimer/government
+  office_id: misenheimer/council-member
+  party: Nonpartisan
+  ballot_name: Peter Edquist
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Misenheimer Town Council -- Michael (Frizbee) Herron (Nonpartisan) 53; Peter Edquist (Nonpartisan) 50; Micah Edquist (Nonpartisan) 48. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

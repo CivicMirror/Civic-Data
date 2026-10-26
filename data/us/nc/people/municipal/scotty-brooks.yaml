@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e22fb7a2-f931-5ae5-8c0f-90f3424becb7
+name: Scotty Brooks
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/oxford-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oxford/government
+  office_id: oxford/commissioner
+  party: Nonpartisan
+  ballot_name: Scotty Brooks
+  status: active
+- contest_id: nc/2025-11-04/oxford-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oxford/government
+  office_id: oxford/commissioner
+  party: Nonpartisan
+  ballot_name: Scotty Brooks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Oxford Board of Commissioners -- Carlos J. Velez (Nonpartisan) 778; Curtis McRae (Nonpartisan) 698; John Tovey (Nonpartisan) 658; Scotty Brooks (Nonpartisan) 657; Stuart Powell (Nonpartisan) 645; Jim Crawford (Nonpartisan) 614; Teresa Gilreath (Nonpartisan) 538. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Oxford Board of Commissioners -- Karen McGhee (Nonpartisan) 1,210; Scotty Brooks (Nonpartisan) 1,115; Kate Kelly (Nonpartisan) 965; S. Quon Bridges (Nonpartisan) 917; Martha Wrenn (Nonpartisan) 886; Courtney Crudup (Nonpartisan) 729; Sandra Compton (Nonpartisan) 666. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

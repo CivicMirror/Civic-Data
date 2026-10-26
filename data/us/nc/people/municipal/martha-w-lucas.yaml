@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2b8a7dbb-32f2-5824-b8fc-b485fc687b71
+name: Martha W. Lucas
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/momeyer-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:momeyer/government
+  office_id: momeyer/council-member
+  party: Nonpartisan
+  ballot_name: Martha W. Lucas
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Momeyer Town Council -- Martha W. Lucas (Nonpartisan) 56; Richard Matthews (Nonpartisan) 42; Larue Weaver (Write-In) (Write-In) 21. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

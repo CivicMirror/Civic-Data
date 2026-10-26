@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c4075642-1c2b-5ad9-bab9-f73b30cbecd3
+name: Anita Darnell
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/jonesville-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jonesville/government
+  office_id: jonesville/mayor
+  party: Nonpartisan
+  ballot_name: Anita Darnell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Jonesville Mayor -- Anita Darnell (Nonpartisan) 509. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

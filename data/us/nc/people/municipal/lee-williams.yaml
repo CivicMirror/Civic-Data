@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bb999f98-6a11-5209-9bfa-d3daa0d10711
+name: Lee Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/wrightsville-beach-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wrightsville-beach/government
+  office_id: wrightsville-beach/alderman
+  party: Nonpartisan
+  ballot_name: Lee Williams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wrightsville Beach Board of Aldermen -- Margaret E. Baggett (Nonpartisan) 491; Todd Schoen (Nonpartisan) 470; Hank Miller (Nonpartisan) 454; David Wortman (Nonpartisan) 357; Lee Williams (Nonpartisan) 58. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

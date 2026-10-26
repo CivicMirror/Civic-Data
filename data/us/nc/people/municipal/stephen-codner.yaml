@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cbb94d5b-b265-5b4f-a938-6a6b8cd2d814
+name: Stephen Codner
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/gibsonville-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gibsonville/government
+  office_id: gibsonville/alderman
+  party: Write-In
+  ballot_name: Stephen Codner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gibsonville Board of Aldermen -- Mark Shepherd (Nonpartisan) 353; Tangela Mitchell (Nonpartisan) 310; Irene Fanelli (Nonpartisan) 297; Darla Lawson (Nonpartisan) 217; Stephen Codner (Write-In) (Write-In) 8. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

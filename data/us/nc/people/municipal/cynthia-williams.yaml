@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b1d1adbd-b900-5ad9-a6bd-c3f53f71c55c
+name: Cynthia Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/bridgeton-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bridgeton/government
+  office_id: bridgeton/commissioner
+  party: Nonpartisan
+  ballot_name: Cynthia Williams
+  status: active
+- contest_id: nc/2023-11-07/polkton-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:polkton/government
+  office_id: polkton/mayor
+  party: Nonpartisan
+  ballot_name: Cynthia Williams
+  status: active
+- contest_id: nc/2025-11-04/polkton-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:polkton/government
+  office_id: polkton/mayor
+  party: Nonpartisan
+  ballot_name: Cynthia Williams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Bridgeton Board of Commissioners -- Randy Alexander (Nonpartisan) 93; Peggie Wilson (Nonpartisan) 77; Keith Tyndall (Nonpartisan) 75; Paul Tremblay (Nonpartisan) 70; Cynthia Williams (Nonpartisan) 55. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Polkton Mayor -- Myra Thomas Dalgleish (Nonpartisan) 61; Cynthia Williams (Nonpartisan) 50. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Polkton Mayor -- Cynthia Williams (Nonpartisan) 60; Myra Thomas Dalgleish (Nonpartisan) 38. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

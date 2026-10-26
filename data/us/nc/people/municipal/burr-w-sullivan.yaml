@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2058c3e9-a0d6-5b9f-9318-bfe2ee3e881d
+name: Burr W. Sullivan
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lexington-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lexington/government
+  office_id: lexington/mayor
+  party: Nonpartisan
+  ballot_name: Burr W. Sullivan
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lexington Mayor -- Jason Hayes (Nonpartisan) 1,533; Burr W. Sullivan (Nonpartisan) 747. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

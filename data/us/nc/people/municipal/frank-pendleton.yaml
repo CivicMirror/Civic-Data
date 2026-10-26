@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d6fad654-b2e3-5b95-8919-7b9de44e297a
+name: Frank Pendleton
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/leland-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:leland/government
+  office_id: leland/council-member
+  party: Nonpartisan
+  ballot_name: Frank Pendleton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Leland Town Council -- Frank Pendleton (Nonpartisan) 3,149; Leland Hyer (Nonpartisan) 2,597; Bill McHugh (Nonpartisan) 2,407; Susan Waleed (Nonpartisan) 1,769; Edgar Robbins (Nonpartisan) 373; Barry Long (Write-In) (Write-In) 5. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

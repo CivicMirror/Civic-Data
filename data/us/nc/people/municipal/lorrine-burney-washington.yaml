@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/19b14c7f-831b-55c0-b9c0-f562c40a79a0
+name: Lorrine Burney Washington
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/snow-hill-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:snow-hill/government
+  office_id: snow-hill/commissioner
+  party: Nonpartisan
+  ballot_name: Lorrine Burney Washington
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Snow Hill Board of Commissioners -- Dianne Jones Andrews (Nonpartisan) 201; Lorrine Burney Washington (Nonpartisan) 179; Phyllis Burruss (Nonpartisan) 143; Michael U. Rhodes (Nonpartisan) 122; Salvador Tinoco (Nonpartisan) 66. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

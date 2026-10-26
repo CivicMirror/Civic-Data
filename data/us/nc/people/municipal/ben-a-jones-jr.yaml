@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/85fa3b64-b2c7-549a-a5bd-bccbbe7954c4
+name: Ben A. Jones, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/everetts-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:everetts/government
+  office_id: everetts/commissioner
+  party: Nonpartisan
+  ballot_name: Ben A. Jones, Jr.
+  status: active
+- contest_id: nc/2025-11-04/everetts-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:everetts/government
+  office_id: everetts/commissioner
+  party: Nonpartisan
+  ballot_name: Ben A. Jones, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Everetts Board of Commissioners -- Ben A. Jones, Jr. (Nonpartisan) 18; Wanda B. Murphy (Nonpartisan) 13; Audrey Faye Whitehurst Taylor (Write-In) (Write-In) 4. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Everetts Board of Commissioners -- Ben A. Jones, Jr. (Nonpartisan) 16; Wanda Murphy (Nonpartisan) 14; Audrey Faye Taylor (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

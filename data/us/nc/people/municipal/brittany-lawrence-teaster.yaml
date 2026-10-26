@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3fd0e021-439c-53b3-842b-cab1a883a0c9
+name: Brittany Lawrence Teaster
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/jefferson-alderman-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jefferson/government
+  office_id: jefferson/alderman
+  party: Nonpartisan
+  ballot_name: Brittany Lawrence Teaster
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jefferson Board of Aldermen (Unexpired Term) -- Brittany Lawrence Teaster (Nonpartisan) 40. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

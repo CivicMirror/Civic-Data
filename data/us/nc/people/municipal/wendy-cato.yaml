@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b57039e6-94bf-5370-89ee-79e546a6f029
+name: Wendy Cato
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/morganton-council-member-district-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morganton/government
+  office_id: morganton/council-member
+  party: Nonpartisan
+  ballot_name: Wendy Cato
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Morganton City Council, District 4 -- Wendy Cato (Nonpartisan) 613. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,19 +7,29 @@
 id: ocd-person/bd5b86f0-d226-43dc-bdca-3b78dd2fd87b
 name: Scott Andree-Bowen
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 504f175f-672d-48d3-a0a0-66ed8583559c
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 504f175f-672d-48d3-a0a0-66ed8583559c
+candidacies:
+- contest_id: nc/2024-11-05/winston-salem-council-member-southwest-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Democratic
+  ballot_name: Scott Andree-Bowen
+  status: active
 contact:
   email: scottab@cityofws.org
-  phone: "(743) 900-3569"
+  phone: (743) 900-3569
   profile_url: https://www.cityofws.org/3562/Council-Member-Scott-Andree-Bowen
 image: https://www.cityofws.org/ImageRepository/Document?documentId=36366
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.cityofws.org/3562/Council-Member-Scott-Andree-Bowen
-    retrieved: "2026-08-14"
-  - url: https://www.cityofws.org/3499/City-Council
-    retrieved: "2026-08-14"
+- url: https://www.cityofws.org/3562/Council-Member-Scott-Andree-Bowen
+  retrieved: '2026-08-14'
+- url: https://www.cityofws.org/3499/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Southwest Ward -- Scott Andree-Bowen (Democratic) 11,626; James Taylor (Write-In) (Write-In) 7; Robert C. Clark (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

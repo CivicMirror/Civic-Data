@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/df36d18b-f624-56e5-84f2-b80b4f93dbd8
+name: William (Billy) Turnage
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/erwin-commissioner-ward-6
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:erwin/government
+  office_id: erwin/commissioner
+  party: Nonpartisan
+  ballot_name: William (Billy) Turnage
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Erwin Board of Commissioners, Ward 6 -- William (Billy) Turnage (Nonpartisan) 12. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

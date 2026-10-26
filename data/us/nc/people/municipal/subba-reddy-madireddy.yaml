@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/84d39b9a-4213-57c4-bfe9-32acb2b0756a
+name: Subba Reddy Madireddy
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/morrisville-council-member-district-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/council-member
+  party: Nonpartisan
+  ballot_name: Subba Reddy Madireddy
+  status: active
+- contest_id: nc/2025-11-04/morrisville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/council-member
+  party: Nonpartisan
+  ballot_name: Subba Reddy Madireddy
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Morrisville Town Council, District 1 -- Anne Robotti (Nonpartisan) 1,300; Subba Reddy Madireddy (Nonpartisan) 951. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Morrisville Town Council (At-Large) -- Harrison Kesling (Nonpartisan) 2,422; Subba Reddy Madireddy (Nonpartisan) 1,588; Liz Dann (Nonpartisan) 927. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

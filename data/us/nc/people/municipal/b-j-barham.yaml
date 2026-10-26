@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bbbe7337-c4cc-5462-9d4f-139c778ba36d
+name: B.J. Barham
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/wendell-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wendell/government
+  office_id: wendell/commissioner
+  party: Nonpartisan
+  ballot_name: B.J. Barham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wendell Board of Commissioners -- Dustin Ingalls (Nonpartisan) 1,340; Deans Eatman (Nonpartisan) 1,297; Kate Benson (Nonpartisan) 1,135; B.J. Barham (Nonpartisan) 1,008; Wes Jones (Nonpartisan) 689; Philip Tarnaski (Nonpartisan) 661; Jorge Cordova (Nonpartisan) 527; Christopher M. Critzer (Nonpartisan) 109. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

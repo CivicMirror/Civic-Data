@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f6eeed38-c86a-5999-94fc-820c20caef17
+name: Spunk Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/kinston-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kinston/government
+  office_id: kinston/mayor
+  party: Nonpartisan
+  ballot_name: Spunk Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kinston Mayor -- Kareem S. Moore (Nonpartisan) 1,783; Don Hardy (Nonpartisan) 1,707; Spunk Moore (Nonpartisan) 62. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

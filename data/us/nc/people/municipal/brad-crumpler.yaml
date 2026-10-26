@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/82d5c34d-ecdd-5e85-ace5-731c70de0267
+name: Brad Crumpler
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hassell-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hassell/government
+  office_id: hassell/commissioner
+  party: Write-In
+  ballot_name: Brad Crumpler
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hassell Board of Commissioners -- James Harrell (Write-In) (Write-In) 10; Crystal Keel (Write-In) (Write-In) 7; David Wiseman (Write-In) (Write-In) 7; Brad Crumpler (Write-In) (Write-In) 6; Edward Keel (Write-In) (Write-In) 6. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

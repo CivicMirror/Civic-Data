@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/61569a35-60ab-5e4f-af0a-f208a7081c82
+name: Kevin G. Haag
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lake-santeetlah-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-santeetlah/government
+  office_id: lake-santeetlah/council-member
+  party: Nonpartisan
+  ballot_name: Kevin G. Haag
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lake Santeetlah Town Council -- Kevin G. Haag (Nonpartisan) 24; Diana Simon (Nonpartisan) 21; Jim Hager (Nonpartisan) 21; Keith Predmore (Nonpartisan) 21; Ralph Strunk (Nonpartisan) 21; Alan Davidson (Nonpartisan) 10. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

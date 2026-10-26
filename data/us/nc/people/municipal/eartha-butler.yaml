@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0328afee-2640-54d7-8741-bf7de9e2aeb6
+name: Eartha Butler
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/stantonsburg-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stantonsburg/government
+  office_id: stantonsburg/council-member
+  party: Nonpartisan
+  ballot_name: Eartha Butler
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Stantonsburg Town Council -- Eartha Butler (Nonpartisan) 65; Jackie Grice (Nonpartisan) 55; Walter Bynum (Nonpartisan) 55; H. Powell Dew, Jr. (Nonpartisan) 45. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

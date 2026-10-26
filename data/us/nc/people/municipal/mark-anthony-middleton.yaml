@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0f80ed29-b99a-5a8b-86d3-79c40b6821dc
+name: Mark-Anthony Middleton
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/durham-council-member-ward-2
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+  office_id: durham/council-member
+  party: Nonpartisan
+  ballot_name: Mark-Anthony Middleton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Durham Government Town Council, Ward 2 -- Shanetta Burris (Nonpartisan) 31,090; Mark-Anthony Middleton (Nonpartisan) 14,124; Ashley Robbins (Write-In) (Write-In) 16. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

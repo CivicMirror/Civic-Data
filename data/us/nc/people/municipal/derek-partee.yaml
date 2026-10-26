@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/84717f4f-253d-5d0e-bdbd-dc98c37d412f
+name: Derek Partee
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/huntersville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:huntersville/government
+  office_id: huntersville/mayor
+  party: Nonpartisan
+  ballot_name: Derek Partee
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Huntersville Government Mayor -- Christy Clark (Nonpartisan) 4,925; Dan Boone (Nonpartisan) 3,462; Derek Partee (Nonpartisan) 1,740. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

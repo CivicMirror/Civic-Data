@@ -7,18 +7,48 @@
 id: ocd-person/ebbda7f1-2c40-4595-b218-9644180ecb52
 name: James Taylor
 identifiers:
-  - scheme: civicpatch-person
-    identifier: ed80c7d3-7cc3-4487-bde8-8cf9709a45fe
-candidacies: []
+- scheme: civicpatch-person
+  identifier: ed80c7d3-7cc3-4487-bde8-8cf9709a45fe
+candidacies:
+- contest_id: nc/2024-11-05/winston-salem-council-member-southeast-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Democratic
+  ballot_name: James Taylor
+  status: active
+- contest_id: nc/2024-11-05/winston-salem-council-member-south-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: James Taylor
+  status: active
+- contest_id: nc/2024-11-05/winston-salem-council-member-southwest-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: James Taylor
+  status: active
 contact:
   email: jamestjr@cityofws.org
-  phone: "(336) 757-2110"
+  phone: (336) 757-2110
   profile_url: https://www.cityofws.org/3574/Council-Member-James-Taylor-Jr
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.cityofws.org/3499/City-Council
-    retrieved: "2026-08-14"
-  - url: https://www.cityofws.org/3574/Council-Member-James-Taylor-Jr
-    retrieved: "2026-08-14"
+- url: https://www.cityofws.org/3499/City-Council
+  retrieved: '2026-08-14'
+- url: https://www.cityofws.org/3574/Council-Member-James-Taylor-Jr
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Southeast Ward -- James Taylor (Democratic) 8,301; Robert C. Clark (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, South Ward -- Vivian V. Joiner (Democratic) 11,101; James Taylor (Write-In) (Write-In) 6; John Larson (Write-In) (Write-In) 5; Regina Hall (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Southwest Ward -- Scott Andree-Bowen (Democratic) 11,626; James Taylor (Write-In) (Write-In) 7; Robert C. Clark (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

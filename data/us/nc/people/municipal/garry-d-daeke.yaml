@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d44405cf-1480-5c8b-9646-21ae289ab520
+name: Garry D. Daeke
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/henderson-alderman-3rd-ward
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:henderson/government
+  office_id: henderson/alderman
+  party: Nonpartisan
+  ballot_name: Garry D. Daeke
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Henderson Board of Aldermen, 3rd Ward -- Garry D. Daeke (Nonpartisan) 225; Deryl (Ms. Dee) vonWilliams (Nonpartisan) 101; Jason A. Spriggs (Nonpartisan) 25; Clifford (Cliff) High (Nonpartisan) 10. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

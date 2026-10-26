@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/de661b68-5085-5efb-931b-128c1e42fd9f
+name: Fore Rembert
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/maiden-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:maiden/government
+  office_id: maiden/council-member
+  party: Nonpartisan
+  ballot_name: Fore Rembert
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Maiden Town Council -- Fore Rembert (Nonpartisan) 346; Holly Crafton-Lay (Nonpartisan) 280; Beth Poovey Rudisill (Nonpartisan) 238; Danny Lee Kiser (Nonpartisan) 231; Bob Sigmon (Nonpartisan) 214; Jesse R. Thomas (Nonpartisan) 71. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fd064bde-193c-5b19-aab7-89e9ae59e660
+name: David D. Robertson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/ahoskie-council-member-ward-b
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ahoskie/government
+  office_id: ahoskie/council-member
+  party: Nonpartisan
+  ballot_name: David D. Robertson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Ahoskie Town Council, Ward B -- Charles Reynolds (Nonpartisan) 94; David D. Robertson (Nonpartisan) 78; Donald Kirkland (Nonpartisan) 13. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

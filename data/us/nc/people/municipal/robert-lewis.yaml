@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/21dc66dd-5684-5a02-af98-2623f19c1c19
+name: Robert Lewis
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lake-waccamaw-commissioner-west-ward
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-waccamaw/government
+  office_id: lake-waccamaw/commissioner
+  party: Write-In
+  ballot_name: Robert Lewis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lake Waccamaw Board of Commissioners, West Ward -- Terry Littrell (Nonpartisan) 107; Jason Young (Write-In) (Write-In) 1; Paul Pope (Write-In) (Write-In) 1; Robert Lewis (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,17 +7,27 @@
 id: ocd-person/74ca582b-1cec-44f8-a0a3-7d63f55aa660
 name: Jennifer M. Stepp
 identifiers:
-  - scheme: civicpatch-person
-    identifier: e54a63dc-6882-47b3-976b-6ec82b9f1d1d
-candidacies: []
+- scheme: civicpatch-person
+  identifier: e54a63dc-6882-47b3-976b-6ec82b9f1d1d
+candidacies:
+- contest_id: nc/2025-11-04/gastonia-council-member-ward-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/council-member
+  party: Nonpartisan
+  ballot_name: Jennifer M. Stepp
+  status: active
 contact:
   email: ward5.stepp@gastonianc.gov
-  phone: "(704) 860-3088"
+  phone: (704) 860-3088
   profile_url: https://www.gastonianc.gov/ward-5.html
 image: https://www.gastonianc.gov/images/files/city_council_mayor/images/JenniferStepp-ImageSource-Small-20220728.jpg
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.gastonianc.gov/city-council-info.html
-    retrieved: "2026-08-14"
+- url: https://www.gastonianc.gov/city-council-info.html
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Gastonia Government Town Council, Ward 5 -- Jennifer M. Stepp (Nonpartisan) 842; Clark Simon (Nonpartisan) 602. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

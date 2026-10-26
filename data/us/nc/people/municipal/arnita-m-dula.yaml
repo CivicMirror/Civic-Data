@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2e07a688-a831-5f08-b3da-cefff87e1f26
+name: Arnita M. Dula
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hickory-alderman-ward-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hickory/government
+  office_id: hickory/alderman
+  party: Nonpartisan
+  ballot_name: Arnita M. Dula
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hickory Board of Aldermen, Ward 5 -- Arnita M. Dula (Nonpartisan) 2,733; David Zagaroli (Nonpartisan) 2,019. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

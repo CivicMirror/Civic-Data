@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/492a95e1-5af5-55d8-8a69-c239e8f6d9e2
+name: Brad Richardson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/stallings-council-member-district-6
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stallings/government
+  office_id: stallings/council-member
+  party: Nonpartisan
+  ballot_name: Brad Richardson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Stallings Town Council, District 6 -- Brad Richardson (Nonpartisan) 925. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/df5dd4dc-41d8-55da-8c84-b10c5916a6a9
+name: Barbara Surratt Hogan
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/denton-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:denton/government
+  office_id: denton/council-member
+  party: Nonpartisan
+  ballot_name: Barbara Surratt Hogan
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Denton Town Council -- Hayden Hicks (Nonpartisan) 176; Scott S. Morris (Nonpartisan) 142; Barbara Surratt Hogan (Nonpartisan) 133; Julie Russell Loflin (Nonpartisan) 123; Logan Berg (Nonpartisan) 123; Steve Davis (Nonpartisan) 47. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

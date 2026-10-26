@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/57dee8b6-3322-579a-bc13-b654b1883df4
+name: Justin E. Simpson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mount-pleasant-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mount-pleasant/government
+  office_id: mount-pleasant/commissioner
+  party: Nonpartisan
+  ballot_name: Justin E. Simpson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mount Pleasant Board of Commissioners -- Justin E. Simpson (Nonpartisan) 289; Steven R. Dixon (Nonpartisan) 271. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

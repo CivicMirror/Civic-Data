@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cbddc1a7-b973-5256-9a94-bec9f1f3885a
+name: Vicki Scroggins-Johnson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/morrisville-council-member-district-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/council-member
+  party: Nonpartisan
+  ballot_name: Vicki Scroggins-Johnson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Morrisville Town Council, District 4 -- Vicki Scroggins-Johnson (Nonpartisan) 2,819; Patty W. Cheng (Nonpartisan) 1,952. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

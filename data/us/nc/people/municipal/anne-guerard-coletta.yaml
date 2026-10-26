@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3ffb1bed-6a33-59de-a53c-495bcabad23b
+name: Anne Guerard Coletta
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/flat-rock-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:flat-rock/government
+  office_id: flat-rock/mayor
+  party: Nonpartisan
+  ballot_name: Anne Guerard Coletta
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Flat Rock Mayor -- Anne Guerard Coletta (Nonpartisan) 2,201; Hilton Swing (Write-In) (Write-In) 10; Emily Whitmire (Write-In) (Write-In) 9; Tom Murrill (Write-In) (Write-In) 8. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6529db71-db30-5441-869e-3c238530d342
+name: Nadine Headen Moody
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/taylortown-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:taylortown/government
+  office_id: taylortown/council-member
+  party: Nonpartisan
+  ballot_name: Nadine Headen Moody
+  status: active
+- contest_id: nc/2025-11-04/taylortown-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:taylortown/government
+  office_id: taylortown/council-member
+  party: Nonpartisan
+  ballot_name: Nadine Headen Moody
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Taylortown Town Council -- Bridget Cotton (Nonpartisan) 133; Sidney Gaddy (Nonpartisan) 105; Nadine Headen Moody (Nonpartisan) 84; Marvin Taylor (Nonpartisan) 83; Andria W. Parker (Nonpartisan) 79; Garry Brown (Nonpartisan) 71; James Lattimore Thompson (Nonpartisan) 61; Elinor Diane Wright (Nonpartisan) 60; Kenn Hayes (Nonpartisan) 30; Adam T. Cheatham, Sr. (Nonpartisan) 27; David Levine (Nonpartisan) 21. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Taylortown Town Council -- Bridget Cotton (Nonpartisan) 124; Nadine Headen Moody (Nonpartisan) 110; Sidney Gaddy (Nonpartisan) 105; Andria W. Parker (Nonpartisan) 99; Garry Brown (Nonpartisan) 92; Marvin Taylor (Nonpartisan) 83; William Green (Nonpartisan) 69; Destiny Kearns (Write-In) (Write-In) 61; Arak (Mister) Smith (Nonpartisan) 41; Mitchell Ratliff (Write-In) (Write-In) 41; James Thompson (Write-In) (Write-In) 13; Aaron McLaughlin (Nonpartisan) 9; Adam T. Cheatham, Sr. (Nonpartisan) 9. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

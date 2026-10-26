@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2621aa97-e3ff-557d-9e67-2fe6080db986
+name: H. F. Webb
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/saratoga-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:saratoga/government
+  office_id: saratoga/mayor
+  party: Nonpartisan
+  ballot_name: H. F. Webb
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Saratoga Mayor -- Charles (Tommy) Hawkins (Nonpartisan) 39; H. F. Webb (Nonpartisan) 26. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

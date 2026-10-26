@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/baa17996-7372-5e6a-8a39-8a8cb600bd6b
+name: Charles Gaylor
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/goldsboro-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:goldsboro/government
+  office_id: goldsboro/mayor
+  party: Nonpartisan
+  ballot_name: Charles Gaylor
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Goldsboro Mayor -- Charles Gaylor (Nonpartisan) 2,076; Raymond Smith, Jr. (Nonpartisan) 2,070. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/027eb0ac-10ff-5f42-a761-c064c06492aa
+name: Ronald McNeill
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/godwin-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:godwin/government
+  office_id: godwin/commissioner
+  party: Nonpartisan
+  ballot_name: Ronald McNeill
+  status: active
+- contest_id: nc/2025-11-04/godwin-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:godwin/government
+  office_id: godwin/commissioner
+  party: Nonpartisan
+  ballot_name: Ronald McNeill
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Godwin Board of Commissioners -- Scarlet M. Hall (Nonpartisan) 29; Joseph Smith (Nonpartisan) 24; Ronald McNeill (Nonpartisan) 23; George Cooper, Jr. (Nonpartisan) 20; Angela Burnette Lambert (Nonpartisan) 13. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Godwin Board of Commissioners -- Joseph Smith (Nonpartisan) 33; Scarlet McIntyre Hall (Nonpartisan) 28; Ronald McNeill (Nonpartisan) 27; George Cooper, Jr. (Nonpartisan) 25; Dennis C. Smith, Sr. (Nonpartisan) 20. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e52ed2b6-ed84-5086-b1ca-3fa861144588
+name: Bob Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/ocean-isle-beach-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ocean-isle-beach/government
+  office_id: ocean-isle-beach/commissioner
+  party: Nonpartisan
+  ballot_name: Bob Williams
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Ocean Isle Beach Board of Commissioners -- Mike Wade (Nonpartisan) 309; Mark Holland (Nonpartisan) 298; David Green (Nonpartisan) 219; Stephen S. Turner (Nonpartisan) 219; Wendy L. Hughes (Nonpartisan) 198; Bob Williams (Nonpartisan) 131. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

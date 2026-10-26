@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e080d040-6494-58af-b47b-f1482dae72fe
+name: Bonnie Whitaker
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/graham-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:graham/government
+  office_id: graham/council-member
+  party: Nonpartisan
+  ballot_name: Bonnie Whitaker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Graham City Council -- Bonnie Whitaker (Nonpartisan) 580; Ricky Hall (Nonpartisan) 578; Chip Turner (Nonpartisan) 422; Ryan Kluk (Nonpartisan) 359. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/df0b3900-10b1-5c61-bb75-aeee780da7e4
+name: TJ Cawley
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/morrisville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/mayor
+  party: Nonpartisan
+  ballot_name: TJ Cawley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Morrisville Mayor -- TJ Cawley (Nonpartisan) 3,193; Satish Garimella (Nonpartisan) 1,544; Richard Reinhart (Nonpartisan) 247. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

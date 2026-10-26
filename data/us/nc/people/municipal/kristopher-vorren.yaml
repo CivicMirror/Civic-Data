@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0d02de8c-900e-5871-8ba1-3e5ed9539051
+name: Kristopher Vorren
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/fuquay-varina-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fuquay-varina/government
+  office_id: fuquay-varina/commissioner
+  party: Nonpartisan
+  ballot_name: Kristopher Vorren
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Fuquay-Varina Board of Commissioners -- Bryan Haynes (Nonpartisan) 5,331; Kristopher Vorren (Nonpartisan) 3,720; Nolan Ray Perry (Nonpartisan) 3,267; Gage Cook (Nonpartisan) 645. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
