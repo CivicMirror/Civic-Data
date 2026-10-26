@@ -1,206 +1,207 @@
 {
-  "label": "Town of Fairfield",
-  "place_slug": "fairfield",
-  "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:fairfield/government",
-  "header": "# Town of Fairfield municipal roster backfill -- Vermont\n# municipal fan-out batch 8; issue #163 (VT master tracking).\n",
-  "offices": [
+ "label": "Town of Fairfield",
+ "place_slug": "fairfield",
+ "jurisdiction_id": "ocd-jurisdiction/country:us/state:vt/place:fairfield/government",
+ "header": "# Town of Fairfield municipal roster backfill -- Vermont\n# municipal fan-out batch 8; issue #163 (VT master tracking).\n",
+ "offices": [
+  {
+   "slug": "selectboard",
+   "title": "Selectboard Member",
+   "org_name": "Fairfield Selectboard",
+   "seats": 5,
+   "sources": [
     {
-      "slug": "selectboard",
-      "title": "Selectboard Member",
-      "org_name": "Fairfield Selectboard",
-      "seats": 5,
-      "sources": [
-        {
-          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
-          "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists five Fairfield Selectboard members: Ronald Bocash, Damian Brannon, Brian Dubie, Thomas Howrigan (Chair), and David Persons."
-        },
-        {
-          "url": "http://img1.wsimg.com/blobby/go/bcfe7f6a-21a0-4365-83b2-ca876176b0e8/downloads/be24de6f-a4bb-4f6d-93d7-d7eea5a108b2/07.13.2026%20Minutes.pdf?ver=1785864394919",
-          "note": "Town of Fairfield Selectboard minutes, July 13, 2026: the July 13, 2026 minutes seat the same five (Howrigan chairing, Persons as Secretary), printing 'Damian Branon'; the town's own spelling governs the name recorded here. Gavin Ryan sat in December 2025 but is not on the current board and is not minted."
-        }
-      ],
-      "holders": [
-        {
-          "name": "Thomas Howrigan",
-          "slug": "thomas-howrigan"
-        },
-        {
-          "name": "Brian Dubie",
-          "slug": "brian-dubie"
-        },
-        {
-          "name": "Ronald Bocash",
-          "slug": "ronald-bocash"
-        },
-        {
-          "name": "Damian Branon",
-          "slug": "damian-branon"
-        },
-        {
-          "name": "David Persons",
-          "slug": "david-persons"
-        }
-      ]
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/town_meeting_local_elections/selectboardinformation.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Vermont Selectboard Members' directory (updated June 5, 2026): lists five Fairfield Selectboard members: Ronald Bocash, Damian Brannon, Brian Dubie, Thomas Howrigan (Chair), and David Persons."
     },
     {
-      "slug": "town-clerk",
-      "title": "Town Clerk",
-      "org_name": "Fairfield Town Clerk",
-      "seats": 1,
-      "sources": [
-        {
-          "url": "http://img1.wsimg.com/blobby/go/bcfe7f6a-21a0-4365-83b2-ca876176b0e8/downloads/e3e0f061-fb62-426e-9e9d-596d284747db/06.22.2026%20Minutes.pdf?ver=1790365902710",
-          "note": "Town of Fairfield Selectboard minutes, June 22, 2026: the June 22, 2026 minutes treat Demetrius Bolduc as the sitting Town Clerk (the Town Clerk's report was given in his absence), and the town's clerk page lists him as clerk. No source states whether the office is filled by election or appointment in Fairfield; he is recorded as elected, with the mode unverified."
-        },
-        {
-          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
-          "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Linda Hodet as Town Clerk of Fairfield (January 2026); Hodet was still clerk on December 17, 2025 and is superseded by Bolduc."
-        }
-      ],
-      "holders": [
-        {
-          "name": "Demetrius Bolduc",
-          "slug": "demetrius-bolduc"
-        }
-      ]
-    },
-    {
-      "slug": "town-treasurer",
-      "title": "Town Treasurer",
-      "org_name": "Fairfield Town Treasurer",
-      "seats": 1,
-      "sources": [
-        {
-          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
-          "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Amanda Forbes as Town Treasurer of Fairfield."
-        },
-        {
-          "url": "https://img1.wsimg.com/blobby/go/bcfe7f6a-21a0-4365-83b2-ca876176b0e8/downloads/101344a1-c178-43ad-bb8c-2b9f3c2de500/12.17.2025.pdf?ver=1767630027661",
-          "note": "Town of Fairfield Selectboard minutes, December 17, 2025: the December 17, 2025 minutes header names Amanda Forbes as Treasurer."
-        }
-      ],
-      "holders": [
-        {
-          "name": "Amanda Forbes",
-          "slug": "amanda-forbes"
-        }
-      ]
-    },
-    {
-      "slug": "moderator",
-      "title": "Moderator",
-      "org_name": "Fairfield Moderator",
-      "seats": 1,
-      "sources": [
-        {
-          "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
-          "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a moderator for a one-year term at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
-        }
-      ]
-    },
-    {
-      "slug": "lister",
-      "title": "Lister",
-      "org_name": "Fairfield Listers",
-      "seats": 3,
-      "sources": [
-        {
-          "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
-          "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of listers for staggered three-year terms at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
-        }
-      ]
-    },
-    {
-      "slug": "auditor",
-      "title": "Auditor",
-      "org_name": "Fairfield Auditors",
-      "seats": 3,
-      "sources": [
-        {
-          "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
-          "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of auditors for staggered three-year terms at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
-        }
-      ]
-    },
-    {
-      "slug": "grand-juror",
-      "title": "Grand Juror",
-      "org_name": "Fairfield Grand Juror",
-      "seats": 1,
-      "sources": [
-        {
-          "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
-          "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a grand juror for a one-year term at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
-        }
-      ]
-    },
-    {
-      "slug": "town-agent",
-      "title": "Town Agent",
-      "org_name": "Fairfield Town Agent",
-      "seats": 1,
-      "sources": [
-        {
-          "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
-          "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a town agent for a one-year term at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
-        }
-      ]
-    },
-    {
-      "slug": "justice-of-the-peace",
-      "title": "Justice of the Peace",
-      "org_name": "Fairfield Justices of the Peace",
-      "seats": 7,
-      "sources": [
-        {
-          "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
-          "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Fairfield justices of the peace: Jonathan Branon, Bridget Howrigan Rivet, Julie Wolcott, Paula Boomhower, Marianne Dubie, James Consentino, and Marty Hornick."
-        }
-      ],
-      "holders": [
-        {
-          "name": "Jonathan Branon",
-          "slug": "jonathan-branon"
-        },
-        {
-          "name": "Bridget Howrigan Rivet",
-          "slug": "bridget-howrigan-rivet"
-        },
-        {
-          "name": "Julie Wolcott",
-          "slug": "julie-wolcott"
-        },
-        {
-          "name": "Paula Boomhower",
-          "slug": "paula-boomhower"
-        },
-        {
-          "name": "Marianne Dubie",
-          "slug": "marianne-dubie"
-        },
-        {
-          "name": "James Consentino",
-          "slug": "james-consentino"
-        },
-        {
-          "name": "Marty Hornick",
-          "slug": "marty-hornick"
-        }
-      ]
+     "url": "http://img1.wsimg.com/blobby/go/bcfe7f6a-21a0-4365-83b2-ca876176b0e8/downloads/be24de6f-a4bb-4f6d-93d7-d7eea5a108b2/07.13.2026%20Minutes.pdf?ver=1785864394919",
+     "note": "Town of Fairfield Selectboard minutes, July 13, 2026: the July 13, 2026 minutes seat the same five (Howrigan chairing, Persons as Secretary), printing 'Damian Branon'; the town's own spelling governs the name recorded here. Gavin Ryan sat in December 2025 but is not on the current board and is not minted."
     }
-  ],
-  "jp_election": {
-    "election_id": "fairfield-vt/2024-11-05/general",
-    "contest_id": "fairfield-vt/2024-11-05/justice-of-the-peace",
-    "name": "Town of Fairfield Justice of the Peace Election 2024-11-05",
-    "filename": "fairfield-vt--2024-11-05--justice-of-the-peace.yaml",
-    "vote_for": 7,
-    "sources": [
-      {
-        "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
-        "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Fairfield justices of the peace elected November 5, 2024: Jonathan Branon, Bridget Howrigan Rivet, Julie Wolcott, Paula Boomhower, Marianne Dubie, James Consentino, and Marty Hornick. The listing publishes no vote totals or party labels and none are recorded."
-      }
-    ],
-    "header": "# Town of Fairfield -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking)."
+   ],
+   "holders": [
+    {
+     "name": "Thomas Howrigan",
+     "slug": "thomas-howrigan"
+    },
+    {
+     "name": "Brian Dubie",
+     "slug": "brian-dubie"
+    },
+    {
+     "name": "Ronald Bocash",
+     "slug": "ronald-bocash"
+    },
+    {
+     "name": "Damian Branon",
+     "slug": "damian-branon"
+    },
+    {
+     "name": "David Persons",
+     "slug": "david-persons"
+    }
+   ]
+  },
+  {
+   "slug": "town-clerk",
+   "title": "Town Clerk",
+   "org_name": "Fairfield Town Clerk",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "http://img1.wsimg.com/blobby/go/bcfe7f6a-21a0-4365-83b2-ca876176b0e8/downloads/956db3f4-9d2e-43f6-85ea-74ecaa66af87/04.13.26.draft.pdf?ver=1785348634008",
+     "note": "Town of Fairfield Selectboard minutes, April 13, 2026 (draft): 'Ron made a motion to appoint Demetrius Bolduc as Fairfield Town Clerk, as authorized pursuant to 17 V.S.A. Chapter 2651e. Damian seconded. All in favor.' Bolduc was sworn in at the same meeting. Linda Hodet, the elected clerk, had stepped down and sits in the attendance list as Interim Town Clerk; the board welcomed Bolduc as the new Town Clerk and thanked Hodet for her years of service. Fairfield's voters approved converting the town clerk to an appointed office under 17 V.S.A. §2651e at the March 3, 2026 annual town meeting. CORRECTION (2026-10-26): the batch-8 build recorded Bolduc as elected with the mode unverified, working from the June 22, 2026 minutes only; the April 13 minutes establish the appointment, and he is recorded as appointed."
+    },
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Linda Hodet as Town Clerk of Fairfield (January 2026). Hodet stepped down in early 2026, served as Interim Town Clerk, and was succeeded by the appointed Bolduc on April 13, 2026."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Demetrius Bolduc",
+     "slug": "demetrius-bolduc",
+     "how_seated": "appointed"
+    }
+   ]
+  },
+  {
+   "slug": "town-treasurer",
+   "title": "Town Treasurer",
+   "org_name": "Fairfield Town Treasurer",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/voters/guide_vermonts_town_clerks_treasurers_county.pdf",
+     "note": "Vermont Secretary of State, Elections Division, 'Guide to Vermont's Town Clerks, Treasurers, & County Clerks' (January 2026): lists Amanda Forbes as Town Treasurer of Fairfield."
+    },
+    {
+     "url": "https://img1.wsimg.com/blobby/go/bcfe7f6a-21a0-4365-83b2-ca876176b0e8/downloads/101344a1-c178-43ad-bb8c-2b9f3c2de500/12.17.2025.pdf?ver=1767630027661",
+     "note": "Town of Fairfield Selectboard minutes, December 17, 2025: the December 17, 2025 minutes header names Amanda Forbes as Treasurer."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Amanda Forbes",
+     "slug": "amanda-forbes"
+    }
+   ]
+  },
+  {
+   "slug": "moderator",
+   "title": "Moderator",
+   "org_name": "Fairfield Moderator",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a moderator for a one-year term at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "lister",
+   "title": "Lister",
+   "org_name": "Fairfield Listers",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of listers for staggered three-year terms at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "auditor",
+   "title": "Auditor",
+   "org_name": "Fairfield Auditors",
+   "seats": 3,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of auditors for staggered three-year terms at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "grand-juror",
+   "title": "Grand Juror",
+   "org_name": "Fairfield Grand Juror",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a grand juror for a one-year term at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "town-agent",
+   "title": "Town Agent",
+   "org_name": "Fairfield Town Agent",
+   "seats": 1,
+   "sources": [
+    {
+     "url": "https://legislature.vermont.gov/statutes/section/17/055/02646",
+     "note": "17 V.S.A. section 2646 (official text, Vermont General Assembly) provides for the election of a town agent for a one-year term at annual town meeting. Structure only: no official source publishes the current holder; the seat is left unfilled rather than guessed."
+    }
+   ]
+  },
+  {
+   "slug": "justice-of-the-peace",
+   "title": "Justice of the Peace",
+   "org_name": "Fairfield Justices of the Peace",
+   "seats": 7,
+   "sources": [
+    {
+     "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+     "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Fairfield justices of the peace: Jonathan Branon, Bridget Howrigan Rivet, Julie Wolcott, Paula Boomhower, Marianne Dubie, James Consentino, and Marty Hornick."
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jonathan Branon",
+     "slug": "jonathan-branon"
+    },
+    {
+     "name": "Bridget Howrigan Rivet",
+     "slug": "bridget-howrigan-rivet"
+    },
+    {
+     "name": "Julie Wolcott",
+     "slug": "julie-wolcott"
+    },
+    {
+     "name": "Paula Boomhower",
+     "slug": "paula-boomhower"
+    },
+    {
+     "name": "Marianne Dubie",
+     "slug": "marianne-dubie"
+    },
+    {
+     "name": "James Consentino",
+     "slug": "james-consentino"
+    },
+    {
+     "name": "Marty Hornick",
+     "slug": "marty-hornick"
+    }
+   ]
   }
+ ],
+ "jp_election": {
+  "election_id": "fairfield-vt/2024-11-05/general",
+  "contest_id": "fairfield-vt/2024-11-05/justice-of-the-peace",
+  "name": "Town of Fairfield Justice of the Peace Election 2024-11-05",
+  "filename": "fairfield-vt--2024-11-05--justice-of-the-peace.yaml",
+  "vote_for": 7,
+  "sources": [
+   {
+    "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/local_office_descriptions/vermont_justices_of_the_peace.pdf",
+    "note": "Vermont Secretary of State, Elections Division, '2025-2026 Vermont Justices of the Peace' listing (updated December 4, 2025): lists seven Fairfield justices of the peace elected November 5, 2024: Jonathan Branon, Bridget Howrigan Rivet, Julie Wolcott, Paula Boomhower, Marianne Dubie, James Consentino, and Marty Hornick. The listing publishes no vote totals or party labels and none are recorded."
+   }
+  ],
+  "header": "# Town of Fairfield -- justice of the peace election (VT municipal batch 8); issue #163 (VT master tracking)."
+ }
 }
