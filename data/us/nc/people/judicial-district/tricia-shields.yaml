@@ -1,0 +1,18 @@
+id: ocd-person/88fff9c8-0de1-5ed6-9c16-69db5b9f605d
+name: Tricia Shields
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/court-of-appeals-judge-seat-4
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-4
+  party: Democratic
+  ballot_name: Tricia Shields
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 04 -- April C. Wood (Republican) 2,767,469; Tricia Shields (Democratic) 2,577,014. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

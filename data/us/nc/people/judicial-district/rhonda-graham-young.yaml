@@ -1,0 +1,28 @@
+id: ocd-person/0da08a6c-ea4c-5369-92c8-c2376006d370
+name: Rhonda Graham Young
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-10d-judge-seat-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-10d/judiciary
+  office_id: district-court-district-10d/judge-seat-4
+  party: Democratic
+  ballot_name: Rhonda Graham Young
+  status: active
+- contest_id: nc/2024-11-05/district-court-district-10d-judge-seat-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-10d/judiciary
+  office_id: district-court-district-10d/judge-seat-4
+  party: Democratic
+  ballot_name: Rhonda Graham Young
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 10D SEAT 04 (UNEXPIRED) -- Rhonda Graham Young (Democratic) 88,174. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 10D SEAT 04 -- Rhonda Graham Young (Democratic) 135,979. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

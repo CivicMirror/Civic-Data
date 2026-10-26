@@ -1,0 +1,18 @@
+id: ocd-person/98b2e4f4-6242-5394-9c0c-96b5e7ca3557
+name: Becky Holt
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/superior-court-district-10c-judge-seat-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-10c/judiciary
+  office_id: superior-court-district-10c/judge-seat-1
+  party: Republican
+  ballot_name: Becky Holt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 10C SEAT 01 -- Sean A. B. Cole (Democratic) 60,119; Becky Holt (Republican) 54,535; Stephanie Davis (Unaffiliated) 9,748. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

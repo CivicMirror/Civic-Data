@@ -1,0 +1,18 @@
+id: ocd-person/42e0960c-c8d5-59e3-88d7-de4ca743ffcb
+name: Valerie Zachary
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/court-of-appeals-judge-seat-14
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-14
+  party: Republican
+  ballot_name: Valerie Zachary
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 14 -- Valerie Zachary (Republican) 2,879,049; Ed Eldred (Democratic) 2,628,453. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

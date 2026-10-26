@@ -1,0 +1,28 @@
+id: ocd-person/4bc72dec-6f43-57ff-874f-bce86aa8e320
+name: Lucy Inman
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/supreme-court-associate-justice-seat-2
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-2
+  party: Democratic
+  ballot_name: Lucy Inman
+  status: active
+- contest_id: nc/2022-11-08/supreme-court-associate-justice-seat-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-3
+  party: Democratic
+  ballot_name: Lucy Inman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 02 -- Phil Berger, Jr. (Republican) 2,723,702; Lucy Inman (Democratic) 2,652,187. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 03 -- Richard Dietz (Republican) 1,965,840; Lucy Inman (Democratic) 1,786,650. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,28 @@
+id: ocd-person/12ad7de7-b5b4-58cf-9c42-501218053bf9
+name: Mike Hardin
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/prosecutorial-district-29-district-attorney
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-29/judiciary
+  office_id: prosecutorial-district-29/district-attorney
+  party: Republican
+  ballot_name: Mike Hardin
+  status: active
+- contest_id: nc/2024-11-05/prosecutorial-district-29-district-attorney
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-29/judiciary
+  office_id: prosecutorial-district-29/district-attorney
+  party: Republican
+  ballot_name: Mike Hardin
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): DISTRICT ATTORNEY DISTRICT 29 -- Mike Hardin (Republican) 53,066. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DISTRICT ATTORNEY DISTRICT 29 -- Mike Hardin (Republican) 57,221. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

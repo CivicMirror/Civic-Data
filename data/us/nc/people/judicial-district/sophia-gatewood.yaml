@@ -1,0 +1,18 @@
+id: ocd-person/1bab8ced-f6ca-5db7-8c33-b28b28a9a516
+name: Sophia Gatewood
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/district-court-district-21-judge-seat-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-21/judiciary
+  office_id: district-court-district-21/judge-seat-2
+  party: Democratic
+  ballot_name: Sophia Gatewood
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 21 SEAT 02 -- Sophia Gatewood (Democratic) 28,659. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

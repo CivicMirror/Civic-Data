@@ -1,0 +1,18 @@
+id: ocd-person/f65203bb-a4ac-59bc-82bd-77309d833693
+name: Brad A. Salmon
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/court-of-appeals-judge-seat-9
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-9
+  party: Democratic
+  ballot_name: Brad A. Salmon
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 09 -- Donna Stroud (Republican) 2,029,025; Brad A. Salmon (Democratic) 1,700,597. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,18 @@
+id: ocd-person/8852bc10-a83c-5e9b-a0db-188c93dc097b
+name: R. Andrew Porter
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/prosecutorial-district-12-district-attorney
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-12/judiciary
+  office_id: prosecutorial-district-12/district-attorney
+  party: Democratic
+  ballot_name: R. Andrew Porter
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): DISTRICT ATTORNEY DISTRICT 12 -- Suzanne L. Matthews (Republican) 50,099; R. Andrew Porter (Democratic) 30,418. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

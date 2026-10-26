@@ -1,0 +1,18 @@
+id: ocd-person/5942578e-24c0-5d13-b233-6e48575b6b0a
+name: Curtis Stackhouse
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/district-court-district-9-judge-seat-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-9/judiciary
+  office_id: district-court-district-9/judge-seat-3
+  party: Republican
+  ballot_name: Curtis Stackhouse
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 09 SEAT 03 -- Curtis Stackhouse (Republican) 59,959. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

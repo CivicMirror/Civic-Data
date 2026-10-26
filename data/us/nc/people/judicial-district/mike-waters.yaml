@@ -1,0 +1,18 @@
+id: ocd-person/88d8f485-c5c4-53d4-83ad-6ad5e8850251
+name: Mike Waters
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-11-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-11/judiciary
+  office_id: prosecutorial-district-11/district-attorney
+  party: Republican
+  ballot_name: Mike Waters
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 11 -- Mike Waters (Republican) 57,117. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

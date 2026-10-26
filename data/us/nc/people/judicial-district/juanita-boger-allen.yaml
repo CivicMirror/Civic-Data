@@ -1,0 +1,28 @@
+id: ocd-person/8d121b4d-2dfd-59b4-b603-5e8c96366fb3
+name: Juanita Boger-Allen
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-19a-judge-seat-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-19a/judiciary
+  office_id: district-court-district-19a/judge-seat-2
+  party: Democratic
+  ballot_name: Juanita Boger-Allen
+  status: active
+- contest_id: nc/2024-11-05/district-court-district-25-judge-seat-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-25/judiciary
+  office_id: district-court-district-25/judge-seat-3
+  party: Democratic
+  ballot_name: Juanita Boger-Allen
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 19A SEAT 02 -- Beth Street (Republican) 42,994; Juanita Boger-Allen (Democratic) 31,762. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 25 SEAT 03 (UNEXPIRED) -- Kimberly Herrick (Republican) 62,999; Juanita Boger-Allen (Democratic) 52,246. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

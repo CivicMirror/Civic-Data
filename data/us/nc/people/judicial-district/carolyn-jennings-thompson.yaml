@@ -1,0 +1,28 @@
+id: ocd-person/4bad5256-93f8-53fa-a382-c1246f79e8d2
+name: Carolyn Jennings Thompson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/court-of-appeals-judge-seat-8
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-8
+  party: Democratic
+  ballot_name: Carolyn Jennings Thompson
+  status: active
+- contest_id: nc/2024-11-05/court-of-appeals-judge-seat-12
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-12
+  party: Democratic
+  ballot_name: Carolyn Jennings Thompson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 08 -- Julee Tate Flood (Republican) 1,956,550; Carolyn Jennings Thompson (Democratic) 1,775,943. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 12 -- Tom Murry (Republican) 2,809,458; Carolyn Jennings Thompson (Democratic) 2,710,863. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

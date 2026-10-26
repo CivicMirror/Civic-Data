@@ -1,0 +1,18 @@
+id: ocd-person/0a79345d-41a3-5cc3-a01c-bf06ff8ea2d9
+name: Donna Forga
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-30-judge-seat-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-30/judiciary
+  office_id: district-court-district-30/judge-seat-1
+  party: Republican
+  ballot_name: Donna Forga
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 30 SEAT 01 -- Donna Forga (Republican) 63,913. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

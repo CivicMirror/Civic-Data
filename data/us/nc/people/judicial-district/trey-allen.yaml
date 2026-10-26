@@ -1,0 +1,18 @@
+id: ocd-person/90a7a30b-638b-500b-b8c7-9018da3b9fc8
+name: Trey Allen
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/supreme-court-associate-justice-seat-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-5
+  party: Republican
+  ballot_name: Trey Allen
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 05 -- Trey Allen (Republican) 1,957,440; Sam J. Ervin IV (Democratic) 1,792,873. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

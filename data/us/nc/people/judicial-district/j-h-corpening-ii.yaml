@@ -1,0 +1,18 @@
+id: ocd-person/ab7f271b-4d84-5285-b0ac-4107890a0700
+name: J.H. Corpening II
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/district-court-district-6-judge-seat-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-6/judiciary
+  office_id: district-court-district-6/judge-seat-5
+  party: Democratic
+  ballot_name: J.H. Corpening II
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 06 SEAT 05 -- J.H. Corpening II (Democratic) 108,066. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

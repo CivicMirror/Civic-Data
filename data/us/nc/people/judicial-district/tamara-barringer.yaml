@@ -1,0 +1,18 @@
+id: ocd-person/735c7a15-f347-565c-82e8-3178c03f07e5
+name: Tamara Barringer
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/supreme-court-associate-justice-seat-4
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-4
+  party: Republican
+  ballot_name: Tamara Barringer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 04 -- Tamara Barringer (Republican) 2,746,363; Mark Davis (Democratic) 2,616,265. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

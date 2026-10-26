@@ -1,0 +1,18 @@
+id: ocd-person/cc3b781a-d9b7-5983-ae5d-6ce396f92998
+name: Sarah McPherson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-13-judge-seat-7
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-13/judiciary
+  office_id: district-court-district-13/judge-seat-7
+  party: Republican
+  ballot_name: Sarah McPherson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 13 SEAT 07 -- Sarah McPherson (Republican) 72,576. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,18 @@
+id: ocd-person/0526c03b-b1ee-55bd-9b4d-6f84d57550a9
+name: Bob Roupe
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/superior-court-district-4-judge-seat-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-4/judiciary
+  office_id: superior-court-district-4/judge-seat-2
+  party: Republican
+  ballot_name: Bob Roupe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 04 SEAT 02 -- Bob Roupe (Republican) 58,682. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

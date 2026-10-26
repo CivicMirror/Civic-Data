@@ -1,0 +1,18 @@
+id: ocd-person/642150c3-492e-5195-91f8-e84192a7701a
+name: Richard Dietz
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/supreme-court-associate-justice-seat-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-3
+  party: Republican
+  ballot_name: Richard Dietz
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 03 -- Richard Dietz (Republican) 1,965,840; Lucy Inman (Democratic) 1,786,650. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

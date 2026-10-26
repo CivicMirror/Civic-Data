@@ -1,0 +1,18 @@
+id: ocd-person/4471fe75-60f0-52a6-bcf3-ade7a9ac3b72
+name: Billy West
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-14-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-14/judiciary
+  office_id: prosecutorial-district-14/district-attorney
+  party: Democratic
+  ballot_name: Billy West
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 14 -- Billy West (Democratic) 57,861. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

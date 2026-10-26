@@ -1,0 +1,18 @@
+id: ocd-person/30276ece-c903-5600-8135-f9fec7a1c8dd
+name: Jonathan Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/district-court-district-2-judge-seat-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-2/judiciary
+  office_id: district-court-district-2/judge-seat-3
+  party: Republican
+  ballot_name: Jonathan Jones
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 02 SEAT 03 -- Jonathan Jones (Republican) 27,837; Jason Williams (Democratic) 19,470. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

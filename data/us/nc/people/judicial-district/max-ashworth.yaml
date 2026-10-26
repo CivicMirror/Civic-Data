@@ -1,0 +1,18 @@
+id: ocd-person/d264d342-308e-56df-ae36-1384abb387e1
+name: Max Ashworth
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/superior-court-district-6c-judge-seat-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-6c/judiciary
+  office_id: superior-court-district-6c/judge-seat-1
+  party: Republican
+  ballot_name: Max Ashworth
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 06C SEAT 01 -- Ricardo Jensen (Democratic) 28,866; Max Ashworth (Republican) 26,993. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

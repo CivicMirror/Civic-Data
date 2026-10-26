@@ -1,0 +1,18 @@
+id: ocd-person/ae9af554-16de-5459-9f9a-8bdf616b86c4
+name: Christopher J. Welch
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/district-court-district-5-judge-seat-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-5/judiciary
+  office_id: district-court-district-5/judge-seat-3
+  party: Republican
+  ballot_name: Christopher J. Welch
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 05 SEAT 03 -- Christopher J. Welch (Republican) 93,933. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

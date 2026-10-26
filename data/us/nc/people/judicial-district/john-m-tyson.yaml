@@ -1,0 +1,18 @@
+id: ocd-person/79374f74-c542-5475-936e-290bfac2d03b
+name: John M. Tyson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/court-of-appeals-judge-seat-10
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-10
+  party: Republican
+  ballot_name: John M. Tyson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 10 -- John M. Tyson (Republican) 1,967,192; Gale Murray Adams (Democratic) 1,762,793. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

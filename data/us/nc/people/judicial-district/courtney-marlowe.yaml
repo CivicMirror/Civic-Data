@@ -1,0 +1,18 @@
+id: ocd-person/cec9ce6c-693b-5b75-a621-cf5ec5c7e1ce
+name: Courtney Marlowe
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/district-court-district-32-judge-seat-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-32/judiciary
+  office_id: district-court-district-32/judge-seat-3
+  party: Republican
+  ballot_name: Courtney Marlowe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 32 SEAT 03 -- Courtney Marlowe (Republican) 96,596. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

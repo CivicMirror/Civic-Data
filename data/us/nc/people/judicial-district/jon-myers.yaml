@@ -1,0 +1,18 @@
+id: ocd-person/eea3704b-f794-59bf-864d-1a04476fbedf
+name: Jon Myers
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-22b-judge-seat-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-22b/judiciary
+  office_id: district-court-district-22b/judge-seat-2
+  party: Republican
+  ballot_name: Jon Myers
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 22B SEAT 02 -- Jon Myers (Republican) 66,662. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

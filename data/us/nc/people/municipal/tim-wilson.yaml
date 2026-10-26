@@ -18,6 +18,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Tim Wilson
   status: active
+- contest_id: nc/2024-11-05/superior-court-district-8a-judge-seat-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-8a/judiciary
+  office_id: superior-court-district-8a/judge-seat-1
+  party: Democratic
+  ballot_name: Tim Wilson
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -28,3 +35,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Pikeville Board of Commissioners -- Tim Wilson (Nonpartisan) 66; Randy Langston (Nonpartisan) 49; David Matt Thomas (Nonpartisan) 36. Winners are the top 2 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 08A SEAT 01 -- Tim Wilson (Democratic) 35,422. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'

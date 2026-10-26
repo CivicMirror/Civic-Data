@@ -1,0 +1,18 @@
+id: ocd-person/1d4e127c-e2f9-51f6-9d23-7d5e71179f9c
+name: Pat Nadolski
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/superior-court-district-20a-judge-seat-2
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-20a/judiciary
+  office_id: superior-court-district-20a/judge-seat-2
+  party: Republican
+  ballot_name: Pat Nadolski
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 20A SEAT 02 -- Pat Nadolski (Republican) 36,073. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

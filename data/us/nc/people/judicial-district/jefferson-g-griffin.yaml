@@ -1,0 +1,28 @@
+id: ocd-person/69d90ea5-9bf1-5d4d-b405-d9cbd5f6e120
+name: Jefferson G. Griffin
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/court-of-appeals-judge-seat-13
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-13
+  party: Republican
+  ballot_name: Jefferson G. Griffin
+  status: active
+- contest_id: nc/2024-11-05/supreme-court-associate-justice-seat-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-6
+  party: Republican
+  ballot_name: Jefferson G. Griffin
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 13 -- Jefferson G. Griffin (Republican) 2,720,503; Chris Brook (Democratic) 2,597,573. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 06 -- Allison Riggs (Democratic) 2,770,412; Jefferson G. Griffin (Republican) 2,769,678. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,18 @@
+id: ocd-person/35caf315-8f00-5bf6-a5d3-80eca778e05a
+name: Peter Knight
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/superior-court-district-29b-judge-seat-1
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-29b/judiciary
+  office_id: superior-court-district-29b/judge-seat-1
+  party: Republican
+  ballot_name: Peter Knight
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 29B SEAT 01 -- Peter Knight (Republican) 74,948. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial
