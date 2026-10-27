@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official Nov. 8, 2022 general election results (statewide
+# executive worked example, Civic-Data issue #177).
+id: ocd-person/e308ab19-29bc-5853-9480-a4fa121055b0
+name: Bruce Reeves
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/governor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/governor
+  party: Libertarian
+  ballot_name: 'Bruce Reeves/Jessica Ethridge'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_statewide_executive
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2183
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Governor contest (ElectionStats contest 2183), county-division rows aggregated across all 46 counties: Henry McMaster and Pamela Evette (Republican) 988,501; Joe Cunningham/Tally Parham Casey (Democratic) 692,691; Bruce Reeves/Jessica Ethridge (Libertarian) 20,826. Henry McMaster and Pamela Evette won with 988,501 votes.'
+  retrieved: '2026-10-25'

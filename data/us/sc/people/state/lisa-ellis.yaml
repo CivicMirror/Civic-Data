@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official Nov. 8, 2022 general election results (statewide
+# executive worked example, Civic-Data issue #177).
+id: ocd-person/5571a4a1-61b4-5628-afd9-ce825da57089
+name: Lisa Ellis
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/superintendent-of-education
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/superintendent-of-education
+  party: Democratic
+  ballot_name: 'Lisa Ellis'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_statewide_executive
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2319
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, State Superintendent of Education contest (ElectionStats contest 2319), county-division rows aggregated across all 46 counties: Ellen Weaver (Republican) 937,493; Lisa Ellis (Democratic) 317,773; Patricia M Mickel (Green) 27,468; Write-In 1,744. Ellen Weaver won with 937,493 votes.'
+  retrieved: '2026-10-25'

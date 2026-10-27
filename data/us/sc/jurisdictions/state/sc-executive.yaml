@@ -1,0 +1,11 @@
+# Built for the SC statewide executive worked example (Civic-Data issue
+# #177) from the SC State Election Commission Election History results.
+id: ocd-jurisdiction/country:us/state:sc/executive
+name: South Carolina (statewide executive branch)
+state: sc
+division_id: ocd-division/country:us/state:sc
+classification: executive
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: SC State Election Commission Election History (ElectionStats) search -- the official results system whose per-office CSV exports source the November 8, 2022 general election contests built under this jurisdiction.
+  retrieved: '2026-10-25'

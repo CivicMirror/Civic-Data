@@ -1,0 +1,121 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results for the November 8, 2022 general
+# election, per-office CSV exports aggregated from county-division
+# rows across all 46 counties. Statewide executive worked example,
+# Civic-Data issue #177.
+id: sc/2022-11-08/general
+name: South Carolina 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+- id: sc/2022-11-08/governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8dfd6abf-7ed3-5d8e-b2e3-cce8a3fefeed
+  - ocd-person/7dbf4ecd-e4b1-5cd4-b628-121396e743ab
+  - ocd-person/e308ab19-29bc-5853-9480-a4fa121055b0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8dfd6abf-7ed3-5d8e-b2e3-cce8a3fefeed
+    name: 'Henry McMaster'
+    party: Republican
+    votes: 988501
+- id: sc/2022-11-08/lieutenant-governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/lieutenant-governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a2365447-4158-5feb-a219-c2db7c7eed06
+  - ocd-person/32c5ba42-cbdc-56dc-b6b3-9b314a22debc
+  - ocd-person/ee5564a3-9d8e-5d21-b20e-5a034fa39bf2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a2365447-4158-5feb-a219-c2db7c7eed06
+    name: 'Pamela Evette'
+    party: Republican
+    votes: 988501
+- id: sc/2022-11-08/secretary-of-state
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/secretary-of-state
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0b5cc0b9-7c18-5b8e-9e75-e1c29a8fa032
+  - ocd-person/e3cd5aba-6e7b-5c3a-99bf-d28b52a429ae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0b5cc0b9-7c18-5b8e-9e75-e1c29a8fa032
+    name: 'Mark Hammond'
+    party: Republican
+    votes: 1071451
+- id: sc/2022-11-08/attorney-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/attorney-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a53aa705-dfdb-5868-bdd5-95cba10a2ddf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a53aa705-dfdb-5868-bdd5-95cba10a2ddf
+    name: 'Alan Wilson'
+    party: Republican
+    votes: 1223080
+- id: sc/2022-11-08/state-treasurer
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/state-treasurer
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/161b6007-62bb-5aa0-96c6-24d0b1bf6cd3
+  - ocd-person/dbce30a8-f860-5e40-b72c-366a101f9b37
+  result_status: certified
+  winners:
+  - person_id: ocd-person/161b6007-62bb-5aa0-96c6-24d0b1bf6cd3
+    name: 'Curtis Loftis'
+    party: Republican
+    votes: 1129961
+- id: sc/2022-11-08/comptroller-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/comptroller-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6d7982ff-bdfd-5448-821f-b6d0c7b73c1f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6d7982ff-bdfd-5448-821f-b6d0c7b73c1f
+    name: 'Richard Eckstrom'
+    party: Republican
+    votes: 1229879
+- id: sc/2022-11-08/commissioner-of-agriculture
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/commissioner-of-agriculture
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/07d57fe2-6620-52e1-bc7d-4da91bfcbdd7
+  - ocd-person/78eb1560-5001-5fe8-95ed-d64b5016d813
+  - ocd-person/492cb879-9205-55ec-8c8b-472ac4a29b2c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/07d57fe2-6620-52e1-bc7d-4da91bfcbdd7
+    name: 'Hugh Weathers'
+    party: Republican
+    votes: 1085139
+- id: sc/2022-11-08/superintendent-of-education
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/superintendent-of-education
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b954469b-ac64-5521-8811-41aad2d4c45d
+  - ocd-person/5571a4a1-61b4-5628-afd9-ce825da57089
+  - ocd-person/a2fd9908-736e-5c87-9667-c2cac53f21a3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b954469b-ac64-5521-8811-41aad2d4c45d
+    name: 'Ellen Weaver'
+    party: Republican
+    votes: 937493
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. This record covers the eight statewide executive contests of the November 8, 2022 general election; totals are aggregated from the per-office Search Results CSV exports using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one; the Superintendent of Education export also carries an "Unknown Candidate" artifact row with 0 votes, which is excluded. Governor and Lieutenant Governor are a joint ticket: both contests rest on ElectionStats contest 2183 and share the ticket vote totals.'
+  retrieved: '2026-10-25'

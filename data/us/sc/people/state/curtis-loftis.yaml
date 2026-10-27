@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official Nov. 8, 2022 general election results (statewide
+# executive worked example, Civic-Data issue #177).
+id: ocd-person/161b6007-62bb-5aa0-96c6-24d0b1bf6cd3
+name: Curtis Loftis
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/state-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/executive
+  office_id: sc/state-treasurer
+  party: Republican
+  ballot_name: 'Curtis Loftis'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_statewide_executive
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2316
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, State Treasurer contest (ElectionStats contest 2316), county-division rows aggregated across all 46 counties: Curtis Loftis (Republican) 1,129,961; Sarah E Work (Alliance) 281,695; Write-In 6,630. Curtis Loftis won with 1,129,961 votes.'
+  retrieved: '2026-10-25'
