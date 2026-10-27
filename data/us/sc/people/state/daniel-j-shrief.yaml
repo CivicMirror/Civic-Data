@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/83fe0f71-e05f-53d5-ae16-e846ae53fd81
+name: Daniel J Shrief
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-88
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:88/legislature
+  office_id: sc-house-88/state-representative
+  party: Democratic
+  ballot_name: 'Daniel J Shrief'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2201
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 88 contest (ElectionStats contest 2201), county-division rows aggregated across the district''s counties: RJ May (Republican) 8,304; Daniel J Shrief (Democratic) 3,531; Write-In 12. RJ May won with 8,304 votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/255104cd-39ec-51d2-affd-991705de9349
+name: Audrey Hopkins Williams
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-122
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:122/legislature
+  office_id: sc-house-122/state-representative
+  party: Democratic
+  ballot_name: 'Audrey Hopkins Williams'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7299
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 122 contest (ElectionStats contest 7299), county-division rows aggregated across the district''s counties: Bill Hager (Republican) 11,234; Audrey Hopkins Williams (Democratic) 9,718; Write-In 12. Bill Hager won with 11,234 votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/ffbe2db0-0511-5db0-a9bb-f16547d74898
+name: Bill Whitmire
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:1/legislature
+  office_id: sc-house-1/state-representative
+  party: Republican
+  ballot_name: 'Bill Whitmire'
+  status: active
+- contest_id: sc/2024-11-05/house-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:1/legislature
+  office_id: sc-house-1/state-representative
+  party: Republican
+  ballot_name: 'Bill Whitmire'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7132
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 1 contest (ElectionStats contest 7132), county-division rows aggregated across the district''s counties: Bill Whitmire (Republican) 20,495; Write-In 179. Bill Whitmire won with 20,495 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2265
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 1 contest (ElectionStats contest 2265), county-division rows aggregated across the district''s counties: Bill Whitmire (Republican) 14,049; Write-In 474. Bill Whitmire won with 14,049 votes.'
+  retrieved: '2026-10-25'

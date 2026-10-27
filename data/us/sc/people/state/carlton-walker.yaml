@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/ed25e545-bd45-5bf7-873e-421dc899face
+name: Carlton Walker
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-15
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:15/legislature
+  office_id: sc-house-15/state-representative
+  party: Republican
+  ballot_name: 'Carlton Walker'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7160
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 15 contest (ElectionStats contest 7160), county-division rows aggregated across the district''s counties: JA Moore (Democratic) 6,667; Carlton Walker (Republican) 5,284; Write-In 20. JA Moore won with 6,667 votes.'
+  retrieved: '2026-10-25'
