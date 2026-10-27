@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/245a61bb-3a83-59b8-90b8-8d6a10acb87b
+name: Barbara Black
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/johnsonville-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:johnsonville/government
+  office_id: johnsonville/council-member
+  party: Nonpartisan
+  ballot_name: 'Barbara Black'
+  status: active
+- contest_id: sc/2023-11-07/johnsonville-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:johnsonville/government
+  office_id: johnsonville/council-member
+  party: Nonpartisan
+  ballot_name: 'Barbara Black'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1681
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Johnsonville Town Council contest (ElectionStats contest 1681), county-division rows aggregated (Florence County): Dipen Khambhaita 84; Jamie Altman 78; M Doolittle Stone 70; April Collins 61; Marie Haselden 47; Barbara Black 30; Olin Altman Jr 17.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/111
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Johnsonville City Council contest (ElectionStats contest 111), county-division rows aggregated (Florence County): Frankie Poston 158; Kenneth Darrell Ard 118; Olin Altman 115; John Pollard 104; Barbara Black 73.'
+  retrieved: '2026-10-26'

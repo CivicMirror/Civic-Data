@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/bfcec0d8-a6eb-5716-a41c-7071de80bbbb
+name: Bryan T Muckenfuss Sr
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/ravenel-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ravenel/government
+  office_id: ravenel/council-member
+  party: Nonpartisan
+  ballot_name: 'Bryan T Muckenfuss Sr'
+  status: active
+- contest_id: sc/2023-11-07/ravenel-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ravenel/government
+  office_id: ravenel/council-member
+  party: Nonpartisan
+  ballot_name: 'Bryan Muckenfuss Sr'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1662
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Ravenel Town Council contest (ElectionStats contest 1662), county-division rows aggregated (Charleston County): Terry Wilkinson 161; Robert L Cochran 150; LaJuanda LJ Brown 142; Cora Lee Singleton 115; Bryan T Muckenfuss Sr 75; Harold T Buck Dukes Jr 69; Donald Donkle 21.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/227
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Ravenel Town Council contest (ElectionStats contest 227), county-division rows aggregated (Charleston County): Buckey Waters 210; Cora Lee Singleton 200; James R Rodgers Jr 180; Bryan Muckenfuss Sr 140; Althea V Hamilton-Gibbs 127; Jan Denham 127; Charles Glover Sr. 107.'
+  retrieved: '2026-10-26'

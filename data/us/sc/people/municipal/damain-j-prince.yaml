@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/14feded0-dc34-5a76-8058-d38727438bca
+name: Damain J Prince
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/darlington-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:darlington/government
+  office_id: darlington/mayor
+  party: Nonpartisan
+  ballot_name: 'Damain J Prince'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/154
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Darlington City Mayor contest (ElectionStats contest 154), county-division rows aggregated (Darlington County): Curtis Boyd 825; Damain J Prince 587; Scott Pruitt 110.'
+  retrieved: '2026-10-26'

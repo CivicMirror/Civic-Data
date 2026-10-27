@@ -1,0 +1,42 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/1c8b621e-3ac4-5fe9-8f9c-fd6dc60cef95
+name: Annette Edwards
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/greenwood-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/mayor
+  party: Nonpartisan
+  ballot_name: 'Annette Edwards'
+  status: active
+- contest_id: sc/2024-11-05/greenwood-council-ward-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-3
+  party: Nonpartisan
+  ballot_name: 'Annette Edwards'
+  status: active
+- contest_id: sc/2024-11-19/greenwood-council-ward-3
+  election_id: sc/2024-11-19/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-3
+  party: Nonpartisan
+  ballot_name: 'Annette Edwards'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2729
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Greenwood City Mayor contest (ElectionStats contest 2729), county-division rows aggregated (Greenwood County): Brandon A. Smith 2,504; Annette Edwards 1,709.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7997
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Greenwood City Council contest (ElectionStats contest 7997), county-division rows aggregated (Greenwood County): Annette Edwards 359; Brandon L Best 220; Glenn Williams 182.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/8120
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 19, 2024 general election, City of Greenwood City Council contest (ElectionStats contest 8120), county-division rows aggregated (Greenwood County): Annette Edwards 51; Brandon L Best 43.'
+  retrieved: '2026-10-26'

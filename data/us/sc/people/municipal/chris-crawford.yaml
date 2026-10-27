@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/742bc92d-11d6-504c-a887-da27d02d771c
+name: Chris Crawford
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/abbeville-council-district-4
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Chris Crawford'
+  status: active
+- contest_id: sc/2022-11-22/abbeville-council-district-4
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Chris Crawford'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2367
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Abbeville City Council contest (ElectionStats contest 2367), county-division rows aggregated (Abbeville County): Deanna Ashley 66; Chris Crawford 62; Venture R Belton 55.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/3080
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, City of Abbeville City Council contest (ElectionStats contest 3080), county-division rows aggregated (Abbeville County): Chris Crawford 61; Deanna Ashley 52.'
+  retrieved: '2026-10-26'

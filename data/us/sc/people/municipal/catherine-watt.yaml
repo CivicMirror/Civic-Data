@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/327c8448-682d-5618-8a47-786eaa6dbd7b
+name: Catherine Watt
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/clemson-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:clemson/government
+  office_id: clemson/mayor
+  party: Nonpartisan
+  ballot_name: 'Catherine Watt'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7484
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Clemson City Mayor contest (ElectionStats contest 7484), county-division rows aggregated (Pickens County): Robert Halfacre 3,131; Catherine Watt 1,859; Jim Borick 301.'
+  retrieved: '2026-10-26'

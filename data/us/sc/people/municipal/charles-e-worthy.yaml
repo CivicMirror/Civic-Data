@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7086d5cb-6961-5c94-84ff-f2c59ae1c6ef
+name: Charles E Worthy
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/whitmire-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:whitmire/government
+  office_id: whitmire/council-member
+  party: Nonpartisan
+  ballot_name: 'Charles E. Worthy'
+  status: active
+- contest_id: sc/2024-11-05/whitmire-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:whitmire/government
+  office_id: whitmire/council-member
+  party: Nonpartisan
+  ballot_name: 'Charles E. Worthy'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2840
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Whitmire Town Council contest (ElectionStats contest 2840), county-division rows aggregated (Newberry County): Maria Shields Dickerson 252; Tony Hill 177; Michael P. Thomas 148; Tomekia R. Means 115; Charles E. Worthy 114; John J Bullard 46; JP Ammons 33; Michael Patterson 30; Lirhonda Butler 18.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7715
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Whitmire Town Council contest (ElectionStats contest 7715), county-division rows aggregated (Newberry County): Charles E. Worthy 223; Tomekia R. Means 219; Dwight Lane 194; Marty McMurtury 157; Johnathan P. Ammons Sr 108.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/86265d13-c3da-5200-b910-70cb65e5a29d
+name: Billy Inman
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/landrum-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:landrum/government
+  office_id: landrum/council-member
+  party: Nonpartisan
+  ballot_name: 'Billy Inman'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1632
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Landrum City Council contest (ElectionStats contest 1632), county-division rows aggregated (Spartanburg County): Daniel Prince 135; Tammy Wells Cox 131; Billy Inman 122.'
+  retrieved: '2026-10-26'

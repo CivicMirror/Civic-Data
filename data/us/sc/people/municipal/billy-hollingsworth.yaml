@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ea0f7700-1adc-5763-9c78-f3be0521499c
+name: Billy Hollingsworth
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/whitmire-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:whitmire/government
+  office_id: whitmire/mayor
+  party: Nonpartisan
+  ballot_name: 'Billy Hollingsworth'
+  status: active
+- contest_id: sc/2024-11-05/whitmire-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:whitmire/government
+  office_id: whitmire/mayor
+  party: Nonpartisan
+  ballot_name: 'Billy Hollingsworth'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3959
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Town of Whitmire Town Mayor contest (ElectionStats contest 3959), county-division rows aggregated (Newberry County): Billy Hollingsworth 374; Tomekia R. Means 234.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7959
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Whitmire Town Mayor contest (ElectionStats contest 7959), county-division rows aggregated (Newberry County): Billy Hollingsworth 408.'
+  retrieved: '2026-10-26'

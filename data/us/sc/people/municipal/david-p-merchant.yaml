@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/22acc307-2ba3-5b5e-b78f-090b1336f7eb
+name: David P Merchant
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/sumter-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/mayor
+  party: Nonpartisan
+  ballot_name: 'David Merchant'
+  status: active
+- contest_id: sc/2024-11-05/sumter-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/mayor
+  party: Nonpartisan
+  ballot_name: 'David P. Merchant'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/4018
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Sumter City Mayor contest (ElectionStats contest 4018), county-division rows aggregated (Sumter County): David Merchant 7,050; Calvin K. Hastie, Sr. 4,765; Foxy Rae Campbell 1,992; Archie Parnell 1,653; Debbie Bowen 943; Sabrina Belcher 463.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7700
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Sumter City Mayor contest (ElectionStats contest 7700), county-division rows aggregated (Sumter County): David P. Merchant 8,818; Foxy Rae Campbell 3,990; T. Frank Adams II 1,192; Reginald Evans 1,143.'
+  retrieved: '2026-10-26'

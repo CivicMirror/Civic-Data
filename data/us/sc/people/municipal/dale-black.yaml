@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/06de67c2-d047-5d66-91cd-4a9005b2928d
+name: Dale Black
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mauldin-council-seat-5
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mauldin/government
+  office_id: mauldin/council-member-seat-5
+  party: Nonpartisan
+  ballot_name: 'Dale Black'
+  status: active
+- contest_id: sc/2021-11-16/mauldin-council-seat-5
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mauldin/government
+  office_id: mauldin/council-member-seat-5
+  party: Nonpartisan
+  ballot_name: 'Dale Black'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1734
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Mauldin City Council contest (ElectionStats contest 1734), county-division rows aggregated (Greenville County): Dale Black 711; Frank B Allgood 623; Travis Reeder 554.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/1968
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, City of Mauldin City Council contest (ElectionStats contest 1968), county-division rows aggregated (Greenville County): Frank B Allgood 634; Dale Black 512.'
+  retrieved: '2026-10-26'

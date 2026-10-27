@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c64337c6-61b8-5c0f-a2d9-c19afb163bd2
+name: David Munn
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/pamplico-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pamplico/government
+  office_id: pamplico/mayor
+  party: Nonpartisan
+  ballot_name: 'David Munn'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/266
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Pamplico Town Mayor contest (ElectionStats contest 266), county-division rows aggregated (Florence County): David Munn 34.'
+  retrieved: '2026-10-26'

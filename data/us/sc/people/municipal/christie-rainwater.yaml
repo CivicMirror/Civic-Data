@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/33a55c1b-a959-52ef-a51d-e17cdaca5b4a
+name: Christie Rainwater
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/hanahan-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hanahan/government
+  office_id: hanahan/mayor
+  party: Nonpartisan
+  ballot_name: 'Christie Rainwater'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2525
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Hanahan City Mayor contest (ElectionStats contest 2525), county-division rows aggregated (Berkeley County): Christie Rainwater 4,872.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7bbb2fc7-2dd9-50af-837a-b00d40745b69
+name: Carolyn McCoy Govan
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/hartsville-council-district-1
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/council-member-district-1
+  party: Nonpartisan
+  ballot_name: 'Carolyn McCoy Govan'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1760
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Hartsville City Council contest (ElectionStats contest 1760), county-division rows aggregated (Darlington County): Kenzie DeLaine 98; Carolyn McCoy Govan 42.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/200e3c34-0563-582b-8ece-250a1704ee60
+name: Cameron Rivers
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/pickens-council-unexpired-term
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  party: Nonpartisan
+  ballot_name: 'Cameron Rivers'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/131
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Pickens City Council contest (ElectionStats contest 131), county-division rows aggregated (Pickens County): Cameron Rivers 268.'
+  retrieved: '2026-10-26'

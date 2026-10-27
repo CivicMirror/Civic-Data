@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/08913d76-7e25-5002-a87c-d8a162a729ed
+name: Anthony Gibson
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/sumter-council-ward-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-1
+  party: Nonpartisan
+  ballot_name: 'Anthony Gibson'
+  status: active
+- contest_id: sc/2022-11-22/sumter-council-ward-1
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-1
+  party: Nonpartisan
+  ballot_name: 'Anthony Gibson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2857
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Sumter City Council contest (ElectionStats contest 2857), county-division rows aggregated (Sumter County): Joe Brown 338; Anthony Gibson 262; Derek Gamble 242; Barbette Thames 82; Reginald Evans 62.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/3091
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, City of Sumter City Council contest (ElectionStats contest 3091), county-division rows aggregated (Sumter County): Anthony Gibson 120; Joe Brown 66.'
+  retrieved: '2026-10-26'

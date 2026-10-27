@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8c9ef4ce-db2b-5e86-9cac-64a0874444dd
+name: Chrissy Johnson
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/walterboro-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:walterboro/government
+  office_id: walterboro/mayor
+  party: Nonpartisan
+  ballot_name: 'Chrissy Johnson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1859
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Walterboro City Mayor contest (ElectionStats contest 1859), county-division rows aggregated (Colleton County): Bill Young 462; Chrissy Johnson 198; Alex Cavazzoni 93.'
+  retrieved: '2026-10-26'
