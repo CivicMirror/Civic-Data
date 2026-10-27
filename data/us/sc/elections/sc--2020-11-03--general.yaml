@@ -1,0 +1,693 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177).
+
+id: sc/2020-11-03/general
+name: South Carolina 2020-11-03 general election
+date: '2020-11-03'
+election_type: general
+status: certified
+contests:
+- id: sc/2020-11-03/abbeville-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/072daeef-1e78-5da6-b7f0-dfc71bd682c9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/072daeef-1e78-5da6-b7f0-dfc71bd682c9
+    name: 'Faye Thomas'
+    party: Nonpartisan
+    votes: 188
+- id: sc/2020-11-03/abbeville-council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fa98affb-95e8-5681-97c6-f5f4c6930a2d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fa98affb-95e8-5681-97c6-f5f4c6930a2d
+    name: 'James JJ Jackson'
+    party: Nonpartisan
+    votes: 184
+- id: sc/2020-11-03/abbeville-council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/826a56ff-3f38-5ea2-a3a9-39535277e840
+  result_status: certified
+  winners:
+  - person_id: ocd-person/826a56ff-3f38-5ea2-a3a9-39535277e840
+    name: 'Benjamin Greeson'
+    party: Nonpartisan
+    votes: 309
+- id: sc/2020-11-03/abbeville-council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/800993cb-0dcb-5c4b-a491-d63c4603b041
+  - ocd-person/54d152e9-3666-53e4-9c35-90e3aa3f30e2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/800993cb-0dcb-5c4b-a491-d63c4603b041
+    name: 'Matthew H Gambrell'
+    party: Nonpartisan
+    votes: 195
+- id: sc/2020-11-03/abbeville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fa3628fd-5db6-56d7-ada4-a7e6b58ec16b
+  - ocd-person/8e6bd3e5-9817-532f-a40a-feca8196feb3
+  - ocd-person/5426ead3-e31c-54f8-b0a3-e658482341ba
+  - ocd-person/6b6324df-7154-5c69-9036-8344933bd58f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fa3628fd-5db6-56d7-ada4-a7e6b58ec16b
+    name: 'Santana Delano Freeman'
+    party: Nonpartisan
+    votes: 617
+- id: sc/2020-11-03/allendale-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/49301e63-f5f4-5c2d-9b41-29afe007dfcb
+  - ocd-person/e340e762-fa83-5f5a-85e1-b1528260c9bc
+  - ocd-person/f7a6fd63-8ba1-53cf-bfc1-05b20ef63ac4
+  - ocd-person/63431792-9888-5a4b-9bbd-442c8d23ad5a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49301e63-f5f4-5c2d-9b41-29afe007dfcb
+    name: 'Larry Cohen'
+    party: Nonpartisan
+    votes: 490
+- id: sc/2020-11-03/beaufort-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:beaufort/government
+  office_id: beaufort/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/01fc327a-b689-5476-aed5-f6e66ae44819
+  - ocd-person/b7520f60-be65-587e-b228-eebada2a6406
+  result_status: certified
+  winners:
+  - person_id: ocd-person/01fc327a-b689-5476-aed5-f6e66ae44819
+    name: 'Stephen Murray'
+    party: Nonpartisan
+    votes: 3384
+- id: sc/2020-11-03/camden-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:camden/government
+  office_id: camden/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d00b6a06-adfb-560c-be68-07efd6500438
+  - ocd-person/81a5b625-1f2d-5977-8cc3-6a08969c43d7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d00b6a06-adfb-560c-be68-07efd6500438
+    name: 'Alfred Mae Drakeford'
+    party: Nonpartisan
+    votes: 3085
+- id: sc/2020-11-03/carlisle-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:carlisle/government
+  office_id: carlisle/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1b3701b5-deea-59bf-bb4c-9c39b1e59797
+  - ocd-person/e3fa2e17-43e3-5a9f-8cd3-2b2fc0c18c7e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1b3701b5-deea-59bf-bb4c-9c39b1e59797
+    name: 'Mary Ferguson Glenn'
+    party: Nonpartisan
+    votes: 127
+- id: sc/2020-11-03/clemson-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:clemson/government
+  office_id: clemson/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bcbc8d09-9f5a-5634-9cfa-5d56f419525a
+  - ocd-person/84906134-1afd-559b-b406-87456d4ddf75
+  - ocd-person/d8a6341f-39e2-5a7e-8a47-a65ba8cf26ec
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bcbc8d09-9f5a-5634-9cfa-5d56f419525a
+    name: 'Robert Halfacre'
+    party: Nonpartisan
+    votes: 3144
+- id: sc/2020-11-03/donalds-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:donalds/government
+  office_id: donalds/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/c7fd8d87-8728-5598-9529-b70500b8f02f
+  - ocd-person/889272c3-81f3-585e-8a7b-3d63076ae32e
+  - ocd-person/b8b2ed37-959c-5c44-84b1-7262cc25147c
+  - ocd-person/924a670b-a5a2-55d2-af88-d010464e0da8
+  - ocd-person/d82db359-8dcd-5f63-8a6e-82b7ba37bf19
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c7fd8d87-8728-5598-9529-b70500b8f02f
+    name: 'Susan Powell'
+    party: Nonpartisan
+    votes: 104
+  - person_id: ocd-person/889272c3-81f3-585e-8a7b-3d63076ae32e
+    name: 'Millie McDonald'
+    party: Nonpartisan
+    votes: 100
+  - person_id: ocd-person/b8b2ed37-959c-5c44-84b1-7262cc25147c
+    name: 'Ronnie D Vaughn'
+    party: Nonpartisan
+    votes: 89
+  - person_id: ocd-person/924a670b-a5a2-55d2-af88-d010464e0da8
+    name: 'William O Scoggins Jr'
+    party: Nonpartisan
+    votes: 82
+- id: sc/2020-11-03/donalds-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:donalds/government
+  office_id: donalds/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/67f0c5a1-5475-504c-8929-11502caa157d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/67f0c5a1-5475-504c-8929-11502caa157d
+    name: 'Billy Kennedy'
+    party: Nonpartisan
+    votes: 103
+- id: sc/2020-11-03/florence-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:florence/government
+  office_id: florence/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5ad4f06d-5582-5610-af8d-b286534d1d2a
+  - ocd-person/4b1a1caa-142b-57db-b322-a0351f1a4632
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5ad4f06d-5582-5610-af8d-b286534d1d2a
+    name: 'Teresa Myers Ervin'
+    party: Nonpartisan
+    votes: 10175
+- id: sc/2020-11-03/goose-creek-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:goose-creek/government
+  office_id: goose-creek/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/a3968afc-9af1-5115-b269-56b132e0ccd8
+  - ocd-person/3d8fa535-fbbd-5a32-8377-c710be1fe4f4
+  - ocd-person/7a10f9f9-1ef6-50f3-8201-063ed050ad8e
+  - ocd-person/b4fbc09d-3ce8-55d6-b55c-349dc2186b39
+  - ocd-person/fdd07ebb-4703-58ca-b66d-16ea905bbe60
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a3968afc-9af1-5115-b269-56b132e0ccd8
+    name: 'Hannah Cox'
+    party: Nonpartisan
+    votes: 9807
+  - person_id: ocd-person/3d8fa535-fbbd-5a32-8377-c710be1fe4f4
+    name: 'Gayla McSwain'
+    party: Nonpartisan
+    votes: 7369
+  - person_id: ocd-person/7a10f9f9-1ef6-50f3-8201-063ed050ad8e
+    name: 'Melissa C Enos'
+    party: Nonpartisan
+    votes: 6612
+- id: sc/2020-11-03/greenwood-council-ward-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/87b4c996-0876-5e55-8166-a1a9c59e0d42
+  result_status: certified
+  winners:
+  - person_id: ocd-person/87b4c996-0876-5e55-8166-a1a9c59e0d42
+    name: 'Niki Hutto'
+    party: Nonpartisan
+    votes: 554
+- id: sc/2020-11-03/greenwood-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5be60e94-9d99-5098-a959-a4c99191ff14
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5be60e94-9d99-5098-a959-a4c99191ff14
+    name: 'Betty R Boles'
+    party: Nonpartisan
+    votes: 709
+- id: sc/2020-11-03/greenwood-council-ward-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e090389d-9c20-57e4-a7e5-3ae5a3f39794
+  - ocd-person/11145a6e-cffc-59f0-804f-acd19f1e14d0
+  - ocd-person/aafb22ec-c1ac-5fa0-b07e-cbd756e66df9
+  - ocd-person/ee73d851-daaf-55fc-b0df-f627d77bffcd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e090389d-9c20-57e4-a7e5-3ae5a3f39794
+    name: 'Matthew E Miller'
+    party: Nonpartisan
+    votes: 537
+- id: sc/2020-11-03/hardeeville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hardeeville/government
+  office_id: hardeeville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/021be8d6-ac27-54cc-841b-064b8af9f663
+  result_status: certified
+  winners:
+  - person_id: ocd-person/021be8d6-ac27-54cc-841b-064b8af9f663
+    name: 'Harry Williams'
+    party: Nonpartisan
+    votes: 12
+- id: sc/2020-11-03/hilton-head-island-council-ward-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hilton-head-island/government
+  office_id: hilton-head-island/council-member-ward-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/61a85cb8-3dec-5544-a57f-098382e828f0
+  - ocd-person/01650aba-1e02-5b7d-b017-8e1212c019ea
+  result_status: certified
+  winners:
+  - person_id: ocd-person/61a85cb8-3dec-5544-a57f-098382e828f0
+    name: 'Alexander Brown, Jr'
+    party: Nonpartisan
+    votes: 1465
+- id: sc/2020-11-03/hilton-head-island-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hilton-head-island/government
+  office_id: hilton-head-island/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8355c96b-9b9f-55e8-8db1-dca67edb6d3a
+  - ocd-person/acf424ca-665c-5882-87ce-f97176edc48b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8355c96b-9b9f-55e8-8db1-dca67edb6d3a
+    name: 'David Ames'
+    party: Nonpartisan
+    votes: 2301
+- id: sc/2020-11-03/hilton-head-island-council-ward-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hilton-head-island/government
+  office_id: hilton-head-island/council-member-ward-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0c7b9fa4-00eb-56ac-b768-9600dc3e151b
+  - ocd-person/b908dd87-feae-5b98-9a9b-2569f9ba3e6b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0c7b9fa4-00eb-56ac-b768-9600dc3e151b
+    name: 'Glenn Stanford'
+    party: Nonpartisan
+    votes: 1943
+- id: sc/2020-11-03/lake-council-district-12
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lake/government
+  office_id: lake/council-member-district-12
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9793cfeb-8411-59d2-8d02-1456d1d8583e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9793cfeb-8411-59d2-8d02-1456d1d8583e
+    name: 'Sondra Muffie Fleming Crosby'
+    party: Nonpartisan
+    votes: 307
+- id: sc/2020-11-03/lake-council-district-14
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lake/government
+  office_id: lake/council-member-district-14
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e20f9181-154e-57c9-9469-c86cfe99e876
+  - ocd-person/57a6286f-3ae6-5bfd-a449-ec0211bbdc44
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e20f9181-154e-57c9-9469-c86cfe99e876
+    name: 'Yamekia Robinson'
+    party: Nonpartisan
+    votes: 266
+- id: sc/2020-11-03/lake-council-district-15
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lake/government
+  office_id: lake/council-member-district-15
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dfaab1be-d836-5bc1-807d-e82d13e2e30e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dfaab1be-d836-5bc1-807d-e82d13e2e30e
+    name: 'William T Askins'
+    party: Nonpartisan
+    votes: 289
+- id: sc/2020-11-03/lancaster-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lancaster/government
+  office_id: lancaster/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a183e73f-4312-575f-aaf5-2824003c149d
+  - ocd-person/836352c8-609f-551c-8dd7-5f3f6fb6e927
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a183e73f-4312-575f-aaf5-2824003c149d
+    name: 'Jackie H Harris'
+    party: Nonpartisan
+    votes: 249
+- id: sc/2020-11-03/lancaster-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lancaster/government
+  office_id: lancaster/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9feaf1cd-64e4-582e-afba-11024918ce1c
+  - ocd-person/2a95f7d7-3a4b-5aaa-a0c5-b67576190568
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9feaf1cd-64e4-582e-afba-11024918ce1c
+    name: 'Octavia Mungo Jones'
+    party: Nonpartisan
+    votes: 220
+- id: sc/2020-11-03/lancaster-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lancaster/government
+  office_id: lancaster/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3f7260fd-f149-5683-8160-a5101c0ba5ab
+  - ocd-person/a4d3e4e7-dfa6-5bd5-bde3-a8954bd6a4d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3f7260fd-f149-5683-8160-a5101c0ba5ab
+    name: 'Ronnie Sowell'
+    party: Nonpartisan
+    votes: 448
+- id: sc/2020-11-03/little-mountain-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:little-mountain/government
+  office_id: little-mountain/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/18b2fabb-3229-5783-a1dd-92cbe8a1d3d7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/18b2fabb-3229-5783-a1dd-92cbe8a1d3d7
+    name: 'Jana W Jayroe'
+    party: Nonpartisan
+    votes: 121
+- id: sc/2020-11-03/mullins-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d711a2f5-3e85-52f5-bcec-385704771bdf
+  - ocd-person/6b7458cf-1eed-5fa6-90e5-976fa41e72ca
+  - ocd-person/3f8ed3df-7012-52a3-b076-14986d99fab2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d711a2f5-3e85-52f5-bcec-385704771bdf
+    name: 'Michael Cullipher'
+    party: Nonpartisan
+    votes: 142
+- id: sc/2020-11-03/mullins-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b85e9e3d-14b8-5aae-a0d3-6df5b8f04d87
+  - ocd-person/73c113ef-2348-5d37-a41b-887e1ad73ec2
+  - ocd-person/2468a159-51f5-5e66-a0f3-e9148d2d6d0a
+  - ocd-person/f467e18b-e7db-5932-9493-a589c5a1d8d3
+  - ocd-person/5eae8059-1bf1-583a-8caf-7a018123e051
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b85e9e3d-14b8-5aae-a0d3-6df5b8f04d87
+    name: 'Andre Teco Campbell'
+    party: Nonpartisan
+    votes: 100
+- id: sc/2020-11-03/mullins-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1f48f1c0-c25a-5e65-a3d2-ec1146b7acb9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1f48f1c0-c25a-5e65-a3d2-ec1146b7acb9
+    name: 'Terry D Davis'
+    party: Nonpartisan
+    votes: 233
+- id: sc/2020-11-03/mullins-council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/council-member-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d450bec2-640d-54af-8d51-0f47ae76b73a
+  - ocd-person/f4a6f2a4-9746-548e-a4c3-2c02b4f5ff3e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d450bec2-640d-54af-8d51-0f47ae76b73a
+    name: 'M Edward Kitchen'
+    party: Nonpartisan
+    votes: 218
+- id: sc/2020-11-03/mullins-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c9ca334f-9fac-5df9-9c01-71acbce8a6ac
+  - ocd-person/552dc0c6-1c58-51b5-bfd2-9617eee4b68f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c9ca334f-9fac-5df9-9c01-71acbce8a6ac
+    name: 'Robert L Woodbury'
+    party: Nonpartisan
+    votes: 1174
+- id: sc/2020-11-03/pinewood-council-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pinewood/government
+  office_id: pinewood/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/4d718d1a-f1b5-5c69-9ff5-a2fba65e75a6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4d718d1a-f1b5-5c69-9ff5-a2fba65e75a6
+    name: 'Mary Meadows'
+    party: Nonpartisan
+    votes: 132
+- id: sc/2020-11-03/pinewood-council-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pinewood/government
+  office_id: pinewood/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/b2a53ccd-a5d3-537b-a8b8-4c76d47a7811
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b2a53ccd-a5d3-537b-a8b8-4c76d47a7811
+    name: 'Betty Jones'
+    party: Nonpartisan
+    votes: 149
+- id: sc/2020-11-03/saluda-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ed4c5a9d-8044-5df2-9e3f-93c90754bebb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ed4c5a9d-8044-5df2-9e3f-93c90754bebb
+    name: 'Obie Combs'
+    party: Nonpartisan
+    votes: 181
+- id: sc/2020-11-03/saluda-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b3d0abe7-0166-505d-918d-e70ada7ca8b5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b3d0abe7-0166-505d-918d-e70ada7ca8b5
+    name: 'John Mark Griffith'
+    party: Nonpartisan
+    votes: 206
+- id: sc/2020-11-03/st-stephen-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-stephen/government
+  office_id: st-stephen/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/4727ff60-a8bc-588d-a538-84b4522ec4a6
+  - ocd-person/224e9046-de3c-5bbc-8cc8-976a395a1d20
+  - ocd-person/fecec86e-2757-54cb-a26d-c718d02b9f4e
+  - ocd-person/c65d5bb8-9d69-541c-b779-e2886174e77f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4727ff60-a8bc-588d-a538-84b4522ec4a6
+    name: 'Byron N McKelvey'
+    party: Nonpartisan
+    votes: 293
+  - person_id: ocd-person/224e9046-de3c-5bbc-8cc8-976a395a1d20
+    name: 'Louis Brown'
+    party: Nonpartisan
+    votes: 277
+  - person_id: ocd-person/fecec86e-2757-54cb-a26d-c718d02b9f4e
+    name: 'Winston D Williams'
+    party: Nonpartisan
+    votes: 250
+- id: sc/2020-11-03/sumter-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dc307fb6-fb17-5e50-a0a9-986c885c0e2f
+  - ocd-person/7f1176e6-20e9-5289-9d36-e1c41118db10
+  - ocd-person/0a9d733f-a53f-5958-ae8f-051cb7a929c6
+  - ocd-person/a0616b0f-c861-5e89-b6c5-9be8f828c756
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dc307fb6-fb17-5e50-a0a9-986c885c0e2f
+    name: 'James B Blassingame'
+    party: Nonpartisan
+    votes: 1158
+- id: sc/2020-11-03/sumter-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c2003c65-1504-5cfc-8cce-11c53f6752f5
+  - ocd-person/7c942092-5c38-5716-9068-9de38a60fbe6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c2003c65-1504-5cfc-8cce-11c53f6752f5
+    name: 'Steven H Corley'
+    party: Nonpartisan
+    votes: 1381
+- id: sc/2020-11-03/sumter-council-ward-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7ded70d9-d427-5d6a-8f28-649ac56e0462
+  - ocd-person/655ba510-418e-5361-b806-f84794ec8018
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7ded70d9-d427-5d6a-8f28-649ac56e0462
+    name: 'Gifford M Shaw'
+    party: Nonpartisan
+    votes: 1855
+- id: sc/2020-11-03/sumter-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/22acc307-2ba3-5b5e-b78f-090b1336f7eb
+  - ocd-person/e50bbd71-0d20-5443-9b0b-3d80c64c1890
+  - ocd-person/3f72fe5b-744a-5b71-b9be-2dabda89ee88
+  - ocd-person/86590cb2-d83a-5c68-b5c8-15a139c0e168
+  - ocd-person/6162cd6a-22c8-59fd-9ee0-bbec5506b40c
+  - ocd-person/505e1286-375c-5ffd-a302-33917123cdf3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/22acc307-2ba3-5b5e-b78f-090b1336f7eb
+    name: 'David P Merchant'
+    party: Nonpartisan
+    votes: 7050
+- id: sc/2020-11-03/tatum-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:tatum/government
+  office_id: tatum/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/7b0962ac-be99-54d0-85c3-ec9c14c5d3ad
+  - ocd-person/671c87c5-71a4-5381-907e-3151f6092c6d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7b0962ac-be99-54d0-85c3-ec9c14c5d3ad
+    name: 'Wayne Usher'
+    party: Nonpartisan
+    votes: 35
+  - person_id: ocd-person/671c87c5-71a4-5381-907e-3151f6092c6d
+    name: 'Rebecca Hubbard'
+    party: Nonpartisan
+    votes: 29
+- id: sc/2020-11-03/tatum-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:tatum/government
+  office_id: tatum/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e86bd39f-1661-591b-9934-163f1edab4a1
+  - ocd-person/d16142bf-8e6b-596b-9620-44e43b50d204
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e86bd39f-1661-591b-9934-163f1edab4a1
+    name: 'Steven Nolan'
+    party: Nonpartisan
+    votes: 32
+- id: sc/2020-11-03/union-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/198d8c1c-6368-5745-8658-0121ad239ae3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/198d8c1c-6368-5745-8658-0121ad239ae3
+    name: 'Vicki C Morgan'
+    party: Nonpartisan
+    votes: 471
+- id: sc/2020-11-03/union-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2bf4d791-03be-5bd8-b02b-ae33d455b989
+  - ocd-person/6b3eaf95-4a27-53d6-9cc5-3e0d404a9f25
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2bf4d791-03be-5bd8-b02b-ae33d455b989
+    name: 'Ricky Todd Harris'
+    party: Nonpartisan
+    votes: 333
+- id: sc/2020-11-03/union-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/124b4844-43b1-5935-8bf2-b8590c5bd475
+  - ocd-person/639863c4-b1d4-535b-b287-7bbb52b2a93c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/124b4844-43b1-5935-8bf2-b8590c5bd475
+    name: 'Greg Addison'
+    party: Nonpartisan
+    votes: 284
+- id: sc/2020-11-03/union-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fd3bb6a2-708a-5208-af6d-c26cef09580e
+  - ocd-person/9d905cb6-e044-5b91-b32c-ffa4c6629f29
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fd3bb6a2-708a-5208-af6d-c26cef09580e
+    name: 'Harold Thompson'
+    party: Nonpartisan
+    votes: 1946
+- id: sc/2020-11-03/whitmire-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:whitmire/government
+  office_id: whitmire/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ea0f7700-1adc-5763-9c78-f3be0521499c
+  - ocd-person/fdbe6c73-1d0b-5f1f-a43f-73bd7e2177a9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ea0f7700-1adc-5763-9c78-f3be0521499c
+    name: 'Billy Hollingsworth'
+    party: Nonpartisan
+    votes: 374
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
+

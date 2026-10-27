@@ -1,0 +1,34 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177).
+
+id: sc/2025-06-03/general
+name: South Carolina 2025-06-03 general election
+date: '2025-06-03'
+election_type: general
+status: certified
+contests:
+- id: sc/2025-06-03/lynchburg-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lynchburg/government
+  office_id: lynchburg/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/ddc38831-03fe-5543-afda-ee9c78602b3c
+  - ocd-person/a9c4c529-8572-5995-8a40-4906674e67ef
+  - ocd-person/e80bfa79-5499-5f7c-8634-c37763807632
+  - ocd-person/8dac7ad9-ec72-5608-8954-92b90c92bac6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ddc38831-03fe-5543-afda-ee9c78602b3c
+    name: 'Charles Nelson Jr'
+    party: Nonpartisan
+    votes: 49
+  - person_id: ocd-person/a9c4c529-8572-5995-8a40-4906674e67ef
+    name: 'Pamela Graham Robinson'
+    party: Nonpartisan
+    votes: 45
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
+

@@ -1,0 +1,76 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177).
+
+id: sc/2022-11-22/general
+name: South Carolina 2022-11-22 general election
+date: '2022-11-22'
+election_type: general
+status: certified
+contests:
+- id: sc/2022-11-22/abbeville-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/742bc92d-11d6-504c-a887-da27d02d771c
+  - ocd-person/2d96e875-0855-5e04-b167-cc1ccd6ffcb6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/742bc92d-11d6-504c-a887-da27d02d771c
+    name: 'Chris Crawford'
+    party: Nonpartisan
+    votes: 61
+- id: sc/2022-11-22/hilton-head-island-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hilton-head-island/government
+  office_id: hilton-head-island/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2bc8a74d-fdbb-58ec-b5af-5bbd4a41af73
+  - ocd-person/974d0803-6f47-5363-9851-53749d8fc55b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2bc8a74d-fdbb-58ec-b5af-5bbd4a41af73
+    name: 'Alan R Perry'
+    party: Nonpartisan
+    votes: 4850
+- id: sc/2022-11-22/saluda-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b232b94b-a8fa-50f3-aa78-f4b0ac869b8e
+  - ocd-person/099c14a7-a56e-5b1d-9b19-cd30e22fdb41
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b232b94b-a8fa-50f3-aa78-f4b0ac869b8e
+    name: 'Miliken Matthews'
+    party: Nonpartisan
+    votes: 244
+- id: sc/2022-11-22/sumter-council-ward-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/08913d76-7e25-5002-a87c-d8a162a729ed
+  - ocd-person/c1bbd85c-0ebb-5815-b4b2-5e28a1379f65
+  result_status: certified
+  winners:
+  - person_id: ocd-person/08913d76-7e25-5002-a87c-d8a162a729ed
+    name: 'Anthony Gibson'
+    party: Nonpartisan
+    votes: 120
+- id: sc/2022-11-22/troy-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:troy/government
+  office_id: troy/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3ff6bee7-6f45-5822-b17a-3fa38c3a96bf
+  - ocd-person/ca0c02ec-1106-5293-b898-938ea59ff236
+  result_status: official
+  winners: []
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
+

@@ -1,0 +1,142 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177):
+# this file currently carries the Town of Lodge contests (worked
+# example); other municipalities' contests on this date are appended
+# by the municipal fan-out.
+
+id: sc/2021-11-16/general
+name: South Carolina 2021-11-16 general election
+date: '2021-11-16'
+election_type: general
+status: certified
+contests:
+- id: sc/2021-11-16/lodge-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lodge/government
+  office_id: lodge/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ba0a6370-be5c-5bb2-8b13-187b292f53af
+  - ocd-person/ff79844c-a50b-581b-a34c-64672420f23e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ba0a6370-be5c-5bb2-8b13-187b292f53af
+    name: 'R Christopher Smith'
+    party: Nonpartisan
+    votes: 26
+- id: sc/2021-11-16/central-pacolet-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central-pacolet/government
+  office_id: central-pacolet/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/859f19a1-92b3-592b-96f4-58bd04b84876
+  result_status: certified
+  winners:
+  - person_id: ocd-person/859f19a1-92b3-592b-96f4-58bd04b84876
+    name: 'Bobby Wilkins'
+    party: Nonpartisan
+    votes: 4
+- id: sc/2021-11-16/columbia-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9e3278af-8615-5efb-81fe-6a17b6fd6c0b
+  - ocd-person/5ed4b021-f885-54fb-9853-11beffe39753
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9e3278af-8615-5efb-81fe-6a17b6fd6c0b
+    name: 'Aditi Bussells'
+    party: Nonpartisan
+    votes: 10640
+- id: sc/2021-11-16/columbia-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9a95d98a-e33c-56c9-9627-4d6701233cc0
+  - ocd-person/630c8efe-5b81-53cc-b466-5341f8dec1a4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9a95d98a-e33c-56c9-9627-4d6701233cc0
+    name: 'Daniel Rickenmann'
+    party: Nonpartisan
+    votes: 10606
+- id: sc/2021-11-16/hartsville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/defa43f4-3760-52c0-bf2e-3df00bce22ae
+  - ocd-person/480de98e-722b-544e-9531-a7d484987d19
+  result_status: certified
+  winners:
+  - person_id: ocd-person/defa43f4-3760-52c0-bf2e-3df00bce22ae
+    name: 'Casey G Hancock'
+    party: Nonpartisan
+    votes: 837
+- id: sc/2021-11-16/lincolnville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lincolnville/government
+  office_id: lincolnville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2b9057d6-d3af-513e-b437-9fbc1521d443
+  - ocd-person/0cb660e5-e0aa-5d0c-9891-8f259e5e907e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2b9057d6-d3af-513e-b437-9fbc1521d443
+    name: 'Enoch Dickerson III'
+    party: Nonpartisan
+    votes: 110
+- id: sc/2021-11-16/mauldin-council-seat-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mauldin/government
+  office_id: mauldin/council-member-seat-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f1496e46-90f9-53b9-ab87-6d6ebe102f09
+  - ocd-person/06de67c2-d047-5d66-91cd-4a9005b2928d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f1496e46-90f9-53b9-ab87-6d6ebe102f09
+    name: 'Frank B Allgood'
+    party: Nonpartisan
+    votes: 634
+- id: sc/2021-11-16/pine-ridge-council-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pine-ridge/government
+  office_id: pine-ridge/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/96f65071-2760-5fa1-95e3-f42d672f5e1b
+  - ocd-person/bbf56cc4-487c-5f15-98a5-91e84dc84fc9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/96f65071-2760-5fa1-95e3-f42d672f5e1b
+    name: 'Melissa Lewie'
+    party: Nonpartisan
+    votes: 75
+- id: sc/2021-11-16/society-hill-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/df80751d-4afe-5801-a51a-386ab0dc0dc4
+  - ocd-person/e25e2c43-b921-5a54-b077-bd530cf7b42b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/df80751d-4afe-5801-a51a-386ab0dc0dc4
+    name: 'Melissa Burch'
+    party: Nonpartisan
+    votes: 99
+- id: sc/2021-11-16/society-hill-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86f85f70-d789-57d5-9eaf-6d0326fe0eaf
+  - ocd-person/19ce9db0-653d-576a-96b8-810f646fd7bd
+  result_status: official
+  winners: []
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, Town Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'

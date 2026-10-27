@@ -1,0 +1,4912 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177):
+# this file currently carries the Town of Lodge contests (worked
+# example); other municipalities' contests on this date are appended
+# by the municipal fan-out.
+
+id: sc/2023-11-07/general
+name: South Carolina 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: sc/2023-11-07/lodge-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lodge/government
+  office_id: lodge/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/567401bc-ae0f-5dd9-abe1-9ed57e31626d
+  - ocd-person/b13c66ae-f806-5fe4-8790-8f86a76c84fe
+  - ocd-person/047945c6-61d3-57e4-9d90-255886d9f015
+  result_status: certified
+  winners:
+  - person_id: ocd-person/567401bc-ae0f-5dd9-abe1-9ed57e31626d
+    name: 'Larry Madison Carter Jr'
+    party: Nonpartisan
+    votes: 35
+  - person_id: ocd-person/b13c66ae-f806-5fe4-8790-8f86a76c84fe
+    name: 'Gerald W Connelly'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/aiken-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:aiken/government
+  office_id: aiken/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/34489f40-fb96-5aa1-9a92-63c59686199f
+  - ocd-person/bee0221a-8086-5278-b2c5-7ad2086d6c46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/34489f40-fb96-5aa1-9a92-63c59686199f
+    name: 'Gail Bush Diggs'
+    party: Nonpartisan
+    votes: 233
+- id: sc/2023-11-07/aiken-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:aiken/government
+  office_id: aiken/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/67293ee1-6062-5c12-9659-0b5ecfd172ae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/67293ee1-6062-5c12-9659-0b5ecfd172ae
+    name: 'Kay Biermann Brohl'
+    party: Nonpartisan
+    votes: 708
+- id: sc/2023-11-07/aiken-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:aiken/government
+  office_id: aiken/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/836fcc43-46ac-573f-a8f3-a9501380c7b9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/836fcc43-46ac-573f-a8f3-a9501380c7b9
+    name: 'Teddy Milner'
+    party: Nonpartisan
+    votes: 2748
+- id: sc/2023-11-07/andrews-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:andrews/government
+  office_id: andrews/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/24ae9e63-b796-512d-836f-a02118c0a3d0
+  - ocd-person/c364b7d2-f0e3-5d91-be60-bad03f94a7df
+  - ocd-person/2fd2e173-21c7-5115-834a-f12a63a9de78
+  - ocd-person/078f63b5-1974-5212-9847-f9ad0a487d9c
+  - ocd-person/2915f917-13a9-5b80-9021-a9e8d5eaa624
+  - ocd-person/35f93278-e2ba-5e6e-a40e-136a86303066
+  result_status: certified
+  winners:
+  - person_id: ocd-person/24ae9e63-b796-512d-836f-a02118c0a3d0
+    name: 'Amy Pinckney-Flagler'
+    party: Nonpartisan
+    votes: 416
+  - person_id: ocd-person/c364b7d2-f0e3-5d91-be60-bad03f94a7df
+    name: 'Jamie Altman'
+    party: Nonpartisan
+    votes: 413
+  - person_id: ocd-person/2fd2e173-21c7-5115-834a-f12a63a9de78
+    name: 'Robert S Stamper II'
+    party: Nonpartisan
+    votes: 331
+- id: sc/2023-11-07/andrews-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:andrews/government
+  office_id: andrews/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86282ec1-a1df-5d89-a86c-3104a3737fc9
+  - ocd-person/215dfc82-67fc-5e26-807e-9d6c38dbd64e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86282ec1-a1df-5d89-a86c-3104a3737fc9
+    name: 'Frank McClary'
+    party: Nonpartisan
+    votes: 434
+- id: sc/2023-11-07/arcadia-lakes-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:arcadia-lakes/government
+  office_id: arcadia-lakes/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/23b22f88-3a9b-5e4f-83e3-a82795362336
+  - ocd-person/eba174e2-7555-52ed-986a-45f5257aedf2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/23b22f88-3a9b-5e4f-83e3-a82795362336
+    name: 'Janet Holland'
+    party: Nonpartisan
+    votes: 64
+  - person_id: ocd-person/eba174e2-7555-52ed-986a-45f5257aedf2
+    name: 'Linda Z Jackson'
+    party: Nonpartisan
+    votes: 52
+- id: sc/2023-11-07/awendaw-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:awendaw/government
+  office_id: awendaw/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/9dc941d1-7f88-5aa0-9224-a0e0a9899f5d
+  - ocd-person/2af5104b-e4c7-5f1f-b44e-d8f12fc3b0a9
+  - ocd-person/e11c3ebd-f915-545e-a3d8-4f98bc8a4504
+  - ocd-person/aeb77433-207a-55e8-9160-f2000bd74d07
+  - ocd-person/caebd0c2-abea-5bef-a351-a5d466f3619e
+  - ocd-person/961a1ad8-dc47-574b-865f-9f3c981489f5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9dc941d1-7f88-5aa0-9224-a0e0a9899f5d
+    name: 'Wendy Helms'
+    party: Nonpartisan
+    votes: 361
+  - person_id: ocd-person/2af5104b-e4c7-5f1f-b44e-d8f12fc3b0a9
+    name: 'Paul Brown'
+    party: Nonpartisan
+    votes: 358
+  - person_id: ocd-person/e11c3ebd-f915-545e-a3d8-4f98bc8a4504
+    name: 'Kent Prause'
+    party: Nonpartisan
+    votes: 351
+- id: sc/2023-11-07/barnwell-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3b1c83b1-e2c9-568d-8390-3d3eb7f784ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3b1c83b1-e2c9-568d-8390-3d3eb7f784ed
+    name: 'Peggy Kinlaw'
+    party: Nonpartisan
+    votes: 163
+- id: sc/2023-11-07/barnwell-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9ec15c85-2f85-531b-b4c2-b837d8f3bb0d
+  - ocd-person/7b2c26f1-9ad3-5def-ab8f-2c1a96b575f0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9ec15c85-2f85-531b-b4c2-b837d8f3bb0d
+    name: 'Wanda L Highsmith'
+    party: Nonpartisan
+    votes: 90
+- id: sc/2023-11-07/barnwell-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/55adb0ff-e5d3-56bd-be86-58a4c3f7eccd
+  - ocd-person/6971e04c-d86e-5cf4-a5dd-7aa6c9e0c31a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/55adb0ff-e5d3-56bd-be86-58a4c3f7eccd
+    name: 'Jana Black Myers'
+    party: Nonpartisan
+    votes: 88
+- id: sc/2023-11-07/barnwell-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9fdc221a-51dc-5847-9251-6b92a12c02ce
+  - ocd-person/973020cf-cf4a-52fa-9a47-6fe0be1ccf4b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9fdc221a-51dc-5847-9251-6b92a12c02ce
+    name: 'Ron Still'
+    party: Nonpartisan
+    votes: 608
+- id: sc/2023-11-07/batesburg-leesville-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:batesburg-leesville/government
+  office_id: batesburg-leesville/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bf511610-882b-58aa-9eb0-6c4de20e26f0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bf511610-882b-58aa-9eb0-6c4de20e26f0
+    name: 'David W Bouknight Jr'
+    party: Nonpartisan
+    votes: 75
+- id: sc/2023-11-07/batesburg-leesville-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:batesburg-leesville/government
+  office_id: batesburg-leesville/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b3c8d6d6-5983-51e8-a3f6-d37de5beace6
+  - ocd-person/29a69709-9222-5a9e-936d-448d37479607
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b3c8d6d6-5983-51e8-a3f6-d37de5beace6
+    name: 'Betty Barnes Hartley'
+    party: Nonpartisan
+    votes: 54
+- id: sc/2023-11-07/batesburg-leesville-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:batesburg-leesville/government
+  office_id: batesburg-leesville/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ce0698ff-cf19-5c34-b985-124d4f5032ea
+  - ocd-person/94baaa18-776f-583a-ad1b-e1a253b86b0f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ce0698ff-cf19-5c34-b985-124d4f5032ea
+    name: 'Paul Wise'
+    party: Nonpartisan
+    votes: 60
+- id: sc/2023-11-07/batesburg-leesville-council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:batesburg-leesville/government
+  office_id: batesburg-leesville/council-member-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8563e68f-04c0-5e8d-9439-ed8b238fe32a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8563e68f-04c0-5e8d-9439-ed8b238fe32a
+    name: 'Bob Hall'
+    party: Nonpartisan
+    votes: 40
+- id: sc/2023-11-07/belton-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:belton/government
+  office_id: belton/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d86559d8-9df8-5eba-86c6-b7c204161798
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d86559d8-9df8-5eba-86c6-b7c204161798
+    name: 'Tony Saville'
+    party: Nonpartisan
+    votes: 215
+- id: sc/2023-11-07/belton-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:belton/government
+  office_id: belton/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/519a8e7d-df68-5c71-bafb-98c96f612c1a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/519a8e7d-df68-5c71-bafb-98c96f612c1a
+    name: 'Josh Stephenson'
+    party: Nonpartisan
+    votes: 220
+- id: sc/2023-11-07/belton-council-ward-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:belton/government
+  office_id: belton/council-member-ward-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b5935775-0afb-5c9f-a9da-bce27a6ee1db
+  - ocd-person/b9b1d567-e723-5ffc-ace2-f732cd2c2aea
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b5935775-0afb-5c9f-a9da-bce27a6ee1db
+    name: 'John R Campbell Jr'
+    party: Nonpartisan
+    votes: 194
+- id: sc/2023-11-07/belton-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:belton/government
+  office_id: belton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e4ca1fed-9280-5015-941f-393be8f80193
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e4ca1fed-9280-5015-941f-393be8f80193
+    name: 'Eleanor P Dorn'
+    party: Nonpartisan
+    votes: 217
+- id: sc/2023-11-07/bennettsville-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bennettsville/government
+  office_id: bennettsville/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0d7fd0f7-e1fd-589c-81c0-346719be7dc9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0d7fd0f7-e1fd-589c-81c0-346719be7dc9
+    name: 'Tyrone R Davis'
+    party: Nonpartisan
+    votes: 160
+- id: sc/2023-11-07/bennettsville-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bennettsville/government
+  office_id: bennettsville/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d76ee692-6b9d-5327-8527-79afc3450959
+  - ocd-person/1c647753-a6ba-5065-950a-82c53b0843bc
+  - ocd-person/0c3e45b8-9d08-5469-b3c8-9605ae07af4f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d76ee692-6b9d-5327-8527-79afc3450959
+    name: 'Bill Jennings'
+    party: Nonpartisan
+    votes: 112
+- id: sc/2023-11-07/bennettsville-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bennettsville/government
+  office_id: bennettsville/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4673b882-8ba4-5c45-be94-2af0588feb53
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4673b882-8ba4-5c45-be94-2af0588feb53
+    name: 'Gregory Scott Sr'
+    party: Nonpartisan
+    votes: 96
+- id: sc/2023-11-07/bennettsville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bennettsville/government
+  office_id: bennettsville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4f616efd-aa9f-588e-948f-bc2a4fdb70f0
+  - ocd-person/cf583669-fc0b-5307-b9be-263ea625510a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4f616efd-aa9f-588e-948f-bc2a4fdb70f0
+    name: 'Leith Fowler'
+    party: Nonpartisan
+    votes: 851
+- id: sc/2023-11-07/bethune-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bethune/government
+  office_id: bethune/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/5db5dc3e-ec6e-5703-b4e5-6a1e7d001b37
+  - ocd-person/6bd71faf-58e3-5c3c-8674-09731cd6b583
+  - ocd-person/3aa25c30-bf7b-5b5d-9527-866f9df4e06e
+  - ocd-person/d52a02ec-c193-527c-837d-1374c5af6ecf
+  - ocd-person/739ff2d0-51ca-5e7b-8f98-0d18aaf7ea18
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5db5dc3e-ec6e-5703-b4e5-6a1e7d001b37
+    name: 'John Heflin'
+    party: Nonpartisan
+    votes: 72
+  - person_id: ocd-person/6bd71faf-58e3-5c3c-8674-09731cd6b583
+    name: 'John Fulmer'
+    party: Nonpartisan
+    votes: 58
+- id: sc/2023-11-07/blackville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:blackville/government
+  office_id: blackville/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/bbcc5bee-e083-5f9d-84bd-73f270550dc5
+  - ocd-person/fe30e6a8-d2e2-5c9d-8a6f-16d487ec9100
+  - ocd-person/25135449-163e-5ec2-b097-405fee9ef415
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bbcc5bee-e083-5f9d-84bd-73f270550dc5
+    name: 'Frenchie D Smalls'
+    party: Nonpartisan
+    votes: 68
+  - person_id: ocd-person/fe30e6a8-d2e2-5c9d-8a6f-16d487ec9100
+    name: 'Kelvin A Isaac'
+    party: Nonpartisan
+    votes: 64
+  - person_id: ocd-person/25135449-163e-5ec2-b097-405fee9ef415
+    name: 'M Ann Pernell'
+    party: Nonpartisan
+    votes: 59
+- id: sc/2023-11-07/blackville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:blackville/government
+  office_id: blackville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/733f7a2f-127a-5a2d-a72c-605e566472df
+  result_status: certified
+  winners:
+  - person_id: ocd-person/733f7a2f-127a-5a2d-a72c-605e566472df
+    name: 'Ronnie Pernell'
+    party: Nonpartisan
+    votes: 78
+- id: sc/2023-11-07/bluffton-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bluffton/government
+  office_id: bluffton/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/7b3b7c32-739a-5c05-9813-d7b6fb60a156
+  - ocd-person/42263dee-e80a-52c5-afb7-037c3368b4c8
+  - ocd-person/f78df9e0-4983-5ad5-ba94-1e5adac30dc7
+  - ocd-person/48166fac-7128-5597-b12c-e39c49693dbc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7b3b7c32-739a-5c05-9813-d7b6fb60a156
+    name: 'Bridgette Frazier'
+    party: Nonpartisan
+    votes: 2088
+  - person_id: ocd-person/42263dee-e80a-52c5-afb7-037c3368b4c8
+    name: 'Dan Wood'
+    party: Nonpartisan
+    votes: 2087
+- id: sc/2023-11-07/bluffton-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bluffton/government
+  office_id: bluffton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c0e6dc7e-d93d-5af4-b05d-400383646ef7
+  - ocd-person/2ac8c9c5-55bb-506d-b610-d63ceab749a7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c0e6dc7e-d93d-5af4-b05d-400383646ef7
+    name: 'Larry Toomer'
+    party: Nonpartisan
+    votes: 3052
+- id: sc/2023-11-07/blythewood-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:blythewood/government
+  office_id: blythewood/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/d65223ce-293a-5a97-b845-48a85791cbb5
+  - ocd-person/f7afc899-9d38-5059-8625-8bb02f0002ff
+  - ocd-person/7ba58451-a99a-5142-ab58-6eccc34ecd59
+  - ocd-person/4f335ef6-d577-544d-a269-596341d3195a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d65223ce-293a-5a97-b845-48a85791cbb5
+    name: 'Andrea Fripp'
+    party: Nonpartisan
+    votes: 550
+  - person_id: ocd-person/f7afc899-9d38-5059-8625-8bb02f0002ff
+    name: 'Donald B Brock Jr'
+    party: Nonpartisan
+    votes: 318
+- id: sc/2023-11-07/blythewood-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:blythewood/government
+  office_id: blythewood/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ebf21ae4-16cc-554c-92f2-34cb41e3f09f
+  - ocd-person/55d3ec3b-bcec-53cc-be9a-c6f6c3e7c6c8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ebf21ae4-16cc-554c-92f2-34cb41e3f09f
+    name: 'Sloan Jarvis Griffin III'
+    party: Nonpartisan
+    votes: 566
+- id: sc/2023-11-07/bowman-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bowman/government
+  office_id: bowman/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/ef3c49c2-4643-5584-ac19-7a412176b2db
+  - ocd-person/e16bf2db-9363-5459-a350-bc7335668035
+  - ocd-person/861dc8ff-3192-5887-b2f7-2f350b425bea
+  - ocd-person/e39e7d7b-f113-5ec8-8185-6defe576f4c1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ef3c49c2-4643-5584-ac19-7a412176b2db
+    name: 'Deleasera B Roger'
+    party: Nonpartisan
+    votes: 127
+  - person_id: ocd-person/e16bf2db-9363-5459-a350-bc7335668035
+    name: 'Ada Smith'
+    party: Nonpartisan
+    votes: 125
+- id: sc/2023-11-07/bowman-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bowman/government
+  office_id: bowman/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d3ead51d-1f6d-5dc1-ad07-5c6a0ff2f577
+  - ocd-person/36f5ee3e-afaf-5774-bb1f-587d31210c9b
+  - ocd-person/e39e7d7b-f113-5ec8-8185-6defe576f4c1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d3ead51d-1f6d-5dc1-ad07-5c6a0ff2f577
+    name: 'Patsy Rhett'
+    party: Nonpartisan
+    votes: 148
+- id: sc/2023-11-07/branchville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:branchville/government
+  office_id: branchville/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/5e41f0c2-32fa-5cf6-bf58-526cb788a4d5
+  - ocd-person/fb25d67d-c32b-59fd-b350-0a08f98e0e4d
+  - ocd-person/d0341629-1e2c-52af-aad5-e7f83085270f
+  - ocd-person/14143725-00d5-5768-a81a-fc745e58ab27
+  - ocd-person/37f3620c-e1c6-5399-8e10-a4bbce5d8f46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5e41f0c2-32fa-5cf6-bf58-526cb788a4d5
+    name: 'Gregory Oliver'
+    party: Nonpartisan
+    votes: 120
+  - person_id: ocd-person/fb25d67d-c32b-59fd-b350-0a08f98e0e4d
+    name: 'Clayton Baker'
+    party: Nonpartisan
+    votes: 66
+  - person_id: ocd-person/d0341629-1e2c-52af-aad5-e7f83085270f
+    name: 'Paulus Pauley Jumper'
+    party: Nonpartisan
+    votes: 59
+- id: sc/2023-11-07/branchville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:branchville/government
+  office_id: branchville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f97bbc24-3ea6-58a7-a1c6-3c15f35c702f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f97bbc24-3ea6-58a7-a1c6-3c15f35c702f
+    name: 'Frank Dickson'
+    party: Nonpartisan
+    votes: 107
+- id: sc/2023-11-07/burnettown-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:burnettown/government
+  office_id: burnettown/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/5b8da522-732b-5d1f-ac69-4230f95a3206
+  - ocd-person/46631562-19b6-5379-805d-360c7f33d242
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5b8da522-732b-5d1f-ac69-4230f95a3206
+    name: 'James McIntosh'
+    party: Nonpartisan
+    votes: 36
+  - person_id: ocd-person/46631562-19b6-5379-805d-360c7f33d242
+    name: 'Karen C Jones'
+    party: Nonpartisan
+    votes: 34
+- id: sc/2023-11-07/calhoun-falls-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:calhoun-falls/government
+  office_id: calhoun-falls/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/9c8574a3-16c7-5f5a-8122-5b7b3f2063e7
+  - ocd-person/032b4ca0-1000-5024-b10e-1c0bde2bbb18
+  - ocd-person/4506ea9e-0e00-5171-82da-362ea108fbed
+  - ocd-person/9c4b2594-bb6b-5367-8d4a-62f675b9d522
+  - ocd-person/1943e9dd-161f-588a-827e-bbe27ff96808
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9c8574a3-16c7-5f5a-8122-5b7b3f2063e7
+    name: 'R Viggo Lassen'
+    party: Nonpartisan
+    votes: 177
+  - person_id: ocd-person/032b4ca0-1000-5024-b10e-1c0bde2bbb18
+    name: 'LaSean Monique Tutt'
+    party: Nonpartisan
+    votes: 154
+- id: sc/2023-11-07/cameron-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cameron/government
+  office_id: cameron/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/5a332246-24fd-502e-94ac-bb931d002ede
+  - ocd-person/56cd61e8-9e8d-5383-8ffa-123a40f61729
+  - ocd-person/0c8af9da-1a87-54b0-b02c-2f15840b9bb4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5a332246-24fd-502e-94ac-bb931d002ede
+    name: 'Gladys Ele'' Gardner-Simmons'
+    party: Nonpartisan
+    votes: 67
+  - person_id: ocd-person/56cd61e8-9e8d-5383-8ffa-123a40f61729
+    name: 'Minnie S Haigler'
+    party: Nonpartisan
+    votes: 65
+- id: sc/2023-11-07/cameron-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cameron/government
+  office_id: cameron/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/51ef084f-046f-5f1b-b6d9-e748b9550245
+  result_status: certified
+  winners:
+  - person_id: ocd-person/51ef084f-046f-5f1b-b6d9-e748b9550245
+    name: 'David W Summers Jr'
+    party: Nonpartisan
+    votes: 75
+- id: sc/2023-11-07/campobello-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:campobello/government
+  office_id: campobello/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/8e94a021-0189-59b2-96e7-82028d0a7d6c
+  - ocd-person/90a7f227-6bc4-5368-96d5-db92b023f2b5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8e94a021-0189-59b2-96e7-82028d0a7d6c
+    name: 'Alician C Sprouse'
+    party: Nonpartisan
+    votes: 57
+  - person_id: ocd-person/90a7f227-6bc4-5368-96d5-db92b023f2b5
+    name: 'Joe McDowell'
+    party: Nonpartisan
+    votes: 50
+- id: sc/2023-11-07/cayce-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cayce/government
+  office_id: cayce/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/009a582d-82c6-53db-8160-391853c9a04d
+  - ocd-person/340f60d6-64fb-5358-9353-2eb977d9dce2
+  - ocd-person/540ac611-dcf3-52e3-912d-5a3590c5c117
+  result_status: certified
+  winners:
+  - person_id: ocd-person/009a582d-82c6-53db-8160-391853c9a04d
+    name: 'Byron Thomas'
+    party: Nonpartisan
+    votes: 115
+- id: sc/2023-11-07/cayce-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cayce/government
+  office_id: cayce/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/507589d4-2a46-56d0-a629-77ad7da155da
+  - ocd-person/33598bda-75d2-5938-ad8d-0311139d5474
+  - ocd-person/d33ef487-6299-597c-a15c-89a04968d55c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/507589d4-2a46-56d0-a629-77ad7da155da
+    name: 'Phil Carter'
+    party: Nonpartisan
+    votes: 491
+- id: sc/2023-11-07/cayce-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cayce/government
+  office_id: cayce/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a08c4043-b2ce-5601-aa59-fbcb44d84224
+  - ocd-person/43ca1673-3a30-5f20-bc56-9d7a2deccac1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a08c4043-b2ce-5601-aa59-fbcb44d84224
+    name: 'Elise Partin'
+    party: Nonpartisan
+    votes: 1171
+- id: sc/2023-11-07/central-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/c3dc3868-c7e3-5455-917f-75bf819b0eba
+  - ocd-person/d5ff32bc-cd5d-53f3-81ea-f39b50d09a2a
+  - ocd-person/737400b5-8150-59b0-a9f3-5861d43fa4cd
+  - ocd-person/045de112-7762-58cd-a440-a26b2d6a5e8f
+  - ocd-person/db40a0f7-54ce-582a-abe0-d8d0b90c890b
+  - ocd-person/b9101f14-52f3-532d-b44b-21208e576654
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c3dc3868-c7e3-5455-917f-75bf819b0eba
+    name: 'Curtis L Peek'
+    party: Nonpartisan
+    votes: 182
+  - person_id: ocd-person/d5ff32bc-cd5d-53f3-81ea-f39b50d09a2a
+    name: 'Lynne O''Dell Chapman'
+    party: Nonpartisan
+    votes: 181
+  - person_id: ocd-person/737400b5-8150-59b0-a9f3-5861d43fa4cd
+    name: 'Joe Moss'
+    party: Nonpartisan
+    votes: 134
+- id: sc/2023-11-07/central-council-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4798a871-f4a8-57ce-a640-0c60382a6544
+  - ocd-person/de74c8b2-4bb8-5cc5-9da8-d3da35b3393d
+  - ocd-person/5391dc5d-2898-5c24-bc17-8ba3632101bb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4798a871-f4a8-57ce-a640-0c60382a6544
+    name: 'Robert Carl Griffin'
+    party: Nonpartisan
+    votes: 118
+- id: sc/2023-11-07/chapin-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:chapin/government
+  office_id: chapin/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/c9b69aff-d851-5249-b057-c78d2f39a838
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c9b69aff-d851-5249-b057-c78d2f39a838
+    name: 'Vicky Shealy'
+    party: Nonpartisan
+    votes: 44
+- id: sc/2023-11-07/charleston-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e28697aa-4a1c-5346-ab5b-93fcd8585542
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e28697aa-4a1c-5346-ab5b-93fcd8585542
+    name: 'Boyd Gregg'
+    party: Nonpartisan
+    votes: 1703
+- id: sc/2023-11-07/charleston-council-district-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-11
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/17b154af-3fca-5289-9608-79a39606deed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/17b154af-3fca-5289-9608-79a39606deed
+    name: 'Ross A Appel'
+    party: Nonpartisan
+    votes: 2916
+- id: sc/2023-11-07/charleston-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/99719347-d26f-5bb0-9db5-2f6e6d970fbc
+  - ocd-person/b62e9ebc-e8f0-5cce-84a7-d5eb7478103c
+  - ocd-person/ff77f99c-3ad2-5e9b-998b-f0f06d03fee8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/99719347-d26f-5bb0-9db5-2f6e6d970fbc
+    name: 'Jim McBride'
+    party: Nonpartisan
+    votes: 1486
+- id: sc/2023-11-07/charleston-council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d500abf3-d68c-5ff4-adc8-690a92d9f871
+  - ocd-person/92a8ec33-1c81-5a67-91b7-66e8ee1e6230
+  - ocd-person/5a3bd35f-8988-5ba3-b781-2f8776c9607e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d500abf3-d68c-5ff4-adc8-690a92d9f871
+    name: 'Karl L Brady Jr'
+    party: Nonpartisan
+    votes: 1047
+- id: sc/2023-11-07/charleston-council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c2bab2cd-bea7-540a-8c8e-78af84327a8c
+  - ocd-person/ad161382-ee6e-5102-9e44-5880dd95d09b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c2bab2cd-bea7-540a-8c8e-78af84327a8c
+    name: 'Keith Waring'
+    party: Nonpartisan
+    votes: 1155
+- id: sc/2023-11-07/charleston-council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ddd69c86-15e2-5be8-a544-ca5df143fd3d
+  - ocd-person/11ac34a6-c741-54c4-b3ab-b0e7b8717ce1
+  - ocd-person/8eac8419-0e0e-5a94-ab3e-9fa9b9dcf534
+  - ocd-person/8e9d10e2-9ac7-5661-bf67-2ebc8b233f24
+  - ocd-person/b0c4d778-1934-5168-a7cf-5e15220cb1af
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ddd69c86-15e2-5be8-a544-ca5df143fd3d
+    name: 'William Tinkler'
+    party: Nonpartisan
+    votes: 1305
+- id: sc/2023-11-07/charleston-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ccfc2113-c139-512f-b002-70a7806ae6a3
+  - ocd-person/84dee12f-8b49-50dc-a55a-53ce9374911c
+  - ocd-person/4cd2950f-8ad6-5f4d-87aa-cb0e51047158
+  - ocd-person/7f084337-6e24-57c9-9871-f75e8bc34263
+  - ocd-person/5bb27ec4-301b-5082-86d1-70ea78e8668f
+  - ocd-person/b9fcf3d2-5526-58cc-90b8-776e667703c5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ccfc2113-c139-512f-b002-70a7806ae6a3
+    name: 'William Cogswell'
+    party: Nonpartisan
+    votes: 11164
+- id: sc/2023-11-07/chesnee-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:chesnee/government
+  office_id: chesnee/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/07b36246-4303-5f25-8086-9ff05dff3569
+  - ocd-person/71895200-6301-5f98-b7f4-9d8d67089f3e
+  - ocd-person/09143397-8a5b-576a-b6d5-c49892fb91e1
+  - ocd-person/0a793fcb-31e9-5ee2-8ffe-6d835dc142f0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/07b36246-4303-5f25-8086-9ff05dff3569
+    name: 'Lauren Uldrick Dove'
+    party: Nonpartisan
+    votes: 74
+  - person_id: ocd-person/71895200-6301-5f98-b7f4-9d8d67089f3e
+    name: 'Vertie M Crawford'
+    party: Nonpartisan
+    votes: 40
+- id: sc/2023-11-07/clio-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:clio/government
+  office_id: clio/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/c995ce57-af32-5e74-b0f7-c89bd98a93b2
+  - ocd-person/5e420140-bfc7-51b7-913e-93a169c41fdd
+  - ocd-person/a41e54a0-c7bd-5ef7-9c95-b899028e72c8
+  - ocd-person/8f38f136-7b68-53f0-a12f-2d22aeaba9a6
+  - ocd-person/1388b5e2-0b16-5443-89ee-acc67f727e43
+  - ocd-person/129a02f4-cb9b-5c3e-a143-2b0e39beb8e0
+  - ocd-person/bdf5ccf9-145f-5db7-b447-74f6a47e66e4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c995ce57-af32-5e74-b0f7-c89bd98a93b2
+    name: 'Chris McArthur'
+    party: Nonpartisan
+    votes: 71
+  - person_id: ocd-person/5e420140-bfc7-51b7-913e-93a169c41fdd
+    name: 'Morgan Pate'
+    party: Nonpartisan
+    votes: 64
+- id: sc/2023-11-07/clover-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:clover/government
+  office_id: clover/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/b5ee2624-37d4-526c-a092-777d129c46a1
+  - ocd-person/be3d63f5-7efd-5548-9a50-219b1bfe3a64
+  - ocd-person/d843a157-d9b0-5965-8743-9098cf18cb5a
+  - ocd-person/09776378-f59b-5f9f-80ff-ba9c377219e7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b5ee2624-37d4-526c-a092-777d129c46a1
+    name: 'Brittany Farr'
+    party: Nonpartisan
+    votes: 574
+  - person_id: ocd-person/be3d63f5-7efd-5548-9a50-219b1bfe3a64
+    name: 'Mike Easler'
+    party: Nonpartisan
+    votes: 559
+  - person_id: ocd-person/d843a157-d9b0-5965-8743-9098cf18cb5a
+    name: 'Amy Nivens'
+    party: Nonpartisan
+    votes: 450
+- id: sc/2023-11-07/clover-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:clover/government
+  office_id: clover/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d100fe35-e4aa-5c2b-b725-72d6ec521d20
+  - ocd-person/b7e4b101-956d-570c-b64d-efea9f07ac0d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d100fe35-e4aa-5c2b-b725-72d6ec521d20
+    name: 'Bo Legg'
+    party: Nonpartisan
+    votes: 567
+- id: sc/2023-11-07/columbia-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5ed4b021-f885-54fb-9853-11beffe39753
+  - ocd-person/1647138c-fdb9-50c8-942b-0177337ce0c0
+  - ocd-person/fdf9961d-169d-53c9-9106-715d80d87251
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5ed4b021-f885-54fb-9853-11beffe39753
+    name: 'Tyler Bailey'
+    party: Nonpartisan
+    votes: 6190
+- id: sc/2023-11-07/columbia-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4fffcf64-a76f-5481-87b5-a8d54827e05a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4fffcf64-a76f-5481-87b5-a8d54827e05a
+    name: 'Ed McDowell'
+    party: Nonpartisan
+    votes: 1429
+- id: sc/2023-11-07/columbia-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/002d0f4e-2ce6-509a-8664-8388793773c8
+  - ocd-person/95a2b762-ae51-5b92-83b2-401e1d7473f7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/002d0f4e-2ce6-509a-8664-8388793773c8
+    name: 'Will Brennan'
+    party: Nonpartisan
+    votes: 3011
+- id: sc/2023-11-07/cope-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cope/government
+  office_id: cope/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/c855935d-10ff-59b6-98ac-83b025675ead
+  - ocd-person/cb632a8f-fb00-5c37-a61f-6321c18a02ce
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c855935d-10ff-59b6-98ac-83b025675ead
+    name: 'Billy Workman'
+    party: Nonpartisan
+    votes: 7
+  - person_id: ocd-person/cb632a8f-fb00-5c37-a61f-6321c18a02ce
+    name: 'Marlene Workman'
+    party: Nonpartisan
+    votes: 7
+- id: sc/2023-11-07/cope-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cope/government
+  office_id: cope/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a8f6dddf-35b3-5bf9-a23a-a3095f860ed6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a8f6dddf-35b3-5bf9-a23a-a3095f860ed6
+    name: 'Will Workman'
+    party: Nonpartisan
+    votes: 7
+- id: sc/2023-11-07/cottageville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/8ec195f7-f913-5bef-8816-414eac77229f
+  - ocd-person/139e726f-f110-53cf-9655-a90debe44c42
+  - ocd-person/a89f5ef4-9228-58c9-9778-e213d3bff623
+  - ocd-person/00564402-0a17-5fad-ae49-f7600abca647
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8ec195f7-f913-5bef-8816-414eac77229f
+    name: 'Tina Peterson'
+    party: Nonpartisan
+    votes: 44
+  - person_id: ocd-person/139e726f-f110-53cf-9655-a90debe44c42
+    name: 'Jeremy Cervenka'
+    party: Nonpartisan
+    votes: 40
+- id: sc/2023-11-07/cottageville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8bcfd52c-c921-531e-b01e-ae7d28394190
+  - ocd-person/a72121a3-24ec-57f0-9fd1-e94e78b186e7
+  - ocd-person/31a1220a-b4cf-5cc3-8f81-48e57c6c8856
+  - ocd-person/8db55ad6-e8e6-595f-a31c-1088f6dc500d
+  - ocd-person/1181ceee-d063-57b2-89e4-2688d7a1704f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8bcfd52c-c921-531e-b01e-ae7d28394190
+    name: 'Donald Dulin'
+    party: Nonpartisan
+    votes: 32
+- id: sc/2023-11-07/coward-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:coward/government
+  office_id: coward/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/e4292b02-3e72-55b7-b600-8f61ac5cf149
+  - ocd-person/56a04e7e-0b6d-5279-8ce8-14e146a781ec
+  - ocd-person/6c669793-ed72-5994-a98f-afb6cc54ed9b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e4292b02-3e72-55b7-b600-8f61ac5cf149
+    name: 'Terry Byrd'
+    party: Nonpartisan
+    votes: 61
+  - person_id: ocd-person/56a04e7e-0b6d-5279-8ce8-14e146a781ec
+    name: 'Mack Evans'
+    party: Nonpartisan
+    votes: 50
+- id: sc/2023-11-07/cowpens-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cowpens/government
+  office_id: cowpens/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/efeaed03-5de7-5628-b021-414d9415bbde
+  - ocd-person/db2e5371-dd05-52d4-8d50-e0f6cc4a07b4
+  - ocd-person/13ac5b09-043e-5601-8ab9-58400df993c6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/efeaed03-5de7-5628-b021-414d9415bbde
+    name: 'Lesa Bolin'
+    party: Nonpartisan
+    votes: 195
+  - person_id: ocd-person/db2e5371-dd05-52d4-8d50-e0f6cc4a07b4
+    name: 'Erin Wofford'
+    party: Nonpartisan
+    votes: 167
+- id: sc/2023-11-07/cowpens-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cowpens/government
+  office_id: cowpens/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1889a734-d195-555a-946a-9758473ae3b5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1889a734-d195-555a-946a-9758473ae3b5
+    name: 'Jarred Spencer'
+    party: Nonpartisan
+    votes: 255
+- id: sc/2023-11-07/darlington-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:darlington/government
+  office_id: darlington/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/5fc75e4e-9529-55f8-a897-5b44149b03a9
+  - ocd-person/3916c646-6ba7-5379-8118-d5fff6652914
+  - ocd-person/c6cfdde3-f959-5bde-a84a-67ea14ee0f89
+  - ocd-person/bcb583d3-0355-5938-95c9-5c34fdf3e16e
+  - ocd-person/4ec62174-0aa3-57ca-8458-474a5ce1e849
+  - ocd-person/d980eb47-544a-5e45-a70c-65edcddceb2b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5fc75e4e-9529-55f8-a897-5b44149b03a9
+    name: 'Bryant P Gardner'
+    party: Nonpartisan
+    votes: 792
+  - person_id: ocd-person/3916c646-6ba7-5379-8118-d5fff6652914
+    name: 'John M Milling'
+    party: Nonpartisan
+    votes: 740
+  - person_id: ocd-person/c6cfdde3-f959-5bde-a84a-67ea14ee0f89
+    name: 'Angela Nikki McRavin'
+    party: Nonpartisan
+    votes: 697
+- id: sc/2023-11-07/darlington-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:darlington/government
+  office_id: darlington/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c1f663fa-11b5-5dc3-921e-1ae22451e936
+  - ocd-person/14feded0-dc34-5a76-8058-d38727438bca
+  - ocd-person/83533aa3-645f-5731-a639-4475f1d48172
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c1f663fa-11b5-5dc3-921e-1ae22451e936
+    name: 'Curtis Boyd'
+    party: Nonpartisan
+    votes: 825
+- id: sc/2023-11-07/due-west-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:due-west/government
+  office_id: due-west/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/0ae24bf6-7693-5fb2-a0d1-4232b6e650bb
+  - ocd-person/93df0a4c-2b68-50b6-b270-53997f24c7a5
+  - ocd-person/a5120f50-52c3-512b-86d6-702d7475c5d1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0ae24bf6-7693-5fb2-a0d1-4232b6e650bb
+    name: 'Bob Mock'
+    party: Nonpartisan
+    votes: 72
+  - person_id: ocd-person/93df0a4c-2b68-50b6-b270-53997f24c7a5
+    name: 'Jay Lown'
+    party: Nonpartisan
+    votes: 72
+  - person_id: ocd-person/a5120f50-52c3-512b-86d6-702d7475c5d1
+    name: 'Beck Eleazer'
+    party: Nonpartisan
+    votes: 70
+- id: sc/2023-11-07/due-west-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:due-west/government
+  office_id: due-west/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/33bfb292-61eb-54f4-8976-5ef690151690
+  result_status: certified
+  winners:
+  - person_id: ocd-person/33bfb292-61eb-54f4-8976-5ef690151690
+    name: 'Gayle Beaudrot'
+    party: Nonpartisan
+    votes: 73
+- id: sc/2023-11-07/duncan-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:duncan/government
+  office_id: duncan/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/d275e6b0-e224-5789-81d3-dfffe3fd9311
+  - ocd-person/de8ca093-94fd-5ac3-969a-c77cb8de8157
+  - ocd-person/b046267c-fd0f-584d-9f8a-76b299b555fe
+  - ocd-person/aee7d8b1-519e-575a-bb07-50135594d8ee
+  - ocd-person/20e79f42-b397-5d4d-b5e5-452ed87f95c5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d275e6b0-e224-5789-81d3-dfffe3fd9311
+    name: 'Calvin Cowen'
+    party: Nonpartisan
+    votes: 88
+  - person_id: ocd-person/de8ca093-94fd-5ac3-969a-c77cb8de8157
+    name: 'Todd Fowler'
+    party: Nonpartisan
+    votes: 81
+- id: sc/2023-11-07/easley-council-ward-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/council-member-ward-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/da16d2c4-4de1-54fb-94a5-07b078dc8b29
+  - ocd-person/9890fb23-19c4-5b08-88e4-6cf5709a9128
+  result_status: certified
+  winners:
+  - person_id: ocd-person/da16d2c4-4de1-54fb-94a5-07b078dc8b29
+    name: 'Tom O''Shields'
+    party: Nonpartisan
+    votes: 370
+- id: sc/2023-11-07/easley-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ed60883b-b6c1-5d18-9ce2-a93c50fa28a8
+  - ocd-person/d7924d08-0e21-59fd-816a-75c69a80eb0d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ed60883b-b6c1-5d18-9ce2-a93c50fa28a8
+    name: 'Donna Rainey'
+    party: Nonpartisan
+    votes: 276
+- id: sc/2023-11-07/easley-council-ward-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/council-member-ward-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bc596627-e29c-5bfe-9d90-45910f8948fd
+  - ocd-person/88252c53-cd3b-5154-b644-ee16c46997ae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bc596627-e29c-5bfe-9d90-45910f8948fd
+    name: 'Justin Alexander'
+    party: Nonpartisan
+    votes: 231
+- id: sc/2023-11-07/easley-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a61186f3-3b93-58c7-a7a0-cfdeda5c6f01
+  - ocd-person/6a435fa9-bfd0-53b4-871b-c4ba2c873268
+  - ocd-person/2b19f124-0ddd-55b2-82a1-7d91da9c4cf9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a61186f3-3b93-58c7-a7a0-cfdeda5c6f01
+    name: 'Lisa Talbert'
+    party: Nonpartisan
+    votes: 1456
+- id: sc/2023-11-07/edisto-beach-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:edisto-beach/government
+  office_id: edisto-beach/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/ad75260d-e428-5088-bc53-c7fc89a73cec
+  - ocd-person/a7c17743-3705-56a6-8d36-01461bce0e45
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ad75260d-e428-5088-bc53-c7fc89a73cec
+    name: 'Joey Bagwell'
+    party: Nonpartisan
+    votes: 236
+  - person_id: ocd-person/a7c17743-3705-56a6-8d36-01461bce0e45
+    name: 'Jerome Kizer'
+    party: Nonpartisan
+    votes: 230
+- id: sc/2023-11-07/edisto-beach-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:edisto-beach/government
+  office_id: edisto-beach/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/05a171de-1b5d-5a50-a4e4-0214d9cbcc0d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/05a171de-1b5d-5a50-a4e4-0214d9cbcc0d
+    name: 'Crawford Moore'
+    party: Nonpartisan
+    votes: 247
+- id: sc/2023-11-07/ehrhardt-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ehrhardt/government
+  office_id: ehrhardt/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/bed1fdbc-be83-5250-b377-5116bf5cdb61
+  - ocd-person/93d14325-86a2-5f4a-a75e-5c0a44a250aa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bed1fdbc-be83-5250-b377-5116bf5cdb61
+    name: 'Harriet Porter'
+    party: Nonpartisan
+    votes: 30
+  - person_id: ocd-person/93d14325-86a2-5f4a-a75e-5c0a44a250aa
+    name: 'Milissa Dilling'
+    party: Nonpartisan
+    votes: 17
+- id: sc/2023-11-07/elgin-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elgin/government
+  office_id: elgin/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/4809ec1f-3173-53cf-a799-44950cec79ef
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4809ec1f-3173-53cf-a799-44950cec79ef
+    name: 'Brad Hanley'
+    party: Nonpartisan
+    votes: 73
+- id: sc/2023-11-07/elgin-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elgin/government
+  office_id: elgin/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a9beaf47-088f-5953-8392-1d0cda2daf40
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a9beaf47-088f-5953-8392-1d0cda2daf40
+    name: 'Melissa Brazell Emmons'
+    party: Nonpartisan
+    votes: 68
+- id: sc/2023-11-07/elko-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elko/government
+  office_id: elko/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/1f085b8c-2f32-5081-aa16-685c65ddf9fa
+  - ocd-person/f2b46def-2a8b-5c44-8ba9-bd9aacd95fca
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1f085b8c-2f32-5081-aa16-685c65ddf9fa
+    name: 'Steve Terry'
+    party: Nonpartisan
+    votes: 15
+  - person_id: ocd-person/f2b46def-2a8b-5c44-8ba9-bd9aacd95fca
+    name: 'Curtis Young'
+    party: Nonpartisan
+    votes: 14
+- id: sc/2023-11-07/elko-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elko/government
+  office_id: elko/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c44bff11-1d2b-5b9c-b9a6-e094042a0f1e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c44bff11-1d2b-5b9c-b9a6-e094042a0f1e
+    name: 'Toby Singletary'
+    party: Nonpartisan
+    votes: 16
+- id: sc/2023-11-07/elloree-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elloree/government
+  office_id: elloree/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ebe91d63-90e4-5c14-b84d-5311736f5f58
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ebe91d63-90e4-5c14-b84d-5311736f5f58
+    name: 'Lakeisha P Ellison'
+    party: Nonpartisan
+    votes: 9
+- id: sc/2023-11-07/elloree-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elloree/government
+  office_id: elloree/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6ea2741e-a539-5cf0-a1e1-3fe0ae671d58
+  - ocd-person/128e55d3-a978-5450-a8ea-600209bb05ef
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6ea2741e-a539-5cf0-a1e1-3fe0ae671d58
+    name: 'James Kelly Ulmer'
+    party: Nonpartisan
+    votes: 29
+- id: sc/2023-11-07/eutawville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:eutawville/government
+  office_id: eutawville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/88fc4d6b-8734-5c42-a5d2-057747066fbd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/88fc4d6b-8734-5c42-a5d2-057747066fbd
+    name: 'Harry Lee Brown'
+    party: Nonpartisan
+    votes: 28
+- id: sc/2023-11-07/fairfax-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fairfax/government
+  office_id: fairfax/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/8a7f8d4f-0593-57e2-b738-e6928ece3520
+  - ocd-person/704398e3-ee1f-555f-be1c-de726a127d35
+  - ocd-person/7add6b5a-a2c0-543c-bbd9-2e648c47a14a
+  - ocd-person/8178c0ae-9a25-5745-a8b7-082023283c8f
+  - ocd-person/1fc0daa4-a17b-5cfa-a4ce-7867aea1892e
+  - ocd-person/136ff814-057e-58e9-ad99-7f916dbb32ce
+  - ocd-person/4ebab062-c04d-5840-8759-3cc4d311e002
+  - ocd-person/e256ddbe-5e6c-572e-bf1f-908dd6549686
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8a7f8d4f-0593-57e2-b738-e6928ece3520
+    name: 'Carl M Love'
+    party: Nonpartisan
+    votes: 192
+  - person_id: ocd-person/704398e3-ee1f-555f-be1c-de726a127d35
+    name: 'Dorothy A Kennedy'
+    party: Nonpartisan
+    votes: 159
+  - person_id: ocd-person/7add6b5a-a2c0-543c-bbd9-2e648c47a14a
+    name: 'Tiffine R Forester'
+    party: Nonpartisan
+    votes: 155
+- id: sc/2023-11-07/fairfax-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fairfax/government
+  office_id: fairfax/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2e9fb398-8321-56c2-905b-99f2c3c19626
+  - ocd-person/de7bf8bf-212e-5e29-9a4c-21e91dc645c1
+  - ocd-person/88b57c74-71b8-5760-a005-2a31caaa4e4e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2e9fb398-8321-56c2-905b-99f2c3c19626
+    name: 'Butch Sauls'
+    party: Nonpartisan
+    votes: 190
+- id: sc/2023-11-07/folly-beach-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:folly-beach/government
+  office_id: folly-beach/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/dbc3c371-cc69-58a9-900d-f05a72b924ee
+  - ocd-person/fd96590c-c305-5afa-a885-ced078386e6f
+  - ocd-person/464e3878-fcf3-5c51-8826-ad3accc747d0
+  - ocd-person/a337711b-a6ab-52eb-8149-c9764cf5cb96
+  - ocd-person/53175f42-1ce7-5374-a641-cdaa97130370
+  - ocd-person/8371fd48-8605-5fbe-ab21-9661b1d49cfc
+  - ocd-person/5dd9f308-992f-52d6-b8bb-743fc3057dcf
+  - ocd-person/3f653909-c460-54d8-a4db-9ee3c5b2b2e9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dbc3c371-cc69-58a9-900d-f05a72b924ee
+    name: 'Katherine Houghton'
+    party: Nonpartisan
+    votes: 577
+  - person_id: ocd-person/fd96590c-c305-5afa-a885-ced078386e6f
+    name: 'Chris Bizzell'
+    party: Nonpartisan
+    votes: 554
+  - person_id: ocd-person/464e3878-fcf3-5c51-8826-ad3accc747d0
+    name: 'Billy Grooms'
+    party: Nonpartisan
+    votes: 433
+- id: sc/2023-11-07/fort-lawn-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-lawn/government
+  office_id: fort-lawn/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/deec2f64-5303-587d-a78b-eb10ca7f5274
+  - ocd-person/51471508-8a16-550f-b471-50df0d004bee
+  result_status: certified
+  winners:
+  - person_id: ocd-person/deec2f64-5303-587d-a78b-eb10ca7f5274
+    name: 'Lee Ann Gaston'
+    party: Nonpartisan
+    votes: 33
+  - person_id: ocd-person/51471508-8a16-550f-b471-50df0d004bee
+    name: 'Angel Waits'
+    party: Nonpartisan
+    votes: 30
+- id: sc/2023-11-07/fort-lawn-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-lawn/government
+  office_id: fort-lawn/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/20ca4f93-e3f5-535e-8080-92c663528698
+  result_status: certified
+  winners:
+  - person_id: ocd-person/20ca4f93-e3f5-535e-8080-92c663528698
+    name: 'Carlton Martin'
+    party: Nonpartisan
+    votes: 46
+- id: sc/2023-11-07/fort-mill-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-mill/government
+  office_id: fort-mill/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6ca005f4-3951-5701-a15c-2bc9f892660a
+  - ocd-person/4c63f4f1-b0bf-55f6-bc0c-9b0446570efb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6ca005f4-3951-5701-a15c-2bc9f892660a
+    name: 'Lisa E Cook'
+    party: Nonpartisan
+    votes: 1345
+- id: sc/2023-11-07/fort-mill-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-mill/government
+  office_id: fort-mill/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c8424352-6d7c-5ed4-a44e-2889e588ee6b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c8424352-6d7c-5ed4-a44e-2889e588ee6b
+    name: 'Ronnie Helms'
+    party: Nonpartisan
+    votes: 1780
+- id: sc/2023-11-07/fort-mill-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-mill/government
+  office_id: fort-mill/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a2e5f8b7-76ea-5101-93d2-70241c94ff70
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a2e5f8b7-76ea-5101-93d2-70241c94ff70
+    name: 'Chris Moody'
+    party: Nonpartisan
+    votes: 1884
+- id: sc/2023-11-07/fort-mill-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-mill/government
+  office_id: fort-mill/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/aa247553-102b-5bba-a089-cb914e4b7e30
+  - ocd-person/820e3364-423a-5296-9d68-a26d7df3c454
+  result_status: certified
+  winners:
+  - person_id: ocd-person/aa247553-102b-5bba-a089-cb914e4b7e30
+    name: 'Guynn H Savage'
+    party: Nonpartisan
+    votes: 1499
+- id: sc/2023-11-07/georgetown-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:georgetown/government
+  office_id: georgetown/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/dce51827-40c0-5489-bf24-71e30fe8efb3
+  - ocd-person/92c0d5c9-7bb3-5819-9b18-8dc8be1a012c
+  - ocd-person/537151bb-318a-5571-8e4c-dcbecdd3b8e5
+  - ocd-person/e8331538-66c3-539a-b099-56210ef627e7
+  - ocd-person/32c4b3ab-6a2f-5b05-9fe6-d10399bbfb8e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dce51827-40c0-5489-bf24-71e30fe8efb3
+    name: 'Erin Ethridge'
+    party: Nonpartisan
+    votes: 971
+  - person_id: ocd-person/92c0d5c9-7bb3-5819-9b18-8dc8be1a012c
+    name: 'Tamika Williams Obeng'
+    party: Nonpartisan
+    votes: 966
+  - person_id: ocd-person/537151bb-318a-5571-8e4c-dcbecdd3b8e5
+    name: 'Bruce Carl'
+    party: Nonpartisan
+    votes: 963
+- id: sc/2023-11-07/gilbert-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:gilbert/government
+  office_id: gilbert/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/5bf8f9ae-25ce-5d7b-9e11-fac39bfbdc8f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5bf8f9ae-25ce-5d7b-9e11-fac39bfbdc8f
+    name: 'Fred Taylor'
+    party: Nonpartisan
+    votes: 35
+- id: sc/2023-11-07/greenville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenville/government
+  office_id: greenville/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dec54044-7f80-59b5-9373-d9377cf4d99c
+  - ocd-person/72268d06-0264-5cd6-8aab-e0dc3ff8e2e0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dec54044-7f80-59b5-9373-d9377cf4d99c
+    name: 'Dorothy Dowe'
+    party: Nonpartisan
+    votes: 6498
+- id: sc/2023-11-07/greenville-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenville/government
+  office_id: greenville/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0a195727-c564-5a91-bbcc-e888a1bd0e98
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0a195727-c564-5a91-bbcc-e888a1bd0e98
+    name: 'John DeWorken'
+    party: Nonpartisan
+    votes: 2212
+- id: sc/2023-11-07/greenville-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenville/government
+  office_id: greenville/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c37ae365-5016-5845-b737-d713264e5ebf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c37ae365-5016-5845-b737-d713264e5ebf
+    name: 'Ken Gibson'
+    party: Nonpartisan
+    votes: 1150
+- id: sc/2023-11-07/greenville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenville/government
+  office_id: greenville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e25526bf-cd9c-507a-8ef2-78feb0bfe23e
+  - ocd-person/e7e2b005-bdcf-5f23-a044-fb21a584be46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e25526bf-cd9c-507a-8ef2-78feb0bfe23e
+    name: 'Knox White'
+    party: Nonpartisan
+    votes: 6530
+- id: sc/2023-11-07/harleyville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:harleyville/government
+  office_id: harleyville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/4f71e4d7-08fb-5ca0-b8d2-92456c19ae3d
+  - ocd-person/4f2dad26-c405-5fcf-b145-e50088f8898f
+  - ocd-person/86f66692-ccce-5371-8938-69c5e9fc48a1
+  - ocd-person/6757fc2d-4657-5154-808d-95f5865adfe4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4f71e4d7-08fb-5ca0-b8d2-92456c19ae3d
+    name: 'Haskell Parler'
+    party: Nonpartisan
+    votes: 113
+  - person_id: ocd-person/4f2dad26-c405-5fcf-b145-e50088f8898f
+    name: 'Shelly Mitchell'
+    party: Nonpartisan
+    votes: 107
+- id: sc/2023-11-07/harleyville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:harleyville/government
+  office_id: harleyville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b4b8c8e9-1388-5c70-8f8d-2588499a18f7
+  - ocd-person/6bba27c9-9f5b-5332-b87e-9427eca7192e
+  - ocd-person/28bffda7-6ce7-5c91-940b-47a643fbfee6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b4b8c8e9-1388-5c70-8f8d-2588499a18f7
+    name: 'Jody C Eargle'
+    party: Nonpartisan
+    votes: 80
+- id: sc/2023-11-07/hartsville-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8f68da26-327c-5e5d-a211-55f6e8d3d38d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8f68da26-327c-5e5d-a211-55f6e8d3d38d
+    name: 'Bryson Sparks Caldwell'
+    party: Nonpartisan
+    votes: 36
+- id: sc/2023-11-07/hartsville-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/62a60ea7-cf3c-54ad-b019-50862ec75ac0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/62a60ea7-cf3c-54ad-b019-50862ec75ac0
+    name: 'Brian Meadows'
+    party: Nonpartisan
+    votes: 198
+- id: sc/2023-11-07/hartsville-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ac91a536-807c-5993-9313-10eb608970df
+  - ocd-person/76bc4ce5-403a-5d0d-9860-fe580b52bcc3
+  - ocd-person/34b6ec07-eb91-56d4-81b5-c6b33e8a58a8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ac91a536-807c-5993-9313-10eb608970df
+    name: 'Colin Hungerpiller'
+    party: Nonpartisan
+    votes: 113
+- id: sc/2023-11-07/heath-springs-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:heath-springs/government
+  office_id: heath-springs/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/00c5381b-6f64-5ee0-9f80-a1c0ec41fb2d
+  - ocd-person/de0294db-f36a-56da-a786-9406cd6348fc
+  - ocd-person/37ae37ff-0c3a-595e-9024-de18fce32c74
+  result_status: certified
+  winners:
+  - person_id: ocd-person/00c5381b-6f64-5ee0-9f80-a1c0ec41fb2d
+    name: 'Iva L Drakeford'
+    party: Nonpartisan
+    votes: 75
+  - person_id: ocd-person/de0294db-f36a-56da-a786-9406cd6348fc
+    name: 'Vincent S Webb'
+    party: Nonpartisan
+    votes: 71
+- id: sc/2023-11-07/hickory-grove-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hickory-grove/government
+  office_id: hickory-grove/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/551e8dc6-6820-5f13-bcd2-052a507c7688
+  - ocd-person/ecc9647e-de5c-50b5-912b-12bd615eb256
+  - ocd-person/6d409e89-8b67-56e0-9a7a-e2f246cd0fd8
+  - ocd-person/2118b1b9-5882-55e4-84ed-d23e214ca3f9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/551e8dc6-6820-5f13-bcd2-052a507c7688
+    name: 'Kyle N Wyatt'
+    party: Nonpartisan
+    votes: 22
+  - person_id: ocd-person/ecc9647e-de5c-50b5-912b-12bd615eb256
+    name: 'Harry James Good'
+    party: Nonpartisan
+    votes: 19
+  - person_id: ocd-person/6d409e89-8b67-56e0-9a7a-e2f246cd0fd8
+    name: 'Ollie A Bankhead'
+    party: Nonpartisan
+    votes: 19
+  - person_id: ocd-person/2118b1b9-5882-55e4-84ed-d23e214ca3f9
+    name: 'Kevin Faulkner'
+    party: Nonpartisan
+    votes: 18
+- id: sc/2023-11-07/hickory-grove-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hickory-grove/government
+  office_id: hickory-grove/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8943c3e0-9864-5a5e-87f5-434e753b03df
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8943c3e0-9864-5a5e-87f5-434e753b03df
+    name: 'Larry A Earl'
+    party: Nonpartisan
+    votes: 19
+- id: sc/2023-11-07/hilda-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hilda/government
+  office_id: hilda/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/8ba2a52f-a7ab-5290-b320-fda8b7cc17b8
+  - ocd-person/141c9e6b-a043-5ac4-b525-c843a37ca27e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8ba2a52f-a7ab-5290-b320-fda8b7cc17b8
+    name: 'C Guy Neal'
+    party: Nonpartisan
+    votes: 43
+  - person_id: ocd-person/141c9e6b-a043-5ac4-b525-c843a37ca27e
+    name: 'Allison Still Beasley'
+    party: Nonpartisan
+    votes: 42
+- id: sc/2023-11-07/hilda-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hilda/government
+  office_id: hilda/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8836b8c0-6c77-500a-a189-1a72a10a56e1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8836b8c0-6c77-500a-a189-1a72a10a56e1
+    name: 'April N Hutto'
+    party: Nonpartisan
+    votes: 45
+- id: sc/2023-11-07/holly-hill-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:holly-hill/government
+  office_id: holly-hill/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/83b601f7-4276-5de0-a570-ec6917bb48ea
+  result_status: certified
+  winners:
+  - person_id: ocd-person/83b601f7-4276-5de0-a570-ec6917bb48ea
+    name: 'LeAnne Troutman'
+    party: Nonpartisan
+    votes: 63
+- id: sc/2023-11-07/holly-hill-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:holly-hill/government
+  office_id: holly-hill/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/36f63546-87d3-5ee7-945e-4b90f1c352e2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/36f63546-87d3-5ee7-945e-4b90f1c352e2
+    name: 'David Barber'
+    party: Nonpartisan
+    votes: 17
+- id: sc/2023-11-07/honea-path-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:honea-path/government
+  office_id: honea-path/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4e2e6f0e-9aff-5606-8ef7-15a9b3c7d91d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4e2e6f0e-9aff-5606-8ef7-15a9b3c7d91d
+    name: 'Sheila Caldwell'
+    party: Nonpartisan
+    votes: 407
+- id: sc/2023-11-07/honea-path-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:honea-path/government
+  office_id: honea-path/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1c145c56-dd44-553e-bd04-343d704c0229
+  - ocd-person/876a80af-c2e6-5aa8-b0a7-19771a234131
+  - ocd-person/fa08536a-4d87-5fb8-8a33-225d9e70d1dc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1c145c56-dd44-553e-bd04-343d704c0229
+    name: 'Marie Jenkins'
+    party: Nonpartisan
+    votes: 174
+- id: sc/2023-11-07/honea-path-council-ward-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:honea-path/government
+  office_id: honea-path/council-member-ward-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/da50050a-685b-5c4a-ae20-2a11a14055f8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/da50050a-685b-5c4a-ae20-2a11a14055f8
+    name: 'Jim Taylor'
+    party: Nonpartisan
+    votes: 408
+- id: sc/2023-11-07/honea-path-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:honea-path/government
+  office_id: honea-path/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c0feb53d-9a1d-54d7-b670-ef53aba7a646
+  - ocd-person/758241d0-deb0-57ec-9399-6a66db18cc53
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c0feb53d-9a1d-54d7-b670-ef53aba7a646
+    name: 'Christopher Burton'
+    party: Nonpartisan
+    votes: 263
+- id: sc/2023-11-07/inman-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:inman/government
+  office_id: inman/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/cb20ada0-febe-557e-a671-e4a5525eb491
+  - ocd-person/bf880c64-012c-5320-a7e7-ef7d5e838703
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cb20ada0-febe-557e-a671-e4a5525eb491
+    name: 'Heather Moore'
+    party: Nonpartisan
+    votes: 237
+  - person_id: ocd-person/bf880c64-012c-5320-a7e7-ef7d5e838703
+    name: 'Kevin Newman'
+    party: Nonpartisan
+    votes: 237
+- id: sc/2023-11-07/inman-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:inman/government
+  office_id: inman/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a4e56a49-c26a-5aa1-9973-8be602b4ee4e
+  - ocd-person/9c8d8f35-4cb5-5720-a830-aa250182e23a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a4e56a49-c26a-5aa1-9973-8be602b4ee4e
+    name: 'Cornelius D Huff'
+    party: Nonpartisan
+    votes: 265
+- id: sc/2023-11-07/irmo-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:irmo/government
+  office_id: irmo/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/68008d3b-c349-5d2e-9d5e-8e3008451e4a
+  - ocd-person/aec4cdd2-f3aa-5cdd-8153-3181a9918484
+  - ocd-person/cbb49e13-0a04-53a4-a6f4-198d7813f606
+  - ocd-person/aa11c0e0-a402-50cb-9e03-571e077e0204
+  - ocd-person/90c31d2a-2c5b-5a10-94fe-55f9ea00c4f6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/68008d3b-c349-5d2e-9d5e-8e3008451e4a
+    name: 'Erik Sickinger'
+    party: Nonpartisan
+    votes: 890
+  - person_id: ocd-person/aec4cdd2-f3aa-5cdd-8153-3181a9918484
+    name: 'Phyllis Coleman'
+    party: Nonpartisan
+    votes: 675
+- id: sc/2023-11-07/irmo-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:irmo/government
+  office_id: irmo/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/67ac6890-db71-5b16-917f-6fb4be52209d
+  - ocd-person/76aae11c-9647-5563-9c8f-8b1af9c619e2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/67ac6890-db71-5b16-917f-6fb4be52209d
+    name: 'Bill Danielson'
+    party: Nonpartisan
+    votes: 852
+- id: sc/2023-11-07/isle-of-palms-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:isle-of-palms/government
+  office_id: isle-of-palms/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/19b4365f-fc81-5e18-ae72-84777e564eb9
+  - ocd-person/1446f942-8e5c-5f7d-b685-ef4cf62a231d
+  - ocd-person/a3f67aed-cc16-51b8-9ea9-ce71e4d6f459
+  - ocd-person/488a5e1f-7332-5a51-9758-ee4f5d100105
+  - ocd-person/85c5ef59-69d8-57f7-99ea-1014e1c31420
+  - ocd-person/510152dc-a86c-5543-94bc-7f7b5f7045a3
+  - ocd-person/4518afd4-18a7-58f3-97bf-682ef7ece3c7
+  - ocd-person/7294468b-8286-5f74-b679-d283000fc0ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/19b4365f-fc81-5e18-ae72-84777e564eb9
+    name: 'Elizabeth Campsen'
+    party: Nonpartisan
+    votes: 1346
+  - person_id: ocd-person/1446f942-8e5c-5f7d-b685-ef4cf62a231d
+    name: 'Scott Pierce'
+    party: Nonpartisan
+    votes: 1300
+  - person_id: ocd-person/a3f67aed-cc16-51b8-9ea9-ce71e4d6f459
+    name: 'Ashley Carroll'
+    party: Nonpartisan
+    votes: 1239
+  - person_id: ocd-person/488a5e1f-7332-5a51-9758-ee4f5d100105
+    name: 'Jimmy Ward'
+    party: Nonpartisan
+    votes: 1230
+- id: sc/2023-11-07/james-island-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:james-island/government
+  office_id: james-island/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/24bb26d8-6e5d-5649-a88a-b5b329e21fac
+  - ocd-person/49526bfc-384a-5a6a-a5a0-14be6755eeb3
+  - ocd-person/3bb2b542-4054-540b-9b2c-7d401b9a9fa3
+  - ocd-person/d50f7149-edaa-5211-bc7a-be5662d585b4
+  - ocd-person/1f5dea7b-bc21-5263-9fba-82af14fe6f54
+  - ocd-person/99c73c68-1b9f-5df4-90ef-26e7dbbccce8
+  - ocd-person/53f21935-f92a-581d-84ae-53909295ddd8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/24bb26d8-6e5d-5649-a88a-b5b329e21fac
+    name: 'Cynthia Mignano'
+    party: Nonpartisan
+    votes: 1468
+  - person_id: ocd-person/49526bfc-384a-5a6a-a5a0-14be6755eeb3
+    name: 'Dan Boles'
+    party: Nonpartisan
+    votes: 1442
+  - person_id: ocd-person/3bb2b542-4054-540b-9b2c-7d401b9a9fa3
+    name: 'Lewis Dodson'
+    party: Nonpartisan
+    votes: 1270
+  - person_id: ocd-person/d50f7149-edaa-5211-bc7a-be5662d585b4
+    name: 'Darren Troy Mullinax'
+    party: Nonpartisan
+    votes: 1222
+- id: sc/2023-11-07/james-island-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:james-island/government
+  office_id: james-island/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5e97f154-cf3c-5339-860c-e40c5024b8db
+  - ocd-person/147c9c84-908f-51f7-a624-0be70dd9a361
+  - ocd-person/7d4ec2dc-59de-5ad2-a698-682aab750bca
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5e97f154-cf3c-5339-860c-e40c5024b8db
+    name: 'Brook Lyon'
+    party: Nonpartisan
+    votes: 1312
+- id: sc/2023-11-07/johnsonville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:johnsonville/government
+  office_id: johnsonville/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/d9ebc61f-e639-58d0-b67e-c25c1424356c
+  - ocd-person/ff5973b6-7b60-53ff-a4c9-ce25ef5bbaac
+  - ocd-person/611e989f-e7e2-5c0f-aa55-e732d71187d2
+  - ocd-person/d0812fc4-eca1-5695-9e20-83ce978a046c
+  - ocd-person/245a61bb-3a83-59b8-90b8-8d6a10acb87b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d9ebc61f-e639-58d0-b67e-c25c1424356c
+    name: 'Frankie Poston'
+    party: Nonpartisan
+    votes: 158
+  - person_id: ocd-person/ff5973b6-7b60-53ff-a4c9-ce25ef5bbaac
+    name: 'Kenneth Darrell Ard'
+    party: Nonpartisan
+    votes: 118
+  - person_id: ocd-person/611e989f-e7e2-5c0f-aa55-e732d71187d2
+    name: 'Olin Altman'
+    party: Nonpartisan
+    votes: 115
+- id: sc/2023-11-07/johnsonville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:johnsonville/government
+  office_id: johnsonville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4d0fe520-c7d7-593d-8b13-c7c1462e687c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4d0fe520-c7d7-593d-8b13-c7c1462e687c
+    name: 'Vernon Callicutt'
+    party: Nonpartisan
+    votes: 144
+- id: sc/2023-11-07/kershaw-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kershaw/government
+  office_id: kershaw/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0dde0bc7-0877-55b9-9efa-ed34aac64ac2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0dde0bc7-0877-55b9-9efa-ed34aac64ac2
+    name: 'Randy Seegars'
+    party: Nonpartisan
+    votes: 139
+- id: sc/2023-11-07/kershaw-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kershaw/government
+  office_id: kershaw/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/eb5e201c-d6ef-5d84-a648-98269fa1307e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/eb5e201c-d6ef-5d84-a648-98269fa1307e
+    name: 'Bobbie Faulkenberry'
+    party: Nonpartisan
+    votes: 42
+- id: sc/2023-11-07/kershaw-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kershaw/government
+  office_id: kershaw/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/56a386d4-df8b-52d7-8778-f0cfad4ed160
+  result_status: certified
+  winners:
+  - person_id: ocd-person/56a386d4-df8b-52d7-8778-f0cfad4ed160
+    name: 'Michael Cook'
+    party: Nonpartisan
+    votes: 21
+- id: sc/2023-11-07/kershaw-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kershaw/government
+  office_id: kershaw/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8c944332-6147-5036-9969-a46b5994d3fd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8c944332-6147-5036-9969-a46b5994d3fd
+    name: 'Mark Dorman'
+    party: Nonpartisan
+    votes: 144
+- id: sc/2023-11-07/kingstree-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kingstree/government
+  office_id: kingstree/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6ab7e9d5-ce84-5b0a-8341-62390daab027
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6ab7e9d5-ce84-5b0a-8341-62390daab027
+    name: 'Frankie D White'
+    party: Nonpartisan
+    votes: 26
+- id: sc/2023-11-07/kingstree-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kingstree/government
+  office_id: kingstree/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6e91a5db-daa4-5dbe-b4e9-3b5d3c4b3111
+  - ocd-person/78f12240-0948-5408-b68c-438672c7c939
+  - ocd-person/c0715359-7ea2-5044-a363-f11253a72082
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6e91a5db-daa4-5dbe-b4e9-3b5d3c4b3111
+    name: 'Michelle L Butterworth'
+    party: Nonpartisan
+    votes: 24
+- id: sc/2023-11-07/kingstree-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kingstree/government
+  office_id: kingstree/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e46e858d-1a40-54c4-b094-fad743c2cc5f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e46e858d-1a40-54c4-b094-fad743c2cc5f
+    name: 'Stan A Williamson'
+    party: Nonpartisan
+    votes: 140
+- id: sc/2023-11-07/kingstree-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kingstree/government
+  office_id: kingstree/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/61ffcfd6-110f-5859-802c-9865c5c65ebb
+  - ocd-person/6d2a125b-9aeb-5312-99e4-beb2af0c809a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/61ffcfd6-110f-5859-802c-9865c5c65ebb
+    name: 'Darren Tisdale'
+    party: Nonpartisan
+    votes: 366
+- id: sc/2023-11-07/kline-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kline/government
+  office_id: kline/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/b3352c7c-8579-5669-920a-12e77924b0ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b3352c7c-8579-5669-920a-12e77924b0ed
+    name: 'Rodger D Arnold'
+    party: Nonpartisan
+    votes: 9
+- id: sc/2023-11-07/kline-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kline/government
+  office_id: kline/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/334c8734-8df2-5367-bd2e-8434450db7db
+  result_status: certified
+  winners:
+  - person_id: ocd-person/334c8734-8df2-5367-bd2e-8434450db7db
+    name: 'William H Cave'
+    party: Nonpartisan
+    votes: 9
+- id: sc/2023-11-07/lamar-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lamar/government
+  office_id: lamar/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/1212b421-f1ea-5f4e-ab2e-05d8cf5e750d
+  - ocd-person/3035c536-2206-5c8f-99d6-d415a98a913c
+  - ocd-person/57b4ece5-97db-5c8e-8dc1-3410e8ad5ef7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1212b421-f1ea-5f4e-ab2e-05d8cf5e750d
+    name: 'Inez B Lee'
+    party: Nonpartisan
+    votes: 174
+  - person_id: ocd-person/3035c536-2206-5c8f-99d6-d415a98a913c
+    name: 'Angele White-Bradley'
+    party: Nonpartisan
+    votes: 164
+- id: sc/2023-11-07/landrum-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:landrum/government
+  office_id: landrum/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/ec56290a-366d-57f3-bed8-c432f4cf160b
+  - ocd-person/8075f8ee-ae28-5478-858d-6db9f433d3b9
+  - ocd-person/ac8bc7d3-830a-518a-bd99-401b47198bf2
+  - ocd-person/c5caf7a3-e1ec-5fd9-a31d-b172ff729e2a
+  - ocd-person/944310d7-4c48-5fca-a7e1-1e67ee40c82c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ec56290a-366d-57f3-bed8-c432f4cf160b
+    name: 'Robert Farmer'
+    party: Nonpartisan
+    votes: 255
+  - person_id: ocd-person/8075f8ee-ae28-5478-858d-6db9f433d3b9
+    name: 'Shannon D Dotson'
+    party: Nonpartisan
+    votes: 244
+  - person_id: ocd-person/ac8bc7d3-830a-518a-bd99-401b47198bf2
+    name: 'Warren Ashmore'
+    party: Nonpartisan
+    votes: 232
+- id: sc/2023-11-07/lexington-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lexington/government
+  office_id: lexington/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/bd797ee2-aaf2-57af-8776-ba20a7531c39
+  - ocd-person/168a8b74-9807-510a-b5c8-4d782a6ce915
+  - ocd-person/ecb82012-e4df-535e-902e-a9e9ac89c377
+  - ocd-person/fcf6e195-c105-50ac-af1a-b6e989fccec1
+  - ocd-person/d02728be-d238-5bf5-a3ac-1d773ac26a7c
+  - ocd-person/9fd3db52-78e8-5448-8d2a-919d33952d21
+  - ocd-person/988ee11c-ea62-51c6-8243-5c24a2f29871
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bd797ee2-aaf2-57af-8776-ba20a7531c39
+    name: 'Todd R Lyle'
+    party: Nonpartisan
+    votes: 1245
+  - person_id: ocd-person/168a8b74-9807-510a-b5c8-4d782a6ce915
+    name: 'Will Allen'
+    party: Nonpartisan
+    votes: 1054
+  - person_id: ocd-person/ecb82012-e4df-535e-902e-a9e9ac89c377
+    name: 'Jeannie Michaels'
+    party: Nonpartisan
+    votes: 1030
+- id: sc/2023-11-07/lexington-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lexington/government
+  office_id: lexington/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/154ee82d-cef9-558b-a7d1-6150a66c4874
+  result_status: certified
+  winners:
+  - person_id: ocd-person/154ee82d-cef9-558b-a7d1-6150a66c4874
+    name: 'Hazel Livingston'
+    party: Nonpartisan
+    votes: 1994
+- id: sc/2023-11-07/liberty-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:liberty/government
+  office_id: liberty/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/cb8eb386-e3cc-5d65-880a-f00b1b1871c0
+  - ocd-person/cb8dc7d7-2af1-515e-bbd9-f6e7b1184140
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cb8eb386-e3cc-5d65-880a-f00b1b1871c0
+    name: 'Rhonda Whitaker'
+    party: Nonpartisan
+    votes: 129
+- id: sc/2023-11-07/liberty-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:liberty/government
+  office_id: liberty/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/400f2151-0ace-523b-9991-d5db71fe0db3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/400f2151-0ace-523b-9991-d5db71fe0db3
+    name: 'Daniel Graybeal'
+    party: Nonpartisan
+    votes: 202
+- id: sc/2023-11-07/liberty-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:liberty/government
+  office_id: liberty/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/422ef967-489c-580d-b8e2-c7f15a32123d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/422ef967-489c-580d-b8e2-c7f15a32123d
+    name: 'Jeff Massie'
+    party: Nonpartisan
+    votes: 222
+- id: sc/2023-11-07/lincolnville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lincolnville/government
+  office_id: lincolnville/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/2b5de3ea-be7c-5172-ada4-3e0c98bb6ac3
+  - ocd-person/9f4f8bea-9604-572b-bcc3-db89eb672cfc
+  - ocd-person/ee99b504-67c6-548e-afdb-2bdf74ba14a5
+  - ocd-person/9742f757-63da-5c71-a531-cca6fa39cfc5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2b5de3ea-be7c-5172-ada4-3e0c98bb6ac3
+    name: 'Tyrone Aiken'
+    party: Nonpartisan
+    votes: 82
+  - person_id: ocd-person/9f4f8bea-9604-572b-bcc3-db89eb672cfc
+    name: 'David Nesbit'
+    party: Nonpartisan
+    votes: 60
+  - person_id: ocd-person/ee99b504-67c6-548e-afdb-2bdf74ba14a5
+    name: 'Leland M Shannon'
+    party: Nonpartisan
+    votes: 56
+- id: sc/2023-11-07/livingston-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:livingston/government
+  office_id: livingston/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/8522b035-f244-5834-8bb5-e0fdde692687
+  - ocd-person/50c89a7b-d06c-5f79-9725-c7f64c782078
+  - ocd-person/a7d05c7b-806f-512c-ae80-5df2ed390db3
+  - ocd-person/21a4172c-66e2-50e6-b592-52cd90027a2c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8522b035-f244-5834-8bb5-e0fdde692687
+    name: 'Maretta J Hewitt'
+    party: Nonpartisan
+    votes: 20
+  - person_id: ocd-person/50c89a7b-d06c-5f79-9725-c7f64c782078
+    name: 'Bobby Yongue'
+    party: Nonpartisan
+    votes: 19
+  - person_id: ocd-person/a7d05c7b-806f-512c-ae80-5df2ed390db3
+    name: 'George H Widener'
+    party: Nonpartisan
+    votes: 19
+  - person_id: ocd-person/21a4172c-66e2-50e6-b592-52cd90027a2c
+    name: 'Brian C Driggers'
+    party: Nonpartisan
+    votes: 18
+- id: sc/2023-11-07/livingston-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:livingston/government
+  office_id: livingston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/acf40ebd-b700-5b07-8ac9-7bc0fe76d71d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/acf40ebd-b700-5b07-8ac9-7bc0fe76d71d
+    name: 'Bobby Gordon'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/loris-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:loris/government
+  office_id: loris/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/51cad298-e856-5d73-b1d7-9ecbfdfcd500
+  - ocd-person/06097a27-da1e-511f-980e-86dbf9cb6d80
+  - ocd-person/ef658334-1ee9-5603-8a8a-150763efd5d8
+  - ocd-person/db406f74-6a7e-5104-92ae-9ed58ab0b220
+  - ocd-person/5a650c05-b341-5e71-80cf-7a2c064e8d6c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/51cad298-e856-5d73-b1d7-9ecbfdfcd500
+    name: 'Joan S Gause'
+    party: Nonpartisan
+    votes: 286
+  - person_id: ocd-person/06097a27-da1e-511f-980e-86dbf9cb6d80
+    name: 'Lewis C Hardee Jr'
+    party: Nonpartisan
+    votes: 261
+  - person_id: ocd-person/ef658334-1ee9-5603-8a8a-150763efd5d8
+    name: 'Tonya Faulk Sykes'
+    party: Nonpartisan
+    votes: 241
+- id: sc/2023-11-07/loris-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:loris/government
+  office_id: loris/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0ae35dfa-188f-54cd-97f7-6754d5b46df9
+  - ocd-person/018b9b2b-b0f2-58d9-bac2-353e56881fe8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0ae35dfa-188f-54cd-97f7-6754d5b46df9
+    name: 'Michael E Suggs'
+    party: Nonpartisan
+    votes: 263
+- id: sc/2023-11-07/lowndesville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowndesville/government
+  office_id: lowndesville/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/6504323d-83ca-5730-9fe9-75a5f46b2235
+  - ocd-person/722a2de3-1c6a-54db-bdaa-6b39f081900e
+  - ocd-person/ac3b6560-3e71-5545-b9fa-c86806d17635
+  - ocd-person/f1717fed-b168-5b2e-be09-0c9d522e28f2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6504323d-83ca-5730-9fe9-75a5f46b2235
+    name: 'Janet Yeargin'
+    party: Nonpartisan
+    votes: 3
+  - person_id: ocd-person/722a2de3-1c6a-54db-bdaa-6b39f081900e
+    name: 'Lisa Driver'
+    party: Nonpartisan
+    votes: 2
+  - person_id: ocd-person/ac3b6560-3e71-5545-b9fa-c86806d17635
+    name: 'Janice Hanna'
+    party: Nonpartisan
+    votes: 2
+  - person_id: ocd-person/f1717fed-b168-5b2e-be09-0c9d522e28f2
+    name: 'Lynn S Branyon'
+    party: Nonpartisan
+    votes: 2
+- id: sc/2023-11-07/lowndesville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowndesville/government
+  office_id: lowndesville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/427c1b3e-551b-5f6d-b7e5-b09b4d5c54a9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/427c1b3e-551b-5f6d-b7e5-b09b4d5c54a9
+    name: 'Rufus Waters'
+    party: Nonpartisan
+    votes: 3
+- id: sc/2023-11-07/lowrys-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowrys/government
+  office_id: lowrys/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/8c950189-6003-5c0e-bb59-e3a5b17654ab
+  - ocd-person/569b2a92-d701-5507-b24c-b8be9e4a728e
+  - ocd-person/7ce63fcd-45ca-522d-9de9-816a61320113
+  - ocd-person/25243114-a0d0-562e-a80d-f189b4ece3c6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8c950189-6003-5c0e-bb59-e3a5b17654ab
+    name: 'AB Buddy Courtney'
+    party: Nonpartisan
+    votes: 17
+  - person_id: ocd-person/569b2a92-d701-5507-b24c-b8be9e4a728e
+    name: 'Mitchell Lisenby'
+    party: Nonpartisan
+    votes: 17
+  - person_id: ocd-person/7ce63fcd-45ca-522d-9de9-816a61320113
+    name: 'Cole Abell'
+    party: Nonpartisan
+    votes: 17
+  - person_id: ocd-person/25243114-a0d0-562e-a80d-f189b4ece3c6
+    name: 'Valeria S Erwin'
+    party: Nonpartisan
+    votes: 17
+- id: sc/2023-11-07/lowrys-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowrys/government
+  office_id: lowrys/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b594de8e-8a65-55b8-85b9-e49ec8f58791
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b594de8e-8a65-55b8-85b9-e49ec8f58791
+    name: 'Joseph H Wilson'
+    party: Nonpartisan
+    votes: 16
+- id: sc/2023-11-07/lyman-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lyman/government
+  office_id: lyman/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/0cc9623c-97f4-5b8d-8195-b145433fc721
+  - ocd-person/d910d6b7-74f6-583b-8983-1949454a9f08
+  - ocd-person/73591456-e0b9-5ce0-b3c5-9d6e7409f13c
+  - ocd-person/e5d02ee9-a977-57e0-8613-5dc57ebdf99a
+  - ocd-person/a0f37c0d-4cc5-5715-b8af-cdf6c5d7a169
+  - ocd-person/19a523ec-0f9b-58d5-85e4-592965624f18
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0cc9623c-97f4-5b8d-8195-b145433fc721
+    name: 'David Petty'
+    party: Nonpartisan
+    votes: 467
+  - person_id: ocd-person/d910d6b7-74f6-583b-8983-1949454a9f08
+    name: 'Rebecca Martin'
+    party: Nonpartisan
+    votes: 302
+  - person_id: ocd-person/73591456-e0b9-5ce0-b3c5-9d6e7409f13c
+    name: 'Jack Bellaire'
+    party: Nonpartisan
+    votes: 242
+- id: sc/2023-11-07/mayesville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mayesville/government
+  office_id: mayesville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/1e27d2ee-6d2d-5d5b-a874-e4b22d6c8a35
+  - ocd-person/1fb94226-acd5-5784-b5c3-647ad8c71543
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1e27d2ee-6d2d-5d5b-a874-e4b22d6c8a35
+    name: 'Jasaad Rahgee Ricks'
+    party: Nonpartisan
+    votes: 166
+  - person_id: ocd-person/1fb94226-acd5-5784-b5c3-647ad8c71543
+    name: 'Cynthia Massingill'
+    party: Nonpartisan
+    votes: 165
+- id: sc/2023-11-07/mayesville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mayesville/government
+  office_id: mayesville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e3f98dfa-14d5-5c4a-abd2-5960f7758751
+  - ocd-person/1bbdca34-654f-5189-a413-635926b320d1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e3f98dfa-14d5-5c4a-abd2-5960f7758751
+    name: 'Chris Brown'
+    party: Nonpartisan
+    votes: 141
+- id: sc/2023-11-07/mcclellanville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcclellanville/government
+  office_id: mcclellanville/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/9abddf5c-2d1e-5c77-b61c-d9915d55a9c0
+  - ocd-person/7adf0cee-852a-50f9-8648-2f1a8b52584a
+  - ocd-person/12e23041-fe9d-542b-af2b-70553288a2d6
+  - ocd-person/cc62e592-39d2-534d-ba21-c4a7f4409ea9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9abddf5c-2d1e-5c77-b61c-d9915d55a9c0
+    name: 'Aaron Baldwin'
+    party: Nonpartisan
+    votes: 77
+  - person_id: ocd-person/7adf0cee-852a-50f9-8648-2f1a8b52584a
+    name: 'Jim Scott'
+    party: Nonpartisan
+    votes: 72
+  - person_id: ocd-person/12e23041-fe9d-542b-af2b-70553288a2d6
+    name: 'Chris Bates'
+    party: Nonpartisan
+    votes: 71
+  - person_id: ocd-person/cc62e592-39d2-534d-ba21-c4a7f4409ea9
+    name: 'Robert J Gannon'
+    party: Nonpartisan
+    votes: 70
+- id: sc/2023-11-07/mcclellanville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcclellanville/government
+  office_id: mcclellanville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4191e4a5-1018-5fb0-89f8-8f28c4b5fe73
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4191e4a5-1018-5fb0-89f8-8f28c4b5fe73
+    name: 'Rutledge B Leland III'
+    party: Nonpartisan
+    votes: 78
+- id: sc/2023-11-07/mccoll-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mccoll/government
+  office_id: mccoll/council-member
+  vote_for: 6
+  candidate_ids:
+  - ocd-person/e40a95ad-c5c6-5a84-85be-4568143e1e21
+  - ocd-person/8d058131-a166-5e03-b9a2-22df18b12a69
+  - ocd-person/95b5bac3-4590-5166-95a8-31c2322fbab8
+  - ocd-person/8866545c-73dd-5b72-b3ca-b4bcc04e664b
+  - ocd-person/bdd1b916-5314-5cc8-8e21-ced3e78313ae
+  - ocd-person/99e1261a-4365-592c-9f36-409e8f275515
+  - ocd-person/5c578e81-56c8-5985-89a7-5dbb7f872ff7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e40a95ad-c5c6-5a84-85be-4568143e1e21
+    name: 'Brian K Blue'
+    party: Nonpartisan
+    votes: 443
+  - person_id: ocd-person/8d058131-a166-5e03-b9a2-22df18b12a69
+    name: 'Harry L Benjamin Jr'
+    party: Nonpartisan
+    votes: 404
+  - person_id: ocd-person/95b5bac3-4590-5166-95a8-31c2322fbab8
+    name: 'R C Cummings'
+    party: Nonpartisan
+    votes: 391
+  - person_id: ocd-person/8866545c-73dd-5b72-b3ca-b4bcc04e664b
+    name: 'Lynn Kubas'
+    party: Nonpartisan
+    votes: 379
+  - person_id: ocd-person/bdd1b916-5314-5cc8-8e21-ced3e78313ae
+    name: 'David Garner'
+    party: Nonpartisan
+    votes: 354
+  - person_id: ocd-person/99e1261a-4365-592c-9f36-409e8f275515
+    name: 'Jody C Stubbs'
+    party: Nonpartisan
+    votes: 347
+- id: sc/2023-11-07/mccoll-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mccoll/government
+  office_id: mccoll/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9be0e030-1381-50fc-b890-95e318b6fcc6
+  - ocd-person/42849c03-ea9b-5a67-86b7-3dbe21be2e65
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9be0e030-1381-50fc-b890-95e318b6fcc6
+    name: 'George Garner'
+    party: Nonpartisan
+    votes: 327
+- id: sc/2023-11-07/mcconnells-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcconnells/government
+  office_id: mcconnells/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/5735e038-8cab-5ad7-98cb-ffdf316e549e
+  - ocd-person/8a822eb2-4836-59ae-8818-77ec7063a850
+  - ocd-person/d8f7af03-28e3-5b12-a44b-7a7affef84ff
+  - ocd-person/4cd6e648-5952-57bc-87f9-eea9a3418967
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5735e038-8cab-5ad7-98cb-ffdf316e549e
+    name: 'Bill Covington'
+    party: Nonpartisan
+    votes: 38
+  - person_id: ocd-person/8a822eb2-4836-59ae-8818-77ec7063a850
+    name: 'Liz Frame Christenberry'
+    party: Nonpartisan
+    votes: 36
+  - person_id: ocd-person/d8f7af03-28e3-5b12-a44b-7a7affef84ff
+    name: 'James Sciba'
+    party: Nonpartisan
+    votes: 32
+  - person_id: ocd-person/4cd6e648-5952-57bc-87f9-eea9a3418967
+    name: 'Jim Hoban'
+    party: Nonpartisan
+    votes: 30
+- id: sc/2023-11-07/mcconnells-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcconnells/government
+  office_id: mcconnells/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bd956309-a9e1-5016-a4d7-799939cecc2d
+  - ocd-person/93f86b74-08b9-506d-ad39-9c26ac1c93c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bd956309-a9e1-5016-a4d7-799939cecc2d
+    name: 'William Bill Nance'
+    party: Nonpartisan
+    votes: 26
+- id: sc/2023-11-07/moncks-corner-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:moncks-corner/government
+  office_id: moncks-corner/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/26d3ee5e-9f3d-5bf7-a4c7-1f9ac14862c1
+  - ocd-person/f37e3daa-cfef-58e6-bd0c-2a291712aa13
+  - ocd-person/e00670ff-0dbf-5fad-891c-8053fba2d3d2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/26d3ee5e-9f3d-5bf7-a4c7-1f9ac14862c1
+    name: 'Latorie S Lloyd'
+    party: Nonpartisan
+    votes: 598
+  - person_id: ocd-person/f37e3daa-cfef-58e6-bd0c-2a291712aa13
+    name: 'David Dennis'
+    party: Nonpartisan
+    votes: 581
+  - person_id: ocd-person/e00670ff-0dbf-5fad-891c-8053fba2d3d2
+    name: 'Jay Law'
+    party: Nonpartisan
+    votes: 576
+- id: sc/2023-11-07/moncks-corner-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:moncks-corner/government
+  office_id: moncks-corner/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1aded850-7a55-5d4e-9540-f264df83011d
+  - ocd-person/520f3eb2-2664-5e0b-9326-c0b233ad641a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1aded850-7a55-5d4e-9540-f264df83011d
+    name: 'Thomas Hamilton'
+    party: Nonpartisan
+    votes: 475
+- id: sc/2023-11-07/monetta-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:monetta/government
+  office_id: monetta/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/8b169b7f-ab89-5e26-9177-d93c95246377
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8b169b7f-ab89-5e26-9177-d93c95246377
+    name: 'Jerry Martin'
+    party: Nonpartisan
+    votes: 15
+- id: sc/2023-11-07/monetta-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:monetta/government
+  office_id: monetta/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/729d8f30-ac03-5b3a-ba87-b74c222da1a0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/729d8f30-ac03-5b3a-ba87-b74c222da1a0
+    name: 'Charles Pedro McCormick'
+    party: Nonpartisan
+    votes: 15
+- id: sc/2023-11-07/mount-pleasant-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mount-pleasant/government
+  office_id: mount-pleasant/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/63e53990-5f2f-5071-8e59-fdc1d33fb7d7
+  - ocd-person/20bc2c84-5e6b-5429-840f-efa825b2ca23
+  - ocd-person/da0bb4a6-3547-5aa5-9f14-c116f53f27d7
+  - ocd-person/af30ed25-0049-51cc-aa0c-6536df665290
+  - ocd-person/8f1631a8-a4fb-53d7-9898-3e2c50b0f081
+  - ocd-person/91b6661a-8c9f-50e9-9a6c-bc4261aa87d1
+  - ocd-person/69c73af1-73c4-5ca9-a460-f723b8e17cd1
+  - ocd-person/814862fd-36d3-59d5-9fb4-79cf4e32ab32
+  result_status: certified
+  winners:
+  - person_id: ocd-person/63e53990-5f2f-5071-8e59-fdc1d33fb7d7
+    name: 'Jake Rambo'
+    party: Nonpartisan
+    votes: 7980
+  - person_id: ocd-person/20bc2c84-5e6b-5429-840f-efa825b2ca23
+    name: 'Laura Hyatt'
+    party: Nonpartisan
+    votes: 7842
+  - person_id: ocd-person/da0bb4a6-3547-5aa5-9f14-c116f53f27d7
+    name: 'Howard Chapman'
+    party: Nonpartisan
+    votes: 7090
+  - person_id: ocd-person/af30ed25-0049-51cc-aa0c-6536df665290
+    name: 'Daniel Brownstein'
+    party: Nonpartisan
+    votes: 6643
+- id: sc/2023-11-07/neeses-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:neeses/government
+  office_id: neeses/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/2035065a-2643-583f-811e-301f54034de6
+  - ocd-person/5ff5adb5-d439-5920-bd42-f751df1e2fc3
+  - ocd-person/b3ada004-9cfd-5012-b585-f424c1e69ff0
+  - ocd-person/7e9dc40d-5ef7-58d9-be14-f812ce3bfcef
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2035065a-2643-583f-811e-301f54034de6
+    name: 'Paula Dyches Hutchins'
+    party: Nonpartisan
+    votes: 22
+  - person_id: ocd-person/5ff5adb5-d439-5920-bd42-f751df1e2fc3
+    name: 'Wylie Williams'
+    party: Nonpartisan
+    votes: 22
+  - person_id: ocd-person/b3ada004-9cfd-5012-b585-f424c1e69ff0
+    name: 'Renee Olenick'
+    party: Nonpartisan
+    votes: 21
+  - person_id: ocd-person/7e9dc40d-5ef7-58d9-be14-f812ce3bfcef
+    name: 'John A Anthony'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/neeses-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:neeses/government
+  office_id: neeses/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/21e96fa2-12f4-518c-8455-bec823353fb8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/21e96fa2-12f4-518c-8455-bec823353fb8
+    name: 'Kenneth Gleaton'
+    party: Nonpartisan
+    votes: 22
+- id: sc/2023-11-07/new-ellenton-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:new-ellenton/government
+  office_id: new-ellenton/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/00f52fa5-da84-57bd-a34d-b193bd1fb82a
+  - ocd-person/49f0814e-d811-56f5-9ccb-735d897707aa
+  - ocd-person/82975cfc-d9e5-54cf-afd3-97d459b12090
+  result_status: certified
+  winners:
+  - person_id: ocd-person/00f52fa5-da84-57bd-a34d-b193bd1fb82a
+    name: 'Ashley N Morgan'
+    party: Republican
+    votes: 107
+  - person_id: ocd-person/49f0814e-d811-56f5-9ccb-735d897707aa
+    name: 'James Anderson'
+    party: Republican
+    votes: 102
+  - person_id: ocd-person/82975cfc-d9e5-54cf-afd3-97d459b12090
+    name: 'Carl Culpepper III'
+    party: Republican
+    votes: 97
+- id: sc/2023-11-07/newberry-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:newberry/government
+  office_id: newberry/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8bd26cb4-57d1-5d6e-a2b4-cc875d9ecac4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8bd26cb4-57d1-5d6e-a2b4-cc875d9ecac4
+    name: 'R Lemont Glasgow'
+    party: Nonpartisan
+    votes: 56
+- id: sc/2023-11-07/newberry-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:newberry/government
+  office_id: newberry/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/67c08993-b4aa-52df-aa0b-928018f84b88
+  result_status: certified
+  winners:
+  - person_id: ocd-person/67c08993-b4aa-52df-aa0b-928018f84b88
+    name: 'Carlton Kinard'
+    party: Nonpartisan
+    votes: 209
+- id: sc/2023-11-07/newberry-council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:newberry/government
+  office_id: newberry/council-member-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1e31b18d-be3f-54cc-89ac-3a530e180ec5
+  - ocd-person/210d1b7c-5e26-5b76-a07a-99a72bdcc906
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1e31b18d-be3f-54cc-89ac-3a530e180ec5
+    name: 'Jackie Holmes'
+    party: Nonpartisan
+    votes: 128
+- id: sc/2023-11-07/newberry-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:newberry/government
+  office_id: newberry/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2d7ecbed-1519-56c0-a1f4-b5512f86da7b
+  - ocd-person/03886bb1-e5ba-5ae4-ac6b-0a00466f12f2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2d7ecbed-1519-56c0-a1f4-b5512f86da7b
+    name: 'Foster Senn'
+    party: Nonpartisan
+    votes: 911
+- id: sc/2023-11-07/ninety-six-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ninety-six/government
+  office_id: ninety-six/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0f0e63c1-05df-5dd2-8afa-3aa282c1bcb5
+  - ocd-person/e7481417-06a3-5acc-b8cd-9c5977c9848d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0f0e63c1-05df-5dd2-8afa-3aa282c1bcb5
+    name: 'Bridget Porter'
+    party: Nonpartisan
+    votes: 39
+- id: sc/2023-11-07/ninety-six-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ninety-six/government
+  office_id: ninety-six/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/db588986-2bdf-51d4-b140-90164494f322
+  result_status: certified
+  winners:
+  - person_id: ocd-person/db588986-2bdf-51d4-b140-90164494f322
+    name: 'Tara Stockman Brown'
+    party: Nonpartisan
+    votes: 84
+- id: sc/2023-11-07/ninety-six-council-ward-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ninety-six/government
+  office_id: ninety-six/council-member-ward-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4c27fd0f-8b3f-575b-bd46-d5d49898a276
+  - ocd-person/48e633c2-a5db-5b0c-b611-1db0aae558f7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4c27fd0f-8b3f-575b-bd46-d5d49898a276
+    name: 'Karen Chrisley Roller'
+    party: Nonpartisan
+    votes: 35
+- id: sc/2023-11-07/ninety-six-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ninety-six/government
+  office_id: ninety-six/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/03d934a3-ac70-5b7f-941b-e5dc85561908
+  - ocd-person/453b25b9-8bdb-55e1-993d-113d0000a1c2
+  - ocd-person/592a3e7b-37bc-57c6-a7c8-8ba357a19e51
+  - ocd-person/784f851f-1984-54f9-98f7-a6518b0a8c3a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/03d934a3-ac70-5b7f-941b-e5dc85561908
+    name: 'Gregg Brown'
+    party: Nonpartisan
+    votes: 242
+- id: sc/2023-11-07/norris-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:norris/government
+  office_id: norris/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/7c04cabb-713f-501a-bc3f-541c95448881
+  - ocd-person/b8b3b87c-4197-56ae-b305-36f183780f6a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7c04cabb-713f-501a-bc3f-541c95448881
+    name: 'Calli Lucas'
+    party: Nonpartisan
+    votes: 22
+  - person_id: ocd-person/b8b3b87c-4197-56ae-b305-36f183780f6a
+    name: 'Brian Norris'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/norris-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:norris/government
+  office_id: norris/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a3267755-bd7c-5fbb-92d7-4f6958e15657
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a3267755-bd7c-5fbb-92d7-4f6958e15657
+    name: 'Odell Williams'
+    party: Nonpartisan
+    votes: 24
+- id: sc/2023-11-07/north-charleston-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5b2fb068-00c5-5d11-8741-c08dcf27b8df
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5b2fb068-00c5-5d11-8741-c08dcf27b8df
+    name: 'Michael Brown'
+    party: Nonpartisan
+    votes: 983
+- id: sc/2023-11-07/north-charleston-council-district-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-10
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0a0e5ea9-4a09-5c78-b764-121f445f9f43
+  - ocd-person/958e99a7-92e7-5c93-aa79-ec06b6e50836
+  - ocd-person/aefac7f1-c20c-5dd4-adbc-d2763f043cb4
+  - ocd-person/38fd85bc-056e-5ab6-8d9c-18b2d3b74d9e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0a0e5ea9-4a09-5c78-b764-121f445f9f43
+    name: 'Michael A Brown'
+    party: Nonpartisan
+    votes: 731
+- id: sc/2023-11-07/north-charleston-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ea3f1c38-a39a-5d04-9ef1-eb0057c709a8
+  - ocd-person/ab8514ea-637d-52d1-93a9-92128418b099
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ea3f1c38-a39a-5d04-9ef1-eb0057c709a8
+    name: 'Rhonda Jameson Jerome'
+    party: Nonpartisan
+    votes: 534
+- id: sc/2023-11-07/north-charleston-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2b28abf1-a52f-593f-9501-f5710c5a8cb2
+  - ocd-person/769dd41b-5cdd-50c3-907e-f1a6cfca554c
+  - ocd-person/d262d59c-b451-581e-8ee7-cf6e57e52172
+  - ocd-person/a5ae077c-08a8-5ffb-b9e7-20d3ce7fd756
+  - ocd-person/87f437d0-10bb-5da5-b721-8a3afce4e9bb
+  - ocd-person/67977881-ca50-5560-ae3b-ab377d1fd200
+  - ocd-person/a42b2aec-76b5-573a-a7ab-30511022d8a1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2b28abf1-a52f-593f-9501-f5710c5a8cb2
+    name: 'Sandino Moses'
+    party: Nonpartisan
+    votes: 408
+- id: sc/2023-11-07/north-charleston-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/01fefd71-9b78-5ec9-bd2e-e4e97dfd4fe3
+  - ocd-person/8ecd4481-9469-5152-ae68-ed6269a1c51f
+  - ocd-person/9e2fce1c-7502-5b5a-938b-dab45a61bce8
+  - ocd-person/a92265c3-d88e-5a15-a98f-38c7092fe3d6
+  - ocd-person/84137078-63a7-5c96-9ff7-ffa621b7376f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/01fefd71-9b78-5ec9-bd2e-e4e97dfd4fe3
+    name: 'Charmaine Palmer Roberts'
+    party: Nonpartisan
+    votes: 408
+- id: sc/2023-11-07/north-charleston-council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d6e326d1-6671-572f-8fe7-49332e998d38
+  - ocd-person/151fe30f-8252-5cbb-8163-9ec3a470a542
+  - ocd-person/8f176748-aa3d-5048-92e8-8f5947ac6dda
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d6e326d1-6671-572f-8fe7-49332e998d38
+    name: 'Jerome Heyward'
+    party: Nonpartisan
+    votes: 1173
+- id: sc/2023-11-07/north-charleston-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/22f6e994-c7f6-56ab-beaf-fa4b3aa0829b
+  - ocd-person/6356e7e2-4c5e-57c7-903e-16da6848faca
+  - ocd-person/d73b6f7c-7389-5bd2-be0f-0fa98f31c298
+  - ocd-person/1e510473-cdd5-584f-8051-60b84f39d34d
+  - ocd-person/7d7415ac-c4da-5b87-9512-922a560632df
+  result_status: certified
+  winners:
+  - person_id: ocd-person/22f6e994-c7f6-56ab-beaf-fa4b3aa0829b
+    name: 'Nefertiti Brown'
+    party: Nonpartisan
+    votes: 343
+- id: sc/2023-11-07/north-charleston-council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5939aa52-ebb5-5a2e-bd38-179195090ebb
+  - ocd-person/b4cee56c-38cc-543a-9b40-e89fe2e749fc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5939aa52-ebb5-5a2e-bd38-179195090ebb
+    name: 'Michael Brown'
+    party: Nonpartisan
+    votes: 296
+- id: sc/2023-11-07/north-charleston-council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/634a97c5-786e-569c-90ec-accb5120c0e5
+  - ocd-person/63fb68d8-5d2e-5b74-9d14-cacc2aebf42c
+  - ocd-person/f2f3d351-e959-5e6a-a29a-65b49734a076
+  - ocd-person/c30f0b78-aad8-559d-b8b2-df972399009f
+  - ocd-person/2d8758cf-f8f0-53cf-8036-253f6b049cfe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/634a97c5-786e-569c-90ec-accb5120c0e5
+    name: 'Brandon Hudson'
+    party: Nonpartisan
+    votes: 670
+- id: sc/2023-11-07/north-charleston-council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/22540820-b4c3-5330-9d44-4d4ef50ce175
+  result_status: certified
+  winners:
+  - person_id: ocd-person/22540820-b4c3-5330-9d44-4d4ef50ce175
+    name: 'Kenny Skipper'
+    party: Nonpartisan
+    votes: 1253
+- id: sc/2023-11-07/north-charleston-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/56bbff1a-48e1-5f8a-81fb-dfeb87b14de7
+  - ocd-person/fda152cc-0b75-5659-a439-221ec57bf786
+  - ocd-person/ec8ead21-1ce9-5ec5-aed4-c219ce2dcd36
+  - ocd-person/9bfcad57-34d6-5251-b3ea-b9963eaaf5cb
+  - ocd-person/f4c827cc-048d-5b10-9418-a90c42bb4bbb
+  - ocd-person/08c65741-e7cc-5075-a68c-7f7011fc4372
+  - ocd-person/2d9cb37d-f4c0-590e-b980-e8b3439a4e4c
+  - ocd-person/ea3f1c38-a39a-5d04-9ef1-eb0057c709a8
+  - ocd-person/735a6e2a-2e2c-5a59-a329-d33762ae53a9
+  - ocd-person/b33fee35-28c7-536c-a21a-07324a99d54d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/56bbff1a-48e1-5f8a-81fb-dfeb87b14de7
+    name: 'Reggie Burgess'
+    party: Nonpartisan
+    votes: 8370
+- id: sc/2023-11-07/north-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north/government
+  office_id: north/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/2a72f555-c901-554d-9a48-20f36e09bdf4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2a72f555-c901-554d-9a48-20f36e09bdf4
+    name: 'Daniel Jackson'
+    party: Nonpartisan
+    votes: 71
+- id: sc/2023-11-07/north-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north/government
+  office_id: north/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a43602ab-0beb-57f9-a850-ba8156b0afeb
+  - ocd-person/0317a2fd-e30c-5c6a-98ab-ae70a5b43c51
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a43602ab-0beb-57f9-a850-ba8156b0afeb
+    name: 'Jeff Washington'
+    party: Nonpartisan
+    votes: 56
+- id: sc/2023-11-07/norway-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:norway/government
+  office_id: norway/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8f7bc98f-c362-58bf-bde8-014a4c370af4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8f7bc98f-c362-58bf-bde8-014a4c370af4
+    name: 'Charles N Bowers'
+    party: Nonpartisan
+    votes: 16
+- id: sc/2023-11-07/norway-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:norway/government
+  office_id: norway/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f40eaeb0-3e03-538a-aeab-8be9ed7a82dd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f40eaeb0-3e03-538a-aeab-8be9ed7a82dd
+    name: 'Lynn P Garrick'
+    party: Nonpartisan
+    votes: 45
+- id: sc/2023-11-07/olanta-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:olanta/government
+  office_id: olanta/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/70955996-d45b-506e-b5bb-1a8c13c903bf
+  - ocd-person/24913512-cc45-5048-97cd-82963e3b04f5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/70955996-d45b-506e-b5bb-1a8c13c903bf
+    name: 'Leigh Beard'
+    party: Nonpartisan
+    votes: 54
+  - person_id: ocd-person/24913512-cc45-5048-97cd-82963e3b04f5
+    name: 'Marsha Jordan'
+    party: Nonpartisan
+    votes: 53
+- id: sc/2023-11-07/pacolet-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pacolet/government
+  office_id: pacolet/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/13a91b97-15e4-530b-8c6b-a65b3795dd38
+  - ocd-person/cd408615-e96d-5111-a1e7-b4562b32ac4b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/13a91b97-15e4-530b-8c6b-a65b3795dd38
+    name: 'Richard E Brackins'
+    party: Nonpartisan
+    votes: 53
+- id: sc/2023-11-07/pacolet-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pacolet/government
+  office_id: pacolet/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/eee87f28-8390-5591-83d8-090627c2d789
+  - ocd-person/f6541019-a2af-592e-94aa-57896681658e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/eee87f28-8390-5591-83d8-090627c2d789
+    name: 'Thomas Williams'
+    party: Nonpartisan
+    votes: 41
+- id: sc/2023-11-07/pacolet-council-district-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pacolet/government
+  office_id: pacolet/council-member-district-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5442b003-bc9d-5582-9319-3bfdd6bbba95
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5442b003-bc9d-5582-9319-3bfdd6bbba95
+    name: 'April Palmer-Green'
+    party: Nonpartisan
+    votes: 15
+- id: sc/2023-11-07/pamplico-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pamplico/government
+  office_id: pamplico/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/c14c316b-3ca4-5fa1-9d8e-ff3575caa639
+  - ocd-person/97ffb7d1-08b4-5d33-8f35-49a252dcf2c7
+  - ocd-person/5c5f57e3-24fc-571d-aa48-a46fc3cb5216
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c14c316b-3ca4-5fa1-9d8e-ff3575caa639
+    name: 'Pamela M Turner'
+    party: Nonpartisan
+    votes: 125
+  - person_id: ocd-person/97ffb7d1-08b4-5d33-8f35-49a252dcf2c7
+    name: 'Bruce M Bennett'
+    party: Nonpartisan
+    votes: 115
+  - person_id: ocd-person/5c5f57e3-24fc-571d-aa48-a46fc3cb5216
+    name: 'Tammy A Cain'
+    party: Nonpartisan
+    votes: 115
+- id: sc/2023-11-07/pamplico-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pamplico/government
+  office_id: pamplico/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c64337c6-61b8-5c0f-a2d9-c19afb163bd2
+  result_status: official
+  winners: []
+- id: sc/2023-11-07/pawleys-island-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pawleys-island/government
+  office_id: pawleys-island/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/49dfd6e4-f369-53db-8453-8b9bae70287e
+  - ocd-person/8b35200a-9891-5f78-9013-6ddf01907804
+  - ocd-person/ec1988a5-1a34-5bc2-ac76-c81a9eb7e29f
+  - ocd-person/c7797a19-87a3-5b1b-82d4-867b96ed9ca4
+  - ocd-person/6307201e-70d7-5d53-ba49-c25b81286886
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49dfd6e4-f369-53db-8453-8b9bae70287e
+    name: 'Sarah Zimmerman'
+    party: Nonpartisan
+    votes: 47
+  - person_id: ocd-person/8b35200a-9891-5f78-9013-6ddf01907804
+    name: 'Rocky Holliday'
+    party: Nonpartisan
+    votes: 43
+  - person_id: ocd-person/ec1988a5-1a34-5bc2-ac76-c81a9eb7e29f
+    name: 'Guerry Green'
+    party: Nonpartisan
+    votes: 40
+  - person_id: ocd-person/c7797a19-87a3-5b1b-82d4-867b96ed9ca4
+    name: 'Robert Ashley Carter Sr'
+    party: Nonpartisan
+    votes: 34
+- id: sc/2023-11-07/pawleys-island-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pawleys-island/government
+  office_id: pawleys-island/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5c637aaf-742e-5ac8-9013-d377c2c0905f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5c637aaf-742e-5ac8-9013-d377c2c0905f
+    name: 'Brian Henry'
+    party: Nonpartisan
+    votes: 49
+- id: sc/2023-11-07/pelion-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pelion/government
+  office_id: pelion/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/e24965a7-189f-508e-822b-162559809077
+  - ocd-person/facaa6ea-77a7-5fc1-bace-b44c824a02c8
+  - ocd-person/b7d35fc8-5699-5087-9114-2d53d4512337
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e24965a7-189f-508e-822b-162559809077
+    name: 'John Greg Downer'
+    party: Nonpartisan
+    votes: 45
+  - person_id: ocd-person/facaa6ea-77a7-5fc1-bace-b44c824a02c8
+    name: 'Daniel F Shumpert IV'
+    party: Nonpartisan
+    votes: 29
+- id: sc/2023-11-07/pelzer-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pelzer/government
+  office_id: pelzer/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/d31a8a05-fc2b-54a2-b545-d45b3bab114b
+  - ocd-person/26756248-34eb-544d-8e43-3de78bb5364b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d31a8a05-fc2b-54a2-b545-d45b3bab114b
+    name: 'Eddie Waits'
+    party: Nonpartisan
+    votes: 48
+- id: sc/2023-11-07/pendleton-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pendleton/government
+  office_id: pendleton/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b283deb9-29a6-5ace-94e1-8b64945f24ef
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b283deb9-29a6-5ace-94e1-8b64945f24ef
+    name: 'Barbara D Hamberg'
+    party: Nonpartisan
+    votes: 606
+- id: sc/2023-11-07/pendleton-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pendleton/government
+  office_id: pendleton/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1220200d-6479-52c3-b890-131b9360f853
+  - ocd-person/5aae2199-2c06-560b-ba43-eb6aa0190427
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1220200d-6479-52c3-b890-131b9360f853
+    name: 'Jeff Van Drie'
+    party: Nonpartisan
+    votes: 413
+- id: sc/2023-11-07/perry-council-seat-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:perry/government
+  office_id: perry/council-member-seat-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/07a8167c-f636-5ae0-98a2-d8864a5e839b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/07a8167c-f636-5ae0-98a2-d8864a5e839b
+    name: 'Maquel Blizzard'
+    party: Nonpartisan
+    votes: 10
+- id: sc/2023-11-07/perry-council-seat-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:perry/government
+  office_id: perry/council-member-seat-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1dc5037f-2467-5b39-adf5-50216077ef8a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1dc5037f-2467-5b39-adf5-50216077ef8a
+    name: 'Jenell Gilbert'
+    party: Nonpartisan
+    votes: 11
+- id: sc/2023-11-07/pickens-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/1c34f8d2-0d14-59da-893c-f409bbc099d6
+  - ocd-person/97b38e8b-84cf-5c88-89b8-c84f1f7e0f23
+  - ocd-person/7dcd942e-4ef0-5482-b5a0-862c0e9905f6
+  - ocd-person/9534ae62-4b57-5307-8e04-a25f2d52dac0
+  - ocd-person/1111be88-1665-5cc6-b5aa-b6a102daef93
+  - ocd-person/52fb95d6-f367-523f-85d3-d7c3148f67b9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1c34f8d2-0d14-59da-893c-f409bbc099d6
+    name: 'Danny Adams'
+    party: Nonpartisan
+    votes: 429
+  - person_id: ocd-person/97b38e8b-84cf-5c88-89b8-c84f1f7e0f23
+    name: 'Allie Winter'
+    party: Nonpartisan
+    votes: 262
+  - person_id: ocd-person/7dcd942e-4ef0-5482-b5a0-862c0e9905f6
+    name: 'Morrell Stokes'
+    party: Nonpartisan
+    votes: 245
+- id: sc/2023-11-07/pickens-council-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/200e3c34-0563-582b-8ece-250a1704ee60
+  result_status: certified
+  winners:
+  - person_id: ocd-person/200e3c34-0563-582b-8ece-250a1704ee60
+    name: 'Cameron Rivers'
+    party: Nonpartisan
+    votes: 268
+- id: sc/2023-11-07/pickens-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/664ce2ae-88d7-5d6c-9268-eb03e6d2a757
+  - ocd-person/b6f4b680-4900-5022-a8cc-3e6eed837f5b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/664ce2ae-88d7-5d6c-9268-eb03e6d2a757
+    name: 'Isaiah Scipio'
+    party: Nonpartisan
+    votes: 422
+- id: sc/2023-11-07/pine-ridge-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pine-ridge/government
+  office_id: pine-ridge/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/e97c5ac3-1d93-5155-9492-0be2a151f167
+  - ocd-person/624ef4ac-92b7-5031-bd92-60d50cec6de4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e97c5ac3-1d93-5155-9492-0be2a151f167
+    name: 'Beth Spires Sturkie'
+    party: Nonpartisan
+    votes: 70
+  - person_id: ocd-person/624ef4ac-92b7-5031-bd92-60d50cec6de4
+    name: 'Maria Jeffcoat Urbanek'
+    party: Nonpartisan
+    votes: 57
+- id: sc/2023-11-07/port-royal-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:port-royal/government
+  office_id: port-royal/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/5357ee05-5b6e-59a5-af59-d23bdfb59164
+  - ocd-person/bcb964dc-f321-5090-bbde-64eb16abb64c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5357ee05-5b6e-59a5-af59-d23bdfb59164
+    name: 'Jerry Ashmore'
+    party: Nonpartisan
+    votes: 826
+  - person_id: ocd-person/bcb964dc-f321-5090-bbde-64eb16abb64c
+    name: 'Jorge Guerrero'
+    party: Nonpartisan
+    votes: 645
+- id: sc/2023-11-07/port-royal-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:port-royal/government
+  office_id: port-royal/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/108fc568-1c0e-5578-b58d-63aefe219c23
+  - ocd-person/a4dadc59-973e-56f2-b583-409549878349
+  result_status: certified
+  winners:
+  - person_id: ocd-person/108fc568-1c0e-5578-b58d-63aefe219c23
+    name: 'Kevin M Phillips'
+    party: Nonpartisan
+    votes: 628
+- id: sc/2023-11-07/prosperity-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:prosperity/government
+  office_id: prosperity/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/fc700852-2d28-5556-b312-ebaa32ed8cb3
+  - ocd-person/378dfc58-c4a0-57ba-ae19-f3597be24354
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fc700852-2d28-5556-b312-ebaa32ed8cb3
+    name: 'Robert Martin'
+    party: Nonpartisan
+    votes: 94
+  - person_id: ocd-person/378dfc58-c4a0-57ba-ae19-f3597be24354
+    name: 'Chad W Hawkins'
+    party: Nonpartisan
+    votes: 65
+- id: sc/2023-11-07/ravenel-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ravenel/government
+  office_id: ravenel/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/0528422b-f668-55c8-a70f-d6241b837eba
+  - ocd-person/7ca4787b-7e09-528d-8040-761346bc19f5
+  - ocd-person/12668e59-54df-5c8e-9a57-9a30c36d96cf
+  - ocd-person/bfcec0d8-a6eb-5716-a41c-7071de80bbbb
+  - ocd-person/4db7c448-9d11-5e95-90a5-afc34de00c6b
+  - ocd-person/24b3aa8e-b040-52f5-8d46-42af25de447b
+  - ocd-person/c6241b6e-5b29-561a-bac5-0e4811900108
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0528422b-f668-55c8-a70f-d6241b837eba
+    name: 'Buckey Waters'
+    party: Nonpartisan
+    votes: 210
+  - person_id: ocd-person/7ca4787b-7e09-528d-8040-761346bc19f5
+    name: 'Cora Lee Singleton'
+    party: Nonpartisan
+    votes: 200
+  - person_id: ocd-person/12668e59-54df-5c8e-9a57-9a30c36d96cf
+    name: 'James R Rodgers Jr'
+    party: Nonpartisan
+    votes: 180
+- id: sc/2023-11-07/ravenel-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ravenel/government
+  office_id: ravenel/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fceaf882-c590-5be8-bc18-051969d743d3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fceaf882-c590-5be8-bc18-051969d743d3
+    name: 'Stephen Tumbleston'
+    party: Nonpartisan
+    votes: 260
+- id: sc/2023-11-07/reevesville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:reevesville/government
+  office_id: reevesville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/9ab445fa-a2a6-53ef-b89e-daefd90b312e
+  - ocd-person/d4454338-7695-597b-8cda-64e35f3f9a63
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9ab445fa-a2a6-53ef-b89e-daefd90b312e
+    name: 'Jane Bailey'
+    party: Nonpartisan
+    votes: 33
+  - person_id: ocd-person/d4454338-7695-597b-8cda-64e35f3f9a63
+    name: 'Sheri Mizell'
+    party: Nonpartisan
+    votes: 30
+- id: sc/2023-11-07/reevesville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:reevesville/government
+  office_id: reevesville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/65eb6874-5e74-55b8-b597-59bbd4de7daf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/65eb6874-5e74-55b8-b597-59bbd4de7daf
+    name: 'Tom Kittrell'
+    party: Nonpartisan
+    votes: 31
+- id: sc/2023-11-07/reidville-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:reidville/government
+  office_id: reidville/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/af4ea513-0fa6-5c56-973a-5e3b1597cdd3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/af4ea513-0fa6-5c56-973a-5e3b1597cdd3
+    name: 'Justin Beardsley'
+    party: Nonpartisan
+    votes: 190
+- id: sc/2023-11-07/reidville-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:reidville/government
+  office_id: reidville/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/82832270-7453-524e-b539-f55543ae740b
+  - ocd-person/82d1982c-dcef-555e-826c-410a193cb2c7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/82832270-7453-524e-b539-f55543ae740b
+    name: 'James A Richard'
+    party: Nonpartisan
+    votes: 167
+- id: sc/2023-11-07/richburg-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:richburg/government
+  office_id: richburg/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/bec40294-bf4f-5352-b07a-f78b1c0f0b42
+  - ocd-person/2f72d513-0009-50ba-a48c-7ab086c34554
+  - ocd-person/cfcc7483-8efc-5595-9099-8c334e3c6ae2
+  - ocd-person/e51126eb-e0cb-545b-a460-abb32d9d49e0
+  - ocd-person/0191f6e6-b04b-5375-a6cf-408a6a5ad789
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bec40294-bf4f-5352-b07a-f78b1c0f0b42
+    name: 'Nancy Beatty'
+    party: Nonpartisan
+    votes: 55
+  - person_id: ocd-person/2f72d513-0009-50ba-a48c-7ab086c34554
+    name: 'Helen Ruth Williams'
+    party: Nonpartisan
+    votes: 51
+  - person_id: ocd-person/cfcc7483-8efc-5595-9099-8c334e3c6ae2
+    name: 'Albert Stewart Jr'
+    party: Nonpartisan
+    votes: 51
+  - person_id: ocd-person/e51126eb-e0cb-545b-a460-abb32d9d49e0
+    name: 'Recorda Holmes'
+    party: Nonpartisan
+    votes: 40
+- id: sc/2023-11-07/richburg-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:richburg/government
+  office_id: richburg/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2142b108-bc80-582a-a87a-5bedbbc9bd15
+  - ocd-person/0191f6e6-b04b-5375-a6cf-408a6a5ad789
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2142b108-bc80-582a-a87a-5bedbbc9bd15
+    name: 'James Harris'
+    party: Nonpartisan
+    votes: 42
+- id: sc/2023-11-07/ridgeland-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ridgeland/government
+  office_id: ridgeland/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/2aa93d2e-2aac-5e2b-a118-d3b31f2d5341
+  - ocd-person/519ff3d6-4600-5dc7-8fc1-30c5f6b3d57f
+  - ocd-person/fc830264-b9b9-5771-a2a6-4843aacf797c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2aa93d2e-2aac-5e2b-a118-d3b31f2d5341
+    name: 'Libby Malphrus'
+    party: Nonpartisan
+    votes: 119
+  - person_id: ocd-person/519ff3d6-4600-5dc7-8fc1-30c5f6b3d57f
+    name: 'Bill Fishburne'
+    party: Nonpartisan
+    votes: 75
+- id: sc/2023-11-07/ridgeland-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ridgeland/government
+  office_id: ridgeland/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/174610e8-d010-562b-8dbb-9d609f04912f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/174610e8-d010-562b-8dbb-9d609f04912f
+    name: 'Joey Malphrus'
+    party: Nonpartisan
+    votes: 130
+- id: sc/2023-11-07/ridgeville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ridgeville/government
+  office_id: ridgeville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/572aa0b5-c7ea-5bae-9d99-2ae303631425
+  - ocd-person/b3a73a3f-b9ea-56a8-a77c-e9476d4cd0ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/572aa0b5-c7ea-5bae-9d99-2ae303631425
+    name: 'Nora E Doctor'
+    party: Nonpartisan
+    votes: 38
+  - person_id: ocd-person/b3a73a3f-b9ea-56a8-a77c-e9476d4cd0ed
+    name: 'Jacquelyn Hill'
+    party: Nonpartisan
+    votes: 32
+- id: sc/2023-11-07/rockville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:rockville/government
+  office_id: rockville/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/6c9fa1ca-5cd1-5c5e-bb46-d9a703949088
+  - ocd-person/97a3513d-b476-5d39-9040-0bef82a40ea4
+  - ocd-person/67957f66-25d0-5040-ae89-9fc39885e2ec
+  - ocd-person/0246dafe-da74-5009-b23f-e35bef8cd804
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6c9fa1ca-5cd1-5c5e-bb46-d9a703949088
+    name: 'Henry C Holst Sr'
+    party: Nonpartisan
+    votes: 49
+  - person_id: ocd-person/97a3513d-b476-5d39-9040-0bef82a40ea4
+    name: 'Whit Smith'
+    party: Nonpartisan
+    votes: 48
+  - person_id: ocd-person/67957f66-25d0-5040-ae89-9fc39885e2ec
+    name: 'Tammy Bazzle'
+    party: Nonpartisan
+    votes: 48
+  - person_id: ocd-person/0246dafe-da74-5009-b23f-e35bef8cd804
+    name: 'Frank D Thornhill'
+    party: Nonpartisan
+    votes: 48
+- id: sc/2023-11-07/rockville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:rockville/government
+  office_id: rockville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/239235fd-71ef-5d0b-bb7b-76b21dc285a0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/239235fd-71ef-5d0b-bb7b-76b21dc285a0
+    name: 'Riley A Bradham'
+    party: Nonpartisan
+    votes: 47
+- id: sc/2023-11-07/rowesville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:rowesville/government
+  office_id: rowesville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/1afce933-5868-5b73-97d3-d20fefd6a716
+  - ocd-person/a911275e-d455-50db-b7a3-3051fd907ddc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1afce933-5868-5b73-97d3-d20fefd6a716
+    name: 'William Billy Hurst'
+    party: Nonpartisan
+    votes: 19
+  - person_id: ocd-person/a911275e-d455-50db-b7a3-3051fd907ddc
+    name: 'Lauren L McDaniel'
+    party: Nonpartisan
+    votes: 15
+- id: sc/2023-11-07/salem-sc-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:salem/government
+  office_id: salem-sc/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/a37820ec-437e-5400-9314-d88d2e95d5be
+  - ocd-person/89883739-e8c2-5dd5-92de-ac27b2698b7f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a37820ec-437e-5400-9314-d88d2e95d5be
+    name: 'Leigh Roach'
+    party: Nonpartisan
+    votes: 20
+  - person_id: ocd-person/89883739-e8c2-5dd5-92de-ac27b2698b7f
+    name: 'Kevin D Talley'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/salem-sc-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:salem/government
+  office_id: salem-sc/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a4a480f4-f845-55ed-bb7e-f3a11d77099d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a4a480f4-f845-55ed-bb7e-f3a11d77099d
+    name: 'Lynn Frank Towe'
+    party: Nonpartisan
+    votes: 13
+- id: sc/2023-11-07/salley-council-seat-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:salley/government
+  office_id: salley/council-member-seat-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/91266cbd-36d8-5247-b4b1-23aefb4d3ee4
+  - ocd-person/9595831e-1c59-5d44-8931-98e68dfdd156
+  result_status: certified
+  winners:
+  - person_id: ocd-person/91266cbd-36d8-5247-b4b1-23aefb4d3ee4
+    name: 'Ronnie Hall'
+    party: Nonpartisan
+    votes: 79
+- id: sc/2023-11-07/salley-council-seat-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:salley/government
+  office_id: salley/council-member-seat-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0981ebe3-dfb4-5554-99a8-7352fa36d3be
+  - ocd-person/c9881bcb-9f6c-5a0e-9823-4fd13e024ea3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0981ebe3-dfb4-5554-99a8-7352fa36d3be
+    name: 'Leah B Shackleford'
+    party: Nonpartisan
+    votes: 84
+- id: sc/2023-11-07/salley-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:salley/government
+  office_id: salley/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/729074b8-fe61-5263-a031-e9f4ddbda4d0
+  - ocd-person/97604ef7-779d-5ceb-9dd9-ae961696b4c3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/729074b8-fe61-5263-a031-e9f4ddbda4d0
+    name: 'LaDonna C Hall'
+    party: Nonpartisan
+    votes: 82
+- id: sc/2023-11-07/scranton-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:scranton/government
+  office_id: scranton/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/a98ec790-36d6-59a5-bb9a-1396c8018305
+  - ocd-person/80941713-644a-5d78-8cfe-ddb189b26ecb
+  - ocd-person/2281c056-0a00-5ff6-bc3f-5f6c079c0ed6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a98ec790-36d6-59a5-bb9a-1396c8018305
+    name: 'Glenn Matthews'
+    party: Nonpartisan
+    votes: 118
+  - person_id: ocd-person/80941713-644a-5d78-8cfe-ddb189b26ecb
+    name: 'Thomas Knotts'
+    party: Nonpartisan
+    votes: 102
+- id: sc/2023-11-07/scranton-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:scranton/government
+  office_id: scranton/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/432a1897-1e75-5739-8816-1d22dd71d469
+  - ocd-person/59229b0d-697c-548c-b24c-2e290942cae5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/432a1897-1e75-5739-8816-1d22dd71d469
+    name: 'John Wallace Williams'
+    party: Nonpartisan
+    votes: 86
+- id: sc/2023-11-07/seabrook-island-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:seabrook-island/government
+  office_id: seabrook-island/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/024d54de-56d4-54d1-beed-6f16928bd2dc
+  - ocd-person/fcd4d3f4-bd1b-5e3a-87cd-08b2436219b7
+  - ocd-person/c1ffec92-5821-5b1f-ac43-62a837dff2b3
+  - ocd-person/94416f14-2b76-5aee-bb4f-849d248dee72
+  - ocd-person/670e0798-daf3-544d-85b5-691742c48981
+  - ocd-person/8992c7b2-bc97-534d-b85f-09c240db0455
+  - ocd-person/744bf511-9832-58a5-864f-a4946b103207
+  result_status: certified
+  winners:
+  - person_id: ocd-person/024d54de-56d4-54d1-beed-6f16928bd2dc
+    name: 'Raymond Hamilton'
+    party: Nonpartisan
+    votes: 860
+  - person_id: ocd-person/fcd4d3f4-bd1b-5e3a-87cd-08b2436219b7
+    name: 'Darryl May'
+    party: Nonpartisan
+    votes: 760
+  - person_id: ocd-person/c1ffec92-5821-5b1f-ac43-62a837dff2b3
+    name: 'Gordon Weis'
+    party: Nonpartisan
+    votes: 689
+  - person_id: ocd-person/94416f14-2b76-5aee-bb4f-849d248dee72
+    name: 'Dan Kortvelesy'
+    party: Nonpartisan
+    votes: 627
+- id: sc/2023-11-07/seabrook-island-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:seabrook-island/government
+  office_id: seabrook-island/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ca4d1cb4-9060-5b9b-b4c3-795b8ced5e0e
+  - ocd-person/ff235172-81e1-5643-b6b6-8786442f0d91
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ca4d1cb4-9060-5b9b-b4c3-795b8ced5e0e
+    name: 'Bruce Kleinman'
+    party: Nonpartisan
+    votes: 705
+- id: sc/2023-11-07/seneca-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:seneca/government
+  office_id: seneca/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/1efc47e9-2823-54a0-b353-0f3dfb16d677
+  - ocd-person/c07be7c0-d0a3-5e50-871f-c553624bd40a
+  - ocd-person/12a46525-f08c-5c3c-9ce0-949bcb64fd8c
+  - ocd-person/2a8d432a-1661-5d90-bc6a-60a8fae01663
+  - ocd-person/c35df038-d5eb-55e8-af48-a9d713705116
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1efc47e9-2823-54a0-b353-0f3dfb16d677
+    name: 'Scott Durham'
+    party: Nonpartisan
+    votes: 618
+  - person_id: ocd-person/c07be7c0-d0a3-5e50-871f-c553624bd40a
+    name: 'WC Honeycutt Jr'
+    party: Nonpartisan
+    votes: 602
+  - person_id: ocd-person/12a46525-f08c-5c3c-9ce0-949bcb64fd8c
+    name: 'Denise Rozman'
+    party: Nonpartisan
+    votes: 586
+  - person_id: ocd-person/2a8d432a-1661-5d90-bc6a-60a8fae01663
+    name: 'Joel Ward'
+    party: Nonpartisan
+    votes: 583
+- id: sc/2023-11-07/sharon-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sharon/government
+  office_id: sharon/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/585454d4-371c-5b88-97f3-c8ead2e77083
+  - ocd-person/70dfee0f-0612-5eb0-bf57-75d0796f0c5e
+  - ocd-person/6d589483-fff7-5122-b2ee-01a14b5f526b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/585454d4-371c-5b88-97f3-c8ead2e77083
+    name: 'Herschel L Brown Jr'
+    party: Nonpartisan
+    votes: 34
+  - person_id: ocd-person/70dfee0f-0612-5eb0-bf57-75d0796f0c5e
+    name: 'Ashley Glenn'
+    party: Nonpartisan
+    votes: 33
+  - person_id: ocd-person/6d589483-fff7-5122-b2ee-01a14b5f526b
+    name: 'Margarette Barnette Parrish'
+    party: Nonpartisan
+    votes: 30
+- id: sc/2023-11-07/sharon-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sharon/government
+  office_id: sharon/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6e3a8b91-72ab-50ef-8276-343c895b342e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6e3a8b91-72ab-50ef-8276-343c895b342e
+    name: 'Nicole Perkins'
+    party: Nonpartisan
+    votes: 35
+- id: sc/2023-11-07/six-mile-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:six-mile/government
+  office_id: six-mile/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/441524e4-21ba-573d-83c8-cb0f33306bf7
+  - ocd-person/9549672c-29d3-5931-b84a-09205408e18a
+  - ocd-person/3cf4eb68-d184-575e-8a28-13e2f7da0117
+  result_status: certified
+  winners:
+  - person_id: ocd-person/441524e4-21ba-573d-83c8-cb0f33306bf7
+    name: 'Mark Beckman'
+    party: Nonpartisan
+    votes: 174
+  - person_id: ocd-person/9549672c-29d3-5931-b84a-09205408e18a
+    name: 'Beau Proffitt'
+    party: Nonpartisan
+    votes: 154
+- id: sc/2023-11-07/six-mile-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:six-mile/government
+  office_id: six-mile/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d6122c18-e6d2-539b-a5a6-5589d052d43a
+  - ocd-person/0301c5ea-d4ce-55f3-a606-186b0530f6fc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d6122c18-e6d2-539b-a5a6-5589d052d43a
+    name: 'James A Atkinson'
+    party: Nonpartisan
+    votes: 155
+- id: sc/2023-11-07/smoaks-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smoaks/government
+  office_id: smoaks/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/600d1a1e-840b-579b-a535-8211fbca44b7
+  - ocd-person/2e78bfb4-b0ec-51c9-a00c-f82fa8d77b3d
+  - ocd-person/02a37357-0a54-51ff-aca1-96d4c9ae91ec
+  result_status: certified
+  winners:
+  - person_id: ocd-person/600d1a1e-840b-579b-a535-8211fbca44b7
+    name: 'Shane Campbell'
+    party: Nonpartisan
+    votes: 17
+  - person_id: ocd-person/2e78bfb4-b0ec-51c9-a00c-f82fa8d77b3d
+    name: 'Wayne S Garris'
+    party: Nonpartisan
+    votes: 10
+- id: sc/2023-11-07/smoaks-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smoaks/government
+  office_id: smoaks/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4a616f2b-b4dc-523f-bdef-6df39b95f7f8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4a616f2b-b4dc-523f-bdef-6df39b95f7f8
+    name: 'Joseph H Johns'
+    party: Nonpartisan
+    votes: 17
+- id: sc/2023-11-07/smyrna-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smyrna/government
+  office_id: smyrna/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/9c492caa-d024-503d-9ec3-0fb5f7782177
+  - ocd-person/b97745a4-deb1-5f82-9a40-111f2805040d
+  - ocd-person/74eaa2eb-35b0-5363-9ab8-8a3e876b10e5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9c492caa-d024-503d-9ec3-0fb5f7782177
+    name: 'Kimberly Linow'
+    party: Nonpartisan
+    votes: 19
+  - person_id: ocd-person/b97745a4-deb1-5f82-9a40-111f2805040d
+    name: 'Jessica Smith - Decertified'
+    party: Nonpartisan
+    votes: 8
+  - person_id: ocd-person/74eaa2eb-35b0-5363-9ab8-8a3e876b10e5
+    name: 'Amy Myott'
+    party: Nonpartisan
+    votes: 8
+- id: sc/2023-11-07/smyrna-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smyrna/government
+  office_id: smyrna/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/eeea4b72-2701-5f12-b708-65cc055b4727
+  result_status: official
+  winners: []
+- id: sc/2023-11-07/snelling-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:snelling/government
+  office_id: snelling/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/a5879dce-0fb7-5211-a904-041b9f358d5d
+  - ocd-person/05ade364-6193-54eb-aeb7-a713075ad9c6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a5879dce-0fb7-5211-a904-041b9f358d5d
+    name: 'Wiley Moore'
+    party: Nonpartisan
+    votes: 19
+- id: sc/2023-11-07/society-hill-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/e25e2c43-b921-5a54-b077-bd530cf7b42b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e25e2c43-b921-5a54-b077-bd530cf7b42b
+    name: 'Kevin A Long'
+    party: Nonpartisan
+    votes: 85
+- id: sc/2023-11-07/spartanburg-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:spartanburg/government
+  office_id: spartanburg/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7913416a-54e7-557d-ab2e-30841e1dcf89
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7913416a-54e7-557d-ab2e-30841e1dcf89
+    name: 'Meghan Smith'
+    party: Nonpartisan
+    votes: 500
+- id: sc/2023-11-07/spartanburg-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:spartanburg/government
+  office_id: spartanburg/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/31e33c86-b6f2-5444-972e-02f0c40e9fcb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/31e33c86-b6f2-5444-972e-02f0c40e9fcb
+    name: 'Rob Rain'
+    party: Nonpartisan
+    votes: 1089
+- id: sc/2023-11-07/spartanburg-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:spartanburg/government
+  office_id: spartanburg/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/43fef98d-356d-5870-9bca-2319f43ee8ec
+  - ocd-person/7ed5fafa-0dbd-5ac5-a098-c38608bb4ada
+  - ocd-person/97d4de9d-0bc5-52f3-8aa3-f35978f1617f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/43fef98d-356d-5870-9bca-2319f43ee8ec
+    name: 'J Ruth Littlejohn'
+    party: Nonpartisan
+    votes: 592
+- id: sc/2023-11-07/springdale-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:springdale/government
+  office_id: springdale/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/311f9464-db39-5653-9039-4790ebdcf85f
+  - ocd-person/e9323761-761a-520f-981c-33400c79667f
+  - ocd-person/393b97cf-5d35-5342-b5a6-e7a5f3243917
+  result_status: certified
+  winners:
+  - person_id: ocd-person/311f9464-db39-5653-9039-4790ebdcf85f
+    name: 'Cory Hook'
+    party: Nonpartisan
+    votes: 74
+  - person_id: ocd-person/e9323761-761a-520f-981c-33400c79667f
+    name: 'Steve O Hallman'
+    party: Nonpartisan
+    votes: 73
+  - person_id: ocd-person/393b97cf-5d35-5342-b5a6-e7a5f3243917
+    name: 'Viki Sox Fecas'
+    party: Nonpartisan
+    votes: 57
+- id: sc/2023-11-07/springfield-sc-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:springfield/government
+  office_id: springfield-sc/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/01d0bc54-d684-505e-ab1b-ef23160ee6ba
+  - ocd-person/76b85a25-3b9b-5ac8-b16a-280874beb277
+  - ocd-person/cdeb1c2f-8fa0-555c-9cb9-6f8d100e7102
+  - ocd-person/8cb5e727-7ee5-59f5-9be3-bd9fefa22363
+  - ocd-person/eb3c5c99-8cd6-5a9f-a27d-32bff964d72e
+  - ocd-person/4d5da47c-c5fd-57d6-88e9-098d4d860a98
+  result_status: certified
+  winners:
+  - person_id: ocd-person/01d0bc54-d684-505e-ab1b-ef23160ee6ba
+    name: 'Francine B Edwards'
+    party: Nonpartisan
+    votes: 128
+  - person_id: ocd-person/76b85a25-3b9b-5ac8-b16a-280874beb277
+    name: 'Allen Stanley'
+    party: Nonpartisan
+    votes: 99
+  - person_id: ocd-person/cdeb1c2f-8fa0-555c-9cb9-6f8d100e7102
+    name: 'Gregory Abendroth'
+    party: Nonpartisan
+    votes: 82
+  - person_id: ocd-person/8cb5e727-7ee5-59f5-9be3-bd9fefa22363
+    name: 'Rebecca Becky Jones'
+    party: Nonpartisan
+    votes: 68
+- id: sc/2023-11-07/springfield-sc-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:springfield/government
+  office_id: springfield-sc/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c5af6ee1-1ff4-5422-a64b-1e05df282440
+  result_status: official
+  winners: []
+- id: sc/2023-11-07/st-george-council-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-george/government
+  office_id: st-george/council-member-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e7fb879c-9218-5177-9a13-434494031f6d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e7fb879c-9218-5177-9a13-434494031f6d
+    name: 'Betty Collins'
+    party: Nonpartisan
+    votes: 13
+- id: sc/2023-11-07/st-george-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-george/government
+  office_id: st-george/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/792a5f46-58f4-59a5-949c-17981ea1b8cc
+  - ocd-person/a0f0cc5d-e4ab-5a07-a7fe-29ef8bf06e10
+  result_status: certified
+  winners:
+  - person_id: ocd-person/792a5f46-58f4-59a5-949c-17981ea1b8cc
+    name: 'Wil Lindsay'
+    party: Nonpartisan
+    votes: 28
+- id: sc/2023-11-07/st-george-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-george/government
+  office_id: st-george/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5c8bd5e0-5caa-5976-8a74-5e7e179750ed
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5c8bd5e0-5caa-5976-8a74-5e7e179750ed
+    name: 'Kevin R Hart'
+    party: Nonpartisan
+    votes: 147
+- id: sc/2023-11-07/st-matthews-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-matthews/government
+  office_id: st-matthews/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/33ea2a24-f5c5-514f-8c6c-1a3f3e88eca4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/33ea2a24-f5c5-514f-8c6c-1a3f3e88eca4
+    name: 'Webb Carroll'
+    party: Nonpartisan
+    votes: 52
+- id: sc/2023-11-07/st-matthews-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-matthews/government
+  office_id: st-matthews/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2a23f2b4-958d-5ab8-b11b-790573f3fd37
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2a23f2b4-958d-5ab8-b11b-790573f3fd37
+    name: 'Eloise Shuler-Guinyard'
+    party: Nonpartisan
+    votes: 51
+- id: sc/2023-11-07/st-matthews-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-matthews/government
+  office_id: st-matthews/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ea5745ec-e3fb-5755-a351-67ccb88634b3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ea5745ec-e3fb-5755-a351-67ccb88634b3
+    name: 'Sharon Keitt- Bennett'
+    party: Nonpartisan
+    votes: 41
+- id: sc/2023-11-07/st-matthews-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-matthews/government
+  office_id: st-matthews/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f5f027d8-9f9d-5ced-979d-a67948c654c1
+  - ocd-person/9902f5c4-f780-5d95-89b4-6f62f7ef55b4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f5f027d8-9f9d-5ced-979d-a67948c654c1
+    name: 'Helen G Carson'
+    party: Nonpartisan
+    votes: 279
+- id: sc/2023-11-07/stuckey-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:stuckey/government
+  office_id: stuckey/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/49787585-8ed8-5660-9f65-634591ede65a
+  - ocd-person/aa932107-48ff-5510-a511-0ce48fe035f9
+  - ocd-person/005c821d-d727-541f-a890-bc90ba48f957
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49787585-8ed8-5660-9f65-634591ede65a
+    name: 'Alpreshia Pressley'
+    party: Nonpartisan
+    votes: 30
+  - person_id: ocd-person/aa932107-48ff-5510-a511-0ce48fe035f9
+    name: 'George Pressley Jr'
+    party: Nonpartisan
+    votes: 22
+- id: sc/2023-11-07/summerville-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4dac1e47-1125-5cc1-8e9a-61c823ee259c
+  - ocd-person/eb9fafd2-6a49-515e-be18-6202b0bd9b24
+  - ocd-person/285976bc-be65-5e68-8cdb-0bf9f30c77c2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4dac1e47-1125-5cc1-8e9a-61c823ee259c
+    name: 'Tiffany Johnson-Wilson'
+    party: Nonpartisan
+    votes: 484
+- id: sc/2023-11-07/summerville-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/54e33626-8225-5455-b5ce-59c53e52cd46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/54e33626-8225-5455-b5ce-59c53e52cd46
+    name: 'Richard Waring'
+    party: Nonpartisan
+    votes: 1163
+- id: sc/2023-11-07/summerville-council-district-4-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/54e33626-8225-5455-b5ce-59c53e52cd46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/54e33626-8225-5455-b5ce-59c53e52cd46
+    name: 'Richard Waring'
+    party: Nonpartisan
+    votes: 1094
+- id: sc/2023-11-07/summerville-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/71ddcdcf-a632-52bc-b429-d11a9deaf788
+  result_status: certified
+  winners:
+  - person_id: ocd-person/71ddcdcf-a632-52bc-b429-d11a9deaf788
+    name: 'Bob Jackson'
+    party: Nonpartisan
+    votes: 451
+- id: sc/2023-11-07/summerville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2d6ea3b1-65e1-5db8-84b8-c1a3657eb367
+  - ocd-person/ac0b7ae7-cd3e-517c-ae70-9dfa7896e813
+  - ocd-person/0df7eeb4-b1d4-5cc2-a0aa-13fff90a0838
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2d6ea3b1-65e1-5db8-84b8-c1a3657eb367
+    name: 'Russ Touchberry'
+    party: Nonpartisan
+    votes: 3357
+- id: sc/2023-11-07/summit-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summit/government
+  office_id: summit/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/4845c3f1-a152-5166-9a1e-43d48d48d635
+  - ocd-person/16033d0e-2d6c-5867-a4da-c00f19f55dbd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4845c3f1-a152-5166-9a1e-43d48d48d635
+    name: 'Mike Hartley'
+    party: Nonpartisan
+    votes: 32
+  - person_id: ocd-person/16033d0e-2d6c-5867-a4da-c00f19f55dbd
+    name: 'Robert Schultz'
+    party: Nonpartisan
+    votes: 28
+- id: sc/2023-11-07/summit-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summit/government
+  office_id: summit/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5dfba919-5c76-5372-bb6a-0925b0f5fa46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5dfba919-5c76-5372-bb6a-0925b0f5fa46
+    name: 'David Reese'
+    party: Nonpartisan
+    votes: 32
+- id: sc/2023-11-07/surfside-beach-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:surfside-beach/government
+  office_id: surfside-beach/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/f654b8fd-254b-544b-8141-1d48eb8df6b9
+  - ocd-person/4b85c61e-8ee6-573f-9c98-641a3ebaf873
+  - ocd-person/7c374f74-3ab5-52a4-bd45-4f4e0c6bf46c
+  - ocd-person/86a38676-3d9e-5884-8bf3-6f2fe378d1f9
+  - ocd-person/3eae500d-4eeb-571e-96f5-bb4a0f82d373
+  - ocd-person/ebb5580c-dcac-5e8e-9e7b-d396f3265777
+  - ocd-person/d8eabf5c-8d66-525c-9b9d-34c2411e72fc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f654b8fd-254b-544b-8141-1d48eb8df6b9
+    name: 'Harry Kohlmann'
+    party: Nonpartisan
+    votes: 624
+  - person_id: ocd-person/4b85c61e-8ee6-573f-9c98-641a3ebaf873
+    name: 'Shawn M Fallon'
+    party: Nonpartisan
+    votes: 585
+  - person_id: ocd-person/7c374f74-3ab5-52a4-bd45-4f4e0c6bf46c
+    name: 'Skip Walls'
+    party: Nonpartisan
+    votes: 507
+- id: sc/2023-11-07/surfside-beach-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:surfside-beach/government
+  office_id: surfside-beach/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e08ddbac-8c4d-5441-a3a4-595fa87d9e63
+  - ocd-person/0a041e24-4ecc-56f0-ba1c-f4dc3e57078a
+  - ocd-person/97882065-5466-50fe-b7a0-ba009c98ef9a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e08ddbac-8c4d-5441-a3a4-595fa87d9e63
+    name: 'Rob Krouse'
+    party: Nonpartisan
+    votes: 567
+- id: sc/2023-11-07/swansea-council-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:swansea/government
+  office_id: swansea/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/db384081-5695-5833-932d-d0b4a639ca94
+  result_status: certified
+  winners:
+  - person_id: ocd-person/db384081-5695-5833-932d-d0b4a639ca94
+    name: 'Michael G Luongo'
+    party: Nonpartisan
+    votes: 6
+- id: sc/2023-11-07/swansea-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:swansea/government
+  office_id: swansea/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fd262875-4945-5b45-a013-f2960d89ea2d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fd262875-4945-5b45-a013-f2960d89ea2d
+    name: 'Doris Simmons'
+    party: Nonpartisan
+    votes: 11
+- id: sc/2023-11-07/tega-cay-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:tega-cay/government
+  office_id: tega-cay/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/11293ebc-37a4-5046-a9d9-6e2d3224c105
+  - ocd-person/858916fb-b7a5-5b1d-b81b-e141826fc6c2
+  - ocd-person/cc334b15-698c-515f-9416-d198f9d9e7a3
+  - ocd-person/3dca351d-a6bf-51f8-9529-bdf1146613e7
+  - ocd-person/647b31e4-6e53-5e5f-997f-30341b0ccad3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/11293ebc-37a4-5046-a9d9-6e2d3224c105
+    name: 'Carmen Miller'
+    party: Nonpartisan
+    votes: 1159
+  - person_id: ocd-person/858916fb-b7a5-5b1d-b81b-e141826fc6c2
+    name: 'Brian D Carter'
+    party: Nonpartisan
+    votes: 891
+- id: sc/2023-11-07/timmonsville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:timmonsville/government
+  office_id: timmonsville/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/99e0ff01-3159-52be-92f9-268370862f5f
+  - ocd-person/3cb586f0-7147-54ec-99dc-2456f953d3cc
+  result_status: certified
+  winners:
+  - person_id: ocd-person/99e0ff01-3159-52be-92f9-268370862f5f
+    name: 'Brenda T McKithen'
+    party: Nonpartisan
+    votes: 56
+  - person_id: ocd-person/3cb586f0-7147-54ec-99dc-2456f953d3cc
+    name: 'Richard Butch Hodges'
+    party: Nonpartisan
+    votes: 50
+- id: sc/2023-11-07/turbeville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:turbeville/government
+  office_id: turbeville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/4d3ed7f4-fd61-5e6a-826b-ce76c0f24bd6
+  - ocd-person/4555208f-735f-5985-9152-5246ccad7ce5
+  - ocd-person/1b912dde-370d-5e8b-a053-72c39037e5d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4d3ed7f4-fd61-5e6a-826b-ce76c0f24bd6
+    name: 'Judy Coker'
+    party: Nonpartisan
+    votes: 87
+  - person_id: ocd-person/4555208f-735f-5985-9152-5246ccad7ce5
+    name: 'Ericson Coker'
+    party: Nonpartisan
+    votes: 85
+- id: sc/2023-11-07/turbeville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:turbeville/government
+  office_id: turbeville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/034b58d3-b6e1-5a1d-b213-bd7f85a805a2
+  - ocd-person/553047c3-d267-5336-b033-ec35e69f0495
+  result_status: certified
+  winners:
+  - person_id: ocd-person/034b58d3-b6e1-5a1d-b213-bd7f85a805a2
+    name: 'Tammy L Hicks'
+    party: Nonpartisan
+    votes: 82
+- id: sc/2023-11-07/van-wyck-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:van-wyck/government
+  office_id: van-wyck/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/196eea9d-e681-532f-a622-94bc1c1cffd0
+  - ocd-person/d78bc523-4460-591d-9d9d-e9f44369bbf9
+  - ocd-person/b74307fd-618b-56b5-b56f-8ce55a2f0d51
+  result_status: certified
+  winners:
+  - person_id: ocd-person/196eea9d-e681-532f-a622-94bc1c1cffd0
+    name: 'Kyle Starnes'
+    party: Nonpartisan
+    votes: 89
+  - person_id: ocd-person/d78bc523-4460-591d-9d9d-e9f44369bbf9
+    name: 'Loyd Fox'
+    party: Nonpartisan
+    votes: 87
+- id: sc/2023-11-07/vance-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:vance/government
+  office_id: vance/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/83ebc5cf-f381-57c5-90de-03584811d6fe
+  - ocd-person/bacd76c2-48f0-5484-8eaa-a564d4a50c63
+  result_status: certified
+  winners:
+  - person_id: ocd-person/83ebc5cf-f381-57c5-90de-03584811d6fe
+    name: 'Barbara Montgomery'
+    party: Nonpartisan
+    votes: 23
+  - person_id: ocd-person/bacd76c2-48f0-5484-8eaa-a564d4a50c63
+    name: 'Caroline E Bush'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/varnville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:varnville/government
+  office_id: varnville/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/0d6dd4fb-0f9e-59f5-be0e-9d646faa3807
+  - ocd-person/8fb13b00-cec9-533d-9c15-1fa2d38ad10c
+  - ocd-person/22dacc59-5708-5d4d-ada6-2c76e3960b11
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0d6dd4fb-0f9e-59f5-be0e-9d646faa3807
+    name: 'Linda L Cooler'
+    party: Nonpartisan
+    votes: 163
+  - person_id: ocd-person/8fb13b00-cec9-533d-9c15-1fa2d38ad10c
+    name: 'Alexander Campbell'
+    party: Nonpartisan
+    votes: 156
+  - person_id: ocd-person/22dacc59-5708-5d4d-ada6-2c76e3960b11
+    name: 'Nick Ginn'
+    party: Nonpartisan
+    votes: 107
+- id: sc/2023-11-07/wagener-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:wagener/government
+  office_id: wagener/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/3b9238d3-79af-5872-acd1-adf6c7e8b6b9
+  - ocd-person/7756ca97-d09d-5a26-b40d-a11b150ce56d
+  - ocd-person/7309133f-0fc6-5602-869f-8a8703318a52
+  - ocd-person/52f76de2-aba1-5df3-bb79-a98be6d65d35
+  - ocd-person/cef56494-0cc6-5fb2-9a25-42125ac32edb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3b9238d3-79af-5872-acd1-adf6c7e8b6b9
+    name: 'George A Smith'
+    party: Nonpartisan
+    votes: 64
+  - person_id: ocd-person/7756ca97-d09d-5a26-b40d-a11b150ce56d
+    name: 'Nyia N Adams'
+    party: Nonpartisan
+    votes: 62
+- id: sc/2023-11-07/walhalla-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:walhalla/government
+  office_id: walhalla/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/888b62a5-a2fa-5e22-86bf-3b00b419544d
+  - ocd-person/8c214457-8e7b-5a63-a65e-f43864ed3e83
+  - ocd-person/e81440db-d0d8-53f4-90ff-8ea1a9fe2948
+  - ocd-person/80d6d5f7-8edb-50b8-8a32-2c875e85731f
+  - ocd-person/ad2f36ac-7f0e-5871-8f1b-a79355a55d72
+  - ocd-person/6f2367ad-7cc8-51da-8efd-31062c133660
+  - ocd-person/439aba79-9c1f-56ea-8503-6693fd9a56b0
+  - ocd-person/873e59fa-bc69-5b32-a6e6-0fdbf86be324
+  - ocd-person/807f08f0-8abd-51e7-82ed-d3083b311cc2
+  - ocd-person/a4c8e9ca-2269-509e-9212-21e1ec525d98
+  result_status: certified
+  winners:
+  - person_id: ocd-person/888b62a5-a2fa-5e22-86bf-3b00b419544d
+    name: 'Josh Holliday'
+    party: Nonpartisan
+    votes: 262
+  - person_id: ocd-person/8c214457-8e7b-5a63-a65e-f43864ed3e83
+    name: 'Josh Thomas'
+    party: Nonpartisan
+    votes: 244
+  - person_id: ocd-person/e81440db-d0d8-53f4-90ff-8ea1a9fe2948
+    name: 'Sarai Melendez'
+    party: Nonpartisan
+    votes: 232
+- id: sc/2023-11-07/walhalla-council-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:walhalla/government
+  office_id: walhalla/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/80d6d5f7-8edb-50b8-8a32-2c875e85731f
+  - ocd-person/811cde88-cd1c-5618-824c-141354e3aef7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/80d6d5f7-8edb-50b8-8a32-2c875e85731f
+    name: 'Kenny Johns'
+    party: Nonpartisan
+    votes: 338
+- id: sc/2023-11-07/walhalla-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:walhalla/government
+  office_id: walhalla/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f9852b04-8cdc-55c0-86da-e21df1450b3b
+  - ocd-person/7f49016d-482d-5eef-8271-f9d0e8289f21
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f9852b04-8cdc-55c0-86da-e21df1450b3b
+    name: 'Tim Hall'
+    party: Nonpartisan
+    votes: 396
+- id: sc/2023-11-07/walterboro-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:walterboro/government
+  office_id: walterboro/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/68b2b708-febf-5658-be52-248b9bc24425
+  - ocd-person/1dd58440-5d07-5089-8bbe-65bf0de9c71e
+  - ocd-person/cc05906b-81a2-5330-9136-137c497258f0
+  - ocd-person/41a8adb8-4a3c-5919-8173-ee74b7bc8aa3
+  result_status: certified
+  winners:
+  - person_id: ocd-person/68b2b708-febf-5658-be52-248b9bc24425
+    name: 'Judy Bridge'
+    party: Nonpartisan
+    votes: 306
+  - person_id: ocd-person/1dd58440-5d07-5089-8bbe-65bf0de9c71e
+    name: 'Paul Siegel'
+    party: Nonpartisan
+    votes: 305
+  - person_id: ocd-person/cc05906b-81a2-5330-9136-137c497258f0
+    name: 'Ladson Fishburne'
+    party: Nonpartisan
+    votes: 276
+- id: sc/2023-11-07/ward-council-4-year-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ward/government
+  office_id: ward/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/88c21dee-bac6-56ce-bb1f-7fe4a509aafe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/88c21dee-bac6-56ce-bb1f-7fe4a509aafe
+    name: 'Jessica Priest'
+    party: Nonpartisan
+    votes: 6
+- id: sc/2023-11-07/ward-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ward/government
+  office_id: ward/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/57f9a78f-14e6-5d43-bb98-f91fd8dd2316
+  result_status: certified
+  winners:
+  - person_id: ocd-person/57f9a78f-14e6-5d43-bb98-f91fd8dd2316
+    name: 'Larry D Lange'
+    party: Nonpartisan
+    votes: 9
+- id: sc/2023-11-07/wellford-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:wellford/government
+  office_id: wellford/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/eccdecc2-eabf-50c8-b786-bb833ac392d3
+  - ocd-person/f9aed891-6aa8-5a15-815d-9d6d8157c51e
+  - ocd-person/6dba8569-fcf8-5556-aa8f-d4b8f9e2d6dc
+  - ocd-person/9192bd43-8e1c-5a91-a1d2-c2214762835f
+  - ocd-person/9019b825-0e55-52f9-8cc1-d91adc289440
+  - ocd-person/a521f2d2-0e52-5361-bf87-42c18f7d9251
+  result_status: certified
+  winners:
+  - person_id: ocd-person/eccdecc2-eabf-50c8-b786-bb833ac392d3
+    name: 'Paige Bain'
+    party: Nonpartisan
+    votes: 190
+  - person_id: ocd-person/f9aed891-6aa8-5a15-815d-9d6d8157c51e
+    name: 'Glenna Faye Holcombe'
+    party: Nonpartisan
+    votes: 158
+- id: sc/2023-11-07/wellford-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:wellford/government
+  office_id: wellford/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3dd4f87b-2159-5532-84c7-543288dac5f0
+  - ocd-person/9c2c7549-e56a-5b8d-be6f-1befcf6cee49
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3dd4f87b-2159-5532-84c7-543288dac5f0
+    name: 'Pat Watson'
+    party: Nonpartisan
+    votes: 333
+- id: sc/2023-11-07/west-columbia-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1c84bda5-1652-5870-bbb3-bc501345a289
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1c84bda5-1652-5870-bbb3-bc501345a289
+    name: 'Trevor Bedell'
+    party: Nonpartisan
+    votes: 203
+- id: sc/2023-11-07/west-columbia-council-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/council-member-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e7cf244d-206c-5880-b5ce-65c27843c1cb
+  - ocd-person/91838ab3-c324-5a8d-9a5e-b30ac67befaa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e7cf244d-206c-5880-b5ce-65c27843c1cb
+    name: 'Joseph Dickey Jr'
+    party: Nonpartisan
+    votes: 226
+- id: sc/2023-11-07/west-columbia-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/council-member-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3eea6cc2-485a-5a93-9471-e272d01eba4b
+  - ocd-person/5d625f7c-8c50-5bb9-a36f-cf22b939649a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3eea6cc2-485a-5a93-9471-e272d01eba4b
+    name: 'Jimmy Brooks'
+    party: Nonpartisan
+    votes: 192
+- id: sc/2023-11-07/west-columbia-council-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/council-member-district-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fc679e1a-8dbe-5cde-bc29-f2bc8ab5789d
+  - ocd-person/528787ee-4372-5193-b1f8-8bafec887245
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fc679e1a-8dbe-5cde-bc29-f2bc8ab5789d
+    name: 'Sarah Mattern'
+    party: Nonpartisan
+    votes: 229
+- id: sc/2023-11-07/west-columbia-council-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/council-member-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86fcb1f9-fe96-5534-9964-addae363a039
+  - ocd-person/014a1baf-460d-5741-8888-ebc1da345c46
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86fcb1f9-fe96-5534-9964-addae363a039
+    name: 'David Benjamin Moye'
+    party: Nonpartisan
+    votes: 181
+- id: sc/2023-11-07/west-columbia-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8acb79f7-fc81-53bd-852d-59045646edfc
+  - ocd-person/f61bc190-a6b0-58c4-a377-b60f729137ca
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8acb79f7-fc81-53bd-852d-59045646edfc
+    name: 'Tem Miles'
+    party: Nonpartisan
+    votes: 1566
+- id: sc/2023-11-07/west-pelzer-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-pelzer/government
+  office_id: west-pelzer/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/9bbc2f64-a116-5488-b551-2c3a79a7d1a4
+  - ocd-person/00d491de-a8b4-5be3-9be9-3f8ed99d020b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9bbc2f64-a116-5488-b551-2c3a79a7d1a4
+    name: 'Tom Scarfo'
+    party: Nonpartisan
+    votes: 57
+  - person_id: ocd-person/00d491de-a8b4-5be3-9be9-3f8ed99d020b
+    name: 'Tim Williams'
+    party: Nonpartisan
+    votes: 48
+- id: sc/2023-11-07/west-pelzer-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-pelzer/government
+  office_id: west-pelzer/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5b12c1a5-248c-5820-99ff-c38016f72da2
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5b12c1a5-248c-5820-99ff-c38016f72da2
+    name: 'James R Riddle Sr'
+    party: Nonpartisan
+    votes: 65
+- id: sc/2023-11-07/west-union-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-union/government
+  office_id: west-union/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/7c3d6a06-1e48-557b-8ca5-5e7ec11a14a3
+  - ocd-person/f81a8695-3224-5b0b-8e66-03696e9985e2
+  - ocd-person/2c92fb4a-2c13-58a9-afd8-4c70e22157fd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7c3d6a06-1e48-557b-8ca5-5e7ec11a14a3
+    name: 'Dixie M Meeks'
+    party: Nonpartisan
+    votes: 15
+  - person_id: ocd-person/f81a8695-3224-5b0b-8e66-03696e9985e2
+    name: 'Lisa Wilson'
+    party: Nonpartisan
+    votes: 12
+- id: sc/2023-11-07/west-union-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-union/government
+  office_id: west-union/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2d11a0f5-33eb-5304-bff9-73db4a1878bf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2d11a0f5-33eb-5304-bff9-73db4a1878bf
+    name: 'Linda Oliver'
+    party: Nonpartisan
+    votes: 20
+- id: sc/2023-11-07/westminster-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:westminster/government
+  office_id: westminster/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/ade826bc-827e-51bc-bf51-1f76b0e9e4ff
+  - ocd-person/ea4d8a75-c585-501d-8d63-e67d778c5359
+  - ocd-person/d0eef5a7-5d58-5bf9-b9d0-02b02b809254
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ade826bc-827e-51bc-bf51-1f76b0e9e4ff
+    name: 'Adam G Dunn'
+    party: Nonpartisan
+    votes: 54
+  - person_id: ocd-person/ea4d8a75-c585-501d-8d63-e67d778c5359
+    name: 'Daby Snipes'
+    party: Nonpartisan
+    votes: 52
+  - person_id: ocd-person/d0eef5a7-5d58-5bf9-b9d0-02b02b809254
+    name: 'Audrey H Reese'
+    party: Nonpartisan
+    votes: 52
+- id: sc/2023-11-07/westminster-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:westminster/government
+  office_id: westminster/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2a0613e2-f17f-526f-990a-d48c19738238
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2a0613e2-f17f-526f-990a-d48c19738238
+    name: 'Brian F Ramey'
+    party: Nonpartisan
+    votes: 52
+- id: sc/2023-11-07/williams-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:williams/government
+  office_id: williams/council-member
+  vote_for: 4
+  candidate_ids:
+  - ocd-person/1955f8fd-1246-503d-a2b8-cbb4acebe305
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1955f8fd-1246-503d-a2b8-cbb4acebe305
+    name: 'Mark Will'
+    party: Nonpartisan
+    votes: 10
+- id: sc/2023-11-07/williams-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:williams/government
+  office_id: williams/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d6e175e3-7d37-5aca-86a2-8d766be8ea08
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d6e175e3-7d37-5aca-86a2-8d766be8ea08
+    name: 'Will Evans'
+    party: Nonpartisan
+    votes: 12
+- id: sc/2023-11-07/williston-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:williston/government
+  office_id: williston/council-member
+  vote_for: 3
+  candidate_ids:
+  - ocd-person/a3ab972c-9304-541b-9085-ef25a266d611
+  - ocd-person/ffaafd0b-9a4b-5b35-93f6-2976ad6f46c8
+  - ocd-person/3413ac5a-1a38-5a7b-8217-f28aa3fd3f84
+  - ocd-person/72c51c1b-af85-57c9-af6c-837e2b93ae55
+  - ocd-person/57729aa5-00f4-5438-a8b9-4d7710e99747
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a3ab972c-9304-541b-9085-ef25a266d611
+    name: 'Alyson Collins'
+    party: Nonpartisan
+    votes: 241
+  - person_id: ocd-person/ffaafd0b-9a4b-5b35-93f6-2976ad6f46c8
+    name: 'Greg Walkup'
+    party: Nonpartisan
+    votes: 224
+  - person_id: ocd-person/3413ac5a-1a38-5a7b-8217-f28aa3fd3f84
+    name: 'Judy Myrick Taylor'
+    party: Nonpartisan
+    votes: 205
+- id: sc/2023-11-07/woodruff-council-ward-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:woodruff/government
+  office_id: woodruff/council-member-ward-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/34a77e0c-c38c-5188-b31a-e7c1e27bec11
+  result_status: certified
+  winners:
+  - person_id: ocd-person/34a77e0c-c38c-5188-b31a-e7c1e27bec11
+    name: 'Mattie Norman'
+    party: Nonpartisan
+    votes: 423
+- id: sc/2023-11-07/woodruff-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:woodruff/government
+  office_id: woodruff/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/78c7da06-0f3e-5990-9061-fa9311bbbb96
+  result_status: certified
+  winners:
+  - person_id: ocd-person/78c7da06-0f3e-5990-9061-fa9311bbbb96
+    name: 'William E Arnold'
+    party: Nonpartisan
+    votes: 386
+- id: sc/2023-11-07/woodruff-council-ward-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:woodruff/government
+  office_id: woodruff/council-member-ward-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/449d3075-1af0-570f-af8a-26cfb5ab0e70
+  result_status: certified
+  winners:
+  - person_id: ocd-person/449d3075-1af0-570f-af8a-26cfb5ab0e70
+    name: 'Sharon Adkins Kelley'
+    party: Nonpartisan
+    votes: 396
+- id: sc/2023-11-07/woodruff-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:woodruff/government
+  office_id: woodruff/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6452b925-1624-5601-9a37-dd5c4b1bc443
+  - ocd-person/ce5621d6-d22b-52c7-a22a-53c15aacf7cd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6452b925-1624-5601-9a37-dd5c4b1bc443
+    name: 'Kenneth E Gist'
+    party: Nonpartisan
+    votes: 329
+- id: sc/2023-11-07/yemassee-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:yemassee/government
+  office_id: yemassee/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/62854cd0-e439-5d7b-9fcb-8acad1601136
+  - ocd-person/7ad893b1-f0c6-5e0d-b3f2-ecc786231afb
+  - ocd-person/d42aa9be-5071-53c9-a613-fbaf511f7410
+  - ocd-person/47dec0cb-82cb-51d3-b11c-bbc0934a7675
+  - ocd-person/fd19c4b8-1fcc-5712-8810-ebb857aa4e19
+  result_status: certified
+  winners:
+  - person_id: ocd-person/62854cd0-e439-5d7b-9fcb-8acad1601136
+    name: 'Richie Hagan'
+    party: Nonpartisan
+    votes: 133
+  - person_id: ocd-person/7ad893b1-f0c6-5e0d-b3f2-ecc786231afb
+    name: 'Daniel Anderson'
+    party: Nonpartisan
+    votes: 120
+- id: sc/2023-11-07/york-council-ward-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:york/government
+  office_id: york/council-member-ward-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/89c954fe-8826-56c4-9ab5-a1086700de67
+  result_status: certified
+  winners:
+  - person_id: ocd-person/89c954fe-8826-56c4-9ab5-a1086700de67
+    name: 'Eddie Brown'
+    party: Nonpartisan
+    votes: 43
+- id: sc/2023-11-07/york-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:york/government
+  office_id: york/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ab85dc95-8366-5858-a2cf-0b6382b7856c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ab85dc95-8366-5858-a2cf-0b6382b7856c
+    name: 'Marion L Ramsey'
+    party: Nonpartisan
+    votes: 42
+- id: sc/2023-11-07/york-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:york/government
+  office_id: york/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/288ce68b-9d97-5b47-8261-73bd49098897
+  result_status: certified
+  winners:
+  - person_id: ocd-person/288ce68b-9d97-5b47-8261-73bd49098897
+    name: 'Stephanie Jarrett'
+    party: Nonpartisan
+    votes: 39
+- id: sc/2023-11-07/york-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:york/government
+  office_id: york/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7ee5df06-60da-53bf-87be-97a8270eeba0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7ee5df06-60da-53bf-87be-97a8270eeba0
+    name: 'Mike Fuesser'
+    party: Nonpartisan
+    votes: 199
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, Town Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
