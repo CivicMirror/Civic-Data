@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ea6d3788-8e4d-5b09-85e1-7c99ac8d8514
+name: Vernon Dunbar
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/new-ellenton-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:new-ellenton/government
+  office_id: new-ellenton/mayor
+  party: Nonpartisan
+  ballot_name: 'Vernon Dunbar'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1957
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of New Ellenton City Mayor contest (ElectionStats contest 1957), county-division rows aggregated (Aiken County): Kimberly P. Williams 263; Vernon Dunbar 207.'
+  retrieved: '2026-10-26'

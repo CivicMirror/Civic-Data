@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0c8af9da-1a87-54b0-b02c-2f15840b9bb4
+name: Terry Fowler
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/cameron-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cameron/government
+  office_id: cameron/council-member
+  party: Nonpartisan
+  ballot_name: 'Terry Fowler'
+  status: active
+- contest_id: sc/2023-11-07/cameron-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cameron/government
+  office_id: cameron/council-member
+  party: Nonpartisan
+  ballot_name: 'Terry Fowler'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1658
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Cameron Town Council contest (ElectionStats contest 1658), county-division rows aggregated (Calhoun County): Wayne Polin 87; Jimmy Bryant 78; Terry Fowler 58.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/214
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Cameron Town Council contest (ElectionStats contest 214), county-division rows aggregated (Calhoun County): Gladys Ele'' Gardner-Simmons 67; Minnie S Haigler 65; Terry Fowler 11.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/630c8efe-5b81-53cc-b466-5341f8dec1a4
+name: Tameika Isaac Devine
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/columbia-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/mayor
+  party: Nonpartisan
+  ballot_name: 'Tameika Isaac Devine'
+  status: active
+- contest_id: sc/2021-11-16/columbia-mayor
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/mayor
+  party: Nonpartisan
+  ballot_name: 'Tameika Isaac Devine'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1609
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Columbia City Mayor contest (ElectionStats contest 1609), county-division rows aggregated (Lexington County): Daniel Rickenmann 8,420; Tameika Isaac Devine 5,846; Sam Johnson 4,721; Moe Baddourah 364; Temeika Isaac Devine 5.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/1970
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, City of Columbia City Mayor contest (ElectionStats contest 1970), county-division rows aggregated (Lexington County): Daniel Rickenmann 10,606; Tameika Isaac Devine 9,789.'
+  retrieved: '2026-10-26'

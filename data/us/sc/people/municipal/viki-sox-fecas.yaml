@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/393b97cf-5d35-5342-b5a6-e7a5f3243917
+name: Viki Sox Fecas
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/springdale-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:springdale/government
+  office_id: springdale/mayor
+  party: Nonpartisan
+  ballot_name: 'Viki Sox Fecas'
+  status: active
+- contest_id: sc/2023-11-07/springdale-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:springdale/government
+  office_id: springdale/council-member
+  party: Nonpartisan
+  ballot_name: 'Viki Sox Fecas'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1904
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Springdale Town Mayor contest (ElectionStats contest 1904), county-division rows aggregated (Lexington County): Juston Ricard 362; Viki Sox Fecas 157.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/298
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Springdale Town Council contest (ElectionStats contest 298), county-division rows aggregated (Lexington County): Cory Hook 74; Steve O Hallman 73; Viki Sox Fecas 57.'
+  retrieved: '2026-10-26'

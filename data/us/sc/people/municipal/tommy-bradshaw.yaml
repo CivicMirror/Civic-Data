@@ -1,0 +1,42 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/86f85f70-d789-57d5-9eaf-6d0326fe0eaf
+name: Tommy Bradshaw
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/society-hill-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/mayor
+  party: Nonpartisan
+  ballot_name: 'Tommy Bradshaw'
+  status: active
+- contest_id: sc/2021-11-16/society-hill-mayor
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/mayor
+  party: Nonpartisan
+  ballot_name: 'Tommy Bradshaw'
+  status: active
+- contest_id: sc/2023-11-21/society-hill-council
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/council-member
+  party: Nonpartisan
+  ballot_name: 'Tommy Bradshaw'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1863
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Society Hill Town Mayor contest (ElectionStats contest 1863), county-division rows aggregated (Darlington County): Tommy Bradshaw 90; Dwayne Duke 50; Scott Dixon 45.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/1967
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, Town of Society Hill Town Mayor contest (ElectionStats contest 1967), county-division rows aggregated (Darlington County): Tommy Bradshaw 98; Dwayne Duke 98.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/439
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Society Hill Town Council contest (ElectionStats contest 439), county-division rows aggregated (Darlington County): Tommy Bradshaw 79; Deborah Harrell 62.'
+  retrieved: '2026-10-26'

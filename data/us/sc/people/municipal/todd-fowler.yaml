@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/de8ca093-94fd-5ac3-969a-c77cb8de8157
+name: Todd Fowler
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/duncan-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:duncan/government
+  office_id: duncan/council-member
+  party: Nonpartisan
+  ballot_name: 'Todd Fowler'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/363
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Duncan Town Council contest (ElectionStats contest 363), county-division rows aggregated (Spartanburg County): Calvin Cowen 88; Todd Fowler 81; Donnie Center 59; Jeff Satterfield 56; Tom Haymon 31.'
+  retrieved: '2026-10-26'

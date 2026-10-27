@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/321de4c2-16ee-5c00-a440-e2a6382b655d
+name: Susan Hill Smith
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/isle-of-palms-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:isle-of-palms/government
+  office_id: isle-of-palms/council-member
+  party: Nonpartisan
+  ballot_name: 'Susan Hill Smith'
+  status: active
+- contest_id: sc/2024-11-19/isle-of-palms-council
+  election_id: sc/2024-11-19/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:isle-of-palms/government
+  office_id: isle-of-palms/council-member
+  party: Nonpartisan
+  ballot_name: 'Susan Hill Smith'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7583
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Isle of Palms City Council contest (ElectionStats contest 7583), county-division rows aggregated (Charleston County): Rusty Streetman 1,272; Susan Hill Smith 1,165; Josh Hooser 670.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/8119
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 19, 2024 general election, City of Isle of Palms City Council contest (ElectionStats contest 8119), county-division rows aggregated (Charleston County): Rusty Streetman 651; Susan Hill Smith 623.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/250db4aa-13a1-58a7-9351-6fd871443050
+name: T Frank Adams II
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/sumter-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/mayor
+  party: Nonpartisan
+  ballot_name: 'T. Frank Adams II'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7700
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Sumter City Mayor contest (ElectionStats contest 7700), county-division rows aggregated (Sumter County): David P. Merchant 8,818; Foxy Rae Campbell 3,990; T. Frank Adams II 1,192; Reginald Evans 1,143.'
+  retrieved: '2026-10-26'

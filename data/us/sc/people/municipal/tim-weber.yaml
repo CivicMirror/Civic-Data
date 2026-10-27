@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/54f1c183-c244-5c05-9f15-370c96ec03a9
+name: Tim Weber
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/charleston-council-district-4
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Tim Weber'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1755
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Charleston City Council contest (ElectionStats contest 1755), county-division rows aggregated (Charleston County): Robert M Mitchell 533; Tim Weber 164.'
+  retrieved: '2026-10-26'

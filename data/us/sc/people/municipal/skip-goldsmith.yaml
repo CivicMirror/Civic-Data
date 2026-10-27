@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/707b8314-3f14-5e36-94ea-b4d3c872d2ec
+name: Skip Goldsmith
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/pelzer-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pelzer/government
+  office_id: pelzer/council-member
+  party: Nonpartisan
+  ballot_name: 'Skip Goldsmith'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1646
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Pelzer Town Council contest (ElectionStats contest 1646), county-division rows aggregated (Anderson County): Donna Ide 79; Mike Matthews 71; Skip Goldsmith 57; Matt Turner 52.'
+  retrieved: '2026-10-26'

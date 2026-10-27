@@ -1,0 +1,42 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/5ed4b021-f885-54fb-9853-11beffe39753
+name: Tyler Bailey
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/columbia-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member
+  party: Nonpartisan
+  ballot_name: 'Tyler Bailey'
+  status: active
+- contest_id: sc/2021-11-16/columbia-council
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member
+  party: Nonpartisan
+  ballot_name: 'Tyler Bailey'
+  status: active
+- contest_id: sc/2023-11-07/columbia-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:columbia/government
+  office_id: columbia/council-member
+  party: Nonpartisan
+  ballot_name: 'Tyler Bailey'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1587
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Columbia City Council contest (ElectionStats contest 1587), county-division rows aggregated (Lexington County): Aditi Bussells 5,855; Tyler Bailey 4,704; Heather Bauer 3,564; Deitra S Matthews 2,055; John Tyler 774; John Crangle 771; Aaron D Smalls 498.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/1969
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, City of Columbia City Council contest (ElectionStats contest 1969), county-division rows aggregated (Lexington County): Aditi Bussells 10,640; Tyler Bailey 9,136.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/78
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Columbia City Council contest (ElectionStats contest 78), county-division rows aggregated (Lexington County): Tyler Bailey 6,190; Jesse Bullard 3,912; Christa Williams 1,346.'
+  retrieved: '2026-10-26'

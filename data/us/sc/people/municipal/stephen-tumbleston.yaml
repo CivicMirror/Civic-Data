@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/fceaf882-c590-5be8-bc18-051969d743d3
+name: Stephen Tumbleston
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/ravenel-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ravenel/government
+  office_id: ravenel/mayor
+  party: Nonpartisan
+  ballot_name: 'Stephen Tumbleston'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/226
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Ravenel Town Mayor contest (ElectionStats contest 226), county-division rows aggregated (Charleston County): Stephen Tumbleston 260.'
+  retrieved: '2026-10-26'

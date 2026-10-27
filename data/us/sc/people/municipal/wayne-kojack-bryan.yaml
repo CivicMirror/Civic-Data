@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c86e1770-d4e0-55be-bdc9-e2221daa8a34
+name: Wayne Kojack Bryan
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/saluda-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/mayor
+  party: Nonpartisan
+  ballot_name: 'Wayne Bryan'
+  status: active
+- contest_id: sc/2024-11-05/saluda-council-ward-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/council-member-ward-4
+  party: Nonpartisan
+  ballot_name: 'Wayne Kojack Bryan'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3077
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Saluda Town Mayor contest (ElectionStats contest 3077), county-division rows aggregated (Saluda County): Miliken Matthews 245; Amelia Herlong 242; Wayne Bryan 126.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7992
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Saluda Town Council contest (ElectionStats contest 7992), county-division rows aggregated (Saluda County): John Mark Griffith 111; Wayne Kojack Bryan 76.'
+  retrieved: '2026-10-26'

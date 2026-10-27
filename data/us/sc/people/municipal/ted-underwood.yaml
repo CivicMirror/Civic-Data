@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/31a1220a-b4cf-5cc3-8f81-48e57c6c8856
+name: Ted Underwood
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/cottageville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/mayor
+  party: Nonpartisan
+  ballot_name: 'Ted Underwood'
+  status: active
+- contest_id: sc/2023-11-21/cottageville-mayor
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/mayor
+  party: Nonpartisan
+  ballot_name: 'Ted Underwood'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/240
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Cottageville Town Mayor contest (ElectionStats contest 240), county-division rows aggregated (Colleton County): Donald Dulin 32; Tim Grimsley 27; Ted Underwood 27; Deb Welsh 20; Raymond Allen Jr 5.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/437
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Cottageville Town Mayor contest (ElectionStats contest 437), county-division rows aggregated (Colleton County): Donald Dulin 43; Tim Grimsley 32; Ted Underwood 23.'
+  retrieved: '2026-10-26'

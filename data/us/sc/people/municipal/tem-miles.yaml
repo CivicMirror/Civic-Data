@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8acb79f7-fc81-53bd-852d-59045646edfc
+name: Tem Miles
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/west-columbia-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:west-columbia/government
+  office_id: west-columbia/mayor
+  party: Nonpartisan
+  ballot_name: 'Tem Miles'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/157
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of West Columbia City Mayor contest (ElectionStats contest 157), county-division rows aggregated (Lexington County): Tem Miles 1,566; Melissa Sprouse Browne 637.'
+  retrieved: '2026-10-26'
