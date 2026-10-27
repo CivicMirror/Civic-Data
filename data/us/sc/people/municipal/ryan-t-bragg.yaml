@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/6971e04c-d86e-5cf4-a5dd-7aa6c9e0c31a
+name: Ryan T Bragg
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/barnwell-council-district-6
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/council-member-district-6
+  party: Nonpartisan
+  ballot_name: 'Ryan Bragg'
+  status: active
+- contest_id: sc/2023-11-07/barnwell-council-district-6
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/council-member-district-6
+  party: Nonpartisan
+  ballot_name: 'Ryan T Bragg'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1753
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Barnwell City Council contest (ElectionStats contest 1753), county-division rows aggregated (Barnwell County): Ryan Bragg 96.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/86
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Barnwell City Council contest (ElectionStats contest 86), county-division rows aggregated (Barnwell County): Jana Black Myers 88; Ryan T Bragg 81.'
+  retrieved: '2026-10-26'

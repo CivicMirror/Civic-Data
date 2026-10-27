@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/cea675b8-c290-510f-bc9e-4cc3fb297f1f
+name: Mike McFee
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/beaufort-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:beaufort/government
+  office_id: beaufort/council-member
+  party: Nonpartisan
+  ballot_name: 'Mike McFee'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3061
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Beaufort City Council contest (ElectionStats contest 3061), county-division rows aggregated (Beaufort County): Mike McFee 2,134; Josh Scallate 1,371; Josh Gibson 1,353; Wilma Holman 834; Michael JD Andersen 765.'
+  retrieved: '2026-10-26'

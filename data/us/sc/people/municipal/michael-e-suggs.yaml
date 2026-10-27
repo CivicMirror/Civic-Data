@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0ae35dfa-188f-54cd-97f7-6754d5b46df9
+name: Michael E Suggs
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/loris-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:loris/government
+  office_id: loris/mayor
+  party: Nonpartisan
+  ballot_name: 'Michael E Suggs'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/156
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Loris City Mayor contest (ElectionStats contest 156), county-division rows aggregated (Horry County): Michael E Suggs 263; Todd M Harrelson 238.'
+  retrieved: '2026-10-26'

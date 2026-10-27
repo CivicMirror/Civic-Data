@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/bea86aef-522d-55d1-a681-51ed4ce2077a
+name: Rebecca Lynn Kennedy
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/sumter-council-ward-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-4
+  party: Nonpartisan
+  ballot_name: 'Rebecca Lynn Kennedy'
+  status: active
+- contest_id: sc/2024-11-19/sumter-council-ward-4
+  election_id: sc/2024-11-19/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-4
+  party: Nonpartisan
+  ballot_name: 'Rebecca Lynn Kennedy'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/8000
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Sumter City Council contest (ElectionStats contest 8000), county-division rows aggregated (Sumter County): Gene Weston 584; Rebecca Lynn Kennedy 529; Lucy Mahon 484; Jimmy Davis 421; Scott Burkett 339.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/8123
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 19, 2024 general election, City of Sumter City Council contest (ElectionStats contest 8123), county-division rows aggregated (Sumter County): Rebecca Lynn Kennedy 238; Gene Weston 227.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/427c1b3e-551b-5f6d-b7e5-b09b4d5c54a9
+name: Rufus Waters
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lowndesville-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowndesville/government
+  office_id: lowndesville/mayor
+  party: Nonpartisan
+  ballot_name: 'Rufus Waters'
+  status: active
+- contest_id: sc/2023-11-07/lowndesville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowndesville/government
+  office_id: lowndesville/mayor
+  party: Nonpartisan
+  ballot_name: 'Rufus Waters'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1832
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lowndesville Town Mayor contest (ElectionStats contest 1832), county-division rows aggregated (Abbeville County): Rufus Waters 6.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/170
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Lowndesville Town Mayor contest (ElectionStats contest 170), county-division rows aggregated (Abbeville County): Rufus Waters 3.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c5b25dd5-0a3a-53bd-a6bb-2cad74bd0893
+name: Robert B Briggs
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/landrum-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:landrum/government
+  office_id: landrum/mayor
+  party: Nonpartisan
+  ballot_name: 'Robert B. Briggs'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1930
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Landrum City Mayor contest (ElectionStats contest 1930), county-division rows aggregated (Spartanburg County): Robert B. Briggs 131.'
+  retrieved: '2026-10-26'

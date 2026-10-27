@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/52da10cc-7263-5591-af43-165b0b129c5f
+name: Sam J Anthony
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/woodford-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:woodford/government
+  office_id: woodford/mayor
+  party: Nonpartisan
+  ballot_name: 'Sam J. Anthony'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1917
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Woodford Town Mayor contest (ElectionStats contest 1917), county-division rows aggregated (Orangeburg County): Sam J. Anthony 6.'
+  retrieved: '2026-10-26'

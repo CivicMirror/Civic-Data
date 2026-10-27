@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/3cb586f0-7147-54ec-99dc-2456f953d3cc
+name: Richard Butch Hodges
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/timmonsville-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:timmonsville/government
+  office_id: timmonsville/mayor
+  party: Nonpartisan
+  ballot_name: 'Richard Butch Hodges'
+  status: active
+- contest_id: sc/2023-11-07/timmonsville-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:timmonsville/government
+  office_id: timmonsville/council-member
+  party: Nonpartisan
+  ballot_name: 'Richard Butch Hodges'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1871
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Timmonsville Town Mayor contest (ElectionStats contest 1871), county-division rows aggregated (Florence County): William Bug James Jr. 218; Richard Butch Hodges 69.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/271
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Timmonsville Town Council contest (ElectionStats contest 271), county-division rows aggregated (Florence County): Brenda T McKithen 56; Richard Butch Hodges 50.'
+  retrieved: '2026-10-26'

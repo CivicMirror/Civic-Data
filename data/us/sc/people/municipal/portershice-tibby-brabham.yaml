@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ed4d3e52-16e3-523e-948f-fe241f5b5411
+name: Portershice Tibby Brabham
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/allendale-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/council-member
+  party: Nonpartisan
+  ballot_name: 'Portereshice Tibby Brabham'
+  status: active
+- contest_id: sc/2024-11-05/allendale-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/council-member
+  party: Nonpartisan
+  ballot_name: 'Portershice Tibby Brabham'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2353
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Allendale Town Council contest (ElectionStats contest 2353), county-division rows aggregated (Allendale County): Marlon Creech 313; Kathy Tharin 288; Lee Harley Fitts 242; Lottie Lewis 228; Portereshice Tibby Brabham 218.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7405
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Allendale Town Council contest (ElectionStats contest 7405), county-division rows aggregated (Allendale County): Randy Creech 476; Dawan Pookie Smith 446; Hattie Jackson 335; Portershice Tibby Brabham 306.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0ed6d85d-f8f1-5bac-b6ad-f5f5c4ace41a
+name: Reginald Evans
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/sumter-council-ward-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-1
+  party: Nonpartisan
+  ballot_name: 'Reginald Evans'
+  status: active
+- contest_id: sc/2024-11-05/sumter-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/mayor
+  party: Nonpartisan
+  ballot_name: 'Reginald Evans'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2857
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Sumter City Council contest (ElectionStats contest 2857), county-division rows aggregated (Sumter County): Joe Brown 338; Anthony Gibson 262; Derek Gamble 242; Barbette Thames 82; Reginald Evans 62.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7700
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Sumter City Mayor contest (ElectionStats contest 7700), county-division rows aggregated (Sumter County): David P. Merchant 8,818; Foxy Rae Campbell 3,990; T. Frank Adams II 1,192; Reginald Evans 1,143.'
+  retrieved: '2026-10-26'

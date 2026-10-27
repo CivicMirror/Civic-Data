@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2283a387-a541-58f3-ac5a-c6470260effd
+name: Peggy Edwards
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/liberty-council-ward-2
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:liberty/government
+  office_id: liberty/council-member-ward-2
+  party: Nonpartisan
+  ballot_name: 'Peggy Edwards'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1782
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Liberty City Council contest (ElectionStats contest 1782), county-division rows aggregated (Pickens County): Peggy Edwards 299.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/4798a871-f4a8-57ce-a640-0c60382a6544
+name: Robert Carl Griffin
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/central-council-unexpired-term
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  party: Nonpartisan
+  ballot_name: 'Robert Carl Griffin'
+  status: active
+- contest_id: sc/2023-11-21/central-council-unexpired-term
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  party: Nonpartisan
+  ballot_name: 'Robert Carl Griffin'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/349
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Central Town Council contest (ElectionStats contest 349), county-division rows aggregated (Pickens County): Robert Carl Griffin 118; Bryan Schaupp 85; Harry Holladay 74.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/449
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Central Town Council contest (ElectionStats contest 449), county-division rows aggregated (Pickens County): Robert Carl Griffin 103; Bryan Schaupp 86.'
+  retrieved: '2026-10-26'

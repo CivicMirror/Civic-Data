@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/468c1c58-0072-5ede-97f0-f6998427ea64
+name: Pam Anderson
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/mullins-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/mayor
+  party: Nonpartisan
+  ballot_name: 'Pam Anderson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7645
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Mullins City Mayor contest (ElectionStats contest 7645), county-division rows aggregated (Marion County): Miko Pickett 796; Pam Anderson 767.'
+  retrieved: '2026-10-26'

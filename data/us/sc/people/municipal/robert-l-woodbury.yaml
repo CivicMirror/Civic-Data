@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c9ca334f-9fac-5df9-9c01-71acbce8a6ac
+name: Robert L Woodbury
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/mullins-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/mayor
+  party: Nonpartisan
+  ballot_name: 'Robert L. Woodbury'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3929
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Mullins City Mayor contest (ElectionStats contest 3929), county-division rows aggregated (Marion County): Robert L. Woodbury 1,174; William L. Bo McMillan 598.'
+  retrieved: '2026-10-26'

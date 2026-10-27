@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2bf4d791-03be-5bd8-b02b-ae33d455b989
+name: Ricky Todd Harris
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/union-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Ricky Todd Harris'
+  status: active
+- contest_id: sc/2024-11-05/union-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Ricky Todd Harris'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3714
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Union City Council contest (ElectionStats contest 3714), county-division rows aggregated (Union County): Ricky Todd Harris 333; Penny Jeter 269.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7994
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Union City Council contest (ElectionStats contest 7994), county-division rows aggregated (Union County): Ricky Todd Harris 297; Vicki C. Morgan 257.'
+  retrieved: '2026-10-26'

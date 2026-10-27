@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c188192d-f1bd-54aa-8d8a-fe6265aed260
+name: Patricia Williams
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/brunson-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:brunson/government
+  office_id: brunson/mayor
+  party: Nonpartisan
+  ballot_name: 'Patricia Williams'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1895
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Brunson Town Mayor contest (ElectionStats contest 1895), county-division rows aggregated (Hampton County): Patricia Williams 33.'
+  retrieved: '2026-10-26'

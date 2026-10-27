@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/569b2a92-d701-5507-b24c-b8be9e4a728e
+name: Mitchell Lisenby
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lowrys-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowrys/government
+  office_id: lowrys/council-member
+  party: Nonpartisan
+  ballot_name: 'Mitchell Lisenby'
+  status: active
+- contest_id: sc/2023-11-07/lowrys-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowrys/government
+  office_id: lowrys/council-member
+  party: Nonpartisan
+  ballot_name: 'Mitchell Lisenby'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1666
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lowrys Town Council contest (ElectionStats contest 1666), county-division rows aggregated (Chester County): Valeria Erwin 20; AB Buddy Courtney 18; Mitchell Lisenby 18; Cole Abell 17.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/233
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Lowrys Town Council contest (ElectionStats contest 233), county-division rows aggregated (Chester County): AB Buddy Courtney 17; Mitchell Lisenby 17; Cole Abell 17; Valeria S Erwin 17.'
+  retrieved: '2026-10-26'
