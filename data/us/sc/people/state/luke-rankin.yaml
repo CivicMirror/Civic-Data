@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/ca40a98e-e5a4-51eb-81d5-c6f324ad2b2b
+name: Luke Rankin
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-14
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:14/legislature
+  office_id: sc-house-14/state-representative
+  party: Republican
+  ballot_name: 'Luke Rankin'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7158
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 14 contest (ElectionStats contest 7158), county-division rows aggregated across the district''s counties: Luke Rankin (Republican) 13,875; Write-In 450. Luke Rankin won with 13,875 votes.'
+  retrieved: '2026-10-25'

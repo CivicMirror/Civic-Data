@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/3cacdcfb-a88a-574e-9cec-ae4a03ed8062
+name: Marvin Rashad Pendarvis
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-113
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:113/legislature
+  office_id: sc-house-113/state-representative
+  party: Democratic
+  ballot_name: 'Marvin R. Pendarvis'
+  status: active
+- contest_id: sc/2024-11-05/house-113
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:113/legislature
+  office_id: sc-house-113/state-representative
+  party: Democratic
+  ballot_name: 'Marvin Rashad Pendarvis'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7290
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 113 contest (ElectionStats contest 7290), county-division rows aggregated across the district''s counties: Marvin Rashad Pendarvis (Democratic) 9,373; Write-In 262. Marvin Rashad Pendarvis won with 9,373 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2235
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 113 contest (ElectionStats contest 2235), county-division rows aggregated across the district''s counties: Marvin R. Pendarvis (Democratic) 6,056; Write-In 115. Marvin R. Pendarvis won with 6,056 votes.'
+  retrieved: '2026-10-25'

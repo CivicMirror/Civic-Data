@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/be288c35-a061-5fc0-b557-42df02b5c9d7
+name: Todd Rutherford
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-74
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:74/legislature
+  office_id: sc-house-74/state-representative
+  party: Democratic
+  ballot_name: 'Todd Rutherford'
+  status: active
+- contest_id: sc/2024-11-05/house-74
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:74/legislature
+  office_id: sc-house-74/state-representative
+  party: Democratic
+  ballot_name: 'Todd Rutherford'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7251
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 74 contest (ElectionStats contest 7251), county-division rows aggregated across the district''s counties: Todd Rutherford (Democratic) 12,303; Write-In 197. Todd Rutherford won with 12,303 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2251
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 74 contest (ElectionStats contest 2251), county-division rows aggregated across the district''s counties: Todd Rutherford (Democratic) 9,089; Write-In 129. Todd Rutherford won with 9,089 votes.'
+  retrieved: '2026-10-25'

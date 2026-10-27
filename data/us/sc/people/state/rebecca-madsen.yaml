@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/d61dd34d-2f91-5844-82e9-b999e64e3ca4
+name: Rebecca Madsen
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-79
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:79/legislature
+  office_id: sc-house-79/state-representative
+  party: Republican
+  ballot_name: 'Rebecca Madsen'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7256
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 79 contest (ElectionStats contest 7256), county-division rows aggregated across the district''s counties: Hamilton Grant (Democratic) 14,831; Rebecca Madsen (Republican) 4,851; Write-In 21. Hamilton Grant won with 14,831 votes.'
+  retrieved: '2026-10-25'

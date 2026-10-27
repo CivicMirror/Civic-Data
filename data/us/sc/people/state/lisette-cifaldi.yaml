@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/48cee7f6-937b-52d3-b61b-297ff86a489b
+name: Lisette Cifaldi
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-123
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:123/legislature
+  office_id: sc-house-123/state-representative
+  party: Democratic
+  ballot_name: 'Lisette Cifaldi'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7300
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 123 contest (ElectionStats contest 7300), county-division rows aggregated across the district''s counties: Jeff Bradley (Republican) 15,113; Lisette Cifaldi (Democratic) 10,114; Write-In 15. Jeff Bradley won with 15,113 votes.'
+  retrieved: '2026-10-25'

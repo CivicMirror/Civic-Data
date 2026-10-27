@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/b1607448-0e6c-5140-88ad-7a30835bcb5f
+name: Robert Reese
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-70
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:70/legislature
+  office_id: sc-house-70/state-representative
+  party: Democratic
+  ballot_name: 'Robert Reese'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7247
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 70 contest (ElectionStats contest 7247), county-division rows aggregated across the district''s counties: Robert Reese (Democratic) 13,752; Write-In 388. Robert Reese won with 13,752 votes.'
+  retrieved: '2026-10-25'

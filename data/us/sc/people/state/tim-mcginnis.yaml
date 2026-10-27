@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/7352e5f5-a269-569f-aa17-21cfca64e768
+name: Tim McGinnis
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-56
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:56/legislature
+  office_id: sc-house-56/state-representative
+  party: Republican
+  ballot_name: 'Tim McGinnis'
+  status: active
+- contest_id: sc/2024-11-05/house-56
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:56/legislature
+  office_id: sc-house-56/state-representative
+  party: Republican
+  ballot_name: 'Tim McGinnis'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7233
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 56 contest (ElectionStats contest 7233), county-division rows aggregated across the district''s counties: Tim McGinnis (Republican) 21,060; Write-In 205. Tim McGinnis won with 21,060 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2309
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 56 contest (ElectionStats contest 2309), county-division rows aggregated across the district''s counties: Tim McGinnis (Republican) 13,242; Write-In 159. Tim McGinnis won with 13,242 votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/2179fddf-bc30-50b2-91fe-d41b34e4a522
+name: Peter Brennan
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-112
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:112/legislature
+  office_id: sc-house-112/state-representative
+  party: Democratic
+  ballot_name: 'Peter Brennan'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7289
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 112 contest (ElectionStats contest 7289), county-division rows aggregated across the district''s counties: Joe Bustos (Republican) 16,905; Peter Brennan (Democratic) 10,765; Write-In 23. Joe Bustos won with 16,905 votes.'
+  retrieved: '2026-10-25'

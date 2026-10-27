@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/f82f40f0-7635-5d6d-bf67-62a0d1d66419
+name: Michael Reitz
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-18
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:18/legislature
+  office_id: sc-house-18/state-representative
+  party: Democratic
+  ballot_name: 'Michael Reitz'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2238
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 18 contest (ElectionStats contest 2238), county-division rows aggregated across the district''s counties: Alan Morgan (Republican) 11,431; Michael Reitz (Democratic) 3,462; Write-In 44. Alan Morgan won with 11,431 votes.'
+  retrieved: '2026-10-25'

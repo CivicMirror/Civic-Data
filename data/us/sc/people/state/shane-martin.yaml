@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/d8d6d020-98a5-5e0e-8484-95ae4e6d31e9
+name: Shane Martin
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/senate-13
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:13/legislature
+  office_id: sc-senate-13/state-senator
+  party: Republican
+  ballot_name: 'Shane Martin'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7157
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 13 contest (ElectionStats contest 7157), county-division rows aggregated across the district''s counties: Shane Martin (Republican) 44,583; Write-In 714. Shane Martin won with 44,583 votes.'
+  retrieved: '2026-10-25'

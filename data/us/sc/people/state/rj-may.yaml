@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/16c8943c-2848-5262-8147-a4d4b1af9a3e
+name: RJ May
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-88
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:88/legislature
+  office_id: sc-house-88/state-representative
+  party: Republican
+  ballot_name: 'RJ May'
+  status: active
+- contest_id: sc/2024-11-05/house-88
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:88/legislature
+  office_id: sc-house-88/state-representative
+  party: Republican
+  ballot_name: 'RJ May'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7265
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 88 contest (ElectionStats contest 7265), county-division rows aggregated across the district''s counties: RJ May (Republican) 13,020; Write-In 1,104. RJ May won with 13,020 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2201
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 88 contest (ElectionStats contest 2201), county-division rows aggregated across the district''s counties: RJ May (Republican) 8,304; Daniel J Shrief (Democratic) 3,531; Write-In 12. RJ May won with 8,304 votes.'
+  retrieved: '2026-10-25'
