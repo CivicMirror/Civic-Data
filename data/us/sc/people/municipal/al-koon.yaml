@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b66f4956-b850-5c0f-b175-8edb3a5babef
+name: Al Koon
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/chapin-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:chapin/government
+  office_id: chapin/mayor
+  party: Nonpartisan
+  ballot_name: 'Al Koon'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1900
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Chapin Town Mayor contest (ElectionStats contest 1900), county-division rows aggregated (Lexington County): Al Koon 35.'
+  retrieved: '2026-10-26'

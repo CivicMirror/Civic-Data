@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d1c29308-be4c-5c40-a852-7cd9d59ed12b
+name: Adam Spurlock
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/hanahan-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hanahan/government
+  office_id: hanahan/council-member
+  party: Nonpartisan
+  ballot_name: 'Adam Spurlock'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2358
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Hanahan City Council contest (ElectionStats contest 2358), county-division rows aggregated (Berkeley County): Kevin Hedgpeth 3,764; Adam Spurlock 3,474; Michael Sally 3,400.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/97b38e8b-84cf-5c88-89b8-c84f1f7e0f23
+name: Allie Winter
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/pickens-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  party: Nonpartisan
+  ballot_name: 'Allie Winter'
+  status: active
+- contest_id: sc/2023-11-21/pickens-council
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  party: Nonpartisan
+  ballot_name: 'Allie Winter'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/130
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Pickens City Council contest (ElectionStats contest 130), county-division rows aggregated (Pickens County): Danny Adams 429; Allie Winter 262; Morrell Stokes 245; Floyd Rogers 234; Jimmy Lee Davis 193; Richie Tallman 188.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/446
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Pickens City Council contest (ElectionStats contest 446), county-division rows aggregated (Pickens County): Floyd Rogers 220; Allie Winter 160; Morrell Stokes 103.'
+  retrieved: '2026-10-26'

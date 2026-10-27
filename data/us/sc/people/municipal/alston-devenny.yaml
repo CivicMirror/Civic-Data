@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/cf45f8ac-9c6e-5624-9860-fa3c9c66e5f1
+name: Alston DeVenny
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/lancaster-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lancaster/government
+  office_id: lancaster/mayor
+  party: Nonpartisan
+  ballot_name: 'Alston DeVenny'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2869
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Lancaster City Mayor contest (ElectionStats contest 2869), county-division rows aggregated (Lancaster County): Alston DeVenny 1,094; Yokima Cureton Yoki 714.'
+  retrieved: '2026-10-26'
