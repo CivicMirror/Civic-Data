@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8c3e0eb1-ba81-5054-92fe-77e1cc9493a7
+name: Frank Shumpert
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/pelion-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pelion/government
+  office_id: pelion/mayor
+  party: Nonpartisan
+  ballot_name: 'Frank Shumpert'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1902
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Pelion Town Mayor contest (ElectionStats contest 1902), county-division rows aggregated (Lexington County): Frank Shumpert 17.'
+  retrieved: '2026-10-26'

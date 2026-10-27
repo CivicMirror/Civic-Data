@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/1889a734-d195-555a-946a-9758473ae3b5
+name: Jarred Spencer
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/cowpens-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cowpens/government
+  office_id: cowpens/mayor
+  party: Nonpartisan
+  ballot_name: 'Jarred Spencer'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/354
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Cowpens Town Mayor contest (ElectionStats contest 354), county-division rows aggregated (Spartanburg County): Jarred Spencer 255.'
+  retrieved: '2026-10-26'

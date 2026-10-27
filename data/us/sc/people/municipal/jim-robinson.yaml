@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0d2d737c-6428-5a6e-aee8-d7f8305d2bd2
+name: Jim Robinson
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/easley-council-ward-6
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/council-member-ward-6
+  party: Nonpartisan
+  ballot_name: 'Jim Robinson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1780
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Easley City Council contest (ElectionStats contest 1780), county-division rows aggregated (Pickens County): Jim Robinson 57.'
+  retrieved: '2026-10-26'

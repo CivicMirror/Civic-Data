@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/49f0814e-d811-56f5-9ccb-735d897707aa
+name: James Anderson
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/new-ellenton-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:new-ellenton/government
+  office_id: new-ellenton/council-member
+  party: Republican
+  ballot_name: 'James Anderson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/77
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of New Ellenton City Council contest (ElectionStats contest 77), county-division rows aggregated (Aiken County): Ashley N Morgan 107; James Anderson 102; Carl Culpepper III 97.'
+  retrieved: '2026-10-26'

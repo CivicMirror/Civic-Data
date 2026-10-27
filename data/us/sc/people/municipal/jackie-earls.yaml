@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d71ef29c-9188-5724-b319-c88739d63edd
+name: Jackie Earls
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/union-council-district-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-1
+  party: Nonpartisan
+  ballot_name: 'Jackie Earls'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2860
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Union City Council contest (ElectionStats contest 2860), county-division rows aggregated (Union County): Jackie Earls 236; Jennifer H West 132.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/f9a92e1c-f774-5ad9-9fe1-86f820cdbe6d
+name: Donnie D Cason
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/gilbert-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:gilbert/government
+  office_id: gilbert/mayor
+  party: Nonpartisan
+  ballot_name: 'Donnie D Cason'
+  status: active
+- contest_id: sc/2023-11-21/gilbert-council
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:gilbert/government
+  office_id: gilbert/council-member
+  party: Nonpartisan
+  ballot_name: 'Donnie D. Cason'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1901
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Gilbert Town Mayor contest (ElectionStats contest 1901), county-division rows aggregated (Lexington County): John D. Reeder III 46; Fred Taylor 23; Donnie D Cason 22.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/440
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Gilbert Town Council contest (ElectionStats contest 440), county-division rows aggregated (Lexington County): Donnie D. Cason 37; Bryan E Smith 24.'
+  retrieved: '2026-10-26'

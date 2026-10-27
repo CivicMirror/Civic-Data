@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ff541f6f-ef5f-5f41-a7ef-b9d96dbfd7bc
+name: Jerry H Greene
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/elko-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:elko/government
+  office_id: elko/council-member
+  party: Nonpartisan
+  ballot_name: 'Jerry H Greene'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1649
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Elko Town Council contest (ElectionStats contest 1649), county-division rows aggregated (Barnwell County): George Carrie 18; Jerry H Greene 15.'
+  retrieved: '2026-10-26'

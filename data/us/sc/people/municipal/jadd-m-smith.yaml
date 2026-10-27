@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0ea614c7-3705-55f4-afa6-107566eecd12
+name: Jadd M Smith
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/six-mile-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:six-mile/government
+  office_id: six-mile/council-member
+  party: Nonpartisan
+  ballot_name: 'Jadd M Smith'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1717
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Six Mile Town Council contest (ElectionStats contest 1717), county-division rows aggregated (Pickens County): James A Atkinson 28; Jadd M Smith 21.'
+  retrieved: '2026-10-26'

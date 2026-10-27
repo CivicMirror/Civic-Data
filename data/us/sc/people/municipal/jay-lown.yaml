@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/93df0a4c-2b68-50b6-b270-53997f24c7a5
+name: Jay Lown
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/due-west-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:due-west/government
+  office_id: due-west/council-member
+  party: Nonpartisan
+  ballot_name: 'Jay Lown'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/169
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Due West Town Council contest (ElectionStats contest 169), county-division rows aggregated (Abbeville County): Bob Mock 72; Jay Lown 72; Beck Eleazer 70.'
+  retrieved: '2026-10-26'

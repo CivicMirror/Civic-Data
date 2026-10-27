@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/f97bbc24-3ea6-58a7-a1c6-3c15f35c702f
+name: Frank Dickson
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/branchville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:branchville/government
+  office_id: branchville/mayor
+  party: Nonpartisan
+  ballot_name: 'Frank Dickson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/321
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Branchville Town Mayor contest (ElectionStats contest 321), county-division rows aggregated (Orangeburg County): Frank Dickson 107.'
+  retrieved: '2026-10-26'

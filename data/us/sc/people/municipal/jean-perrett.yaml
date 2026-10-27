@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/42b4d581-71c4-500c-ae5d-bbd8ce22209f
+name: Jean Perrett
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/honea-path-council-ward-3
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:honea-path/government
+  office_id: honea-path/council-member-ward-3
+  party: Nonpartisan
+  ballot_name: 'Jean Perrett'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1590
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Honea Path Town Council contest (ElectionStats contest 1590), county-division rows aggregated (Abbeville County): Jean Perrett 37.'
+  retrieved: '2026-10-26'

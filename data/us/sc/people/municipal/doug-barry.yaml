@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/045de112-7762-58cd-a440-a26b2d6a5e8f
+name: Doug Barry
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/central-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  party: Nonpartisan
+  ballot_name: 'Doug Barry'
+  status: active
+- contest_id: sc/2023-11-21/central-council
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  party: Nonpartisan
+  ballot_name: 'Doug Barry'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/348
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Central Town Council contest (ElectionStats contest 348), county-division rows aggregated (Pickens County): Curtis L Peek 182; Lynne O''Dell Chapman 181; Joe Moss 134; Doug Barry 133; Daniel Evatt 115; Danny Sanders 99.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/448
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Central Town Council contest (ElectionStats contest 448), county-division rows aggregated (Pickens County): Joe Moss 110; Doug Barry 83.'
+  retrieved: '2026-10-26'

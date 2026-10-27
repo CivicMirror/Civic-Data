@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/740dac3d-6b6d-5f6f-8832-02454c976914
+name: Gordon Jones
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mccoll-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mccoll/government
+  office_id: mccoll/mayor
+  party: Nonpartisan
+  ballot_name: 'Gordon Jones'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1906
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mccoll Town Mayor contest (ElectionStats contest 1906), county-division rows aggregated (Marlboro County): George Garner 194; Robert Outlaw 185; Gordon Jones 100.'
+  retrieved: '2026-10-26'

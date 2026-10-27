@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/9d905cb6-e044-5b91-b32c-ffa4c6629f29
+name: Everett Leigh
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/union-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/mayor
+  party: Nonpartisan
+  ballot_name: 'Everett Leigh'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/4028
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Union City Mayor contest (ElectionStats contest 4028), county-division rows aggregated (Union County): Harold Thompson 1,946; Everett Leigh 1,320.'
+  retrieved: '2026-10-26'

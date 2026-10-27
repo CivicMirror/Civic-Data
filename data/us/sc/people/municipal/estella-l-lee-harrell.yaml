@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2b0c9a99-c737-5e9b-8dc6-9985227760ef
+name: Estella L Lee-Harrell
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/nichols-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:nichols/government
+  office_id: nichols/council-member
+  party: Nonpartisan
+  ballot_name: 'Estella L Lee-Harrell'
+  status: active
+- contest_id: sc/2024-11-05/nichols-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:nichols/government
+  office_id: nichols/council-member
+  party: Nonpartisan
+  ballot_name: 'Estella Lee-Harrell'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2836
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Nichols Town Council contest (ElectionStats contest 2836), county-division rows aggregated (Marion County): Delphia Gause 50; Michael Elliott 48; Estella L Lee-Harrell 40; Timothy Overley 24.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7652
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Nichols Town Council contest (ElectionStats contest 7652), county-division rows aggregated (Marion County): Roger Taylor 89; Estella Lee-Harrell 77.'
+  retrieved: '2026-10-26'

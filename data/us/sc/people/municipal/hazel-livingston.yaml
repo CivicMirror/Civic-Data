@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/154ee82d-cef9-558b-a7d1-6150a66c4874
+name: Hazel Livingston
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/lexington-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lexington/government
+  office_id: lexington/mayor
+  party: Nonpartisan
+  ballot_name: 'Hazel Livingston'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/301
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Lexington Town Mayor contest (ElectionStats contest 301), county-division rows aggregated (Lexington County): Hazel Livingston 1,994.'
+  retrieved: '2026-10-26'

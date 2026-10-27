@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8b169b7f-ab89-5e26-9177-d93c95246377
+name: Jerry Martin
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/monetta-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:monetta/government
+  office_id: monetta/council-member
+  party: Nonpartisan
+  ballot_name: 'Jerry Martin'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/179
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Monetta Town Council contest (ElectionStats contest 179), county-division rows aggregated (Aiken County): Jerry Martin 15.'
+  retrieved: '2026-10-26'
