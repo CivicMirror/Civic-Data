@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/90a7f227-6bc4-5368-96d5-db92b023f2b5
+name: Joe McDowell
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/campobello-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:campobello/government
+  office_id: campobello/council-member
+  party: Nonpartisan
+  ballot_name: 'Joe McDowell'
+  status: active
+- contest_id: sc/2023-11-07/campobello-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:campobello/government
+  office_id: campobello/council-member
+  party: Nonpartisan
+  ballot_name: 'Joe McDowell'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2844
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Campobello Town Council contest (ElectionStats contest 2844), county-division rows aggregated (Spartanburg County): Joe McDowell 120; Nylene Wilds 74.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/361
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Campobello Town Council contest (ElectionStats contest 361), county-division rows aggregated (Spartanburg County): Alician C Sprouse 57; Joe McDowell 50.'
+  retrieved: '2026-10-26'

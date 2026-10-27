@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/196eea9d-e681-532f-a622-94bc1c1cffd0
+name: Kyle Starnes
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/van-wyck-council-four-year-term
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:van-wyck/government
+  office_id: van-wyck/council-member
+  party: Nonpartisan
+  ballot_name: 'Kyle Starnes'
+  status: active
+- contest_id: sc/2023-11-07/van-wyck-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:van-wyck/government
+  office_id: van-wyck/council-member
+  party: Nonpartisan
+  ballot_name: 'Kyle Starnes'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1693
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Van Wyck Town Council contest (ElectionStats contest 1693), county-division rows aggregated (Lancaster County): Cassandra Watkins 119; Stuart Graham 98; Kyle Starnes 58; Sheena Hinson 48; Lance Kip Awbrey 28.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/293
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Van Wyck Town Council contest (ElectionStats contest 293), county-division rows aggregated (Lancaster County): Kyle Starnes 89; Loyd Fox 87; Kristen Setzer 77.'
+  retrieved: '2026-10-26'

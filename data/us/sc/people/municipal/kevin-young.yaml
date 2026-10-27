@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7309133f-0fc6-5602-869f-8a8703318a52
+name: Kevin Young
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/wagener-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:wagener/government
+  office_id: wagener/council-member
+  party: Nonpartisan
+  ballot_name: 'Kevin Young'
+  status: active
+- contest_id: sc/2023-11-07/wagener-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:wagener/government
+  office_id: wagener/council-member
+  party: Nonpartisan
+  ballot_name: 'Kevin Young'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1640
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Wagener Town Council contest (ElectionStats contest 1640), county-division rows aggregated (Aiken County): Randy L Kitchings 104; Taylor Love 60; Andrew O''Byrne Jr 58; Kevin Young 56.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/185
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Wagener Town Council contest (ElectionStats contest 185), county-division rows aggregated (Aiken County): George A Smith 64; Nyia N Adams 62; Kevin Young 28; Joann T Johnson 22; Karen Williams 11.'
+  retrieved: '2026-10-26'

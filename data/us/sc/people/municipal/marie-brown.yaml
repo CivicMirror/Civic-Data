@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/540ac611-dcf3-52e3-912d-5a3590c5c117
+name: Marie Brown
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/cayce-council-district-2
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cayce/government
+  office_id: cayce/council-member-district-2
+  party: Nonpartisan
+  ballot_name: 'Marie Brown'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/119
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Cayce City Council contest (ElectionStats contest 119), county-division rows aggregated (Lexington County): Byron Thomas 115; James Skip Jenkins 110; Marie Brown 86.'
+  retrieved: '2026-10-26'

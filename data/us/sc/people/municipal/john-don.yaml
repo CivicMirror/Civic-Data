@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b97e8fe8-e684-557b-8b1d-93de6243ff3b
+name: John Don
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/fountain-inn-council-ward-5
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fountain-inn/government
+  office_id: fountain-inn/council-member-ward-5
+  party: Nonpartisan
+  ballot_name: 'John Don'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1597
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Fountain Inn City Council contest (ElectionStats contest 1597), county-division rows aggregated (Greenville County): John Don 368; Anthony Cunningham 224.'
+  retrieved: '2026-10-26'

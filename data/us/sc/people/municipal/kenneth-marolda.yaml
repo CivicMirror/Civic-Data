@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8eac8419-0e0e-5a94-ab3e-9fa9b9dcf534
+name: Kenneth Marolda
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/charleston-council-district-9
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-9
+  party: Nonpartisan
+  ballot_name: 'Kenneth Marolda'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/91
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Charleston City Council contest (ElectionStats contest 91), county-division rows aggregated (Charleston County): William Tinkler 1,305; Mike Gastin 867; Kenneth Marolda 480; William Gilliard 466; Francis Marion Beylotte III 148.'
+  retrieved: '2026-10-26'

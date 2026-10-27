@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d0d8d75a-c6a0-5856-9df2-0620d3dc3b04
+name: John W Rivers
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/st-stephen-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:st-stephen/government
+  office_id: st-stephen/mayor
+  party: Nonpartisan
+  ballot_name: 'John W Rivers'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2526
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of St Stephen Town Mayor contest (ElectionStats contest 2526), county-division rows aggregated (Berkeley County): John W Rivers 170; Charon Gadsden 136; Byron Norris McKelvey 119.'
+  retrieved: '2026-10-26'

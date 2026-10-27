@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/519a8e7d-df68-5c71-bafb-98c96f612c1a
+name: Josh Stephenson
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/belton-council-ward-4
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:belton/government
+  office_id: belton/council-member-ward-4
+  party: Nonpartisan
+  ballot_name: 'Josh Stephenson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/81
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Belton City Council contest (ElectionStats contest 81), county-division rows aggregated (Anderson County): Josh Stephenson 220.'
+  retrieved: '2026-10-26'

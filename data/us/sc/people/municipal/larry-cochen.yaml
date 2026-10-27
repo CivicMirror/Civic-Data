@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8c884925-e81f-5666-80f9-975a5c1ca634
+name: Larry Cochen
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/allendale-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/mayor
+  party: Nonpartisan
+  ballot_name: 'Larry Cochen'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7955
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Allendale Town Mayor contest (ElectionStats contest 7955), county-division rows aggregated (Allendale County): Tom Carter 414; Marlon Creech 351; Larry Cochen 196.'
+  retrieved: '2026-10-26'

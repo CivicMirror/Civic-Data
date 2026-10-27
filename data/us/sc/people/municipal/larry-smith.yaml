@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/3ff6bee7-6f45-5822-b17a-3fa38c3a96bf
+name: Larry Smith
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-22/troy-council
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:troy/government
+  office_id: troy/council-member
+  party: Nonpartisan
+  ballot_name: 'Larry Smith'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3083
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, Town of Troy Town Council contest (ElectionStats contest 3083), county-division rows aggregated (Greenwood County): Larry Smith 20; Tonya Young Dixon 20.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0edd4066-0ddc-5439-bd20-7685afa2ae0c
+name: John Nelson
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mcconnells-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcconnells/government
+  office_id: mcconnells/council-member
+  party: Nonpartisan
+  ballot_name: 'John Nelson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1729
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mcconnells Town Council contest (ElectionStats contest 1729), county-division rows aggregated (York County): Bill Covington 31; Liz Frame Christenberry 29; Bill Nance 28; John Nelson 26.'
+  retrieved: '2026-10-26'

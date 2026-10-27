@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/62c5d271-b28f-5cb8-9531-3dc4a1203e56
+name: John Fulmer
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/clemson-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:clemson/government
+  office_id: clemson/council-member
+  party: Nonpartisan
+  ballot_name: 'John Fulmer'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2324
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Clemson City Council contest (ElectionStats contest 2324), county-division rows aggregated (Anderson County): John Fulmer 2,340; Lillian Boatwright 2,317; Alesia Smith 1,997; Margaret J. Thompson 1,657; Jones 1,003.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8943c3e0-9864-5a5e-87f5-434e753b03df
+name: Larry A Earl
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/hickory-grove-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hickory-grove/government
+  office_id: hickory-grove/mayor
+  party: Nonpartisan
+  ballot_name: 'Larry A. Earl'
+  status: active
+- contest_id: sc/2023-11-07/hickory-grove-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hickory-grove/government
+  office_id: hickory-grove/mayor
+  party: Nonpartisan
+  ballot_name: 'Larry A. Earl'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1939
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Hickory Grove Town Mayor contest (ElectionStats contest 1939), county-division rows aggregated (York County): Larry A. Earl 23.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/377
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Hickory Grove Town Mayor contest (ElectionStats contest 377), county-division rows aggregated (York County): Larry A. Earl 19.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/441524e4-21ba-573d-83c8-cb0f33306bf7
+name: Mark Beckman
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/six-mile-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:six-mile/government
+  office_id: six-mile/council-member
+  party: Nonpartisan
+  ballot_name: 'Mark Beckman'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/345
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Six Mile Town Council contest (ElectionStats contest 345), county-division rows aggregated (Pickens County): Mark Beckman 174; Beau Proffitt 154; Withdrawn 29.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/1b8f69c6-088d-5281-8132-f83410da7a65
+name: Josh Gibson
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/beaufort-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:beaufort/government
+  office_id: beaufort/council-member
+  party: Nonpartisan
+  ballot_name: 'Josh Gibson'
+  status: active
+- contest_id: sc/2024-11-05/beaufort-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:beaufort/government
+  office_id: beaufort/council-member
+  party: Nonpartisan
+  ballot_name: 'Josh Gibson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3061
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Beaufort City Council contest (ElectionStats contest 3061), county-division rows aggregated (Beaufort County): Mike McFee 2,134; Josh Scallate 1,371; Josh Gibson 1,353; Wilma Holman 834; Michael JD Andersen 765.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7437
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Beaufort City Council contest (ElectionStats contest 7437), county-division rows aggregated (Beaufort County): Mitch Mitchell 2,718; Neil B. Lipsitz 2,437; Julie Crenshaw 2,200; Josh Gibson 2,006.'
+  retrieved: '2026-10-26'

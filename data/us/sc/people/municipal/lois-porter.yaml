@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b6f4b680-4900-5022-a8cc-3e6eed837f5b
+name: Lois Porter
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/pickens-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/mayor
+  party: Nonpartisan
+  ballot_name: 'Lois Porter'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/162
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Pickens City Mayor contest (ElectionStats contest 162), county-division rows aggregated (Pickens County): Isaiah Scipio 422; Lois Porter 204.'
+  retrieved: '2026-10-26'

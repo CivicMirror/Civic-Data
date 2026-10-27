@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/99e1261a-4365-592c-9f36-409e8f275515
+name: Jody C Stubbs
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mccoll-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mccoll/government
+  office_id: mccoll/council-member
+  party: Nonpartisan
+  ballot_name: 'Jody C Stubbs'
+  status: active
+- contest_id: sc/2023-11-07/mccoll-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mccoll/government
+  office_id: mccoll/council-member
+  party: Nonpartisan
+  ballot_name: 'Jody C Stubbs'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1701
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mccoll Town Council contest (ElectionStats contest 1701), county-division rows aggregated (Marlboro County): Brian K Blue 366; Jody C Stubbs 338; R C Cummings 318; Lynn Kubas 315; Ray Grier 312; David Limbacher 285; Willie Goins 265; Brenda Jones 206.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/312
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Mccoll Town Council contest (ElectionStats contest 312), county-division rows aggregated (Marlboro County): Brian Blue 443; Harry L Benjamin Jr 404; R C Cummings 391; Lynn Kubas 379; David Garner 354; Jody C Stubbs 347; David Limbacher 279.'
+  retrieved: '2026-10-26'

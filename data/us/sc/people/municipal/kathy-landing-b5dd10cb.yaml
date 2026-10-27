@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/19420e85-2cc5-59d0-b34f-cf283daf8bd3
+name: Kathy Landing
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mount-pleasant-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mount-pleasant/government
+  office_id: mount-pleasant/mayor
+  party: Nonpartisan
+  ballot_name: 'Kathy Landing'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1847
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mount Pleasant Town Mayor contest (ElectionStats contest 1847), county-division rows aggregated (Charleston County): Will Haynie 9,253; Kathy Landing 6,423; Brandon C. Armstrong 221.'
+  retrieved: '2026-10-26'

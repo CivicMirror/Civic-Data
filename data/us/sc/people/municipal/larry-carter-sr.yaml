@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ff79844c-a50b-581b-a34c-64672420f23e
+name: Larry Carter Sr
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lodge-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lodge/government
+  office_id: lodge/mayor
+  party: Nonpartisan
+  ballot_name: 'Larry Carter Sr'
+  status: active
+- contest_id: sc/2021-11-16/lodge-mayor
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lodge/government
+  office_id: lodge/mayor
+  party: Nonpartisan
+  ballot_name: 'Larry Carter Sr.'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1858
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lodge Town Mayor contest (ElectionStats contest 1858), county-division rows aggregated (Colleton County): R Christopher Smith 19; Larry Carter Sr 19.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/1964
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, Town of Lodge Town Mayor contest (ElectionStats contest 1964), county-division rows aggregated (Colleton County): R Christopher Smith 26; Larry Carter Sr. 19.'
+  retrieved: '2026-10-26'
