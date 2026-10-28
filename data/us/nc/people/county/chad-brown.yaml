@@ -7,7 +7,14 @@
 id: ocd-person/963d240a-07f5-541a-a822-25300f8270db
 name: Chad Brown
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/secretary-of-state
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
+  office_id: nc/secretary-of-state
+  party: Republican
+  ballot_name: 'Chad Brown'
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Secretary Of State -- Elaine Marshall (DEM) 2,837,994; Chad Brown (REP) 2,722,794. Elaine Marshall won with 2,837,994 votes.'
+  retrieved: '2026-10-23'
