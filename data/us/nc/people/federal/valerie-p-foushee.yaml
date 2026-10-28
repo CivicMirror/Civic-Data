@@ -17,7 +17,14 @@ identifiers:
   identifier: '93091'
 - scheme: fec-candidate-id
   identifier: H2NC06114
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:4/legislature
+  office_id: nc-4/us-representative
+  party: Democratic
+  ballot_name: Valerie P. Foushee
+  status: active
 contact:
   phone: 202-225-1784
   profile_url: https://foushee.house.gov
@@ -39,3 +46,6 @@ sources:
   note: unitedstates/congress-legislators (current), bioguide F000477 -- primary source for identity, terms, class, dates.
 - url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
   note: District office addresses/phones.
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 4 -- Valerie P. Foushee (DEM) 308,064; Eric Blankenburg (REP) 112,084; Guy Meilleur (LIB) 8,632. Valerie P. Foushee won with 308,064 votes.'
+  retrieved: '2026-10-23'

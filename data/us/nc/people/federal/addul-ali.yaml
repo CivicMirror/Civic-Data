@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/6ff9d71f-bbf1-5fcb-972e-4bed86005911
+name: Addul Ali
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-12
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:12/legislature
+  office_id: nc-12/us-representative
+  party: Republican
+  ballot_name: Addul Ali
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 12 -- Alma S. Adams (DEM) 259,627; Addul Ali (REP) 91,128. Alma S. Adams won with 259,627 votes.'
+  retrieved: '2026-10-23'

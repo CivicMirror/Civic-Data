@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/b2c53b9d-2921-5898-839f-6306e9722603
+name: Kevin E. Hayes
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/us-senate
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-2
+  party: Constitution
+  ballot_name: Kevin E. Hayes
+  status: active
+- contest_id: nc/2024-11-05/us-representative-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:6/legislature
+  office_id: nc-6/us-representative
+  party: Constitution
+  ballot_name: Kevin E. Hayes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 3, 2020 general election (results_pct_20201103.txt), aggregated across the district''s precincts: US Senate -- Thom Tillis (REP) 2,665,598; Cal Cunningham (DEM) 2,569,965; Shannon W. Bray (LIB) 171,571; Kevin E. Hayes (CST) 67,818. Thom Tillis won with 2,665,598 votes.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 6 -- Addison McDowell (REP) 233,303; Kevin E. Hayes (CST) 104,017. Addison McDowell won with 233,303 votes.'
+  retrieved: '2026-10-23'
