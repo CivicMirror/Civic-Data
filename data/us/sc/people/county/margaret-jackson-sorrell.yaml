@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Margaret Jackson Sorrell
+  contest_id: sc/2020-11-03/clarendon-probate-judge
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/probate-judge
+  party: Democratic
+  status: active
+- ballot_name: Margaret Jackson Sorrell
+  contest_id: sc/2024-11-05/clarendon-probate-judge
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/probate-judge
+  party: Republican
+  status: active
+id: ocd-person/4c459654-6283-524b-8886-62f93202f76f
+identifiers: []
+name: Margaret Jackson Sorrell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Clarendon County Probate Judge contest (ElectionStats contest 3558), precinct rows aggregated: Margaret Jackson Sorrell (Democratic) 13,231. Ballot name forms across cycles: Margaret "Peggi" Jackson Sorrell (2016), Margaret Jackson Sorrell (2020, 2024) - one officeholder, unified under the fullest certified form.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3558
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Clarendon County Probate Judge contest (ElectionStats contest 7901), precinct rows aggregated: Margaret Jackson Sorrell (Republican) 9,343; Terrance G. Tindal (Democratic) 6,552.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7901
+verification:
+  pipeline: build_sc_judicial
+  status: unverified
