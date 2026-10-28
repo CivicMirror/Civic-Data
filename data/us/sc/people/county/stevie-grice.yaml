@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Stevie Grice
+  contest_id: sc/2018-11-06/dillon-county-council-district-7
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dillon/government
+  office_id: dillon/county-council-district-7
+  party: null
+  status: active
+- ballot_name: Stevie Grice
+  contest_id: sc/2022-11-08/dillon-county-council-district-7
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dillon/government
+  office_id: dillon/county-council-district-7
+  party: Democratic
+  status: active
+id: ocd-person/9ba141d8-7c4b-58a8-9950-ce29caacb06e
+identifiers: []
+name: Stevie Grice
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Dillon County County Council District 7 contest (ElectionStats contest 4681), county rows aggregated: Stevie Grice 1,183. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4681
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Dillon County County Council District 7 contest (ElectionStats contest 2616), county rows aggregated: Stevie Grice (Democratic) 960.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2616
+verification:
+  pipeline: build_sc_county
+  status: unverified

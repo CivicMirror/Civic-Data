@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Byron E. Gipson
+  contest_id: sc/2018-11-06/circuit-5-solicitor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-5/judiciary
+  office_id: circuit-5/solicitor
+  party: null
+  status: active
+- ballot_name: Byron E. Gipson
+  contest_id: sc/2022-11-08/circuit-5-solicitor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-5/judiciary
+  office_id: circuit-5/solicitor
+  party: Democratic
+  status: active
+id: ocd-person/c26c8ef8-31b2-50ae-8117-3c3d8e4971c7
+identifiers: []
+name: Byron E. Gipson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, 5th Judicial Circuit Solicitor contest (ElectionStats contest 4528), county rows aggregated: Byron E. Gipson 105,536; John Meadors 38,933. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4528
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, 5th Judicial Circuit Solicitor contest (ElectionStats contest 2346), county rows aggregated: Byron E. Gipson (Democratic) 108,180.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2346
+verification:
+  pipeline: build_sc_county
+  status: unverified

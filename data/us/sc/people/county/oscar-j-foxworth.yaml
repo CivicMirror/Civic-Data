@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Oscar J. Foxworth
+  contest_id: sc/2020-11-03/marion-county-council-district-2
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/county-council-district-2
+  party: Democratic
+  status: active
+- ballot_name: Oscar J. Foxworth
+  contest_id: sc/2024-11-05/marion-county-council-district-2
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/county-council-district-2
+  party: Democratic
+  status: active
+id: ocd-person/46a24f2e-4476-5fb6-94e3-723bb9f0e27f
+identifiers: []
+name: Oscar J Foxworth
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Marion County County Council District 2 contest (ElectionStats contest 3757), county rows aggregated: Oscar J. Foxworth (Democratic) 1,911.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3757
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Marion County County Council District 2 contest (ElectionStats contest 7844), county rows aggregated: Oscar J. Foxworth (Democratic) 1,514.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7844
+verification:
+  pipeline: build_sc_county
+  status: unverified

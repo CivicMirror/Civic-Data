@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Sandy Haskell
+  contest_id: sc/2018-11-06/aiken-county-council-district-5
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-council-district-5
+  party: null
+  status: active
+- ballot_name: Sandy Haskell
+  contest_id: sc/2022-11-08/aiken-county-council-district-5
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-council-district-5
+  party: Republican
+  status: active
+id: ocd-person/276667c2-145e-5a1f-9fea-9d3bfbbafb21
+identifiers: []
+name: Sandy Haskell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Aiken County County Council District 5 contest (ElectionStats contest 4619), county rows aggregated: Sandy Haskell 4,437; Juanita Hall 2,270. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4619
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Aiken County County Council District 5 contest (ElectionStats contest 2374), county rows aggregated: Sandy Haskell (Republican) 5,028.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2374
+verification:
+  pipeline: build_sc_county
+  status: unverified

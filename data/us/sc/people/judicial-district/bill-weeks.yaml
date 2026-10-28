@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Bill Weeks
+  contest_id: sc/2020-11-03/circuit-2-solicitor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-2/judiciary
+  office_id: circuit-2/solicitor
+  party: Republican
+  status: active
+- ballot_name: Bill Weeks
+  contest_id: sc/2024-11-05/circuit-2-solicitor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-2/judiciary
+  office_id: circuit-2/solicitor
+  party: Republican
+  status: active
+id: ocd-person/74dfc563-5c4c-54c2-828d-a1c90ec46a3f
+identifiers: []
+name: Bill Weeks
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, 2nd Judicial Circuit Solicitor contest (ElectionStats contest 3329), county rows aggregated: Bill Weeks (Republican) 74,046.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3329
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, 2nd Judicial Circuit Solicitor contest (ElectionStats contest 7372), county rows aggregated: Bill Weeks (Republican) 72,927.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7372
+verification:
+  pipeline: build_sc_county
+  status: unverified

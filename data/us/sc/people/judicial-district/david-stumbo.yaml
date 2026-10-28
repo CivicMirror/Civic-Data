@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: David Stumbo
+  contest_id: sc/2020-11-03/circuit-8-solicitor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-8/judiciary
+  office_id: circuit-8/solicitor
+  party: Republican
+  status: active
+- ballot_name: David Stumbo
+  contest_id: sc/2024-11-05/circuit-8-solicitor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-8/judiciary
+  office_id: circuit-8/solicitor
+  party: Republican
+  status: active
+id: ocd-person/b298b0eb-e140-563b-8db6-3f5f56da9754
+identifiers: []
+name: David Stumbo
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, 8th Judicial Circuit Solicitor contest (ElectionStats contest 3328), county rows aggregated: David Stumbo (Republican) 71,930.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3328
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, 8th Judicial Circuit Solicitor contest (ElectionStats contest 7371), county rows aggregated: David Stumbo (Republican) 69,558.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7371
+verification:
+  pipeline: build_sc_county
+  status: unverified

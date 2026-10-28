@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Steve Harper
+  contest_id: sc/2020-11-03/lancaster-county-council-district-5
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/county-council-district-5
+  party: Republican
+  status: active
+- ballot_name: Steve Harper
+  contest_id: sc/2024-11-05/lancaster-county-council-district-5
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/county-council-district-5
+  party: Republican
+  status: active
+id: ocd-person/a6d5f0c9-5a75-540d-8c4d-dd1538199bdc
+identifiers: []
+name: Steve Harper
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lancaster County County Council District 5 contest (ElectionStats contest 3742), county rows aggregated: Steve Harper (Republican) 4,267.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3742
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lancaster County County Council District 5 contest (ElectionStats contest 7828), county rows aggregated: Steve Harper (Republican) 5,583.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7828
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Duffie Stone
+  contest_id: sc/2020-11-03/circuit-14-solicitor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-14/judiciary
+  office_id: circuit-14/solicitor
+  party: Republican
+  status: active
+- ballot_name: Duffie Stone
+  contest_id: sc/2024-11-05/circuit-14-solicitor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-14/judiciary
+  office_id: circuit-14/solicitor
+  party: Republican
+  status: active
+id: ocd-person/c6abde67-2eef-569e-b9cf-c1fd8db30394
+identifiers: []
+name: Duffie Stone
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, 14th Judicial Circuit Solicitor contest (ElectionStats contest 3330), county rows aggregated: Duffie Stone (Republican) 99,743.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3330
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, 14th Judicial Circuit Solicitor contest (ElectionStats contest 7373), county rows aggregated: Duffie Stone (Republican) 104,049.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7373
+verification:
+  pipeline: build_sc_county
+  status: unverified

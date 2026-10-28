@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Todd A. Johnson
+  contest_id: sc/2020-11-03/newberry-county-council-district-1
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/county-council-district-1
+  party: Republican
+  status: active
+- ballot_name: Todd Johnson
+  contest_id: sc/2024-11-05/newberry-county-council-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/county-council-district-1
+  party: Republican
+  status: active
+id: ocd-person/96688d89-9570-5023-85c5-80e6b11effb8
+identifiers: []
+name: Todd A Johnson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Newberry County County Council District 1 contest (ElectionStats contest 3767), county rows aggregated: Todd A. Johnson (Republican) 2,176.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3767
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Newberry County County Council District 1 contest (ElectionStats contest 7854), county rows aggregated: Todd Johnson (Republican) 1,998.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7854
+verification:
+  pipeline: build_sc_county
+  status: unverified

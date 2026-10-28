@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Michelle Simmons
+  contest_id: sc/2020-11-03/laurens-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:laurens/government
+  office_id: laurens/clerk-of-court
+  party: Republican
+  status: active
+- ballot_name: Michelle Simmons
+  contest_id: sc/2024-11-05/laurens-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:laurens/government
+  office_id: laurens/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/00332f70-6f6b-5d6d-878a-7d5dc6b0b517
+identifiers: []
+name: Michelle Simmons
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Laurens County Clerk of Court contest (ElectionStats contest 3894), precinct rows aggregated: Michelle Simmons (Republican) 24,161.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3894
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Laurens County Clerk of Court contest (ElectionStats contest 7610), precinct rows aggregated: Michelle Simmons (Republican) 23,806.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7610
+verification:
+  pipeline: build_sc_county
+  status: unverified

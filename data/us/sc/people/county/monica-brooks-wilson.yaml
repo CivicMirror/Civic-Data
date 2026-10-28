@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Monica Brooks-Wilson
+  contest_id: sc/2018-11-06/jasper-county-auditor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:jasper/government
+  office_id: jasper/county-auditor
+  party: null
+  status: active
+- ballot_name: Monica Brooks-Wilson
+  contest_id: sc/2022-11-08/jasper-county-auditor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:jasper/government
+  office_id: jasper/county-auditor
+  party: Democratic
+  status: active
+id: ocd-person/8a07eb55-a3d3-576b-93b2-9ca5c5981758
+identifiers: []
+name: Monica Brooks-Wilson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Jasper County County Auditor contest (ElectionStats contest 5056), precinct rows aggregated: Monica Brooks-Wilson 6,573. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5056
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Jasper County County Auditor contest (ElectionStats contest 2756), precinct rows aggregated: Megan Carroll Horton (Republican) 6,437; Monica Brooks-Wilson (Democratic) 4,596.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2756
+verification:
+  pipeline: build_sc_county
+  status: unverified

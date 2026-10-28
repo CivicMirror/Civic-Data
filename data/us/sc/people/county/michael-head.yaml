@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Michael Head
+  contest_id: sc/2020-11-03/chester-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/county-council-district-3
+  party: Republican
+  status: active
+id: ocd-person/8c859d0c-401b-5842-8aec-8f665b937d02
+identifiers: []
+name: Michael Head
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Chester County County Council District 3 contest (ElectionStats contest 4103), county rows aggregated: Joe Branham (Democratic) 1,456; Michael Head (Republican) 1,449.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4103
+verification:
+  pipeline: build_sc_county
+  status: unverified

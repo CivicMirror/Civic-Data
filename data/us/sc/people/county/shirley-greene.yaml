@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Shirley Greene
+  contest_id: sc/2020-11-03/fairfield-county-council-district-2
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-2
+  party: null
+  status: active
+- ballot_name: Shirley Greene
+  contest_id: sc/2024-11-05/fairfield-county-council-district-2
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-2
+  party: null
+  status: active
+id: ocd-person/e4ff8e5d-737d-51d9-9f26-3a1944e8bfd6
+identifiers: []
+name: Shirley Greene
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Fairfield County County Council District 2 contest (ElectionStats contest 4105), county rows aggregated: Shirley Greene 958; Jimmy Ray Douglas 950. The 2020 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4105
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Fairfield County County Council District 2 contest (ElectionStats contest 7796), county rows aggregated: Don Goldbach 617; Ann Corrao 608; Shirley Greene 399. The 2024 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7796
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Ben Pogue
+  contest_id: sc/2020-11-03/circuit-9-solicitor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-9/judiciary
+  office_id: circuit-9/solicitor
+  party: Democratic
+  status: active
+id: ocd-person/e15cc568-77b6-50d3-8594-df2e472d3c35
+identifiers: []
+name: Ben Pogue
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, 9th Judicial Circuit Solicitor contest (ElectionStats contest 3332), county rows aggregated: Scarlett A. Wilson (Republican) 173,655; Ben Pogue (Democratic) 143,852.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3332
+verification:
+  pipeline: build_sc_county
+  status: unverified

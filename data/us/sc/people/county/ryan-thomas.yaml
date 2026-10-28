@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Ryan Thomas
+  contest_id: sc/2020-11-03/cherokee-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/county-treasurer
+  party: Republican
+  status: active
+- ballot_name: Ryan Thomas
+  contest_id: sc/2022-11-08/cherokee-county-auditor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/county-auditor
+  party: Republican
+  status: active
+id: ocd-person/d27423d7-5a66-5cfd-8db8-5ceb4fc83b2e
+identifiers: []
+name: Ryan Thomas
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Cherokee County County Treasurer contest (ElectionStats contest 3514), precinct rows aggregated: Ryan Thomas (Republican) 21,117.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3514
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Cherokee County County Auditor contest (ElectionStats contest 2559), precinct rows aggregated: Ryan Thomas (Republican) 13,856.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2559
+verification:
+  pipeline: build_sc_county
+  status: unverified

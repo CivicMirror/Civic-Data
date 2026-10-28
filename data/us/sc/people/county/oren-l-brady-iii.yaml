@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Oren L. Brady III
+  contest_id: sc/2018-11-06/spartanburg-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/county-treasurer
+  party: null
+  status: active
+- ballot_name: Oren L. Brady III
+  contest_id: sc/2022-11-08/spartanburg-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/0109901d-2f88-5e18-9624-cacd7aa0879c
+identifiers: []
+name: Oren L Brady III
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Spartanburg County County Treasurer contest (ElectionStats contest 5186), precinct rows aggregated: Oren L. Brady III 73,418. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5186
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Spartanburg County County Treasurer contest (ElectionStats contest 2965), precinct rows aggregated: Oren L. Brady III (Republican) 78,372.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2965
+verification:
+  pipeline: build_sc_county
+  status: unverified

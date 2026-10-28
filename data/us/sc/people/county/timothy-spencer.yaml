@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Tim Spencer
+  contest_id: sc/2020-11-03/cherokee-county-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/county-council-district-4
+  party: Republican
+  status: active
+- ballot_name: Tim Spencer
+  contest_id: sc/2024-11-05/cherokee-county-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/6732b74f-9f41-5dce-a33a-2fc1b74fd991
+identifiers: []
+name: Timothy Spencer
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Cherokee County County Council District 4 contest (ElectionStats contest 3418), county rows aggregated: Tim Spencer (Republican) 1,684; Charles Dickie Allison (Democratic) 1,224.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3418
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Cherokee County County Council District 4 contest (ElectionStats contest 7767), county rows aggregated: Tim Spencer (Republican) 2,133.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7767
+verification:
+  pipeline: build_sc_county
+  status: unverified

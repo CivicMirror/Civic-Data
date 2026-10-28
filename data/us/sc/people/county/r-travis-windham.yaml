@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: R. Travis Windham
+  contest_id: sc/2020-11-03/lee-county-council-district-1
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/county-council-district-1
+  party: Democratic
+  status: active
+- ballot_name: R. Travis Windham
+  contest_id: sc/2024-11-05/lee-county-council-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/county-council-district-1
+  party: Democratic
+  status: active
+id: ocd-person/f32b7151-c160-5c90-8f29-0b528ee576ec
+identifiers: []
+name: R. Travis Windham
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lee County County Council District 1 contest (ElectionStats contest 3748), county rows aggregated: R. Travis Windham (Democratic) 1,010.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3748
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lee County County Council District 1 contest (ElectionStats contest 7835), county rows aggregated: R. Travis Windham (Democratic) 978.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7835
+verification:
+  pipeline: build_sc_county
+  status: unverified

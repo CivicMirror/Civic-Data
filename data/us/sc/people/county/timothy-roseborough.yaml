@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Tim Roseborough
+  contest_id: sc/2020-11-03/fairfield-county-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-4
+  party: null
+  status: active
+- ballot_name: Timothy Roseborough
+  contest_id: sc/2024-11-05/fairfield-county-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-4
+  party: null
+  status: active
+id: ocd-person/33f7b198-1dd4-5bda-acb6-f13e391b2c46
+identifiers: []
+name: Timothy Roseborough
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Fairfield County County Council District 4 contest (ElectionStats contest 3423), county rows aggregated: Tim Roseborough 796; Bertha Goins 541; Cynthia Parnell-Rivers 401. The 2020 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3423
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Fairfield County County Council District 4 contest (ElectionStats contest 7797), county rows aggregated: Carl E. Bell 670; Timothy Roseborough 494. The 2024 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7797
+verification:
+  pipeline: build_sc_county
+  status: unverified

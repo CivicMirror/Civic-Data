@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Lisa C. Burton
+  contest_id: sc/2020-11-03/oconee-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:oconee/government
+  office_id: oconee/clerk-of-court
+  party: Republican
+  status: active
+- ballot_name: Melissa C. Lisa Burton
+  contest_id: sc/2024-11-05/oconee-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:oconee/government
+  office_id: oconee/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/14583b48-c34c-5d4b-9008-8b119df8f409
+identifiers: []
+name: Melissa C Lisa Burton
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Oconee County Clerk of Court contest (ElectionStats contest 3960), precinct rows aggregated: Lisa C. Burton (Republican) 34,557.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3960
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Oconee County Clerk of Court contest (ElectionStats contest 7653), precinct rows aggregated: Melissa C. Lisa Burton (Republican) 35,309.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7653
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Robin Turner
+  contest_id: sc/2020-11-03/marion-county-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/county-council-district-6
+  party: Democratic
+  status: active
+- ballot_name: Robin Turner
+  contest_id: sc/2024-11-05/marion-county-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/county-council-district-6
+  party: Democratic
+  status: active
+id: ocd-person/a76d0316-2385-5aa3-9b43-787a3dc17b36
+identifiers: []
+name: Robin Turner
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Marion County County Council District 6 contest (ElectionStats contest 3759), county rows aggregated: Robin Turner (Democratic) 1,622.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3759
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Marion County County Council District 6 contest (ElectionStats contest 7846), county rows aggregated: Robin Turner (Democratic) 1,548.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7846
+verification:
+  pipeline: build_sc_county
+  status: unverified

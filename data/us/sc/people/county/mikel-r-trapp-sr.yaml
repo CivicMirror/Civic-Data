@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Mikel Trapp Sr.
+  contest_id: sc/2018-11-06/fairfield-county-council-district-3
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-3
+  party: null
+  status: active
+- ballot_name: Mikel R Trapp Sr
+  contest_id: sc/2022-11-08/fairfield-county-council-district-3
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-3
+  party: null
+  status: active
+id: ocd-person/76268212-b34d-5f93-a485-6a09682c0322
+identifiers: []
+name: Mikel R Trapp Sr
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Fairfield County County Council District 3 contest (ElectionStats contest 4692), county rows aggregated: Mikel Trapp Sr. 619; Peggy D. Swearingen 439. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4692
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Fairfield County County Council District 3 contest (ElectionStats contest 2627), county rows aggregated: Peggy D. Swearingen 585; Mikel R Trapp Sr 446. The 2022 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2627
+verification:
+  pipeline: build_sc_county
+  status: unverified

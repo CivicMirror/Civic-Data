@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Winnifa B. Clark
+  contest_id: sc/2020-11-03/orangeburg-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/clerk-of-court
+  party: Democratic
+  status: active
+- ballot_name: Winnifa Brown Clark
+  contest_id: sc/2024-11-05/orangeburg-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/clerk-of-court
+  party: Democratic
+  status: active
+id: ocd-person/8f51db1f-719a-5324-a69c-1ea3f494ff93
+identifiers: []
+name: Winnifa Brown Clark
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Orangeburg County Clerk of Court contest (ElectionStats contest 3971), precinct rows aggregated: Winnifa B. Clark (Democratic) 33,908.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3971
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Orangeburg County Clerk of Court contest (ElectionStats contest 7658), precinct rows aggregated: Winnifa Brown Clark (Democratic) 28,125.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7658
+verification:
+  pipeline: build_sc_county
+  status: unverified
