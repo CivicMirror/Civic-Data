@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Leon Lott
+  contest_id: sc/2020-11-03/richland-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/sheriff
+  party: Democratic
+  status: active
+- ballot_name: Leon Lott
+  contest_id: sc/2024-11-05/richland-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/43c35e31-3206-5b3c-a38c-75f5a4d0c8e5
+identifiers: []
+name: Leon Lott
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Richland County Sheriff contest (ElectionStats contest 3999), precinct rows aggregated: Leon Lott (Democratic) 176,356.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3999
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Richland County Sheriff contest (ElectionStats contest 7674), precinct rows aggregated: Leon Lott (Democratic) 147,599; Jim Walker (Republican) 32,029.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7674
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jamie Campbell
+  contest_id: sc/2020-11-03/sumter-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/clerk-of-court
+  party: Democratic
+  status: active
+- ballot_name: James C. Campbell
+  contest_id: sc/2024-11-05/sumter-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/clerk-of-court
+  party: Democratic
+  status: active
+id: ocd-person/a880302b-fcec-57c7-a019-19311cb08144
+identifiers: []
+name: James C Campbell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Sumter County Clerk of Court contest (ElectionStats contest 4019), precinct rows aggregated: Jamie Campbell (Democratic) 38,935.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4019
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Sumter County Clerk of Court contest (ElectionStats contest 7701), precinct rows aggregated: James C. Campbell (Democratic) 33,202.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7701
+verification:
+  pipeline: build_sc_county
+  status: unverified

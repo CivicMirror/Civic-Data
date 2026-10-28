@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jimmy Byrd
+  contest_id: sc/2020-11-03/sumter-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/county-council-district-3
+  party: Republican
+  status: active
+- ballot_name: Jimmy Byrd
+  contest_id: sc/2024-11-05/sumter-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/county-council-district-3
+  party: Republican
+  status: active
+id: ocd-person/beaf6422-571f-5131-9b09-1fe10bfb8c25
+identifiers: []
+name: Jimmy Byrd
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Sumter County County Council District 3 contest (ElectionStats contest 3794), county rows aggregated: Jimmy Byrd (Republican) 4,319; Jason Johnson (Democratic) 2,848.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3794
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Sumter County County Council District 3 contest (ElectionStats contest 7881), county rows aggregated: Jimmy Byrd (Republican) 5,150.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7881
+verification:
+  pipeline: build_sc_county
+  status: unverified

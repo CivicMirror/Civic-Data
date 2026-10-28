@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Harriet A. Holman
+  contest_id: sc/2018-11-06/dorchester-county-council-district-1
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dorchester/government
+  office_id: dorchester/county-council-district-1
+  party: null
+  status: active
+- ballot_name: Harriet Holman
+  contest_id: sc/2022-11-08/dorchester-county-council-district-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dorchester/government
+  office_id: dorchester/county-council-district-1
+  party: Republican
+  status: active
+id: ocd-person/04a1be16-b106-52cd-9066-0f66ce83ff89
+identifiers: []
+name: Harriet A Holman
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Dorchester County County Council District 1 contest (ElectionStats contest 4682), county rows aggregated: Harriet A. Holman 4,495; William Gadol 2,140. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4682
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Dorchester County County Council District 1 contest (ElectionStats contest 2617), county rows aggregated: Harriet Holman (Republican) 4,213; Tim Lewis (Democratic) 3,132.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2617
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Karl E. Addis
+  contest_id: sc/2020-11-03/oconee-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:oconee/government
+  office_id: oconee/coroner
+  party: Republican
+  status: active
+- ballot_name: Karl E. Addis
+  contest_id: sc/2024-11-05/oconee-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:oconee/government
+  office_id: oconee/coroner
+  party: Republican
+  status: active
+id: ocd-person/32c77f98-c484-5586-b08d-378e681d0498
+identifiers: []
+name: Karl E. Addis
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Oconee County Coroner contest (ElectionStats contest 3962), precinct rows aggregated: Karl E. Addis (Republican) 35,177.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3962
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Oconee County Coroner contest (ElectionStats contest 8076), precinct rows aggregated: Karl E. Addis (Republican) 35,889.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8076
+verification:
+  pipeline: build_sc_county
+  status: unverified

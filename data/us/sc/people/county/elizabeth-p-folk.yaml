@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Elizabeth P. Folk
+  contest_id: sc/2020-11-03/newberry-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/clerk-of-court
+  party: Democratic
+  status: active
+- ballot_name: Elizabeth P. Folk
+  contest_id: sc/2024-11-05/newberry-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/clerk-of-court
+  party: Democratic
+  status: active
+id: ocd-person/6ec539bf-a411-57df-bb47-a3e37869c62a
+identifiers: []
+name: Elizabeth P Folk
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Newberry County Clerk of Court contest (ElectionStats contest 3948), precinct rows aggregated: Elizabeth P. Folk (Democratic) 14,657.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3948
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Newberry County Clerk of Court contest (ElectionStats contest 7646), precinct rows aggregated: Elizabeth P. Folk (Democratic) 11,772.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7646
+verification:
+  pipeline: build_sc_county
+  status: unverified

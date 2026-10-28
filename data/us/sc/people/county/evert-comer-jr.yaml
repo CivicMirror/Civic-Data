@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Evert Comer Jr.
+  contest_id: sc/2018-11-06/bamberg-county-council-district-6
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/county-council-district-6
+  party: null
+  status: active
+- ballot_name: Evert Comer Jr.
+  contest_id: sc/2022-11-08/bamberg-county-council-district-6
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/county-council-district-6
+  party: Democratic
+  status: active
+id: ocd-person/5505d961-6fd2-5164-8959-41c1530ce9c2
+identifiers: []
+name: Evert Comer Jr
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Bamberg County County Council District 6 contest (ElectionStats contest 4633), county rows aggregated: Evert Comer Jr. 528. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4633
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Bamberg County County Council District 6 contest (ElectionStats contest 2388), county rows aggregated: Evert Comer Jr. (Democratic) 373.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2388
+verification:
+  pipeline: build_sc_county
+  status: unverified

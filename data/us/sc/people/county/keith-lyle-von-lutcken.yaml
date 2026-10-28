@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Keith von Lutcken
+  contest_id: sc/2020-11-03/florence-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/coroner
+  party: Republican
+  status: active
+- ballot_name: Keith Lyle Von Lutcken
+  contest_id: sc/2024-11-05/florence-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/coroner
+  party: Republican
+  status: active
+id: ocd-person/d0b4ee67-4542-56f3-b1d7-d525ccfd1507
+identifiers: []
+name: Keith Lyle Von Lutcken
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Florence County Coroner contest (ElectionStats contest 3540), precinct rows aggregated: Keith von Lutcken (Republican) 44,611.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3540
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Florence County Coroner contest (ElectionStats contest 8062), precinct rows aggregated: Keith Lyle Von Lutcken (Republican) 42,305.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8062
+verification:
+  pipeline: build_sc_county
+  status: unverified

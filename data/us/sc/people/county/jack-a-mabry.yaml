@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jack A. Mabry
+  contest_id: sc/2018-11-06/spartanburg-county-council-district-2
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/county-council-district-2
+  party: null
+  status: active
+- ballot_name: Jack A. Mabry
+  contest_id: sc/2022-11-08/spartanburg-county-council-district-2
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/county-council-district-2
+  party: Republican
+  status: active
+id: ocd-person/100d4970-ae5e-5250-b272-0cc116d65abc
+identifiers: []
+name: Jack A. Mabry
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Spartanburg County County Council District 2 contest (ElectionStats contest 4781), county rows aggregated: Jack A. Mabry 14,002. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4781
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Spartanburg County County Council District 2 contest (ElectionStats contest 2821), county rows aggregated: Jack A. Mabry (Republican) 15,376.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2821
+verification:
+  pipeline: build_sc_county
+  status: unverified

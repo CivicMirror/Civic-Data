@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jimmy Jones
+  contest_id: sc/2018-11-06/kershaw-county-council-district-4
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:kershaw/government
+  office_id: kershaw/county-council-district-4
+  party: null
+  status: active
+- ballot_name: Jimmy Jones
+  contest_id: sc/2022-11-08/kershaw-county-council-district-4
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:kershaw/government
+  office_id: kershaw/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/2136ada0-68eb-50f3-a70d-ba196529594b
+identifiers: []
+name: Jimmy Jones
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Kershaw County County Council District 4 contest (ElectionStats contest 4726), county rows aggregated: Jimmy Jones 3,614. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4726
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Kershaw County County Council District 4 contest (ElectionStats contest 2654), county rows aggregated: Jimmy Jones (Republican) 2,975.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2654
+verification:
+  pipeline: build_sc_county
+  status: unverified

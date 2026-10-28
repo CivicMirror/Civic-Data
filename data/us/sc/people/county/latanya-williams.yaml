@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Latanya Williams
+  contest_id: sc/2020-11-03/hampton-county-auditor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:hampton/government
+  office_id: hampton/county-auditor
+  party: Democratic
+  status: active
+- ballot_name: Latanya Williams
+  contest_id: sc/2024-11-05/hampton-county-auditor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:hampton/government
+  office_id: hampton/county-auditor
+  party: Democratic
+  status: active
+id: ocd-person/945d8392-a826-50cb-a1e6-1e622cbf767d
+identifiers: []
+name: Latanya Williams
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Hampton County County Auditor contest (ElectionStats contest 3843), precinct rows aggregated: Latanya Williams (Democratic) 7,489.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3843
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Hampton County County Auditor contest (ElectionStats contest 8038), precinct rows aggregated: Latanya Williams (Democratic) 5,586.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8038
+verification:
+  pipeline: build_sc_county
+  status: unverified

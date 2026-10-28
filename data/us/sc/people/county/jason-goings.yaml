@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jason Goings
+  contest_id: sc/2020-11-03/aiken-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-treasurer
+  party: Republican
+  status: active
+- ballot_name: Jason Goings
+  contest_id: sc/2024-11-05/aiken-county-treasurer
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/c1e36eea-54a4-5273-bf9f-98e9aa45c274
+identifiers: []
+name: Jason Goings
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Aiken County County Treasurer contest (ElectionStats contest 3544), precinct rows aggregated: Jason Goings (Republican) 65,288.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3544
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Aiken County County Treasurer contest (ElectionStats contest 7961), precinct rows aggregated: Jason Goings (Republican) 64,992.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7961
+verification:
+  pipeline: build_sc_county
+  status: unverified

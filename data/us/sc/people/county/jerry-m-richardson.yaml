@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jerry M. Richardson
+  contest_id: sc/2020-11-03/marion-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/coroner
+  party: Democratic
+  status: active
+- ballot_name: Jerry Richardson
+  contest_id: sc/2024-11-05/marion-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/coroner
+  party: Democratic
+  status: active
+id: ocd-person/28a9bf81-e7f4-57ae-ad78-69a5b5cce80a
+identifiers: []
+name: Jerry M Richardson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Marion County Coroner contest (ElectionStats contest 3931), precinct rows aggregated: Jerry M. Richardson (Democratic) 13,138.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3931
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Marion County Coroner contest (ElectionStats contest 8072), precinct rows aggregated: Jerry Richardson (Democratic) 11,055.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8072
+verification:
+  pipeline: build_sc_county
+  status: unverified

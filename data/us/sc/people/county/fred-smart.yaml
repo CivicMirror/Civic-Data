@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Fred Smart
+  contest_id: sc/2020-11-03/bamberg-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/sheriff
+  party: Republican
+  status: active
+id: ocd-person/3b47105d-1f8f-5f32-8786-935e2828f847
+identifiers: []
+name: Fred Smart
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Bamberg County Sheriff contest (ElectionStats contest 3635), precinct rows aggregated: Kenneth Bamberg (Democratic) 4,681; Fred Smart (Republican) 1,793.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3635
+verification:
+  pipeline: build_sc_county
+  status: unverified

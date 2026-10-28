@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Larry Haynes
+  contest_id: sc/2018-11-06/bamberg-county-council-district-3
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/county-council-district-3
+  party: null
+  status: active
+- ballot_name: Larry Haynes
+  contest_id: sc/2022-11-08/bamberg-county-council-district-3
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/county-council-district-3
+  party: Democratic
+  status: active
+id: ocd-person/f5957f25-d069-545c-be68-dbbef88dac3d
+identifiers: []
+name: Larry M Haynes
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Bamberg County County Council District 3 contest (ElectionStats contest 4632), county rows aggregated: Larry Haynes 752. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4632
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Bamberg County County Council District 3 contest (ElectionStats contest 2387), county rows aggregated: Larry Haynes (Democratic) 445; Teri Linder (Republican) 283.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2387
+verification:
+  pipeline: build_sc_county
+  status: unverified

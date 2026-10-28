@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: John C. Perry
+  contest_id: sc/2020-11-03/saluda-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/4f76351b-97aa-5819-b476-15b1011c7190
+identifiers: []
+name: John C. Perry
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Saluda County Sheriff contest (ElectionStats contest 4008), precinct rows aggregated: Josh Price (Republican) 5,208; John C. Perry (Democratic) 4,053.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4008
+verification:
+  pipeline: build_sc_county
+  status: unverified

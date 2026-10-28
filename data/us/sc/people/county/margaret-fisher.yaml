@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Margaret Fisher
+  contest_id: sc/2020-11-03/lexington-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/coroner
+  party: Republican
+  status: active
+- ballot_name: Margaret Fisher
+  contest_id: sc/2024-11-05/lexington-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/coroner
+  party: Republican
+  status: active
+id: ocd-person/d0e7d764-f938-52c1-99d0-c585af3e82b7
+identifiers: []
+name: Margaret Fisher
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lexington County Coroner contest (ElectionStats contest 3919), precinct rows aggregated: Margaret Fisher (Republican) 117,525.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3919
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lexington County Coroner contest (ElectionStats contest 8071), precinct rows aggregated: Margaret Fisher (Republican) 117,138.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8071
+verification:
+  pipeline: build_sc_county
+  status: unverified

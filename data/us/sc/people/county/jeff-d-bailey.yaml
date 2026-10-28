@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jeff Bailey
+  contest_id: sc/2020-11-03/union-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/sheriff
+  party: Democratic
+  status: active
+- ballot_name: Jeff D. Bailey
+  contest_id: sc/2024-11-05/union-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/e17cf2f6-036e-54ba-985b-f8df6d4c09bb
+identifiers: []
+name: Jeff D Bailey
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Union County Sheriff contest (ElectionStats contest 4039), precinct rows aggregated: Jeff Bailey (Democratic) 6,327; Thom McAbee (Republican) 5,423.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4039
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Union County Sheriff contest (ElectionStats contest 7710), precinct rows aggregated: Jeff D. Bailey (Democratic) 9,018.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7710
+verification:
+  pipeline: build_sc_county
+  status: unverified

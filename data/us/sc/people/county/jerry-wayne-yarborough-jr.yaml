@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jerry Wayne Yarborough Jr.
+  contest_id: sc/2020-11-03/florence-county-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/county-council-district-4
+  party: Republican
+  status: active
+- ballot_name: Jerry Wayne Yarborough, Jr.
+  contest_id: sc/2024-11-05/florence-county-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/235c0c9d-9880-51cf-961d-1dfa51f5a55a
+identifiers: []
+name: Jerry Wayne Yarborough Jr
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Florence County County Council District 4 contest (ElectionStats contest 3424), county rows aggregated: Jerry Wayne Yarborough Jr. (Republican) 3,640; Kenneth McAllister (Democratic) 3,481.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3424
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Florence County County Council District 4 contest (ElectionStats contest 7800), county rows aggregated: Jerry Wayne Yarborough, Jr. (Republican) 3,839; Mitchell Kirby (Democratic) 3,236.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7800
+verification:
+  pipeline: build_sc_county
+  status: unverified
