@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/6b8a8c42-4bde-5098-ae82-3a7472fe0764
+name: Gil Gatch
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-94
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:94/legislature
+  office_id: sc-house-94/state-representative
+  party: Republican
+  ballot_name: 'Gil Gatch'
+  status: active
+- contest_id: sc/2024-11-05/house-94
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:94/legislature
+  office_id: sc-house-94/state-representative
+  party: Republican
+  ballot_name: 'Gil Gatch'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7271
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 94 contest (ElectionStats contest 7271), county-division rows aggregated across the district''s counties: Gil Gatch (Republican) 13,649; Write-In 250. Gil Gatch won with 13,649 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2214
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 94 contest (ElectionStats contest 2214), county-division rows aggregated across the district''s counties: Gil Gatch (Republican) 8,363; Ilene Davis (Democratic) 4,837; Write-In 19. Gil Gatch won with 8,363 votes.'
+  retrieved: '2026-10-25'

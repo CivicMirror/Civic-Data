@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/6102cfb9-ff68-53d9-8ce3-5bb078f9cd95
+name: Mike Reichenbach
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/senate-31
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:31/legislature
+  office_id: sc-senate-31/state-senator
+  party: Republican
+  ballot_name: 'Mike Reichenbach'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7193
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 31 contest (ElectionStats contest 7193), county-division rows aggregated across the district''s counties: Mike Reichenbach (Republican) 32,528; Belinda Timmons (Democratic) 16,757; Write-In 31. Mike Reichenbach won with 32,528 votes.'
+  retrieved: '2026-10-25'

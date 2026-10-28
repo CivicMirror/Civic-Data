@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/60cc7fe5-47d0-5faa-874b-322f1065fe1b
+name: Jermaine Johnson
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-70
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:70/legislature
+  office_id: sc-house-70/state-representative
+  party: Democratic
+  ballot_name: 'Jermaine Johnson'
+  status: active
+- contest_id: sc/2024-11-05/house-52
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:52/legislature
+  office_id: sc-house-52/state-representative
+  party: Democratic
+  ballot_name: 'Jermaine Johnson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7229
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 52 contest (ElectionStats contest 7229), county-division rows aggregated across the district''s counties: Jermaine Johnson (Democratic) 14,205; Write-In 335. Jermaine Johnson won with 14,205 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2220
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 70 contest (ElectionStats contest 2220), county-division rows aggregated across the district''s counties: Jermaine Johnson (Democratic) 10,052; Vincent E Wilson (Republican) 2,623; Charla Henson-Simons (Green) 456; Write-In 18. Jermaine Johnson won with 10,052 votes.'
+  retrieved: '2026-10-25'

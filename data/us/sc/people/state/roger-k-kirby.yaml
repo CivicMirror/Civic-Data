@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/b92ba156-0075-55fc-80d3-2b187d6b0603
+name: Roger K. Kirby
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-101
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:101/legislature
+  office_id: sc-house-101/state-representative
+  party: Democratic
+  ballot_name: 'Roger K. Kirby'
+  status: active
+- contest_id: sc/2024-11-05/house-101
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:101/legislature
+  office_id: sc-house-101/state-representative
+  party: Democratic
+  ballot_name: 'Roger K. Kirby'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7278
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 101 contest (ElectionStats contest 7278), county-division rows aggregated across the district''s counties: Roger K. Kirby (Democratic) 12,531; Write-In 197. Roger K. Kirby won with 12,531 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2243
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 101 contest (ElectionStats contest 2243), county-division rows aggregated across the district''s counties: Roger K. Kirby (Democratic) 8,662; Write-In 223. Roger K. Kirby won with 8,662 votes.'
+  retrieved: '2026-10-25'

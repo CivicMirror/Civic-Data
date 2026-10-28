@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/3f85711a-2926-5fd1-9ca4-dc683f3c04dd
+name: Greg Hembree
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/senate-28
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:28/legislature
+  office_id: sc-senate-28/state-senator
+  party: Republican
+  ballot_name: 'Greg Hembree'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7187
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 28 contest (ElectionStats contest 7187), county-division rows aggregated across the district''s counties: Greg Hembree (Republican) 56,477; Write-In 498. Greg Hembree won with 56,477 votes.'
+  retrieved: '2026-10-25'

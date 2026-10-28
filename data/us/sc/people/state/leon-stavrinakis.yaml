@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/ffbbc491-86cb-5d3d-90a9-c01eb2b90232
+name: Leon Stavrinakis
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-119
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:119/legislature
+  office_id: sc-house-119/state-representative
+  party: Democratic
+  ballot_name: 'Leon Stavrinakis'
+  status: active
+- contest_id: sc/2024-11-05/house-119
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:119/legislature
+  office_id: sc-house-119/state-representative
+  party: Democratic
+  ballot_name: 'Leon Stavrinakis'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7296
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 119 contest (ElectionStats contest 7296), county-division rows aggregated across the district''s counties: Leon Stavrinakis (Democratic) 13,280; Brendan R. Magee (Republican) 10,775; Write-In 28. Leon Stavrinakis won with 13,280 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2232
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 119 contest (ElectionStats contest 2232), county-division rows aggregated across the district''s counties: Leon Stavrinakis (Democratic) 10,299; Ken Fipps (Republican) 7,609; Write-In 13. Leon Stavrinakis won with 10,299 votes.'
+  retrieved: '2026-10-25'

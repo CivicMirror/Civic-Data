@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/accb3f23-1d79-593a-94fa-5fff59186192
+name: Craig Gagnon
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-11
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:11/legislature
+  office_id: sc-house-11/state-representative
+  party: Republican
+  ballot_name: 'Craig Gagnon'
+  status: active
+- contest_id: sc/2024-11-05/house-11
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:11/legislature
+  office_id: sc-house-11/state-representative
+  party: Republican
+  ballot_name: 'Craig Gagnon'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7152
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 11 contest (ElectionStats contest 7152), county-division rows aggregated across the district''s counties: Craig Gagnon (Republican) 14,815; Write-In 78. Craig Gagnon won with 14,815 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2274
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 11 contest (ElectionStats contest 2274), county-division rows aggregated across the district''s counties: Craig Gagnon (Republican) 10,545; Write-In 82. Craig Gagnon won with 10,545 votes.'
+  retrieved: '2026-10-25'

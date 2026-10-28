@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/dc20bbd5-b362-52ab-a601-100e771c00ae
+name: Heather Bauer
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-75
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:75/legislature
+  office_id: sc-house-75/state-representative
+  party: Democratic
+  ballot_name: 'Heather Bauer'
+  status: active
+- contest_id: sc/2024-11-05/house-75
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:75/legislature
+  office_id: sc-house-75/state-representative
+  party: Democratic
+  ballot_name: 'Heather Bauer'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7252
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 75 contest (ElectionStats contest 7252), county-division rows aggregated across the district''s counties: Heather Bauer (Democratic) 9,846; Kirkman Finlay (Republican) 8,610; Write-In 15. Heather Bauer won with 9,846 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2213
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 75 contest (ElectionStats contest 2213), county-division rows aggregated across the district''s counties: Heather Bauer (Democratic) 7,505; Kirkman Finlay, III (Republican) 7,270; Write-In 17. Heather Bauer won with 7,505 votes.'
+  retrieved: '2026-10-25'

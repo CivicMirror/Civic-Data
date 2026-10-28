@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/f21f50c0-4c78-5665-b2c1-63fffbd71a63
+name: Kiral Mace
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/senate-16
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:16/legislature
+  office_id: sc-senate-16/state-senator
+  party: Workers
+  ballot_name: 'Kiral Mace'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7163
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 16 contest (ElectionStats contest 7163), county-division rows aggregated across the district''s counties: Michael Johnson (Republican) 45,672; Kiral Mace (Workers) 12,007; Write-In 298. Michael Johnson won with 45,672 votes.'
+  retrieved: '2026-10-25'

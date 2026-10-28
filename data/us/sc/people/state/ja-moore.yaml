@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/57d7446e-0be7-52f2-916e-64c0970a63d7
+name: JA Moore
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-15
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:15/legislature
+  office_id: sc-house-15/state-representative
+  party: Democratic
+  ballot_name: 'JA Moore'
+  status: active
+- contest_id: sc/2024-11-05/house-15
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:15/legislature
+  office_id: sc-house-15/state-representative
+  party: Democratic
+  ballot_name: 'JA Moore'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7160
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 15 contest (ElectionStats contest 7160), county-division rows aggregated across the district''s counties: JA Moore (Democratic) 6,667; Carlton Walker (Republican) 5,284; Write-In 20. JA Moore won with 6,667 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2216
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 15 contest (ElectionStats contest 2216), county-division rows aggregated across the district''s counties: JA Moore (Democratic) 4,326; Latrecia Pond (Republican) 3,276; Write-In 10. JA Moore won with 4,326 votes.'
+  retrieved: '2026-10-25'

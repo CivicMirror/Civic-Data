@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/326e686a-e778-5c3d-9ffb-c87590d4eb69
+name: Dennis Moss
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-29
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:29/legislature
+  office_id: sc-house-29/state-representative
+  party: Republican
+  ballot_name: 'Dennis Moss'
+  status: active
+- contest_id: sc/2024-11-05/house-29
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:29/legislature
+  office_id: sc-house-29/state-representative
+  party: Republican
+  ballot_name: 'Dennis Moss'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7188
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 29 contest (ElectionStats contest 7188), county-division rows aggregated across the district''s counties: Dennis Moss (Republican) 16,294; Write-In 127. Dennis Moss won with 16,294 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2278
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 29 contest (ElectionStats contest 2278), county-division rows aggregated across the district''s counties: Dennis Moss (Republican) 10,668; Write-In 117. Dennis Moss won with 10,668 votes.'
+  retrieved: '2026-10-25'

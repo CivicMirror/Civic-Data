@@ -12,10 +12,20 @@ candidacies:
   party: United Citizens
   ballot_name: 'Chris Nelums'
   status: active
+- contest_id: sc/2024-11-05/senate-19
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:19/legislature
+  office_id: sc-senate-19/state-senator
+  party: United Citizens
+  ballot_name: 'Chris Nelums'
+  status: active
 verification:
   status: unverified
   pipeline: build_sc_statewide_executive
 sources:
 - url: https://electionhistory.scvotes.gov/contest/2320
   note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Commissioner of Agriculture contest (ElectionStats contest 2320), county-division rows aggregated across all 46 counties: Hugh Weathers (Republican) 1,085,139; David Edmond (Green) 213,219; Chris Nelums (United Citizens) 95,625; Write-In 4,409. Hugh Weathers won with 1,085,139 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/7169
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 19 contest (ElectionStats contest 7169), county-division rows aggregated across the district''s counties: Tameika Isaac Devine (Democratic) 33,703; Chris Nelums (United Citizens) 4,779; Write-In 136. Tameika Isaac Devine won with 33,703 votes.'
   retrieved: '2026-10-25'

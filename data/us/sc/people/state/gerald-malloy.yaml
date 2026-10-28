@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/f642c01a-e091-5819-8b25-71e231ac4e73
+name: Gerald Malloy
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/senate-29
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:29/legislature
+  office_id: sc-senate-29/state-senator
+  party: Democratic
+  ballot_name: 'Gerald Malloy'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/8124
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 29 contest (ElectionStats contest 8124), county-division rows aggregated across the district''s counties: J D. Chaplin (Republican) 24,978; Gerald Malloy (Democratic) 24,700; Write-In 51. J D. Chaplin won with 24,978 votes.'
+  retrieved: '2026-10-25'

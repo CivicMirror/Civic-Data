@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/c7b41b38-9e9e-5c6f-9c46-4e79942b2e4a
+name: Bill Chumley
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-35
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:35/legislature
+  office_id: sc-house-35/state-representative
+  party: Republican
+  ballot_name: 'Bill Chumley'
+  status: active
+- contest_id: sc/2024-11-05/house-35
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:35/legislature
+  office_id: sc-house-35/state-representative
+  party: Republican
+  ballot_name: 'Bill Chumley'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7200
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 35 contest (ElectionStats contest 7200), county-division rows aggregated across the district''s counties: Bill Chumley (Republican) 19,136; Write-In 380. Bill Chumley won with 19,136 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2261
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 35 contest (ElectionStats contest 2261), county-division rows aggregated across the district''s counties: Bill Chumley (Republican) 12,269; Write-In 249. Bill Chumley won with 12,269 votes.'
+  retrieved: '2026-10-25'

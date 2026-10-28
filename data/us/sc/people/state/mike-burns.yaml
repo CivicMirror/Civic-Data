@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/c602eee7-3dbd-567e-8ecb-39d252eef2d6
+name: Mike Burns
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-17
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:17/legislature
+  office_id: sc-house-17/state-representative
+  party: Republican
+  ballot_name: 'Mike Burns'
+  status: active
+- contest_id: sc/2024-11-05/house-17
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:17/legislature
+  office_id: sc-house-17/state-representative
+  party: Republican
+  ballot_name: 'Mike Burns'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7164
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 17 contest (ElectionStats contest 7164), county-division rows aggregated across the district''s counties: Mike Burns (Republican) 20,070; Write-In 190. Mike Burns won with 20,070 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2295
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 17 contest (ElectionStats contest 2295), county-division rows aggregated across the district''s counties: Mike Burns (Republican) 14,127; Write-In 234. Mike Burns won with 14,127 votes.'
+  retrieved: '2026-10-25'

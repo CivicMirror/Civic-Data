@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/f6b0f78d-c0ca-5a57-aa4a-4451323ea3b3
+name: Mike Neese
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-44
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:44/legislature
+  office_id: sc-house-44/state-representative
+  party: Republican
+  ballot_name: 'Mike Neese'
+  status: active
+- contest_id: sc/2024-11-05/house-44
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:44/legislature
+  office_id: sc-house-44/state-representative
+  party: Republican
+  ballot_name: 'Mike Neese'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7218
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 44 contest (ElectionStats contest 7218), county-division rows aggregated across the district''s counties: Mike Neese (Republican) 16,918; Katie Crosby (Democratic) 10,795; Write-In 30. Mike Neese won with 16,918 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2227
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 44 contest (ElectionStats contest 2227), county-division rows aggregated across the district''s counties: Mike Neese (Republican) 11,725; Katie Crosby (Democratic) 6,647; Aaron McKinney (Independent) 306; Write-In 20. Mike Neese won with 11,725 votes.'
+  retrieved: '2026-10-25'

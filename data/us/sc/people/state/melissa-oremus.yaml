@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/a3b6b1ac-45c7-5883-b3d6-093476116736
+name: Melissa Oremus
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-84
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:84/legislature
+  office_id: sc-house-84/state-representative
+  party: Republican
+  ballot_name: 'Melissa Oremus'
+  status: active
+- contest_id: sc/2024-11-05/house-84
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:84/legislature
+  office_id: sc-house-84/state-representative
+  party: Republican
+  ballot_name: 'Melissa Oremus'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7261
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 84 contest (ElectionStats contest 7261), county-division rows aggregated across the district''s counties: Melissa Oremus (Republican) 15,098; Write-In 179. Melissa Oremus won with 15,098 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2293
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 84 contest (ElectionStats contest 2293), county-division rows aggregated across the district''s counties: Melissa Oremus (Republican) 8,934; Write-In 190. Melissa Oremus won with 8,934 votes.'
+  retrieved: '2026-10-25'

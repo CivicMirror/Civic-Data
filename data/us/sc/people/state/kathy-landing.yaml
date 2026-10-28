@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/a9bcd345-1b81-58bf-997a-65db39fdfc5d
+name: Kathy Landing
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-80
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:80/legislature
+  office_id: sc-house-80/state-representative
+  party: Republican
+  ballot_name: 'Kathy Landing'
+  status: active
+- contest_id: sc/2024-11-05/house-80
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:80/legislature
+  office_id: sc-house-80/state-representative
+  party: Republican
+  ballot_name: 'Kathy Landing'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7257
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 80 contest (ElectionStats contest 7257), county-division rows aggregated across the district''s counties: Kathy Landing (Republican) 16,029; Donna Brown Newton (Democratic) 8,574; Write-In 13. Kathy Landing won with 16,029 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2206
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 80 contest (ElectionStats contest 2206), county-division rows aggregated across the district''s counties: Kathy Landing (Republican) 11,766; Donna Brown Newton (Democratic) 6,926; Write-In 20. Kathy Landing won with 11,766 votes.'
+  retrieved: '2026-10-25'

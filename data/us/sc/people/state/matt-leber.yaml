@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/40177e8c-298f-587c-8393-d133d3fceb8b
+name: Matt Leber
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-116
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:116/legislature
+  office_id: sc-house-116/state-representative
+  party: Republican
+  ballot_name: 'Matt Leber'
+  status: active
+- contest_id: sc/2024-11-05/senate-41
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldu:41/legislature
+  office_id: sc-senate-41/state-senator
+  party: Republican
+  ballot_name: 'Matt Leber'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7213
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina Senate District 41 contest (ElectionStats contest 7213), county-division rows aggregated across the district''s counties: Matt Leber (Republican) 32,715; Rita Adkins (Democratic) 24,195; Write-In 116. Matt Leber won with 32,715 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2197
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 116 contest (ElectionStats contest 2197), county-division rows aggregated across the district''s counties: Matt Leber (Republican) 8,774; Chardale Murray (Democratic) 8,193; Write-In 13. Matt Leber won with 8,774 votes.'
+  retrieved: '2026-10-25'

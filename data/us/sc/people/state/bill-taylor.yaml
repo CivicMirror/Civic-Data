@@ -1,0 +1,31 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/93406276-1e4b-58ba-8f9e-c9f53b84b31d
+name: Bill Taylor
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-86
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:86/legislature
+  office_id: sc-house-86/state-representative
+  party: Republican
+  ballot_name: 'Bill Taylor'
+  status: active
+- contest_id: sc/2024-11-05/house-86
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:86/legislature
+  office_id: sc-house-86/state-representative
+  party: Republican
+  ballot_name: 'Bill Taylor'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7263
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 86 contest (ElectionStats contest 7263), county-division rows aggregated across the district''s counties: Bill Taylor (Republican) 14,950; Write-In 175. Bill Taylor won with 14,950 votes.'
+  retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/contest/2264
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 86 contest (ElectionStats contest 2264), county-division rows aggregated across the district''s counties: Bill Taylor (Republican) 9,727; Write-In 168. Bill Taylor won with 9,727 votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/6cd0e8ce-1174-5578-8697-a705af2f8e23
+name: Adam Morgan
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/house-20
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:20/legislature
+  office_id: sc-house-20/state-representative
+  party: Republican
+  ballot_name: 'Adam Morgan'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2258
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, South Carolina House of Representatives District 20 contest (ElectionStats contest 2258), county-division rows aggregated across the district''s counties: Adam Morgan (Republican) 11,358; Write-In 258. Adam Morgan won with 11,358 votes.'
+  retrieved: '2026-10-25'

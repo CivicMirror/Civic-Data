@@ -1,0 +1,21 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (legislative pass,
+# Civic-Data issue #177).
+id: ocd-person/ffa680d9-a0fa-5670-a140-d10954f646dc
+name: John MacCarthy
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/house-27
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/sldl:27/legislature
+  office_id: sc-house-27/state-representative
+  party: Democratic
+  ballot_name: 'John MacCarthy'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_legislative
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7184
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, South Carolina House of Representatives District 27 contest (ElectionStats contest 7184), county-division rows aggregated across the district''s counties: David Vaughan (Republican) 13,330; John MacCarthy (Democratic) 8,869; Write-In 12. David Vaughan won with 13,330 votes.'
+  retrieved: '2026-10-25'
