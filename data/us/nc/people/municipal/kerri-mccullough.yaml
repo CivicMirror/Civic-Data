@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/49755446-331c-5afb-a020-74cda930a67b
+name: Kerri McCullough
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/oak-island-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oak-island/government
+  office_id: oak-island/council-member
+  party: Nonpartisan
+  ballot_name: Kerri McCullough
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Oak Island Town Council -- Chasey Bynum (Nonpartisan) 1,399; Tommy Brown (Nonpartisan) 1,298; Scott Stephenson (Nonpartisan) 1,180; Kerri McCullough (Nonpartisan) 1,026; Chip Frazier (Nonpartisan) 766; Reece Simmons (Nonpartisan) 333. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

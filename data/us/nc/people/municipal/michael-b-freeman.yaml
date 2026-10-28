@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3cef1145-4be4-5595-a0de-242367106662
+name: Michael B. Freeman
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/biltmore-forest-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:biltmore-forest/government
+  office_id: biltmore-forest/commissioner
+  party: Nonpartisan
+  ballot_name: Michael B. Freeman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Biltmore Forest Board of Commissioners -- Doris P. Loomis (Nonpartisan) 733; Allan R. Tarleton (Nonpartisan) 552; Drew Stephens (Nonpartisan) 526; Michael B. Freeman (Nonpartisan) 481. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

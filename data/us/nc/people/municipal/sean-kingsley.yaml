@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/584f5bbb-b193-5bbf-9d44-91c2fed72741
+name: Sean Kingsley
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/louisburg-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:louisburg/government
+  office_id: louisburg/council-member
+  party: Nonpartisan
+  ballot_name: Sean Kingsley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Louisburg Town Council -- Betty Keith Wright (Nonpartisan) 408; David K. Rosby (Nonpartisan) 382; Sean Kingsley (Nonpartisan) 284; Ted Jones (Nonpartisan) 236. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

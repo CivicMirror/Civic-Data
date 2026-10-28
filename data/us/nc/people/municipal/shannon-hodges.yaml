@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fb829cdb-e38d-5c50-aed1-abb67ea11d5a
+name: Shannon Hodges
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/dunn-commissioner-ward-5
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dunn/government
+  office_id: dunn/commissioner
+  party: Nonpartisan
+  ballot_name: Shannon Hodges
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Dunn Board of Commissioners, Ward 5 -- Alan Hargis (Nonpartisan) 252; Angela Inman (Nonpartisan) 47; Shannon Hodges (Nonpartisan) 13. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

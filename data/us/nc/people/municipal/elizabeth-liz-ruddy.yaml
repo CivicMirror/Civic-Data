@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6be7d81b-7d86-5fc0-8ad4-4f5da01a6b9d
+name: Elizabeth (Liz) Ruddy
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/love-valley-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:love-valley/government
+  office_id: love-valley/commissioner
+  party: Nonpartisan
+  ballot_name: Elizabeth (Liz) Ruddy
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Love Valley Board of Commissioners -- Randy Ladd (Nonpartisan) 69; Terri Rufty (Nonpartisan) 66; Ted Davis (Nonpartisan) 65; Elizabeth (Liz) Ruddy (Nonpartisan) 64; Phillip Baity (Nonpartisan) 35; Tori Barker (Write-In) (Write-In) 13; Kenneth Godwin (Write-In) (Write-In) 7. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

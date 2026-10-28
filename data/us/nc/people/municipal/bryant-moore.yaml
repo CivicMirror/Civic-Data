@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/24349157-9ccb-5ab1-b61a-a0ce3e53614c
+name: Bryant Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/ranlo-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ranlo/government
+  office_id: ranlo/commissioner
+  party: Write-In
+  ballot_name: Bryant Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Ranlo Board of Commissioners -- Doug Moore (Nonpartisan) 174; Jamie Fowler (Nonpartisan) 170; Corey Creech (Nonpartisan) 133; Ronnie Laws (Nonpartisan) 133; Diana Palmer (Nonpartisan) 98; Penny Annette Bradshaw (Nonpartisan) 86; Andrew McLaren (Nonpartisan) 64; Rusty Bradshaw (Nonpartisan) 56; Bryan Falls (Write-In) (Write-In) 3; Antonio Leach (Write-In) (Write-In) 1; Bryant Moore (Write-In) (Write-In) 1; Tysean Smith (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

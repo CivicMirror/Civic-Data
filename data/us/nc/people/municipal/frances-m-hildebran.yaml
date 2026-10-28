@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/972ace7e-7e56-52ba-a601-f37784bb91bd
+name: Frances M. Hildebran
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/valdese-council-member-ward-4
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:valdese/government
+  office_id: valdese/council-member
+  party: Nonpartisan
+  ballot_name: Frances M. Hildebran
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Valdese Town Council, Ward 4 -- Gary Ogle (Nonpartisan) 629; Frances M. Hildebran (Nonpartisan) 546. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

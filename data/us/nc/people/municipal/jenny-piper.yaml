@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a0b2e5c4-21f9-5c3e-aa1a-5cff8f623f4d
+name: Jenny Piper
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/ruth-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ruth/government
+  office_id: ruth/commissioner
+  party: Nonpartisan
+  ballot_name: Jenny Piper
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Ruth Board of Commissioners -- Nick Goode (Nonpartisan) 99; Jenny Piper (Nonpartisan) 71; Jeffrey Seals (Nonpartisan) 41. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

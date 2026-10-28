@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e7a05170-abe3-51a1-89f1-f98ebda73868
+name: Gene Fowler
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/ronda-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ronda/government
+  office_id: ronda/commissioner
+  party: Nonpartisan
+  ballot_name: Gene Fowler
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Ronda Board of Commissioners -- Chris Nelson (Nonpartisan) 78; Helen T. Porter (Nonpartisan) 67; JoAnn Royal (Nonpartisan) 53; Roberta (Mickey) Cruise (Nonpartisan) 47; Victor Varela (Nonpartisan) 39; Bobby Munsey (Nonpartisan) 36; Manuel Wood (Nonpartisan) 34; Gene Fowler (Nonpartisan) 27. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

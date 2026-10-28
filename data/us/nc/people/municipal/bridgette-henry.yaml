@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/959a971e-bf14-558d-aff4-126f0574a0dc
+name: Bridgette Henry
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/roseboro-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:roseboro/government
+  office_id: roseboro/commissioner
+  party: Nonpartisan
+  ballot_name: Bridgette Henry
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Roseboro Board of Commissioners -- Bridgette Henry (Nonpartisan) 103; Anthony Bennett (Nonpartisan) 79; Gilbert Owens (Nonpartisan) 63. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/82643938-4587-5024-b404-2b239f92b242
+name: Jonathan Collier
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/linden-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:linden/government
+  office_id: linden/commissioner
+  party: Nonpartisan
+  ballot_name: Jonathan Collier
+  status: active
+- contest_id: nc/2025-11-04/linden-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:linden/government
+  office_id: linden/commissioner
+  party: Nonpartisan
+  ballot_name: Jonathan Collier
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Linden Board of Commissioners -- Barbara C. Denning (Nonpartisan) 15; Betsy Small (Nonpartisan) 14; Ronnie Maness (Nonpartisan) 14; Jonathan Collier (Nonpartisan) 13; Larry Overby (Nonpartisan) 12. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Linden Board of Commissioners -- Ronnie S. Maness (Nonpartisan) 17; Barbara C. Denning (Nonpartisan) 16; Jonathan Collier (Nonpartisan) 16; Michael Hough (Nonpartisan) 14; Debra Overby (Write-In) (Write-In) 4. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

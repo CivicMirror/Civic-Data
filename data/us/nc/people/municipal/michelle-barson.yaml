@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4cfe6b27-7a65-5c02-b754-cb8083327ab0
+name: Michelle Barson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/clemmons-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:clemmons/government
+  office_id: clemmons/mayor
+  party: Write-In
+  ballot_name: Michelle Barson
+  status: active
+- contest_id: nc/2025-11-04/clemmons-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:clemmons/government
+  office_id: clemmons/council-member
+  party: Democratic
+  ballot_name: Michelle Barson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Clemmons Mayor -- Mike Rogers (Republican) 1,396; Michelle Barson (Write-In) (Write-In) 17. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Clemmons Village Council -- Michelle Barson (Democratic) 1,482; Randy Wooden (Republican) 1,094; Jim Smith (Republican) 1,015; Mary Cameron (Republican) 999. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

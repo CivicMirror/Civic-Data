@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/637efc9d-9197-589f-a2cd-c8f843651426
+name: William H. (Bill) Radford
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/pine-level-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-level/government
+  office_id: pine-level/commissioner
+  party: Nonpartisan
+  ballot_name: William H. (Bill) Radford
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pine Level Board of Commissioners -- Jimmy F. Garner (Nonpartisan) 154; Greg Baker (Nonpartisan) 129; William H. (Bill) Radford (Nonpartisan) 129; Phil Pittman (Nonpartisan) 121; Rodney Cabe (Nonpartisan) 106. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

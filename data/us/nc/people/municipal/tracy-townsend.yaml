@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/314ebac8-67f0-5e97-bbf8-f6a9392258b8
+name: Tracy Townsend
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/granite-falls-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:granite-falls/government
+  office_id: granite-falls/council-member
+  party: Nonpartisan
+  ballot_name: Tracy Townsend
+  status: active
+- contest_id: nc/2025-11-04/granite-falls-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:granite-falls/government
+  office_id: granite-falls/mayor
+  party: Nonpartisan
+  ballot_name: Tracy Townsend
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Granite Falls Town Council -- Tracy Townsend (Nonpartisan) 169; Mike Mackie (Nonpartisan) 144; Jim Mackie (Nonpartisan) 132; Jamie Hagerty (Nonpartisan) 129; Douglas Dupell (Nonpartisan) 80; Brandon Dupell (Nonpartisan) 58; Mario Mastroeli (Nonpartisan) 51. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Granite Falls Mayor -- Tracy Townsend (Nonpartisan) 335; Bill Fields (Nonpartisan) 88. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a194dee2-69f5-51f3-a546-6a7079afaeea
+name: Karen Tussing
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/southern-pines-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:southern-pines/government
+  office_id: southern-pines/council-member
+  party: Nonpartisan
+  ballot_name: Karen Tussing
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Southern Pines Town Council -- William H. (Bill) Pate (Nonpartisan) 1,724; Debra L. Gray (Nonpartisan) 1,349; Karen Tussing (Nonpartisan) 540. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

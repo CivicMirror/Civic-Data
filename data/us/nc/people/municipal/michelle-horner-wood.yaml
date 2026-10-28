@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8af267a3-9750-5b82-b856-152712c05e79
+name: Michelle Horner Wood
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/henderson-alderman-at-large-3rd-ward
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:henderson/government
+  office_id: henderson/alderman
+  party: Nonpartisan
+  ballot_name: Michelle Horner Wood
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Henderson Board of Aldermen, At-large 3rd Ward -- Michael Venable (Nonpartisan) 922; Michelle Horner Wood (Nonpartisan) 597; Kory H. Franklin (Nonpartisan) 232. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

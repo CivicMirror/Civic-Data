@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6f3b1266-6378-5f82-b412-7f61907deee3
+name: Danny Alford
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/middlesex-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:middlesex/government
+  office_id: middlesex/commissioner
+  party: Nonpartisan
+  ballot_name: Danny Alford
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Middlesex Board of Commissioners -- J. W. McClenny (Nonpartisan) 38; Cherrye High Davis (Nonpartisan) 37; Danny Alford (Nonpartisan) 37. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

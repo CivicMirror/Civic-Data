@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6c80a48c-9b1e-5e78-82c5-22a8f09abc36
+name: Kevin Manzanarez
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/siler-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:siler/government
+  office_id: siler/commissioner
+  party: Nonpartisan
+  ballot_name: Kevin Manzanarez
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Siler City Board of Commissioners (At-Large) -- Cindy Burke Bray (Nonpartisan) 397; Kevin Manzanarez (Nonpartisan) 162. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

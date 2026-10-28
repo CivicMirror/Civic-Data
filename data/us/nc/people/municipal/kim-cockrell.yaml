@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b9840607-22f4-5508-abfb-066aa63774b8
+name: Kim Cockrell
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/jamesville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jamesville/government
+  office_id: jamesville/commissioner
+  party: Nonpartisan
+  ballot_name: Kim Cockrell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jamesville Board of Commissioners -- Kim Cockrell (Nonpartisan) 46; Willis E. Williams (Nonpartisan) 28; Rachel Waters Craddock (Nonpartisan) 21; Preston Craddock (Nonpartisan) 17; Mary Allen (Nonpartisan) 15. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

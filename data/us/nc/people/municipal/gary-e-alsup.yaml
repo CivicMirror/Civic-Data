@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/77e01c20-ab4f-50b8-8f57-52c472d9542c
+name: Gary E. Alsup
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/atkinson-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:atkinson/government
+  office_id: atkinson/mayor
+  party: Nonpartisan
+  ballot_name: Gary E. Alsup
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Atkinson Mayor -- Gary E. Alsup (Nonpartisan) 21; Larry Collins (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

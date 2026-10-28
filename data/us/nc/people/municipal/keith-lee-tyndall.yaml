@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3f19b71b-e314-5b35-9c7b-5c17ce6776e9
+name: Keith Lee Tyndall
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/bridgeton-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bridgeton/government
+  office_id: bridgeton/commissioner
+  party: Nonpartisan
+  ballot_name: Keith Lee Tyndall
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Bridgeton Board of Commissioners -- Keith Lee Tyndall (Nonpartisan) 116; Randy Alexander (Nonpartisan) 110; Paul Tremblay (Nonpartisan) 109; Peggie Wilson (Nonpartisan) 108. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

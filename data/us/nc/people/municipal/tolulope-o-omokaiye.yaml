@@ -1,0 +1,31 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2928535e-cb4b-5461-9c42-b742e1c203e0
+name: Tolulope O Omokaiye
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/raleigh-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:raleigh/government
+  office_id: raleigh/council-member
+  party: Write-In
+  ballot_name: Tolulope O Omokaiye
+  status: active
+- contest_id: nc/2024-11-05/raleigh-council-member-district-c
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:raleigh/government
+  office_id: raleigh/council-member
+  party: Nonpartisan
+  ballot_name: Tolulope O. Omokaiye
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Raleigh City Council (At-Large) -- Stormie Denise Forte (Nonpartisan) 99,779; Jonathan Lambert-Melton (Nonpartisan) 84,441; James Bledsoe (Nonpartisan) 48,990; Reeves Peeler (Nonpartisan) 34,214; Katie Pate (Nonpartisan) 32,423; Joshua Bradley (Nonpartisan) 26,727; Robert Steele, Jr. (Nonpartisan) 18,230; Whitney Hill (Write-In) (Write-In) 148; Mary Black-Branch (Write-In) (Write-In) 110; Jennifer McCollum (Write-In) (Write-In) 57; Tolulope O Omokaiye (Write-In) (Write-In) 37; Tomara Decosta (Write-In) (Write-In) 33; Mitchell Silver (Write-In) (Write-In) 27; John Cerqueira (Write-In) (Write-In) 27; Corey Branch (Write-In) (Write-In) 19; Paul Fitts (Write-In) (Write-In) 19; Megan Patton (Write-In) (Write-In) 11; Jane Harrison (Write-In) (Write-In) 8; Portia W Rochelle (Write-In) (Write-In) 7; Blaine Smith (Write-In) (Write-In) 5; Christina Jones (Write-In) (Write-In) 5; Paul Coble (Write-In) (Write-In) 5; Jared Ollison (Write-In)
+    (Write-In) 5. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Raleigh City Council, District C -- Corey Branch (Nonpartisan) 15,676; Tolulope O. Omokaiye (Nonpartisan) 7,847; DaQuanta Copeland (Nonpartisan) 4,060; Portia W. Rochelle (Nonpartisan) 3,351; Tomara DeCosta (Nonpartisan) 3,155; Jared S. Ollison (Nonpartisan) 2,918; Daniel Grant-King (Nonpartisan) 1,956. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

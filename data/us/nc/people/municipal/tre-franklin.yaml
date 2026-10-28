@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e3375098-130e-5800-aa9a-d0468d45ee04
+name: Tre Franklin
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/waynesville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:waynesville/government
+  office_id: waynesville/council-member
+  party: Nonpartisan
+  ballot_name: Tre Franklin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Waynesville Town Council -- Clarence (Chuck) Dickson (Nonpartisan) 1,443; Jon Feichter (Nonpartisan) 1,412; Anthony Sutton (Nonpartisan) 1,291; Julia Boyd Freeman (Nonpartisan) 1,286; Tre Franklin (Nonpartisan) 1,025; Stephanie Sutton (Nonpartisan) 970; Peggy A. Hannah (Nonpartisan) 939; Ken Hollifield (Nonpartisan) 578. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

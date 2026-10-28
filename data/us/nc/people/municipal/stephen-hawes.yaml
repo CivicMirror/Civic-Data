@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d9963c2c-594d-58c9-a853-d138d5e67e34
+name: Stephen Hawes
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/grandfather-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:grandfather/government
+  office_id: grandfather/council-member
+  party: Nonpartisan
+  ballot_name: Stephen Hawes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Grandfather Village Council -- Stephen Hawes (Nonpartisan) 15; Charles (Chick) Fuller (Nonpartisan) 8. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

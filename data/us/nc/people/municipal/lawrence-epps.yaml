@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fabdfdfe-aa30-5fa2-b35b-9f040290a1cf
+name: Lawrence Epps
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/norlina-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:norlina/government
+  office_id: norlina/commissioner
+  party: Nonpartisan
+  ballot_name: Lawrence Epps
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Norlina Board of Commissioners -- Tyrone Simes, Sr. (Nonpartisan) 108; Claude O''Hagan (Nonpartisan) 96; Shrounda Douglas-Riddick (Nonpartisan) 90; Denny Burrows (Nonpartisan) 67; Charles Smiley (Nonpartisan) 65; Latarshia Turner-Brothers (Nonpartisan) 62; Helen Williams (Nonpartisan) 41; Lawrence Epps (Nonpartisan) 28. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

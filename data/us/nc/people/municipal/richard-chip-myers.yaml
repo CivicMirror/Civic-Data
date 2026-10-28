@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/31b80fd4-ecbd-5957-b0dd-d438985f036a
+name: Richard (Chip) Myers
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/williamston-commissioner-district-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:williamston/government
+  office_id: williamston/commissioner
+  party: Nonpartisan
+  ballot_name: Richard (Chip) Myers
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Williamston Board of Commissioners, District 1 -- Ruth B. Coffield (Nonpartisan) 232; Alton Moore (Nonpartisan) 191; Richard (Chip) Myers (Nonpartisan) 118; Monty L. Jones, Sr. (Nonpartisan) 30. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

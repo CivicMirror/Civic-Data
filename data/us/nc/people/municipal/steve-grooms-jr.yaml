@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c4205e7d-6ede-5b9f-adfb-eb112251ba47
+name: Steve Grooms, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/randleman-alderman-ward-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:randleman/government
+  office_id: randleman/alderman
+  party: Nonpartisan
+  ballot_name: Steve Grooms, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Randleman Board of Aldermen, Ward 1 -- Steve Grooms, Jr. (Nonpartisan) 220; Renee Bryant (Nonpartisan) 163. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

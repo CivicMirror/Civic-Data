@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ffccc008-338b-5562-a5f4-407935210b97
+name: Anne Robotti
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/morrisville-council-member-district-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/council-member
+  party: Nonpartisan
+  ballot_name: Anne Robotti
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Morrisville Town Council, District 1 -- Anne Robotti (Nonpartisan) 1,300; Subba Reddy Madireddy (Nonpartisan) 951. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

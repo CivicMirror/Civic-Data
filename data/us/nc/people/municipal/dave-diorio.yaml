@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/820a2b20-36f3-577e-9ea2-28b2d9d76c27
+name: Dave DiOrio
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/lake-lure-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-lure/government
+  office_id: lake-lure/commissioner
+  party: Nonpartisan
+  ballot_name: Dave DiOrio
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Lake Lure Board of Commissioners -- Chris Patrick Bryant (Nonpartisan) 629; Dave DiOrio (Nonpartisan) 500. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

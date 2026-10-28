@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2b351867-333c-50d4-9894-86281a266582
+name: Bessie Pierce
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/winton-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winton/government
+  office_id: winton/council-member
+  party: Nonpartisan
+  ballot_name: Bessie Pierce
+  status: active
+- contest_id: nc/2025-11-04/winton-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winton/government
+  office_id: winton/council-member
+  party: Nonpartisan
+  ballot_name: Bessie Pierce
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Winton Town Council -- Blake Blythe (Nonpartisan) 66; Emy Winstead (Nonpartisan) 66; Bessie Pierce (Nonpartisan) 63; Michael Hinton (Nonpartisan) 57; Danny Greene (Nonpartisan) 56; Clifton W. Sexton (Nonpartisan) 55; Orlanda Reed (Nonpartisan) 44. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Winton Town Council -- Shirley Evette Everett (Nonpartisan) 79; Bessie Pierce (Nonpartisan) 63; Michael Hinton (Nonpartisan) 58; Blake Blythe (Nonpartisan) 53; Latonya Tann (Nonpartisan) 39; Clifton Sexton (Write-In) (Write-In) 37; Prentice Tann (Nonpartisan) 35. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e960b77d-3f35-56a4-a267-8f42cbb85ad6
+name: Patty W. Cheng
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/morrisville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/council-member
+  party: Nonpartisan
+  ballot_name: Patty W. Cheng
+  status: active
+- contest_id: nc/2025-11-04/morrisville-council-member-district-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morrisville/government
+  office_id: morrisville/council-member
+  party: Nonpartisan
+  ballot_name: Patty W. Cheng
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Morrisville Town Council (At-Large) -- Satish S. Garimella (Nonpartisan) 1,666; Patty W. Cheng (Nonpartisan) 508. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Morrisville Town Council, District 4 -- Vicki Scroggins-Johnson (Nonpartisan) 2,819; Patty W. Cheng (Nonpartisan) 1,952. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

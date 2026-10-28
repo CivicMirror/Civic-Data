@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4780e4fb-8525-5240-b91e-6e017212cd0f
+name: Angelia J. Washington
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/jacksonville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/mayor
+  party: Write-In
+  ballot_name: Angelia J. Washington
+  status: active
+- contest_id: nc/2023-11-07/jacksonville-council-member-ward-4
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/council-member
+  party: Nonpartisan
+  ballot_name: Angelia J. Washington
+  status: active
+- contest_id: nc/2023-11-07/jacksonville-council-member-ward-3
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/council-member
+  party: Write-In
+  ballot_name: Angelia J. Washington
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Jacksonville Mayor -- Sammy Phillips (Nonpartisan) 1,205; Angelia J. Washington (Write-In) (Write-In) 82; Jerome Willingham (Write-In) (Write-In) 20. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Jacksonville City Council, Ward 4 -- Angelia J. Washington (Nonpartisan) 145; Juan C. Beltran (Nonpartisan) 51. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Jacksonville City Council, Ward 3 -- Logan Sosa (Nonpartisan) 516; Angelia J. Washington (Write-In) (Write-In) 8; Juan Beltran (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ebdd0b23-9b29-5ce7-984f-d1f3b6032f20
+name: Harrison James Davis
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/kannapolis-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kannapolis/government
+  office_id: kannapolis/council-member
+  party: Nonpartisan
+  ballot_name: Harrison James Davis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kannapolis City Council -- Jeanne A. Dixon (Nonpartisan) 2,970; Dianne Berry (Nonpartisan) 2,887; Isaiah Payne (Nonpartisan) 2,269; Milton Smith (Nonpartisan) 1,778; Zach Erwin (Nonpartisan) 1,555; Jamie Richardson (Nonpartisan) 1,532; Jayne Williams (Nonpartisan) 1,415; Tom Kincaid (Nonpartisan) 1,109; Harrison James Davis (Nonpartisan) 308. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

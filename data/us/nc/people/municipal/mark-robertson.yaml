@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d86430ab-3b55-57b4-9ec7-68b6d56a512c
+name: Mark Robertson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/ocean-isle-beach-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ocean-isle-beach/government
+  office_id: ocean-isle-beach/commissioner
+  party: Nonpartisan
+  ballot_name: Mark Robertson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Ocean Isle Beach Board of Commissioners -- Mark Robertson (Nonpartisan) 230; Wayne Rowell (Nonpartisan) 209; Polly Bristow (Nonpartisan) 168; Wendy Hughes (Write-In) (Write-In) 10. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

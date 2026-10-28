@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/57696d49-4ca4-5f4d-b6be-454c587ad47f
+name: Lance Olive
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/apex-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:apex/government
+  office_id: apex/mayor
+  party: Write-In
+  ballot_name: Lance Olive
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Apex Mayor -- Jacques K. Gilbert (Nonpartisan) 7,586; Lance Olive (Write-In) (Write-In) 32; Dylan Hale (Write-In) (Write-In) 14; Erin Schultz (Write-In) (Write-In) 13; Christine Hale (Write-In) (Write-In) 9. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e2d4362a-4efd-5cac-8980-3ed87b2465b1
+name: Logan Sosa
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/jacksonville-council-member-ward-3
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/council-member
+  party: Nonpartisan
+  ballot_name: Logan Sosa
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Jacksonville City Council, Ward 3 -- Logan Sosa (Nonpartisan) 516; Angelia J. Washington (Write-In) (Write-In) 8; Juan Beltran (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

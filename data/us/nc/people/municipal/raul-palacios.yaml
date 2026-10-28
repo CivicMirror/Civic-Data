@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5193f962-6473-5aab-a299-852f5b4e75ab
+name: Raul Palacios
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/spring-lake-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:spring-lake/government
+  office_id: spring-lake/commissioner
+  party: Nonpartisan
+  ballot_name: Raul Palacios
+  status: active
+- contest_id: nc/2025-11-04/spring-lake-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:spring-lake/government
+  office_id: spring-lake/commissioner
+  party: Write-In
+  ballot_name: Raul Palacios
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Spring Lake Board of Commissioners -- Sona L. Cooper (Nonpartisan) 362; Robyn Chadwick (Nonpartisan) 347; Adrian Jones Thompson (Nonpartisan) 333; Marvin Lackman (Nonpartisan) 303; Raul Palacios (Nonpartisan) 299; Jackie Lee Jackson (Nonpartisan) 235; James P. O''Garra (Nonpartisan) 227; Daniel B. Gerald (Nonpartisan) 104; Katrina (Bell) Bratcher (Nonpartisan) 97. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Spring Lake Board of Commissioners -- Sona L. Cooper (Nonpartisan) 384; Fredericka Sutherland (Nonpartisan) 370; Jackie Lee Jackson (Nonpartisan) 355; Tony Burgess (Nonpartisan) 346; Adrian Jones Thompson (Nonpartisan) 342; Tyrone Short (Nonpartisan) 320; Mary C. Jackson (Nonpartisan) 263; Dedra Parker (Nonpartisan) 169; Ryan C. Anderson (Nonpartisan) 123; Katrina Bell Bratcher (Nonpartisan) 95; Stachia Arnold (Nonpartisan) 87; Marvin Lckman (Write-In) (Write-In) 9; Raul Palacios (Write-In) (Write-In) 9. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

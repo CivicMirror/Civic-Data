@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9ba5f79f-5bd0-58a7-93cc-90ea8dffba88
+name: Rodney Mullis
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hemby-bridge-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hemby-bridge/government
+  office_id: hemby-bridge/alderman
+  party: Nonpartisan
+  ballot_name: Rodney Mullis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hemby Bridge Board of Aldermen -- Rodney Mullis (Nonpartisan) 46; Kevin Pressley (Nonpartisan) 40. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

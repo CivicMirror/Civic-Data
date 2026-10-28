@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/43333a45-10c5-504c-9b3d-c7e7f8d6e944
+name: Deborah Harper
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/snow-hill-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:snow-hill/government
+  office_id: snow-hill/commissioner
+  party: Nonpartisan
+  ballot_name: Deborah Harper
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Snow Hill Board of Commissioners -- Rosa S. Wilkes (Nonpartisan) 284; Faye Edwards Daniels (Nonpartisan) 227; Deborah Harper (Nonpartisan) 217; Geraldine (Pat) Shackleford (Nonpartisan) 214; S. Courtney Harrell (Nonpartisan) 193; R. Dylan Potter (Nonpartisan) 121; Steve Heath (Nonpartisan) 48. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

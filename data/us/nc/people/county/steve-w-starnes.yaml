@@ -11,6 +11,13 @@ candidacies:
   party: Democratic
   ballot_name: Steve W. Starnes
   status: active
+- contest_id: nc/2025-11-04/connelly-springs-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:connelly-springs/government
+  office_id: connelly-springs/alderman
+  party: Nonpartisan
+  ballot_name: Steve W. Starnes
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +25,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Burke County Board Of Commissioners -- Randy Burns (REP) 19,490; Phil Smith (REP) 19,390; Steve W. Starnes (DEM) 7,765; Kyle Whisnant (DEM) 7,762.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Connelly Springs Board of Aldermen -- Bobby Tomlinson (Nonpartisan) 84; Adam Greene (Nonpartisan) 75; Charles E. Berry (Nonpartisan) 60; Shannon Dodd (Nonpartisan) 48; Steve W. Starnes (Nonpartisan) 20; Jonah Serva (Nonpartisan) 16. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

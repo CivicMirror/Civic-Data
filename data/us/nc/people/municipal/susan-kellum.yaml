@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e277c2f3-29fe-568a-86a1-be165df4c786
+name: Susan Kellum
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/wilson-council-member-district-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilson/government
+  office_id: wilson/council-member
+  party: Write-In
+  ballot_name: Susan Kellum
+  status: active
+- contest_id: nc/2025-11-04/wilson-council-member-district-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilson/government
+  office_id: wilson/council-member
+  party: Nonpartisan
+  ballot_name: Susan Kellum
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wilson City Council, District 3 -- William Thomas (Tom) Fyle (Nonpartisan) 342; John Joyner (Write-In) (Write-In) 2; Liles (Write-In) (Write-In) 2; Anthony B. Mitchell (Write-In) (Write-In) 1; Arthur Johnson (Write-In) (Write-In) 1; Carolyn Minor (Write-In) (Write-In) 1; Daffy Duck (Write-In) (Write-In) 1; Daketic Lucas (Write-In) (Write-In) 1; Elaine Buggs (Write-In) (Write-In) 1; Felton Strickland (Write-In) (Write-In) 1; Gillise Morgan (Write-In) (Write-In) 1; Harriet Tyler (Write-In) (Write-In) 1; James Bollengier (Write-In) (Write-In) 1; Ken Jones (Write-In) (Write-In) 1; Logan Lyles (Write-In) (Write-In) 1; Matthew Bain (Write-In) (Write-In) 1; Patsy Ewan (Write-In) (Write-In) 1; Rae Glordano (Write-In) (Write-In) 1; Ralph Durham (Write-In) (Write-In) 1; Rebecca warren (Write-In) (Write-In) 1; Susan Claus (Write-In) (Write-In) 1; Susan Kellum (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wilson City Council, District 5 -- Susan Kellum (Nonpartisan) 522; Jane Cookson (Nonpartisan) 378; Bradley Eagles (Nonpartisan) 97; William Matthew Bain (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

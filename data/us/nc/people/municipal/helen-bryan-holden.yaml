@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d940bf86-4fba-57fe-b7ad-962943d695ba
+name: Helen Bryan Holden
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/whiteville-council-member-district-1
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whiteville/government
+  office_id: whiteville/council-member
+  party: Nonpartisan
+  ballot_name: Helen Bryan Holden
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Whiteville City Council, District 1 -- Linda Smith (Nonpartisan) 237; Vickie Pait (Nonpartisan) 232; Helen Bryan Holden (Nonpartisan) 173. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2d591947-c276-5cbe-a0b9-4d3a7c1bb7ec
+name: Eric Biter
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/brookford-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:brookford/government
+  office_id: brookford/alderman
+  party: Nonpartisan
+  ballot_name: Eric Biter
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Brookford Board of Aldermen -- Kelvin Gregory (Nonpartisan) 59; Charles Allen Bargsley, Jr. (Nonpartisan) 51; Eric Biter (Nonpartisan) 51; Helen (Cooki) Turner (Nonpartisan) 44. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

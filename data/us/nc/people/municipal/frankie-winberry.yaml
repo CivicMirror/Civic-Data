@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7121b97b-58d1-5d14-a1f6-2dcfbc7d1361
+name: Frankie Winberry
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/cedar-point-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cedar-point/government
+  office_id: cedar-point/commissioner
+  party: Nonpartisan
+  ballot_name: Frankie Winberry
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Cedar Point Board of Commissioners -- Frankie Winberry (Nonpartisan) 148; Gary Alan Bray (Nonpartisan) 147. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/92fb2a4c-b14d-5325-b7b4-c7da189de935
+name: Wendy T. Griffin
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/unionville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:unionville/government
+  office_id: unionville/commissioner
+  party: Nonpartisan
+  ballot_name: Wendy T. Griffin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Unionville Board of Commissioners -- Jeff Broadaway (Nonpartisan) 428; Gene Price (Nonpartisan) 408; Jaren Simpson (Nonpartisan) 355; Wendy T. Griffin (Nonpartisan) 242. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

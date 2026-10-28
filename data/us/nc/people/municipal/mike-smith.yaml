@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2361ccdc-58fd-56b5-ab0a-d7ab7d0d79b1
+name: Mike Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/elk-park-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elk-park/government
+  office_id: elk-park/council-member
+  party: Nonpartisan
+  ballot_name: Mike Smith
+  status: active
+- contest_id: nc/2023-11-07/turkey-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:turkey/government
+  office_id: turkey/commissioner
+  party: Nonpartisan
+  ballot_name: Mike Smith
+  status: active
+- contest_id: nc/2025-11-04/elk-park-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elk-park/government
+  office_id: elk-park/council-member
+  party: Nonpartisan
+  ballot_name: Mike Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Elk Park Town Council -- Darlene Hicks (Nonpartisan) 48; Tony Eller (Nonpartisan) 41; Brad Benfield (Nonpartisan) 41; Mike Smith (Nonpartisan) 37; Alice Whittington (Nonpartisan) 33; Joel Whitley (Nonpartisan) 26. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Turkey Board of Commissioners -- Mike Smith (Nonpartisan) 39; Tracie Pryor (Nonpartisan) 27; David Krch (Write-In) (Write-In) 9. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Elk Park Town Council -- Darlene Hicks (Nonpartisan) 113; Mike Smith (Nonpartisan) 104; Tony Eller (Nonpartisan) 102; Alice Whittington (Nonpartisan) 100; Brad Benfield (Nonpartisan) 96; Ryan Moore (Write-In) (Write-In) 8. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

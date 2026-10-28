@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/dfd6a3cb-3359-5784-8b5b-c9f5304989d7
+name: Nancy E. Davis
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/newland-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:newland/government
+  office_id: newland/council-member
+  party: Nonpartisan
+  ballot_name: Nancy E. Davis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Newland Town Council -- Christian (Christie) Hughes (Nonpartisan) 83; Gail Haller (Nonpartisan) 59; Kenan Foxx (Nonpartisan) 58; David P. Calvert (Nonpartisan) 35; Nancy E. Davis (Nonpartisan) 30; Kenny Caraway (Write-In) (Write-In) 10; Autumn Killion (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

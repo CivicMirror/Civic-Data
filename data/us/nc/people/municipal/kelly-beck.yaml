@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0ca66915-dae8-5da0-8d4a-7f0d1d742ad7
+name: Kelly Beck
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/tabor-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:tabor/government
+  office_id: tabor/council-member
+  party: Nonpartisan
+  ballot_name: Kelly Beck
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Tabor City Town Council -- Kelly Beck (Nonpartisan) 235; David E. Mincey (Nonpartisan) 227; Nelson Lee (Nonpartisan) 175; Emory Cox (Nonpartisan) 63. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

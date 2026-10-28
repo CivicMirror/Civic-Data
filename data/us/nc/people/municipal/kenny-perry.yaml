@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8a166e06-5fa9-5909-9020-e29a2b4011ef
+name: Kenny Perry
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/colerain-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:colerain/government
+  office_id: colerain/mayor
+  party: Write-In
+  ballot_name: Kenny Perry
+  status: active
+- contest_id: nc/2023-11-07/colerain-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:colerain/government
+  office_id: colerain/commissioner
+  party: Write-In
+  ballot_name: Kenny Perry
+  status: active
+- contest_id: nc/2025-11-04/colerain-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:colerain/government
+  office_id: colerain/commissioner
+  party: Write-In
+  ballot_name: Kenny Perry
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Colerain Mayor -- Bill Harrell (Nonpartisan) 15; Jacques Turner (Write-In) (Write-In) 3; Kenny Perry (Write-In) (Write-In) 3; Al Snider (Write-In) (Write-In) 1; Joe Morris (Write-In) (Write-In) 1; No Name (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Colerain Board of Commissioners -- Jacques Turner (Write-In) (Write-In) 7; Lynn Askew (Write-In) (Write-In) 6; Herbert Copeland (Write-In) (Write-In) 5; Kenny Perry (Write-In) (Write-In) 5; Joe Van Morris (Write-In) (Write-In) 4; Al Snyder (Write-In) (Write-In) 2; Alyssa Fairless (Write-In) (Write-In) 2; Patsy Perry (Write-In) (Write-In) 1; Will Fairless (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Colerain Board of Commissioners -- Greg White (Nonpartisan) 24; Will Fairless (Nonpartisan) 24; Kenny Perry (Write-In) (Write-In) 9; Lynn Askew (Write-In) (Write-In) 4; Herbert Copeland (Write-In) (Write-In) 3; Joe Van Morris (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

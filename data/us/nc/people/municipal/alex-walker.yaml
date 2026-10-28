@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/96eb11a5-976e-56ee-855b-1bbafeeb90fa
+name: Alex Walker
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/statesville-council-member-ward-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:statesville/government
+  office_id: statesville/council-member
+  party: Nonpartisan
+  ballot_name: Alex Walker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Statesville City Council, Ward 5 -- Tip Nicholson (Nonpartisan) 313; John Staford (Nonpartisan) 308; Alex Walker (Nonpartisan) 241; Shelton L. Moore (Nonpartisan) 194. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

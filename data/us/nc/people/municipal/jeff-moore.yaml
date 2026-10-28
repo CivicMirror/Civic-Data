@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4f4662d8-fca8-50c5-a1fc-3d8037f0c1b7
+name: Jeff Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mills-river-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mills-river/government
+  office_id: mills-river/council-member
+  party: Nonpartisan
+  ballot_name: Jeff Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Mills River Town Council -- Jeff Moore (Nonpartisan) 1,861; Brian Kimball (Nonpartisan) 1,803; Tiffany Councill (Nonpartisan) 1,440; Jim Foster (Nonpartisan) 1,344; Jeff Young (Nonpartisan) 1,335. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

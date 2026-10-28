@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3899c904-30fa-5e15-a1db-cd22c5b5b406
+name: Larry Rhue
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/peletier-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:peletier/government
+  office_id: peletier/mayor
+  party: Nonpartisan
+  ballot_name: Larry Rhue
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Peletier Mayor -- Dale Sowers (Nonpartisan) 167; Larry Rhue (Nonpartisan) 84. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

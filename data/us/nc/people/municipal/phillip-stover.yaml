@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/61bf70b7-7723-594d-a2b9-0b194e8a72bf
+name: Phillip Stover
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/louisburg-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:louisburg/government
+  office_id: louisburg/council-member
+  party: Nonpartisan
+  ballot_name: Phillip Stover
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Louisburg Town Council -- Kim Baker (Nonpartisan) 473; Dalita L. Woods (Nonpartisan) 446; Phillip Stover (Nonpartisan) 443; Bobby Dickerson (Nonpartisan) 140; Mark K. Russell (Nonpartisan) 120; Natalie Famiglietti Peterson (Nonpartisan) 96. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

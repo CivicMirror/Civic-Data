@@ -7,17 +7,27 @@
 id: ocd-person/b1e3d849-5050-4751-be2a-be2c43516ce9
 name: Cassidy Santaguida
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 877ead01-020d-4323-8c29-5dd9d9415a16
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 877ead01-020d-4323-8c29-5dd9d9415a16
+candidacies:
+- contest_id: nc/2025-11-04/wilmington-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+  office_id: wilmington/council-member
+  party: Nonpartisan
+  ballot_name: Cassidy Santaguida
+  status: active
 contact:
   email: cassidy.santaguida@wilmingtonnc.gov
-  phone: "(910) 367-5543"
+  phone: (910) 367-5543
   profile_url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council/Cassidy-Santaguida
 image: https://www.wilmingtonnc.gov/files/assets/city/v/1/government/images/council-headshots/dec.-2025/santaguida_cassidy_web2.jpg?dimension=userprofile&w=150&h=150
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
-    retrieved: "2026-08-14"
+- url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wilmington Government Town Council -- JC Lyle (Nonpartisan) 11,970; Cassidy Santaguida (Nonpartisan) 11,676; Chakema Clinton-Quintana (Nonpartisan) 11,576; Luke Waddell (Nonpartisan) 10,666; Richard M. Collier (Nonpartisan) 9,430; Clifford D. Barnett (Nonpartisan) 6,721; Kelly J. Roberts, Jr. (Nonpartisan) 6,596; Sean Guerrero (Nonpartisan) 790; Kevin Spears (Write-In) (Write-In) 7; Ricky Meeks (Write-In) (Write-In) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

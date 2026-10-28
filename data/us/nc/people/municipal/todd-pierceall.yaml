@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3ee5df0f-ee79-5170-913e-8ed6154821a7
+name: Todd Pierceall
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/gastonia-council-member-ward-4
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/council-member
+  party: Write-In
+  ballot_name: Todd Pierceall
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gastonia Government Town Council, Ward 4 -- Charles M. Odom (Nonpartisan) 4,365; Reese Barnett (Nonpartisan) 2,445; Todd Pierceall (Write-In) (Write-In) 3; Brandon Walker (Write-In) (Write-In) 1; Justin Arrowood (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

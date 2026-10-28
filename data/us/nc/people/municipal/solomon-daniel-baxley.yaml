@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/322a488a-a7f1-5131-a776-a6f10186e6a3
+name: Solomon Daniel Baxley
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/gibson-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gibson/government
+  office_id: gibson/commissioner
+  party: Nonpartisan
+  ballot_name: Solomon Daniel Baxley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Gibson Board of Commissioners -- Marjorie Whitlock (Nonpartisan) 63; Michael T. Swinney (Nonpartisan) 55; Randy Pearson (Nonpartisan) 54; Solomon Daniel Baxley (Nonpartisan) 40. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

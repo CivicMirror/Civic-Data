@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2237c786-fdfd-5b5a-b0a0-e6ba7697a7fb
+name: Donald Britt
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/boardman-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:boardman/government
+  office_id: boardman/council-member
+  party: Nonpartisan
+  ballot_name: Donald Britt
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Boardman Town Council -- Crystal Rogers (Nonpartisan) 20; Donald Britt (Nonpartisan) 20; James Smith (Nonpartisan) 20; Minnie Turbeville (Nonpartisan) 20; Tevis Britt (Nonpartisan) 19. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

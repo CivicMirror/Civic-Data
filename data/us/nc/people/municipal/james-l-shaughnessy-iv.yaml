@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/08caa767-3c99-547d-8958-47a4326f02f0
+name: James L. Shaughnessy IV
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/raleigh-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:raleigh/government
+  office_id: raleigh/mayor
+  party: Nonpartisan
+  ballot_name: James L. Shaughnessy IV
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Raleigh Mayor -- Janet Cowell (Nonpartisan) 132,781; Paul Fitts (Nonpartisan) 40,835; Terrance (Truth) Ruth (Nonpartisan) 25,458; Eugene Myrick (Nonpartisan) 14,422; James L. Shaughnessy IV (Nonpartisan) 8,080; Corey Branch (Write-In) (Write-In) 6; Paul Coble (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

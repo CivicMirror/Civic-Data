@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/21542cc6-64f3-535e-85b4-f25567c46b11
+name: Richard Kimmer
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/new-london-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:new-london/government
+  office_id: new-london/commissioner
+  party: Nonpartisan
+  ballot_name: Richard Kimmer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): New London Board of Commissioners -- Richard Kimmer (Nonpartisan) 256; Bob Loflin, Jr. (Nonpartisan) 247; Bill Peak (Nonpartisan) 243; Derek Starnes (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

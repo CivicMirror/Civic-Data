@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2fc675c4-8665-57b2-97ab-51b38df659a7
+name: Jeffrey Dodson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/nashville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:nashville/government
+  office_id: nashville/council-member
+  party: Nonpartisan
+  ballot_name: Jeffrey Dodson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Nashville Town Council -- Larry D. Taylor (Nonpartisan) 410; Kate Burns (Nonpartisan) 292; Jeffrey Dodson (Nonpartisan) 182. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

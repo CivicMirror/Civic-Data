@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a84a2db4-6eb5-504f-9a1c-8510a97d8cef
+name: Rodney Cabe
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/pine-level-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-level/government
+  office_id: pine-level/commissioner
+  party: Nonpartisan
+  ballot_name: Rodney Cabe
+  status: active
+- contest_id: nc/2025-11-04/pine-level-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-level/government
+  office_id: pine-level/commissioner
+  party: Nonpartisan
+  ballot_name: Rodney Cabe
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Pine Level Board of Commissioners -- Bill Radford (Nonpartisan) 223; Phil Pittman (Nonpartisan) 203; Greg Baker (Nonpartisan) 200; Jimmy F. Garner (Nonpartisan) 187; Rodney Cabe (Nonpartisan) 180; Bruce Avery (Nonpartisan) 153; Patrick W. Riley (Nonpartisan) 58. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pine Level Board of Commissioners -- Jimmy F. Garner (Nonpartisan) 154; Greg Baker (Nonpartisan) 129; William H. (Bill) Radford (Nonpartisan) 129; Phil Pittman (Nonpartisan) 121; Rodney Cabe (Nonpartisan) 106. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

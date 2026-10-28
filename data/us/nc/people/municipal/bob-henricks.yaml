@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7bf21d50-03e2-5eb7-9363-507566c74567
+name: Bob Henricks
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/mount-holly-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mount-holly/government
+  office_id: mount-holly/council-member
+  party: Nonpartisan
+  ballot_name: Bob Henricks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mount Holly City Council -- Lauren Shoemaker (Nonpartisan) 1,219; Ivory Craig, Jr. (Nonpartisan) 1,209; William T. Brooks (Nonpartisan) 976; Jarrod Facchino (Nonpartisan) 965; Bob Henricks (Nonpartisan) 852; Charles (Chuck) Williams (Nonpartisan) 848; Garrie A. Brinkley (Nonpartisan) 735. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

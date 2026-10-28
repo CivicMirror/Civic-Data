@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bd876280-8ebc-5bcf-8991-44e842cfb8b4
+name: Otis W. Church
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/north-wilkesboro-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:north-wilkesboro/government
+  office_id: north-wilkesboro/commissioner
+  party: Nonpartisan
+  ballot_name: Otis W. Church
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): North Wilkesboro Board of Commissioners -- Sandra Story Espin (Nonpartisan) 286; Alexander (Alex) Hamilton (Nonpartisan) 213; Otis W. Church (Nonpartisan) 173; Jame Welborn (Nonpartisan) 169; Niki Hamby (Nonpartisan) 168. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0c58bf5d-799e-5576-8e63-536d11717cda
+name: Bill Wilharm
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/calabash-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:calabash/government
+  office_id: calabash/commissioner
+  party: Nonpartisan
+  ballot_name: Bill Wilharm
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Calabash Board of Commissioners -- Bill Wilharm (Nonpartisan) 97; Shaun Bellamy (Nonpartisan) 97; Frank J. Strungis (Nonpartisan) 92. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

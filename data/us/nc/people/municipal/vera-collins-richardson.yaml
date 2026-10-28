@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/96126734-8662-5d64-9022-2e8fd1a94067
+name: Vera Collins Richardson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/mount-gilead-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mount-gilead/government
+  office_id: mount-gilead/commissioner
+  party: Nonpartisan
+  ballot_name: Vera Collins Richardson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mount Gilead Board of Commissioners -- Timothy (Tim) McAuley (Nonpartisan) 110; Vera Collins Richardson (Nonpartisan) 104. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

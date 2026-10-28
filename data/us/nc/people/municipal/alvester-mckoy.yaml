@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/90afe575-6728-579f-9583-ae2551434e5e
+name: Alvester McKoy
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/erwin-commissioner-ward-1
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:erwin/government
+  office_id: erwin/commissioner
+  party: Nonpartisan
+  ballot_name: Alvester McKoy
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Erwin Board of Commissioners, Ward 1 -- Alvester McKoy (Nonpartisan) 14. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

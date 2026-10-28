@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/972cb914-f9dd-5e0f-9276-35a4caadf51e
+name: Juan Diego (J.D.) Mazuera Arias
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/charlotte-council-member-district-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/council-member
+  party: Democratic
+  ballot_name: Juan Diego (J.D.) Mazuera Arias
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Charlotte City Council, District 5 -- Juan Diego (J.D.) Mazuera Arias (Democratic) 12,753. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

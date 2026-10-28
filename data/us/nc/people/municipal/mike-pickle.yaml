@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9dee2559-4955-5894-8aec-c8521fa8e2d4
+name: Mike Pickle
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hamilton-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamilton/government
+  office_id: hamilton/commissioner
+  party: Nonpartisan
+  ballot_name: Mike Pickle
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hamilton Board of Commissioners -- William Freeman (Nonpartisan) 71; Brandon Raynor (Nonpartisan) 67; Larry Jackson (Nonpartisan) 61; Tamika Council (Nonpartisan) 61; Mike Pickle (Nonpartisan) 57; Mary Ann Taylor (Nonpartisan) 43; James Ebron (Write-In) (Write-In) 40. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

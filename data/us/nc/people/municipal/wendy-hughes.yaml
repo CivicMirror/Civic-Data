@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3d3540d5-7848-5731-8bd7-f6793b4e4dbd
+name: Wendy Hughes
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/ocean-isle-beach-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ocean-isle-beach/government
+  office_id: ocean-isle-beach/mayor
+  party: Write-In
+  ballot_name: Wendy Hughes
+  status: active
+- contest_id: nc/2025-11-04/ocean-isle-beach-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ocean-isle-beach/government
+  office_id: ocean-isle-beach/commissioner
+  party: Write-In
+  ballot_name: Wendy Hughes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Ocean Isle Beach Mayor -- Debbie Smith (Nonpartisan) 255; Wendy Hughes (Write-In) (Write-In) 6; Leigh Simmons (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Ocean Isle Beach Board of Commissioners -- Mark Robertson (Nonpartisan) 230; Wayne Rowell (Nonpartisan) 209; Polly Bristow (Nonpartisan) 168; Wendy Hughes (Write-In) (Write-In) 10. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

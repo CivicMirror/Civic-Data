@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2d4feb57-6cf8-53ae-a04c-6342d80977ea
+name: Ian C. Focht
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/richfield-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:richfield/government
+  office_id: richfield/mayor
+  party: Nonpartisan
+  ballot_name: Ian C. Focht
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Richfield Mayor -- Ian C. Focht (Nonpartisan) 179. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

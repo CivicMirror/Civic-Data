@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7013ea13-b425-5c4b-890d-edb77dd3d50e
+name: Joanne Reese
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/macon-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:macon/government
+  office_id: macon/commissioner
+  party: Nonpartisan
+  ballot_name: Joanne Reese
+  status: active
+- contest_id: nc/2025-11-04/macon-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:macon/government
+  office_id: macon/commissioner
+  party: Nonpartisan
+  ballot_name: Joanne Reese
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Macon Board of Commissioners -- Wanda C. Thompson (Nonpartisan) 21; Glenn R. Riggan (Nonpartisan) 20; James H. Boyd, Jr. (Nonpartisan) 19; W. Loyd King (Nonpartisan) 17; Joanne Reese (Nonpartisan) 14; Carroll (Write-In) (Write-In) 1. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Macon Board of Commissioners -- Glenn Riggan (Nonpartisan) 23; Wanda Thompson (Nonpartisan) 21; Linda Harris (Nonpartisan) 20; Joanne Reese (Nonpartisan) 17; Willie Carroll (Write-In) (Write-In) 12; Robert Carroll (Write-In) (Write-In) 10. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

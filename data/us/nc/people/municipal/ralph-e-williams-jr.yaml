@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/643bf970-ad22-5dd4-b062-0aceef258e29
+name: Ralph E. Williams, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/newport-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:newport/government
+  office_id: newport/council-member
+  party: Nonpartisan
+  ballot_name: Ralph E. Williams, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Newport Town Council -- Brenda Culbreth Harris (Nonpartisan) 282; Timmy Quillen (Nonpartisan) 258; Ralph E. Williams, Jr. (Nonpartisan) 253; Rhonda Shinn (Nonpartisan) 192; Kim B. Mullins (Nonpartisan) 171; Danny Fornes (Nonpartisan) 139; Anna Buffaloe (Nonpartisan) 68. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

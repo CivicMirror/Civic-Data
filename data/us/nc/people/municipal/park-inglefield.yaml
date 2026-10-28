@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/edcfc36f-d04c-5184-8888-09d2838ba852
+name: Park Inglefield
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hickory-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hickory/government
+  office_id: hickory/mayor
+  party: Nonpartisan
+  ballot_name: Park Inglefield
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hickory Mayor -- Hank Guess (Nonpartisan) 2,629; Park Inglefield (Nonpartisan) 2,194. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

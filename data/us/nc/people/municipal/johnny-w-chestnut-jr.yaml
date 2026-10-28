@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4ab238dd-cd6c-5785-af35-1a4b6c97207d
+name: Johnny W. Chestnut, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/new-london-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:new-london/government
+  office_id: new-london/mayor
+  party: Nonpartisan
+  ballot_name: Johnny W. Chestnut, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): New London Mayor -- Tate Daniels (Nonpartisan) 215; Johnny W. Chestnut, Jr. (Nonpartisan) 78. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

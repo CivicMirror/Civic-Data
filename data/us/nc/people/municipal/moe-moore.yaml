@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/15958d77-bde6-5534-b298-7795195972a4
+name: Moe Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/elizabeth-council-member-3rd-ward
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/council-member
+  party: Nonpartisan
+  ballot_name: Moe Moore
+  status: active
+- contest_id: nc/2025-10-07/elizabeth-council-member-3rd-ward
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/council-member
+  party: Nonpartisan
+  ballot_name: Moe Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Elizabeth City City Council, 3rd Ward -- Kem Spence (Nonpartisan) 271; Katherine W. Felton (Nonpartisan) 269; Evelyn Strader (Nonpartisan) 72; Moe Moore (Nonpartisan) 63. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Elizabeth City City Council, 3rd Ward -- Kem Spence (Nonpartisan) 225; Katherine W. Felton (Nonpartisan) 201; Moe Moore (Nonpartisan) 59. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

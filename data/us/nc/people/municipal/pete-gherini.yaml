@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/69f74d1a-0016-54c8-bfb5-adee6caae70a
+name: Pete Gherini
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/blowing-rock-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:blowing-rock/government
+  office_id: blowing-rock/council-member
+  party: Nonpartisan
+  ballot_name: Pete Gherini
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Blowing Rock Town Council -- Douglas Matheson (Nonpartisan) 453; Wayne Miller (Nonpartisan) 416; Melissa Goins Tausche (Nonpartisan) 290; Pete Gherini (Nonpartisan) 280; Melissa Pickett (Nonpartisan) 121. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

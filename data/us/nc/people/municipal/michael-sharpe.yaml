@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d7658d8a-62cf-50a0-b4c4-a63a45eaeb25
+name: Michael Sharpe
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/sedalia-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:sedalia/government
+  office_id: sedalia/council-member
+  party: Nonpartisan
+  ballot_name: Michael Sharpe
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Sedalia Town Council -- Howard J. Morgan (Nonpartisan) 46; Michael Sharpe (Nonpartisan) 35. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

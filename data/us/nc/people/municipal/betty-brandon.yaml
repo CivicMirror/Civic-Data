@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0ee62458-3baf-5c7e-8f82-9209e82b5726
+name: Betty Brandon
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hobgood-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hobgood/government
+  office_id: hobgood/commissioner
+  party: Write-In
+  ballot_name: Betty Brandon
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hobgood Board of Commissioners -- Betty Brandon (Write-In) (Write-In) 42; Carolyn Parker (Write-In) (Write-In) 37; Mary Ann Coley (Nonpartisan) 23; Ron Elkins (Nonpartisan) 21. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

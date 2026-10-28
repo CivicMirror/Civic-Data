@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f8f75f19-4c51-50f1-9e82-84a6a567abcf
+name: Lauren Wise
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/brevard-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:brevard/government
+  office_id: brevard/council-member
+  party: Nonpartisan
+  ballot_name: Lauren Wise
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Brevard City Council -- Pamela C. Holder (Nonpartisan) 1,186; Lauren Wise (Nonpartisan) 1,177; Gary Daniel (Nonpartisan) 1,001; Ray Brewster (Nonpartisan) 527; Wes Dickson (Nonpartisan) 484; Madeline Hanley (Nonpartisan) 390. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

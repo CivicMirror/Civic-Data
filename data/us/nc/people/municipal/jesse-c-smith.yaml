@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8b0c6fd9-c152-5a0f-ba5a-b09ec2290d82
+name: Jesse C. Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/crossnore-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:crossnore/government
+  office_id: crossnore/alderman
+  party: Nonpartisan
+  ballot_name: Jesse C. Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Crossnore Board of Aldermen -- Jesse C. Smith (Nonpartisan) 19; Roy Ingram (Nonpartisan) 17; Terry Smith (Nonpartisan) 16. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

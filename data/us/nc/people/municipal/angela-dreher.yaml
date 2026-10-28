@@ -7,17 +7,27 @@
 id: ocd-person/fe4e2e76-470a-43cf-84ac-cc7e81d4c7c7
 name: Angela Dreher
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 988d91e6-a03e-4dac-8fdb-ea7fa415c4bc
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 988d91e6-a03e-4dac-8fdb-ea7fa415c4bc
+candidacies:
+- contest_id: nc/2025-11-04/gastonia-council-member-ward-4-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/council-member
+  party: Nonpartisan
+  ballot_name: Angela Dreher
+  status: active
 contact:
   email: ward4.dreher@gastonianc.gov
-  phone: "(704) 460-0773"
+  phone: (704) 460-0773
   profile_url: https://www.gastonianc.gov/city-council-info.html?view=article&id=3038:ward-4-angela-dreher&catid=8:article
 image: https://www.gastonianc.gov/images/files/city_council_mayor/images/AngelaDreher-D2110244-Edit_Website.jpg
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.gastonianc.gov/city-council-info.html
-    retrieved: "2026-08-14"
+- url: https://www.gastonianc.gov/city-council-info.html
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Gastonia Government Town Council, Ward 4 (Unexpired Term) -- Angela Dreher (Nonpartisan) 3,783; Cheryl Littlejohn (Nonpartisan) 3,108. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

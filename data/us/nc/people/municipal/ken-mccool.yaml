@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/620b9e5f-6131-5498-9104-9e380e0989f8
+name: Ken McCool
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/matthews-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:matthews/government
+  office_id: matthews/commissioner
+  party: Nonpartisan
+  ballot_name: Ken McCool
+  status: active
+- contest_id: nc/2025-11-04/matthews-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:matthews/government
+  office_id: matthews/commissioner
+  party: Write-In
+  ballot_name: Ken McCool
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Matthews Board of Commissioners -- Gina Hoover (Nonpartisan) 2,429; Mark Tofano (Nonpartisan) 2,394; Renee Garner (Nonpartisan) 2,336; Ken McCool (Nonpartisan) 2,246; Leon Threatt (Nonpartisan) 2,110; John R. Urban (Nonpartisan) 2,051; Jonathan Clayton (Nonpartisan) 1,909; Jeff Miller (Nonpartisan) 1,767; David Gaertner (Nonpartisan) 1,714; David Wieser (Nonpartisan) 1,535; George Young (Nonpartisan) 1,519; Sebastian Sadovsky (Nonpartisan) 1,260. Winners are the top 6 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Matthews Board of Commissioners -- Susan Chambers (Nonpartisan) 4,681; John Urban (Nonpartisan) 4,253; Kerry Lamson (Nonpartisan) 3,924; Jonathan Clayton (Nonpartisan) 3,834; Jennefer Cross Garrity (Nonpartisan) 3,810; Brian Hacker (Nonpartisan) 3,778; Gina Hoover (Nonpartisan) 3,337; Mark Tofano (Nonpartisan) 3,199; Jim Dedmon (Nonpartisan) 2,315; George Young (Nonpartisan) 2,286; Ken McCool (Write-In) (Write-In) 5. Winners are the top 6 by total votes.'
+  retrieved: '2026-10-25'

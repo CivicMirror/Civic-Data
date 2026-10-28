@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9a08abca-4752-5352-b1b4-db417fe56948
+name: Scott Darnell
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/jonesville-council-member
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jonesville/government
+  office_id: jonesville/council-member
+  party: Nonpartisan
+  ballot_name: Scott Darnell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Jonesville Town Council -- Andy Green (Nonpartisan) 359; Scott Darnell (Nonpartisan) 334; Misty Matthews (Nonpartisan) 256. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

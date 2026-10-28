@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/34831e4d-b554-52d5-89a5-49b58d65aef2
+name: John Koloski
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/surf-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:surf/government
+  office_id: surf/council-member
+  party: Nonpartisan
+  ballot_name: John Koloski
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Surf City Town Council -- Alicia Hawley (Nonpartisan) 664; Trudy Solomon (Nonpartisan) 631; John Koloski (Nonpartisan) 544; William J. (Buddy) Fowler (Nonpartisan) 280; Heather Allen (Nonpartisan) 274; Donald Ray Helms (Nonpartisan) 212; Cheryl Crane Hunter (Nonpartisan) 202. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/61db05d9-d795-5413-8431-cc375586501b
+name: Joel Whitley
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/elk-park-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elk-park/government
+  office_id: elk-park/council-member
+  party: Nonpartisan
+  ballot_name: Joel Whitley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Elk Park Town Council -- Darlene Hicks (Nonpartisan) 48; Tony Eller (Nonpartisan) 41; Brad Benfield (Nonpartisan) 41; Mike Smith (Nonpartisan) 37; Alice Whittington (Nonpartisan) 33; Joel Whitley (Nonpartisan) 26. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

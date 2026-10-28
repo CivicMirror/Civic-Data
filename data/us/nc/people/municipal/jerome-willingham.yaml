@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3378e307-86dd-58a3-ab4a-acbeb973c7ca
+name: Jerome Willingham
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/jacksonville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/mayor
+  party: Write-In
+  ballot_name: Jerome Willingham
+  status: active
+- contest_id: nc/2025-11-04/jacksonville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/council-member
+  party: Write-In
+  ballot_name: Jerome Willingham
+  status: active
+- contest_id: nc/2025-11-04/jacksonville-council-member-ward-1
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/council-member
+  party: Nonpartisan
+  ballot_name: Jerome Willingham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Jacksonville Mayor -- Sammy Phillips (Nonpartisan) 1,205; Angelia J. Washington (Write-In) (Write-In) 82; Jerome Willingham (Write-In) (Write-In) 20. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jacksonville City Council (At-Large) -- Michael Yaniero (Nonpartisan) 1,595; Cindy Edwards (Nonpartisan) 1,570; Amity Holland (Nonpartisan) 912; Jerome Willingham (Write-In) (Write-In) 24; Mickey Smith (Write-In) (Write-In) 23; Brian Jackson (Write-In) (Write-In) 14; Helen D Thompson (Write-In) (Write-In) 6; Fernando Schiefelbein (Write-In) (Write-In) 4. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jacksonville City Council, Ward 1 -- Jerome Willingham (Nonpartisan) 128; Brian H. Jackson (Nonpartisan) 91. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

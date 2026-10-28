@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/33759c19-9285-597f-8f10-0ddd1aeddf98
+name: Ray Mills
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hamlet-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamlet/government
+  office_id: hamlet/council-member
+  party: Nonpartisan
+  ballot_name: Ray Mills
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hamlet City Council -- Abbie Covington (Nonpartisan) 358; Maurice Lee Stuart II (Nonpartisan) 313; Oscar Sellers (Nonpartisan) 268; Ray Mills (Nonpartisan) 201; Blank (Write-In) (Write-In) 2; Charles D Dulin (Write-In) (Write-In) 2; Dewey Brower (Write-In) (Write-In) 1; Robert David (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b5783429-0131-5db0-879c-1c3753a6f4a6
+name: Corey Williams Brown
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kenly-council-member-members
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kenly/government
+  office_id: kenly/council-member
+  party: Write-In
+  ballot_name: Corey Williams Brown
+  status: active
+- contest_id: nc/2023-11-07/kenly-council-member-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kenly/government
+  office_id: kenly/council-member
+  party: Write-In
+  ballot_name: Corey Williams Brown
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kenly Town Council, Members -- Keith Davis (Nonpartisan) 93; LaWanda M. Neal (Nonpartisan) 88; Garrett Warren Stancil (Nonpartisan) 61; Shirley Dupree (Write-In) (Write-In) 36; Wade Troutman (Nonpartisan) 31; Jason Tedder (Nonpartisan) 19; Corey Williams Brown (Write-In) (Write-In) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kenly Town Council, Member (Unexpired Term) -- Beverly Hicks Knight (Nonpartisan) 73; Corey Williams Brown (Write-In) (Write-In) 24; Miscellaneous (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

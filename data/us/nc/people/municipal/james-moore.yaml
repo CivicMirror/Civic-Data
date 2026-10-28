@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e08efa96-3a1a-549f-b8bb-439813f6365f
+name: James Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/gastonia-council-member-ward-6
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/council-member
+  party: Write-In
+  ballot_name: James Moore
+  status: active
+- contest_id: nc/2023-11-07/vass-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:vass/government
+  office_id: vass/mayor
+  party: Nonpartisan
+  ballot_name: James Moore
+  status: active
+- contest_id: nc/2023-11-07/teachey-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:teachey/government
+  office_id: teachey/commissioner
+  party: Nonpartisan
+  ballot_name: James (Jamie) Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gastonia Government Town Council, Ward 6 -- Donyel B. Barber (Nonpartisan) 5,765; Mike Lovingood (Write-In) (Write-In) 9; Dot Cherry (Write-In) (Write-In) 6; David Wilson (Write-In) (Write-In) 4; Forrest Hennessee (Write-In) (Write-In) 3; Steve Moore (Write-In) (Write-In) 1; Alyssa Currier (Write-In) (Write-In) 1; Dan Charney (Write-In) (Write-In) 1; Doris Gray (Write-In) (Write-In) 1; James Moore (Write-In) (Write-In) 1; Lucas Roach (Write-In) (Write-In) 1; Lucas Rossi (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Vass Mayor -- Alphonso Mosley, Jr. (Nonpartisan) 111; Angela M. Erica Vacek (Nonpartisan) 43; James Moore (Nonpartisan) 38. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Teachey Board of Commissioners -- Ronnie Page (Nonpartisan) 85; Wanda Henderson (Nonpartisan) 69; James (Jamie) Moore (Nonpartisan) 67. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f58bbfa4-a6aa-5ec8-afee-3890c7afdbb3
+name: Chris Starling
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/tobaccoville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:tobaccoville/government
+  office_id: tobaccoville/council-member
+  party: Republican
+  ballot_name: Chris Starling
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Tobaccoville Town Council -- Chris Starling (Republican) 120; Christopher Copeland (Republican) 117. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

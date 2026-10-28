@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/690f6e92-c166-5581-953e-ac9bc2e4ec6f
+name: Doug Shelton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/granite-quarry-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:granite-quarry/government
+  office_id: granite-quarry/council-member
+  party: Nonpartisan
+  ballot_name: Doug Shelton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Granite Quarry Board of Aldermen -- Doug Shelton (Nonpartisan) 159; Rich Luhrs (Nonpartisan) 143; Jim Costantino (Nonpartisan) 95. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

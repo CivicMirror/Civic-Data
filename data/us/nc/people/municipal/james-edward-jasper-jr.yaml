@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d69fdc45-1fc1-5230-ba5c-081cd36f6db8
+name: James Edward Jasper, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hoffman-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hoffman/government
+  office_id: hoffman/mayor
+  party: Nonpartisan
+  ballot_name: James Edward Jasper, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hoffman Mayor -- Karla Bostick (Nonpartisan) 39; James Edward Jasper, Jr. (Nonpartisan) 21. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

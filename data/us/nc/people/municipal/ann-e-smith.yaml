@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5e0bd771-d2e6-526c-8d3d-b461693d4353
+name: Ann E. Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hudson-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hudson/government
+  office_id: hudson/commissioner
+  party: Nonpartisan
+  ballot_name: Ann E. Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hudson Board of Commissioners -- Jeff Link (Nonpartisan) 85; Ann E. Smith (Nonpartisan) 82; S. Larry Chapman (Nonpartisan) 79. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

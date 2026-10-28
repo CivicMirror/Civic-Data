@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/13e5fec6-7561-52b6-8ab8-4f8980f3851b
+name: Perry Matthews
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/sylva-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:sylva/government
+  office_id: sylva/mayor
+  party: Write-In
+  ballot_name: Perry Matthews
+  status: active
+- contest_id: nc/2025-11-04/sylva-council-member-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:sylva/government
+  office_id: sylva/council-member
+  party: Nonpartisan
+  ballot_name: Perry Matthews
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Sylva Mayor -- Johnny Phillips (Nonpartisan) 297; Natalie Newman (Write-In) (Write-In) 5; Perry Matthews (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Sylva Town Council (Unexpired Term) -- Perry Matthews (Nonpartisan) 270; Jon Brown (Nonpartisan) 161. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

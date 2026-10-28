@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5fb1b55e-f43e-583a-b25b-27414af48478
+name: Travis Bonnema
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/laurel-park-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:laurel-park/government
+  office_id: laurel-park/council-member
+  party: Nonpartisan
+  ballot_name: Travis Bonnema
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Laurel Park Town Council -- George W. Banta (Nonpartisan) 1,277; Travis Bonnema (Nonpartisan) 1,254. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

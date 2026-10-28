@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9b7597bf-a83c-54cb-862a-f3af94d64843
+name: Allen Reed
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/drexel-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:drexel/government
+  office_id: drexel/alderman
+  party: Nonpartisan
+  ballot_name: Allen Reed
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Drexel Board of Aldermen -- Allen Reed (Nonpartisan) 110; Terry B. Yount (Nonpartisan) 97; Chelsea Suttles (Nonpartisan) 74; Lora Melott (Nonpartisan) 53; Chris Brown (Nonpartisan) 47. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

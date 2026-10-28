@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/613dce88-6e32-561d-9366-134436474223
+name: Jonah Serva
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/connelly-springs-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:connelly-springs/government
+  office_id: connelly-springs/alderman
+  party: Nonpartisan
+  ballot_name: Jonah Serva
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Connelly Springs Board of Aldermen -- Bobby Tomlinson (Nonpartisan) 84; Adam Greene (Nonpartisan) 75; Charles E. Berry (Nonpartisan) 60; Shannon Dodd (Nonpartisan) 48; Steve W. Starnes (Nonpartisan) 20; Jonah Serva (Nonpartisan) 16. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

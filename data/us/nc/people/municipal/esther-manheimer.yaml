@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/38b1d084-abae-5eb1-96c6-845ac99b4b35
+name: Esther Manheimer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/asheville-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:asheville/government
+  office_id: asheville/mayor
+  party: Nonpartisan
+  ballot_name: Esther Manheimer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Asheville Mayor -- Esther Manheimer (Nonpartisan) 21,032; Kim Roney (Nonpartisan) 17,918; Cliff Feingold (Write-In) (Write-In) 101; Carl Mumpower (Write-In) (Write-In) 14. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

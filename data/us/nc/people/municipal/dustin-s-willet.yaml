@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1c416e42-edc4-5aac-a5cc-4ae0a4b4450d
+name: Dustin S. Willet
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/parmele-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:parmele/government
+  office_id: parmele/commissioner
+  party: Nonpartisan
+  ballot_name: Dustin S. Willet
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Parmele Board of Commissioners -- Elinda Carr McCray (Nonpartisan) 68; Mary Ann Morning (Nonpartisan) 67; Dustin S. Willet (Nonpartisan) 54; Glenda Barnes (Nonpartisan) 52; Kenneth W. Andrews (Nonpartisan) 52; Peggy M. Wilson (Nonpartisan) 33; Donte Crowell (Nonpartisan) 22. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

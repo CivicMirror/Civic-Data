@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a50e567f-b14c-5a0e-aa28-3277c8d269d7
+name: Vivian Wilson McRae
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/rennert-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rennert/government
+  office_id: rennert/council-member
+  party: Nonpartisan
+  ballot_name: Vivian Wilson McRae
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Rennert Town Council -- Olivia Alford (Nonpartisan) 50; Sabrina Colson (Nonpartisan) 46; Vivian Wilson McRae (Nonpartisan) 35; Brenda Locklear (Nonpartisan) 20. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

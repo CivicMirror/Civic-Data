@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d39a48df-aa8e-5647-b97a-8c6e8ee35e25
+name: Reid Rouse
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/la-grange-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:la-grange/government
+  office_id: la-grange/commissioner
+  party: Nonpartisan
+  ballot_name: Reid Rouse
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): La Grange Board of Commissioners -- Reid Rouse (Nonpartisan) 166; Albert Gray (Nonpartisan) 147; Larry L. Gladney (Nonpartisan) 138. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

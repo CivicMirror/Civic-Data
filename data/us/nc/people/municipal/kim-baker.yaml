@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2ef23915-918d-511f-9e20-c24f5d2b4943
+name: Kim Baker
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/louisburg-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:louisburg/government
+  office_id: louisburg/council-member
+  party: Nonpartisan
+  ballot_name: Kim Baker
+  status: active
+- contest_id: nc/2023-11-07/autryville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:autryville/government
+  office_id: autryville/commissioner
+  party: Nonpartisan
+  ballot_name: Kim Baker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Louisburg Town Council -- Kim Baker (Nonpartisan) 473; Dalita L. Woods (Nonpartisan) 446; Phillip Stover (Nonpartisan) 443; Bobby Dickerson (Nonpartisan) 140; Mark K. Russell (Nonpartisan) 120; Natalie Famiglietti Peterson (Nonpartisan) 96. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Autryville Board of Commissioners -- Mickie Wilton Spell (Nonpartisan) 19; Tommy Honeycutt (Nonpartisan) 16; Kim Baker (Nonpartisan) 12. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

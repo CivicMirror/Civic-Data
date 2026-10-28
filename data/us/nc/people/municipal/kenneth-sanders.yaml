@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4456e5b3-f446-52c8-a360-6a1f41a2da5f
+name: Kenneth Sanders
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/princeville-commissioner-ward-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:princeville/government
+  office_id: princeville/commissioner
+  party: Nonpartisan
+  ballot_name: Kenneth Sanders
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Princeville Government Board of Commissioners, Ward 4 -- Maxine Hinton (Nonpartisan) 52; Kenneth Sanders (Nonpartisan) 34. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

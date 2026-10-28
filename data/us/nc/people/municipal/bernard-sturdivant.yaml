@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/29b13ffd-b603-55bc-9073-317739d8af87
+name: Bernard Sturdivant
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/polkton-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:polkton/government
+  office_id: polkton/commissioner
+  party: Nonpartisan
+  ballot_name: Bernard Sturdivant
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Polkton Board of Commissioners -- Johnny Faulk (Nonpartisan) 80; Jimmy Hildreth (Nonpartisan) 71; W. Clifton Martin III (Nonpartisan) 70; Sissy Stegall (Nonpartisan) 68; Russell Goodwin (Nonpartisan) 62; Bernard Sturdivant (Nonpartisan) 49; Laurin Francey (Nonpartisan) 23. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

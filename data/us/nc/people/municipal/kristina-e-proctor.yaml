@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/14043d69-69f6-5dec-b582-1d0f1ce7a37a
+name: Kristina E. Proctor
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/canton-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:canton/government
+  office_id: canton/alderman
+  party: Nonpartisan
+  ballot_name: Kristina E. Proctor
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Canton Board of Aldermen -- Tim Shepard (Nonpartisan) 282; Kristina E. Proctor (Nonpartisan) 276; Adam Hatton (Nonpartisan) 185; Neal Swanger (Nonpartisan) 131. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

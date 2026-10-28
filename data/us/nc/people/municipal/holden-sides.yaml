@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4a730867-869b-54a9-a9be-8663c7f5e0ef
+name: Holden Sides
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kannapolis-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kannapolis/government
+  office_id: kannapolis/council-member
+  party: Nonpartisan
+  ballot_name: Holden Sides
+  status: active
+- contest_id: nc/2025-11-04/kannapolis-council-member-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kannapolis/government
+  office_id: kannapolis/council-member
+  party: Nonpartisan
+  ballot_name: Holden Sides
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kannapolis City Council -- Ryan G. Dayvault (Nonpartisan) 1,963; Darrell Jackson (Nonpartisan) 1,526; Tom Kincaid (Nonpartisan) 1,341; Milton Smith (Nonpartisan) 1,177; Jayne Williams (Nonpartisan) 1,034; Holden Sides (Nonpartisan) 864. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kannapolis City Council (Unexpired Term) -- Naomi Hatchell (Nonpartisan) 2,282; Holden Sides (Nonpartisan) 2,134; Phil Goodman (Nonpartisan) 1,379; Jeffery Haney (Nonpartisan) 218. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

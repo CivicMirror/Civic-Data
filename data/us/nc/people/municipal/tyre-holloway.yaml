@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/04763bf1-597b-5c6e-b1e2-3bd61feed339
+name: Tyre Holloway
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/dobbins-heights-council-member
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dobbins-heights/government
+  office_id: dobbins-heights/council-member
+  party: Nonpartisan
+  ballot_name: Tyre Holloway
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Dobbins Heights Town Council -- Itsy David (Nonpartisan) 69; Tyre Holloway (Nonpartisan) 69. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

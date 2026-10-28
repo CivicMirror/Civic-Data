@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d77acd2d-e6bb-58ee-bef1-02e0f6051b07
+name: James (Trey) Ferguson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/new-bern-alderman-ward-1
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:new-bern/government
+  office_id: new-bern/alderman
+  party: Nonpartisan
+  ballot_name: James (Trey) Ferguson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): New Bern Board of Aldermen, Ward 1 -- James (Trey) Ferguson (Nonpartisan) 805; Alana Huber (Nonpartisan) 463; Bernard W. White (Nonpartisan) 72. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

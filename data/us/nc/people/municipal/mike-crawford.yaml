@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9b6c1adb-8b0f-537f-b4ad-d8a4bafc1824
+name: Mike Crawford
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/stokesdale-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stokesdale/government
+  office_id: stokesdale/mayor
+  party: Nonpartisan
+  ballot_name: Mike Crawford
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Stokesdale Mayor -- Tee Stephenson (Nonpartisan) 480; Mike Crawford (Nonpartisan) 407. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

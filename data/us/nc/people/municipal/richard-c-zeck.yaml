@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/88c2aaab-163a-536a-b1ef-232ed1f4d5b5
+name: Richard C. Zeck
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/simpson-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:simpson/government
+  office_id: simpson/mayor
+  party: Nonpartisan
+  ballot_name: Richard C. Zeck
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Simpson Mayor -- Richard C. Zeck (Nonpartisan) 89. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

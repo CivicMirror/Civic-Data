@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5614a9df-6dc6-535e-82f5-6be1a135963a
+name: Earl Brooks
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/roxboro-mayor
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:roxboro/government
+  office_id: roxboro/mayor
+  party: Nonpartisan
+  ballot_name: Earl Brooks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Roxboro Mayor -- Cynthia C. Petty (Nonpartisan) 387; Peter L. Baker (Nonpartisan) 167; Earl Brooks (Nonpartisan) 137. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/abeb25cc-74c0-5d70-8d38-83ea36a8d598
+name: George F. Hedrick
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/foxfire-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:foxfire/government
+  office_id: foxfire/council-member
+  party: Nonpartisan
+  ballot_name: George F. Hedrick
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Foxfire Village Council -- Janice Gregorich (Nonpartisan) 127; Mary Gilroy (Nonpartisan) 109; Warren Morgan (Nonpartisan) 87; George F. Hedrick (Nonpartisan) 23. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

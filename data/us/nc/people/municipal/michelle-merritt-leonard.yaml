@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/052e88c4-2768-5f0a-a2ed-7cad186572cd
+name: Michelle Merritt Leonard
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/bethania-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bethania/government
+  office_id: bethania/commissioner
+  party: Nonpartisan
+  ballot_name: Michelle Merritt Leonard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Bethania Board of Commissioners -- Johanna M. Brown (Nonpartisan) 45; Kenneth Wolff (Nonpartisan) 45; Michelle Merritt Leonard (Nonpartisan) 44. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

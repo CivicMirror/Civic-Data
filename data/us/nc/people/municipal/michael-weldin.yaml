@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4d0d92d8-ba06-51a8-866e-f74d26a8aa99
+name: Michael Weldin
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/winterville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winterville/government
+  office_id: winterville/council-member
+  party: Nonpartisan
+  ballot_name: Michael Weldin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Winterville Town Council -- Brandy Harrell (Nonpartisan) 786; Veronica W. Roberson (Nonpartisan) 762; Lisa A. Smith (Nonpartisan) 698; Alton Wadford (Nonpartisan) 543; Devin Johnson (Nonpartisan) 260; Michael Weldin (Nonpartisan) 239. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

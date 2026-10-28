@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7eff4355-db7a-5d11-8626-3defacceb7cd
+name: Kenneth E. Odegard II
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/fayetteville-council-member-district-6
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fayetteville/government
+  office_id: fayetteville/council-member
+  party: Nonpartisan
+  ballot_name: Kenneth E. Odegard II
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Fayetteville City Council, District 6 -- Derrick Thompson (Nonpartisan) 1,853; Kenneth E. Odegard II (Nonpartisan) 543. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e1448511-1100-5377-bfd9-70fe0a78f5fc
+name: Christopher Richardson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/roxobel-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:roxobel/government
+  office_id: roxobel/commissioner
+  party: Write-In
+  ballot_name: Christopher Richardson
+  status: active
+- contest_id: nc/2023-11-07/winfall-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winfall/government
+  office_id: winfall/commissioner
+  party: Nonpartisan
+  ballot_name: Christopher Richardson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Roxobel Board of Commissioners -- Sharon L. Jones (Nonpartisan) 55; Dillon Pruden (Nonpartisan) 48; Robert L. Phelps (Nonpartisan) 43; Joseph E. Pittman III (Nonpartisan) 37; Christopher Richardson (Write-In) (Write-In) 5; Manuel Joyner,Sr (Write-In) (Write-In) 5; Johnna Lewis (Write-In) (Write-In) 2; Manuel Joyner, Jr (Write-In) (Write-In) 2; Stanley Harrell (Write-In) (Write-In) 1. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Winfall Board of Commissioners -- Arnetta Ormond (Nonpartisan) 106; Cynthia Gale White Cunningham (Nonpartisan) 105; Christopher Richardson (Nonpartisan) 78. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

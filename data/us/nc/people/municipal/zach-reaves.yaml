@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c8a1e603-f64d-5a3f-8308-e00e3c6bb916
+name: Zach Reaves
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/turkey-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:turkey/government
+  office_id: turkey/commissioner
+  party: Nonpartisan
+  ballot_name: Zach Reaves
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Turkey Board of Commissioners -- Zach Reaves (Nonpartisan) 43; Nicole Myers Mobley (Nonpartisan) 34. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b8b38991-2137-5d48-a2a1-7050332a43a1
+name: Shawn R. Brown
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/claremont-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:claremont/government
+  office_id: claremont/mayor
+  party: Nonpartisan
+  ballot_name: Shawn R. Brown
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Claremont Mayor -- Shawn R. Brown (Nonpartisan) 146. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

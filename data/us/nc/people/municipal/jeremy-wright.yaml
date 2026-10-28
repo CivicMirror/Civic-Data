@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ed9bca31-375e-5988-98b0-e9e3a5be1115
+name: Jeremy Wright
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/fayetteville-council-member-district-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fayetteville/government
+  office_id: fayetteville/council-member
+  party: Nonpartisan
+  ballot_name: Jeremy Wright
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Fayetteville City Council, District 3 -- Antonio Jones (Nonpartisan) 1,462; Jeremy Wright (Nonpartisan) 1,005. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

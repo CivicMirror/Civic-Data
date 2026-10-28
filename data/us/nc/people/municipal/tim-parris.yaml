@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/29d4f34e-b3ec-5940-ba81-96ad6c792f3b
+name: Tim Parris
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/dillsboro-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dillsboro/government
+  office_id: dillsboro/mayor
+  party: Nonpartisan
+  ballot_name: Tim Parris
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Dillsboro Mayor -- Tim Parris (Nonpartisan) 13. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

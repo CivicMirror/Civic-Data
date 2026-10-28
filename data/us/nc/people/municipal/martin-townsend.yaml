@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/82569ef9-c108-5863-81f1-9f6aa3a72e0e
+name: Martin Townsend
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/granite-falls-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:granite-falls/government
+  office_id: granite-falls/council-member
+  party: Nonpartisan
+  ballot_name: Martin Townsend
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Granite Falls Town Council -- Ritch Bolick (Nonpartisan) 276; Larry Knight (Nonpartisan) 263; Jamie Hagerty (Nonpartisan) 200; Martin Townsend (Nonpartisan) 185; Faith Naff (Nonpartisan) 158; Stacy Brim (Nonpartisan) 97. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

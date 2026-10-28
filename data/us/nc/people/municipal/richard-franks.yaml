@@ -7,17 +7,27 @@
 id: ocd-person/e776c7ee-cbf7-4274-bef1-7105cb430fa2
 name: Richard Franks
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 46feffb4-675b-4ede-9ea6-d473e9782638
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 46feffb4-675b-4ede-9ea6-d473e9782638
+candidacies:
+- contest_id: nc/2023-11-07/gastonia-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/mayor
+  party: Nonpartisan
+  ballot_name: Richard Franks
+  status: active
 contact:
   email: mayor.franks@gastonianc.gov
-  phone: "(704) 284-1985"
+  phone: (704) 284-1985
   profile_url: https://www.gastonianc.gov/mayor-richard-franks.html
 image: https://www.gastonianc.gov/images/files/city_council_mayor/images/RichardFranks-D2250418-Edit_website.jpg
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.gastonianc.gov/city-council-info.html
-    retrieved: "2026-08-14"
+- url: https://www.gastonianc.gov/city-council-info.html
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Gastonia Government Mayor -- Richard Franks (Nonpartisan) 2,931; Walker Reid (Nonpartisan) 2,680; Robert Kellogg (Nonpartisan) 1,457; Joseph Elliott (Nonpartisan) 793; Walter J. Hart, Jr. (Nonpartisan) 91; Charles Jamison (Write-In) (Write-In) 1; David Jenkins (Write-In) (Write-In) 1; James Henson (Write-In) (Write-In) 1; Joseph W. Buckner (Write-In) (Write-In) 1; Kent Lupton (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

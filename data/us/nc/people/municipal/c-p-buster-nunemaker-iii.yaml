@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b1a508ab-6d82-5392-9f3e-1486ed9626ec
+name: C. P. (Buster) Nunemaker III
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/nags-head-commissioner-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:nags-head/government
+  office_id: nags-head/commissioner
+  party: Nonpartisan
+  ballot_name: C. P. (Buster) Nunemaker III
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Nags Head Board of Commissioners (Unexpired Term) -- Molly Harrison (Nonpartisan) 656; C. P. (Buster) Nunemaker III (Nonpartisan) 246; Keith Sawyer (Nonpartisan) 69. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

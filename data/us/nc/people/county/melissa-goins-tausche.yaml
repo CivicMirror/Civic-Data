@@ -11,6 +11,13 @@ candidacies:
   party: Republican
   ballot_name: Melissa Goins Tausche
   status: active
+- contest_id: nc/2025-11-04/blowing-rock-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:blowing-rock/government
+  office_id: blowing-rock/council-member
+  party: Nonpartisan
+  ballot_name: Melissa Goins Tausche
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +25,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Watauga County Board Of Commissioners District 04 -- Larry Turnbow (DEM) 11,148; Melissa Goins Tausche (REP) 10,851.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Blowing Rock Town Council -- Douglas Matheson (Nonpartisan) 453; Wayne Miller (Nonpartisan) 416; Melissa Goins Tausche (Nonpartisan) 290; Pete Gherini (Nonpartisan) 280; Melissa Pickett (Nonpartisan) 121. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

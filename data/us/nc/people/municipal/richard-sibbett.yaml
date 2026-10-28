@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c695df49-80f3-551b-95e3-a837404eba7c
+name: Richard Sibbett
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/dublin-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dublin/government
+  office_id: dublin/commissioner
+  party: Nonpartisan
+  ballot_name: Richard Sibbett
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Dublin Board of Commissioners -- Richard Sibbett (Nonpartisan) 15. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

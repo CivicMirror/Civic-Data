@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/380c2173-e33a-5510-82dc-c9dac0781767
+name: Marty Antholzner
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/whispering-pines-council-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whispering-pines/government
+  office_id: whispering-pines/council-member
+  party: Nonpartisan
+  ballot_name: Marty Antholzner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Whispering Pines Village Council (Unexpired Term) -- Angie Mullennix (Nonpartisan) 286; Dean Kalles (Nonpartisan) 275; Marty Antholzner (Nonpartisan) 85; Matthew Caruso (Nonpartisan) 52. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

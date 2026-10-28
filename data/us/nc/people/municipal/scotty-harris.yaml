@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8202c2d6-b5ad-5e64-9384-801d58ac5ba7
+name: Scotty Harris
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/harmony-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:harmony/government
+  office_id: harmony/council-member
+  party: Nonpartisan
+  ballot_name: Scotty Harris
+  status: active
+- contest_id: nc/2024-11-05/harmony-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:harmony/government
+  office_id: harmony/council-member
+  party: Nonpartisan
+  ballot_name: Scotty Harris
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Harmony Town Council -- Brandon Angell (Write-In) (Write-In) 38; Chris Pierce (Write-In) (Write-In) 38; Jared Clark (Write-In) (Write-In) 35; Scotty Harris (Nonpartisan) 31; Doug Galliher (Nonpartisan) 26; Forrest Breedlove (Nonpartisan) 25; Julia Clanton (Nonpartisan) 20. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Harmony Town Council -- Scotty Harris (Nonpartisan) 200; Chris Pierce (Nonpartisan) 164; Brandon Angell (Nonpartisan) 155; Jared Clark (Nonpartisan) 151. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

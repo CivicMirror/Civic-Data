@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4f46c12d-9f17-5c5c-8c0c-952ef2e5183a
+name: Ebone Ballance
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/aulander-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:aulander/government
+  office_id: aulander/commissioner
+  party: Nonpartisan
+  ballot_name: Ebone Ballance
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Aulander Board of Commissioners -- Ron Poppell (Nonpartisan) 72; Richard Jernigan (Nonpartisan) 63; Jerome Dail, Jr. (Nonpartisan) 57; Bridget Cherry (Nonpartisan) 56; Marshall Cain (Nonpartisan) 44; David Clinton Conner (Nonpartisan) 34; Ebone Ballance (Nonpartisan) 15; Candace Fay (Nonpartisan) 10; Latasha Bulgin (Nonpartisan) 7; William  Mendes (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

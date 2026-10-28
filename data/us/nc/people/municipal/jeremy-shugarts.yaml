@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a5a0d630-7b31-5b9d-ae31-40c07b738137
+name: Jeremy Shugarts
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/surf-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:surf/government
+  office_id: surf/council-member
+  party: Nonpartisan
+  ballot_name: Jeremy Shugarts
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Surf City Town Council -- Andy Pleil (Nonpartisan) 1,127; Hugh A. Cannady (Nonpartisan) 785; Jillian Rodrigues de Miranda (Nonpartisan) 502; Jeremy Shugarts (Nonpartisan) 199. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

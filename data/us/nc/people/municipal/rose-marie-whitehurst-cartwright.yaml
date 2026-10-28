@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9df33511-2c7d-5de4-bc2f-349694d010c6
+name: Rose Marie (Whitehurst) Cartwright
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/elizabeth-council-member-2nd-ward
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/council-member
+  party: Nonpartisan
+  ballot_name: Rose Marie (Whitehurst) Cartwright
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Elizabeth City City Council, 2nd Ward -- Javis Gibbs (Nonpartisan) 215; Rose Marie (Whitehurst) Cartwright (Nonpartisan) 118; Carol Peterson (Nonpartisan) 83. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

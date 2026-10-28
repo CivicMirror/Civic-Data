@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9a0418fd-3d4e-5e0e-a053-e4ad6a93a59d
+name: Donald L. Gorham
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/reidsville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:reidsville/government
+  office_id: reidsville/mayor
+  party: Nonpartisan
+  ballot_name: Donald L. Gorham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Reidsville Mayor -- Donald L. Gorham (Nonpartisan) 1,177; William Martin (Write-In) (Write-In) 183; Hemco Patharkar (Nonpartisan) 60; Shannon Coates (Write-In) (Write-In) 2; James Aaron Shelton (Write-In) (Write-In) 1; Tony Nichols (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

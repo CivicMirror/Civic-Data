@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/47959b06-b28c-5a72-8969-4e855d112f3c
+name: Stacy G. Johnson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/princeton-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:princeton/government
+  office_id: princeton/mayor
+  party: Nonpartisan
+  ballot_name: Stacy G. Johnson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Princeton Mayor -- Stacy G. Johnson (Nonpartisan) 129; Donald Rains (Write-In) (Write-In) 16. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

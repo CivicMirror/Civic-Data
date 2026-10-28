@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cc473c78-ccf6-59d6-bcb5-c409bb054de6
+name: Marion Vann
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/cofield-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cofield/government
+  office_id: cofield/council-member
+  party: Write-In
+  ballot_name: Marion Vann
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cofield Village Council -- Stephen Lassiter (Nonpartisan) 64; Pamela Jones Winborne (Nonpartisan) 59; Rhonda Taylor (Nonpartisan) 53; Dacia Jenkins (Nonpartisan) 48; Hermea Pugh, Jr. (Nonpartisan) 43; Marion Vann (Write-In) (Write-In) 23. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

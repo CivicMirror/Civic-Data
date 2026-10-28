@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/50cc8ac1-c8e7-5044-88c6-4609ed482435
+name: Lisa Blackwell McKee
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/cerro-gordo-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cerro-gordo/government
+  office_id: cerro-gordo/council-member
+  party: Nonpartisan
+  ballot_name: Lisa Blackwell McKee
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cerro Gordo Town Council -- Jeffrey Talmadge Greene (Nonpartisan) 26; Tracey Blackwell (Nonpartisan) 26; Lisa Blackwell McKee (Nonpartisan) 19; Debra Prince (Nonpartisan) 7. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

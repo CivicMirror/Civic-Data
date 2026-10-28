@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0d39c3b0-d283-5e9b-9d43-f4095bdfdb53
+name: Joshua Stokes
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/windsor-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:windsor/government
+  office_id: windsor/commissioner
+  party: Write-In
+  ballot_name: Joshua Stokes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Windsor Board of Commissioners -- Lewis E. Dameron (Nonpartisan) 242; Randy K. Whitaker (Nonpartisan) 195; Jon Powell (Nonpartisan) 159; William Bessey (Nonpartisan) 9; Joshua Stokes (Write-In) (Write-In) 1; Louis Cherry (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

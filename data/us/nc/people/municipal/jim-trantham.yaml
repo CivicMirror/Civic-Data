@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bd1b2439-7333-5ce6-bc26-65247b67bf5e
+name: Jim Trantham
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/clyde-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:clyde/government
+  office_id: clyde/mayor
+  party: Nonpartisan
+  ballot_name: Jim Trantham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Clyde Mayor -- Jim Trantham (Nonpartisan) 117. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

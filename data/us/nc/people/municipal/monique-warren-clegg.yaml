@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e90f7084-306c-548d-81d6-5786d198b97a
+name: Monique Warren-Clegg
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/coats-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:coats/government
+  office_id: coats/commissioner
+  party: Nonpartisan
+  ballot_name: Monique Warren-Clegg
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Coats Board of Commissioners -- Todd Pope (Nonpartisan) 156; Shirley Allen (Nonpartisan) 153; Monique Warren-Clegg (Nonpartisan) 98; Don Plessinger (Nonpartisan) 75; Angela Postma (Nonpartisan) 57. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ab2f8fa6-dae1-5a97-b4fd-e1e388506ec6
+name: Connie Gross
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lake-santeetlah-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-santeetlah/government
+  office_id: lake-santeetlah/council-member
+  party: Nonpartisan
+  ballot_name: Connie Gross
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lake Santeetlah Town Council -- Diana Simon (Nonpartisan) 32; Kevin Haag (Nonpartisan) 32; Jim Hager (Nonpartisan) 31; Ralph Strunk (Nonpartisan) 31; keith predmore (Write-In) (Write-In) 30; Connie Gross (Nonpartisan) 23; Tina Emerson (Nonpartisan) 23; Alan Davidson (Nonpartisan) 20; Aura Griffith (Write-In) (Write-In) 18; Gary Lane (Write-In) (Write-In) 7; Chris Griggs (Nonpartisan) 6. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

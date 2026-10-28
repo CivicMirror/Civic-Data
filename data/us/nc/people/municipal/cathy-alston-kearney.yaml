@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/078e80b8-301d-5dc8-b733-74889d870b43
+name: Cathy Alston Kearney
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/warrenton-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:warrenton/government
+  office_id: warrenton/commissioner
+  party: Write-In
+  ballot_name: Cathy Alston Kearney
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Warrenton Board of Commissioners -- Michael Coffman (Nonpartisan) 111; Nat B. White, Jr. (Nonpartisan) 104; John E. Blalock (Nonpartisan) 100; Dian Sourelis (Nonpartisan) 81; Bobby Tippett (Nonpartisan) 70; Korita Steverson (Nonpartisan) 53; Cathy Alston Kearney (Write-In) (Write-In) 2; Bernard Johnson (Write-In) (Write-In) 1; George Humphries (Write-In) (Write-In) 1; Marc Allen (Write-In) (Write-In) 1. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

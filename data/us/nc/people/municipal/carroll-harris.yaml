@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/45f0c1c0-31ff-5b6a-abea-5610980a46ff
+name: Carroll Harris
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/macon-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:macon/government
+  office_id: macon/mayor
+  party: Write-In
+  ballot_name: Carroll Harris
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Macon Mayor -- Katherine Hilliard (Nonpartisan) 19; Carroll Harris (Write-In) (Write-In) 1; Loyd King (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

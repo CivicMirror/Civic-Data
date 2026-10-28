@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/10cfd535-76e5-50b5-a3c4-e8fcebedf52e
+name: Amanda Underwood
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/clayton-council-member-members
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:clayton/government
+  office_id: clayton/council-member
+  party: Nonpartisan
+  ballot_name: Amanda Underwood
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Clayton Town Council, Members -- Porter Casey, Jr. (Nonpartisan) 1,252; Amanda Underwood (Nonpartisan) 1,220; Andria Archer (Nonpartisan) 1,195; Dan Barbour (Nonpartisan) 901; Keith Branch (Nonpartisan) 641; Jason E. Carter (Nonpartisan) 569; Rob Southerland (Write-In) (Write-In) 20. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

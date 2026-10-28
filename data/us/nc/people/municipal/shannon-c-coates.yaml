@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5f074100-2575-5005-9e2a-3a2587afcdfe
+name: Shannon C. Coates
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/reidsville-council-member-district-b
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:reidsville/government
+  office_id: reidsville/council-member
+  party: Nonpartisan
+  ballot_name: Shannon C. Coates
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Reidsville City Council, District B -- Shannon C. Coates (Nonpartisan) 565; William (Willie) Martin (Nonpartisan) 395; Sherri G. Walker (Nonpartisan) 387; Cindy Scarborough (Nonpartisan) 360; Cheronne Harris (Nonpartisan) 51. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/03b5f96e-7d91-55b2-b7d1-88e9e3b110b4
+name: Kelly Blanchard
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/four-oaks-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:four-oaks/government
+  office_id: four-oaks/commissioner
+  party: Nonpartisan
+  ballot_name: Kelly Blanchard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Four Oaks Board of Commissioners -- Linwood Parker (Nonpartisan) 188; Sauyer Roberts (Nonpartisan) 162; Kelly Blanchard (Nonpartisan) 87; Ian D. Trammell (Nonpartisan) 65. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
