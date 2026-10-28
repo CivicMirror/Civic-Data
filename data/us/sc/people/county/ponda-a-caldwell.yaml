@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Ponda A. Caldwell
+  contest_id: sc/2018-11-06/spartanburg-probate-judge
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/probate-judge
+  party: null
+  status: active
+- ballot_name: Ponda A. Caldwell
+  contest_id: sc/2022-11-08/spartanburg-probate-judge
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/probate-judge
+  party: Republican
+  status: active
+id: ocd-person/5501115a-951d-5432-9cbc-7a2fe5c4fa5f
+identifiers: []
+name: Ponda A. Caldwell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Spartanburg County Probate Judge contest (ElectionStats contest 5191), precinct rows aggregated: Ponda A. Caldwell 71,289. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5191
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Spartanburg County Probate Judge contest (ElectionStats contest 2973), precinct rows aggregated: Ponda A. Caldwell (Republican) 75,420.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2973
+verification:
+  pipeline: build_sc_judicial
+  status: unverified

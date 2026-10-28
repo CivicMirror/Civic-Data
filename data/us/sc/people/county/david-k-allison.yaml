@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: David K. Allison
+  contest_id: sc/2018-11-06/pickens-probate-judge
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/probate-judge
+  party: null
+  status: active
+- ballot_name: David K. Allison
+  contest_id: sc/2022-11-08/pickens-probate-judge
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/probate-judge
+  party: Republican
+  status: active
+id: ocd-person/ad91b06b-52a5-5a9b-a31c-cdfc364e0ba4
+identifiers: []
+name: David K. Allison
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Pickens County Probate Judge contest (ElectionStats contest 5159), precinct rows aggregated: David K. Allison 32,718. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5159
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Pickens County Probate Judge contest (ElectionStats contest 2946), precinct rows aggregated: David K. Allison (Republican) 34,395.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2946
+verification:
+  pipeline: build_sc_judicial
+  status: unverified

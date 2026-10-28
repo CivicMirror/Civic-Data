@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Michael A. Davis
+  contest_id: sc/2020-11-03/lee-probate-judge
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/probate-judge
+  party: Democratic
+  status: active
+- ballot_name: Michael A. Davis
+  contest_id: sc/2024-11-05/lee-probate-judge
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/probate-judge
+  party: Democratic
+  status: active
+id: ocd-person/e6ebfa04-b5e7-5362-9719-82c5ee39f3d8
+identifiers: []
+name: Michael A. Davis
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lee County Probate Judge contest (ElectionStats contest 3910), precinct rows aggregated: Michael A. Davis (Democratic) 6,986.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3910
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lee County Probate Judge contest (ElectionStats contest 7904), precinct rows aggregated: Michael A. Davis (Democratic) 6,377.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7904
+verification:
+  pipeline: build_sc_judicial
+  status: unverified

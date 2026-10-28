@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dan Eckstrom
+  contest_id: sc/2018-11-06/lexington-probate-judge
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/probate-judge
+  party: null
+  status: active
+- ballot_name: Dan Eckstrom
+  contest_id: sc/2022-11-08/lexington-probate-judge
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/probate-judge
+  party: Republican
+  status: active
+id: ocd-person/6b4e8d58-bd1c-5a4b-b95b-f8d280063be6
+identifiers: []
+name: Dan Eckstrom
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Lexington County Probate Judge contest (ElectionStats contest 5103), precinct rows aggregated: Dan Eckstrom 78,730. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5103
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Lexington County Probate Judge contest (ElectionStats contest 2895), precinct rows aggregated: Dan Eckstrom (Republican) 79,471.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2895
+verification:
+  pipeline: build_sc_judicial
+  status: unverified

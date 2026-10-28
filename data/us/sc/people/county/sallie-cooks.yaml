@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Sallie Cooks
+  contest_id: sc/2018-11-06/edgefield-probate-judge
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:edgefield/government
+  office_id: edgefield/probate-judge
+  party: null
+  status: active
+- ballot_name: Sallie Cooks
+  contest_id: sc/2022-11-08/edgefield-probate-judge
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:edgefield/government
+  office_id: edgefield/probate-judge
+  party: Democratic
+  status: active
+id: ocd-person/b2bddc40-4734-5bb9-a2dc-08bb2ec81fd3
+identifiers: []
+name: Sallie Cooks
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Edgefield County Probate Judge contest (ElectionStats contest 4972), precinct rows aggregated: Greg W. Anderson 5,802; Sallie Cooks 3,596. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4972
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Edgefield County Probate Judge contest (ElectionStats contest 2680), precinct rows aggregated: Greg W. Anderson (Republican) 6,117; Sallie Cooks (Democratic) 2,683.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2680
+verification:
+  pipeline: build_sc_judicial
+  status: unverified

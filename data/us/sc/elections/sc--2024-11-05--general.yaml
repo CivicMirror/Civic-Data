@@ -3080,7 +3080,131 @@ contests:
     name: 'Billy Hollingsworth'
     party: Nonpartisan
     votes: 408
+- id: sc/2024-11-05/aiken-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3a6a9689-0549-59e9-9594-c8938dc7f275
+  result_status: certified
+  winners:
+  - name: Tonya L. Marchant
+    party: Republican
+    person_id: ocd-person/3a6a9689-0549-59e9-9594-c8938dc7f275
+    votes: 63524
+- id: sc/2024-11-05/bamberg-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/57024ea9-f7f3-580d-b6e3-127a5bdbdb5c
+  result_status: certified
+  winners:
+  - name: Donna Blume Brown
+    party: Democratic
+    person_id: ocd-person/57024ea9-f7f3-580d-b6e3-127a5bdbdb5c
+    votes: 4751
+- id: sc/2024-11-05/calhoun-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:calhoun/government
+  office_id: calhoun/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dab6a2f3-42ac-5b07-9110-8efef8d3fae2
+  result_status: certified
+  winners:
+  - name: Kathy S. Brown
+    party: Democratic
+    person_id: ocd-person/dab6a2f3-42ac-5b07-9110-8efef8d3fae2
+    votes: 5566
+- id: sc/2024-11-05/clarendon-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4c459654-6283-524b-8886-62f93202f76f
+  - ocd-person/ed72ef62-d030-5fc0-91d2-fbe996a0daad
+  result_status: certified
+  winners:
+  - name: Margaret Jackson Sorrell
+    party: Republican
+    person_id: ocd-person/4c459654-6283-524b-8886-62f93202f76f
+    votes: 9343
+- id: sc/2024-11-05/dorchester-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dorchester/government
+  office_id: dorchester/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/79b03146-0cad-5265-a9cc-c895aeb49ec7
+  result_status: certified
+  winners:
+  - name: Mary Blunt
+    party: Republican
+    person_id: ocd-person/79b03146-0cad-5265-a9cc-c895aeb49ec7
+    votes: 54309
+- id: sc/2024-11-05/georgetown-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:georgetown/government
+  office_id: georgetown/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/63cb38b9-0666-56fc-b928-ea3536e96a8b
+  result_status: certified
+  winners:
+  - name: Leigh Powers Boan
+    party: Republican
+    person_id: ocd-person/63cb38b9-0666-56fc-b928-ea3536e96a8b
+    votes: 26063
+- id: sc/2024-11-05/lee-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e6ebfa04-b5e7-5362-9719-82c5ee39f3d8
+  result_status: certified
+  winners:
+  - name: Michael A. Davis
+    party: Democratic
+    person_id: ocd-person/e6ebfa04-b5e7-5362-9719-82c5ee39f3d8
+    votes: 6377
+- id: sc/2024-11-05/marion-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/aebdbbe0-8968-52df-bb20-009e85ee7237
+  result_status: certified
+  winners:
+  - name: T. Carroll Atkinson, III
+    party: Democratic
+    person_id: ocd-person/aebdbbe0-8968-52df-bb20-009e85ee7237
+    votes: 11173
+- id: sc/2024-11-05/saluda-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d4d7d198-935c-5a2e-a82b-e37a35474a5c
+  result_status: certified
+  winners:
+  - name: Abigail Ridgell
+    party: Republican
+    person_id: ocd-person/d4d7d198-935c-5a2e-a82b-e37a35474a5c
+    votes: 7010
+- id: sc/2024-11-05/williamsburg-probate-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:williamsburg/government
+  office_id: williamsburg/probate-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d86a549a-0130-5832-931a-50096423ce66
+  result_status: certified
+  winners:
+  - name: Betty F. Matthews
+    party: Democratic
+    person_id: ocd-person/d86a549a-0130-5832-931a-50096423ce66
+    votes: 10524
 sources:
 - url: https://electionhistory.scvotes.gov/search?gf=e
   note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (State Senate, State House) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
   retrieved: '2026-10-25'
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'Probate Judge contests appended by the SC judicial pass (Civic-Data issue #177): the Probate Judge contests of the November 5, 2024 general election, aggregated from the Election History Probate Judge CSV export (precinct rows only; this export carries no county-division rows).'
+  retrieved: '2026-10-28'

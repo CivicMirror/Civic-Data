@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Irv Condon
+  contest_id: sc/2018-11-06/charleston-probate-judge
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/probate-judge
+  party: null
+  status: active
+- ballot_name: Irv Condon
+  contest_id: sc/2022-11-08/charleston-probate-judge
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/probate-judge
+  party: Republican
+  status: active
+id: ocd-person/cd6b98c2-c50d-53ca-afde-a25afc41873f
+identifiers: []
+name: Irvin Gerard Condon
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Charleston County Probate Judge contest (ElectionStats contest 4911), precinct rows aggregated: Irv Condon 75,683; Stephanie Ganaway-Pasley 69,715. The 2018 export reports no party for any candidate. Ballot name forms across cycles: Irv Gerard Condon (2010), Irvin Gerard Condon (2014), Irv Condon (2018, 2022) - one officeholder, unified under the fullest certified form.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4911
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Charleston County Probate Judge contest (ElectionStats contest 2556), precinct rows aggregated: Irv Condon (Republican) 79,157; Tamara Cunningham Curry (Democratic) 71,553.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2556
+verification:
+  pipeline: build_sc_judicial
+  status: unverified

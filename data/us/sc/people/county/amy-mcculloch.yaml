@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Amy McCulloch
+  contest_id: sc/2018-11-06/richland-probate-judge
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/probate-judge
+  party: null
+  status: active
+- ballot_name: Amy McCulloch
+  contest_id: sc/2022-11-08/richland-probate-judge
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/probate-judge
+  party: Democratic
+  status: active
+id: ocd-person/b40e8cf5-b380-5af7-8940-0a46b21a8e51
+identifiers: []
+name: Amy McCulloch
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Richland County Probate Judge contest (ElectionStats contest 5169), precinct rows aggregated: Amy McCulloch 114,463. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5169
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Richland County Probate Judge contest (ElectionStats contest 2955), precinct rows aggregated: Amy McCulloch (Democratic) 98,256.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2955
+verification:
+  pipeline: build_sc_judicial
+  status: unverified
