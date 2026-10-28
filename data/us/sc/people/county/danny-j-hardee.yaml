@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Danny J. Hardee
+  contest_id: sc/2020-11-03/horry-county-council-district-10
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:horry/government
+  office_id: horry/county-council-district-10
+  party: Republican
+  status: active
+- ballot_name: Danny J. Hardee
+  contest_id: sc/2024-11-05/horry-county-council-district-10
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:horry/government
+  office_id: horry/county-council-district-10
+  party: Republican
+  status: active
+id: ocd-person/9af6c9fe-f2af-5d63-b22d-74478c2bf6a3
+identifiers: []
+name: Danny J. Hardee
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Horry County County Council District 10 contest (ElectionStats contest 3732), county rows aggregated: Danny J. Hardee (Republican) 11,434.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3732
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Horry County County Council District 10 contest (ElectionStats contest 7822), county rows aggregated: Danny J. Hardee (Republican) 13,726; Brian Palmer (Democratic) 4,136.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7822
+verification:
+  pipeline: build_sc_county
+  status: unverified

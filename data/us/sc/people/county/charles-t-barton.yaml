@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Charles T. Barton
+  contest_id: sc/2020-11-03/aiken-county-auditor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-auditor
+  party: Republican
+  status: active
+- ballot_name: Charles T. Barton
+  contest_id: sc/2024-11-05/aiken-county-auditor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-auditor
+  party: Republican
+  status: active
+id: ocd-person/bd1e3a18-3f8c-51ef-b902-33eb7e63792b
+identifiers: []
+name: Charles T. Barton
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Aiken County County Auditor contest (ElectionStats contest 3669), precinct rows aggregated: Charles T. Barton (Republican) 64,228.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3669
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Aiken County County Auditor contest (ElectionStats contest 8028), precinct rows aggregated: Charles T. Barton (Republican) 63,349.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8028
+verification:
+  pipeline: build_sc_county
+  status: unverified

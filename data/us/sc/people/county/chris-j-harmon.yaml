@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Chris J Harmon
+  contest_id: sc/2020-11-03/lexington-county-auditor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-auditor
+  party: Republican
+  status: active
+- ballot_name: Chris Harmon
+  contest_id: sc/2024-11-05/lexington-county-auditor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-auditor
+  party: Republican
+  status: active
+id: ocd-person/6d40407c-2ad3-568c-b227-9345dc4b6152
+identifiers: []
+name: Chris J Harmon
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lexington County County Auditor contest (ElectionStats contest 3918), precinct rows aggregated: Chris J Harmon (Republican) 116,220.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3918
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lexington County County Auditor contest (ElectionStats contest 8041), precinct rows aggregated: Chris Harmon (Republican) 115,138.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8041
+verification:
+  pipeline: build_sc_county
+  status: unverified

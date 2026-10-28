@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dan Owens
+  contest_id: sc/2020-11-03/berkeley-county-council-district-1
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:berkeley/government
+  office_id: berkeley/county-council-district-1
+  party: Republican
+  status: active
+- ballot_name: Dan Owens
+  contest_id: sc/2024-11-05/berkeley-county-council-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:berkeley/government
+  office_id: berkeley/county-council-district-1
+  party: Republican
+  status: active
+id: ocd-person/d461b29c-e78d-5e6f-b321-6ceab67a9b02
+identifiers: []
+name: Dan Owens
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Berkeley County County Council District 1 contest (ElectionStats contest 3379), county rows aggregated: Dan Owens (Republican) 7,021.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3379
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Berkeley County County Council District 1 contest (ElectionStats contest 7756), county rows aggregated: Dan Owens (Republican) 6,561.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7756
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Debra G. Dennis
+  contest_id: sc/2018-11-06/florence-county-auditor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/county-auditor
+  party: null
+  status: active
+- ballot_name: Debra G. Dennis
+  contest_id: sc/2022-11-08/florence-county-auditor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/county-auditor
+  party: Republican
+  status: active
+id: ocd-person/9266758c-7239-5e72-941c-a4016ce68f07
+identifiers: []
+name: Debra G. Dennis
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Florence County County Auditor contest (ElectionStats contest 4989), precinct rows aggregated: Debra G. Dennis 29,069. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4989
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Florence County County Auditor contest (ElectionStats contest 2691), precinct rows aggregated: Debra G. Dennis (Republican) 28,621.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2691
+verification:
+  pipeline: build_sc_county
+  status: unverified

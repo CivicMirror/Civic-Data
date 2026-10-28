@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Bob Brockington
+  contest_id: sc/2024-11-05/calhoun-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:calhoun/government
+  office_id: calhoun/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/b1f099e1-9cb9-5ca8-8ea8-b00000f99204
+identifiers: []
+name: Bob Brockington
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Calhoun County Clerk of Court contest (ElectionStats contest 7447), precinct rows aggregated: Bob Brockington (Republican) 4,138; Lakeisha S. Moorer (Democratic) 3,586.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7447
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dannie Douglas Jr.
+  contest_id: sc/2018-11-06/darlington-county-council-district-2
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:darlington/government
+  office_id: darlington/county-council-district-2
+  party: null
+  status: active
+- ballot_name: Dannie Douglas Jr.
+  contest_id: sc/2022-11-08/darlington-county-council-district-2
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:darlington/government
+  office_id: darlington/county-council-district-2
+  party: Democratic
+  status: active
+id: ocd-person/a33c20da-8a00-5b8d-b2a7-40e638a551d6
+identifiers: []
+name: Dannie Douglas Jr
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Darlington County County Council District 2 contest (ElectionStats contest 4675), county rows aggregated: Dannie Douglas Jr. 2,485. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4675
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Darlington County County Council District 2 contest (ElectionStats contest 2610), county rows aggregated: Dannie Douglas Jr. (Democratic) 1,517; Bob Dickerson (Republican) 1,113.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2610
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Daniel Simon
+  contest_id: sc/2020-11-03/lee-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/sheriff
+  party: Democratic
+  status: active
+- ballot_name: Daniel Simon
+  contest_id: sc/2024-11-05/lee-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/2b56ff63-de7c-5348-8eb8-d1ce24fb4edd
+identifiers: []
+name: Daniel Simon
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lee County Sheriff contest (ElectionStats contest 3915), precinct rows aggregated: Daniel Simon (Democratic) 6,870.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3915
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lee County Sheriff contest (ElectionStats contest 7621), precinct rows aggregated: Daniel Simon (Democratic) 6,331.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7621
+verification:
+  pipeline: build_sc_county
+  status: unverified

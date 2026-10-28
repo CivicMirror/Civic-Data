@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: D Max Dorsey II
+  contest_id: sc/2020-11-03/chester-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/sheriff
+  party: Republican
+  status: active
+- ballot_name: Donald Max Dorsey II
+  contest_id: sc/2024-11-05/chester-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/sheriff
+  party: Republican
+  status: active
+id: ocd-person/4a2d68ca-1ccf-5013-bb8d-7044cb46cd2e
+identifiers: []
+name: Donald Max Dorsey II
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Chester County Sheriff contest (ElectionStats contest 3639), precinct rows aggregated: D Max Dorsey II (Republican) 9,791; Alex Underwood (Democratic) 5,887.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3639
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Chester County Sheriff contest (ElectionStats contest 7462), precinct rows aggregated: Donald Max Dorsey II (Republican) 11,065.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7462
+verification:
+  pipeline: build_sc_county
+  status: unverified

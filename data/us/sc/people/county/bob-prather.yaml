@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Bob Prather
+  contest_id: sc/2020-11-03/fairfield-county-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-council-district-6
+  party: null
+  status: active
+id: ocd-person/742d5adf-420d-5ef2-84ef-0c9fd7a80545
+identifiers: []
+name: Bob Prather
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Fairfield County County Council District 6 contest (ElectionStats contest 3442), county rows aggregated: Neil Robinson 836; Bob Prather 298. The 2020 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3442
+verification:
+  pipeline: build_sc_county
+  status: unverified

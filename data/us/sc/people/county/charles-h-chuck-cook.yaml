@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Charles H. Chuck Cook
+  contest_id: sc/2020-11-03/mccormick-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:mccormick/government
+  office_id: mccormick/county-council-district-3
+  party: Republican
+  status: active
+- ballot_name: Charles H. Cook
+  contest_id: sc/2024-11-05/mccormick-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:mccormick/government
+  office_id: mccormick/county-council-district-3
+  party: Republican
+  status: active
+id: ocd-person/465beffa-1277-5a7f-bdb1-25c46058463b
+identifiers: []
+name: Charles H Chuck Cook
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, McCormick County County Council District 3 contest (ElectionStats contest 3765), county rows aggregated: Charles H. Chuck Cook (Republican) 1,595.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3765
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, McCormick County County Council District 3 contest (ElectionStats contest 7852), county rows aggregated: Charles H. Cook (Republican) 1,684.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7852
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Beth Carrigg
+  contest_id: sc/2018-11-06/lexington-county-council-district-7
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-council-district-7
+  party: null
+  status: active
+- ballot_name: Beth Carrigg
+  contest_id: sc/2022-11-08/lexington-county-council-district-7
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-council-district-7
+  party: Republican
+  status: active
+id: ocd-person/1743cc47-a2e2-5874-a114-4ae66072e91c
+identifiers: []
+name: Beth Carrigg
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Lexington County County Council District 7 contest (ElectionStats contest 4745), county rows aggregated: Beth Carrigg 7,670. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4745
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Lexington County County Council District 7 contest (ElectionStats contest 2792), county rows aggregated: Beth Carrigg (Republican) 9,321.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2792
+verification:
+  pipeline: build_sc_county
+  status: unverified

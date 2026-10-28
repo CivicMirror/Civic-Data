@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Doris Poulos O'Hara
+  contest_id: sc/2020-11-03/florence-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/clerk-of-court
+  party: Republican
+  status: active
+- ballot_name: Doris Poulos O'Hara
+  contest_id: sc/2024-11-05/florence-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/1e6d3f05-e2b8-5eae-8f1d-0c8f5b2dd8af
+identifiers: []
+name: Doris Poulos O'Hara
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Florence County Clerk of Court contest (ElectionStats contest 3539), precinct rows aggregated: Doris Poulos O''Hara (Republican) 43,996.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3539
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Florence County Clerk of Court contest (ElectionStats contest 7533), precinct rows aggregated: Doris Poulos O''Hara (Republican) 41,681.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7533
+verification:
+  pipeline: build_sc_county
+  status: unverified

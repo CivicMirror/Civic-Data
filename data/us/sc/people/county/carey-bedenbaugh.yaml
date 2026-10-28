@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Carey Bedenbaugh
+  contest_id: sc/2020-11-03/saluda-county-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/county-council-district-4
+  party: Republican
+  status: active
+- ballot_name: Carey Bedenbaugh
+  contest_id: sc/2024-11-05/saluda-county-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/43249fd9-b1ec-5329-b098-fc56ab931042
+identifiers: []
+name: Carey Bedenbaugh
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Saluda County County Council District 4 contest (ElectionStats contest 3789), county rows aggregated: Carey Bedenbaugh (Republican) 2,373.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3789
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Saluda County County Council District 4 contest (ElectionStats contest 7876), county rows aggregated: Carey Bedenbaugh (Republican) 1,648; Grey Riley (Petition) 800.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7876
+verification:
+  pipeline: build_sc_county
+  status: unverified

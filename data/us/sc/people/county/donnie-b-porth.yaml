@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Donnie B. Porth
+  contest_id: sc/2020-11-03/calhoun-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:calhoun/government
+  office_id: calhoun/coroner
+  party: Republican
+  status: active
+- ballot_name: Donnie B. Porth
+  contest_id: sc/2024-11-05/calhoun-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:calhoun/government
+  office_id: calhoun/coroner
+  party: Republican
+  status: active
+id: ocd-person/ea18460c-cf93-5dc1-935a-bf0b0b745789
+identifiers: []
+name: Donnie B. Porth
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Calhoun County Coroner contest (ElectionStats contest 3492), precinct rows aggregated: Donnie B. Porth (Republican) 5,966.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3492
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Calhoun County Coroner contest (ElectionStats contest 8052), precinct rows aggregated: Donnie B. Porth (Republican) 5,372.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8052
+verification:
+  pipeline: build_sc_county
+  status: unverified

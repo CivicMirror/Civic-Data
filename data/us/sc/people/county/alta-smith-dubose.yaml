@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Alta Smith DuBose
+  contest_id: sc/2018-11-06/marion-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/county-treasurer
+  party: null
+  status: active
+- ballot_name: Alta S DuBose
+  contest_id: sc/2022-11-08/marion-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marion/government
+  office_id: marion/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/43380ba2-398e-5584-b1de-25173b2108a0
+identifiers: []
+name: Alta Smith DuBose
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Marion County County Treasurer contest (ElectionStats contest 5112), precinct rows aggregated: Alta Smith DuBose 8,535. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5112
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Marion County County Treasurer contest (ElectionStats contest 2897), precinct rows aggregated: Alta S DuBose (Democratic) 6,691.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2897
+verification:
+  pipeline: build_sc_county
+  status: unverified

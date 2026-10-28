@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Donnie Grimsley
+  contest_id: sc/2020-11-03/dillon-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dillon/government
+  office_id: dillon/coroner
+  party: Democratic
+  status: active
+- ballot_name: Donnie Grimsley
+  contest_id: sc/2024-11-05/dillon-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dillon/government
+  office_id: dillon/coroner
+  party: Democratic
+  status: active
+id: ocd-person/dbe3bc52-2c2f-5716-8877-16aec8d66d8d
+identifiers: []
+name: Donnie Grimsley
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Dillon County Coroner contest (ElectionStats contest 3529), precinct rows aggregated: Donnie Grimsley (Democratic) 10,899.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3529
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Dillon County Coroner contest (ElectionStats contest 8059), precinct rows aggregated: Donnie Grimsley (Democratic) 9,484.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8059
+verification:
+  pipeline: build_sc_county
+  status: unverified

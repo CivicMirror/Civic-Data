@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Charlene McGriff
+  contest_id: sc/2018-11-06/lancaster-county-council-district-2
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/county-council-district-2
+  party: null
+  status: active
+- ballot_name: Charlene McGriff
+  contest_id: sc/2022-11-08/lancaster-county-council-district-2
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/county-council-district-2
+  party: Democratic
+  status: active
+id: ocd-person/acdab57b-9b7e-5617-a590-2ebf2f4739c6
+identifiers: []
+name: Charlene McGriff
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Lancaster County County Council District 2 contest (ElectionStats contest 4732), county rows aggregated: Charlene McGriff 1,863. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4732
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Lancaster County County Council District 2 contest (ElectionStats contest 2781), county rows aggregated: Charlene McGriff (Democratic) 1,598.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2781
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Denise Gibson
+  contest_id: sc/2020-11-03/barnwell-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:barnwell/government
+  office_id: barnwell/coroner
+  party: Republican
+  status: active
+- ballot_name: Denise Gibson
+  contest_id: sc/2024-11-05/barnwell-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:barnwell/government
+  office_id: barnwell/coroner
+  party: Republican
+  status: active
+id: ocd-person/0f04c4a2-4b2c-5f5e-96df-165e8476e23a
+identifiers: []
+name: Denise Gibson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Barnwell County Coroner contest (ElectionStats contest 3482), precinct rows aggregated: Denise Gibson (Republican) 5,689; Rodney Brown (Democratic) 4,349.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3482
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Barnwell County Coroner contest (ElectionStats contest 8050), precinct rows aggregated: Denise Gibson (Republican) 6,725.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8050
+verification:
+  pipeline: build_sc_county
+  status: unverified

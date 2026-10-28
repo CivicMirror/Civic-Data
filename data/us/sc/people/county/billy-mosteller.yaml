@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Billy Mosteller
+  contest_id: sc/2020-11-03/lancaster-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/county-council-district-3
+  party: Republican
+  status: active
+- ballot_name: Billy Mosteller
+  contest_id: sc/2024-11-05/lancaster-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/county-council-district-3
+  party: Republican
+  status: active
+id: ocd-person/1b949424-8ddd-5534-8b3b-83878de28a70
+identifiers: []
+name: Billy Mosteller
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lancaster County County Council District 3 contest (ElectionStats contest 3741), county rows aggregated: Billy Mosteller (Republican) 4,801.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3741
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lancaster County County Council District 3 contest (ElectionStats contest 7827), county rows aggregated: Billy Mosteller (Republican) 6,064.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7827
+verification:
+  pipeline: build_sc_county
+  status: unverified

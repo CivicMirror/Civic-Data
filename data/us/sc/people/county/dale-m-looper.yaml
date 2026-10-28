@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dale M. Looper
+  contest_id: sc/2020-11-03/pickens-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/county-treasurer
+  party: Republican
+  status: active
+- ballot_name: Dale M. Looper
+  contest_id: sc/2024-11-05/pickens-county-treasurer
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/fb106b98-2372-5593-8e80-cc7f0cfc58ff
+identifiers: []
+name: Dale M. Looper
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Pickens County County Treasurer contest (ElectionStats contest 3985), precinct rows aggregated: Dale M. Looper (Republican) 49,727.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3985
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Pickens County County Treasurer contest (ElectionStats contest 7979), precinct rows aggregated: Dale M. Looper (Republican) 50,830.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7979
+verification:
+  pipeline: build_sc_county
+  status: unverified

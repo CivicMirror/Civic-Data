@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Billy Norris
+  contest_id: sc/2020-11-03/abbeville-county-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:abbeville/government
+  office_id: abbeville/county-council-district-4
+  party: Republican
+  status: active
+- ballot_name: Billy Norris
+  contest_id: sc/2024-11-05/abbeville-county-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:abbeville/government
+  office_id: abbeville/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/b5bc3399-04eb-59b0-b287-d21494688a55
+identifiers: []
+name: Billy Norris
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Abbeville County County Council District 4 contest (ElectionStats contest 3412), county rows aggregated: Billy Norris (Republican) 1,605.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3412
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Abbeville County County Council District 4 contest (ElectionStats contest 7729), county rows aggregated: Billy Norris (Republican) 1,412.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7729
+verification:
+  pipeline: build_sc_county
+  status: unverified
