@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/e837eb84-7404-5a24-8a24-ca3900402eaf
+name: Charlie Moorer
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/reevesville-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:reevesville/government
+  office_id: reevesville/council-member
+  party: Nonpartisan
+  ballot_name: 'Charlie Moorer'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1676
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Reevesville Town Council contest (ElectionStats contest 1676), county-division rows aggregated (Dorchester County): Perry B Chinners 19; Charlie Moorer 16.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/6d409e89-8b67-56e0-9a7a-e2f246cd0fd8
+name: Ollie A Bankhead
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/hickory-grove-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hickory-grove/government
+  office_id: hickory-grove/council-member
+  party: Nonpartisan
+  ballot_name: 'Ollie A Bankhead'
+  status: active
+- contest_id: sc/2023-11-07/hickory-grove-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hickory-grove/government
+  office_id: hickory-grove/council-member
+  party: Nonpartisan
+  ballot_name: 'Ollie A Bankhead'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1728
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Hickory Grove Town Council contest (ElectionStats contest 1728), county-division rows aggregated (York County): Harry J Good 25; Ollie A Bankhead 24; Kyle N Wyatt 23; Kevin Faulkner 21.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/378
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Hickory Grove Town Council contest (ElectionStats contest 378), county-division rows aggregated (York County): Kyle N Wyatt 22; Harry James Good 19; Ollie A Bankhead 19; Kevin Faulkner 18.'
+  retrieved: '2026-10-26'

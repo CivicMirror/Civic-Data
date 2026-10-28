@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/5bb27ec4-301b-5082-86d1-70ea78e8668f
+name: Mika Gadsden
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/charleston-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/mayor
+  party: Nonpartisan
+  ballot_name: 'Mika Gadsden'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/152
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Charleston City Mayor contest (ElectionStats contest 152), county-division rows aggregated (Berkeley County): William Cogswell 11,164; John Tecklenburg 9,936; Clay Nimoy Middleton 5,651; Peter Shahid 2,477; Mika Gadsden 1,091; Debra J Gammons 456.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d1e673ca-e580-5353-884d-a42ee7d77939
+name: Jimmy Avant
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/smoaks-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smoaks/government
+  office_id: smoaks/council-member
+  party: Nonpartisan
+  ballot_name: 'Jimmy Avant'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1671
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Smoaks Town Council contest (ElectionStats contest 1671), county-division rows aggregated (Colleton County): Jimmy Avant 15; William Ty Barnes 15.'
+  retrieved: '2026-10-26'

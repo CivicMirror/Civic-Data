@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/dd98fe90-2e8c-5165-af18-8cdeb2671aba
+name: Demario Pegues
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/timmonsville-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:timmonsville/government
+  office_id: timmonsville/council-member
+  party: Nonpartisan
+  ballot_name: 'Demario Pegues'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1679
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Timmonsville Town Council contest (ElectionStats contest 1679), county-division rows aggregated (Florence County): Penny M Hayes 155; Curtis Harrison 150; Wayne Teal 146; Demario Pegues 143.'
+  retrieved: '2026-10-26'

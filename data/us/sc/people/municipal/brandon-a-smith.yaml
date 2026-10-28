@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/85ee6fcc-8552-56ea-ae39-7178052d4f1b
+name: Brandon A Smith
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/greenwood-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/mayor
+  party: Nonpartisan
+  ballot_name: 'Brandon A. Smith'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2729
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Greenwood City Mayor contest (ElectionStats contest 2729), county-division rows aggregated (Greenwood County): Brandon A. Smith 2,504; Annette Edwards 1,709.'
+  retrieved: '2026-10-26'

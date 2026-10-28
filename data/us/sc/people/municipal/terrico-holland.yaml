@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c9755566-ac32-53c8-8b19-b3093efdef96
+name: Terrico Holland
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/calhoun-falls-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:calhoun-falls/government
+  office_id: calhoun-falls/mayor
+  party: Nonpartisan
+  ballot_name: 'Terrico Holland'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1831
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Calhoun Falls Town Mayor contest (ElectionStats contest 1831), county-division rows aggregated (Abbeville County): Terrico Holland 238; Chris Cowan 178.'
+  retrieved: '2026-10-26'

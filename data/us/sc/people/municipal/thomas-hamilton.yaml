@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/1aded850-7a55-5d4e-9540-f264df83011d
+name: Thomas Hamilton
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/moncks-corner-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:moncks-corner/government
+  office_id: moncks-corner/mayor
+  party: Nonpartisan
+  ballot_name: 'Thomas Hamilton'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/209
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Moncks Corner Town Mayor contest (ElectionStats contest 209), county-division rows aggregated (Berkeley County): Thomas Hamilton 475; Michael A Lockliear 397.'
+  retrieved: '2026-10-26'

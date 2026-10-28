@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/43211268-d2cc-5eb0-af66-ae106b4a294d
+name: Kim Jensen
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/ware-shoals-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ware-shoals/government
+  office_id: ware-shoals/council-member
+  party: Nonpartisan
+  ballot_name: 'Kim Jensen'
+  status: active
+- contest_id: sc/2024-11-05/ware-shoals-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:ware-shoals/government
+  office_id: ware-shoals/council-member
+  party: Nonpartisan
+  ballot_name: 'Kim Jensen'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2323
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Ware Shoals Town Council contest (ElectionStats contest 2323), county-division rows aggregated (Abbeville County): Brandon White 224; Micheal Powell 216; George H. Leagans 213; Kim Jensen 162; Keith Wright 146; Jimmy Palmer 119; Brian Padgett 106; Ali Babb 72; John Paul Alewine 68.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7353
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Ware Shoals Town Council contest (ElectionStats contest 7353), county-division rows aggregated (Abbeville County): Valerie D. Jackson 460; Kim Jensen 358; Patty F Walters 344; Eli Morse 213.'
+  retrieved: '2026-10-26'

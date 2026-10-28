@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/281002f3-77ad-50e3-bcd0-1421d69dfe50
+name: Phil Cromer
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/beaufort-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:beaufort/government
+  office_id: beaufort/mayor
+  party: Nonpartisan
+  ballot_name: 'Phil Cromer'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7435
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Beaufort City Mayor contest (ElectionStats contest 7435), county-division rows aggregated (Beaufort County): Phil Cromer 3,273; Josh Scallate 2,375.'
+  retrieved: '2026-10-26'

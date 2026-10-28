@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/52208f50-eac9-5f41-afc4-6ad317b20842
+name: Marc A Garcia
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lyman-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lyman/government
+  office_id: lyman/mayor
+  party: Nonpartisan
+  ballot_name: 'Marc A. Garcia'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1933
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lyman Town Mayor contest (ElectionStats contest 1933), county-division rows aggregated (Spartanburg County): Glenn Greer 300; Rick Hellams 222; Marc A. Garcia 136.'
+  retrieved: '2026-10-26'

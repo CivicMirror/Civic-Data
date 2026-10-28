@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/1cef5c88-2569-547d-94e3-9b3cbcc0a8e7
+name: Jason Collins
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/georgetown-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:georgetown/government
+  office_id: georgetown/mayor
+  party: Nonpartisan
+  ballot_name: 'Jason Collins'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1949
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Georgetown City Mayor contest (ElectionStats contest 1949), county-division rows aggregated (Georgetown County): Carol Jayroe 1,331; Brendon Moses Barber 1,067; Jason Collins 92.'
+  retrieved: '2026-10-26'

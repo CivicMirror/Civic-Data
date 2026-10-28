@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2142b108-bc80-582a-a87a-5bedbbc9bd15
+name: James Harris
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/richburg-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:richburg/government
+  office_id: richburg/mayor
+  party: Nonpartisan
+  ballot_name: 'James Harris'
+  status: active
+- contest_id: sc/2023-11-07/richburg-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:richburg/government
+  office_id: richburg/mayor
+  party: Nonpartisan
+  ballot_name: 'James Harris'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1857
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Richburg Town Mayor contest (ElectionStats contest 1857), county-division rows aggregated (Chester County): James Harris 62.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/236
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Richburg Town Mayor contest (ElectionStats contest 236), county-division rows aggregated (Chester County): James Harris 42; Flora Barber 33.'
+  retrieved: '2026-10-26'

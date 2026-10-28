@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7d4ec2dc-59de-5ad2-a698-682aab750bca
+name: Gresham Meggett III
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/james-island-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:james-island/government
+  office_id: james-island/mayor
+  party: Nonpartisan
+  ballot_name: 'Gresham Meggett III'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/222
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of James Island Town Mayor contest (ElectionStats contest 222), county-division rows aggregated (Charleston County): Brook Lyon 1,312; Josh Stokes 971; Gresham Meggett III 314.'
+  retrieved: '2026-10-26'

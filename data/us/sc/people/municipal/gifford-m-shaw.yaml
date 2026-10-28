@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7ded70d9-d427-5d6a-8f28-649ac56e0462
+name: Gifford M Shaw
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/sumter-council-ward-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-6
+  party: Nonpartisan
+  ballot_name: 'Gifford Shaw'
+  status: active
+- contest_id: sc/2024-11-05/sumter-council-ward-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-6
+  party: Nonpartisan
+  ballot_name: 'Gifford M. Shaw'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3712
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Sumter City Council contest (ElectionStats contest 3712), county-division rows aggregated (Sumter County): Gifford Shaw 1,855; Eddie Drayton 847.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/8001
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Sumter City Council contest (ElectionStats contest 8001), county-division rows aggregated (Sumter County): Gifford M. Shaw 2,453.'
+  retrieved: '2026-10-26'

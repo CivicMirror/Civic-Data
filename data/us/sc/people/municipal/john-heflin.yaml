@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/5db5dc3e-ec6e-5703-b4e5-6a1e7d001b37
+name: John Heflin
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/bethune-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bethune/government
+  office_id: bethune/council-member
+  party: Nonpartisan
+  ballot_name: 'John Heflin'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/286
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Bethune Town Council contest (ElectionStats contest 286), county-division rows aggregated (Kershaw County): John Heflin 72; John Fulmer 58; Charles McCoy 55; Cynthia Hunter 53; Zach Brennan 33.'
+  retrieved: '2026-10-26'

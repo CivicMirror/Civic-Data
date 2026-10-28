@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/5c4ce9a9-9776-5ebf-a3f0-517e5634bc1b
+name: Leonard Houser
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/pinewood-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pinewood/government
+  office_id: pinewood/mayor
+  party: Nonpartisan
+  ballot_name: 'Leonard Houser'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2984
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Pinewood Town Mayor contest (ElectionStats contest 2984), county-division rows aggregated (Sumter County): Leonard Houser 127.'
+  retrieved: '2026-10-26'

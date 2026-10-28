@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7182ce70-fe26-523f-899f-68261785173b
+name: Gregory Habib
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/goose-creek-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:goose-creek/government
+  office_id: goose-creek/mayor
+  party: Nonpartisan
+  ballot_name: 'Gregory Habib'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2524
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Goose Creek City Mayor contest (ElectionStats contest 2524), county-division rows aggregated (Berkeley County): Gregory Habib 7,530; Mike Delaney 4,056.'
+  retrieved: '2026-10-26'

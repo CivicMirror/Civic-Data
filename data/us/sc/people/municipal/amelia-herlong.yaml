@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/099c14a7-a56e-5b1d-9b19-cd30e22fdb41
+name: Amelia Herlong
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/saluda-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/mayor
+  party: Nonpartisan
+  ballot_name: 'Amelia Herlong'
+  status: active
+- contest_id: sc/2022-11-22/saluda-mayor
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:saluda/government
+  office_id: saluda/mayor
+  party: Nonpartisan
+  ballot_name: 'Amelia Herlong'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3077
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Saluda Town Mayor contest (ElectionStats contest 3077), county-division rows aggregated (Saluda County): Miliken Matthews 245; Amelia Herlong 242; Wayne Bryan 126.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/3086
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, Town of Saluda Town Mayor contest (ElectionStats contest 3086), county-division rows aggregated (Saluda County): Miliken Matthews 244; Amelia Herlong 200.'
+  retrieved: '2026-10-26'

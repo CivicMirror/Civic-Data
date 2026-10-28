@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/93dd7c81-e157-53af-9b3d-e96442b75520
+name: Christopher Johnson
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/quinby-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:quinby/government
+  office_id: quinby/council-member
+  party: Nonpartisan
+  ballot_name: 'Christopher Johnson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7672
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Quinby Town Council contest (ElectionStats contest 7672), county-division rows aggregated (Florence County): Deborah Mitchell 257; Christopher Johnson 160.'
+  retrieved: '2026-10-26'

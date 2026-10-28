@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d33ef487-6299-597c-a15c-89a04968d55c
+name: Melvin Fields
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/cayce-council-district-4
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cayce/government
+  office_id: cayce/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Melvin Fields'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/120
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Cayce City Council contest (ElectionStats contest 120), county-division rows aggregated (Lexington County): Phil Carter 491; Marcy L Hayden 208; Melvin Fields 32.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/6090e373-b9ae-527b-b005-6ce51a8651d6
+name: Michael Elliott
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/nichols-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:nichols/government
+  office_id: nichols/council-member
+  party: Nonpartisan
+  ballot_name: 'Michael Elliott'
+  status: active
+- contest_id: sc/2022-11-08/nichols-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:nichols/government
+  office_id: nichols/mayor
+  party: Nonpartisan
+  ballot_name: 'Michael Elliott'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2836
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Nichols Town Council contest (ElectionStats contest 2836), county-division rows aggregated (Marion County): Delphia Gause 50; Michael Elliott 48; Estella L Lee-Harrell 40; Timothy Overley 24.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/2899
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Nichols Town Mayor contest (ElectionStats contest 2899), county-division rows aggregated (Marion County): Lawson Battle 74; Michael Elliott 34.'
+  retrieved: '2026-10-26'

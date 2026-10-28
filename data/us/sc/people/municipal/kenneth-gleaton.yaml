@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/21e96fa2-12f4-518c-8455-bec823353fb8
+name: Kenneth Gleaton
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/neeses-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:neeses/government
+  office_id: neeses/mayor
+  party: Nonpartisan
+  ballot_name: 'Kenneth Gleaton'
+  status: active
+- contest_id: sc/2023-11-07/neeses-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:neeses/government
+  office_id: neeses/mayor
+  party: Nonpartisan
+  ballot_name: 'Kenneth Gleaton'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1913
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Neeses Town Mayor contest (ElectionStats contest 1913), county-division rows aggregated (Orangeburg County): Kenneth Gleaton 29.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/332
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Neeses Town Mayor contest (ElectionStats contest 332), county-division rows aggregated (Orangeburg County): Kenneth Gleaton 22.'
+  retrieved: '2026-10-26'

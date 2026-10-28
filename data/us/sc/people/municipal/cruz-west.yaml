@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/26756248-34eb-544d-8e43-3de78bb5364b
+name: Cruz West
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/pelzer-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pelzer/government
+  office_id: pelzer/council-member
+  party: Nonpartisan
+  ballot_name: 'Cruz West'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/190
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Pelzer Town Council contest (ElectionStats contest 190), county-division rows aggregated (Anderson County): Eddie Waits 48; Cruz West 35.'
+  retrieved: '2026-10-26'

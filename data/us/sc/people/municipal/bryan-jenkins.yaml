@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/93f86b74-08b9-506d-ad39-9c26ac1c93c4
+name: Bryan Jenkins
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mcconnells-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcconnells/government
+  office_id: mcconnells/mayor
+  party: Nonpartisan
+  ballot_name: 'Bryan Jenkins'
+  status: active
+- contest_id: sc/2023-11-07/mcconnells-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcconnells/government
+  office_id: mcconnells/mayor
+  party: Nonpartisan
+  ballot_name: 'Bryan Jenkins'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1940
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mcconnells Town Mayor contest (ElectionStats contest 1940), county-division rows aggregated (York County): Agnes Love 31; Bryan Jenkins 5.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/379
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Mcconnells Town Mayor contest (ElectionStats contest 379), county-division rows aggregated (York County): William Bill Nance 26; Bryan Jenkins 14.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b2c00d07-d002-51f6-aba4-cdb025a5c2ba
+name: Tammi Bowers
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/sycamore-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sycamore/government
+  office_id: sycamore/council-member
+  party: Nonpartisan
+  ballot_name: 'Tammi Bowers'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1643
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Sycamore Town Council contest (ElectionStats contest 1643), county-division rows aggregated (Allendale County): Jonathan Brabham 17; Tammi Bowers 16; Allen Brown 16; Ernie Williams 15.'
+  retrieved: '2026-10-26'

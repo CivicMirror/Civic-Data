@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/639863c4-b1d4-535b-b287-7bbb52b2a93c
+name: Sonja J Craig
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/union-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-6
+  party: Nonpartisan
+  ballot_name: 'Sonja J. Craig'
+  status: active
+- contest_id: sc/2024-11-05/union-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:union/government
+  office_id: union/council-member-district-6
+  party: Nonpartisan
+  ballot_name: 'Sonja Craig'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3715
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Union City Council contest (ElectionStats contest 3715), county-division rows aggregated (Union County): Greg Addison 284; Sonja J. Craig 260.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7995
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Union City Council contest (ElectionStats contest 7995), county-division rows aggregated (Union County): Monty Cooke 326; Sonja Craig 200.'
+  retrieved: '2026-10-26'

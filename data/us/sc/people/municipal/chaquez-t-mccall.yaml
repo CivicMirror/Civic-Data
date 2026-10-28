@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/367f2764-aaa8-56e6-a235-c253855dc91d
+name: Chaquez T McCall
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/florence-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:florence/government
+  office_id: florence/council-member
+  party: Democratic
+  ballot_name: 'Chaquez McCall'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7535
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Florence City Council contest (ElectionStats contest 7535), county-division rows aggregated (Florence County): Lethonia Peaches Barnes 12,034; Chaquez McCall 10,684.'
+  retrieved: '2026-10-26'

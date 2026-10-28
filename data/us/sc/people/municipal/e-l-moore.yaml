@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/0057e2af-7ae7-5ee0-ae4b-ab5db808f378
+name: E L Moore
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/heath-springs-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:heath-springs/government
+  office_id: heath-springs/mayor
+  party: Nonpartisan
+  ballot_name: 'E L Moore'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1898
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Heath Springs Town Mayor contest (ElectionStats contest 1898), county-division rows aggregated (Lancaster County): E L Moore 99.'
+  retrieved: '2026-10-26'

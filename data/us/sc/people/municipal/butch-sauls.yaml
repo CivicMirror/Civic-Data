@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2e9fb398-8321-56c2-905b-99f2c3c19626
+name: Butch Sauls
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/fairfax-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fairfax/government
+  office_id: fairfax/mayor
+  party: Nonpartisan
+  ballot_name: 'Butch Sauls'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/186
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Fairfax Town Mayor contest (ElectionStats contest 186), county-division rows aggregated (Allendale County): Butch Sauls 190; John A Chaney 109; Ken Ready 86.'
+  retrieved: '2026-10-26'

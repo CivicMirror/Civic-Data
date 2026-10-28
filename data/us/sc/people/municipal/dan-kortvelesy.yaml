@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/94416f14-2b76-5aee-bb4f-849d248dee72
+name: Dan Kortvelesy
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/seabrook-island-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:seabrook-island/government
+  office_id: seabrook-island/council-member
+  party: Nonpartisan
+  ballot_name: 'Dan Kortvelesy'
+  status: active
+- contest_id: sc/2023-11-07/seabrook-island-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:seabrook-island/government
+  office_id: seabrook-island/council-member
+  party: Nonpartisan
+  ballot_name: 'Dan Kortvelesy'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1664
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Seabrook Island Town Council contest (ElectionStats contest 1664), county-division rows aggregated (Charleston County): Barry R Goldstein 382; Jeri Finke 315; Patricia Fox 311; Dan Kortvelesy 287; Sharon Welch 272.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/225
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Seabrook Island Town Council contest (ElectionStats contest 225), county-division rows aggregated (Charleston County): Raymond Hamilton 860; Darryl May 760; Gordon Weis 689; Dan Kortvelesy 627; Paul D McLaughlin 626; Chuck Cross 553; Sharon Welch 374.'
+  retrieved: '2026-10-26'

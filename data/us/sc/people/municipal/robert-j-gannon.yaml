@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/cc62e592-39d2-534d-ba21-c4a7f4409ea9
+name: Robert J Gannon
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mcclellanville-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcclellanville/government
+  office_id: mcclellanville/council-member
+  party: Nonpartisan
+  ballot_name: 'Robert Gannon'
+  status: active
+- contest_id: sc/2023-11-07/mcclellanville-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcclellanville/government
+  office_id: mcclellanville/council-member
+  party: Nonpartisan
+  ballot_name: 'Robert J Gannon'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1659
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mcclellanville Town Council contest (ElectionStats contest 1659), county-division rows aggregated (Charleston County): Aaron Baldwin 81; Jim Scott 79; Chris Bates 78; Robert Gannon 76.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/229
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Mcclellanville Town Council contest (ElectionStats contest 229), county-division rows aggregated (Charleston County): Aaron Baldwin 77; Jim Scott 72; Chris Bates 71; Robert J Gannon 70.'
+  retrieved: '2026-10-26'

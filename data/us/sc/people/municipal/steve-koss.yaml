@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b16ef433-36e6-59bc-9bbd-8be4477b0bb6
+name: Steve Koss
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/lancaster-council-district-5
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lancaster/government
+  office_id: lancaster/council-member-district-5
+  party: Nonpartisan
+  ballot_name: 'Steve Koss'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2850
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Lancaster City Council contest (ElectionStats contest 2850), county-division rows aggregated (Lancaster County): Hazel Taylor 236; Steve Koss 194.'
+  retrieved: '2026-10-26'

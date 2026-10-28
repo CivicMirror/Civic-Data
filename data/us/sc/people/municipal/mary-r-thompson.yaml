@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/f4a21565-84ef-5441-b5db-cb209a9107dc
+name: Mary R Thompson
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/perry-council-seat-1
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:perry/government
+  office_id: perry/council-member-seat-1
+  party: Nonpartisan
+  ballot_name: 'Mary R Thompson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1737
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Perry Town Council contest (ElectionStats contest 1737), county-division rows aggregated (Aiken County): Mary R Thompson 24.'
+  retrieved: '2026-10-26'

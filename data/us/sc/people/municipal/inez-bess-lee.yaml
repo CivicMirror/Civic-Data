@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/af43a827-901b-5dca-85f8-aeb94acc3f54
+name: Inez Bess Lee
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lamar-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lamar/government
+  office_id: lamar/mayor
+  party: Nonpartisan
+  ballot_name: 'Inez Bess Lee'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1862
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lamar Town Mayor contest (ElectionStats contest 1862), county-division rows aggregated (Darlington County): James Howell 164; Inez Bess Lee 155.'
+  retrieved: '2026-10-26'

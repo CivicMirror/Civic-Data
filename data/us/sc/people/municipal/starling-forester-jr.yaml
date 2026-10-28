@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/e3f8458a-4ef4-592e-9ea8-d132cde9336f
+name: Starling Forester Jr
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/brunson-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:brunson/government
+  office_id: brunson/council-member
+  party: Nonpartisan
+  ballot_name: 'Starling Forester Jr'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1685
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Brunson Town Council contest (ElectionStats contest 1685), county-division rows aggregated (Hampton County): Marilyn Smart 33; Starling Forester Jr 31.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/e25526bf-cd9c-507a-8ef2-78feb0bfe23e
+name: Knox White
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/greenville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenville/government
+  office_id: greenville/mayor
+  party: Nonpartisan
+  ballot_name: 'Knox White'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/420
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Greenville City Mayor contest (ElectionStats contest 420), county-division rows aggregated (Greenville County): Knox White 6,530; Michelle Shain 4,978.'
+  retrieved: '2026-10-26'

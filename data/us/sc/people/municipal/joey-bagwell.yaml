@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ad75260d-e428-5088-bc53-c7fc89a73cec
+name: Joey Bagwell
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/edisto-beach-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:edisto-beach/government
+  office_id: edisto-beach/council-member
+  party: Nonpartisan
+  ballot_name: 'Joey Bagwell'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/243
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Edisto Beach Town Council contest (ElectionStats contest 243), county-division rows aggregated (Colleton County): Joey Bagwell 236; Jerome Kizer 230.'
+  retrieved: '2026-10-26'

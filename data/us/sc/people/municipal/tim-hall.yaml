@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/f9852b04-8cdc-55c0-86da-e21df1450b3b
+name: Tim Hall
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/walhalla-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:walhalla/government
+  office_id: walhalla/mayor
+  party: Nonpartisan
+  ballot_name: 'Tim Hall'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/160
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Walhalla City Mayor contest (ElectionStats contest 160), county-division rows aggregated (Oconee County): Tim Hall 396; Sherri L Campbell 93.'
+  retrieved: '2026-10-26'

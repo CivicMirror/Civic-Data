@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/831032ca-c68c-5807-a4d9-0be7c4c1f246
+name: Michael Aiken Sr
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/vance-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:vance/government
+  office_id: vance/mayor
+  party: Nonpartisan
+  ballot_name: 'Michael Aiken Sr'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1916
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Vance Town Mayor contest (ElectionStats contest 1916), county-division rows aggregated (Orangeburg County): Michael Aiken Sr 31.'
+  retrieved: '2026-10-26'

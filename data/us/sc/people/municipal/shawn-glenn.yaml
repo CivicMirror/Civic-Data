@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/f4f423f1-6073-58ff-97a3-7122448fa527
+name: Shawn Glenn
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/bowman-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:bowman/government
+  office_id: bowman/council-member
+  party: Nonpartisan
+  ballot_name: 'Shawn Glenn'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1705
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Bowman Town Council contest (ElectionStats contest 1705), county-division rows aggregated (Orangeburg County): Ike Carter 139; Shawn Glenn 115; Leroy Harley 69.'
+  retrieved: '2026-10-26'

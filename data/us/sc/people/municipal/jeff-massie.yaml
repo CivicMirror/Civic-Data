@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/422ef967-489c-580d-b8e2-c7f15a32123d
+name: Jeff Massie
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/liberty-council-ward-4
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:liberty/government
+  office_id: liberty/council-member-ward-4
+  party: Nonpartisan
+  ballot_name: 'Jeff Massie'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/133
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Liberty City Council contest (ElectionStats contest 133), county-division rows aggregated (Pickens County): Jeff Massie 222.'
+  retrieved: '2026-10-26'

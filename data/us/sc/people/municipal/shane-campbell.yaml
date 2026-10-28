@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/600d1a1e-840b-579b-a535-8211fbca44b7
+name: Shane Campbell
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/smoaks-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smoaks/government
+  office_id: smoaks/council-member
+  party: Nonpartisan
+  ballot_name: 'Shane Campbell'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/247
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Smoaks Town Council contest (ElectionStats contest 247), county-division rows aggregated (Colleton County): Shane Campbell 17; Wayne S Garris 10; Courtney Noel Johns 8.'
+  retrieved: '2026-10-26'

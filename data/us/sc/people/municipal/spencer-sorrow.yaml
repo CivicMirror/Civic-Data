@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/318e23bc-637c-5e32-a7c0-48ebcec74ee7
+name: Spencer Sorrow
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/abbeville-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/mayor
+  party: Nonpartisan
+  ballot_name: 'Spencer Sorrow'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7387
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Abbeville City Mayor contest (ElectionStats contest 7387), county-division rows aggregated (Abbeville County): George Trey Edwards III 1,057; Jason A. Edwards 399; Spencer Sorrow 356.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/820e3364-423a-5296-9d68-a26d7df3c454
+name: Ryan Helms
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/fort-mill-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:fort-mill/government
+  office_id: fort-mill/mayor
+  party: Nonpartisan
+  ballot_name: 'Ryan Helms'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/373
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Fort Mill Town Mayor contest (ElectionStats contest 373), county-division rows aggregated (York County): Guynn H Savage 1,499; Ryan Helms 632.'
+  retrieved: '2026-10-26'

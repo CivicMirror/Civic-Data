@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/e090389d-9c20-57e4-a7e5-3ae5a3f39794
+name: Matthew E Miller
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/greenwood-council-ward-5
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-5
+  party: Nonpartisan
+  ballot_name: 'Matthew E. Miller'
+  status: active
+- contest_id: sc/2024-11-05/greenwood-council-ward-5
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-5
+  party: Nonpartisan
+  ballot_name: 'Matthew Miller'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3702
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Greenwood City Council contest (ElectionStats contest 3702), county-division rows aggregated (Greenwood County): Matthew E. Miller 537; Urban Mitchell 266; Wayne Kelley 221; Wayne Ables 93.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7998
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Greenwood City Council contest (ElectionStats contest 7998), county-division rows aggregated (Greenwood County): Matthew Miller 754.'
+  retrieved: '2026-10-26'

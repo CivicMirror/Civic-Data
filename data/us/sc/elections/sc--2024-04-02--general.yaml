@@ -1,0 +1,28 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177).
+
+id: sc/2024-04-02/general
+name: South Carolina 2024-04-02 general election
+date: '2024-04-02'
+election_type: general
+status: certified
+contests:
+- id: sc/2024-04-02/summerville-council-district-3-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/council-member-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3e1cf913-230e-5a38-b48b-848643b6fc4c
+  - ocd-person/82ac9509-91b2-50a6-855e-efed4a1b0957
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3e1cf913-230e-5a38-b48b-848643b6fc4c
+    name: 'Matt Halter'
+    party: Nonpartisan
+    votes: 290
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
+

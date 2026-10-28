@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c9683597-c557-509e-81ed-e29622f97647
+name: John McManus
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/pickens-council-12-month-unexpired-term
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  party: Nonpartisan
+  ballot_name: 'John McManus'
+  status: active
+- contest_id: sc/2024-11-19/pickens-council-12-month-unexpired-term
+  election_id: sc/2024-11-19/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  party: Nonpartisan
+  ballot_name: 'John McManus'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7666
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Pickens City Council contest (ElectionStats contest 7666), county-division rows aggregated (Pickens County): John McManus 405; Ed Leese 349; Joel Rice 327.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/8121
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 19, 2024 general election, Town of Pickens City Council contest (ElectionStats contest 8121), county-division rows aggregated (Pickens County): John McManus 179; Ed Leese 164.'
+  retrieved: '2026-10-26'

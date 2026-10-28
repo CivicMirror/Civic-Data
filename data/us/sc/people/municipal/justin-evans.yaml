@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/480de98e-722b-544e-9531-a7d484987d19
+name: Justin Evans
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/hartsville-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/mayor
+  party: Nonpartisan
+  ballot_name: 'Justin Evans'
+  status: active
+- contest_id: sc/2021-11-16/hartsville-mayor
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hartsville/government
+  office_id: hartsville/mayor
+  party: Nonpartisan
+  ballot_name: 'Justin Evans'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1861
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Hartsville City Mayor contest (ElectionStats contest 1861), county-division rows aggregated (Darlington County): Justin Evans 594; Casey G. Hancock 492; Jim D. Blue Sr. 354; Jordan Flowers 104; Stephen Peterson 27.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/1965
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, City of Hartsville City Mayor contest (ElectionStats contest 1965), county-division rows aggregated (Darlington County): Casey G. Hancock 837; Justin Evans 682.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ff488546-17d0-5785-bd54-78e84afd93d7
+name: Michael W Welch
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/olanta-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:olanta/government
+  office_id: olanta/mayor
+  party: Nonpartisan
+  ballot_name: 'Michael W. Welch'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1872
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Olanta Town Mayor contest (ElectionStats contest 1872), county-division rows aggregated (Florence County): Michael W. Welch 55.'
+  retrieved: '2026-10-26'

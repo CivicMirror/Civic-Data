@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/9e2fce1c-7502-5b5a-938b-dab45a61bce8
+name: Brian Hill
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/north-charleston-council-district-4
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:north-charleston/government
+  office_id: north-charleston/council-member-district-4
+  party: Nonpartisan
+  ballot_name: 'Brian Hill'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/96
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of North Charleston City Council contest (ElectionStats contest 96), county-division rows aggregated (Charleston County): Charmaine Palmer Roberts 408; Richard Hayes 402; Brian Hill 333; Joshua Gale 295; Samuel Bellamy Jr 142.'
+  retrieved: '2026-10-26'

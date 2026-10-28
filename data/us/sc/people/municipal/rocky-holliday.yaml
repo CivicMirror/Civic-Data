@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8b35200a-9891-5f78-9013-6ddf01907804
+name: Rocky Holliday
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/pawleys-island-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pawleys-island/government
+  office_id: pawleys-island/council-member
+  party: Nonpartisan
+  ballot_name: 'Rocky Holliday'
+  status: active
+- contest_id: sc/2023-11-07/pawleys-island-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pawleys-island/government
+  office_id: pawleys-island/council-member
+  party: Nonpartisan
+  ballot_name: 'Rocky Holliday'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1684
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Pawleys Island Town Council contest (ElectionStats contest 1684), county-division rows aggregated (Georgetown County): Sarah Zimmerman 24; Robert Ashley Carter Sr 24; Rocky Holliday 17; Guerry Green 13.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/275
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Pawleys Island Town Council contest (ElectionStats contest 275), county-division rows aggregated (Georgetown County): Sarah Zimmerman 47; Rocky Holliday 43; Guerry Green 40; R Ashley Carter 34; Eileen Boettcher Patterson 23.'
+  retrieved: '2026-10-26'

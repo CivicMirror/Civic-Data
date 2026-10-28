@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/78fe55ad-ba8b-55a1-96ce-385d094871db
+name: Richard Wilson
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/hodges-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:hodges/government
+  office_id: hodges/council-member
+  party: Nonpartisan
+  ballot_name: 'Richard Wilson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2593
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Hodges Town Council contest (ElectionStats contest 2593), county-division rows aggregated (Greenwood County): Renee M Tinsley 48; Kathy Henderson Detwiler 44; Johnny A. Reeves 43; Travis Reeves 30; Richard Wilson 20.'
+  retrieved: '2026-10-26'

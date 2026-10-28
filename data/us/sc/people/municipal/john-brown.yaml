@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/fb296834-37d3-5d87-b13c-0d29aa9786ca
+name: John Brown
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/stuckey-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:stuckey/government
+  office_id: stuckey/council-member
+  party: Nonpartisan
+  ballot_name: 'John Brown'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1725
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Stuckey Town Council contest (ElectionStats contest 1725), county-division rows aggregated (Williamsburg County): John Brown 30; James Mitchell 17.'
+  retrieved: '2026-10-26'

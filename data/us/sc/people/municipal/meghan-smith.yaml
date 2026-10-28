@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/7913416a-54e7-557d-ab2e-30841e1dcf89
+name: Meghan Smith
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/spartanburg-council-district-1
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:spartanburg/government
+  office_id: spartanburg/council-member-district-1
+  party: Nonpartisan
+  ballot_name: 'Meghan Smith'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/141
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Spartanburg City Council contest (ElectionStats contest 141), county-division rows aggregated (Spartanburg County): Meghan Smith 500.'
+  retrieved: '2026-10-26'

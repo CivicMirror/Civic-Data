@@ -1,0 +1,80 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177).
+
+id: sc/2024-11-19/general
+name: South Carolina 2024-11-19 general election
+date: '2024-11-19'
+election_type: general
+status: certified
+contests:
+- id: sc/2024-11-19/greenwood-council-ward-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenwood/government
+  office_id: greenwood/council-member-ward-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1c8b621e-3ac4-5fe9-8f9c-fd6dc60cef95
+  - ocd-person/0763b3fd-5b42-59cc-a20c-cae5d038038a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1c8b621e-3ac4-5fe9-8f9c-fd6dc60cef95
+    name: 'Annette Edwards'
+    party: Nonpartisan
+    votes: 51
+- id: sc/2024-11-19/isle-of-palms-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:isle-of-palms/government
+  office_id: isle-of-palms/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/510152dc-a86c-5543-94bc-7f7b5f7045a3
+  - ocd-person/321de4c2-16ee-5c00-a440-e2a6382b655d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/510152dc-a86c-5543-94bc-7f7b5f7045a3
+    name: 'Rusty Streetman'
+    party: Nonpartisan
+    votes: 651
+- id: sc/2024-11-19/pickens-council-12-month-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c9683597-c557-509e-81ed-e29622f97647
+  - ocd-person/496d66a4-4cfa-5ba5-81d7-fa20ddeb0528
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c9683597-c557-509e-81ed-e29622f97647
+    name: 'John McManus'
+    party: Nonpartisan
+    votes: 179
+- id: sc/2024-11-19/pickens-council-36-month-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/722aaa53-15a6-528e-a5e6-3d14e19791af
+  - ocd-person/a530dcf6-1f02-5f33-ac69-293edea07360
+  result_status: certified
+  winners:
+  - person_id: ocd-person/722aaa53-15a6-528e-a5e6-3d14e19791af
+    name: 'Ray Wilson'
+    party: Nonpartisan
+    votes: 200
+- id: sc/2024-11-19/sumter-council-ward-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bea86aef-522d-55d1-a681-51ed4ce2077a
+  - ocd-person/6d15a776-5211-5a1c-ac63-9ef1fa4312ce
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bea86aef-522d-55d1-a681-51ed4ce2077a
+    name: 'Rebecca Lynn Kennedy'
+    party: Nonpartisan
+    votes: 238
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
+

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/9fdc221a-51dc-5847-9251-6b92a12c02ce
+name: Ron Still
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/barnwell-council-district-1
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/council-member-district-1
+  party: Nonpartisan
+  ballot_name: 'Ron Still'
+  status: active
+- contest_id: sc/2023-11-07/barnwell-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:barnwell/government
+  office_id: barnwell/mayor
+  party: Nonpartisan
+  ballot_name: 'Ron Still'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1750
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, City of Barnwell City Council contest (ElectionStats contest 1750), county-division rows aggregated (Barnwell County): Ron Still 193; Billy Dozier 73.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/151
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Barnwell City Mayor contest (ElectionStats contest 151), county-division rows aggregated (Barnwell County): Ron Still 608; Marcus Rivera 513.'
+  retrieved: '2026-10-26'

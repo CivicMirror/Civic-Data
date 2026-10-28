@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/93a70cc5-5d47-588a-b859-724deac74bfa
+name: Brian S Dixon
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/troy-mayor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:troy/government
+  office_id: troy/mayor
+  party: Nonpartisan
+  ballot_name: 'Brian S. Dixon'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2731
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Troy Town Mayor contest (ElectionStats contest 2731), county-division rows aggregated (Greenwood County): Brian S. Dixon 20.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/4191e4a5-1018-5fb0-89f8-8f28c4b5fe73
+name: Rutledge B Leland III
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/mcclellanville-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcclellanville/government
+  office_id: mcclellanville/mayor
+  party: Nonpartisan
+  ballot_name: 'Rutledge B Leland III'
+  status: active
+- contest_id: sc/2023-11-07/mcclellanville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcclellanville/government
+  office_id: mcclellanville/mayor
+  party: Nonpartisan
+  ballot_name: 'Rutledge B. Leland III'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1846
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Mcclellanville Town Mayor contest (ElectionStats contest 1846), county-division rows aggregated (Charleston County): Rutledge B Leland III 85.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/228
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Mcclellanville Town Mayor contest (ElectionStats contest 228), county-division rows aggregated (Charleston County): Rutledge B. Leland III 78.'
+  retrieved: '2026-10-26'

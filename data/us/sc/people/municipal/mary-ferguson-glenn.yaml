@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/1b3701b5-deea-59bf-bb4c-9c39b1e59797
+name: Mary Ferguson Glenn
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/carlisle-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:carlisle/government
+  office_id: carlisle/mayor
+  party: Nonpartisan
+  ballot_name: 'Mary Ferguson Glenn'
+  status: active
+- contest_id: sc/2024-11-05/carlisle-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:carlisle/government
+  office_id: carlisle/mayor
+  party: Nonpartisan
+  ballot_name: 'Mary Ferguson Glenn'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/4041
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Town of Carlisle Town Mayor contest (ElectionStats contest 4041), county-division rows aggregated (Union County): Mary Ferguson Glenn 127; Ann Stevens 75.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7960
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Carlisle Town Mayor contest (ElectionStats contest 7960), county-division rows aggregated (Union County): Mary Ferguson Glenn 132.'
+  retrieved: '2026-10-26'

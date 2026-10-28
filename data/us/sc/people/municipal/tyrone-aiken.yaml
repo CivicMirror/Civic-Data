@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2b5de3ea-be7c-5172-ada4-3e0c98bb6ac3
+name: Tyrone Aiken
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lincolnville-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lincolnville/government
+  office_id: lincolnville/mayor
+  party: Nonpartisan
+  ballot_name: 'Tyrone Aiken'
+  status: active
+- contest_id: sc/2023-11-07/lincolnville-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lincolnville/government
+  office_id: lincolnville/council-member
+  party: Nonpartisan
+  ballot_name: 'Tyrone Aiken'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1850
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lincolnville Town Mayor contest (ElectionStats contest 1850), county-division rows aggregated (Charleston County): Enoch Dickerson III 74; Charles B. Duberry 66; Tyrone Aiken 62.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/231
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Lincolnville Town Council contest (ElectionStats contest 231), county-division rows aggregated (Charleston County): Tyrone Aiken 82; David Nesbit 60; Leland M Shannon 56; Clayton C Williams Sr 54.'
+  retrieved: '2026-10-26'

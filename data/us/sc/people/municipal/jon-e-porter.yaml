@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c5575c79-5a07-558d-9201-3a18ab5c027c
+name: Jon E Porter
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/abbeville-council-district-6
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/council-member-district-6
+  party: Nonpartisan
+  ballot_name: 'Jon E. Porter'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2368
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Abbeville City Council contest (ElectionStats contest 2368), county-division rows aggregated (Abbeville County): Jason A. Edwards 112; Jason Walker 46; Jon E. Porter 13.'
+  retrieved: '2026-10-26'

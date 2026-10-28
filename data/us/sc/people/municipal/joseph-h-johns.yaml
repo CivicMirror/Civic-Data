@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/4a616f2b-b4dc-523f-bdef-6df39b95f7f8
+name: Joseph H Johns
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/smoaks-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:smoaks/government
+  office_id: smoaks/mayor
+  party: Nonpartisan
+  ballot_name: 'Joseph H Johns'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/246
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Smoaks Town Mayor contest (ElectionStats contest 246), county-division rows aggregated (Colleton County): Joseph H Johns 17.'
+  retrieved: '2026-10-26'

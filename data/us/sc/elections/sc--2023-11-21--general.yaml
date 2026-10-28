@@ -1,0 +1,196 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results, per-office CSV exports aggregated
+# from county-division rows. Municipal pass (Civic-Data issue #177).
+
+id: sc/2023-11-21/general
+name: South Carolina 2023-11-21 general election
+date: '2023-11-21'
+election_type: general
+status: certified
+contests:
+- id: sc/2023-11-21/central-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/737400b5-8150-59b0-a9f3-5861d43fa4cd
+  - ocd-person/045de112-7762-58cd-a440-a26b2d6a5e8f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/737400b5-8150-59b0-a9f3-5861d43fa4cd
+    name: 'Joe Moss'
+    party: Nonpartisan
+    votes: 110
+- id: sc/2023-11-21/central-council-unexpired-term
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central/government
+  office_id: central/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4798a871-f4a8-57ce-a640-0c60382a6544
+  - ocd-person/de74c8b2-4bb8-5cc5-9da8-d3da35b3393d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4798a871-f4a8-57ce-a640-0c60382a6544
+    name: 'Robert Carl Griffin'
+    party: Nonpartisan
+    votes: 103
+- id: sc/2023-11-21/central-pacolet-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:central-pacolet/government
+  office_id: central-pacolet/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/233da361-1a78-524c-8483-eeaa3a210316
+  - ocd-person/3d1f78df-f480-5583-a0fb-ada386d72fb9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/233da361-1a78-524c-8483-eeaa3a210316
+    name: 'Susan Bennett'
+    party: Nonpartisan
+    votes: 17
+- id: sc/2023-11-21/charleston-council-district-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/council-member-district-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ddd69c86-15e2-5be8-a544-ca5df143fd3d
+  - ocd-person/11ac34a6-c741-54c4-b3ab-b0e7b8717ce1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ddd69c86-15e2-5be8-a544-ca5df143fd3d
+    name: 'William Tinkler'
+    party: Nonpartisan
+    votes: 1836
+- id: sc/2023-11-21/charleston-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:charleston/government
+  office_id: charleston/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ccfc2113-c139-512f-b002-70a7806ae6a3
+  - ocd-person/84dee12f-8b49-50dc-a55a-53ce9374911c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ccfc2113-c139-512f-b002-70a7806ae6a3
+    name: 'William Cogswell'
+    party: Nonpartisan
+    votes: 13958
+- id: sc/2023-11-21/cottageville-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/00564402-0a17-5fad-ae49-f7600abca647
+  - ocd-person/a89f5ef4-9228-58c9-9778-e213d3bff623
+  - ocd-person/8ec195f7-f913-5bef-8816-414eac77229f
+  - ocd-person/139e726f-f110-53cf-9655-a90debe44c42
+  result_status: certified
+  winners:
+  - person_id: ocd-person/00564402-0a17-5fad-ae49-f7600abca647
+    name: 'Will Williams'
+    party: Nonpartisan
+    votes: 50
+  - person_id: ocd-person/a89f5ef4-9228-58c9-9778-e213d3bff623
+    name: 'Andy Sahlmann'
+    party: Nonpartisan
+    votes: 42
+- id: sc/2023-11-21/cottageville-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8bcfd52c-c921-531e-b01e-ae7d28394190
+  - ocd-person/a72121a3-24ec-57f0-9fd1-e94e78b186e7
+  - ocd-person/31a1220a-b4cf-5cc3-8f81-48e57c6c8856
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8bcfd52c-c921-531e-b01e-ae7d28394190
+    name: 'Donald Dulin'
+    party: Nonpartisan
+    votes: 43
+- id: sc/2023-11-21/easley-mayor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/mayor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a61186f3-3b93-58c7-a7a0-cfdeda5c6f01
+  - ocd-person/6a435fa9-bfd0-53b4-871b-c4ba2c873268
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a61186f3-3b93-58c7-a7a0-cfdeda5c6f01
+    name: 'Lisa Talbert'
+    party: Nonpartisan
+    votes: 1814
+- id: sc/2023-11-21/folly-beach-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:folly-beach/government
+  office_id: folly-beach/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/464e3878-fcf3-5c51-8826-ad3accc747d0
+  - ocd-person/a337711b-a6ab-52eb-8149-c9764cf5cb96
+  result_status: certified
+  winners:
+  - person_id: ocd-person/464e3878-fcf3-5c51-8826-ad3accc747d0
+    name: 'Billy Grooms'
+    party: Nonpartisan
+    votes: 478
+- id: sc/2023-11-21/gilbert-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:gilbert/government
+  office_id: gilbert/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f9a92e1c-f774-5ad9-9fe1-86f820cdbe6d
+  - ocd-person/680b5e6d-673c-5b5b-8476-adca375006da
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f9a92e1c-f774-5ad9-9fe1-86f820cdbe6d
+    name: 'Donnie D Cason'
+    party: Nonpartisan
+    votes: 37
+- id: sc/2023-11-21/kingstree-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:kingstree/government
+  office_id: kingstree/council-member-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6e91a5db-daa4-5dbe-b4e9-3b5d3c4b3111
+  - ocd-person/78f12240-0948-5408-b68c-438672c7c939
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6e91a5db-daa4-5dbe-b4e9-3b5d3c4b3111
+    name: 'Michelle L Butterworth'
+    party: Nonpartisan
+    votes: 14
+- id: sc/2023-11-21/pickens-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pickens/government
+  office_id: pickens/council-member
+  vote_for: 2
+  candidate_ids:
+  - ocd-person/9534ae62-4b57-5307-8e04-a25f2d52dac0
+  - ocd-person/97b38e8b-84cf-5c88-89b8-c84f1f7e0f23
+  - ocd-person/7dcd942e-4ef0-5482-b5a0-862c0e9905f6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9534ae62-4b57-5307-8e04-a25f2d52dac0
+    name: 'Floyd Rogers'
+    party: Nonpartisan
+    votes: 220
+  - person_id: ocd-person/97b38e8b-84cf-5c88-89b8-c84f1f7e0f23
+    name: 'Allie Winter'
+    party: Nonpartisan
+    votes: 160
+- id: sc/2023-11-21/society-hill-council
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:society-hill/government
+  office_id: society-hill/council-member
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86f85f70-d789-57d5-9eaf-6d0326fe0eaf
+  - ocd-person/5024a361-ff80-5378-8ff8-da4d72c170d4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86f85f70-d789-57d5-9eaf-6d0326fe0eaf
+    name: 'Tommy Bradshaw'
+    party: Nonpartisan
+    votes: 79
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-26'
+

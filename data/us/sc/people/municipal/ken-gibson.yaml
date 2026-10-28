@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/c37ae365-5016-5845-b737-d713264e5ebf
+name: Ken Gibson
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/greenville-council-district-3
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:greenville/government
+  office_id: greenville/council-member-district-3
+  party: Nonpartisan
+  ballot_name: 'Ken Gibson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/423
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Greenville City Council contest (ElectionStats contest 423), county-division rows aggregated (Greenville County): Ken Gibson 1,150.'
+  retrieved: '2026-10-26'

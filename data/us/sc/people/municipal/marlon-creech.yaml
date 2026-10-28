@@ -1,0 +1,52 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/e340e762-fa83-5f5a-85e1-b1528260c9bc
+name: Marlon Creech
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/allendale-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/mayor
+  party: Nonpartisan
+  ballot_name: 'Marlon Creech'
+  status: active
+- contest_id: sc/2022-11-08/allendale-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/council-member
+  party: Nonpartisan
+  ballot_name: 'Marlon Creech'
+  status: active
+- contest_id: sc/2024-11-05/allendale-council-unexpired-term
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/council-member
+  party: Nonpartisan
+  ballot_name: 'Marlon Creech'
+  status: active
+- contest_id: sc/2024-11-05/allendale-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:allendale/government
+  office_id: allendale/mayor
+  party: Nonpartisan
+  ballot_name: 'Marlon Creech'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3468
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Town of Allendale Town Mayor contest (ElectionStats contest 3468), county-division rows aggregated (Allendale County): Larry Cohen 490; Marlon Creech 340; Jacqueline Jackie Jones 201; Horace Matthews 167.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/2353
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Allendale Town Council contest (ElectionStats contest 2353), county-division rows aggregated (Allendale County): Marlon Creech 313; Kathy Tharin 288; Lee Harley Fitts 242; Lottie Lewis 228; Portereshice Tibby Brabham 218.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7406
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Allendale Town Council contest (ElectionStats contest 7406), county-division rows aggregated (Allendale County): Marlon Creech 606; Jimmie Singleton 220.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7955
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Town of Allendale Town Mayor contest (ElectionStats contest 7955), county-division rows aggregated (Allendale County): Tom Carter 414; Marlon Creech 351; Larry Cochen 196.'
+  retrieved: '2026-10-26'

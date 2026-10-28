@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b709f837-3f00-59c5-be1c-d9f5f7028f0a
+name: Mason Browder
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/neeses-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:neeses/government
+  office_id: neeses/council-member
+  party: Nonpartisan
+  ballot_name: 'Mason Browder'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1709
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Neeses Town Council contest (ElectionStats contest 1709), county-division rows aggregated (Orangeburg County): Julie Renee Olenick 28; Wylie Williams 28; Paula Dyches Hutchins 27; Mason Browder 26.'
+  retrieved: '2026-10-26'

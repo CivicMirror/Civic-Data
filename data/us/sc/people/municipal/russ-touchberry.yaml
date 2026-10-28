@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2d6ea3b1-65e1-5db8-84b8-c1a3657eb367
+name: Russ Touchberry
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/summerville-council-district-3
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/council-member-district-3
+  party: Nonpartisan
+  ballot_name: 'Russ Touchberry'
+  status: active
+- contest_id: sc/2023-11-07/summerville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:summerville/government
+  office_id: summerville/mayor
+  party: Nonpartisan
+  ballot_name: 'Russ Touchberry'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1798
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Summerville Town Council contest (ElectionStats contest 1798), county-division rows aggregated (Dorchester County): Russ Touchberry 184.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/211
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Summerville Town Mayor contest (ElectionStats contest 211), county-division rows aggregated (Berkeley County): Russ Touchberry 3,357; Dickie Miler 2,595; Vickie Fagan 238.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/e50bbd71-0d20-5443-9b0b-3d80c64c1890
+name: Calvin K Hastie, Sr
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/sumter-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/mayor
+  party: Nonpartisan
+  ballot_name: 'Calvin K. Hastie, Sr.'
+  status: active
+- contest_id: sc/2022-11-08/sumter-council-ward-3
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:sumter/government
+  office_id: sumter/council-member-ward-3
+  party: Nonpartisan
+  ballot_name: 'Calvin K. Hastie, Sr.'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/4018
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Sumter City Mayor contest (ElectionStats contest 4018), county-division rows aggregated (Sumter County): David Merchant 7,050; Calvin K. Hastie, Sr. 4,765; Foxy Rae Campbell 1,992; Archie Parnell 1,653; Debbie Bowen 943; Sabrina Belcher 463.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/2858
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, City of Sumter City Council contest (ElectionStats contest 2858), county-division rows aggregated (Sumter County): Calvin K. Hastie, Sr. 1,032.'
+  retrieved: '2026-10-26'

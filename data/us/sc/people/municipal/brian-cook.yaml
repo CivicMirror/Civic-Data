@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d196b824-94eb-58dc-9041-dc493b9c4d2d
+name: Brian Cook
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/norris-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:norris/government
+  office_id: norris/council-member
+  party: Nonpartisan
+  ballot_name: 'Brian Cook'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1716
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Norris Town Council contest (ElectionStats contest 1716), county-division rows aggregated (Pickens County): Lawrence McClure 15; Brian Cook 15.'
+  retrieved: '2026-10-26'

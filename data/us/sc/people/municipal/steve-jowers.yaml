@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/4cbc3eb4-a69e-58cd-b62e-a94b564eca9b
+name: Steve Jowers
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/blackville-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:blackville/government
+  office_id: blackville/council-member
+  party: Nonpartisan
+  ballot_name: 'Steve Jowers'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1654
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Blackville Town Council contest (ElectionStats contest 1654), county-division rows aggregated (Barnwell County): Allen Harrison 129; Enterick Lee 125; Fred Orr 87; Steve Jowers 80.'
+  retrieved: '2026-10-26'

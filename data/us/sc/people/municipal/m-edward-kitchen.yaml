@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/d450bec2-640d-54af-8d51-0f47ae76b73a
+name: M Edward Kitchen
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/mullins-council-district-5
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mullins/government
+  office_id: mullins/council-member-district-5
+  party: Nonpartisan
+  ballot_name: 'M Edward Kitchen'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3708
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Mullins City Council contest (ElectionStats contest 3708), county-division rows aggregated (Marion County): M Edward Kitchen 218; Kelli R. Williams 139.'
+  retrieved: '2026-10-26'

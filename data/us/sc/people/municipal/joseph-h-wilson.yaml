@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b594de8e-8a65-55b8-85b9-e49ec8f58791
+name: Joseph H Wilson
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/lowrys-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowrys/government
+  office_id: lowrys/mayor
+  party: Nonpartisan
+  ballot_name: 'Joseph H. Wilson'
+  status: active
+- contest_id: sc/2023-11-07/lowrys-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:lowrys/government
+  office_id: lowrys/mayor
+  party: Nonpartisan
+  ballot_name: 'Joseph Wilson'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1856
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Lowrys Town Mayor contest (ElectionStats contest 1856), county-division rows aggregated (Chester County): Joseph H. Wilson 18.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/232
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Lowrys Town Mayor contest (ElectionStats contest 232), county-division rows aggregated (Chester County): Joseph Wilson 16.'
+  retrieved: '2026-10-26'

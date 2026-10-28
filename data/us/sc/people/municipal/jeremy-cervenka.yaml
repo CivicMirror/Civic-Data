@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/139e726f-f110-53cf-9655-a90debe44c42
+name: Jeremy Cervenka
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/cottageville-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/council-member
+  party: Nonpartisan
+  ballot_name: 'Jeremy Cervenka'
+  status: active
+- contest_id: sc/2023-11-21/cottageville-council
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:cottageville/government
+  office_id: cottageville/council-member
+  party: Nonpartisan
+  ballot_name: 'Jeremy Cervenka'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/241
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Cottageville Town Council contest (ElectionStats contest 241), county-division rows aggregated (Colleton County): Tina Peterson 44; Jeremy Cervenka 40; Andy Sahlmann 33; Will Williams 32.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/438
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, Town of Cottageville Town Council contest (ElectionStats contest 438), county-division rows aggregated (Colleton County): Will Williams 50; Andy Sahlmann 42; Tina Peterson 37; Jeremy Cervenka 35.'
+  retrieved: '2026-10-26'

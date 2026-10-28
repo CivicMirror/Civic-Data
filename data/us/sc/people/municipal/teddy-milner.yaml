@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/836fcc43-46ac-573f-a8f3-a9501380c7b9
+name: Teddy Milner
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/aiken-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:aiken/government
+  office_id: aiken/mayor
+  party: Nonpartisan
+  ballot_name: 'Teddy Milner'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/415
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Aiken City Mayor contest (ElectionStats contest 415), county-division rows aggregated (Aiken County): Teddy Milner 2,748.'
+  retrieved: '2026-10-26'

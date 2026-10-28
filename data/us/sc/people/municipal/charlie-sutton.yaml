@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/2e26eea4-4891-5af3-a4c6-2e8d67c796b0
+name: Charlie Sutton
+identifiers: []
+candidacies:
+- contest_id: sc/2022-11-08/mcbee-council
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:mcbee/government
+  office_id: mcbee/council-member
+  party: Nonpartisan
+  ballot_name: 'Charlie Sutton'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/2356
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Town of Mcbee Town Council contest (ElectionStats contest 2356), county-division rows aggregated (Chesterfield County): Glenn Odom 190; Charlie Sutton 176; Gregory D Rogers 150; Justin Anderson 137; Alexander Kemp C McLeod Jr 57.'
+  retrieved: '2026-10-26'

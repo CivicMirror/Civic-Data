@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/bbf56cc4-487c-5f15-98a5-91e84dc84fc9
+name: Karen Jones
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-16/pine-ridge-council-unexpired-term
+  election_id: sc/2021-11-16/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:pine-ridge/government
+  office_id: pine-ridge/council-member
+  party: Nonpartisan
+  ballot_name: 'Karen Jones'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1971
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 16, 2021 general election, Town of Pine Ridge Town Council contest (ElectionStats contest 1971), county-division rows aggregated (Lexington County): Melissa Lewie 75; Karen Jones 32.'
+  retrieved: '2026-10-26'

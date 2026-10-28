@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/32392ac1-214d-5d03-adb5-39edc080e156
+name: Lethonia Peaches Barnes
+identifiers: []
+candidacies:
+- contest_id: sc/2024-11-05/florence-council
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:florence/government
+  office_id: florence/council-member
+  party: Democratic
+  ballot_name: 'Lethonia Peaches Barnes'
+  status: active
+- contest_id: sc/2024-11-05/florence-mayor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:florence/government
+  office_id: florence/mayor
+  party: Democratic
+  ballot_name: 'Lethonia Peaches Barnes'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/7535
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Florence City Council contest (ElectionStats contest 7535), county-division rows aggregated (Florence County): Lethonia Peaches Barnes 12,034; Chaquez McCall 10,684.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7532
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, City of Florence City Mayor contest (ElectionStats contest 7532), county-division rows aggregated (Florence County): Lethonia Peaches Barnes 14,127.'
+  retrieved: '2026-10-26'

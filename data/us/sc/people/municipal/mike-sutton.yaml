@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/b7520f60-be65-587e-b228-eebada2a6406
+name: Mike Sutton
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/beaufort-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:beaufort/government
+  office_id: beaufort/mayor
+  party: Nonpartisan
+  ballot_name: 'Mike Sutton'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3489
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Beaufort City Mayor contest (ElectionStats contest 3489), county-division rows aggregated (Beaufort County): Stephen Murray 3,384; Mike Sutton 1,832.'
+  retrieved: '2026-10-26'

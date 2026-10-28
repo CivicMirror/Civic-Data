@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/215dfc82-67fc-5e26-807e-9d6c38dbd64e
+name: Dean Baber
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/andrews-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:andrews/government
+  office_id: andrews/mayor
+  party: Nonpartisan
+  ballot_name: 'Dean Baber'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/272
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Andrews Town Mayor contest (ElectionStats contest 272), county-division rows aggregated (Georgetown County): Frank McClary 434; Dean Baber 325.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/8563e68f-04c0-5e8d-9439-ed8b238fe32a
+name: Bob Hall
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/batesburg-leesville-council-district-8
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:batesburg-leesville/government
+  office_id: batesburg-leesville/council-member-district-8
+  party: Nonpartisan
+  ballot_name: 'Bob Hall'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/310
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Batesburg-Leesville Town Council contest (ElectionStats contest 310), county-division rows aggregated (Lexington County): Bob Hall 40.'
+  retrieved: '2026-10-26'

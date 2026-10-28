@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/65eb6874-5e74-55b8-b597-59bbd4de7daf
+name: Tom Kittrell
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/reevesville-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:reevesville/government
+  office_id: reevesville/mayor
+  party: Nonpartisan
+  ballot_name: 'Tom Kittrell'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/260
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Reevesville Town Mayor contest (ElectionStats contest 260), county-division rows aggregated (Dorchester County): Tom Kittrell 31.'
+  retrieved: '2026-10-26'

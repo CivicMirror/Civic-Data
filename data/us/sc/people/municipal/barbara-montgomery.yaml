@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/83ebc5cf-f381-57c5-90de-03584811d6fe
+name: Barbara Montgomery
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/vance-council
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:vance/government
+  office_id: vance/council-member
+  party: Nonpartisan
+  ballot_name: 'Barbara Montgomery'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/342
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, Town of Vance Town Council contest (ElectionStats contest 342), county-division rows aggregated (Orangeburg County): Barbara Montgomery 23; Caroline E Bush 20.'
+  retrieved: '2026-10-26'

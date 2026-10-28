@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/81a5b625-1f2d-5977-8cc3-6a08969c43d7
+name: Jose Missouri
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/camden-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:camden/government
+  office_id: camden/mayor
+  party: Nonpartisan
+  ballot_name: 'Jose Missouri'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3875
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Camden City Mayor contest (ElectionStats contest 3875), county-division rows aggregated (Kershaw County): Alfred Mae Drakeford 3,085; Jose Missouri 772.'
+  retrieved: '2026-10-26'

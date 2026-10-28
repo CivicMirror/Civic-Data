@@ -1,0 +1,32 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/a61186f3-3b93-58c7-a7a0-cfdeda5c6f01
+name: Lisa Talbert
+identifiers: []
+candidacies:
+- contest_id: sc/2023-11-07/easley-mayor
+  election_id: sc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/mayor
+  party: Nonpartisan
+  ballot_name: 'Lisa Talbert'
+  status: active
+- contest_id: sc/2023-11-21/easley-mayor
+  election_id: sc/2023-11-21/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:easley/government
+  office_id: easley/mayor
+  party: Nonpartisan
+  ballot_name: 'Lisa Talbert'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/150
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Easley City Mayor contest (ElectionStats contest 150), county-division rows aggregated (Anderson County): Lisa Talbert 1,456; Butch Womack 1,111; David A Cox 723.'
+  retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/434
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 21, 2023 general election, City of Easley City Mayor contest (ElectionStats contest 434), county-division rows aggregated (Anderson County): Lisa Talbert 1,814; Butch Womack 1,061.'
+  retrieved: '2026-10-26'

@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/fa3628fd-5db6-56d7-ada4-a7e6b58ec16b
+name: Santana Delano Freeman
+identifiers: []
+candidacies:
+- contest_id: sc/2020-11-03/abbeville-mayor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:abbeville/government
+  office_id: abbeville/mayor
+  party: Nonpartisan
+  ballot_name: 'Santana Delano Freeman'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/3457
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, City of Abbeville City Mayor contest (ElectionStats contest 3457), county-division rows aggregated (Abbeville County): Santana Delano Freeman 617; Trey Edwards 603; Joshua Bryan Baughman 578; Eric Delgado 367.'
+  retrieved: '2026-10-26'

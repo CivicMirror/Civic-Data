@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/bbadd9f1-106c-5f93-ae7c-01c0cb64c9d0
+name: Daniel Green
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/woodford-council
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:woodford/government
+  office_id: woodford/council-member
+  party: Nonpartisan
+  ballot_name: 'Daniel Green'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1714
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Woodford Town Council contest (ElectionStats contest 1714), county-division rows aggregated (Orangeburg County): Daniel Green 12.'
+  retrieved: '2026-10-26'

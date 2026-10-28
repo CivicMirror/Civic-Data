@@ -1,0 +1,22 @@
+# Minted from the SC State Election Commission Election History
+# official general election results (municipal pass, Civic-Data
+# issue #177).
+
+id: ocd-person/ad9da34f-fb62-5a3f-be27-e443201b62a1
+name: Whitney Corbett
+identifiers: []
+candidacies:
+- contest_id: sc/2021-11-02/springfield-sc-mayor
+  election_id: sc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/place:springfield/government
+  office_id: springfield-sc/mayor
+  party: Nonpartisan
+  ballot_name: 'Whitney Corbett'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_sc_municipal
+sources:
+- url: https://electionhistory.scvotes.gov/contest/1915
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Springfield Town Mayor contest (ElectionStats contest 1915), county-division rows aggregated (Orangeburg County): Ed Furtick 83; Whitney Corbett 49.'
+  retrieved: '2026-10-26'
