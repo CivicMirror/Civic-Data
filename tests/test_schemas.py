@@ -100,3 +100,39 @@ def test_all_acceptance_election_fixtures_validate() -> None:
         if path.name == "nc-jordan-lee.yaml":
             continue
         assert_valid("election.schema.json", yaml.safe_load(path.read_text()))
+
+
+# --- membership start/end precision (issue #62) ---------------------------
+
+MEMBERSHIP = {
+    "id": "millbury-select-board-example",
+    "person_id": "ocd-person/4c28941f-6f8a-4e86-b702-0741297db7d0",
+    "organization_id": "ocd-organization/550e8400-e29b-41d4-a716-446655440001",
+    "post_id": "millbury-ma/select-board",
+    "role": "Select Board Member",
+    "sources": [{"url": "https://example.gov/roster"}],
+}
+
+
+def membership_with(**fields: str) -> dict:
+    document = copy.deepcopy(MEMBERSHIP)
+    document.update(fields)
+    return document
+
+
+def test_membership_dates_accept_every_source_precision() -> None:
+    # Precision varies by source: most town rosters print only "term expires
+    # 2029", a few print "May 2029", and only a charter with an explicit
+    # seating rule yields a full date. All three are recorded as published.
+    for value in ("2029", "2029-05", "2029-05-14"):
+        assert_valid("membership.schema.json", membership_with(start="2026", end=value))
+
+
+def test_membership_dates_reject_non_iso_and_non_date_values() -> None:
+    for value in ("5/14/2029", "412", "2029-13", "2029-05-32", "2029-5-4", "May 2029", ""):
+        errors = list(
+            Draft202012Validator(load_schema("membership.schema.json")).iter_errors(
+                membership_with(end=value)
+            )
+        )
+        assert errors, f"{value!r} should not be a valid membership end"

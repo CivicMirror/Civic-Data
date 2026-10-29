@@ -13,9 +13,16 @@
     "post_id": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
     "role": { "type": "string", "minLength": 1 },
     "seat": { "type": "string" },
-    "start": { "type": "string", "format": "date" },
-    "end": { "type": "string", "format": "date" },
+    "start": { "$ref": "#/$defs/partialDate", "description": "When the membership began, at the precision the source actually gives." },
+    "end": { "$ref": "#/$defs/partialDate", "description": "When the membership ends or ended, at the precision the source actually gives. Most sources publish only 'term expires 2029'." },
     "how_seated": { "type": "string", "enum": ["elected", "appointed", "succeeded", "acting"] },
     "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["url"], "additionalProperties": false, "properties": { "url": { "type": "string", "format": "uri" }, "note": { "type": "string" }, "retrieved": { "type": "string", "format": "date" } } } }
+  },
+  "$defs": {
+    "partialDate": {
+      "description": "A date carrying only the precision the source published: a full ISO date (YYYY-MM-DD) where the source gives one, a month (YYYY-MM) where it gives only a month, or a year (YYYY) where it gives only a year. Consumers must handle all three and must not assume a missing month or day; a bare year is not a claim about January 1 or December 31.",
+      "type": "string",
+      "pattern": "^[0-9]{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12][0-9]|3[01]))?)?$"
+    }
   }
 }

@@ -12,7 +12,7 @@ from pathlib import Path
 
 try:
     import yaml
-    from jsonschema import Draft202012Validator
+    from jsonschema import Draft202012Validator, FormatChecker
     from referencing import Registry, Resource
 except ImportError:
     print("Missing dependencies. Run: pip install -r scripts/requirements.txt")
@@ -34,6 +34,17 @@ def warn(msg: str) -> None:
     WARNINGS.append(msg)
 
 
+# format is annotation-only in JSON Schema unless a checker is supplied, so the
+# declared constraints were never enforced (see issue #62). We enforce "date"
+# -- membership.start/end now use the partialDate pattern instead, so what is
+# left under format: date (sources[].retrieved, election.date, person
+# verification.reviewed_on) really is a full ISO date. "uri" is deliberately
+# NOT enforced: ~295 sources[].url values are provenance strings for material
+# with no URL at all ("user-supplied PDF, Town of Oakham FY2025 Annual Town
+# Report", clerk emails), which is a modeling question, not a validation one.
+DATE_FORMAT_CHECKER = FormatChecker(["date"])
+
+
 def load_schemas(schema_dir: Path = SCHEMA_DIR) -> dict[str, Draft202012Validator]:
     raw = {path.name: json.loads(path.read_text()) for path in schema_dir.glob("*.schema.json")}
     registry = Registry()
@@ -41,7 +52,7 @@ def load_schemas(schema_dir: Path = SCHEMA_DIR) -> dict[str, Draft202012Validato
         registry = registry.with_resource(name, Resource.from_contents(schema))
         if "$id" in schema:
             registry = registry.with_resource(schema["$id"], Resource.from_contents(schema))
-    return {name: Draft202012Validator(schema, registry=registry) for name, schema in raw.items()}
+    return {name: Draft202012Validator(schema, registry=registry, format_checker=DATE_FORMAT_CHECKER) for name, schema in raw.items()}
 
 
 def load_yaml(path: Path) -> dict | None:

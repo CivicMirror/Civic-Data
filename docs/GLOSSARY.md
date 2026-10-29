@@ -60,7 +60,13 @@ tied to one office for life (see "Membership" below).
 standalone file under `data/us/{state}/memberships/`. Carries
 `person_id`, `organization_id`, optionally `post_id`, `role` (the
 title/function held), `start`/`end` dates, and `how_seated`
-(`elected`/`appointed`/`succeeded`/`acting`). **A person can have more
+(`elected`/`appointed`/`succeeded`/`acting`). `start`/`end` are
+*partial* ISO dates: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, carrying only
+the precision the source actually published — most town rosters print
+only "term expires 2029", a few print "May 2029", and only a charter
+with an explicit seating rule yields a full date. A consumer must
+handle all three and must not read a bare year as January 1 or
+December 31. **A person can have more
 than one membership** — this is not a hypothetical: Richard Neal has
 two, because he represented a different-numbered district before 2013
 redistricting. "People change memberships; posts themselves rarely
