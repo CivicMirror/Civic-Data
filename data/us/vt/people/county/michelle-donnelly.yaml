@@ -1,0 +1,32 @@
+# Washington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/07fd8d8f-638b-50dd-8197-60e4863b5b4d
+name: Michelle Donnelly
+identifiers: []
+candidacies:
+- contest_id: washington-vt-county/2022-11-08/states-attorney
+  election_id: washington-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:washington/government
+  office_id: washington-vt-county/states-attorney
+  party: Democratic
+  ballot_name: Michelle Donnelly
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/158043
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, State''s Attorney (listed as District Attorney), Washington
+    County'' (county totals): Michelle Donnelly (Democratic) 21,388 votes; write-ins
+    421. The contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://prosecutors.vermont.gov/offices/washington
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Washington County
+    office page: lists Michelle Donnelly as State''s Attorney and Marc Poulin as Sheriff
+    -- the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-17'

@@ -1,0 +1,28 @@
+# Bennington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/629c5d36-c91d-58ad-8b5e-d0ab4af76ecf
+name: Mary C. Frost
+identifiers: []
+candidacies:
+- contest_id: bennington-vt-county/2022-11-08/assistant-judge
+  election_id: bennington-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/assistant-judge
+  party: Democratic/Republican
+  ballot_name: Mary C. Frost
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157845
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Assistant Judge, Bennington County'' (vote for 2; county
+    totals): Mary C. Frost (Democratic/Republican) 11,096 votes; Brian W. Peat (Democratic/Republican)
+    9,872; write-ins 84. Mary C. Frost and Brian W. Peat were the only two candidates
+    for the two seats. The contest page''s cited official source is the official return
+    vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning February
+    1 after the election (Vermont Constitution, Chapter II, section 50); the November
+    3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'
