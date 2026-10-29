@@ -341,25 +341,31 @@ def contest_note(town, c, extra=""):
             f"contest (ElectionStats contest {c['contest_id']}), county-division rows "
             f"aggregated ({c['county']} County): {results_str(c)}.{extra}")
 
-POST_ROOT = {"salem": "salem-sc", "springfield": "springfield-sc"}  # bare roots taken (MA)
-
 def post_for(slug, fam, skey):
-    slug = POST_ROOT.get(slug, slug)
+    # Post IDs carry the -<st>- infix (docs/index.html, "File naming"), so a
+    # town name that exists in more than one state cannot collide: SC's
+    # Abbeville is abbeville-sc/mayor, Mississippi's stays abbeville/mayor.
+    # This used to be an allow-list of the two roots MA had already taken,
+    # which left 604 posts bare and duplicated 15 IDs against MS the moment
+    # the municipal pass landed (issue #190, cause A).
+    pid = slug if slug.endswith("-sc") else f"{slug}-sc"
+    # The election contest segment stays on the bare slug -- contest IDs are
+    # their own namespace and are already published as sc/<date>/<town>-<office>.
     if fam == "mayor":
-        return (f"{slug}/mayor", "Mayor", f"{slug}-mayor", "At-Large",
+        return (f"{pid}/mayor", "Mayor", f"{pid}-mayor", "At-Large",
                 f"{slug}-mayor")
     if skey.startswith("ward:"):
         word, num = skey[5:].split(" ")
-        return (f"{slug}/council-member-{word.lower()}-{num}",
+        return (f"{pid}/council-member-{word.lower()}-{num}",
                 f"Council Member, {word} {num}",
-                f"{slug}-council-member-{word.lower()}-{num}",
+                f"{pid}-council-member-{word.lower()}-{num}",
                 f"{word} {num}", f"{slug}-council-{word.lower()}-{num}")
     if skey.startswith("seat:"):
         num = skey[5:]
-        return (f"{slug}/council-member-seat-{num}", f"Council Member, Seat {num}",
-                f"{slug}-council-member-seat-{num}", f"Seat {num}",
+        return (f"{pid}/council-member-seat-{num}", f"Council Member, Seat {num}",
+                f"{pid}-council-member-seat-{num}", f"Seat {num}",
                 f"{slug}-council-seat-{num}")
-    return (f"{slug}/council-member", "Council Member", f"{slug}-council-member",
+    return (f"{pid}/council-member", "Council Member", f"{pid}-council-member",
             "At-Large", f"{slug}-council")
 
 # ---------------------------------------------------------------- main build
