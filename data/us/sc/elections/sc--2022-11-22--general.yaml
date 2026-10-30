@@ -69,8 +69,88 @@ contests:
   - ocd-person/ca0c02ec-1106-5293-b898-938ea59ff236
   result_status: official
   winners: []
+- id: sc/2022-11-22/marlboro-county-school-board-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:marlboro-county/school
+  office_id: marlboro-county/school-board-district-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/154d7eda-cf73-5337-bcb9-0a4ddf3724e2
+  - ocd-person/aa94ba4b-739b-5b46-ae8c-327ea79bf819
+  result_status: certified
+  winners:
+  - name: Nikki Lynn Pruitt
+    party: Nonpartisan
+    person_id: ocd-person/154d7eda-cf73-5337-bcb9-0a4ddf3724e2
+    votes: 238
+- id: sc/2022-11-22/marlboro-county-school-board-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:marlboro-county/school
+  office_id: marlboro-county/school-board-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/379057f4-179a-5ffe-ae1e-7ffd013ef3bf
+  - ocd-person/e88a0afa-5327-56eb-9f5d-ca65549051f9
+  result_status: certified
+  winners:
+  - name: Leevander McRae Jr
+    party: Nonpartisan
+    person_id: ocd-person/379057f4-179a-5ffe-ae1e-7ffd013ef3bf
+    votes: 166
+- id: sc/2022-11-22/sumter-county-school-board-district-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/58c49c81-891a-5ee6-9671-6f41d2a87d03
+  - ocd-person/c64938b4-a0af-577b-a89c-93ae43747e18
+  result_status: certified
+  winners:
+  - name: Daniel Palumbo
+    party: Nonpartisan
+    person_id: ocd-person/58c49c81-891a-5ee6-9671-6f41d2a87d03
+    votes: 311
+- id: sc/2022-11-22/sumter-county-school-board-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ad09ecfd-c118-50eb-b579-6c097934c49c
+  - ocd-person/86d72e79-8835-509c-9d45-e86552a4b486
+  result_status: certified
+  winners:
+  - name: Brittany English
+    party: Nonpartisan
+    person_id: ocd-person/ad09ecfd-c118-50eb-b579-6c097934c49c
+    votes: 368
+- id: sc/2022-11-22/sumter-county-school-board-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c573da16-1b7f-550f-a3e9-e203548d2db4
+  - ocd-person/7563dc62-0751-544d-8f6a-1e98ba80d948
+  result_status: certified
+  winners:
+  - name: Tarah Cousar Johnson
+    party: Nonpartisan
+    person_id: ocd-person/c573da16-1b7f-550f-a3e9-e203548d2db4
+    votes: 600
+- id: sc/2022-11-22/sumter-county-school-board-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/cfd6c884-02d7-50d6-b7b2-523bb3ae6cbc
+  - ocd-person/4504d79f-f634-5c64-ab35-b09cd3fa3cfd
+  result_status: certified
+  winners:
+  - name: Jeff Zell
+    party: Nonpartisan
+    person_id: ocd-person/cfd6c884-02d7-50d6-b7b2-523bb3ae6cbc
+    votes: 719
 sources:
 - url: https://electionhistory.scvotes.gov/search?gf=e
   note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, City Council, Town Mayor, City Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
   retrieved: '2026-10-26'
-
+- url: https://electionhistory.scvotes.gov/
+  note: 'School board contests appended by the SC schools fan-out (Civic-Data issue #177): school board contests of the November 22, 2022 general election for the elected school districts of South Carolina, from the Election History (ElectionStats) school board data. Write-In rows are unnamed aggregates and seat no one.'
+  retrieved: '2026-10-30'
