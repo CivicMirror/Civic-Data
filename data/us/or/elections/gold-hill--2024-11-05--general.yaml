@@ -1,0 +1,37 @@
+# Built for issue #170 (Oregon master tracking).
+id: gold-hill/2024-11-05/general
+name: 'Gold Hill 2024 General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: gold-hill/2024-11-05/general/mayor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:gold-hill/government
+    office_id: or-gold-hill/mayor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/63c6f858-1905-5c54-82e1-008164de79a8
+    result_status: certified
+    winners:
+      - person_id: ocd-person/63c6f858-1905-5c54-82e1-008164de79a8
+        name: Ronald Palmer
+  - id: gold-hill/2024-11-05/general/councilor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:gold-hill/government
+    office_id: or-gold-hill/councilor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/6d28de77-9921-5594-b4df-1a741d577035
+      - ocd-person/2dd882d1-034b-5726-a160-60c9f034099f
+      - ocd-person/2b085b9f-7108-5e7a-a520-446691fc8fc8
+    result_status: certified
+    winners:
+      - person_id: ocd-person/6d28de77-9921-5594-b4df-1a741d577035
+        name: Melia Biedscheid
+      - person_id: ocd-person/2dd882d1-034b-5726-a160-60c9f034099f
+        name: Jerry Frazier
+      - person_id: ocd-person/2b085b9f-7108-5e7a-a520-446691fc8fc8
+        name: RJ Wright
+sources:
+- url: https://www.cityofgoldhill.gov/wp-content/uploads/city_council_12_17_24_agenda_packet.pdf
+  note: 'City of Gold Hill, Resolution 24-R-31 accepting the Jackson County certified abstract of the November 5, 2024 general election (December 17, 2024 council packet)'
+  retrieved: '2026-10-25'

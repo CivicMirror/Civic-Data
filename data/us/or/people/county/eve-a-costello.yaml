@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/bdb1137e-6bca-5669-bb58-aad082828dab
+name: Eve A Costello
+identifiers: []
+candidacies:
+- contest_id: klamath/2022-05-17/district-attorney
+  election_id: klamath/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:klamath/government
+  office_id: or-klamath/district-attorney
+  party: Nonpartisan
+  ballot_name: Eve A Costello
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Klamath County: Eve A Costello 9,978; miscellaneous write-ins 449. Costello won the May 2022 primary; she left office mid-term and the seat was decided at the November 2024 general election. No membership is modeled for Costello because her departure date is not documented in the sources read.'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/klamath.aspx
+  note: 'Oregon Blue Book, Klamath County page (Secretary of State): county officials list.'
+  retrieved: '2026-10-25'

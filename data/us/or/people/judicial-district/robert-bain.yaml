@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/44c84b2f-6990-5695-a6c1-5859e949f8e9
+name: Robert S Bain
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-14-position-3
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-3
+  party: Nonpartisan
+  ballot_name: Robert S Bain
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 14th District, Position 3: Robert S Bain 13,258; miscellaneous write-ins 142.'
+  retrieved: '2026-10-23'

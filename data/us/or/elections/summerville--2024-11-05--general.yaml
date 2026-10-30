@@ -1,0 +1,41 @@
+# Built for issue #170 (Oregon master tracking).
+id: summerville/2024-11-05/general
+name: 'Summerville 2024 General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: summerville/2024-11-05/general/councilor-position-2
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:summerville/government
+    office_id: or-summerville/councilor-position-2
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/d4df634b-554b-5944-805f-105d28597c1a
+    result_status: certified
+    winners:
+      - person_id: ocd-person/d4df634b-554b-5944-805f-105d28597c1a
+        name: Jered Schwabauer
+  - id: summerville/2024-11-05/general/councilor-position-4
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:summerville/government
+    office_id: or-summerville/councilor-position-4
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/da37bb29-66fc-5808-af9f-1241238564bd
+    result_status: certified
+    winners:
+      - person_id: ocd-person/da37bb29-66fc-5808-af9f-1241238564bd
+        name: Simon Kinney
+  - id: summerville/2024-11-05/general/councilor-position-5
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:summerville/government
+    office_id: or-summerville/councilor-position-5
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/cb6b84e8-a91a-5fa0-a61c-e052b2db7abe
+    result_status: certified
+    winners:
+      - person_id: ocd-person/cb6b84e8-a91a-5fa0-a61c-e052b2db7abe
+        name: Lyle Mann
+sources:
+- url: https://union-county.org/
+  note: 'Union County Clerk, certified final results, November 5, 2024 general election'
+  retrieved: '2026-10-25'

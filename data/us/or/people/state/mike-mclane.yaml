@@ -1,0 +1,30 @@
+# Oregon Legislative Assembly -- issue #170 (OR master tracking).
+id: ocd-person/cc6bd8e6-853c-5352-99f0-9564c7bb65d7
+name: Mike McLane
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/senate-district-30
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:30/legislature
+  office_id: or-senate-30/state-senator
+  party: Republican
+  ballot_name: Mike McLane
+  status: active
+- contest_id: or/2020-05-19/circuit-court-district-22-position-2
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-22/judiciary
+  office_id: or-circuit-court-district-22/judge-position-2
+  party: Nonpartisan
+  ballot_name: Mike McLane
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_legislative
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Elections Division, November 5, 2024 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For State Senator, District 30: Mike McLane (R) 56,886 votes, marked ** as elected; miscellaneous write-ins 946. Mike McLane won by a plurality of 56,886 votes. Party labels are as printed in the abstract: (R) Republican.'
+  retrieved: '2026-10-23'
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 22nd District, Position 2: Mike McLane 10,595; miscellaneous write-ins 108.'
+  retrieved: '2026-10-23'

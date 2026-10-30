@@ -1,0 +1,26 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/66e84826-f3df-5e6d-aec0-a372ba9e3396
+name: Dan Cross
+identifiers: []
+candidacies:
+- contest_id: washington/2022-05-17/justice-of-the-peace
+  election_id: washington/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:washington/government
+  office_id: or-washington/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: Dan Cross
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://www.washingtoncountyor.gov/elections/documents/may-2022-ballots-cast-contest-precincts/download?inline
+  note: 'Washington County, Ballots Cast per Contest with Precincts -- May 2022 Primary Election (official results): Dan Cross 63,586, sole candidate; write-in 1,061 (1.64%); total votes 64,647; undervotes 55,366.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/washington.aspx
+  note: 'Oregon Blue Book, Washington County page (Secretary of State): county officials list ''Justice of the Peace Dan Cross (2029)''.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/washington.aspx
+  note: 'Washington County''s November 2022 official results contain no Justice of the Peace contest; the race was decided at the May primary.'
+  retrieved: '2026-10-23'

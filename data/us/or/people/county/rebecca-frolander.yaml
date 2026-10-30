@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/5a3dec96-9c4e-5348-b4e6-ba1cd5d8f4bb
+name: Rebecca Frolander
+identifiers: []
+candidacies:
+- contest_id: wallowa/2022-05-17/district-attorney
+  election_id: wallowa/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:wallowa/government
+  office_id: or-wallowa/district-attorney
+  party: Nonpartisan
+  ballot_name: Rebecca J Frolander
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Wallowa County: Rebecca J Frolander 1,961; miscellaneous write-ins 39. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/wallowa.aspx
+  note: 'Oregon Blue Book, Wallowa County page (Secretary of State): county officials list ''Dist. Atty. Rebecca Frolander''.'
+  retrieved: '2026-10-25'

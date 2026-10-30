@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/a4e347aa-535a-53f3-b96d-1d90059a21d2
+name: Richard Tirico
+identifiers: []
+candidacies:
+- contest_id: grant/2024-05-21/justice-of-the-peace
+  election_id: grant/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:grant/government
+  office_id: or-grant/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: Richard Tirico
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://grantcountyoregon.net/DocumentCenter/View/1761/May-21-2024-Primary-Election-Certified-Results
+  note: 'Grant County, May 21, 2024 Primary Election Certified Results -- Detail Results: Richard Tirico 1,318 (54.06% of 2,438 votes cast in the contest -- a majority, elected outright at the primary); Dale Valade 705; Josh Fuller 409; write-in 6; undervotes 333; total ballots cast 2,774.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/grant.aspx
+  note: 'Oregon Blue Book, Grant County page (Secretary of State): county officials list ''Justice of the Peace Richard Tirico (2031)''.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/759bef22-d904-51d1-88bd-947197ca78f2
+name: Karrie McIntyre
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-2-position-13
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-13
+  party: Nonpartisan
+  ballot_name: Karrie McIntyre
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 2nd District, Position 13: Karrie McIntyre 49,977; miscellaneous write-ins 734.'
+  retrieved: '2026-10-23'

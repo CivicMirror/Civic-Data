@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/ea67f2fb-870d-5b74-9b65-5ab76c14911c
+name: James Edmonds
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-3-position-6
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-6
+  party: Nonpartisan
+  ballot_name: James Edmonds
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 3rd District, Position 6: James Edmonds 42,894; miscellaneous write-ins 484.'
+  retrieved: '2026-10-23'

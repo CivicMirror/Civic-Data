@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/9a7b6511-de78-5160-887e-ea5b3cd9ecf8
+name: Hafez Daraee
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/circuit-court-district-20-position-12
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-12
+  party: Nonpartisan
+  ballot_name: Hafez Daraee
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for Judge of the Circuit Court, 20th District, Position 12: Hafez Daraee 163,462; miscellaneous write-ins 2,713.'
+  retrieved: '2026-10-23'

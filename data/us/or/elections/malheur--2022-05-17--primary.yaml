@@ -1,0 +1,35 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: malheur/2022-05-17/primary
+name: Malheur County 2022-05-17 primary election
+date: '2022-05-17'
+election_type: primary
+status: official
+contests:
+- id: malheur/2022-05-17/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:malheur/government
+  office_id: or-malheur/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/711f3110-c5a8-5a4a-ab89-0263ed84563f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/711f3110-c5a8-5a4a-ab89-0263ed84563f
+    name: David Goldthorpe
+- id: malheur/2022-05-17/county-judge
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:malheur/government
+  office_id: or-malheur/county-judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/41d8f5c8-3838-5d6f-936c-a8339c07fcac
+  result_status: certified
+  winners:
+  - person_id: ocd-person/41d8f5c8-3838-5d6f-936c-a8339c07fcac
+    name: Dan Joyce
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/5fdc9a96-9ed5-53ac-af1b-95ab691c40ae
+name: Greg Baxter
+identifiers: []
+candidacies:
+- contest_id: baker/2024-05-21/district-attorney
+  election_id: baker/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:baker/government
+  office_id: or-baker/district-attorney
+  party: Nonpartisan
+  ballot_name: Greg M Baxter
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-24'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Baker County: Greg M Baxter 4,101; miscellaneous write-ins 59.'
+  retrieved: '2026-10-24'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/baker.aspx
+  note: 'Oregon Blue Book, Baker County page (Secretary of State): county officials list ''Dist. Atty. Greg M. Baxter (2029)''.'
+  retrieved: '2026-10-24'

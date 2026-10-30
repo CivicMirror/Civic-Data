@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/c64d3dee-a837-56f4-b21c-e390d6d094d9
+name: Paige Clarkson
+identifiers: []
+candidacies:
+- contest_id: marion/2022-05-17/district-attorney
+  election_id: marion/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:marion/government
+  office_id: or-marion/district-attorney
+  party: Nonpartisan
+  ballot_name: Paige Clarkson
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Marion County: Paige Clarkson 34,415; Spencer Todd 31,710; miscellaneous write-ins 149. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/marion.aspx
+  note: 'Oregon Blue Book, Marion County page (Secretary of State): county officials list ''Dist. Atty. Paige Clarkson''.'
+  retrieved: '2026-10-25'

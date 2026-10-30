@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/e28cfa36-2c42-5aac-a442-7fde3fff9cce
+name: Clara L Rigmaiden
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-2-position-15
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-15
+  party: Nonpartisan
+  ballot_name: Clara L Rigmaiden
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 2nd District, Position 15: Clara L Rigmaiden 65,499; miscellaneous write-ins 923.'
+  retrieved: '2026-10-23'

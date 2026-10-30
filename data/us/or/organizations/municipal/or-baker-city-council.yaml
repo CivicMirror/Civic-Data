@@ -1,0 +1,12 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-organization/0a922e7c-8c55-5700-919e-8bed936fb185
+name: Baker City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:baker/government
+identifiers: []
+sources:
+- url: https://www.bakercity.com/2168/City-Council
+  note: 'City of Baker City, City Council page and 2022 charter (city site): Seven councilors are elected at large; there is no separately elected mayor -- at the first regular January meeting after each biennial election the council chooses one of its members as mayor for a two-year term, and all seven vote equally (charter). The mayor is therefore modeled as a post held by one of the seven councilors. Individual term-end years are not printed on any city document read and none are modeled. The seventh councilor is Daugherty himself, whose membership is recorded on the Mayor post. Randy Schiewe was appointed in early 2026 to fill the seat Stephen Carr vacated by resigning October 7, 2025 (the exact appointment date rests on the factory lead; the seat''s term runs through the end of 2026).'
+  retrieved: '2026-10-25'
+- url: https://bakercityor.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=366,plainText=false)
+  note: 'City of Baker City, council agenda, June 23, 2026 (mayor and councilors as listed)'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/db71d1a9-c5d7-5cc6-852a-6fdd09c5e19a
+name: Joel DeVore
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/court-of-appeals-position-11
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-11
+  party: Nonpartisan
+  ballot_name: Joel DeVore
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Court of Appeals, Position 11: Joel DeVore 572,427; Kyle L Krohn 415,922; miscellaneous write-ins 3,363.'
+  retrieved: '2026-10-23'

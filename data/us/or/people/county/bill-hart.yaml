@@ -1,0 +1,27 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/623a6aec-2b06-51b7-b2e8-ac585d3cbcd7
+name: Bill Hart
+identifiers: []
+candidacies:
+- contest_id: harney/2022-05-17/county-judge
+  election_id: harney/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:harney/government
+  office_id: or-harney/county-judge
+  party: Nonpartisan
+  ballot_name: Bill Hart
+  status: active
+
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/harney.aspx
+  note: 'Oregon Blue Book, Harney County page (Secretary of State): county officials list ''County Court: Judge Bill Hart (2027)''. Hart won the May 17, 2022 County Judge election (certified state abstract: Hart 1,619, Runnels 1,067); County Judges serve six-year terms, so the term runs to January 2029 -- the Blue Book''s printed 2027 is not followed. An October 2026 report outside county sources that Hart resigned is unverified and is not modeled.'
+  retrieved: '2026-10-25'
+- url: https://harneycountyor.gov/harney-county-clerk-and-recorder/
+  note: 'Harney County''s own website, read October 25, 2026 for the county pass: board structure, seat labels and current holders verified against the county''s own pages.'
+  retrieved: '2026-10-25'
+- url: https://harneycountyor.gov/small-claims/
+  note: 'Harney County''s own website, read October 25, 2026 for the county pass: board structure, seat labels and current holders verified against the county''s own pages.'
+  retrieved: '2026-10-25'

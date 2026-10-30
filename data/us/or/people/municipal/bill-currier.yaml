@@ -1,0 +1,26 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/546a4740-18c2-5842-a983-e9beef0417fc
+name: Bill Currier
+identifiers: []
+candidacies:
+  - contest_id: adair/2024-11-05/general/mayor
+    election_id: adair/2024-11-05/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:adair/government
+    office_id: or-adair/mayor
+    party: null
+    ballot_name: 'Bill Currier'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: http://adairvillage.org/wp-content/uploads/2020/02/Attachment-A-Adair-Village-Charter-Amendment-resolution-200218-1.pdf
+  note: 'City of Adair Village, 2020 charter amendment (four wards + at-large mayor), city site'
+  retrieved: '2026-10-25'
+- url: https://re.bentoncountyor.gov/wp-content/uploads/2024/12/2024Nov05-Cumulative-Results_secured.pdf
+  note: 'Benton County Elections, 2024 November 5 General Election Cumulative Results (certified)'
+  retrieved: '2026-10-25'
+- url: https://re.bentoncountyor.gov/current-election/candidates/
+  note: 'Benton County Elections, current-election candidates page (November 2026 filings)'
+  retrieved: '2026-10-25'

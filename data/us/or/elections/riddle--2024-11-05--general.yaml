@@ -1,0 +1,52 @@
+# Built for issue #170 (Oregon master tracking).
+id: riddle/2024-11-05/general
+name: 'Riddle 2024 General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: riddle/2024-11-05/general/mayor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:riddle/government
+    office_id: or-riddle/mayor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/da9867cb-7473-51a2-a78d-58bb331b0e80
+    result_status: certified
+    winners:
+      - person_id: ocd-person/da9867cb-7473-51a2-a78d-58bb331b0e80
+        name: William G. Duckett
+  - id: riddle/2024-11-05/general/councilor-position-2
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:riddle/government
+    office_id: or-riddle/councilor-position-2
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/9ce6b093-738a-5dd2-bdca-9ccbccce6727
+    result_status: certified
+    winners:
+      - person_id: ocd-person/9ce6b093-738a-5dd2-bdca-9ccbccce6727
+        name: Michael Randall
+  - id: riddle/2024-11-05/general/councilor-position-3
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:riddle/government
+    office_id: or-riddle/councilor-position-3
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/b2b90c16-a05e-55c1-9132-3daad8dbb055
+    result_status: certified
+    winners:
+      - person_id: ocd-person/b2b90c16-a05e-55c1-9132-3daad8dbb055
+        name: Sarah Hicks
+  - id: riddle/2024-11-05/general/councilor-position-6
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:riddle/government
+    office_id: or-riddle/councilor-position-6
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/e0129e1c-3f12-599f-af4b-ee3ac26f41e5
+      - ocd-person/297b897a-b50a-5213-b073-c7fec439e74c
+    result_status: certified
+    winners:
+      - person_id: ocd-person/e0129e1c-3f12-599f-af4b-ee3ac26f41e5
+        name: Aaron W. Christensen
+sources:
+- url: https://www.douglascountyor.gov/DocumentCenter/View/26394/Nov-5-2024-Official-Final-Results-Summary-Certified-PDF
+  note: 'Douglas County Clerk, Official Final Results Summary, November 5, 2024 general election (certified)'
+  retrieved: '2026-10-25'

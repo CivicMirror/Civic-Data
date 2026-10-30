@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/e254cbcd-f61a-5d43-81e6-19935d06b9d5
+name: John-Paul Carey
+identifiers: []
+candidacies:
+- contest_id: malheur/2024-05-21/justice-of-the-peace
+  election_id: malheur/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:malheur/government
+  office_id: or-malheur/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: John-Paul (JP) Carey
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://www.malheurco.org/wp-content/uploads/Departments/CountyClerk/Election%20Results/Group-4-5-21-2024-final.pdf
+  note: 'Malheur County, Detail Results -- Group 4, Final Official, May 2024 Primary Election (May 21, 2024), p. 14: Margie Mahony 2,868; John-Paul (JP) Carey 1,176; write-in 13; over votes 3; under votes 396; total ballots 4,456.'
+  retrieved: '2026-10-23'

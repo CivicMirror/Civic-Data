@@ -1,0 +1,12 @@
+# Built for issue #170 (Oregon master tracking): the statewide Oregon
+# judiciary, hosting the Supreme Court, Court of Appeals and Tax Court.
+# Circuit Court districts get their own judicial-district jurisdictions.
+id: ocd-jurisdiction/country:us/state:or/judiciary
+name: Oregon Judiciary
+state: or
+division_id: ocd-division/country:us/state:or
+classification: judiciary
+sources:
+- url: https://sos.oregon.gov/elections/Pages/historical-data.aspx
+  note: 'Oregon Secretary of State, Election Results & History: the judges of the Oregon appellate courts and Tax Court are elected statewide in nonpartisan elections to six-year terms.'
+  retrieved: '2026-10-23'

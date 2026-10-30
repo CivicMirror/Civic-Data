@@ -1,0 +1,27 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/41d8f5c8-3838-5d6f-936c-a8339c07fcac
+name: Dan Joyce
+identifiers: []
+candidacies:
+- contest_id: malheur/2022-05-17/county-judge
+  election_id: malheur/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:malheur/government
+  office_id: or-malheur/county-judge
+  party: Nonpartisan
+  ballot_name: Daniel P Joyce
+  status: active
+
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/malheur.aspx
+  note: 'Oregon Blue Book, Malheur County page (Secretary of State): county officials list ''County Court: Judge Dan Joyce (2027)''. Joyce won the May 17, 2022 County Judge election (certified state abstract: Joyce 2,735, Vialpando 2,352); the county''s FY2025 audit gives his term as expiring January 2029 (six-year judicial term). The Blue Book''s printed 2027 is not followed.'
+  retrieved: '2026-10-25'
+- url: https://www.malheurco.org/wp-content/uploads/Departments/Admin/Audits/2025-Audit-Report-Malheur-County.pdf
+  note: 'Malheur County''s own website, read October 25, 2026 for the county pass: board structure, seat labels and current holders verified against the county''s own pages.'
+  retrieved: '2026-10-25'
+- url: https://www.malheurco.org/wp-content/uploads/Departments/CountyCourt/Policy_Manuals/PolicyManualNOVEMBER2024.pdf
+  note: 'Malheur County''s own website, read October 25, 2026 for the county pass: board structure, seat labels and current holders verified against the county''s own pages.'
+  retrieved: '2026-10-25'

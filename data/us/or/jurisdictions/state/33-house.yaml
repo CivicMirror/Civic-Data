@@ -1,0 +1,11 @@
+# Oregon State Representative District 33 -- step 3 of the build order (post + holder together);
+# issue #170 (OR master tracking).
+id: ocd-jurisdiction/country:us/state:or/sldl:33/legislature
+name: District 33 (Oregon House of Representatives delegation)
+state: or
+division_id: ocd-division/country:us/state:or/sldl:33
+classification: legislature
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Elections Division, November 5, 2024 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For State Representative, District 33: Stan Baumhofer (R) 4,400; Thomas J Busse (L) 1,258; Shannon Jones Isadore (D) 29,132 votes, marked ** as elected; miscellaneous write-ins 58. Shannon Jones Isadore won by a plurality of 24,732 votes. Party labels are as printed in the abstract: (R) Republican, (L) Libertarian, (D) Democratic. Members of the 83rd Legislative Assembly were sworn in on January 13, 2025.'
+  retrieved: '2026-10-23'

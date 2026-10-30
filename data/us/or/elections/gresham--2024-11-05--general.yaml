@@ -1,0 +1,31 @@
+# Built for issue #170 (Oregon master tracking).
+id: gresham/2024-11-05/general
+name: 'Gresham 2024 General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: gresham/2024-11-05/general/councilor-position-1
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:gresham/government
+    office_id: or-gresham/councilor-position-1
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/90f32cbd-129b-59d7-a8f6-9245cfbbd1cd
+    result_status: certified
+    winners:
+      - person_id: ocd-person/90f32cbd-129b-59d7-a8f6-9245cfbbd1cd
+        name: Kayla Brown
+  - id: gresham/2024-11-05/general/councilor-position-3
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:gresham/government
+    office_id: or-gresham/councilor-position-3
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/7ead3dad-77f5-5f0b-bd67-87961207344e
+    result_status: certified
+    winners:
+      - person_id: ocd-person/7ead3dad-77f5-5f0b-bd67-87961207344e
+        name: Cathy Keathley
+sources:
+- url: https://gresham.granicus.com/MetaViewer.php?clip_id=1185&meta_id=65796&view_id=2
+  note: 'City of Gresham, November 2024 election abstract accepted by the council (Brown, Position 1, 20,345; Keathley, Position 3, 15,192)'
+  retrieved: '2026-10-25'

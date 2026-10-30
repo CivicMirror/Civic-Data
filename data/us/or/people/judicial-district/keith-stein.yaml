@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/ec4b0ece-3b24-566a-a999-8f89835a8997
+name: Keith B Stein
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/circuit-court-district-23-position-2
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-23/judiciary
+  office_id: or-circuit-court-district-23/judge-position-2
+  party: Nonpartisan
+  ballot_name: Keith B Stein
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Circuit Court, 23rd District, Position 2: Keith B Stein 33,114; miscellaneous write-ins 724.'
+  retrieved: '2026-10-23'

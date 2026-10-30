@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/d9872f5b-285a-5e7f-9ed6-42f4393ad607
+name: Laura S. Balancier
+identifiers: []
+candidacies:
+  - contest_id: lakeside/2024-11-05/general/mayor
+    election_id: lakeside/2024-11-05/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:lakeside/government
+    office_id: or-lakeside/mayor
+    party: null
+    ballot_name: 'Laura S. Balancier'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: https://co.coos.or.us/files/313e26a2c/November+5%2C+2024+certified_-_final_official_totals_report.pdf
+  note: 'Coos County Clerk, Certified - Final Official Totals Report, November 5, 2024 General Election (certified November 27, 2024), p. 4 -- read firsthand from the rendered report'
+  retrieved: '2026-10-25'
