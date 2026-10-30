@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Richard E Moore
+  contest_id: sc/2022-11-08/richland-1-trustee-at-large
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:richland-1/school
+  office_id: richland-1/trustee-at-large
+  party: Nonpartisan
+  status: active
+- ballot_name: Richard E Moore
+  contest_id: sc/2024-11-05/richland-1-trustee-at-large
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:richland-1/school
+  office_id: richland-1/trustee-at-large
+  party: Nonpartisan
+  status: active
+id: ocd-person/2e8e521b-da4c-5b60-b971-71f70495ab7a
+identifiers: []
+name: Richard E Moore
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Richland County School District 1 contest (ElectionStats contest 7675), contest totals: Angela D. Clyburn 23,369; Richard E Moore 22,426; Angela G. Brown 21,871; Tamika Myers 17,010; John Black 7,201.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/7675
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Richland County School District 1 At Large contest (ElectionStats contest 2950), contest totals: Barbara F Weston 19,617; Hamilton Jacobs 9,458; Richard E Moore 8,213.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2950
+verification:
+  pipeline: build_sc_schools
+  status: unverified
