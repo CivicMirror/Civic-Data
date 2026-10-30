@@ -6,6 +6,13 @@ candidacies:
   office_id: hampton/county-council-at-large
   party: Republican
   status: active
+- ballot_name: Maggie Knox
+  contest_id: sc/2022-11-08/hampton-county-school-board-district-3
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:hampton-county/school
+  office_id: hampton-county/school-board-district-3
+  party: Nonpartisan
+  status: active
 id: ocd-person/a41c1ce3-d6f4-5898-a287-830d0327e530
 identifiers: []
 name: Maggie Knox
@@ -13,6 +20,9 @@ sources:
 - note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Hampton County County Council At-Large contest (ElectionStats contest 7570), precinct rows aggregated: Marvin J Love (Democratic) 3,948; Roy Hollingsworth (Democratic) 3,797; Maggie Knox (Republican) 3,624; Dustin Pittinger (Republican) 3,542.'
   retrieved: '2026-10-28'
   url: https://electionhistory.scvotes.gov/contest/7570
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Hampton County School District 3 contest (ElectionStats contest 2736), contest totals: Kari Foy 578; Maggie Knox 172.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2736
 verification:
   pipeline: build_sc_county
   status: unverified

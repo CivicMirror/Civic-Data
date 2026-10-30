@@ -20,6 +20,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: 'Christa Williams'
   status: active
+- contest_id: sc/2024-11-05/richland-1-school-board-district-2
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:richland-1/school
+  office_id: richland-1/school-board-district-2
+  party: Nonpartisan
+  ballot_name: 'Christa Williams'
+  status: active
 verification:
   status: unverified
   pipeline: build_sc_municipal
@@ -30,3 +37,6 @@ sources:
 - url: https://electionhistory.scvotes.gov/contest/78
   note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of Columbia City Council contest (ElectionStats contest 78), county-division rows aggregated (Lexington County): Tyler Bailey 6,190; Jesse Bullard 3,912; Christa Williams 1,346.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7677
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Richland County School District 1 Seat 2 contest (ElectionStats contest 7677), contest totals: Jamie L. Devine 5,108; Steven Diaz 4,440; Christa Williams 3,994; Lee Carroll 1,473.'
+  retrieved: '2026-10-30'
