@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Frank Baker
+  contest_id: sc/2022-11-08/sumter-county-school-board-district-2
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-2
+  party: Nonpartisan
+  status: active
+- ballot_name: Frank Baker
+  contest_id: sc/2022-11-22/sumter-county-school-board-district-2
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-2
+  party: Nonpartisan
+  status: active
+id: ocd-person/86d72e79-8835-509c-9d45-e86552a4b486
+identifiers: []
+name: Frank Baker
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, Sumter County School District 2 contest (ElectionStats contest 3088), contest totals: Brittany English 368; Frank Baker 150.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/3088
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Sumter County School District 2 contest (ElectionStats contest 2976), contest totals: Brittany English 1,053; Frank Baker 966; John Wrenn Jr 400.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2976
+verification:
+  pipeline: build_sc_schools
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jeff Zell
+  contest_id: sc/2022-11-08/sumter-county-school-board-district-8
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-8
+  party: Nonpartisan
+  status: active
+- ballot_name: Jeff Zell
+  contest_id: sc/2022-11-22/sumter-county-school-board-district-8
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-8
+  party: Nonpartisan
+  status: active
+id: ocd-person/cfd6c884-02d7-50d6-b7b2-523bb3ae6cbc
+identifiers: []
+name: Jeff Zell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, Sumter County School District 8 contest (ElectionStats contest 3090), contest totals: Jeff Zell 719; Phil Leventis 488.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/3090
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Sumter County School District 8 contest (ElectionStats contest 2982), contest totals: Phil Leventis 1,332; Jeff Zell 1,027; Sherril Ray 539; Paul E Robbins 392.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2982
+verification:
+  pipeline: build_sc_schools
+  status: unverified

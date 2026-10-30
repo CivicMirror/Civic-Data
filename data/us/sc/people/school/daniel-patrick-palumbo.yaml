@@ -1,0 +1,41 @@
+candidacies:
+- ballot_name: Daniel Palumbo
+  contest_id: sc/2022-11-08/sumter-county-school-board-district-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-1
+  party: Nonpartisan
+  status: active
+- ballot_name: Daniel Palumbo
+  contest_id: sc/2022-11-22/sumter-county-school-board-district-1
+  election_id: sc/2022-11-22/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-1
+  party: Nonpartisan
+  status: active
+- ballot_name: Daniel Patrick Palumbo
+  contest_id: sc/2024-11-05/sumter-county-school-board-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:sumter-county/school
+  office_id: sumter-county/school-board-district-1
+  party: Nonpartisan
+  status: active
+id: ocd-person/58c49c81-891a-5ee6-9671-6f41d2a87d03
+identifiers: []
+name: Daniel Patrick Palumbo
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 22, 2022 general election, Sumter County School District 1 contest (ElectionStats contest 3087), contest totals: Daniel Palumbo 311; Brian L. Alston 228.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/3087
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Sumter County School District 1 contest (ElectionStats contest 7703), contest totals: Brian L. Alston 1,828; Daniel Patrick Palumbo 1,285.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/7703
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Sumter County School District 1 contest (ElectionStats contest 2975), contest totals: Brian L. Alston 764; Daniel Palumbo 722; Sharon Teigue 526.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2975
+- note: 'Ballot-name forms in the Election History data for this school district treated as one person: Daniel Palumbo; Daniel Patrick Palumbo. Canonical name is the fullest certified form.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/
+verification:
+  pipeline: build_sc_schools
+  status: unverified
