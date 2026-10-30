@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Russell Brazell
+  contest_id: sc/2020-11-03/kershaw-county-council-district-1
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:kershaw/government
+  office_id: kershaw/county-council-district-1
+  party: Republican
+  status: active
+- ballot_name: Russell Brazell
+  contest_id: sc/2024-11-05/kershaw-county-council-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:kershaw/government
+  office_id: kershaw/county-council-district-1
+  party: Republican
+  status: active
+id: ocd-person/051d8a4c-80d1-5f7d-9331-176ec3337215
+identifiers: []
+name: Russell Brazell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Kershaw County County Council District 1 contest (ElectionStats contest 3737), county rows aggregated: Russell Brazell (Republican) 4,001.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3737
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Kershaw County County Council District 1 contest (ElectionStats contest 7823), county rows aggregated: Russell Brazell (Republican) 4,498.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7823
+verification:
+  pipeline: build_sc_county
+  status: unverified

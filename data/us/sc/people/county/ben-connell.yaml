@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Ben Connell
+  contest_id: sc/2020-11-03/kershaw-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:kershaw/government
+  office_id: kershaw/county-council-district-3
+  party: Republican
+  status: active
+- ballot_name: Ben Connell
+  contest_id: sc/2024-11-05/kershaw-county-council-chairman
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:kershaw/government
+  office_id: kershaw/county-council-chairman
+  party: Republican
+  status: active
+id: ocd-person/302c06e4-b8ec-50b5-8d53-ae979d5262ad
+identifiers: []
+name: Ben Connell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Kershaw County County Council District 3 contest (ElectionStats contest 3739), county rows aggregated: Ben Connell (Republican) 4,475.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3739
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Kershaw County County Council Chairman contest (ElectionStats contest 7598), precinct rows aggregated: Ben Connell (Republican) 24,944.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7598
+verification:
+  pipeline: build_sc_county
+  status: unverified

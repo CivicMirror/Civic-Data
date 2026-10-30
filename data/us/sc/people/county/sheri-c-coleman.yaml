@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Sheri Coleman
+  contest_id: sc/2020-11-03/saluda-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/clerk-of-court
+  party: Republican
+  status: active
+- ballot_name: Sheri C. Coleman
+  contest_id: sc/2024-11-05/saluda-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/1cd08088-3a96-5db7-a8de-e634cf03e1fe
+identifiers: []
+name: Sheri C Coleman
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Saluda County Clerk of Court contest (ElectionStats contest 4001), precinct rows aggregated: Sheri Coleman (Republican) 7,323.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4001
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Saluda County Clerk of Court contest (ElectionStats contest 7685), precinct rows aggregated: Sheri C. Coleman (Republican) 7,158.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7685
+verification:
+  pipeline: build_sc_county
+  status: unverified

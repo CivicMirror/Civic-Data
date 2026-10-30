@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Matt Stokes
+  contest_id: sc/2018-11-06/orangeburg-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/county-treasurer
+  party: null
+  status: active
+- ballot_name: Matt Stokes
+  contest_id: sc/2022-11-08/orangeburg-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/4f4549fa-1f1a-5738-8ed9-ec9342ae459c
+identifiers: []
+name: Matt Stokes
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Orangeburg County County Treasurer contest (ElectionStats contest 5145), precinct rows aggregated: Matt Stokes 25,324. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5145
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Orangeburg County County Treasurer contest (ElectionStats contest 2929), precinct rows aggregated: Matt Stokes (Democratic) 20,949.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2929
+verification:
+  pipeline: build_sc_county
+  status: unverified

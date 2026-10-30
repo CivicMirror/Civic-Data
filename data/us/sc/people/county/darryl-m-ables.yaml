@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Darryl M. Ables
+  contest_id: sc/2020-11-03/aiken-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/coroner
+  party: Republican
+  status: active
+- ballot_name: Darryl Ables
+  contest_id: sc/2024-11-05/aiken-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/coroner
+  party: Republican
+  status: active
+id: ocd-person/ae2ebc87-cdb2-565c-97f7-bc82eb8b9b7f
+identifiers: []
+name: Darryl M Ables
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Aiken County Coroner contest (ElectionStats contest 3460), precinct rows aggregated: Darryl M. Ables (Republican) 65,524.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3460
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Aiken County Coroner contest (ElectionStats contest 8047), precinct rows aggregated: Darryl Ables (Republican) 64,609.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8047
+verification:
+  pipeline: build_sc_county
+  status: unverified

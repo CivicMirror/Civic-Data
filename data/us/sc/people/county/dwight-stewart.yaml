@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dwight Stewart
+  contest_id: sc/2020-11-03/clarendon-county-council-chairman
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-council-chairman
+  party: Democratic
+  status: active
+- ballot_name: Dwight Stewart
+  contest_id: sc/2024-11-05/clarendon-county-council-chairman
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-council-chairman
+  party: Democratic
+  status: active
+id: ocd-person/0884ffb2-c1f6-57d4-a760-da8be83b3874
+identifiers: []
+name: Dwight Stewart
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Clarendon County County Council Chairman contest (ElectionStats contest 3522), precinct rows aggregated: Dwight Stewart (Democratic) 9,697; Robert D Beard Sr (Republican) 6,943.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3522
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Clarendon County County Council Chairman contest (ElectionStats contest 7473), precinct rows aggregated: Jay Johnson (Republican) 8,496; Dwight Stewart (Democratic) 7,417.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7473
+verification:
+  pipeline: build_sc_county
+  status: unverified

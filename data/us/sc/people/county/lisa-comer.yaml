@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Lisa Comer
+  contest_id: sc/2020-11-03/lexington-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/clerk-of-court
+  party: Republican
+  status: active
+- ballot_name: Lisa Comer
+  contest_id: sc/2024-11-05/lexington-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/d3213158-9c51-5573-a6a3-b0989115974f
+identifiers: []
+name: Lisa Comer
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lexington County Clerk of Court contest (ElectionStats contest 3917), precinct rows aggregated: Lisa Comer (Republican) 116,499.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3917
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lexington County Clerk of Court contest (ElectionStats contest 7626), precinct rows aggregated: Lisa Comer (Republican) 115,541.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7626
+verification:
+  pipeline: build_sc_county
+  status: unverified

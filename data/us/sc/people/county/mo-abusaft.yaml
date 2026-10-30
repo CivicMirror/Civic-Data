@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Mo Abusaft
+  contest_id: sc/2020-11-03/spartanburg-county-council-district-1
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/county-council-district-1
+  party: Democratic
+  status: active
+- ballot_name: Mo Abusaft
+  contest_id: sc/2024-11-05/spartanburg-county-council-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:spartanburg/government
+  office_id: spartanburg/county-council-district-1
+  party: Democratic
+  status: active
+id: ocd-person/3dd3f99b-81c6-5d61-86aa-30af5ab9a2b5
+identifiers: []
+name: Mo Abusaft
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Spartanburg County County Council District 1 contest (ElectionStats contest 3790), county rows aggregated: Mo Abusaft (Democratic) 13,004.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3790
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Spartanburg County County Council District 1 contest (ElectionStats contest 7877), county rows aggregated: Mo Abusaft (Democratic) 11,490.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7877
+verification:
+  pipeline: build_sc_county
+  status: unverified

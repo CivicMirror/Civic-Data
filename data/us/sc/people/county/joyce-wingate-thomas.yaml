@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Joyce Wingate Thomas
+  contest_id: sc/2020-11-03/darlington-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:darlington/government
+  office_id: darlington/county-council-district-3
+  party: Democratic
+  status: active
+- ballot_name: Joyce W. Thomas
+  contest_id: sc/2024-11-05/darlington-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:darlington/government
+  office_id: darlington/county-council-district-3
+  party: Democratic
+  status: active
+id: ocd-person/cae801c8-01bb-5bf8-8595-23d82414b6df
+identifiers: []
+name: Joyce Wingate Thomas
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Darlington County County Council District 3 contest (ElectionStats contest 3409), county rows aggregated: Joyce Wingate Thomas (Democratic) 3,114.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3409
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Darlington County County Council District 3 contest (ElectionStats contest 7781), county rows aggregated: Joyce W. Thomas (Democratic) 2,234; Charles Bailey (Republican) 956.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7781
+verification:
+  pipeline: build_sc_county
+  status: unverified

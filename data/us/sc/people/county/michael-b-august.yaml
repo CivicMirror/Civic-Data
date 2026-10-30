@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Michael B. August
+  contest_id: sc/2020-11-03/darlington-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:darlington/government
+  office_id: darlington/sheriff
+  party: Republican
+  status: active
+- ballot_name: Michael B. August
+  contest_id: sc/2024-11-05/darlington-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:darlington/government
+  office_id: darlington/sheriff
+  party: Republican
+  status: active
+id: ocd-person/660131c0-5b6a-5769-bf72-032de50030ab
+identifiers: []
+name: Michael B. August
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Darlington County Sheriff contest (ElectionStats contest 3642), precinct rows aggregated: James Hudson Jr. (Democratic) 15,975; Michael B. August (Republican) 14,641.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3642
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Darlington County Sheriff contest (ElectionStats contest 7500), precinct rows aggregated: Michael B. August (Republican) 15,729; James Hudson, Jr. (Democratic) 14,333.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7500
+verification:
+  pipeline: build_sc_county
+  status: unverified

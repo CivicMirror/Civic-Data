@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Sandy Cochran
+  contest_id: sc/2020-11-03/barnwell-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:barnwell/government
+  office_id: barnwell/county-treasurer
+  party: Republican
+  status: active
+- ballot_name: Sandy Cochran
+  contest_id: sc/2022-11-08/barnwell-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:barnwell/government
+  office_id: barnwell/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/7a9a1522-6db7-5e98-95e7-59a651610563
+identifiers: []
+name: Sandy Cochran
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Barnwell County County Treasurer contest (ElectionStats contest 3546), precinct rows aggregated: Sandy Cochran (Republican) 6,772.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3546
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Barnwell County County Treasurer contest (ElectionStats contest 2494), precinct rows aggregated: Sandy Cochran (Republican) 4,292.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2494
+verification:
+  pipeline: build_sc_county
+  status: unverified

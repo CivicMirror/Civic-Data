@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Leroy Ravenell
+  contest_id: sc/2020-11-03/orangeburg-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/sheriff
+  party: Democratic
+  status: active
+- ballot_name: Leroy Ravenell
+  contest_id: sc/2024-11-05/orangeburg-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/79a01329-d8bd-5ca2-a1ed-616c3a19b69c
+identifiers: []
+name: Leroy Ravenell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Orangeburg County Sheriff contest (ElectionStats contest 3977), precinct rows aggregated: Leroy Ravenell (Democratic) 34,855.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3977
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Orangeburg County Sheriff contest (ElectionStats contest 7659), precinct rows aggregated: Leroy Ravenell (Democratic) 28,999.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7659
+verification:
+  pipeline: build_sc_county
+  status: unverified

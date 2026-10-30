@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Laura G. Kneece
+  contest_id: sc/2020-11-03/newberry-coroner
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/coroner
+  party: Republican
+  status: active
+- ballot_name: Laura Kneece
+  contest_id: sc/2024-11-05/newberry-coroner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/coroner
+  party: Republican
+  status: active
+id: ocd-person/9cd3d0eb-05bb-5a06-b1b3-0736c52427d5
+identifiers: []
+name: Laura G Kneece
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Newberry County Coroner contest (ElectionStats contest 3950), precinct rows aggregated: Laura G. Kneece (Republican) 14,316.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3950
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Newberry County Coroner contest (ElectionStats contest 8075), precinct rows aggregated: Laura Kneece (Republican) 14,252.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8075
+verification:
+  pipeline: build_sc_county
+  status: unverified

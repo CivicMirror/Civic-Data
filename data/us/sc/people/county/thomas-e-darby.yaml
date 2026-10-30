@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Thomas E. Darby
+  contest_id: sc/2020-11-03/chester-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/county-treasurer
+  party: Democratic
+  status: active
+- ballot_name: Thomas E. Darby
+  contest_id: sc/2024-11-05/chester-county-treasurer
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/54fc4a04-5d0c-5b91-8794-5cb6f179d221
+identifiers: []
+name: Thomas E. Darby
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Chester County County Treasurer contest (ElectionStats contest 3550), precinct rows aggregated: Thomas E. Darby (Democratic) 13,349.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3550
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Chester County County Treasurer contest (ElectionStats contest 7966), precinct rows aggregated: Thomas E. Darby (Republican) 10,925.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7966
+verification:
+  pipeline: build_sc_county
+  status: unverified

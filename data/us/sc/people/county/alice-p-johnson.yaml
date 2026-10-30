@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Alice P. Johnson
+  contest_id: sc/2018-11-06/bamberg-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/county-treasurer
+  party: null
+  status: active
+- ballot_name: Alice P. Johnson
+  contest_id: sc/2022-11-08/bamberg-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:bamberg/government
+  office_id: bamberg/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/0935c58f-f50e-52f0-8e50-b689cdbbc333
+identifiers: []
+name: Alice P. Johnson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Bamberg County County Treasurer contest (ElectionStats contest 4858), precinct rows aggregated: Alice P. Johnson 3,793. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4858
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Bamberg County County Treasurer contest (ElectionStats contest 2483), precinct rows aggregated: Alice P. Johnson (Democratic) 3,166.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2483
+verification:
+  pipeline: build_sc_county
+  status: unverified

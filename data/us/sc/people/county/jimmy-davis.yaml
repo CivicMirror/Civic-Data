@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jimmy Davis
+  contest_id: sc/2022-11-08/anderson-county-council-district-6
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:anderson/government
+  office_id: anderson/county-council-district-6
+  party: Republican
+  status: active
+- ballot_name: Jimmy Davis
+  contest_id: sc/2024-11-05/anderson-county-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:anderson/government
+  office_id: anderson/county-council-district-6
+  party: Republican
+  status: active
+id: ocd-person/9785a353-e600-5a7a-b1c0-cc360563bf2b
+identifiers: []
+name: Jimmy Davis
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Anderson County County Council District 6 contest (ElectionStats contest 2384), county rows aggregated: Jimmy Davis (Republican) 9,209.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2384
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Anderson County County Council District 6 contest (ElectionStats contest 7743), county rows aggregated: Jimmy Davis (Republican) 13,859.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7743
+verification:
+  pipeline: build_sc_county
+  status: unverified

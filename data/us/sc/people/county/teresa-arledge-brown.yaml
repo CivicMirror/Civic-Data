@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Teresa Arledge Brown
+  contest_id: sc/2020-11-03/lee-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/clerk-of-court
+  party: Democratic
+  status: active
+- ballot_name: Teresa Arledge Brown
+  contest_id: sc/2024-11-05/lee-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lee/government
+  office_id: lee/clerk-of-court
+  party: Democratic
+  status: active
+id: ocd-person/6f065d68-7cea-5432-8371-0a8f2ae26be3
+identifiers: []
+name: Teresa Arledge Brown
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lee County Clerk of Court contest (ElectionStats contest 3908), precinct rows aggregated: Teresa Arledge Brown (Democratic) 7,068.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3908
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lee County Clerk of Court contest (ElectionStats contest 7620), precinct rows aggregated: Teresa Arledge Brown (Democratic) 6,483.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7620
+verification:
+  pipeline: build_sc_county
+  status: unverified

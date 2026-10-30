@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Cathy A. McClellan
+  contest_id: sc/2018-11-06/beaufort-county-council-district-10
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:beaufort/government
+  office_id: beaufort/county-council-district-10
+  party: null
+  status: active
+- ballot_name: Cathy A. McClellan
+  contest_id: sc/2022-11-08/beaufort-county-council-district-11
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:beaufort/government
+  office_id: beaufort/county-council-district-11
+  party: Democratic
+  status: active
+id: ocd-person/80b62fd2-aafe-59f0-af29-378b217032bd
+identifiers: []
+name: Cathy A. McClellan
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Beaufort County County Council District 10 contest (ElectionStats contest 4637), county rows aggregated: Lawrence McElynn 2,809; Cathy A. McClellan 2,324. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4637
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Beaufort County County Council District 11 contest (ElectionStats contest 2397), county rows aggregated: Tommy Reitz (Republican) 5,846; Cathy A. McClellan (Democratic) 3,140.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2397
+verification:
+  pipeline: build_sc_county
+  status: unverified

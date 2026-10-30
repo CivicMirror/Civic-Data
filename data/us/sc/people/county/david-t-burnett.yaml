@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: David T. Burnett
+  contest_id: sc/2018-11-06/edgefield-coroner
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:edgefield/government
+  office_id: edgefield/coroner
+  party: null
+  status: active
+- ballot_name: David T. Burnett
+  contest_id: sc/2022-11-08/edgefield-coroner
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:edgefield/government
+  office_id: edgefield/coroner
+  party: Republican
+  status: active
+id: ocd-person/8d52b48e-bdf0-58ce-aaf4-d83c26f1194d
+identifiers: []
+name: David T. Burnett
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Edgefield County Coroner contest (ElectionStats contest 4970), precinct rows aggregated: David T. Burnett 6,608. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4970
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Edgefield County Coroner contest (ElectionStats contest 2672), precinct rows aggregated: David T. Burnett (Republican) 6,823.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2672
+verification:
+  pipeline: build_sc_county
+  status: unverified

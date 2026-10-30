@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Detrice McCollum Dawkins
+  contest_id: sc/2020-11-03/dillon-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dillon/government
+  office_id: dillon/county-council-district-3
+  party: Democratic
+  status: active
+- ballot_name: Detrice McCollum Dawkins
+  contest_id: sc/2024-11-05/dillon-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:dillon/government
+  office_id: dillon/county-council-district-3
+  party: Democratic
+  status: active
+id: ocd-person/38c2af91-3848-5d94-8afd-d11cdb7af18a
+identifiers: []
+name: Detrice McCollum Dawkins
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Dillon County County Council District 3 contest (ElectionStats contest 3410), county rows aggregated: Detrice McCollum Dawkins (Democratic) 1,516.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3410
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Dillon County County Council District 3 contest (ElectionStats contest 7786), county rows aggregated: Detrice McCollum Dawkins (Democratic) 1,269.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7786
+verification:
+  pipeline: build_sc_county
+  status: unverified

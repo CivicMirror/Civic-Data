@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Matt Evans
+  contest_id: sc/2018-11-06/clarendon-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-treasurer
+  party: null
+  status: active
+- ballot_name: Matt Evans
+  contest_id: sc/2022-11-08/clarendon-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/2b7428d9-d69d-5f50-a31e-eaba3be068e6
+identifiers: []
+name: Matt Evans
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Clarendon County County Treasurer contest (ElectionStats contest 4942), precinct rows aggregated: Matt Evans 9,314. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4942
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Clarendon County County Treasurer contest (ElectionStats contest 2577), precinct rows aggregated: Matt Evans (Democratic) 7,947.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2577
+verification:
+  pipeline: build_sc_county
+  status: unverified

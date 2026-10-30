@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Ed Clements III
+  contest_id: sc/2018-11-06/circuit-12-solicitor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-12/judiciary
+  office_id: circuit-12/solicitor
+  party: null
+  status: active
+- ballot_name: Ed Clements III
+  contest_id: sc/2022-11-08/circuit-12-solicitor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-12/judiciary
+  office_id: circuit-12/solicitor
+  party: Democratic
+  status: active
+id: ocd-person/e1e11654-5991-5792-b63d-7a4e1ffca894
+identifiers: []
+name: Ed Clements III
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, 12th Judicial Circuit Solicitor contest (ElectionStats contest 4525), county rows aggregated: Ed Clements III 41,020. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4525
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, 12th Judicial Circuit Solicitor contest (ElectionStats contest 2340), county rows aggregated: Ed Clements III (Democratic) 32,283.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2340
+verification:
+  pipeline: build_sc_county
+  status: unverified

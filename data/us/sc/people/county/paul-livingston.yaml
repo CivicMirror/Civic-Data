@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Paul Livingston
+  contest_id: sc/2018-11-06/richland-county-council-district-4
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/county-council-district-4
+  party: null
+  status: active
+- ballot_name: Paul Livingston
+  contest_id: sc/2022-11-08/richland-county-council-district-4
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/county-council-district-4
+  party: Democratic
+  status: active
+id: ocd-person/971390c9-8cf5-5380-9379-4bf0eed994bf
+identifiers: []
+name: Paul Livingston
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Richland County County Council District 4 contest (ElectionStats contest 4772), county rows aggregated: Paul Livingston 7,471. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4772
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Richland County County Council District 4 contest (ElectionStats contest 2815), county rows aggregated: Paul Livingston (Democratic) 7,145.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2815
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Benton Blakely
+  contest_id: sc/2018-11-06/clarendon-county-council-district-3
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-council-district-3
+  party: null
+  status: active
+- ballot_name: Benton Blakely
+  contest_id: sc/2022-11-08/clarendon-county-council-district-3
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-council-district-3
+  party: Democratic
+  status: active
+id: ocd-person/fc054438-80b2-5440-91c3-789ffa3c7c78
+identifiers: []
+name: Benton Blakely
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Clarendon County County Council District 3 contest (ElectionStats contest 4672), county rows aggregated: Benton Blakely 1,771. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4672
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Clarendon County County Council District 3 contest (ElectionStats contest 2426), county rows aggregated: Pat Coker (Republican) 1,701; Benton Blakely (Democratic) 1,063.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2426
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Cheryl D. English
+  contest_id: sc/2020-11-03/richland-county-council-district-10
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/county-council-district-10
+  party: Democratic
+  status: active
+- ballot_name: Cheryl English
+  contest_id: sc/2024-11-05/richland-county-council-district-10
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:richland/government
+  office_id: richland/county-council-district-10
+  party: Democratic
+  status: active
+id: ocd-person/0f180659-d30e-59f1-86ca-9a198eeb9bb2
+identifiers: []
+name: Cheryl D English
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Richland County County Council District 10 contest (ElectionStats contest 3782), county rows aggregated: Cheryl D. English (Democratic) 11,117.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3782
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Richland County County Council District 10 contest (ElectionStats contest 7874), county rows aggregated: Cheryl English (Democratic) 9,382.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7874
+verification:
+  pipeline: build_sc_county
+  status: unverified

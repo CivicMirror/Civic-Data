@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Randall Nesmith
+  contest_id: sc/2020-11-03/williamsburg-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:williamsburg/government
+  office_id: williamsburg/county-council-district-3
+  party: Democratic
+  status: active
+- ballot_name: Randall Nesmith
+  contest_id: sc/2024-11-05/williamsburg-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:williamsburg/government
+  office_id: williamsburg/county-council-district-3
+  party: Democratic
+  status: active
+id: ocd-person/ba65f0ef-65fa-5f93-954d-331654af2cc7
+identifiers: []
+name: Randall Nesmith
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Williamsburg County County Council District 3 contest (ElectionStats contest 3801), county rows aggregated: Jonathan Joe Miller (Democratic) 1,281; Randall Nesmith (Democratic) 850.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3801
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Williamsburg County County Council District 3 contest (ElectionStats contest 7888), county rows aggregated: Randall Nesmith (Democratic) 1,415.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7888
+verification:
+  pipeline: build_sc_county
+  status: unverified

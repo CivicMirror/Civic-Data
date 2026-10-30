@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Billy Richardson
+  contest_id: sc/2018-11-06/clarendon-county-council-district-1
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-council-district-1
+  party: null
+  status: active
+- ballot_name: Billy Richardson
+  contest_id: sc/2022-11-08/clarendon-county-council-district-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:clarendon/government
+  office_id: clarendon/county-council-district-1
+  party: Democratic
+  status: active
+id: ocd-person/2dfcdaa7-f80f-5a91-b203-45e8ff232a0b
+identifiers: []
+name: Billy Richardson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Clarendon County County Council District 1 contest (ElectionStats contest 4670), county rows aggregated: Billy Richardson 2,517. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4670
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Clarendon County County Council District 1 contest (ElectionStats contest 2424), county rows aggregated: Billy Richardson (Democratic) 1,612; Joseph A Pedalino (Republican) 1,541.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2424
+verification:
+  pipeline: build_sc_county
+  status: unverified

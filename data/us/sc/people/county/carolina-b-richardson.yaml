@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Carolina B. Richardson
+  contest_id: sc/2020-11-03/sumter-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/county-treasurer
+  party: Democratic
+  status: active
+- ballot_name: Carolina B. Richardson
+  contest_id: sc/2024-11-05/sumter-county-treasurer
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/063ee4b7-d6b8-5651-a33c-9b9d7438fa8b
+identifiers: []
+name: Carolina B. Richardson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Sumter County County Treasurer contest (ElectionStats contest 4022), precinct rows aggregated: Carolina B. Richardson (Democratic) 39,141.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4022
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Sumter County County Treasurer contest (ElectionStats contest 7980), precinct rows aggregated: Carolina B. Richardson (Democratic) 33,161.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7980
+verification:
+  pipeline: build_sc_county
+  status: unverified

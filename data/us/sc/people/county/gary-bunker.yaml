@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Gary Bunker
+  contest_id: sc/2020-11-03/aiken-county-council-chairman
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-council-chairman
+  party: Republican
+  status: active
+- ballot_name: Gary Bunker
+  contest_id: sc/2024-11-05/aiken-county-council-chairman
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-council-chairman
+  party: Republican
+  status: active
+id: ocd-person/e9996e79-0134-52e3-a225-1670f394fa14
+identifiers: []
+name: Gary Bunker
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Aiken County County Council Chairman contest (ElectionStats contest 3461), precinct rows aggregated: Gary Bunker (Republican) 63,894.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3461
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Aiken County County Council Chairman contest (ElectionStats contest 7396), precinct rows aggregated: Gary Bunker (Republican) 63,451.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7396
+verification:
+  pipeline: build_sc_county
+  status: unverified

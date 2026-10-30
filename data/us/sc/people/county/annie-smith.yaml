@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Annie Smith
+  contest_id: sc/2022-11-08/union-county-council-district-4
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/01d9abf8-cef8-5b65-be9a-9887e82ad291
+identifiers: []
+name: Annie Smith
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Union County County Council District 4 contest (ElectionStats contest 2828), county rows aggregated: Annie Smith (Republican) 1,065; Jennifer Wood (Democratic) 469.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2828
+verification:
+  pipeline: build_sc_county
+  status: unverified

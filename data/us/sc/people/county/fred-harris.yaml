@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Fred Harris
+  contest_id: sc/2020-11-03/chesterfield-county-treasurer
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/county-treasurer
+  party: Democratic
+  status: active
+- ballot_name: Fred Harris
+  contest_id: sc/2024-11-05/chesterfield-county-treasurer
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/8f8b24bf-106b-579d-956a-4442640bb184
+identifiers: []
+name: Fred Harris
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Chesterfield County County Treasurer contest (ElectionStats contest 3551), precinct rows aggregated: Fred Harris (Democratic) 13,474.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3551
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Chesterfield County County Treasurer contest (ElectionStats contest 7967), precinct rows aggregated: Fred Harris (Republican) 13,927.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7967
+verification:
+  pipeline: build_sc_county
+  status: unverified

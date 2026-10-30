@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Charli Wessinger
+  contest_id: sc/2020-11-03/lexington-county-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-council-district-6
+  party: Republican
+  status: active
+- ballot_name: Charli Wessinger
+  contest_id: sc/2024-11-05/lexington-county-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-council-district-6
+  party: Republican
+  status: active
+id: ocd-person/c43efa0e-d7e8-5076-9d8d-f994be1d186e
+identifiers: []
+name: Charli Wessinger
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lexington County County Council District 6 contest (ElectionStats contest 3755), county rows aggregated: Charli Wessinger (Republican) 18,244.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3755
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lexington County County Council District 6 contest (ElectionStats contest 7842), county rows aggregated: Charli Wessinger (Republican) 16,789.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7842
+verification:
+  pipeline: build_sc_county
+  status: unverified

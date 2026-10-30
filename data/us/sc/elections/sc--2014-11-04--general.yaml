@@ -1,0 +1,28 @@
+# Built from the SC State Election Commission Election History
+# (ElectionStats) official results for the November 4, 2014 general
+# election, per-office CSV exports. County pass, Civic-Data
+# issue #177.
+
+id: sc/2014-11-04/general
+name: South Carolina 2014-11-04 general election
+date: '2014-11-04'
+election_type: general
+status: certified
+contests:
+- id: sc/2014-11-04/chester-county-supervisor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/county-supervisor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9f632061-c2e4-52dc-9087-ce7f82359a9f
+  - ocd-person/9650c840-d60a-5d64-b340-0e7912e552d4
+  result_status: certified
+  winners:
+  - name: R. Carlisle Roddey
+    party: Democratic
+    person_id: ocd-person/9f632061-c2e4-52dc-9087-ce7f82359a9f
+    votes: 3945
+sources:
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. This record was created by the SC county pass for contests of the November 4, 2014 general election.'
+  retrieved: '2026-10-28'

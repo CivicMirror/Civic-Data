@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Peter J. Tecklenburg
+  contest_id: sc/2020-11-03/charleston-county-auditor
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/county-auditor
+  party: Democratic
+  status: active
+- ballot_name: Peter J. Tecklenburg
+  contest_id: sc/2024-11-05/charleston-county-auditor
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/county-auditor
+  party: Democratic
+  status: active
+id: ocd-person/c699dee2-aab8-5955-888a-8f9e417b3649
+identifiers: []
+name: Peter J. Tecklenburg
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Charleston County County Auditor contest (ElectionStats contest 3673), precinct rows aggregated: Peter J. Tecklenburg (Democratic) 158,715.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3673
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Charleston County County Auditor contest (ElectionStats contest 8032), precinct rows aggregated: Peter J. Tecklenburg (Democratic) 143,940.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/8032
+verification:
+  pipeline: build_sc_county
+  status: unverified

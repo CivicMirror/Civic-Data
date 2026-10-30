@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Brandy W. McBee
+  contest_id: sc/2018-11-06/cherokee-clerk-of-court
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/clerk-of-court
+  party: null
+  status: active
+- ballot_name: Brandy W. McBee
+  contest_id: sc/2022-11-08/cherokee-clerk-of-court
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/c78fe9ed-3e13-57ac-98e1-1736e15f3423
+identifiers: []
+name: Brandy Walker McBee
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Cherokee County Clerk of Court contest (ElectionStats contest 4918), precinct rows aggregated: Brandy W. McBee 13,914. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4918
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Cherokee County Clerk of Court contest (ElectionStats contest 2557), precinct rows aggregated: Brandy W. McBee (Republican) 14,043.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2557
+verification:
+  pipeline: build_sc_county
+  status: unverified

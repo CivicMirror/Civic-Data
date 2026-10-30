@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: James JD Dixon
+  contest_id: sc/2018-11-06/chesterfield-sheriff
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/sheriff
+  party: null
+  status: active
+- ballot_name: James JD Dixon
+  contest_id: sc/2022-11-08/chesterfield-sheriff
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/6412ad0c-0e9c-5d10-8299-a1a415a4f8ff
+identifiers: []
+name: James JD Dixon
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Chesterfield County Sheriff contest (ElectionStats contest 4937), precinct rows aggregated: James JD Dixon 9,195. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4937
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Chesterfield County Sheriff contest (ElectionStats contest 2592), precinct rows aggregated: Cambo Streater (Republican) 6,892; James JD Dixon (Democratic) 5,752.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2592
+verification:
+  pipeline: build_sc_county
+  status: unverified

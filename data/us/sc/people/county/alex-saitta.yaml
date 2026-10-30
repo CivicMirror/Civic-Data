@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Alex Saitta
+  contest_id: sc/2020-11-03/pickens-county-council-district-3
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/county-council-district-3
+  party: Republican
+  status: active
+- ballot_name: Alex Saitta
+  contest_id: sc/2024-11-05/pickens-county-council-district-3
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/county-council-district-3
+  party: Republican
+  status: active
+id: ocd-person/d8b2d7f0-63d4-57a0-9f5c-8b86ee5fc74a
+identifiers: []
+name: Alex Saitta
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Pickens County County Council District 3 contest (ElectionStats contest 3778), county rows aggregated: Alex Saitta (Republican) 9,711.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3778
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Pickens County County Council District 3 contest (ElectionStats contest 7865), county rows aggregated: Alex Saitta (Republican) 10,607.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7865
+verification:
+  pipeline: build_sc_county
+  status: unverified

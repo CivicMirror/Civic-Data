@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Jerry Moody
+  contest_id: sc/2022-11-08/edgefield-county-council-district-5
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:edgefield/government
+  office_id: edgefield/county-council-district-5
+  party: Republican
+  status: active
+- ballot_name: Jerry Moody
+  contest_id: sc/2024-11-05/edgefield-county-council-district-5
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:edgefield/government
+  office_id: edgefield/county-council-district-5
+  party: Republican
+  status: active
+id: ocd-person/5053974e-668d-5e44-8fb8-d7b010d24cfd
+identifiers: []
+name: Jerry Moody
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Edgefield County County Council District 5 contest (ElectionStats contest 2625), county rows aggregated: Jerry Moody (Republican) 1,664.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2625
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Edgefield County County Council District 5 contest (ElectionStats contest 7795), county rows aggregated: Jerry Moody (Republican) 2,582.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7795
+verification:
+  pipeline: build_sc_county
+  status: unverified

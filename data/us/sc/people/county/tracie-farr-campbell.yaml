@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Tracie Farr Campbell
+  contest_id: sc/2018-11-06/union-county-council-district-1
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/county-council-district-1
+  party: null
+  status: active
+- ballot_name: Tracie Farr Campbell
+  contest_id: sc/2022-11-08/union-county-council-district-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/county-council-district-1
+  party: Democratic
+  status: active
+id: ocd-person/7294a7ff-b464-5451-acf3-4dadbf914ea5
+identifiers: []
+name: Tracie Farr Campbell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Union County County Council District 1 contest (ElectionStats contest 4795), county rows aggregated: Tracie Farr Campbell 1,028. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4795
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Union County County Council District 1 contest (ElectionStats contest 2827), county rows aggregated: Danny Bright (Republican) 919; Tracie Farr Campbell (Democratic) 714.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2827
+verification:
+  pipeline: build_sc_county
+  status: unverified

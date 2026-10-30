@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: David Smitty Smith
+  contest_id: sc/2020-11-03/cherokee-county-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/county-council-district-6
+  party: Republican
+  status: active
+- ballot_name: David Smitty Smith
+  contest_id: sc/2024-11-05/cherokee-county-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/county-council-district-6
+  party: Republican
+  status: active
+id: ocd-person/82e7e823-202c-5e10-a039-3e3956e60bfc
+identifiers: []
+name: David Smitty Smith
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Cherokee County County Council District 6 contest (ElectionStats contest 3438), county rows aggregated: David Smitty Smith (Republican) 2,802.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3438
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Cherokee County County Council District 6 contest (ElectionStats contest 7768), county rows aggregated: David Smitty Smith (Republican) 2,798.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7768
+verification:
+  pipeline: build_sc_county
+  status: unverified

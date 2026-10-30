@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Teddie Pryor
+  contest_id: sc/2018-11-06/charleston-county-council-district-5
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/county-council-district-5
+  party: null
+  status: active
+- ballot_name: Teddie Pryor
+  contest_id: sc/2022-11-08/charleston-county-council-district-5
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/county-council-district-5
+  party: Democratic
+  status: active
+id: ocd-person/94affeb2-adb2-5d38-bb46-017fb8ab67e9
+identifiers: []
+name: Teddie E Pryor
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Charleston County County Council District 5 contest (ElectionStats contest 4657), county rows aggregated: Teddie Pryor 10,006. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4657
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Charleston County County Council District 5 contest (ElectionStats contest 2410), county rows aggregated: Teddie Pryor (Democratic) 6,212.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2410
+verification:
+  pipeline: build_sc_county
+  status: unverified

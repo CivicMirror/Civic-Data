@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: John Flood
+  contest_id: sc/2020-11-03/union-county-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/county-council-district-6
+  party: Republican
+  status: active
+- ballot_name: John Flood
+  contest_id: sc/2024-11-05/union-county-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:union/government
+  office_id: union/county-council-district-6
+  party: Republican
+  status: active
+id: ocd-person/f3052e6b-1deb-54f4-9ff5-5347ebb9ebdb
+identifiers: []
+name: John Flood
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Union County County Council District 6 contest (ElectionStats contest 3800), county rows aggregated: John Flood (Republican) 1,012; Randy Ivey (Democratic) 905; Ray A. Jones (Petition) 201.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3800
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Union County County Council District 6 contest (ElectionStats contest 7887), county rows aggregated: John Flood (Republican) 1,315.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7887
+verification:
+  pipeline: build_sc_county
+  status: unverified

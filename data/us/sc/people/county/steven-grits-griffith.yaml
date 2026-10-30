@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Steven Grits Griffith
+  contest_id: sc/2020-11-03/barnwell-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:barnwell/government
+  office_id: barnwell/sheriff
+  party: Republican
+  status: active
+- ballot_name: Steven Grits Griffith
+  contest_id: sc/2024-11-05/barnwell-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:barnwell/government
+  office_id: barnwell/sheriff
+  party: Republican
+  status: active
+id: ocd-person/3b600707-3d7b-599c-b04b-891a8fd957b4
+identifiers: []
+name: Steven Grits Griffith
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Barnwell County Sheriff contest (ElectionStats contest 3636), precinct rows aggregated: Steven Grits Griffith (Republican) 5,593; John Trottie (Democratic) 4,715.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3636
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Barnwell County Sheriff contest (ElectionStats contest 7429), precinct rows aggregated: Steven Grits Griffith (Republican) 6,770.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7429
+verification:
+  pipeline: build_sc_county
+  status: unverified

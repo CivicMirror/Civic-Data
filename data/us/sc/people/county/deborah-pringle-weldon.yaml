@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Debra Pringle Weldon
+  contest_id: sc/2018-11-06/marlboro-county-auditor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marlboro/government
+  office_id: marlboro/county-auditor
+  party: null
+  status: active
+- ballot_name: Deborah Pringle Weldon
+  contest_id: sc/2022-11-08/marlboro-county-auditor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marlboro/government
+  office_id: marlboro/county-auditor
+  party: Democratic
+  status: active
+id: ocd-person/8523a2a3-d195-58ef-9356-2ea3cd3b55df
+identifiers: []
+name: Deborah Pringle Weldon
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Marlboro County County Auditor contest (ElectionStats contest 5115), precinct rows aggregated: Debra Pringle Weldon 6,320. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5115
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Marlboro County County Auditor contest (ElectionStats contest 2900), precinct rows aggregated: Deborah Pringle Weldon (Democratic) 4,454.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2900
+verification:
+  pipeline: build_sc_county
+  status: unverified

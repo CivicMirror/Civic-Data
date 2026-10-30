@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Willar Hightower
+  contest_id: sc/2020-11-03/aiken-county-council-district-8
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-council-district-8
+  party: Democratic
+  status: active
+- ballot_name: P. K. Hightower
+  contest_id: sc/2024-11-05/aiken-county-council-district-8
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:aiken/government
+  office_id: aiken/county-council-district-8
+  party: Democratic
+  status: active
+id: ocd-person/12e0a2a7-1bc7-5097-85ad-4909dd0225e3
+identifiers: []
+name: P K Hightower
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Aiken County County Council District 8 contest (ElectionStats contest 3451), county rows aggregated: Willar Hightower (Democratic) 5,904.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3451
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Aiken County County Council District 8 contest (ElectionStats contest 7735), county rows aggregated: P. K. Hightower (Democratic) 4,312; James Hank Hankinson (Republican) 3,729.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7735
+verification:
+  pipeline: build_sc_county
+  status: unverified

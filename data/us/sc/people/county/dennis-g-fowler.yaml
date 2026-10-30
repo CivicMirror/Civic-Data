@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dennis G. Fowler
+  contest_id: sc/2018-11-06/cherokee-coroner
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/coroner
+  party: null
+  status: active
+- ballot_name: Dennis G. Fowler
+  contest_id: sc/2022-11-08/cherokee-coroner
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:cherokee/government
+  office_id: cherokee/coroner
+  party: Republican
+  status: active
+id: ocd-person/2b3c010b-7577-5309-9af4-82f0b52dd1d3
+identifiers: []
+name: Dennis G. Fowler
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Cherokee County Coroner contest (ElectionStats contest 4920), precinct rows aggregated: Dennis G. Fowler 13,791. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4920
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Cherokee County Coroner contest (ElectionStats contest 2558), precinct rows aggregated: Dennis G. Fowler (Republican) 14,054.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2558
+verification:
+  pipeline: build_sc_county
+  status: unverified

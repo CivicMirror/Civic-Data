@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Tiffany R. Shaw
+  contest_id: sc/2018-11-06/saluda-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/county-treasurer
+  party: null
+  status: active
+- ballot_name: Tiffany R. Shaw
+  contest_id: sc/2022-11-08/saluda-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:saluda/government
+  office_id: saluda/county-treasurer
+  party: Republican
+  status: active
+id: ocd-person/d6efe754-2b56-5c6b-b23d-0a89cd5e7fed
+identifiers: []
+name: Tiffany R. Shaw
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Saluda County County Treasurer contest (ElectionStats contest 5179), precinct rows aggregated: Tiffany R. Shaw 5,295. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5179
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Saluda County County Treasurer contest (ElectionStats contest 2957), precinct rows aggregated: Tiffany R. Shaw (Republican) 5,384.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2957
+verification:
+  pipeline: build_sc_county
+  status: unverified

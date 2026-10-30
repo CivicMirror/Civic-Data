@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Johnny Ravenell
+  contest_id: sc/2020-11-03/orangeburg-county-council-district-2
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/county-council-district-2
+  party: Democratic
+  status: active
+- ballot_name: Johnny Ravenell
+  contest_id: sc/2024-11-05/orangeburg-county-council-district-2
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:orangeburg/government
+  office_id: orangeburg/county-council-district-2
+  party: Democratic
+  status: active
+id: ocd-person/a4b53082-4611-5873-884c-a08c067e8318
+identifiers: []
+name: Johnny Ravenell
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Orangeburg County County Council District 2 contest (ElectionStats contest 3774), county rows aggregated: Johnny Ravenell (Democratic) 5,472.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3774
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Orangeburg County County Council District 2 contest (ElectionStats contest 7861), county rows aggregated: Johnny Ravenell (Democratic) 4,030; Marty Griffin (Republican) 1,922.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7861
+verification:
+  pipeline: build_sc_county
+  status: unverified

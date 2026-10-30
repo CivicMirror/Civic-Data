@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Scott Case
+  contest_id: sc/2018-11-06/greenville-county-auditor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:greenville/government
+  office_id: greenville/county-auditor
+  party: null
+  status: active
+- ballot_name: Scott Case
+  contest_id: sc/2022-11-08/greenville-county-auditor
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:greenville/government
+  office_id: greenville/county-auditor
+  party: Republican
+  status: active
+id: ocd-person/328899ea-39b1-5fe7-b573-c0c530af807f
+identifiers: []
+name: Scott Case
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Greenville County County Auditor contest (ElectionStats contest 5013), precinct rows aggregated: Scott Case 128,019. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/5013
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Greenville County County Auditor contest (ElectionStats contest 2713), precinct rows aggregated: Scott Case (Republican) 132,285.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2713
+verification:
+  pipeline: build_sc_county
+  status: unverified

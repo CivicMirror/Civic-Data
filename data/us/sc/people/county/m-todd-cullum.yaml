@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: M Todd Cullum
+  contest_id: sc/2018-11-06/lexington-county-council-district-9
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-council-district-9
+  party: null
+  status: active
+- ballot_name: M Todd Cullum
+  contest_id: sc/2022-11-08/lexington-county-council-district-9
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lexington/government
+  office_id: lexington/county-council-district-9
+  party: Republican
+  status: active
+id: ocd-person/d252f4fc-786a-5ac8-94dc-a13c80a3a281
+identifiers: []
+name: M Todd Cullum
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Lexington County County Council District 9 contest (ElectionStats contest 4747), county rows aggregated: M Todd Cullum 5,647. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4747
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Lexington County County Council District 9 contest (ElectionStats contest 2794), county rows aggregated: M Todd Cullum (Republican) 6,215.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2794
+verification:
+  pipeline: build_sc_county
+  status: unverified

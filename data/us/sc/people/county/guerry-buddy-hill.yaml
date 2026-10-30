@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Buddy Hill
+  contest_id: sc/2020-11-03/colleton-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:colleton/government
+  office_id: colleton/sheriff
+  party: Republican
+  status: active
+- ballot_name: Guerry Buddy Hill
+  contest_id: sc/2024-11-05/colleton-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:colleton/government
+  office_id: colleton/sheriff
+  party: Republican
+  status: active
+id: ocd-person/5098a708-de21-5fc9-9219-e4178ef04c43
+identifiers: []
+name: Guerry Buddy Hill
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Colleton County Sheriff contest (ElectionStats contest 3641), precinct rows aggregated: Buddy Hill (Republican) 10,578; Alyssa Bodison (Democratic) 8,653.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3641
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Colleton County Sheriff contest (ElectionStats contest 7490), precinct rows aggregated: Guerry Buddy Hill (Republican) 10,728; Alyssa Bodison (Democratic) 7,214.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7490
+verification:
+  pipeline: build_sc_county
+  status: unverified

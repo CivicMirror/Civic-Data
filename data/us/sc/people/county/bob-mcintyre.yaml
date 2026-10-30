@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Bob McIntyre
+  contest_id: sc/2022-11-08/charleston-register-of-deeds
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:charleston/government
+  office_id: charleston/register-of-deeds
+  party: Republican
+  status: active
+id: ocd-person/05d14214-17b1-5daf-ac47-c0a11d295a73
+identifiers: []
+name: Bob McIntyre
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Charleston County Register of Deeds contest (ElectionStats contest 2590), precinct rows aggregated: Karen Lesser Hollings (Democratic) 77,987; Bob McIntyre (Republican) 70,074.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2590
+verification:
+  pipeline: build_sc_county
+  status: unverified

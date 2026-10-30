@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Pat Welborn
+  contest_id: sc/2020-11-03/pickens-clerk-of-court
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/clerk-of-court
+  party: Republican
+  status: active
+- ballot_name: Harold Pat Welborn
+  contest_id: sc/2024-11-05/pickens-clerk-of-court
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:pickens/government
+  office_id: pickens/clerk-of-court
+  party: Republican
+  status: active
+id: ocd-person/b214c078-98fa-50be-9fda-6fcf496171e6
+identifiers: []
+name: Harold Pat Welborn
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Pickens County Clerk of Court contest (ElectionStats contest 3982), precinct rows aggregated: Pat Welborn (Republican) 49,786.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3982
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Pickens County Clerk of Court contest (ElectionStats contest 7664), precinct rows aggregated: Harold Pat Welborn (Republican) 50,604.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7664
+verification:
+  pipeline: build_sc_county
+  status: unverified

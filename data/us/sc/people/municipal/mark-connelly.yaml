@@ -13,6 +13,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: 'Mark Connelly'
   status: active
+- contest_id: sc/2022-11-08/allendale-soil-and-water-conservation-district-commissioner
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/special_district:allendale-soil-and-water-conservation-district/government
+  office_id: allendale-soil-and-water-conservation-district/commissioner
+  party: Nonpartisan
+  ballot_name: 'Mark Connelly'
+  status: active
 verification:
   status: unverified
   pipeline: build_sc_municipal
@@ -20,3 +27,6 @@ sources:
 - url: https://electionhistory.scvotes.gov/contest/1644
   note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Ulmer Town Council contest (ElectionStats contest 1644), county-division rows aggregated (Allendale County): James E Deer Jr 10; JoAnne S Deer 9; Mark Connelly 9; Ervin M Mathias III 9.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/2453
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Allendale Soil-Water District Commissioner contest (ElectionStats contest 2453), precinct rows aggregated: Mark Connelly 636; Joe Oswald IV 513.'
+  retrieved: '2026-10-28'

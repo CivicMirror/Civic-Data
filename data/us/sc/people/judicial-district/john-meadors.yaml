@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: John Meadors
+  contest_id: sc/2018-11-06/circuit-5-solicitor
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/judicial_district:circuit-5/judiciary
+  office_id: circuit-5/solicitor
+  party: null
+  status: active
+id: ocd-person/266b4f10-314c-54fa-8c6d-c87135a97ce3
+identifiers: []
+name: John Meadors
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, 5th Judicial Circuit Solicitor contest (ElectionStats contest 4528), county rows aggregated: Byron E. Gipson 105,536; John Meadors 38,933. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4528
+verification:
+  pipeline: build_sc_county
+  status: unverified

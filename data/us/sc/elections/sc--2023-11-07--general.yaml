@@ -4906,7 +4906,22 @@ contests:
     name: 'Mike Fuesser'
     party: Nonpartisan
     votes: 199
+- id: sc/2023-11-07/newberry-county-council-district-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:newberry/government
+  office_id: newberry/county-council-district-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e52c8103-fedc-51c4-91a5-18f83a1c1c49
+  result_status: certified
+  winners:
+  - name: Leon Fulmer Jr
+    party: Republican
+    person_id: ocd-person/e52c8103-fedc-51c4-91a5-18f83a1c1c49
+    votes: 169
 sources:
 - url: https://electionhistory.scvotes.gov/search?gf=e
   note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, Town Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'County-office contests appended by the SC county pass (Civic-Data issue #177): county row offices, county council, and circuit solicitor contests of the November 7, 2023 general election, aggregated from the Election History per-office CSV exports.'
+  retrieved: '2026-10-28'

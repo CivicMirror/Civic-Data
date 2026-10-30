@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Dan Tripp
+  contest_id: sc/2018-11-06/greenville-county-council-district-28
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:greenville/government
+  office_id: greenville/county-council-district-28
+  party: null
+  status: active
+- ballot_name: Daniel Tripp
+  contest_id: sc/2022-11-08/greenville-county-council-district-28
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:greenville/government
+  office_id: greenville/county-council-district-28
+  party: Republican
+  status: active
+id: ocd-person/ca59e3f9-09fc-5c4d-a17b-1c46c885fa25
+identifiers: []
+name: Daniel Tripp
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Greenville County County Council District 28 contest (ElectionStats contest 4713), county rows aggregated: Dan Tripp 10,925. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4713
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Greenville County County Council District 28 contest (ElectionStats contest 2642), county rows aggregated: Daniel Tripp (Republican) 12,142.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2642
+verification:
+  pipeline: build_sc_county
+  status: unverified

@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Glenn Davis
+  contest_id: sc/2022-11-08/anderson-county-council-district-2
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:anderson/government
+  office_id: anderson/county-council-district-2
+  party: Democratic
+  status: active
+- ballot_name: Glenn Davis
+  contest_id: sc/2024-11-05/anderson-county-council-district-2
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:anderson/government
+  office_id: anderson/county-council-district-2
+  party: Democratic
+  status: active
+id: ocd-person/783fca98-929f-51b7-8f87-75cc6a984c63
+identifiers: []
+name: Glenn Davis
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Anderson County County Council District 2 contest (ElectionStats contest 2380), county rows aggregated: Glenn Davis (Democratic) 2,694; David Standard (Republican) 1,731.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2380
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Anderson County County Council District 2 contest (ElectionStats contest 7739), county rows aggregated: Glenn Davis (Democratic) 5,445.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7739
+verification:
+  pipeline: build_sc_county
+  status: unverified

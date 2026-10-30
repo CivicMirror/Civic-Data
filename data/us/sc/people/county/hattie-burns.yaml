@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Hattie Burns
+  contest_id: sc/2020-11-03/chesterfield-county-council-district-6
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/county-council-district-6
+  party: Democratic
+  status: active
+- ballot_name: Hattie Burns
+  contest_id: sc/2024-11-05/chesterfield-county-council-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/county-council-district-6
+  party: Democratic
+  status: active
+id: ocd-person/10d2870c-f83c-5d4e-b3d6-bf69509a8948
+identifiers: []
+name: Hattie Burns
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Chesterfield County County Council District 6 contest (ElectionStats contest 3440), county rows aggregated: Hattie Burns (Democratic) 1,701.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3440
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Chesterfield County County Council District 6 contest (ElectionStats contest 7774), county rows aggregated: Hattie Burns (Democratic) 1,143; Gilbert King (Republican) 867.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7774
+verification:
+  pipeline: build_sc_county
+  status: unverified

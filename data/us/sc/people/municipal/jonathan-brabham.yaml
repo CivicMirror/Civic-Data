@@ -13,6 +13,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: 'Jonathan Brabham'
   status: active
+- contest_id: sc/2024-11-05/allendale-soil-and-water-conservation-district-commissioner
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/special_district:allendale-soil-and-water-conservation-district/government
+  office_id: allendale-soil-and-water-conservation-district/commissioner
+  party: Nonpartisan
+  ballot_name: 'Jonathan Brabham'
+  status: active
 verification:
   status: unverified
   pipeline: build_sc_municipal
@@ -20,3 +27,6 @@ sources:
 - url: https://electionhistory.scvotes.gov/contest/1643
   note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 2, 2021 general election, Town of Sycamore Town Council contest (ElectionStats contest 1643), county-division rows aggregated (Allendale County): Jonathan Brabham 17; Tammi Bowers 16; Allen Brown 16; Ernie Williams 15.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/7910
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Allendale Soil-Water District Commissioner contest (ElectionStats contest 7910), precinct rows aggregated: Jonathan Brabham 1,133.'
+  retrieved: '2026-10-28'

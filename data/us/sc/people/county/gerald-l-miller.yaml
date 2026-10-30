@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Gerald Miller
+  contest_id: sc/2018-11-06/chesterfield-county-council-district-2
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/county-council-district-2
+  party: null
+  status: active
+- ballot_name: Gerald Miller
+  contest_id: sc/2022-11-08/chesterfield-county-council-district-2
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chesterfield/government
+  office_id: chesterfield/county-council-district-2
+  party: Democratic
+  status: active
+id: ocd-person/06563e30-311d-5304-be89-53a28b599304
+identifiers: []
+name: Gerald L Miller
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Chesterfield County County Council District 2 contest (ElectionStats contest 4666), county rows aggregated: Gerald Miller 922. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4666
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Chesterfield County County Council District 2 contest (ElectionStats contest 2419), county rows aggregated: Gerald Miller (Democratic) 685.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2419
+verification:
+  pipeline: build_sc_county
+  status: unverified

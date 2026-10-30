@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Barry S. Faile
+  contest_id: sc/2020-11-03/lancaster-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/sheriff
+  party: Republican
+  status: active
+- ballot_name: Barry Faile
+  contest_id: sc/2024-11-05/lancaster-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:lancaster/government
+  office_id: lancaster/sheriff
+  party: Republican
+  status: active
+id: ocd-person/b83bc0b7-b12e-548f-a9ea-8b2ef8fb1403
+identifiers: []
+name: Barry S Faile
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Lancaster County Sheriff contest (ElectionStats contest 3891), precinct rows aggregated: Barry S. Faile (Republican) 40,232.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3891
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Lancaster County Sheriff contest (ElectionStats contest 7606), precinct rows aggregated: Barry Faile (Republican) 42,030.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7606
+verification:
+  pipeline: build_sc_county
+  status: unverified

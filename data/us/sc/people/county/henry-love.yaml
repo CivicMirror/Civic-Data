@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Henry Love
+  contest_id: sc/2020-11-03/marlboro-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:marlboro/government
+  office_id: marlboro/sheriff
+  party: Republican
+  status: active
+id: ocd-person/e258442b-1463-5443-a9db-a14a81834579
+identifiers: []
+name: Henry Love
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Marlboro County Sheriff contest (ElectionStats contest 3941), precinct rows aggregated: Charles Lemon (Democratic) 6,867; Henry Love (Republican) 3,012.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3941
+verification:
+  pipeline: build_sc_county
+  status: unverified

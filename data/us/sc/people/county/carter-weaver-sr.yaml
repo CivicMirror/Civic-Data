@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Carter Weaver Sr.
+  contest_id: sc/2020-11-03/georgetown-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:georgetown/government
+  office_id: georgetown/sheriff
+  party: Republican
+  status: active
+- ballot_name: Carter Weaver, Sr.
+  contest_id: sc/2024-11-05/georgetown-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:georgetown/government
+  office_id: georgetown/sheriff
+  party: Republican
+  status: active
+id: ocd-person/20a5f5f8-1d39-513f-ba13-00c29bde492e
+identifiers: []
+name: Carter Weaver Sr
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Georgetown County Sheriff contest (ElectionStats contest 3820), precinct rows aggregated: Carter Weaver Sr. (Republican) 23,491; Birt K. Adams (Democratic) 12,947.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3820
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Georgetown County Sheriff contest (ElectionStats contest 7551), precinct rows aggregated: Carter Weaver, Sr. (Republican) 25,281; Birt K. Adams (Democratic) 11,547.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7551
+verification:
+  pipeline: build_sc_county
+  status: unverified

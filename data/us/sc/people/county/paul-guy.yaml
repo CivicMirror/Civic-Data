@@ -1,0 +1,18 @@
+candidacies:
+- ballot_name: Paul Guy
+  contest_id: sc/2020-11-03/greenville-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:greenville/government
+  office_id: greenville/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/9287a8b8-87d8-5d95-861f-d0570c1b04c6
+identifiers: []
+name: Paul Guy
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Greenville County Sheriff contest (ElectionStats contest 3831), precinct rows aggregated: Hobart Lewis (Republican) 163,708; Paul Guy (Democratic) 91,706.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3831
+verification:
+  pipeline: build_sc_county
+  status: unverified

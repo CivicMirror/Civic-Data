@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Norma W. Branham
+  contest_id: sc/2018-11-06/fairfield-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-treasurer
+  party: null
+  status: active
+- ballot_name: Norma W. Branham
+  contest_id: sc/2022-11-08/fairfield-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:fairfield/government
+  office_id: fairfield/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/d8a9adc2-8b21-55d4-94ff-529b7da22d13
+identifiers: []
+name: Norma W. Branham
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Fairfield County County Treasurer contest (ElectionStats contest 4979), precinct rows aggregated: Norma W. Branham 7,988. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4979
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Fairfield County County Treasurer contest (ElectionStats contest 2682), precinct rows aggregated: Norma W. Branham (Democratic) 7,417.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2682
+verification:
+  pipeline: build_sc_county
+  status: unverified

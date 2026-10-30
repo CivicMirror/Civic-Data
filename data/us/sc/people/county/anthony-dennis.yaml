@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Anthony Dennis
+  contest_id: sc/2020-11-03/sumter-sheriff
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/sheriff
+  party: Democratic
+  status: active
+- ballot_name: Anthony Dennis
+  contest_id: sc/2024-11-05/sumter-sheriff
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:sumter/government
+  office_id: sumter/sheriff
+  party: Democratic
+  status: active
+id: ocd-person/c60a3c2a-39c8-54f3-9cdc-d21d73695b91
+identifiers: []
+name: Anthony Dennis
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Sumter County Sheriff contest (ElectionStats contest 4026), precinct rows aggregated: Anthony Dennis (Democratic) 39,857.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4026
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Sumter County Sheriff contest (ElectionStats contest 7702), precinct rows aggregated: Anthony Dennis (Democratic) 32,731.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7702
+verification:
+  pipeline: build_sc_county
+  status: unverified

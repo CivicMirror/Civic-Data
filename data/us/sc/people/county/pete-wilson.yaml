@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Pete Wilson
+  contest_id: sc/2020-11-03/chester-county-council-district-4
+  election_id: sc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/county-council-district-4
+  party: Republican
+  status: active
+- ballot_name: Pete Wilson
+  contest_id: sc/2024-11-05/chester-county-council-district-4
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:chester/government
+  office_id: chester/county-council-district-4
+  party: Republican
+  status: active
+id: ocd-person/f0c77060-e8ce-5c3b-a9e4-c79bcd085cb6
+identifiers: []
+name: Pete Wilson
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Chester County County Council District 4 contest (ElectionStats contest 3419), county rows aggregated: Pete Wilson (Republican) 2,129.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/3419
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Chester County County Council District 4 contest (ElectionStats contest 7770), county rows aggregated: Pete Wilson (Republican) 1,912.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/7770
+verification:
+  pipeline: build_sc_county
+  status: unverified

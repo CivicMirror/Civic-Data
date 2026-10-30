@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Betty Watt Cowan
+  contest_id: sc/2018-11-06/abbeville-county-treasurer
+  election_id: sc/2018-11-06/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:abbeville/government
+  office_id: abbeville/county-treasurer
+  party: null
+  status: active
+- ballot_name: Betty Watt Cowan
+  contest_id: sc/2022-11-08/abbeville-county-treasurer
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:abbeville/government
+  office_id: abbeville/county-treasurer
+  party: Democratic
+  status: active
+id: ocd-person/73db1055-2a58-5ab9-8fe0-32a6c7f9998e
+identifiers: []
+name: Betty Watt Cowan
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, Abbeville County County Treasurer contest (ElectionStats contest 4805), precinct rows aggregated: Betty Watt Cowan 5,993. The 2018 export reports no party for any candidate.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/4805
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Abbeville County County Treasurer contest (ElectionStats contest 2430), precinct rows aggregated: Betty Watt Cowan (Democratic) 5,821.'
+  retrieved: '2026-10-28'
+  url: https://electionhistory.scvotes.gov/contest/2430
+verification:
+  pipeline: build_sc_county
+  status: unverified

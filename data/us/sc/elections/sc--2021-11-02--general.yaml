@@ -4572,7 +4572,23 @@ contests:
     name: 'Kellie Wine Harrold'
     party: Nonpartisan
     votes: 93
+- id: sc/2021-11-02/florence-county-council-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/county:florence/government
+  office_id: florence/county-council-district-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1c255523-68ff-54f4-a14b-fdc3752bf588
+  - ocd-person/349f3765-1dc1-5ef1-8988-6147b0dde35c
+  result_status: certified
+  winners:
+  - name: Toney Moore
+    party: Republican
+    person_id: ocd-person/1c255523-68ff-54f4-a14b-fdc3752bf588
+    votes: 556
 sources:
 - url: https://electionhistory.scvotes.gov/search?gf=e
   note: 'SC State Election Commission Election History (ElectionStats): the official historical results system. Contest totals here are aggregated from the per-office Search Results CSV exports (Town Council, Town Mayor) using county-division rows only (the exports duplicate each vote in county and precinct rows). Write-In rows are unnamed aggregates and seat no one.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/search?gf=e
+  note: 'County-office contests appended by the SC county pass (Civic-Data issue #177): county row offices, county council, and circuit solicitor contests of the November 2, 2021 general election, aggregated from the Election History per-office CSV exports.'
+  retrieved: '2026-10-28'
