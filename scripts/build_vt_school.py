@@ -57,7 +57,15 @@ def build(spec):
                      f"school_district:{dslug}")
     board = spec["board"]
     org_id = oid("organization", f"vt|school|{dslug}|school-board")
-    post_id = f"{dslug}-school/school-director"
+    # Posts: spec["posts"] (list of {key, title, seats, sources?}) or a
+    # single default post derived from board.post_title/board.seats.
+    if spec.get("posts"):
+        posts = spec["posts"]
+    else:
+        posts = [{"key": "school-director",
+                  "title": board["post_title"],
+                  "seats": board["seats"]}]
+    post_ids = {p["key"]: f"{dslug}-school/{p['key']}" for p in posts}
     files = {}
 
     jpath = f"data/us/vt/jurisdictions/school/{dslug}-school.yaml"
@@ -77,31 +85,41 @@ def build(spec):
         f"  identifier: {dslug}-school/school-board\nsources:\n"
         + sources_yaml(board["sources"]))
 
-    ppath = f"data/us/vt/posts/school/{dslug}-school-school-director.yaml"
-    files[ppath] = (
-        "# School-district tier; issue #163 (VT master tracking).\n"
-        f"id: {post_id}\norganization_id: {org_id}\n"
-        f"title: {board['post_title']}\nseats: {board['seats']}\n"
-        "sources:\n" + sources_yaml(board["sources"]))
+    for p in posts:
+        ppath = (f"data/us/vt/posts/school/"
+                 f"{dslug}-school-{p['key']}.yaml")
+        files[ppath] = (
+            "# School-district tier; issue #163 (VT master tracking).\n"
+            f"id: {post_ids[p['key']]}\norganization_id: {org_id}\n"
+            f"title: {p['title']}\nseats: {p['seats']}\n"
+            "sources:\n"
+            + sources_yaml(p.get("sources", board["sources"])))
 
     for d in spec["directors"]:
         slug = d["slug"]
-        pid = oid("person", f"vt|{dslug}-school|{slug}")
+        pkey = d.get("post", posts[0]["key"])
+        ptitle = next(p["title"] for p in posts if p["key"] == pkey)
+        pid = d.get("existing_person_id") or oid(
+            "person", f"vt|{dslug}-school|{slug}")
         pfile = f"data/us/vt/people/school/{slug}.yaml"
         dsrc = d.get("sources", board["sources"])
-        files[pfile] = (
-            f"id: {pid}\nname: {d['name']}\nidentifiers: []\n"
-            "candidacies: []\nverification:\n"
-            "  status: machine-extracted\n"
-            f"  reviewed_on: {q(TODAY)}\n"
-            "  pipeline: build_vt_school\nsources:\n"
-            + sources_yaml(dsrc))
-        mid = f"{dslug}-school-school-director-{slug}"
+        if not d.get("existing_person_id"):
+            files[pfile] = (
+                f"id: {pid}\nname: {d['name']}\nidentifiers: []\n"
+                "candidacies: []\nverification:\n"
+                "  status: machine-extracted\n"
+                f"  reviewed_on: {q(TODAY)}\n"
+                "  pipeline: build_vt_school\nsources:\n"
+                + sources_yaml(dsrc))
+        mid = f"{dslug}-school-{pkey}-{slug}"
         mfile = f"data/us/vt/memberships/school/{mid}.yaml"
         body = (f"id: {mid}\nperson_id: {pid}\n"
-                f"organization_id: {org_id}\npost_id: {post_id}\n"
-                f"role: {board['post_title']}\n"
+                f"organization_id: {org_id}\n"
+                f"post_id: {post_ids[pkey]}\n"
+                f"role: {ptitle}\n"
                 f"how_seated: {d.get('how_seated', 'elected')}\n")
+        if d.get("start"):
+            body += f"start: {q(d['start'])}\n"
         if d.get("end"):
             body += f"end: {q(d['end'])}\n"
         body += "sources:\n" + sources_yaml(dsrc)
