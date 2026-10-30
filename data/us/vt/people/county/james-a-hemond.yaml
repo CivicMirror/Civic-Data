@@ -1,0 +1,27 @@
+# Caledonia County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/41926217-18dc-5a09-9f56-c35ad0d3701b
+name: James A. Hemond
+identifiers: []
+candidacies:
+- contest_id: caledonia-vt-county/2022-11-08/sheriff
+  election_id: caledonia-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:caledonia/government
+  office_id: caledonia-vt-county/sheriff
+  party: Republican
+  ballot_name: James A. Hemond
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157894
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Caledonia County''
+    (county totals): James A. Hemond (Republican) 6,279 votes; Joel M. Pierce (Independent)
+    5,459; write-ins 34. The contest page''s cited official source is the official
+    return vt-2022_11_08_General_ALL.pdf. The office serves a four-year term beginning
+    February 1 after the election (Vermont Constitution, Chapter II, section 50);
+    the November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-17'

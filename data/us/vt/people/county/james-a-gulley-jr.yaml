@@ -1,0 +1,33 @@
+# Bennington County -- VT county tier fan-out (posts + holders + elections together);
+# issue #163 (VT master tracking).
+id: ocd-person/8d2c8b58-5e70-5228-a6c0-7dfb409ef122
+name: James A. Gulley, Jr
+identifiers: []
+candidacies:
+- contest_id: bennington-vt-county/2022-11-08/sheriff
+  election_id: bennington-vt-county/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:vt/county:bennington/government
+  office_id: bennington-vt-county/sheriff
+  party: Democratic
+  ballot_name: James A. Gulley, Jr
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-17'
+  pipeline: build_vt_county
+sources:
+- url: https://electionarchive.vermont.gov/contest/157893
+  note: 'Vermont Elections Database (Vermont Secretary of State), contest page ''2022
+    Nov 8, General Election, Sheriff (listed as County Sheriff), Bennington County''
+    (county totals): James A. Gulley, Jr (Democratic) 8,478 votes; Joel R. Howard,
+    Jr (Republican) 5,576; Beau Alexander, Sr (Independent) 1,227; write-ins 12. The
+    contest page''s cited official source is the official return vt-2022_11_08_General_ALL.pdf.
+    The office serves a four-year term beginning February 1 after the election (Vermont
+    Constitution, Chapter II, section 50); the November 3, 2026 general election decides
+    the next term.'
+  retrieved: '2026-10-17'
+- url: https://prosecutors.vermont.gov/offices/bennington
+  note: 'Vermont Department of State''s Attorneys and Sheriffs, Bennington County
+    office page: lists Erica Marthage as State''s Attorney and James Gulley Jr. as
+    Sheriff -- the sitting holders as of the retrieval date.'
+  retrieved: '2026-10-17'
