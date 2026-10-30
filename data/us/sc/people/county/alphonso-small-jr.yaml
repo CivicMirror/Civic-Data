@@ -6,6 +6,13 @@ candidacies:
   office_id: beaufort/county-council-district-6
   party: Democratic
   status: active
+- ballot_name: Alphonso Small Jr
+  contest_id: sc/2024-11-05/beaufort-county-school-board-district-6
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:beaufort-county/school
+  office_id: beaufort-county/school-board-district-6
+  party: Nonpartisan
+  status: active
 id: ocd-person/a2c6d02d-ed00-5c83-a1e0-c347851c5bb2
 identifiers: []
 name: Alphonso Small Jr
@@ -13,6 +20,9 @@ sources:
 - note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Beaufort County County Council District 6 contest (ElectionStats contest 2394), county rows aggregated: Tab Tabernik (Republican) 5,450; Alphonso Small Jr (Democratic) 2,564.'
   retrieved: '2026-10-28'
   url: https://electionhistory.scvotes.gov/contest/2394
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Beaufort County School District 6 contest (ElectionStats contest 7440), contest totals: Alphonso Small Jr 5,488.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/7440
 verification:
   pipeline: build_sc_county
   status: unverified

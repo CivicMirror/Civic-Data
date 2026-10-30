@@ -13,6 +13,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: 'Peter Kristian'
   status: active
+- contest_id: sc/2022-11-08/beaufort-county-school-board-district-10
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:beaufort-county/school
+  office_id: beaufort-county/school-board-district-10
+  party: Nonpartisan
+  ballot_name: 'Peter Kristian'
+  status: active
 verification:
   status: unverified
   pipeline: build_sc_municipal
@@ -20,3 +27,6 @@ sources:
 - url: https://electionhistory.scvotes.gov/contest/3376
   note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Town of Hilton Head Island Town Council contest (ElectionStats contest 3376), county-division rows aggregated (Beaufort County): Alexander Brown Jr. 1,465; Peter Kristian 463.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/2505
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Beaufort County School District 10 contest (ElectionStats contest 2505), contest totals: Elizabeth Hey 1,889; Peter Kristian 1,738; Melvin Campbell 1,307.'
+  retrieved: '2026-10-30'

@@ -6,6 +6,13 @@ candidacies:
   office_id: abbeville/coroner
   party: Republican
   status: active
+- ballot_name: Brad Evans
+  contest_id: sc/2022-11-08/abbeville-county-school-board-district-6
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:abbeville-county/school
+  office_id: abbeville-county/school-board-district-6
+  party: Nonpartisan
+  status: active
 id: ocd-person/c319ae48-166d-5211-9a9f-ab8922b2fea7
 identifiers: []
 name: Brad Evans
@@ -13,6 +20,9 @@ sources:
 - note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Abbeville County Coroner contest (ElectionStats contest 8046), precinct rows aggregated: Brad Evans (Republican) 9,309.'
   retrieved: '2026-10-28'
   url: https://electionhistory.scvotes.gov/contest/8046
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Abbeville County School District 6 contest (ElectionStats contest 2434), contest totals: Brad Evans 616; Erin K Gambrell 444.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2434
 verification:
   pipeline: build_sc_county
   status: unverified
