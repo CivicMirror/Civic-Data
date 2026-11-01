@@ -1,0 +1,18 @@
+id: ocd-person/897cb11a-5b49-5194-849d-78c7949413ac
+name: Eric N. Davidson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lee-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lee-county/school
+  office_id: lee-county/school-board-at-large
+  party: Republican
+  ballot_name: Eric N. Davidson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LEE COUNTY BOARD OF EDUCATION -- Eric N. Davidson (Republican) 10,644; Alan Rummel (Republican) 10,126; Chris Gaster (Republican) 10,098; Pat McCracken (Democratic) 8,318; Christine B. Hilliard (Democratic) 8,036; Walter Ferguson, Jr. (Democratic) 7,518. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

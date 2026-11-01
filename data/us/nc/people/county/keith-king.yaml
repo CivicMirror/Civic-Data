@@ -1,9 +1,3 @@
-# Machine-generated from NCSBE precinct-level election results
-# (2022 + 2024 general elections, merged for staggered boards) by
-# scripts/build_nc_counties.py, cross-checked against the NCACC's
-# official board-size table. verification.status is 'unverified':
-# this is real election data, but a mid-term resignation/appointment
-# since the election wouldn't be visible to this pipeline.
 id: ocd-person/894f108f-97ae-5af9-8c97-df45a4218875
 name: Keith King
 identifiers: []
@@ -12,6 +6,13 @@ candidacies:
   election_id: nc/2024-11-05/general
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:lenoir/government
   office_id: lenoir/commissioner-at-large
+  party: Republican
+  ballot_name: Keith King
+  status: active
+- contest_id: nc/2022-11-08/lenoir-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lenoir-county/school
+  office_id: lenoir-county/school-board-district-2
   party: Republican
   ballot_name: Keith King
   status: active
@@ -25,3 +26,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Lenoir County Board Of Commissioners At-Large -- Linda Rouse Sutton (DEM) 14,220; Keith King (REP) 13,945; Sammy C. Aiken (DEM) 8,252.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LENOIR COUNTY BOARD OF EDUCATION DISTRICT 02 -- Keith King (Republican) 3,004. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

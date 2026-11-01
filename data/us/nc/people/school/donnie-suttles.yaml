@@ -1,0 +1,18 @@
+id: ocd-person/9b1a3c8d-49e1-5616-a76f-02ac784b60d1
+name: Donnie Suttles
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mcdowell-county-school-board-marion
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mcdowell-county/school
+  office_id: mcdowell-county/school-board-marion
+  party: Republican
+  ballot_name: Donnie Suttles
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MCDOWELL COUNTY BOARD OF EDUCATION MARION DISTRICT -- Donnie Suttles (Republican) 16,761; Greg Barksdale (Republican) 12,938. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

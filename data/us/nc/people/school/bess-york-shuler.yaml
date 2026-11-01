@@ -1,0 +1,28 @@
+id: ocd-person/8d867237-f69a-529f-81d5-eccf86df5833
+name: Bess York Shuler
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/richmond-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:richmond-county/school
+  office_id: richmond-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Bess York Shuler
+  status: active
+- contest_id: nc/2024-03-05/richmond-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:richmond-county/school
+  office_id: richmond-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Bess York Shuler
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): RICHMOND COUNTY BOARD OF EDUCATION -- Bobbie Sue Ormsby (Nonpartisan) 2,965; Cory Satterfield (Nonpartisan) 2,901; Daryl Mason (Nonpartisan) 2,755; Scotty Baldwin (Nonpartisan) 2,672; Bess York Shuler (Nonpartisan) 2,608; Joe Richardson (Nonpartisan) 2,437; Jeremy McKenzie (Nonpartisan) 1,835; Eddie Rainwater (Nonpartisan) 867; Kelly Wheeler (Write-In) 13. Winners are the top 4 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): RICHMOND COUNTY BOARD OF EDUCATION -- Jerry Ethridge (Nonpartisan) 3,217; Bess York Shuler (Nonpartisan) 3,133; Ronald Tillman (Nonpartisan) 3,109; Michael Veach (Nonpartisan) 2,179. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

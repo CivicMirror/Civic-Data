@@ -1,0 +1,18 @@
+id: ocd-person/ec3d72d4-d045-511c-9a8e-069da79c1bde
+name: Stephanie Edwards
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/johnston-county-school-board-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:johnston-county/school
+  office_id: johnston-county/school-board-district-3
+  party: Write-In
+  ballot_name: Stephanie Edwards
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JOHNSTON COUNTY BOARD OF EDUCATION DISTRICT 03 -- Kay Carroll (Nonpartisan) 55,492; Jason Shuler (Nonpartisan) 46,227; Mike Jacobs (Write-In) 8; Stephanie Edwards (Write-In) 7; Jim Best (Write-In) 6; April Stephens (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/8cfce4bc-7074-5ab7-8c21-8766716dc675
+name: Michael D. Brown
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/asheboro-city-school-board-at-large
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:asheboro-city/school
+  office_id: asheboro-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Michael D. Brown
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): ASHEBORO CITY SCHOOLS BOARD OF EDUCATION -- Brad Thomas (Nonpartisan) 1,694; Mikayla Cassidy (Nonpartisan) 1,441; Michael D. Brown (Nonpartisan) 1,356; Hilda DeCortez (Nonpartisan) 1,149. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/28a5c438-8ef6-5620-b47c-edb46d8187da
+name: Jane Everson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/hickory-school-board-ward-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:hickory/school
+  office_id: hickory/school-board-ward-6
+  party: Democratic
+  ballot_name: Jane Everson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HICKORY PUBLIC SCHOOLS BOARD OF EDUCATION WARD 06 -- Jane Everson (Democratic) 2,096. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/1cf92917-ef68-52e0-85dd-f448493611b0
+name: Daniel Dockery
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/scotland-county-school-board-stewartsville
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:scotland-county/school
+  office_id: scotland-county/school-board-stewartsville
+  party: Write-In
+  ballot_name: Daniel Dockery
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): SCOTLAND COUNTY BOARD OF EDUCATION STEWARTSVILLE TWP -- Herman L. Tyson (Nonpartisan) 5,241; Jason Clark (Nonpartisan) 4,985; Daniel Dockery (Write-In) 665. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

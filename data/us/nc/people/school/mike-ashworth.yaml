@@ -1,0 +1,18 @@
+id: ocd-person/7761a8d8-6e4c-52f7-bc26-a1b8b03e0441
+name: Mike Ashworth
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/polk-county-school-board-tryon
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:polk-county/school
+  office_id: polk-county/school-board-tryon
+  party: Nonpartisan
+  ballot_name: Mike Ashworth
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): POLK COUNTY BOARD OF EDUCATION TRYON TWP -- Mike Ashworth (Nonpartisan) 4,083; Jolene Williams (Nonpartisan) 3,441. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

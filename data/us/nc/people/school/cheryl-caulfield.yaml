@@ -1,0 +1,18 @@
+id: ocd-person/51dc6e16-2f0f-5fed-98c9-6724a3dfa405
+name: Cheryl Caulfield
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/wake-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Cheryl Caulfield
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 01 -- Cheryl Caulfield (Nonpartisan) 24,776; Ben Clapsaddle (Nonpartisan) 17,240. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

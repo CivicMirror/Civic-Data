@@ -1,0 +1,18 @@
+id: ocd-person/5fa36bfe-2aef-5953-bcb7-4473b6d14124
+name: Jeff K. Ramsey
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/gaston-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gaston-county/school
+  office_id: gaston-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Jeff K. Ramsey
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): GASTON COUNTY BOARD OF EDUCATION AT-LARGE -- Jeff K. Ramsey (Nonpartisan) 45,793; Brenda Eskridge (Nonpartisan) 37,623; Tommy Johnson (Nonpartisan) 12,152. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

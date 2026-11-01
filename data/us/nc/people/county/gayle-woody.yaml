@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/d02bb25d-669f-5385-b6f4-abd93767b36a
 name: Gayle Woody
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Gayle Woody
   status: active
+- contest_id: nc/2024-03-05/jackson-county-school-board-district-1
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jackson-county/school
+  office_id: jackson-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Gayle Woody
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Jackson County Board Of Commissioners District 01 -- Todd Bryson (REP) 7,700; Gayle Woody (DEM) 7,234.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): JACKSON COUNTY BOARD OF EDUCATION DISTRICT 01 -- Gayle Woody (Nonpartisan) 4,590; Rainy Brake (Nonpartisan) 2,798. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'

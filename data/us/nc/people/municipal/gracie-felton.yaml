@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/9da6debb-3d1f-52d9-9de5-38af2fa58a99
 name: Gracie Felton
 identifiers: []
@@ -18,6 +16,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Gracie Felton
   status: active
+- contest_id: nc/2022-05-17/perquimans-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:perquimans-county/school
+  office_id: perquimans-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Gracie Felton
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -28,3 +33,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Hertford Board of Commissioners -- Evan Copeland (Nonpartisan) 178; Connie T. Brothers (Nonpartisan) 150; Andrew Almodova (Nonpartisan) 101; Gracie Felton (Nonpartisan) 90. Winners are the top 2 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): PERQUIMANS COUNTY BOARD OF EDUCATION -- Kristy Corprew (Nonpartisan) 769; Matt Winslow (Nonpartisan) 503; Anne White (Nonpartisan) 472; Brenda Wilson Huddleston (Nonpartisan) 322; Gracie Felton (Nonpartisan) 76; Dave Silva (Nonpartisan) 70. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Limited voting (S.L. 1993-21): the ballot instructs each voter to vote for one candidate, and the top 3 finishers fill the 3-seat class.'
+  retrieved: '2026-11-01'

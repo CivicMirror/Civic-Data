@@ -1,0 +1,28 @@
+id: ocd-person/4567c73f-8c45-51dc-b84d-16827bb9695a
+name: Catherine Bonds Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/cabarrus-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cabarrus-county/school
+  office_id: cabarrus-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Catherine Bonds Moore
+  status: active
+- contest_id: nc/2024-11-05/cabarrus-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cabarrus-county/school
+  office_id: cabarrus-county/school-board-at-large
+  party: Republican
+  ballot_name: Catherine Bonds Moore
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CABARRUS COUNTY SCHOOLS BOARD OF EDUCATION -- Laura Blackwell (Nonpartisan) 26,275; Sam Treadaway (Nonpartisan) 22,971; Pam Escobar (Nonpartisan) 22,261; Melanie Freeman (Nonpartisan) 18,196; Brian Floyd (Nonpartisan) 17,886; Catherine Bonds Moore (Nonpartisan) 15,243; Greg Mills (Nonpartisan) 14,331; Sean M. Turner (Nonpartisan) 12,646; Carolyn B. Carpenter (Nonpartisan) 12,633; Lane Jarvis (Nonpartisan) 4,402; James Q. McLean (Nonpartisan) 3,275; Keisha Sandidge (Write-In) 7. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CABARRUS COUNTY SCHOOLS BOARD OF EDUCATION -- Melanie Freeman (Republican) 53,248; Greg Mills (Republican) 50,544; Catherine Bonds Moore (Republican) 49,137; Robert (Rob) Walter (Republican) 49,053; Keshia Sandidge (Democratic) 41,224; Mishell Williams (Democratic) 40,464; Namu Kachroo (Democratic) 40,310; Rob Cerulo (Democratic) 37,046. Winners are the top 4 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

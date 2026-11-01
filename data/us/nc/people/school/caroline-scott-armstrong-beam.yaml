@@ -1,0 +1,18 @@
+id: ocd-person/462b1dc4-b96b-573c-b8f0-bd96fd60dd83
+name: Caroline Scott Armstrong Beam
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/stokes-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:stokes-county/school
+  office_id: stokes-county/school-board-at-large
+  party: Democratic
+  ballot_name: Caroline Scott Armstrong Beam
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): STOKES COUNTY BOARD OF EDUCATION -- Mike Rogers (Republican) 13,166; Justin Duncan (Republican) 12,554; Caroline Scott Armstrong Beam (Democratic) 5,139. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

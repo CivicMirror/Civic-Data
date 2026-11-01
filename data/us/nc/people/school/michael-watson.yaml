@@ -1,0 +1,18 @@
+id: ocd-person/b2019453-439a-55b0-80b1-61c1b3b9c70e
+name: Michael Watson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/charlotte-mecklenburg-school-board-district-6
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-district-6
+  party: Nonpartisan
+  ballot_name: Michael Watson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHARLOTTE-MECKLENBURG SCHOOLS BOARD OF EDUCATION DISTRICT 06 -- Summer Nunn (Nonpartisan) 23,588; Sean Strain (Nonpartisan) 16,899; Michael Watson (Nonpartisan) 13,124. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

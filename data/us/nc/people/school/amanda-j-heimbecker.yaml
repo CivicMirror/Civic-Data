@@ -1,0 +1,18 @@
+id: ocd-person/64512e9e-2c12-5654-9fc9-090cdc058eaf
+name: Amanda J. Heimbecker
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/gates-county-school-board-district-4
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gates-county/school
+  office_id: gates-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Amanda J. Heimbecker
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): GATES COUNTY BOARD OF EDUCATION DISTRICT 04 -- Terri R. Riddick (Nonpartisan) 1,678; Amanda J. Heimbecker (Nonpartisan) 520. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

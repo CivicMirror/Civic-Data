@@ -1,0 +1,28 @@
+id: ocd-person/972eedf3-8c6b-5ddd-9339-48ee9a79ea49
+name: Casey Lee
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/avery-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:avery-county/school
+  office_id: avery-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Casey Lee
+  status: active
+- contest_id: nc/2024-03-05/avery-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:avery-county/school
+  office_id: avery-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Casey Lee
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): AVERY COUNTY BOARD OF EDUCATION -- Randy Singleton (Nonpartisan) 1,900; Patricia (Pat) Edwards (Nonpartisan) 1,373; Linda Webb (Nonpartisan) 1,109; Dennis C. Brown (Nonpartisan) 1,054; Casey Lee (Nonpartisan) 1,048; Jane E. Bumgarner (Nonpartisan) 816; Dustin Trice (Nonpartisan) 450. Winners are the top 2 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): AVERY COUNTY BOARD OF EDUCATION -- Michelle Krege Burnop (Nonpartisan) 2,279; Linda Webb (Nonpartisan) 1,899; David Wright (Nonpartisan) 1,796; Casey Lee (Nonpartisan) 1,468; Jason Coleman (Nonpartisan) 992; Ivy Vance Stafford (Nonpartisan) 605; Jeffrey Keller (Nonpartisan) 506; Scott Stanford (Nonpartisan) 461. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

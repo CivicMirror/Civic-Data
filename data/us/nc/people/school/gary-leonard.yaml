@@ -1,0 +1,18 @@
+id: ocd-person/eaf3c69b-fcd4-5cad-858e-2250e6fd1c5a
+name: Gary Leonard
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/chatham-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:chatham-county/school
+  office_id: chatham-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Gary Leonard
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHATHAM COUNTY BOARD OF EDUCATION DISTRICT 05 -- Gary Leonard (Nonpartisan) 19,067; Timothy (Tim) Moore (Nonpartisan) 14,103. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

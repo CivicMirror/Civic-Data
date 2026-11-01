@@ -1,0 +1,18 @@
+id: ocd-person/a3bbcc30-a6ee-5fc9-ae4b-9e27aa81d6cf
+name: Nate Seedorf
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/gaston-county-school-board-south-point
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gaston-county/school
+  office_id: gaston-county/school-board-south-point
+  party: Nonpartisan
+  ballot_name: Nate Seedorf
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GASTON COUNTY BOARD OF EDUCATION SOUTH POINT TWP -- Tod Kinlaw (Nonpartisan) 26,754; Joe Green (Nonpartisan) 13,779; Lisa Smith (Nonpartisan) 7,579; Michelle Hughes (Nonpartisan) 7,362; Nate Seedorf (Nonpartisan) 1,114. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

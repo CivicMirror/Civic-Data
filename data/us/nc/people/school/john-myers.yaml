@@ -1,0 +1,18 @@
+id: ocd-person/7fc506fc-1fd5-545e-9aee-5d0cea38fd44
+name: John Myers
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/person-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:person-county/school
+  office_id: person-county/school-board-at-large
+  party: Write-In
+  ballot_name: John Myers
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PERSON COUNTY BOARD OF EDUCATION -- Margaret D. Bradsher (Nonpartisan) 11,939; Phillip Merritt Gillis (Nonpartisan) 10,910; Freda S. Tillman (Nonpartisan) 10,607; Harriett J. Tillett (Nonpartisan) 9,899; Jason E. Torian (Nonpartisan) 8,238; Jermaine Wallace (Nonpartisan) 7,039; Earl Gurtner (Nonpartisan) 4,567; Earl Brooks (Write-In) 21; Jason Howe (Write-In) 17; Kathryn Lawrence (Write-In) 5; John Myers (Write-In) 5. Winners are the top 5 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

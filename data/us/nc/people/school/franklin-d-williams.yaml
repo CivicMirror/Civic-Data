@@ -1,0 +1,18 @@
+id: ocd-person/44544576-9f68-59a1-850a-8a582551736b
+name: Franklin D. Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/northampton-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:northampton-county/school
+  office_id: northampton-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Franklin D. Williams
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): NORTHAMPTON COUNTY BOARD OF EDUCATION (UNEXPIRED) -- Clinton M. Williams (Nonpartisan) 2,578; Franklin D. Williams (Nonpartisan) 1,405. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

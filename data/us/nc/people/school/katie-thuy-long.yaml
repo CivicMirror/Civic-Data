@@ -1,0 +1,18 @@
+id: ocd-person/691d9e9a-61f3-5bb2-b34e-d02d618fd2fd
+name: Katie Thuy Long
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/wake-county-school-board-district-7
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: Katie Thuy Long
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 07 -- Chris Heagarty (Nonpartisan) 22,746; Jacob Arthur (Nonpartisan) 11,227; Katie Thuy Long (Nonpartisan) 9,183. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/54c11df4-a252-5895-aa44-1553d1f87559
+name: Melissa Key Atkinson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/surry-county-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:surry-county/school
+  office_id: surry-county/school-board-district-3
+  party: Unaffiliated
+  ballot_name: Melissa Key Atkinson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): SURRY COUNTY SCHOOLS BOARD OF EDUCATION DISTRICT 03 -- Kent Whitaker (Republican) 12,011; Melissa Key Atkinson (Unaffiliated) 6,330. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

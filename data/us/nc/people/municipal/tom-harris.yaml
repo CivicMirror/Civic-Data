@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/b9d3421a-3437-560a-859c-d9c54d1fe2a4
 name: Tom Harris
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Tom Harris
   status: active
+- contest_id: nc/2024-11-05/franklin-county-school-board-at-large-seat-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:franklin-county/school
+  office_id: franklin-county/school-board-at-large-seat-6
+  party: Nonpartisan
+  ballot_name: Tom Harris
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
   note: 'NC SBE 2025-10-07 results (Election Results series): Rocky Mount City Council, Ward 6 -- Tom Harris (Nonpartisan) 687; Chynice Cotten (Nonpartisan) 252. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): FRANKLIN COUNTY BOARD OF EDUCATION AT-LARGE SEAT 06 -- Tom Harris (Nonpartisan) 20,066; Tammy Raynor Petrosillo (Nonpartisan) 15,333. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

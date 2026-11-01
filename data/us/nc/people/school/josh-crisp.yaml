@@ -1,0 +1,18 @@
+id: ocd-person/e3ec849e-a9de-5ccf-9638-6e1c15ff7101
+name: Josh Crisp
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/gaston-county-school-board-dallas
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gaston-county/school
+  office_id: gaston-county/school-board-dallas
+  party: Nonpartisan
+  ballot_name: Josh Crisp
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GASTON COUNTY BOARD OF EDUCATION DALLAS TWP -- Josh Crisp (Nonpartisan) 37,002; Glenn Bratton (Nonpartisan) 19,578. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

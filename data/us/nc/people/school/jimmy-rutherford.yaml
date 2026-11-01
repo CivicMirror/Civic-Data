@@ -1,0 +1,18 @@
+id: ocd-person/cb90f817-2494-513b-9530-3a586968582a
+name: Jimmy Rutherford
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/alleghany-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alleghany-county/school
+  office_id: alleghany-county/school-board-at-large
+  party: Democratic
+  ballot_name: Jimmy Rutherford
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ALLEGHANY COUNTY BOARD OF EDUCATION -- Jason Williams (Republican) 3,803; Susan Todd Edwards (Republican) 3,610; Jimmy Rutherford (Democratic) 2,349; Brant Burgiss (Democratic) 1,594. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

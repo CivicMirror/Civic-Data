@@ -1,0 +1,18 @@
+id: ocd-person/69f0b44a-635d-5de1-bf5b-19d79fe5d9b0
+name: Tyler Dale Coates
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/madison-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:madison-county/school
+  office_id: madison-county/school-board-district-1
+  party: Republican
+  ballot_name: Tyler Dale Coates
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MADISON COUNTY BOARD OF EDUCATION DISTRICT 01 -- Tyler Dale Coates (Republican) 3,797; Kevin Barnette (Democratic) 3,363. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

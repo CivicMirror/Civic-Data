@@ -1,0 +1,18 @@
+id: ocd-person/0f771e37-51ae-535d-89e0-7572950a883f
+name: Joe Caudle
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/davie-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:davie-county/school
+  office_id: davie-county/school-board-at-large
+  party: Republican
+  ballot_name: Joe Caudle
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DAVIE COUNTY BOARD OF EDUCATION -- Marie Helms (Republican) 14,501; Joe Caudle (Republican) 14,405; Con Shelton (Republican) 14,208. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

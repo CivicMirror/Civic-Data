@@ -1,0 +1,18 @@
+id: ocd-person/5d964b7b-ec03-5e07-9429-257537c74bde
+name: Kerry Pennell
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mooresville-graded-school-board-at-large
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mooresville-graded/school
+  office_id: mooresville-graded/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Kerry Pennell
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): MOORESVILLE GRADED SCHOOL BOARD OF EDUCATION -- Debbie Marsh (Nonpartisan) 2,735; Kerry Pennell (Nonpartisan) 2,596; Monica Bender (Nonpartisan) 2,437; Theresa Knight (Nonpartisan) 2,157. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

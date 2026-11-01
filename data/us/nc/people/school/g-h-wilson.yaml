@@ -1,0 +1,18 @@
+id: ocd-person/05da5d6b-7fb0-51f3-9e90-0f5154de63d3
+name: G. H. Wilson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/sampson-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:sampson-county/school
+  office_id: sampson-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: G. H. Wilson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): SAMPSON COUNTY SCHOOLS BOARD OF EDUCATION -- Daryll Warren (Nonpartisan) 1,436; Kim Schmidlin (Nonpartisan) 1,395; E. Sonya Powell (Nonpartisan) 1,027; Robert Burley (Nonpartisan) 822; G. H. Wilson (Nonpartisan) 623. Winners are the top 4 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Limited voting (S.L. 1989-971): the ballot instructs each voter to vote for one candidate, and the top 4 finishers fill the 4-seat class.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

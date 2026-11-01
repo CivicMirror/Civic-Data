@@ -1,0 +1,18 @@
+id: ocd-person/4d03490d-7c8a-551a-9336-dcd3e647960c
+name: Steve Coleman
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/cherokee-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cherokee-county/school
+  office_id: cherokee-county/school-board-at-large
+  party: Republican
+  ballot_name: Steve Coleman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHEROKEE COUNTY BOARD OF EDUCATION AT-LARGE -- Steve Coleman (Republican) 10,063. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

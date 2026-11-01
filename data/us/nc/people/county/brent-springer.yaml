@@ -1,9 +1,3 @@
-# Machine-generated from NCSBE precinct-level election results
-# (2022 + 2024 general elections, merged for staggered boards) by
-# scripts/build_nc_counties.py, cross-checked against the NCACC's
-# official board-size table. verification.status is 'unverified':
-# this is real election data, but a mid-term resignation/appointment
-# since the election wouldn't be visible to this pipeline.
 id: ocd-person/9484643a-216d-5a1d-8665-ba863a776673
 name: Brent Springer
 identifiers: []
@@ -12,6 +6,13 @@ candidacies:
   election_id: nc/2024-11-05/general
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:pender/government
   office_id: pender/commissioner-district-5
+  party: Republican
+  ballot_name: Brent Springer
+  status: active
+- contest_id: nc/2022-11-08/pender-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pender-county/school
+  office_id: pender-county/school-board-district-1
   party: Republican
   ballot_name: Brent Springer
   status: active
@@ -25,3 +26,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Pender County Board Of Commissioners District 05 -- Brent Springer (REP) 27,972.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PENDER COUNTY BOARD OF EDUCATION DISTRICT 01 -- Brent Springer (Republican) 15,642; Sheree E. Shepard (Democratic) 7,541. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

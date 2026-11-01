@@ -1,0 +1,18 @@
+id: ocd-person/51ed1c2f-3bd6-5cff-8ed4-1d749da63234
+name: Jason Banks
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/currituck-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:currituck-county/school
+  office_id: currituck-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Jason Banks
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CURRITUCK COUNTY BOARD OF EDUCATION AT-LARGE (UNEXPIRED) -- Jason Banks (Nonpartisan) 8,826; Paul Beaumont (Nonpartisan) 5,091. Winners are the top 1 by total votes. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

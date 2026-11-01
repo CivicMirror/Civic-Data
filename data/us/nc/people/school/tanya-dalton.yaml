@@ -1,0 +1,18 @@
+id: ocd-person/de41fbc1-10f4-509a-9cab-6a355dc6c8cd
+name: Tanya Dalton
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/transylvania-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:transylvania-county/school
+  office_id: transylvania-county/school-board-at-large
+  party: Republican
+  ballot_name: Tanya Dalton
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): TRANSYLVANIA COUNTY BOARD OF EDUCATION -- Tanya Dalton (Republican) 8,508; Chris Wiener (Republican) 7,795; Marty Griffin (Democratic) 7,574; Paul Cooper (Democratic) 6,918. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

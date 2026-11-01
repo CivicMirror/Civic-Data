@@ -1,0 +1,18 @@
+id: ocd-person/b6a1692c-2eaa-53d3-8ab8-dacb153f9062
+name: James Motley
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/rockingham-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:rockingham-county/school
+  office_id: rockingham-county/school-board-district-2
+  party: Democratic
+  ballot_name: James Motley
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ROCKINGHAM COUNTY BOARD OF EDUCATION DISTRICT 02 -- Daniel Rakes (Republican) 10,088; James Motley (Democratic) 3,237. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/ef7369e5-5a5f-5460-b8a7-189e59810f2a
+name: Oscar Rodriguez
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/clinton-city-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:clinton-city/school
+  office_id: clinton-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Oscar Rodriguez
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): CLINTON CITY SCHOOLS BOARD OF EDUCATION -- Jeremy Edgerton (Nonpartisan) 866; Linda Strickland-Brunson (Nonpartisan) 722; Oscar Rodriguez (Nonpartisan) 387; Patrick D. Cooper (Nonpartisan) 384. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Limited voting (S.L. 1989-886): the ballot instructs each voter to vote for one candidate, and the top 3 finishers fill the 3-seat class.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

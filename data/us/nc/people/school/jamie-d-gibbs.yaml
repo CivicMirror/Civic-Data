@@ -1,0 +1,18 @@
+id: ocd-person/95b35ebf-aaab-5db7-b97d-2355b1d9b180
+name: Jamie D. Gibbs
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/pamlico-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pamlico-county/school
+  office_id: pamlico-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Jamie D. Gibbs
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): PAMLICO COUNTY BOARD OF EDUCATION AT-LARGE -- Jamie D. Gibbs (Nonpartisan) 1,757; Erik Smith (Nonpartisan) 1,560; Aaron Caroon (Nonpartisan) 1,337. Winners are the top 2 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

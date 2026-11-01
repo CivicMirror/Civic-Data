@@ -1,0 +1,18 @@
+id: ocd-person/063a192f-ca54-57ca-9834-0468344c62b1
+name: Randy Oxendine
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/vance-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:vance-county/school
+  office_id: vance-county/school-board-district-2
+  party: Democratic
+  ballot_name: Randy Oxendine
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): VANCE COUNTY BOARD OF EDUCATION DISTRICT 02 -- Randy Oxendine (Democratic) 1,000; Charlie Baskerville, Jr. (Unaffiliated) 579. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

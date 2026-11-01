@@ -1,0 +1,18 @@
+id: ocd-person/ac2cfaa4-0cad-5efb-8fa9-e6443b46f5b3
+name: Chuck Marsh
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/alamance-burlington-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alamance-burlington/school
+  office_id: alamance-burlington/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Chuck Marsh
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ALAMANCE-BURLINGTON BOARD OF EDUCATION -- Dan W. Ingle (Nonpartisan) 33,897; Charles Parker (Nonpartisan) 27,263; Chuck Marsh (Nonpartisan) 25,839; Seneca Rogers (Nonpartisan) 23,295; Avery Wagoner (Nonpartisan) 16,738; Leonard Harrison (Nonpartisan) 7,856. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

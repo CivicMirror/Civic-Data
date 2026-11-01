@@ -1,0 +1,18 @@
+id: ocd-person/ff195af2-af3d-52fd-907e-b7a4bc085fe0
+name: Jesse Bowles
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/alexander-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alexander-county/school
+  office_id: alexander-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Jesse Bowles
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ALEXANDER COUNTY BOARD OF EDUCATION DISTRICT 01 -- Jesse Bowles (Nonpartisan) 3,609; Kevin Weikle, Jr. (Nonpartisan) 1,538; Andrew Latchford (Nonpartisan) 685. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

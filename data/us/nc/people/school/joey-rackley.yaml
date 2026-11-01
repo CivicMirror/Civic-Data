@@ -1,0 +1,18 @@
+id: ocd-person/a59bf30e-bf2f-5244-8e9a-329234e4f7c3
+name: Joey Rackley
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/greene-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:greene-county/school
+  office_id: greene-county/school-board-at-large
+  party: Republican
+  ballot_name: Joey Rackley
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): GREENE COUNTY BOARD OF EDUCATION -- Brandon Johnson (Republican) 4,082; Joey Rackley (Republican) 3,783; Phyllis Burruss (Democratic) 3,253. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

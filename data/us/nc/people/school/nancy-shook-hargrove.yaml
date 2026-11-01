@@ -1,0 +1,18 @@
+id: ocd-person/4d03ac59-7dac-5bcb-bfde-ad614e1c0f82
+name: Nancy Shook Hargrove
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/buncombe-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:buncombe-county/school
+  office_id: buncombe-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Nancy Shook Hargrove
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BUNCOMBE COUNTY SCHOOLS BOARD OF EDUCATION DISTRICT 02 -- Greg Cheatham (Nonpartisan) 7,063; Nancy Shook Hargrove (Nonpartisan) 5,649; Sara Disher Ratliff (Nonpartisan) 5,341. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

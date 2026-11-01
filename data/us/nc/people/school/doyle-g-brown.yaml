@@ -1,0 +1,18 @@
+id: ocd-person/cb7b7b85-c6ee-5d54-ba50-04d9405731ed
+name: Doyle G. Brown
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/rutherford-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:rutherford-county/school
+  office_id: rutherford-county/school-board-district-1
+  party: Democratic
+  ballot_name: Doyle G. Brown
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): RUTHERFORD COUNTY BOARD OF EDUCATION DISTRICT 01 -- Angel King (Republican) 25,161; Doyle G. Brown (Democratic) 8,053. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

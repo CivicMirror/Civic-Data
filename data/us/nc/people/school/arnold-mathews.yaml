@@ -1,0 +1,18 @@
+id: ocd-person/9fc6ddf4-92b7-59bd-91a2-21faa1c40077
+name: Arnold Mathews
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/cherokee-county-school-board-district-ii
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cherokee-county/school
+  office_id: cherokee-county/school-board-district-ii
+  party: Republican
+  ballot_name: Arnold Mathews
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CHEROKEE COUNTY BOARD OF EDUCATION DISTRICT II -- Arnold Mathews (Republican) 11,918; Paul Wade Wilson (Unaffiliated) 4,693. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

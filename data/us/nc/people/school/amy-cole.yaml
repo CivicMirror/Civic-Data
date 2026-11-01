@@ -1,0 +1,18 @@
+id: ocd-person/924a6e51-df6c-5444-854d-b19e567d2281
+name: Amy Cole
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/pitt-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pitt-county/school
+  office_id: pitt-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Amy Cole
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PITT COUNTY BOARD OF EDUCATION DISTRICT 02 -- Amy Cole (Nonpartisan) 2,391; Julianna Jaquith (Nonpartisan) 1,669. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

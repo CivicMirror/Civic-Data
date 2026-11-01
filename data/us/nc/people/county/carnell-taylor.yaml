@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/de3dc0b4-fea3-5157-8340-5228d69bc131
 name: Carnell Taylor
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Carnell Taylor
   status: active
+- contest_id: nc/2024-11-05/nash-county-school-board-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-3
+  party: Write-In
+  ballot_name: Carnell Taylor
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Nash County Board Of Commissioners District 03 -- Freddy Howell (REP) 4,530; Carnell Taylor (DEM) 2,659.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NASH COUNTY BOARD OF EDUCATION DISTRICT 03 -- Franklin Lamm (Nonpartisan) 3,744; Dean Edwards (Nonpartisan) 2,481; Carnell Taylor (Write-In) 9. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

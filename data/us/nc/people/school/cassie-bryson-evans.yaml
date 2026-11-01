@@ -1,0 +1,18 @@
+id: ocd-person/4f095c0c-6970-541c-8dc4-b046f3bc58b0
+name: Cassie Bryson-Evans
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/gaston-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gaston-county/school
+  office_id: gaston-county/school-board-at-large
+  party: Write-In
+  ballot_name: Cassie Bryson-Evans
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GASTON COUNTY BOARD OF EDUCATION AT-LARGE -- Dot Cherry (Nonpartisan) 50,153; Cassie Bryson-Evans (Write-In) 309. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

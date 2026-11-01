@@ -1,0 +1,18 @@
+id: ocd-person/65e14293-4ae3-5234-bccf-638499c82fef
+name: Valarie Tina Jarvis
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/durham-county-school-board-district-4
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:durham-county/school
+  office_id: durham-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Valarie Tina Jarvis
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): DURHAM COUNTY BOARD OF EDUCATION DISTRICT 04 -- Natalie Beyer (Nonpartisan) 7,488; Valarie Tina Jarvis (Nonpartisan) 4,162; Myca Jeter (Nonpartisan) 3,697. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

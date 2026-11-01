@@ -1,0 +1,18 @@
+id: ocd-person/25bfa0ce-2c70-5434-baed-3782b876be95
+name: Travis Hyatt
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/swain-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:swain-county/school
+  office_id: swain-county/school-board-at-large
+  party: Democratic
+  ballot_name: Travis Hyatt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): SWAIN COUNTY BOARD OF EDUCATION -- R.L Taylor (Republican) 2,364; Lisa Stoltzfus Loftis (Republican) 2,335; Travis Hyatt (Democratic) 2,060; Jamie Fisher (Democratic) 1,792. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

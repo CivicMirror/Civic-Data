@@ -1,0 +1,18 @@
+id: ocd-person/03c22129-fb21-591d-b0f8-e7248d844cef
+name: Rick Robson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/jackson-county-school-board-district-5
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jackson-county/school
+  office_id: jackson-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Rick Robson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): JACKSON COUNTY BOARD OF EDUCATION DISTRICT 05 -- Lynn Dillard (Nonpartisan) 2,572; Joy Rose (Nonpartisan) 1,745; Sarah Ann Peterkin (Nonpartisan) 1,245; Rick Robson (Nonpartisan) 1,057. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/a784dfec-6c11-5248-b231-9ff0df413989
+name: Sarah Smylie
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/orange-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:orange-county/school
+  office_id: orange-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Sarah Smylie
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): ORANGE COUNTY SCHOOLS BOARD OF EDUCATION -- Andre Richmond (Nonpartisan) 8,687; Will Atherton (Nonpartisan) 7,157; Anne Purcell (Nonpartisan) 7,147; Sarah Smylie (Nonpartisan) 6,926; Ashley Wheeler (Nonpartisan) 6,476; Penny Carter King (Nonpartisan) 5,792; Bethni Lee (Nonpartisan) 2,596; Garen McClure (Nonpartisan) 591; Clare Brennan (Write-In) 5. Winners are the top 4 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

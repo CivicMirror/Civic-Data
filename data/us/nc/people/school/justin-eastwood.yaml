@@ -1,0 +1,18 @@
+id: ocd-person/29f5f929-da03-5f76-9075-2a75ebf45eb8
+name: Justin Eastwood
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pitt-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pitt-county/school
+  office_id: pitt-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Justin Eastwood
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PITT COUNTY BOARD OF EDUCATION DISTRICT 04 -- Justin Eastwood (Nonpartisan) 4,832; Desha Lane (Nonpartisan) 3,904. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

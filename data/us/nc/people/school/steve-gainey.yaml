@@ -1,0 +1,18 @@
+id: ocd-person/74e3deb6-9f4c-52ef-87bd-c3fcbc754303
+name: Steve Gainey
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/brunswick-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:brunswick-county/school
+  office_id: brunswick-county/school-board-district-5
+  party: Republican
+  ballot_name: Steve Gainey
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BRUNSWICK COUNTY BOARD OF EDUCATION DISTRICT 05 -- Steve Gainey (Republican) 45,756; Cameron D. Hankins (Democratic) 25,769. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

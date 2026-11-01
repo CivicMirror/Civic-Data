@@ -1,0 +1,18 @@
+id: ocd-person/93b330c8-3842-55c7-a5a1-938de5210392
+name: Scott Murphy
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/craven-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:craven-county/school
+  office_id: craven-county/school-board-district-2
+  party: Republican
+  ballot_name: Scott Murphy
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CRAVEN COUNTY BOARD OF EDUCATION DISTRICT 02 -- Scott Murphy (Republican) 3,872; Loren Gatling Wilson (Democratic) 2,154. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

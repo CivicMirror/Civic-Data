@@ -1,0 +1,18 @@
+id: ocd-person/74243c45-b7b8-51fa-8e4b-e0ae3e9dcb93
+name: Crissy Pratt
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/guilford-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:guilford-county/school
+  office_id: guilford-county/school-board-district-2
+  party: Republican
+  ballot_name: Crissy Pratt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GUILFORD COUNTY BOARD OF EDUCATION DISTRICT 02 -- Crissy Pratt (Republican) 13,706; Amanda Cook (Democratic) 9,781. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,28 @@
+id: ocd-person/bdbce6da-1f84-507e-9f42-fa66ac92e61f
+name: Weston Burroughs
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/union-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:union-county/school
+  office_id: union-county/school-board-at-large
+  party: Democratic
+  ballot_name: Weston Burroughs
+  status: active
+- contest_id: nc/2024-11-05/union-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:union-county/school
+  office_id: union-county/school-board-at-large
+  party: Democratic
+  ballot_name: Weston Burroughs
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): UNION COUNTY BOARD OF EDUCATION AT-LARGE -- Jimmy H. Bention, Sr. (Republican) 57,636; Weston Burroughs (Democratic) 31,249. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): UNION COUNTY BOARD OF EDUCATION AT-LARGE -- Sarah May (Republican) 76,168; Todd F. Price (Republican) 71,859; Liz Holmes Baxter (Democratic) 46,839; Weston Burroughs (Democratic) 35,698. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

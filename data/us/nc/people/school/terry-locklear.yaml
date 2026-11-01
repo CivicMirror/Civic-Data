@@ -1,0 +1,48 @@
+id: ocd-person/acb6f476-cc03-50c5-8e3d-449412dadf2e
+name: Terry Locklear
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/robeson-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-at-large
+  party: Write-In
+  ballot_name: Terry Locklear
+  status: active
+- contest_id: nc/2024-03-05/robeson-county-school-board-district-4
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-district-4
+  party: Write-In
+  ballot_name: Terry Locklear
+  status: active
+- contest_id: nc/2024-03-05/robeson-county-school-board-district-5
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-district-5
+  party: Write-In
+  ballot_name: Terry Locklear
+  status: active
+- contest_id: nc/2024-03-05/robeson-county-school-board-district-6
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-district-6
+  party: Write-In
+  ballot_name: Terry Locklear
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION AT-LARGE -- Vonta Leach (Nonpartisan) 3,892; Kristy D. Fields (Nonpartisan) 2,616; henry Brewer (Nonpartisan) 1,911; Evan Davenport (Nonpartisan) 1,779; William T. Gentry (Nonpartisan) 1,722; Brenda S. Fairley Ferebee (Nonpartisan) 559; Karen Schwanger (Nonpartisan) 360; Bradley Phillips (Write-In) 11; Crystal Monroe (Write-In) 11; Terry Locklear (Write-In) 8; Rodney Hunt (Write-In) 7; Ellione Mcqeen (Write-In) 5; Gerome Hunt (Write-In) 2. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION DISTRICT 04 -- Terry B. Locklear (Nonpartisan) 1,250; Jerome Hunt (Nonpartisan) 747; Terry Locklear (Write-In) 2; Ellion Mcqueen (Write-In) 2. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION DISTRICT 05 -- Craig Lowry (Nonpartisan) 963; Terry Locklear (Write-In) 5; Gerome Hunt (Write-In) 1. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION DISTRICT 06 (UNEXPIRED) -- Crystal Weindel Monroe (Nonpartisan) 1,111; Ellion Donta McQueen (Nonpartisan) 478; Terry Locklear (Write-In) 3; Gerome Hunt (Write-In) 2. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

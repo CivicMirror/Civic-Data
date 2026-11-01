@@ -1,0 +1,18 @@
+id: ocd-person/17f17487-cfc8-5b5e-85c9-e0d453b7edf4
+name: Marvin Arrington
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/nash-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-1
+  party: Write-In
+  ballot_name: Marvin Arrington
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NASH COUNTY BOARD OF EDUCATION DISTRICT 01 -- Doneva Chavis (Nonpartisan) 5,152; Marvin Arrington (Write-In) 6; Timothy Engelking (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

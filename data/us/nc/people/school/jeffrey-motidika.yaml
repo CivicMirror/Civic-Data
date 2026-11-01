@@ -1,0 +1,18 @@
+id: ocd-person/be5a5606-73cb-5670-89e6-fa6a7ce3a597
+name: Jeffrey Motidika
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pasquotank-county-school-board-inside-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pasquotank-county/school
+  office_id: pasquotank-county/school-board-inside-member
+  party: Write-In
+  ballot_name: Jeffrey Motidika
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PASQUOTANK COUNTY BOARD OF EDUCATION INSIDE MEMBER -- Shelia Hughes Williams (Nonpartisan) 14,406; Jeffrey Motidika (Write-In) 10; Virginia Wassenburg (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

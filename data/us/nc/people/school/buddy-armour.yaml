@@ -1,0 +1,18 @@
+id: ocd-person/9835ec35-63c4-5c52-a24b-bb36937bf722
+name: Buddy Armour
+identifiers: []
+candidacies:
+- contest_id: nc/2021-11-02/burke-county-school-board-central
+  election_id: nc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:burke-county/school
+  office_id: burke-county/school-board-central
+  party: Nonpartisan
+  ballot_name: Buddy Armour
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2021_11_02/results_pct_20211102.zip
+  note: 'NC SBE 2021-11-02 results (Election Results series): BURKE COUNTY BOARD OF EDUCATION CENTRAL DISTRICT -- Tiana Sims (Nonpartisan) 5,224; Buddy Armour (Nonpartisan) 4,392. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

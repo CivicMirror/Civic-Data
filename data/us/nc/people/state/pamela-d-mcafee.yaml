@@ -1,6 +1,3 @@
-# Minted from the NC State Board of Elections official Nov. 5, 2024
-# general election results (General Assembly pass, Civic-Data
-# issue #172).
 id: ocd-person/394f003c-8796-50cd-9870-2ca38f23d75c
 name: Pamela D. McAfee
 identifiers: []
@@ -12,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Pamela D. McAfee
   status: active
+- contest_id: nc/2023-11-07/lexington-city-school-board-ward-2
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-ward-2
+  party: Nonpartisan
+  ballot_name: Pamela D. McAfee
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_general_assembly
@@ -19,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 81 -- Larry W. Potts (REP) 33,971; Pamela D. McAfee (DEM) 13,293. Larry W. Potts won with 33,971 votes.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION WARD 02 -- Katherine Grindstaff Hinkle (Nonpartisan) 158; Pamela D. McAfee (Nonpartisan) 39. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

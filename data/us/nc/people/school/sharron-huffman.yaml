@@ -1,0 +1,18 @@
+id: ocd-person/e1ff0d6c-a334-569a-b65c-f3edfa6916a0
+name: Sharron Huffman
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/wilkes-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wilkes-county/school
+  office_id: wilkes-county/school-board-at-large
+  party: Write-In
+  ballot_name: Sharron Huffman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): WILKES COUNTY BOARD OF EDUCATION -- Donna M. Cotton (Nonpartisan) 8,653; T. Kirk Walker (Nonpartisan) 7,828; Joan Sheets Caudill (Nonpartisan) 7,007; Robert Doyle (Nonpartisan) 6,270; Teresa Ray (Nonpartisan) 4,476; Paula Farmer (Write-In) 11; Sharron Huffman (Write-In) 9; Tristan Kuhnemann (Write-In) 5; Jerry Ellis (Write-In) 5. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

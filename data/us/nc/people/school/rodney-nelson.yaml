@@ -1,0 +1,18 @@
+id: ocd-person/176e7ae7-9838-58f1-bce0-19a9cbc45ffd
+name: Rodney Nelson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/graham-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:graham-county/school
+  office_id: graham-county/school-board-at-large
+  party: Republican
+  ballot_name: Rodney Nelson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): GRAHAM COUNTY BOARD OF EDUCATION -- Eddie Howell (Republican) 3,301; Corey Snider (Republican) 3,164; Rodney Nelson (Republican) 2,930; Robert Anderson (Unaffiliated) 1,381. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

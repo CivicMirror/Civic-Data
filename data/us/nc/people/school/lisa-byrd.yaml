@@ -1,0 +1,18 @@
+id: ocd-person/0ddfc43e-b504-5f83-ba81-f000bb72a455
+name: Lisa Byrd
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/jones-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jones-county/school
+  office_id: jones-county/school-board-at-large
+  party: Republican
+  ballot_name: Lisa Byrd
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): JONES COUNTY BOARD OF EDUCATION -- Debbie Philyaw (Republican) 2,061; Larry Walston (Republican) 2,026; Lisa Byrd (Republican) 1,926; Myron P. Meadows (Democratic) 1,452; Mary Ann Coward (Democratic) 1,416; Michael Wilder (Democratic) 1,259. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/d09b3087-ecc9-5860-888c-a1cd2171b876
 name: John Lee
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: John Lee
   status: active
+- contest_id: nc/2024-11-05/cumberland-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cumberland-county/school
+  office_id: cumberland-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: John Lee
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Seven Springs Board of Commissioners -- Tony Gordon (Nonpartisan) 12; John Lee (Nonpartisan) 5. Winners are the top 2 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CUMBERLAND COUNTY BOARD OF EDUCATION DISTRICT 02 -- Deanna Turner Jones (Nonpartisan) 9,645; John Lee (Nonpartisan) 4,112. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

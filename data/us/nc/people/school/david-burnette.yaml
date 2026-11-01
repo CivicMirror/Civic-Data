@@ -1,0 +1,18 @@
+id: ocd-person/c88b9a1f-4afe-50b7-a179-06b490aefc97
+name: David Burnette
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/haywood-county-school-board-beaverdam
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:haywood-county/school
+  office_id: haywood-county/school-board-beaverdam
+  party: Nonpartisan
+  ballot_name: David Burnette
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HAYWOOD COUNTY BOARD OF EDUCATION BEAVERDAM DISTRICT -- David Burnette (Nonpartisan) 22,682; Ronnie D. Clark (Nonpartisan) 20,764; Nathan Roberto (Nonpartisan) 7,252. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

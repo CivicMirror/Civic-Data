@@ -1,0 +1,18 @@
+id: ocd-person/4f82a536-99f7-55a6-8593-522dadcce3a3
+name: Rick Singletary
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/scotland-county-school-board-stewartsville
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:scotland-county/school
+  office_id: scotland-county/school-board-stewartsville
+  party: Nonpartisan
+  ballot_name: Rick Singletary
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): SCOTLAND COUNTY BOARD OF EDUCATION STEWARTSVILLE TWP -- Rick Singletary (Nonpartisan) 8,200; Tony Spaulding (Nonpartisan) 6,242; Amy Peele Sloop (Nonpartisan) 6,137. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

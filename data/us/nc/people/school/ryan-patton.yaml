@@ -1,0 +1,18 @@
+id: ocd-person/6d739098-eef2-51f7-8463-95a1bafec37d
+name: Ryan Patton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/asheboro-city-school-board-at-large
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:asheboro-city/school
+  office_id: asheboro-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Ryan Patton
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): ASHEBORO CITY SCHOOLS BOARD OF EDUCATION -- Melissa Calloway (Nonpartisan) 1,311; Ryan Patton (Nonpartisan) 1,255; Gidget Kidd (Nonpartisan) 1,209; Gwen Williams (Nonpartisan) 949; Todd Dulaney (Nonpartisan) 652. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

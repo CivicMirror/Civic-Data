@@ -1,0 +1,28 @@
+id: ocd-person/fe3c3622-5175-5001-b1e6-919d57452343
+name: Clayton C. Mullis
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/catawba-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:catawba-county/school
+  office_id: catawba-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Clayton C. Mullis
+  status: active
+- contest_id: nc/2024-11-05/catawba-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:catawba-county/school
+  office_id: catawba-county/school-board-at-large
+  party: Republican
+  ballot_name: Clayton C. Mullis
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CATAWBA COUNTY SCHOOLS BOARD OF EDUCATION -- Michelle Teague (Nonpartisan) 15,422; Don Sigmon (Nonpartisan) 14,993; Tim Settlemyre (Nonpartisan) 11,997; Leslie H. Barnette (Nonpartisan) 11,334; Kathy Kelly (Nonpartisan) 11,302; Becky Brittain (Nonpartisan) 10,332; Glenn L. Fulbright (Nonpartisan) 10,306; Steve Morgan (Nonpartisan) 10,161; Chris Gibbs (Nonpartisan) 8,398; Nick Huffman (Nonpartisan) 7,856; Clayton C. Mullis (Nonpartisan) 7,847; Chris (Chopper) Fulbright (Nonpartisan) 7,562. Winners are the top 4 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CATAWBA COUNTY SCHOOLS BOARD OF EDUCATION -- David W. Goforth (Republican) 39,427; April Underwood (Republican) 38,471; Clayton C. Mullis (Republican) 36,061; Jeff Taylor (Democratic) 18,452; Eric M. Scott (Libertarian) 5,581. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,28 @@
+id: ocd-person/5b0f47b8-2b92-5c93-89d8-25729050d415
+name: Anthony (Tony) Sawyer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/pasquotank-county-school-board-outside
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pasquotank-county/school
+  office_id: pasquotank-county/school-board-outside
+  party: Nonpartisan
+  ballot_name: Anthony (Tony) Sawyer
+  status: active
+- contest_id: nc/2024-11-05/pasquotank-county-school-board-outside-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pasquotank-county/school
+  office_id: pasquotank-county/school-board-outside-member
+  party: Nonpartisan
+  ballot_name: Anthony (Tony) Sawyer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PASQUOTANK COUNTY BOARD OF EDUCATION OUTSIDE CORPORATE LIMIT -- Sharon J. Warden (Nonpartisan) 5,751; Tommy Old (Nonpartisan) 4,991; Anthony (Tony) Sawyer (Nonpartisan) 3,676; George Archuleta (Nonpartisan) 3,401; Andrea Leigh Rosewall (Nonpartisan) 2,822. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PASQUOTANK COUNTY BOARD OF EDUCATION OUTSIDE MEMBER -- Valerie Poole Bogues (Nonpartisan) 9,796; Anthony (Tony) Sawyer (Nonpartisan) 6,977; Jonathan Meads (Write-In) 6; Christopher Gavoni (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

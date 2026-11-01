@@ -1,0 +1,18 @@
+id: ocd-person/8635db96-b7a2-5fad-844e-611d431ef84c
+name: W.G. (Dub) Potts
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/davie-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:davie-county/school
+  office_id: davie-county/school-board-at-large
+  party: Republican
+  ballot_name: W.G. (Dub) Potts
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DAVIE COUNTY BOARD OF EDUCATION -- Jeff Jones (Republican) 21,644; W.G. (Dub) Potts (Republican) 21,375; Michael Hunter (Republican) 21,309; Stephanie Hurst (Republican) 21,235. Winners are the top 4 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

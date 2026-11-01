@@ -1,0 +1,18 @@
+id: ocd-person/0c2a1c34-dac7-5bca-b374-b3c7c229372c
+name: Mike Graham
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/haywood-county-school-board-bethel
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:haywood-county/school
+  office_id: haywood-county/school-board-bethel
+  party: Nonpartisan
+  ballot_name: Mike Graham
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): HAYWOOD COUNTY BOARD OF EDUCATION BETHEL DISTRICT -- Larry D. Henson (Nonpartisan) 14,001; Mike Graham (Nonpartisan) 7,176. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

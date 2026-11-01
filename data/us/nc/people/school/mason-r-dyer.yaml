@@ -1,0 +1,18 @@
+id: ocd-person/8c3eae87-7313-58d7-994d-984ec5c84c8e
+name: Mason R. Dyer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/greene-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:greene-county/school
+  office_id: greene-county/school-board-at-large
+  party: Republican
+  ballot_name: Mason R. Dyer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GREENE COUNTY BOARD OF EDUCATION -- Mason R. Dyer (Republican) 3,641; Darius Shackleford (Democratic) 2,577; Leisa Edwards Batts (Democratic) 2,439; Lynne Blow (Democratic) 2,280. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

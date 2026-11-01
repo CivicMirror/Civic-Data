@@ -1,0 +1,18 @@
+id: ocd-person/25bd1d3e-5e25-53a3-99c6-b9af433166f7
+name: Sarah Absher
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/winston-salem-forsyth-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:winston-salem-forsyth-county/school
+  office_id: winston-salem-forsyth-county/school-board-at-large
+  party: Republican
+  ballot_name: Sarah Absher
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): FORSYTH COUNTY BOARD OF EDUCATION AT-LARGE -- Deanna Kaplan (Democratic) 66,900; Sabrina Coone-Godfrey (Democratic) 65,417; Richard Watts (Democratic) 65,288; Sarah Absher (Republican) 55,785; Allen Daniel (Republican) 53,721; Michael Hardman (Republican) 53,481; Regina Garner (Libertarian) 9,484. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

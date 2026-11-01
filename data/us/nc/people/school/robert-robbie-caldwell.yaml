@@ -1,0 +1,18 @@
+id: ocd-person/fe202aa4-f931-5737-8126-8bdc22949a9d
+name: Robert (Robbie) Caldwell
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/clay-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:clay-county/school
+  office_id: clay-county/school-board-at-large
+  party: Republican
+  ballot_name: Robert (Robbie) Caldwell
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CLAY COUNTY BOARD OF EDUCATION -- Jason Shook (Republican) 3,932; Kelly L. Crawford (Republican) 3,913; Robert (Robbie) Caldwell (Republican) 3,608; Glenn Marcel (Unaffiliated) 1,569. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

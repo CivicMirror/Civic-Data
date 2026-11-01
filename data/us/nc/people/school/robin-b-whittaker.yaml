@@ -1,0 +1,18 @@
+id: ocd-person/92f5d844-21a1-5d21-873f-b212be4720e6
+name: Robin B. Whittaker
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/stanly-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:stanly-county/school
+  office_id: stanly-county/school-board-at-large
+  party: Republican
+  ballot_name: Robin B. Whittaker
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): STANLY COUNTY BOARD OF EDUCATION AT-LARGE -- Robin B. Whittaker (Republican) 19,168. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

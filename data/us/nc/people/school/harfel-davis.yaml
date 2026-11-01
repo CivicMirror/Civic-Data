@@ -1,0 +1,18 @@
+id: ocd-person/f9e553b8-00d5-5377-a0ed-28e0f8a2fbb8
+name: Harfel Davis
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/bladen-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:bladen-county/school
+  office_id: bladen-county/school-board-at-large
+  party: Democratic
+  ballot_name: Harfel Davis
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BLADEN COUNTY BOARD OF EDUCATION COUNTY-WIDE -- Dennis R. Edwards (Republican) 3,652; Harfel Davis (Democratic) 2,450; Steve Kwiatkowski (Republican) 1,708; Cory Singletary (Democratic) 1,584; C. Smith (Write-In) 977; Vince Rozier (Democratic) 894. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

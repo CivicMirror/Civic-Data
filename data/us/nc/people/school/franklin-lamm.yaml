@@ -1,0 +1,18 @@
+id: ocd-person/1f23a3e9-4afe-5c61-814c-cbaf6228c849
+name: Franklin Lamm
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/nash-county-school-board-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-3
+  party: Nonpartisan
+  ballot_name: Franklin Lamm
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NASH COUNTY BOARD OF EDUCATION DISTRICT 03 -- Franklin Lamm (Nonpartisan) 3,744; Dean Edwards (Nonpartisan) 2,481; Carnell Taylor (Write-In) 9. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

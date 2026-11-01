@@ -1,0 +1,18 @@
+id: ocd-person/ad5094ec-e9c9-50e4-a78e-d8a5919f9619
+name: Tina Harris
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/madison-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:madison-county/school
+  office_id: madison-county/school-board-district-2
+  party: Democratic
+  ballot_name: Tina Harris
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MADISON COUNTY BOARD OF EDUCATION DISTRICT 02 -- John H. Bratz (Republican) 3,199; Tina Harris (Democratic) 2,990. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

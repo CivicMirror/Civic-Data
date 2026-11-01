@@ -1,0 +1,18 @@
+id: ocd-person/80fa14a5-1a90-5922-ac5d-16138f199119
+name: William (BJ) Fore
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/caldwell-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:caldwell-county/school
+  office_id: caldwell-county/school-board-at-large
+  party: Republican
+  ballot_name: William (BJ) Fore
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CALDWELL COUNTY BOARD OF EDUCATION -- Teresa Branch (Republican) 20,556; Joe Sims (Republican) 19,544; William (BJ) Fore (Republican) 19,323; Mark Gerson (Republican) 17,918; Elaine Setzer-Maxwell (Democratic) 8,932. Winners are the top 4 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

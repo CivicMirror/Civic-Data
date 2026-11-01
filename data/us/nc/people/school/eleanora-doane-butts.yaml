@@ -1,0 +1,28 @@
+id: ocd-person/b488c3cf-fa24-55b1-a047-d4ca8a6e086b
+name: Eleanora Doane-Butts
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/camden-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:camden-county/school
+  office_id: camden-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Eleanora Doane-Butts
+  status: active
+- contest_id: nc/2024-11-05/camden-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:camden-county/school
+  office_id: camden-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Eleanora Doane-Butts
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CAMDEN COUNTY BOARD OF EDUCATION -- Jason A. Banks (Nonpartisan) 2,929; Chris Purcell (Nonpartisan) 2,429; Magen Brinson Oneal (Nonpartisan) 2,087; Eleanora Doane-Butts (Nonpartisan) 1,424; Whitney (Sissy) Aydlett (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CAMDEN COUNTY BOARD OF EDUCATION -- Christian A. Overton (Nonpartisan) 3,332; Adam High (Nonpartisan) 2,271; Eleanora Doane-Butts (Nonpartisan) 1,954; Dalford Briley (Nonpartisan) 666. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

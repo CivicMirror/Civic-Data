@@ -1,0 +1,18 @@
+id: ocd-person/77efdd2a-7f2c-532c-bcf9-0e15ead0ba2a
+name: William (Bill) Dobney
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/currituck-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:currituck-county/school
+  office_id: currituck-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: William (Bill) Dobney
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CURRITUCK COUNTY BOARD OF EDUCATION AT-LARGE -- Will Crodick (Nonpartisan) 4,255; Jason E. Banks (Nonpartisan) 2,220; William (Bill) Dobney (Nonpartisan) 2,013; Alice Cohen Newbern (Nonpartisan) 1,644. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

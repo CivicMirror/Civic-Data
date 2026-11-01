@@ -1,0 +1,18 @@
+id: ocd-person/ea054505-ce03-5b1e-a0f2-3751b1d02b58
+name: Sheree E. Shepard
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/pender-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pender-county/school
+  office_id: pender-county/school-board-district-1
+  party: Democratic
+  ballot_name: Sheree E. Shepard
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PENDER COUNTY BOARD OF EDUCATION DISTRICT 01 -- Brent Springer (Republican) 15,642; Sheree E. Shepard (Democratic) 7,541. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/7aa7bf69-b117-56aa-9ea4-6d6612a2e0a7
+name: George Lewis
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/edenton-chowan-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:edenton-chowan/school
+  office_id: edenton-chowan/school-board-at-large
+  party: Nonpartisan
+  ballot_name: George Lewis
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): EDENTON-CHOWAN SCHOOLS BOARD OF EDUCATION AT-LARGE -- George Lewis (Nonpartisan) 2,858; Maxine Mason (Nonpartisan) 2,027. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

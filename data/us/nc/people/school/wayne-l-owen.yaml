@@ -1,0 +1,18 @@
+id: ocd-person/6190e608-232f-5992-ae62-b0f445001ded
+name: Wayne L. Owen
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/caswell-county-school-board-district-2
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:caswell-county/school
+  office_id: caswell-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Wayne L. Owen
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): CASWELL COUNTY BOARD OF EDUCATION DISTRICT 02 -- Joel Lillard (Nonpartisan) 404; Wayne L. Owen (Nonpartisan) 305. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

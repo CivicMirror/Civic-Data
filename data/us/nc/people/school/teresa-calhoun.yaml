@@ -1,0 +1,18 @@
+id: ocd-person/da04b287-8384-5600-8f59-168cd58245ca
+name: Teresa Calhoun
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/ashe-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:ashe-county/school
+  office_id: ashe-county/school-board-at-large
+  party: Republican
+  ballot_name: Teresa Calhoun
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ASHE COUNTY BOARD OF EDUCATION -- Josh Roten (Republican) 10,934; Teresa Calhoun (Republican) 7,473; Kim Simmons (Unaffiliated) 5,662; James McNeill (Democratic) 3,634. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

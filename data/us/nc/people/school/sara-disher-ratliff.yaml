@@ -1,0 +1,38 @@
+id: ocd-person/0a1efbfe-ff78-5e89-8edd-ffe6a56d2676
+name: Sara Disher Ratliff
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/buncombe-county-school-board-reynolds
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:buncombe-county/school
+  office_id: buncombe-county/school-board-reynolds
+  party: Nonpartisan
+  ballot_name: Sara Disher Ratliff
+  status: active
+- contest_id: nc/2024-11-05/buncombe-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:buncombe-county/school
+  office_id: buncombe-county/school-board-at-large
+  party: Write-In
+  ballot_name: Sara Disher Ratliff
+  status: active
+- contest_id: nc/2024-11-05/buncombe-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:buncombe-county/school
+  office_id: buncombe-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Sara Disher Ratliff
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BUNCOMBE COUNTY SCHOOLS BOARD OF EDUCATION REYNOLDS -- Rob Elliot (Nonpartisan) 38,702; Sara Disher Ratliff (Nonpartisan) 35,942. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BUNCOMBE COUNTY SCHOOLS BOARD OF EDUCATION AT-LARGE -- Charles Martin (Nonpartisan) 51,377; Glenda P. Weinert (Nonpartisan) 34,551; Arria Williams (Nonpartisan) 14,062; Greg Parks (Write-In) 63; Sara Disher Ratliff (Write-In) 43; Jim Fulton (Write-In) 28; Greg Cheatham (Write-In) 18; Ann B. Franklin (Write-In) 13; Amy Churchill (Write-In) 11; Nancy Hargrove (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BUNCOMBE COUNTY SCHOOLS BOARD OF EDUCATION DISTRICT 02 -- Greg Cheatham (Nonpartisan) 7,063; Nancy Shook Hargrove (Nonpartisan) 5,649; Sara Disher Ratliff (Nonpartisan) 5,341. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

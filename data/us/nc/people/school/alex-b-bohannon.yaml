@@ -1,0 +1,18 @@
+id: ocd-person/dff527b9-8bc4-5f78-a39c-f3c1040b95d2
+name: Alex B. Bohannon
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/winston-salem-forsyth-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:winston-salem-forsyth-county/school
+  office_id: winston-salem-forsyth-county/school-board-district-1
+  party: Democratic
+  ballot_name: Alex B. Bohannon
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): FORSYTH COUNTY BOARD OF EDUCATION DISTRICT 01 -- Alex B. Bohannon (Democratic) 19,902; Trevonia (BG) Brown-Gaither (Democratic) 19,101. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/1f5bc649-1677-5fab-b115-19b6303e5dbd
+name: Jimmy H. Bention, Sr.
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/union-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:union-county/school
+  office_id: union-county/school-board-at-large
+  party: Republican
+  ballot_name: Jimmy H. Bention, Sr.
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): UNION COUNTY BOARD OF EDUCATION AT-LARGE -- Jimmy H. Bention, Sr. (Republican) 57,636; Weston Burroughs (Democratic) 31,249. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

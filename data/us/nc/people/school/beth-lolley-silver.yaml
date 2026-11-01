@@ -1,0 +1,18 @@
+id: ocd-person/dd220dd4-4d77-5055-a2a0-d6d2ee9d4329
+name: Beth Lolley Silver
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mcdowell-county-school-board-old-fort
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mcdowell-county/school
+  office_id: mcdowell-county/school-board-old-fort
+  party: Unaffiliated
+  ballot_name: Beth Lolley Silver
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MCDOWELL COUNTY BOARD OF EDUCATION OLD FORT DISTRICT -- Derrick McGinnis (Republican) 14,502; Beth Lolley Silver (Unaffiliated) 7,502. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

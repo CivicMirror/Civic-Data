@@ -1,0 +1,28 @@
+id: ocd-person/77f53a27-2610-50e8-883e-d75db5384e04
+name: Lynn Edmonds
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/wake-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Lynn Edmonds
+  status: active
+- contest_id: nc/2024-11-05/wake-county-school-board-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Lynn Edmonds
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 05 -- Lynn Edmonds (Nonpartisan) 22,087; Jackie Boegel (Nonpartisan) 12,004; Dawn P. Townsend (Nonpartisan) 4,290; Ross Beamon (Nonpartisan) 2,382. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 05 -- Lynn Edmonds (Nonpartisan) 38,542; Ted Hills (Nonpartisan) 17,476. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

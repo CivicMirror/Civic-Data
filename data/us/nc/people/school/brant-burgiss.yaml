@@ -1,0 +1,28 @@
+id: ocd-person/a5c6387d-7752-5268-8cfe-6d71c0807564
+name: Brant Burgiss
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/alleghany-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alleghany-county/school
+  office_id: alleghany-county/school-board-at-large
+  party: Democratic
+  ballot_name: Brant Burgiss
+  status: active
+- contest_id: nc/2024-11-05/alleghany-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alleghany-county/school
+  office_id: alleghany-county/school-board-at-large
+  party: Democratic
+  ballot_name: Brant Burgiss
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ALLEGHANY COUNTY BOARD OF EDUCATION -- Amy Bottomley (Republican) 3,705; Rick Wooten (Republican) 3,579; Donna Moxley Rea (Republican) 3,358; Brant Burgiss (Democratic) 1,675. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ALLEGHANY COUNTY BOARD OF EDUCATION -- Jason Williams (Republican) 3,803; Susan Todd Edwards (Republican) 3,610; Jimmy Rutherford (Democratic) 2,349; Brant Burgiss (Democratic) 1,594. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

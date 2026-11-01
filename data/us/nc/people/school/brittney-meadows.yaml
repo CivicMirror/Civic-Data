@@ -1,0 +1,18 @@
+id: ocd-person/6f9319b7-4682-5f2d-9a3c-c0d88185ad94
+name: Brittney Meadows
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/jones-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jones-county/school
+  office_id: jones-county/school-board-at-large
+  party: Democratic
+  ballot_name: Brittney Meadows
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JONES COUNTY BOARD OF EDUCATION -- Billy Griffin (Republican) 2,874; Schumata Brown (Republican) 2,085; Brittney Meadows (Democratic) 2,014. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

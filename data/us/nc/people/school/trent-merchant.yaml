@@ -1,0 +1,18 @@
+id: ocd-person/49f3249b-2f56-5f5b-a116-967b1747ec70
+name: Trent Merchant
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/charlotte-mecklenburg-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Trent Merchant
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHARLOTTE-MECKLENBURG SCHOOLS BOARD OF EDUCATION DISTRICT 05 -- Lisa Cline (Nonpartisan) 35,506; Trent Merchant (Nonpartisan) 32,618. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,6 +1,3 @@
-# Minted from the NC State Board of Elections official Nov. 5, 2024
-# general election results (Council of State worked example,
-# Civic-Data issue #172).
 id: ocd-person/18f987a8-52e3-5720-af91-76cf17ab6c2b
 name: Michele Morrow
 identifiers: []
@@ -10,7 +7,14 @@ candidacies:
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
   office_id: nc/superintendent-of-public-instruction
   party: Republican
-  ballot_name: 'Michele Morrow'
+  ballot_name: Michele Morrow
+  status: active
+- contest_id: nc/2022-11-08/wake-county-school-board-district-9
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-9
+  party: Nonpartisan
+  ballot_name: Michele Morrow
   status: active
 verification:
   status: unverified
@@ -19,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Superintendent of Public Instruction -- Maurice (Mo) Green (DEM) 2,837,606; Michele Morrow (REP) 2,706,953. Maurice (Mo) Green won with 2,837,606 votes.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 09 -- Tyler Swanson (Nonpartisan) 28,570; Michele Morrow (Nonpartisan) 18,251; Tara Ann Cartwright (Nonpartisan) 4,127. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

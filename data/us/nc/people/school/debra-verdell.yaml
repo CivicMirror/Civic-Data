@@ -1,0 +1,28 @@
+id: ocd-person/08f289a1-0a51-536f-a967-55e2a7690344
+name: Debra Verdell
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/lexington-city-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Debra Verdell
+  status: active
+- contest_id: nc/2025-11-04/lexington-city-school-board-at-large
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Debra Verdell
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION AT-LARGE -- Debra Verdell (Nonpartisan) 137; Kevin Berkley (Write-In) 1; Benjamin Rodriguez (Write-In) 1. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION AT-LARGE -- Debra Verdell (Nonpartisan) 805. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

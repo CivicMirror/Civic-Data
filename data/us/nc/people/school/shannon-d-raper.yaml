@@ -1,0 +1,18 @@
+id: ocd-person/d231d0f0-4dc1-5abd-be30-5a7e11e16d31
+name: Shannon D. Raper
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/cherokee-county-school-board-district-iii
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cherokee-county/school
+  office_id: cherokee-county/school-board-district-iii
+  party: Republican
+  ballot_name: Shannon D. Raper
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHEROKEE COUNTY BOARD OF EDUCATION DISTRICT III -- Jason Murphy (Republican) 9,278; Shannon D. Raper (Republican) 8,528. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

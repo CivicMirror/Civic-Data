@@ -1,0 +1,18 @@
+id: ocd-person/8cd1f138-ed1d-550e-845f-28344fdcfa48
+name: Jason Wayne Elleby
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/whiteville-city-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:whiteville-city/school
+  office_id: whiteville-city/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Jason Wayne Elleby
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WHITEVILLE CITY SCHOOLS BOARD OF EDUCATION DISTRICT 02 -- David Flowers (Nonpartisan) 659; Jason Wayne Elleby (Nonpartisan) 141. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

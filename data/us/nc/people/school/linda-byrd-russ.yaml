@@ -1,0 +1,18 @@
+id: ocd-person/61da3760-0c8a-5e4a-a2f9-054dc63d8abb
+name: Linda Byrd-Russ
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/warren-county-school-board-district-2
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:warren-county/school
+  office_id: warren-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Linda Byrd-Russ
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): WARREN COUNTY BOARD OF EDUCATION DISTRICT 02 -- Linda Byrd-Russ (Nonpartisan) 3,447. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

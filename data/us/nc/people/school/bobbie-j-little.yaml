@@ -1,0 +1,18 @@
+id: ocd-person/d66417d3-a5f1-5208-9e27-f7c12c97195b
+name: Bobbie J. Little
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/anson-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:anson-county/school
+  office_id: anson-county/school-board-district-2
+  party: Democratic
+  ballot_name: Bobbie J. Little
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ANSON COUNTY BOARD OF EDUCATION DISTRICT 02 -- Bobbie J. Little (Democratic) 740. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

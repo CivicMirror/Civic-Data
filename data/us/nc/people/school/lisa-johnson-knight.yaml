@@ -1,0 +1,18 @@
+id: ocd-person/de9be2a3-ee33-56d9-b418-627b77b6f6df
+name: Lisa Johnson-Knight
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/caswell-county-school-board-district-3
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:caswell-county/school
+  office_id: caswell-county/school-board-district-3
+  party: Nonpartisan
+  ballot_name: Lisa Johnson-Knight
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): CASWELL COUNTY BOARD OF EDUCATION DISTRICT 03 -- Lisa Johnson-Knight (Nonpartisan) 455; Joyce Standfield Samuel (Nonpartisan) 344. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

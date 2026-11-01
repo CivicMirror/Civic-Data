@@ -1,0 +1,18 @@
+id: ocd-person/73f1a509-1d61-572d-8bbf-9424a7f24a13
+name: Gary M. Sides
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/union-county-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:union-county/school
+  office_id: union-county/school-board-district-3
+  party: Republican
+  ballot_name: Gary M. Sides
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): UNION COUNTY BOARD OF EDUCATION DISTRICT 03 -- Gary M. Sides (Republican) 10,582; Maria Palacios (Democratic) 4,474. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

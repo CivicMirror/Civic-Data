@@ -1,0 +1,18 @@
+id: ocd-person/096cbb46-eed9-59ab-b39e-596c1d17bdea
+name: Kim Poteat
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/buncombe-county-school-board-enka
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:buncombe-county/school
+  office_id: buncombe-county/school-board-enka
+  party: Nonpartisan
+  ballot_name: Kim Poteat
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BUNCOMBE COUNTY SCHOOLS BOARD OF EDUCATION ENKA -- Judy S. Lewis (Nonpartisan) 42,036; Kim Poteat (Nonpartisan) 32,415. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

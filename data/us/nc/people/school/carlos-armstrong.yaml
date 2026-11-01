@@ -1,0 +1,18 @@
+id: ocd-person/57053388-022d-5d8a-908a-c321ce018ea3
+name: Carlos Armstrong
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/tyrrell-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:tyrrell-county/school
+  office_id: tyrrell-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Carlos Armstrong
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): TYRRELL COUNTY BOARD OF EDUCATION -- Joni Marie Liverman (Nonpartisan) 221; Robin Dunbar (Nonpartisan) 167; Karen Clough (Nonpartisan) 148; BB Hopkins (Nonpartisan) 118; D. M. (Matt) Bryan (Nonpartisan) 93; Carlos Armstrong (Nonpartisan) 29. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Limited voting (G.S. 115C-35(a)): the ballot instructs each voter to vote for one candidate, and the top 3 finishers fill the 3-seat class.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

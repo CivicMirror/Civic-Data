@@ -1,0 +1,18 @@
+id: ocd-person/ee00e71f-34ab-567e-8757-57a9f3ccf51b
+name: Christina Watts
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/wayne-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wayne-county/school
+  office_id: wayne-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Christina Watts
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAYNE COUNTY BOARD OF EDUCATION DISTRICT 01 -- Chris West (Nonpartisan) 3,738; Christina Watts (Nonpartisan) 2,451. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

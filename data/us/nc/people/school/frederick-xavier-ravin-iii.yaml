@@ -1,0 +1,18 @@
+id: ocd-person/7d91646b-6da8-5937-82f7-bef975305501
+name: Frederick Xavier Ravin III
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/durham-county-school-board-consolidated-district-b
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:durham-county/school
+  office_id: durham-county/school-board-consolidated-district-b
+  party: Nonpartisan
+  ballot_name: Frederick Xavier Ravin III
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): DURHAM CO BD OF EDUCATION CONSOLIDATED DIST B (UNEXPIRED) -- Millicent Rogers (Nonpartisan) 17,572; Frederick Xavier Ravin III (Nonpartisan) 9,097; Joetta MacMiller (Nonpartisan) 5,218; Myca Jeter (Write-In) 8. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

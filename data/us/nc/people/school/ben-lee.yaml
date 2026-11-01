@@ -1,0 +1,18 @@
+id: ocd-person/6a744bd9-8a40-5152-848d-783018b128d9
+name: Ben Lee
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/bladen-county-school-board-district-2
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:bladen-county/school
+  office_id: bladen-county/school-board-district-2
+  party: Republican
+  ballot_name: Ben Lee
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): BLADEN COUNTY BOARD OF EDUCATION DISTRICT 02 (REP) -- Mackie Singletary (Republican) 657; Ben Lee (Republican) 289; Berry Lewis (Republican) 260. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

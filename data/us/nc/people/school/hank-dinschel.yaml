@@ -1,0 +1,18 @@
+id: ocd-person/d31482dc-8eae-5b0c-aa66-6a0a6efa88c4
+name: Hank Dinschel
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/graham-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:graham-county/school
+  office_id: graham-county/school-board-at-large
+  party: Republican
+  ballot_name: Hank Dinschel
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GRAHAM COUNTY BOARD OF EDUCATION -- Clark (Chip) Carringer (Republican) 2,370; Hank Dinschel (Republican) 1,437; Maria Shook (Democratic) 1,436; Shane Garland (Democratic) 1,299. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/e9882521-d72f-528d-bc1c-a1f62f79a4cc
+name: Erin Kessel
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pitt-county-school-board-district-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pitt-county/school
+  office_id: pitt-county/school-board-district-6
+  party: Nonpartisan
+  ballot_name: Erin Kessel
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PITT COUNTY BOARD OF EDUCATION DISTRICT 06 -- Worth Forbes (Nonpartisan) 4,480; Erin Kessel (Nonpartisan) 3,910. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

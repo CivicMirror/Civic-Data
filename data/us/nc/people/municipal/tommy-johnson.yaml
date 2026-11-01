@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/6a9679bf-2a2d-55ba-9957-46bc40669f90
 name: Tommy Johnson
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Tommy Johnson
   status: active
+- contest_id: nc/2024-11-05/gaston-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gaston-county/school
+  office_id: gaston-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Tommy Johnson
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'NC SBE 2024-11-05 results (Election Results series): Trinity City Council (At-Large) -- Deborah Jacky (Nonpartisan) 2,271; Tommy Johnson (Nonpartisan) 1,544. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): GASTON COUNTY BOARD OF EDUCATION AT-LARGE -- Jeff K. Ramsey (Nonpartisan) 45,793; Brenda Eskridge (Nonpartisan) 37,623; Tommy Johnson (Nonpartisan) 12,152. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

@@ -1,0 +1,18 @@
+id: ocd-person/aa44ed59-27a1-593a-8d7d-777401c558d8
+name: Jessica Carda-Auten
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/durham-county-school-board-district-3
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:durham-county/school
+  office_id: durham-county/school-board-district-3
+  party: Nonpartisan
+  ballot_name: Jessica Carda-Auten
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): DURHAM COUNTY BOARD OF EDUCATION DISTRICT 03 (UNEXPIRED) -- Jessica Carda-Auten (Nonpartisan) 15,419. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

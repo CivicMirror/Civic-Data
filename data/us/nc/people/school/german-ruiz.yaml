@@ -1,0 +1,18 @@
+id: ocd-person/daa7bed1-bf7a-5a3c-8ff0-4868e32614c9
+name: German Ruiz
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/polk-county-school-board-saluda
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:polk-county/school
+  office_id: polk-county/school-board-saluda
+  party: Nonpartisan
+  ballot_name: German Ruiz
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): POLK COUNTY BOARD OF EDUCATION SALUDA TWP (UNEXPIRED) -- Rob Parsons (Nonpartisan) 3,834; Robin Atkins Wierzbicki (Nonpartisan) 2,913; German Ruiz (Nonpartisan) 738; Rick Stich (Nonpartisan) 299. Winners are the top 1 by total votes. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

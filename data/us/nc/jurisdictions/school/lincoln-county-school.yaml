@@ -1,0 +1,13 @@
+# Built for issue #172 (North Carolina master tracking) from NC SBE results.
+id: ocd-jurisdiction/country:us/state:nc/school_district:lincoln-county/school
+name: Lincoln County Schools
+state: nc
+division_id: ocd-division/country:us/state:nc/school_district:lincoln-county
+classification: school
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Lincoln County Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Lincoln County Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'

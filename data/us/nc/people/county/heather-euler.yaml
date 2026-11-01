@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/edba08bb-0859-5313-94b4-e620b07ee560
 name: Heather Euler
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Heather Euler
   status: active
+- contest_id: nc/2024-11-05/dare-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:dare-county/school
+  office_id: dare-county/school-board-district-4
+  party: Democratic
+  ballot_name: Heather Euler
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Dare County Board Of Commissioners At-Large -- Ervin Bateman (REP) 11,010; Heather Euler (DEM) 6,643.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DARE COUNTY BOARD OF EDUCATION DISTRICT 04 -- Kenny Brite (Republican) 14,178; Heather Euler (Democratic) 9,673. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

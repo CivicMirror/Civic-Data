@@ -1,0 +1,18 @@
+id: ocd-person/db73ae79-ebef-5ad2-a1cd-667888bd0d67
+name: Greg Merritt
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/whiteville-city-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:whiteville-city/school
+  office_id: whiteville-city/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Greg Merritt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): WHITEVILLE CITY SCHOOLS BOARD OF EDUCATION DISTRICT 04 -- Greg Merritt (Nonpartisan) 995; Edward Squires (Nonpartisan) 615. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

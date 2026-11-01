@@ -1,0 +1,18 @@
+id: ocd-person/81b1a949-753c-596d-9897-a954bf2f3cae
+name: Charles Hickman III
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/beaufort-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:beaufort-county/school
+  office_id: beaufort-county/school-board-district-2
+  party: Republican
+  ballot_name: Charles Hickman III
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BEAUFORT COUNTY BOARD OF EDUCATION DISTRICT 02 -- Charles Hickman III (Republican) 1,213; E. C. Peed (Democratic) 953. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

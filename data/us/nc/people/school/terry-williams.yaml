@@ -1,0 +1,18 @@
+id: ocd-person/86c4b7a2-afc2-5caf-bd6c-76bdc25b87f0
+name: Terry Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/beaufort-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:beaufort-county/school
+  office_id: beaufort-county/school-board-district-4
+  party: Republican
+  ballot_name: Terry Williams
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BEAUFORT COUNTY BOARD OF EDUCATION DISTRICT 04 -- Terry Williams (Republican) 1,347. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

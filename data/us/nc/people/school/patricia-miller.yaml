@@ -1,0 +1,18 @@
+id: ocd-person/31988bb9-e6b9-583f-8c02-253312e3953f
+name: Patricia Miller
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lexington-city-school-board-ward-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-ward-4
+  party: Nonpartisan
+  ballot_name: Patricia Miller
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION WARD 04 -- Patricia Miller (Nonpartisan) 99; Lisa Hathaway (Nonpartisan) 71. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

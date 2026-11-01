@@ -1,0 +1,18 @@
+id: ocd-person/cb0387ab-44c7-5815-a66e-b9e19f6cafe4
+name: David Richardson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/granville-county-school-board-district-7
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:granville-county/school
+  office_id: granville-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: David Richardson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): GRANVILLE COUNTY BOARD OF EDUCATION DISTRICT 07 -- David Richardson (Nonpartisan) 484; Taylor Frederick (Nonpartisan) 420. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

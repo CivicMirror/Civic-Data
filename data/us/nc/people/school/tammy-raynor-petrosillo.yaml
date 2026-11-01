@@ -1,0 +1,28 @@
+id: ocd-person/02de816d-b384-58cb-986d-23ddb8407f24
+name: Tammy Raynor Petrosillo
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/franklin-county-school-board-district-5
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:franklin-county/school
+  office_id: franklin-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Tammy Raynor Petrosillo
+  status: active
+- contest_id: nc/2024-11-05/franklin-county-school-board-at-large-seat-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:franklin-county/school
+  office_id: franklin-county/school-board-at-large-seat-6
+  party: Nonpartisan
+  ballot_name: Tammy Raynor Petrosillo
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): FRANKLIN COUNTY BOARD OF EDUCATION DISTRICT 05 -- Tammy Raynor Petrosillo (Nonpartisan) 1,093; Christopher Travis Perry (Nonpartisan) 1,010; Joe Balazsi (Nonpartisan) 170. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): FRANKLIN COUNTY BOARD OF EDUCATION AT-LARGE SEAT 06 -- Tom Harris (Nonpartisan) 20,066; Tammy Raynor Petrosillo (Nonpartisan) 15,333. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

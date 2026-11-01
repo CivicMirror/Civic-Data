@@ -1,0 +1,18 @@
+id: ocd-person/4373ae75-eea9-5adf-ad9b-9dc6f98ed0cb
+name: Gatha Stevenson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/rockingham-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:rockingham-county/school
+  office_id: rockingham-county/school-board-district-1
+  party: Unaffiliated
+  ballot_name: Gatha Stevenson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ROCKINGHAM COUNTY BOARD OF EDUCATION DISTRICT 01 -- Vicky Alston (Republican) 6,315; Gatha Stevenson (Unaffiliated) 4,540. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

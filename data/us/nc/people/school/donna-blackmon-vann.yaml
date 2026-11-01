@@ -1,0 +1,18 @@
+id: ocd-person/dbe4d18f-77a3-51f8-bd55-b8541cd92b02
+name: Donna Blackmon Vann
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/cumberland-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cumberland-county/school
+  office_id: cumberland-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Donna Blackmon Vann
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CUMBERLAND COUNTY BOARD OF EDUCATION DISTRICT 04 -- Jackie Warner (Nonpartisan) 9,313; Donna Blackmon Vann (Nonpartisan) 7,232; Rebecca Pedigo (Nonpartisan) 3,418. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

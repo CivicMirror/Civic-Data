@@ -1,0 +1,18 @@
+id: ocd-person/03ef86d5-13d2-5ab8-8f01-6b090de95fa4
+name: Clark Jenkins
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/carteret-county-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:carteret-county/school
+  office_id: carteret-county/school-board-district-3
+  party: Republican
+  ballot_name: Clark Jenkins
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CARTERET COUNTY BOARD OF EDUCATION DISTRICT 03 -- Clark Jenkins (Republican) 24,610. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

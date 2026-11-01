@@ -1,0 +1,18 @@
+id: ocd-person/735198a3-65b2-5f54-8422-29c5fa36607e
+name: Jennifer Hodgson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/pitt-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pitt-county/school
+  office_id: pitt-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Jennifer Hodgson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PITT COUNTY BOARD OF EDUCATION DISTRICT 05 -- Jennifer Hodgson (Nonpartisan) 3,562; Lee Williamson (Nonpartisan) 2,138; Levi C. Smith, Sr. (Nonpartisan) 1,231. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

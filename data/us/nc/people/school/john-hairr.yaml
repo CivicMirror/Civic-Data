@@ -1,0 +1,18 @@
+id: ocd-person/c24e4d3b-3142-5461-873c-20494c65f2ce
+name: John Hairr
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/harnett-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:harnett-county/school
+  office_id: harnett-county/school-board-district-4
+  party: Republican
+  ballot_name: John Hairr
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HARNETT COUNTY BOARD OF EDUCATION DISTRICT 04 -- John Hairr (Republican) 8,352; Olaf El (Democratic) 4,331; Ann Christian Milton (Unaffiliated) 2,780. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

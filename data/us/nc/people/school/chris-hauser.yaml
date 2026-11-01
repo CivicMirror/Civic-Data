@@ -1,0 +1,18 @@
+id: ocd-person/6113da02-2209-597c-814d-c744d4bfe27c
+name: Chris Hauser
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/yadkin-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:yadkin-county/school
+  office_id: yadkin-county/school-board-at-large
+  party: Write-In
+  ballot_name: Chris Hauser
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): YADKIN COUNTY BOARD OF EDUCATION -- Tim Parks (Nonpartisan) 6,204; Tim Weatherman (Nonpartisan) 5,604; Sam Crews (Nonpartisan) 4,762; Barry M. Cole (Nonpartisan) 2,398; Chris Hauser (Write-In) 12; Jack Moss (Write-In) 12; Thom Summey (Write-In) 5. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

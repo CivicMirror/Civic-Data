@@ -1,0 +1,18 @@
+id: ocd-person/bf8359b6-e3d0-5f9b-b9ff-dbdaee0c0c49
+name: Samantha Harris
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/granville-county-school-board-district-5
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:granville-county/school
+  office_id: granville-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Samantha Harris
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): GRANVILLE COUNTY BOARD OF EDUCATION DISTRICT 05 -- Danielle Hayes (Nonpartisan) 653; Samantha Harris (Nonpartisan) 613. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/154895f8-e892-5aad-b70b-611dcb5aa1d5
+name: Carlos Riddick
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/washington-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:washington-county/school
+  office_id: washington-county/school-board-at-large
+  party: Democratic
+  ballot_name: Carlos Riddick
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WASHINGTON COUNTY BOARD OF EDUCATION AT-LARGE -- Carlos Riddick (Democratic) 2,654. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

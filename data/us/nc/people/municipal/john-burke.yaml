@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/e8a32138-506d-599a-a808-8b10907763b2
 name: John Burke
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: John Burke
   status: active
+- contest_id: nc/2022-05-17/lexington-city-school-board-ward-4
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-ward-4
+  party: Write-In
+  ballot_name: John Burke
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Lexington City Council, Ward 4 -- John Burke (Nonpartisan) 156. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION WARD 04 -- Lisa Hathaway (Write-In) 114; Carrie Bowers (Write-In) 35; John Burke (Write-In) 9; Stacy Sosebee-West (Write-In) 9; Julia Dunn (Write-In) 7; Mathew Bunting (Write-In) 1; John B. Davis (Write-In) 1; Delisa Anderson (Write-In) 1; Devin Libby (Write-In) 1; Patty Small (Write-In) 1; Daniel Timberlake (Write-In) 1; Robert Palmer Holton (Write-In) 1; Franc Merz (Write-In) 1; Lucy Daynes (Write-In) 1; Elizabeth Mancha (Write-In) 1; Cassandra Husted (Write-In) 1; Wesley Lavrinc (Write-In) 1; Frank Leonard (Write-In) 1. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'

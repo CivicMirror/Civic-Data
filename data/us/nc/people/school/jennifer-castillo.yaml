@@ -1,0 +1,18 @@
+id: ocd-person/20766d7c-cafc-5a75-a77f-710e8d36efe5
+name: Jennifer Castillo
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/winston-salem-forsyth-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:winston-salem-forsyth-county/school
+  office_id: winston-salem-forsyth-county/school-board-district-2
+  party: Democratic
+  ballot_name: Jennifer Castillo
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): FORSYTH COUNTY BOARD OF EDUCATION DISTRICT 02 -- Leah H. Crowley (Republican) 61,658; Susan Miller (replacing Stanley Elrod) (Republican) 57,037; Robert Barr (Republican) 56,920; Steve Wood (Republican) 55,185; Jennifer Castillo (Democratic) 50,956. Winners are the top 4 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools
