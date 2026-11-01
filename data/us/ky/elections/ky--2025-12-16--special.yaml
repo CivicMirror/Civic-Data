@@ -1,0 +1,34 @@
+# Built for the December 16, 2025 special election (37th
+# Senatorial District, unexpired term): candidate totals from
+# the Jefferson County Electionware summary hosted by the
+# State Board of Elections (identical in the county's
+# Official Results Report of December 18, 2025); results
+# certified January 5, 2026. Legislative pass, Civic-Data
+# issue #195.
+id: ky/2025-12-16/special
+name: Kentucky 2025-12-16 special election
+date: '2025-12-16'
+election_type: special
+status: certified
+contests:
+- id: ky/2025-12-16/senate-37
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/sldu:37/legislature
+  office_id: ky-senate-37/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/37c8bf1a-971d-5d0f-b135-8b2a25c14ab3
+  - ocd-person/996b1249-ea90-5bd3-82ec-7f7a1a5e943f
+  - ocd-person/a75fdcba-2a80-55db-b15c-891f665fcdeb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/37c8bf1a-971d-5d0f-b135-8b2a25c14ab3
+    name: 'Gary Clemons'
+    party: Democratic
+    votes: 3752
+sources:
+- url: https://elect.ky.gov/Documents/Jefferson%20Special%20Cumulative.pdf
+  note: 'Jefferson County Board of Elections, Electionware Special Election Summary for the 37th Senatorial District, December 16, 2025 (hosted by the Kentucky State Board of Elections) -- district totals: Gary Clemons (Democratic) 3,752; Calvin Leach (Republican) 1,297; Wendy Higdon (Libertarian) 121; Write-In 8 (unnamed aggregate). Gary Clemons won with 3,752 votes. The same candidate totals appear in Jefferson County''s Official Results Report of December 18, 2025; the State Board of Elections certified the results on January 5, 2026. The special election filled the vacancy left by David Yates''s October 2025 resignation to become Jefferson County Clerk.'
+  retrieved: '2026-11-01'
+- url: https://apps.legislature.ky.gov/recorddocuments/bill/26RS/sr1/orig_bill.pdf
+  note: 'Kentucky Senate Resolution 1 (2026 Regular Session), adopted January 6, 2026, establishing the 2026 membership of the Kentucky State Senate on the certificates of election transmitted by the Secretary of State: Gary Clemons is listed as the Senator for District 37.'
+  retrieved: '2026-11-01'
