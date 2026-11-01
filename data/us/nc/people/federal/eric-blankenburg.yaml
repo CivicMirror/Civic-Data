@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/9a4712c0-2818-54bd-ac25-772df081e936
+name: Eric Blankenburg
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:4/legislature
+  office_id: nc-4/us-representative
+  party: Republican
+  ballot_name: Eric Blankenburg
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 4 -- Valerie P. Foushee (DEM) 308,064; Eric Blankenburg (REP) 112,084; Guy Meilleur (LIB) 8,632. Valerie P. Foushee won with 308,064 votes.'
+  retrieved: '2026-10-23'

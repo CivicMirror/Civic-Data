@@ -3,7 +3,14 @@
 id: ocd-person/8f02ce28-e826-48f7-adc1-11f8e5c2ed26
 name: Paul Scott
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-111
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:111/legislature
+  office_id: nc-house-111/state-representative
+  party: Republican
+  ballot_name: Paul Scott
+  status: active
 image: https://static.wixstatic.com/media/a254ce_1422fda1afc540a697d4c59e20275ee8~mv2.png/v1/fill/w_626,h_1003,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a254ce_1422fda1afc540a697d4c59e20275ee8~mv2.png
 contact:
   phone: 919-733-4838
@@ -19,3 +26,6 @@ verification:
 sources:
 - url: https://ballotpedia.org/Paul_Scott_(North_Carolina)
 - url: https://www.ncleg.gov/Members/Biography/H/841
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 111 -- Paul Scott (REP) 31,434; Frances Rollinson Webber (DEM) 11,110. Paul Scott won with 31,434 votes.'
+  retrieved: '2026-10-23'

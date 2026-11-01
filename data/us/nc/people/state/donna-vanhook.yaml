@@ -1,0 +1,21 @@
+# Minted from the NC State Board of Elections official Nov. 5, 2024
+# general election results (General Assembly pass, Civic-Data
+# issue #172).
+id: ocd-person/8422a7c3-992d-5bf9-a153-ed716959d040
+name: Donna Vanhook
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/state-senate-25
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldu:25/legislature
+  office_id: nc-senate-25/state-senator
+  party: Democratic
+  ballot_name: Donna Vanhook
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_general_assembly
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 25 -- Amy Scott Galey (REP) 67,762; Donna Vanhook (DEM) 44,711. Amy Scott Galey won with 67,762 votes.'
+  retrieved: '2026-10-23'

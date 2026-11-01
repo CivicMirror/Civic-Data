@@ -3,7 +3,14 @@
 id: ocd-person/5afbb4dc-a121-414a-b600-53af0936beb8
 name: Kandie Smith
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-senate-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldu:5/legislature
+  office_id: nc-senate-5/state-senator
+  party: Democratic
+  ballot_name: Kandie D. Smith
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/S/447/Low
 contact:
   phone: 919-715-8363
@@ -23,3 +30,6 @@ sources:
 - url: https://www.linkedin.com/in/kandie-smith-aaa3893b
 - url: https://www.ncleg.gov/Members/Biography/S/447
 - url: https://www.ncleg.gov/Members/MemberTable/S
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 5 -- Kandie D. Smith (DEM) 59,440; Alexander J. Paschall (REP) 48,469. Kandie D. Smith won with 59,440 votes.'
+  retrieved: '2026-10-23'

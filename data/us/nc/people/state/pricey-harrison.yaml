@@ -5,7 +5,14 @@ name: Pricey Harrison
 identifiers:
 - scheme: openstates-legacy-id
   identifier: NCL000108
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-61
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:61/legislature
+  office_id: nc-house-61/state-representative
+  party: Democratic
+  ballot_name: Mary Price (Pricey) Harrison
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/H/504/Low
 contact:
   phone: 919-733-5771
@@ -24,3 +31,6 @@ sources:
 - url: https://justfacts.votesmart.org/candidate/41671/pricey-harrison
 - url: https://www.ncleg.gov/Members/Biography/H/504
 - url: https://www.ncleg.gov/Members/MemberTable/H
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 61 -- Mary Price (Pricey) Harrison (DEM) 33,804; Crystal T. Davis (REP) 9,058. Mary Price (Pricey) Harrison won with 33,804 votes.'
+  retrieved: '2026-10-23'

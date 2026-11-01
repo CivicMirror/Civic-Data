@@ -3,7 +3,14 @@
 id: ocd-person/f29f268e-5a29-4f49-8c5e-3fa19688f4a2
 name: Sydney Batch
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-senate-17
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldu:17/legislature
+  office_id: nc-senate-17/state-senator
+  party: Democratic
+  ballot_name: Mrs. Sydney Batch
+  status: active
 image: https://www.ncleg.gov/Members/MemberImage/S/434/Low
 contact:
   phone: 919-733-5653
@@ -23,3 +30,6 @@ sources:
 - url: https://www.linkedin.com/in/sydney-batch-0260566
 - url: https://www.ncleg.gov/Members/Biography/S/434
 - url: https://www.ncleg.gov/Members/MemberTable/S
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 17 -- Mrs. Sydney Batch (DEM) 71,610; Patrick J. Bowersox (LIB) 24,661. Mrs. Sydney Batch won with 71,610 votes.'
+  retrieved: '2026-10-23'

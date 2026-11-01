@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/11dd863e-d8a4-534e-9aed-588fff321b16
+name: Cal Cunningham
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/us-senate
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-2
+  party: Democratic
+  ballot_name: Cal Cunningham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 3, 2020 general election (results_pct_20201103.txt), aggregated across the district''s precincts: US Senate -- Thom Tillis (REP) 2,665,598; Cal Cunningham (DEM) 2,569,965; Shannon W. Bray (LIB) 171,571; Kevin E. Hayes (CST) 67,818. Thom Tillis won with 2,665,598 votes.'
+  retrieved: '2026-10-23'

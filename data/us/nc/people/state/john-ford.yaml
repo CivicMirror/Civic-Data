@@ -1,0 +1,21 @@
+# Minted from the NC State Board of Elections official Nov. 5, 2024
+# general election results (General Assembly pass, Civic-Data
+# issue #172).
+id: ocd-person/f0705677-cc1e-58bb-840d-5425f6c4a0d0
+name: John Ford
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-85
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:85/legislature
+  office_id: nc-house-85/state-representative
+  party: Democratic
+  ballot_name: John Ford
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_general_assembly
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 85 -- Dudley Greene (REP) 36,145; John Ford (DEM) 12,574. Dudley Greene won with 36,145 votes.'
+  retrieved: '2026-10-23'

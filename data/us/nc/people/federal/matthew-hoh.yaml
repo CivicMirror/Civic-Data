@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/ba868139-ec43-5f0d-98ed-e7755e3f0f76
+name: Matthew Hoh
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/us-senate
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-3
+  party: Green
+  ballot_name: Matthew Hoh
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the district''s precincts: US Senate -- Ted Budd (REP) 1,905,786; Cheri Beasley (DEM) 1,784,049; Shannon W. Bray (LIB) 51,640; Matthew Hoh (GRE) 29,934. Ted Budd won with 1,905,786 votes.'
+  retrieved: '2026-10-23'

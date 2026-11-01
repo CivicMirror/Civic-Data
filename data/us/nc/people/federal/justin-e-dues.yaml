@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/cbb20b02-4d31-55b7-ac23-a6638ec0c145
+name: Justin E. Dues
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-8
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:8/legislature
+  office_id: nc-8/us-representative
+  party: Democratic
+  ballot_name: Justin E. Dues
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 8 -- Mark Harris (REP) 238,640; Justin E. Dues (DEM) 161,709. Mark Harris won with 238,640 votes.'
+  retrieved: '2026-10-23'

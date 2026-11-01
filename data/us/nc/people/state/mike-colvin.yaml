@@ -3,7 +3,14 @@
 id: ocd-person/b3b24f9e-5eb4-475e-8b06-7040cfb39fb5
 name: Mike Colvin
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/state-house-42
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:42/legislature
+  office_id: nc-house-42/state-representative
+  party: Democratic
+  ballot_name: Mike Colvin
+  status: active
 image: https://votemikecolvin.com/wp-content/uploads/2024/01/untitled-1024x1024.jpg
 contact:
   phone: 919-733-5775
@@ -19,3 +26,6 @@ verification:
 sources:
 - url: https://ballotpedia.org/Mike_Colvin
 - url: https://www.ncleg.gov/Members/Biography/H/831
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 42 -- Mike Colvin (DEM) 18,301; Leonard L. Bryant (REP) 6,332. Mike Colvin won with 18,301 votes.'
+  retrieved: '2026-10-23'

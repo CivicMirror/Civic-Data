@@ -10,7 +10,21 @@ candidacies:
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
   office_id: nc/lieutenant-governor
   party: Libertarian
-  ballot_name: 'Shannon W. Bray'
+  ballot_name: Shannon W. Bray
+  status: active
+- contest_id: nc/2020-11-03/us-senate
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-2
+  party: Libertarian
+  ballot_name: Shannon W. Bray
+  status: active
+- contest_id: nc/2022-11-08/us-senate
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-3
+  party: Libertarian
+  ballot_name: Shannon W. Bray
   status: active
 verification:
   status: unverified
@@ -18,4 +32,10 @@ verification:
 sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Lieutenant Governor -- Rachel Hunt (DEM) 2,768,539; Hal Weatherman (REP) 2,663,183; Shannon W. Bray (LIB) 104,192; Wayne Jones (CST) 53,938. Rachel Hunt won with 2,768,539 votes.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 3, 2020 general election (results_pct_20201103.txt), aggregated across the district''s precincts: US Senate -- Thom Tillis (REP) 2,665,598; Cal Cunningham (DEM) 2,569,965; Shannon W. Bray (LIB) 171,571; Kevin E. Hayes (CST) 67,818. Thom Tillis won with 2,665,598 votes.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the district''s precincts: US Senate -- Ted Budd (REP) 1,905,786; Cheri Beasley (DEM) 1,784,049; Shannon W. Bray (LIB) 51,640; Matthew Hoh (GRE) 29,934. Ted Budd won with 1,905,786 votes.'
   retrieved: '2026-10-23'

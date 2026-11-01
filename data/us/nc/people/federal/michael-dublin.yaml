@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (federal pass, Civic-Data issue #172).
+id: ocd-person/f7ce75d8-859b-5053-adf8-5e4fd3cede61
+name: Michael Dublin
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/us-representative-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/cd:2/legislature
+  office_id: nc-2/us-representative
+  party: Green
+  ballot_name: Michael Dublin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_federal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: US House of Representatives District 2 -- Deborah K. Ross (DEM) 268,662; Alan D. Swain (REP) 128,164; Michael Dublin (GRE) 8,691. Deborah K. Ross won with 268,662 votes.'
+  retrieved: '2026-10-23'

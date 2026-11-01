@@ -27,7 +27,14 @@ identifiers:
   identifier: '2124'
 - scheme: fec-candidate-id
   identifier: S4NC00162
-candidacies: []
+candidacies:
+- contest_id: nc/2020-11-03/us-senate
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/legislature
+  office_id: nc/us-senator-class-2
+  party: Republican
+  ballot_name: Thom Tillis
+  status: active
 contact:
   phone: 202-224-6342
   profile_url: https://www.tillis.senate.gov
@@ -69,3 +76,6 @@ sources:
   note: unitedstates/congress-legislators (current), bioguide T000476 -- primary source for identity, terms, class, dates.
 - url: https://github.com/unitedstates/congress-legislators/blob/main/legislators-district-offices.yaml
   note: District office addresses/phones.
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 3, 2020 general election (results_pct_20201103.txt), aggregated across the district''s precincts: US Senate -- Thom Tillis (REP) 2,665,598; Cal Cunningham (DEM) 2,569,965; Shannon W. Bray (LIB) 171,571; Kevin E. Hayes (CST) 67,818. Thom Tillis won with 2,665,598 votes.'
+  retrieved: '2026-10-23'
