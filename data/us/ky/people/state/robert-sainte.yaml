@@ -1,0 +1,20 @@
+# Minted from official Kentucky special election results
+# (legislative pass, Civic-Data issue #195).
+id: ocd-person/30ce0dee-c6c4-5db2-8546-40ffbbb7aa3a
+name: Robert Sainte
+identifiers: []
+candidacies:
+- contest_id: ky/2023-05-16/senate-28
+  election_id: ky/2023-05-16/special
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/sldu:28/legislature
+  office_id: ky-senate-28/state-senator
+  party: Democratic
+  ballot_name: 'Robert Sainte'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_ky_legislative_successions
+sources:
+- url: https://elect.ky.gov/results/2020-2029/Documents/5-16-23%20Certification%20of%20Election%20Results%20for%2028th%20Senatorial%20District%20State%20Senate%20Special%20Election.pdf
+  note: 'Commonwealth of Kentucky, State Board of Elections / Secretary of State, ''Official 2023 Special Election 28th Senatorial District Results'' -- certified results for the May 16, 2023 special election (State Senator, 28th Senatorial District, unexpired term), county tables with district totals: Greg Elkins (Republican) 7,899; Robert Sainte (Democratic) 4,968; Richard Henderson (Independent) 3,001. Greg Elkins won with 7,899 votes. The special election filled the vacancy left by Ralph Alvarado''s January 2023 resignation.'
+  retrieved: '2026-11-01'

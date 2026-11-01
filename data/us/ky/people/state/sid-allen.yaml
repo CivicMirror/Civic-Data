@@ -1,0 +1,21 @@
+# Minted from the Kentucky State Board of Elections certified
+# general election results (legislative pass, Civic-Data
+# issue #195).
+id: ocd-person/fea52b06-20a3-526c-99d2-b3b3837ba8de
+name: Sid Allen
+identifiers: []
+candidacies:
+- contest_id: ky/2022-11-08/senate-30
+  election_id: ky/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/sldu:30/legislature
+  office_id: ky-senate-30/state-senator
+  party: Democratic
+  ballot_name: 'Sid Allen'
+  status: active
+verification:
+  status: unverified
+  pipeline: build_ky_legislative
+sources:
+- url: https://elect.ky.gov/results/2020-2029/Documents/1.17.2023%20Certified%20General%20Election%20Results.pdf
+  note: 'Commonwealth of Kentucky, State Board of Elections / Secretary of State, ''Certified General Election Results'' for the November 8, 2022 general election (certified January 17, 2023) -- State Senator 30th District contest, county tables with district totals: Brandon D. Smith (Republican) 25,581; Sid Allen (Democratic) 9,116. Brandon D. Smith won with 25,581 votes.'
+  retrieved: '2026-11-01'

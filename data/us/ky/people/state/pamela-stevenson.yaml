@@ -12,10 +12,20 @@ candidacies:
   party: Democratic
   ballot_name: 'Pamela Stevenson'
   status: active
+- contest_id: ky/2024-11-05/house-43
+  election_id: ky/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/sldl:43/legislature
+  office_id: ky-house-43/state-representative
+  party: Democratic
+  ballot_name: 'Pamela Stevenson'
+  status: active
 verification:
   status: unverified
   pipeline: build_ky_statewide_executive
 sources:
 - url: https://elect.ky.gov/results/2020-2029/Documents/Certification%20of%20Election%20Results%20for%202023%20General%20Election%20Final.pdf
   note: 'Commonwealth of Kentucky, State Board of Elections / Secretary of State, ''Certification of Election Results for 2023 General Election Final'' -- official certified results for the November 7, 2023 general election, Attorney General contest, county tables with statewide totals: Russell Coleman (Republican) 752,692; Pamela Stevenson (Democratic) 544,748. Russell Coleman won with 752,692 votes.'
+  retrieved: '2026-11-01'
+- url: https://elect.ky.gov/results/2020-2029/Documents/2024%20General%20Election%20Certification%20as%20Amended%20on%20December%209th%202024.pdf
+  note: 'Commonwealth of Kentucky, State Board of Elections / Secretary of State, ''2024 General Election Certification as Amended on December 9th 2024'' -- official certified results for the November 5, 2024 general election, State Representative 43rd District contest, county tables with district totals: Pamela Stevenson (Democratic) 12,088. Pamela Stevenson won with 12,088 votes.'
   retrieved: '2026-11-01'
