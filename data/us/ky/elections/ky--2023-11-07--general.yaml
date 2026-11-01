@@ -1,0 +1,108 @@
+# Built from the Kentucky State Board of Elections certified
+# results for the November 7, 2023 general election
+# ('Certification of Election Results for 2023 General Election
+# Final'). Statewide executive pass, Civic-Data issue #195.
+id: ky/2023-11-07/general
+name: Kentucky 2023-11-07 general election
+date: '2023-11-07'
+election_type: general
+status: certified
+contests:
+- id: ky/2023-11-07/governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f1ec8948-a660-59e8-bf3a-b2cffb3ea9b4
+  - ocd-person/9f9066c7-be62-58ea-a07b-0308363f2484
+  - ocd-person/32c13fab-8b4e-543b-8bfe-ea75dd95c533
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f1ec8948-a660-59e8-bf3a-b2cffb3ea9b4
+    name: 'Andy Beshear'
+    party: Democratic
+    votes: 694482
+- id: ky/2023-11-07/lieutenant-governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/lieutenant-governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/988b5f47-2085-5f90-b8bb-cd2230180703
+  - ocd-person/93c9531c-5349-5531-8f84-c0772d74d5f2
+  - ocd-person/c45941f9-4453-5239-a3b7-33d0e1c340cb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/988b5f47-2085-5f90-b8bb-cd2230180703
+    name: 'Jacqueline Coleman'
+    party: Democratic
+    votes: 694482
+- id: ky/2023-11-07/secretary-of-state
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/secretary-of-state
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/665a7a31-750e-5c0d-9790-87c02291d41f
+  - ocd-person/df8651d7-b0ef-5a4a-b385-f3f4f34fd661
+  - ocd-person/27433840-70b5-5af3-9be4-1961462c39b1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/665a7a31-750e-5c0d-9790-87c02291d41f
+    name: 'Michael Adams'
+    party: Republican
+    votes: 785237
+- id: ky/2023-11-07/attorney-general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/attorney-general
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/87db3069-a358-55a4-95d1-a5d0894e18f4
+  - ocd-person/614b5ebd-91ed-517c-a4d5-885855d700e0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/87db3069-a358-55a4-95d1-a5d0894e18f4
+    name: 'Russell Coleman'
+    party: Republican
+    votes: 752692
+- id: ky/2023-11-07/auditor-of-public-accounts
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/auditor-of-public-accounts
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/56894ce0-0811-5754-8ce2-f0fb697d99d7
+  - ocd-person/0a556217-8b30-5206-a950-6560885eb602
+  result_status: certified
+  winners:
+  - person_id: ocd-person/56894ce0-0811-5754-8ce2-f0fb697d99d7
+    name: 'Allison Ball'
+    party: Republican
+    votes: 783217
+- id: ky/2023-11-07/state-treasurer
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/state-treasurer
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e2e86727-8bd7-5034-a87c-9a93dae0f352
+  - ocd-person/43ce8b35-7e26-5295-8cc4-4442790c2a7f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e2e86727-8bd7-5034-a87c-9a93dae0f352
+    name: 'Mark Metcalf'
+    party: Republican
+    votes: 735522
+- id: ky/2023-11-07/commissioner-of-agriculture
+  jurisdiction_id: ocd-jurisdiction/country:us/state:ky/executive
+  office_id: ky/commissioner-of-agriculture
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/07661bcf-da63-5d3a-9112-dfdb2a42efe9
+  - ocd-person/f231594d-b93e-5be1-9405-09308c593e91
+  result_status: certified
+  winners:
+  - person_id: ocd-person/07661bcf-da63-5d3a-9112-dfdb2a42efe9
+    name: 'Jonathan Shell'
+    party: Republican
+    votes: 763468
+sources:
+- url: https://elect.ky.gov/results/2020-2029/Documents/Certification%20of%20Election%20Results%20for%202023%20General%20Election%20Final.pdf
+  note: 'Commonwealth of Kentucky, State Board of Elections, "Certification of Election Results for 2023 General Election Final": the official certified results for the November 7, 2023 general election. This record covers the seven statewide executive contests; totals are the certification book''s statewide Total Votes rows. Governor and Lieutenant Governor are elected on a joint ticket (Ky. Const. sec. 70): both contests share the ticket vote totals. Named write-in candidates in the book (the Fishback ticket, Governor; Kenneth C. Moellman Jr., Secretary of State) are modeled as candidates with party Write-In; the State Treasurer write-in total of 155 is an unnamed aggregate and is carried in that contest''s source note only.'
+  retrieved: '2026-11-01'
