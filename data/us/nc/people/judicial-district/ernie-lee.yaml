@@ -1,0 +1,18 @@
+id: ocd-person/545d61b2-399f-565c-9915-771540f371d0
+name: Ernie Lee
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-5-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-5/judiciary
+  office_id: prosecutorial-district-5/district-attorney
+  party: Republican
+  ballot_name: Ernie Lee
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 05 -- Ernie Lee (Republican) 59,504. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

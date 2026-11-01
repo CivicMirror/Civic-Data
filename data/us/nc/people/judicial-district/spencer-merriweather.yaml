@@ -1,0 +1,18 @@
+id: ocd-person/8c68c4b6-6468-5fff-986b-d6c1c594014d
+name: Spencer Merriweather
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-26-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-26/judiciary
+  office_id: prosecutorial-district-26/district-attorney
+  party: Democratic
+  ballot_name: Spencer Merriweather
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 26 -- Spencer Merriweather (Democratic) 269,704. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

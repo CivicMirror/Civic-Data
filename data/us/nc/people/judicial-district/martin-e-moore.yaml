@@ -1,0 +1,18 @@
+id: ocd-person/d7c747c2-e949-5f44-bf93-b6e24b4360db
+name: Martin E. Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/court-of-appeals-judge-seat-15
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-15
+  party: Democratic
+  ballot_name: Martin E. Moore
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 15 -- Chris Freeman (Republican) 2,844,286; Martin E. Moore (Democratic) 2,654,765. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

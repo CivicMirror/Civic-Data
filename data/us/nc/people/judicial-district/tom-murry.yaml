@@ -1,0 +1,18 @@
+id: ocd-person/ed261c05-6dbb-5426-b470-cda4f6459693
+name: Tom Murry
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/court-of-appeals-judge-seat-12
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-12
+  party: Republican
+  ballot_name: Tom Murry
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 12 -- Tom Murry (Republican) 2,809,458; Carolyn Jennings Thompson (Democratic) 2,710,863. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

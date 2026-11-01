@@ -1,0 +1,18 @@
+id: ocd-person/a37df437-4e2f-576d-9e1d-878c84901f24
+name: Casey Viser
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/superior-court-district-26a-judge-seat-1
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-26a/judiciary
+  office_id: superior-court-district-26a/judge-seat-1
+  party: Republican
+  ballot_name: Casey Viser
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 26A SEAT 01 -- Casey Viser (Republican) 40,306; Alicia D. Brooks (Democratic) 34,798. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

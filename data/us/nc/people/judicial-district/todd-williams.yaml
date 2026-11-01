@@ -1,0 +1,18 @@
+id: ocd-person/6b4bef61-898e-5f28-b7e7-571617d4bd94
+name: Todd Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-40-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-40/judiciary
+  office_id: prosecutorial-district-40/district-attorney
+  party: Democratic
+  ballot_name: Todd Williams
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 40 -- Todd Williams (Democratic) 79,606. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -11,6 +11,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Clayton Jones
   status: active
+- contest_id: nc/2022-11-08/district-court-district-14-judge-seat-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-14/judiciary
+  office_id: district-court-district-14/judge-seat-5
+  party: Democratic
+  ballot_name: Clayton Jones
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +25,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Weddington Town Council, District 3 -- Clayton Jones (Nonpartisan) 1,711; Cathy Brown (Write-In) (Write-In) 307. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 14 SEAT 05 -- Clayton Jones (Democratic) 103,677. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'

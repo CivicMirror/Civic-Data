@@ -1,0 +1,18 @@
+id: ocd-person/307996bd-0fb7-5eed-a95d-952a2d99a55e
+name: Andrew Murray
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-42-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-42/judiciary
+  office_id: prosecutorial-district-42/district-attorney
+  party: Republican
+  ballot_name: Andrew Murray
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 42 -- Andrew Murray (Republican) 51,867. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

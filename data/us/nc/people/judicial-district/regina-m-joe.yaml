@@ -1,0 +1,18 @@
+id: ocd-person/b5c27e65-2dd4-5e03-8cd6-ffebd1f3b1bd
+name: Regina M. Joe
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-19d-judge-seat-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-19d/judiciary
+  office_id: district-court-district-19d/judge-seat-5
+  party: Democratic
+  ballot_name: Regina M. Joe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 19D SEAT 05 -- Regina M. Joe (Democratic) 27,981. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

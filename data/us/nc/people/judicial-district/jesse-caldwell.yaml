@@ -1,0 +1,18 @@
+id: ocd-person/3365ad60-4edf-59f6-8a97-912dce3ace59
+name: Jesse Caldwell
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/superior-court-district-27a-judge-seat-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-27a/judiciary
+  office_id: superior-court-district-27a/judge-seat-2
+  party: Democratic
+  ballot_name: Jesse Caldwell
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 27A SEAT 02 -- Justin Davis (Republican) 44,143; Jesse Caldwell (Democratic) 28,859. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

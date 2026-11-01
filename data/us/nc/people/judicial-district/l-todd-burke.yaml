@@ -1,0 +1,18 @@
+id: ocd-person/e8b8eae0-de16-5420-91fc-c871c60c0133
+name: L. Todd Burke
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/superior-court-district-21d-judge-seat-1
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-21d/judiciary
+  office_id: superior-court-district-21d/judge-seat-1
+  party: Democratic
+  ballot_name: L. Todd Burke
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 21D SEAT 01 -- L. Todd Burke (Democratic) 23,443. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

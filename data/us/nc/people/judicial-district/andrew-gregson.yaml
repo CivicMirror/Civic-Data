@@ -1,0 +1,28 @@
+id: ocd-person/edbe952e-701e-5d8d-8956-64a7a534b670
+name: Andrew Gregson
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/prosecutorial-district-37-district-attorney
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-37/judiciary
+  office_id: prosecutorial-district-37/district-attorney
+  party: Republican
+  ballot_name: Andrew Gregson
+  status: active
+- contest_id: nc/2024-11-05/prosecutorial-district-37-district-attorney
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-37/judiciary
+  office_id: prosecutorial-district-37/district-attorney
+  party: Republican
+  ballot_name: Andrew Gregson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): DISTRICT ATTORNEY DISTRICT 37 -- Andrew Gregson (Republican) 59,758. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DISTRICT ATTORNEY DISTRICT 37 -- Andrew Gregson (Republican) 63,293. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

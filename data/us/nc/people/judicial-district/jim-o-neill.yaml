@@ -1,0 +1,18 @@
+id: ocd-person/29294f60-02e6-5bc5-aad6-38114230df75
+name: Jim O'Neill
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-31-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-31/judiciary
+  office_id: prosecutorial-district-31/district-attorney
+  party: Republican
+  ballot_name: Jim O'Neill
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 31 -- Jim O''Neill (Republican) 67,781; Denise S. Hartsfield (Democratic) 65,071. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -11,6 +11,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Keith Smith
   status: active
+- contest_id: nc/2024-11-05/district-court-district-26-judge-seat-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-26/judiciary
+  office_id: district-court-district-26/judge-seat-4
+  party: Democratic
+  ballot_name: Keith Smith
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +25,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Holden Beach Board of Commissioners -- Sylvia Pate (Nonpartisan) 338; Keith Smith (Nonpartisan) 307; Chad Hock (Nonpartisan) 236; Maria Surprise (Nonpartisan) 235. Winners are the top 2 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 26 SEAT 04 -- Keith Smith (Democratic) 453,778. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'

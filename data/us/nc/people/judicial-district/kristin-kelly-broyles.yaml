@@ -1,0 +1,28 @@
+id: ocd-person/25359756-c4ab-534a-a61f-df3b3cc0e7f7
+name: Kristin Kelly Broyles
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-21-judge-seat-9
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-21/judiciary
+  office_id: district-court-district-21/judge-seat-9
+  party: Democratic
+  ballot_name: Kristin Kelly Broyles
+  status: active
+- contest_id: nc/2024-11-05/district-court-district-31-judge-seat-9
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-31/judiciary
+  office_id: district-court-district-31/judge-seat-9
+  party: Democratic
+  ballot_name: Kristin Kelly Broyles
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 21 SEAT 09 (UNEXPIRED) -- Kristin Kelly Broyles (Democratic) 82,048. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 31 SEAT 09 -- Kristin Kelly Broyles (Democratic) 130,027. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial
