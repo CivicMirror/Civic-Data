@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/750e9601-b707-5b20-9801-9db93b072af9
+name: Chaz James
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/newland-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:newland/government
+  office_id: newland/council-member
+  party: Nonpartisan
+  ballot_name: Chaz James
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Newland Town Council -- James C. (Jamey) Johnson (Nonpartisan) 110; David P. Calvert (Nonpartisan) 90; Vicki Caraway (Nonpartisan) 89; Adam Huckel (Nonpartisan) 70; Chaz James (Nonpartisan) 65; Kenan Foxx (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

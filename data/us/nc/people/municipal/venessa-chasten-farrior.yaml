@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4740c2b9-0cc0-55ef-8196-719dc5de4416
+name: Venessa Chasten Farrior
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/greenevers-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:greenevers/government
+  office_id: greenevers/commissioner
+  party: Nonpartisan
+  ballot_name: Venessa Chasten Farrior
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Greenevers Board of Commissioners -- Reginald James (Write-In) (Write-In) 53; Venessa Chasten Farrior (Nonpartisan) 52; Joseph Bivens (Nonpartisan) 51. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

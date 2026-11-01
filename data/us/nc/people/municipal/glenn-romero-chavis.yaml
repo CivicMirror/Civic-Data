@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a1c139d2-19fa-514b-b698-9f3d78f2d3cb
+name: Glenn Romero Chavis
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/high-point-council-member-ward-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:high-point/government
+  office_id: high-point/council-member
+  party: Nonpartisan
+  ballot_name: Glenn Romero Chavis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): High Point City Council, Ward 1 -- Vickie McKiver (Nonpartisan) 1,245; Glenn Romero Chavis (Nonpartisan) 446. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

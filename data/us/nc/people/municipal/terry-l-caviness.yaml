@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4c235c22-47c0-5baf-8e01-590abfd02b75
+name: Terry L. Caviness
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/liberty-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:liberty/government
+  office_id: liberty/commissioner
+  party: Nonpartisan
+  ballot_name: Terry L. Caviness
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Liberty Board of Commissioners -- Tyson E. Nixon (Nonpartisan) 167; Terry L. Caviness (Nonpartisan) 159; Rebekkah Glass (Nonpartisan) 143; Larry Coble (Nonpartisan) 134. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

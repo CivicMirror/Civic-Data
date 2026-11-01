@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/afb12ff2-0d25-5eed-8ac1-33257cf320c9
+name: Tony Saffo
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/wrightsville-beach-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wrightsville-beach/government
+  office_id: wrightsville-beach/mayor
+  party: Write-In
+  ballot_name: Tony Saffo
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wrightsville Beach Mayor -- McKinley (Ken) Dull (Nonpartisan) 734; John Jarvis (Write-In) (Write-In) 5; Tony Saffo (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

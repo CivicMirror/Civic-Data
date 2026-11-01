@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/362af197-34f8-558a-b81b-a9fe61999c56
+name: Pam King
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/black-mountain-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:black-mountain/government
+  office_id: black-mountain/council-member
+  party: Nonpartisan
+  ballot_name: Pam King
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Black Mountain Town Council -- Pam King (Nonpartisan) 2,518; Doug Hay (Nonpartisan) 2,513; Archie Pertiller, Jr. (Nonpartisan) 2,459; Dan Cordell (Nonpartisan) 2,332; Rick Earley (Nonpartisan) 1,909; Lisa G. Milton (Nonpartisan) 1,396. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

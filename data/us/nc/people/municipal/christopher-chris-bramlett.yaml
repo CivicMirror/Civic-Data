@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ca577b96-0df7-523d-9903-7589584cb312
+name: Christopher (Chris) Bramlett
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/albemarle-council-member-member-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:albemarle/government
+  office_id: albemarle/council-member
+  party: Nonpartisan
+  ballot_name: Christopher (Chris) Bramlett
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Albemarle City Council, Member At-large -- Christopher (Chris) Bramlett (Nonpartisan) 1,545; Scott Hopkins (Nonpartisan) 1,409; Tim (TJ) Morgan (Nonpartisan) 1,230; Tanner Denton (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

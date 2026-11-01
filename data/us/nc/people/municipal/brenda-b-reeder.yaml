@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/581941b1-8478-50e1-a3fd-08e0a8c251cd
+name: Brenda B. Reeder
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/red-cross-council-member
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:red-cross/government
+  office_id: red-cross/council-member
+  party: Nonpartisan
+  ballot_name: Brenda B. Reeder
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Red Cross Town Council -- Lisa T. Lowder (Nonpartisan) 290; Andrew Smith (Nonpartisan) 272; Brenda B. Reeder (Nonpartisan) 66. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

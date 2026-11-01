@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9ae57e9e-c04a-5bc6-8a29-29d651bc877e
+name: Brent Jackson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/columbus-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:columbus/government
+  office_id: columbus/council-member
+  party: Nonpartisan
+  ballot_name: Brent Jackson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Columbus Town Council -- Brent Jackson (Nonpartisan) 292; Mark Phillips (Nonpartisan) 283; Richard Hall (Nonpartisan) 280; Elaine Greenwood (Nonpartisan) 245; Ernie Kan (Write-In) (Write-In) 7. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

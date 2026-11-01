@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/cfd10f9f-a6b8-5c14-bc2b-2c3c51543b69
+name: Kimberly J. Griffin
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/martin-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:martin/government
+  office_id: martin/register-of-deeds
+  party: Democratic
+  ballot_name: Kimberly J. Griffin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Martin County Register Of Deeds -- Kimberly J. Griffin (DEM) 9,161.'
+  retrieved: '2026-10-23'

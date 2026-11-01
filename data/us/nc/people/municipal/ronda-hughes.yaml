@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d2872970-d0f9-56a1-8c83-86cbc170fe12
+name: Ronda Hughes
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/seven-springs-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:seven-springs/government
+  office_id: seven-springs/mayor
+  party: Nonpartisan
+  ballot_name: Ronda Hughes
+  status: active
+- contest_id: nc/2025-11-04/seven-springs-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:seven-springs/government
+  office_id: seven-springs/mayor
+  party: Nonpartisan
+  ballot_name: Ronda Hughes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Seven Springs Mayor -- Ronda Hughes (Nonpartisan) 8. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Seven Springs Mayor -- Ronda Hughes (Nonpartisan) 11. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

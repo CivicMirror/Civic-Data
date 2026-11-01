@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/991dfb9c-376a-55db-a117-fceea0d4ea7f
+name: Brent Epling
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/stoneville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stoneville/government
+  office_id: stoneville/council-member
+  party: Write-In
+  ballot_name: Brent Epling
+  status: active
+- contest_id: nc/2025-11-04/stoneville-council-member-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stoneville/government
+  office_id: stoneville/council-member
+  party: Nonpartisan
+  ballot_name: Brent Epling
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Stoneville Town Council -- Curt Bennett (Nonpartisan) 96; Daisy Smith (Nonpartisan) 67; Joseph Rose (Nonpartisan) 65; Samantha Land (Nonpartisan) 64; Jerry Smith (Write-In) (Write-In) 2; Brent Epling (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Stoneville Town Council (Unexpired Term) -- Jessica Pratt Smith (Nonpartisan) 96; Brent Epling (Nonpartisan) 63; Bobby Lineberry (Nonpartisan) 13; Jerry Smith (Write-In) (Write-In) 2. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

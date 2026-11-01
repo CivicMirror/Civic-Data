@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/91c146f4-c23b-5e17-8a82-044df16b8b9f
+name: Joshua Grant
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/fontana-dam-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fontana-dam/government
+  office_id: fontana-dam/council-member
+  party: Nonpartisan
+  ballot_name: Joshua Grant
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Fontana Dam Town Council -- Joshua Grant (Nonpartisan) 7; Tracy Williams (Nonpartisan) 7. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

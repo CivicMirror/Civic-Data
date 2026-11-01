@@ -7,19 +7,29 @@
 id: ocd-person/4f1c3e43-cda9-4527-a933-0609542cb8b4
 name: Chelsea Cook
 identifiers:
-  - scheme: civicpatch-person
-    identifier: bb097b1f-bda3-4ad8-a50a-9a0f31734884
-candidacies: []
+- scheme: civicpatch-person
+  identifier: bb097b1f-bda3-4ad8-a50a-9a0f31734884
+candidacies:
+- contest_id: nc/2025-11-04/durham-council-member-ward-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+  office_id: durham/council-member
+  party: Nonpartisan
+  ballot_name: Chelsea Cook
+  status: active
 contact:
   email: chelsea.cook@durhamnc.gov
-  phone: "(919) 560-4396"
+  phone: (919) 560-4396
   profile_url: https://www.durhamnc.gov/4664/Chelsea-Cook
 image: https://www.durhamnc.gov/ImageRepository/Document?documentId=54505
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.durhamnc.gov/Directory.aspx?did=131
-    retrieved: "2026-08-14"
-  - url: https://www.durhamnc.gov/1323/City-Council
-    retrieved: "2026-08-14"
+- url: https://www.durhamnc.gov/Directory.aspx?did=131
+  retrieved: '2026-08-14'
+- url: https://www.durhamnc.gov/1323/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Durham Government Town Council, Ward 3 -- Chelsea Cook (Nonpartisan) 33,803; Diana Medoff (Nonpartisan) 11,419; Terry McCann (Write-In) (Write-In) 41. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

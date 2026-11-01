@@ -1,0 +1,18 @@
+id: ocd-person/0cb7daeb-3907-5629-bcda-d6fb08ad037a
+name: Kevin E. Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-14-judge-seat-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-14/judiciary
+  office_id: district-court-district-14/judge-seat-3
+  party: Democratic
+  ballot_name: Kevin E. Jones
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 14 SEAT 03 -- Kevin E. Jones (Democratic) 103,349. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d7c33ec9-973a-57fa-9b86-a4481069d67b
+name: Charles (Chip) Osborne
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/oakboro-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oakboro/government
+  office_id: oakboro/commissioner
+  party: Nonpartisan
+  ballot_name: Charles (Chip) Osborne
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Oakboro Board of Commissioners -- Brett Barbee (Nonpartisan) 470; Bud Smith (Nonpartisan) 455; Latoya Jackson (Nonpartisan) 439; Joey H. Carpenter (Nonpartisan) 358; Fred Smith (Nonpartisan) 199; Lee M. Huntley (Nonpartisan) 169; Charles (Chip) Osborne (Nonpartisan) 123. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

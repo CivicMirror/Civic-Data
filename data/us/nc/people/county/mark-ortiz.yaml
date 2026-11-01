@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/2452ab6c-6657-5026-a616-1b0bacc126dc
+name: Mark Ortiz
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/rowan-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:rowan/government
+  office_id: rowan/commissioner-at-large
+  party: We The People
+  ballot_name: Mark Ortiz
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Rowan County Board Of Commissioners -- Mike Caskey (REP) 39,851; Craig Pierce (REP) 37,950; Alissa Redmond (DEM) 23,367; Mark Ortiz (WTP) 7,403; Bobby Kemp (Write-In) 1,008.'
+  retrieved: '2026-10-23'

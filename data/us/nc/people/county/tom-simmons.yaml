@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/cc5ccb82-2867-59f1-9cb7-ee3cceaab590
+name: Tom Simmons
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/brunswick-commissioner-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:brunswick/government
+  office_id: brunswick/commissioner-district-4
+  party: Democratic
+  ballot_name: Tom Simmons
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Brunswick County Board Of Commissioners District 04 -- Mike Forte (REP) 61,494; Tom Simmons (DEM) 41,509.'
+  retrieved: '2026-10-23'

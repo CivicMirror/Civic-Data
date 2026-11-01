@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8bfd64ca-34f1-5c10-937e-498f5eb4de74
+name: Eddie Braxton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/scotland-neck-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:scotland-neck/government
+  office_id: scotland-neck/mayor
+  party: Nonpartisan
+  ballot_name: Eddie Braxton
+  status: active
+- contest_id: nc/2025-11-04/scotland-neck-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:scotland-neck/government
+  office_id: scotland-neck/mayor
+  party: Nonpartisan
+  ballot_name: Eddie Braxton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Scotland Neck Mayor -- Eddie Braxton (Nonpartisan) 228; Leroy Powell (Nonpartisan) 164; James Savage (Nonpartisan) 18. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Scotland Neck Mayor -- Leroy D. Powell (Nonpartisan) 254; Eddie Braxton (Nonpartisan) 237. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

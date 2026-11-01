@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/289aad1a-a564-51f1-bb82-0ba007ecd982
+name: Alice M. Betts
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/richlands-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:richlands/government
+  office_id: richlands/alderman
+  party: Nonpartisan
+  ballot_name: Alice M. Betts
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Richlands Board of Aldermen -- Alice M. Betts (Nonpartisan) 46; Tom Brown (Nonpartisan) 43; Kent Painter (Nonpartisan) 36; Marilyn Bunce (Nonpartisan) 36; Paul Conner (Nonpartisan) 29. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,7 +7,14 @@
 id: ocd-person/e587e10f-a70a-5f72-8950-49273d9d3b31
 name: Arthur A. Bullock
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/bladen-commissioner-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:bladen/government
+  office_id: bladen/commissioner-district-1
+  party: Democratic
+  ballot_name: Arthur A. Bullock
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Bladen County Board Of Commissioners District 01 -- Arthur A. Bullock (DEM) 2,643.'
+  retrieved: '2026-10-23'

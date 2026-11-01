@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/64dbe8cc-e525-52b8-9eff-64fb2f2e889f
+name: Albert Lee Taylor
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/bogue-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bogue/government
+  office_id: bogue/council-member
+  party: Nonpartisan
+  ballot_name: Albert Lee Taylor
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Bogue Town Council -- Albert Lee Taylor (Nonpartisan) 46; Michael J. Crose (Nonpartisan) 46; John Dale (Nonpartisan) 42. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/33d71709-0492-58d2-a8ee-0972332a30b0
+name: Greg Light
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/eden-council-member-ward-6
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:eden/government
+  office_id: eden/council-member
+  party: Nonpartisan
+  ballot_name: Greg Light
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Eden City Council, Ward 6 -- Greg Light (Nonpartisan) 672; Tom Fulton (Nonpartisan) 317. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

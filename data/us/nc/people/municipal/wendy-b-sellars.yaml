@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a519914c-b9d1-5e96-bcda-44cbf0d86072
+name: Wendy B. Sellars
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/thomasville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:thomasville/government
+  office_id: thomasville/mayor
+  party: Nonpartisan
+  ballot_name: Wendy B. Sellars
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Thomasville Mayor -- Raleigh York, Jr. (Nonpartisan) 998; JacQuez Johnson (Nonpartisan) 981; Wendy B. Sellars (Nonpartisan) 360. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/19c9bf44-6117-5025-8731-be520c170256
+name: Tristan Spencer
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/plymouth-council-member-ward-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:plymouth/government
+  office_id: plymouth/council-member
+  party: Nonpartisan
+  ballot_name: Tristan Spencer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Plymouth Town Council, Ward 3 -- Kim Williams (Nonpartisan) 105; Steven Brown (Nonpartisan) 93; John Shelton (Nonpartisan) 88; Mary Ann Byers (Nonpartisan) 86; Tristan Spencer (Nonpartisan) 55. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

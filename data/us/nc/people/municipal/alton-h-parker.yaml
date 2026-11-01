@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/461f78a2-2cdd-5b13-8f1b-60e801068ae1
+name: Alton H. Parker
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/roxobel-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:roxobel/government
+  office_id: roxobel/mayor
+  party: Nonpartisan
+  ballot_name: Alton H. Parker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Roxobel Mayor -- Gary Johnson (Nonpartisan) 49; Alton H. Parker (Nonpartisan) 24. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

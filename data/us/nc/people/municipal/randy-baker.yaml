@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/dd82ece8-4a4c-5b2c-84c9-813bae41d033
+name: Randy Baker
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/erwin-mayor
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:erwin/government
+  office_id: erwin/mayor
+  party: Nonpartisan
+  ballot_name: Randy Baker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Erwin Mayor -- Randy Baker (Nonpartisan) 93. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

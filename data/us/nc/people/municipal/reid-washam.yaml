@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bf26fa34-5742-5a4f-be3a-a4fecce712f9
+name: Reid Washam
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mcadenville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mcadenville/government
+  office_id: mcadenville/council-member
+  party: Nonpartisan
+  ballot_name: Reid Washam
+  status: active
+- contest_id: nc/2025-11-04/mcadenville-mayor-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mcadenville/government
+  office_id: mcadenville/mayor
+  party: Nonpartisan
+  ballot_name: Reid Washam
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mcadenville Town Council -- Reid Washam (Nonpartisan) 58; Joe Rankin (Nonpartisan) 53; Addison Gilbert (Write-In) (Write-In) 1; Ashley Westmoreland (Write-In) (Write-In) 1; Landon Snyder (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mcadenville Mayor (Unexpired Term) -- Reid Washam (Nonpartisan) 233. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

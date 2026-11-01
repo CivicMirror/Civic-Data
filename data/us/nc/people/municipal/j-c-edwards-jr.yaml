@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ac05739e-01d4-572e-9307-77213a7161b9
+name: J.C. Edwards, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/oak-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oak/government
+  office_id: oak/commissioner
+  party: Nonpartisan
+  ballot_name: J.C. Edwards, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Oak City Board of Commissioners -- Sue Craft Harrell (Nonpartisan) 85; Phillip M. Burnett (Nonpartisan) 83; J.C. Edwards, Jr. (Nonpartisan) 79; Kevin Turner (Nonpartisan) 75; Robert Turner (Nonpartisan) 68; Patrice Rosario (Nonpartisan) 41; Mattie D. Streeter (Nonpartisan) 29. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

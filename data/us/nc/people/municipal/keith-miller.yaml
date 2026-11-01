@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ab4a90ad-f9a8-5a19-80c7-06fe0365352e
+name: Keith Miller
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kings-mountain-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kings-mountain/government
+  office_id: kings-mountain/council-member
+  party: Nonpartisan
+  ballot_name: Keith Miller
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kings Mountain City Council (At-Large) -- Shearra Miller (Nonpartisan) 979; Keith Miller (Nonpartisan) 519. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

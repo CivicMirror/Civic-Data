@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6ec637d4-05fd-5d80-b232-04fd998f374f
+name: Chuck Tyson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/trent-woods-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:trent-woods/government
+  office_id: trent-woods/mayor
+  party: Nonpartisan
+  ballot_name: Chuck Tyson
+  status: active
+- contest_id: nc/2024-11-05/trent-woods-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:trent-woods/government
+  office_id: trent-woods/mayor
+  party: Nonpartisan
+  ballot_name: Chuck Tyson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Trent Woods Mayor -- Chuck Tyson (Nonpartisan) 2,153. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Trent Woods Mayor -- Chuck Tyson (Nonpartisan) 2,556. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

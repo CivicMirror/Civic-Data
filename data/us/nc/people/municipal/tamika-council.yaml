@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/94c58511-2e44-5670-94bf-6beac9d2fd8a
+name: Tamika Council
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hamilton-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamilton/government
+  office_id: hamilton/commissioner
+  party: Nonpartisan
+  ballot_name: Tamika Council
+  status: active
+- contest_id: nc/2025-11-04/hamilton-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamilton/government
+  office_id: hamilton/commissioner
+  party: Nonpartisan
+  ballot_name: Tamika Council
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hamilton Board of Commissioners -- William Freeman (Nonpartisan) 78; Tamika Council (Nonpartisan) 76; Larry Jackson (Nonpartisan) 72; Kerry Spivey (Nonpartisan) 60; Brandon Raynor (Nonpartisan) 59; Judith Stewart (Nonpartisan) 58; Brian Thomas (Nonpartisan) 53. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hamilton Board of Commissioners -- William Freeman (Nonpartisan) 71; Brandon Raynor (Nonpartisan) 67; Larry Jackson (Nonpartisan) 61; Tamika Council (Nonpartisan) 61; Mike Pickle (Nonpartisan) 57; Mary Ann Taylor (Nonpartisan) 43; James Ebron (Write-In) (Write-In) 40. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

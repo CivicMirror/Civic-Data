@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/81b3d2c1-571b-5e7e-bcdd-dcc9e0ed2072
+name: Sallie Leggett Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hobgood-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hobgood/government
+  office_id: hobgood/commissioner
+  party: Nonpartisan
+  ballot_name: Sallie Leggett Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hobgood Board of Commissioners -- Sallie Leggett Smith (Nonpartisan) 37; Doug Braddy (Nonpartisan) 34; Milton Armston (Nonpartisan) 32. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

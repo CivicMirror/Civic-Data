@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1122bd08-e076-52b9-9676-a3b4d88f411d
+name: Emory Cox
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/tabor-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:tabor/government
+  office_id: tabor/mayor
+  party: Write-In
+  ballot_name: Emory Cox
+  status: active
+- contest_id: nc/2023-11-07/tabor-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:tabor/government
+  office_id: tabor/council-member
+  party: Nonpartisan
+  ballot_name: Emory Cox
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Tabor City Mayor -- Royce Harper (Nonpartisan) 340; Adrian Hughes (Write-In) (Write-In) 3; David Keyes (Write-In) (Write-In) 2; Emory Cox (Write-In) (Write-In) 1; Nathan B Broce (Write-In) (Write-In) 1; Timothy LaRue Fowler (Write-In) (Write-In) 1; Todd Lovett (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Tabor City Town Council -- Kelly Beck (Nonpartisan) 235; David E. Mincey (Nonpartisan) 227; Nelson Lee (Nonpartisan) 175; Emory Cox (Nonpartisan) 63. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

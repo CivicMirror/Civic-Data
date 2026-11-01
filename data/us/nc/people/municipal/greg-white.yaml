@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/39a45c93-1a0f-5517-a6d4-8427d95e2c46
+name: Greg White
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/colerain-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:colerain/government
+  office_id: colerain/commissioner
+  party: Nonpartisan
+  ballot_name: Greg White
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Colerain Board of Commissioners -- Greg White (Nonpartisan) 24; Will Fairless (Nonpartisan) 24; Kenny Perry (Write-In) (Write-In) 9; Lynn Askew (Write-In) (Write-In) 4; Herbert Copeland (Write-In) (Write-In) 3; Joe Van Morris (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

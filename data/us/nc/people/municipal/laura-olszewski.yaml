@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f9303e5f-8259-5333-adb8-b025374c1c9c
+name: Laura Olszewski
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/north-topsail-beach-alderman-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:north-topsail-beach/government
+  office_id: north-topsail-beach/alderman
+  party: Write-In
+  ballot_name: Laura Olszewski
+  status: active
+- contest_id: nc/2023-11-07/north-topsail-beach-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:north-topsail-beach/government
+  office_id: north-topsail-beach/alderman
+  party: Nonpartisan
+  ballot_name: Laura Olszewski
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): North Topsail Beach Board of Aldermen (Unexpired Term) -- Tom Leonard (Nonpartisan) 137; Phil Fowler (Write-In) (Write-In) 59; Cameron Kuegel (Write-In) (Write-In) 5; Laura Olszewski (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): North Topsail Beach Board of Aldermen -- Connie Pletl (Nonpartisan) 139; Laura Olszewski (Nonpartisan) 107; Fred Fontana (Nonpartisan) 105; Phil Fowler (Nonpartisan) 73; Stephen Newbern (Nonpartisan) 27. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

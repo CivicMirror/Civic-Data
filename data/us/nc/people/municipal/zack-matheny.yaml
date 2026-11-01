@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/69256070-6554-59c5-a804-db7cedc73d4a
+name: Zack Matheny
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/greensboro-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:greensboro/government
+  office_id: greensboro/council-member
+  party: Write-In
+  ballot_name: Zack Matheny
+  status: active
+- contest_id: nc/2025-11-04/greensboro-council-member-district-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:greensboro/government
+  office_id: greensboro/council-member
+  party: Nonpartisan
+  ballot_name: Zack Matheny
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Greensboro City Council (At-Large) -- Denise Roth (Nonpartisan) 22,289; Hugh Holston (Nonpartisan) 22,185; Irving D. Allen (Nonpartisan) 19,220; Richard Beard (Nonpartisan) 16,588; Jamilla Pinder (Nonpartisan) 15,258; T. Dianne Bellamy-Small (Nonpartisan) 13,973; Carla Franklin (Write-In) (Write-In) 101; Crystal Black (Write-In) (Write-In) 31; Nicky Smith (Write-In) (Write-In) 29; Latoya B. Gathers (Write-In) (Write-In) 18; Zack Matheny (Write-In) (Write-In) 15; Michael McKinney (Write-In) (Write-In) 15; Sharon Hightower (Write-In) (Write-In) 12; April Parker (Write-In) (Write-In) 11; Jeanette Davidson-Mayer (Write-In) (Write-In) 8; Adam Marshall (Write-In) (Write-In) 7. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Greensboro City Council, District 3 -- April Parker (Nonpartisan) 7,102; Zack Matheny (Nonpartisan) 6,542. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/4a6e3a34-d279-5299-bdd6-1e69d5c2c87b
+name: Theron McCabe
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/craven-commissioner-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:craven/government
+  office_id: craven/commissioner-district-5
+  party: Democratic
+  ballot_name: Theron McCabe
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Craven County Board Of Commissioners District 05 -- Shevel (Sherry) Hunt (REP) 1,929; Theron McCabe (DEM) 1,473.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/98a6ea5c-cead-5491-b716-54b633e61a11
+name: Eric Platania
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/cape-carteret-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cape-carteret/government
+  office_id: cape-carteret/commissioner
+  party: Nonpartisan
+  ballot_name: Eric Platania
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cape Carteret Board of Commissioners -- Steve Martin (Nonpartisan) 394; David Monroe (Nonpartisan) 271; Eric Platania (Nonpartisan) 267; Roy Fish (Nonpartisan) 256; Jay Bijou (Nonpartisan) 99. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

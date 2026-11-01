@@ -7,17 +7,47 @@
 id: ocd-person/c04262fa-ab9e-4e24-b1e3-e9f51724ed50
 name: Kevin Spears
 identifiers:
-  - scheme: civicpatch-person
-    identifier: ea30336e-b07d-42ab-ab7a-485ae4f49776
-candidacies: []
+- scheme: civicpatch-person
+  identifier: ea30336e-b07d-42ab-ab7a-485ae4f49776
+candidacies:
+- contest_id: nc/2023-11-07/wilmington-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+  office_id: wilmington/mayor
+  party: Write-In
+  ballot_name: Kevin Spears
+  status: active
+- contest_id: nc/2023-11-07/wilmington-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+  office_id: wilmington/council-member
+  party: Nonpartisan
+  ballot_name: Kevin Spears
+  status: active
+- contest_id: nc/2025-11-04/wilmington-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+  office_id: wilmington/council-member
+  party: Write-In
+  ballot_name: Kevin Spears
+  status: active
 contact:
   email: kevin.spears@wilmingtonnc.gov
-  phone: "(910) 795-5378"
+  phone: (910) 795-5378
   profile_url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council/Mayor-Pro-Tem-Kevin-Spears
 image: https://www.wilmingtonnc.gov/files/assets/city/v/1/government/images/council-headshots/dec.-2025/spears_kevin_web2.jpg?dimension=userprofile&w=150&h=150
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
-    retrieved: "2026-08-14"
+- url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Wilmington Government Mayor -- Bill Saffo (Nonpartisan) 12,171; Ricky Meeks (Write-In) (Write-In) 53; Nick Craig (Write-In) (Write-In) 46; Harper Peterson (Write-In) (Write-In) 22; Marlowe Foster (Write-In) (Write-In) 11; Tom Moore (Write-In) (Write-In) 8; David Floyd (Write-In) (Write-In) 7; John D. Lennon (Write-In) (Write-In) 7; Bruce Pierce (Write-In) (Write-In) 6; Charlie Rivenbark (Write-In) (Write-In) 6; Dorian Cromartie (Write-In) (Write-In) 6; Greg Uhl (Write-In) (Write-In) 6; Kevin Spears (Write-In) (Write-In) 6; Neil Anderson (Write-In) (Write-In) 6; Renee Saffo (Write-In) (Write-In) 6; David Joyner (Write-In) (Write-In) 5; Kathryn Bruner (Write-In) (Write-In) 5; Luke Waddell (Write-In) (Write-In) 5; Robert L. Selden (Write-In) (Write-In) 5; Sheila Gasquet (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Wilmington Government Town Council -- David Joyner (Nonpartisan) 8,646; Salette Andrews (Nonpartisan) 8,196; Kevin Spears (Nonpartisan) 8,075; Neil Anderson (Nonpartisan) 7,156; John D. Lennon (Nonpartisan) 7,100; Kathryn Bruner (Nonpartisan) 6,121; Marlowe Foster (Nonpartisan) 4,319. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Wilmington Government Town Council -- JC Lyle (Nonpartisan) 11,970; Cassidy Santaguida (Nonpartisan) 11,676; Chakema Clinton-Quintana (Nonpartisan) 11,576; Luke Waddell (Nonpartisan) 10,666; Richard M. Collier (Nonpartisan) 9,430; Clifford D. Barnett (Nonpartisan) 6,721; Kelly J. Roberts, Jr. (Nonpartisan) 6,596; Sean Guerrero (Nonpartisan) 790; Kevin Spears (Write-In) (Write-In) 7; Ricky Meeks (Write-In) (Write-In) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

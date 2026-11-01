@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2c218b1d-c410-5578-888c-c42beab4918f
+name: Kimberly Wasson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/statesville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:statesville/government
+  office_id: statesville/mayor
+  party: Nonpartisan
+  ballot_name: Kimberly Wasson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Statesville Mayor -- Doug Hendrix (Nonpartisan) 1,293; William Morgan (Nonpartisan) 1,037; Kimberly Wasson (Nonpartisan) 1,022; Brian Summers (Nonpartisan) 755; Roseta Williams (Nonpartisan) 89. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,19 +7,29 @@
 id: ocd-person/8caf81ab-e303-40a8-85cb-7c5d57cb62c0
 name: Annette Scippio
 identifiers:
-  - scheme: civicpatch-person
-    identifier: ebd1beed-5689-4d84-ac1a-f2d15f713433
-candidacies: []
+- scheme: civicpatch-person
+  identifier: ebd1beed-5689-4d84-ac1a-f2d15f713433
+candidacies:
+- contest_id: nc/2024-11-05/winston-salem-council-member-east-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Democratic
+  ballot_name: Annette Scippio
+  status: active
 contact:
   email: annettes@cityofws.org
-  phone: "(336) 771-5175"
+  phone: (336) 771-5175
   profile_url: https://www.cityofws.org/640/Council-Member-Annette-Scippio
 image: https://www.cityofws.org/ImageRepository/Document?documentId=36343
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.cityofws.org/640/Council-Member-Annette-Scippio
-    retrieved: "2026-08-14"
-  - url: https://www.cityofws.org/3499/City-Council
-    retrieved: "2026-08-14"
+- url: https://www.cityofws.org/640/Council-Member-Annette-Scippio
+  retrieved: '2026-08-14'
+- url: https://www.cityofws.org/3499/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, East Ward -- Annette Scippio (Democratic) 10,345; Phil Carter (Write-In) (Write-In) 8; Contessa Smith (Write-In) (Write-In) 8. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

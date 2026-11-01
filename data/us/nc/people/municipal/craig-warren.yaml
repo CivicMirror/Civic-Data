@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8a95e45a-5996-5c0e-b7d8-cc34f4007fec
+name: Craig Warren
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/newton-grove-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:newton-grove/government
+  office_id: newton-grove/mayor
+  party: Nonpartisan
+  ballot_name: Craig Warren
+  status: active
+- contest_id: nc/2025-11-04/newton-grove-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:newton-grove/government
+  office_id: newton-grove/mayor
+  party: Nonpartisan
+  ballot_name: Craig Warren
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Newton Grove Mayor -- Craig Warren (Nonpartisan) 38. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Newton Grove Mayor -- Craig Warren (Nonpartisan) 37. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

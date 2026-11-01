@@ -1,0 +1,18 @@
+id: ocd-person/04d3e1ec-fc4c-55a6-a2e7-bd865bbfaf23
+name: William D. Wolfe
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/superior-court-district-7c-judge-seat-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-7c/judiciary
+  office_id: superior-court-district-7c/judge-seat-1
+  party: Democratic
+  ballot_name: William D. Wolfe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 07C SEAT 01 -- William D. Wolfe (Democratic) 19,176. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

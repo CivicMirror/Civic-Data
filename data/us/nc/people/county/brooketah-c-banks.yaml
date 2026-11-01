@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/fc9dca0f-fd2b-508e-b84d-285d82d4dc16
+name: Brooketah C. Banks
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lenoir-clerk-of-superior-court
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:lenoir/government
+  office_id: lenoir/clerk-of-superior-court
+  party: Democratic
+  ballot_name: Brooketah C. Banks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Lenoir County Clerk Of Superior Court -- Mary G. Alphin (REP) 7,478; Brooketah C. Banks (DEM) 6,868; Rachel C. Turner (UNA) 4,276.'
+  retrieved: '2026-10-23'

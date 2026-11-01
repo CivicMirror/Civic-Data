@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/027e83d3-88d3-5239-8b32-69d07dddd4e8
+name: Erin S. Moody
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/spencer-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:spencer/government
+  office_id: spencer/alderman
+  party: Nonpartisan
+  ballot_name: Erin S. Moody
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Spencer Board of Aldermen -- Rashid H. Muhammad (Nonpartisan) 168; Pamela Stanley (Nonpartisan) 159; Erin S. Moody (Nonpartisan) 150. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

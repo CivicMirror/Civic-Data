@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d3f2be0a-7875-52ed-8065-80e95e500c99
+name: John L. Chandler
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/mars-hill-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mars-hill/government
+  office_id: mars-hill/mayor
+  party: Democratic
+  ballot_name: John L. Chandler
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mars Hill Mayor -- John L. Chandler (Democratic) 154. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

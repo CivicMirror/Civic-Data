@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/92128e82-bb58-50f8-aca2-6d82ef0f8949
+name: Mike Repenning
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/river-bend-council-member
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:river-bend/government
+  office_id: river-bend/council-member
+  party: Nonpartisan
+  ballot_name: Mike Repenning
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): River Bend Town Council -- James Castranova (Nonpartisan) 725; Buddy Sheffield (Nonpartisan) 698; Jeffrey A. Weaver (Nonpartisan) 598; Bud Van Slyke (Nonpartisan) 549; Mike Repenning (Nonpartisan) 539; Don Fogle (Nonpartisan) 522. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

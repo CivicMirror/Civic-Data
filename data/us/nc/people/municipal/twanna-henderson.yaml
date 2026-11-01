@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4325d61a-3f89-539d-8616-fc558b515e99
+name: Twanna Henderson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mint-hill-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mint-hill/government
+  office_id: mint-hill/commissioner
+  party: Nonpartisan
+  ballot_name: Twanna Henderson
+  status: active
+- contest_id: nc/2025-11-04/mint-hill-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mint-hill/government
+  office_id: mint-hill/commissioner
+  party: Nonpartisan
+  ballot_name: Twanna Henderson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mint Hill Board of Commissioners -- Dale Dalton (Nonpartisan) 2,390; Tony Long (Nonpartisan) 2,366; Twanna Henderson (Nonpartisan) 2,284; Patrick Holton (Nonpartisan) 2,171; Matthew Schwoebel (Nonpartisan) 1,506. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mint Hill Board of Commissioners -- Trey Long (Nonpartisan) 2,607; Twanna Henderson (Nonpartisan) 2,585; Patrick Holton (Nonpartisan) 2,258; Patrick J. O''Brien (Nonpartisan) 2,098; Matt Schwoebel (Nonpartisan) 914. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

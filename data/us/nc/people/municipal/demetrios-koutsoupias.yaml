@@ -7,17 +7,27 @@
 id: ocd-person/ec256cea-9b13-4449-8f5f-41ba9e8ac932
 name: Demetrios Koutsoupias
 identifiers:
-  - scheme: civicpatch-person
-    identifier: f835d560-fde0-4cee-9626-f348b0bf7cab
-candidacies: []
+- scheme: civicpatch-person
+  identifier: f835d560-fde0-4cee-9626-f348b0bf7cab
+candidacies:
+- contest_id: nc/2025-11-04/gastonia-council-member-ward-1
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gastonia/government
+  office_id: gastonia/council-member
+  party: Nonpartisan
+  ballot_name: Demetrios Koutsoupias
+  status: active
 contact:
   email: ward1.koutsoupias@gastonianc.gov
-  phone: "(704) 747-1177"
+  phone: (704) 747-1177
   profile_url: https://www.gastonianc.gov/ward-1.html
 image: https://www.gastonianc.gov/images/files/city_council_mayor/images/Councilman_Demetrios_Koutsoupias_6-20-2024b.jpg
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.gastonianc.gov/city-council-info.html
-    retrieved: "2026-08-14"
+- url: https://www.gastonianc.gov/city-council-info.html
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Gastonia Government Town Council, Ward 1 -- Demetrios Koutsoupias (Nonpartisan) 855; Adam Olivieri (Nonpartisan) 239; Walter James Hart, Jr. (Nonpartisan) 225. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

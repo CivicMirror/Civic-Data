@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/75fd051c-6294-55b2-8d29-4eae2f052522
+name: Charles Bentley Hardison
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/oak-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oak/government
+  office_id: oak/commissioner
+  party: Nonpartisan
+  ballot_name: Charles Bentley Hardison
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Oak City Board of Commissioners -- Phillip M. Burnett (Nonpartisan) 69; Robert Turner (Nonpartisan) 68; Kevin Turner (Nonpartisan) 67; Sue Craft Harrell (Nonpartisan) 66; Charles Bentley Hardison (Nonpartisan) 55. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

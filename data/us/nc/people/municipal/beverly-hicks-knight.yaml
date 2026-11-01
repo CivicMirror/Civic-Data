@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/afb6346a-c870-542e-b08d-7737d9c0bc6e
+name: Beverly Hicks Knight
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kenly-council-member-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kenly/government
+  office_id: kenly/council-member
+  party: Nonpartisan
+  ballot_name: Beverly Hicks Knight
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kenly Town Council, Member (Unexpired Term) -- Beverly Hicks Knight (Nonpartisan) 73; Corey Williams Brown (Write-In) (Write-In) 24; Miscellaneous (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

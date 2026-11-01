@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e8dc8e6b-4442-5f47-889d-454f391ad4db
+name: Heather Brooks
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/high-point-council-member-ward-6
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:high-point/government
+  office_id: high-point/council-member
+  party: Nonpartisan
+  ballot_name: Heather Brooks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): High Point City Council, Ward 6 -- Michael Holmes (Nonpartisan) 1,302; Heather Brooks (Nonpartisan) 868. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

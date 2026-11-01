@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d9b5f2f7-4735-5b88-9959-4af1fe7bcac7
+name: Addison Gilbert
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mcadenville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mcadenville/government
+  office_id: mcadenville/council-member
+  party: Write-In
+  ballot_name: Addison Gilbert
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mcadenville Town Council -- Reid Washam (Nonpartisan) 58; Joe Rankin (Nonpartisan) 53; Addison Gilbert (Write-In) (Write-In) 1; Ashley Westmoreland (Write-In) (Write-In) 1; Landon Snyder (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

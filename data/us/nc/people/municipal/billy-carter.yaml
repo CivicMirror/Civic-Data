@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5267c3f9-f3c8-54e8-b0e1-73940dca28bb
+name: Billy Carter
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lewisville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lewisville/government
+  office_id: lewisville/mayor
+  party: Democratic
+  ballot_name: Billy Carter
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lewisville Mayor -- Billy Carter (Democratic) 1,443; Kevin Sharp (Republican) 1,278. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

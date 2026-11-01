@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/a4d07af3-3af5-58db-b6f4-3b63315df5a1
+name: Drew Reisinger
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/buncombe-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:buncombe/government
+  office_id: buncombe/register-of-deeds
+  party: Democratic
+  ballot_name: Drew Reisinger
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Buncombe County Register Of Deeds -- Drew Reisinger (DEM) 111,512.'
+  retrieved: '2026-10-23'

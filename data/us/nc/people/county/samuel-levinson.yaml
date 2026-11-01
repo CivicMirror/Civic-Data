@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/e0ed59b2-144f-5c41-a93c-1af762028a92
+name: Samuel Levinson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/scotland-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:scotland/government
+  office_id: scotland/commissioner-at-large
+  party: Libertarian
+  ballot_name: Samuel Levinson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Scotland County Board Of Commissioners At-Large -- Ed O''Neal (REP) 7,468; Daniel Jermaine Dockery (DEM) 6,478; Samuel Levinson (LIB) 279.'
+  retrieved: '2026-10-23'

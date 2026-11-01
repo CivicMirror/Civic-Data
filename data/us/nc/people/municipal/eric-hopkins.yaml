@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/43d6ea8e-6b5a-555d-a79c-35dba7682f16
+name: Eric Hopkins
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/alliance-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:alliance/government
+  office_id: alliance/commissioner
+  party: Nonpartisan
+  ballot_name: Eric Hopkins
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Alliance Board of Commissioners -- John (Will) Riggs (Nonpartisan) 29; Grady Simpson (Nonpartisan) 27; Courtney Norfleet (Nonpartisan) 23; Frank Willis (Nonpartisan) 17; Eric Hopkins (Nonpartisan) 16. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7bc7b48f-aa25-55d0-8902-3569c39fd4eb
+name: Janet Baker
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/maysville-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:maysville/government
+  office_id: maysville/commissioner
+  party: Nonpartisan
+  ballot_name: Janet Baker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Maysville Board of Commissioners -- Dan Ryan (Nonpartisan) 265; Lisa Howard Moore (Nonpartisan) 261; Janet Baker (Nonpartisan) 258; Myra Baker Fryar (Nonpartisan) 240; Cara Dunn (Nonpartisan) 225. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

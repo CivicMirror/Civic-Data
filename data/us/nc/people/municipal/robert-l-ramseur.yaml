@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f0d60878-248a-5c92-9253-f7150d112b3d
+name: Robert L. Ramseur
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kingstown-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kingstown/government
+  office_id: kingstown/council-member
+  party: Nonpartisan
+  ballot_name: Robert L. Ramseur
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kingstown Town Council -- Harold Mintz (Nonpartisan) 91; Robert L. Ramseur (Nonpartisan) 82. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

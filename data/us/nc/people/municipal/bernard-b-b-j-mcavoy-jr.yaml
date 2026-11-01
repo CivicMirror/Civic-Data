@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7706f33a-ea5a-500c-b835-2cd5185c29e2
+name: Bernard B. (B.J.) McAvoy, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kill-devil-hills-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kill-devil-hills/government
+  office_id: kill-devil-hills/commissioner
+  party: Nonpartisan
+  ballot_name: Bernard B. (B.J.) McAvoy, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kill Devil Hills Board of Commissioners -- Ivy Ingram (Nonpartisan) 972; Bernard B. (B.J.) McAvoy, Jr. (Nonpartisan) 768; Michael Denny (Nonpartisan) 339. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

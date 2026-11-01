@@ -1,0 +1,18 @@
+id: ocd-person/d1fc02ca-4ffe-5aed-b3c6-565910266712
+name: Jeff Carpenter
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/court-of-appeals-judge-seat-7
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-7
+  party: Republican
+  ballot_name: Jeff Carpenter
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 07 -- Jeff Carpenter (Republican) 2,747,110; Reuben F. Young (Democratic) 2,578,035. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/aabab41e-31d1-51f9-96b5-6ba063877d13
+name: Billy Tart
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/dunn-commissioner-ward-4
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dunn/government
+  office_id: dunn/commissioner
+  party: Nonpartisan
+  ballot_name: Billy Tart
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Dunn Board of Commissioners, Ward 4 -- Billy Tart (Nonpartisan) 83; Herbert E. Smith (Nonpartisan) 63. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

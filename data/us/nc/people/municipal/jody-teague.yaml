@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/da357f56-fae0-5526-8a38-d1ef94e261d1
+name: Jody Teague
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lucama-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lucama/government
+  office_id: lucama/commissioner
+  party: Nonpartisan
+  ballot_name: Jody Teague
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lucama Board of Commissioners -- Kim Joyner (Nonpartisan) 100; Jody Teague (Nonpartisan) 76; Judy Mason (Nonpartisan) 40; Peggy B. Lamm (Nonpartisan) 24; Sonya Bullock (Write-In) (Write-In) 12; Miscellaneous (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

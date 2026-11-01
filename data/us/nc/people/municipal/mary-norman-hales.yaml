@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2aa3cf29-2637-56a8-b2e7-19cb02c95a0d
+name: Mary Norman Hales
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/kenly-council-member-members-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kenly/government
+  office_id: kenly/council-member
+  party: Nonpartisan
+  ballot_name: Mary Norman Hales
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kenly Town Council, Members (Unexpired Term) -- Mary Norman Hales (Nonpartisan) 147. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

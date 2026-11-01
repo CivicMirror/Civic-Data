@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d9ec8cf4-332b-5343-96cf-e7ef91187a97
+name: Linda L. Gilliam
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lewiston-woodville-council-member-woodville-district
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lewiston-woodville/government
+  office_id: lewiston-woodville/council-member
+  party: Nonpartisan
+  ballot_name: Linda L. Gilliam
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lewiston-Woodville Town Council, Woodville District -- Linda L. Gilliam (Nonpartisan) 63. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

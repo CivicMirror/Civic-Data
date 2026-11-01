@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bac5d652-b09d-5bb6-a165-ef233ae32d26
+name: Jeremy R. Ridenhour
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/varnamtown-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:varnamtown/government
+  office_id: varnamtown/alderman
+  party: Nonpartisan
+  ballot_name: Jeremy R. Ridenhour
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Varnamtown Board of Aldermen -- Lori Galloway (Nonpartisan) 37; Jeremy R. Ridenhour (Nonpartisan) 26. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

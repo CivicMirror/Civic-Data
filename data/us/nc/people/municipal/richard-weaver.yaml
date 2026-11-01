@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4d9bb63b-c00a-5e83-9359-8d4ee58f967a
+name: Richard Weaver
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lansing-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lansing/government
+  office_id: lansing/alderman
+  party: Nonpartisan
+  ballot_name: Richard Weaver
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lansing Board of Aldermen -- Teresa McCoy (Nonpartisan) 20; Richard Weaver (Nonpartisan) 17; Matt Cordell (Nonpartisan) 16; Peter Farley (Nonpartisan) 12. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

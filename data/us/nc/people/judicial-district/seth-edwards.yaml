@@ -1,0 +1,28 @@
+id: ocd-person/b9692c65-94fb-5360-ba27-2935718f7e7f
+name: Seth Edwards
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-2-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-2/judiciary
+  office_id: prosecutorial-district-2/district-attorney
+  party: Democratic
+  ballot_name: Seth Edwards
+  status: active
+- contest_id: nc/2024-11-05/superior-court-district-2-judge-seat-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-2/judiciary
+  office_id: superior-court-district-2/judge-seat-2
+  party: Republican
+  ballot_name: Seth Edwards
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 02 -- Seth Edwards (Democratic) 22,867. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 02 SEAT 02 -- Seth Edwards (Republican) 36,450. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

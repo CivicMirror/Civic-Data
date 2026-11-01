@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/875c0dd8-c4d6-51f0-8912-ee9b0e62d7c9
+name: Heath Harward
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/boiling-spring-lakes-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:boiling-spring-lakes/government
+  office_id: boiling-spring-lakes/mayor
+  party: Write-In
+  ballot_name: Heath Harward
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Boiling Spring Lakes Mayor -- Jeff Winecoff (Nonpartisan) 613; Heath Harward (Write-In) (Write-In) 7; Lawrence Bowersox (Write-In) (Write-In) 5; Tom Guzalaitis (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

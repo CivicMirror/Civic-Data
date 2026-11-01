@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/36b1d0d2-9e4c-5ecc-b238-a21c6418bb33
+name: Camilla J. Griggs
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/bethel-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bethel/government
+  office_id: bethel/commissioner
+  party: Nonpartisan
+  ballot_name: Camilla J. Griggs
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Bethel Board of Commissioners -- Frederic Whitehurst (Nonpartisan) 220; Camilla J. Griggs (Nonpartisan) 196; Cassandra Conger (Nonpartisan) 183; Thomas W. Lilley (Nonpartisan) 181; Elvis Jones (Nonpartisan) 155; Barbara Jackson Bynum (Nonpartisan) 136; Tina Staton (Nonpartisan) 81; Delores Pittman (Nonpartisan) 71; Latonya P. Williams (Nonpartisan) 44; Tricia Werkau (Nonpartisan) 20. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

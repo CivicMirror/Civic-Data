@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0837d405-1b57-5c04-831e-6bfec4c0d58e
+name: Brad Reisinger
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/webster-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:webster/government
+  office_id: webster/commissioner
+  party: Nonpartisan
+  ballot_name: Brad Reisinger
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Webster Board of Commissioners -- Brad Reisinger (Nonpartisan) 70; Sara Stahlman (Nonpartisan) 65; Dale Collins (Nonpartisan) 55; Daniel Riggs (Nonpartisan) 50; Susan Raaf (Nonpartisan) 14. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ce9d907e-9185-5ae7-8574-559ee7a40550
+name: Curtis Anders
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/north-topsail-beach-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:north-topsail-beach/government
+  office_id: north-topsail-beach/alderman
+  party: Nonpartisan
+  ballot_name: Curtis Anders
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): North Topsail Beach Board of Aldermen -- Larry Strother (Nonpartisan) 191; Kip Malcolm (Nonpartisan) 179; Mark Barefoot (Write-In) (Write-In) 127; Tom Leonard (Nonpartisan) 121; Curtis Anders (Nonpartisan) 90. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

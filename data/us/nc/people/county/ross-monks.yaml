@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/932844c1-18a4-53f9-9dff-ac74105ecdbe
+name: Ross Monks
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/mecklenburg-commissioner-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:mecklenburg/government
+  office_id: mecklenburg/commissioner-district-1
+  party: Republican
+  ballot_name: Ross Monks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Mecklenburg County Board Of Commissioners District 01 -- Elaine Powell (DEM) 40,305; Ross Monks (REP) 30,492.'
+  retrieved: '2026-10-23'

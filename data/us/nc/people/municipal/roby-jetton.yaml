@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/646d89dc-2c5a-5b22-9fa3-e4b3d57b09ec
+name: Roby Jetton
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lincolnton-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lincolnton/government
+  office_id: lincolnton/mayor
+  party: Write-In
+  ballot_name: Roby Jetton
+  status: active
+- contest_id: nc/2024-11-05/lincolnton-council-member-ward-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lincolnton/government
+  office_id: lincolnton/council-member
+  party: Republican
+  ballot_name: Roby Jetton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Lincolnton Mayor -- Ed Hatley (Democratic) 2,028; Richard Speer (Write-In) (Write-In) 142; Brad Cranford (Write-In) (Write-In) 11; John Gilleland (Write-In) (Write-In) 10; Roby Jetton (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Lincolnton City Council, Ward 4 -- Roby Jetton (Republican) 3,419. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

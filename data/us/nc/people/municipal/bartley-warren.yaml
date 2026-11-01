@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8efe44bd-f740-5c66-b7d7-8d70f7129483
+name: Bartley Warren
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/newton-grove-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:newton-grove/government
+  office_id: newton-grove/commissioner
+  party: Nonpartisan
+  ballot_name: Bartley Warren
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Newton Grove Board of Commissioners -- Bartley Warren (Nonpartisan) 35; Cody Smith (Nonpartisan) 33. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

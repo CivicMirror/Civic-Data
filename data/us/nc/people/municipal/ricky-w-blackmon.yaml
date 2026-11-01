@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b672d922-138e-50de-a102-80181bb06fd0
+name: Ricky W. Blackmon
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/erwin-commissioner-ward-2
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:erwin/government
+  office_id: erwin/commissioner
+  party: Nonpartisan
+  ballot_name: Ricky W. Blackmon
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Erwin Board of Commissioners, Ward 2 -- Ricky W. Blackmon (Nonpartisan) 9. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

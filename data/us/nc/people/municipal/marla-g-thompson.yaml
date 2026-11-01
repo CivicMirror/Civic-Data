@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fec402ec-2139-5805-8afa-9efdbafb5e96
+name: Marla G. Thompson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/long-view-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:long-view/government
+  office_id: long-view/mayor
+  party: Nonpartisan
+  ballot_name: Marla G. Thompson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Long View Mayor -- Eddie Marlowe (Nonpartisan) 196; Marla G. Thompson (Nonpartisan) 157. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

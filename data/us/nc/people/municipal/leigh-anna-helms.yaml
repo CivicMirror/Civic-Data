@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/79f786d5-9c5f-525e-be3f-9ecf8c1a06ee
+name: Leigh Anna Helms
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/stanley-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stanley/government
+  office_id: stanley/mayor
+  party: Write-In
+  ballot_name: Leigh Anna Helms
+  status: active
+- contest_id: nc/2023-11-07/stanley-council-member-ward-4
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stanley/government
+  office_id: stanley/council-member
+  party: Nonpartisan
+  ballot_name: Leigh Anna Helms
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Stanley Mayor -- Steven Denton (Nonpartisan) 309; Deborah Sanders (Write-In) (Write-In) 1; Frank Guida (Write-In) (Write-In) 1; Kevin McCuen (Write-In) (Write-In) 1; Leigh Anna Helms (Write-In) (Write-In) 1; Sean Michael Bloom (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Stanley Town Council, Ward 4 -- Leigh Anna Helms (Nonpartisan) 307; Kevin McCuen (Write-In) (Write-In) 1; William S. Melton (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

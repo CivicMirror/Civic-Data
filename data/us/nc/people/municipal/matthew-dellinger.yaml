@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/dac42289-5b16-5b7b-8076-fcbb3384018b
+name: Matthew Dellinger
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/davidson-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:davidson/government
+  office_id: davidson/commissioner
+  party: Nonpartisan
+  ballot_name: Matthew Dellinger
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Davidson Board of Commissioners -- Autumn Rierson Michael (Nonpartisan) 2,069; Matthew Dellinger (Nonpartisan) 2,059; Tracy Mattison Brandon (Nonpartisan) 2,029; Steven G. (Steve) Justus (Nonpartisan) 2,028; Ryan Fay (Nonpartisan) 2,016; Dan Ryan (Write-In) (Write-In) 5. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

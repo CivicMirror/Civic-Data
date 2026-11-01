@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7b718ca3-69f2-5c9d-88dc-28055692dca3
+name: Louise W. Hinton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/nashville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:nashville/government
+  office_id: nashville/council-member
+  party: Nonpartisan
+  ballot_name: Louise W. Hinton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Nashville Town Council -- Xavien Harrison (Nonpartisan) 472; Bill Lumpp (Nonpartisan) 412; Mary Grace Daughtridge (Nonpartisan) 389; Louise W. Hinton (Nonpartisan) 272. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

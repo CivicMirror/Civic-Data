@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/526f6cfc-79c2-5fcc-90d9-905c8d84692d
+name: David Roberson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/bayboro-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bayboro/government
+  office_id: bayboro/commissioner
+  party: Nonpartisan
+  ballot_name: David Roberson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Bayboro Board of Commissioners -- Vennie Himbry (Nonpartisan) 60; J.E. Hardison (Nonpartisan) 59; Christopher Broughton (Nonpartisan) 55; David Roberson (Nonpartisan) 55; Kelvin (KC) Credle (Nonpartisan) 55; Joseph Cole (Nonpartisan) 51. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

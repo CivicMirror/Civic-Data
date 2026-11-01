@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/00b14756-1252-5e0a-8a45-dc41d92f4588
+name: David King
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/reidsville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:reidsville/government
+  office_id: reidsville/council-member
+  party: Write-In
+  ballot_name: David King
+  status: active
+- contest_id: nc/2025-11-04/weaverville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:weaverville/government
+  office_id: weaverville/council-member
+  party: Nonpartisan
+  ballot_name: David King
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Reidsville City Council -- Harry Brown (Nonpartisan) 1,169; Terresia Scoble (Nonpartisan) 669; George Rucker Jr. (Write-In) (Write-In) 21; James Festerman (Write-In) (Write-In) 3; Kelly Almond (Write-In) (Write-In) 2; Peter McKinnon (Write-In) (Write-In) 2; William Martin (Write-In) (Write-In) 2; Ann Braja (Write-In) (Write-In) 1; Arnold Robertson (Write-In) (Write-In) 1; Chance Palmer (Write-In) (Write-In) 1; David King (Write-In) (Write-In) 1; Dwight Lucas (Write-In) (Write-In) 1; James Aaron Shelton (Write-In) (Write-In) 1; Jennifer Allison Shelton (Write-In) (Write-In) 1; Matt Huskey (Write-In) (Write-In) 1; Sherry Walker (Write-In) (Write-In) 1; Steven Money (Write-In) (Write-In) 1; Tara Taylor (Write-In) (Write-In) 1; Terry Beck (Write-In) (Write-In) 1; Wendy Walker (Write-In) (Write-In) 1. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Weaverville Town Council -- Jennifer Young (Nonpartisan) 1,178; Phil Barnett (Nonpartisan) 1,116; Mark Endries (Nonpartisan) 888; David King (Nonpartisan) 724; Fred Borth (Nonpartisan) 283; Eleanor Mrozkowski (Nonpartisan) 238. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

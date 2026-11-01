@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2fa3d74d-72ad-565b-95f1-12e06e0f40ee
+name: Thurman Houston
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mooresville-commissioner-ward-2
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mooresville/government
+  office_id: mooresville/commissioner
+  party: Nonpartisan
+  ballot_name: Thurman Houston
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mooresville Board of Commissioners, Ward 2 -- William (Will) Aven (Nonpartisan) 545; Thurman Houston (Nonpartisan) 522. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

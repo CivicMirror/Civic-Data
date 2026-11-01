@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/28cead45-e158-590a-93f4-29db592747d7
+name: Charmaine Nephew
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/cornelius-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cornelius/government
+  office_id: cornelius/commissioner
+  party: Nonpartisan
+  ballot_name: Charmaine Nephew
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Cornelius Board of Commissioners -- Scott Higgins (Nonpartisan) 2,859; Susan Johnson (Nonpartisan) 2,857; Michael Osborne (Nonpartisan) 2,851; Todd Sansbury (Nonpartisan) 2,829; Robert Carney (Nonpartisan) 2,729; Colin J. Furcht (Nonpartisan) 2,357; Thurman Ross (Nonpartisan) 2,117; Michael (Mike) Miltich (Nonpartisan) 1,976; Bob Menzel (Nonpartisan) 1,923; Charmaine Nephew (Nonpartisan) 1,822. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

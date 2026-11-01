@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/eb20ec6a-6a12-570f-8d5a-1896e3f32677
+name: Sandie Tysinger Chappell
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/davidson-clerk-of-superior-court
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:davidson/government
+  office_id: davidson/clerk-of-superior-court
+  party: Republican
+  ballot_name: Sandie Tysinger Chappell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Davidson County Clerk Of Superior Court -- Sandie Tysinger Chappell (REP) 50,776.'
+  retrieved: '2026-10-23'

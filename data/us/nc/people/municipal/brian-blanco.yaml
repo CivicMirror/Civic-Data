@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ccf9e8c3-fdcb-5ae7-a5a0-38636cce4b2c
+name: Brian Blanco
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/west-jefferson-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:west-jefferson/government
+  office_id: west-jefferson/alderman
+  party: Nonpartisan
+  ballot_name: Brian Blanco
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): West Jefferson Board of Aldermen -- Phillip Absher (Nonpartisan) 110; Calvin Green (Nonpartisan) 83; Brian Blanco (Nonpartisan) 81; Stephen Sharpe Shoemaker (Nonpartisan) 80; William Sands (Nonpartisan) 77; Jeremy Aldridge (Nonpartisan) 40. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

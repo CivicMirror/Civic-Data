@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/03c7f2b1-5a60-558e-8c54-32141016a2b0
+name: Marcus John McIntyre
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/indian-trail-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:indian-trail/government
+  office_id: indian-trail/council-member
+  party: Nonpartisan
+  ballot_name: Marcus John McIntyre
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Indian Trail Town Council -- Marcus John McIntyre (Nonpartisan) 1,332; Tom Amburgey (Nonpartisan) 975; Richard Ray Sayre II (Nonpartisan) 780; Dennis Gay (Nonpartisan) 760; Jerel Sangandi (Nonpartisan) 633; Raven Faherty (Nonpartisan) 559; Sean Matteson (Nonpartisan) 362. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

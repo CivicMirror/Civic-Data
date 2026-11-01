@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ea0da410-9ead-5cd8-9c56-82740ec827f3
+name: Matthew Callahan
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/vass-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:vass/government
+  office_id: vass/commissioner
+  party: Nonpartisan
+  ballot_name: Matthew Callahan
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Vass Board of Commissioners -- Matthew Callahan (Nonpartisan) 137; George Blackwell, Jr. (Nonpartisan) 99; Eddie Callahan (Nonpartisan) 98; Todd McLeod (Nonpartisan) 84; Butch Moore (Nonpartisan) 45. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

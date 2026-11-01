@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4a272831-1878-54f0-8794-12e417b22e61
+name: Craig New
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/red-oak-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:red-oak/government
+  office_id: red-oak/commissioner
+  party: Nonpartisan
+  ballot_name: Craig New
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Red Oak Board of Commissioners -- Sandra Russ (Nonpartisan) 180; Craig New (Nonpartisan) 154; Nick Taylor (Nonpartisan) 100. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

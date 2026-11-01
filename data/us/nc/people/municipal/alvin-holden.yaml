@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b7d4aaf1-88e0-588b-b5c4-d3e0a99aa4f0
+name: Alvin Holden
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/franklinton-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:franklinton/government
+  office_id: franklinton/commissioner
+  party: Nonpartisan
+  ballot_name: Alvin Holden
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Franklinton Board of Commissioners -- LaTasha Wilder (Nonpartisan) 206; John Allers (Nonpartisan) 176; Alvin Holden (Nonpartisan) 173; M. H. (Griff) Griffith (Nonpartisan) 62; Joel McCormack (Nonpartisan) 55. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

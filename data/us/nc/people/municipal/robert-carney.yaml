@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/eb995948-bb47-58c4-ab50-e02a17d3f6aa
+name: Robert Carney
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/cornelius-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cornelius/government
+  office_id: cornelius/commissioner
+  party: Nonpartisan
+  ballot_name: Robert Carney
+  status: active
+- contest_id: nc/2025-11-04/cornelius-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cornelius/government
+  office_id: cornelius/commissioner
+  party: Nonpartisan
+  ballot_name: Robert Carney
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Cornelius Board of Commissioners -- Scott Higgins (Nonpartisan) 2,859; Susan Johnson (Nonpartisan) 2,857; Michael Osborne (Nonpartisan) 2,851; Todd Sansbury (Nonpartisan) 2,829; Robert Carney (Nonpartisan) 2,729; Colin J. Furcht (Nonpartisan) 2,357; Thurman Ross (Nonpartisan) 2,117; Michael (Mike) Miltich (Nonpartisan) 1,976; Bob Menzel (Nonpartisan) 1,923; Charmaine Nephew (Nonpartisan) 1,822. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cornelius Board of Commissioners -- Michael D. Osborne (Nonpartisan) 5,009; Susan Johnson (Nonpartisan) 4,894; Todd Sansbury (Nonpartisan) 4,745; Robert Carney (Nonpartisan) 4,581; Colin J. Furcht (Nonpartisan) 4,336; Michael DeVoney (Nonpartisan) 3,678. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

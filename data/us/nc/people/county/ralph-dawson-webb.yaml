@@ -7,7 +7,14 @@
 id: ocd-person/b7b8d8a2-4996-57d4-a0aa-1860a348b6c3
 name: Ralph Dawson Webb
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/edgecombe-commissioner-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:edgecombe/government
+  office_id: edgecombe/commissioner-district-5
+  party: Democratic
+  ballot_name: Ralph Dawson Webb
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Edgecombe County Board Of Commissioners District 05 -- Ralph Dawson Webb (DEM) 2,787.'
+  retrieved: '2026-10-23'

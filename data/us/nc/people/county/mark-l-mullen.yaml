@@ -7,7 +7,14 @@
 id: ocd-person/d0d44d1a-41a8-5310-9761-c48a61d04440
 name: Mark L. Mullen
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/lincoln-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:lincoln/government
+  office_id: lincoln/commissioner-at-large
+  party: Republican
+  ballot_name: Mark L. Mullen
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Lincoln County Board Of Commissioners -- Mark L. Mullen (REP) 33,560; Trent Carpenter (REP) 31,480; Alex Patton (REP) 30,441; Marie Moore (Write-In) 79.'
+  retrieved: '2026-10-23'

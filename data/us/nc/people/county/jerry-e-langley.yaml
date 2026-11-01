@@ -7,7 +7,14 @@
 id: ocd-person/16ee2ead-0db6-537e-bb2a-fb1a2925a241
 name: Jerry E. Langley
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/beaufort-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:beaufort/government
+  office_id: beaufort/commissioner-at-large
+  party: Democratic
+  ballot_name: Jerry E. Langley
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Beaufort County Board Of Commissioners -- Jerry E. Langley (DEM) 5,513; Randy Walker (REP) 4,842; Hood Richardson (REP) 4,524; Tandy Dunn (REP) 4,182; John Rebholz (REP) 3,447; Johnny Rodman (DEM) 3,132. The ballot instructs voters to vote for 1, but 4 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 4 finishers are the winners.'
+  retrieved: '2026-10-23'

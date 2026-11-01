@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/075852be-358f-5fbe-a057-3d8529331798
+name: Debbie Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/ocean-isle-beach-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ocean-isle-beach/government
+  office_id: ocean-isle-beach/mayor
+  party: Nonpartisan
+  ballot_name: Debbie Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Ocean Isle Beach Mayor -- Debbie Smith (Nonpartisan) 255; Wendy Hughes (Write-In) (Write-In) 6; Leigh Simmons (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

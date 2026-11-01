@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/de2e509c-0efa-56a7-93f5-b4ab24a3f629
+name: Helen D Thompson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/jacksonville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jacksonville/government
+  office_id: jacksonville/council-member
+  party: Write-In
+  ballot_name: Helen D Thompson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jacksonville City Council (At-Large) -- Michael Yaniero (Nonpartisan) 1,595; Cindy Edwards (Nonpartisan) 1,570; Amity Holland (Nonpartisan) 912; Jerome Willingham (Write-In) (Write-In) 24; Mickey Smith (Write-In) (Write-In) 23; Brian Jackson (Write-In) (Write-In) 14; Helen D Thompson (Write-In) (Write-In) 6; Fernando Schiefelbein (Write-In) (Write-In) 4. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

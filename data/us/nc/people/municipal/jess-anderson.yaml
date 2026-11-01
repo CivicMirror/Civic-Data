@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3f387c0d-f21e-55d4-a04a-5d6d0cb16218
+name: Jess Anderson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/chapel-hill-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chapel-hill/government
+  office_id: chapel-hill/mayor
+  party: Nonpartisan
+  ballot_name: Jess Anderson
+  status: active
+- contest_id: nc/2025-11-04/chapel-hill-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chapel-hill/government
+  office_id: chapel-hill/mayor
+  party: Nonpartisan
+  ballot_name: Jess Anderson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Chapel Hill Mayor -- Jess Anderson (Nonpartisan) 7,147; Adam Searing (Nonpartisan) 4,978. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Chapel Hill Mayor -- Jess Anderson (Nonpartisan) 6,086; Adam Searing (Write-In) (Write-In) 103; Renuka Soll (Write-In) (Write-In) 7; Theodore Nollert (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

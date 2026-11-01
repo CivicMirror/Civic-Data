@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/700f3a66-8b4e-51d6-a5d1-0e7fd9cced46
+name: Mary Beedle
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/washington-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:washington/government
+  office_id: washington/council-member
+  party: Nonpartisan
+  ballot_name: Mary Beedle
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Washington City Council -- Anthony Tyre (Nonpartisan) 1,106; Richard Brooks (Nonpartisan) 1,105; Antwan Horton (Nonpartisan) 1,022; Lou Hodges (Nonpartisan) 881; William H. Pitt (Nonpartisan) 792; Ellen Brabo (Nonpartisan) 750; Gary A. Ceres (Nonpartisan) 731; Andrew (Tex) Melton (Nonpartisan) 619; Leesa Payton Jones (Nonpartisan) 554; Mary Beedle (Nonpartisan) 347; AJ Congleton (Nonpartisan) 236. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

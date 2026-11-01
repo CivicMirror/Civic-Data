@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/057dab17-43b5-5682-a227-c9c14bdf4513
+name: Jim Thompson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/wake-forest-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wake-forest/government
+  office_id: wake-forest/commissioner
+  party: Nonpartisan
+  ballot_name: Jim Thompson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Wake Forest Board of Commissioners -- Adam B. Wright (Nonpartisan) 2,986; Ben Clapsaddle (Nonpartisan) 2,648; Faith Cross (Nonpartisan) 2,352; Joe Kimray (Nonpartisan) 2,003; Tom Ballman (Nonpartisan) 1,895; Jim Thompson (Nonpartisan) 1,121. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

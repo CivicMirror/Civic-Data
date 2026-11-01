@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c6c2fd54-b07a-518b-9118-e06b4944bf81
+name: Martha Pittman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/oak-ridge-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oak-ridge/government
+  office_id: oak-ridge/council-member
+  party: Nonpartisan
+  ballot_name: Martha Pittman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Oak Ridge Town Council -- Jim Harton (Nonpartisan) 751; Mike Stone (Nonpartisan) 684; Michael Greeson (Nonpartisan) 590; Martha Pittman (Nonpartisan) 568; George McClellan (Nonpartisan) 554. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

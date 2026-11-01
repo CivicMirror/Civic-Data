@@ -1,0 +1,18 @@
+id: ocd-person/40e40838-5e3a-55e7-8f07-d7b61d909bfb
+name: Phil Berger, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/supreme-court-associate-justice-seat-2
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/associate-justice-seat-2
+  party: Republican
+  ballot_name: Phil Berger, Jr.
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPREME COURT ASSOCIATE JUSTICE SEAT 02 -- Phil Berger, Jr. (Republican) 2,723,702; Lucy Inman (Democratic) 2,652,187. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

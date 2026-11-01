@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c05c290b-2eb4-534b-933c-a3c661063838
+name: Brian M. Leonard
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/river-bend-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:river-bend/government
+  office_id: river-bend/council-member
+  party: Nonpartisan
+  ballot_name: Brian M. Leonard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): River Bend Town Council -- Kathy Noonan (Nonpartisan) 622; Brian M. Leonard (Nonpartisan) 608; Steve L. Bokor (Nonpartisan) 544; Brett Beddow (Nonpartisan) 454; Patrick O''Toole (Nonpartisan) 388; Donna B. Ross (Nonpartisan) 338; Barbara Mauer (Write-In) (Write-In) 92. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

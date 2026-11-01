@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2ac6d9cc-7640-52fd-a584-b6b7da64fbe5
+name: Kathy Keefe Jensen
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/fayetteville-council-member-district-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fayetteville/government
+  office_id: fayetteville/council-member
+  party: Nonpartisan
+  ballot_name: Kathy Keefe Jensen
+  status: active
+- contest_id: nc/2025-11-04/fayetteville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:fayetteville/government
+  office_id: fayetteville/mayor
+  party: Nonpartisan
+  ballot_name: Kathy Keefe Jensen
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Fayetteville City Council, District 1 -- Kathy Keefe Jensen (Nonpartisan) 1,089; Alex Rodriguez (Nonpartisan) 584. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Fayetteville Mayor -- Mitch Colvin (Nonpartisan) 12,566; Kathy Keefe Jensen (Nonpartisan) 7,927; Freddie de la Cruz (Write-In) (Write-In) 260; Tisha S. Waddell (Write-In) (Write-In) 45; Mario "Be" Benavente (Write-In) (Write-In) 40; Paul Williams (Write-In) (Write-In) 20. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,7 +7,14 @@
 id: ocd-person/f6a70308-cbe2-588f-9aa9-ceebbc437b96
 name: Shai Woodbury
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/forsyth-commissioner-district-a
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:forsyth/government
+  office_id: forsyth/commissioner-district-a
+  party: Democratic
+  ballot_name: Shai Woodbury
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Forsyth County Board Of Commissioners District A -- Tonya D. McDaniel (DEM) 21,050; Shai Woodbury (DEM) 20,039; Michael R. Owens (REP) 6,484; Reginald Reid (REP) 5,647.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/86039c30-0356-5e43-abd2-3d39fb21eaf8
+name: Jeannette Davidson-Mayer
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/greensboro-council-member-district-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:greensboro/government
+  office_id: greensboro/council-member
+  party: Nonpartisan
+  ballot_name: Jeannette Davidson-Mayer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Greensboro City Council, District 5 -- Tammi Thurm (Nonpartisan) 4,747; Jeannette Davidson-Mayer (Nonpartisan) 2,165. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/25efde47-6e46-525b-8f89-17e6b962635c
+name: Christopher Carlson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/parkton-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:parkton/government
+  office_id: parkton/council-member
+  party: Nonpartisan
+  ballot_name: Christopher Carlson
+  status: active
+- contest_id: nc/2025-11-04/parkton-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:parkton/government
+  office_id: parkton/council-member
+  party: Nonpartisan
+  ballot_name: Christopher Carlson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Parkton Town Council -- Ed Lowery (Nonpartisan) 68; Christopher Carlson (Nonpartisan) 62; Tony McVickers (Nonpartisan) 62; Ben Mahaffey (Nonpartisan) 57; Daniel Currie McColl III (Nonpartisan) 57; Nakea McCrimmon (Write-In) (Write-In) 10; Trent McVickers (Write-In) (Write-In) 2. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Parkton Town Council -- Ben Mahaffey (Nonpartisan) 50; Tony McVickers (Nonpartisan) 50; Christopher Carlson (Nonpartisan) 45; Kelly Grant (Nonpartisan) 42; Kristen McVickers (Nonpartisan) 37; Prudence Hentz (Write-In) (Write-In) 8. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

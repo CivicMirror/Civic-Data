@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/2397a06d-a6bf-554c-9d48-2d8e7d8bdf1f
+name: Rik Emaus
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/transylvania-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:transylvania/government
+  office_id: transylvania/commissioner-at-large
+  party: Democratic
+  ballot_name: Rik Emaus
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Transylvania County Board Of Commissioners -- Teresa K. McCall (REP) 10,825; Larry L. Chapman (REP) 10,357; Jason Robert Chappell (REP) 10,283; Rik Emaus (DEM) 8,754; Joe Smith (DEM) 8,622; Bryan O''Neill (DEM) 8,386.'
+  retrieved: '2026-10-23'

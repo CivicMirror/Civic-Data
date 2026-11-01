@@ -1,0 +1,18 @@
+id: ocd-person/d88d9700-0929-5d62-aee0-37a95ef41a4c
+name: Paul Newby
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/supreme-court-chief-justice
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: supreme-court/chief-justice
+  party: Republican
+  ballot_name: Paul Newby
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPREME COURT CHIEF JUSTICE SEAT 01 -- Paul Newby (Republican) 2,695,951; Cheri Beasley (Democratic) 2,695,550. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

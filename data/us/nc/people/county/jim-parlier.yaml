@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/12b71a06-87db-588f-a0be-fd9f77fb14c4
+name: Jim Parlier
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/yancey-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:yancey/government
+  office_id: yancey/commissioner-at-large
+  party: Democratic
+  ballot_name: Jim Parlier
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Yancey County Board Of Commissioners -- Mark Ledford (REP) 6,039; Jeff Whitson (REP) 5,597; Sandi Norton (REP) 4,963; Brandi Buckner Young (UNA) 4,811; Hillary (Mandy) Young (DEM) 4,321; Jim Parlier (DEM) 3,964.'
+  retrieved: '2026-10-23'

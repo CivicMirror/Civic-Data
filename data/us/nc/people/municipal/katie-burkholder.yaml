@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/097fc3cc-844c-50bf-b10e-4ed1744880f4
+name: Katie Burkholder
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mebane-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mebane/government
+  office_id: mebane/council-member
+  party: Nonpartisan
+  ballot_name: Katie Burkholder
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mebane City Council -- Sean C. Ewing (Nonpartisan) 580; Katie Burkholder (Nonpartisan) 538. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

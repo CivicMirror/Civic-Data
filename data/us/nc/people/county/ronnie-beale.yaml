@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/9767fddb-24bb-5378-a3ef-4791b9f30907
+name: Ronnie Beale
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/macon-commissioner-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:macon/government
+  office_id: macon/commissioner-district-2
+  party: Democratic
+  ballot_name: Ronnie Beale
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Macon County Board Of Commissioners District 02 -- Gary Shields (REP) 9,842; Danny Antoine (REP) 9,222; Ronnie Beale (DEM) 5,338; Betty Cloer Wallace (DEM) 2,628.'
+  retrieved: '2026-10-23'

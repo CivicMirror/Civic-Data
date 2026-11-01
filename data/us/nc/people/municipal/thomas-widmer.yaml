@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c5fe7d45-1e83-593d-ac61-c6c38554b7f3
+name: Thomas Widmer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/montreat-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:montreat/government
+  office_id: montreat/commissioner
+  party: Nonpartisan
+  ballot_name: Thomas Widmer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Montreat Board of Commissioners -- Kent Otto (Nonpartisan) 265; Thomas Widmer (Nonpartisan) 256; Mason Blake (Nonpartisan) 248. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

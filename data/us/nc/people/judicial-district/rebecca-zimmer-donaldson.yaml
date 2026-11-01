@@ -1,0 +1,18 @@
+id: ocd-person/2636db92-e616-5ea3-976e-b5612f256a0a
+name: Rebecca Zimmer Donaldson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/prosecutorial-district-6-district-attorney
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-6/judiciary
+  office_id: prosecutorial-district-6/district-attorney
+  party: Democratic
+  ballot_name: Rebecca Zimmer Donaldson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DISTRICT ATTORNEY DISTRICT 06 (UNEXPIRED) -- Jason W. Smith (Republican) 90,832; Rebecca Zimmer Donaldson (Democratic) 79,638. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d8ab9190-4cd4-59aa-88f0-ae2256b20c81
+name: Jamie Wideman
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/huntersville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:huntersville/government
+  office_id: huntersville/commissioner
+  party: Nonpartisan
+  ballot_name: Jamie Wideman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Huntersville Government Board of Commissioners -- Jennifer Hunt (Nonpartisan) 8,097; Nick Walsh (Nonpartisan) 7,618; Edwin Quarles (Nonpartisan) 7,580; LaToya Rivers (Nonpartisan) 7,433; Scott Coronet (Nonpartisan) 7,285; Heather Smallwood (Nonpartisan) 6,535; Dan Boone (Nonpartisan) 6,040; Jamie Wideman (Nonpartisan) 5,881; Frank Gammon (Nonpartisan) 5,869; Noelle Burton (Write-In) (Write-In) 150. Winners are the top 6 by total votes.'
+  retrieved: '2026-10-25'

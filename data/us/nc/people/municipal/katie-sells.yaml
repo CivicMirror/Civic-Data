@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/820fbe2d-9ab7-5d02-ac0e-57a98a440db5
+name: Katie Sells
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/landis-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:landis/government
+  office_id: landis/mayor
+  party: Nonpartisan
+  ballot_name: Katie Sells
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Landis Mayor -- Meredith Bare Smith (Nonpartisan) 259; Katie Sells (Nonpartisan) 95; Ashley Stewart (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

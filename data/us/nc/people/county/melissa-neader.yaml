@@ -7,7 +7,14 @@
 id: ocd-person/4b0bbb9f-636e-5e17-8aed-1fef03d4c6ad
 name: Melissa Neader
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/iredell-commissioner-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:iredell/government
+  office_id: iredell/commissioner-at-large
+  party: Republican
+  ballot_name: Melissa Neader
+  status: active
 verification:
   status: unverified
   pipeline: manual
@@ -18,3 +25,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Iredell County Board Of Commissioners -- Gene Houpe (REP) 61,991; Melissa Neader (REP) 60,808; Scottie Brown (REP) 57,169; Beverly Maurice (DEM) 31,473; Bryan Adams (DEM) 26,882.'
+  retrieved: '2026-10-23'

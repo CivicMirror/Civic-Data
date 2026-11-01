@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b3badc27-1acd-502a-9a35-25b09ca8f03f
+name: Kris Plum
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/emerald-isle-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:emerald-isle/government
+  office_id: emerald-isle/commissioner
+  party: Nonpartisan
+  ballot_name: Kris Plum
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Emerald Isle Board of Commissioners -- Kris Plum (Nonpartisan) 1,169; Alesia Sanderson (Nonpartisan) 953; Jason Holland (Nonpartisan) 891; Jay Wootten (Nonpartisan) 863; Dwayne McDougal (Nonpartisan) 807. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

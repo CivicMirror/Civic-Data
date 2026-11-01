@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d4f94804-5d65-57c2-b2ef-725431de8558
+name: David Collier
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/archdale-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:archdale/government
+  office_id: archdale/mayor
+  party: Write-In
+  ballot_name: David Collier
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Archdale Mayor -- Lewis W. Dorsett (Nonpartisan) 3,164; William Wood (Write-In) (Write-In) 13; David Collier (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/aabed793-aa6f-5961-a7f1-fe3df13cee90
+name: Jim Robinette
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mcadenville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mcadenville/government
+  office_id: mcadenville/mayor
+  party: Nonpartisan
+  ballot_name: Jim Robinette
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mcadenville Mayor -- Jim Robinette (Nonpartisan) 63; Landon Snyder (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

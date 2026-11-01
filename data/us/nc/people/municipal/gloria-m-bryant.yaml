@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9e40207c-6fcd-5729-9ef0-c65f9bfba44c
+name: Gloria M. Bryant
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/askewville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:askewville/government
+  office_id: askewville/mayor
+  party: Nonpartisan
+  ballot_name: Gloria M. Bryant
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Askewville Mayor -- Gloria M. Bryant (Nonpartisan) 19. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c81996d4-62e7-5e24-abc1-49dac3c016c2
+name: Tony Goodman
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/jefferson-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jefferson/government
+  office_id: jefferson/alderman
+  party: Nonpartisan
+  ballot_name: Tony Goodman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jefferson Board of Aldermen -- Tracie McMillan (Nonpartisan) 40; Tony Goodman (Nonpartisan) 37; Amy Ballou (Nonpartisan) 36; John L. Shepherd (Nonpartisan) 36. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

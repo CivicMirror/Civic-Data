@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/43b7999d-54fe-5fc6-a47d-8e517db7c350
+name: Bill Bayless
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hamlet-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hamlet/government
+  office_id: hamlet/mayor
+  party: Nonpartisan
+  ballot_name: Bill Bayless
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hamlet Mayor -- Amy Guinn (Nonpartisan) 268; Bill Bayless (Nonpartisan) 239; James J Bryant II (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

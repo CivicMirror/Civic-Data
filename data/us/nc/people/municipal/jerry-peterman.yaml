@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/260756c0-c7b1-5fdb-9318-49182ef3d5fa
+name: Jerry Peterman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/graham-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:graham/government
+  office_id: graham/mayor
+  party: Write-In
+  ballot_name: Jerry Peterman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Graham Mayor -- Jennifer L. Talley (Nonpartisan) 785; Chip Turner (Write-In) (Write-In) 14; Eric Crissman (Write-In) (Write-In) 12; Daniel Alvis (Write-In) (Write-In) 7; Jerry Peterman (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

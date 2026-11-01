@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e04c70a9-9df8-519f-ae06-3ec54bfe6a05
+name: Doris Allison
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/statesville-council-member-ward-3
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:statesville/government
+  office_id: statesville/council-member
+  party: Nonpartisan
+  ballot_name: Doris Allison
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Statesville City Council, Ward 3 -- Doris Allison (Nonpartisan) 283; R. Corina Iyoob (Nonpartisan) 88. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/24921581-3dd4-5fa4-b269-4f42ec057b57
+name: Linwood Holloman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/grimesland-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:grimesland/government
+  office_id: grimesland/alderman
+  party: Nonpartisan
+  ballot_name: Linwood Holloman
+  status: active
+- contest_id: nc/2025-11-04/grimesland-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:grimesland/government
+  office_id: grimesland/alderman
+  party: Nonpartisan
+  ballot_name: Linwood Holloman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Grimesland Board of Aldermen -- Linwood Holloman (Nonpartisan) 39; Sarah Warren (Nonpartisan) 39; Eleanor H. Farr (Nonpartisan) 35; Kyle Hodges (Nonpartisan) 34; Ronnie Bowling (Nonpartisan) 31; Ruby Diane Holloman (Nonpartisan) 21. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Grimesland Board of Aldermen -- Eleanor H. Farr (Nonpartisan) 33; Sarah Warren (Nonpartisan) 31; Linwood Holloman (Nonpartisan) 30; Ronnie Bowling (Nonpartisan) 30; Kyle Hodges (Nonpartisan) 29; Ruby Diane Holloman (Nonpartisan) 26. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

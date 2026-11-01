@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8ebeb970-fda7-5d60-bf98-1fa2bdaa5eec
+name: Stacy Howard
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lewisville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lewisville/government
+  office_id: lewisville/council-member
+  party: Republican
+  ballot_name: Stacy Howard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lewisville Town Council -- Stacy Howard (Republican) 1,499; Suzanne Newsome (Democratic) 1,475; Geraldine (Gerry) Gallagher (Democratic) 1,404; Brady Allen (Republican) 1,321; Mack Wilder (Democratic) 1,251; Fred W. Franklin (Republican) 1,249; James Lewis (Democratic) 1,191; Thomas (Tom) Lawson (Republican) 1,186; Tripp Gallup (Republican) 1,150; William (Monte) Long (Unaffiliated) 1,142; AC Hengler (Republican) 1,107; Jon Thomas (Unaffiliated) 775. Winners are the top 6 by total votes.'
+  retrieved: '2026-10-25'

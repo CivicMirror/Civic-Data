@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/51c9a8d8-4a04-5fb2-9256-0322554a3ba0
+name: Lisa Paschal
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/cameron-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cameron/government
+  office_id: cameron/commissioner
+  party: Nonpartisan
+  ballot_name: Lisa Paschal
+  status: active
+- contest_id: nc/2025-11-04/cameron-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cameron/government
+  office_id: cameron/mayor
+  party: Nonpartisan
+  ballot_name: Lisa Paschal
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Cameron Board of Commissioners -- Tanya Nicely (Nonpartisan) 60; Lisa Paschal (Nonpartisan) 56; Michael A. Williamson (Nonpartisan) 56. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cameron Mayor -- Lisa Paschal (Nonpartisan) 29. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

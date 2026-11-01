@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6da74d9e-09b7-547d-aa59-d19c6d961fad
+name: Kim Robertson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/four-oaks-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:four-oaks/government
+  office_id: four-oaks/mayor
+  party: Write-In
+  ballot_name: Kim Robertson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Four Oaks Mayor -- Michael T. Hines (Nonpartisan) 217; Kim Robertson (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/73ad97d9-4470-52ae-a778-c237475a4a75
+name: Jim Tate
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/highlands-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:highlands/government
+  office_id: highlands/mayor
+  party: Write-In
+  ballot_name: Jim Tate
+  status: active
+- contest_id: nc/2025-11-04/highlands-commissioner-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:highlands/government
+  office_id: highlands/commissioner
+  party: Nonpartisan
+  ballot_name: Jim Tate
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Highlands Mayor -- Patrick Taylor (Nonpartisan) 266; Stephanie Molyneux (Write-In) (Write-In) 27; Jim Tate (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Highlands Board of Commissioners (Unexpired Term) -- Jim Tate (Nonpartisan) 297. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

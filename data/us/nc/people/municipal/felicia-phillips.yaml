@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/772c28af-8e12-524e-89f1-e2437c23ca68
+name: Felicia Phillips
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/scotland-neck-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:scotland-neck/government
+  office_id: scotland-neck/commissioner
+  party: Write-In
+  ballot_name: Felicia Phillips
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Scotland Neck Board of Commissioners -- Charlie Shields (Nonpartisan) 241; James Gunnells (Nonpartisan) 238; Raymond Watson (Nonpartisan) 214; Raymond Hyman, Sr. (Nonpartisan) 139; Forrest Bradley (Write-In) (Write-In) 114; Felicia Phillips (Write-In) (Write-In) 112; Raymond Hyman (Write-In) (Write-In) 8. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

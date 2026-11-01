@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c41200e8-3964-5a24-8f32-83d35c30ad2e
+name: John A. Glass
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/archdale-council-member-ward-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:archdale/government
+  office_id: archdale/council-member
+  party: Nonpartisan
+  ballot_name: John A. Glass
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Archdale City Council, Ward 4 -- John A. Glass (Nonpartisan) 3,009. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

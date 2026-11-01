@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a38fb7a5-3bb8-5378-aa37-c2ba739513fb
+name: Angie Mullennix
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/whispering-pines-council-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whispering-pines/government
+  office_id: whispering-pines/council-member
+  party: Nonpartisan
+  ballot_name: Angie Mullennix
+  status: active
+- contest_id: nc/2025-11-04/whispering-pines-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whispering-pines/government
+  office_id: whispering-pines/council-member
+  party: Nonpartisan
+  ballot_name: Angie Mullennix
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Whispering Pines Village Council (Unexpired Term) -- Angie Mullennix (Nonpartisan) 286; Dean Kalles (Nonpartisan) 275; Marty Antholzner (Nonpartisan) 85; Matthew Caruso (Nonpartisan) 52. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Whispering Pines Village Council -- Lucy Kaminsky (Nonpartisan) 536; Pamela Harris (Nonpartisan) 500; Angie Mullennix (Nonpartisan) 450; Joshua Leviner (Nonpartisan) 325; Alana Yearsich (Nonpartisan) 127; Wendy DuFour (Nonpartisan) 112; Alexa Roberts (Write-In) (Write-In) 79; Christopher Peiffer (Nonpartisan) 70. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

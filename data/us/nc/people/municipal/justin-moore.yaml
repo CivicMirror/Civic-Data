@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5b4d4b6f-7fab-5739-a97f-747daf5674a0
+name: Justin Moore
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/weldon-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:weldon/government
+  office_id: weldon/commissioner
+  party: Nonpartisan
+  ballot_name: Justin Moore
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Weldon Board of Commissioners -- Doris W. Garner (Nonpartisan) 146; Justin Moore (Nonpartisan) 142; Carla Pat Ponton-Farrow (Nonpartisan) 127; Muzette Fitts Kiger (Nonpartisan) 91. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/06d630b8-b554-529a-ae2a-9b73e9f841ff
+name: Ellen Edmundson Dawson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/black-creek-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:black-creek/government
+  office_id: black-creek/commissioner
+  party: Nonpartisan
+  ballot_name: Ellen Edmundson Dawson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Black Creek Board of Commissioners -- Candy Minshew (Nonpartisan) 31; Ellen Edmundson Dawson (Nonpartisan) 29; Roland W. Lucas (Nonpartisan) 28; Larry (Sam) Price (Nonpartisan) 26; Jim Varnell (Nonpartisan) 25; Miscellaneous (Write-In) (Write-In) 2. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

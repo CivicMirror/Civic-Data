@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/248641d5-3026-597a-b944-9f2211be23b5
+name: Justin R. Burgess
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/conway-mayor-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:conway/government
+  office_id: conway/mayor
+  party: Write-In
+  ballot_name: Justin R. Burgess
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Conway Mayor (Unexpired Term) -- Walter Lee Duke, Jr. (Nonpartisan) 91; Rashid Darden (Write-In) (Write-In) 2; Stewart Woodard (Write-In) (Write-In) 2; Ben Lassiter (Write-In) (Write-In) 1; Justin R. Burgess (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

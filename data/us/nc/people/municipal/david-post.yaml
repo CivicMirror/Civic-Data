@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9c5b7ede-04b7-5c3b-89e7-f38752822ced
+name: David Post
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/salisbury-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:salisbury/government
+  office_id: salisbury/council-member
+  party: Nonpartisan
+  ballot_name: David Post
+  status: active
+- contest_id: nc/2025-11-04/salisbury-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:salisbury/government
+  office_id: salisbury/council-member
+  party: Nonpartisan
+  ballot_name: David Post
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Salisbury City Council -- Tamara Sheffield (Nonpartisan) 1,940; Harry (Mac) McLaughlin (Nonpartisan) 1,876; Anthony Ray Smith (Nonpartisan) 1,652; David Post (Nonpartisan) 1,533; Shanikka Loretta Gadson-Harris (Nonpartisan) 954; Gemale A. Black (Nonpartisan) 745; Charles T. Dean III (Nonpartisan) 354; Ra Hasan (Nonpartisan) 177. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Salisbury City Council -- Susan Wear Kluttz (Nonpartisan) 1,677; Harry (Mac) McLaughlin (Nonpartisan) 1,595; Gemale A. Black (Nonpartisan) 1,478; Carlton Jackson (Nonpartisan) 1,463; Adrian Maldonado, Jr. (Nonpartisan) 1,338; Shanikka Gadson-Harris (Nonpartisan) 1,311; David Post (Nonpartisan) 1,271; Nina Thomas (Nonpartisan) 1,154. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

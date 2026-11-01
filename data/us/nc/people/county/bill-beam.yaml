@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/c12ea279-2142-51eb-b3a6-8672027086c7
+name: Bill Beam
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lincoln-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:lincoln/government
+  office_id: lincoln/sheriff
+  party: Republican
+  ballot_name: Bill Beam
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Lincoln County Sheriff -- Bill Beam (REP) 29,122.'
+  retrieved: '2026-10-23'

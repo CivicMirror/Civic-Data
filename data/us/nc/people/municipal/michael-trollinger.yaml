@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/acfb55ff-fbb7-5736-9aa3-7028eb2343c5
+name: Michael Trollinger
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/green-level-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:green-level/government
+  office_id: green-level/council-member
+  party: Nonpartisan
+  ballot_name: Michael Trollinger
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Green Level Town Council -- Michael Trollinger (Nonpartisan) 136; Stephanie L. Enoch (Nonpartisan) 112; Remonia Enoch (Nonpartisan) 110; Sandra McCollum (Nonpartisan) 98; Theodore Howard (Write-In) (Write-In) 45; Vanteia Carr (Write-In) (Write-In) 20. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

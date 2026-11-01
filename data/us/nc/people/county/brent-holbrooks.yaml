@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/dc7eaa65-2dfa-5bde-9567-5da234026225
+name: Brent Holbrooks
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/macon-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:macon/government
+  office_id: macon/sheriff
+  party: Republican
+  ballot_name: Brent Holbrooks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Macon County Sheriff -- Brent Holbrooks (REP) 12,435.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/18ad3048-355a-584e-9632-cd21fb479308
+name: Teresa Bruton
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/archer-lodge-council-member-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:archer-lodge/government
+  office_id: archer-lodge/council-member
+  party: Nonpartisan
+  ballot_name: Teresa Bruton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Archer Lodge Town Council (Unexpired Term) -- Teresa Bruton (Nonpartisan) 284. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

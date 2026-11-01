@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6ea8280a-7ff0-5724-b7f8-dbeef91787fb
+name: Buck Shelton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mayodan-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mayodan/government
+  office_id: mayodan/council-member
+  party: Nonpartisan
+  ballot_name: Buck Shelton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mayodan Town Council -- Buck Shelton (Nonpartisan) 185; Melanie Shemo Barnes (Nonpartisan) 155; Doug Cardwell (Nonpartisan) 139. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

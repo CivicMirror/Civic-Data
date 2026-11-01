@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f6eec4dd-273f-5dc9-876c-61816e04d23b
+name: Sandy Roberson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/rocky-mount-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rocky-mount/government
+  office_id: rocky-mount/mayor
+  party: Nonpartisan
+  ballot_name: Sandy Roberson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Rocky Mount Mayor -- Sandy Roberson (Nonpartisan) 3,808; Theresa Alston Stokes (Nonpartisan) 3,566. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bef52e6d-26f2-568e-ae51-ae0337c98784
+name: Kelly Allen
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/haw-river-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:haw-river/government
+  office_id: haw-river/mayor
+  party: Nonpartisan
+  ballot_name: Kelly Allen
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Haw River Mayor -- Kelly Allen (Nonpartisan) 187; Aric V. Geda (Nonpartisan) 67. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

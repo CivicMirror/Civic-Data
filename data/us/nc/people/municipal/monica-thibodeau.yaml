@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a8cc4894-4d8e-51ca-8a01-4ad905d22fc0
+name: Monica Thibodeau
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/duck-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:duck/government
+  office_id: duck/council-member
+  party: Nonpartisan
+  ballot_name: Monica Thibodeau
+  status: active
+- contest_id: nc/2025-11-04/duck-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:duck/government
+  office_id: duck/council-member
+  party: Nonpartisan
+  ballot_name: Monica Thibodeau
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Duck Town Council -- Kevin Lingard (Nonpartisan) 240; Monica Thibodeau (Nonpartisan) 214; Sandy Whitman (Nonpartisan) 189; Bren Chasen (Nonpartisan) 183; Don Kingston (Nonpartisan) 182; Rob Mooney (Nonpartisan) 145. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Duck Town Council -- Monica Thibodeau (Nonpartisan) 245; Kevin Lingard (Nonpartisan) 229; Marc Murray (Nonpartisan) 226; Sandy Whitman (Nonpartisan) 199; Bren Chasen (Nonpartisan) 193; Miriam Rollin (Nonpartisan) 189. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

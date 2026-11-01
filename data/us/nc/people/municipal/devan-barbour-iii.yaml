@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/423bad13-2beb-55d8-9de5-5cbd5a94c9a0
+name: DeVan Barbour III
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/pine-knoll-shores-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-knoll-shores/government
+  office_id: pine-knoll-shores/commissioner
+  party: Nonpartisan
+  ballot_name: DeVan Barbour III
+  status: active
+- contest_id: nc/2025-11-04/pine-knoll-shores-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-knoll-shores/government
+  office_id: pine-knoll-shores/mayor
+  party: Nonpartisan
+  ballot_name: DeVan Barbour III
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Pine Knoll Shores Board of Commissioners -- DeVan Barbour III (Nonpartisan) 381; John D. Ferguson (Nonpartisan) 352; Suzanne Wheatcraft (Nonpartisan) 288; Larry Corsello (Nonpartisan) 84; Ken Rozewski (Nonpartisan) 66. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pine Knoll Shores Mayor -- DeVan Barbour III (Nonpartisan) 383. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

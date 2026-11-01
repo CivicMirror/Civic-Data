@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/58affdb8-6f30-5147-a6c8-6c6c56d57edb
+name: Dexter G. Townsend
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/albemarle-council-member-member-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:albemarle/government
+  office_id: albemarle/council-member
+  party: Nonpartisan
+  ballot_name: Dexter G. Townsend
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Albemarle City Council, Member District 1 -- Dexter G. Townsend (Nonpartisan) 1,316. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

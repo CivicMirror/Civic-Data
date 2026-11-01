@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/90006bb7-61c3-5fa6-84f5-e06cee43b5c0
+name: Kimberly P. Johnson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/harrells-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:harrells/government
+  office_id: harrells/alderman
+  party: Nonpartisan
+  ballot_name: Kimberly P. Johnson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Harrells Board of Aldermen -- Kimberly P. Johnson (Nonpartisan) 23; Timmy Strickland (Nonpartisan) 21. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

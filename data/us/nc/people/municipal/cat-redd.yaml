@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/30f430a8-e751-57f1-9c6b-f6c891d54bfa
+name: Cat Redd
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/youngsville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:youngsville/government
+  office_id: youngsville/commissioner
+  party: Nonpartisan
+  ballot_name: Cat Redd
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Youngsville Board of Commissioners -- Cat Redd (Nonpartisan) 166; William (Willi) Stolz (Nonpartisan) 166; B.J. Ayscue (Nonpartisan) 142; Corey Pursche (Nonpartisan) 121; Lee Warner (Nonpartisan) 46. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

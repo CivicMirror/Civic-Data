@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4126ec73-56b1-58f9-bbbc-49fd8977fd04
+name: Bob Priesing
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/havelock-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:havelock/government
+  office_id: havelock/commissioner
+  party: Nonpartisan
+  ballot_name: Bob Priesing
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Havelock Board of Commissioners -- Danny Walsh (Nonpartisan) 2,083; Mark P. Larkin (Nonpartisan) 1,919; Cynthia M. Evans-Robinson (Nonpartisan) 1,761; Karen Lewis (Nonpartisan) 1,695; Clinton Jones (Nonpartisan) 1,648; Prudencio (Ira) Irisarry (Nonpartisan) 1,263; Bob Priesing (Nonpartisan) 1,059. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

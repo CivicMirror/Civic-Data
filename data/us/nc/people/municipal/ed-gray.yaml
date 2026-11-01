@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f51b734a-007a-5cb4-920a-200f8c5e9749
+name: Ed Gray
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/apex-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:apex/government
+  office_id: apex/council-member
+  party: Nonpartisan
+  ballot_name: Ed Gray
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Apex Town Council -- Sue Mu (Nonpartisan) 8,516; Shane Reese (Nonpartisan) 8,330; Ed Gray (Nonpartisan) 8,197; Mary Miskimon (Nonpartisan) 4,197; Aditya Ahlawat (Nonpartisan) 3,839; TJ Evans (Nonpartisan) 2,246; Andre Powell (Nonpartisan) 1,051; Kyrone Nebolisa (Nonpartisan) 613; Gregory Lyon (Write-In) (Write-In) 36; Barry Bradshaw (Write-In) (Write-In) 6; Tracy Taylor (Write-In) (Write-In) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

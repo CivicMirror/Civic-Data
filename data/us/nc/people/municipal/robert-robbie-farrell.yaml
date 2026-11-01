@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2dbdab13-dbad-516d-bd35-fe075934c688
+name: Robert (Robbie) Farrell
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/aberdeen-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:aberdeen/government
+  office_id: aberdeen/mayor
+  party: Nonpartisan
+  ballot_name: Robert (Robbie) Farrell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Aberdeen Mayor -- Robert (Robbie) Farrell (Nonpartisan) 445; Ron Utley (Nonpartisan) 204; Christopher Weber (Nonpartisan) 70. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

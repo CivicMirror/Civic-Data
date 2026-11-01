@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0653f8cd-7a2e-5926-8eb5-42069bdb0cf4
+name: Terrance L. Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/gaston-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gaston/government
+  office_id: gaston/commissioner
+  party: Nonpartisan
+  ballot_name: Terrance L. Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Gaston Board of Commissioners -- Patricia B. Penn-Jacobs (Nonpartisan) 54; Terrance L. Smith (Nonpartisan) 52; Carlton Arp (Nonpartisan) 47. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

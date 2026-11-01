@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/66e1409b-4f5f-54de-9315-899b998cc3b4
+name: Mark Cummings
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/greensboro-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:greensboro/government
+  office_id: greensboro/mayor
+  party: Write-In
+  ballot_name: Mark Cummings
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Greensboro Mayor -- Marikay Abuzuaiter (Nonpartisan) 27,359; Robbie Perkins (Nonpartisan) 17,470; Mark Cummings (Write-In) (Write-In) 56; Akir Khan (Write-In) (Write-In) 27; Jason Hicks (Write-In) (Write-In) 5; Justin Outling (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

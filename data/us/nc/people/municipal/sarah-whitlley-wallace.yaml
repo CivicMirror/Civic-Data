@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9d5e423a-09f9-50ec-9963-3ffef1cffda4
+name: Sarah Whitlley Wallace
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/murfreesboro-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:murfreesboro/government
+  office_id: murfreesboro/mayor
+  party: Nonpartisan
+  ballot_name: Sarah Whitlley Wallace
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Murfreesboro Mayor -- Yahmale Vaughan (Nonpartisan) 211; Hal Thomas (Nonpartisan) 170; Sarah Whitlley Wallace (Nonpartisan) 71. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

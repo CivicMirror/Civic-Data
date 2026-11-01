@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a9fe6f2b-92e5-5d79-8f53-c0c99eb8ed67
+name: Kim Chace
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/belhaven-alderman-east-end
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belhaven/government
+  office_id: belhaven/alderman
+  party: Nonpartisan
+  ballot_name: Kim Chace
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Belhaven Board of Aldermen, East End -- Ricky Radcliffe (Nonpartisan) 140; William (Chub) Stokes (Nonpartisan) 128; Kim Chace (Nonpartisan) 49. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/93b9c6ad-db9e-5018-a958-fab2ce956508
+name: Edward (Ed) Lowery
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/parkton-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:parkton/government
+  office_id: parkton/mayor
+  party: Nonpartisan
+  ballot_name: Edward (Ed) Lowery
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Parkton Mayor -- Edward (Ed) Lowery (Nonpartisan) 56; Wayne Parnell (Nonpartisan) 29. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/eaef1cae-41fd-5891-bbef-208c3c52a4ed
+name: Shavonia M. West
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/garland-commissioner-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:garland/government
+  office_id: garland/commissioner
+  party: Nonpartisan
+  ballot_name: Shavonia M. West
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Garland Board of Commissioners (Unexpired Term) -- Austin Brown (Nonpartisan) 105; Shavonia M. West (Nonpartisan) 85; Sean Melvin (Nonpartisan) 64; Shauna'' Harper (Nonpartisan) 31. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/91439513-d062-5c6d-92bc-cdc33165c981
+name: John Pritchard
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/mount-airy-commissioner-north-ward
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mount-airy/government
+  office_id: mount-airy/commissioner
+  party: Nonpartisan
+  ballot_name: John Pritchard
+  status: active
+- contest_id: nc/2023-11-07/robersonville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:robersonville/government
+  office_id: robersonville/mayor
+  party: Write-In
+  ballot_name: John Pritchard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Mount Airy Board of Commissioners, North Ward -- Chad Hutchens (Nonpartisan) 1,974; John Pritchard (Nonpartisan) 1,240. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Robersonville Mayor -- Tina M. Brown (Nonpartisan) 127; John Pritchard (Write-In) (Write-In) 8; Don Kuhlman (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

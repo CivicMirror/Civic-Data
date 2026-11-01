@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1b96dafb-fd34-5643-b4ae-7853097479e8
+name: Gary Lane
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lake-santeetlah-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-santeetlah/government
+  office_id: lake-santeetlah/council-member
+  party: Write-In
+  ballot_name: Gary Lane
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lake Santeetlah Town Council -- Diana Simon (Nonpartisan) 32; Kevin Haag (Nonpartisan) 32; Jim Hager (Nonpartisan) 31; Ralph Strunk (Nonpartisan) 31; keith predmore (Write-In) (Write-In) 30; Connie Gross (Nonpartisan) 23; Tina Emerson (Nonpartisan) 23; Alan Davidson (Nonpartisan) 20; Aura Griffith (Write-In) (Write-In) 18; Gary Lane (Write-In) (Write-In) 7; Chris Griggs (Nonpartisan) 6. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

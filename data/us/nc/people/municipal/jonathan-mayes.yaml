@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/71049ec4-deb0-5a87-bd3e-e1f5918fc7b7
+name: Jonathan Mayes
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/statesville-council-member-ward-6
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:statesville/government
+  office_id: statesville/council-member
+  party: Nonpartisan
+  ballot_name: Jonathan Mayes
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Statesville City Council, Ward 6 -- Lisa Pearson (Nonpartisan) 72; Frederick Foster (Nonpartisan) 51; Jonathan Mayes (Nonpartisan) 4. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

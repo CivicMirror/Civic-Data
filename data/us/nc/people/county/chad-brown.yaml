@@ -13,7 +13,14 @@ candidacies:
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/executive
   office_id: nc/secretary-of-state
   party: Republican
-  ballot_name: 'Chad Brown'
+  ballot_name: Chad Brown
+  status: active
+- contest_id: nc/2022-11-08/gaston-commissioner-riverbend-twp
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:gaston/government
+  office_id: gaston/commissioner-riverbend-twp
+  party: Republican
+  ballot_name: Chad Brown
   status: active
 verification:
   status: unverified
@@ -24,4 +31,7 @@ sources:
   retrieved: '2026-08-19'
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt, linked from the NCSBE Historical Election Results Data page), aggregated across all 100 counties: NC Secretary Of State -- Elaine Marshall (DEM) 2,837,994; Chad Brown (REP) 2,722,794. Elaine Marshall won with 2,837,994 votes.'
+  retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Gaston County Board Of Commissioners Riverbend Twp -- Chad Brown (REP) 51,770.'
   retrieved: '2026-10-23'

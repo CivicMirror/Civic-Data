@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/d4ae1b07-9542-5999-b082-a6cc486074fd
+name: Banks Hinceman
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/burke-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:burke/government
+  office_id: burke/sheriff
+  party: Republican
+  ballot_name: Banks Hinceman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Burke County Sheriff -- Banks Hinceman (REP) 24,562.'
+  retrieved: '2026-10-23'

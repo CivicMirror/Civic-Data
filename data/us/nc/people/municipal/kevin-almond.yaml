@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e9144b8d-8579-5558-aa03-3d6927426689
+name: Kevin Almond
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/richfield-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:richfield/government
+  office_id: richfield/commissioner
+  party: Nonpartisan
+  ballot_name: Kevin Almond
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Richfield Board of Commissioners -- Kevin Almond (Nonpartisan) 169; Cynthia Heglar (Nonpartisan) 151. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

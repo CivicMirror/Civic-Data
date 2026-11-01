@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2dc0490f-88e2-5691-98c1-36af58d1c2c9
+name: Brennan Cesena
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/high-shoals-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:high-shoals/government
+  office_id: high-shoals/council-member
+  party: Nonpartisan
+  ballot_name: Brennan Cesena
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): High Shoals City Council -- Bo Rhyne (Nonpartisan) 34; Tim Eidson (Nonpartisan) 33; Dennis Cash (Nonpartisan) 32; Stephanie Sherrill (Nonpartisan) 12; Brennan Cesena (Nonpartisan) 9; Devin Sneed (Nonpartisan) 9; James Bradley (Write-In) (Write-In) 1; Justin Johnson (Write-In) (Write-In) 0. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

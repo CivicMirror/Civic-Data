@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/73e19f0d-fdf3-53b4-89e2-401d375f1db9
+name: Alan Villanova
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/beech-mountain-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:beech-mountain/government
+  office_id: beech-mountain/council-member
+  party: Nonpartisan
+  ballot_name: Alan Villanova
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Beech Mountain Town Council -- Alan Villanova (Nonpartisan) 135; Art Beckmann (Nonpartisan) 134; M.W. Stanford (Nonpartisan) 110; Robert McMichael (Nonpartisan) 77; Susan Jones (Nonpartisan) 38; Fred Phol (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

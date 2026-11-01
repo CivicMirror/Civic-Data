@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1f655288-9569-586a-88f7-431b52b2d08e
+name: Barbara Brown
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/colerain-commissioner-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:colerain/government
+  office_id: colerain/commissioner
+  party: Write-In
+  ballot_name: Barbara Brown
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Colerain Board of Commissioners (Unexpired Term) -- Alyssa Fairless (Write-In) (Write-In) 3; Herbert Copeland (Write-In) (Write-In) 3; Jock Turner (Write-In) (Write-In) 3; Lynn Askew (Write-In) (Write-In) 2; Barbara Brown (Write-In) (Write-In) 1; Joe Morris (Write-In) (Write-In) 1; Sheran White (Write-In) (Write-In) 1; Thad Perry (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

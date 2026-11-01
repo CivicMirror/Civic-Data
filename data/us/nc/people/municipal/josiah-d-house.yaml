@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0dad1cbf-2a0a-579c-90d5-9e12fce350b9
+name: Josiah D. House
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/marshville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:marshville/government
+  office_id: marshville/mayor
+  party: Nonpartisan
+  ballot_name: Josiah D. House
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Marshville Mayor -- Larry B. Smith, Jr. (Nonpartisan) 206; Josiah D. House (Nonpartisan) 44. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

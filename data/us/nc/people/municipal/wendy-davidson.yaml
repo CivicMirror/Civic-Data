@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c2e64408-b58a-54df-a722-7d668c98e370
+name: Wendy Davidson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/beaufort-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:beaufort/government
+  office_id: beaufort/commissioner
+  party: Nonpartisan
+  ballot_name: Wendy Davidson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Beaufort Board of Commissioners -- Paula C. Gillikin (Nonpartisan) 935; John LoPiccolo (Nonpartisan) 602; Sarah Spiegler (Nonpartisan) 517; Logan (Logan Louis) Jones (Nonpartisan) 468; Jessica Sabiston (Nonpartisan) 443; Susan Sanders (Nonpartisan) 339; Ralph Merrill (Nonpartisan) 313; Wendy Davidson (Nonpartisan) 124; Heather Ray Walker (Nonpartisan) 118. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

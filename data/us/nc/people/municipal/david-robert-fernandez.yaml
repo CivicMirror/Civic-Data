@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7479965f-f1d4-52b7-a6eb-cde7241a3237
+name: David Robert Fernandez
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/seagrove-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:seagrove/government
+  office_id: seagrove/mayor
+  party: Nonpartisan
+  ballot_name: David Robert Fernandez
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Seagrove Mayor -- David Robert Fernandez (Nonpartisan) 53. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

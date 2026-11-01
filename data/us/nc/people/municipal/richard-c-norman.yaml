@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/00f857e1-74dd-50bc-abba-481d7280775d
+name: Richard C. Norman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/grandfather-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:grandfather/government
+  office_id: grandfather/mayor
+  party: Nonpartisan
+  ballot_name: Richard C. Norman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Grandfather Mayor -- Richard C. Norman (Nonpartisan) 16. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

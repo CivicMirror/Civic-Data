@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/01503d8e-7ca6-50e1-9a71-8e314d305c15
+name: Scott Needham
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/surry-commissioner-east-district
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:surry/government
+  office_id: surry/commissioner-east-district
+  party: Democratic
+  ballot_name: Scott Needham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Surry County Board Of Commissioners East District -- Van Tucker (REP) 27,212; Scott Needham (DEM) 9,265.'
+  retrieved: '2026-10-23'

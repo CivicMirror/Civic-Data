@@ -7,7 +7,14 @@
 id: ocd-person/f66d4bb2-30f0-50b2-a6f9-60f57a4e36c0
 name: Matt Calabria
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/wake-commissioner-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:wake/government
+  office_id: wake/commissioner-district-2
+  party: Democratic
+  ballot_name: Matt Calabria
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Wake County Board Of Commissioners District 02 -- Matt Calabria (DEM) 278,593; Mark McMains (REP) 165,700.'
+  retrieved: '2026-10-23'

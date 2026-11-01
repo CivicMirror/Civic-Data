@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/791a8472-6120-5726-8ce2-753b7476fffd
+name: Fred Borth
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/weaverville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:weaverville/government
+  office_id: weaverville/council-member
+  party: Nonpartisan
+  ballot_name: Fred Borth
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Weaverville Town Council -- Jennifer Young (Nonpartisan) 1,178; Phil Barnett (Nonpartisan) 1,116; Mark Endries (Nonpartisan) 888; David King (Nonpartisan) 724; Fred Borth (Nonpartisan) 283; Eleanor Mrozkowski (Nonpartisan) 238. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ae9b22ac-c9cc-5288-a479-6d816a1055ba
+name: Mary D. Nixon
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/plymouth-council-member-ward-3
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:plymouth/government
+  office_id: plymouth/council-member
+  party: Nonpartisan
+  ballot_name: Mary D. Nixon
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Plymouth Town Council, Ward 3 -- Mary D. Nixon (Nonpartisan) 97; Mary Ann Byers (Nonpartisan) 90; Kim Williams (Nonpartisan) 87; Chinta Crowder (Nonpartisan) 83. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

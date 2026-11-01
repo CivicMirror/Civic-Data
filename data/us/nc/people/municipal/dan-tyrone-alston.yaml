@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/019531b8-d5ca-5789-ae90-206d4c0f8fce
+name: Dan Tyrone Alston
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/rolesville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rolesville/government
+  office_id: rolesville/commissioner
+  party: Nonpartisan
+  ballot_name: Dan Tyrone Alston
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Rolesville Board of Commissioners -- Jennifer Bernat (Nonpartisan) 911; Dan Tyrone Alston (Nonpartisan) 829; April Sneed (Nonpartisan) 734; Spenser Shumaker (Write-In) (Write-In) 537; Michelle Medley (Write-In) (Write-In) 97; Paul Vilga (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

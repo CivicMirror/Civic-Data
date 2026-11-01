@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/aae2fd67-7fae-5059-8153-00ee2d328b1a
+name: Rachel Gilley Collins
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pilot-mountain-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pilot-mountain/government
+  office_id: pilot-mountain/commissioner
+  party: Nonpartisan
+  ballot_name: Rachel Gilley Collins
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Pilot Mountain Board of Commissioners -- Dwight Atkins (Nonpartisan) 478; Rachel Gilley Collins (Nonpartisan) 440. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/75e4721c-14df-59b3-b9db-a48f05354683
+name: Charles Meeker
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/raleigh-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:raleigh/government
+  office_id: raleigh/mayor
+  party: Write-In
+  ballot_name: Charles Meeker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Raleigh Mayor -- Mary-Ann Baldwin (Nonpartisan) 71,936; Terrance (Truth) Ruth (Nonpartisan) 62,498; DaQuanta Copeland (Nonpartisan) 15,730; Paul Fitts (Write-In) (Write-In) 2,191; Paul Coble (Write-In) (Write-In) 22; James Bledsoe (Write-In) (Write-In) 15; Nancy Mcfarlane (Write-In) (Write-In) 14; John Odom (Write-In) (Write-In) 10; Donnie Harrison (Write-In) (Write-In) 8; Charles Meeker (Write-In) (Write-In) 8; Jonathan Felts (Write-In) (Write-In) 8; Tom Fetzer (Write-In) (Write-In) 7; Charles Francis (Write-In) (Write-In) 7; Jason Doll (Write-In) (Write-In) 6; Jamie Harper (Write-In) (Write-In) 6; Betsy Coley (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

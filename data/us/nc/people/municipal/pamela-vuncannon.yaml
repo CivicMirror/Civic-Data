@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/48c7226f-7027-54f0-87ea-bfd02bceaa90
+name: Pamela Vuncannon
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/asheboro-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:asheboro/government
+  office_id: asheboro/council-member
+  party: Nonpartisan
+  ballot_name: Pamela Vuncannon
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Asheboro City Council -- Phil Skeen (Nonpartisan) 1,623; Phillip R. Cheek (Nonpartisan) 1,594; Mary Joan M. Pugh (Nonpartisan) 1,424; Kelly W. Heath (Nonpartisan) 1,295; Pamela Vuncannon (Nonpartisan) 1,234; Dave Thomas (Nonpartisan) 1,197; William (Bill) McCaskill (Nonpartisan) 884; Joel McClosky (Nonpartisan) 794. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1f3818ea-4ae7-59ab-be69-31261f687653
+name: Kevin Fitzpatrick
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/pinehurst-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pinehurst/government
+  office_id: pinehurst/council-member
+  party: Nonpartisan
+  ballot_name: Kevin Fitzpatrick
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pinehurst Village Council -- Jeramy Hooper (Nonpartisan) 2,832; Kevin Fitzpatrick (Nonpartisan) 2,484; Lydia Boesch (Nonpartisan) 1,290; Jeff Morgan (Write-In) (Write-In) 12. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

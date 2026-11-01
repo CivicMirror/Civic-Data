@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bafe22ac-ce2e-58bf-a57f-60987dfdbcf2
+name: Carol DeMoranville
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/minnesott-beach-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:minnesott-beach/government
+  office_id: minnesott-beach/mayor
+  party: Nonpartisan
+  ballot_name: Carol DeMoranville
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Minnesott Beach Mayor -- Carol DeMoranville (Nonpartisan) 108. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

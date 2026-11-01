@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/beae8e02-063c-5721-be3d-49d904a6b172
+name: Kane Parsons
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/cameron-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:cameron/government
+  office_id: cameron/commissioner
+  party: Nonpartisan
+  ballot_name: Kane Parsons
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Cameron Board of Commissioners -- John (Joey) Frutchey (Nonpartisan) 28; Kane Parsons (Nonpartisan) 25. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

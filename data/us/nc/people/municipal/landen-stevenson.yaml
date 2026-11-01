@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/808a5935-362c-5069-8e17-1ac30f154648
+name: Landen Stevenson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/waynesville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:waynesville/government
+  office_id: waynesville/council-member
+  party: Nonpartisan
+  ballot_name: Landen Stevenson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Waynesville Town Council -- Julia Boyd Freeman (Nonpartisan) 1,004; Anthony Sutton (Nonpartisan) 947; Landen Stevenson (Nonpartisan) 623. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

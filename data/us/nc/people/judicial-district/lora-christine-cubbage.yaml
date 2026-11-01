@@ -1,0 +1,18 @@
+id: ocd-person/e8a75c73-de43-5b0f-adc7-36380218e03c
+name: Lora Christine Cubbage
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/court-of-appeals-judge-seat-5
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judiciary
+  office_id: court-of-appeals/judge-seat-5
+  party: Democratic
+  ballot_name: Lora Christine Cubbage
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC COURT OF APPEALS JUDGE SEAT 05 -- Fred Gore (Republican) 2,735,951; Lora Christine Cubbage (Democratic) 2,600,632. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

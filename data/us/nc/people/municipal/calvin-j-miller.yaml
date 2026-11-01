@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c45e3ed5-26a5-5305-8240-386c1c88e906
+name: Calvin J. Miller
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/rose-hill-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rose-hill/government
+  office_id: rose-hill/commissioner
+  party: Nonpartisan
+  ballot_name: Calvin J. Miller
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Rose Hill Board of Commissioners -- Gary Boney (Nonpartisan) 62; Calvin J. Miller (Nonpartisan) 56; William (Billy) Wilson (Nonpartisan) 54. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

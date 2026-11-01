@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6b78636d-fac3-5c29-b591-4af740d21d57
+name: Kimberly Hageman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/spruce-pine-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:spruce-pine/government
+  office_id: spruce-pine/council-member
+  party: Nonpartisan
+  ballot_name: Kimberly Hageman
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Spruce Pine Town Council -- Wayne Peight (Nonpartisan) 404; Rocky Buchanan (Nonpartisan) 403; Sharon McIntosh (Nonpartisan) 156; Kimberly Hageman (Nonpartisan) 150. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

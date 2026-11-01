@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/eebf0874-f7cc-5944-bf12-fc8486f77153
+name: Evelyn Strader
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/elizabeth-council-member-3rd-ward
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/council-member
+  party: Nonpartisan
+  ballot_name: Evelyn Strader
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Elizabeth City City Council, 3rd Ward -- Kem Spence (Nonpartisan) 271; Katherine W. Felton (Nonpartisan) 269; Evelyn Strader (Nonpartisan) 72; Moe Moore (Nonpartisan) 63. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

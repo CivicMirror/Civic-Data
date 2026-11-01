@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ee9ae644-6d7d-5b0b-9c91-03747af0e855
+name: Gary Perry
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/kitty-hawk-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kitty-hawk/government
+  office_id: kitty-hawk/mayor
+  party: Nonpartisan
+  ballot_name: Gary Perry
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kitty Hawk Mayor -- Charlotte Deloatch Walker (Nonpartisan) 367; Gary Perry (Nonpartisan) 364. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

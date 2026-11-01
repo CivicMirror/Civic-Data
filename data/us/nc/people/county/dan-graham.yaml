@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/b8ac16ec-784e-5f7e-b7fe-dc550feae0b2
+name: Dan Graham
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/yancey-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:yancey/government
+  office_id: yancey/commissioner-at-large
+  party: Democratic
+  ballot_name: Dan Graham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Yancey County Board Of Commissioners -- David Grindstaff (REP) 5,152; Stacey McEntyre Greene (REP) 4,914; Sandi Norton (REP) 4,700; Jon Ray (DEM) 3,430; Michele D. Laws (DEM) 3,407; Dan Graham (DEM) 3,340. The ballot instructs voters to vote for 3, but 2 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 2 finishers are the winners.'
+  retrieved: '2026-10-23'

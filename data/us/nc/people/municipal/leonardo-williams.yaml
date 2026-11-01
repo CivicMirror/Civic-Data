@@ -8,19 +8,39 @@
 id: ocd-person/26c4f8f3-a1e3-4953-81d8-3cf61d3685c4
 name: Leonardo Williams
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 9a987111-3c53-4e6a-beb3-747f537dfb66
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 9a987111-3c53-4e6a-beb3-747f537dfb66
+candidacies:
+- contest_id: nc/2023-11-07/durham-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+  office_id: durham/mayor
+  party: Nonpartisan
+  ballot_name: Leonardo (Leo) Williams
+  status: active
+- contest_id: nc/2025-11-04/durham-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+  office_id: durham/mayor
+  party: Nonpartisan
+  ballot_name: Leonardo (Leo) Williams
+  status: active
 contact:
   email: leonardo.williams@durhamnc.gov
-  phone: "(919) 560-4333"
+  phone: (919) 560-4333
   profile_url: https://www.durhamnc.gov/1329/About-the-Mayor
 image: https://www.durhamnc.gov/ImageRepository/Document?documentId=41709
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.durhamnc.gov/1323/City-Council
-    retrieved: "2026-08-14"
-  - url: https://www.durhamnc.gov/1315/Office-of-the-Mayor
-    retrieved: "2026-08-14"
+- url: https://www.durhamnc.gov/1323/City-Council
+  retrieved: '2026-08-14'
+- url: https://www.durhamnc.gov/1315/Office-of-the-Mayor
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Durham Government Mayor -- Leonardo (Leo) Williams (Nonpartisan) 24,383; Mike Woodard (Nonpartisan) 13,903; DeDreana Freeman (Write-In) (Write-In) 27; Marshall Williams Jr. (Write-In) (Write-In) 12; Elaine O''Neal (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Durham Government Mayor -- Leonardo (Leo) Williams (Nonpartisan) 26,402; Anjanee Bell (Nonpartisan) 19,290; Pablo Friedmann (Write-In) (Write-In) 20; Stephen Schewel (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

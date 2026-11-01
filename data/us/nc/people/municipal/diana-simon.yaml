@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/186ee013-fa57-5c7e-b36d-c12b4d7bb78a
+name: Diana Simon
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lake-santeetlah-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-santeetlah/government
+  office_id: lake-santeetlah/council-member
+  party: Nonpartisan
+  ballot_name: Diana Simon
+  status: active
+- contest_id: nc/2025-11-04/lake-santeetlah-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-santeetlah/government
+  office_id: lake-santeetlah/council-member
+  party: Nonpartisan
+  ballot_name: Diana Simon
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lake Santeetlah Town Council -- Diana Simon (Nonpartisan) 32; Kevin Haag (Nonpartisan) 32; Jim Hager (Nonpartisan) 31; Ralph Strunk (Nonpartisan) 31; keith predmore (Write-In) (Write-In) 30; Connie Gross (Nonpartisan) 23; Tina Emerson (Nonpartisan) 23; Alan Davidson (Nonpartisan) 20; Aura Griffith (Write-In) (Write-In) 18; Gary Lane (Write-In) (Write-In) 7; Chris Griggs (Nonpartisan) 6. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lake Santeetlah Town Council -- Kevin G. Haag (Nonpartisan) 24; Diana Simon (Nonpartisan) 21; Jim Hager (Nonpartisan) 21; Keith Predmore (Nonpartisan) 21; Ralph Strunk (Nonpartisan) 21; Alan Davidson (Nonpartisan) 10. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

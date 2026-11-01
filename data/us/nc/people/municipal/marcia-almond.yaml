@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/189637e8-8a12-5570-83a5-3d3a11858bc5
+name: Marcia Almond
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/forest-hills-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:forest-hills/government
+  office_id: forest-hills/mayor
+  party: Nonpartisan
+  ballot_name: Marcia Almond
+  status: active
+- contest_id: nc/2025-11-04/forest-hills-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:forest-hills/government
+  office_id: forest-hills/mayor
+  party: Nonpartisan
+  ballot_name: Marcia Almond
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Forest Hills Mayor -- Marcia Almond (Nonpartisan) 48. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Forest Hills Mayor -- Ron Mau (Nonpartisan) 56; Marcia Almond (Nonpartisan) 37. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

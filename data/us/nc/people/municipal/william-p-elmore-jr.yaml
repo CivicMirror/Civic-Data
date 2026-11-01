@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/da162208-9027-5dac-a5cb-6c4a8b088f71
+name: William P. Elmore, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/dunn-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dunn/government
+  office_id: dunn/mayor
+  party: Nonpartisan
+  ballot_name: William P. Elmore, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Dunn Mayor -- William P. Elmore, Jr. (Nonpartisan) 810; Rodney W. Rowland (Nonpartisan) 644. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1a64f94b-72c1-5f02-b9b7-1920bc8b3978
+name: Robin Smith
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hot-springs-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hot-springs/government
+  office_id: hot-springs/alderman
+  party: Nonpartisan
+  ballot_name: Robin Smith
+  status: active
+- contest_id: nc/2025-11-04/hot-springs-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hot-springs/government
+  office_id: hot-springs/alderman
+  party: Republican
+  ballot_name: Robin Smith
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hot Springs Board of Aldermen -- Jeanne Gentry (Nonpartisan) 132; Wendy Stancil (Nonpartisan) 90; Dan Myers (Nonpartisan) 79; Vaughan Barnett (Nonpartisan) 66; Johnny Lawson (Write-In) (Write-In) 46; Robin Smith (Nonpartisan) 25; Jimmy Moore (Nonpartisan) 15. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hot Springs Board of Aldermen -- Lisa Gahagan (Unaffiliated) 158; Tammy Shelton (Unaffiliated) 95; Wendy Stancil (Unaffiliated) 92; Andrew Thomas (Unaffiliated) 89; Dan Myers (Unaffiliated) 78; Libby Staude (Unaffiliated) 31; Robin Smith (Republican) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

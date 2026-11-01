@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f961104d-bfe4-58b7-ac7a-663c099921ee
+name: Jean R. Toner
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/st-james-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:st-james/government
+  office_id: st-james/council-member
+  party: Nonpartisan
+  ballot_name: Jean R. Toner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): St James Town Council -- Jean R. Toner (Nonpartisan) 663; Lynn Dutney (Nonpartisan) 576. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

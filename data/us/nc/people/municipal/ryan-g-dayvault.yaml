@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fd56669b-f94d-5d0f-b3e4-1d04c8b7d36d
+name: Ryan G. Dayvault
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kannapolis-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kannapolis/government
+  office_id: kannapolis/council-member
+  party: Nonpartisan
+  ballot_name: Ryan G. Dayvault
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kannapolis City Council -- Ryan G. Dayvault (Nonpartisan) 1,963; Darrell Jackson (Nonpartisan) 1,526; Tom Kincaid (Nonpartisan) 1,341; Milton Smith (Nonpartisan) 1,177; Jayne Williams (Nonpartisan) 1,034; Holden Sides (Nonpartisan) 864. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

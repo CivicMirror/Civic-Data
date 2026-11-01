@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cfbc2b65-ebdb-58ae-a990-2a32d482a210
+name: Syble Spruill
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/creswell-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:creswell/government
+  office_id: creswell/commissioner
+  party: Nonpartisan
+  ballot_name: Syble Spruill
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Creswell Board of Commissioners -- Joel Harris (Nonpartisan) 49; Thomas J. Patrick (Nonpartisan) 32; Syble Spruill (Nonpartisan) 25. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

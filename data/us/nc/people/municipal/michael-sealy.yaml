@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e7d87a24-9542-51ff-817d-08621fd2c41f
+name: Michael Sealy
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/proctorville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:proctorville/government
+  office_id: proctorville/mayor
+  party: Nonpartisan
+  ballot_name: Michael Sealy
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Proctorville Mayor -- Michael Sealy (Nonpartisan) 27; Steve Ivey (Write-In) (Write-In) 11; Alan Clyburn (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

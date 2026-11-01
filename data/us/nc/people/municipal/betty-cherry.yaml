@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2638d9c0-b13f-55f2-96d8-82f17b220d7e
+name: Betty Cherry
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/powellsville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:powellsville/government
+  office_id: powellsville/mayor
+  party: Write-In
+  ballot_name: Betty Cherry
+  status: active
+- contest_id: nc/2025-11-04/powellsville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:powellsville/government
+  office_id: powellsville/mayor
+  party: Write-In
+  ballot_name: Betty Cherry
+  status: active
+- contest_id: nc/2025-11-04/powellsville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:powellsville/government
+  office_id: powellsville/commissioner
+  party: Write-In
+  ballot_name: Betty Cherry
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Powellsville Mayor -- James Peele (Write-In) (Write-In) 10; Samuel Martiello (Write-In) (Write-In) 9; Erica Herring (Write-In) (Write-In) 8; Betty Cherry (Write-In) (Write-In) 1; Erica H. Holley (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Powellsville Mayor -- James Peele (Nonpartisan) 24; Betty Cherry (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Powellsville Board of Commissioners -- Camille Taylor (Nonpartisan) 24; Erica Herring (Nonpartisan) 22; Hattie M. Askew (Nonpartisan) 20; Antonio Hoggard (Write-In) (Write-In) 1; Betty Cherry (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

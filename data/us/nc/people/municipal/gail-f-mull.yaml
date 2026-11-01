@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/71dcae67-d986-5e80-84fc-a0dfd8725829
+name: Gail F. Mull
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/canton-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:canton/government
+  office_id: canton/alderman
+  party: Nonpartisan
+  ballot_name: Gail F. Mull
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Canton Board of Aldermen -- Gail F. Mull (Nonpartisan) 249; Ralph A. Hamlett (Nonpartisan) 219; Adam Hatton (Nonpartisan) 150. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

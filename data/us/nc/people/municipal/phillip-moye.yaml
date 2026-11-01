@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/3667be72-0591-53b8-9c2d-a029cb94e86c
+name: Phillip Moye
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/walnut-creek-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:walnut-creek/government
+  office_id: walnut-creek/council-member
+  party: Nonpartisan
+  ballot_name: Phillip Moye
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Walnut Creek Village Council -- Cyndi Fallin Dupuy (Nonpartisan) 79; Phillip Moye (Nonpartisan) 72; Danny Jackson (Nonpartisan) 65. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

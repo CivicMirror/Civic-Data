@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ff1e3498-3734-52d5-97f1-aa1024589bf1
+name: David Long, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/walkertown-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:walkertown/government
+  office_id: walkertown/mayor
+  party: Nonpartisan
+  ballot_name: David Long, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Walkertown Mayor -- Kenneth R. Davis (Nonpartisan) 196; David Long, Jr. (Nonpartisan) 117. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

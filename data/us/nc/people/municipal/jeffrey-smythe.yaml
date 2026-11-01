@@ -7,19 +7,29 @@
 id: ocd-person/9e9cbcc4-a84b-4cd8-b448-cbcd065b9258
 name: Jeffrey Smythe
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 1cec742f-8e90-417f-a94a-d8fb8e516536
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 1cec742f-8e90-417f-a94a-d8fb8e516536
+candidacies:
+- contest_id: nc/2025-11-04/burlington-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:burlington/government
+  office_id: burlington/council-member
+  party: Nonpartisan
+  ballot_name: Jeffrey Smythe
+  status: active
 contact:
   email: jsmythe1@burlingtonnc.gov
-  phone: "(336) 222-5020"
+  phone: (336) 222-5020
   profile_url: https://burlingtonnc.gov/2920/Jeffrey-Smythe-Councilmember
 image: https://burlingtonnc.gov/ImageRepository/Document?documentId=28468
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://burlingtonnc.gov/2920/Jeffrey-Smythe-Councilmember
-    retrieved: "2026-08-14"
-  - url: https://burlingtonnc.gov/43/City-Council
-    retrieved: "2026-08-14"
+- url: https://burlingtonnc.gov/2920/Jeffrey-Smythe-Councilmember
+  retrieved: '2026-08-14'
+- url: https://burlingtonnc.gov/43/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Burlington Government Town Council -- Ian Baltutis (Nonpartisan) 4,106; Jeffrey Smythe (Nonpartisan) 3,695; Donna M. Vanhook (Nonpartisan) 3,471; Harold Owen (Nonpartisan) 3,376. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

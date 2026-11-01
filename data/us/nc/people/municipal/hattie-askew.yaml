@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/74f06e4a-b508-592d-888a-0ad4d8195f63
+name: Hattie Askew
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/powellsville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:powellsville/government
+  office_id: powellsville/commissioner
+  party: Nonpartisan
+  ballot_name: Hattie Askew
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Powellsville Board of Commissioners -- Camille Taylor (Nonpartisan) 34; Hattie Askew (Nonpartisan) 31; Antonio E. Hoggard (Nonpartisan) 27; Carlyle Hoggard (Nonpartisan) 22; James Gerald Waters (Nonpartisan) 21. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,17 +7,27 @@
 id: ocd-person/79d06e3a-8927-4cd7-92f6-d710d9e31471
 name: Bobby Jones
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 1c9cc20e-4702-4a40-848d-a1f92f8de9c5
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 1c9cc20e-4702-4a40-848d-a1f92f8de9c5
+candidacies:
+- contest_id: nc/2023-11-07/teachey-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:teachey/government
+  office_id: teachey/mayor
+  party: Nonpartisan
+  ballot_name: Bobby Jones
+  status: active
 contact:
   email: townmanager@townofprinceville.com
-  phone: "(252) 823-1057"
+  phone: (252) 823-1057
   profile_url: https://www.townofprinceville.com/196/Leadership
 image: https://www.townofprinceville.com/ImageRepository/Document?documentId=223
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.townofprinceville.com/196/Leadership
-    retrieved: "2026-08-14"
+- url: https://www.townofprinceville.com/196/Leadership
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Teachey Mayor -- Bobby Jones (Nonpartisan) 35; Anthony Rosso (Nonpartisan) 34; Danny Sutton (Nonpartisan) 25; Leonard D. Fillyaw (Nonpartisan) 13. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

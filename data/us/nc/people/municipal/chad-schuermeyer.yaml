@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4adb8be6-aa66-5ca1-8f12-4d794f39587d
+name: Chad Schuermeyer
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/conover-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:conover/government
+  office_id: conover/council-member
+  party: Nonpartisan
+  ballot_name: Chad Schuermeyer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Conover City Council -- Mark Canrobert (Nonpartisan) 594; Brenda Powell (Nonpartisan) 582; Kevin Dill (Nonpartisan) 359; Dan Von Dohlen (Nonpartisan) 327; Justin Barringer (Nonpartisan) 98; Chad Schuermeyer (Nonpartisan) 58. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

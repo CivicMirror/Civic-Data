@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1864bf4d-a666-59be-9d2a-7b52087aace2
+name: Susan Clinard Dickenson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/jamestown-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:jamestown/government
+  office_id: jamestown/mayor
+  party: Nonpartisan
+  ballot_name: Susan Clinard Dickenson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Jamestown Mayor -- Susan Clinard Dickenson (Nonpartisan) 476; Rebecca Mann Rayborn (Nonpartisan) 419; Greg Pittman (Write-In) (Write-In) 72. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

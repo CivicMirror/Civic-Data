@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9a5d7c4d-c892-572e-8a98-0bee5fc92697
+name: Brandon Berrier
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/eden-council-member-ward-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:eden/government
+  office_id: eden/council-member
+  party: Write-In
+  ballot_name: Brandon Berrier
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Eden City Council, Ward 4 -- Paul Dishmon (Nonpartisan) 880; Randy Hunt (Nonpartisan) 806; Scott Fain (Nonpartisan) 247; Brandon Berrier (Write-In) (Write-In) 1; Charles Yarbrough (Write-In) (Write-In) 1; Larry Little (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

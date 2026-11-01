@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2382624d-0584-5dfe-b256-7ea5f92adcfd
+name: Ann Petersen
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/southern-pines-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:southern-pines/government
+  office_id: southern-pines/council-member
+  party: Nonpartisan
+  ballot_name: Ann Petersen
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Southern Pines Town Council -- Bob Curtin (Nonpartisan) 1,486; Ann Petersen (Nonpartisan) 1,452; Brandon Goodman (Nonpartisan) 714. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5b75f8eb-a9e8-5ef9-8ab8-ca7b7c27d7f0
+name: Renea Baker
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/atlantic-beach-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:atlantic-beach/government
+  office_id: atlantic-beach/council-member
+  party: Nonpartisan
+  ballot_name: Renea Baker
+  status: active
+- contest_id: nc/2025-11-04/atlantic-beach-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:atlantic-beach/government
+  office_id: atlantic-beach/council-member
+  party: Nonpartisan
+  ballot_name: Renea Baker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Atlantic Beach Town Council -- Austin Waters (Nonpartisan) 235; Harry Archer III (Nonpartisan) 222; Joey Dean (Nonpartisan) 207; Joey Starling (Nonpartisan) 206; Renea Baker (Nonpartisan) 204. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Atlantic Beach Town Council -- Harry Archer III (Nonpartisan) 158; Austin Waters (Nonpartisan) 152; Renea Baker (Nonpartisan) 149; Joey Dean (Nonpartisan) 145; Joey Starling (Nonpartisan) 140. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

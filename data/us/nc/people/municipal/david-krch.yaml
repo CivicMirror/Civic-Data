@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/576a3001-37eb-50d1-afca-83b1b3776be8
+name: David Krch
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/turkey-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:turkey/government
+  office_id: turkey/commissioner
+  party: Write-In
+  ballot_name: David Krch
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Turkey Board of Commissioners -- Mike Smith (Nonpartisan) 39; Tracie Pryor (Nonpartisan) 27; David Krch (Write-In) (Write-In) 9. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8d8a14a5-1cf8-526b-a81c-ef0c89dc33c4
+name: Wanda Wells Corbett
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/clinton-council-member-member-district-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:clinton/government
+  office_id: clinton/council-member
+  party: Nonpartisan
+  ballot_name: Wanda Wells Corbett
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Clinton City Council, Member District 5 -- Wanda Wells Corbett (Nonpartisan) 43. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

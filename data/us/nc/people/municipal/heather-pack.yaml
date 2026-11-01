@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d5a99a43-9538-5e8e-9b05-c3c7f8cd8e21
+name: Heather Pack
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/ellerbe-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:ellerbe/government
+  office_id: ellerbe/council-member
+  party: Nonpartisan
+  ballot_name: Heather Pack
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Ellerbe Town Council -- Heather Pack (Nonpartisan) 90; Jean C. Fletcher (Nonpartisan) 86; Jimmy Bowles (Nonpartisan) 84; Bennett Hawks (Nonpartisan) 79; Elsie Freeman (Nonpartisan) 51; Martin Chavis III (Nonpartisan) 21. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

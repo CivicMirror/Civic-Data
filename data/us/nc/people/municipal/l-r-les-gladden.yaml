@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9f373604-26bb-50a3-ab59-f237aa3a579e
+name: L.R. (Les) Gladden
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/pineville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pineville/government
+  office_id: pineville/council-member
+  party: Nonpartisan
+  ballot_name: L.R. (Les) Gladden
+  status: active
+- contest_id: nc/2025-11-04/pineville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pineville/government
+  office_id: pineville/council-member
+  party: Nonpartisan
+  ballot_name: L.R. (Les) Gladden
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Pineville Town Council -- Amelia Stinson-Wesley (Nonpartisan) 679; Danielle A. Moore (Nonpartisan) 627; Eric Fransen (Nonpartisan) 624; L.R. (Les) Gladden (Nonpartisan) 526. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Pineville Town Council -- Nick Gallo (Nonpartisan) 871; Joshua Simelton (Nonpartisan) 654; L.R. (Les) Gladden (Nonpartisan) 499; Yvette Isaacs (Nonpartisan) 445; Tony Jennings (Nonpartisan) 355. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

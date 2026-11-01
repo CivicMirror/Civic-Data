@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/dae643e3-a6fc-5ab1-94a8-5493b348c202
+name: Peter Mantz
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/kitty-hawk-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kitty-hawk/government
+  office_id: kitty-hawk/council-member
+  party: Nonpartisan
+  ballot_name: Peter Mantz
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kitty Hawk Town Council -- Jeff Pruitt (Nonpartisan) 580; Peter Mantz (Nonpartisan) 427. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

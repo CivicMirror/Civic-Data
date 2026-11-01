@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6f0a64f0-a36c-5a71-ab9d-146d2b773909
+name: Lanny Hathcock
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/oakboro-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oakboro/government
+  office_id: oakboro/commissioner
+  party: Nonpartisan
+  ballot_name: Lanny Hathcock
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Oakboro Board of Commissioners -- Joey H. Carpenter (Nonpartisan) 682; Fred Smith (Nonpartisan) 510; Lisa Cratty (Nonpartisan) 452; Renee Goodman Watkins (Nonpartisan) 401; Lanny Hathcock (Nonpartisan) 286. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

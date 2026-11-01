@@ -7,7 +7,14 @@
 id: ocd-person/28958ee8-eb4f-5e0a-b715-de5bfb657255
 name: W. Brooks Matthews
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/harnett-commissioner-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:harnett/government
+  office_id: harnett/commissioner-district-3
+  party: Republican
+  ballot_name: W. Brooks Matthews
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Harnett County Board Of Commissioners District 03 -- W. Brooks Matthews (REP) 9,049; Scott M. Daniel (DEM) 3,542.'
+  retrieved: '2026-10-23'

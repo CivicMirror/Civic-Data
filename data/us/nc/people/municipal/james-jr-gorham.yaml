@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f212c938-de84-5d53-a3c4-457f8a09f297
+name: James (JR) Gorham
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kernersville-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kernersville/government
+  office_id: kernersville/alderman
+  party: Nonpartisan
+  ballot_name: James (JR) Gorham
+  status: active
+- contest_id: nc/2025-11-04/kernersville-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kernersville/government
+  office_id: kernersville/alderman
+  party: Democratic
+  ballot_name: James (J R) Gorham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kernersville Board of Aldermen -- Chris Thompson (Nonpartisan) 639; John J. Barrow (Nonpartisan) 632; James (JR) Gorham (Nonpartisan) 631; Bill Apple (Nonpartisan) 620; Joe Pinnix (Nonpartisan) 610; Jeb Bair (Write-In) (Write-In) 6; John Doe (Write-In) (Write-In) 5. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kernersville Board of Aldermen -- James (J R) Gorham (Democratic) 1,749; Sarah Jane Sabanis (Democratic) 1,629; Bill Apple (Republican) 1,558; Chris Thompson (Republican) 1,526; Randall T. Pegram (Democratic) 1,492; John Barrow (Republican) 1,440; Michael Enscore (Republican) 1,392; Joe Pinnix (Republican) 1,200. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

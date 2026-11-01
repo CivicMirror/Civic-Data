@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/04a96ce7-4173-58e0-9e77-18845599113e
+name: Michael Saner
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/murfreesboro-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:murfreesboro/government
+  office_id: murfreesboro/council-member
+  party: Nonpartisan
+  ballot_name: Michael Saner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Murfreesboro Town Council -- Jay Revelle (Nonpartisan) 378; Michael Bunch (Nonpartisan) 350; Berna Lawrence Stephens (Nonpartisan) 289; Craig L. Dennis (Nonpartisan) 268; James Byerly (Nonpartisan) 257; Bill Theodorakis (Nonpartisan) 164; Mitch Kelly (Nonpartisan) 155; Michael Saner (Nonpartisan) 130; Gilbert Tinkham (Nonpartisan) 106; James (Jimmie) Foster (Nonpartisan) 47. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

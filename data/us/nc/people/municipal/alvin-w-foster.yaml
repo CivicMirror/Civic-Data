@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f4cea8cf-f136-51c6-b6d3-fec485394e23
+name: Alvin W. Foster
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/yanceyville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:yanceyville/government
+  office_id: yanceyville/mayor
+  party: Nonpartisan
+  ballot_name: Alvin W. Foster
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Yanceyville Mayor -- Alvin W. Foster (Nonpartisan) 171. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

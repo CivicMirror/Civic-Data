@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0cc947a3-774b-5907-92bb-90e0a0920978
+name: Wade Farmer
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/stantonsburg-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stantonsburg/government
+  office_id: stantonsburg/council-member
+  party: Write-In
+  ballot_name: Wade Farmer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Stantonsburg Town Council -- Carla Davis (Nonpartisan) 156; H. Powell Dew, Jr. (Nonpartisan) 143; George Covert (Write-In) (Write-In) 89; Donnie Bass (Nonpartisan) 66; Steven Mooring (Nonpartisan) 60; Jackie Grice (Write-In) (Write-In) 2; Billy Manning (Write-In) (Write-In) 1; David Bynum (Write-In) (Write-In) 1; George Lovert (Write-In) (Write-In) 1; Powell Dew (Write-In) (Write-In) 1; Wade Farmer (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

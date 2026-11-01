@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/0d112fb2-4592-57f2-805d-f8e0d5ece7d0
+name: Tony Roberson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/rutherford-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:rutherford/government
+  office_id: rutherford/sheriff
+  party: Unaffiliated
+  ballot_name: Tony Roberson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Rutherford County Sheriff -- Aaron Ellenburg (REP) 15,968; Jason Ray Wease (DEM) 4,383; Tony Roberson (UNA) 2,920.'
+  retrieved: '2026-10-23'

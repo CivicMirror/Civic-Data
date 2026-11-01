@@ -1,0 +1,18 @@
+id: ocd-person/b94683b8-0f39-58fa-b0cc-a320b4ba2813
+name: Travis Page
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/prosecutorial-district-38-district-attorney
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-38/judiciary
+  office_id: prosecutorial-district-38/district-attorney
+  party: Republican
+  ballot_name: Travis Page
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DISTRICT ATTORNEY DISTRICT 38 -- Travis Page (Republican) 53,001. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

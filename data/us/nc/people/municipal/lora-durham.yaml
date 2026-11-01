@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a1b294bd-3fd1-5a1d-96b3-c5897be868de
+name: Lora Durham
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/henderson-alderman-at-large-4th-ward
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:henderson/government
+  office_id: henderson/alderman
+  party: Nonpartisan
+  ballot_name: Lora Durham
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Henderson Board of Aldermen, At-large 4th Ward -- Tami Walker (Nonpartisan) 959; George M. Daye (Nonpartisan) 533; Lora Durham (Nonpartisan) 141. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

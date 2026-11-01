@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9adc85d0-3761-56a6-bb2a-fae898d06263
+name: Steve Exum
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/elon-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elon/government
+  office_id: elon/council-member
+  party: Nonpartisan
+  ballot_name: Steve Exum
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Elon Town Council -- Steve Exum (Nonpartisan) 731; Randy Orwig (Nonpartisan) 586; Michael Ratigan (Nonpartisan) 498. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

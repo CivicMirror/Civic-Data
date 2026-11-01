@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/dd301fb6-ed4f-5a14-900b-73866cfb2423
+name: Phyllis Hester Boyd
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/bladenboro-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bladenboro/government
+  office_id: bladenboro/commissioner
+  party: Nonpartisan
+  ballot_name: Phyllis Hester Boyd
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Bladenboro Board of Commissioners -- Terry Nance (Nonpartisan) 64; Phyllis Hester Boyd (Nonpartisan) 49; Dixon Nance (Nonpartisan) 47. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

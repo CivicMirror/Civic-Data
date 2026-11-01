@@ -1,0 +1,13 @@
+# Created in the NC county reconciliation pass (Civic-Data issue
+# #172) from NC SBE official general election results.
+id: lenoir-register-of-deeds-treva-jenkins
+person_id: ocd-person/afceda54-e7ea-51e9-897a-faed287f7352
+organization_id: ocd-organization/42f6f424-a48f-5b99-8774-e71c8f3ed0b6
+post_id: lenoir/register-of-deeds
+role: Register of Deeds
+start: '2024-12-02'
+how_seated: elected
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt): Treva Jenkins won the Lenoir County Register of Deeds contest.'
+  retrieved: '2026-10-23'

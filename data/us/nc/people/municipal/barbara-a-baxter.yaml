@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a5fb967e-ff77-5f89-827c-1efc5ef55ee8
+name: Barbara A. Baxter
+identifiers: []
+candidacies:
+- contest_id: nc/2025-10-07/elizabeth-council-member-4th-ward
+  election_id: nc/2025-10-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:elizabeth/government
+  office_id: elizabeth/council-member
+  party: Nonpartisan
+  ballot_name: Barbara A. Baxter
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_10_07/results_pct_20251007.zip
+  note: 'NC SBE 2025-10-07 results (Election Results series): Elizabeth City City Council, 4th Ward -- Ronnie (Sugar Bear) Morris (Nonpartisan) 234; Tim Jackson (Nonpartisan) 234; Johnnie Walton (Nonpartisan) 221; Barbara A. Baxter (Nonpartisan) 93. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

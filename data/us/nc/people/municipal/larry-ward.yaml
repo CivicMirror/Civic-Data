@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/67755664-ff2b-5602-88b2-8e58879c1538
+name: Larry Ward
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/denton-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:denton/government
+  office_id: denton/council-member
+  party: Nonpartisan
+  ballot_name: Larry Ward
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Denton Town Council -- Deanna Chandler Grubb (Nonpartisan) 188; Larry Ward (Nonpartisan) 132; Anne Carter Bean (Nonpartisan) 122. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1d106f81-bfea-53b1-a7c9-8e41ea477a7d
+name: Glenn Harvey
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/valdese-council-member-ward-1-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:valdese/government
+  office_id: valdese/council-member
+  party: Nonpartisan
+  ballot_name: Glenn Harvey
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Valdese Town Council, Ward 1 (Unexpired Term) -- Glenn Harvey (Nonpartisan) 593; Tim Barus (Nonpartisan) 576. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/74d0a0b1-b0c9-51f5-8a51-92835776af0f
+name: Prentice Tann
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/winton-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winton/government
+  office_id: winton/council-member
+  party: Nonpartisan
+  ballot_name: Prentice Tann
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Winton Town Council -- Shirley Evette Everett (Nonpartisan) 79; Bessie Pierce (Nonpartisan) 63; Michael Hinton (Nonpartisan) 58; Blake Blythe (Nonpartisan) 53; Latonya Tann (Nonpartisan) 39; Clifton Sexton (Write-In) (Write-In) 37; Prentice Tann (Nonpartisan) 35. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

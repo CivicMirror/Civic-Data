@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e476ef24-50fc-5d22-ac99-5b7f038dcdd8
+name: Deborah A. Baker
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/harrellsville-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:harrellsville/government
+  office_id: harrellsville/council-member
+  party: Nonpartisan
+  ballot_name: Deborah A. Baker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Harrellsville Town Council -- Thomas H. Grimes (Nonpartisan) 19; Deborah A. Baker (Nonpartisan) 17; Lisa Hunnicutt (Nonpartisan) 17; Mary Frances Farmer (Write-In) (Write-In) 8; Willey Billy Gilliam (Write-In) (Write-In) 8; Emma Perry (Write-In) (Write-In) 5. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

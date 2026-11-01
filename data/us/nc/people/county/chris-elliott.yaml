@@ -7,7 +7,14 @@
 id: ocd-person/6b59dfea-b980-5c3d-8a7a-afa75249e7c5
 name: Chris Elliott
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/davidson-commissioner-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:davidson/government
+  office_id: davidson/commissioner-at-large
+  party: Republican
+  ballot_name: Chris Elliott
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Davidson County Board Of Commissioners -- Karen Watford (REP) 46,747; Chris Elliott (REP) 46,453; Steve Shell (REP) 45,612; Matt Mizell (REP) 45,478; Tonya Lanier (DEM) 16,614.'
+  retrieved: '2026-10-23'

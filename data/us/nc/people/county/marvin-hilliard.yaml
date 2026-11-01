@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/1ad547ff-4cf0-5baf-8c6f-1143a0d867fa
+name: Marvin Hilliard
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/martin-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:martin/government
+  office_id: martin/sheriff
+  party: Unaffiliated
+  ballot_name: Marvin Hilliard
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Martin County Sheriff -- Tim Manning (DEM) 6,406; Marvin Hilliard (UNA) 2,255.'
+  retrieved: '2026-10-23'

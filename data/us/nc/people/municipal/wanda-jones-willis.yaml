@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/83fce61e-991e-5b3f-a771-370c2cc8380a
+name: Wanda Jones Willis
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/navassa-commissioner-district-1
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:navassa/government
+  office_id: navassa/commissioner
+  party: Nonpartisan
+  ballot_name: Wanda Jones Willis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Navassa Board of Commissioners, District 1 -- Wanda Jones Willis (Nonpartisan) 219; Craig Suggs (Nonpartisan) 150; Ida White Dixon (Nonpartisan) 113; Marcell Hatten (Nonpartisan) 100; Tony Burgess (Nonpartisan) 72; Stephanie McAleer (Write-In) (Write-In) 16. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

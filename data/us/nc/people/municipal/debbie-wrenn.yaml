@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/928a3051-b800-5161-ae24-99568ff37680
+name: Debbie Wrenn
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/rockingham-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rockingham/government
+  office_id: rockingham/council-member
+  party: Nonpartisan
+  ballot_name: Debbie Wrenn
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Rockingham City Council -- Debbie Wrenn (Nonpartisan) 560; Denise Sullivan (Nonpartisan) 500; Gregory A. Leberth (Nonpartisan) 406; Matt DeMay (Nonpartisan) 207. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

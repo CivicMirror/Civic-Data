@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/48cf092e-5edb-52d2-a782-51fc9706a7d3
+name: Timothy Blackburn
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/garland-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:garland/government
+  office_id: garland/commissioner
+  party: Nonpartisan
+  ballot_name: Timothy Blackburn
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Garland Board of Commissioners -- Timothy Blackburn (Nonpartisan) 71; Anthony Norris (Nonpartisan) 69; Barbara Peterson (Nonpartisan) 55; Carolyn Robinson Melvin (Nonpartisan) 52. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

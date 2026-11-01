@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/9a4cf6b9-6ea7-59ec-86ce-b856b9e9037e
+name: Jonathan L. Fletcher
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/gaston-register-of-deeds
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:gaston/government
+  office_id: gaston/register-of-deeds
+  party: Republican
+  ballot_name: Jonathan L. Fletcher
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Gaston County Register Of Deeds -- Jonathan L. Fletcher (REP) 68,399; Kristen Moyer (DEM) 42,292.'
+  retrieved: '2026-10-23'

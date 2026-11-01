@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a323feb3-96d5-58d8-ab98-df92e9a9c468
+name: Tom Richardson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lansing-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lansing/government
+  office_id: lansing/alderman
+  party: Nonpartisan
+  ballot_name: Tom Richardson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lansing Board of Aldermen -- Tom Richardson (Nonpartisan) 16; James Blevins (Nonpartisan) 15. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

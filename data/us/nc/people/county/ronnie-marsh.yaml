@@ -7,7 +7,14 @@
 id: ocd-person/b0074e3d-f90a-5706-97e5-ac39cfa5020b
 name: Ronnie Marsh
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/watauga-commissioner-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:watauga/government
+  office_id: watauga/commissioner-district-4
+  party: Republican
+  ballot_name: Ronnie Marsh
+  status: active
 verification:
   status: unverified
   pipeline: manual
@@ -15,3 +22,6 @@ sources:
 - url: https://www.wataugacounty.org/App_Pages/Dept/BOC/members.aspx
   note: Official county government current Board of Commissioners roster
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Watauga County Board Of Commissioners District 04 -- Ronnie Marsh (REP) 3,912; Charlie Wallin (DEM) 2,631.'
+  retrieved: '2026-10-23'

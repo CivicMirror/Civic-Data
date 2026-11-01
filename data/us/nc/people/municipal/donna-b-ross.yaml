@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8ce8dd4c-0d30-5336-95cc-35242e3dc60d
+name: Donna B. Ross
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/river-bend-council-member-unexpired
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:river-bend/government
+  office_id: river-bend/council-member
+  party: Nonpartisan
+  ballot_name: Donna B. Ross
+  status: active
+- contest_id: nc/2024-11-05/river-bend-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:river-bend/government
+  office_id: river-bend/council-member
+  party: Nonpartisan
+  ballot_name: Donna B. Ross
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): River Bend Town Council (Unexpired Term) -- Barbara J. Maurer (Nonpartisan) 712; Donna B. Ross (Nonpartisan) 610. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): River Bend Town Council -- Kathy Noonan (Nonpartisan) 622; Brian M. Leonard (Nonpartisan) 608; Steve L. Bokor (Nonpartisan) 544; Brett Beddow (Nonpartisan) 454; Patrick O''Toole (Nonpartisan) 388; Donna B. Ross (Nonpartisan) 338; Barbara Mauer (Write-In) (Write-In) 92. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

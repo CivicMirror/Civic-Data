@@ -1,0 +1,18 @@
+id: ocd-person/f3261262-42ff-5486-bc0b-0395a237f69b
+name: Clinton D. Rowe
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/superior-court-district-3b-judge-seat-2
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:superior-court-district-3b/judiciary
+  office_id: superior-court-district-3b/judge-seat-2
+  party: Republican
+  ballot_name: Clinton D. Rowe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): NC SUPERIOR COURT JUDGE DISTRICT 03B SEAT 02 -- Clinton D. Rowe (Republican) 63,373; Brenda C. George (Democratic) 34,463. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

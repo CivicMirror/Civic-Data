@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/01cde856-2878-52e4-a6ee-8b781c7a1754
+name: Gregory Lucas
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/stanfield-commissioner
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stanfield/government
+  office_id: stanfield/commissioner
+  party: Write-In
+  ballot_name: Gregory Lucas
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Stanfield Board of Commissioners -- Brent E. Holbrooks (Nonpartisan) 540; Gregory Lucas (Write-In) (Write-In) 33; Christina Mullis (Write-In) (Write-In) 6. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

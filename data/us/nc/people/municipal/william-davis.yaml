@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4f7b1bad-9361-5d7a-948e-b5e5fff77871
+name: William Davis
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lumber-bridge-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lumber-bridge/government
+  office_id: lumber-bridge/mayor
+  party: Nonpartisan
+  ballot_name: William Davis
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lumber Bridge Mayor -- William Davis (Nonpartisan) 13. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a3e16212-d37e-569e-ac3c-a6b321f38537
+name: Andrew L. Hopper, Sr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/shelby-council-member-ward-6
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:shelby/government
+  office_id: shelby/council-member
+  party: Nonpartisan
+  ballot_name: Andrew L. Hopper, Sr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Shelby City Council, Ward 6 -- Andrew L. Hopper, Sr. (Nonpartisan) 719; Mitch Bridges (Nonpartisan) 155. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

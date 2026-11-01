@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/18ba21c4-5b87-52f9-8bb4-1df136de4d55
+name: Josh Harris
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/whiteville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whiteville/government
+  office_id: whiteville/mayor
+  party: Write-In
+  ballot_name: Josh Harris
+  status: active
+- contest_id: nc/2023-11-07/whiteville-council-member-district-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:whiteville/government
+  office_id: whiteville/council-member
+  party: Nonpartisan
+  ballot_name: Josh Harris
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Whiteville Mayor -- Terry Mann (Nonpartisan) 364; Franklin Thurman (Write-In) (Write-In) 1; Hillary Melvin (Write-In) (Write-In) 1; John Kennedy (Write-In) (Write-In) 1; Josh Harris (Write-In) (Write-In) 1; Seth Ward (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Whiteville City Council, District 1 -- Josh Harris (Nonpartisan) 224; Kevin G. Williamson (Nonpartisan) 159; Emory Worley (Nonpartisan) 135; William (Alex) Meeks (Nonpartisan) 67; Shaq Davis (Nonpartisan) 60. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

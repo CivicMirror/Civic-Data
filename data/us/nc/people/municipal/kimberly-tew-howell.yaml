@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bf1a94d5-10c7-518d-9743-f7fb967bcbfd
+name: Kimberly Tew Howell
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/salemburg-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:salemburg/government
+  office_id: salemburg/commissioner
+  party: Nonpartisan
+  ballot_name: Kimberly Tew Howell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Salemburg Board of Commissioners -- Dickie Walters (Nonpartisan) 71; Joel Faircloth, Jr. (Nonpartisan) 55; Tommy Jackson (Write-In) (Write-In) 40; Kimberly Tew Howell (Nonpartisan) 26; William Agostini, Jr. (Nonpartisan) 25; Allison Caudell (Nonpartisan) 15. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

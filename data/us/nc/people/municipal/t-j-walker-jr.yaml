@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/99e47f3d-067d-5fcd-8b4e-4e6f9860bcca
+name: T.J. Walker, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-10-10/rocky-mount-council-member-ward-4
+  election_id: nc/2023-10-10/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:rocky-mount/government
+  office_id: rocky-mount/council-member
+  party: Nonpartisan
+  ballot_name: T.J. Walker, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_10_10/results_pct_20231010.zip
+  note: 'NC SBE 2023-10-10 results (Election Results series): Rocky Mount City Council, Ward 4 -- T.J. Walker, Jr. (Nonpartisan) 700; Everett Silver, Sr. (Nonpartisan) 204. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

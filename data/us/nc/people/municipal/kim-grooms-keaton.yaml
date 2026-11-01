@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c46af240-112e-5290-aee8-1d5853e4aa87
+name: Kim Grooms Keaton
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/randleman-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:randleman/government
+  office_id: randleman/alderman
+  party: Nonpartisan
+  ballot_name: Kim Grooms Keaton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Randleman Board of Aldermen (At-Large) -- Mike Dawkins (Nonpartisan) 180; Marty Leonard (Nonpartisan) 129; Kim Grooms Keaton (Nonpartisan) 82. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

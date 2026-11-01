@@ -1,0 +1,18 @@
+id: ocd-person/1f980590-9702-547f-963e-82a9dd32e821
+name: Travis Wheeler
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-11-judge-seat-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-11/judiciary
+  office_id: district-court-district-11/judge-seat-2
+  party: Republican
+  ballot_name: Travis Wheeler
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 11 SEAT 02 -- Travis Wheeler (Republican) 93,332. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/791412bc-3c99-573f-9116-d68e1068a586
+name: Chris N. Huneycutt
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/oakboro-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oakboro/government
+  office_id: oakboro/mayor
+  party: Nonpartisan
+  ballot_name: Chris N. Huneycutt
+  status: active
+- contest_id: nc/2024-11-05/oakboro-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:oakboro/government
+  office_id: oakboro/mayor
+  party: Nonpartisan
+  ballot_name: Chris N. Huneycutt
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Oakboro Mayor -- Chris N. Huneycutt (Nonpartisan) 478; Lisa Cratty (Nonpartisan) 266; Robert (Bobby) Watkins (Nonpartisan) 89. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Oakboro Mayor -- Rodney C. Eury (Nonpartisan) 811; Chris N. Huneycutt (Nonpartisan) 523. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

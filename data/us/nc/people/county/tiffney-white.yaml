@@ -7,7 +7,14 @@
 id: ocd-person/36b38291-437e-5c5a-812d-4efe5d05d647
 name: Tiffney White
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2024-11-05/camden-commissioner-south-mills-district
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:camden/government
+  office_id: camden/commissioner-south-mills-district
+  party: Republican
+  ballot_name: Tiffney White
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2024_11_05/
   note: NCSBE official Nov. 5, 2024 general election precinct-level results (results_pct_20241105.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Camden County Board Of Commissioners South Mills District -- Tiffney White (REP) 4,892.'
+  retrieved: '2026-10-23'

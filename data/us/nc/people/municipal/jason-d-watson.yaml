@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9348b4d4-3182-5868-b3db-cfb82f0d8881
+name: Jason D. Watson
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/laurinburg-council-member-member-at-large
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:laurinburg/government
+  office_id: laurinburg/council-member
+  party: Nonpartisan
+  ballot_name: Jason D. Watson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Laurinburg City Council, Member At-large -- James McLean (Nonpartisan) 1,160; Jason D. Watson (Nonpartisan) 488. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fa4469c5-e245-5468-a6ee-e173e2dc4495
+name: Mary Singleton
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/st-pauls-council-member-district-2
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:st-pauls/government
+  office_id: st-pauls/council-member
+  party: Nonpartisan
+  ballot_name: Mary Singleton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): St Pauls Town Council, District 2 -- Annie Laura Stephens (Nonpartisan) 29; Mary Singleton (Nonpartisan) 22. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

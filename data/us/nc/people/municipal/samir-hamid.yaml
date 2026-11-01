@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/5d7e0375-c547-55d2-b8bf-73528ec46efd
+name: Samir Hamid
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/charlotte-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:charlotte/government
+  office_id: charlotte/mayor
+  party: Write-In
+  ballot_name: Samir Hamid
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Charlotte Mayor -- Vi Lyles (Democratic) 92,537; Terrie D. Donovan (Republican) 33,533; Rob Yates (Libertarian) 4,717; Jennifer Roberts (Write-In) (Write-In) 29; Lia White (Write-In) (Write-In) 11; Samir Hamid (Write-In) (Write-In) 10. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

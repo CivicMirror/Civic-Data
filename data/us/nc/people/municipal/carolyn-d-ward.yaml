@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8f17fd88-4f3e-5fa6-a0d8-14c371197bd2
+name: Carolyn D. Ward
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/farmville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:farmville/government
+  office_id: farmville/commissioner
+  party: Nonpartisan
+  ballot_name: Carolyn D. Ward
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Farmville Board of Commissioners -- Mark Flanagan (Nonpartisan) 626; Bobby L. Evans (Nonpartisan) 542; Bert Smith (Nonpartisan) 456; Carolyn D. Ward (Nonpartisan) 302; Chante F. Hopkins (Nonpartisan) 234; Shirley D. Rhodes (Nonpartisan) 211; Linda Kay King (Nonpartisan) 158; Scott J. Fields (Nonpartisan) 133. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

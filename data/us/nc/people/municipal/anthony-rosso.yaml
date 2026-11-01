@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4f4dc071-ad64-5107-be5e-527f3f97d4a7
+name: Anthony Rosso
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/teachey-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:teachey/government
+  office_id: teachey/mayor
+  party: Nonpartisan
+  ballot_name: Anthony Rosso
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Teachey Mayor -- Bobby Jones (Nonpartisan) 35; Anthony Rosso (Nonpartisan) 34; Danny Sutton (Nonpartisan) 25; Leonard D. Fillyaw (Nonpartisan) 13. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

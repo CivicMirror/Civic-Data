@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a95ffc34-f551-542b-a617-bb4e187e9382
+name: Admire Gibbs
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/mesic-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mesic/government
+  office_id: mesic/council-member
+  party: Nonpartisan
+  ballot_name: Admire Gibbs
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mesic Town Council -- Admire Gibbs (Nonpartisan) 26; Lois Smith Credle (Nonpartisan) 26; Theron Jones (Nonpartisan) 26; Craig Baker (Nonpartisan) 24; Natarsha Garner (Write-In) (Write-In) 2. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

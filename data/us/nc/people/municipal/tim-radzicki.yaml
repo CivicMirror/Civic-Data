@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/ba6f1ee4-1498-5d39-98f2-f20d4ea86ab8
+name: Tim Radzicki
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/mint-hill-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:mint-hill/government
+  office_id: mint-hill/mayor
+  party: Nonpartisan
+  ballot_name: Tim Radzicki
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mint Hill Mayor -- Dale Dalton (Nonpartisan) 3,601; Tim Radzicki (Nonpartisan) 1,967; Bridget Lightner (Write-In) (Write-In) 8. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

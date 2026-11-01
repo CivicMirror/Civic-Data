@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/be4e56e6-1a89-57a9-bfe2-a32082baf9cc
+name: Avonda Wilson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/badin-council-member-member-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:badin/government
+  office_id: badin/council-member
+  party: Nonpartisan
+  ballot_name: Avonda Wilson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Badin Town Council, Member At-large -- Gary Rife (Nonpartisan) 278; W. Demar Huntley (Nonpartisan) 267; Sawyer Wyrick (Nonpartisan) 202; Avonda Wilson (Nonpartisan) 112. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

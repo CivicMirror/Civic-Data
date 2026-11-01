@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/73b1b98c-84e2-5e06-813b-503318d18978
+name: Martha Stowe
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/belmont-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+  office_id: belmont/council-member
+  party: Write-In
+  ballot_name: Martha Stowe
+  status: active
+- contest_id: nc/2023-11-07/belmont-mayor-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+  office_id: belmont/mayor
+  party: Nonpartisan
+  ballot_name: Martha Stowe
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Belmont City Council -- Jim Hefferan (Nonpartisan) 1,645; Jason P. Rumfelt (Nonpartisan) 1,465; Charlie Hill (Nonpartisan) 1,376; Peg Argent (Nonpartisan) 842; Cory Miller (Nonpartisan) 825; Cynthia Hegler (Nonpartisan) 594; Barry Flynn (Nonpartisan) 395; George (Buck) Altice (Nonpartisan) 182; Leigh Olson (Write-In) (Write-In) 2; Martha Stowe (Write-In) (Write-In) 2; Andrew Meyer (Write-In) (Write-In) 1; Anthony Todd Kelly (Write-In) (Write-In) 1; Becky Goodwin (Write-In) (Write-In) 1; Catelyn Franklin (Write-In) (Write-In) 1; Chad Sakacia (Write-In) (Write-In) 1; Dana Paul Collins (Write-In) (Write-In) 1; Jake Sprayberry (Write-In) (Write-In) 1; John Devine (Write-In) (Write-In) 1; Jon Goodwin (Write-In) (Write-In) 1; Leslie Davidson Jr. (Write-In) (Write-In) 1; Ryan Schrift (Write-In) (Write-In) 1; Trip Blair (Write-In) (Write-In) 1; Zach Gehrer (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Belmont Mayor (Unexpired Term) -- Richard Turner (Nonpartisan) 1,341; Martha Stowe (Nonpartisan) 1,044; Rick Jordan (Nonpartisan) 201; Amanda Wall (Nonpartisan) 64; Brooke Davis (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

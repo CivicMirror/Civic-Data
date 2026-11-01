@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/215117db-9946-5b65-8983-8d57a8d2468b
+name: Jimmy Mobley
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/chocowinity-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chocowinity/government
+  office_id: chocowinity/mayor
+  party: Nonpartisan
+  ballot_name: Jimmy Mobley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Chocowinity Mayor -- Jeff Haddock (Nonpartisan) 101; Jimmy Mobley (Nonpartisan) 67; Jesse Dickinson (Nonpartisan) 20. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

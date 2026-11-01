@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/38c23cb0-8985-55b3-94f3-bd4db2982d73
+name: Jeffrey G. Watson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/misenheimer-council-member
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:misenheimer/government
+  office_id: misenheimer/council-member
+  party: Nonpartisan
+  ballot_name: Jeffrey G. Watson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Misenheimer Town Council -- Jamie Hammill (Nonpartisan) 90; Jeffrey G. Watson (Nonpartisan) 69. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

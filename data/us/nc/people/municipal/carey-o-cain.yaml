@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2b59fe38-a750-5c4d-afc4-3bd6441d45e9
+name: Carey O'Cain
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/laurel-park-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:laurel-park/government
+  office_id: laurel-park/mayor
+  party: Nonpartisan
+  ballot_name: Carey O'Cain
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Laurel Park Mayor -- Carey O''Cain (Nonpartisan) 1,371. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

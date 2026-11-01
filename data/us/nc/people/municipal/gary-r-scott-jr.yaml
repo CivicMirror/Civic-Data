@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cded8563-f52f-5465-ab0a-992531244393
+name: Gary R. Scott, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/kelford-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kelford/government
+  office_id: kelford/commissioner
+  party: Nonpartisan
+  ballot_name: Gary R. Scott, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kelford Board of Commissioners -- John Tim Eaton (Nonpartisan) 37; Raymond S. Eaton (Nonpartisan) 35; Gary R. Scott, Jr. (Nonpartisan) 26; Bridget H. Scott (Nonpartisan) 24; Marvin (Bubba) Garris (Nonpartisan) 21; James Case (Nonpartisan) 15; Randy D. Robtoy (Nonpartisan) 14; Amy F. Bristow (Write-In) (Write-In) 3. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

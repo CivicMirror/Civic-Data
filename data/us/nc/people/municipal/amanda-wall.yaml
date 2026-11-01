@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e503f218-cc6b-5d09-8cc8-af0f2d52558a
+name: Amanda Wall
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/belmont-mayor-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+  office_id: belmont/mayor
+  party: Nonpartisan
+  ballot_name: Amanda Wall
+  status: active
+- contest_id: nc/2025-11-04/belmont-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+  office_id: belmont/council-member
+  party: Nonpartisan
+  ballot_name: Amanda Wall
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Belmont Mayor (Unexpired Term) -- Richard Turner (Nonpartisan) 1,341; Martha Stowe (Nonpartisan) 1,044; Rick Jordan (Nonpartisan) 201; Amanda Wall (Nonpartisan) 64; Brooke Davis (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Belmont City Council -- Marc Seelinger (Nonpartisan) 1,818; Alex Szucs (Nonpartisan) 1,752; Katherine O''Kane (Nonpartisan) 1,195; David Chee (Nonpartisan) 844; Nicholas Vesely (Nonpartisan) 686; Amanda Wall (Nonpartisan) 217; Gregory Mazza (Nonpartisan) 196; Chris Williams (Nonpartisan) 95. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/dc4d4081-0578-5199-9b81-d46189c5335b
+name: Mike Gillespie
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/indian-beach-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:indian-beach/government
+  office_id: indian-beach/commissioner
+  party: Nonpartisan
+  ballot_name: Mike Gillespie
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Indian Beach Board of Commissioners -- Sam D. Lovelace (Nonpartisan) 63; Michael Luther (Nonpartisan) 53; Randall T. Bentley (Nonpartisan) 35; Bo Wentz (Nonpartisan) 34; Mike Gillespie (Nonpartisan) 34. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

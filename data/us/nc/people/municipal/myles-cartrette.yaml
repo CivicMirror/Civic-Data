@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4162df25-a820-5817-946a-6a55f617c456
+name: Myles Cartrette
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/chadbourn-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chadbourn/government
+  office_id: chadbourn/mayor
+  party: Nonpartisan
+  ballot_name: Myles Cartrette
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Chadbourn Mayor -- Phillip C. Britt (Nonpartisan) 171; Myles Cartrette (Nonpartisan) 138; Ruth Ann Haynes (Nonpartisan) 36. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

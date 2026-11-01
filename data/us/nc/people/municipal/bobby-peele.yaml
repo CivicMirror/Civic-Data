@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/2dae2740-1523-5c85-a7c3-0e4bc0229208
+name: Bobby Peele
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lansing-alderman-unexpired
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lansing/government
+  office_id: lansing/alderman
+  party: Nonpartisan
+  ballot_name: Bobby Peele
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lansing Board of Aldermen (Unexpired Term) -- Bobby Peele (Nonpartisan) 17. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fbafe060-ea34-5545-8437-edf6cc123f8a
+name: Bruce Avery
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/pine-level-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:pine-level/government
+  office_id: pine-level/commissioner
+  party: Nonpartisan
+  ballot_name: Bruce Avery
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Pine Level Board of Commissioners -- Bill Radford (Nonpartisan) 223; Phil Pittman (Nonpartisan) 203; Greg Baker (Nonpartisan) 200; Jimmy F. Garner (Nonpartisan) 187; Rodney Cabe (Nonpartisan) 180; Bruce Avery (Nonpartisan) 153; Patrick W. Riley (Nonpartisan) 58. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

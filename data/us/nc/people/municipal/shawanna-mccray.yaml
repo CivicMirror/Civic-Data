@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/37c4a8c4-3926-54ee-964c-7173573c8bc6
+name: Shawanna McCray
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/roper-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:roper/government
+  office_id: roper/council-member
+  party: Nonpartisan
+  ballot_name: Shawanna McCray
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Roper Town Council -- Sandra Faye Arnold (Nonpartisan) 83; Shawanna McCray (Nonpartisan) 71. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

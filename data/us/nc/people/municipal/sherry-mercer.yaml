@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d6296f43-3135-5e6c-adee-95c5de01021c
+name: Sherry Mercer
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/bunn-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bunn/government
+  office_id: bunn/commissioner
+  party: Nonpartisan
+  ballot_name: Sherry Mercer
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Bunn Board of Commissioners -- Ebony Hartsfield Thorne (Nonpartisan) 78; Don Mitchell (Nonpartisan) 58; Sherry Mercer (Nonpartisan) 57. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f85f1040-2c7e-5763-ac98-02cf1fa293fb
+name: Fred Joiner
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/carrboro-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:carrboro/government
+  office_id: carrboro/council-member
+  party: Nonpartisan
+  ballot_name: Fred Joiner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Carrboro Town Council -- Cristobal Palmer (Nonpartisan) 2,587; Danny Nowell (Nonpartisan) 2,491; Fred Joiner (Nonpartisan) 2,379; Randee Haven O''Donnell (Write-In) (Write-In) 17; April Mills (Write-In) (Write-In) 6; Clara Zelasky (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

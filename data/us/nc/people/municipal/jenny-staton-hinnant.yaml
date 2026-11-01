@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/07ac3199-c37d-584e-b144-236d15097df5
+name: Jenny Staton Hinnant
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/conetoe-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:conetoe/government
+  office_id: conetoe/commissioner
+  party: Nonpartisan
+  ballot_name: Jenny Staton Hinnant
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Conetoe Board of Commissioners -- Jenny Staton Hinnant (Nonpartisan) 41; Clayton Webb (Nonpartisan) 37; Monica Worsley (Nonpartisan) 37; Cedric Barnes (Nonpartisan) 36; Regina Gray (Write-In) (Write-In) 28. Winners are the top 4 by total votes.'
+  retrieved: '2026-10-25'

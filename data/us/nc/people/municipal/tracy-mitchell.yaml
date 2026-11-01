@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b4fd5039-4842-59df-a34f-ba6183c5b90b
+name: Tracy Mitchell
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kure-beach-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kure-beach/government
+  office_id: kure-beach/commissioner
+  party: Nonpartisan
+  ballot_name: Tracy Mitchell
+  status: active
+- contest_id: nc/2025-11-04/kure-beach-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kure-beach/government
+  office_id: kure-beach/commissioner
+  party: Nonpartisan
+  ballot_name: Tracy Mitchell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kure Beach Board of Commissioners -- Connie Mearkle (Nonpartisan) 432; David Heglar (Nonpartisan) 412; Dennis Panicali (Nonpartisan) 304; Tracy Mitchell (Nonpartisan) 242. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kure Beach Board of Commissioners -- Byron Ashbridge (Nonpartisan) 385; Mark Dirks (Nonpartisan) 358; Tracy Mitchell (Nonpartisan) 118. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/890b15ff-783d-5339-98f1-c2066f241cc3
+name: Mary Lang Hunter
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/warrenton-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:warrenton/government
+  office_id: warrenton/commissioner
+  party: Nonpartisan
+  ballot_name: Mary Lang Hunter
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Warrenton Board of Commissioners -- Aaron Ayscue (Nonpartisan) 67; Jason Young (Nonpartisan) 66; Mary Lang Hunter (Nonpartisan) 57. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

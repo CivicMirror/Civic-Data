@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c3b16c7a-b60d-528d-a039-50bf77f12c7c
+name: Darlene Morrow
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/dallas-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dallas/government
+  office_id: dallas/alderman
+  party: Nonpartisan
+  ballot_name: Darlene Morrow
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Dallas Board of Aldermen -- Sam Martin (Nonpartisan) 249; Frank Milton (Nonpartisan) 200; Dale Blythe (Nonpartisan) 190; Darlene Morrow (Nonpartisan) 178; Starletta Hairston (Nonpartisan) 163; Jeremiah Doster (Nonpartisan) 83. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/62e093a3-83fc-5a61-8b7e-58a4b24c764b
+name: Kathryn Whitworth Roberts
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/grover-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:grover/government
+  office_id: grover/commissioner
+  party: Nonpartisan
+  ballot_name: Kathryn Whitworth Roberts
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Grover Board of Commissioners -- Margaret P. Ledford (Nonpartisan) 34; Kathryn Whitworth Roberts (Nonpartisan) 27; Thor Inman (Nonpartisan) 27. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

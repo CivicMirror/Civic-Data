@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6e81a54b-6501-5195-9e69-a8160792ecb4
+name: Charles (Charlie) Council
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/badin-council-member-member-east-district
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:badin/government
+  office_id: badin/council-member
+  party: Nonpartisan
+  ballot_name: Charles (Charlie) Council
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Badin Town Council, Member East District -- Charles (Charlie) Council (Nonpartisan) 302. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,28 @@
+id: ocd-person/9a742b5d-bd05-58a0-b932-786ce3319bfd
+name: Sarah Kirkman
+identifiers: []
+candidacies:
+- contest_id: nc/2020-11-03/prosecutorial-district-32-district-attorney
+  election_id: nc/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-32/judiciary
+  office_id: prosecutorial-district-32/district-attorney
+  party: Republican
+  ballot_name: Sarah Kirkman
+  status: active
+- contest_id: nc/2024-11-05/prosecutorial-district-32-district-attorney
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:prosecutorial-district-32/judiciary
+  office_id: prosecutorial-district-32/district-attorney
+  party: Republican
+  ballot_name: Sarah Kirkman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/results_pct_20201103.zip
+  note: 'NC SBE 2020-11-03 results (Election Results series): DISTRICT ATTORNEY DISTRICT 32 -- Sarah Kirkman (Republican) 92,385. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DISTRICT ATTORNEY DISTRICT 32 -- Sarah Kirkman (Republican) 97,550. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

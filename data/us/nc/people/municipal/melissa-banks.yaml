@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c8d57c95-a669-549a-b50a-6882f8f9b6ac
+name: Melissa Banks
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/lake-park-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lake-park/government
+  office_id: lake-park/council-member
+  party: Nonpartisan
+  ballot_name: Melissa Banks
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lake Park Village Council -- Mark Richards (Nonpartisan) 333; Wayne Rentsch (Nonpartisan) 258; Elizabeth Belmonte (Nonpartisan) 190; Melissa Banks (Nonpartisan) 130; Roger Griffin (Nonpartisan) 29. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

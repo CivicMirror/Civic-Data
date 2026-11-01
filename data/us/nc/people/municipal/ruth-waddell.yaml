@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9956c242-8dab-5679-96ce-6724989e4820
+name: Ruth Waddell
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/bolton-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bolton/government
+  office_id: bolton/alderman
+  party: Nonpartisan
+  ballot_name: Ruth Waddell
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Bolton Board of Aldermen -- Ruth Waddell (Nonpartisan) 61; Cynthia Mitchell (Nonpartisan) 56; Randolph Pringle (Nonpartisan) 48; Eugene T. Neal, Jr. (Nonpartisan) 47; Jimmy Bowen (Nonpartisan) 37. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

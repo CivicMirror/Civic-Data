@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/64a3f245-f32f-59ca-84b0-99bf9b47d941
+name: Dana C. Suggs
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/walstonburg-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:walstonburg/government
+  office_id: walstonburg/commissioner
+  party: Nonpartisan
+  ballot_name: Dana C. Suggs
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Walstonburg Board of Commissioners -- Jesse Lee Best II (Nonpartisan) 24; Ray Holloman (Nonpartisan) 22; Dianne McKeel Morris (Nonpartisan) 21; Jarrod McKeel (Nonpartisan) 20; Ronald Turner (Nonpartisan) 19; Dana C. Suggs (Nonpartisan) 18. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

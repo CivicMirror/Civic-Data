@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/7ef49a58-7685-5e7f-ae92-7b3672b7ead5
+name: Perry Wallace
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/star-mayor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:star/government
+  office_id: star/mayor
+  party: Write-In
+  ballot_name: Perry Wallace
+  status: active
+- contest_id: nc/2024-11-05/star-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:star/government
+  office_id: star/mayor
+  party: Nonpartisan
+  ballot_name: Perry Wallace
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): Star Mayor -- Bill Hudson (Nonpartisan) 112; Perry Wallace (Write-In) (Write-In) 58. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Star Mayor -- Perry Wallace (Nonpartisan) 186; Russ Aronis (Nonpartisan) 62; Bill Hudson (Write-In) (Write-In) 25. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

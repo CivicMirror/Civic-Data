@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/cf3f3703-4377-571a-a9a2-cedd88beddf5
+name: Bennie Sims
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/madison-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:madison/government
+  office_id: madison/alderman
+  party: Write-In
+  ballot_name: Bennie Sims
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Madison Board of Aldermen -- Gini Cardwell (Nonpartisan) 237; Micky Silvers (Nonpartisan) 153; Alan Hensley (Nonpartisan) 112; Roxanne Griffin (Nonpartisan) 103; Steve Boles (Nonpartisan) 98; Dawn Dalton (Nonpartisan) 69; Laurie A. Burch (Write-In) (Write-In) 2; Anne Tuttle (Write-In) (Write-In) 1; Bennie Sims (Write-In) (Write-In) 1; Marty Roberts (Write-In) (Write-In) 1; Zachary James Hutchinson (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

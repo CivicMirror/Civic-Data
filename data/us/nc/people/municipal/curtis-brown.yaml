@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/8682dd12-2f75-51d2-9dc8-581ee931a257
+name: Curtis Brown
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/siler-commissioner-district-3
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:siler/government
+  office_id: siler/commissioner
+  party: Nonpartisan
+  ballot_name: Curtis Brown
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Siler City Board of Commissioners, District 3 -- Curtis Brown (Nonpartisan) 103. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

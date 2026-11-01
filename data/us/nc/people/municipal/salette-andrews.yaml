@@ -7,17 +7,27 @@
 id: ocd-person/ddae00f1-c6b0-4355-a6ac-fc143378e6ce
 name: Salette Andrews
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 285812d1-cae5-4fac-a364-0cee1d7befa5
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 285812d1-cae5-4fac-a364-0cee1d7befa5
+candidacies:
+- contest_id: nc/2023-11-07/wilmington-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilmington/government
+  office_id: wilmington/council-member
+  party: Nonpartisan
+  ballot_name: Salette Andrews
+  status: active
 contact:
   email: salette.andrews@wilmingtonnc.gov
-  phone: "(910) 520-1851"
+  phone: (910) 520-1851
   profile_url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council/Salette-Andrews
 image: https://www.wilmingtonnc.gov/files/assets/city/v/1/government/images/council-headshots/dec.-2025/andrews_salette_web2.jpg?dimension=userprofile&w=150&h=150
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
-    retrieved: "2026-08-14"
+- url: https://www.wilmingtonnc.gov/Connect-With-Us/City-Mayor-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Wilmington Government Town Council -- David Joyner (Nonpartisan) 8,646; Salette Andrews (Nonpartisan) 8,196; Kevin Spears (Nonpartisan) 8,075; Neil Anderson (Nonpartisan) 7,156; John D. Lennon (Nonpartisan) 7,100; Kathryn Bruner (Nonpartisan) 6,121; Marlowe Foster (Nonpartisan) 4,319. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

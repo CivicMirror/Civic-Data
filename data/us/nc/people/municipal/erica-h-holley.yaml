@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/1e182e22-21a9-5260-b80b-aa15630909bb
+name: Erica H. Holley
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/powellsville-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:powellsville/government
+  office_id: powellsville/mayor
+  party: Write-In
+  ballot_name: Erica H. Holley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Powellsville Mayor -- James Peele (Write-In) (Write-In) 10; Samuel Martiello (Write-In) (Write-In) 9; Erica Herring (Write-In) (Write-In) 8; Betty Cherry (Write-In) (Write-In) 1; Erica H. Holley (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/55755f49-e746-5287-aa0b-acdc0f04fae8
+name: Carolyn Y. Melvin
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/garland-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:garland/government
+  office_id: garland/commissioner
+  party: Nonpartisan
+  ballot_name: Carolyn Y. Melvin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Garland Board of Commissioners -- Barbara Peterson (Nonpartisan) 125; Carolyn Y. Melvin (Nonpartisan) 112; Antonio Garcia (Nonpartisan) 74; Wanda Johnson (Nonpartisan) 58. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

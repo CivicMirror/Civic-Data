@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a48f2245-5d56-534b-9cea-9b3d208975d0
+name: Chad Wykle
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/glen-alpine-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:glen-alpine/government
+  office_id: glen-alpine/alderman
+  party: Nonpartisan
+  ballot_name: Chad Wykle
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Glen Alpine Board of Aldermen -- Chad Wykle (Nonpartisan) 111; Jason Miller (Nonpartisan) 105; Sheila Perkins (Nonpartisan) 75; Lucas Huffman (Nonpartisan) 74; Michelle Lewis (Nonpartisan) 64; Jody Lewis (Nonpartisan) 42; Synthia Adams (Nonpartisan) 34. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/56bb7538-7dcd-50b7-810c-fe7b813aebf4
+name: G. Douglas Lilley
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/gatesville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:gatesville/government
+  office_id: gatesville/mayor
+  party: Nonpartisan
+  ballot_name: G. Douglas Lilley
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Gatesville Mayor -- G. Douglas Lilley (Nonpartisan) 17. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

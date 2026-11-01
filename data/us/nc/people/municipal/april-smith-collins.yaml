@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/255caae4-d90f-5969-8c68-50dd747157fd
+name: April Smith Collins
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/broadway-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:broadway/government
+  office_id: broadway/commissioner
+  party: Nonpartisan
+  ballot_name: April Smith Collins
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Broadway Board of Commissioners -- Laura K. Duval (Nonpartisan) 198; April Smith Collins (Nonpartisan) 185; Wendy Welch Bryan (Nonpartisan) 173; Thomas (Tommy) Beal (Nonpartisan) 121. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

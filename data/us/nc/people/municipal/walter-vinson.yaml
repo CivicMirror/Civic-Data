@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b8221b91-2e00-50d0-ab5a-f7e1e5e2350f
+name: Walter Vinson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/peletier-council-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:peletier/government
+  office_id: peletier/council-member
+  party: Nonpartisan
+  ballot_name: Walter Vinson
+  status: active
+- contest_id: nc/2025-11-04/peletier-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:peletier/government
+  office_id: peletier/council-member
+  party: Nonpartisan
+  ballot_name: Walter Vinson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Peletier Town Council (Unexpired Term) -- Walter Vinson (Nonpartisan) 140; Kevin A. Jones (Nonpartisan) 67; Richard Earl Bright (Nonpartisan) 27; Ronald E. Morgan (Nonpartisan) 7; Robert Terry (Nonpartisan) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Peletier Town Council -- Donna Bierly (Nonpartisan) 90; Nicky Krajacic (Nonpartisan) 59; Walter Vinson (Nonpartisan) 53; Ralph Weese (Nonpartisan) 46. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

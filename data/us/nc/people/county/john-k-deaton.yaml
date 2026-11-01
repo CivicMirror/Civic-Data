@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/8d639abf-3102-5787-a943-1c220e3ecbd2
+name: John K. Deaton
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/montgomery-clerk-of-superior-court
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:montgomery/government
+  office_id: montgomery/clerk-of-superior-court
+  party: Republican
+  ballot_name: John K. Deaton
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Montgomery County Clerk Of Superior Court -- John K. Deaton (REP) 6,870.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d3df0901-c81c-5290-b91b-5350054ecc11
+name: Evelyn P. Lloyd
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/hillsborough-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hillsborough/government
+  office_id: hillsborough/commissioner
+  party: Nonpartisan
+  ballot_name: Evelyn P. Lloyd
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Hillsborough Board of Commissioners -- Meaghun Darab (Nonpartisan) 1,241; Matt Hughes (Nonpartisan) 1,231; Evelyn P. Lloyd (Nonpartisan) 992; Victoria Masika (Nonpartisan) 742. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

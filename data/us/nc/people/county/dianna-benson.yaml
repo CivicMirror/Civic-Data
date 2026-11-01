@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/ff426b6d-10cf-5a2d-b954-b9f4b67ec3bc
+name: Dianna Benson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/mecklenburg-commissioner-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:mecklenburg/government
+  office_id: mecklenburg/commissioner-district-3
+  party: Republican
+  ballot_name: Dianna Benson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Mecklenburg County Board Of Commissioners District 03 -- George Dunlap (DEM) 34,781; Dianna Benson (REP) 6,761.'
+  retrieved: '2026-10-23'

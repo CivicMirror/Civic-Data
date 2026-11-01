@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/2881ede0-1bed-5ef2-9fb8-d85cba5e104a
+name: Markita R. McCrimmon
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/harnett-commissioner-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:harnett/government
+  office_id: harnett/commissioner-district-5
+  party: Democratic
+  ballot_name: Markita R. McCrimmon
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Harnett County Board Of Commissioners District 05 -- Matthew Nicol (REP) 5,827; Markita R. McCrimmon (DEM) 3,644.'
+  retrieved: '2026-10-23'

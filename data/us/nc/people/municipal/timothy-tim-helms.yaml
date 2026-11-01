@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/22d41cd7-c467-5a99-9612-16295acef10f
+name: Timothy (Tim) Helms
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/montreat-mayor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:montreat/government
+  office_id: montreat/mayor
+  party: Nonpartisan
+  ballot_name: Timothy (Tim) Helms
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Montreat Mayor -- Timothy (Tim) Helms (Nonpartisan) 304. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

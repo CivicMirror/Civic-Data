@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f30a70b4-8a32-5eb4-aff7-709f41d05c50
+name: Raymond (Sonny) Mason
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/peletier-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:peletier/government
+  office_id: peletier/council-member
+  party: Nonpartisan
+  ballot_name: Raymond (Sonny) Mason
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Peletier Town Council -- Raymond (Sonny) Mason (Nonpartisan) 156; David Bragg (Nonpartisan) 139; River Clark (Nonpartisan) 82; Garrey Burroughs (Nonpartisan) 73. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

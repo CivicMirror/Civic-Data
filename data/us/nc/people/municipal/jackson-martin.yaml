@@ -1,0 +1,40 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/280a7f41-f5de-55cc-97dd-a093563727d6
+name: Jackson Martin
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lattimore-alderman
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lattimore/government
+  office_id: lattimore/alderman
+  party: Nonpartisan
+  ballot_name: Jackson Martin
+  status: active
+- contest_id: nc/2025-11-04/lattimore-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lattimore/government
+  office_id: lattimore/mayor
+  party: Nonpartisan
+  ballot_name: Jackson Martin
+  status: active
+- contest_id: nc/2025-11-04/lattimore-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lattimore/government
+  office_id: lattimore/alderman
+  party: Write-In
+  ballot_name: Jackson Martin
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lattimore Board of Aldermen -- Jackson Martin (Nonpartisan) 32; Gary Hall (Nonpartisan) 31; Vickie Jones (Write-In) (Write-In) 15; Lewis Craig (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lattimore Mayor -- Alton Beal (Write-In) (Write-In) 27; Jackson Martin (Nonpartisan) 18. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lattimore Board of Aldermen -- Vickie Jones (Nonpartisan) 44; Brandon L. Ruppe (Nonpartisan) 41; Alton G. Beal (Nonpartisan) 36; Jackson Martin (Write-In) (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

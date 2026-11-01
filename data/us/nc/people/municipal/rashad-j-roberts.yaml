@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/65247b8d-0fd0-5c8a-8310-7334ffbd5a10
+name: Rashad J. Roberts
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/chadbourn-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:chadbourn/government
+  office_id: chadbourn/council-member
+  party: Nonpartisan
+  ballot_name: Rashad J. Roberts
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Chadbourn Town Council -- Rashad J. Roberts (Nonpartisan) 189; Avala (Pepper) Nealy (Nonpartisan) 145; Shannon Britt (Nonpartisan) 118; Andrew (Drew) Worley (Nonpartisan) 87. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

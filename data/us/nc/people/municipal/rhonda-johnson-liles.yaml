@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/fd4bd71d-6889-5cef-8347-3addae7e6832
+name: Rhonda Johnson Liles
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/morven-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:morven/government
+  office_id: morven/council-member
+  party: Nonpartisan
+  ballot_name: Rhonda Johnson Liles
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Morven Town Council -- Rhonda Johnson Liles (Nonpartisan) 19; Marjorie Cole (Nonpartisan) 18; Alvis (Al) Snow (Nonpartisan) 14. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

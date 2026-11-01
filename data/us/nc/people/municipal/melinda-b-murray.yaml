@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/0b1480f8-eace-5147-b320-a158a7281fab
+name: Melinda B. Murray
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/stedman-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stedman/government
+  office_id: stedman/commissioner
+  party: Nonpartisan
+  ballot_name: Melinda B. Murray
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Stedman Board of Commissioners -- Louis Wood (Nonpartisan) 89; Harvey L. Cain, Jr. (Nonpartisan) 68; Bradley Roberts (Nonpartisan) 65; Melinda B. Murray (Nonpartisan) 62; Wilbert Hairr (Nonpartisan) 60; Justin White (Nonpartisan) 34; Michael R. Hall (Nonpartisan) 9. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/efe1f5e7-c8d2-55b6-af73-9d8aa95e6174
+name: Christy G. NeCaise
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/richfield-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:richfield/government
+  office_id: richfield/commissioner
+  party: Nonpartisan
+  ballot_name: Christy G. NeCaise
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Richfield Board of Commissioners -- Barry Byrd (Nonpartisan) 187; Christy G. NeCaise (Nonpartisan) 183; Mike Beaver (Nonpartisan) 175; Deanette Galloway Russell (Nonpartisan) 153. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

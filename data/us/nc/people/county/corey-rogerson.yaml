@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/e175b44e-2cbb-5f18-814e-ff7c328e7d43
+name: Corey Rogerson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/beaufort-sheriff
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:beaufort/government
+  office_id: beaufort/sheriff
+  party: Democratic
+  ballot_name: Corey Rogerson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Beaufort County Sheriff -- Scott Hammonds (REP) 10,368; Corey Rogerson (DEM) 8,513.'
+  retrieved: '2026-10-23'

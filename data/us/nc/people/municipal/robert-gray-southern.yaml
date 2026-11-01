@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b597d1ea-6036-5dac-a755-b4e84f8c511f
+name: Robert (Gray) Southern
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/king-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:king/government
+  office_id: king/council-member
+  party: Nonpartisan
+  ballot_name: Robert (Gray) Southern
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): King City Council -- Terri Calloway Fowler (Nonpartisan) 446; Tyler Bowles (Nonpartisan) 288; Mary Burton (Nonpartisan) 284; Robert (Bobby) Adams (Nonpartisan) 248; Robert (Gray) Southern (Nonpartisan) 161; David Hudson (Nonpartisan) 143; Steven Hewett (Nonpartisan) 11. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

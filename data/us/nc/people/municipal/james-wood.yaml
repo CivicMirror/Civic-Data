@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/86d04cfb-83e8-5492-b8b5-27ce70521a38
+name: James Wood
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/stonewall-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:stonewall/government
+  office_id: stonewall/commissioner
+  party: Nonpartisan
+  ballot_name: James Wood
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Stonewall Board of Commissioners -- James Wood (Nonpartisan) 47; Lester Carey (Nonpartisan) 47; Maurice Benton (Nonpartisan) 45; Cynthia (Peaches) Fisher-Richardson (Nonpartisan) 13. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e4622a2e-7c48-581d-ae8f-9af2999897e6
+name: Les Lipford
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/kinston-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kinston/government
+  office_id: kinston/council-member
+  party: Nonpartisan
+  ballot_name: Les Lipford
+  status: active
+- contest_id: nc/2025-11-04/kinston-council-member
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:kinston/government
+  office_id: kinston/council-member
+  party: Nonpartisan
+  ballot_name: Les Lipford
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Kinston City Council -- Felicia (Nikki) Solomon (Nonpartisan) 1,459; Antonio (Pearl) Hardy (Nonpartisan) 1,386; Barbara Seaforth (Nonpartisan) 1,252; Sammy C. Aiken (Nonpartisan) 914; Les Lipford (Nonpartisan) 314; Joseph Askew (Write-In) (Write-In) 99. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Kinston City Council -- Sammy C. Aiken (Nonpartisan) 1,461; Les Lipford (Nonpartisan) 1,250; Quarla N. Blackwell (Nonpartisan) 997; Milton Foster (Nonpartisan) 897; Tyron Cotton (Nonpartisan) 773; Ashley Kornegay (Nonpartisan) 561; Thurman Ray Sanders (Nonpartisan) 183; Lynecia Barrow (Nonpartisan) 163. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

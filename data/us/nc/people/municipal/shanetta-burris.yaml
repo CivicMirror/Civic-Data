@@ -7,19 +7,39 @@
 id: ocd-person/cf57238c-2726-4f9f-b9ee-54689d19555e
 name: Shanetta Burris
 identifiers:
-  - scheme: civicpatch-person
-    identifier: 5e382ce9-11ec-453c-9ebf-9d1bbd313c99
-candidacies: []
+- scheme: civicpatch-person
+  identifier: 5e382ce9-11ec-453c-9ebf-9d1bbd313c99
+candidacies:
+- contest_id: nc/2023-11-07/durham-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+  office_id: durham/council-member
+  party: Write-In
+  ballot_name: Shanetta Burris
+  status: active
+- contest_id: nc/2025-11-04/durham-council-member-ward-2
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:durham/government
+  office_id: durham/council-member
+  party: Nonpartisan
+  ballot_name: Shanetta Burris
+  status: active
 contact:
   email: shanetta.burris@durhamnc.gov
-  phone: "(919) 560-4396"
+  phone: (919) 560-4396
   profile_url: https://www.durhamnc.gov/5484/Shanetta-Burris
 image: https://www.durhamnc.gov/ImageRepository/Document?documentId=62991
 verification:
   status: unverified
   pipeline: manual
 sources:
-  - url: https://www.durhamnc.gov/Directory.aspx?did=131
-    retrieved: "2026-08-14"
-  - url: https://www.durhamnc.gov/1323/City-Council
-    retrieved: "2026-08-14"
+- url: https://www.durhamnc.gov/Directory.aspx?did=131
+  retrieved: '2026-08-14'
+- url: https://www.durhamnc.gov/1323/City-Council
+  retrieved: '2026-08-14'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Durham Government Town Council -- Nate Baker (Nonpartisan) 24,016; Javiera Caballero (Nonpartisan) 23,391; Carl Rist (Nonpartisan) 22,011; Khalilah Karim (Nonpartisan) 16,138; Monique Holsey-Hyman (Nonpartisan) 11,727; Shelia Ann Huggins (Nonpartisan) 8,782; Sherri Zann Rosenthal (Write-In) (Write-In) 51; Bonita Green (Write-In) (Write-In) 17; Shanetta Burris (Write-In) (Write-In) 15; J.J. Campbell (Write-In) (Write-In) 10. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Durham Government Town Council, Ward 2 -- Shanetta Burris (Nonpartisan) 31,090; Mark-Anthony Middleton (Nonpartisan) 14,124; Ashley Robbins (Write-In) (Write-In) 16. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

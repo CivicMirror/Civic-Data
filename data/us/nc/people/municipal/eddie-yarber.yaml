@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6722b83f-f5ca-5df0-90da-dae6e506adee
+name: Eddie Yarber
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/crossnore-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:crossnore/government
+  office_id: crossnore/mayor
+  party: Nonpartisan
+  ballot_name: Eddie Yarber
+  status: active
+- contest_id: nc/2025-11-04/crossnore-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:crossnore/government
+  office_id: crossnore/mayor
+  party: Nonpartisan
+  ballot_name: Eddie Yarber
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Crossnore Mayor -- Eddie Yarber (Nonpartisan) 19. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Crossnore Mayor -- Eddie Yarber (Nonpartisan) 23. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

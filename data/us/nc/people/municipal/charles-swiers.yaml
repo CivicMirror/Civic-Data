@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/564d742f-6534-5395-a437-ab2ae9346ccf
+name: Charles Swiers
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/asheboro-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:asheboro/government
+  office_id: asheboro/council-member
+  party: Nonpartisan
+  ballot_name: Charles Swiers
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Asheboro City Council -- Joey Trogdon (Nonpartisan) 1,080; Eddie Burks (Nonpartisan) 1,051; Charles Swiers (Nonpartisan) 980; Jane Hughes Redding (Nonpartisan) 927; Harry Okeke (Nonpartisan) 381. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

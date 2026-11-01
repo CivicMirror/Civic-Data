@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/57c3bb00-5912-5c3b-a65b-4cf8943c083e
+name: Tony L. Hall
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/yadkinville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:yadkinville/government
+  office_id: yadkinville/commissioner
+  party: Nonpartisan
+  ballot_name: Tony L. Hall
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Yadkinville Board of Commissioners -- Monta Davis-Oliver (Nonpartisan) 64; Richie Parker (Nonpartisan) 59; Tony L. Hall (Nonpartisan) 58. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

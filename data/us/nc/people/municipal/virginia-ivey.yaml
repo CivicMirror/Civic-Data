@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a872db73-1aa3-592a-883e-df73ee2fe95e
+name: Virginia Ivey
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/proctorville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:proctorville/government
+  office_id: proctorville/council-member
+  party: Write-In
+  ballot_name: Virginia Ivey
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Proctorville Town Council -- Alphonzo Mcrae (Write-In) (Write-In) 26; Jody Connor (Write-In) (Write-In) 26; Bob Lennon (Write-In) (Write-In) 18; Virginia Ivey (Write-In) (Write-In) 9; Jennifer Jones Williamson (Write-In) (Write-In) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

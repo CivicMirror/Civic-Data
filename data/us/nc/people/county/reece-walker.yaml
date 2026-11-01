@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official general
+# election results (county pass, Civic-Data issue #172).
+id: ocd-person/ad8f99e8-2edb-5975-be36-6cdf621827b6
+name: Reece Walker
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/guilford-commissioner-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:guilford/government
+  office_id: guilford/commissioner-district-5
+  party: Republican
+  ballot_name: Reece Walker
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_county
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Guilford County Board Of Commissioners District 05 -- Carly Cooke (DEM) 22,638; Reece Walker (REP) 14,573.'
+  retrieved: '2026-10-23'

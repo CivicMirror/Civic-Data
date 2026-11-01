@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/52ce2b0b-ce3d-5426-8452-5b270c077396
+name: Joey Brandle
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/forest-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:forest/government
+  office_id: forest/commissioner
+  party: Nonpartisan
+  ballot_name: Joey Brandle
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Forest City Board of Commissioners -- Dee Dee Bright (Nonpartisan) 1,713; Chris Lee (Nonpartisan) 1,254; Joey Brandle (Nonpartisan) 983; Justin E. Conner (Nonpartisan) 904; Lynetha (Mookie) Miller (Nonpartisan) 725; Carl M. Ramsey, Jr. (Nonpartisan) 593. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

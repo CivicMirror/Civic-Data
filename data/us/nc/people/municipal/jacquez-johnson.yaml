@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/edb989d4-3f66-5294-870b-94aa5ab4bab6
+name: JacQuez Johnson
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/thomasville-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:thomasville/government
+  office_id: thomasville/council-member
+  party: Nonpartisan
+  ballot_name: JacQuez Johnson
+  status: active
+- contest_id: nc/2025-11-04/thomasville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:thomasville/government
+  office_id: thomasville/mayor
+  party: Nonpartisan
+  ballot_name: JacQuez Johnson
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Thomasville City Council -- Lisa Shell (Nonpartisan) 735; JacQuez Johnson (Nonpartisan) 689; Payton Williams (Nonpartisan) 683; Dana Skeen Lomba (Nonpartisan) 504; Ronald Fowler (Nonpartisan) 474; Eric Kuppel (Nonpartisan) 464; Paula Widener Peters (Nonpartisan) 379. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Thomasville Mayor -- Raleigh York, Jr. (Nonpartisan) 998; JacQuez Johnson (Nonpartisan) 981; Wendy B. Sellars (Nonpartisan) 360. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6d9139de-67ae-54df-adc7-16376a991f35
+name: John A. Sweat, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/concord-council-member-district-7
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:concord/government
+  office_id: concord/council-member
+  party: Nonpartisan
+  ballot_name: John A. Sweat, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Concord City Council, District 7 -- John A. Sweat, Jr. (Nonpartisan) 4,709. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

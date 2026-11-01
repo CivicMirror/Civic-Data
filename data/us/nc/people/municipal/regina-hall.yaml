@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/d50f8a8e-ff41-55be-9308-b85f5d8ad55b
+name: Regina Hall
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/winston-salem-council-member-north-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: Regina Hall
+  status: active
+- contest_id: nc/2024-11-05/winston-salem-council-member-south-ward
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:winston-salem/government
+  office_id: winston-salem/council-member
+  party: Write-In
+  ballot_name: Regina Hall
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, North Ward -- Denise (D.D.) Adams (Democratic) 9,494; Regina Hall (Write-In) (Write-In) 21; Contessa Smith (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, South Ward -- Vivian V. Joiner (Democratic) 11,101; James Taylor (Write-In) (Write-In) 6; John Larson (Write-In) (Write-In) 5; Regina Hall (Write-In) (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

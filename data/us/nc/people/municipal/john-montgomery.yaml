@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/b8294b3b-54dc-572e-a3a5-ab08cbacacd8
+name: John Montgomery
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lilesville-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lilesville/government
+  office_id: lilesville/commissioner
+  party: Nonpartisan
+  ballot_name: John Montgomery
+  status: active
+- contest_id: nc/2025-11-04/lilesville-commissioner
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lilesville/government
+  office_id: lilesville/commissioner
+  party: Nonpartisan
+  ballot_name: John Montgomery
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lilesville Board of Commissioners -- Christopher Harrington (Nonpartisan) 70; John Montgomery (Nonpartisan) 54; Lewis Adams (Nonpartisan) 52; Gaye Harrington (Nonpartisan) 49; Charles (Chuck) Cook (Nonpartisan) 46; Hannah Spencer (Nonpartisan) 45; Randy Henry (Nonpartisan) 42. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Lilesville Board of Commissioners -- John Montgomery (Nonpartisan) 39; Christopher Harrington (Nonpartisan) 33; Charles Chuck Cook (Nonpartisan) 25; Gaye Harrington (Nonpartisan) 24; Jason Clarke (Nonpartisan) 22. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

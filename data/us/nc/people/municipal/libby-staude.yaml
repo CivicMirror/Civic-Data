@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/9cfce5eb-4823-5a2b-8933-b227d69df18a
+name: Libby Staude
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/hot-springs-alderman
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:hot-springs/government
+  office_id: hot-springs/alderman
+  party: Unaffiliated
+  ballot_name: Libby Staude
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Hot Springs Board of Aldermen -- Lisa Gahagan (Unaffiliated) 158; Tammy Shelton (Unaffiliated) 95; Wendy Stancil (Unaffiliated) 92; Andrew Thomas (Unaffiliated) 89; Dan Myers (Unaffiliated) 78; Libby Staude (Unaffiliated) 31; Robin Smith (Republican) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/26c193ff-29e5-534f-abbe-c5cf97cbbf57
+name: Alan Cash
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/seven-springs-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:seven-springs/government
+  office_id: seven-springs/commissioner
+  party: Nonpartisan
+  ballot_name: Alan Cash
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Seven Springs Board of Commissioners -- Alan Cash (Nonpartisan) 8; Jackie Rouse (Write-In) (Write-In) 6; Robert Alan Hughes (Write-In) (Write-In) 6. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

@@ -7,7 +7,14 @@
 id: ocd-person/8c2b8fe6-3d0a-5f95-8971-3baa9a7bbe29
 name: Glenn B. Adams
 identifiers: []
-candidacies: []
+candidacies:
+- contest_id: nc/2022-11-08/cumberland-commissioner-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:cumberland/government
+  office_id: cumberland/commissioner-district-1
+  party: Democratic
+  ballot_name: Glenn B. Adams
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -15,3 +22,6 @@ sources:
 - url: https://dl.ncsbe.gov/?prefix=ENRS/2022_11_08/
   note: NCSBE official Nov. 8, 2022 general election precinct-level results (results_pct_20221108.txt), aggregated by county+contest by scripts/build_nc_counties.py
   retrieved: '2026-08-19'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Cumberland County Board Of Commissioners District 01 -- Jeannette Council (DEM) 15,723; Glenn B. Adams (DEM) 14,157.'
+  retrieved: '2026-10-23'

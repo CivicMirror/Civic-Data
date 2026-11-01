@@ -1,0 +1,18 @@
+id: ocd-person/9576347f-d055-507d-9022-8dbbc71206b3
+name: Quintin McGee
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/district-court-district-13-judge-seat-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/judicial_district:district-court-district-13/judiciary
+  office_id: district-court-district-13/judge-seat-2
+  party: Democratic
+  ballot_name: Quintin McGee
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NC DISTRICT COURT JUDGE DISTRICT 13 SEAT 02 -- Bryan Wilson (Republican) 64,166; Quintin McGee (Democratic) 38,211. Winner is the top vote-getter (single-seat contest).'
+  retrieved: '2026-10-26'
+verification:
+  status: unverified
+  pipeline: build_nc_judicial

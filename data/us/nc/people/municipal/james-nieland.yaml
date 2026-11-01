@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/e372bbd1-a0e5-5691-a203-c4aa0d2ec61b
+name: James Nieland
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/wilkesboro-council-member
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:wilkesboro/government
+  office_id: wilkesboro/council-member
+  party: Write-In
+  ballot_name: James Nieland
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Wilkesboro Town Council -- Jimmy Hayes (Nonpartisan) 184; Andrew (Andy) Soots (Nonpartisan) 180; James Nieland (Write-In) (Write-In) 12. Winners are the top 2 by total votes.'
+  retrieved: '2026-10-25'

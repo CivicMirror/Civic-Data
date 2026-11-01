@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/bcf4361b-03b1-56f4-a4f2-27bc2d7161ce
+name: Cason Gardner
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/concord-council-member-district-4
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:concord/government
+  office_id: concord/council-member
+  party: Nonpartisan
+  ballot_name: Cason Gardner
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Concord City Council, District 4 -- Alvarys Santana (Nonpartisan) 5,298; Jack L. Lambert (Nonpartisan) 3,603; John Paul (Nonpartisan) 3,171; Cason Gardner (Nonpartisan) 449. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

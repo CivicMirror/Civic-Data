@@ -1,0 +1,30 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/00503c40-d8ed-56e3-8f51-996ecd70437c
+name: Lynn Barbee
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/carolina-beach-mayor
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:carolina-beach/government
+  office_id: carolina-beach/mayor
+  party: Nonpartisan
+  ballot_name: Lynn Barbee
+  status: active
+- contest_id: nc/2025-11-04/carolina-beach-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:carolina-beach/government
+  office_id: carolina-beach/mayor
+  party: Nonpartisan
+  ballot_name: Lynn Barbee
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Carolina Beach Mayor -- Lynn Barbee (Nonpartisan) 1,006; Michelle R. Alberda (Nonpartisan) 831; Chad Kirk (Nonpartisan) 134; Tyler McDowell (Nonpartisan) 39. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Carolina Beach Mayor -- Lynn Barbee (Nonpartisan) 1,101; Youssef Hassan (Nonpartisan) 305; Kristen Dunn (Write-In) (Write-In) 16. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

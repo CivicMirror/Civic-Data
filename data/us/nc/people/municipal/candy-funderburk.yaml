@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/a03fb729-f795-52cc-954c-6fae5c853ef9
+name: Candy Funderburk
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lowell-council-member-unexpired
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lowell/government
+  office_id: lowell/council-member
+  party: Nonpartisan
+  ballot_name: Candy Funderburk
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lowell City Council (Unexpired Term) -- Shane Robinson (Nonpartisan) 407; Candy Funderburk (Nonpartisan) 273; Steven Rhyne (Nonpartisan) 28; Mark H. Buchanan (Write-In) (Write-In) 7. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

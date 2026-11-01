@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/c7c5b6d2-536b-5b31-87be-40bfc55e5ba4
+name: Anita Douglas
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/dover-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:dover/government
+  office_id: dover/commissioner
+  party: Nonpartisan
+  ballot_name: Anita Douglas
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Dover Board of Commissioners -- Theodore Bright (Nonpartisan) 122; Gilbert Moore (Nonpartisan) 105; Bobby Pollard (Nonpartisan) 103; Diannia Bright (Nonpartisan) 93; Anita Douglas (Nonpartisan) 83; Danny J. Moore (Nonpartisan) 78; Gerald Baldwin (Nonpartisan) 72; Penny L. Cummings (Nonpartisan) 69; James Gibson, Jr. (Nonpartisan) 69; Wilbert Crouell (Write-In) (Write-In) 25. Winners are the top 5 by total votes.'
+  retrieved: '2026-10-25'

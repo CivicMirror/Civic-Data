@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/6070f6d2-d595-5799-a8fe-3da8ede97419
+name: Jim Gower
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/trent-woods-commissioner
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:trent-woods/government
+  office_id: trent-woods/commissioner
+  party: Nonpartisan
+  ballot_name: Jim Gower
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Trent Woods Board of Commissioners -- Dan Murphy (Nonpartisan) 1,880; Billy Joiner (Nonpartisan) 1,514; Shane Turney (Nonpartisan) 1,495; Stephen Clayton (Nonpartisan) 1,041; Jim Gower (Nonpartisan) 645. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'

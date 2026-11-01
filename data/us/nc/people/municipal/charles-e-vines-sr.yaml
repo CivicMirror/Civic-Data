@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/4b69ee7f-4213-5235-9a50-4351882bbbd3
+name: Charles E. Vines, Sr.
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/bakersville-mayor
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:bakersville/government
+  office_id: bakersville/mayor
+  party: Nonpartisan
+  ballot_name: Charles E. Vines, Sr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Bakersville Mayor -- Charles E. Vines, Sr. (Nonpartisan) 60. Winners are the top 1 by total votes.'
+  retrieved: '2026-10-25'

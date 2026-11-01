@@ -1,0 +1,20 @@
+# Minted from the NC State Board of Elections official
+# election results (municipal pass, Civic-Data issue #172).
+id: ocd-person/f15755ac-259a-5218-b1a7-1fcc4a1572b4
+name: Marshall A. Page, Jr.
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lillington-commissioner
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/place:lillington/government
+  office_id: lillington/commissioner
+  party: Nonpartisan
+  ballot_name: Marshall A. Page, Jr.
+  status: active
+verification:
+  status: unverified
+  pipeline: build_nc_municipal
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Lillington Board of Commissioners -- Neil McPhail (Nonpartisan) 161; Marshall A. Page, Jr. (Nonpartisan) 125; Daniel Babb (Nonpartisan) 121. Winners are the top 3 by total votes.'
+  retrieved: '2026-10-25'
