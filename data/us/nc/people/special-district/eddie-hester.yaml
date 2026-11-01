@@ -1,0 +1,28 @@
+id: ocd-person/a60a79ba-7300-5c2a-a62a-5085d9e964c2
+name: Eddie Hester
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/bladen-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:bladen-soil-and-water-conservation-district/government
+  office_id: bladen-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Eddie Hester
+  status: active
+- contest_id: nc/2024-11-05/bladen-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:bladen-soil-and-water-conservation-district/government
+  office_id: bladen-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Eddie Hester
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BLADEN SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Charles Wendell Gillespie (Nonpartisan) 8,116; Albert Shaw (Write-In) 206; Clifton Kinlaw (Write-In) 20; Dawson Singletary (Write-In) 9; Eddie Hester (Write-In) 6. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BLADEN SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Eddie Hester (Nonpartisan) 10,727. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

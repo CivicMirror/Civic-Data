@@ -1,9 +1,3 @@
-# Manually pulled from CivicPatch's open-data repo (github.com/CivicPatch/open-data,
-# data/nc/local/place_{slug}.yml) -- they have no pipeline into Civic-Data yet, so
-# this is a hand-mapping exercise/test of how their flat officials-list model maps
-# onto this repo's Jurisdiction/Organization/Post/Membership schema. Seat counts and
-# structure below are charter-verified (NC session laws / municipal codes, researched
-# by the repo maintainer, 2026-08-14), not just a snapshot of CivicPatch's roster.
 id: ocd-person/bd5b86f0-d226-43dc-bdca-3b78dd2fd87b
 name: Scott Andree-Bowen
 identifiers:
@@ -16,6 +10,13 @@ candidacies:
   office_id: winston-salem/council-member
   party: Democratic
   ballot_name: Scott Andree-Bowen
+  status: active
+- contest_id: nc/2022-11-08/forsyth-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:forsyth-soil-and-water-conservation-district/government
+  office_id: forsyth-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Scott Andree Bowen
   status: active
 contact:
   email: scottab@cityofws.org
@@ -33,3 +34,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'NC SBE 2024-11-05 results (Election Results series): Winston-Salem Government Town Council, Southwest Ward -- Scott Andree-Bowen (Democratic) 11,626; James Taylor (Write-In) (Write-In) 7; Robert C. Clark (Write-In) (Write-In) 6. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): FORSYTH SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Toby Bost (Nonpartisan) 76,185; Mark D. Apple (Nonpartisan) 75,318; Scott Andree Bowen (Write-In) 67. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

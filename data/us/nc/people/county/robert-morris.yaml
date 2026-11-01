@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/2f4c085d-cd5f-5706-95b9-b4a1ab23abc1
 name: Robert Morris
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Write-In
   ballot_name: Robert Morris (Write-In)
   status: active
+- contest_id: nc/2022-11-08/granville-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:granville-soil-and-water-conservation-district/government
+  office_id: granville-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Robert Morris
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Granville County Board Of Commissioners District 06 -- Tim Karan (REP) 2,265; Robert Morris (Write-In) 236.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GRANVILLE SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Jason West Dixon (Nonpartisan) 12,395; James J. Jones (Nonpartisan) 11,811; Robert Morris (Write-In) 14. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

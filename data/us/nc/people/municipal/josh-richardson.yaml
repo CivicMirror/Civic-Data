@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/7eb60a5f-249c-572c-9668-f346c5d90c12
 name: Josh Richardson
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Josh Richardson
   status: active
+- contest_id: nc/2024-11-05/pitt-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:pitt-soil-and-water-conservation-district/government
+  office_id: pitt-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Josh Richardson
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Ayden Board of Commissioners, Ward 4 -- Josh Richardson (Nonpartisan) 314; Johnny Davis (Nonpartisan) 290; Kimberly Joyner (Nonpartisan) 165. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PITT SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Marian Swinker (Write-In) 7,821; Josh Richardson (Write-In) 1,333; Theresa Holley (Write-In) 465; Calvin Wayne Hardee (Write-In) 129; Troy Dreyfus (Write-In) 84; James Pearce Jr (Write-In) 72; Steve Sutton (Write-In) 57; David Collier (Write-In) 51; PJ Andrews (Write-In) 47; Scott Stanton (Write-In) 38; Tyler Gibson (Write-In) 36; Billy Parker (Write-In) 22; Kevin Faison (Write-In) 18; David C Skinner (Write-In) 9; Desha Lane (Write-In) 9; Clay Hudson (Write-In) 7; Erin Bunch (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

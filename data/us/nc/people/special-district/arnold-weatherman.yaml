@@ -1,0 +1,18 @@
+id: ocd-person/454ac3a9-848a-53e4-9bc7-5e9bfe2b8ddf
+name: Arnold Weatherman
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/davie-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:davie-soil-and-water-conservation-district/government
+  office_id: davie-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Arnold Weatherman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DAVIE SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Justin Miller (Nonpartisan) 14,922; Arnold Weatherman (Nonpartisan) 14,253. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

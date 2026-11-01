@@ -1,5 +1,3 @@
-# Machine-generated from openstates/people's NC legislature bulk data
-# by scripts/build_nc_general_assembly_people.py.
 id: ocd-person/702adc2f-f401-4ab4-ac8e-8fcf1a14376b
 name: Cody Huneycutt
 identifiers: []
@@ -9,6 +7,13 @@ candidacies:
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/sldl:67/legislature
   office_id: nc-house-67/state-representative
   party: Republican
+  ballot_name: Cody Huneycutt
+  status: active
+- contest_id: nc/2022-11-08/stanly-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:stanly-soil-and-water-conservation-district/government
+  office_id: stanly-soil-and-water-conservation-district/supervisor
+  party: Write-In
   ballot_name: Cody Huneycutt
   status: active
 image: https://assets.civicengine.com/uploads/candidate/headshot/797923/797923.jpg
@@ -30,3 +35,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 67 -- Cody Huneycutt (REP) 36,358; Daniel Quick (DEM) 12,099. Cody Huneycutt won with 36,358 votes.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): STANLY SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Curtis R. Furr (Nonpartisan) 13,733; Rebecca Gibson (Nonpartisan) 9,271; Franklin Lee (Nonpartisan) 7,035; Cody Huneycutt (Write-In) 34; Chris Furr (Write-In) 5. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

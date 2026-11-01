@@ -1,0 +1,18 @@
+id: ocd-person/3fde12bd-6af3-560c-99e4-3fd5e12156bc
+name: Matthew Pence
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/iredell-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:iredell-soil-and-water-conservation-district/government
+  office_id: iredell-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Matthew Pence
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): IREDELL SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Matthew Pence (Nonpartisan) 48,226; Dennis T. Leamon (Nonpartisan) 44,216. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

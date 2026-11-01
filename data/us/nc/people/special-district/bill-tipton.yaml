@@ -1,0 +1,18 @@
+id: ocd-person/a430d50f-51ab-51bd-a9ac-8a8fa8f7ce45
+name: Bill Tipton
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/cherokee-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:cherokee-soil-and-water-conservation-district/government
+  office_id: cherokee-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Bill Tipton
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHEROKEE SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Bill Tipton (Nonpartisan) 9,114; Jamie Lance (Nonpartisan) 8,411. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

@@ -1,0 +1,18 @@
+id: ocd-person/f3bfe0af-0f54-5cac-907b-dd4cdf5c7ec8
+name: Thomas Farmer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/vance-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:vance-soil-and-water-conservation-district/government
+  office_id: vance-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Thomas Farmer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): VANCE SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Thomas Farmer (Nonpartisan) 8,334; Ardis Crews (Nonpartisan) 6,424. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

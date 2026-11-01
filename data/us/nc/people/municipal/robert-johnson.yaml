@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/e94577cb-b179-5031-9ad7-2f4409690992
 name: Robert Johnson
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Robert Johnson
   status: active
+- contest_id: nc/2022-11-08/onslow-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:onslow-soil-and-water-conservation-district/government
+  office_id: onslow-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Robert (Mr. Toad) Johnson
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
   note: 'NC SBE 2023-11-07 results (Election Results series): Bessemer City Council, Ward 4 -- Brenda B. Boyd (Nonpartisan) 273; Robert Johnson (Nonpartisan) 197; Tanner Inman (Nonpartisan) 101; John Bridgeman II (Write-In) (Write-In) 1. Winners are the top 1 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ONSLOW SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Robert (Mr. Toad) Johnson (Nonpartisan) 19,353; Emily Walton (Nonpartisan) 15,754; Barbara Justice-Rooks (Nonpartisan) 12,818; Wayne Yates (Nonpartisan) 10,239. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

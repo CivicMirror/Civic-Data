@@ -1,0 +1,28 @@
+id: ocd-person/9139c95d-9915-5c59-85a4-584688bbeb50
+name: Joe Zalescik
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/surry-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:surry-soil-and-water-conservation-district/government
+  office_id: surry-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Joe Zalescik
+  status: active
+- contest_id: nc/2024-11-05/surry-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:surry-soil-and-water-conservation-district/government
+  office_id: surry-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Joe Zalescik
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): SURRY SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Chad Keith Chilton (Nonpartisan) 14,670; Brad Boyd (Nonpartisan) 12,047; Joe Zalescik (Nonpartisan) 5,177. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): SURRY SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- William Lee Dalton, Jr. (Nonpartisan) 18,278; Joe Zalescik (Nonpartisan) 11,447; Lyle Burnette (Write-In) 18; Matt Scott (Write-In) 7; Marilyn Hudson (Write-In) 5; Johnathan Creed (Write-In) 5; Chet Jessup (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

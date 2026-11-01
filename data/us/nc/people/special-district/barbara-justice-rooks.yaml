@@ -1,0 +1,28 @@
+id: ocd-person/a17cdf08-9b93-534b-a78e-5dc999474a93
+name: Barbara Justice-Rooks
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/onslow-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:onslow-soil-and-water-conservation-district/government
+  office_id: onslow-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Barbara Justice-Rooks
+  status: active
+- contest_id: nc/2024-11-05/onslow-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:onslow-soil-and-water-conservation-district/government
+  office_id: onslow-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Barbara Justice-Rooks
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ONSLOW SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Robert (Mr. Toad) Johnson (Nonpartisan) 19,353; Emily Walton (Nonpartisan) 15,754; Barbara Justice-Rooks (Nonpartisan) 12,818; Wayne Yates (Nonpartisan) 10,239. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ONSLOW SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Barbara Justice-Rooks (Nonpartisan) 34,628; S. Jerome Shaw (Nonpartisan) 21,357; Timothy Dupree (Write-In) 11; Gary Kline (Write-In) 9; Matthew Denney (Write-In) 7; James Frederick (Write-In) 6; Richard Cole (Write-In) 5; Scott Gabler (Write-In) 5; Jason Gale (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water
