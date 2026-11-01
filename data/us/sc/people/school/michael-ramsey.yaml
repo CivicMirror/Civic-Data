@@ -1,0 +1,28 @@
+candidacies:
+- ballot_name: Michael Ramsey
+  contest_id: sc/2022-11-08/berkeley-county-school-board-district-1
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:berkeley-county/school
+  office_id: berkeley-county/school-board-district-1
+  party: Nonpartisan
+  status: active
+- ballot_name: Michael Ramsey
+  contest_id: sc/2024-11-05/berkeley-county-school-board-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:berkeley-county/school
+  office_id: berkeley-county/school-board-district-1
+  party: Nonpartisan
+  status: active
+id: ocd-person/b6093197-6f5b-5973-9698-6e05609ca7b2
+identifiers: []
+name: Michael Ramsey
+sources:
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Berkeley County School District 1 contest (ElectionStats contest 7443), contest totals: Michael Ramsey 4,512; Lee Westberry 2,901.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/7443
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Berkeley County School District 1 contest (ElectionStats contest 2520), contest totals: Michael Ramsey 2,653; Lee Westberry 2,262.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/2520
+verification:
+  pipeline: build_sc_schools
+  status: unverified

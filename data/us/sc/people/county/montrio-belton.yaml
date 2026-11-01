@@ -6,6 +6,13 @@ candidacies:
   office_id: york/county-council-district-7
   party: null
   status: active
+- ballot_name: Montrio Belton
+  contest_id: sc/2024-11-05/rock-hill-school-board-district-1
+  election_id: sc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:rock-hill/school
+  office_id: rock-hill/school-board-district-1
+  party: Nonpartisan
+  status: active
 id: ocd-person/e1485d76-b919-57d6-b6ed-1ed8e86a84ae
 identifiers: []
 name: Montrio Belton
@@ -13,6 +20,9 @@ sources:
 - note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 6, 2018 general election, York County County Council District 7 contest (ElectionStats contest 4803), county rows aggregated: Joel Hamilton 5,623; Montrio Belton 4,872. The 2018 export reports no party for any candidate.'
   retrieved: '2026-10-28'
   url: https://electionhistory.scvotes.gov/contest/4803
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 5, 2024 general election, Rock Hill School District Seat 1 contest (ElectionStats contest 7684), contest totals: Montrio Belton 3,073; Matt Hiers 2,051.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/7684
 verification:
   pipeline: build_sc_county
   status: unverified

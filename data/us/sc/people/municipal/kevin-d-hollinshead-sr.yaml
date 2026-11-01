@@ -13,6 +13,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: 'Kevin D Hollinshead SR'
   status: active
+- contest_id: sc/2022-11-08/charleston-county-school-board-district-4
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:charleston-county/school
+  office_id: charleston-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: 'Kevin D Hollinshead SR'
+  status: active
 verification:
   status: unverified
   pipeline: build_sc_municipal
@@ -20,3 +27,6 @@ sources:
 - url: https://electionhistory.scvotes.gov/contest/102
   note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 7, 2023 general election, City of North Charleston City Council contest (ElectionStats contest 102), county-division rows aggregated (Charleston County): Michael A Brown 731; Aaron Hicks 567; Kevin D Hollinshead SR 222; Rebecca Rushton 123.'
   retrieved: '2026-10-26'
+- url: https://electionhistory.scvotes.gov/contest/2548
+  note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Charleston County School District 4 contest (ElectionStats contest 2548), contest totals: Courtney Waters 3,641; Kevin D Hollinshead SR 2,035.'
+  retrieved: '2026-10-30'

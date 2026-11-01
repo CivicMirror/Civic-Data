@@ -6,6 +6,13 @@ candidacies:
   office_id: charleston/county-council-district-6
   party: Libertarian
   status: active
+- ballot_name: Melissa Couture
+  contest_id: sc/2022-11-08/charleston-county-school-board-district-5
+  election_id: sc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:sc/school_district:charleston-county/school
+  office_id: charleston-county/school-board-district-5
+  party: Nonpartisan
+  status: active
 id: ocd-person/1357cc58-378d-5e72-981d-ec45311e303f
 identifiers: []
 name: Melissa Couture
@@ -13,6 +20,9 @@ sources:
 - note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 3, 2020 general election, Charleston County County Council District 6 contest (ElectionStats contest 3437), county rows aggregated: Kylon Jerome Middleton (Democratic) 13,554; Darryl Ray Griffin (Republican) 10,968; Melissa Couture (Libertarian) 1,367.'
   retrieved: '2026-10-28'
   url: https://electionhistory.scvotes.gov/contest/3437
+- note: 'South Carolina State Election Commission, Election History (ElectionStats) results for the November 8, 2022 general election, Charleston County School District 5 contest (ElectionStats contest 3066), contest totals: Carlotte M Bailey 1,776; ViVian Sheppard Pettigrew 1,769; Melissa Couture 1,160.'
+  retrieved: '2026-10-30'
+  url: https://electionhistory.scvotes.gov/contest/3066
 verification:
   pipeline: build_sc_county
   status: unverified
