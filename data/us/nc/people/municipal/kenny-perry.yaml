@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/8a166e06-5fa9-5909-9020-e29a2b4011ef
 name: Kenny Perry
 identifiers: []
@@ -25,6 +23,20 @@ candidacies:
   party: Write-In
   ballot_name: Kenny Perry
   status: active
+- contest_id: nc/2024-11-05/bertie-county-school-board-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:bertie-county/school
+  office_id: bertie-county/school-board-district-5
+  party: Write-In
+  ballot_name: Kenny Perry
+  status: active
+- contest_id: nc/2024-11-05/bertie-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:bertie-soil-and-water-conservation-district/government
+  office_id: bertie-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Kenny Perry
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -38,3 +50,11 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Colerain Board of Commissioners -- Greg White (Nonpartisan) 24; Will Fairless (Nonpartisan) 24; Kenny Perry (Write-In) (Write-In) 9; Lynn Askew (Write-In) (Write-In) 4; Herbert Copeland (Write-In) (Write-In) 3; Joe Van Morris (Write-In) (Write-In) 1. Winners are the top 3 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BERTIE COUNTY BOARD OF EDUCATION DISTRICT 05 -- Tarsha Bush Dudley (Nonpartisan) 6,376; No Name (Write-In) 19; Casey Owens (Write-In) 4; Carol Atkins (Write-In) 2; Kendrick Lamar (Write-In) 1; Richard Stevenplate (Write-In) 1; Amy Williford (Write-In) 1; Abby Mizelle (Write-In) 1; Beverly Baker (Write-In) 1; Johnnie Rascoe, Jr (Write-In) 1; Kanye West (Write-In) 1; Jennifer Payne (Write-In) 1; Jackie Simmons (Write-In) 1; Matthew Bond (Write-In) 1; Shawn Burnett (Write-In) 1; Hannon Cobb (Write-In) 1; Linda Stewart (Write-In) 1; Snoopy (Write-In) 1; Daffy Duck (Write-In) 1; Heather W. Turner (Write-In) 1; Mickey Mouse (Write-In) 1; Eugene Hodges (Write-In) 1; Michael Dail (Write-In) 1; Theresa Erskine (Write-In) 1; Elizabeth Johnson (Write-In) 1; Jodey Sary (Write-In) 1; Teresa Erskine (Write-In) 1; Carolyn Johnson (Write-In) 1; Josh Schizelt (Write-In) 1; Joe Walsh (Write-In) 1; Regina Harmon (Write-In) 1; Bobby Oceana (Write-In)
+    1; Kenny Perry (Write-In) 1; Michelle Wells (Write-In) 1; Kim White (Write-In) 1; Mike Neal (Write-In) 1; Thomas Askew (Write-In) 1; Cynthia Perry (Write-In) 1; Linda Harrell (Write-In) 1; Gail Wilson (Write-In) 1; William Jeanette (Write-In) 1; Bruce Boller (Write-In) 1; Viola Bond (Write-In) 1; Tereka Capehart (Write-In) 1; Crystal Jones (Write-In) 1. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BERTIE SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- John M. Griffin (Nonpartisan) 6,282; No Name (Write-In) 16; Brandon Powell (Write-In) 3; Randy Walston (Write-In) 2; Gavin Hawkins (Write-In) 1; Shawn Burnett (Write-In) 1; Crystal Jones (Write-In) 1; Noah Stewart (Write-In) 1; David Baker (Write-In) 1; Hannon Cobb (Write-In) 1; Kendrick Lamar (Write-In) 1; Kanye West (Write-In) 1; Stewart White (Write-In) 1; Jack Powell (Write-In) 1; Shelby Castelloe (Write-In) 1; Eugene Hodges (Write-In) 1; Anthony Rascoe (Write-In) 1; Brian Nelms (Write-In) 1; Corneilius Whitehurst, Jr (Write-In) 1; Donald Harden (Write-In) 1; Bobby Harrell (Write-In) 1; Carl Bond (Write-In) 1; Cornelius Whitehurst (Write-In) 1; Joe Walsh (Write-In) 1; Keshia Spivey (Write-In) 1; Maurice Williams (Write-In) 1; Jackie Simmons (Write-In) 1; John Harrell (Write-In) 1; Peppermint Patty (Write-In) 1; Matthew Scott (Write-In) 1; Kenny Perry (Write-In) 1; Brian
+    Padgett (Write-In) 1; Linda Stewart (Write-In) 1; Pate Pierce (Write-In) 1. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

@@ -1,0 +1,18 @@
+id: ocd-person/a2884358-3abd-556a-862c-d63243a06dd7
+name: Beth Burns
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/pender-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pender-county/school
+  office_id: pender-county/school-board-district-2
+  party: Republican
+  ballot_name: Beth Burns
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PENDER COUNTY BOARD OF EDUCATION DISTRICT 02 -- Beth Burns (Republican) 17,075. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

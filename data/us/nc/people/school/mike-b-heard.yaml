@@ -1,0 +1,18 @@
+id: ocd-person/4233e161-feb5-5229-bd12-3c9a5c4a4c16
+name: Mike B. Heard
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/hickory-school-board-ward-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:hickory/school
+  office_id: hickory/school-board-ward-4
+  party: Democratic
+  ballot_name: Mike B. Heard
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HICKORY PUBLIC SCHOOLS BOARD OF EDUCATION WARD 04 -- Mike B. Heard (Democratic) 1,518. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

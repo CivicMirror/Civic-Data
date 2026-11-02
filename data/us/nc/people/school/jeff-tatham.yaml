@@ -1,0 +1,18 @@
+id: ocd-person/d69505a3-f844-5c5e-a8d5-f6ab51c71cf7
+name: Jeff Tatham
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/cherokee-county-school-board-district-i
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cherokee-county/school
+  office_id: cherokee-county/school-board-district-i
+  party: Republican
+  ballot_name: Jeff Tatham
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CHEROKEE COUNTY BOARD OF EDUCATION DISTRICT I -- James Ellis (Republican) 12,903; Jeff Tatham (Republican) 12,597. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

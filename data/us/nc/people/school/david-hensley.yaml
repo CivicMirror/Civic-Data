@@ -1,0 +1,18 @@
+id: ocd-person/40e05a72-d211-5034-b22f-08687d78e5a1
+name: David Hensley
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/moore-county-school-board-district-iv
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:moore-county/school
+  office_id: moore-county/school-board-district-iv
+  party: Nonpartisan
+  ballot_name: David Hensley
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MOORE COUNTY BOARD OF EDUCATION DISTRICT IV -- David Hensley (Nonpartisan) 27,630; Ellie Collins (Nonpartisan) 25,576. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

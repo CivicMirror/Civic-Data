@@ -1,0 +1,18 @@
+id: ocd-person/f85ee50f-9255-59e9-80d8-8f171054e7d8
+name: Henry Ford
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/roanoke-rapids-graded-school-board-at-large
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:roanoke-rapids-graded/school
+  office_id: roanoke-rapids-graded/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Henry Ford
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): ROANOKE RAPIDS GRADED SCHOOL BOARD OF EDUCATION -- Michael (Mike) Salanik (Nonpartisan) 826; Henry Ford (Nonpartisan) 774; Valencia W. Davis (Nonpartisan) 692; Carlton Ansley (Nonpartisan) 404; David Pericak (Nonpartisan) 281. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

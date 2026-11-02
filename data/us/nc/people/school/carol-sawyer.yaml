@@ -1,0 +1,18 @@
+id: ocd-person/6dfea397-6655-5f28-af61-08b4a15ea597
+name: Carol Sawyer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/charlotte-mecklenburg-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Carol Sawyer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHARLOTTE-MECKLENBURG SCHOOLS BOARD OF EDUCATION DISTRICT 04 -- Stephanie Sneed (Nonpartisan) 19,116; Carol Sawyer (Nonpartisan) 16,004; Clara Kennedy Witherspoon (Nonpartisan) 8,066. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

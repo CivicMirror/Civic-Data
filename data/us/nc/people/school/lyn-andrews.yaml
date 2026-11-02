@@ -1,0 +1,18 @@
+id: ocd-person/5b087133-074f-5259-af0f-74b78fe76e86
+name: Lyn Andrews
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/johnston-county-school-board-district-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:johnston-county/school
+  office_id: johnston-county/school-board-district-6
+  party: Nonpartisan
+  ballot_name: Lyn Andrews
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JOHNSTON COUNTY BOARD OF EDUCATION DISTRICT 06 -- Lyn Andrews (Nonpartisan) 53,427; Rick Walker (Nonpartisan) 44,676. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

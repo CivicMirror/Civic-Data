@@ -1,0 +1,18 @@
+id: ocd-person/b33c8163-0a92-5abf-a267-8dbf566ed70e
+name: Rob Elliot
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/buncombe-county-school-board-reynolds
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:buncombe-county/school
+  office_id: buncombe-county/school-board-reynolds
+  party: Nonpartisan
+  ballot_name: Rob Elliot
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BUNCOMBE COUNTY SCHOOLS BOARD OF EDUCATION REYNOLDS -- Rob Elliot (Nonpartisan) 38,702; Sara Disher Ratliff (Nonpartisan) 35,942. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

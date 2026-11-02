@@ -1,0 +1,18 @@
+id: ocd-person/bb57979e-0b76-5aaa-bd3e-83200d924840
+name: Tim Hayes
+identifiers: []
+candidacies:
+- contest_id: nc/2021-11-02/newton-conover-school-board-newton
+  election_id: nc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:newton-conover/school
+  office_id: newton-conover/school-board-newton
+  party: Nonpartisan
+  ballot_name: Tim Hayes
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2021_11_02/results_pct_20211102.zip
+  note: 'NC SBE 2021-11-02 results (Election Results series): NEWTON-CONOVER SCHOOLS BOARD OF EDUCATION NEWTON DISTRICT -- Tim Hayes (Nonpartisan) 460; Phil Heath (Nonpartisan) 337; Polly Pearson (Nonpartisan) 315; Greg Cranford (Nonpartisan) 309. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

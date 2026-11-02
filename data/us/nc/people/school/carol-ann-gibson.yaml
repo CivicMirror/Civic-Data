@@ -1,0 +1,18 @@
+id: ocd-person/97d264ef-9514-5e6b-ac4e-1ee9d0ae655b
+name: Carol Ann Gibson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/anson-county-school-board-district-7
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:anson-county/school
+  office_id: anson-county/school-board-district-7
+  party: Democratic
+  ballot_name: Carol Ann Gibson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ANSON COUNTY BOARD OF EDUCATION DISTRICT 07 -- Carol Ann Gibson (Democratic) 879; Tabatha Horne (Unaffiliated) 336. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

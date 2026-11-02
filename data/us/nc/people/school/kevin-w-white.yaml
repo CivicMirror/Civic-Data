@@ -1,0 +1,18 @@
+id: ocd-person/20d80c29-9c60-5e19-bd51-41e8b9ba8a4c
+name: Kevin W. White
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/carteret-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:carteret-county/school
+  office_id: carteret-county/school-board-district-4
+  party: Republican
+  ballot_name: Kevin W. White
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CARTERET COUNTY BOARD OF EDUCATION DISTRICT 04 -- Kevin W. White (Republican) 33,769. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

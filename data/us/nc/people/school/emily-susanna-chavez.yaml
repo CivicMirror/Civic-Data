@@ -1,0 +1,18 @@
+id: ocd-person/c0987fe1-4156-5790-bbdd-55a27f168ee8
+name: Emily Susanna Chavez
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/durham-county-school-board-district-1
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:durham-county/school
+  office_id: durham-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Emily Susanna Chavez
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): DURHAM COUNTY BOARD OF EDUCATION DISTRICT 01 -- Emily Susanna Chavez (Nonpartisan) 4,796; Jasper Fleming (Nonpartisan) 3,090; Curtis Hrischuk (Nonpartisan) 806. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

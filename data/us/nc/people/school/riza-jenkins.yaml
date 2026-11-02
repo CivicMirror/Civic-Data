@@ -1,0 +1,18 @@
+id: ocd-person/dc977cb9-7fb2-5af1-95ad-6a1a5cee2ab2
+name: Riza Jenkins
+identifiers: []
+candidacies:
+- contest_id: nc/2025-11-04/chapel-hill-carrboro-city-school-board-at-large
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:chapel-hill-carrboro-city/school
+  office_id: chapel-hill-carrboro-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Riza Jenkins
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): CHAPEL HILL-CARRBORO CITY SCHOOLS BOARD OF EDUCATION -- Melinda Manning (Nonpartisan) 9,198; Riza Jenkins (Nonpartisan) 8,958; George Griffin (Nonpartisan) 8,784. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

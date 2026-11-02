@@ -1,0 +1,28 @@
+id: ocd-person/4af143f8-ed81-54fb-8835-76a7a725eed4
+name: Millicent Rogers
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/durham-county-school-board-consolidated-district-b
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:durham-county/school
+  office_id: durham-county/school-board-consolidated-district-b
+  party: Nonpartisan
+  ballot_name: Millicent Rogers
+  status: active
+- contest_id: nc/2024-03-05/durham-county-school-board-consolidated-district-b
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:durham-county/school
+  office_id: durham-county/school-board-consolidated-district-b
+  party: Nonpartisan
+  ballot_name: Millicent Rogers
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): DURHAM CO BD OF EDUCATION CONSOLIDATED DIST B (UNEXPIRED) -- Millicent Rogers (Nonpartisan) 17,572; Frederick Xavier Ravin III (Nonpartisan) 9,097; Joetta MacMiller (Nonpartisan) 5,218; Myca Jeter (Write-In) 8. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): DURHAM COUNTY BOARD OF EDUCATION CONSOLIDATED DISTRICT B -- Millicent Rogers (Nonpartisan) 27,763. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

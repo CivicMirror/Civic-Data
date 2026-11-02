@@ -1,0 +1,18 @@
+id: ocd-person/363b1980-6e57-5964-a7ae-8829763d47f7
+name: Claudia Hawkins
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/transylvania-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:transylvania-county/school
+  office_id: transylvania-county/school-board-at-large
+  party: Democratic
+  ballot_name: Claudia Hawkins
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): TRANSYLVANIA COUNTY BOARD OF EDUCATION -- Ricky R. Lambert (Republican) 10,543; Ruth Harris (Republican) 10,276; Greg Cochran (Republican) 10,214; Claudia Hawkins (Democratic) 8,801; Sara Green (Unaffiliated) 8,452; David Borman (Democratic) 8,186. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

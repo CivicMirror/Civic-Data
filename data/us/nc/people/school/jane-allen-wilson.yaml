@@ -1,0 +1,18 @@
+id: ocd-person/5c2be0ee-7cd8-503b-b4f6-974d1148fa14
+name: Jane Allen Wilson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/chatham-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:chatham-county/school
+  office_id: chatham-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Jane Allen Wilson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHATHAM COUNTY BOARD OF EDUCATION DISTRICT 04 -- Jane Allen Wilson (Nonpartisan) 24,565. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

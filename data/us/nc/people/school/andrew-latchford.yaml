@@ -1,0 +1,28 @@
+id: ocd-person/b34f2ebd-dec1-5c83-bff1-738cc29c0f41
+name: Andrew Latchford
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/alexander-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alexander-county/school
+  office_id: alexander-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Andrew Latchford
+  status: active
+- contest_id: nc/2024-11-05/alexander-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alexander-county/school
+  office_id: alexander-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Andrew Latchford
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ALEXANDER COUNTY BOARD OF EDUCATION DISTRICT 01 -- Robert (Rob) Arguelles (Nonpartisan) 1,665; Kevin Weikle, Jr. (Nonpartisan) 1,503; Andrew Latchford (Nonpartisan) 1,282. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ALEXANDER COUNTY BOARD OF EDUCATION DISTRICT 01 -- Jesse Bowles (Nonpartisan) 3,609; Kevin Weikle, Jr. (Nonpartisan) 1,538; Andrew Latchford (Nonpartisan) 685. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

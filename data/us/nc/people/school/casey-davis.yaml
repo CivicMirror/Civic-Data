@@ -1,0 +1,18 @@
+id: ocd-person/04cc1655-5b7b-5786-8f97-d9b4ff4bfd7c
+name: Casey Davis
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/swain-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:swain-county/school
+  office_id: swain-county/school-board-at-large
+  party: Republican
+  ballot_name: Casey Davis
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): SWAIN COUNTY BOARD OF EDUCATION -- Cody White (Republican) 3,537; Mitchell Carson (Republican) 3,457; Casey Davis (Republican) 3,315. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

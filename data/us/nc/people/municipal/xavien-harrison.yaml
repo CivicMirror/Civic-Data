@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/90f019a1-d27f-527e-82af-cc634e00d75f
 name: Xavien Harrison
 identifiers: []
@@ -11,6 +9,20 @@ candidacies:
   party: Nonpartisan
   ballot_name: Xavien Harrison
   status: active
+- contest_id: nc/2022-11-08/nash-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Xavien Harrison
+  status: active
+- contest_id: nc/2022-11-08/nash-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:nash-soil-and-water-conservation-district/government
+  office_id: nash-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Xavien Harrison
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +30,9 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
   note: 'NC SBE 2023-11-07 results (Election Results series): Nashville Town Council -- Xavien Harrison (Nonpartisan) 472; Bill Lumpp (Nonpartisan) 412; Mary Grace Daughtridge (Nonpartisan) 389; Louise W. Hinton (Nonpartisan) 272. Winners are the top 2 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NASH COUNTY PUBLIC SCHOOLS BOARD OF EDUCATION DIST 04 -- Chris Bissette (Nonpartisan) 2,178; Xavien Harrison (Nonpartisan) 949; Betty Nixon Jones (Nonpartisan) 492. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NASH SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Bobby Joe Fisher (Nonpartisan) 20,932; Shawn D. Lucas (Nonpartisan) 19,378; Xavien Harrison (Write-In) 38; Chris Bissette (Write-In) 21; Betty Nixon Jones (Write-In) 19; Zack Gray (Write-In) 15; David Worsley (Write-In) 12; LaShawnda Washington (Write-In) 12; Thomas Ray Green (Write-In) 9; Turner Votipika (Write-In) 7; Rick Neal (Write-In) 7. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

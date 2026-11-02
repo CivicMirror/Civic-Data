@@ -1,0 +1,18 @@
+id: ocd-person/44eae5a2-1458-5258-9b54-7c7f07409f7c
+name: Linda Wolfe
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lincoln-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lincoln-county/school
+  office_id: lincoln-county/school-board-district-2
+  party: Democratic
+  ballot_name: Linda Wolfe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LINCOLN COUNTY BOARD OF EDUCATION DISTRICT 02 -- Fred Jarrett (Republican) 26,224; Linda Wolfe (Democratic) 9,727. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/ebeac9ce-6882-5508-9205-168299542f8e
+name: Ben Cooke
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/mount-airy-city-school-board-district-b
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mount-airy-city/school
+  office_id: mount-airy-city/school-board-district-b
+  party: Republican
+  ballot_name: Ben Cooke
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MOUNT AIRY CITY SCHOOLS BOARD OF EDUCATION DISTRICT B -- Ben Cooke (Republican) 2,975. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

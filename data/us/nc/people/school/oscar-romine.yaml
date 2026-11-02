@@ -1,0 +1,18 @@
+id: ocd-person/d9859032-3058-53d3-b763-9327e50c7fe2
+name: Oscar Romine
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/moore-county-school-board-district-i
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:moore-county/school
+  office_id: moore-county/school-board-district-i
+  party: Nonpartisan
+  ballot_name: Oscar Romine
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MOORE COUNTY BOARD OF EDUCATION DISTRICT I -- Amy Dahl (Nonpartisan) 29,607; Oscar Romine (Nonpartisan) 23,025. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

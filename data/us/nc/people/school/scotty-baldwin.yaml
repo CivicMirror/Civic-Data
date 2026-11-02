@@ -1,0 +1,18 @@
+id: ocd-person/91022c61-3ef6-5ece-9b89-34a3f6dcba11
+name: Scotty Baldwin
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/richmond-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:richmond-county/school
+  office_id: richmond-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Scotty Baldwin
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): RICHMOND COUNTY BOARD OF EDUCATION -- Bobbie Sue Ormsby (Nonpartisan) 2,965; Cory Satterfield (Nonpartisan) 2,901; Daryl Mason (Nonpartisan) 2,755; Scotty Baldwin (Nonpartisan) 2,672; Bess York Shuler (Nonpartisan) 2,608; Joe Richardson (Nonpartisan) 2,437; Jeremy McKenzie (Nonpartisan) 1,835; Eddie Rainwater (Nonpartisan) 867; Kelly Wheeler (Write-In) 13. Winners are the top 4 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

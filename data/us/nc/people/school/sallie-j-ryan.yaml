@@ -1,0 +1,18 @@
+id: ocd-person/054937ee-f686-5863-bcda-1d709c007b2e
+name: Sallie J. Ryan
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/gates-county-school-board-district-1
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gates-county/school
+  office_id: gates-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Sallie J. Ryan
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): GATES COUNTY BOARD OF EDUCATION DISTRICT 01 -- Sallie J. Ryan (Nonpartisan) 1,272; Charlie Scott (Nonpartisan) 369. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

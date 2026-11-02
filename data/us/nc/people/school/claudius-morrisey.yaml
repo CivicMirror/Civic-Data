@@ -1,0 +1,18 @@
+id: ocd-person/9fc64250-2166-5717-af01-2da33c2e9198
+name: Claudius Morrisey
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/duplin-county-school-board-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:duplin-county/school
+  office_id: duplin-county/school-board-district-5
+  party: Democratic
+  ballot_name: Claudius Morrisey
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DUPLIN COUNTY BOARD OF EDUCATION DISTRICT 05 -- Claudius Morrisey (Democratic) 2,664. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/fdea09b0-0a99-5f47-8a03-5615a5e2e62f
+name: Leslie Byrum
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/gates-county-school-board-district-5
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:gates-county/school
+  office_id: gates-county/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Leslie Byrum
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): GATES COUNTY BOARD OF EDUCATION DISTRICT 05 -- Leslie Byrum (Nonpartisan) 1,329; Phil A. Kiver (Nonpartisan) 314. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

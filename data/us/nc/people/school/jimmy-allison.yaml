@@ -1,0 +1,18 @@
+id: ocd-person/dcb23b0a-675a-5872-ae98-f0def0c0118f
+name: Jimmy Allison
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mcdowell-county-school-board-north-cove
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mcdowell-county/school
+  office_id: mcdowell-county/school-board-north-cove
+  party: Republican
+  ballot_name: Jimmy Allison
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MCDOWELL COUNTY BOARD OF EDUCATION NORTH COVE DISTRICT -- Jimmy Allison (Republican) 16,129; Terry English (Democratic) 6,713. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,28 @@
+id: ocd-person/49496f84-3d94-5bf0-b541-ed2089e3c94b
+name: Chad Cole
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/watauga-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:watauga-county/school
+  office_id: watauga-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Chad Cole
+  status: active
+- contest_id: nc/2024-11-05/watauga-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:watauga-county/school
+  office_id: watauga-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Chad Cole
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WATAUGA COUNTY BOARD OF EDUCATION -- Gary L. Childers (Nonpartisan) 12,327; Jay Fenwick (Nonpartisan) 9,725; Marshall Ashcraft (Nonpartisan) 9,170; Chad Cole (Nonpartisan) 8,261; Jennie Hanifan (Nonpartisan) 7,724; Dustin Cole Kerley (Nonpartisan) 7,206. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): WATAUGA COUNTY BOARD OF EDUCATION -- Alison Carroll Idol (Nonpartisan) 12,606; Charlotte Mizelle Lloyd (Nonpartisan) 12,372; Adam Hege (Nonpartisan) 12,067; Marshall Ashcraft (Nonpartisan) 11,915; Chad Cole (Nonpartisan) 11,583; Tom Ross (Nonpartisan) 6,994. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

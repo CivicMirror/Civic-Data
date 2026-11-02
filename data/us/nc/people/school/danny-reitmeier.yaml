@@ -1,0 +1,28 @@
+id: ocd-person/31c39b31-c5da-519e-ae68-e59d5ebad1f0
+name: Danny Reitmeier
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/macon-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:macon-county/school
+  office_id: macon-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Danny Reitmeier
+  status: active
+- contest_id: nc/2024-11-05/macon-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:macon-county/school
+  office_id: macon-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Danny Reitmeier
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MACON COUNTY BOARD OF EDUCATION DISTRICT 02 -- Stephanie Hyder Laseter (Nonpartisan) 4,055; Danny Reitmeier (Nonpartisan) 3,868; Billy Handley (Nonpartisan) 3,219; Tommy Cabe (Nonpartisan) 1,860. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MACON COUNTY BOARD OF EDUCATION DISTRICT 04 -- Jim Breedlove (Nonpartisan) 7,825; Danny Reitmeier (Nonpartisan) 5,971; John DeVille (Nonpartisan) 3,828. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

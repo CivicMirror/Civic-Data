@@ -1,0 +1,18 @@
+id: ocd-person/fa8ecbf7-863c-5c98-a551-286619b92668
+name: Dwan Gibbs Craft
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/currituck-county-school-board-moyock
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:currituck-county/school
+  office_id: currituck-county/school-board-moyock
+  party: Nonpartisan
+  ballot_name: Dwan Gibbs Craft
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CURRITUCK COUNTY BOARD OF EDUCATION MOYOCK TWP -- Sandi Ayres (Nonpartisan) 7,021; Dwan Gibbs Craft (Nonpartisan) 4,559; Zedric McKennon (Nonpartisan) 1,842. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/d86faeac-3f77-5c5a-8fa3-cce8e52c6276
+name: Deena Hayes-Greene
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/guilford-county-school-board-district-8
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:guilford-county/school
+  office_id: guilford-county/school-board-district-8
+  party: Democratic
+  ballot_name: Deena Hayes-Greene
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GUILFORD COUNTY BOARD OF EDUCATION DISTRICT 08 -- Deena Hayes-Greene (Democratic) 11,586. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

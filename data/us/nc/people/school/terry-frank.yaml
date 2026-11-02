@@ -1,0 +1,18 @@
+id: ocd-person/a5b4536c-24b2-597b-b163-3dd8bd69a1e6
+name: Terry Frank
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/mcdowell-county-school-board-glenwood
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mcdowell-county/school
+  office_id: mcdowell-county/school-board-glenwood
+  party: Nonpartisan
+  ballot_name: Terry Frank
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MCDOWELL COUNTY BOARD OF EDUCATION GLENWOOD DISTRICT -- Terry Frank (Nonpartisan) 6,047; Lisa Morgan (Nonpartisan) 4,432; Michelle Price (Nonpartisan) 3,280. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

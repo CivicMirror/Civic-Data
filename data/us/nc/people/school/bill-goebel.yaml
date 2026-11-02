@@ -1,0 +1,18 @@
+id: ocd-person/f5a0f994-e68c-551f-9cb5-ebb17839848a
+name: Bill Goebel
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/guilford-county-school-board-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:guilford-county/school
+  office_id: guilford-county/school-board-district-3
+  party: Unaffiliated
+  ballot_name: Bill Goebel
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): GUILFORD COUNTY BOARD OF EDUCATION DISTRICT 03 -- David Coates (Democratic) 19,341; Michael Logan (Republican) 18,554; Bill Goebel (Unaffiliated) 4,850. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

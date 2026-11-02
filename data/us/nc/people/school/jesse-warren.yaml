@@ -1,0 +1,18 @@
+id: ocd-person/49f9536b-d1ff-5ab6-a576-82e6cc09ffe0
+name: Jesse Warren
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/asheville-city-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:asheville-city/school
+  office_id: asheville-city/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Jesse Warren
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ASHEVILLE CITY SCHOOLS BOARD OF EDUCATION -- Pepi Acebo (Nonpartisan) 14,796; Jesse Warren (Nonpartisan) 14,057; George Sieburg (Nonpartisan) 13,231; William Young (Nonpartisan) 11,208; Daniel Shetley (Write-In) 107. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

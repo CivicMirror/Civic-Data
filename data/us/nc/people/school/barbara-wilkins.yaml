@@ -1,0 +1,28 @@
+id: ocd-person/2a9c01dd-43d7-50e3-aff1-9aecee43fcb3
+name: Barbara Wilkins
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/halifax-county-school-board-at-large
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:halifax-county/school
+  office_id: halifax-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Barbara Wilkins
+  status: active
+- contest_id: nc/2024-03-05/halifax-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:halifax-county/school
+  office_id: halifax-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Barbara Wilkins
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): HALIFAX COUNTY SCHOOLS BOARD OF EDUCATION -- Claude (Clutch) Cooper (Nonpartisan) 2,679; Michael Hawkins, Sr. (Nonpartisan) 2,474; Joyce Silver Lashley (Nonpartisan) 1,939; Rodney D. Pierce (Nonpartisan) 1,904; Barbara Wilkins (Nonpartisan) 1,830; Janaire Robinson (Nonpartisan) 1,254; Warren Keith Bell (Nonpartisan) 936. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): HALIFAX COUNTY SCHOOLS BOARD OF EDUCATION -- Terri Silver (Nonpartisan) 2,364; Barbara Wilkins (Nonpartisan) 2,327; Carolyn W. Hawkins (Nonpartisan) 2,273; Charles R. Hedgepeth (Nonpartisan) 2,124; Tyus S. Few (Nonpartisan) 2,041; James E. Mills (Nonpartisan) 1,841; Curtis W. Young (Nonpartisan) 1,454; Hieley J. Richardson (Nonpartisan) 789. Winners are the top 4 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

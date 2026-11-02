@@ -1,0 +1,18 @@
+id: ocd-person/e85d3ddd-c011-5390-8d38-42c899c71bae
+name: Mike Williams
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/wake-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Mike Williams
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 04 -- Toshiba Rice (Nonpartisan) 31,965; Mike Williams (Nonpartisan) 9,139; Robert Morales Vergara (Nonpartisan) 4,890; Sean Callan (Nonpartisan) 2,737. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

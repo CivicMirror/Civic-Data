@@ -1,0 +1,18 @@
+id: ocd-person/c0ad54cb-a1dd-52b7-b4f8-bf0b34ff496d
+name: Robert (Rob) Arguelles
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/alexander-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:alexander-county/school
+  office_id: alexander-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Robert (Rob) Arguelles
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ALEXANDER COUNTY BOARD OF EDUCATION DISTRICT 01 -- Robert (Rob) Arguelles (Nonpartisan) 1,665; Kevin Weikle, Jr. (Nonpartisan) 1,503; Andrew Latchford (Nonpartisan) 1,282. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

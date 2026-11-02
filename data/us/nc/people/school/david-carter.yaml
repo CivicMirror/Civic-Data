@@ -1,0 +1,18 @@
+id: ocd-person/60a455d6-b834-5555-9357-ce8a5d851ef6
+name: David Carter
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/randolph-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:randolph-county/school
+  office_id: randolph-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: David Carter
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): RANDOLPH COUNTY SCHOOLS BOARD OF EDUCATION -- Shannon Craven Whitaker (Nonpartisan) 24,219; Phillip Lanier (Nonpartisan) 21,975; Fred Burgess (Nonpartisan) 20,226; David Carter (Nonpartisan) 19,066; Kurt Melvin (Nonpartisan) 5,679; Brian Biggs (Write-In) 17; Phillip Lanier (Write-In) 12; David Carter (Write-In) 11; Fred Burgess (Write-In) 8; Shannon Whitaker (Write-In) 5; Gary Cook (Write-In) 4. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

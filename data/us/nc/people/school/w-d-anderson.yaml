@@ -1,0 +1,18 @@
+id: ocd-person/89dfc773-f228-5ba5-b838-c0d7e1f15991
+name: W.D. Anderson
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lenoir-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lenoir-county/school
+  office_id: lenoir-county/school-board-district-5
+  party: Democratic
+  ballot_name: W.D. Anderson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LENOIR COUNTY BOARD OF EDUCATION DISTRICT 05 -- W.D. Anderson (Democratic) 2,038; Jonathan Britt (Republican) 1,263. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

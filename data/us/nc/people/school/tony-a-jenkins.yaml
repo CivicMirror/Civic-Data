@@ -1,0 +1,18 @@
+id: ocd-person/ef754b98-789a-518b-ae41-94a577d5f439
+name: Tony A. Jenkins
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lincoln-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lincoln-county/school
+  office_id: lincoln-county/school-board-at-large
+  party: Republican
+  ballot_name: Tony A. Jenkins
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LINCOLN COUNTY BOARD OF EDUCATION AT-LARGE -- Tony A. Jenkins (Republican) 26,368; Keith R. Poston (Democratic) 9,597. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

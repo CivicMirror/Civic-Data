@@ -1,0 +1,18 @@
+id: ocd-person/85ea5def-fda0-50ec-8302-6d09d2e34fc1
+name: Abby Trent
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/iredell-statesville-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:iredell-statesville/school
+  office_id: iredell-statesville/school-board-district-3
+  party: Republican
+  ballot_name: Abby Trent
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): IREDELL-STATESVILLE SCHOOLS BOARD OF EDUCATION DISTRICT 03 -- Abby Trent (Republican) 3,297; Sarah Parker Pittman (Democratic) 3,157. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

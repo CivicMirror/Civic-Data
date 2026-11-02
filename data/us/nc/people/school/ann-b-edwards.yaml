@@ -1,0 +1,18 @@
+id: ocd-person/6c26d777-511c-5d4e-89ee-e7bf03d3d5fd
+name: Ann B. Edwards
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/caldwell-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:caldwell-county/school
+  office_id: caldwell-county/school-board-at-large
+  party: Republican
+  ballot_name: Ann B. Edwards
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CALDWELL COUNTY BOARD OF EDUCATION -- Ann B. Edwards (Republican) 29,743; Darrell Clayton Pennell (Republican) 27,094; Chris Becker (Republican) 26,665; Michael Barrick (Libertarian) 7,707. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

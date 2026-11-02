@@ -1,0 +1,18 @@
+id: ocd-person/766c7591-8fd4-5d12-be7a-2e3f5ec5991b
+name: Vanessa Cherry
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/washington-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:washington-county/school
+  office_id: washington-county/school-board-district-1
+  party: Democratic
+  ballot_name: Vanessa Cherry
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): WASHINGTON COUNTY BOARD OF EDUCATION DISTRICT 01 -- Vanessa Cherry (Democratic) 4,296. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

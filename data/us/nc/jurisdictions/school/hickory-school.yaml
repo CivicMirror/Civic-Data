@@ -1,0 +1,13 @@
+# Built for issue #172 (North Carolina master tracking) from NC SBE results.
+id: ocd-jurisdiction/country:us/state:nc/school_district:hickory/school
+name: Hickory Schools
+state: nc
+division_id: ocd-division/country:us/state:nc/school_district:hickory
+classification: school
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2021_11_02/results_pct_20211102.zip
+  note: 'NC SBE 2021-11-02 results (Election Results series): Hickory Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): Hickory Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'

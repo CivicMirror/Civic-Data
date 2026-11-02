@@ -1,0 +1,18 @@
+id: ocd-person/968d9ff1-66ed-5cf4-9c3f-2009876cc1de
+name: Sharon McNeill Gainey
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/harnett-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:harnett-county/school
+  office_id: harnett-county/school-board-district-1
+  party: Democratic
+  ballot_name: Sharon McNeill Gainey
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): HARNETT COUNTY BOARD OF EDUCATION DISTRICT 01 -- Sharon McNeill Gainey (Democratic) 3,536; L.A. Durante (Republican) 2,553. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

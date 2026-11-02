@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/58725828-7cfc-52ff-88bc-9e17421c2ff1
 name: Jacob Arthur
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Republican
   ballot_name: Jacob Arthur
   status: active
+- contest_id: nc/2022-11-08/wake-county-school-board-district-7
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: Jacob Arthur
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Wake County Board Of Commissioners District 06 -- Shinica Thomas (DEM) 51,684; Jacob Arthur (REP) 44,548.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 07 -- Chris Heagarty (Nonpartisan) 22,746; Jacob Arthur (Nonpartisan) 11,227; Katie Thuy Long (Nonpartisan) 9,183. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

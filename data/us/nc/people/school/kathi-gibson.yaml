@@ -1,0 +1,18 @@
+id: ocd-person/82f4ae17-e788-5c86-b4a3-caaa1c36eb6f
+name: Kathi Gibson
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/cumberland-county-school-board-district-1
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cumberland-county/school
+  office_id: cumberland-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Kathi Gibson
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CUMBERLAND COUNTY BOARD OF EDUCATION DISTRICT 01 -- Mary A. Hales (Nonpartisan) 6,320; Alicia Jones Chisolm (Nonpartisan) 6,012; Kathi Gibson (Nonpartisan) 4,689. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

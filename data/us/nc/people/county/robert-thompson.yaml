@@ -1,9 +1,3 @@
-# Machine-generated from NCSBE precinct-level election results
-# (2022 + 2024 general elections, merged for staggered boards) by
-# scripts/build_nc_counties.py, cross-checked against the NCACC's
-# official board-size table. verification.status is 'unverified':
-# this is real election data, but a mid-term resignation/appointment
-# since the election wouldn't be visible to this pipeline.
 id: ocd-person/5cbe5085-faf7-5bbc-ae1a-2e8c765b8820
 name: Robert Thompson
 identifiers: []
@@ -15,6 +9,13 @@ candidacies:
   party: Republican
   ballot_name: Robert Thompson
   status: active
+- contest_id: nc/2024-11-05/iredell-statesville-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:iredell-statesville/school
+  office_id: iredell-statesville/school-board-district-4
+  party: Democratic
+  ballot_name: Robert (Spider) Thompson
+  status: active
 verification:
   status: unverified
   pipeline: ncsbe-precinct-results
@@ -25,3 +26,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Tyrrell County Board Of Commissioners -- Robert Thompson (REP) 620; Nathan T. (Tommy) Everett (DEM) 456; Darryl Liverman (UNA) 369; Karen Rose Simmons (DEM) 279. The ballot instructs voters to vote for 1, but 3 seats were filled (limited voting / seats up this cycle per the county''s election method), so the top 3 finishers are the winners.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): IREDELL-STATESVILLE SCHOOLS BOARD OF EDUCATION DISTRICT 04 -- Ronda Hoke (Republican) 8,122; Robert (Spider) Thompson (Democratic) 3,372. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

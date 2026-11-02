@@ -1,0 +1,28 @@
+id: ocd-person/ac8b2628-7ff0-593e-98a8-64025985fc6d
+name: Donterius Rich
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/columbus-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:columbus-county/school
+  office_id: columbus-county/school-board-district-4
+  party: Write-In
+  ballot_name: Donterius Rich
+  status: active
+- contest_id: nc/2022-11-08/columbus-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:columbus-soil-and-water-conservation-district/government
+  office_id: columbus-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Donterius Rich
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): COLUMBUS COUNTY SCHOOLS BOARD OF EDUCATION DISTRICT 04 -- Chris Worley (Nonpartisan) 10,412; Donterius Rich (Write-In) 964. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): COLUMBUS SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Frank Galloway (Nonpartisan) 9,614; Jimmy Malpass (Nonpartisan) 9,167; Robin Andrews (Write-In) 5; Donterius Rich (Write-In) 5. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

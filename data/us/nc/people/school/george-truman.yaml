@@ -1,0 +1,18 @@
+id: ocd-person/8cddd5f2-733f-5fb9-b8db-7c5fa5ed0eb7
+name: George Truman
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/anson-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:anson-county/school
+  office_id: anson-county/school-board-district-5
+  party: Democratic
+  ballot_name: George Truman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ANSON COUNTY BOARD OF EDUCATION DISTRICT 05 -- George Truman (Democratic) 712. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

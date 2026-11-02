@@ -1,0 +1,28 @@
+id: ocd-person/39ea5a29-ef90-55ae-9951-2939892fb67a
+name: Jonathan Britt
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lenoir-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lenoir-county/school
+  office_id: lenoir-county/school-board-district-5
+  party: Republican
+  ballot_name: Jonathan Britt
+  status: active
+- contest_id: nc/2024-11-05/lenoir-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lenoir-county/school
+  office_id: lenoir-county/school-board-at-large
+  party: Republican
+  ballot_name: Jonathan Britt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LENOIR COUNTY BOARD OF EDUCATION DISTRICT 05 -- W.D. Anderson (Democratic) 2,038; Jonathan Britt (Republican) 1,263. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): LENOIR COUNTY BOARD OF EDUCATION AT-LARGE -- Jonathan Britt (Republican) 13,645; Bruce E. Hill (Democratic) 10,240; Merwyn K. Smith (Democratic) 8,557; Shannan S. Harrison (Unaffiliated) 6,573. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

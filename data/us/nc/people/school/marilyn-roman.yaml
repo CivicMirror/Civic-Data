@@ -1,0 +1,18 @@
+id: ocd-person/d07eae8e-f49d-56a5-a5c2-eee4c93de88e
+name: Marilyn Roman
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/lexington-city-school-board-ward-1
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-ward-1
+  party: Nonpartisan
+  ballot_name: Marilyn Roman
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION WARD 01 -- Darrick Horton (Nonpartisan) 186; Cyretta L. Holt (Nonpartisan) 170; Marilyn Roman (Nonpartisan) 39. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

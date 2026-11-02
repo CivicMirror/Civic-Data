@@ -1,0 +1,18 @@
+id: ocd-person/3a9d4c4a-1fdf-5a6b-8430-7e00e0ab6d4a
+name: Joey Powell
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/harnett-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:harnett-county/school
+  office_id: harnett-county/school-board-district-2
+  party: Republican
+  ballot_name: Joey Powell
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HARNETT COUNTY BOARD OF EDUCATION DISTRICT 02 -- Joey Powell (Republican) 8,735; Rose Ferguson (Democratic) 4,579. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

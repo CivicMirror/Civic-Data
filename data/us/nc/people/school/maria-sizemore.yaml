@@ -1,0 +1,18 @@
+id: ocd-person/9b1b5cea-ce8b-5656-9dd0-c8f8aa572137
+name: Maria Sizemore
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/johnston-county-school-board-district-7
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:johnston-county/school
+  office_id: johnston-county/school-board-district-7
+  party: Write-In
+  ballot_name: Maria Sizemore
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JOHNSTON COUNTY BOARD OF EDUCATION DISTRICT 07 -- Ronald Johnson (Nonpartisan) 50,398; Jeff Sullivan (Nonpartisan) 48,976; David Marshburn (Write-In) 7; Maria Sizemore (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

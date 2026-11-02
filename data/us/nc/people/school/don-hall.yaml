@@ -1,0 +1,18 @@
+id: ocd-person/120d6cfd-3421-58e1-ba6d-9fb906e61703
+name: Don Hall
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pender-county-school-board-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pender-county/school
+  office_id: pender-county/school-board-district-3
+  party: Republican
+  ballot_name: Don Hall
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PENDER COUNTY BOARD OF EDUCATION DISTRICT 03 -- Don Hall (Republican) 28,168. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

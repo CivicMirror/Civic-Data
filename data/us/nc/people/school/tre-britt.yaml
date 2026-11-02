@@ -1,0 +1,18 @@
+id: ocd-person/034ce188-68d3-5613-84c0-63ae1ac65cc7
+name: Tre' Britt
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/robeson-county-school-board-district-8
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-district-8
+  party: Nonpartisan
+  ballot_name: Tre' Britt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION DISTRICT 08 -- Tre'' Britt (Nonpartisan) 1,426. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

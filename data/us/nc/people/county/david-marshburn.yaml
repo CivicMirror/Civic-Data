@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/95911c44-74af-5fe7-a5a7-e660f2a65f12
 name: David Marshburn
 identifiers: []
@@ -11,6 +9,27 @@ candidacies:
   party: Write-In
   ballot_name: David Marshburn (Write-In)
   status: active
+- contest_id: nc/2022-11-08/johnston-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:johnston-county/school
+  office_id: johnston-county/school-board-at-large
+  party: Write-In
+  ballot_name: David Marshburn
+  status: active
+- contest_id: nc/2024-11-05/johnston-county-school-board-district-7
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:johnston-county/school
+  office_id: johnston-county/school-board-district-7
+  party: Write-In
+  ballot_name: David Marshburn
+  status: active
+- contest_id: nc/2022-11-08/johnston-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:johnston-soil-and-water-conservation-district/government
+  office_id: johnston-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: David Marshburn
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +37,12 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Johnston County Sheriff -- Steve Bizzell (REP) 53,665; David Marshburn (Write-In) 3,883; Donnie Harrison (Write-In) 19; Willie Rowe (Write-In) 9; Benjie L Gaddis (Write-In) 7; Ronald Johnson (Write-In) 5; Steve Bizzell (Write-In) (REP) 1.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): JOHNSTON COUNTY BOARD OF EDUCATION -- Terry Tippett (Nonpartisan) 36,739; Kevin Donovan (Nonpartisan) 30,544; Michelle Antoine (Nonpartisan) 29,857; Melissa Bowers (Nonpartisan) 24,075; Rick Mercier (Nonpartisan) 22,539; Mark Lane (Nonpartisan) 22,220; Ronald Johnson (Write-In) 52; Stuart Ashby Lee (Write-In) 44; Joseph Preston (Write-In) 38; Mark Lane (Write-In) 22; John Fischer (Write-In) 18; Aldostin Byrd (Write-In) 14; Dr. Charles Williams (Write-In) 14; Rick Mercier (Write-In) 14; Kevin Donovan (Write-In) 13; George M. Brewer (Write-In) 11; Jennifer Gurley (Write-In) 10; Jennifer Slabaugh (Write-In) 9; Melissa Bowers (Write-In) 9; David Marshburn (Write-In) 8; Terry Tippett (Write-In) 8; Michelle Antoine (Write-In) 6; Bennett Jones (Write-In) 5; Donna White (Write-In) 5; Rick Walker (Write-In) 5; Andrew Ellis (Write-In) 5. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JOHNSTON COUNTY BOARD OF EDUCATION DISTRICT 07 -- Ronald Johnson (Nonpartisan) 50,398; Jeff Sullivan (Nonpartisan) 48,976; David Marshburn (Write-In) 7; Maria Sizemore (Write-In) 6. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): JOHNSTON SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- John Michael Langdon (Nonpartisan) 46,903; Dewitt Hardee (Nonpartisan) 33,663; David Marshburn (Write-In) 9; John Michael Langdon (Write-In) 6; Dewitt Hardee (Write-In) 5; Betty Snead Whitley (Write-In) 5; Jenna Wadsworth (Write-In) 5. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

@@ -1,0 +1,18 @@
+id: ocd-person/49f2e45b-8e94-5b6e-8b5b-2884441e2208
+name: Matt Brauer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/dare-county-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:dare-county/school
+  office_id: dare-county/school-board-district-3
+  party: Republican
+  ballot_name: Matt Brauer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): DARE COUNTY BOARD OF EDUCATION DISTRICT 03 -- Matt Brauer (Republican) 9,629; Marie C. Russell (Unaffiliated) 7,115. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

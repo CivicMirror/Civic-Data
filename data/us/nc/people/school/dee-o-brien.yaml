@@ -1,0 +1,18 @@
+id: ocd-person/61f0d681-0487-54bc-9ac6-4e0aa90fdf87
+name: Dee O'Brien
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/polk-county-school-board-cooper-gap
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:polk-county/school
+  office_id: polk-county/school-board-cooper-gap
+  party: Nonpartisan
+  ballot_name: Dee O'Brien
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): POLK COUNTY BOARD OF EDUCATION COOPER GAP TWP -- Judy N. Jackson (Nonpartisan) 5,533; Dee O''Brien (Nonpartisan) 1,960. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

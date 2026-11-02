@@ -1,0 +1,18 @@
+id: ocd-person/1514b1db-10b6-50e5-b8a1-86a0c85fd969
+name: William (Bill) Sharpe
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/nash-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: William (Bill) Sharpe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NASH COUNTY BOARD OF EDUCATION DISTRICT 04 -- Chris Bissette (Nonpartisan) 3,937; William (Bill) Sharpe (Nonpartisan) 1,683; Karen White-Jones (Nonpartisan) 1,644. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

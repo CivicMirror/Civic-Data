@@ -1,0 +1,28 @@
+id: ocd-person/df211938-7a20-5320-8aa8-3e6f55da231e
+name: Evonne Higgs
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/martin-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:martin-county/school
+  office_id: martin-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Evonne Higgs
+  status: active
+- contest_id: nc/2022-11-08/martin-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:martin-soil-and-water-conservation-district/government
+  office_id: martin-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Evonne Higgs
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MARTIN COUNTY BOARD OF EDUCATION DISTRICT 02 -- Gail Everett Cargile (Nonpartisan) 509; Evonne Higgs (Nonpartisan) 481. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MARTIN SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Hallet S. Davis, Jr. (Nonpartisan) 5,728; Rupert W. Hasty, Jr. (Nonpartisan) 4,279; Ricky Cannon (Write-In) 8; Evonne Higgs (Write-In) 7; Caleb Roberson (Write-In) 6. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

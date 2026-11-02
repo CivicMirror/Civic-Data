@@ -1,0 +1,18 @@
+id: ocd-person/9b3e62f9-b078-580d-96ad-68ea1a565544
+name: Emily Crodick
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/currituck-county-school-board-fruitville
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:currituck-county/school
+  office_id: currituck-county/school-board-fruitville
+  party: Nonpartisan
+  ballot_name: Emily Crodick
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CURRITUCK COUNTY BOARD OF EDUCATION FRUITVILLE TWP -- Emily Crodick (Nonpartisan) 7,593; Kelly Williams Peters (Nonpartisan) 6,026. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

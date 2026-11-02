@@ -1,6 +1,3 @@
-# Minted from the NC State Board of Elections official Nov. 5, 2024
-# general election results (General Assembly pass, Civic-Data
-# issue #172).
 id: ocd-person/86f736f6-257c-5116-8c53-3a66b012d962
 name: Thomas B. Hill
 identifiers: []
@@ -12,6 +9,13 @@ candidacies:
   party: Libertarian
   ballot_name: Thomas B. Hill
   status: active
+- contest_id: nc/2022-11-08/cabarrus-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:cabarrus-soil-and-water-conservation-district/government
+  office_id: cabarrus-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Thomas B. Hill
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_general_assembly
@@ -19,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC State Senate District 34 -- Paul Newton (REP) 58,166; Kim Sexton-Lewter (DEM) 48,558; Thomas B. Hill (LIB) 3,171. Paul Newton won with 58,166 votes.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CABARRUS SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Victoria P. Porter (Nonpartisan) 32,952; Jeff Goforth (Nonpartisan) 29,663; Robert Van Fletcher, Jr. (Nonpartisan) 16,792; Thomas B. Hill (Nonpartisan) 16,530; Greg Mills (Write-In) 27; Laura Blackwell (Write-In) 22; Pam Escobar (Write-In) 6; Sam Treadway (Write-In) 5; Jeremy Canipe (Write-In) 4. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

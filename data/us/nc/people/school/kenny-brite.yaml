@@ -1,0 +1,18 @@
+id: ocd-person/ef60ffee-3b73-51fa-a4ce-fe7aeb9a2c93
+name: Kenny Brite
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/dare-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:dare-county/school
+  office_id: dare-county/school-board-district-4
+  party: Republican
+  ballot_name: Kenny Brite
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DARE COUNTY BOARD OF EDUCATION DISTRICT 04 -- Kenny Brite (Republican) 14,178; Heather Euler (Democratic) 9,673. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

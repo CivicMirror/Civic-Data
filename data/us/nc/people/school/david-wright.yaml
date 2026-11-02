@@ -1,0 +1,18 @@
+id: ocd-person/e5e4b3dd-0358-57de-ad73-a19d261a133c
+name: David Wright
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/avery-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:avery-county/school
+  office_id: avery-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: David Wright
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): AVERY COUNTY BOARD OF EDUCATION -- Michelle Krege Burnop (Nonpartisan) 2,279; Linda Webb (Nonpartisan) 1,899; David Wright (Nonpartisan) 1,796; Casey Lee (Nonpartisan) 1,468; Jason Coleman (Nonpartisan) 992; Ivy Vance Stafford (Nonpartisan) 605; Jeffrey Keller (Nonpartisan) 506; Scott Stanford (Nonpartisan) 461. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

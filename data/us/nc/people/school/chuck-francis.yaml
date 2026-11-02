@@ -1,0 +1,18 @@
+id: ocd-person/6d6b79f8-1ac1-5339-8db6-bc4c78fd17cc
+name: Chuck Francis
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/haywood-county-school-board-chair
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:haywood-county/school
+  office_id: haywood-county/school-board-chair
+  party: Nonpartisan
+  ballot_name: Chuck Francis
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HAYWOOD COUNTY BOARD OF EDUCATION CHAIRMAN -- Chuck Francis (Nonpartisan) 29,605. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

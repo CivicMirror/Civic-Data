@@ -1,0 +1,18 @@
+id: ocd-person/178ff9b6-9244-5ec1-b455-40e169445388
+name: Todd Adams
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/kannapolis-city-school-board-area-2
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:kannapolis-city/school
+  office_id: kannapolis-city/school-board-area-2
+  party: Nonpartisan
+  ballot_name: Todd Adams
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): KANNAPOLIS CITY SCHOOLS BOARD OF EDUCATION AREA II -- Todd Adams (Nonpartisan) 2,850. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/5f138582-d8e9-565b-95b8-0bccefbe36c7
+name: William (Blake) Boykin
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/wilson-county-school-board-district-6
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wilson-county/school
+  office_id: wilson-county/school-board-district-6
+  party: Nonpartisan
+  ballot_name: William (Blake) Boykin
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): WILSON COUNTY BOARD OF EDUCATION DISTRICT 06 -- William (Blake) Boykin (Nonpartisan) 3,283; Sophia Stevens (Nonpartisan) 2,828. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

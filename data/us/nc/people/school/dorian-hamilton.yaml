@@ -1,0 +1,18 @@
+id: ocd-person/09629dc4-0799-5f89-9876-232689d314b6
+name: Dorian Hamilton
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/wake-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Dorian Hamilton
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 02 -- Monika Johnson-Hostler (Nonpartisan) 20,092; Monica Ruiz (Nonpartisan) 19,287; Dorian Hamilton (Nonpartisan) 4,700. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/9a9b8553-dea0-5444-81e1-e8ed34f84efe
+name: Todd Hurley
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/lexington-city-school-board-ward-6
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lexington-city/school
+  office_id: lexington-city/school-board-ward-6
+  party: Write-In
+  ballot_name: Todd Hurley
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): LEXINGTON CITY SCHOOLS BOARD OF EDUCATION WARD 06 -- Lewie Phillips (Nonpartisan) 515; Rebecca Fulton (Write-In) 3; Jesse King (Write-In) 3; Quan Wilson (Write-In) 2; Todd Hurley (Write-In) 1; David Coon (Write-In) 1; John Young (Write-In) 1. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

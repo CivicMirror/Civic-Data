@@ -1,0 +1,18 @@
+id: ocd-person/7bb581b5-2584-5490-9804-13ddbc135bed
+name: Brent Manning
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/craven-county-school-board-district-1
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:craven-county/school
+  office_id: craven-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Brent Manning
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CRAVEN COUNTY BOARD OF EDUCATION DISTRICT 01 (UNEXPIRED) -- Brent Manning (Nonpartisan) 24,275. Winners are the top 1 by total votes. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

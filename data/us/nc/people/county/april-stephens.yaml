@@ -1,9 +1,3 @@
-# Machine-generated from NCSBE precinct-level election results
-# (2022 + 2024 general elections, merged for staggered boards) by
-# scripts/build_nc_counties.py, cross-checked against the NCACC's
-# official board-size table. verification.status is 'unverified':
-# this is real election data, but a mid-term resignation/appointment
-# since the election wouldn't be visible to this pipeline.
 id: ocd-person/0f293ea7-7816-5e61-bbe9-b2f375f1c7d0
 name: April Stephens
 identifiers: []
@@ -13,6 +7,13 @@ candidacies:
   jurisdiction_id: ocd-jurisdiction/country:us/state:nc/county:johnston/government
   office_id: johnston/commissioner-district-4
   party: Republican
+  ballot_name: April Stephens
+  status: active
+- contest_id: nc/2024-11-05/johnston-county-school-board-district-3
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:johnston-county/school
+  office_id: johnston-county/school-board-district-3
+  party: Write-In
   ballot_name: April Stephens
   status: active
 verification:
@@ -25,3 +26,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Johnston County Board Of Commissioners District 04 -- April Stephens (REP) 83,879.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JOHNSTON COUNTY BOARD OF EDUCATION DISTRICT 03 -- Kay Carroll (Nonpartisan) 55,492; Jason Shuler (Nonpartisan) 46,227; Mike Jacobs (Write-In) 8; Stephanie Edwards (Write-In) 7; Jim Best (Write-In) 6; April Stephens (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

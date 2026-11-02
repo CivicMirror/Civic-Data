@@ -1,0 +1,18 @@
+id: ocd-person/55d9c1ec-1d4b-547d-b738-704d8bdfd707
+name: Richard Brinegar
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/elkin-city-school-board-city
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:elkin-city/school
+  office_id: elkin-city/school-board-city
+  party: Republican
+  ballot_name: Richard Brinegar
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): ELKIN CITY SCHOOLS BOARD OF EDUCATION CITY DISTRICT -- Richard Brinegar (Republican) 2,420; Jill Bellia (Write-In) 5. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

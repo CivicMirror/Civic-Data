@@ -1,0 +1,28 @@
+id: ocd-person/ee1d9096-e429-56ff-9e7f-23e9ea3989c1
+name: Karen White-Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/nash-county-school-board-district-4
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Karen White-Jones
+  status: active
+- contest_id: nc/2024-11-05/nash-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:nash-soil-and-water-conservation-district/government
+  office_id: nash-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Karen White-Jones
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NASH COUNTY BOARD OF EDUCATION DISTRICT 04 -- Chris Bissette (Nonpartisan) 3,937; William (Bill) Sharpe (Nonpartisan) 1,683; Karen White-Jones (Nonpartisan) 1,644. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NASH SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Timothy Mills II (Nonpartisan) 21,620; Robert Covington (Nonpartisan) 16,442; Sharonda Bulluck (Write-In) 19; Karen White-Jones (Write-In) 10; LaShawanda Washington (Write-In) 10; Jamon Whitfield (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

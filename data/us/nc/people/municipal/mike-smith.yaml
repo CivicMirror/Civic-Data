@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/2361ccdc-58fd-56b5-ab0a-d7ab7d0d79b1
 name: Mike Smith
 identifiers: []
@@ -25,6 +23,13 @@ candidacies:
   party: Nonpartisan
   ballot_name: Mike Smith
   status: active
+- contest_id: nc/2022-05-17/robeson-county-school-board-district-6
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-district-6
+  party: Nonpartisan
+  ballot_name: Mike Smith
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -38,3 +43,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
   note: 'NC SBE 2025-11-04 results (Election Results series): Elk Park Town Council -- Darlene Hicks (Nonpartisan) 113; Mike Smith (Nonpartisan) 104; Tony Eller (Nonpartisan) 102; Alice Whittington (Nonpartisan) 100; Brad Benfield (Nonpartisan) 96; Ryan Moore (Write-In) (Write-In) 8. Winners are the top 5 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION DISTRICT 06 -- Mike Smith (Nonpartisan) 1,045. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'

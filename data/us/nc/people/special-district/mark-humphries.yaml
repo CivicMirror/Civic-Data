@@ -1,0 +1,28 @@
+id: ocd-person/218a8128-d40f-5adb-85b7-334744d0dd40
+name: Mark Humphries
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/cleveland-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:cleveland-soil-and-water-conservation-district/government
+  office_id: cleveland-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Mark Humphries
+  status: active
+- contest_id: nc/2024-11-05/cleveland-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:cleveland-soil-and-water-conservation-district/government
+  office_id: cleveland-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Mark Humphries
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CLEVELAND SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Sherry Greene (Nonpartisan) 17,330; Roger D. Eaker (Nonpartisan) 17,021; Malarie Thompson (Nonpartisan) 10,410; Mark Humphries (Write-In) 91; George Patterson (Write-In) 12; Chad Stout (Write-In) 7; Rob Watts (Write-In) 5. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CLEVELAND SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Madison Rachel Bridges (Nonpartisan) 34,121; Mark Humphries (Write-In) 91; Emanuel Hunt, Jr. (Write-In) 35; Rob Watts (Write-In) 31; Will Stroupe (Write-In) 10; Ken Carter (Write-In) 8; Bryan McGinnis (Write-In) 8; Alex Jackson (Write-In) 7; Blaine Pruitt (Write-In) 6. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

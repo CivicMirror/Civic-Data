@@ -1,0 +1,18 @@
+id: ocd-person/e9d8e64c-e320-54fa-8a6a-5f9f538cc809
+name: Walter Scott Spurling
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/cleveland-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:cleveland-county/school
+  office_id: cleveland-county/school-board-at-large
+  party: Republican
+  ballot_name: Walter Scott Spurling
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CLEVELAND COUNTY BOARD OF EDUCATION -- Danny Lee Blanton (Republican) 19,526; Aaron Bridges (Republican) 19,400; Ronnie Grigg (Republican) 19,279; Walter Scott Spurling (Republican) 18,029; Phillip Glover (Democratic) 11,983; Coleman Hunt (Democratic) 10,833; Dena Green (Democratic) 10,715; Meghan Hoppes (Democratic) 9,628. Winners are the top 4 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

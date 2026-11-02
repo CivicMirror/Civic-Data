@@ -1,0 +1,18 @@
+id: ocd-person/2f8b098f-bfa9-593c-8a4f-926f76130e6b
+name: David Twiddy
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/dare-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:dare-county/school
+  office_id: dare-county/school-board-at-large
+  party: Republican
+  ballot_name: David Twiddy
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): DARE COUNTY BOARD OF EDUCATION AT-LARGE -- David Twiddy (Republican) 14,822; Melissa Zehner (Democratic) 9,417. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

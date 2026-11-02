@@ -1,0 +1,18 @@
+id: ocd-person/bb0f9200-5c76-5da3-b494-36c971c24c33
+name: Tom Joyal
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/edenton-chowan-school-board-dist-02-seat-02
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:edenton-chowan/school
+  office_id: edenton-chowan/school-board-dist-02-seat-02
+  party: Nonpartisan
+  ballot_name: Tom Joyal
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): EDENTON-CHOWAN SCHOOLS BOARD OF EDUCATION DIST 02 SEAT 02 -- Ricky Browder (Nonpartisan) 1,216; Tom Joyal (Nonpartisan) 667. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

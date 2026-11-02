@@ -1,0 +1,18 @@
+id: ocd-person/8fe0ce75-6c75-5a49-92d5-41ad489f03d7
+name: Judy Barham
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mount-airy-city-school-board-district-c
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mount-airy-city/school
+  office_id: mount-airy-city/school-board-district-c
+  party: Unaffiliated
+  ballot_name: Judy Barham
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MOUNT AIRY CITY SCHOOLS BOARD OF EDUCATION DISTRICT C -- Thomas Warren Horton (Republican) 3,209; Judy Barham (Unaffiliated) 1,745. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

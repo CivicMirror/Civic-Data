@@ -1,0 +1,18 @@
+id: ocd-person/c97420b2-0e74-5e36-843e-037e8809ced1
+name: Jennifer Kleinheksel
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/elkin-city-school-board-west
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:elkin-city/school
+  office_id: elkin-city/school-board-west
+  party: Republican
+  ballot_name: Jennifer Kleinheksel
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ELKIN CITY SCHOOLS BOARD OF EDUCATION WEST DISTRICT -- Jennifer Kleinheksel (Republican) 1,329; Debbie Brown (Unaffiliated) 991. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

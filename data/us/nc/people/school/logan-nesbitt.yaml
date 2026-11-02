@@ -1,0 +1,18 @@
+id: ocd-person/c575c9bb-aa87-5f2a-8be3-458ff7f72850
+name: Logan Nesbitt
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/haywood-county-school-board-waynesville
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:haywood-county/school
+  office_id: haywood-county/school-board-waynesville
+  party: Nonpartisan
+  ballot_name: Logan Nesbitt
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): HAYWOOD COUNTY BOARD OF EDUCATION WAYNESVILLE DISTRICT -- Logan Nesbitt (Nonpartisan) 25,415; James Harley (Jim) Francis III (Nonpartisan) 22,596. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

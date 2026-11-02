@@ -1,0 +1,28 @@
+id: ocd-person/567ac19b-36a1-5631-8906-4eb5bc4c0bdb
+name: Lisa Cline
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/charlotte-mecklenburg-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Lisa Cline
+  status: active
+- contest_id: nc/2025-11-04/charlotte-mecklenburg-school-board-district-5
+  election_id: nc/2025-11-04/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-district-5
+  party: Nonpartisan
+  ballot_name: Lisa Cline
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHARLOTTE-MECKLENBURG SCHOOLS BOARD OF EDUCATION DISTRICT 05 -- Lisa Cline (Nonpartisan) 35,506; Trent Merchant (Nonpartisan) 32,618. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): CHARLOTTE-MECKLENBURG BOARD OF EDUCATION DISTRICT 05 -- Cynthia Stone (Nonpartisan) 22,407; Lisa Cline (Nonpartisan) 16,750. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

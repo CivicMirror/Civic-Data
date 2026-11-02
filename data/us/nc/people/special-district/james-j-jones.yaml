@@ -1,0 +1,18 @@
+id: ocd-person/0bd6a1a6-725f-554e-92db-96fc98d43532
+name: James J. Jones
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/granville-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:granville-soil-and-water-conservation-district/government
+  office_id: granville-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: James J. Jones
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GRANVILLE SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Jason West Dixon (Nonpartisan) 12,395; James J. Jones (Nonpartisan) 11,811; Robert Morris (Write-In) 14. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

@@ -1,0 +1,28 @@
+id: ocd-person/2f3dfb66-7b35-5508-82fd-79ad1b0cde36
+name: Mike Fulp
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/stokes-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:stokes-soil-and-water-conservation-district/government
+  office_id: stokes-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Mike Fulp
+  status: active
+- contest_id: nc/2024-11-05/stokes-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:stokes-soil-and-water-conservation-district/government
+  office_id: stokes-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Mike Fulp
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): STOKES SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Johnny East (Nonpartisan) 11,598; Dowell (Darrel) Lester (Nonpartisan) 8,782; Ab (Buck) Boxley (Nonpartisan) 4,977; Mike Fulp (Write-In) 9; Joshua Francis (Write-In) 8; Kenneth Martin (Write-In) 6; Kevin Newsome (Write-In) 5. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): STOKES SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Bob Lindsay (Nonpartisan) 21,653; Mike Fulp (Write-In) 9; Tyler Moran (Write-In) 9; Gwen Pendry (Write-In) 9; Mark Bowman (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

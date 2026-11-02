@@ -1,0 +1,18 @@
+id: ocd-person/425395e9-24cc-5772-95a9-73f70dcfcd8b
+name: Mark Welch
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/mount-airy-city-school-board-district-d
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:mount-airy-city/school
+  office_id: mount-airy-city/school-board-district-d
+  party: Republican
+  ballot_name: Mark Welch
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MOUNT AIRY CITY SCHOOLS BOARD OF EDUCATION DISTRICT D -- Mark Welch (Republican) 4,145. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

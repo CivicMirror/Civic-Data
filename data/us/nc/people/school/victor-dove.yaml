@@ -1,0 +1,18 @@
+id: ocd-person/d57ff6c6-f298-5bf7-a128-f9ed1fd001ca
+name: Victor Dove
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/craven-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:craven-county/school
+  office_id: craven-county/school-board-district-4
+  party: Democratic
+  ballot_name: Victor Dove
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CRAVEN COUNTY BOARD OF EDUCATION DISTRICT 04 -- Jennifer Dacey (Republican) 2,965; Victor Dove (Democratic) 2,899. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/fa5a6969-eb3b-50a6-ad22-0e748178979d
+name: Rainy Brake
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/jackson-county-school-board-district-1
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jackson-county/school
+  office_id: jackson-county/school-board-district-1
+  party: Nonpartisan
+  ballot_name: Rainy Brake
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): JACKSON COUNTY BOARD OF EDUCATION DISTRICT 01 -- Gayle Woody (Nonpartisan) 4,590; Rainy Brake (Nonpartisan) 2,798. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

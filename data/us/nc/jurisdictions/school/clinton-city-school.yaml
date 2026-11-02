@@ -1,0 +1,13 @@
+# Built for issue #172 (North Carolina master tracking) from NC SBE results.
+id: ocd-jurisdiction/country:us/state:nc/school_district:clinton-city/school
+name: Clinton City Schools
+state: nc
+division_id: ocd-division/country:us/state:nc/school_district:clinton-city
+classification: school
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): Clinton City Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): Clinton City Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'

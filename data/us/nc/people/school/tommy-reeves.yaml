@@ -1,0 +1,18 @@
+id: ocd-person/92a51e9a-d926-56a7-b336-96eb2be63766
+name: Tommy Reeves
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/pender-county-school-board-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pender-county/school
+  office_id: pender-county/school-board-district-5
+  party: Republican
+  ballot_name: Tommy Reeves
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): PENDER COUNTY BOARD OF EDUCATION DISTRICT 05 -- Tommy Reeves (Republican) 28,400. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

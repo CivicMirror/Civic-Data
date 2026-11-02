@@ -1,0 +1,18 @@
+id: ocd-person/f75f5e38-4b27-5006-9e7e-1b6ec15a2d97
+name: Nicholas Norris
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/jones-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:jones-soil-and-water-conservation-district/government
+  office_id: jones-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Nicholas Norris
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): JONES SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Nicholas Norris (Nonpartisan) 3,747. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

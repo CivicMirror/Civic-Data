@@ -1,0 +1,18 @@
+id: ocd-person/a2f68462-8674-54b8-990f-af5f060cb37b
+name: Will Morrow
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/haywood-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:haywood-soil-and-water-conservation-district/government
+  office_id: haywood-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Will Morrow
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): HAYWOOD SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Charles Boyd (Nonpartisan) 16,667; Will Morrow (Nonpartisan) 14,940. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

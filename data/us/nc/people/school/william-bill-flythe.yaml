@@ -1,0 +1,18 @@
+id: ocd-person/a1189554-f2a8-5ee6-9585-a8fc6db3e3e7
+name: William (Bill) Flythe
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/brunswick-county-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:brunswick-county/school
+  office_id: brunswick-county/school-board-district-3
+  party: Democratic
+  ballot_name: William (Bill) Flythe
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): BRUNSWICK COUNTY BOARD OF EDUCATION DISTRICT 03 -- Robin Moffitt (Republican) 46,262; William (Bill) Flythe (Democratic) 25,226. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

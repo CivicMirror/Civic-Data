@@ -1,0 +1,18 @@
+id: ocd-person/ae193d98-5efb-5003-845f-348d05340dcd
+name: Brenda McCombs
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/kannapolis-city-school-board-area-1
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:kannapolis-city/school
+  office_id: kannapolis-city/school-board-area-1
+  party: Nonpartisan
+  ballot_name: Brenda McCombs
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): KANNAPOLIS CITY SCHOOLS BOARD OF EDUCATION AREA I -- Brenda McCombs (Nonpartisan) 1,773; Kristina Cook (Nonpartisan) 1,602; Allan J. Cauble (Nonpartisan) 1,056. Winners are the top 2 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/34a1a82e-e87b-52b8-9636-01f2414141d7
 name: Faye Hardy Bordeaux
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Faye Hardy Bordeaux
   status: active
+- contest_id: nc/2022-11-08/pitt-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:pitt-soil-and-water-conservation-district/government
+  office_id: pitt-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Faye Hardy Bordeaux
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 8, 2022 general election (results_pct_20221108.txt), aggregated across the county''s precincts: Pitt County Board Of Commissioners District 04 -- Benji Holloman (REP) 5,495; Faye Hardy Bordeaux (DEM) 4,642.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PITT SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- W. Steve Sutton (Nonpartisan) 29,878; Carl A. Briley, Jr. (Nonpartisan) 29,681; Tracy Everette-Lenz (Write-In) 134; Jennifer Hodgson (Write-In) 46; Kelly T. Weaver (Write-In) 40; Troy Dreyfus (Write-In) 25; Candace Pearce (Write-In) 14; Ricky Watson (Write-In) 9; Richard J. Hooten, III (Write-In) 7; Charles Ball (Write-In) 6; Brad Grampa (Write-In) 6; Faye Hardy Bordeaux (Write-In) 6; David Collier (Write-In) 6; Randy Tyson (Write-In) 6; John F. Binder (Write-In) 5; Josh Parker (Write-In) 5; Anthony Bartholomew (Write-In) 5; P. J. Andrews (Write-In) 5; Jason Workman (Write-In) 5. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

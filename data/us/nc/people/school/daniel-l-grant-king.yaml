@@ -1,0 +1,18 @@
+id: ocd-person/017e39f2-8727-5f48-941c-fffddf098a75
+name: Daniel L. Grant-King
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/wake-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:wake-county/school
+  office_id: wake-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Daniel L. Grant-King
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): WAKE COUNTY BOARD OF EDUCATION DISTRICT 04 -- Tara Waters (Nonpartisan) 21,055; Becky Lew-Hobbs (Nonpartisan) 7,039; Michael T. Williams (Nonpartisan) 3,258; Daniel L. Grant-King (Nonpartisan) 1,691. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

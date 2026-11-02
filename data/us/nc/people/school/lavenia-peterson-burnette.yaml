@@ -1,0 +1,18 @@
+id: ocd-person/12d1bcf2-e604-5a26-ac8b-0ab1a127660c
+name: Lavenia Peterson Burnette
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/yancey-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:yancey-county/school
+  office_id: yancey-county/school-board-at-large
+  party: Democratic
+  ballot_name: Lavenia Peterson Burnette
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): YANCEY COUNTY BOARD OF EDUCATION -- Cody Whitson (Republican) 5,539; Will Hensley (Republican) 5,362; Edwin Fortner (Republican) 5,347; John Stallings (Democratic) 4,964; Kim W. Higgins (Democratic) 4,945; Lavenia Peterson Burnette (Democratic) 4,406. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

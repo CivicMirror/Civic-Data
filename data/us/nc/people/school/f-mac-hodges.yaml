@@ -1,0 +1,18 @@
+id: ocd-person/1223e492-8c48-59c4-8691-02c29dad2560
+name: F. Mac Hodges
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/beaufort-county-school-board-district-5
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:beaufort-county/school
+  office_id: beaufort-county/school-board-district-5
+  party: Democratic
+  ballot_name: F. Mac Hodges
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): BEAUFORT COUNTY BOARD OF EDUCATION DISTRICT 05 -- Stacey Davis (Republican) 1,724; F. Mac Hodges (Democratic) 1,050. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,28 @@
+id: ocd-person/1a61d552-0c01-5c82-803e-4ef3faa3c6e7
+name: Taylor Frederick
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/granville-county-school-board-district-7
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:granville-county/school
+  office_id: granville-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: Taylor Frederick
+  status: active
+- contest_id: nc/2024-03-05/granville-county-school-board-district-7
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:granville-county/school
+  office_id: granville-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: Taylor Frederick
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): GRANVILLE COUNTY BOARD OF EDUCATION DISTRICT 07 -- David Richardson (Nonpartisan) 484; Taylor Frederick (Nonpartisan) 420. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): GRANVILLE COUNTY BOARD OF EDUCATION DISTRICT 07 (UNEXPIRED) -- Gwen Russell (Nonpartisan) 595; Taylor Frederick (Nonpartisan) 410. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

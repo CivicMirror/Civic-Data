@@ -1,0 +1,18 @@
+id: ocd-person/997de6e1-e22c-57b3-a655-8d37c4eddefa
+name: Bill Lanier
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/onslow-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:onslow-county/school
+  office_id: onslow-county/school-board-at-large
+  party: Republican
+  ballot_name: Bill Lanier
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ONSLOW COUNTY BOARD OF EDUCATION -- Bill Lanier (Republican) 29,250; Angie Todd (Republican) 28,840; Bradley Williams (Republican) 27,961; Tanyetta Hill (Democratic) 14,206. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

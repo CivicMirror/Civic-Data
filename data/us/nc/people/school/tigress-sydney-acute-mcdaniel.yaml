@@ -1,0 +1,38 @@
+id: ocd-person/20300485-2bc8-57d7-b566-7e7b4f2fa8ea
+name: Tigress Sydney Acute McDaniel
+identifiers: []
+candidacies:
+- contest_id: nc/2023-11-07/charlotte-mecklenburg-school-board-at-large
+  election_id: nc/2023-11-07/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Tigress Sydney Acute McDaniel
+  status: active
+- contest_id: nc/2022-11-08/mecklenburg-soil-and-water-conservation-district-supervisor
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:mecklenburg-soil-and-water-conservation-district/government
+  office_id: mecklenburg-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Tigress Sydney Acute McDaniel
+  status: active
+- contest_id: nc/2024-11-05/mecklenburg-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:mecklenburg-soil-and-water-conservation-district/government
+  office_id: mecklenburg-soil-and-water-conservation-district/supervisor
+  party: Nonpartisan
+  ballot_name: Tigress Sydney Acute McDaniel
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): CHARLOTTE-MECKLENBURG SCHOOLS BOARD OF EDUCATION AT-LARGE -- Lenora Shipp (Nonpartisan) 45,882; Liz Monterrey (Nonpartisan) 38,601; Monty Witherspoon (Nonpartisan) 38,570; Shamaiye Haynes (Nonpartisan) 31,702; Bill Fountain (Nonpartisan) 24,976; Annette Albright (Nonpartisan) 24,590; Claire Covington (Nonpartisan) 22,481; Michael Johnson (Nonpartisan) 21,065; Clara Kennedy Witherspoon (Nonpartisan) 14,861; Omar Harris (Nonpartisan) 12,396; Brian Kasher (Nonpartisan) 12,319; Peggy A. Capehart (Nonpartisan) 7,429; Tigress Sydney Acute McDaniel (Nonpartisan) 7,357; Juanrique Pallamente Hall (Nonpartisan) 7,259; Sean Strain (Write-In) 6; Stephanie Sneed (Write-In) 1. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MECKLENBURG SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Nancy Carter (Nonpartisan) 163,998; Barbara Bleiweis (Nonpartisan) 99,965; Alonzo Hill (Nonpartisan) 95,377; Hunter Wilson (Nonpartisan) 80,183; Tigress Sydney Acute McDaniel (Nonpartisan) 56,112; Ken May (Write-In) 70. Winners are the top 2 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): MECKLENBURG SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Mitchell Mullen (Nonpartisan) 199,727; Lisa Carol Rudisill (Nonpartisan) 150,609; Tigress Sydney Acute McDaniel (Nonpartisan) 106,935. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,6 +1,3 @@
-# Minted from the NC State Board of Elections official Nov. 5, 2024
-# general election results (General Assembly pass, Civic-Data
-# issue #172).
 id: ocd-person/05e0c847-5df9-5ab8-9d63-ea68aa2dc9d3
 name: Greg Cranford
 identifiers: []
@@ -12,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Greg Cranford
   status: active
+- contest_id: nc/2021-11-02/newton-conover-school-board-newton
+  election_id: nc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:newton-conover/school
+  office_id: newton-conover/school-board-newton
+  party: Nonpartisan
+  ballot_name: Greg Cranford
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_general_assembly
@@ -19,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the district''s precincts: NC House Of Representatives District 89 -- Mitchell Smith Setzer (REP) 38,122; Greg Cranford (DEM) 12,044. Mitchell Smith Setzer won with 38,122 votes.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2021_11_02/results_pct_20211102.zip
+  note: 'NC SBE 2021-11-02 results (Election Results series): NEWTON-CONOVER SCHOOLS BOARD OF EDUCATION NEWTON DISTRICT -- Tim Hayes (Nonpartisan) 460; Phil Heath (Nonpartisan) 337; Polly Pearson (Nonpartisan) 315; Greg Cranford (Nonpartisan) 309. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'

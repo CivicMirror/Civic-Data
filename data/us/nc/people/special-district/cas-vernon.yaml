@@ -1,0 +1,18 @@
+id: ocd-person/72b0d11f-27a6-5626-8876-2fe9fdc8d9a2
+name: Cas Vernon
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/avery-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:avery-soil-and-water-conservation-district/government
+  office_id: avery-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Cas Vernon
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): AVERY SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Jack W. Wiseman (Nonpartisan) 7,252; Cas Vernon (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_soil_water

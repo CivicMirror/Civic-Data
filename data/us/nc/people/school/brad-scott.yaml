@@ -1,0 +1,18 @@
+id: ocd-person/7da647f5-0ca3-57ba-a775-75bec179f51b
+name: Brad Scott
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/newton-conover-school-board-newton
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:newton-conover/school
+  office_id: newton-conover/school-board-newton
+  party: Republican
+  ballot_name: Brad Scott
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NEWTON-CONOVER SCHOOLS BOARD OF EDUCATION NEWTON DISTRICT -- Brad Scott (Republican) 2,806. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

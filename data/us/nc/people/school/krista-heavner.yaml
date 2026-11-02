@@ -1,0 +1,18 @@
+id: ocd-person/c0a3467c-9e2f-55c4-bba0-514804755496
+name: Krista Heavner
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/lincoln-county-school-board-district-5
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:lincoln-county/school
+  office_id: lincoln-county/school-board-district-5
+  party: Republican
+  ballot_name: Krista Heavner
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): LINCOLN COUNTY BOARD OF EDUCATION DISTRICT 05 -- Krista Heavner (Republican) 28,723. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/785952d7-dfcd-541b-b4dc-0fde07a65b4e
+name: Sandy Moyer
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/pitt-county-school-board-district-7
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:pitt-county/school
+  office_id: pitt-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: Sandy Moyer
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): PITT COUNTY BOARD OF EDUCATION DISTRICT 07 -- Kelly T. Weaver (Nonpartisan) 3,402; Sandy Moyer (Nonpartisan) 2,918. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

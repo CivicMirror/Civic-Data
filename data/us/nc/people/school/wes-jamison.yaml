@@ -1,0 +1,18 @@
+id: ocd-person/0223c238-5b68-580b-8ca4-c43cf70647ac
+name: Wes Jamison
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/jackson-county-school-board-district-3
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jackson-county/school
+  office_id: jackson-county/school-board-district-3
+  party: Nonpartisan
+  ballot_name: Wes Jamison
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): JACKSON COUNTY BOARD OF EDUCATION DISTRICT 03 -- Wes Jamison (Nonpartisan) 4,167; Clint Irons (Nonpartisan) 3,131. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

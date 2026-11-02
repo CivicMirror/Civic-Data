@@ -1,0 +1,18 @@
+id: ocd-person/db275b22-3d50-56aa-aa82-afea88a64f75
+name: Mike Clanton
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/nash-county-school-board-district-2
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:nash-county/school
+  office_id: nash-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Mike Clanton
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): NASH COUNTY PUBLIC SCHOOLS BOARD OF EDUCATION DIST 02 -- Dean Edwards (Nonpartisan) 2,139; Mike Clanton (Nonpartisan) 766. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

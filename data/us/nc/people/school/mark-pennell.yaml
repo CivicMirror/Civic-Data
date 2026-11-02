@@ -1,0 +1,18 @@
+id: ocd-person/e862f4e3-0dc1-5209-b8a3-9ec3c0970b0b
+name: Mark Pennell
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/newton-conover-school-board-conover
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:newton-conover/school
+  office_id: newton-conover/school-board-conover
+  party: Republican
+  ballot_name: Mark Pennell
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): NEWTON-CONOVER SCHOOLS BOARD OF EDUCATION CONOVER DISTRICT -- Mark Pennell (Republican) 3,481; Cecilia Gordon (Unaffiliated) 1,674. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

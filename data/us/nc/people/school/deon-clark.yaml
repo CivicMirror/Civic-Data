@@ -1,0 +1,18 @@
+id: ocd-person/6514e919-f965-5fad-92c6-2a1d9f8af2c1
+name: Deon Clark
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/guilford-county-school-board-district-4
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:guilford-county/school
+  office_id: guilford-county/school-board-district-4
+  party: Democratic
+  ballot_name: Deon Clark
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): GUILFORD COUNTY BOARD OF EDUCATION DISTRICT 04 -- Linda Welborn (Republican) 14,360; Deon Clark (Democratic) 13,290. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

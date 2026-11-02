@@ -1,0 +1,13 @@
+# Built for issue #172 (North Carolina master tracking) from NC SBE results.
+id: ocd-jurisdiction/country:us/state:nc/school_district:mooresville-graded/school
+name: Mooresville Graded Schools
+state: nc
+division_id: ocd-division/country:us/state:nc/school_district:mooresville-graded
+classification: school
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2023_11_07/results_pct_20231107.zip
+  note: 'NC SBE 2023-11-07 results (Election Results series): Mooresville Graded Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2025_11_04/results_pct_20251104.zip
+  note: 'NC SBE 2025-11-04 results (Election Results series): Mooresville Graded Schools board of education contests appear on the ballot in this file.'
+  retrieved: '2026-11-01'

@@ -1,0 +1,28 @@
+id: ocd-person/06fe805b-14de-5405-a5e0-d9f0bd37d2e7
+name: Rick Stich
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/polk-county-school-board-saluda
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:polk-county/school
+  office_id: polk-county/school-board-saluda
+  party: Nonpartisan
+  ballot_name: Rick Stich
+  status: active
+- contest_id: nc/2024-11-05/polk-county-school-board-saluda
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:polk-county/school
+  office_id: polk-county/school-board-saluda
+  party: Republican
+  ballot_name: Rick Stich
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): POLK COUNTY BOARD OF EDUCATION SALUDA TWP (UNEXPIRED) -- Rob Parsons (Nonpartisan) 3,834; Robin Atkins Wierzbicki (Nonpartisan) 2,913; German Ruiz (Nonpartisan) 738; Rick Stich (Nonpartisan) 299. Winners are the top 1 by total votes. Unexpired-term contest.'
+  retrieved: '2026-11-01'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): POLK COUNTY BOARD OF EDUCATION SALUDA TWP -- Rick Stich (Republican) 7,229; Rob Parsons (Democratic) 5,091. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/d0671a14-7f9b-58dd-81f6-a2317daa9409
+name: Adam High
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/camden-county-school-board-at-large
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:camden-county/school
+  office_id: camden-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Adam High
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CAMDEN COUNTY BOARD OF EDUCATION -- Christian A. Overton (Nonpartisan) 3,332; Adam High (Nonpartisan) 2,271; Eleanora Doane-Butts (Nonpartisan) 1,954; Dalford Briley (Nonpartisan) 666. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

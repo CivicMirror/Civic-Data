@@ -1,0 +1,18 @@
+id: ocd-person/b6ab6833-ab6a-5b84-b630-c1c6810b20ec
+name: Jody Cleven
+identifiers: []
+candidacies:
+- contest_id: nc/2024-11-05/chatham-county-school-board-district-2
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:chatham-county/school
+  office_id: chatham-county/school-board-district-2
+  party: Nonpartisan
+  ballot_name: Jody Cleven
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): CHATHAM COUNTY BOARD OF EDUCATION DISTRICT 02 -- David M. Hamm (Nonpartisan) 25,740; Jody Cleven (Nonpartisan) 15,241. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

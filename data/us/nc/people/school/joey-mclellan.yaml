@@ -1,0 +1,18 @@
+id: ocd-person/4aff9cfa-07cf-5092-8430-af14f1630ccf
+name: Joey Mclellan
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/robeson-county-school-board-district-7
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:robeson-county/school
+  office_id: robeson-county/school-board-district-7
+  party: Nonpartisan
+  ballot_name: Joey Mclellan
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): ROBESON COUNTY BOARD OF EDUCATION DISTRICT 07 -- Bradley Phillips (Nonpartisan) 993; Rodney Hunt (Nonpartisan) 484; Joey Mclellan (Nonpartisan) 188. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

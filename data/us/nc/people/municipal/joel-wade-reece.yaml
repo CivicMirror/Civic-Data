@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official
-# election results (municipal pass, Civic-Data issue #172).
 id: ocd-person/898625e3-2b02-5f0d-89f6-cf9ad8b5b015
 name: Joel Wade Reece
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Write-In
   ballot_name: Joel Wade Reece
   status: active
+- contest_id: nc/2024-11-05/yadkin-soil-and-water-conservation-district-supervisor
+  election_id: nc/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/special_district:yadkin-soil-and-water-conservation-district/government
+  office_id: yadkin-soil-and-water-conservation-district/supervisor
+  party: Write-In
+  ballot_name: Joel Wade Reece
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_municipal
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'NC SBE 2024-11-05 results (Election Results series): Boonville Board of Commissioners -- Monica Gatton Craver (Nonpartisan) 326; Zane S. Green (Nonpartisan) 304; Kristin Johnson (Nonpartisan) 273; David N. Cox (Nonpartisan) 260; Jeffrey Jones, Jr. (Nonpartisan) 183; Joel Wade Reece (Write-In) (Write-In) 12; Bradley Billings (Write-In) (Write-In) 10. Winners are the top 3 by total votes.'
   retrieved: '2026-10-25'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
+  note: 'NC SBE 2024-11-05 results (Election Results series): YADKIN SOIL AND WATER CONSERVATION DISTRICT SUPERVISOR -- Van Hemric (Nonpartisan) 16,802; Jerry Brown (Write-In) 34; Jesse Brown (Write-In) 17; Joel Wade Reece (Write-In) 12; Chris Hauser (Write-In) 10; Walter Smith (Write-In) 10; Barry Joe Cook (Write-In) 6; Bradley Billings (Write-In) 6; Jacob Craver (Write-In) 5. Winners are the top 1 by total votes. The board''s two remaining seats are appointed (G.S. 139-7) and are not modeled.'
+  retrieved: '2026-11-01'

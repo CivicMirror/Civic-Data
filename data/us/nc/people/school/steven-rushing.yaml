@@ -1,0 +1,18 @@
+id: ocd-person/1ddc3ce8-515e-51b8-a0ce-a12bd409f429
+name: Steven Rushing
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/charlotte-mecklenburg-school-board-district-3
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:charlotte-mecklenburg/school
+  office_id: charlotte-mecklenburg/school-board-district-3
+  party: Nonpartisan
+  ballot_name: Steven Rushing
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): CHARLOTTE-MECKLENBURG SCHOOLS BOARD OF EDUCATION DISTRICT 03 -- Gregory (Dee) Rankin (Nonpartisan) 27,756; Steven Rushing (Nonpartisan) 8,289. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

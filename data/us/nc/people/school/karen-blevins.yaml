@@ -1,0 +1,18 @@
+id: ocd-person/7e5b6606-2824-51b4-b66d-91c7e6e15e42
+name: Karen Blevins
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/madison-county-school-board-chair
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:madison-county/school
+  office_id: madison-county/school-board-chair
+  party: Democratic
+  ballot_name: Karen Blevins
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MADISON COUNTY BOARD OF EDUCATION CHAIR -- Karen Blevins (Democratic) 5,206; Melissa Sluder (Republican) 4,816. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

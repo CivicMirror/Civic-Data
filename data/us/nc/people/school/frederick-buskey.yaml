@@ -1,0 +1,18 @@
+id: ocd-person/8df2e1fb-4657-5564-82a9-8ea0200ca231
+name: Frederick Buskey
+identifiers: []
+candidacies:
+- contest_id: nc/2022-05-17/jackson-county-school-board-district-4
+  election_id: nc/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:jackson-county/school
+  office_id: jackson-county/school-board-district-4
+  party: Nonpartisan
+  ballot_name: Frederick Buskey
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_05_17/results_pct_20220517.zip
+  note: 'NC SBE 2022-05-17 results (Election Results series): JACKSON COUNTY BOARD OF EDUCATION DISTRICT 04 -- Kim Moore (Nonpartisan) 3,548; Wesley (Mac) McKnight (Nonpartisan) 1,964; Frederick Buskey (Nonpartisan) 1,114. Winners are the top 1 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

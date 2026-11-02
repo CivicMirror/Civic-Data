@@ -1,5 +1,3 @@
-# Minted from the NC State Board of Elections official general
-# election results (county pass, Civic-Data issue #172).
 id: ocd-person/cc142f22-9584-5576-b691-799576cb96a5
 name: Phyllis Michaux
 identifiers: []
@@ -11,6 +9,13 @@ candidacies:
   party: Democratic
   ballot_name: Phyllis Michaux
   status: active
+- contest_id: nc/2021-11-02/hickory-school-board-ward-1
+  election_id: nc/2021-11-02/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:hickory/school
+  office_id: hickory/school-board-ward-1
+  party: Nonpartisan
+  ballot_name: Phyllis Michaux
+  status: active
 verification:
   status: unverified
   pipeline: build_nc_county
@@ -18,3 +23,6 @@ sources:
 - url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_11_05/results_pct_20241105.zip
   note: 'North Carolina State Board of Elections, official precinct-level results file for the November 5, 2024 general election (results_pct_20241105.txt), aggregated across the county''s precincts: Catawba County Board Of Commissioners -- Austin Allran (REP) 53,881; Barbara Gale Beatty (REP) 48,434; Phyllis Michaux (DEM) 23,903; Geno Baker (DEM) 18,379.'
   retrieved: '2026-10-23'
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2021_11_02/results_pct_20211102.zip
+  note: 'NC SBE 2021-11-02 results (Election Results series): HICKORY PUBLIC SCHOOLS BOARD OF EDUCATION WARD 01 -- Amanda McGuire (Nonpartisan) 181; Phyllis Michaux (Nonpartisan) 49. Winners are the top 1 by total votes.'
+  retrieved: '2026-11-01'

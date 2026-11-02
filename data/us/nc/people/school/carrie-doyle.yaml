@@ -1,0 +1,18 @@
+id: ocd-person/fe8a662d-de4f-519e-9a4a-e58053e7cc5a
+name: Carrie Doyle
+identifiers: []
+candidacies:
+- contest_id: nc/2024-03-05/orange-county-school-board-at-large
+  election_id: nc/2024-03-05/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:orange-county/school
+  office_id: orange-county/school-board-at-large
+  party: Nonpartisan
+  ballot_name: Carrie Doyle
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2024_03_05/results_pct_20240305.zip
+  note: 'NC SBE 2024-03-05 results (Election Results series): ORANGE COUNTY SCHOOLS BOARD OF EDUCATION -- Carrie Doyle (Nonpartisan) 7,302; Wendy Padilla (Nonpartisan) 6,701; Jennifer Moore (Nonpartisan) 6,528; Bonnie Hauser (Nonpartisan) 6,046; Cindy Shriner (Nonpartisan) 5,774; Michael N. Johnson (Nonpartisan) 5,338; Kevin Alston, Jr. (Nonpartisan) 1,724. Winners are the top 3 by total votes. This nonpartisan school board election is decided at the primary; there is no November contest for this seat.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

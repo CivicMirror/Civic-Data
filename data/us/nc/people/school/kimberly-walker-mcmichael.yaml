@@ -1,0 +1,18 @@
+id: ocd-person/84b2ab05-db33-506e-be6a-d395e221fab7
+name: Kimberly Walker McMichael
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/rockingham-county-school-board-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:rockingham-county/school
+  office_id: rockingham-county/school-board-at-large
+  party: Republican
+  ballot_name: Kimberly Walker McMichael
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): ROCKINGHAM COUNTY BOARD OF EDUCATION AT-LARGE -- Kimberly Walker McMichael (Republican) 21,300; Paula Harvell Rakestraw (Republican) 19,241; Philip Butler (Republican) 19,167. Winners are the top 3 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools

@@ -1,0 +1,18 @@
+id: ocd-person/525441b1-4fbc-5812-bcd8-01cba1df6eaa
+name: Ken Benway
+identifiers: []
+candidacies:
+- contest_id: nc/2022-11-08/moore-county-school-board-member-at-large
+  election_id: nc/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:nc/school_district:moore-county/school
+  office_id: moore-county/school-board-member-at-large
+  party: Nonpartisan
+  ballot_name: Ken Benway
+  status: active
+sources:
+- url: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip
+  note: 'NC SBE 2022-11-08 results (Election Results series): MOORE COUNTY BOARD OF EDUCATION MEMBER AT-LARGE -- Pauline Bruno (Nonpartisan) 21,158; Ken Benway (Nonpartisan) 19,240; Robin Calcutt (Nonpartisan) 18,822; Rollie Sampson (Nonpartisan) 14,466. Winners are the top 2 by total votes.'
+  retrieved: '2026-11-01'
+verification:
+  status: unverified
+  pipeline: build_nc_schools
