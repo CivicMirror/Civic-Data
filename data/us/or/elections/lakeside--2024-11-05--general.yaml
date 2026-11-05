@@ -1,0 +1,34 @@
+# Built for issue #170 (Oregon master tracking).
+id: lakeside/2024-11-05/general
+name: 'Lakeside General Election'
+date: '2024-11-05'
+election_type: general
+status: certified
+contests:
+  - id: lakeside/2024-11-05/general/mayor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:lakeside/government
+    office_id: or-lakeside/mayor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/bb83d55f-f9c8-5242-a8c2-4f9025a41422
+      - ocd-person/87192f5d-ef62-5bec-9175-cb98f6324eb5
+      - ocd-person/d9872f5b-285a-5e7f-9ed6-42f4393ad607
+      - ocd-person/dbe14f7e-132c-5518-b7ef-d26b7668962a
+    result_status: certified
+    winners:
+      - person_id: ocd-person/bb83d55f-f9c8-5242-a8c2-4f9025a41422
+        name: Nikki Wood
+  - id: lakeside/2024-11-05/general/councilor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:lakeside/government
+    office_id: or-lakeside/councilor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/a2f88f0c-8f91-544c-8554-38cc006102f3
+    result_status: certified
+    winners:
+      - person_id: ocd-person/a2f88f0c-8f91-544c-8554-38cc006102f3
+        name: Elaine L. Armstrong
+sources:
+- url: https://co.coos.or.us/files/313e26a2c/November+5%2C+2024+certified_-_final_official_totals_report.pdf
+  note: 'Coos County Clerk, Certified - Final Official Totals Report, November 5, 2024 General Election (certified November 27, 2024), p. 4 -- read firsthand from the rendered report'
+  retrieved: '2026-10-25'

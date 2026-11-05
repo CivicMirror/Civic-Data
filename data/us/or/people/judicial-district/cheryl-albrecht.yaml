@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/a5fbed93-5b1b-5200-ae7b-9d82f5c37874
+name: Cheryl Albrecht
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-4-position-31
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-31
+  party: Nonpartisan
+  ballot_name: Cheryl Albrecht
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 4th District, Position 31: Cheryl Albrecht 99,067; miscellaneous write-ins 1,659.'
+  retrieved: '2026-10-23'

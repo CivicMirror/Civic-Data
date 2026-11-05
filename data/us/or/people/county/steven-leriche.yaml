@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/b6a3113b-b717-5571-a9d8-5e81bd934de1
+name: Steven Leriche
+identifiers: []
+candidacies:
+- contest_id: jefferson/2024-05-21/district-attorney
+  election_id: jefferson/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:jefferson/government
+  office_id: or-jefferson/district-attorney
+  party: Nonpartisan
+  ballot_name: Steven F Leriche
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Jefferson County: Steven F Leriche 3,467; miscellaneous write-ins 119. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/jefferson.aspx
+  note: 'Oregon Blue Book, Jefferson County page (Secretary of State): county officials list ''Dist. Atty. Steven Leriche''.'
+  retrieved: '2026-10-25'

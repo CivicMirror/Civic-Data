@@ -1,0 +1,30 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/4a9a4f9e-0e0a-5bc8-b0d1-a0897b22fdf5
+name: Kara Davis
+identifiers: []
+candidacies:
+- contest_id: gilliam/2022-05-17/district-attorney
+  election_id: gilliam/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:gilliam/government
+  office_id: or-gilliam/district-attorney
+  party: Nonpartisan
+  ballot_name: Kara Davis
+  status: active
+- contest_id: wasco/2024-05-21/district-attorney
+  election_id: wasco/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:wasco/government
+  office_id: or-wasco/district-attorney
+  party: Nonpartisan
+  ballot_name: Kara K Davis
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Gilliam County: Kara K Davis 449; miscellaneous write-ins 6. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/gilliam.aspx
+  note: 'Oregon Blue Book, Gilliam County page (Secretary of State): county officials list ''Dist. Atty. VACANT''.'
+  retrieved: '2026-10-25'

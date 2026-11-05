@@ -1,0 +1,26 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/2600ff82-bf57-5a5c-a5dd-99237f89f8aa
+name: Karen Brisbin
+identifiers: []
+candidacies:
+- contest_id: clackamas/2022-05-17/justice-of-the-peace
+  election_id: clackamas/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:clackamas/government
+  office_id: or-clackamas/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: Karen Brisbin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://dochub.clackamas.us/documents/drupal/92fdc2da-f437-4f61-b4f4-d089d9aab909
+  note: 'Clackamas County, Canvass Results Report, May 17, 2022 Primary Election, Official Results (run date 06/13/2022): Karen Brisbin 52,953; write-in lines as printed 478 and 157; cast votes 53,588; undervotes 52,850; overvotes 3.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/clackamas.aspx
+  note: 'Oregon Blue Book, Clackamas County page (Secretary of State): county officials list ''Justice of the Peace Karen Brisbin (2029)''. The Blue Book listing predates her January 1, 2026 retirement and is stale for the current holder.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/clackamas.aspx
+  note: 'Retired effective January 1, 2026 (Clackamas County elections release, November 10, 2025: filing opened ''upon notification of the planned retirement of Judge Karen Brisbin on January 1, 2026''); the membership ends on the retirement date. The seat was filled by gubernatorial appointment (Kathleen Rastetter, from 2026-01-01) ahead of the November 2026 election.'
+  retrieved: '2026-10-23'

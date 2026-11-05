@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/050ae009-d505-53e2-9071-4850aef43bb4
+name: Jon R Hill
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-27-position-1
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-27/judiciary
+  office_id: or-circuit-court-district-27/judge-position-1
+  party: Nonpartisan
+  ballot_name: Jonathan R Hill
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 27th District, Position 1: Jonathan R Hill 5,533; miscellaneous write-ins 149.'
+  retrieved: '2026-10-23'

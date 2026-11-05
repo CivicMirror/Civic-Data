@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/7ca277be-4002-5fb2-b8c0-aefb95d0a372
+name: Jacqueline L Alarcon
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/circuit-court-district-4-position-3
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-3
+  party: Nonpartisan
+  ballot_name: Jacqueline L Alarcon
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Circuit Court, 4th District, Position 3: Jacqueline L Alarcon 199,360; miscellaneous write-ins 4,018.'
+  retrieved: '2026-10-23'

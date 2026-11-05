@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/0f09807f-8291-5e42-a97e-835f07f4593a
+name: Mari G Trevino
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-27-position-2
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-27/judiciary
+  office_id: or-circuit-court-district-27/judge-position-2
+  party: Nonpartisan
+  ballot_name: Mari G Trevino
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 27th District, Position 2: Mari G Trevino 6,914; miscellaneous write-ins 80.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/ba70e532-21e1-5690-bbac-f35ba13c65e0
+name: Amanda Benjamin
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/circuit-court-district-17-position-3
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-17/judiciary
+  office_id: or-circuit-court-district-17/judge-position-3
+  party: Nonpartisan
+  ballot_name: Amanda Benjamin
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Circuit Court, 17th District, Position 3: Amanda Benjamin 15,802; miscellaneous write-ins 193.'
+  retrieved: '2026-10-23'

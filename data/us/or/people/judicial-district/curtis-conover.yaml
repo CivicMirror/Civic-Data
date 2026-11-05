@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/a74ccb25-04c3-52b3-b5f6-e850b0d4102a
+name: Curtis Conover
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-2-position-12
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-12
+  party: Nonpartisan
+  ballot_name: Robert C Conover
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 2nd District, Position 12: Robert C Conover 48,256; miscellaneous write-ins 684.'
+  retrieved: '2026-10-23'

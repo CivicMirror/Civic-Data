@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): Justice of the Peace
+# contest(s) from Union County's official results for this election.
+# Oregon nonpartisan judicial races are decided at the primary when a
+# candidate wins a majority; only races without a primary majority
+# reach the general election.
+id: union/2022-11-08/general
+name: Union County 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: union/2022-11-08/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:union/government
+  office_id: or-union/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/72edf246-3fe8-54c7-838f-05b623166b75
+  result_status: certified
+  winners:
+  - person_id: ocd-person/72edf246-3fe8-54c7-838f-05b623166b75
+    name: Rick Dall
+sources:
+- url: https://unioncountyor.gov/wp-content/uploads/2023/09/2022-11_Final-Precinct.pdf
+  note: 'Union County, Precinct Results Report -- November 2022 General Election (Final).'
+  retrieved: '2026-10-23'

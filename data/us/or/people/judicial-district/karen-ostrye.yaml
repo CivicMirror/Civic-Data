@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/a4e18949-bbf2-57ca-91f7-43465c4624a3
+name: Karen Ostrye
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-7-position-3
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-7/judiciary
+  office_id: or-circuit-court-district-7/judge-position-3
+  party: Nonpartisan
+  ballot_name: Karen Ostrye
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 7th District, Position 3: Karen Ostrye 12,024; miscellaneous write-ins 143.'
+  retrieved: '2026-10-23'

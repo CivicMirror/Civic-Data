@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/86dfa878-c3ac-5c93-b954-9b7c1a6a5389
+name: Douglas Marteeny
+identifiers: []
+candidacies:
+- contest_id: linn/2024-05-21/district-attorney
+  election_id: linn/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:linn/government
+  office_id: or-linn/district-attorney
+  party: Nonpartisan
+  ballot_name: Doug Marteeny
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Linn County: Doug Marteeny 17,920; miscellaneous write-ins 226. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/linn.aspx
+  note: 'Oregon Blue Book, Linn County page (Secretary of State): county officials list ''Dist. Atty. Douglas Marteeny''.'
+  retrieved: '2026-10-25'

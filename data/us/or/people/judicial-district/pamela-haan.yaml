@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/5d9eacf9-5047-5175-89ec-257ef392d61c
+name: Pamela L Haan
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/circuit-court-district-4-position-33
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-33
+  party: Nonpartisan
+  ballot_name: Pamela L Haan
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for Judge of the Circuit Court, 4th District, Position 33: Pamela L Haan 220,361; miscellaneous write-ins 4,113.'
+  retrieved: '2026-10-23'

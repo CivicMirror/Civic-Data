@@ -1,0 +1,359 @@
+# Oregon general election, November 8, 2022 -- statewide
+# contests are added one office at a time under the build
+# order; issue #170 (OR master tracking).
+id: or/2022-11-08/general
+name: Oregon 2022-11-08 general election
+date: '2022-11-08'
+election_type: general
+status: official
+contests:
+- id: or/2022-11-08/governor
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/governor
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f6a3b9f6-9e4d-5bc7-81b7-5e825fb9c111
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f6a3b9f6-9e4d-5bc7-81b7-5e825fb9c111
+    name: Tina Kotek
+- id: or/2022-11-08/labor-commissioner
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/executive
+  office_id: or/labor-commissioner
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/41c4ad58-052a-5f17-b2fb-ba4f0665f749
+  result_status: certified
+  winners:
+  - person_id: ocd-person/41c4ad58-052a-5f17-b2fb-ba4f0665f749
+    name: Christina Stephenson
+- id: or/2022-11-08/senate-district-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:3/legislature
+  office_id: or-senate-3/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d3a9a220-d414-53d1-bc61-50dab3885357
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d3a9a220-d414-53d1-bc61-50dab3885357
+    name: Jeff Golden
+- id: or/2022-11-08/senate-district-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:4/legislature
+  office_id: or-senate-4/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9bb0a730-6fc4-5533-b730-002c861f1b05
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9bb0a730-6fc4-5533-b730-002c861f1b05
+    name: Floyd Prozanski
+- id: or/2022-11-08/senate-district-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:6/legislature
+  office_id: or-senate-6/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f10baf07-18d8-5f66-895d-df696716e365
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f10baf07-18d8-5f66-895d-df696716e365
+    name: Cedric Hayden
+- id: or/2022-11-08/senate-district-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:7/legislature
+  office_id: or-senate-7/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/46abf91b-a6e3-530f-aedb-4669467eaf32
+  result_status: certified
+  winners:
+  - person_id: ocd-person/46abf91b-a6e3-530f-aedb-4669467eaf32
+    name: James Manning Jr.
+- id: or/2022-11-08/senate-district-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:8/legislature
+  office_id: or-senate-8/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2d801c74-1750-5951-a533-1e80872ece32
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2d801c74-1750-5951-a533-1e80872ece32
+    name: Sara Gelser Blouin
+- id: or/2022-11-08/senate-district-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:10/legislature
+  office_id: or-senate-10/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/06151350-a775-59fb-83bb-d09a5cee54c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/06151350-a775-59fb-83bb-d09a5cee54c4
+    name: Deb Patterson
+- id: or/2022-11-08/senate-district-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:11/legislature
+  office_id: or-senate-11/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d8a3ba81-fdaa-54dd-abc5-7a573bd6fc3d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d8a3ba81-fdaa-54dd-abc5-7a573bd6fc3d
+    name: Kim Thatcher
+- id: or/2022-11-08/senate-district-13
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:13/legislature
+  office_id: or-senate-13/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2ebff7f6-3d4e-51bd-b186-df29e7cdd9a5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2ebff7f6-3d4e-51bd-b186-df29e7cdd9a5
+    name: Aaron Woods
+- id: or/2022-11-08/senate-district-15
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:15/legislature
+  office_id: or-senate-15/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ed510264-ad44-5968-8cde-63118fc0929b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ed510264-ad44-5968-8cde-63118fc0929b
+    name: Janeen Sollman
+- id: or/2022-11-08/senate-district-16
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:16/legislature
+  office_id: or-senate-16/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2ac3a73b-79d7-5f3b-9122-c7e2bb4c3340
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2ac3a73b-79d7-5f3b-9122-c7e2bb4c3340
+    name: Suzanne Weber
+- id: or/2022-11-08/senate-district-17
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:17/legislature
+  office_id: or-senate-17/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6a07aa8d-2a15-562c-863d-ff1c8e1ac2cf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6a07aa8d-2a15-562c-863d-ff1c8e1ac2cf
+    name: Elizabeth Steiner
+- id: or/2022-11-08/senate-district-18
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:18/legislature
+  office_id: or-senate-18/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ef936dd3-80d0-5ed3-a02a-96859e5c49ca
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ef936dd3-80d0-5ed3-a02a-96859e5c49ca
+    name: Wlnsvey Campos
+- id: or/2022-11-08/senate-district-19
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:19/legislature
+  office_id: or-senate-19/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a12b8108-7ac3-58b7-8317-52e90d83571a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a12b8108-7ac3-58b7-8317-52e90d83571a
+    name: Rob Wagner
+- id: or/2022-11-08/senate-district-20
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:20/legislature
+  office_id: or-senate-20/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d73ca819-fbfa-57da-a732-da179bd457f0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d73ca819-fbfa-57da-a732-da179bd457f0
+    name: Mark Meek
+- id: or/2022-11-08/senate-district-24
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:24/legislature
+  office_id: or-senate-24/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c0bf476c-e432-556b-ab32-df3b617aa19b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c0bf476c-e432-556b-ab32-df3b617aa19b
+    name: Kayse Jama
+- id: or/2022-11-08/senate-district-26
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldu:26/legislature
+  office_id: or-senate-26/state-senator
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/54879f63-0b05-5454-9ad6-065335b31e29
+  result_status: certified
+  winners:
+  - person_id: ocd-person/54879f63-0b05-5454-9ad6-065335b31e29
+    name: Daniel Bonham
+- id: or/2022-11-08/court-of-appeals-position-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-10
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1085f8f7-f75d-5c55-9517-dfa2726454ec
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1085f8f7-f75d-5c55-9517-dfa2726454ec
+    name: Kristina Hellman
+- id: or/2022-11-08/court-of-appeals-position-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-11
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/adda3990-f1be-55e8-b485-ce5fe8f3aa0b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/adda3990-f1be-55e8-b485-ce5fe8f3aa0b
+    name: Anna Joyce
+
+
+- id: or/2022-11-08/circuit-court-district-2-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/8002d7e0-3c7b-536c-9773-947e07fc1bfe
+  result_status: certified
+  winners:
+  - person_id: ocd-person/8002d7e0-3c7b-536c-9773-947e07fc1bfe
+    name: Michelle Bassi
+- id: or/2022-11-08/circuit-court-district-2-position-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-11
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86153376-4edc-554e-a687-0fb85e50a3c7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86153376-4edc-554e-a687-0fb85e50a3c7
+    name: Beatrice Grace
+- id: or/2022-11-08/circuit-court-district-3-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/40b4ff76-47b0-5ae4-9784-c9a9e2ed93ca
+  result_status: certified
+  winners:
+  - person_id: ocd-person/40b4ff76-47b0-5ae4-9784-c9a9e2ed93ca
+    name: Jennifer K Gardiner
+- id: or/2022-11-08/circuit-court-district-3-position-14
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-14
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ab71e93e-6ed3-588e-9506-2d4b575434ae
+  - ocd-person/dd0a8261-2c73-51d3-b9ed-76c87f9e7dcf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ab71e93e-6ed3-588e-9506-2d4b575434ae
+    name: Amy Queen
+- id: or/2022-11-08/circuit-court-district-4-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7ca277be-4002-5fb2-b8c0-aefb95d0a372
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7ca277be-4002-5fb2-b8c0-aefb95d0a372
+    name: Jacqueline L Alarcon
+- id: or/2022-11-08/circuit-court-district-4-position-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/005cd9bc-c1bb-5cb7-8c10-f7c6e0506ad8
+  result_status: certified
+  winners:
+  - person_id: ocd-person/005cd9bc-c1bb-5cb7-8c10-f7c6e0506ad8
+    name: Celia Howes
+- id: or/2022-11-08/circuit-court-district-4-position-37
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-37
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1428eef4-8d60-56eb-8f03-6a16e3babb7a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1428eef4-8d60-56eb-8f03-6a16e3babb7a
+    name: Jenna R Plank
+- id: or/2022-11-08/circuit-court-district-17-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-17/judiciary
+  office_id: or-circuit-court-district-17/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ba70e532-21e1-5690-bbac-f35ba13c65e0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ba70e532-21e1-5690-bbac-f35ba13c65e0
+    name: Amanda Benjamin
+- id: or/2022-11-08/circuit-court-district-18-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-18/judiciary
+  office_id: or-circuit-court-district-18/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0879b656-3573-58ba-8f5f-b642355c1891
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0879b656-3573-58ba-8f5f-b642355c1891
+    name: Kirk Wintermute
+- id: or/2022-11-08/circuit-court-district-19-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-19/judiciary
+  office_id: or-circuit-court-district-19/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/489b4ae5-6406-5aa5-b1c1-3044c5c2fd47
+  result_status: certified
+  winners:
+  - person_id: ocd-person/489b4ae5-6406-5aa5-b1c1-3044c5c2fd47
+    name: Denise E Keppinger
+- id: or/2022-11-08/circuit-court-district-20-position-13
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-13
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1e9f3b9b-7b4d-5bee-ace3-c2e2ee3dc191
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1e9f3b9b-7b4d-5bee-ace3-c2e2ee3dc191
+    name: Michele C Rini
+- id: or/2022-11-08/circuit-court-district-22-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-22/judiciary
+  office_id: or-circuit-court-district-22/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/0204f86a-b317-5514-82e0-1b4705e64e23
+  result_status: certified
+  winners:
+  - person_id: ocd-person/0204f86a-b317-5514-82e0-1b4705e64e23
+    name: Wade L Whiting
+- id: or/2022-11-08/circuit-court-district-23-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-23/judiciary
+  office_id: or-circuit-court-district-23/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ec4b0ece-3b24-566a-a999-8f89835a8997
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ec4b0ece-3b24-566a-a999-8f89835a8997
+    name: Keith B Stein
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Elections Division, November 8, 2022 General Election
+    Abstract of Votes (certified county-by-county abstract). For Governor: Tina Kotek
+    (D) 917,074 votes, marked ** as elected; Christine Drazan (R) 850,347; Betsy Johnson
+    (NAV) 168,431; Donice Noelle Smith (C) 8,051; R Leon Noble (L) 6,867; miscellaneous
+    write-ins 2,113. Kotek won by a plurality of 66,727 votes. Party labels are as
+    printed in the abstract: (D) Democratic, (R) Republican, (NAV) Nonaffiliated,
+    (C) Constitution, (L) Libertarian. Kotek was sworn in on January 9, 2023; the
+    November 3, 2026 general election decides the next term.'
+  retrieved: '2026-10-23'
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Elections Division, November 8, 2022 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For Commissioner of the Bureau of Labor and Industries (a nonpartisan office; the abstract prints no party labels for this contest): Christina E Stephenson 916,455 votes, marked ** as elected; Cheri Helt 582,609; miscellaneous write-ins 9,826. Stephenson won by a plurality of 333,846 votes. She assumed office on January 2, 2023.'
+  retrieved: '2026-10-23'
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Legislative contests (issue #170, step 3): the same certified abstract carries the State Senate summary table -- Districts 3, 4, 6, 7, 8, 10, 11, 13, 15, 16, 17, 19, 20, 24, 26 on regular four-year terms, plus District 18 on a two-year term created by redistricting (the seat returned to the ballot in 2024, when Wlnsvey Campos was re-elected). County-by-county rows were summed and agree with the printed district totals; candidates marked ** are recorded as elected.'
+  retrieved: '2026-10-23'

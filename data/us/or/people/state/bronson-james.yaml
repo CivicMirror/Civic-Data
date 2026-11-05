@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/f6ae03ff-c69b-5c9a-a9ba-6a787822c458
+name: Bronson James
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/supreme-court-position-7
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-7
+  party: Nonpartisan
+  ballot_name: Bronson D James
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for Judge of the Supreme Court, Position 7: Bronson D James 1,212,011; miscellaneous write-ins 23,702.'
+  retrieved: '2026-10-23'

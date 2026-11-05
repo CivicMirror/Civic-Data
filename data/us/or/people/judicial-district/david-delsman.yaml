@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/a3bc6585-7df7-50d8-bb53-b86f7d7a2793
+name: David Delsman
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-23-position-2
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-23/judiciary
+  office_id: or-circuit-court-district-23/judge-position-2
+  party: Nonpartisan
+  ballot_name: David Delsman
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 23rd District, Position 2: David Delsman 23,796; miscellaneous write-ins 394.'
+  retrieved: '2026-10-23'

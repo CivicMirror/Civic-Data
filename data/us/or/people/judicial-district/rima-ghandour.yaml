@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/629c917b-dbf6-5594-9674-d7d110e1cb9c
+name: Rima Ghandour
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/circuit-court-district-4-position-21
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-21
+  party: Nonpartisan
+  ballot_name: Rima Ghandour
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election: for Judge of the Circuit Court, 4th District, Position 21: Rima Ghandour 222,041; miscellaneous write-ins 4,372.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/d0c509a9-b2b2-56b4-8d23-37a6e3b8f5d7
+name: Wade McLeod
+identifiers: []
+candidacies:
+- contest_id: sherman/2022-05-17/district-attorney
+  election_id: sherman/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:sherman/government
+  office_id: or-sherman/district-attorney
+  party: Nonpartisan
+  ballot_name: Wade M McLeod
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Sherman County: Wade M McLeod 491; miscellaneous write-ins 6. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/sherman.aspx
+  note: 'Oregon Blue Book, Sherman County page (Secretary of State): county officials list ''Dist. Atty. Wade McLeod''.'
+  retrieved: '2026-10-25'

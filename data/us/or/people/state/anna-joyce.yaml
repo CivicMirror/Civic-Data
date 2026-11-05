@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/adda3990-f1be-55e8-b485-ce5fe8f3aa0b
+name: Anna Joyce
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/court-of-appeals-position-11
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-11
+  party: Nonpartisan
+  ballot_name: Anna M Joyce
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Court of Appeals, Position 11: Anna M Joyce 1,042,573; miscellaneous write-ins 21,843.'
+  retrieved: '2026-10-23'

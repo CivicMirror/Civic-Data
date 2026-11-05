@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/e7b07beb-8b0f-50c5-b2ce-c522ce79e38c
+name: Brett A Pruess
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-15-position-5
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-15/judiciary
+  office_id: or-circuit-court-district-15/judge-position-5
+  party: Nonpartisan
+  ballot_name: Brett A Pruess
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 15th District, Position 5: Brett A Pruess 14,519; miscellaneous write-ins 137.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,9 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-organization/9970f8d6-0f5a-5cba-b6e7-59f2a03ba203
+name: Prescott City Council
+jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:prescott/government
+identifiers: []
+sources:
+- url: https://sos.oregon.gov/blue-book/government/Pages/prescott.aspx
+  note: 'Oregon Blue Book, Prescott city page (would not render in this pass; structurally carries only a contact block and a mayor line): BUILT FAIL-CLOSED: the Secretary of State''s Blue Book page for Prescott would not render for reading in this pass, and Blue Book city pages in any case print only a contact block and a single ''Mayor:'' line -- no councilor roster -- so NO memberships are built. The structure (a mayor plus four numbered Council Positions) rests on the factory lead, consistent with Columbia County ballot coverage of the November 3, 2026 election (Positions 1 and 3 and the mayor on the ballot; non-official corroboration). The factory lead names Mayor Laurie Blair and Councilors Frank Oliver (Position 1), Vickey Romph (Position 2), Michael Blair (Position 3) and Michael Von Pinnon (Position 4); none is minted. Research item: a Columbia County Clerk certified-results pull is the route to verify these names.'
+  retrieved: '2026-10-25'

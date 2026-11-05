@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: wheeler/2024-05-21/primary
+name: Wheeler County 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: wheeler/2024-05-21/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:wheeler/government
+  office_id: or-wheeler/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dd9d8516-0e13-59f4-814f-a2393a36a17b
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dd9d8516-0e13-59f4-814f-a2393a36a17b
+    name: Gretchen Ladd Dobler
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election.'
+  retrieved: '2026-10-25'

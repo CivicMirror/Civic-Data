@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/e3b3e450-4a06-5413-82c1-bb0b7086f70c
+name: Jenna Wallace
+identifiers: []
+candidacies:
+- contest_id: lincoln/2024-05-21/district-attorney
+  election_id: lincoln/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:lincoln/government
+  office_id: or-lincoln/district-attorney
+  party: Nonpartisan
+  ballot_name: Jenna Wallace
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Lincoln County: Jenna Wallace 7,609; Kathryn K Benfield 6,150; miscellaneous write-ins 36. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/lincoln.aspx
+  note: 'Oregon Blue Book, Lincoln County page (Secretary of State): county officials list ''Dist. Atty. Jenna Wallace''.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/8b699e34-35e6-54f2-b65f-33d499feee2e
+name: Monica Curtiss
+identifiers: []
+candidacies:
+  - contest_id: helix/2022-11-08/general/councilor-position-4
+    election_id: helix/2022-11-08/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:helix/government
+    office_id: or-helix/councilor-position-4
+    party: null
+    ballot_name: 'Monica Curtiss'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: https://www.co.umatilla.or.us/fileadmin/user_upload/Elections/Results/General/2022/November/results_11-8_11pm.pdf
+  note: 'Umatilla County Elections, official summary of the November 8, 2022 general election (Helix contests)'
+  retrieved: '2026-10-25'

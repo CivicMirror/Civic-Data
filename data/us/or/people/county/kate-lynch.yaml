@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/d750eed4-c274-5794-af1c-d0e6f216bd9c
+name: Kate Lynch
+identifiers: []
+candidacies:
+- contest_id: yamhill/2024-05-21/district-attorney
+  election_id: yamhill/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:yamhill/government
+  office_id: or-yamhill/district-attorney
+  party: Nonpartisan
+  ballot_name: Kate Lynch
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for District Attorney, Yamhill County: Kate Lynch 17,506; miscellaneous write-ins 143. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/yamhill.aspx
+  note: 'Oregon Blue Book, Yamhill County page (Secretary of State): county officials list ''Dist. Atty. Kate Lynch''.'
+  retrieved: '2026-10-25'

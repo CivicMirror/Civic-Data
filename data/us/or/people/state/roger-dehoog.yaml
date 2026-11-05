@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/1c21b495-6c5d-5158-a780-066ca5ea8e30
+name: Roger DeHoog
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/supreme-court-position-6
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-6
+  party: Nonpartisan
+  ballot_name: Roger J DeHoog
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Supreme Court, Position 6: Roger J DeHoog 613,950; miscellaneous write-ins 11,515.'
+  retrieved: '2026-10-23'

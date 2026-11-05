@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: klamath/2024-11-05/general
+name: Klamath County 2024-11-05 general election
+date: '2024-11-05'
+election_type: general
+status: official
+contests:
+- id: klamath/2024-11-05/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:klamath/government
+  office_id: or-klamath/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/f39cb0b5-9a5c-5264-83f0-6fb68888db1e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/f39cb0b5-9a5c-5264-83f0-6fb68888db1e
+    name: David Schutt
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Abstract of Votes, November 5, 2024 General Election.'
+  retrieved: '2026-10-25'

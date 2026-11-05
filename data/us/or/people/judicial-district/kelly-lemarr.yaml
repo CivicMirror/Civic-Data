@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/b471664c-6bbf-588f-b3a2-5a9f82622b9a
+name: Kelly D Lemarr
+identifiers: []
+candidacies:
+- contest_id: or/2020-11-03/circuit-court-district-20-position-5
+  election_id: or/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-5
+  party: Nonpartisan
+  ballot_name: Kelly D Lemarr
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735450
+  note: 'Oregon Secretary of State, Abstract of Votes, November 3, 2020 General Election: for Judge of the Circuit Court, 20th District, Position 5: Kelly D Lemarr 192,504; miscellaneous write-ins 3,709.'
+  retrieved: '2026-10-23'

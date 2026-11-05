@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/3213c8be-1200-59a3-87ed-bd158576cddd
+name: Kelly Skye
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/circuit-court-district-4-position-17
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-17
+  party: Nonpartisan
+  ballot_name: Kelly Skye
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Circuit Court, 4th District, Position 17: Kelly Skye 105,141; miscellaneous write-ins 1,407.'
+  retrieved: '2026-10-23'

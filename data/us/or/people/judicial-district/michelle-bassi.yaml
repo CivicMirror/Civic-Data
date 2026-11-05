@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/8002d7e0-3c7b-536c-9773-947e07fc1bfe
+name: Michelle Bassi
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/circuit-court-district-2-position-2
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-2
+  party: Nonpartisan
+  ballot_name: Michelle Bassi
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Circuit Court, 2nd District, Position 2: Michelle Bassi 91,353; miscellaneous write-ins 2,050.'
+  retrieved: '2026-10-23'

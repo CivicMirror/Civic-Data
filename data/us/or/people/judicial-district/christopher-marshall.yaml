@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/dd8c8ce9-b306-55d7-8091-2f81318d18cf
+name: Christopher J Marshall
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-4-position-5
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-5
+  party: Nonpartisan
+  ballot_name: Christopher J Marshall
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 4th District, Position 5: Christopher J Marshall 153,929; miscellaneous write-ins 1,820.'
+  retrieved: '2026-10-23'

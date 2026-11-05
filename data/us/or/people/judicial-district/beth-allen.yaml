@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/0df80b61-a83b-52cc-9258-03a77f40bf12
+name: Beth Allen
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-4-position-34
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-34
+  party: Nonpartisan
+  ballot_name: Beth Allen
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 4th District, Position 34: Beth Allen 151,552; miscellaneous write-ins 1,461.'
+  retrieved: '2026-10-23'

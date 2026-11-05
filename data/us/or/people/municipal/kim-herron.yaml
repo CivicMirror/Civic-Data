@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/e70eda0d-e2ee-518c-ae49-a63325199f4b
+name: Kim Herron
+identifiers: []
+candidacies:
+  - contest_id: helix/2022-11-08/general/mayor
+    election_id: helix/2022-11-08/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:helix/government
+    office_id: or-helix/mayor
+    party: null
+    ballot_name: 'Kim Herron'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: https://www.co.umatilla.or.us/fileadmin/user_upload/Elections/Results/General/2022/November/results_11-8_11pm.pdf
+  note: 'Umatilla County Elections, official summary of the November 8, 2022 general election (Helix contests)'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Oregon Legislative Assembly -- issue #170 (OR master tracking).
+id: ocd-person/4765456d-4341-5b9c-838f-fb91b0e1e531
+name: John Lively
+identifiers: []
+candidacies:
+- contest_id: or/2024-11-05/house-district-7
+  election_id: or/2024-11-05/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/sldl:7/legislature
+  office_id: or-house-7/state-representative
+  party: Democratic
+  ballot_name: John Lively
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_legislative
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735458
+  note: 'Oregon Secretary of State, Elections Division, November 5, 2024 General Election Abstract of Votes (certified county-by-county abstract), published through the Oregon State Archives records system and linked from the Secretary of State''s Election Results & History page. For State Representative, District 7: Cory Burket (R) 14,888; John Lively (D) 18,868 votes, marked ** as elected; miscellaneous write-ins 59. John Lively won by a plurality of 3,980 votes. Party labels are as printed in the abstract: (R) Republican, (D) Democratic.'
+  retrieved: '2026-10-23'

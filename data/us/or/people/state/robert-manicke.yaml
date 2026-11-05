@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/d8a195cb-371a-5148-855a-d167e156a920
+name: Robert Manicke
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/tax-court
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-tax-court/judge
+  party: Nonpartisan
+  ballot_name: Robert Manicke
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Oregon Tax Court, the single judgeship: Robert Manicke 566,517; miscellaneous write-ins 6,653.'
+  retrieved: '2026-10-23'

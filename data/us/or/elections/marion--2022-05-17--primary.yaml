@@ -1,0 +1,38 @@
+# Built for issue #170 (Oregon master tracking): Justice of the Peace
+# contest(s) from Marion County's official results for this election.
+# Oregon nonpartisan judicial races are decided at the primary when a
+# candidate wins a majority; only races without a primary majority
+# reach the general election.
+id: marion/2022-05-17/primary
+name: Marion County 2022-05-17 primary election
+date: '2022-05-17'
+election_type: primary
+status: official
+contests:
+- id: marion/2022-05-17/justice-of-the-peace
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:marion/government
+  office_id: or-marion/justice-of-the-peace
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/313b1125-3a6e-50e6-b17f-6f5e495a18af
+  result_status: certified
+  winners:
+  - person_id: ocd-person/313b1125-3a6e-50e6-b17f-6f5e495a18af
+    name: Justin Kidd
+- id: marion/2022-05-17/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:marion/government
+  office_id: or-marion/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c64d3dee-a837-56f4-b21c-e390d6d094d9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c64d3dee-a837-56f4-b21c-e390d6d094d9
+    name: Paige Clarkson
+sources:
+- url: https://www.co.marion.or.us/CO/elections/Results/Documents/20220517/Cumulative%20Results-6-8-2022%2003-13-42%20PM.pdf
+  note: 'Marion County, Cumulative Results -- May 17, 2022 Primary Election (final published cumulative results, June 8, 2022).'
+  retrieved: '2026-10-23'
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/9f953e52-3e24-5160-8cf6-7d8b70f0bec0
+name: Scott Shorr
+identifiers: []
+candidacies:
+- contest_id: or/2022-05-17/court-of-appeals-position-5
+  election_id: or/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-5
+  party: Nonpartisan
+  ballot_name: Scott A Shorr
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for Judge of the Court of Appeals, Position 5: Scott A Shorr 611,050; miscellaneous write-ins 10,105.'
+  retrieved: '2026-10-23'

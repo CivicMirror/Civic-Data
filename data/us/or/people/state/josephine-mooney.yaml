@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/41d1c614-5f8b-5c79-9741-fc23b400f04c
+name: Josephine Mooney
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/court-of-appeals-position-1
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-1
+  party: Nonpartisan
+  ballot_name: Josephine H Mooney
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Court of Appeals, Position 1: Josephine H Mooney 806,796; miscellaneous write-ins 10,680.'
+  retrieved: '2026-10-23'

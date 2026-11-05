@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/5ba1e5fc-8d21-5213-a238-92c2281b042e
+name: Andrew E Combs
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-15-position-2
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-15/judiciary
+  office_id: or-circuit-court-district-15/judge-position-2
+  party: Nonpartisan
+  ballot_name: Andrew E Combs
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 15th District, Position 2: Andrew E Combs 14,360; miscellaneous write-ins 135.'
+  retrieved: '2026-10-23'

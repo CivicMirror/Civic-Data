@@ -1,0 +1,664 @@
+# Built for issue #170 (Oregon master tracking): judicial contests from the
+# certified Abstract of Votes. Oregon nonpartisan judicial races are decided
+# at the primary when a candidate wins a majority; only races without a
+# primary majority (or with a canceled primary) reach the general election.
+id: or/2024-05-21/primary
+name: Oregon 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: or/2024-05-21/court-of-appeals-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a79b0df3-8abb-5c6b-836f-8c458c7b73af
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a79b0df3-8abb-5c6b-836f-8c458c7b73af
+    name: Megan Jacquot
+- id: or/2024-05-21/court-of-appeals-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/9df8cc17-0d3f-56aa-82a7-9e94b8bf13be
+  result_status: certified
+  winners:
+  - person_id: ocd-person/9df8cc17-0d3f-56aa-82a7-9e94b8bf13be
+    name: Robyn Aoyagi
+- id: or/2024-05-21/court-of-appeals-position-6
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-6
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4c4fbc83-e593-5d87-8abb-22a2fa0b2e83
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4c4fbc83-e593-5d87-8abb-22a2fa0b2e83
+    name: James Egan
+- id: or/2024-05-21/court-of-appeals-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/05e1d238-cdb4-54ab-bb2a-3b9a7e0b042f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/05e1d238-cdb4-54ab-bb2a-3b9a7e0b042f
+    name: Steven Powers
+- id: or/2024-05-21/supreme-court-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e36cf490-11f1-5477-97a2-13a8d07b1bae
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e36cf490-11f1-5477-97a2-13a8d07b1bae
+    name: Rebecca Duncan
+- id: or/2024-05-21/supreme-court-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/4682ddb6-861d-5dd1-ac54-818e197e2afa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/4682ddb6-861d-5dd1-ac54-818e197e2afa
+    name: Meagan Flynn
+- id: or/2024-05-21/supreme-court-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-supreme-court/justice-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/44c39ae8-38fe-5b05-95e7-e35f15b487f0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/44c39ae8-38fe-5b05-95e7-e35f15b487f0
+    name: Aruna Masih
+- id: or/2024-05-21/tax-court
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-tax-court/judge
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d8a195cb-371a-5148-855a-d167e156a920
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d8a195cb-371a-5148-855a-d167e156a920
+    name: Robert Manicke
+- id: or/2024-05-21/circuit-court-district-1-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-1/judiciary
+  office_id: or-circuit-court-district-1/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e978e914-729c-5116-9058-3d6e1ee79895
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e978e914-729c-5116-9058-3d6e1ee79895
+    name: Laura Cromwell
+- id: or/2024-05-21/circuit-court-district-1-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-1/judiciary
+  office_id: or-circuit-court-district-1/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/6c2158fe-f442-58ed-8767-8935ab6ac028
+  result_status: certified
+  winners:
+  - person_id: ocd-person/6c2158fe-f442-58ed-8767-8935ab6ac028
+    name: Christine K Herbert
+- id: or/2024-05-21/circuit-court-district-1-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-1/judiciary
+  office_id: or-circuit-court-district-1/judge-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86af23a1-f9f0-5d02-866a-37cc8dbc9306
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86af23a1-f9f0-5d02-866a-37cc8dbc9306
+    name: Ben M Bloom
+- id: or/2024-05-21/circuit-court-district-1-position-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-1/judiciary
+  office_id: or-circuit-court-district-1/judge-position-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/14c67c32-503f-53c0-a295-74b23e33dba1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/14c67c32-503f-53c0-a295-74b23e33dba1
+    name: David J Orr
+- id: or/2024-05-21/circuit-court-district-2-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/93b85b2a-eedc-5df0-b569-f946b2d18c96
+  result_status: certified
+  winners:
+  - person_id: ocd-person/93b85b2a-eedc-5df0-b569-f946b2d18c96
+    name: Debra E Velure
+- id: or/2024-05-21/circuit-court-district-2-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d8e3d7e2-9841-5445-b187-c334e77df176
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d8e3d7e2-9841-5445-b187-c334e77df176
+    name: Jay A McAlpin
+- id: or/2024-05-21/circuit-court-district-2-position-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/86675a27-de5e-51c6-b762-30a2c10c732f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/86675a27-de5e-51c6-b762-30a2c10c732f
+    name: Valeri L Love
+- id: or/2024-05-21/circuit-court-district-2-position-12
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-12
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a74ccb25-04c3-52b3-b5f6-e850b0d4102a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a74ccb25-04c3-52b3-b5f6-e850b0d4102a
+    name: Curtis Conover
+- id: or/2024-05-21/circuit-court-district-2-position-14
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-2/judiciary
+  office_id: or-circuit-court-district-2/judge-position-14
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2c5b6b35-e5fc-5cc9-ac85-ede48fc41add
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2c5b6b35-e5fc-5cc9-ac85-ede48fc41add
+    name: Debra K Vogt
+- id: or/2024-05-21/circuit-court-district-3-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/fcffb5b9-5584-565b-af45-2faa4d18868f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/fcffb5b9-5584-565b-af45-2faa4d18868f
+    name: Daniel Wren
+- id: or/2024-05-21/circuit-court-district-3-position-8
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-8
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/16de3a15-f1d3-5b22-8c59-c6e317a442ab
+  result_status: certified
+  winners:
+  - person_id: ocd-person/16de3a15-f1d3-5b22-8c59-c6e317a442ab
+    name: Natasha A Zimmerman
+- id: or/2024-05-21/circuit-court-district-3-position-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-10
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/da7c4e2a-0722-5630-97af-715c85bd58e0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/da7c4e2a-0722-5630-97af-715c85bd58e0
+    name: Lindsay R Partridge
+- id: or/2024-05-21/circuit-court-district-3-position-12
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-12
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/1958947b-f3dc-5aee-996e-beac1ecb4c17
+  result_status: certified
+  winners:
+  - person_id: ocd-person/1958947b-f3dc-5aee-996e-beac1ecb4c17
+    name: Courtland Geyer
+- id: or/2024-05-21/circuit-court-district-4-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/428b08d5-d66e-536c-82bf-1bfbe89bd2fa
+  result_status: certified
+  winners:
+  - person_id: ocd-person/428b08d5-d66e-536c-82bf-1bfbe89bd2fa
+    name: Shelley D Russell
+- id: or/2024-05-21/circuit-court-district-4-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7f16a34d-e2b6-518a-a03a-ba7a1efe2e34
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7f16a34d-e2b6-518a-a03a-ba7a1efe2e34
+    name: Andrew M Lavin
+- id: or/2024-05-21/circuit-court-district-4-position-10
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-10
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e8d0769b-fa31-5dbd-a107-1b0a73dba36c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e8d0769b-fa31-5dbd-a107-1b0a73dba36c
+    name: Katharine von Ter Stegge
+- id: or/2024-05-21/circuit-court-district-4-position-15
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-15
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/28309353-55d3-5943-b156-fc55e256e4d5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/28309353-55d3-5943-b156-fc55e256e4d5
+    name: Christopher A Ramras
+- id: or/2024-05-21/circuit-court-district-4-position-16
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-16
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/68324e0c-9d31-5f82-88d8-8ecdd11945bd
+  result_status: certified
+  winners:
+  - person_id: ocd-person/68324e0c-9d31-5f82-88d8-8ecdd11945bd
+    name: Michael J Riedel
+- id: or/2024-05-21/circuit-court-district-4-position-23
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-23
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/de45352c-17b5-5062-be6b-d9f503f287f5
+  result_status: certified
+  winners:
+  - person_id: ocd-person/de45352c-17b5-5062-be6b-d9f503f287f5
+    name: Melvin Oden-Orr
+- id: or/2024-05-21/circuit-court-district-4-position-27
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-27
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/30c85904-9971-54ff-a937-43bb13f5161f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/30c85904-9971-54ff-a937-43bb13f5161f
+    name: Patricia L McGuire
+- id: or/2024-05-21/circuit-court-district-4-position-28
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-28
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c3d224b9-ed57-5962-ac2b-58cd021c1290
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c3d224b9-ed57-5962-ac2b-58cd021c1290
+    name: Judith H Matarazzo
+- id: or/2024-05-21/circuit-court-district-4-position-29
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-29
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/49fc9233-7372-5e04-b302-5ae2c616d174
+  result_status: certified
+  winners:
+  - person_id: ocd-person/49fc9233-7372-5e04-b302-5ae2c616d174
+    name: Christine A Martin
+- id: or/2024-05-21/circuit-court-district-4-position-30
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-30
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ef06da76-6e9f-5bcd-8a55-791cdf992602
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ef06da76-6e9f-5bcd-8a55-791cdf992602
+    name: Benjamin N Souede
+- id: or/2024-05-21/circuit-court-district-4-position-31
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-31
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/a5fbed93-5b1b-5200-ae7b-9d82f5c37874
+  result_status: certified
+  winners:
+  - person_id: ocd-person/a5fbed93-5b1b-5200-ae7b-9d82f5c37874
+    name: Cheryl Albrecht
+- id: or/2024-05-21/circuit-court-district-4-position-32
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-32
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d67793c7-4cd1-57e7-8730-eed77171e98d
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d67793c7-4cd1-57e7-8730-eed77171e98d
+    name: Xiomara Torres
+- id: or/2024-05-21/circuit-court-district-5-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/18a03438-f484-5903-8555-30ca5228bc4c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/18a03438-f484-5903-8555-30ca5228bc4c
+    name: Jeffrey S Jones
+- id: or/2024-05-21/circuit-court-district-5-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/16ccd522-f927-5a90-8d38-fcb56288ec27
+  result_status: certified
+  winners:
+  - person_id: ocd-person/16ccd522-f927-5a90-8d38-fcb56288ec27
+    name: Ann M Lininger
+- id: or/2024-05-21/circuit-court-district-5-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/cd17cc7e-8205-5778-8f87-f156b5c3706e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/cd17cc7e-8205-5778-8f87-f156b5c3706e
+    name: Michael C Wetzel
+- id: or/2024-05-21/circuit-court-district-5-position-7
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-7
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5e43ffc8-692c-5425-8ce3-cd8bfe1967c7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5e43ffc8-692c-5425-8ce3-cd8bfe1967c7
+    name: Todd L Van Rysselberghe
+- id: or/2024-05-21/circuit-court-district-5-position-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7e937af5-aa1d-5629-883d-7102f28e6cc7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7e937af5-aa1d-5629-883d-7102f28e6cc7
+    name: Ulanda L Watkins
+- id: or/2024-05-21/circuit-court-district-5-position-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-5/judiciary
+  office_id: or-circuit-court-district-5/judge-position-11
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d10975da-ad37-57c7-8e63-ec3427ca65af
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d10975da-ad37-57c7-8e63-ec3427ca65af
+    name: Susie L Norby
+- id: or/2024-05-21/circuit-court-district-6-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-6/judiciary
+  office_id: or-circuit-court-district-6/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5ef5ff06-ae05-51c9-8876-58f2d38ec35f
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5ef5ff06-ae05-51c9-8876-58f2d38ec35f
+    name: Robert W Collins
+- id: or/2024-05-21/circuit-court-district-6-position-4
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-6/judiciary
+  office_id: or-circuit-court-district-6/judge-position-4
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3e23b982-18d2-5d07-92af-8214072c2ccf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3e23b982-18d2-5d07-92af-8214072c2ccf
+    name: Eva J Temple
+- id: or/2024-05-21/circuit-court-district-7-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-7/judiciary
+  office_id: or-circuit-court-district-7/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3ee78835-1e7e-5590-8751-c88dcb1493c4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3ee78835-1e7e-5590-8751-c88dcb1493c4
+    name: John A Olson
+- id: or/2024-05-21/circuit-court-district-9-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-9/judiciary
+  office_id: or-circuit-court-district-9/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/40f0c0e6-e88e-5a6a-8f0b-c1e1a4444667
+  result_status: certified
+  winners:
+  - person_id: ocd-person/40f0c0e6-e88e-5a6a-8f0b-c1e1a4444667
+    name: Lung S Hung
+- id: or/2024-05-21/circuit-court-district-10-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-10/judiciary
+  office_id: or-circuit-court-district-10/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e8cfbaac-384c-5754-8633-6582d25d5f05
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e8cfbaac-384c-5754-8633-6582d25d5f05
+    name: Thomas B Powers
+- id: or/2024-05-21/circuit-court-district-10-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-10/judiciary
+  office_id: or-circuit-court-district-10/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/50c27c34-8e76-5b1a-927b-40847ce6a82a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/50c27c34-8e76-5b1a-927b-40847ce6a82a
+    name: Jared D Boyd
+- id: or/2024-05-21/circuit-court-district-11-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-11/judiciary
+  office_id: or-circuit-court-district-11/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ba6658fc-be44-525f-8869-bf6ece11cda6
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ba6658fc-be44-525f-8869-bf6ece11cda6
+    name: Raymond D Crutchley
+- id: or/2024-05-21/circuit-court-district-11-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-11/judiciary
+  office_id: or-circuit-court-district-11/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/b11e81c3-601e-5be8-aef8-6e6f1892e6b0
+  result_status: certified
+  winners:
+  - person_id: ocd-person/b11e81c3-601e-5be8-aef8-6e6f1892e6b0
+    name: Beth Bagley
+- id: or/2024-05-21/circuit-court-district-12-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-12/judiciary
+  office_id: or-circuit-court-district-12/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3fc03ff7-136c-5c25-ae1d-9a84077d10a4
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3fc03ff7-136c-5c25-ae1d-9a84077d10a4
+    name: Rafael A Caso
+- id: or/2024-05-21/circuit-court-district-12-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-12/judiciary
+  office_id: or-circuit-court-district-12/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5788e695-1d91-5a69-876c-68f812e10a73
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5788e695-1d91-5a69-876c-68f812e10a73
+    name: Norman R Hill
+- id: or/2024-05-21/circuit-court-district-14-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dd6f4464-0aaf-5e92-8593-ecb02f185531
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dd6f4464-0aaf-5e92-8593-ecb02f185531
+    name: Laurie Norman
+- id: or/2024-05-21/circuit-court-district-14-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/44c84b2f-6990-5695-a6c1-5859e949f8e9
+  result_status: certified
+  winners:
+  - person_id: ocd-person/44c84b2f-6990-5695-a6c1-5859e949f8e9
+    name: Robert S Bain
+- id: or/2024-05-21/circuit-court-district-14-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-14/judiciary
+  office_id: or-circuit-court-district-14/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2416ee43-9ac4-5519-ab55-543e2afd53bb
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2416ee43-9ac4-5519-ab55-543e2afd53bb
+    name: Matthew Galli
+- id: or/2024-05-21/circuit-court-district-15-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-15/judiciary
+  office_id: or-circuit-court-district-15/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/5ba1e5fc-8d21-5213-a238-92c2281b042e
+  result_status: certified
+  winners:
+  - person_id: ocd-person/5ba1e5fc-8d21-5213-a238-92c2281b042e
+    name: Andrew E Combs
+- id: or/2024-05-21/circuit-court-district-15-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-15/judiciary
+  office_id: or-circuit-court-district-15/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/336e6fe1-5406-577a-84c1-6774d2cb86a1
+  result_status: certified
+  winners:
+  - person_id: ocd-person/336e6fe1-5406-577a-84c1-6774d2cb86a1
+    name: Jesse C Margolis
+- id: or/2024-05-21/circuit-court-district-15-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-15/judiciary
+  office_id: or-circuit-court-district-15/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e7b07beb-8b0f-50c5-b2ce-c522ce79e38c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e7b07beb-8b0f-50c5-b2ce-c522ce79e38c
+    name: Brett A Pruess
+- id: or/2024-05-21/circuit-court-district-16-position-5
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-16/judiciary
+  office_id: or-circuit-court-district-16/judge-position-5
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c704f53a-4fe0-5874-b136-39e78589798c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c704f53a-4fe0-5874-b136-39e78589798c
+    name: George Ambrosini
+- id: or/2024-05-21/circuit-court-district-20-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/3485bd6c-bf52-5b6a-a146-74a65b94d48c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/3485bd6c-bf52-5b6a-a146-74a65b94d48c
+    name: Erik M Bucher
+- id: or/2024-05-21/circuit-court-district-20-position-9
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-9
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/dcfcdfaf-53ce-52ee-84de-66f483832ed7
+  result_status: certified
+  winners:
+  - person_id: ocd-person/dcfcdfaf-53ce-52ee-84de-66f483832ed7
+    name: Oscar Garcia
+- id: or/2024-05-21/circuit-court-district-20-position-11
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-11
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/c6864366-59f9-5c00-a8b1-c967c1a64e41
+  result_status: certified
+  winners:
+  - person_id: ocd-person/c6864366-59f9-5c00-a8b1-c967c1a64e41
+    name: Janelle Wipper
+- id: or/2024-05-21/circuit-court-district-20-position-15
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-15
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/2d3a167d-790c-52a5-b8d8-0463d5ef1c03
+  result_status: certified
+  winners:
+  - person_id: ocd-person/2d3a167d-790c-52a5-b8d8-0463d5ef1c03
+    name: Kathleen Proctor
+- id: or/2024-05-21/circuit-court-district-22-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-22/judiciary
+  office_id: or-circuit-court-district-22/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/bf98e485-1bbd-56c8-b57d-0cbfce7ff8bf
+  result_status: certified
+  winners:
+  - person_id: ocd-person/bf98e485-1bbd-56c8-b57d-0cbfce7ff8bf
+    name: Annette C Hillman
+- id: or/2024-05-21/circuit-court-district-22-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-22/judiciary
+  office_id: or-circuit-court-district-22/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/db2bd701-b9a4-53ab-89a5-7381e4aa8c57
+  result_status: certified
+  winners:
+  - person_id: ocd-person/db2bd701-b9a4-53ab-89a5-7381e4aa8c57
+    name: Daina A Vitolins
+- id: or/2024-05-21/circuit-court-district-23-position-1
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-23/judiciary
+  office_id: or-circuit-court-district-23/judge-position-1
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/7e4e27ea-ec6b-5905-9c6c-942796bfbf0a
+  result_status: certified
+  winners:
+  - person_id: ocd-person/7e4e27ea-ec6b-5905-9c6c-942796bfbf0a
+    name: Michael Wynhausen
+- id: or/2024-05-21/circuit-court-district-23-position-3
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-23/judiciary
+  office_id: or-circuit-court-district-23/judge-position-3
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/90762059-fd5e-5132-93d6-b22e86103c89
+  result_status: certified
+  winners:
+  - person_id: ocd-person/90762059-fd5e-5132-93d6-b22e86103c89
+    name: Rachel Kittson
+- id: or/2024-05-21/circuit-court-district-25-position-2
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-25/judiciary
+  office_id: or-circuit-court-district-25/judge-position-2
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/ab067681-9275-5e71-aaa2-096a70ff6c61
+  result_status: certified
+  winners:
+  - person_id: ocd-person/ab067681-9275-5e71-aaa2-096a70ff6c61
+    name: Jennifer K Chapman
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election.'
+  retrieved: '2026-10-23'

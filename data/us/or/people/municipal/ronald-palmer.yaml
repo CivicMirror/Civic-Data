@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/63c6f858-1905-5c54-82e1-008164de79a8
+name: Ronald Palmer
+identifiers: []
+candidacies:
+  - contest_id: gold-hill/2024-11-05/general/mayor
+    election_id: gold-hill/2024-11-05/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:gold-hill/government
+    office_id: or-gold-hill/mayor
+    party: null
+    ballot_name: 'Ronald Palmer'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: https://www.cityofgoldhill.gov/wp-content/uploads/city_council_12_17_24_agenda_packet.pdf
+  note: 'City of Gold Hill, Resolution 24-R-31 accepting the Jackson County certified abstract of the November 5, 2024 general election (December 17, 2024 council packet)'
+  retrieved: '2026-10-25'
+- url: https://www.cityofgoldhill.gov/wp-content/uploads/city_council_091526_meeting_packet_-_amended.pdf
+  note: 'City of Gold Hill, council minutes, August 4, 2026 (attendance) and May 5, 2026'
+  retrieved: '2026-10-25'

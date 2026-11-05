@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/1428eef4-8d60-56eb-8f03-6a16e3babb7a
+name: Jenna R Plank
+identifiers: []
+candidacies:
+- contest_id: or/2022-11-08/circuit-court-district-4-position-37
+  election_id: or/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-4/judiciary
+  office_id: or-circuit-court-district-4/judge-position-37
+  party: Nonpartisan
+  ballot_name: Jenna R Plank
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735454
+  note: 'Oregon Secretary of State, Abstract of Votes, November 8, 2022 General Election: for Judge of the Circuit Court, 4th District, Position 37: Jenna R Plank 198,539; miscellaneous write-ins 3,877.'
+  retrieved: '2026-10-23'

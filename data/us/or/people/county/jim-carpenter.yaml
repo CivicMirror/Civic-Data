@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/76175b1d-12fa-5c74-9293-363364cce002
+name: Jim Carpenter
+identifiers: []
+candidacies:
+- contest_id: grant/2022-05-17/district-attorney
+  election_id: grant/2022-05-17/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:grant/government
+  office_id: or-grant/district-attorney
+  party: Nonpartisan
+  ballot_name: Jim Carpenter
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_county
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735452
+  note: 'Oregon Secretary of State, Abstract of Votes, May 17, 2022 Primary Election: for District Attorney, Grant County: Jim Carpenter 1,785; miscellaneous write-ins 129. District attorneys are elected to four-year terms (ORS 8.610).'
+  retrieved: '2026-10-25'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/grant.aspx
+  note: 'Oregon Blue Book, Grant County page (Secretary of State): county officials list ''Dist. Atty. Jim Carpenter''.'
+  retrieved: '2026-10-25'

@@ -1,0 +1,52 @@
+# Built for issue #170 (Oregon master tracking).
+id: helix/2022-11-08/general
+name: 'Helix 2022 General Election'
+date: '2022-11-08'
+election_type: general
+status: certified
+contests:
+  - id: helix/2022-11-08/general/mayor
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:helix/government
+    office_id: or-helix/mayor
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/e70eda0d-e2ee-518c-ae49-a63325199f4b
+    result_status: certified
+    winners:
+      - person_id: ocd-person/e70eda0d-e2ee-518c-ae49-a63325199f4b
+        name: Kim Herron
+  - id: helix/2022-11-08/general/councilor-position-4
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:helix/government
+    office_id: or-helix/councilor-position-4
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/8b699e34-35e6-54f2-b65f-33d499feee2e
+    result_status: certified
+    winners:
+      - person_id: ocd-person/8b699e34-35e6-54f2-b65f-33d499feee2e
+        name: Monica Curtiss
+  - id: helix/2022-11-08/general/councilor-position-5
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:helix/government
+    office_id: or-helix/councilor-position-5
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/7623d40a-af1a-5619-951b-ff47afe86fa0
+    result_status: certified
+    winners:
+      - person_id: ocd-person/7623d40a-af1a-5619-951b-ff47afe86fa0
+        name: Glen Tipton
+  - id: helix/2022-11-08/general/councilor-position-6
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:helix/government
+    office_id: or-helix/councilor-position-6
+    vote_for: 1
+    candidate_ids:
+      - ocd-person/a79255b2-4078-5233-b798-836bd9e813da
+      - ocd-person/f53ad31a-acfb-55de-b561-059dd1bd936b
+    result_status: certified
+    winners:
+      - person_id: ocd-person/a79255b2-4078-5233-b798-836bd9e813da
+        name: Zach Buckley
+sources:
+- url: https://www.co.umatilla.or.us/fileadmin/user_upload/Elections/Results/General/2022/November/results_11-8_11pm.pdf
+  note: 'Umatilla County Elections, official summary of the November 8, 2022 general election (Helix contests)'
+  retrieved: '2026-10-25'

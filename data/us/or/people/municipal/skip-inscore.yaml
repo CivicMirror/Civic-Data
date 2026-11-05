@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/9ad6a990-57b4-5396-99e0-c3d831ae35b1
+name: Skip Inscore
+identifiers: []
+candidacies:
+  - contest_id: dayville/2024-11-05/general/councilor-position-5
+    election_id: dayville/2024-11-05/general
+    jurisdiction_id: ocd-jurisdiction/country:us/state:or/place:dayville/government
+    office_id: or-dayville/councilor-position-5
+    party: null
+    ballot_name: 'Skip Inscore'
+    status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-25'
+  pipeline: build_or_municipal
+sources:
+- url: https://grantcountyoregon.net/DocumentCenter/View/1891/General-Election-2024-Official-Results
+  note: 'Grant County Clerk, certified abstract of the November 5, 2024 general election (Dayville contests)'
+  retrieved: '2026-10-25'

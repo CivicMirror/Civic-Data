@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/40f0c0e6-e88e-5a6a-8f0b-c1e1a4444667
+name: Lung S Hung
+identifiers: []
+candidacies:
+- contest_id: or/2024-05-21/circuit-court-district-9-position-2
+  election_id: or/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-9/judiciary
+  office_id: or-circuit-court-district-9/judge-position-2
+  party: Nonpartisan
+  ballot_name: Lung S Hung
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election: for Judge of the Circuit Court, 9th District, Position 2: Lung S Hung 3,506; miscellaneous write-ins 33.'
+  retrieved: '2026-10-23'

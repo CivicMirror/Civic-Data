@@ -1,0 +1,23 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/974a506e-8203-5250-9e7b-c7022b19f21e
+name: Margaret Mahony
+identifiers: []
+candidacies:
+- contest_id: malheur/2024-05-21/justice-of-the-peace
+  election_id: malheur/2024-05-21/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:malheur/government
+  office_id: or-malheur/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: Margie Mahony
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://www.malheurco.org/wp-content/uploads/Departments/CountyClerk/Election%20Results/Group-4-5-21-2024-final.pdf
+  note: 'Malheur County, Detail Results -- Group 4, Final Official, May 2024 Primary Election (May 21, 2024), p. 14: Margie Mahony 2,868; John-Paul (JP) Carey 1,176; write-in 13; over votes 3; under votes 396; total ballots 4,456.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/malheur.aspx
+  note: 'Oregon Blue Book, Malheur County page (Secretary of State): county officials list ''Justice of the Peace Margaret (Margie) Mahony (2031)''.'
+  retrieved: '2026-10-23'

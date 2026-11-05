@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/dc99572f-f074-57e6-83b6-84bde0eadc96
+name: Tracy A Prall
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-3-position-2
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-3/judiciary
+  office_id: or-circuit-court-district-3/judge-position-2
+  party: Nonpartisan
+  ballot_name: Tracy A Prall
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 3rd District, Position 2: Tracy A Prall 52,189; miscellaneous write-ins 582.'
+  retrieved: '2026-10-23'

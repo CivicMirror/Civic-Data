@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/9ce6e836-98b8-5dec-ab7b-147d3725e85d
+name: Beth L Roberts
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-20-position-12
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-20/judiciary
+  office_id: or-circuit-court-district-20/judge-position-12
+  party: Nonpartisan
+  ballot_name: Beth L Roberts
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 20th District, Position 12: Beth L Roberts 104,135; miscellaneous write-ins 1,340.'
+  retrieved: '2026-10-23'

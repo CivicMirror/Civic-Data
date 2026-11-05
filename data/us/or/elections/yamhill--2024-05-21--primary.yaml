@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: yamhill/2024-05-21/primary
+name: Yamhill County 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: yamhill/2024-05-21/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:yamhill/government
+  office_id: or-yamhill/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/d750eed4-c274-5794-af1c-d0e6f216bd9c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/d750eed4-c274-5794-af1c-d0e6f216bd9c
+    name: Kate Lynch
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election.'
+  retrieved: '2026-10-25'

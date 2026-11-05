@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/4c378771-0c31-5bc3-877c-e7f215ead210
+name: Timothy Barnack
+identifiers: []
+candidacies:
+- contest_id: or/2020-05-19/circuit-court-district-1-position-6
+  election_id: or/2020-05-19/primary
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judicial_district:circuit-district-1/judiciary
+  office_id: or-circuit-court-district-1/judge-position-6
+  party: Nonpartisan
+  ballot_name: Timothy Barnack
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_circuit
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735448
+  note: 'Oregon Secretary of State, Abstract of Votes, May 19, 2020 Primary Election: for Judge of the Circuit Court, 1st District, Position 6: Timothy Barnack 43,516; miscellaneous write-ins 341.'
+  retrieved: '2026-10-23'

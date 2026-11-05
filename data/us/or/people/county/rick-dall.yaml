@@ -1,0 +1,26 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/72edf246-3fe8-54c7-838f-05b623166b75
+name: Rick Dall
+identifiers: []
+candidacies:
+- contest_id: union/2022-11-08/justice-of-the-peace
+  election_id: union/2022-11-08/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:union/government
+  office_id: or-union/justice-of-the-peace
+  party: Nonpartisan
+  ballot_name: Rick Dall
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_jp
+sources:
+- url: https://unioncountyor.gov/wp-content/uploads/2023/09/2022-11_Final-Precinct.pdf
+  note: 'Union County, Precinct Results Report -- November 2022 General Election (Final): Rick Dall 7,938, sole named candidate; write-in totals 112; undervotes 4,590; total votes cast 8,050. Race heading as printed: ''Justice of the Peace COUNTY JUSTICE COURT - Vote For 1''. The county report is precinct-level and prints no contest aggregate; 7,938 is the sum of its 19 precinct rows, re-verified (7,938 + 112 + 4,590 = 12,640, the sum of precinct contest totals). The report does not carry the words ''certified'' or ''official'' in its extracted text.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/union.aspx
+  note: 'Oregon Blue Book, Union County page (Secretary of State): county officials list ''Justice of the Peace J. Logan Joseph (2029)'' -- the appointed successor, not the 2022 winner.'
+  retrieved: '2026-10-23'
+- url: https://sos.oregon.gov/blue-book/Pages/local/counties/union.aspx
+  note: 'Dall resigned the seat at an undocumented date; Governor Kotek appointed J. Logan Joseph effective February 1, 2026. No membership is built for Dall: his start is documented by this election but his departure date is not, and it is held as a research item on issue #170 rather than guessed.'
+  retrieved: '2026-10-23'

@@ -1,0 +1,25 @@
+# Built for issue #170 (Oregon master tracking): District Attorney
+# contest from the certified Secretary of State Abstract of Votes.
+# Oregon nonpartisan races are decided at the primary when a candidate
+# wins a majority; only races without a primary majority reach the
+# general election.
+id: lincoln/2024-05-21/primary
+name: Lincoln County 2024-05-21 primary election
+date: '2024-05-21'
+election_type: primary
+status: official
+contests:
+- id: lincoln/2024-05-21/district-attorney
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/county:lincoln/government
+  office_id: or-lincoln/district-attorney
+  vote_for: 1
+  candidate_ids:
+  - ocd-person/e3b3e450-4a06-5413-82c1-bb0b7086f70c
+  result_status: certified
+  winners:
+  - person_id: ocd-person/e3b3e450-4a06-5413-82c1-bb0b7086f70c
+    name: Jenna Wallace
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735456
+  note: 'Oregon Secretary of State, Abstract of Votes, May 21, 2024 Primary Election.'
+  retrieved: '2026-10-25'

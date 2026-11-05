@@ -1,0 +1,20 @@
+# Built for issue #170 (Oregon master tracking).
+id: ocd-person/741a09d9-d465-5736-9f4f-02239fd9e029
+name: Jacqueline Kamins
+identifiers: []
+candidacies:
+- contest_id: or/2020-11-03/court-of-appeals-position-9
+  election_id: or/2020-11-03/general
+  jurisdiction_id: ocd-jurisdiction/country:us/state:or/judiciary
+  office_id: or-court-of-appeals/judge-position-9
+  party: Nonpartisan
+  ballot_name: Jacqueline S Kamins
+  status: active
+verification:
+  status: machine-extracted
+  reviewed_on: '2026-10-23'
+  pipeline: build_or_appellate
+sources:
+- url: https://records.sos.state.or.us/ORSOSCMSearch/Search/DocumentStream.ashx?uri=13735450
+  note: 'Oregon Secretary of State, Abstract of Votes, November 3, 2020 General Election: for Judge of the Court of Appeals, Position 9: Jacqueline S Kamins 1,354,230; miscellaneous write-ins 33,333.'
+  retrieved: '2026-10-23'
